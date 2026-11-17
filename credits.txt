@@ -1,22 +1,21 @@
-Welcome to Endless Sky!
+欢迎来到 Endless Sky！
 version 0.11.5-alpha
 
-The player's manual and other
-resources are available at:
+玩家手册及其他资料见：
 https://endless-sky.github.io
 
-This game is open source.
-To report bugs, give feedback,
-or contribute to story writing,
-artwork, or programming, visit:
+本游戏是开源软件。
+如需报告错误、提供反馈，
+或参与剧情、美术、编程，
+请访问：
 - https://endless-sky.github.io
-- The game's Steam forums
-- Discord (invite: ZeuASSx)
+- 游戏的 Steam 讨论区
+- Discord（邀请码：ZeuASSx）
 
-Creator and Lead Programmer
+创作者兼首席程序员
   Michael Zahniser
 
-Developers
+开发者
   Amazinite
   Anarchist2
   Benjamin Hauch
@@ -33,7 +32,7 @@ Developers
   W1zrad
   Zitchas
 
-Major Programming
+主要编程
   AdamKauffman
   Amazinite
   Benjamin Hauch
@@ -58,7 +57,7 @@ Major Programming
   TomGoodIdea
   warp-core
 
-Storyline & Faction Authors
+剧情与势力作者
   Amazinite
   Arachi-Lover
   Azure3141
@@ -74,7 +73,7 @@ Storyline & Faction Authors
   TheUnfetteredOne
   Zitchas
 
-Editors & Proofreaders
+编辑与校对
   Arrow2thekn33
   bene-dictator
   Bladewood
@@ -97,7 +96,7 @@ Editors & Proofreaders
   W1zrad
   Zearth Goh aka TheMarksman
 
-Artwork
+美术
   Michael Zahniser (CC-BY-SA-4.0)
   Maximilian Korber (CC-BY-SA-4.0)
   Iaz Poolar (CC-BY-SA-4.0)
@@ -118,18 +117,18 @@ Artwork
   Rising Leaf (CC-BY-SA-4.0)
   Unordered Sigh (CC-BY-SA-3.0)
 
-Photos from Wikimedia Commons
+维基共享资源中的照片
   Berthold Werner (CC-BY-SA-3.0)
   Dmitry A. Mottl (CC-BY-SA-3.0)
   Myrabella (CC-BY-SA-3.0)
   Matthew Field (CC-BY-SA-3.0)
-and other photographers
+其他摄影师
   Chris Pickel (CC-BY-SA-4.0)
   Michael Wilson (CC-BY-SA-4.0)
   @harro.eu (CC-BY-SA-4.0)
   @Iridium Ore (CC-BY-SA-4.0)
   Eric Denni (CC-BY-SA-4.0)
-and from public domain sources
+公有领域来源
   NASA
   US Geological Survey
   Library of Congress
@@ -137,13 +136,13 @@ and from public domain sources
   morguefile.com
   unsplash.com
 
-Sounds from public domain sources
+公有领域音效来源
   freesound.org
 
-For a full list of attributions,
-see the "copyright" file.
+完整署名列表见
+“copyright”文件。
 
-Beta Testers
+测试人员
   Remi Verschelde
   Adam Borowski
   Greg Pettigrew
@@ -153,9 +152,8 @@ Beta Testers
   Mauricio Gomes
   Iaz Poolar
 
-Thank you to all the following
-people on GitHub who have
-contributed to Endless Sky:
+感谢以下所有在 GitHub 上
+为 Endless Sky 做出贡献的人：
   10010101001
   1010todd
   3agleEmpire
@@ -547,8 +545,7 @@ contributed to Endless Sky:
   zlonghofer
   zwparchman
 
-Special thanks to MCOfficer for
-creating, managing, and hosting
-the ESLauncher, nightly, &
-continuous builds that make so
-much of this work possible.
+特别感谢 MCOfficer 创建、管理
+并托管 ESLauncher 以及每夜与
+持续构建，让这一切工作
+成为可能。
