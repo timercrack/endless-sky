@@ -923,7 +923,11 @@ void Ship::Load(const DataNode &node, const ConditionsStore *playerConditions)
 		// If the model name ends with an 's' or 'z', print a warning because the default plural will never be correct.
 		if(pluralModelName.empty())
 		{
-			pluralModelName = displayModelName + 's';
+			// Names ending in a non-ASCII (e.g. CJK) character have no separate plural form.
+			if(static_cast<unsigned char>(displayModelName.back()) >= 0x80)
+				pluralModelName = displayModelName;
+			else
+				pluralModelName = displayModelName + 's';
 			if(displayModelName.back() == 's' || displayModelName.back() == 'z')
 				node.PrintTrace("Explicit plural name definition required, but none is provided. Defaulting to \""
 					+ pluralModelName + "\".");

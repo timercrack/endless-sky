@@ -482,7 +482,11 @@ void Outfit::Load(const DataNode &node, const ConditionsStore *playerConditions)
 	// or it's a pseudo-outfit like submunitions, so the name doesn't matter.
 	if(!displayName.empty() && pluralName.empty())
 	{
-		pluralName = displayName + 's';
+		// Names ending in a non-ASCII (e.g. CJK) character have no separate plural form.
+		if(static_cast<unsigned char>(displayName.back()) >= 0x80)
+			pluralName = displayName;
+		else
+			pluralName = displayName + 's';
 		const char &last = displayName.back();
 		if(!category.empty() && (last == 's' || last == 'x' || last == 'z'
 				|| displayName.ends_with("ch") || displayName.ends_with("sh")))
