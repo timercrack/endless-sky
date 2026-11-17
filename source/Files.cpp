@@ -422,7 +422,7 @@ bool Files::IsValidCharacter(char32_t ch)
 	// Don't allow characters that can't be used in a file name.
 	static const string FORBIDDEN = "/\\?*:|\"<>";
 
-	return FORBIDDEN.find(ch) == FORBIDDEN.npos;
+	return ch >= 0x80 || FORBIDDEN.find(static_cast<char>(ch)) == FORBIDDEN.npos;
 }
 
 

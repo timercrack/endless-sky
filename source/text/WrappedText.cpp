@@ -24,12 +24,29 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 using namespace std;
 
 namespace {
+	// Characters that may be wrapped individually, without surrounding whitespace.
 	bool IsCJK(char32_t c)
 	{
-		return (c >= 0x2E80 && c <= 0x9FFF) ||   // CJK Radicals, Kangxi Radicals, CJK Unified Ideographs
-			   (c >= 0xAC00 && c <= 0xD7A3) ||   // Hangul Syllables
-			   (c >= 0xF900 && c <= 0xFAFF) ||   // CJK Compatibility Ideographs
-			   (c >= 0xFF00 && c <= 0xFFEF);      // Halfwidth and Fullwidth Forms
+		return (c >= 0x2010 && c <= 0x206F) ||   // General Punctuation (CJK quotes, dashes, ellipsis)
+			(c >= 0x2E80 && c <= 0x9FFF) ||   // CJK Radicals, Kangxi Radicals, CJK Unified Ideographs
+			(c >= 0xAC00 && c <= 0xD7A3) ||   // Hangul Syllables
+			(c >= 0xF900 && c <= 0xFAFF) ||   // CJK Compatibility Ideographs
+			(c >= 0xFE30 && c <= 0xFE4F) ||   // CJK Compatibility Forms
+			(c >= 0xFF00 && c <= 0xFFEF);     // Halfwidth and Fullwidth Forms
+	}
+
+	// Punctuation that must not begin a line; it may hang past the wrap width instead.
+	bool IsNoLineStart(char32_t c)
+	{
+		static const u32string NO_START = U"，。、；：？！）］｝〕〉》」』】〙〗〟’”…‥—–·・～％";
+		return NO_START.find(c) != u32string::npos;
+	}
+
+	// Punctuation that must not end a line; it is carried to the next line with what follows it.
+	bool IsNoLineEnd(char32_t c)
+	{
+		static const u32string NO_END = U"（［｛〔〈《「『【〘〖〝‘“";
+		return NO_END.find(c) != u32string::npos;
 	}
 }
 
@@ -236,10 +253,10 @@ void WrappedText::Wrap()
 	if(text.empty() || !font)
 		return;
 
-	// Do this as a finite state machine with UTF-8 support.
+	// Do this as a finite state machine with UTF-8 support. "word" holds the
+	// pen position and, while traversing, the start of the current word.
 	Word word;
 	bool traversingWord = false;
-	bool currentLineHasWords = false;
 
 	// Keep track of how wide the current line is. This is just so we know how
 	// much extra space must be allotted by the alignment code.
@@ -247,36 +264,63 @@ void WrappedText::Wrap()
 	// This is the index in the "words" vector of the first word on this line.
 	size_t lineBegin = 0;
 
+	// Finish the current line. An opening bracket or quote at its end moves
+	// to the new line, so that it stays with the text it introduces.
+	auto newLine = [&]()
+	{
+		bool carry = false;
+		if(words.size() > lineBegin + 1)
+		{
+			const Word &last = words.back();
+			size_t end = last.index;
+			carry = IsNoLineEnd(Utf8::DecodeCodePoint(text, end)) && end == last.index + last.length;
+		}
+		Word carried;
+		if(carry)
+		{
+			carried = words.back();
+			words.pop_back();
+			lineWidth = carried.x;
+		}
+		word.y += lineHeight;
+		word.x = 0;
+		AdjustLine(lineBegin, lineWidth, false);
+		if(carry)
+		{
+			carried.x = 0;
+			carried.y = word.y;
+			words.push_back(carried);
+			word.x = font->Width(text.c_str() + carried.index, carried.length, '\0');
+			lineWidth = word.x;
+		}
+	};
+	// Store a word at the pen position, wrapping first if it would overflow.
+	auto place = [&](size_t index, size_t length, bool canHang)
+	{
+		const int width = font->Width(text.c_str() + index, length, '\0');
+		if(word.x + width > wrapWidth && word.x > 0 && !canHang)
+			newLine();
+		Word placed = word;
+		placed.index = index;
+		placed.length = length;
+		words.push_back(placed);
+		word.x += width;
+		lineWidth = word.x;
+	};
+
 	size_t pos = 0;
 	while(pos < text.length())
 	{
 		size_t charStart = pos;
 		char32_t c = Utf8::DecodeCodePoint(text, pos);
-		bool breakableCJK = IsCJK(c);
+		bool isWhitespace = c <= ' ';
+		bool breakableCJK = !isWhitespace && IsCJK(c);
 
-		// Whitespace signals a word end - mark it and wrap the text if needed.
-		if(c <= ' ' && traversingWord)
+		// Whitespace or a CJK character ends the current word.
+		if(traversingWord && (isWhitespace || breakableCJK))
 		{
 			traversingWord = false;
-			// Break the string at this point, and measure the word's width.
-			text[charStart] = '\0';
-			word.length = charStart - word.index;
-			const int width = font->Width(text.c_str() + word.index, word.length, '\0');
-			if(word.x + width > wrapWidth)
-			{
-				// If adding this word would overflow the length of the line,
-				// this word will be the first on the next line.
-				word.y += lineHeight;
-				word.x = 0;
-
-				// Adjust the spacing of words in the now-complete line.
-				AdjustLine(lineBegin, lineWidth, false);
-			}
-			// Store this word, then advance the x position to the end of it.
-			words.push_back(word);
-			word.x += width;
-			// Keep track of how wide this line is now that this word is added.
-			lineWidth = word.x;
+			place(word.index, charStart - word.index, false);
 		}
 
 		// If that whitespace was a newline, we must handle that, too.
@@ -288,83 +332,24 @@ void WrappedText::Wrap()
 
 			// Adjust the word spacings on the now-completed line.
 			AdjustLine(lineBegin, lineWidth, true);
-			currentLineHasWords = false;
 		}
 		// Otherwise, whitespace just adds to the x position.
-		else if(c <= ' ')
+		else if(isWhitespace)
 			word.x += Space(c);
-		// CJK characters can break before them.
+		// Each CJK character is a word of its own; closing punctuation never starts a line.
 		else if(breakableCJK)
-		{
-			// If we're in a word, end it at this CJK character.
-			if(traversingWord)
-			{
-				traversingWord = false;
-				text[charStart] = '\0';
-				word.length = charStart - word.index;
-				const int width = font->Width(text.c_str() + word.index, word.length, '\0');
-				if(word.x + width > wrapWidth)
-				{
-					word.y += lineHeight;
-					word.x = 0;
-					AdjustLine(lineBegin, lineWidth, false);
-				}
-				words.push_back(word);
-				word.x += width;
-				lineWidth = word.x;
-			}
-
-			// Measure the CJK character itself.
-			size_t cjkStart = charStart;
-			const int cjkWidth = font->Width(text.c_str() + cjkStart, pos - cjkStart, '\0');
-			if(word.x + cjkWidth > wrapWidth && word.x > 0)
-			{
-				word.y += lineHeight;
-				word.x = 0;
-				AdjustLine(lineBegin, lineWidth, false);
-			}
-
-			// Store the CJK character as its own word.
-			Word cjkWord;
-			cjkWord.index = cjkStart;
-			cjkWord.length = pos - cjkStart;
-			cjkWord.x = word.x;
-			cjkWord.y = word.y;
-			words.push_back(cjkWord);
-			word.x += cjkWidth;
-			lineWidth = word.x;
-			currentLineHasWords = true;
-		}
+			place(charStart, pos - charStart, IsNoLineStart(c));
 		// If we've reached the start of a new word, remember where it begins.
 		else if(!traversingWord)
 		{
 			traversingWord = true;
-			currentLineHasWords = true;
 			word.index = charStart;
 		}
 	}
 
 	// Handle the final word.
 	if(traversingWord)
-	{
-		word.length = text.length() - word.index;
-		const int width = font->Width(text.c_str() + word.index, word.length, '\0');
-		if(word.x + width > wrapWidth)
-		{
-			// If adding this word would overflow the length of the line,
-			// this final word will be the first (and only) on the next line.
-			word.y += lineHeight;
-			word.x = 0;
-
-			// Adjust the spacing of words in the now-complete line.
-			AdjustLine(lineBegin, lineWidth, false);
-		}
-		// Store this word, then advance the x position to the end of it.
-		words.push_back(word);
-		word.x += width;
-		// Keep track of how wide this line is now that this word is added.
-		lineWidth = word.x;
-	}
+		place(word.index, text.length() - word.index, false);
 
 	// Ensure the very last line is aligned if it hasn't been yet.
 	if(lineBegin < words.size())

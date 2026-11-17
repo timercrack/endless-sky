@@ -43,7 +43,9 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "image/SpriteSet.h"
 #include "shader/SpriteShader.h"
 #include "UI.h"
+#include "text/Utf8.h"
 
+#include <algorithm>
 #include <array>
 #include <iterator>
 #include <ranges>
@@ -265,6 +267,31 @@ void ConversationPanel::UpdateTextDisplay()
 
 
 // Handle key presses.
+bool ConversationPanel::TextInput(const string &str)
+{
+	// Only the name entry fields take text, and plain ASCII keys are handled by KeyDown.
+	if(node < 0 || !choices.empty() || all_of(str.begin(), str.end(), [](char c) { return !(c & 0x80); }))
+		return false;
+
+	string &name = (choice ? lastName : firstName);
+	const string &otherName = (choice ? firstName : lastName);
+	size_t maxSaveLength = Files::MaxFilenameLength(Files::Saves());
+	size_t pos = 0;
+	while(pos < str.size())
+	{
+		size_t start = pos;
+		char32_t c = Utf8::DecodeCodePoint(str, pos);
+		if(c >= ' ' && c != 0xFFFFFFFF && c != '~' && Files::IsValidCharacter(c)
+				&& name.size() + otherName.size() + (pos - start) <= maxSaveLength)
+			name.append(str, start, pos - start);
+		else
+			flickerTime = 18;
+	}
+	return true;
+}
+
+
+
 bool ConversationPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool isNewPress)
 {
 	UI::UISound sound = UI::UISound::NORMAL;
@@ -314,7 +341,7 @@ bool ConversationPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &comm
 				flickerTime = 18;
 		}
 		else if((key == SDLK_DELETE || key == SDLK_BACKSPACE) && !name.empty())
-			name.erase(name.size() - 1);
+			name.erase(Utf8::CodePointStart(name, name.size() - 1));
 		else if(key == '\t' || ((key == SDLK_RETURN || key == SDLK_KP_ENTER) && otherName.empty()))
 			choice = !choice;
 		else if((key == SDLK_RETURN || key == SDLK_KP_ENTER) && (firstName.empty() || lastName.empty()))

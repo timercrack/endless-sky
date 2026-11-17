@@ -132,7 +132,7 @@ public:
 		bool allowsFastForward = false);
 	template<class T>
 	static DialogPanel *RequestStringWithCharFilter(T *t, void (T::*fun)(const std::string &),
-		std::function<bool(const std::string &, char)> filter,
+		std::function<bool(const std::string &, char32_t)> filter,
 		std::string message,
 		std::string initialValue = "",
 		Truncate truncate = Truncate::NONE,
@@ -197,7 +197,7 @@ protected:
 		std::function<bool(int)> validateIntFun;
 		std::function<bool(double)> validateDoubleFun;
 		std::function<bool(const std::string &)> validateStringFun;
-		std::function<bool(const std::string &, char)> filterCharFun;
+		std::function<bool(const std::string &, char32_t)> filterCharFun;
 
 		bool canCancel = true;
 		int activeButton = 1;
@@ -220,6 +220,8 @@ protected:
 	// The user can click "ok" or "cancel", or use the tab key to toggle which
 	// button is highlighted and the enter key to select it.
 	virtual bool KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool isNewPress) override;
+	// Accept composed (IME) text; plain ASCII keys are handled by KeyDown.
+	virtual bool TextInput(const std::string &str) override;
 	virtual bool Click(int x, int y, MouseButton button, int clicks) override;
 
 
@@ -249,7 +251,7 @@ protected:
 	std::function<bool(double)> validateDoubleFun;
 	std::function<bool(const std::string &)> validateStringFun;
 
-	std::function<bool(const std::string &, char)> filterCharFun;
+	std::function<bool(const std::string &, char32_t)> filterCharFun;
 
 	bool canCancel;
 	int activeButton;
@@ -384,7 +386,7 @@ DialogPanel *DialogPanel::RequestStringWithValidation(T *t, void (T::*fun)(const
 
 template<class T>
 DialogPanel *DialogPanel::RequestStringWithCharFilter(T *t, void (T::*fun)(const std::string &),
-	std::function<bool(const std::string &, char)> filter, std::string message, std::string initialValue,
+	std::function<bool(const std::string &, char32_t)> filter, std::string message, std::string initialValue,
 	Truncate truncate, bool allowsFastForward)
 {
 	DialogInit init;

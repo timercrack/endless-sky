@@ -22,16 +22,32 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "GameData.h"
 #include "Rectangle.h"
 #include "Screen.h"
+#include "text/Utf8.h"
 #include "UI.h"
 
 #include "SDL.h"
 
 #include <cassert>
+#include <functional>
 
 using namespace std;
 
 namespace {
 	constexpr size_t INVALID_POS = -1;
+
+	// Find the caret position (a code point boundary) closest to the left of x.
+	size_t CaretPosAt(const string &s, double x, const function<double(size_t)> &offsetX)
+	{
+		size_t pos = 0;
+		while(pos < s.size())
+		{
+			size_t next = Utf8::NextCodePoint(s, pos);
+			if(offsetX(next) > x)
+				break;
+			pos = next;
+		}
+		return pos;
+	}
 }
 
 
@@ -202,11 +218,11 @@ bool Edit::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool isN
 		break;
 	case SDLK_LEFT:
 		if(caretPos > 0)
-			MoveCaret(caretPos - 1);
+			MoveCaret(Utf8::CodePointStart(Text(), caretPos - 1));
 		break;
 	case SDLK_RIGHT:
 		if(caretPos < Text().size())
-			MoveCaret(caretPos + 1);
+			MoveCaret(Utf8::NextCodePoint(Text(), caretPos));
 		break;
 	case SDLK_BACKSPACE:
 		if(highlightPos != INVALID_POS)
@@ -220,7 +236,8 @@ bool Edit::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool isN
 		}
 		else if(caretPos > 0)
 		{
-			UpdateText(Text().substr(0, caretPos - 1) + Text().substr(caretPos), caretPos - 1);
+			size_t start = Utf8::CodePointStart(Text(), caretPos - 1);
+			UpdateText(Text().substr(0, start) + Text().substr(caretPos), start);
 		}
 		break;
 	case SDLK_DELETE:
@@ -240,7 +257,7 @@ bool Edit::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool isN
 		}
 		else if(caretPos < Text().size())
 		{
-			UpdateText(Text().substr(0, caretPos) + Text().substr(caretPos + 1), caretPos);
+			UpdateText(Text().substr(0, caretPos) + Text().substr(Utf8::NextCodePoint(Text(), caretPos)), caretPos);
 		}
 		break;
 	case SDLK_c:
@@ -329,13 +346,7 @@ bool Edit::Click(int x, int y, MouseButton button, int clicks)
 
 	SetFocus(true);
 
-	const string &s = Text();
-	size_t newPos = 0;
-	for( ; newPos < s.size(); ++newPos)
-	{
-		if(AlignedOffset(newPos + 1).X() > x)
-			break;
-	}
+	size_t newPos = CaretPosAt(Text(), x, [this](size_t offset) { return AlignedOffset(offset).X(); });
 
 	MoveCaret(newPos);
 
@@ -353,13 +364,7 @@ bool Edit::Drag(double dx, double dy)
 		dragPos.X() += dx;
 		dragPos.Y() += dy;
 
-		const string &s = Text();
-		size_t newPos = 0;
-		for( ; newPos < s.size(); ++newPos)
-		{
-			if(AlignedOffset(newPos + 1).X() > dragPos.X())
-				break;
-		}
+		size_t newPos = CaretPosAt(Text(), dragPos.X(), [this](size_t offset) { return AlignedOffset(offset).X(); });
 
 		UpdateHighlightRect(newPos, highlightPos);
 

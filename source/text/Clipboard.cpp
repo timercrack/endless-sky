@@ -16,6 +16,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Clipboard.h"
 
 #include "../SDL.h"
+#include "Utf8.h"
 
 using namespace std;
 
@@ -23,9 +24,9 @@ using namespace std;
 
 // Handle keys used for clipboard operations on inputBuffer. Return false if the keys
 // don't have any functionality assigned to them. Optionally, size limit of the input buffer
-// and a set of forbidden characters can be provided.
+// and a filter of allowed characters can be provided.
 bool Clipboard::KeyDown(string &inputBuffer, SDL_Keycode key, Uint16 mod, size_t maxSize,
-	const std::function<bool(char32_t)> &forbidden)
+	const std::function<bool(char32_t)> &allowed)
 {
 	if(!(mod & KMOD_CTRL))
 		return false;
@@ -37,8 +38,8 @@ bool Clipboard::KeyDown(string &inputBuffer, SDL_Keycode key, Uint16 mod, size_t
 		Set(inputBuffer);
 		inputBuffer.clear();
 	}
-	else if(key == 'v')
-		inputBuffer += Get(maxSize - inputBuffer.size(), forbidden);
+	else if(key == 'v' && inputBuffer.size() < maxSize)
+		inputBuffer += Get(maxSize - inputBuffer.size(), allowed);
 	else
 		return false;
 
@@ -56,17 +57,27 @@ void Clipboard::Set(const string &text)
 
 
 // Get the current clipboard contents, excluding characters we don't want.
-string Clipboard::Get(size_t maxSize, const function<bool(char32_t)> &forbidden)
+// maxSize is in bytes; a multi-byte character is never split.
+string Clipboard::Get(size_t maxSize, const function<bool(char32_t)> &allowed)
 {
 	if(!SDL_HasClipboardText())
 		return {};
 
-	string clipboardString;
 	char *clipboardBuffer = SDL_GetClipboardText();
-	size_t i = 0;
-	for(char *c = clipboardBuffer; *c && i < maxSize; ++c, ++i)
-		if(*c >= ' ' && *c <= '~' && (!forbidden || !forbidden(*c)))
-			clipboardString += *c;
+	const string clipboard = clipboardBuffer;
 	SDL_free(clipboardBuffer);
+
+	string clipboardString;
+	size_t pos = 0;
+	while(pos < clipboard.size())
+	{
+		size_t start = pos;
+		char32_t c = Utf8::DecodeCodePoint(clipboard, pos);
+		if(c < ' ' || c == 0x7F || c == 0xFFFFFFFF || (allowed && !allowed(c)))
+			continue;
+		if(clipboardString.size() + (pos - start) > maxSize)
+			break;
+		clipboardString.append(clipboard, start, pos - start);
+	}
 	return clipboardString;
 }

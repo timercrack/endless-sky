@@ -495,6 +495,8 @@ target_sources(EndlessSkyLib PRIVATE
 	text/Format.h
 	text/GlyphCache.h
 	text/Layout.h
+	text/Localization.cpp
+	text/Localization.h
 	text/Table.cpp
 	text/Table.h
 	text/TextureAtlas.cpp

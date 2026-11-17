@@ -553,7 +553,7 @@ optional<filesystem::path> LoadPanel::SnapshotPathBase() const
 
 
 
-bool LoadPanel::SnapshotNameFilter(const string &input, char ch)
+bool LoadPanel::SnapshotNameFilter(const string &input, char32_t ch)
 {
 	optional<filesystem::path> base = SnapshotPathBase();
 	if(!base.has_value())

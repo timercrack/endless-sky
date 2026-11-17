@@ -19,6 +19,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "DataNode.h"
 #include "Files.h"
 #include "Information.h"
+#include "text/Localization.h"
 #include "Logger.h"
 #include "PlayerInfo.h"
 #include "image/Sprite.h"
@@ -720,6 +721,8 @@ void UniverseObjects::LoadFile(const filesystem::path &path, const PlayerInfo &p
 				substitutions = TextReplacements();
 			substitutions.Load(node, playerConditions);
 		}
+		else if(key == "translation")
+			Localization::Load(node);
 		else if(key == "wormhole" && hasValue)
 		{
 			Wormhole *wormhole = wormholes.Get(node.Token(1));

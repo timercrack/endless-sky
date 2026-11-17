@@ -30,13 +30,16 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Point.h"
 #include "Preferences.h"
 #include "Screen.h"
+#include "SDL.h"
 #include "shift.h"
 #include "image/Sprite.h"
 #include "image/SpriteSet.h"
 #include "shader/SpriteShader.h"
 #include "TextArea.h"
 #include "UI.h"
+#include "text/Utf8.h"
 
+#include <algorithm>
 #include <cmath>
 #include <utility>
 
@@ -353,6 +356,13 @@ DialogPanel::DialogPanel(DialogInit &init)
 	AddChild(text);
 
 	isOkDisabled = !ValidateInput();
+
+	if(stringFun)
+#ifdef ES_USE_SDL3
+		SDL_StartTextInput(SDL_GetKeyboardFocus());
+#else
+		SDL_StartTextInput();
+#endif
 }
 
 
@@ -461,7 +471,7 @@ bool DialogPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, b
 	}
 	else if((key == SDLK_DELETE || key == SDLK_BACKSPACE) && !input.empty())
 	{
-		input.erase(input.length() - 1);
+		input.erase(Utf8::CodePointStart(input, input.length() - 1));
 		isOkDisabled = !ValidateInput();
 	}
 	else if(key == SDLK_TAB)
@@ -523,6 +533,29 @@ bool DialogPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, b
 	else
 		return false;
 
+	return true;
+}
+
+
+
+bool DialogPanel::TextInput(const string &str)
+{
+	if(!stringFun || !AcceptsInput() || all_of(str.begin(), str.end(), [](char c) { return !(c & 0x80); }))
+		return false;
+
+	size_t pos = 0;
+	while(pos < str.size())
+	{
+		size_t start = pos;
+		char32_t c = Utf8::DecodeCodePoint(str, pos);
+		if(c < ' ' || c == 0xFFFFFFFF)
+			continue;
+		if(!filterCharFun || filterCharFun(input, c))
+			input.append(str, start, pos - start);
+		else
+			flickerTime = 18;
+	}
+	isOkDisabled = !ValidateInput();
 	return true;
 }
 

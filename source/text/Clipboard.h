@@ -31,14 +31,14 @@ class Clipboard {
 public:
 	// Handle keys used for clipboard operations on inputBuffer. Return false if the keys
 	// don't have any functionality assigned to them. Optionally, size limit of the input buffer
-	// and a set of forbidden characters can be provided.
+	// and a filter of allowed characters can be provided.
 	static bool KeyDown(std::string &inputBuffer, SDL_Keycode key, Uint16 mod, size_t maxSize = -1,
-		const std::function<bool(char32_t)> &forbidden = nullptr);
+		const std::function<bool(char32_t)> &allowed = nullptr);
 
 
 private:
 	// Replace the current contents with the provided string.
 	static void Set(const std::string &inputBuffer);
 	// Get the current clipboard contents, excluding characters we don't want.
-	static std::string Get(size_t maxSize, const std::function<bool(char32_t)> &forbidden);
+	static std::string Get(size_t maxSize, const std::function<bool(char32_t)> &allowed);
 };

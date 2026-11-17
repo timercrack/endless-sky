@@ -19,6 +19,8 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "../Color.h"
 #include "DisplayText.h"
 #include "../GameData.h"
+#include "Localization.h"
+#include "../Logger.h"
 #include "../Point.h"
 #include "../Preferences.h"
 #include "../Screen.h"
@@ -38,6 +40,15 @@ namespace {
 	const float UNDERLINE_OFFSET = 2.f;
 
 	FT_Library ftLibrary = nullptr;
+
+	string HexCodePoint(char32_t codepoint)
+	{
+		static const char DIGITS[] = "0123456789ABCDEF";
+		string result;
+		for(int shift = codepoint > 0xFFFF ? 20 : 12; shift >= 0; shift -= 4)
+			result += DIGITS[(codepoint >> shift) & 0xF];
+		return result;
+	}
 
 	void InitFreeType()
 	{
@@ -99,6 +110,11 @@ void Font::Load(const vector<filesystem::path> &fontPaths, int size)
 const GlyphCache &Font::GetGlyph(char32_t codepoint) const
 {
 	static const GlyphCache empty;
+	static const GlyphCache whitespace = []() { GlyphCache glyph; glyph.isWhitespace = true; return glyph; }();
+
+	// Control characters such as tabs are measured and drawn like spaces.
+	if(codepoint < ' ')
+		return whitespace;
 
 	auto it = cache.find(codepoint);
 	if(it != cache.end())
@@ -116,12 +132,13 @@ const GlyphCache &Font::GetGlyph(char32_t codepoint) const
 
 		FT_GlyphSlot slot = face->glyph;
 
+		const float scale = static_cast<float>(renderScale);
 		GlyphCache glyph;
-		glyph.advance = (slot->advance.x >> 6) / renderScale;
-		glyph.bearingX = slot->bitmap_left / renderScale;
-		glyph.bearingY = slot->bitmap_top / renderScale;
-		glyph.width = slot->bitmap.width / renderScale;
-		glyph.height = slot->bitmap.rows / renderScale;
+		glyph.advance = slot->advance.x / 64.f / scale;
+		glyph.bearingX = slot->bitmap_left / scale;
+		glyph.bearingY = slot->bitmap_top / scale;
+		glyph.width = slot->bitmap.width / scale;
+		glyph.height = slot->bitmap.rows / scale;
 		glyph.bitmapW = slot->bitmap.width;
 		glyph.bitmapH = slot->bitmap.rows;
 		glyph.isWhitespace = (slot->bitmap.width == 0 || slot->bitmap.rows == 0);
@@ -142,13 +159,24 @@ const GlyphCache &Font::GetGlyph(char32_t codepoint) const
 				glyph.uvRect[2] = u1;
 				glyph.uvRect[3] = v1;
 			}
+			else
+			{
+				static bool warned = false;
+				if(!warned)
+					Logger::Log("Font glyph atlas is full; further new characters will not be drawn.",
+						Logger::Level::ERROR);
+				warned = true;
+			}
 		}
 
-		cache[codepoint] = glyph;
-		return cache[codepoint];
+		return cache[codepoint] = glyph;
 	}
 
-	return empty;
+	// No face has this character: log it once and draw a replacement instead.
+	if(codepoint == '?')
+		return empty;
+	Logger::Log("No font contains the character U+" + HexCodePoint(codepoint) + ".", Logger::Level::WARNING);
+	return cache[codepoint] = GetGlyph('?');
 }
 
 
@@ -230,11 +258,12 @@ void Font::Draw(const string &str, const Point &point, const Color &color) const
 
 
 
-void Font::DrawAliased(const string &str, double x, double y, const Color &color) const
+void Font::DrawAliased(const string &rawStr, double x, double y, const Color &color) const
 {
 	if(!shader || faces.empty())
 		return;
 
+	const string &str = Localization::Translate(rawStr);
 	glUseProgram(shader->Object());
 	glBindTexture(GL_TEXTURE_2D, atlas->Texture());
 	if(OpenGL::HasVaoSupport())
@@ -385,7 +414,7 @@ void Font::DrawAliased(const string &str, double x, double y, const Color &color
 
 int Font::Width(const string &str, char after) const
 {
-	return WidthRawString(str.c_str(), after);
+	return WidthRawString(Localization::Translate(str).c_str(), after);
 }
 
 
@@ -428,9 +457,10 @@ void Font::ShowUnderlines(bool show) noexcept
 
 
 
-int Font::WidthRawString(const char *str, char after) const noexcept
+// Glyph advances do not depend on the following character, so "after" is unused.
+int Font::WidthRawString(const char *str, char) const noexcept
 {
-	int width = 0;
+	float width = 0.f;
 	size_t pos = 0;
 	string_view sv(str);
 
@@ -450,16 +480,7 @@ int Font::WidthRawString(const char *str, char after) const noexcept
 			width += glyph.advance;
 	}
 
-	// Add advance for the 'after' character if provided.
-	if(after && after != ' ')
-	{
-		char32_t afterC = static_cast<unsigned char>(after);
-		const GlyphCache &afterGlyph = GetGlyph(afterC);
-		if(!afterGlyph.isWhitespace)
-			width += afterGlyph.advance;
-	}
-
-	return width;
+	return static_cast<int>(ceil(width));
 }
 
 
@@ -468,7 +489,7 @@ string Font::TruncateText(const DisplayText &text, int &width) const
 {
 	width = -1;
 	const auto &layout = text.GetLayout();
-	const string &str = text.GetText();
+	const string &str = Localization::Translate(text.GetText());
 	if(layout.width < 0 || (layout.align == Alignment::LEFT && layout.truncate == Truncate::NONE))
 		return str;
 	width = layout.width;
