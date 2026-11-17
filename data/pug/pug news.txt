@@ -57,7 +57,7 @@ news "artist on post-fw Deneb"
 			"创造力"
 			"能量"
 		word
-			"而战！"
+			"！"
 
 news "tourist on post-fw Deneb"
 	location
@@ -111,7 +111,7 @@ news "tourist on post-fw Deneb"
 			"激动人心"
 			"令人着迷"
 		word
-			"而战！"
+			"！"
 
 news "conspiracy theorist on post-fw Deneb"
 	location
@@ -169,7 +169,7 @@ news "conspiracy theorist on post-fw Deneb"
 			"我可以提供你所需的所有证据"
 			"这不过是共和国和自由世界的把戏"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 news "reporter on post-fw Deneb"
 	location
@@ -229,7 +229,7 @@ news "reporter on post-fw Deneb"
 			"三分钟后开始"
 			"一分钟后直播"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 news "merchant on post-fw Deneb"
 	location
@@ -294,7 +294,7 @@ news "merchant on post-fw Deneb"
 			"半天"
 			"九十分钟"
 		word
-			"而战！"
+			"！"
 
 news "worker on pug-occupied planet after fw"
 	location
@@ -348,7 +348,7 @@ news "worker on pug-occupied planet after fw"
 			"在这里"
 			"我们如今遇到的"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 news "pug on pug planets during fw"
 	location

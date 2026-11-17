@@ -940,7 +940,7 @@ phrase "friendly heliarch"
 		"都受到此般召唤"
 		"皆拥有此般本领"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly heliarch"
 	word
@@ -990,7 +990,7 @@ phrase "friendly heliarch"
 		"吾等必当效命"
 		"吾等郑重立誓"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly disabled heliarch"
 	word
@@ -1004,7 +1004,7 @@ phrase "friendly disabled heliarch"
 		"帮助，你必须"
 		"感激不尽，援助将会"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile heliarch phrase 1 (the+our)"
 	word
@@ -1066,8 +1066,8 @@ phrase "hostile heliarch"
 	word
 		"得逞"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile heliarch"
 	word
@@ -1116,7 +1116,7 @@ phrase "hostile heliarch"
 		"执法者"
 		"海军"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile heliarch phrase 2 (the+our)"
 	word
@@ -1173,7 +1173,7 @@ phrase "hostile heliarch"
 		"绝不消亡"
 		"绝不灭绝"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile disabled heliarch"
 	word
@@ -1189,8 +1189,8 @@ phrase "hostile disabled heliarch"
 	phrase
 		"shakespearean insults"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled heliarch"
 	word
@@ -1203,8 +1203,8 @@ phrase "hostile disabled heliarch"
 		"，你就是"
 		"的摆布之下，我不敢相信自己竟处于"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled heliarch"
 	word
@@ -1272,7 +1272,7 @@ phrase "friendly coalition"
 		"去观赏"
 		"去考察"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly coalition"
 	word
@@ -1302,7 +1302,7 @@ phrase "friendly coalition"
 		"我兄弟的飞船正是"
 		"我姐妹的飞船正是"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly coalition"
 	word
@@ -1323,7 +1323,7 @@ phrase "friendly coalition"
 		"my parents worked"
 		"my co-pilot worked"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile coalition"
 	word
@@ -1358,8 +1358,8 @@ phrase "hostile coalition"
 		"恶棍"
 		"暴徒"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled coalition"
 	word
@@ -1417,8 +1417,8 @@ phrase "friendly lunarium"
 		"义不容辞"
 		"矢志奋斗"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly lunarium"
 	word
@@ -1457,8 +1457,8 @@ phrase "friendly lunarium"
 		"奋斗不息"
 		"抗争到底"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly disabled lunarium"
 	word
@@ -1472,7 +1472,7 @@ phrase "friendly disabled lunarium"
 		"提供帮助，你必须"
 		"感激不尽，援助若是"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile lunarium"
 	word
@@ -1498,8 +1498,8 @@ phrase "hostile lunarium"
 	word
 		"你"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		" "
 	word
@@ -1519,8 +1519,8 @@ phrase "hostile lunarium"
 		"我们会"
 		"我们必须"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile lunarium"
 	word
@@ -1581,8 +1581,8 @@ phrase "hostile lunarium"
 		"必须"
 		"必定"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled lunarium"
 	word
@@ -1638,8 +1638,8 @@ phrase "hostile disabled lunarium"
 		"我已"
 		"我们已"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled lunarium"
 	word
@@ -1696,8 +1696,8 @@ phrase "hostile disabled lunarium"
 	word
 		"所在"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 trade
 	commodity "coalition cargo"

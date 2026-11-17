@@ -486,7 +486,7 @@ phrase "friendly civilian"
 		"，就在沃野星！"
 		"，就在韦尔！"
 		"，就在新神州！"
-		"而战！"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -667,7 +667,7 @@ phrase "friendly civilian"
 		"听得我耳朵疼"
 		"让我直犯恶心"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -704,7 +704,7 @@ phrase "friendly civilian"
 		"是当下的神曲"
 		"绝对是目前最好听的歌"
 	word
-		"而战！"
+		"！"
 	word
 		"" 2
 		"你听过了吗？"
@@ -737,8 +737,8 @@ phrase "friendly civilian"
 		"舰长"
 		"朋友"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -827,8 +827,8 @@ phrase "friendly civilian"
 		"是个好差事，前提是你没被海盗干掉"
 		"是个好差事，前提是你要遵纪守法"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -875,8 +875,8 @@ phrase "friendly civilian"
 		"始终保持足够的距离，以便让远程武器先发制人"
 		"把海盗交给军方去对付"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -921,8 +921,8 @@ phrase "friendly civilian"
 		"逃跑，让军方去对付他们"
 		"建立一支强大的舰队，然后靠炸掉他们来赚钱"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "friendly civilian"
@@ -1002,8 +1002,8 @@ phrase "friendly civilian"
 		"威尼斯百叶窗"
 		"游艇"
 	word
-		"愿意砸多少钱。"
-		"愿意砸多少钱。不过我可不是在抱怨。"
+		"。"
+		"。不过我可不是在抱怨。"
 
 phrase "friendly civilian"
 	word
@@ -1160,8 +1160,8 @@ phrase "friendly civilian"
 		"，跟往常一样"
 		"，就在今天下午"
 	word
-		"而战！"
-		"愿意砸多少钱。"
+		"！"
+		"。"
 		"。你真该看看那场比赛！"
 		"。真希望我这边的直播信号能再清晰点。"
 
@@ -1272,7 +1272,7 @@ phrase "friendly civilian"
 		"，他们最好学学怎么在飞船上生活" 17
 		"，但我真希望能直接把他们扔出气闸"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1300,7 +1300,7 @@ phrase "friendly civilian"
 		"新波士顿"
 		"巨蛇星"
 	word
-		"的消息吗？ "
+		"？ "
 	word
 		"你认识去过那里的人"
 		"你想过为什么那里没人居住"
@@ -1330,8 +1330,8 @@ phrase "friendly civilian"
 		"我深信夸格人正把它当成某种前哨站"
 		"夸格人肯定在利用那里来操纵我们的政府"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1430,8 +1430,8 @@ phrase "friendly civilian"
 		"南部边缘星区"
 		"辛迪加星域的边缘地带"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1497,7 +1497,7 @@ phrase "friendly civilian"
 		"登舰俘获海盗"
 		"去人类星空边缘开采小行星"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly civilian"
 	word
@@ -1533,7 +1533,7 @@ phrase "friendly civilian"
 		"不带护盾去打海盗"
 		"去招惹一下当地的民兵团"
 	word
-		"而战！" 10
+		"！" 10
 		"，哈哈！"
 		"！但我打赌你应该没这么傻。"
 		"！我的朋友就试过，我已经好几年没见过他们了！"
@@ -1580,7 +1580,7 @@ phrase "friendly civilian"
 		"西兰花"
 		"偷走夸格人跳跃引擎并游历银河系的舰长"
 	word
-		"」的作品吗？" 6
+		"？" 6
 		"」的作品吗？读起来非常引人入胜。"
 		"」的作品吗？我强烈推荐你去读一读。"
 		"」的作品吗？我只能说，写出它的人绝对是个天才。"
@@ -1736,8 +1736,8 @@ phrase "friendly civilian"
 		"存下钱"
 		"对生活感到满意"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 		
 phrase "friendly civilian"
 	word
@@ -1803,8 +1803,8 @@ phrase "friendly civilian"
 		"给其他商人"
 		"给我的竞争对手"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1856,8 +1856,8 @@ phrase "friendly civilian"
 		"我还挺喜欢他们的新歌"
 		"我那位乘客放的歌倒还算凑合"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1883,8 +1883,8 @@ phrase "friendly civilian"
 	phrase
 		"contraband"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -1973,8 +1973,8 @@ phrase "friendly civilian"
 		"见不得光的运输差事"
 		"运送杀手的差事"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		" "
 	word
@@ -2029,8 +2029,8 @@ phrase "friendly civilian"
 		"，就在地球附近"
 		"，就在火星附近"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		""
 		"你敢信吗？"
@@ -2200,7 +2200,7 @@ phrase "friendly civilian"
 		"那你可能就会走运，刚好有空位能帮上些大人物的忙"
 		"你就能游刃有余地接下任何差事"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"If you always ensure that if you have" "If you always ensure that you have"
 		"If you always ensure that if you keep" "If you always ensure that you keep"
@@ -2234,7 +2234,7 @@ phrase "friendly civilian"
 		"风险高并不意味着一定有高回报"
 		"做个守法公民才是更好的选择"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"enough you know," "enough, you know"
 
@@ -2258,7 +2258,7 @@ phrase "friendly civilian"
 		"如果发现你偷了他们的飞船，就会毫不犹豫地剥夺你的自由"
 		"在处理自家的遗失飞船或装备时，绝对不会手软"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly civilian"
 	word
@@ -2315,7 +2315,7 @@ phrase "friendly civilian"
 		"然后时不时地来回加速推进个二十来米"
 		"试图用一个球把几根木棍从另外几根木棍上打下来"
 	word
-		"而战！" 6
+		"！" 6
 		"。我真搞不懂，伙计！"
 		"。这根本说不通！"
 		"。更别跟我提那些规则了！"
@@ -2388,7 +2388,7 @@ phrase "friendly civilian"
 		"去洪水星乘船游览峡湾"
 		"去某个海盗世界看看，比如绿岩星或者自由星，体验一下无政府主义者的生活方式"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"?." "?"
 
@@ -2633,8 +2633,8 @@ phrase "friendly civilian"
 		"miner advice: ship"
 		"miner advice: other"
 	word
-		"愿意砸多少钱。" 3
-		"而战！"
+		"。" 3
+		"！"
 	replace
 		"turn some" "turn over some"
 		"turn good" "turn over good"
@@ -2836,7 +2836,7 @@ phrase "friendly civilian"
 		"值得一试"
 		"让人平心静气"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"%M" "m"
 		"%H" "h"
@@ -2861,7 +2861,7 @@ phrase "friendly civilian"
 		"矿工"
 		"独立矿工"
 	word
-		"愿意砸多少钱。"
+		"。"
 		"..."
 	word
 		"" 3
@@ -2884,8 +2884,8 @@ phrase "friendly civilian"
 		"矿工"
 		"独立矿工"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		"" 3
 		"只要待在安全的星系里，你照样能不冒生命危险就大赚一笔。"
@@ -2935,7 +2935,7 @@ phrase "friendly civilian"
 		"铀"
 		"钕"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"for in" "in"
 		"gold and gold" "gold"
@@ -3038,8 +3038,8 @@ phrase "friendly civilian"
 		"议会有一个秘密的糖果抽屉"
 		"银河系的另一端存在一个秘密的阿尔法人帝国"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -3103,8 +3103,8 @@ phrase "friendly civilian"
 		"天堂"
 		"仙境"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly civilian"
 	word
@@ -3137,7 +3137,7 @@ phrase "friendly civilian"
 		"因为他们提供育儿补助"
 		"因为那样别人才会尊重我"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3201,7 +3201,7 @@ phrase "friendly navy"
 		"泥壤带"
 		"星渊"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly navy"
 	word
@@ -3238,7 +3238,7 @@ phrase "friendly navy"
 		"，在全银河系首屈一指"
 		"，在全共和国首屈一指"
 	word
-		"而战！"
+		"！"
 		
 phrase "friendly navy"
 	word
@@ -3307,7 +3307,7 @@ phrase "friendly navy"
 		"戕害自由之徒"
 		"民主之敌"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3343,7 +3343,7 @@ phrase "friendly navy"
 		"守护"
 		"富足"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3359,7 +3359,7 @@ phrase "friendly navy"
 		"三个世纪"
 		"三百年"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3377,7 +3377,7 @@ phrase "friendly navy"
 	phrase
 		"navy protection hail"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "navy protection hail"
 	word
@@ -3540,7 +3540,7 @@ phrase "friendly navy"
 		"navy purpose a"
 		"navy purpose b" 4
 	word
-		"的消息吗？ "
+		"？ "
 	word
 		"加入海军吧！"
 		"应征加入海军吧！"
@@ -3562,7 +3562,7 @@ phrase "friendly navy"
 	phrase
 		"navy purpose b"
 	word
-		"愿意砸多少钱。"
+		"。"
 	word
 		"" 5
 		"非常感谢您的配合。"
@@ -3792,7 +3792,7 @@ phrase "friendly navy"
 		"扫描"
 		"检查"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3833,7 +3833,7 @@ phrase "friendly navy"
 		"于共和国星域航行者，均在此列"
 		"降落于共和国行星者，均在此列"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly navy"
 	word
@@ -3847,7 +3847,7 @@ phrase "friendly navy"
 	phrase
 		"navy illegal acts"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "navy illegal acts"
 	word
@@ -3969,7 +3969,7 @@ phrase "friendly free worlds militia 1"
 		"舰船"
 		"星舰"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly free worlds militia 2"
 	word
@@ -4000,8 +4000,8 @@ phrase "friendly free worlds militia 2"
 		"，只要我们一息尚存"
 		"，只要我们还驻守在此"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly militia 1"
 	word
@@ -4031,7 +4031,7 @@ phrase "friendly militia 1"
 		"我们将战斗到最后一艘飞船"
 		"我们绝不投降"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly militia 2"
 	word
@@ -4047,8 +4047,8 @@ phrase "friendly militia 2"
 		"邪恶的终结者"
 		"罪犯的克星"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly militia 3"
 	word
@@ -4098,9 +4098,9 @@ phrase "friendly militia 3"
 		"这种猖獗的海盗行为"
 		"这种猖獗的掠夺行为"
 	word
-		"愿意砸多少钱。"
+		"。"
 		"..."
-		"而战！"
+		"！"
 
 phrase "friendly militia 4"
 	word
@@ -4143,7 +4143,7 @@ phrase "friendly militia 4"
 		"银河系会更加安全"
 		`就会有真正的“星际和平”了`
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly militia 4 variation"
 	word
@@ -4216,7 +4216,7 @@ phrase "friendly syndicate"
 		"货船"
 		"集装箱运输船"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "friendly syndicate"
 	word
@@ -4244,7 +4244,7 @@ phrase "friendly syndicate"
 		"整个银河系的贸易"
 		"整个银河系的文明"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 		
 phrase "friendly syndicate"
@@ -4301,7 +4301,7 @@ phrase "friendly syndicate"
 		"辛迪加造船厂"
 		"辛迪加系统公司"
 	word
-		"而战！"
+		"！"
 		"，品质的保证！"
 		"，可靠性的金标准！"
 		"，性价比的极致！"
@@ -4328,7 +4328,7 @@ phrase "friendly syndicate"
 		"！如果您正在寻找价格实惠的放射性同位素，那您可就来对地方了！"
 		"！今天就申请成为一名辛迪加签约舰长吧！"
 		"！我们非常欢迎您申请加入辛迪加系统团队！"
-		"而战！"
+		"！"
 
 phrase "friendly syndicate"
 	word
@@ -4417,7 +4417,7 @@ phrase "friendly free worlds 2"
 		"繁荣"
 		"解放"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly free worlds 3"
 	word
@@ -4488,8 +4488,8 @@ phrase "friendly free worlds 4"
 		"泥壤带"
 		"南部边缘星区"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly free worlds 5"
 	word
@@ -4513,7 +4513,7 @@ phrase "friendly free worlds 5"
 		"团结"
 		"自由世界"
 	word
-		"而战！"
+		"！"
 
 phrase "free worlds 6 variations"
 	word
@@ -4640,7 +4640,7 @@ phrase "friendly free worlds 6"
 		"就与我们并肩作战"
 		"就在我们身畔战斗"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly free worlds 7"
 	word
@@ -4683,7 +4683,7 @@ phrase "friendly free worlds 7"
 		"你们赢不了我们的"
 		"我们是不可战胜的"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly free worlds 8"
 	word
@@ -4714,7 +4714,7 @@ phrase "friendly free worlds 8"
 		"自由"
 		"团结"
 	word
-		"而战！"
+		"！"
 		"！加入自由世界吧！"
 
 phrase "friendly free worlds 9"
@@ -4747,7 +4747,7 @@ phrase "friendly free worlds 9"
 		"为繁荣而战"
 		"为平等而战"
 	word
-		"而战！"
+		"！"
 
 # Meant to be the same.
 phrase "friendly free worlds 10"
@@ -4789,7 +4789,7 @@ phrase "friendly free worlds 10"
 		"斗争"
 		"代表权"
 	word
-		"而战！"
+		"！"
 		"！加入自由世界！"
 
 # Meant to be the same.
@@ -4829,7 +4829,7 @@ phrase "friendly free worlds 10"
 		"共同的愿景"
 		"法治"
 	word
-		"而战！"
+		"！"
 		"！加入自由世界吧！"
 
 # Militia hails shared with the Free Worlds. These should give all the hails an equal chance of occurring.
@@ -4903,8 +4903,8 @@ phrase "friendly pirate"
 		"这片天际"
 		"整个太空"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "friendly pirate"
 	word
@@ -5012,7 +5012,7 @@ phrase "friendly pirate"
 		"是在我们附近"
 		"是在我附近"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly pirate"
 	word
@@ -5101,8 +5101,8 @@ phrase "friendly pirate"
 		"，我再也不碰那玩意儿了"
 		"，那是我经历过最糟糕的事"
 	word
-		"而战！"
-		"愿意砸多少钱。"
+		"！"
+		"。"
 	replace
 		"?." "?"
 
@@ -5134,7 +5134,7 @@ phrase "friendly pirate"
 		"，靠的是抢劫商船"
 		"，靠的是拿赏金"
 	word
-		"而战！"
+		"！"
 
 phrase "friendly pirate"
 	word
@@ -5158,7 +5158,7 @@ phrase "friendly pirate"
 		"送到了"
 		"正在路上"
 	word
-		"愿意砸多少钱。"
+		"。"
 	word
 		"我都等不及要买点儿了！"
 		"我都等不及要把它们买下来了！"
@@ -5182,7 +5182,7 @@ phrase "friendly pirate"
 		"威胁要枪毙他们"
 		"在跳帮敌舰时拿他们当诱饵"
 	word
-		"愿意砸多少钱。"
+		"。"
 	word
 		"对我来说很管用！"
 		"我保证管用！"
@@ -5258,7 +5258,7 @@ phrase "friendly pirate"
 		"海盗"
 		"无政府主义者"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly pirate"
 	word
@@ -5532,8 +5532,8 @@ phrase "disabled free worlds"
 		"试试我看到的那招"
 		"换掉我的飞船"
 	word
-		"愿意砸多少钱。" 4
-		"而战！" 2
+		"。" 4
+		"！" 2
 		"。别挖苦我了，好吗？"
 		"，就在昨天。"
 
@@ -5558,8 +5558,8 @@ phrase "hostile disabled"
 	phrase
 		"shakespearean insults"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 # Shakespearean insults.
 phrase "hostile disabled"
@@ -5570,8 +5570,8 @@ phrase "hostile disabled"
 	phrase
 		"shakespearean insults"
 	word
-		"而战！"
-		"愿意砸多少钱。"
+		"！"
+		"。"
 	word
 		" "
 	word
@@ -5893,7 +5893,7 @@ phrase "hostile navy"
 		"——这便是共和国的威严"
 		"——这便是共和国海军的威严"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile navy"
 	word
@@ -5936,7 +5936,7 @@ phrase "hostile navy"
 		"共和国议会"
 		"银河共和国"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile navy"
 	word
@@ -5963,7 +5963,7 @@ phrase "hostile navy"
 		"我们共和国的完整"
 		"共和国"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile navy"
 	word
@@ -6022,7 +6022,7 @@ phrase "hostile navy"
 		"消灭你"
 		"阻止你"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile navy"
 	word
@@ -6097,7 +6097,7 @@ phrase "hostile navy"
 		"割据"
 		"无政府主义"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 phrase "friendly deep"
@@ -6151,7 +6151,7 @@ phrase "friendly deep"
 		"敌对行为"
 		"卑劣价值观"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly deep"
 	word
@@ -6211,7 +6211,7 @@ phrase "friendly deep"
 		"星际和平"
 		"自由"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"% %" ", "
 		"%" ""
@@ -6265,7 +6265,7 @@ phrase "friendly deep"
 		"海盗的非法袭击"
 		"无政府主义者的非法袭击"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 phrase "friendly deep"
@@ -6305,7 +6305,7 @@ phrase "friendly deep"
 		"，在我们的整片空域内"
 		"，在整个共同体境内"
 	word
-		"愿意砸多少钱。"
+		"。"
 	replace
 		"% bid" " bids"
 		"% wish" " wishes"
@@ -6321,7 +6321,7 @@ phrase "friendly deep"
 		"几个世纪以来，星渊一直是人类文明的指路明灯"
 		"如果您目击到非法持有受制裁飞船的行为，请联系星渊安保"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile deep"
 	word
@@ -6363,7 +6363,7 @@ phrase "hostile deep"
 		"我们的文明"
 		"人类社会"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile deep"
 	word
@@ -6393,7 +6393,7 @@ phrase "hostile deep"
 		"议会的法令"
 		"星际法"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile deep"
 	word
@@ -6451,7 +6451,7 @@ phrase "hostile deep"
 		"我们的文明"
 		"人类社会"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 phrase "hostile pirate"
@@ -6522,7 +6522,7 @@ phrase "hostile pirate"
 		"人渣"
 		"杂种"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 
@@ -6687,7 +6687,7 @@ phrase "hostile pirate"
 		"摆脱压迫者的自由"
 		"在没有权威的环境下生活"
 	word
-		"而战！"
+		"！"
 	replace
 		"%" ""
 
@@ -6815,7 +6815,7 @@ phrase "hostile pirate"
 		"接管你的飞船"
 		"把你的飞船撞毁在卫星上"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile pirate"
 	word
@@ -6852,7 +6852,7 @@ phrase "hostile pirate"
 		"被装进裹尸袋"
 		"成为我飞船上的下一个击杀标记"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile pirate"
 	word
@@ -6921,7 +6921,7 @@ phrase "hostile pirate"
 		"今天结束之前，那艘飞船就是我的了"
 		"你很快就不再是你那艘飞船的船长了"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile pirate"
 	word
@@ -6977,7 +6977,7 @@ phrase "hostile pirate"
 		"，不然就等着机毁人亡"
 		"，不然就等着被分解成渣"
 	word
-		"而战！"
+		"！"
 
 
 
@@ -7192,8 +7192,8 @@ phrase "hostile bounty hunter"
 		"让你提前退休"
 		"送你进坟墓"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile bounty hunter"
 	word
@@ -7226,7 +7226,7 @@ phrase "hostile bounty hunter"
 		"懦夫"
 		"没用的废物"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile bounty hunter"
 	word
@@ -7262,8 +7262,8 @@ phrase "hostile bounty hunter"
 		"全速突击中"
 		"准备开火"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile syndicate"
 	word
@@ -7336,7 +7336,7 @@ phrase "hostile militia"
 		"砸开你的驾驶舱"
 		"砸烂你的飞船"
 	word
-		"而战！"
+		"！"
 		"，海盗！"
 		"，罪犯！"
 
@@ -7352,7 +7352,7 @@ phrase "hostile militia"
 		"快逃吧，这场仗交给我们来打"
 		"快逃！我们会拖住他们"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile militia"
 	word
@@ -7382,8 +7382,8 @@ phrase "hostile militia"
 	word
 		"的伤害"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile militia"
 	word
@@ -7448,9 +7448,9 @@ phrase "hostile militia"
 		"明珠星"
 		"舞者星"
 	word
-		"愿意砸多少钱。"
+		"。"
 		"..."
-		"而战！"
+		"！"
 
 phrase "hostile free worlds"
 	word
@@ -7471,7 +7471,7 @@ phrase "hostile free worlds"
 		"捍卫"
 		"保护"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile free worlds"
 	word
@@ -7502,7 +7502,7 @@ phrase "hostile free worlds"
 		"泥壤带"
 		"南部边缘星区"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile free worlds"
 	word
@@ -7545,7 +7545,7 @@ phrase "hostile free worlds"
 		"你们无法击败我们"
 		"我们是不可战胜的"
 	word
-		"而战！"
+		"！"
 
 phrase "hostile free worlds"
 	word
@@ -7578,8 +7578,8 @@ phrase "hostile free worlds"
 	word
 		"的侵害"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile free worlds"
 	word
@@ -7606,7 +7606,7 @@ phrase "hostile free worlds"
 		"解放"
 		"团结"
 	word
-		"而战！"
+		"！"
 
 
 # Hails from the robotic Syndicate test dummy ships

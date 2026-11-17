@@ -156,7 +156,7 @@ phrase "assist merchant 3"
 
 phrase "assist merchant 4"
 	word
-		`愿意砸多少钱。` 5
+		`。` 5
 		` ，以示感谢。`
 		` ，以示谢意。`
 		` ，以表达他们的感激之情。`

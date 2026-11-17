@@ -293,7 +293,7 @@ phrase "incipias common interest"
 		"在远离安全港湾之处"
 		"在我们的航行边界之外"
 	word
-		"的消息吗？ "
+		"？ "
 	word
 		"你为之惊叹了吗？"
 		"那令人恐惧吗？"
@@ -355,7 +355,7 @@ phrase "incipias friendly disabled"
 		"unable to fly"
 		"濒临毫无用处的境地"
 	word
-		"愿意砸多少钱。"
+		"。"
 	word
 		" 能否请你 "
 	word

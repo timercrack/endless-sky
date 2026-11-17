@@ -109,7 +109,7 @@ phrase "exile humanika: If you board us, we will win."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "exile humanika: insults"
 	phrase
@@ -170,8 +170,8 @@ phrase "exile mixed: bragging about tech"
 		"exile: [system] is snazzy" 7
 		"exile: [system] is better than yours" 4
 	word
-		"愿意砸多少钱。" 3
-		"而战！"
+		"。" 3
+		"！"
 
 phrase "exile mixed: request for mercy"
 	phrase
@@ -345,7 +345,7 @@ phrase "exile humanika: Your ship sucks."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "exile humanika: We are better than you."
 	phrase
@@ -359,7 +359,7 @@ phrase "exile humanika: We are better than you."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "exile humanika: Your ship or its contents or attributes"
 	word
@@ -988,8 +988,8 @@ phrase "exile: I do bad things to my enemies"
 	phrase
 		"exile: people who offend, attack, or oppress me"
 	word
-		"愿意砸多少钱。" 2
-		"而战！"
+		"。" 2
+		"！"
 
 phrase "efreti: I do bad things to my enemies"
 	phrase
@@ -999,8 +999,8 @@ phrase "efreti: I do bad things to my enemies"
 	phrase
 		"efreti: people who offend, attack, or oppress me"
 	word
-		"愿意砸多少钱。" 2
-		"而战！"
+		"。" 2
+		"！"
 
 phrase "exile: I perform harmful acts upon"
 	word
@@ -1168,7 +1168,7 @@ phrase "exile: I like to do things"
 		"exile: listen to (Band)"
 		"exile: eat good food"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "efreti: I like to do things"
 	phrase
@@ -1179,7 +1179,7 @@ phrase "efreti: I like to do things"
 		"efreti: listen to (Band)"
 		"efreti: eat good food"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "exile: I learned to do things"
 	phrase
@@ -1195,7 +1195,7 @@ phrase "exile: I learned to do things"
 		"exile: artistic or musical skill"
 		"exile: practical skill"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "efreti: I learned to do things"
 	phrase
@@ -1211,7 +1211,7 @@ phrase "efreti: I learned to do things"
 		"efreti: artistic or musical skill"
 		"efreti: practical skill"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "exile: I like to"
 	word

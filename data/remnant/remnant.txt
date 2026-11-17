@@ -387,7 +387,7 @@ phrase "remnant uncontacted"
 		"你的举动"
 		"你的行为"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "remnant uncontacted hostile"
 	word
@@ -402,7 +402,7 @@ phrase "remnant uncontacted hostile"
 		"海盗"
 		"阿尔法"
 	word
-		"而战！"
+		"！"
 
 phrase "remnant uncontacted hostile"
 	word
@@ -417,8 +417,8 @@ phrase "remnant uncontacted hostile"
 		"没看错"
 		"早就料到了"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		"你"
 	word
@@ -426,7 +426,7 @@ phrase "remnant uncontacted hostile"
 		"来意不善"
 		"是个阿尔法"
 	word
-		"而战！"
+		"！"
 
 phrase "remnant uncontacted hostile"
 	word
@@ -467,8 +467,8 @@ phrase "remnant greetings"
 		"同志"
 		"是同胞"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant preparations"
 	word
@@ -510,8 +510,8 @@ phrase "remnant preparations"
 		"高速引擎"
 		"每个遗民都应具备的保命底牌"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant no scan"
 	word
@@ -748,8 +748,8 @@ phrase "remnant inhibitor cannon"
 		"并防止其逃跑"
 		"让它们毫无还手之力"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant thrasher cannon"
 	word
@@ -777,8 +777,8 @@ phrase "remnant thrasher cannon"
 		"它们体积更大，但能造成更高伤害且发热更少"
 		"它们的威力绝对不容小觑"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant emp torpedo bay"
 	word
@@ -806,8 +806,8 @@ phrase "remnant emp torpedo bay"
 		"敌人的护盾"
 		"目标的引擎"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant salvage scanner"
 	word
@@ -823,8 +823,8 @@ phrase "remnant salvage scanner"
 		"这些宝贝扫描速度极快"
 		"它们是打劫搜刮的必备神器"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant alien inquiry"
 	word
@@ -844,7 +844,7 @@ phrase "remnant alien inquiry"
 		"亥族"
 		"位于我们星域极西方向的联盟"
 	word
-		"的消息吗？ "
+		"？ "
 	phrase
 		"remnant friendly (aliens!)"
 		"remnant friendly (aliens?)"
@@ -864,8 +864,8 @@ phrase "remnant friendly (aliens!)"
 		"我还没有见过它们"
 		"不知道长官们是不是早已知道它们了"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant friendly (aliens?)"
 	word
@@ -893,8 +893,8 @@ phrase "remnant friendly cautions"
 		"科拉斯掠夺者"
 		"科拉斯人"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	word
 		" "
 	word
@@ -903,8 +903,8 @@ phrase "remnant friendly cautions"
 		"随时备好武器，以防万一遭遇他们"
 		"我们有能够隐形的飞船，万一你与他们对峙陷入困境可以用得上"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "remnant hostile"
 	word
@@ -935,7 +935,7 @@ phrase "remnant hostile"
 		"你对我们撒了谎"
 		"你辜负了我们的信任"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "remnant hostile"
 	word

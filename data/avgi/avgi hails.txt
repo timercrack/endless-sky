@@ -36,8 +36,8 @@ phrase "friendly disabled avgi"
 	phrase
 		"avgi polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled avgi"
 	phrase
@@ -47,8 +47,8 @@ phrase "hostile disabled avgi"
 	phrase
 		"avgi rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 # Twilight Guard hails
 
@@ -72,8 +72,8 @@ phrase "friendly disabled twilight guard"
 	phrase
 		"avgi polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled twilight guard"
 	phrase
@@ -83,8 +83,8 @@ phrase "hostile disabled twilight guard"
 	phrase
 		"avgi rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 # Dissonance hails
 
@@ -106,8 +106,8 @@ phrase "friendly disabled dissonance"
 	phrase
 		"dissonance polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile disabled dissonance"
 	phrase
@@ -117,8 +117,8 @@ phrase "hostile disabled dissonance"
 	phrase
 		"dissonance rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "avgi polite playername"
@@ -321,8 +321,8 @@ phrase "avgi warm greetings"
 	phrase
 		"avgi polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "avgi cold greetings"
 	phrase
@@ -332,8 +332,8 @@ phrase "avgi cold greetings"
 	phrase
 		"avgi rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "dissonance warm greetings"
 	phrase
@@ -343,8 +343,8 @@ phrase "dissonance warm greetings"
 	phrase
 		"dissonance polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "dissonance cold greetings"
 	phrase
@@ -354,8 +354,8 @@ phrase "dissonance cold greetings"
 	phrase
 		"dissonance rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "twilight guard greeting"
 	phrase
@@ -365,8 +365,8 @@ phrase "twilight guard greeting"
 	phrase
 		"avgi polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "avgi warnings"
@@ -427,8 +427,8 @@ phrase "avgi warnings"
 	phrase
 		"avgi polite playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "dissonance warnings"
@@ -490,7 +490,7 @@ phrase "dissonance warnings"
 		"税负"
 		"战时经济"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "avgi complaints"
 	word
@@ -583,8 +583,8 @@ phrase "avgi complaints"
 		"不愿支持抗战事业"
 		"只操心他们自己"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 		"，令人愤怒！"
 
 
@@ -977,8 +977,8 @@ phrase "twilight guard friendly help"
 		"以让我方能够继续战斗"
 		"以使我方重返战场"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "avgi angry"
@@ -1008,8 +1008,8 @@ phrase "avgi angry"
 		"你和那些异变体一样可恶"
 		"你的罪行不会被遗忘"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	replace
 		"of this." "of this?"
 		"of this!" "of this?"
@@ -1040,8 +1040,8 @@ phrase "dissonance angry"
 	phrase
 		"dissonance rude playername"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "twilight guard angry"
@@ -1096,8 +1096,8 @@ phrase "twilight guard angry"
 		"你会被蒸发成灼热气体"
 		"你会被打碎成基本原子"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "avgi remembrance"
 	word
@@ -1116,4 +1116,4 @@ phrase "avgi remembrance"
 	phrase
 		"avgi places"
 	word
-		"而战！"
+		"！"

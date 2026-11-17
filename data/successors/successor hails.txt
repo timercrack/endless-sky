@@ -72,8 +72,8 @@ phrase "successor friendly hail" # Basic greeting
 		"船长"
 		"来客"
 	word
-		"愿意砸多少钱。" 3
-		"而战！" 3
+		"。" 3
+		"！" 3
 		"，哪怕你有些古怪。"
 
 
@@ -125,8 +125,8 @@ phrase "successor friendly hail" # Regretful
 	word
 		"飞行员"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "successor friendly hail" # Media
@@ -153,8 +153,8 @@ phrase "successor friendly hail" # Media
 		"在漫漫星路中品味此作，堪称完美"
 		"于今日观之，比以往任何时候都更具现实意义"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "successor friendly hail" # Cargo
@@ -205,8 +205,8 @@ phrase "successor friendly hail" # Cargo
 		"，一如我的准则"
 		"且准时"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "successor friendly hail" # Proverbs
@@ -300,8 +300,8 @@ phrase "successor friendly hail" # Compliance
 		"，阐明汝之航线"
 		"，出示汝之文书"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "successor friendly hail" # Careful
@@ -338,8 +338,8 @@ phrase "successor friendly hail" # Careful
 		"，并保持思维敏捷"
 		"，并保持武备精良"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "successor hostile hail"
@@ -422,8 +422,8 @@ phrase "high houses friendly hail"
 		"深入了解我们取得的成功"
 		"对我们取得的成就赞叹不已"
 	word
-		"愿意砸多少钱。" 3
-		"而战！"
+		"。" 3
+		"！"
 
 
 phrase "high houses friendly hail"
@@ -455,7 +455,7 @@ phrase "high houses friendly hail"
 		"船长"
 		"驾驶员"
 	word
-		"而战！"
+		"！"
 	word
 		" / "
 	word
@@ -480,8 +480,8 @@ phrase "high houses friendly hail"
 		"这片星域"
 		"这些世界"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "high houses friendly hail"
@@ -525,8 +525,8 @@ phrase "high houses friendly hail"
 		"尔之家族在此"
 		"尔之家族莅临"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "high houses friendly hail"
@@ -567,8 +567,8 @@ phrase "high houses friendly hail"
 		"守护乃吾等恪守之天职"
 		"吾等绝不姑息残暴之敌"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "high houses friendly hail"
@@ -648,8 +648,8 @@ phrase "high houses friendly hail"
 		"，近距离感受"
 		"，用你自己的双手"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "high houses hostile hail"
@@ -787,8 +787,8 @@ phrase "chydiyi friendly hail"
 		"宛如其间的璀璨星环"
 		"乃是其中的咆哮风暴"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "myurej friendly hail" 6
@@ -828,8 +828,8 @@ phrase "myurej friendly hail"
 		"愿你所求皆获成功"
 		"体味你角色的乐趣"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "myurej friendly hail"
@@ -895,8 +895,8 @@ phrase "sioeora friendly hail"
 		"绝不姑息心怀恶念之徒"
 		"皆是我等乐于调遣之物"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 # High Houses: New Houses
 
@@ -1057,8 +1057,8 @@ phrase "seineq friendly hail"
 		"宣告着成功"
 		"彰显着我等的才干"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 
 phrase "aqrabe friendly hail" 6
@@ -1144,8 +1144,8 @@ phrase "aqrabe friendly hail"
 		"掌控"
 		"威严"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 # People's Houses
 

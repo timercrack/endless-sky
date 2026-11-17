@@ -145,7 +145,7 @@ phrase "kor sestor"
 	phrase
 		"digit"
 	word
-		"愿意砸多少钱。"
+		"。"
 	phrase
 		"digit"
 
@@ -167,7 +167,7 @@ phrase "kor sestor fighter"
 	phrase
 		"digit"
 	word
-		"愿意砸多少钱。"
+		"。"
 	phrase
 		"digit"
 

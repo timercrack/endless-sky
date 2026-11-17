@@ -221,7 +221,7 @@ phrase "ka'het hauling"
 	phrase
 		"digit"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly ka'het"
 	word
@@ -247,7 +247,7 @@ phrase "friendly ka'het"
 		"护盾恢复器：在线且运行中"
 		"远程天线：可用"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly ka'het"
 	word
@@ -370,7 +370,7 @@ phrase "friendly ka'het"
 		"Parii"
 		"Seli"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly ka'het"
 	word
@@ -500,7 +500,7 @@ phrase "hostile ka'het"
 		"recovery"
 		"plundering"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile ka'het"
 	word
@@ -552,7 +552,7 @@ phrase "hostile ka'het"
 		"正在评估必要处置措施"
 		"正在执行必要处置措施"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile ka'het"
 	word
@@ -603,7 +603,7 @@ phrase "hostile disabled ka'het"
 		"Parii"
 		"Seli"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 

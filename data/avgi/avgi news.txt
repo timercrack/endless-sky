@@ -277,7 +277,7 @@ news "avgi missing advisory"
 			"特基斯前哨站"
 			"勒托前哨站"
 		word
-			`愿意砸多少钱。`
+			`。`
 
 news "avgi student happy"
 	to show

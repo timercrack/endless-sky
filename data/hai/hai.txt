@@ -459,8 +459,8 @@ phrase "friendly disabled hai"
 		"我们的飞船瘫痪了，需要维修"
 		"请抽空救援我们"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile hai"
 	word
@@ -693,8 +693,8 @@ phrase "ship bribe rejection hai"
 		"暴君"
 		"好战分子"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 	replace
 		"evil evildoers" "evildoers"
 
@@ -732,8 +732,8 @@ phrase "friendly disabled unfettered"
 		"修好我们的飞船，好让我们能继续战斗"
 		"在敌人消灭我们之前，先消灭他们"
 	word
-		"而战！"
-		"愿意砸多少钱。"
+		"！"
+		"。"
 		
 phrase "hostile unfettered"
 	word
@@ -796,8 +796,8 @@ phrase "hostile disabled unfettered"
 		"你敢登我的舰试试"
 		"让我们面对面做个了断"
 	word
-		"而战！"
-		"愿意砸多少钱。"
+		"！"
+		"。"
 
 phrase "bribe rejection unfettered"
 	word

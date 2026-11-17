@@ -318,7 +318,7 @@ phrase "wanderer untranslated"
 		"a'uk"
 		"echa"
 	word
-		"愿意砸多少钱。" 3
+		"。" 3
 		"'i."
 		"'ai."
 		" eku."
@@ -370,7 +370,7 @@ phrase "friendly wanderer"
 		"生态系统"
 		"生物圈"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly wanderer"
 	word
@@ -407,7 +407,7 @@ phrase "friendly wanderer"
 		"你不造成伤害"
 		"你怀着和平而来"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "friendly wanderer"
 	word
@@ -447,7 +447,7 @@ phrase "friendly wanderer"
 		"毒害的一切"
 		"摧毁的一切"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "friendly wanderer"
 	word
@@ -526,8 +526,8 @@ phrase "friendly disabled wanderer"
 		"，我们恳求你"
 		"" 3
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 
 phrase "hostile wanderer"
 	word
@@ -565,7 +565,7 @@ phrase "hostile wanderer"
 		"天职与使命"
 		"生存方式"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "hostile wanderer"
 	word
@@ -596,7 +596,7 @@ phrase "hostile wanderer"
 		"继续下去"
 		"存留下来"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "hostile wanderer"
 	word
@@ -628,7 +628,7 @@ phrase "hostile wanderer"
 		"且永远不要再回来"
 		"并去领悟[智慧、平衡]"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "hostile disabled wanderer"
 	word
@@ -650,7 +650,7 @@ phrase "hostile disabled wanderer"
 		"终止这场破坏"
 		"阻止这一切"
 	word
-		"愿意砸多少钱。"
+		"。"
 		
 phrase "hostile disabled wanderer"
 	word
@@ -665,8 +665,8 @@ phrase "hostile disabled wanderer"
 		"人类"
 		"凶手"
 	word
-		"愿意砸多少钱。"
-		"而战！"
+		"。"
+		"！"
 		
 phrase "hostile disabled wanderer"
 	word
@@ -694,7 +694,7 @@ phrase "hostile disabled wanderer"
 		"退去"
 		"手下留情"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 event "wanderers: first tech increase"
 	system "Ik'kara'ka"

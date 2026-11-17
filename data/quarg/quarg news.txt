@@ -61,7 +61,7 @@ news "anonymous quarg"
 			"在夸格世界"
 			"在所有夸格世界"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 
@@ -99,7 +99,7 @@ news "linguist on quarg planets in human and hai space"
 			"理解它"
 			"说这种语言"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 	message
@@ -126,7 +126,7 @@ news "linguist on quarg planets in human and hai space"
 			"但我还是发不准他们的音"
 			"但我仍未掌握其逻辑"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 	message
@@ -164,7 +164,7 @@ news "linguist on quarg planets in human and hai space"
 			"词语"
 			"代词"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 
@@ -287,7 +287,7 @@ news "merchant on quarg planets in human and hai space"
 			"在过去"
 			"很久以前"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 
@@ -355,7 +355,7 @@ news "merchant on quarg planets in human space"
 			"几秒钟内"
 			"连一次攻击都没挨到"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 
@@ -422,7 +422,7 @@ news "student on quarg planets"
 			"导师"
 			"学校"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			" "
 		word
@@ -441,7 +441,7 @@ news "student on quarg planets"
 			"看到他们的科技仍让我着迷"
 			"他们建筑的规模令人惊叹"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 

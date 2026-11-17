@@ -100,7 +100,7 @@ phrase "friendly pug"
 		"团结"
 		"暴力的终结"
 	word
-		"愿意砸多少钱。"
+		"。"
 		"在星系之中。"
 		"在整个宇宙之中。"
 		"在所有智慧生命之中。"
@@ -117,7 +117,7 @@ phrase "friendly disabled pug"
 		"抛下我们继续战斗"
 		"不必为我们担忧"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "hostile pug"
 	word
@@ -164,7 +164,7 @@ phrase "hostile pug"
 		"过错"
 		"恶行"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 
 

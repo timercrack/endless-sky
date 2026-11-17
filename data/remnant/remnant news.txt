@@ -130,7 +130,7 @@ news "remnant security advisory"
 		phrase
 			"0-F"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 	message
@@ -152,7 +152,7 @@ news "remnant security advisory"
 		phrase
 			"0-F"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 	message
@@ -194,7 +194,7 @@ news "remnant security advisory"
 			"发射"
 			"战斗"
 		word
-			"愿意砸多少钱。"
+			"。"
 		word
 			`"`
 	message
@@ -277,7 +277,7 @@ news "remnant incomprehensible"
 			"表达什么"
 			"讨论什么"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 
 
@@ -307,7 +307,7 @@ news "remnant cafeteria"
 			"正一边吃大餐一边阅读报告"
 			"正一边吃大餐一边查看全息投影"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 
 
@@ -381,4 +381,4 @@ news "remnant comprehensible"
 			"争论引擎效率"
 			"闲聊关于一位来自余烬废土之外的访客"
 		word
-			"愿意砸多少钱。"
+			"。"

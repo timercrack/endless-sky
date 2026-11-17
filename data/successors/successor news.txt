@@ -109,8 +109,8 @@ news "successor student"
 			"我都不知道自己是怎么保持清醒的"
 			"希望我能知道些更好的学习技巧"
 		word
-			"愿意砸多少钱。"
-			"而战！"
+			"。"
+			"！"
 		word
 			`"`
 
@@ -191,7 +191,7 @@ news "successor merchant"
 		phrase
 			"successor commodities (2-syllable)"
 		word
-			"愿意砸多少钱。"
+			"。"
 
 
 news "high houses propaganda"

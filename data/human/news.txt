@@ -2342,7 +2342,7 @@ phrase "rnas travel advisory [1]"
 	phrase
 		"pirate worlds"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "rnas travel advisory [2]"
 	word
@@ -2372,7 +2372,7 @@ phrase "rnas travel advisory [3]"
 		"对生命与财产构成威胁"
 		"非国家暴力行为体"
 	word
-		"愿意砸多少钱。"
+		"。"
 
 phrase "rnas travel advisory"
 	phrase
