@@ -36,7 +36,7 @@ phrase "quarg"
 	word
 		"lim"
 		"kor"
-		"far"
+		"远方的"
 		"mor"
 		"lup"
 		"plug"
@@ -47,22 +47,22 @@ phrase "quarg"
 # From the "Southern Television broadcast interruption."
 phrase "hostile quarg"
 	word
-		"All your weapons of evil must be destroyed."
-		"You have only a short time to learn to live together in peace."
-		"You must live in peace... or leave the galaxy."
+		"你们所有邪恶的武器都必须销毁。"
+		"你们只有很短的时间学会和平共处。"
+		"你们必须和平相处……否则就离开这个星系。"
 
 conversation "quarg imprisonment"
 	branch "landed"
 		has "flagship landed"
-	`You are immediately hailed by the Quarg in the system after they complete the scan of your ship.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must terminate you."`
-	`	They close communications before you have a chance to respond, and you look to your radar to see their ships are already approaching, weapons readied...`
+	`你刚完成飞船扫描，星系中的夸格便立即呼叫了你。`
+	`	“<first> <last>，你被发现非法持有夸格设备。我们的装置珍贵无比，唯我们所有。虽深感遗憾，但我们不得不将你处决。”`
+	`	你还没来得及回应，他们便中断了通讯。你看向雷达，发现他们的飞船已经逼近，武器就绪……`
 		accept
 	label landed
-	`Your ship loses all power immediately upon touching down on the landing pad. As you walk around to try and find the problem, you pass by your hatch. You find that it is already opened with dozens of Quarg coming in, all clad in elegant full-body armor suits.`
-	`	"<first> <last>, you are found to be in illegal possession of Quarg equipment. Our devices are precious and ours alone. Though it is regrettable, we must seize you."`
-	`	They don't allow you to get as much as a word out before one of the guards has locked your arms behind your back, completely halting your attempts to fight back with surprisingly little effort. You are brought to something akin to a Quarg courtroom, where they lecture you for several hours on how dangerous it is for Quarg apparatuses to be stolen and used so blithely by others. At the end of it all, the jury sentences you to life imprisonment.`
-	`	You spend the rest of your days in the same cell, which although large and comfortable, quickly proves plain and dull. You're kept in very good health and are well-fed, but the Quarg do not allow you to leave the cell and seldom entertain your attempts at striking up a conversation. You get few visitors and can only wonder what life would've been like had you had the chance to live out all these years in freedom, the captain of a starship.`
+	`你的飞船一降落在着陆坪上便失去了所有动力。你四处走动试图找出问题，经过舱门时发现它已经打开，几十名夸格正涌入舱内，全都身着优雅的全覆式装甲服。`
+	`	“<first> <last>，你被发现非法持有夸格设备。我们的装置珍贵无比，唯我们所有。虽深感遗憾，但我们不得不将你拘捕。”`
+	`	你还没来得及说一个字，一名卫兵就反锁了你的双臂，不费吹灰之力便彻底制止了你反抗的意图。你被带到一个类似夸格法庭的地方，他们花了好几个小时训诫你，指出夸格的装置被他人如此轻率地偷窃使用是多么危险。最后，陪审团判处你终身监禁。`
+	`	你在同一间牢房里度过了余生。牢房虽然宽敞舒适，但很快就显得平淡乏味。你的健康状况保持得很好，饮食也不错，但夸格不允许你离开牢房，也很少搭理你试图搭话的努力。来访者寥寥无几，你只能不禁遐想，如果当初有机会在自由中度过这些年，当一位星舰船长，生活该会是怎样一番光景。`
 
 # Human Quarg
 

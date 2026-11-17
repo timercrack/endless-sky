@@ -14,8 +14,8 @@
 # Creatures:
 
 ship "Jje"
-	plural "Jje"
-	noun "creature"
+	plural "杰"
+	noun "生物"
 	"sprite" ship/jje/jje
 		"frame rate" 4
 	swizzle 0
@@ -63,11 +63,11 @@ ship "Jje"
 	engine 0 0
 	"steering engine" 0 0
 	"final explode" "jje boom"
-	description "This is an adolescent form of the Iije, having recently consumed quantities of stellar dust, matter, and energy. They are attracted to light in the dim space of the Umbral Reach, and are occasionally seen flying in groups."
+	description "这是伊杰的一种青少年形态，刚刚吸收了大量的星尘、物质与能量。它们会受到蚀影星野昏暗太空中光线的吸引，偶尔可以看到它们成群飞行。"
 
 ship "Ayym"
-	plural "Ayym"
-	noun "creature"
+	plural "艾伊姆"
+	noun "生物"
 	"sprite" ship/ayym/ayym
 		"frame rate" 8
 	swizzle 0
@@ -151,7 +151,7 @@ ship "Ayym"
 		over
 		angle -53
 	"final explode" "ayym boom"
-	description "This is an adult form of the Iije, having grown enormous from consuming stellar matter over hundreds of thousands of years. They can be seen carrying the smaller Jje around the Umbral Reach, but the exact purpose of this activity is unknown."
+	description "这是伊杰的成年形态，因数十万年来吞噬恒星物质而变得巨大。在蚀影星野中，可以看到它们携带着较小的杰，但这一行为的确切目的尚不为人知。"
 
 # Effects:
 

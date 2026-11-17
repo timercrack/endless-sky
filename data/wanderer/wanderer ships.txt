@@ -46,7 +46,7 @@ ship "Earth Shaper"
 	engine 9 30
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "The Earth Shaper is a robotic drone that the Wanderers use for mining, exploring, surveying, and terraforming."
+	description "塑地者是流浪者用于采矿、探索、勘测和地形改造的无人机器人。"
 
 
 
@@ -85,13 +85,13 @@ ship "Flycatcher"
 	turret 0 4
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. Rather than carrying weapons of its own, a stock Flycatcher just carries an anti-missile turret for defending other ships."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "捕蝇者无人机被流浪者用于保卫他们的星系安全。标准的捕蝇者无人机不携带自身武器，仅装备一个反导弹炮塔来护卫其他飞船。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 
 ship "Summer Leaf"
-	plural "Summer Leaves"
+	plural "夏叶"
 	sprite "ship/summer leaf"
 	thumbnail "thumbnail/summer leaf"
 	"administrative cost" 3
@@ -137,12 +137,12 @@ ship "Summer Leaf"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
-	description "The Summer Leaf is mostly used by the Wanderers as a light transport, but it is also quite effective in combat."
+	description "夏叶主要由流浪者作为轻型运输船使用，但它在战斗中同样相当高效。"
 
 
 
 ship "Autumn Leaf"
-	plural "Autumn Leaves"
+	plural "秋叶"
 	sprite "ship/autumn leaf"
 	thumbnail "thumbnail/autumn leaf"
 	"administrative cost" 4
@@ -189,7 +189,7 @@ ship "Autumn Leaf"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description "The Autumn Leaf is based on the Wanderer Summer Leaf light warship, but slightly larger and better equipped for combat. Unlike Wanderer peacetime ships, it is equipped with a turret mount in addition to the ports for fixed guns."
+	description "秋叶基于流浪者夏叶轻型战舰，但体型稍大且战斗装备更完善。不同于流浪者和平时期的舰船，它除了固定炮位外，还配备了一个炮塔安装座。"
 
 ship "Autumn Leaf" "Autumn Leaf (Heavy)"
 	outfits
@@ -260,7 +260,7 @@ ship "Strong Wind"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Strong Wind was originally designed for science and exploration, but recently the Wanderers have modified the design to allow it to be used as a warship."
+	description "强风最初是为科研和探索而设计的，但最近流浪者对其进行了改装，使其能够作为战舰使用。"
 
 
 
@@ -319,7 +319,7 @@ ship "Heavy Gust"
 	explode "medium explosion" 45
 	explode "large explosion" 22
 	"final explode" "final explosion medium"
-	description "The Heavy Gust is a further modification of the Strong Wind, adjusted even more heavily for combat purposes at the expense of much of its precursor's peacetime utility. With these modifications, the Heavy Gust becomes both faster and deadlier, pushing the original civilian frame to its limits."
+	description "强阵风是强风的进一步改装型号，为了战斗用途进行了更极端的调整，牺牲了其前身的大部分和平时期实用性。经过这些改装，强阵风变得更快、更具杀伤力，将原本的民用框架推向了极限。"
 
 ship "Heavy Gust" "Heavy Gust (Moonbeam)"
 	outfits
@@ -389,7 +389,7 @@ ship "Tempest"
 	explode "medium explosion" 50
 	explode "large explosion" 25
 	"final explode" "final explosion medium" 1
-	description "In response to the Unfettered invasion, the Wanderers have begun digging up ancient warship designs from their archives and putting them back into production. The Tempest is the first purpose-built warship they have manufactured in tens of thousands of years."
+	description "为应对无羁者的入侵，流浪者开始从档案中挖掘古老战舰的设计图并将其重新投入生产。暴风是他们在数万年来制造的首款专用战舰。"
 
 ship "Tempest" "Tempest (Heavy)"
 	outfits
@@ -520,7 +520,7 @@ ship "Derecho"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large" 1
-	description "Like a latent gene waiting to express itself, the knowledge of how to wage war in space has been passed down through hundreds of generations of Wanderers. Based on one of their ancient designs, the Derecho has a mixture of agility and raw firepower that is well-suited to their present, rapidly changing situation."
+	description "就像等待表达的潜在基因一样，关于如何在太空中发动战争的知识已经在流浪者中传承了数百代。基于其古老设计之一，直线风暴兼具灵活性与强大火力，非常适合他们当前快速变化的处境。"
 
 ship "Derecho" "Derecho (Turret)"
 	outfits
@@ -650,7 +650,7 @@ ship "Hurricane"
 	explode "large explosion" 70
 	explode "huge explosion" 30
 	"final explode" "final explosion large" 1
-	description "The Hurricane is not built for speed, elegance, or versatility, but for one simple purpose: to be durable enough to serve as a rearguard, absorbing an enemy's attacks for long enough to allow the fleet it is guarding to escape."
+	description "飓风并非为速度、优雅或多用途而建造，而是为了一个简单的目的：拥有足够的耐久性以充当后卫，吸收敌人的攻击，为它所护卫的舰队争取到足以逃脱的时间。"
 
 ship "Hurricane" "Hurricane (Turret)"
 	outfits
@@ -774,7 +774,7 @@ ship "Cool Breeze"
 	explode "tiny explosion" 30
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description "This is the first ship the Wanderers have built in millennia that is designed to be operated by a single pilot instead of a crew. They are flown mostly by young warriors eager to prove their mettle by winning individual glory in battle."
+	description "这是流浪者在数千年来建造的第一艘由单人而非乘员组驾驶的飞船。驾驶它的多为年轻战士，他们渴望在战斗中赢得个人荣耀来证明自己的勇气。"
 
 ship "Cool Breeze" "Cool Breeze (Sunbeam)"
 	outfits
@@ -841,7 +841,7 @@ ship "Winter Gale"
 	explode "small explosion" 40
 	explode "medium explosion" 30
 	"final explode" "final explosion medium"
-	description "The Winter Gale was designed by the Wanderers as a hardier and better-armed alternative to their existing light patrol ships. The Gale's large number of weapon hardpoints makes it flexible enough to reconfigure for facing a wide variety of enemies."
+	description "冬风是由流浪者设计的一种比现有轻型巡逻舰更坚固、武装更完善的替代型号。该舰拥有大量武器挂载点，使其能够灵活改装以应对多种敌人。"
 
 ship "Winter Gale" "Winter Gale (Heavy)"
 	outfits
@@ -946,7 +946,7 @@ ship "Deep River"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Deep River is a modular freighter, designed to carry cargo in detachable pods."
+	description "深河是一艘模块化货船，设计用于在可拆卸货舱中运输货物。"
 
 ship "Deep River" "Deep River 0"
 	sprite "ship/deep river 0"
@@ -1032,7 +1032,7 @@ ship "Deep River Transport"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This is a Deep River freighter that has been converted into a transport ship for refugees."
+	description "这是一艘被改装为难民运输船的深河货船。"
 
 
 
@@ -1084,4 +1084,4 @@ ship "Riptide"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Riptide is a dedicated transport ship meant to replace the temporary Deep River freighters that were converted into transport ships for refugee evacuation. Although not as durable as the Deep River, the Riptide is far more nimble of a ship while at the same time being able to carry more passengers."
+	description "激流是一艘专用运输舰，旨在替代那些被临时改装用于难民撤离的深河货船。尽管不如深河坚固，但激流的机动性远胜于它，同时还能搭载更多乘客。"

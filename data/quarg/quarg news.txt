@@ -17,51 +17,51 @@ news "anonymous quarg"
 		attributes "human quarg" "hai quarg"
 	name
 		word
-			"Quarg"
+			"夸格"
 	message
 		word
-			`"Are you what is called a 'tourist'?"`
+			`“你就是所谓的‘游客’吗？”`
 	message
 		word
 			`"`
 		word
-			"Are you"
+			"你是"
 		word
 			" "
 		word
-			"a merchant"
-			"a merchant captain"
-			"a traveling merchant"
-			"a captain"
+			"一位商人"
+			"一位商船船长"
+			"一位行商"
+			"一位船长"
 		word
-			"?"
-		word
-			" "
-		word
-			"People"
+			"吗？"
 		word
 			" "
 		word
-			"of peace"
-			"of law"
-			"of trade"
+			"人们"
 		word
 			" "
 		word
-			"are"
+			"热爱和平的"
+			"遵守法律的"
+			"从事贸易的"
 		word
 			" "
 		word
-			"welcome"
-			"appreciated"
+			"是"
 		word
 			" "
 		word
-			"here"
-			"on Quarg worlds"
-			"on all Quarg worlds"
+			"欢迎"
+			"受人感激"
 		word
-			"."
+			" "
+		word
+			"在这里"
+			"在夸格世界"
+			"在所有夸格世界"
+		word
+			"愿意砸多少钱。"
 		word
 			`"`
 
@@ -76,7 +76,7 @@ news "linguist on quarg planets in human and hai space"
 		word
 			`"`
 		word
-			"The Quarg language is so different from ours"
+			"夸格语跟我们的语言大不一样"
 		word
 			" "
 		word
@@ -84,87 +84,87 @@ news "linguist on quarg planets in human and hai space"
 		word
 			" "
 		word
-			"most people"
-			"ordinary people"
+			"大多数人"
+			"普通人"
 		word
 			" "
 		word
-			"could never"
-			"wouldn't be able to"
-			"would never"
+			"永远无法"
+			"无法"
+			"绝不可能"
 		word
 			" "
 		word
-			"learn it"
-			"understand it"
-			"speak it"
+			"学会它"
+			"理解它"
+			"说这种语言"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"I've been studying"
-			"I've studied"
-			"I've been learning"
+			"我一直在研究"
+			"我研究过"
+			"我一直在学习"
 		word
 			" "
 		word
-			"the Quarg language"
+			"夸格语"
 		word
 			" "
 		word
-			"for a decade"
-			"for years"
-			"for the most part of my career"
-			"all my life"
+			"十年了"
+			"多年了"
+			"在我职业生涯的大部分时间里"
+			"一辈子"
 		word
-			", "
+			"里，"
 		word
-			"but I still can't pronounce their words"
-			"but I've yet to grasp the logic behind it"
+			"但我还是发不准他们的音"
+			"但我仍未掌握其逻辑"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"I'm"
+			"我"
 		word
 			" "
 		word
-			"writing"
-			"working on"
+			"正在写"
+			"正在做"
 		word
 			" "
 		word
-			"a study"
-			"an analysis"
+			"一项研究"
+			"一项分析"
 		word
 			" "
 		word
-			"of the Quarg language"
+			"关于夸格语"
 		word
-			", "
+			"里，"
 		word
-			"mainly focusing on the "
+			"主要专注于 "
 		word
-			"pronunciation"
-			"use"
+			"发音"
+			"使用"
 		word
-			" of "
+			" 的 "
 		word
-			"nouns"
-			"verbs"
-			"adjectives"
-			"words"
-			"pronouns"
+			"名词"
+			"动词"
+			"形容词"
+			"词语"
+			"代词"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 
@@ -180,46 +180,46 @@ news "tourist on quarg planets in human and hai space"
 		word
 			`"`
 		word
-			"These Quarg look so strange I shiver every time I see one."
-			"This world has the cleanest public toilets I have ever seen."
+			"这些夸格人看起来真古怪，每次看到他们我都打颤。"
+			"这个世界的公共厕所是我见过最干净的。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"I absolutely love the look of these buildings. I'm going to decorate my "
+			"我太喜欢这些建筑的外观了。我打算把我的 "
 		word
-			"house"
-			"living room"
-			"apartment"
-			"kitchen"
-			"bedroom"
+			"房子"
+			"客厅"
+			"公寓"
+			"厨房"
+			"卧室"
 		word
-			" after them."
+			" 装饰成它们那样。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Have you seen"
+			"你见过"
 		word
 			" "
 		word
-			"one of those"
-			"one of their"
+			"那些"
+			"他们的"
 		word
 			" "
 		word
-			"ringworlds"
+			"环世界"
 		word
-			" from up close"
+			" 近距离观察"
 			""
 		word
-			"? "
+			"吗？ "
 		word
-			"I can't even comprehend their extent."
+			"我简直无法理解它们到底有多大。"
 		word
 			`"`
 
@@ -235,8 +235,8 @@ news "engineer on quarg planets in human space"
 		word
 			`"`
 		word
-			"Quarg technology is so ahead of us we probably couldn't build their ships even if they gave us the plans."
-			"I'm working on a new spaceship for the Tarazed Corporation. Every once in a while I come here to take some inspiration from these magnificent designs."
+			"夸格的科技领先我们太多，恐怕就算他们把设计图纸给我们，我们也造不出他们的飞船。"
+			"我正在为河鼓三公司开发一艘新飞船。偶尔会来这里，从这些宏伟的设计中汲取灵感。"
 		word
 			`"`
 
@@ -246,7 +246,7 @@ news "merchant on quarg planets in human and hai space"
 		attributes "human quarg" "hai quarg"
 	name
 		word
-			"Merchant"
+			"商人"
 			"Captain"
 			"Ship captain"
 			"Merchant captain"
@@ -263,31 +263,31 @@ news "merchant on quarg planets in human and hai space"
 		word
 			`"`
 		word
-			"The Quarg have impressive ships, but I bet my "
+			"夸格拥有令人惊叹的飞船，但我敢打赌我的 "
 		word
-			"Behemoth"
-			"Hauler III"
-			"Bulk Freighter"
-			"Bactrian"
+			"巨兽"
+			"运输者 III"
+			"散装货轮"
+			"双峰驼"
 		word
-			" can carry twice the cargo their ships ever could."
+			" 能装载他们飞船两倍的货物。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"The Quarg are an unwarlike species, but I've heard they fought battles against "
+			"夸格是一个不好战的种族，但我听说他们曾与 "
 		word
-			"an alien race"
-			"some insectoid aliens"
+			"一个外星种族"
+			"一些昆虫型外星人"
 		word
 			" "
 		word
-			"in the past"
-			"a long time ago"
+			"在过去"
+			"很久以前"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 
@@ -297,7 +297,7 @@ news "merchant on quarg planets in human space"
 		attributes "human quarg"
 	name
 		word
-			"Merchant"
+			"商人"
 			"Captain"
 			"Ship captain"
 			"Merchant captain"
@@ -314,48 +314,48 @@ news "merchant on quarg planets in human space"
 		word
 			`"`
 		word
-			"The Quarg go out of their way to keep piracy at bay in these systems. "
+			"夸格在这些星系中不遗余力地遏制海盗活动。 "
 		word
-			"I could fly a fleet of "
+			"我能驾驶一支由 "
 		word
-			"Star Barges"
-			"Shuttles"
-			"Heavy Shuttles"
+			"星型驳船"
+			"穿梭机"
+			"重型穿梭机"
 		word
-			" around here!"
+			" 组成的舰队在这里转悠！"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"The Quarg are "
+			"夸格是 "
 		word
-			"peaceful"
-			"a peaceful race"
-			"not violent"
+			"和平的"
+			"一个和平的种族"
+			"不暴力"
 		word
-			", "
+			"里，"
 		word
-			"but I've seen their weapons at work: they "
+			"但我见过他们的武器开火：它们 "
 		word
-			"took out"
-			"disabled"
-			"destroyed"
-		word
-			" "
-		word
-			"a Leviathan pirate"
-			"a pirate ship"
-			"a marauder ship"
+			"干掉了"
+			"瘫痪了"
+			"摧毁了"
 		word
 			" "
 		word
-			"in a matter of seconds"
-			"in a few seconds"
-			"without taking a single hit"
+			"一艘利维坦级海盗船"
+			"一艘海盗船"
+			"一艘掠夺者船"
 		word
-			"."
+			" "
+		word
+			"几秒之内"
+			"几秒钟内"
+			"连一次攻击都没挨到"
+		word
+			"愿意砸多少钱。"
 		word
 			`"`
 
@@ -370,23 +370,23 @@ news "reporter on quarg planets in human space"
 		word
 			`"`
 		word
-			"Read my new article:"
-			"Read my new article!"
-			"Read this!"
-			"Look at my new article!"
-			"Look at this!"
+			"来看看我的新文章："
+			"快来看我的新文章！"
+			"快看这个！"
+			"看看我的新文章！"
+			"看看这个！"
 		word
 			" '"
 		word
-			"Three"
-			"Five"
-			"Seven"
+			"三"
+			"五"
+			"七"
 		word
 			" "
 		word
-			"Things Tarazed Corporation Stole from the Quarg!"
-			"Things the Quarg helped Tarazed Corporation With!"
-			"Secrets Humanity Learned from the Quarg!"
+			"河鼓三公司从夸格偷走的东西！"
+			"夸格帮助河鼓三公司的事情！"
+			"人类从夸格学到的秘密！"
 		word
 			`"`
 
@@ -396,52 +396,52 @@ news "student on quarg planets"
 		attributes "human quarg"
 	name
 		word
-			"Student"
+			"学员"
 			"Scholar"
 			"University student"
 	message
 		word
 			`"`
 		word
-			"I'm on a"
+			"我在参加"
 		word
 			" "
 		word
-			"study tour"
-			"field trip"
-			"study visit"
+			"学习考察"
+			"实地考察"
+			"参观学习"
 		word
 			" "
 		word
-			"with my"
+			"和我的"
 		word
 			" "
 		word
-			"class"
-			"teacher"
-			"tutor"
-			"school"
+			"班级"
+			"老师"
+			"导师"
+			"学校"
 		word
-			"."
-		word
-			" "
-		word
-			"They taught me all about"
-			"I learned everything about"
+			"愿意砸多少钱。"
 		word
 			" "
 		word
-			"the ringworlds, but"
-			"the Quarg, but"
+			"他们给我讲了关于"
+			"我了解了关于"
 		word
 			" "
 		word
-			"seeing them up close is quite different"
-			"I didn't realize how big they are"
-			"seeing their technology still fascinates me"
-			"the sheer scale of their buildings is astonishing"
+			"环形世界，但"
+			"夸格，但"
 		word
-			"."
+			" "
+		word
+			"亲眼见到它们感觉完全不一样"
+			"没想到它们那么大"
+			"看到他们的科技仍让我着迷"
+			"他们建筑的规模令人惊叹"
+		word
+			"愿意砸多少钱。"
 		word
 			`"`
 
@@ -451,20 +451,20 @@ news "quarg anywhere"
 		not attributes "korath quarg" "gegno quarg"
 	name
 		word
-			"Quarg"
+			"夸格"
 	message
 		word
-			`"Yes, human? Do you have any questions?"`
-			`"Hello, human. Are you enjoying your time on our world? We are glad to receive visitors."`
-			`"I am sorry, but we will not provide you with our technology. It is for the best that humans grow and develop on their own."`
-			`"It troubles me greatly to see how many species still cling to senseless fighting. I can only hope you will all come to see reason."`
-			`"Last year our scientific efforts were quite fruitful, but I am afraid we cannot simply share our discoveries with you."`
-			`"If you ever observe some piece of our technology in the possession of someone else, please report it to us. We cannot allow our equipment to be in the wrong hands."`
-			`"You are welcome to be amongst us here, provided you seek no conflict with anyone on our worlds."`
-			`There's an eerie silence as a particularly large crowd of Quarg walks by you.`
-			`A group of Quarg is enthralled in what seems an engaging discussion, until one more Quarg comes to them. They all turn to it, and after it says something quickly they all get up in unison and move to somewhere else in the hangars.`
-			`An older Quarg is playing with a much younger Quarg, young enough that it's still shorter than yourself. The strange game consists of passing to one another a jar with some slimy, metallic substance inside. Every time the jar is passed, the substance meshes itself into a different shape, sometimes into shapes you know not the meaning of.`
-			`Dozens of Quarg children are being led around by a handful of adults, as if on a school trip. When they notice you, they continue taking glances and talking among themselves. It seems they've never seen a human before.`
+			`“是的，人类？你有什么问题吗？”`
+			`“你好，人类。你在我们的世界里过得愉快吗？我们很高兴有访客来。”`
+			`“抱歉，但我们不会向你们提供我们的技术。人类自行成长和发展才是最好的。”`
+			`“看到那么多物种还在沉迷于无谓的争斗，这让我深感忧虑。我只希望你们都能认清道理。”`
+			`“去年我们的科学研究成果颇丰，但恐怕我们不能简单地与你们分享这些发现。”`
+			`“如果你发现我们某件科技落入他人之手，请向我们报告。我们不能让我们的设备落到不该拥有的人手中。”`
+			`“欢迎你与我们共处，前提是你不在我们的世界里与任何人发生冲突。”`
+			`一大群夸格从你身边走过，带来一阵诡异的寂静。`
+			`一群夸格正全神贯注地进行着一场看似有趣的讨论，直到另一个夸格走来。它们一起转向它，在它快速说了些什么之后，它们齐刷刷站起来，走向机库里的别处。`
+			`一个年长的夸格正和一个年幼的夸格玩耍，后者甚至比你还要矮。这个奇怪的游戏是将一个装有某种黏糊糊金属物质的罐子互相传递。每次罐子被传递，里面的物质就会变成不同的形状，有时变成你无法理解的形状。`
+			`几十个夸格孩童由几名成人带领着走动，像是学校出游。它们注意到你时，不停地回头张望并相互交谈。看来它们从未见过人类。`
 
 news "ringworld quarg"
 	location
@@ -472,7 +472,7 @@ news "ringworld quarg"
 		attributes "ringworld"
 	name
 		word
-			"Quarg"
+			"夸格"
 	message
 		phrase
 			"ringworld quarg phrases" 8
@@ -480,34 +480,34 @@ news "ringworld quarg"
 
 phrase "ringworld quarg phrases"
 	word
-		`You see a shorter, younger Quarg, likely a child in Quarg years, being shown around the ringworld by an adult. It seems like the parent is teaching the child about the ring.`
-		`A Quarg is standing uncomfortably close to the walls, tapping it slowly with both palms. You observe it for a few minutes, until it stops abruptly and goes about its business like the others.`
-		`Usual activity in the ringworld is stopped by a few dozen Quarg in heavily armored suits moving at a quick pace and escorting a large, tube-like container which floats to accompany them. Other Quarg are quick to make way for the group, allowing themselves a great distance from the armored Quarg.`
-		`Some Quarg scientists are dragging along a whole train of linked lab carts, packed fully with utensils, chemicals, components, and reagents. It takes nearly half an hour before you see the last of the carts pass by.`
-		`Hundreds of Quarg are blocking one of the largest, widest corridors in the ring. They're all sitting down on the floor, staring down blankly in complete silence, with a scarce few seldom glancing up to the ceiling only to move their gaze downwards once again. You notice that Quarg who witness the scene stop all conversation and move elsewhere.`
-		`One Quarg walks up to you, and stares down into your eyes. It stays there in silence, just looking at you, before finally blinking once and moving along, disappearing into the ring's hallways.`
-		`A Quarg is overseeing the unloading of dozens of ship-sized cargo containers that have arrived in the ring. It seems to mentally count the cargo as it's moved out in perfectly identical sets. After what must've been thousands of cargo tons, it clicks off one of dozens of small dots on a data pad and begins counting again.`
-		`Two Quarg ships land at the same time a few hangar bays away from one another. They open their hatches, and what must be the ships' entire crews come out. Without a hitch the crew of each ship boards the other's ship and depart.`
-		`The Quarg seem to have set up some form of festival in the ring: endless stands stretch out as far as you can see, all displaying variations of the same orange-like fruit, ranging from impossibly smooth to unbelievably wrinkled, and also from sizes as small as a pea to as large as a watermelon. You can't figure what quality they like best.`
-		`You see one Quarg turn a sharp corner in what's a haste by their standards. When you look into the corridor it went to, you see it's a dead end, with the Quarg having inexplicably vanished.`
+		`你看到一个较矮、较年轻的夸格，按夸格年龄算可能是个孩子，由一个成年夸格带着参观环世界。看起来像是家长在教孩子关于环的知识。`
+		`一个夸格离墙壁站得过近，令人不适，它正用双掌缓慢地敲击墙壁。你观察了几分钟，直到它突然停下，然后像其他夸格一样继续自己的事务。`
+		`环世界内的日常活动被几十个身穿重型护甲的夸格打断了，它们步伐迅速，护送着一个漂浮的巨大的管状容器。其他夸格迅速为这群夸格让路，与装甲夸格保持一大段距离。`
+		`一些夸格科学家正拖着一整列连在一起的实验推车，车上装满了器具、化学品、零件和试剂。你花了将近半小时才看到最后一辆推车经过。`
+		`数百个夸格堵在环内最大最宽的走廊之一。它们全都坐在地板上，面无表情地向下凝视，一片寂静，偶尔有一两个抬头看一眼天花板，然后又垂下目光。你注意到，目睹这一场景的夸格都停止交谈，转向别处。`
+		`一个夸格走到你面前，俯视着你的眼睛。它沉默地站在那里，只是看着你，最后眨了一次眼，然后走开，消失在环的走廊中。`
+		`一个夸格正在监督环内抵达的数十个飞船大小的货柜的卸载。它似乎在心中清点货物，这些货物以完全相同的组别移出。在卸了数千吨货物之后，它在数据板上数十个小点中的一个上轻点了一下，然后重新开始计数。`
+		`两艘夸格飞船同时降落在相隔几个机库的位置。它们打开舱门，出来的人应该就是各船的全体船员。没有丝毫迟疑，每艘船的船员登上另一艘船，然后起飞离开。`
+		`夸格似乎正在环内举办某种节日：望不到尽头的摊位绵延开来，全都展示着同一种类似橙子的水果的变种，有的光滑到不可能，有的皱得难以置信，大小从豌豆到西瓜不等。你搞不清它们最看重哪种品质。`
+		`你看到一个夸格按它们标准算是匆忙地转过一个急弯。当你看向它进去的走廊时，发现那是个死胡同，而那个夸格已经莫名其妙地消失了。`
 
 phrase "quarg poems on species"
 	word
-		"Resolute will / In ancient bone / Climb to claim / A godless throne"
-		"Pulling strings / Stage nonstop strife / Clueless puppets / May yet survive"
-		"Cruel burial / Of dearest sage / Turn all patience / Into rage"
-		"Forbidden flame / Unyielding war / By angels sentenced / Suffer no more"
-		"Matured hearts / By strangers jailed / Coddled by hearth / Pick up the flail"
-		"Sovereign form / By self unmade / Leave nought behind / But mighty blade"
-		"Forlorn folk / Reshape the world / For greatest wonders / Yet to behold"
-		"Of smallest home / None to befriend / From own hounds / Come bitter end"
-		"Reckless newcomer / Hear all advice / Else with own blood / Will pay the price"
-		"Troubled past / Fight olden friends / Stand now with others / To any end"
-		"Bounties brought by / Once desperate few / From weakness, power / To protect the new"
-		"Make strongest neighbor / See through the guise / Let none forget / The curse of the wise"
-		"With skin of stone / Might, meek, guile / Abilities to hone / And wars to pile"
-		"Twice-blessed pilgrims / Myths of the past / Masses preserve / The royal caste"
-		"Adrift by the clouds / Under watchful eyes / Begin now a journey / To the greatest skies"
-		"Behind wuthering waves / Forgotten tales of yore / Whether decadence or wonder / Claim back forevermore"
-		"Ghosts beyond the grave / Machinations of the mind / Wrath of suns lights the path / To home left behind"
-		"Wrenched whispers / Of stars torn / Estranged twins / Our souls unborn"
+		"坚毅意志 / 铭刻古骨 / 奋起踏上 / 无神宝座"
+		"幕后牵丝 / 编演纷争 / 浑噩傀儡 / 尚或苟存"
+		"残酷葬送 / 至亲圣贤 / 漫长忍耐 / 化为狂怒"
+		"禁忌之火 / 不屈之战 / 天使宣判 / 不复受苦"
+		"成熟之心 / 异客囚禁 / 炉火温存 / 挥起连枷"
+		"君临之躯 / 毁于己手 / 余无所存 / 唯余利刃"
+		"孤寂遗民 / 重塑世界 / 至伟奇观 / 尚待示人"
+		"狭小家园 / 无友可结 / 家犬反噬 / 惨淡终局"
+		"鲁莽新客 / 听取忠告 / 否则鲜血 / 付出代价"
+		"多舛往昔 / 反目旧友 / 如今同立 / 直至终局"
+		"恩泽归于 / 昔绝之人 / 化弱为强 / 庇护新生"
+		"强邻看破伪装 / 莫使世人忘却 / 智者之诅"
+		"身如坚石 / 刚勇、谦卑与诡黠 / 淬炼技艺 / 战祸频仍"
+		"双福朝圣 / 昔日神话 / 众庶保全 / 王室阶层"
+		"云端飘摇 / 处于注视之下 / 今启征程 / 走向无垠苍穹"
+		"狂风巨浪背后 / 往昔遗忘传说 / 无论衰颓奇观 / 永恒夺回手中"
+		"坟冢外之幽魂 / 心智之密谋 / 恒星之怒照亮前路 / 归向抛却之故乡"
+		"悲鸣低语 / 恒星撕裂 / 陌路双生 / 吾等未生之魂"

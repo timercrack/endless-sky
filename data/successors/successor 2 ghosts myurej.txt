@@ -29,8 +29,8 @@ mission "Successors: Ghosts Myurej 1"
 		conversation
 			`While walking in the spaceport here, you are pulled aside by a pair of House Myurej military officers. "Come with us," one says, "thou shalt not be harmed, but thou hast a private meeting waiting thou needest attend."`
 			choice
-				`	(Go with them.)`
-				`	(Run away.)`
+				`	（跟他们走。）`
+				`	（逃跑。）`
 					goto run
 			`	The two take you to a dense nest of shops and hotels on a hill overlooking one of the massive spaceport's loading docks; it lies what must be more than a hundred meters below. A web of canals interleaves the regularly-misted streets, and looking inside, you can see groups of Successors swimming in various directions, occasionally emerging onto the terrestrial paths and shaking off water from the hydrophobic fabrics of their clothing. You are led to a small, comfortable-looking hotel overlooking one of these canals, and deposited in a medium-sized oblong room, divided roughly in half by an oily-colored fabric screen. The guards motion for you to sit on a chair on one side of it, and you comply.`
 			`	From the other side of the screen comes a slow voice that your translation device duly rearranges into your language: "Captain <first> <last>, I believe?"`
@@ -108,7 +108,7 @@ mission "Successors: Ghosts Myurej 1"
 			label point
 			`	"Fine. I hear that Riiria's hiding out among the hollow stations 'round our neighbor stars. They're good to hide if thou hast stolen something, brilliant hard to scan a sleeping ship among the broken spires. The northerly one... Vade-Osolaa-Kaska, I recall, 'tis a favorite spot for Riiria and their type. Were I thee, I'd crawl there first." The Successor pauses to look at one of the boxes being unloaded and makes an exasperated noise. "Not that being thee is aught I would prefer, mind."`
 			choice
-				`	"Thank you."`
+				`	“谢谢。”`
 				`	"Finally."`
 			`	Color once again bristles over their skin, but only for a moment. "Now go 'fore the two of us are seen together," they say, and wave you away. You find your way back to your own ship and mark the nearby uninhabited station on your map.`
 
@@ -381,7 +381,7 @@ mission "Successors: Ghosts Myurej 5"
 			`	"Indeed," says Ijaset. "A shame to leave the rest, I know, but if it's stayed a thousand years, it shall bear another one."`
 			`	You all retreat from the vault room; Ijaset first, followed by you and then the soldiers. As their last trailing arm slides over the threshold, the face of the vault reforms as quickly as it had melted, the golden strands retract back to the data-sphere, and the whole room is left as it was before. As you prepare to go back up, however, something sharp pings in your ear.`
 			choice
-				`	"What is that?"`
+				`	“那是什么？”`
 				`	"Did you hear that?"`
 			`	Ijaset looks over at you with a shade of concern on their face. They open their mouth, but nothing understandable comes out - just the same sharply flowing language you heard from the Successors before you acquired the translation device. Then, a second later, there's another sharp feeling and their words are reshaped. "...thine ears? Canst thou... now, I see it. We must leave now, <last>."`
 			`	The vault is shaken by the deep and distant sound of something breaking. Your translation device seems to be mostly back to normal, but something isn't quite right, as if it's trying to reshape some deep environmental noise in the background. It's hard to concentrate. There's another blast of sound, and you follow the three Successors back up the tunnel. It seems even longer now than it did before.`
@@ -475,7 +475,7 @@ mission "Successors: Ghosts Myurej 8"
 			`Once again traffic control directs you to the reserved portion of the <origin> spaceport with the bronze-trimmed landing pads. You are met outside by a somewhat stressed-looking dockworker who brightens up considerably when they see you.`
 			`	"Of course, of course," they say, "we've been waiting for thee! A House transport to <planet> of supplies for the wedding, yes?"`
 			choice
-				`	"Excuse me?"`
+				`	“请问有什么事吗？”`
 				`	"I was supposed to meet someone here, I think."`
 			`	The worker checks their datapad, looking back and forth between it and you before they once again announce with confidence that you are supposed to transport <tons> of wedding supplies to <planet> for the upcoming Myurej wedding.`
 			choice

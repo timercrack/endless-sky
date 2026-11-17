@@ -75,10 +75,10 @@ phrase "korath"
 		"ip"
 		"ork"
 		"frek"
-		"war"
+		"一场战争"
 		"wask"
 		"went"
-		"far"
+		"远方的"
 		"par"
 		"pruk"
 		"urm"
@@ -119,17 +119,17 @@ phrase "korath"
 		"i"
 		"o"
 		"u"
-		"a"
-		"at"
+		"一"
+		"，就在"
 		"ak"
 		"sas"
 		"as"
 		"os"
-		"us"
+		"我们之中"
 		"ap"
-		"or"
+		"或"
 		"ar"
-		"far"
+		"远方的"
 
 phrase "kor sestor"
 	phrase
@@ -145,7 +145,7 @@ phrase "kor sestor"
 	phrase
 		"digit"
 	word
-		"."
+		"愿意砸多少钱。"
 	phrase
 		"digit"
 
@@ -167,7 +167,7 @@ phrase "kor sestor fighter"
 	phrase
 		"digit"
 	word
-		"."
+		"愿意砸多少钱。"
 	phrase
 		"digit"
 

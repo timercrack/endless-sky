@@ -31,7 +31,7 @@ mission "Successors: Entering the Scar"
 		not "Successors: Safe at Last: failed"
 	on offer
 		conversation
-			`Shortly after you enter this system, your ship's sensors begin to register small but progressive damage to the hull and internal systems, despite there being no other ships around. Equally confusing, your jump drive seems to still be partially active.`
+			`在你进入这个星系后不久，飞船传感器开始记录到船体和内部系统遭受微小但持续的损伤，尽管周围并没有其他飞船。同样令人困惑的是，你的跃迁驱动器似乎仍然部分处于激活状态。`
 				decline
 
 mission "Successors: Safe at Last"
@@ -44,13 +44,13 @@ mission "Successors: Safe at Last"
 		not "Successors: First Contact 1: offered"
 	on offer
 		conversation
-			`The system on the other side of the wormhole is the first one in days that your sensors have not responded to with alarms. Apart from the presence of the wormhole, the space here appears entirely normal.`
+			`虫洞另一侧的星系是数天以来你的传感器首次没有发出警报的地方。除了虫洞的存在，这里的空间看起来完全正常。`
 				decline
 
 mission "Successors: First Contact 1"
 	landing
-	name "First Contact with Octopods"
-	description "The aliens in this area of space have indicated that you should travel to a system to the east."
+	name "与章鱼族的首次接触"
+	description "这个太空区域的异星人表示，你应该前往东边的一个星系。"
 	source
 		attributes "successor"
 		not attributes "uninhabited"
@@ -60,37 +60,37 @@ mission "Successors: First Contact 1"
 		has "Successors: Unified Defense: offered"
 	on offer
 		conversation
-			`After trudging through several shrouded and mostly-dead systems, you've finally found a planet with living inhabitants. As you enter the planet's upper atmosphere, your ship is surrounded by a trio of interceptors and thoroughly scanned. Soon after, the lead ship transmits a hail to you in a sharply flowing alien language before proceeding to a spaceport complex floating on a large structure along the coastline. The group corrals you onto one of the few fully-dry landing pads, and as the minutes wear on, a small crowd begins to form around your ship.`
-			`	You carefully open the <ship>'s hatch and step outside to make contact.`
-			`	The predominant species of aliens you see here are enormous octopods that rise up from the ground on their long, suckered arms. On average, they stand about three meters tall even with their arms coiled beneath them. Those standing on dry land are joined by others who slither out of a network of water-filled pools and channels to come and watch you. Their skin glistens with mucous wetness and you can see it changing color and texture as they run their hourglass-shaped pupils over your person and your ship.`
-			`	After a couple of minutes of activity within the crowd, one uniformed and especially vibrant individual breaks away from the rest and begins to move towards you, gliding gently and silently over the ground. They say something in the same strange language, shimmering with waves of color, and then wait expectantly for you to reply.`
+			`在跋涉过数个笼罩在迷雾中、几近死亡的星系后，你终于找到了一颗有生命居住的行星。当你的飞船进入行星高层大气时，三艘拦截机包围了你，进行了彻底扫描。不久，领头的飞船用一种尖锐流畅的外星语言向你发送了呼叫，随后便前往海岸线一座巨大建筑上漂浮着的太空港综合体。这队人将你围堵到为数不多的完全干燥的着陆平台上。随着时间一分一秒过去，一小群围观者开始聚集在你的飞船周围。`
+			`	你小心翼翼地打开 <ship> 的舱门，走到外面去建立接触。`
+			`	你看到的这里占主导地位的外星物种是巨大的章形生物，它们用带有吸盘的长臂从地面支起身子。即使手臂盘在身下，它们平均也有三米高。站在干地上的那些，与从网络般的水池和水道中滑出的其他同类会合，一起来看你。它们的皮肤泛着粘液般的湿润光泽，当它们用沙漏状的瞳孔打量你的人和飞船时，你能看到皮肤的颜色和质地都在变化。`
+			`	人群中骚动了几分钟后，一位穿制服、尤其光彩夺目的个体脱离群体，开始朝你移动，悄无声息地在地面上滑行。它用同样奇怪的语言说了些什么，闪烁着色彩波纹，然后期待地等你回应。`
 			choice
-				`	(Say nothing.)`
+				`	（保持沉默。）`
 					goto map
-				`	"Hello, I'm Captain <first> <last>."`
+				`	“你好，我是<first> <last>船长。”`
 					goto introduce
-				`	"I come in peace."`
+				`	“我来此并无恶意。”`
 					goto introduce
-				`	(Shoot them.)`
-			`	You draw your weapon and fire a shot directly at the center of the uniformed alien, but it does not manage to even scorch the fabric of their clothing. Before you have time to fire a second time, you hear an unfathomably loud noise that pushes you back and leaves you dead before your body even makes contact with the ground.`
+				`	（开枪射击。）`
+			`	你拔出武器，朝那位穿制服的外星人的胸口直接开了一枪，但连它的制服布料都未能烧焦。你还没来得及开第二枪，就听到一声深不可测的巨响，将你向后推去，你的身体还未落地便已毙命。`
 				die
 			label introduce
-			`	The alien shuffles their arms in place and leans their face towards yours, repeating their earlier statement, this time more slowly and at a lower pitch. When you once again fail to give a satisfactory response, they pull away.`
+			`	那外星人原地挪动了一下手臂，将脸凑近你，放慢语速、降低音调重复了刚才的话。当你再次未能给出满意回应时，它退开了。`
 			label map
-			`	After a few more moments of silence, the alien grunts in a gesture reminiscent of a sigh of disappointment, then turns away and says something to another uniformed individual waiting on the edges of the now-substantial crowd. The other's skin flashes a bright blue before they leave, gliding towards one of the interceptors now parked alongside your ship.`
-			`	They shortly return, holding in one of their arms a small spherical device, handing it to the alien who seems to be in charge. The leader in turn offers it to you, and burbles an unintelligible phrase in what you might have characterized as an encouraging tone. The individuals making up the crowd are by now stretching over each other to get a look at you, and you can see more of them in the distance gliding and swimming towards your landing site.`
+			`	又沉默了片刻后，那外星人发出一声哼声，动作像是失望的叹息，然后转过身去，对另一位等在人群边缘、同样穿制服的个体说了些什么。那人的皮肤闪现亮蓝色，然后离开，滑向一艘现在停在你飞船旁边的拦截机。`
+			`	它不久便返回，一只手臂里握着一个球形小装置，把它递给了那位似乎负责的外星人。领头者又将装置递给你，咕噜着说了一句你大概可以形容为鼓励语气的话，但你无法理解。此刻组成人群的个体们已经互相挤着探头想看你一眼，你还能看到远处有更多同类正滑行和游动朝你的着陆点赶来。`
 			choice
-				`	(Take the device.)`
-				`	(Refuse.)`
+				`	（接过装置。）`
+				`	（拒绝。）`
 					goto refused
 			action
-				log "Made contact with a group of aliens to the far south of the Graveyard. Took a device from them which marked a system a couple of jumps the east."
-			`	You take the device from the alien. It liquefies the moment it touches your skin before freezing in mid-splash to project a small but detailed holographic star map of the surrounding systems. A star system a few jumps east of here is highlighted amidst a sea of alien lettering. The individual standing opposite you grunts energetically as the trio of interceptors begins to hover in preparation for takeoff: it would appear that these people, whoever they are, want you to travel there.`
+				log "在星冢以南极远处与一群外星人建立了联系。从他们那里获得了一个装置，该装置标记了往东几个跳跃之外的一个星系。"
+			`	你从外星人手中接过了装置。它一接触你的皮肤就液化，随即在半空中凝固，投影出一幅虽小但很详细的周围星系的星图。在一片外星文字的海洋中，此地向东跳跃几跳的一个星系被高亮显示。你对面那位个体用力地哼了一声，同时三艘拦截机开始悬停准备起飞：看来这些人，不管他们是谁，是想让你去那里。`
 				accept
 			label refused
 			action
-				log "Made contact with a group of aliens to the far south of the Graveyard. Refused to take a device from them and was forced to return to orbit."
-			`	You back away from the alien offering you the strange device and into the safety of the <ship>'s hatch. Though none of the aliens make any move to harm you, you notice from inside that after a couple of minutes, water slowly begins to flow onto the landing pad. As your ship's landing gear begin to submerge, you are forced to take off while you still can.`
+				log "与星冢极南边的一群外星人取得了联系。拒绝接受他们的设备，被迫返回轨道。"
+			`	你从递给你那奇怪装置的外星人面前后退，退回到 <ship> 舱门的安全处。虽然没有一个外星人做出伤害你的举动，但你在舱内注意到，几分钟后水开始慢慢涌上着陆平台。当你的飞船起落架开始被淹没时，你被迫趁还能起飞时立即升空。`
 				flee
 
 	npc accompany save
@@ -101,105 +101,105 @@ mission "Successors: First Contact 1"
 		ship "Stolsaqra (Mission Escort)" "Seqra-saqra"
 
 	on fail
-		dialog `At least one of the Successor interceptors escorting you has been destroyed. If you want to continue the Successors' story line, revert to an earlier save.`
+		dialog `至少有一艘护送你的继承者截击机已被摧毁。如果你想继续继承者的剧情线，请读取之前的存档。`
 
 	on visit
 		conversation
-			`Without your Successor escorts, you are refused landing permission at <planet>'s spaceport and must return to orbit until they arrive.`
+			`没有继承者护卫的陪同，你被拒绝在<planet>的太空港降落，必须返回轨道等待他们到来。`
 				launch
 
 	on complete
 		event "label successor space"
 		event "successors: first contact wait" 8
-		log `Made contact with a group of aliens to the far south of the Graveyard calling themselves "the Successors." Was instructed to return to Staja-Kella-Oa in eight days, when their government will decide what to do about my arrival.`
-		log "Factions" "Successors" `The Successors are a society of aliens occupying a territory on the southeastern outer rim of the galaxy; amphibious octopods approximately three meters tall. They are governed by their High Houses, institutions built around several noble families whose scions wield political and military power. They have not encountered humans for 1500 years, at which time their Predecessors were exploring much of the galaxy.`
+		log `在星冢远南方向与一群自称“继承者”的外星人建立了联系。被指示在八天后返回斯塔雅-凯拉-欧阿，届时他们的政府将决定如何处理我的到来。`
+		log "Factions" "Successors" `继承者是一个外星文明社会，占据着银河系东南外缘的一片疆域；他们是身高约三米的两栖类章鱼形生物。其统治机构为高等议院，这些议院围绕数个贵族家族建立，家族的子弟掌握着政治与军事权力。他们已有1500年未曾与人类接触，而在那个时代，他们的先驱者曾探索过银河系的大部分区域。`
 		"reputation: Successor" += 1
 		"reputation: House Chydiyi" += 1
 		"reputation: House Myurej" += 1
 		"reputation: House Sioeora" += 1
 		conversation
-			`Like last time, you are escorted by the interceptors to a landing pad on this planet's spaceport. Here, however, they guide you to a small, out-of-the way area at a great distance from the main complex, where several uniformed aliens are gathered on the landing pad, standing at attention.`
-			`	After waiting for several minutes, a shuttle lands on the pad beside yours and several individuals emerge from it. Two of them move in front of the rest, where they are allowed to pass by the guards and approach you. The one on the left is a uniformed officer wearing what appears to be heavy body armor with shimmering metallic plates that sparkle in the light. On the right is a smaller alien who is wrapped up in a dark, cocoon-like outfit from which their head and arms emerge. The officer says something to the smaller one, who quietly replies and then pulls from a pocket on their outfit a smooth sheet which they inspect several times before haltingly addressing you.`
-			`	"Hark... noble visitor! We bid thee... welcome and good tidings." The two eye you closely as they wait for a response.`
+			`如同上次一般，你由拦截机护送至这颗星球太空港的一个着陆台。然而，这次它们引导你到达远离主建筑群的一个偏僻小区域，那里有几名身着制服的异星人集合在着陆台上，立正站立。`
+			`	等待数分钟后，一架穿梭机降落在你旁边的台座上，数人从中走出。其中两人走到其余人前面，得以通过卫兵并靠近你。左边是一位身着沉重护甲的军官，甲片上闪烁着金属光泽，在光下熠熠生辉。右边是一个较小的异星人，裹着一件暗色茧状外套，头和手臂从中伸出。军官对较小者说了些什么，后者轻声回应，然后从外套口袋中掏出一块光滑的板片，审视数次后才迟疑地对你开口。`
+			`	“听好……尊贵的访客！吾等向汝……致上欢迎与佳音。”两人紧盯你，等待回应。`
 			choice
-				`	"Hello. I am Captain <first> <last>."`
-				`	"I'm <last> of the <ship>. Pleased to meet you."`
-			`	The two once again proceed slowly and carefully, the speaker briefly conversing with the military officer before each phrase. "I am Sieasej... of House Sioeora among the Successors. Thou'rt a human, art thou not?"`
+				`	“你好。我是船长 <first> <last>。”`
+				`	“我是 <ship> 的 <last>。很高兴见到您。”`
+			`	两人再次缓慢而谨慎地行动，说话者每说一句前都与军官简短交谈。“吾乃谢阿塞……继承者中肖尔拉家族的一员。汝乃人类，是么？”`
 			choice
-				`	"Yes, I am."`
-				`	"What else would I be?"`
-			`	This sparks a wave of color among the gathered members, most of all Sieasej, who spends several seconds in a vibrant shade of orange before returning to their resting hue. "Then i'tis confirmed. 'Tis a cause for much excitement, <last>, for thou'rt the first of humans that's been met by us in fifteen hundred years, since far before the time thy kind had even left the bounds of thine own planet's clouds. House Sioeora's honored t'be the one that gives thee greeting. So am I, Captain, for my part in it." The members of the group splay their free arms towards you and glisten with ripples of blue across their skin. You perform a short bow in return.`
+				`	“是的，我是。”`
+				`	“不然我还能是什么？”`
+			`	此言在聚集的成员中激起一片色彩波澜，尤以谢阿塞为甚，他在明亮的橙色中持续数秒后方才恢复其静息色调。“如此便确凿了。此乃令人万分激动之事，<last>，因汝乃一千五百年来吾等所遇之首个人类，早在汝之同类离开自身星球云层之前。肖尔拉家族有幸成为向汝致意者。吾亦以此角色为荣，船长。”群体中的成员朝你展开空余的手臂，皮肤上泛起蓝色波纹。你以短鞠躬回礼。`
 			label questions
 			choice
-				`	"What should I do now?"`
+				`	“我现在该做什么？”`
 					goto "what now"
-				`	"How do you know my language?"`
+				`	“你们是怎么懂我的语言的？”`
 					to display
 						not "Successors: language"
 					goto language
-				`	"What do you mean that you were ripped from the galaxy?"`
+				`	“你说你们被从星系中撕离，是什么意思？”`
 					to display
 						has "Successors: history"
 						not "Successors: ripped"
 					goto ripped
-				`	"How could you have met humans fifteen hundred years ago?"`
+				`	“你们怎么可能在一千五百年前遇到过人类？”`
 					to display
 						not "Successors: history"
 					goto history
-				`	"Humans have certainly changed a lot in the last fifteen hundred years."`
+				`	“人类在过去一千五百年里确实变化很大。”`
 					to display
 						has "Successors: language"
 						not "Successors: changed"
 					goto changed
-				`	"What is House Sioeora?"`
+				`	“肖尔拉家族是什么？”`
 					to display
 						not "Successors: house"
 					goto house
 			label language
-			`	"T'was a time in which our Predecessors' home domains reach'd farther to the north, and farther still the reach of their intention to explore. For life, it is a rare and precious thing, and doubly so that life which is possess'd of sapience and culture, that's noble in reason, infinite in faculty, as thine. So then, our Predecessors waited under cloak of dark to silently observe thee in thy glimmering development. And if 'twere not from the rest of the stars so untimely ripp'd, we surely would have had the pleasure t'watch thy kind advance to what's its present point."`
+			`	“曾有一时，吾等先辈的家乡疆域远及北方，其探索之意图更远。因生命乃稀有珍贵之物，而具有智慧与文化、理性高贵、才思无穷的生命——如汝等——则更珍贵。于是，吾等先辈藏身于黑暗之幕下，默默观察汝等闪烁之发展。若非吾等如此不合时宜地被从群星中撕离，吾等本应有幸目睹汝之类进化至今。”`
 				to display
 					has "Successors: history"
 			action
 				set "Successors: language"
 				set "Successors: history"
-			`	Sieasej pauses for a moment, wriggling under their cloak. "I am a scholar of some olden languages," they say, "and of the worlds our Predecessors met so long ago. I learned thy tongue, at least as 'twas gone fifteen hundred years ago."`
+			`	谢阿塞停顿片刻，在斗篷下扭动。“吾乃古老语言之学者，”他说，“亦对吾等先辈久远前所遇之世界有所研究。吾学会了汝之语言，至少是一千五百年前流传下来的版本。”`
 				goto questions
 			label "language short"
 			action
 				set "Successors: language"
-			`	"T'is true," they say. "I am a scholar of some olden languages, and of the worlds our Predecessors met so long ago. I learned thy tongue, at least as 'twas gone fifteen hundred years ago."`
+			`	“确实如此，”他说。“吾乃古老语言之学者，亦对吾等先辈久远前所遇之世界有所研究。吾学会了汝之语言，至少是一千五百年前流传下来的版本。”`
 				goto questions
 			label changed
 			action
 				set "Successors: changed"
-			`	More waves of color, subtle but noticeable, pass over Sieasej's body. "I'd hoped as much," they say, "that thou were't still a younger kind, with a longer history before thee; that thou would'st one day take to the stars as it appears thou hast now done. Alas, mine noble House Sioeora does not permit me t'interrogate thy knowledge so deep as that which I desire, for thine arrival portends t'us much, and so t'is much we must arrange."`
+			`	谢阿塞身上再次掠过层层色彩，微妙而可察。“吾曾希望如此，”他说，“汝仍是较年轻的物种，面前尚有更长远的历史；汝终有一日会如现在这般踏入星辰。可惜，吾尊贵的肖尔拉家族不允许吾如己所愿那般深究汝之知识，因汝之到来对吾等多有预示，故需诸多安排。”`
 				goto questions
 			label ripped
 			action
 				set "Successors: ripped"
-			`	Sieasej confirms their answer with the uniformed officer before answering your question. "Thou surely must have passed through that awry and fractured swathe of stars to which our modern worlds remain affixed, by however thin and fragile of a thread. 'Tis the citizens of these, long past, whose Successors now we are."`
+			`	谢阿塞先向军官确认答案，然后回答你的问题。“汝必定穿过了那片扭曲破碎的星群，吾等现代世界仍附着其上，仅凭一缕薄弱易断的丝线。其久远前的公民，便是吾等现今所继承的对象。”`
 				goto questions
 			label history
 			action
 				set "Successors: history"
-			`	"T'was a time in which our Predecessors' home domains reach'd farther to the north, and farther still the reach of their intention to explore. For life, it is a rare and precious thing, and doubly so that life which is possess'd of sapience and culture, that's noble in reason, infinite in faculty, as thine. So then, our Predecessors waited under cloak of dark to silently observe thee in thy glimmering development. And if 'twere not from the rest of the stars so untimely ripp'd, we surely would have had the pleasure t'watch thy kind advance to what's its present point."`
+			`	“曾有一时，吾等先辈的家乡疆域远及北方，其探索之意图更远。因生命乃稀有珍贵之物，而具有智慧与文化、理性高贵、才思无穷的生命——如汝等——则更珍贵。于是，吾等先辈藏身于黑暗之幕下，默默观察汝等闪烁之发展。若非吾等如此不合时宜地被从群星中撕离，吾等本应有幸目睹汝之类进化至今。”`
 			choice
-				`	"What should I do now?"`
+				`	“我现在该做什么？”`
 					goto "what now"
-				`	"Is that how you know my language?"` # This follow up question reverts to "How do you know my language?" if it isn't immediately asked
+				`	“你就是这样懂得我的语言的吗？”` # This follow up question reverts to "How do you know my language?" if it isn't immediately asked
 					to display
 						not "Successors: language"
 					goto "language short"
-				`	"What do you mean that you were ripped from the galaxy?"`
+				`	“你说你们被从星系中撕离，是什么意思？”`
 					goto ripped
-				`	"What is House Sioeora?"`
+				`	“肖尔拉家族是什么？”`
 					to display
 						not "Successors: house"
 					goto house
 			label house
 			action
 				set "Successors: house"
-			`	Sieasej translates your query to the military officer this time, who considers for a moment before saying something back and Sieasej speaks again. "Sioeora is the noble house whose grand estate thou sees around thee. There are many such within the broader realm: the stars this side'f the wormhole, but 'tis Sioeora who has taken patronage on thee, for the keeping of our history is the... core of its desire. 'Twere't thou apprehended by the arms of another," Sieasej says, gesturing towards an interceptor landed on another pad, "thou surely would have languished without recognition as a creature t'was so distant in our past."`
+			`	这次西塞杰将你的问题翻译给军官，军官思索片刻后回复了几句，西塞杰再次开口。“肖尔拉是汝眼前这宏伟庄园所属的贵族家族。在更广阔的疆域中——虫洞这一侧的星辰里——有许多这样的家族，但正是肖尔拉为汝提供了庇护，因其核心欲求乃保存吾等之历史。若汝被其他武力所擒，”西塞杰指向另一着陆台上的拦截机，“汝必将蹉跎于未见，无人识得汝乃吾等久远过去之造物。”`
 				goto questions
 			label "what now"
 			action
@@ -208,13 +208,13 @@ mission "Successors: First Contact 1"
 				clear "Successors: house"
 				clear "Successors: language"
 				clear "Successors: ripped"
-			`	Sieasej translates this question to the uniformed officer, who conveys a detailed response accompanied by a series of color and texture displays on their skin. Overhead, a buzzing flock of interceptors fly past and land on a set of landing pads closer to the center of the spaceport complex. Eventually, Sieasej responds, and does so even more slowly and carefully than previously. "The noble scions o'House Sioeora have made it known t'others of the High Houses that thou'rt guest within their space and shalt proceed with their protection. Thou may'st explore those of our worlds which offer thee their grace. 'Thout our tongue, though, thou shalt find but few chances to do more than to observe. As to that," Sieasej continues, "our noble scions're set to start their meeting here in eight days time. And as it is that thou hast aroused their close attentions, 'tis expected that thou shalt receive a summons to their union."`
-			`	With that, Sieasej and some of the others depart, leaving you along on the pad with your ship and the ring of guards, who remain silent and at attention.`
+			`	西塞杰将这个问题翻译给军官，后者以皮肤上的色彩与纹理展示作出详细回应。头顶上，一群嗡嗡作响的拦截机飞过，降落在靠近太空港中心的着陆台阵上。最终，西塞杰做出回应，其措辞比以往更慢更谨慎。“肖尔拉家族的高贵子嗣已向其他高等家族宣告，汝乃其领地内之宾客，当在其保护下行事。汝可探索那些向汝开放恩惠的世界。然则，若无吾等语言，汝将发现除了观察之外难有更多作为。至于此，”西塞杰继续道，“吾等高贵子嗣将于八日后在此开启会议。因汝已引起他们高度关注，料想汝将收到与会之召。”`
+			`	言毕，西塞杰与部分其他人离去，留你与飞船及一圈沉默立正的卫兵一同留在平台上。`
 
 mission "Successors: First Contact 2 Prompt"
 	landing
-	name "Return to <planet>"
-	description `The scions of House Sioeora have requested your prompt presence at <planet> so you can "render service and aid" to them.`
+	name "返回<planet>"
+	description `肖尔拉家族的子嗣们要求你尽快前往<planet>，以便你能向他们“提供服务与协助”。`
 	source
 		attributes "successor"
 		not attributes "uninhabited"
@@ -228,9 +228,9 @@ mission "Successors: First Contact 2 Prompt"
 	on offer
 		event "successors: tardy for sioeora" 14
 		conversation
-			`As you exit the <ship>, you notice that a group of uniformed Successors are standing at attention on the landing pad. The lead officer approaches you and hands you a small metallic sphere much like the map device you were offered previously. Rather than projecting a map, however, the sphere begins to play a recording when you touch it.`
-			`	"Captain <first> <last>! I've been instructed to inform thee that our most honored scions of noble House Sioeora want that thou woulds't before them appear to render 'them thy service and thine aid. They, hm... demand that thee make haste to our fair world once more, and prepare thyself as pleaseth thou for an audience before them. In confirmation of this message, I do myself attest: Vijaat Ojniis Sieasej, an honored scholar of the third iret in service to our noble House."`
-			`	The recording ends there, and the sphere changes to display a star map as before.`
+			`当你走出<ship>时，你注意到停机坪上有一群身着制服的继承者正立正站好。领头的军官走向你，递给你一个金属小球，类似之前给你的地图装置。然而，这个球体并未投射地图，当你触碰它时，它开始播放一段录像。`
+			`	“<first> <last>船长！我奉命告知你，我们高贵的肖尔拉家族最受尊敬的子嗣希望你能出现在他们面前，为他们效力并提供协助。他们，嗯……要求你尽快再次回到我们美好的世界，并按照你的喜好做好准备以接受召见。为确认此消息，我本人在此作证：维贾特·奥尼伊斯·西塞杰，一位为我们高贵家族服务的第三阶荣誉学者。”`
+			`	录像到此结束，球体再次变成星图，像之前一样展示。`
 				accept
 
 mission "Successors: First Contact 2"
@@ -242,96 +242,96 @@ mission "Successors: First Contact 2"
 	to fail
 		has "Successors: Unified Defense: offered"
 	on offer
-		log "People" "Sieasej" "Sieasej is a Successor scholar of historical linguistics and a member of the noble House Sioeora. Because of their area of study, they are one of the only Successors who can speak to and understand human language without the benefit of a translation device."
+		log "People" "Sieasej" "西塞杰是一位研究历史语言学的继承者学者，也是高贵的肖尔拉家族的一员。因其研究领域，他是仅有的几位无需翻译设备就能听懂并理解人类语言的继承者之一。"
 		conversation
-			`Soon after you enter the atmosphere of <planet>, the <ship> is flanked by a pair of interceptors which lead you to a sprawling complex in the northern hemisphere at the edge of a large lake. Your escorts set down on two small landing pads near the shore, and you see that another landing pad between them has been lit up in colors matching the livery of your ship.`
-			`	As before, your landing site has been surrounded by a cadre of uniformed individuals, but this time there must be nearly a hundred standing at attention on the pad's perimeter, of which most appear heavily armed. Once again upon disembarking, a lead officer approaches you, accompanied by a group of eight others who follow them in a tight formation. The leader motions with one of their arms towards the center of the complex as if to instruct you to go.`
+			`在你进入<planet>的大气层后不久，<ship>被一对拦截机护卫，带你前往北半球湖畔一个庞大的建筑群。你的护卫降落在岸边两个小型降落台上，你看到它们之间另一个降落台的灯光亮起，颜色与你的飞船涂装相匹配。`
+			`	和之前一样，你的着陆点被一群穿着统一制服的人包围，但这次有近一百人在停机坪外围立正，其中大多数看起来全副武装。再次下船时，一位领头的军官走近你，身后跟着另外八人，以紧密队形跟随。领头者用一只手臂向建筑群中央示意，仿佛在指示你前往。`
 			choice
-				`	(Go with them.)`
+				`	（跟他们走。）`
 					goto inside
-				`	"What is this place?"`
-			`	The lead individual looks you over and shuffles their arms somewhat before repeating their motion towards the center of the complex.`
+				`	"这是什么地方？"`
+			`	领头的人打量了你一番，稍微动了动胳膊，再次向建筑群中央示意。`
 			choice
-				`	(Go with them.)`
+				`	（跟他们走。）`
 					goto inside
-				`	"Is this where the scions are?"`
-			`	The leader says something to one of the others before returning their attention to you and gesturing again, this time with their weapon.`
+				`	“子嗣们就在那里吗？”`
+			`	领头者对另一个人说了些什么，然后重新看向你，再次示意，这次举起了武器。`
 			choice
-				`	(Go.)`
+				`	（走。）`
 			label inside
-			`	Your escort relaxes as you move to walk towards the inner complex, and the group of eight follow you as you approach its outer doors.`
-			`	The inside of the complex is opulent and massive, with vaulted ceilings rising on columns out of the lake water. Some mimic the forms and textures of tree trunks, spreading out on the ceiling into a canopy filled with thin metallic leaves that slowly wave and occlude the lights embedded above them. Each successive hall you pass through is a unique and enormous sculpture: the arch of a wave moments before crashing; the spiral of a huge suckered arm. You eventually arrive at a large door that your escort extends an arm to touch. As soon as they do, it begins to liquefy and flow into a trench on the floor. When it is finished, you step across the threshold into a final circular room where a group of Successors stand waiting. You recognize one as Sieasej, now wearing a new set of metallic-looking robes, but the rest are unfamiliar and are especially richly dressed.`
-			`	One of the adorned individuals looks at you and speaks, and Sieasej translates a moment later.`
+			`	当你走向建筑内部时，护卫们放松了警惕，那八人跟随着你，接近外部大门。`
+			`	建筑内部富丽堂皇、空间巨大，拱形天花板由从湖水中升起的柱廊支撑。有些柱子模仿树干的形态和纹理，在天花板上展开成树冠，缀满薄薄的金属叶片，缓缓摆动，遮挡着上方嵌入的灯光。你经过的每一座大厅都是一件独特而巨大的雕塑：巨浪即将破碎的拱形；巨大吸盘触手的螺旋。你最终来到一扇大门前，护卫伸手触碰。刚一触碰，门便开始液化，流入地板上的沟槽。完成后，你跨过门槛，进入最后的圆形房间，一群继承者站在那里等候。你认出其中一个是西塞杰，他现在穿着一套新的金属质感长袍，但其他人你都不认识，而且衣着格外华丽。`
+			`	其中一位盛装者看着你开口说话，西塞杰片刻后翻译道。`
 			branch "tardy"
 				has "event: successors: tardy for sioeora"
-			`	"Hail, captain! We appreciate thy promptness in complying 'thour request. I am Riijaaora, an honored scion of House Sioeora. I shall speak for today for my fellows and the House."`
+			`	“致意，船长！吾等感谢汝如此迅速地遵从请求。吾乃里贾奥拉，肖尔拉家族的尊贵子嗣。今日由吾代表吾之同伴与家族发言。”`
 				goto greet
 			label tardy
-			`	"Hail, captain! Thy tardiness reflects poorly upon thee. I am Riijaaora, an honored Scion of House Sioeora. I shall speak for today for my fellows and the House."`
+			`	“致意，船长！汝之迟到令汝颜面扫地。吾乃里贾奥拉，肖尔拉家族的尊贵子嗣。今日由吾代表吾之同伴与家族发言。”`
 			label greet
 			choice
-				`	(Say nothing.)`
+				`	（保持沉默。）`
 					goto request
-				`	"Hello. I am <first> <last>."`
+				`	“你好。我是<first> <last>。”`
 					goto introduce
-				`	"I apologize for being late."`
+				`	“我为迟到道歉。”`
 					to display
 						has "event: successors: tardy for sioeora"
 					goto "apologize tardiness"
 			label introduce
-			`	"We are aware of this. The introduction of an alien like thee is not expected or requested in this hall."`
+			`	“吾等知晓。此殿堂内，不期亦不求如汝这般外星人之引见。”`
 				goto request
 			label "apologize tardiness"
-			`	"Thine apology is noted."`
+			`	“吾等接受汝之歉意。”`
 			label request
-			`	Riijaaora continues. "Thy presence we've demanded here so that thou might'st give service to this House. We've a task for thee, and if thou can'st complete't ably, a gift as well: a symbol of our patronage."`
+			`	里贾奥拉继续说道：“吾等召汝来此，乃为令汝效力于本家族。吾等有一任务交予汝，若汝能妥善完成，亦有一礼相赠：吾等庇护之象征。”`
 			choice
-				`	(Say nothing.)`
-				`	"What sort of task?"`
-				`	"What sort of gift?"`
+				`	（保持沉默。）`
+				`	“什么样的任务？”`
+				`	“什么样的礼物？”`
 					goto gift
-				`	"I do not appreciate being bossed around."`
+				`	“我不喜欢被人指使。”`
 					goto rude
 			label task
-			`	"'Tis a world within the scar of shrouded systems to the north th'twas once by name Raaqa-Uur-Kaav. We require thee to visit there, where'pon its surface, thou shall'st go and find a certain beast t'return to us, undamaged and unspoil't. The scholar, Sieasej, shall escort thee: an envoy of this House t'assist and monitor thine efforts. And if thou'rt successful in the fetching of thine quarry, we shall see fit to thee bestow the peerless gift of language, so that thou might'st not evermore require the use of a translator, as doth thou, here and now."`
+			`	“那是一颗位于北方阴影星系伤痕之中的世界，曾名为拉卡-乌尔-卡夫。吾等需要汝前往彼处，降落其地表，寻得一特定野兽，完好无损地带回交予吾等。学者西塞杰将护送汝：作为本家族之特使，协助并监督汝之行动。若汝成功捕获猎物，吾等将赐予汝无与伦比之语言天赋，令汝再不必如现今这般需要翻译。”`
 			choice
-				`	"I accept."`
+				`	“我接受。”`
 					goto accepted
-				`	"You want me to do your errands? I won't!"`
+				`	“你想让我替你跑腿？我才不干！”`
 					goto rejected
 			label gift
-			`	"The one who speaks these words to thee know'th well the value language doth confer, and we suspect 'tis true that thee knoweth this as well. There's a world within the scar of shrouded systems to the north th'twas once by name Raaqa-Uur-Kaav. We require thee to visit there, where'pon its surface, thou shall'st go and find a certain beast t'return to us, undamaged and unspoil't. The scholar, Sieasej, shall escort thee: an envoy of this House t'assist and monitor thine efforts. And if thou'rt successful in the fetching of thine quarry, thou shall'st have our reward of language and all that it bestows."`
+			`	“对汝言说此话之人深知语言所赋予之价值，吾等亦料想汝同明此理。有一颗位于北方阴影星系伤痕之中的世界，曾名为拉卡-乌尔-卡夫。吾等需要汝前往彼处，降落其地表，寻得一特定野兽，完好无损地带回交予吾等。学者西塞杰将护送汝：作为本家族之特使，协助并监督汝之行动。若汝成功捕获猎物，汝将获得吾等赐予之语言及随之而来的一切。”`
 			choice
-				`	"I accept."`
+				`	“我接受。”`
 					goto accepted
-				`	"You want me to do your errands? I won't!"`
+				`	“你想让我替你跑腿？我才不干！”`
 					goto rejected
 			label rude
-			`	"Thine appreciation, or thy failure t'appreciate, are not the sort of things that would concern us in this hall. Thou may'st be an alien, still swaddled in thine ignorance, and yet this makes thee even more a guest upon our worlds and, hm... consumer of our grace. Thy compliance is expected; in return, our generosity."`
+			`	“汝之感激，或不知感激，皆非吾等于此殿堂内所关切之事。汝或许是一外星人，仍蒙昧无知，然此反令汝更成吾等世界之客，且……承蒙吾等之恩惠。吾等期汝顺从；以此为报，吾等亦将慷慨相待。”`
 			choice
-				`	"I apologize."`
-				`	"I have no desire to be your servant."`
+				`	“我道歉。”`
+				`	“我没有兴趣做你的仆人。”`
 					goto rejected
-			`	"Thine apology is noted."`
+			`	“吾等接受汝之歉意。”`
 				goto task
 			label accepted
 			action
-				log "Met with the leaders of the Successor High House Sioeora and was instructed to retrieve an animal from the planet Raaqa-Uur-Kaav. Was promised translation equipment as a reward. Accepted their offer."
-			`	"Thou show'st wisdom in thy choice. Even now, thy ship is being prepared within the spaceport o'this estate. Thou should'st travel there when thine audience is finished, and there begin thy noble task with haste." The scion pauses for a moment before continuing. "But prithee note, dear Captain..." Sieasej shivers with color as the scion speaks the next sentence, "that we do not entrust our citizen to thee 'thout consideration. If harm befalls the speaker of these words whilst under thy protection, or if thou fail'st t'return them here in thirty days, we will consider thee an enemy and levy upon thee every harm that we can muster."`
+				log "会见了继承者肖尔拉高等家族的领袖，并受命去拉卡-乌尔-卡夫星球带回一只动物。对方承诺奖励一套翻译设备。我接受了他们的提议。"
+			`	“汝之选择彰显汝之智慧。就在此刻，汝之飞船正于此庄园的太空港内整备。觐见结束后汝当立刻前往，尽速开启汝之崇高任务。”子嗣停顿片刻，然后继续说道。“但请注意，亲爱的船长……”子嗣说出下一句时，西塞杰全身泛起色彩涟漪，“吾等绝非毫无考量便将吾等公民托付于汝。若说话者于汝保护之下受到伤害，或汝未能在三十日内将其带回，吾等将视汝为敌，并倾尽全力对汝施加惩戒。”`
 				decline
 			label rejected
 			action
-				log "Met with the leaders of the Successor High House Sioeora and was instructed to retrieve an animal from the planet Raaqa-Uur-Kaav. Was promised translation equipment as a reward. Rejected."
+				log "与继承者高等家族肖尔拉（Sioeora）的领袖会面，并被指示前往拉卡-乌尔-卡夫星（Raaqa-Uur-Kaav）带回一只野兽。对方承诺以翻译设备作为回报。已拒绝。"
 				set "Successors: First Contact 2: rejected"
 				"reputation: House Sioeora" <?= 0
-			`	A ripple of color runs up the body of Sieasej and several of the other Successors. The scion gives their response slowly. "Then our act of grace today shall be t'allow thee to depart this noble place still possessed o'thy freedom and belongings. Thou shalt receive no further aid nor comfort from this House, and shalt be banished at the pleasure of its scions from whatever worlds lie under our dominion."`
-			`	Sieasej and the scions turn their backs to you, and a line of soldiers converge from the walls to form a line separating you from them. The lead officer who escorted you inside motions with their weapon for you to leave.`
-			`	As you exit, the door closes behind you, reforming into solid metal.`
+			`	一阵色彩涟漪掠过西塞杰和另外几位继承者的身体。子嗣缓慢地做出了回应。“那么今日吾等之恩赐，便是允许汝离开这高贵之地，仍保汝之自由与财物。汝将不再从本家族获得任何援助与慰藉，并将凭子嗣之意愿，被驱逐出吾等统治下的任何世界。”`
+			`	西塞杰和子嗣们背过身去，一列士兵从墙壁处汇聚，形成一道分隔你与他们的人墙。护送你进来的领头军官用武器示意你离开。`
+			`	当你离开时，大门在你身后关上，重新化为坚固的金属。`
 				flee
 
 mission "Successors: First Contact 3"
-	name "Capture an animal for House Sioeora"
-	description `The scions of House Sioeora have instructed you to visit the planet <planet stopovers> and capture a "Kijra-riitaa" to safely return to them at <planet>. Return by <date> or they will consider you to have kidnapped Sieasej.`
+	name "为肖尔拉家族捕获一只动物"
+	description `肖尔拉家族的子嗣指示你前往<planet stopovers>星球，捕获一只“基杰拉-里塔”（Kijra-riitaa），并将其安全带回<planet>交给他们。务必于<date>前返回，否则他们将视为你绑架了西塞杰。`
 	source "Staja-Kella-Oa"
 	to offer
 		has "event: successors: first contact wait"
@@ -343,85 +343,85 @@ mission "Successors: First Contact 3"
 	destination "Staja-Kella-Oa"
 	passengers 1
 	cargo "Animal Transport Container" 1
-	blocked `You speak with Sieasej, who informs you that they require at least 1 free bunk to travel and 1 ton of cargo space to carry the "Kijra-riitaa" back to Successor space.`
+	blocked `你与西塞杰交谈，他告知你需要至少1个空闲铺位用于他的旅行，以及1吨的载货空间来将“基杰拉-里塔”运回继承者空间。`
 	substitutions
 		"<tranq h2h>" "Pug staff"
 		"<tranq h2h>" "Heliarch staff"
 			has "outfit: Enforcer Riot Staff"
-		"<a tranq h2h long>" "a Pug Peacekeeping Staff"
-		"<a tranq h2h long>" "an Enforcer Riot Staff"
+		"<a tranq h2h long>" "一把帕格治安权杖"
+		"<a tranq h2h long>" "一把执法者防暴棍"
 			has "outfit: Enforcer Riot Staff"
 	on offer
 		conversation
-			`You are met in House Sioeora's spaceport by Sieasej, who has shed the adorned metallic robes they wore in the presence of the scions for a more robust and rugged cocoon-like outfit. "Ah, Captain <last>," they say. "Thou conducted thyself well with the scions of the House. Well enough for an alien, at least."`
+			`你在肖尔拉家族的太空港见到了西塞杰，他已经褪去了在子嗣面前穿着的华丽金属长袍，换上了一身更结实、更粗犷的茧状装束。“啊，<last>船长，”他说道，“你在家族子嗣们面前表现得不错。至少对一个外星人来说，已经很好了。”`
 			choice
-				`	"Thank you. What can you tell me about our mission?"`
+				`	“谢谢。关于我们的任务，你能告诉我些什么？”`
 					goto task
-				`	"What do you mean, 'well enough for an alien?'"`
-			`	A ripple of a rough, greenish texture passes over Sieasej's skin before subsiding. "Audiences like that one are subject to a litany of social expectations. If thou were't one of us, then thine ignorance of these things would seem knavish at the least, but... the scions are not fools. They are more than willing to endure a little bit of rudeness for the sake of their aims."`
-			`	"I see," you say. "I suppose I am too."`
-			`	"Fret not," Sieasej says, "for elegance of thine address was neither expected nor required. It's all that has a place and time where's needed, and a place and time where's not."`
+				`	“你说的‘至少对一个外星人来说，已经很好了’是什么意思？”`
+			`	一阵粗糙的绿色纹理在西塞杰的皮肤上掠过，然后消退。“像那样的觐见需要遵循一长串的社交规矩。如果你是我们中的一员，你对这些礼仪的无知起码会显得无礼，但是……子嗣们不是傻瓜。为了达成他们的目标，他们非常愿意忍受一点粗鲁。”`
+			`	“我明白了，”你说道，“我想我也是。”`
+			`	“不必担心，”西塞杰说道，“因为你讲话的优雅既非预期也非必需。万事皆有其所当之处与所不当之时。”`
 			label task
-			`	Sieasej shuffles their arms beneath them. "Ah. I must again speak on behalf of Sioeora." They produce another metallic data-sphere from a pouch on their outfit and offer it to you. "This sphere shall thee provide a marker for the system we're to journey to. On the second planet's second moon, we are to land and find a Kijra-riitaa, a Kijra-'pet,' a beast of sorts, as the scions told thee prior in thine audience with them."`
+			`	西塞杰在身下挪动了一下手臂。“啊。我必须再次代表肖尔拉发言。”他从装束上的袋子里取出另一个金属数据球，递给了你。“这个球将为你提供我们即将前往的星系的坐标。在第二颗行星的第二颗卫星上，我们要降落并找到一只基杰拉-里塔，一只基杰拉‘宠物’，某种野兽，正如子嗣们之前在你觐见时所告诉你的那样。”`
 			label questions
 			choice
-				`	"We'd better get started, then."`
+				`	“那我们最好现在就开始。”`
 					goto embark
-				`	"What did you mean that jump drives are 'familiar?'"`
+				`	“你说跃迁引擎‘令人熟悉’是什么意思？”`
 					to display
 						has "Successors: knowledge"
 						not "Successors: jump drives"
 					goto "jump drives"
-				`	"Do the scions have their own jump drives?"`
+				`	"继承者们有自己的跳跃引擎吗？"`
 					to display
 						has "Successors: jump drives"
 						not "Successors: warning"
 					goto warning
-				`	"What more can you tell me about these Kijra-pets?"`
+				`	"关于这些基杰拉宠物，你还能告诉我些什么？"`
 					to display
 						not "Successors: kijra-pet"
 					goto kijra-pet
-				`	"How does Sioeora even know that the Kijra-pets are on this moon?"`
+				`	"肖尔拉怎么知道基杰拉宠物就在这颗卫星上？"`
 					to display
 						not "Successors: knowledge"
 					goto knowledge
-				`	"Are you certain you're okay going with me?"`
+				`	"你确定你跟我一起去没问题吗？"`
 					to display
 						not "Successors: you okay"
 					goto "you okay"
-				`	"Is there anything I should watch out for?"`
+				`	"有什么我需要留意的吗？"`
 					to display
 						not "Successors: watch out"
 					goto "watch out"
 			label kijra-pet
 			action
 				set "Successors: kijra-pet"
-			`	Sieasej shivers a little, and chooses their words slowly. "The Kijran are quite well-discussed in the history of our people. 'Twere favored pets and hunting beasts among... a few of our Predecessors in their time. The larva is the scale of a... hm, of thy head, though, give or take; with a delicate body and glassy skin, and wings of finest silk. But if it mates and lays its eggs, it gives itself some sundry molts till'ts larger and more fearsome to defend its nascent brood. The Kijran-Riitaa - the Kijra-'pets' - are the young of these, and the Kijran-Khora the dread adults. If thou art wise," Sieasej emphasizes this with a wave of color, "thou shoulds't capture the young and nothing else."`
+			`	谢阿瑟微微颤抖，缓慢地选择措辞。"基杰拉在我们人民的历史中被讨论得相当多。它们曾是我们一些……先驱者时代喜爱的宠物和狩猎野兽。幼虫大概有……嗯，你的头那么大，差不多；身体纤细，皮肤玻璃般透明，翅膀由最精美的丝织成。但如果它交配并产卵，它就会经历几次蜕皮，变得更大更可怕，以保护它新生的后代。基杰兰-瑞塔——基杰拉'宠物'——是它们的幼体，而基杰兰-科拉是可怕的成体。如果你明智的话，"谢阿瑟用一波颜色强调了这一点，"你应该捕捉幼体，别碰其他的。"`
 				goto questions
 			label knowledge
 			action
 				set "Successors: knowledge"
-			`	"'Tis a mix of things," Sieasej says. "The... paths in space which connect those stars are ever-changing, year by year. A hazard of the space. Some years ago, t'was a pathway leading to it through which craft of all the Houses could find passage and explore. Now, it's been closed for many years and our vessels may not enter. The scions know thou must possess a jump drive in order for thou t'ave reach'd us here, for this technology's a familiar one to us. And so they know thou cans't retrieve that thing which they desire."`
+			`	"这是多种因素混合的结果，"谢阿瑟说。"连接那些恒星的太空中的……路径每年都在变化。太空中的一种危险。几年前，有一条通往那里的通路，各个家族的飞船都能通过并探索。现在，它已经关闭了很多年，我们的船只无法进入。继承者们知道你必须拥有跳跃引擎才能到达我们这里，因为这项技术对我们来说很熟悉。所以他们知道你能取回他们想要的东西。"`
 				goto questions
 			label "jump drives"
 			action
 				set "Successors: jump drives"
-			`	"Remember, Captain, our Predecessors did ply the stars for ten thousand years before we last set eyes on thine own race, who then had only just discovered industry. Drives like the one within thy ship have been known to us for long into thy past."`
+			`	"记住，船长，我们的先驱者在我们最后一次见到你们这个种族之前，已经在星辰间航行了上万年，而你们那时才刚刚发现工业。像你飞船上的那种引擎，早在你们那遥远过去的时代，我们就已经知晓了。"`
 				goto questions
 			label warning
 			action
 				set "Successors: warning"
-			`	"That is not for me to know, nor, I think, for thee."`
+			`	"这不是我该知道的，我想，也不是你该知道的。"`
 				goto questions
 			label "you okay"
 			action
 				set "Successors: you okay"
-			`	Splotches of orange color emerge at the tips of Sieasej's arms. "I confess this is a little strange, and know the prospect of this... journey instills within me some thoughts of trepidation. But to visit these worlds is reward itself, and to do so in thy company, the very aliens who I have studied, makes it a reward that's doubly grand. Thou must realize that thou'rt a historian's dream. Thou'rt a creature from a distant story-page made flesh and blood in the modern age."`
+			`	橙色斑点出现在谢阿瑟手臂的尖端。"我承认这有点奇怪，而且知道这次……旅程让我心中生出一些惶恐。但能造访这些世界本身就是奖励，而且有你这个我一直在研究的外星人作伴，更是加倍的大礼。你必须明白，你简直是历史学家的梦。你是一个来自遥远故事书页的生物，在现代世界中化为了血肉之躯。"`
 				goto questions
 			label "watch out"
 			action
 				set "Successors: watch out"
-			`	"The House hast warned me of the dangers which that space entails. Thy vessel must've endured enough to make it here intact, so I must trust that it shall be enduring once again."`
+			`	"家族已经警告过我那片区域所蕴含的危险。你的船能完好无损地抵达这里，想必已经经历了许多，所以我必须相信它能再次经受住考验。"`
 				goto questions
 			label embark
 			action
@@ -431,162 +431,162 @@ mission "Successors: First Contact 3"
 				clear "Successors: warning"
 				clear "Successors: watch out"
 				clear "Successors: you okay"
-			`	"I agree," Sieasej says. "We have no time to squander."`
+			`	"我同意，"谢阿瑟说，"我们没有时间可以浪费。"`
 				accept
 	on stopover
 		conversation
-			`Some minutes after you enter the system, Sieasej enters your ship's cockpit and directs you to a location in the planet's southern hemisphere, on the edge of one of the smaller continents. "Here, captain," they say, "'twas a place where once the beasts were bred. When last our vessels traveled here, 'twas this location where they noted many Kijran-Riitaa."`
-			`	As you approach the coordinates to land, you see that it contains the remains of a substantial complex; over a dozen large buildings and several disused landing pads are present, connected by paths of smooth, untarnished metal. The materials show a curious quality of being both unblemished and overgrown - vines cling to otherwise-spotless walls, and the various walkways, though often shaded by large plants, do not show any debris or detritus on their surfaces.`
+			`进入星系几分钟后，谢阿瑟进入你的飞船驾驶舱，指引你前往行星南半球的一个位置，位于一块较小大陆的边缘。"这里，船长，"他们说，"这里曾是饲养这些野兽的地方。当我们的飞船最后一次来到这里时，他们就是在这个地点记录到了许多基杰兰-瑞塔。"`
+			`	当你接近降落坐标时，你看到那里有一个巨大的建筑群遗迹；有十几栋大建筑和几个废弃的着陆平台，由光滑、未锈蚀的金属小径连接。这些材料表现出一种奇特的性质：既无瑕又杂草丛生——藤蔓攀附在原本光洁的墙壁上，而各种步道虽然常常被高大的植物遮蔽，表面却没有散落任何碎屑或落叶。`
 			branch "retrieve tranqs"
 				or
 					has "outfit (flagship installed): Enforcer Riot Staff"
 					has "outfit (flagship installed): Pug Peacekeeping Staff"
-			`	You set the <ship> down on one of the landing pads and exit onto the surface, though not before retrieving a net from storage. You are accompanied by Sieasej, who holds aloft a cylindrical device which they wave in the air for several seconds. "It hears calls of the creatures on the wind, gentler than our ears would notice. So we're fortunate, captain. We will not have to travel far." They wave their device around some more, making slower but wider motions, before they eventually speak again. "The nearest among them lies to the west, a little distance along the path."`
+			`	你将<ship>降落在其中一个着陆平台上，然后走到地表，不过在此之前你从储藏室拿了一张网。谢阿瑟与你同行，他高举着一个圆柱形装置，在空中挥舞了几秒钟。"它能听到风中生物发出的鸣叫，比我们耳朵能注意到的更细微。所以我们很幸运，船长。我们不用走太远。"他们更缓慢、更大幅度地继续挥舞装置，最后再次开口。"最近的就在西边，沿着这条路走一小段距离。"`
 				goto approach
 			label "retrieve tranqs"
-			`	You set the <ship> down on one of the landing pads and exit onto the surface, though not before retrieving a net from storage, along with <a tranq h2h long> as an improvised tranquilizer weapon. You are accompanied by Sieasej, who holds aloft a cylindrical device which they wave in the air for several seconds. "It hears calls of the creatures on the wind, gentler than our ears would notice. So we're fortunate, captain. We will not have to travel far." They wave their device around some more, making slower but wider motions, before they eventually speak again. "The nearest among them lies to the west, a little distance along the path."`
+			`	你将<ship>降落在其中一个着陆平台上，然后走到地表，不过在此之前你从储藏室拿了一张网，还有<a tranq h2h long>作为临时麻醉武器。谢阿瑟与你同行，他高举着一个圆柱形装置，在空中挥舞了几秒钟。"它能听到风中生物发出的鸣叫，比我们耳朵能注意到的更细微。所以我们很幸运，船长。我们不用走太远。"他们更缓慢、更大幅度地继续挥舞装置，最后再次开口。"最近的就在西边，沿着这条路走一小段距离。"`
 			label approach
 			choice
-				`	(Approach the location.)`
+				`	（接近该地点。）`
 					goto encounter
-				`	"You know a lot about tracking for a scholar."`
-			`	"Ah," Sieasej says, pausing for a moment. "A product of some training I've not used in many years. Perhaps Sioeora's forward-thinking as much as they'd have us believe."`
+				`	"作为一个学者，你对追踪知道得真多。"`
+			`	"啊，"谢阿瑟停顿了一下说，"这是多年未曾使用的训练成果。也许肖尔拉比他们让我们相信的要更有远见。"`
 			label encounter
-			`	You make your way along one of the walkways to the west, brushing aside the enormous leaves of the overgrowing plants. Sieasej continues to wave their triangulation device in the air and quietly relays your progress; as you get closer, you hear a gentle scuffling that you realize precedes every detection by the device. After making your way through one particularly-dense wall of flora, you spot your target: a glassy-winged animal perched in a plant over the walkway's edge, probing the branch it stands on with long feelers extending from its head.`
+			`	你沿着其中一条步道向西前进，拨开过度生长的植物那巨大的叶子。谢阿瑟继续在空中挥舞他们的三角定位装置，并轻声汇报你的进展；当你越来越近时，你听到一阵轻柔的窸窣声，你意识到这声音每次都先于装置的探测出现。在穿过一道特别茂密的植物墙后，你看到了目标：一只玻璃翅膀的动物栖息在步道边缘的一株植物上，用从头部伸出的长触须探查它站立的枝条。`
 			choice
-				`	(Try to tranquilize it.)`
+				`	（尝试麻醉它。）`
 					goto tranq
 					to display
 						or
 							has "outfit (flagship installed): Enforcer Riot Staff"
 							has "outfit (flagship installed): Pug Peacekeeping Staff"
-				`	(Try to catch it with a net.)`
+				`	（尝试用网捕捉它。）`
 					goto net
-				`	(Stay still and try to capture it without aggression.)`
+				`	（保持不动，尝试不带敌意地捕捉它。）`
 					goto lure
 			label tranq
 			branch tranqed
 				random < 70
-			`	You take aim and fire a blast from the <tranq h2h> at the animal, but it darts away at the last moment so that the blast only just grazes its body. It plummets to the ground shrieking, and while it soon goes quiet as the tranquilizer takes effect, the shriek is echoed by other animals in the area. Soon after those quiet as well, your ears are pierced by a loud, warbling wail from the distance.`
+			`	你瞄准那动物，用<tranq h2h>射出一发麻醉弹，但它在最后一刻闪开了，麻醉弹只是擦过它的身体。它尖叫着坠落地面，随着麻醉剂生效很快安静下来，但它的尖叫声却在区域内的其他动物中引起了回响。当那些声音也安静下来后，你的耳朵被远处一声响亮、颤抖的哀号刺穿。`
 				goto escape
 			label tranqed
-			`	You take aim and fire a blast from the <tranq h2h> at the center of the animal. It briefly jumps to escape but soon plummets to the ground in a puff of leaves and dusty feathers.`
+			`	你瞄准那动物的中心，用<tranq h2h>射出一发麻醉弹。它短暂地跳起试图逃跑，但很快就在一阵树叶和灰尘般的羽毛中坠落地面。`
 				goto "bring tranq"
 			label net
-			`	You toss a net over the animal and it falls to the ground, where it shrieks for a duration before going quiet. The shriek is soon echoed by similar ones from other animals in the area, and once those go quiet as well, your ears are pierced by a loud, warbling wail in the distance.`
+			`	你把网抛向那动物，它掉到地上，尖叫了一阵然后安静下来。尖叫声很快被区域内其他动物相似的声音回应，当那些也安静下来后，你的耳朵被远处一声响亮、颤抖的哀号刺穿。`
 				goto escape
 			label lure
-			`	The animal remains stationary as well, examining you closely. Its eyes are large and furtive, with bright red irises and the same hourglass-shaped pupils as the Successors. After it looks you over, it eventually approaches your hand, sniffing it gently and brushing its downy forelimbs against your skin.`
+			`	那动物也保持不动，仔细观察着你。它的眼睛又大又诡秘，有着明亮的红色虹膜和与继承者相同的沙漏形瞳孔。在打量了你一番后，它最终靠近你的手，轻轻地嗅着，并用其柔软的绒毛前肢摩擦你的皮肤。`
 			choice
-				`	(Try to bring it back with food alone.)`
-				`	(Tranquilize it now.)`
+				`	（尝试只用食物引它回去。）`
+				`	（现在麻醉它。）`
 					goto "tranq friends"
 					to display
 						or
 							has "outfit (flagship installed): Enforcer Riot Staff"
 							has "outfit (flagship installed): Pug Peacekeeping Staff"
-				`	(Catch it with a net.)`
+				`	（用网捕捉它。）`
 					goto "net friends alarmed"
 			action
 				set "Successors FC3: nonviolent kijra-pet capture"
-			`	You retrieve a morsel of food and offer it to the Kijra-pet, which sniffs it extensively before starting to eat, trilling quietly as it takes a couple of small bites. It tucks its wings behind its body like a dragonfly and unfurls two long feather-like antennae from its head, which join its legs in feeling your skin and clothing. Soon, it hops on your arm while sniffing at your pockets, cooing and probing deeper into the one where you kept the food. You begin the walk back to your ship as it continues to explore your pockets, careful to not frighten the animal with any sudden movements.`
-			`	"'Tis no surprise," Sieasej says, "that 'twere such valued pets if their demeanor is so docile and agreeable." They tuck their triangulation device away in a pocket of their own and slither alongside you.`
+			`	你取出一小块食物递给基杰拉宠物，它仔细嗅了一阵，然后开始吃起来，吃了几小口时发出轻柔的颤音。它把翅膀像蜻蜓一样收在身后，从头上展开两根长长的羽毛状触角，和腿一起感受你的皮肤和衣服。很快，它跳到你胳膊上，同时嗅着你的口袋，咕咕叫着，往你放食物的那个口袋深处探去。你开始走回飞船，它继续探索你的口袋，你小心翼翼地避免用任何突然的动作吓到这只动物。`
+			`	"这不足为奇，"谢阿瑟说，"如果它们性格如此温顺和善，那它们会被视为如此珍贵的宠物也就不奇怪了。"他们把三角定位装置塞进自己的口袋，在你旁边滑行着前进。`
 				goto ambush
 			label "tranq friends"
-			`	While the animal is distracted, you take aim and fire a shot from your <tranq h2h> at it. It briefly jumps to escape but soon plummets to the ground in a puff of leaves and dusty feathers.`
+			`	当那动物分心时，你瞄准并用<tranq h2h>向它射了一发。它短暂跳起试图逃跑，但很快就在一阵树叶和灰尘般的羽毛中坠落地面。`
 				goto "bring tranq"
 			label "net friends alarmed"
-			`	While the animal is distracted, you toss a net over it and it falls to the ground, where it shrieks for a duration before going quiet. The shriek is soon echoed by similar ones from other animals in the area, and once those go quiet as well, your ears are pierced by a loud, warbling wail in the distance.`
+			`	当那动物分心时，你把网抛向它，它掉到地上尖叫了一阵然后安静下来。尖叫声很快被区域内其他动物相似的声音回应，当那些也安静下来后，你的耳朵被远处一声响亮、颤抖的哀号刺穿。`
 				goto escape
 			label "bring tranq"
-			`	You scoop up the tranquilized animal, careful not to damage its extremities, and begin the walk back to your ship.`
+			`	你抱起被麻醉的动物，小心不伤到它的肢体，然后开始走回飞船。`
 				goto ambush
 			label escape
 			choice
-				`	(Grab it and run!)`
-			`	You scoop up the immobilized animal and begin to run back to your ship as the wailing behind you increases in pitch and intensity. As you and Sieasej dash through the foliage, the sunlight overhead is suddenly darkened by the shadow of something flying overhead.`
+				`	（抓住它快跑！）`
+			`	你抱起动弹不得的动物，开始跑回飞船，身后的哀号声调越来越高，越来越强烈。当你和谢阿瑟冲过树丛时，头顶的阳光突然被某个从上方飞过的东西的阴影遮蔽。`
 			choice
-				`	(Keep running.)`
-				`	(Try to shoot at whatever is above me.)`
+				`	（继续跑。）`
+				`	（尝试射我头上的东西。）`
 					goto "shoot ambush"
-			`	Suddenly, the shadow disappears and the wailing stops. You keep running towards your ship, but can't shake the feeling that you are being watched.`
+			`	突然，影子消失了，哀号停止了。你继续跑向飞船，但无法摆脱被监视的感觉。`
 				goto ambush
 			label "shoot ambush"
-			`	You draw your sidearm and look to see what's above you, but the shadow is suddenly gone and you are left staring up into the sunlight and leaves. The wailing has stopped as well; indeed, the whole area remains eerily quiet as you continue to run towards your ship.`
+			`	你拔出随身武器，想看看头上是什么，但影子突然消失了，你只能抬头望着阳光和树叶。哀号也停止了；事实上，当你继续跑向飞船时，整个区域依然诡异地寂静。`
 			label ambush
-			`	When you arrive, however, you find that blocking your entry to the <ship> are two large creatures. Their glassy skin resembles that of the smaller creature you captured, but they are each several meters in size. Their feelers, rather than soft and downy, are whiplike and serrated and tipped with vicious-looking barbs that they thrust towards you and Sieasej upon noticing your presence. Their many eyes flick back and forth between you and the animal that you captured, and the two let out a loud wail in unison. Waves of red and blue run down Sieasej's body, probably an expression of fear.`
+			`	然而，当你到达时，发现两只巨大的生物挡住了你进入<ship>的道路。它们玻璃般的皮肤与你捕获的小动物相似，但每只都有几米大。它们的触须不再柔软长满绒毛，而是像鞭子一样带有锯齿，尖端长着看起来极其凶恶的倒刺。在注意到你们的存在后，它们就把触须向你和谢阿瑟猛刺过来。它们的众多眼睛在你和捕获的动物之间来回扫视，随后两只生物齐声发出响亮的哀号。一阵阵红色和蓝色的波纹在谢阿瑟身上闪过，这大概是恐惧的表现。`
 			choice
-				`	(Run past them.)`
-				`	(Shoot them with my sidearm.)`
+				`	（从它们旁边跑过去。）`
+				`	（用我的随身武器射击它们。）`
 					goto shoot
-				`	(Order my crew to fire a turret at them.)`
+				`	（命令我的船员用炮塔向它们开火。）`
 					to display
 						"flagship base attribute: turret mounts" > "flagship attribute: turret mounts"
 						"flagship crew" > ( "flagship required crew" - 1 )
 					goto "ship shoot"
-				`	(Release the animal that I captured.)`
+				`	（释放我捕获的动物。）`
 					goto release
-			`	You attempt to run past the creatures, but before you can even get close, one of them swings its barbed feeler at you, lodging it deep in your chest. The last thing you see is Sieasej hurrying away as the creatures pursue them as well.`
+			`	你试图从生物旁边跑过，但还没接近，其中一只就挥动带倒刺的触须，深深刺入你的胸膛。你最后看到的是谢阿瑟匆忙逃离，而那些生物也在追赶他们。`
 				die
 			label shoot
-			`	You draw your sidearm and fire at the creatures, striking one in its midsection. It crumples, and immediately after the other one charges at you. Just in time, you are able to shoot that one as well and it tumbles to the ground, kicking up dirt and leaf litter and wailing before going silent.`
+			`	你拔出随身武器向生物射击，击中了其中一只的腹部。它倒下，紧接着另一只向你冲来。你及时地也射中了那一只，它翻滚倒地，扬起泥土和落叶，哀号着直到安静下来。`
 				goto successful
 			label "ship shoot"
-			`	You radio to the <ship> and order your crew to fire a turret at the creatures. The power of starship weapons fired at such close range is enough to quickly and unceremoniously dispatch the pair before they have the opportunity to attack.`
+			`	你用无线电联系<ship>，命令你的船员用炮塔向这些生物开火。在如此近的距离，飞船武器的威力足以在它们有机会攻击之前迅速且利落地解决掉这一对。`
 				goto successful
 			label release
 			branch "release friends"
 				has "Successors FC3: nonviolent kijra-pet capture"
 			action
 				set "Successors FC3: released kijra-pet"
-			`	You gently set the animal you captured on the ground in front of you and back away from it slowly, shuffling to the side as the two larger creatures approach it and stroke it gently with their feelers. The smaller one wriggles a little before unfurling its gossamer wings and flitting away into the foliage. The two larger ones eventually follow, though not before one turns around to look at you and Sieasej and vocalizes.`
+			`	你轻轻地将捕获的动物放在面前的地上，慢慢后退，同时向旁边挪动。两只较大的生物靠近它，用触须轻轻地抚摸它。小动物扭动了一下，然后展开它薄纱般的翅膀，飞入了树叶中。两只较大的最终也跟了上去，不过其中一只在离开前转过头看着你和谢阿瑟发出了叫声。`
 				goto released
 			label "release friends"
 			action
 				set "Successors FC3: released kijra-pet"
 				set "Successors FC3: friend to animals" # Nonviolent capture AND released at first opportunity
-			`	You gently coax the animal off your arm and onto the ground in front of you, backing away from it slowly and shuffling to the side. It runs towards the larger two creatures, touching the tips of its feelers against theirs and trilling softly as before. After some time, it wriggles a little before unfurling its gossamer wings and flitting away into the foliage. The two larger ones eventually follow, though not before one turns around to look at you and Sieasej and vocalizes, a longer, lower trill almost like a cat's purr.`
+			`	你轻轻地把动物从胳膊上引到面前的地上，慢慢后退，同时向旁边挪动。它跑向那两只较大的生物，用触须尖端触碰它们的触须，像之前一样轻柔地颤鸣。过了一会儿，它扭动了一下，然后展开薄纱般的翅膀，飞入了树叶中。两只较大的最终也跟了上去，不过其中一只在离开前转过头看了看你和谢亚塞杰并发出叫声——一种更长、更低的颤鸣，几乎像猫的呼噜声。`
 				goto released
 			label successful
-			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say. "I'm sure Sioeora will be pleased with thee."`
-			`	While Sieasej returns to their cabin, you store the captured Kijra-riitaa in a spare animal-transport cargo container in the <ship>'s hold. It seems to dislike being caged, growling gently and pacing the container, kicking up bits of the straw inside.`
+			`	解决了较大的动物后，你和谢亚塞杰带着安然无恙的猎物冲进飞船。谢亚塞杰身上流动的色彩波浪慢慢消退。“干得好，船长，”他们最终说道，“我相信肖尔拉会对你满意的。”`
+			`	谢亚塞杰返回舱室后，你将捕获的基杰拉-瑞塔安置在<ship>货舱内的一个备用动物运输货柜中。它似乎不喜欢被关起来，在货柜里一边轻声低吼一边踱步，踢起里面的些许稻草。`
 			choice
-				`	(Leave it be.)`
+				`	（别管它。）`
 					goto "take off"
-				`	(Put some more bedding in the container.)`
-				`	(Release it.)`
+				`	（在货柜里多放些垫料。）`
+				`	（释放它。）`
 					goto "better late than never"
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	You rummage around in the other cargo containers until you find a bit of spare fabric scraps and leaf litter, a couple of handfuls of which you add to the animal's cage. With that sorted out, you make your preparations for takeoff.`
+			`	你在其他货柜里翻找，直到找到一些多余的布料碎屑和落叶，抓了几把加进这只动物的笼子里。处理完这些后，你做好了起飞准备。`
 				goto end
 			label "take off"
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	With the animal stowed away, you make your preparations for takeoff.`
+			`	将动物安置好后，你做好了起飞准备。`
 				goto end
 			label "better late than never"
 			action
 				set "Successors FC3: released kijra-pet"
-			`	You open the container's door and coax the Kijra-riitaa out of your ship. It takes flight shortly after stepping outside, soon disappearing into a speck against the vast blue sky. With nothing left to do here, you make your preparations for takeoff so that you can at least return Sieasej to their people.`
+			`	你打开货柜门，将基杰拉-瑞塔引出飞船。它出门后不久就飞了起来，很快在广阔的蓝天中变成一个小点并消失不见。在这里已无事可做，你做好了起飞准备，至少要把谢亚塞杰送回他们的人民那里。`
 				goto end
 			label released
-			`	The waves of color running over Sieasej's body slowly fade once the animals are gone. "I confess I hadn't picked thee for such a tender soul," they eventually say.`
+			`	动物离开后，谢亚塞杰身上流动的色彩波浪慢慢消退。“我承认，我没想到你是如此温柔的人，”他们最终说道。`
 			choice
-				`	"I only did what I thought would get us back alive."`
+				`	“我只是做了我认为能让我们活着回去的事。”`
 					goto "back alive"
-				`	"It wasn't right to hurt them."`
-			`	"Ah," they say. "We are fortunate, then, they thought the same of us."`
+				`	“伤害它们是不对的。”`
+			`	“啊，”他们说，“那么我们很幸运，它们对我们也有同样的想法。”`
 				goto "released 2"
 			label "back alive"
-			`	"Ah," they say. "Well I, for one, shall thank thee for thy prudence." After a delay, they add, "Even if my noble house shall not."`
+			`	“啊，”他们说，“嗯，就我而言，我要感谢你的谨慎。”停顿了一下，他们补充道，“即使我那高贵的家族不这么想。”`
 			label "released 2"
-			`	Sieasej briefly waves their device in the air unsuccessfully. "Nonetheless," they say, "thine act of mercy here entails us failure. Under threat, the adults shall surely shroud their issues, and so it is now here. It seems we must return with empty arms." They briefly undulate in a manner similar to a laugh. "I do not think I'd take another chase like that again regardless."`
-			`	The two of you return to the <ship> and make preparations for takeoff so that you can, at the very least, return Sieasej to their people.`
+			`	谢亚塞杰在空中短暂挥舞了一下他们的装置，但没有成功。“不过，”他们说，“你在此处的仁慈行为导致了我们的失败。在威胁之下，成年体肯定会藏匿它们的后代，现在就是这样。看来我们只能空手而归了。”他们简短地波动了一下，类似于笑。“不管怎样，我想我不会再经历一次那样的追逐了。”`
+			`	你们俩返回<ship>并做好起飞准备，至少要把谢亚塞杰送回他们的人民那里。`
 			label end
 
 	on fail
-		dialog `You failed to return Sieasej to their people in time. If you wish to continue the Successors' storyline, revert to a prior save.`
+		dialog `你未能及时将谢亚塞杰送回其族人身边。若想继续继承者的故事线，请读回之前的存档。`
 		"reputation: House Sioeora" = -999
 		"reputation: Successor" <?= 0
 		"reputation: House Chydiyi" <?= 0
@@ -600,14 +600,14 @@ mission "Successors: First Contact 3"
 			action
 				"reputation: House Sioeora" <?= 0
 				event "successors: released kijra-pet wait" 32
-				log "Released the animal House Sioeora requested I bring to them. Returned their citizen, but was barred from further dealings with the House."
-			`As before, you are directed to House Sioeora's private spaceport in the northern hemisphere, where a landing pad has already been cleared for your arrival. You and Sieasej are given fewer escorts than before, and you can't help but wonder if the absence of your quarry is particularly conspicuous to them. Soon enough, you once again arrive in the scions' chamber, where Riijaaora and the others stand waiting for you.`
-			`	"Hail, captain <last>!" Riijaaora says, this time speaking with their own voice. The sounds feel warped and uneven, as if they are being rearranged midair. "Tell us, hast thou brought that item of our desiring?"`
+				log "释放了休奥拉家族要求我带给他们的动物。归还了他们的公民，但我被禁止与该家族进行进一步的往来。"
+			`和之前一样，你被引导到位于北半球的肖尔拉家族的私人太空港，那里已经为你清理出了一个着陆坪。你和谢亚塞杰得到的护卫比之前更少，你不禁怀疑，缺少猎物是否在他们看来特别显眼。很快，你再次来到继承者们的议事厅，里贾奥拉和其他人正站在那里等着你。`
+			`	“向你致敬，<last>船长！”里贾奥拉说道，这次用的是他们自己的声音。那声音听起来扭曲且不均匀，仿佛在半空中被重新排列组合一般。“告诉我们，你可曾带来了我们想要的那件物品？”`
 			choice
-				`	"No, I have not."`
-				`	"I was almost killed! I'm done doing your dirty work."`
-			`	A flash of black, ruffled skin passes over Riijaaora's body. Several of the other scions perform similar displays. "'Tis a shame, captain," they say. "If thou can'st offer no utility to this House, then we see little point in retaining thee as an ally, much less rewarding thee for thy absent service. Trouble us no more, and begone." They turn around to face away from you, and the guards slowly peel away from the walls to escort you out. Sieasej remains watching until the door closes shut behind you.`
-			`	As you return to the landing pad, you notice that while your ship has been refueled, the pad itself is slowly being flooded in a none-too-subtle gesture that encourages you to leave.`
+				`	“不，我没有。”`
+				`	“我差点被杀了！我不想再帮你们干这种脏活了。”`
+			`	里贾奥拉的身上闪过一阵泛起褶皱的黑色皮肤。其他几位继承者也做出了类似的展示。“真遗憾，船长，”他们说，“如果你无法为这个家族提供任何价值，那我们就没有必要继续视你为盟友，更不用说为你那并未完成的效劳提供奖励了。别再打扰我们，走吧。”他们转过身去背对着你，守卫们缓缓离开墙壁，护送你出去。谢亚塞杰一直注视着你，直到门在你身后关上。`
+			`	当你返回着陆坪时，你注意到虽然你的飞船已经被加满了燃料，但着陆坪本身正在慢慢被水淹没——这是一个毫不含蓄的暗示，催促你离开。`
 				goto exit
 
 			label capture
@@ -623,55 +623,55 @@ mission "Successors: First Contact 3"
 				"reputation: House Aqrabe" += 2
 				"reputation: House Seineq" += 2
 				"reputation: People's Houses" += 2
-				log "Captured and returned the animal House Sioeora requested that I bring to them. Was rewarded with a translation device and historical data that allows me to land on most Successor worlds. Was told that assisting in jobs and missions for the Successors would eventually allow me to purchase some of their technology."
-			`As before, you are directed to House Sioeora's private spaceport in the northern hemisphere, where a landing pad has already been cleared for your arrival. Before leaving, you retrieve the caged Kijra-riitaa from the <ship>'s cargo bay. The animal looks a little pitiful with its wings folded up and body curled into a ball, but appears otherwise undamaged. You and Sieasej are given fewer escorts than before; what escorts you do have direct you deeper into the complex. Soon enough, you once again arrive in the scions' chamber, where Riijaaora and the others stand waiting for you.`
-			`	"Hail, captain <last>!" Riijaaora says, this time speaking with their own voice. The sounds feel warped and uneven, as if they are being rearranged midair. "We see that thou hast returned from thy hunt successful!"`
+				log "捕捉并归还了休奥拉家族要求我带给他们的动物。作为回报，我获得了一个翻译设备和历史数据，这使我能够在大多数继承者星球上着陆。我被告知，帮助继承者完成工作和任务最终会使我获准购买他们的一些技术。"
+			`和之前一样，你被引导到位于北半球的肖尔拉家族的私人太空港，那里已经为你清理出了一个着陆坪。出发前，你从<ship>的货舱中取出了关在笼子里的基杰拉-瑞塔。那只动物翅膀折叠、身体蜷缩成一团，看起来有点可怜，但似乎安然无恙。你和谢亚塞杰得到的护卫比之前更少；现有的护卫将你引向建筑群深处。很快，你再次来到继承者们的议事厅，里贾奥拉和其他人正站在那里等着你。`
+			`	“向你致敬，<last>船长！”里贾奥拉说道，这次用的是他们自己的声音。那声音听起来扭曲且不均匀，仿佛在半空中被重新排列组合一般。“我们看到你狩猎归来，大获成功！”`
 			choice
-				`	"Yes, I have."`
-				`	"Of course."`
-			`	Riijaaora wriggles their body in what might be an expression of joy before they and the other scions splay their arms before you. "Thou hast done this House great service, captain," they say. "We would be proud to call thee 'ally,' and reward thee for thine usefulness." One of the military officers standing beside the scions moves towards you and gently takes the caged animal from your hands. It chirps quietly as you hand it over.`
-			`	Riijaaora gestures to a small wooden pin affixed to the outer layer of their clothing. "We keep a number of these devices, full of sound and language, but very few for thine own tongue. This one... 'tis an art piece, issued many years past for a performance of thine own Shakespeare's Tempest so that our noble Predecessors could experience the work in its truest form. It is now thy promised gift."`
-			`	Riijaaora plucks the device from their outfit and offers it to you.`
+				`	“是的，我成功了。”`
+				`	“当然可以。”`
+			`	里贾奥拉扭动着身体，这或许是一种喜悦的表达，然后他们和其他继承者在你面前张开双臂。“你为本家族立下了大功，船长，”他们说，“我们很荣幸称你为‘盟友’，并为你的价值提供奖励。”站在继承者旁边的一位军官走向你，轻轻地从你手中接过装有动物的笼子。当你把它交过去时，它轻声啾啾叫着。`
+			`	里贾奥拉指着缀在他们衣物外层的一枚小木别针。“我们存有不少这样的装置，满载声音和语言，但属于你这种语言的很少。这一枚……是一件艺术品，许多年前为上演你们莎士比亚的《暴风》而发放，以便我们高贵的前辈们能够以最真实的形式体验这部作品。现在，它就是许诺给你的礼物。”`
+			`	里贾奥拉从衣服上摘下那枚装置，递给了你。`
 			choice
-				`	(Take it.)`
-			`	The device is made of carved wood, or at least something that appears like it, depicting in well-varnished grain a sailing ship washed against rocks. As you pin it on your jacket, the ship begins to gently rock in place and you feel a soft tingling in your ear canals. Riijaaora turns away from you to speak to Sieasej. "And think not, fair citizen, that thine own contributions shall go without recognition. Thou shalt be rewarded, too, for thy part in this." Riijaaora gestures for another officer to escort them away, though not before Sieasej offers you a short splay of their arms as a goodbye.`
-			`	An officer approaches you to offer you a data-sphere. "Within this," Riijaaora says, "lies knowledge of the history of most worlds within our space. Combined with thy newfound skill of tongues, thou should'st find our worlds and cities more revealing to thy gaze and more fruitful for thine efforts. Thou shall'st be permitted to looks upon our creations and our vessels. Should'st the prospect interest thee, we're sure that the other Houses in their council would agree to extend thee purchase rights, provided thou displays to them thy beneficence and utility. There're many minor tasks which need completion on our worlds; no doubt thy prompt assistance would help in such ingratiation to the others." Riijaaora wiggles. "'Tis all, unless thou hast more questions thou needeth us t'resolve?"`
+				`	（接过来。）`
+			`	那装置由雕花木头——或至少看起来像木头的东西制成，以漆面抛光、纹理分明的表面描绘着一艘拍打在岩石上的帆船。当你把它别在夹克上时，船开始轻轻地原地摇晃，你的耳道里感到一阵轻微的酥麻。里贾奥拉转过身去对谢亚塞杰说话。“也别忘了，好市民，你自己的贡献不会不被承认。你也会因你的参与而得到奖赏。”里贾奥拉示意另一位军官将谢亚塞杰带走，不过在此之前，谢亚塞杰向你短暂地张开了双臂，作为告别。`
+			`	一位军官走上前，递给你一个数据球。“这里面，”里贾奥拉说，“包含了我们星域内大多数世界的历史知识。结合你新获得的语言能力，你应该能更深入地了解我们的世界与城市，让你的努力更有收获。你将获准参观我们的造物和船只。若你对这个前景感兴趣，我们相信其他家族在其议会中也会同意向你开放购买权——前提是你向他们展现出你的善意和价值。在我们的世界上有许多需要完成的小任务；毫无疑问，你的及时协助将有助于赢得其他人的好感。”里贾奥拉扭动着身体。“就这些了，除非你还有其他问题需要我们解答？”`
 			label questions
 			choice
-				`	"I have no questions."`
+				`	“我没有问题。”`
 					to display
 						not "Successors: others"
 						not "Successors: animal"
 					goto end
-				`	"I have no more questions."`
+				`	“我没有问题了。”`
 					to display
 						or
 							has "Successors: others"
 							has "Successors: animal"
 					goto end
-				`	"Will being your ally bring me into conflict with the other Houses?"`
+				`	“成为你的盟友会让我与其他家族发生冲突吗？”`
 					to display
 						not "Successors: others"
 					goto others
-				`	"What are you going to do to the animal?"`
+				`	“你们打算怎么处理那只动物？”`
 					to display
 						not "Successors: animal"
 					goto animal
 			label others
 			action
 				set "Successors: others"
-			`	Riijaaora's skin blotches with colors. "Surely not, we think. For none would make so bold a slight as t'endanger the vassal of another. Thou may'st travel 'tween our stars 'thout fear."`
+			`	里贾奥拉的皮肤泛起色斑。“当然不会，我们想。因为没有人会如此无礼，敢于危及另一家的附庸。你可以无所畏惧地在我们的星辰间自由航行。”`
 				goto questions
 			label animal
 			action
 				set "Successors: animal"
-			`	"'Tis none of thy concern, fair captain. Though, if thou fear'st cruelty on our part, know well thy gift shall be by us well-kept and well-preserved. Fear not for it, and quell thy doubtful heart."`
+			`	“这不关你的事，好船长。不过，如果你担心我们会残忍对待它，请明白你的礼物会被我们好好照料和保存。不必为此担忧，打消你心中的疑虑吧。”`
 				goto questions
 			label end
 			action
 				clear "Successors: animal"
 				clear "Successors: others"
-			`	"Good. We bid thee good farewells, then, and good tidings in thy travels." Riijaaora and the other scions turn around to face their backs towards you. The officers who escorted you in escort you back out to your ship through the various sculptural passages of Sioeora's complex.`
+			`	“很好。那么我们祝你一路顺风，旅途愉快。”里贾奥拉和其他继承者转过身，背对着你。护送你进来的军官们带你穿过肖尔拉建筑群内各种充满雕塑的通道，返回你的飞船。`
 			label exit
 
 mission "Successors: Kaatrij Monoglot Prompt"
@@ -687,7 +687,7 @@ mission "Successors: Kaatrij Monoglot Prompt"
 		has "Successors: Unified Defense: offered"
 	on offer
 		conversation
-			`Shortly after you set the <ship> down on <origin>, you notice a faint trilling coming from your cabin on board. After rummaging through some of your belongings, you discover that it is coming from a Successor data-sphere, which is vibrating intensely. You pick it up, and it projects a message in a strange-looking alien script that you unfortunately do not recognize. If you ever acquired some alien translation equipment, you might be able to decode it.`
+			`将<ship>降落在<origin>上不久后，你注意到船舱里传来一阵微弱的颤音。在翻找了一些随身物品后，你发现声音来自一个正在剧烈震动的继承者数据球。你拿起它，它投射出一条看起来像某种奇特外星文字的消息——可惜你并不认得。如果你曾获得过一些外星翻译设备，或许就能解码它。`
 				decline
 
 mission "Successors: First Contact 3: Fix Friend to Animals"
@@ -708,8 +708,8 @@ mission "Successors: Kaatrij First Contact 1"
 	landing
 	clearance
 	infiltrating
-	name "Summons to <destination>"
-	description "A Successor data-sphere left in your ship appears to be issuing a summons from House Kaatrij to <destination>."
+	name "前往<destination>的传唤"
+	description "留在你飞船里的一个继承者数据球似乎正在发出来自卡特里吉家族前往<destination>的传唤。"
 	destination "Raaqa-Puan-Uuoru"
 	to offer
 		has "event: successors: released kijra-pet wait"
@@ -721,7 +721,7 @@ mission "Successors: Kaatrij First Contact 1"
 		has "Successors: Unified Defense: offered"
 	substitutions
 		"<coalition ally>" "Heliarchy"
-		"<coalition ally>" "Lunarium"
+		"<coalition ally>" "月影社"
 			has "joined the lunarium"
 	on offer
 		conversation
@@ -729,137 +729,137 @@ mission "Successors: Kaatrij First Contact 1"
 				has "Successors: Kaatrij Monoglot Prompt: offered"
 			branch hai
 				has "language: Hai"
-			`Shortly after you set the <ship> down on <origin>, you notice a faint trilling coming from your cabin on board. After rummaging through some of your belongings, you discover that it is coming from a Successor data-sphere, which is vibrating intensely. You pick it up, and it projects a message in a familiar-looking script that you quickly realize belongs to one of the species of the Coalition. After running the text through the translation box you acquired from the <coalition ally>, you are able to decode the message:`
+			`将<ship>降落在<origin>上之后不久，你注意到飞船的舱室里传来一阵微弱的颤音。在翻找了一些随身物品后，你发现声音来自一个正在剧烈震动的继承者数据球。你拿起它，它投射出一条信息，文字看上去很眼熟，你很快意识到那是属于联盟某个种族的文字。通过从<coalition ally>获得的翻译盒处理这段文字后，你得以解码这条信息：`
 				goto "message coalition"
 			label hai
-			`Shortly after you set the <ship> down on <origin>, you notice a faint trilling coming from your cabin on board. After rummaging through some of your belongings, you discover that it is coming from a Successor data-sphere, which is vibrating intensely. You pick it up, and it projects a message in a familiar-looking script that you quickly realize is that of the Hai. After running the text through your ship's Hai translator, you are able to decode the message:`
+			`将<ship>降落在<origin>上之后不久，你注意到飞船的舱室里传来一阵微弱的颤音。在翻找了一些随身物品后，你发现声音来自一个正在剧烈震动的继承者数据球。你拿起它，它投射出一条信息，文字看上去很眼熟，你很快意识到那是亥族的文字。通过飞船上的亥族翻译器处理这段文字后，你得以解码这条信息：`
 				goto "message hai"
 
 			label "was monoglot"
 			branch "hai monoglot"
 				has "language: Hai"
-			`Upon landing here, you briefly remember the Successor data-sphere that you found on your ship some time ago. Given that you've recently acquired a Coalition translation box, you might be able to decode its message.`
+			`降落到这里后，你短暂地想起了之前在飞船上发现的那个继承者数据球。既然你最近得到了一个联盟翻译盒，也许你能解码它的信息。`
 			choice
-				`	(Try to decode it.)`
-				`	(Maybe later.)`
+				`	（尝试解码。）`
+				`	（以后再说。）`
 					defer
-				`	(Don't decode it.)`
+				`	（不解码。）`
 					decline
-			`	You retrieve the sphere, and it projects its message in a familiar-looking script that you quickly realize belongs to one of the species of the Coalition. After running the text through the translation box you acquired from the <coalition ally>, you are able to decode it:`
+			`	你取回了数据球，它投射出一条信息，文字看上去很眼熟，你很快意识到那是属于联盟某个种族的文字。通过从<coalition ally>获得的翻译盒处理这段文字后，你得以解码它：`
 				goto "message coalition"
 			label "hai monoglot"
-			`Upon landing here, you briefly remember the Successor data-sphere that you found on your ship some time ago. Given that you've recently acquired a Hai translator, you might be able to decode its message.`
+			`降落到这里后，你短暂地想起了之前在飞船上发现的那个继承者数据球。既然你最近得到了一个亥族翻译器，也许你能解码它的信息。`
 			choice
-				`	(Try to decode it.)`
-				`	(Maybe later.)`
+				`	（尝试解码。）`
+				`	（以后再说。）`
 					defer
-				`	(Don't decode it.)`
+				`	（不解码。）`
 					decline
-			`	You retrieve the sphere, and it projects its message in a familiar-looking script that you quickly realize belongs to the Hai. After running the text through the translation box you acquired from them, you are able to decode it:`
+			`	你取回了数据球，它投射出一条信息，文字看上去很眼熟，你很快意识到那是亥族的文字。通过从他们那里获得的翻译盒处理这段文字后，你得以解码它：`
 				goto "message hai"
 			label "message coalition"
-			`		AUDIENCE OF HUMAN CAPTAIN, HOUSE KAATRIJ REQUESTS`
+			`		卡特里吉家族请求，与人类船长会面`
 				goto end
 			label "message hai"
-			`		HOUSE KAATRIJ [REQUESTS, REQUIRES] AUDIENCE OF HUMAN CAPTAIN`
+			`		卡特里吉家族[请求、需要]与人类船长会面`
 			label end
-			`	The sphere slowly switches back and forth between displaying this message and a map to a system in western Successor space.`
+			`	数据球缓慢地在显示这条信息和一张指向继承者空间西部某星系的星图之间来回切换。`
 				accept
 	on complete
 		conversation
-			`As you enter this planet's atmosphere, the data-sphere begins to trill again and projects a different map, this time highlighting a set of coordinates on the night side. You adjust your course to fly there, setting down the <ship> on a patch of land next to a large lake. The data-sphere offers no further guidance.`
+			`当你进入这颗行星的大气层时，数据球再次发出颤音，并投射出另一张星图，这次高亮显示了夜半球的一组坐标。你调整航线飞往那里，将<ship>降落在湖边的一块平地上。数据球没有提供进一步的指引。`
 			choice
-				`	(Wait.)`
-			`	A couple of animals swim in the water in the distance, making faint honking sounds every once in a while that linger in the starlit air.`
+				`	（静观其变。）`
+			`	远处有几只动物在水中游动，偶尔发出微弱的鸣叫声，在星光弥漫的空气中回荡。`
 			choice
-				`	(Look around.)`
-				`	(Leave.)`
+				`	（环顾四周。）`
+				`	（离开。）`
 					goto premature
-			`	The glow of the <ship>'s lights attract a swarm of flying insect-like creatures that vainly dive at them again and again. A gentle breeze ripples through the leaves of the flora surrounding the lake.`
+			`	<ship>的灯光吸引了一群飞行的虫类生物，它们一次又一次徒劳地俯冲撞向灯光。微风吹过湖周围植物的叶片，泛起涟漪。`
 			choice
-				`	(Check my sensors.)`
-				`	(Leave.)`
+				`	（检查传感器。）`
+				`	（离开。）`
 					goto premature
-			`	Inside, a light on the cockpit control panel flashes as if your ship were being scanned, but there's nothing on the sensors, and the alert disappears almost immediately after it began. Soft thunderclaps from a distant storm startle the animals on the lake and they leap up into the air before gliding back down onto the water's surface some distance away.`
+			`	在驾驶舱内，控制面板上的一个灯开始闪烁，好像你的飞船正在被扫描，但传感器上什么也没有，警报几乎刚亮起就立刻消失了。远处风暴传来的轻柔雷声惊动了湖上的动物，它们跳起来，在空中滑翔一段距离后落回水面。`
 			choice
-				`	(Step outside.)`
-				`	(Leave.)`
+				`	（走出舱外。）`
+				`	（离开。）`
 					goto premature
-			`	The minutes of the night wear on and, curious, you step out on your ship's boarding ramp to get a better view of your surroundings, to no avail. Despite this, you continue to wait. Eventually, after the night has worn on a little more, you hear the sound of water rushing; a small vehicle emerges from the lake and parks itself alongside your ship. A couple of Successors get out, one of whom approaches you.`
-			`	"Captain <first> <last>," they say. Their voice sounds strange, like their words are being carried from a great distance on the wind; the sounds ripple and bend as they speak them.`
+			`	夜色渐深，出于好奇，你走下飞船的舷梯想更好地观察周围环境，但一无所获。尽管如此，你继续等待。又过了一段时间，你听到了水流声；一辆小型载具从湖中浮出，停在你的飞船旁边。几个继承者走了出来，其中一个向你走来。`
+			`	“船长<first> <last>，”他们说道。他们的声音听起来很奇怪，仿佛话语是乘着远方的风传来的；他们说话时，声音泛起涟漪并扭曲。`
 			choice
-				`	"That's right."`
-				`	"Who are you?"`
-			`	"Hmm. Good. I'm an envoy of the noble scions of House Kaatrij. I attest this myself as Saajret, of Somber Sejra." Saajret's skin erups with green splashes as they say this. "Thy lib'ral patience is well-appreciated." They splay their arms in the same manner as when you were first greeted by the Successors, and the two others behind them do so as well. "Ah," they continue, "but thou surely must be curious as to why we've called thee here. Thine actions, knowing or not, have benefited this noble House, and 'twould be craven fools to fail to recognize that fact. Prithee understand thee now that Raaqa-Uur-Kaav was our world and not Sioeora's. So too, the Kijran, ours, were never theirs to hold or grasp for."`
+				`	“没错。”`
+				`	“你是谁？”`
+			`	“嗯。很好。我是卡特里吉家族高贵后裔的使者。我以悲伤的塞伊拉家族的萨杰雷特之名亲自作证。”萨杰雷特说话时，皮肤上泛起绿色斑点。“感谢您的耐心等待。”他们像当初继承者第一次迎接你时那样摊开双臂，身后的另外两人也照做。“啊，”他们继续说道，“但您一定很好奇我们为何召您前来。您的所作所为——无论有意与否——都使本高贵家族受益，我们若是愚蠢到不承认这一点，那便是懦夫。请您现在明白，拉卡-乌尔-卡夫是我们的世界，不是肖尔拉家族的。同样，基吉兰也是我们的，从来不是他们能掌控或染指的。”`
 			choice
-				`	"So the Kijran belong to you?"`
+				`	“所以基吉兰属于你们？”`
 					goto kijran
-				`	"How is it that you can communicate with me?"`
+				`	“你们怎么能和我交流？”`
 					to display
 						not "language: Successor"
 					goto communicate
 			label questions
 			choice
-				`	"How is it that you can communicate with me?"`
+				`	“你们怎么能和我交流？”`
 					to display
 						not "language: Successor"
 					goto communicate
-				`	"What is next?"`
+				`	“接下来呢？”`
 					to display
 						has "language: Successor"
 					goto end
-				`	"Will your supporting me cause conflict with House Sioeora?"`
+				`	“支持我会导致与肖尔拉家族的冲突吗？”`
 					to display
 						has "language: Successor"
 						not "Successors: sioeora"
 					goto sioeora
-				`	"Can you tell me more about yourself?"`
+				`	“能多谈谈你自己吗？”`
 					to display
 						has "language: Successor"
 						not "Successors: saajret"
 					goto saajret
-				`	"You mentioned earlier that the Kijran 'belong' to you?"`
+				`	“你之前说基吉兰‘属于’你们？”`
 					to display
 						not "Successors: kijran"
 					goto kijran
 			label kijran
 			action
 				set "Successors: kijran"
-			`	Saajret shivers with texture. "More than just 'belong to us,' 'tis true. The Kijran - Kiitaa and Khora alike - are our creations, bred and shaped as the hybrids of a dozen strains. Why was it that the life of our world endured while the life of the rest has long since perished, eroded by the harshness of the gravid void 'tween blasted stars? 'Twas the old House Kaatrij that strengthened their children against this decay. That we were forced to leave them behind was one among many sorrows, and 'tis much better thy quarry flies free than for another House to subject our charges to their whims.`
+			`	萨杰雷特全身泛起纹理般的抖动。“不仅仅是‘属于我们’，这是事实。基吉兰——基塔和霍拉——都是我们的造物，由十几个品系杂交培育而成。为什么我们世界的生命得以延续，而其他世界的生命早已消亡，被破碎星辰之间严酷的虚无所侵蚀？是古老的卡特里吉家族强化了他们的后代，使其免受这种衰败。我们被迫将它们留在原地，这只是众多悲哀之一；让你的猎物自由飞翔，总好过让其他家族将我们的子民置于他们的奇想之下。”`
 				goto questions
 			label communicate
-			`	"Ah, there's that matter. Much as the High Houses might prefer to believe that they, or rather we, act all within the veil of secrecy, we're all too intertwined to keep our projects hidden for too long. The details of thine arrangement with Sioeora and its repercussions were apparent t'us soon after its conclusion. And surely too, will the details of this meeting eventually become apparent to the other Houses and their scions."`
-			`	Saajret pauses for a moment to straighten some aspects of their clothing, before gesturing to a small wooden pin affixed to an outer layer of fabric. "We keep a number of these devices, full of sound and language, but very few for thine own tongue: this is the only one for which that we possess. I'm told it is an art piece, commissioned for a performance of thine own Shakespeare's Tempest so that our Predecessors could experience the work in its original form. 'Tis far too old and rare for it t'marry with our equipment; and so the need to contact thee in the words of another."`
-			`	Saajret plucks the device from their outfit and offers it to you.`
+			`	“啊，还有那个问题。尽管高等家族可能倾向于相信他们——或者说我们——都在秘密的面纱下行事，但我们彼此纠缠得太紧，无法长期隐藏我们的计划。你与肖尔拉家族协定的细节及其后果，在协定达成后不久我们就已明了。同样，这次会面的细节最终也会被其他家族及其后裔知晓。”`
+			`	萨杰雷特停顿了一下，整理了一下衣着的某些部分，然后指向别在外层织物上的一枚小木别针。“我们保存了一些这样的设备，里面充满了声音和语言，但属于你舌头的很少：这是我们仅有的一个。我被告知这是一件艺术品，是为表演你们莎士比亚的《暴风雨》而订制的，以便我们的前辈能以原版形式体验这部作品。它太古老、太稀有，无法与我们的设备结合；所以只好借用别人的话语来与你联系。”`
+			`	萨杰雷特从衣服上取下那个装置递给你。`
 			choice
-				`	(Take it.)`
+				`	（接过来。）`
 			action
 				set "language: Successor"
-			`	The device is made of carved wood, or at least something that appears like it, depicting in well-varnished grain a sailing ship washed against rocks. As you pin it on your jacket, the ship begins to gently rock in place.`
-			`	"'Tis a gift from House Kaatrij to thee, Captain," Saajret says. "Thou hast rendered service to this House, and in return we'll do the same for thee. So long as thou wear'st it, it shall translate our words to thee and thine to us. Pray treat it kindly, for it's unique enough that we cannot offer replacement." Saajret splays their arms again as if to emphasize the end of the statement.`
+			`	这个装置由雕花木材——或者至少看起来像木材的东西——制成，漆面精美的纹理上描绘着一艘帆船撞在岩石上。当你把它别在夹克上时，帆船开始轻轻晃动。`
+			`	“这是卡特里吉家族送给你的礼物，船长，”萨杰雷特说道。“你为本家族提供了服务，作为回报，我们也会同样为你服务。只要你佩戴着它，它就能将我们的话翻译给你，你的话翻译给我们。请善待它，因为它独一无二，我们无法提供替换品。”萨杰雷特再次摊开双臂，仿佛要强调这句话的结尾。`
 				goto questions
 			label sioeora
 			action
 				set "Successors: sioeora"
-			`	Saajret hums in a way you can't quite place. "Sioeora will no doubt be upset that one of the New Houses now patronizes the alien they first met, but they are forced enough to swim in the water that they themselves have salted. Thou shouldn'st fear their ire, beyond their politicking, and that is something we are used enough to living with."`
+			`	萨杰雷特以一种你无法确切分辨的方式哼了一声。“肖尔拉家族无疑会感到不安，因为一个新派家族现在赞助了他们首次遇到的外星人，但他们也只能吞下自己酿造的苦果。你不必惧怕他们的怒火，顶多也就是些政治手腕——而这种事我们早已习以为常。”`
 				goto questions
 			label saajret
 			action
-				log "People" "Saajret, of Somber Sejra" "Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij. They are a member of the noble lineage of the now-defunct House Sejra, some of whose citizens were absorbed into House Kaatrij during the partial collapse of their Predecessors' society."
+				log "People" "Saajret, of Somber Sejra" "黯淡塞杰拉的萨杰雷特是继承者卡特里吉高门的档案馆员（亦担任其他职务）。他们是现已消亡的塞杰拉高门高贵血统的成员，在先驱者社会发生部分崩溃期间，该高门的部分公民被并入了卡特里吉高门。"
 				set "Successors: saajret"
-			`	A wave of pink cascades along Saajret's arms before they reply. "I am Saajret, honored citizen of noble House Kaatrij, member of the somber noble line of House Sejra, which no longer stands as naught but a banner under Kaatrij's watchful wings. Ah. Not all our Houses survived the fall: Jaasii, Vejret, Ijridanii, Sejra, and many more were lost forever, their families splintered and histories broken. Kaatrij absorbed the citizens of some into itself, and now'ts a patchwork that reminds us that we're all patchworks, metamorphic and composed. My roles in it are many, but first among them, I am an archivist, of sorts. I am t'preserve the old technology that still remains in our possession and, when necessary, put it to use, as best as we judge it can be."`
+			`	一道粉色波浪沿着萨杰雷特的手臂蔓延开来，然后回答道：“我是萨杰雷特，高贵的卡特里吉家族的荣誉公民，悲伤的塞伊拉家族高贵血脉的成员——塞伊拉家族如今已不复存在，只剩下卡特里吉庇护之翼下的一面旗帜。啊，并非我们所有的家族都在那场陨落中幸存：贾西、维杰雷特、伊吉里达尼、塞伊拉，以及更多家族永远消失了，它们分崩离析，历史支离破碎。卡特里吉吸收了其中一些家族的公民，如今它是一个拼凑体，提醒我们大家都是拼凑体，变化无常且由碎片构成。我在其中的角色很多，但首要的，我算是某种档案管理员。我负责保存我们手中仅存的古老科技，并在必要时，以我们判断的最佳方式加以利用。”`
 				goto questions
 			label premature
-			`	Deciding that you've waited long enough, you activate the <ship>'s repulsor thrusters and return to orbit.`
+			`	觉得已经等得够久了，你启动<ship>的推进器返回轨道。`
 				flee
 			label end
-			`	Saajret produces a data-sphere and hands that to you as well. "Within this," they say, "is historical data for most of the worlds within our space. Combined with thy newfound graces of our language, thou should'st find thine efforts of our worlds and cities t'be more revealing and fruitful. Officially, thou shalt be a patronized guest of House Kaatrij and shall proceed with our protection and our blessings. Thou may'st be able to purchase a certain set of petty works without frustration, but most of our technologies require vetting that, as an alien, may take thee time and effort to fulfill. Should'st the prospect interest thee, thine assistance with jobs and other tasks would doubtless help to prove thee t'be an ally to our people."`
-			`	Saajret pauses to adjust their clothing once again. "I must bid thee now farewell, Captain <first> <last>. Kaatrij will continue t'apprise ourselves of thine actions. I hope that next we speak shall be on equally positive terms." With this, Saajret and their escort return to the vehicle, which glides back into the lake. By the time that the <ship> is ready to take off, the ripples on the water have almost entirely dissipated and the first glimmers of sunlight are creeping over the distant hills.`
+			`	萨杰雷特又拿出一个数据球递给你。“这里面，”他们说道，“是我们空间内大多数世界的历史数据。结合你刚掌握的我们的语言，你应该会发现对我们的世界和城市的探索将更加深入且富有成果。正式而言，你将成为卡特里吉家族赞助的客人，并在我们的保护与祝福下行事。你或许可以顺利购买一些基础造物，但我们的大多数科技都需要经过审核，而作为一名外星人，你可能需要花费时间和精力才能满足要求。如果这个前景让你感兴趣，你在工作和其他任务上的协助，无疑会有助于证明你是我族人民的盟友。”`
+			`	萨杰雷特再次停顿了一下，整理衣服。“我现在必须向你告别了，船长<first> <last>。卡特里吉将继续关注你的行动。我希望我们下次交谈时能同样保持积极的氛围。”说完，萨杰雷特和随行人员返回载具，载具滑入湖中。当<ship>准备好起飞时，水面上的涟漪几乎完全消散，第一缕阳光正悄然爬过远方的山丘。`
 			action
 				clear "Successors: kijran"
 				clear "Successors: saajret"
 				clear "Successors: sioeora"
-				log "Summoned by the Successor High House Kaatrij to their homeworld, where it was explained that they are the ancestral keepers of the animals that I refused to capture for House Sioeora. Was rewarded for keeping the animals from Sioeora with a translation device and cultural data, which open up many of the Successors' worlds to me. Was told that assisting in jobs and missions for the Successors would eventually allow me to purchase some of their technology."
+				log "受继承者卡特里吉高等家族召唤前往其母星。他们向我解释道，自己是那些我拒绝为肖尔拉家族捕获的动物的世代守护者。因为我没有帮肖尔拉捕获这些动物，我获得了一个翻译设备和文化数据作为奖励，这向我开放了许多继承者的世界。我被告知，协助继承者完成工作和任务，最终能让我购买他们的一些技术。"
 				set "known to the successors"
 				set "successors kaatrij patron"
 				event "successors: trust 1"
@@ -873,8 +873,8 @@ mission "Successors: Kaatrij First Contact 1"
 
 mission "Successors: Trusted"
 	landing
-	name "Meet the High Houses"
-	description "The High Houses are pleased with how you've conducted yourself in Successor space, and wish to meet with you in council to strengthen your relationship."
+	name "会晤高门"
+	description "高等家族对你在继承者空间中的表现感到满意，并希望与你在议事会议上会面，以加强彼此的关系。"
 	source
 		attributes "successor"
 		not attributes "quiet" "crime" "uninhabited"
@@ -895,13 +895,13 @@ mission "Successors: Trusted"
 		"reputation: Old Houses" += 1
 		"reputation: New Houses" += 1
 		conversation
-			`Soon after you set down in the spaceport here, you are approached by a group of Successors in naval uniforms, clearly and surprisingly in the employ of multiple various High Houses; there is some variance in the design of the uniforms of different members. Their leader addresses you in a calm tone with the unmistakable coolness that military officers seem to hold regardless of species, their skin remaining a flat gray throughout.`
-			`	"Captain <last>. The High Houses have noted thine actions in their space, and, wishing to make thee a stronger ally to their cause, have summoned thee to meet them in council. Thou art encouraged to make haste to the <system> system.`
+			`你刚在太空港降落，一群海军制服的继承者便朝你走来。他们显然受雇于多个不同的高等家族——成员们的制服样式略有差异。领头的用一种平静的语气向你说话，带着无论哪个物种的军官都有的冷静沉着，他们的皮肤始终是平灰色。`
+			`	“船长<last>。高等家族已注意到你在他们星域中的行动，并希望将你培养成他们事业的更强盟友，故而召你前往议会与他们会面。建议你尽快前往<system>星系。”`
 			choice
-				`	"Thank you for telling me. I'll prepare to travel there immediately."`
+				`	“谢谢你告诉我。我立刻就准备前往那里。”`
 					accept
-				`	"What do you mean 'meet them in council?'"`
-			`	"The Houses often meet together t'determine what's t'be done about those things which matter to them all. Several del'gates of the High Houses hath gathered t'decide their plans for thee now that thou's proved thy usefulness and goodwill. More than that, I cannot say."`
+				`	“你说的‘在议会与他们会面’是什么意思？”`
+			`	“各大家族经常聚在一起，共同决定如何处理对大家都重要的事务。既然你已证明了自己的用处与善意，高等家族的几位代表已经汇集，来决定关于你的计划。更多的，我就不能再说了。”`
 				accept
 	on complete
 		set "license: Successor"
@@ -909,126 +909,126 @@ mission "Successors: Trusted"
 		"reputation: House Chydiyi" += 1
 		set "trusted by the successors"
 		event "successors: trust 2"
-		log "Summoned to meet with the Successor High Houses in council and given the right to purchase their civilian technology."
-		log "Factions" "Successors" `The High Houses are organized into two large alliances called the Old and New Houses, which have historically been in tension with each other. The Houses cooperate in council with their allies and the other Houses in general.`
+		log "奉召与继承者高等家族会面议事，并获准购买其民用科技。"
+		log "Factions" "Successors" `高等家族被组织成两大联盟，即旧派家族与新派家族，两者历来关系紧张。各家族与盟友以及其他家族在议事会中总体上保持合作。`
 		conversation
-			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them all is a small white and blue pin attached to their outfits; one that does not correspond to the insignia of any of the High Houses. The officers guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers, if it even carried those in the first place.`
-			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejeweled that you suspect their personal effects are worth more than most starships. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration.`
-			`	As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and then approaches.`
-			`	"Captain! Well-met again! Thou hast arrived at a fortunate hour, for there's still some minutes 'fore this day's meetings are scheduled to begin."`
+			`你在太空港降落后，另一群继承者海军军官迎了上来。你注意到这群人比上一批更加多样，代表着几种不同的制服风格和配色。统一他们的是别在衣服上的蓝白小徽章——这并不对应任何高等家族的纹章。军官们礼貌而坚定地引导你走向从太空港蜿蜒而出通往行星其他设施的单轨列车之一，你们一起挤进一节车厢，这节车厢似乎已被清空了普通乘客——如果它原本有载客的话。`
+			`	几分钟后，单轨列车将你送到一座特别宏大且装饰精美的建筑群，这里挤满了军人和衣着考究的平民，有些人看起来如此华丽、珠光宝气，让你怀疑他们的个人物品比大多数星舰还要值钱。他们每个人都无一例外地佩戴着与你护卫相同的蓝白徽章，不过许多人已将其融入服装设计，甚至展示为肤色上的图案。`
+			`	当你的护卫融入人群时，你看到远处一张熟悉的面孔：继承者学者西阿塞杰。他们看到你后明显振奋起来，然后走近。`
+			`	“船长！又见面了！你来得正是时候，离今天的会议开始还有几分钟。”`
 			label questions
 			choice
-				`	"We'd better get started, then."`
+				`	“那我们最好现在就开始。”`
 					goto start
-				`	"Can you explain what's going on here?"`
+				`	“能解释一下这里发生了什么吗？”`
 					to display
 						not "Successors: explain"
 					goto explain
-				`	"How has House Sioeora been?"`
+				`	“肖尔拉家族最近怎么样？”`
 					to display
 						not "Successors: sioeora"
 					goto sioeora
-				`	"What are you doing here?"`
+				`	“你在这里做什么？”`
 					to display
 						not "Successors: about you"
 					goto "about you"
 			label explain
 			action
 				set "Successors: explain"
-			`	"This is a diplomatic world for envoys of the Houses to meet in council, resolve disputes, bicker, fight, and unify. And I suspect for thine own case, to offer special dispensation to useful citizens and patronized aliens."`
+			`	“这是一个外交世界，供各家族的使节在议会中会面、解决争端、争吵、争斗以及团结一致。而就你的情况而言，我猜是为了向有用的公民和受赞助的外星人提供特许。”`
 				goto questions
 			label sioeora
 			action
 				set "Successors: sioeora"
 			branch "sioeora opposed"
 				has "successors kaatrij patron"
-			`	"Our mutual patrons remain their usual selves, with all that this entails. Would'st thou believe that Riijaaora themself informed me of thine invitation here? They've made themself a leader 'mong the others for their fruitful advocacy of thee... ah, but I digress. Let it suffice to say that Sioeora doubtless shall support thee here today, for thou'rt by now a successful investment on their part."`
+			`	“我们的共同赞助人还是老样子，包括随之而来的一切。你能相信吗，是里加奥拉亲自告诉我你受邀来此的？他们因为对你富有成果的倡导，已经成为了其他人中的领袖……啊，我跑题了。长话短说，肖尔拉家族今天无疑会支持你，因为你现在已经是他们相当成功的一笔投资了。”`
 				goto "sioeora choice"
 			label "sioeora opposed"
-			`	"Ah, do they approve o'thy presence here and that?" Sieasej briefly examines a suckered arm before leaning in a little closer. "'Tis true the scions of my honored House remain towards thee a little chilly; and doubly so for thy finding of another patron which, I confess, may be what irks them most. Thou nonetheless remaineth a person of interest to them, and I suspect they'd be quite pleased to know that I'd encountered thee in council. So, let them brood, I say, for if Sioeora requires thee once more, they shan't be so knavish so's not to make thine acquaintance 'gain, methinks."`
+			`	“啊，他们赞成你来这里吗？”西阿塞杰短暂地检查了一下长有吸盘的手臂，然后凑近了一点。“说实话，我那尊贵家族的子弟们对你仍有些冷淡；尤其是你又找了另一个赞助人，我承认，这可能是最让他们恼火的。尽管如此，你依然是他们感兴趣的人物，我猜他们会很高兴知道我在议会上遇到了你。所以，我说，就让他们去生闷气吧，因为如果肖尔拉家族再次需要你，我想他们还不至于愚蠢到不去重新结交你。”`
 			label "sioeora choice"
 			choice
-				`	"We'd better begin, then."`
+				`	“那我们最好开始吧。”`
 					goto start
-				`	"Council?"`
+				`	“议会？”`
 					to display
 						not "Successors: explain"
 					goto explain
-				`	"What are you doing here?"`
+				`	“你在这里做什么？”`
 					to display
 						not "Successors: about you"
 					goto "about you"
 			label "about you"
 			action
 				set "Successors: about you"
-			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned here as well, for thine arrival among our worlds has sparked some interest in our past dealings with thy kind. I've been instructed to speak to some groups here as a so-called expert on the subject."`
+			`	西阿塞杰短暂地泛起了一层绿色，你几乎可以把这种表现形容为脸红。“我也是被召来的，因为你来到我们的世界，引发了我们对过去与你同类打交道历史的兴趣。我受命以所谓该领域‘专家’的身份，向这里的几个团体发表演讲。”`
 			choice
-				`	"Indeed. I'm ready to begin, then."`
+				`	“确实。我准备好开始了。”`
 					goto start
-				`	"How has House Sioeora been?"`
+				`	“肖尔拉家族最近怎么样？”`
 					to display
 						not "Successors: sioeora"
 					goto sioeora
 			label start
-			`	"Good! We'd be wise to be prompt in our arrival t'our events."`
-			`	Sieasej brings you to a concierge of sorts, who eventually informs you that you should make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool; you can't help but wince a little as the frigid water floods your boots.`
+			`	“好！我们最好准时到达活动地点。”`
+			`	西阿塞杰带你去见一位类似接待员的人，对方最终告知你应该前往从大厅分叉出的一个小房间。门打开后，露出一个花园般的区域，长叶植物环绕着一个半满水的中央凹陷。几位继承者——许多人像之前一样衣着华丽——聚集在水池中；当冰冷的水淹没你的靴子时，你忍不住皱了一下眉。`
 			branch kaatrij
 				has "successors kaatrij patron"
-			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
-			`	"Captain. House Sioeora's supported thee with the gift of our device of tongues, and we continue t'recognize thy potential as an ally. We wish to further 'ppreciate the good that thou hast done upon our worlds, and we propose thou be awarded purchase rights for our petty technologies."`
-			`	That representative then returns to the outer rim of the circle and another takes the center, this time facing the representative who just spoke.`
-			`	"House Sioeora. House Chydiyi well sees thy perspicacity and, too, the value demonstrated by the captain, and so we support thy just proposal. The captain's proven themself t'be a benevolent traveler in our space, for whom we've every desire to make an ever more positive and useful element."`
-			`	A third representative now takes the center position, addressing the two previous speakers.`
-			`	"Noble Houses Sioeora and Chydiyi. House Kaatrij proposes this alien be given no further rights nor gifts until they have proved themself neutral. The Old Houses, which Sioeora and Chydiyi do today here represent, doth clearly seek to sway this alien's favor through brib'ry and deceit, t'exploit their lack of knowledge of our practices, and use them as they've already done to further their own interests in conflict with the common good."`
-			`	That representative then returns to the edge of the circle, where they continue to eye you with suspicion. There is a pause in the conversation.`
+			`	几分钟后，其他继承者陆续到来，会议正式开始。一位继承者走到水池中央，直接对你讲话。`
+			`	“船长。肖尔拉家族用我们的语言装置支持了你，我们继续认可你作为盟友的潜力。我们希望进一步感谢你为我们的世界所做的好事，并提议授予你购买我们低级技术的权利。”`
+			`	那位代表随后回到圆圈外缘，另一位代表走到中央，这次面向刚刚发言的代表。`
+			`	“肖尔拉家族。奇迪伊家族看到了你的远见，也看到了船长展示的价值，因此我们支持你公正的提议。船长已证明自己是我们空间中一位仁慈的旅行者，我们非常希望使其成为更积极、更有用的元素。”`
+			`	第三位代表现在走到中央位置，对前两位发言者讲话。`
+			`	“尊贵的肖尔拉家族和奇迪伊家族。卡特里吉家族提议，在这名外星人证明自己中立之前，不得再授予其任何权利或礼物。旧派家族——今天肖尔拉和奇迪伊在此代表——显然试图通过贿赂和欺骗来左右这名外星人的好感，利用他们对我们的习俗缺乏了解，像他们已经做的那样，为自身利益服务，损害共同利益。”`
+			`	那位代表随后回到圆圈边缘，继续怀疑地看着你。谈话中出现了停顿。`
 			choice
-				`	(Remain silent.)`
+				`	（保持沉默。）`
 					goto silent
-				`	"I don't intend to take sides in your conflicts."`
+				`	“我不打算在你们的冲突中选边站。”`
 					goto no
 			label kaatrij
-			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
-			`	"Guest-captain. House Kaatrij's before supported thee with the gift of our translation pin, and in return thou'st proved the foresight of this offer with thy public acts of help and industry. We wish to show such foresight once again, and so propose that thou be offered rights t'purchase our pettier technologies."`
-			`	That representative then returns to the outer rim of the circle and another takes the center, this time facing the representative who just spoke.`
-			`	"House Kaatrij. House Chydiyi well sees thy perspicacity and, too, the value demonstrated by the captain, and so we support thy just proposal. The captain's proven themself t'be a benevolent traveler in our space, for whom we've every desire to make an ever more positive and useful element."`
-			`	A third representative now takes the center position, addressing the two previous speakers.`
-			`	"Noble Houses Kaatrij and Chydiyi. House Sioeora proposes this alien be given no further rights nor gifts until they have proved themself a neutral party. The alien hath already forsaken a task and offer given by this House in favor of another: Kaatrij, whose ability to sway their favor through brib'ry and deceit is clear as ice. Should'st the alien be given purchase rights, their 'bility to offer wealth and power to such factions will be more formidable still. Sioeora shall stand strong and resolute t'opposing this nascent, rank corruption."`
-			`	That representative then returns to the edge of the circle, where they continue to eye you with suspicion. There is a pause in the conversation.`
+			`	几分钟后，其他继承者陆续到来，会议正式开始。一位继承者走到水池中央，直接对你讲话。`
+			`	“客座船长。卡特里吉家族此前用我们的翻译徽章支持了你，作为回报，你公开的帮助和勤奋行为证明了这一提议的先见之明。我们希望再次展示这种先见之明，因此提议授予你购买我们低级技术的权利。”`
+			`	那位代表随后回到圆圈外缘，另一位代表走到中央，这次面向刚刚发言的代表。`
+			`	“卡特里吉家族。奇迪伊家族看到了你的远见，也看到了船长展示的价值，因此我们支持你公正的提议。船长已证明自己是我们空间中一位仁慈的旅行者，我们非常希望使其成为更积极、更有用的元素。”`
+			`	第三位代表现在走到中央位置，对前两位发言者讲话。`
+			`	“尊贵的卡特里吉家族和奇迪伊家族。肖尔拉家族提议，在这名外星人证明自己中立之前，不得再授予其任何权利或礼物。这名外星人已经放弃了本家族交给的任务和提议，转而选择了另一个——卡特里吉，其通过贿赂和欺骗左右其好感的能力显而易见。如果这名外星人被授予购买权，他们将能够向此类派系提供财富和权力，这将更加可怕。肖尔拉家族将坚定而坚决地反对这种新生、腐朽的腐败。”`
+			`	那位代表随后回到圆圈边缘，继续怀疑地看着你。谈话中出现了停顿。`
 			choice
-				`	(Remain silent.)`
+				`	（保持沉默。）`
 					goto silent
-				`	"I don't intend to take sides in your conflicts."`
+				`	“我不打算在你们的冲突中选边站。”`
 					goto no
 			label no
 			branch "no kaatrij"
 				has "successors kaatrij patron"
-			`	This sparks some murmuring among the gathered Successors, both the representatives themselves and the other, quieter members who continue to stand around the periphery of the pool. There is no direct reply for some time until, after what seems like several minutes, the representative from House Kaatrij returns to the center and speaks.`
-			`	"Guest. House Kaatrij shall recognize thy noble words, even if we hold no reason for belief in them. We will permit the others to let thee buy our trinkets, and we shall watch thee closely to see if thy words are matched in action."`
-			`	With no further comments from any of the Successors, the representative from House Sioeora calls for a vote from among the gathered representatives. Sioeora and Chydiyi vote for the proposition and Kaatrij abstains from the vote, remaining at the rim of the pool, inspecting your behavior closely. The representative from Sioeora then promptly produces another small box from within their outfit and presents it to you. You open it to reveal one of the pin insignias that you have seen throughout this meeting.`
+			`	这引发了聚集的继承者们的一些窃窃私语，包括代表们本身以及继续站在水池周围的其他安静成员。好一段时间没有直接回应，直到似乎几分钟后，卡特里吉家族的代表回到中央发言。`
+			`	“客人。卡特里吉家族将承认你高尚的言辞，即使我们没有任何理由相信它们。我们将允许其他人让你购买我们的小玩意儿，我们将密切观察你的言行是否一致。”`
+			`	没有继承者再有进一步的评论，肖尔拉家族的代表呼吁聚集的代表们进行投票。肖尔拉和奇迪伊投票支持提议，卡特里吉弃权，留在了水池边缘，密切观察你的行为。肖尔拉的代表随后迅速从衣服里拿出另一个小盒子，呈给你。你打开它，看到一枚你在整个会议中见过的徽章。`
 				goto license
 			label "no kaatrij"
-			`	This sparks some murmuring among the gathered Successors, both the representatives themselves and the other, quieter members who continue to stand around the periphery of the pool. There is no direct reply for some time until, after what seems like several minutes, the representative from House Sioeora returns to the center and speaks.`
-			`	"Alien. House Sioeora hears well thy words, but must commit ourselves in opposition to this proposition for a gift. Thou surely can'st remain a neutral party while thy patron already seeks to honor thee before this council, t'offer boons that surely curry favor soon enough. Thy meager words make little difference."`
-			`	With no further comments from any of the Successors, the representative from House Kaatrij calls for a vote from among the gathered representatives. Kaatrij and Chydiyi vote for the proposition and Sioeora votes against it, remaining stationary at the rim of the pool. The representative from Kaatrij then promptly produces another small box from within their outfit and presents it to you. You open it to reveal one of the pin insignias that you have seen throughout this meeting.`
+			`	这引发了聚集的继承者们的一些窃窃私语，包括代表们本身以及继续站在水池周围的其他安静成员。好一段时间没有直接回应，直到似乎几分钟后，肖尔拉家族的代表回到中央发言。`
+			`	“外星人。肖尔拉家族听清了你的话，但必须坚持反对这项赠送提议。你当然可以保持中立，而你的赞助人却已试图在议会前给你荣耀，提供恩惠，这迟早会博取好感。你那微不足道的话起不了什么作用。”`
+			`	没有继承者再有进一步的评论，卡特里吉家族的代表呼吁聚集的代表们进行投票。卡特里吉和奇迪伊投票支持提议，肖尔拉投票反对，留在了水池边缘不动。卡特里吉的代表随后迅速从衣服里拿出另一个小盒子，呈给你。你打开它，看到一枚你在整个会议中见过的徽章。`
 				goto license
 			label silent
-			`	With no further comments from any of the Successors, the representative from House <successor patron> calls for a vote from among the gathered representatives. Unsurprisingly, <successor patron> and Chydiyi vote for the proposition and <successor opponent> votes against it, and the representative from <successor patron> promptly produces another small box from within their outfit and presents it to you. You open it to reveal one of the pin insignias that you have seen throughout this meeting.`
+			`	没有继承者再有进一步的评论，<successor patron>家族的代表呼吁聚集的代表们进行投票。不出所料，<successor patron>和奇迪伊投票支持提议，<successor opponent>投票反对，<successor patron>的代表随后迅速从衣服里拿出另一个小盒子，呈给你。你打开它，看到一枚你在整个会议中见过的徽章。`
 			label license
 			scene "outfit/successor license"
-			`	"'Tis is the mark of our diplomats and our symbol of trust and cooperation," they say. "Our people may remain wary of an alien in their midst, but wherever thou displays this, it shall be known thou hast received the blessing of the High Houses in our council and that they may trade with you in amity and without fear."`
-			`	With this, Chydiyi then leaves the room, followed by most of the other representatives and gathered members, the remainder of whom begin to mingle amongst themselves and chat; the meeting is apparently over.`
-			`	Outside, you run into Sieasej again, who has recently come back from a meeting of their own. "Well, captain, how went thy meeting in council? 'Twas fruitful, I hope?"`
+			`	“这是我们外交官的标志，也是信任与合作的象征，”他们说。“我们的人民可能仍会对身边有外星人保持警惕，但无论你在哪里展示这枚徽章，人们都会知道你已经获得了高阶家族在议会中的祝福，他们可以友好而无忧地与你交易。”`
+			`	说完，奇迪伊离开了房间，随后是大多数其他代表和聚集的成员，剩下的人开始相互交谈闲聊；会议显然结束了。`
+			`	在外面，你又遇到了西阿塞杰，他们刚刚结束自己的会议回来。“那么，船长，你在议会中的会议进行得如何？我想，成果颇丰吧？”`
 			choice
-				`	"Yes, I was awarded technology purchase rights."`
-				`	"Yes, it was. How was yours?"`
+				`	“是的，我被授予了技术购买权。”`
+				`	“是的，很好。你的呢？”`
 					goto yours
-			`	"I, for one, am pleased to hear of this, captain. The Houses can be jealous with their favors, but in thy case I think they're wise for dispensing them more liberally. Ah," they say, interrupting themself, "would that I could stay, but yet my role here's still to finish and I've another meeting still to entertain. Fair travels, captain, and may we meet again." They splay their arms wide in the same gesture you've seen many times before and you offer a short bow in return.`
+			`	“船长，听到这个消息我很高兴。家族们对赏赐很吝啬，但对你，我认为他们更慷慨地给予是明智的。啊，”他们打断自己，“我真希望能多待一会儿，但我的角色在这里尚未完成，还有另一场会议要参加。一路顺风，船长，后会有期。”他们张开双臂，做出你见过多次的手势，你鞠躬回礼。`
 				goto end
 			label yours
-			`	"I'm pleased to hear this, captain. I spoke at length about my research on thy words and his'try, as we know it. Ah, thy tongues are fascinating items and make for truly interesting sounds... 'Twas also that I entertained a number of questions about thee thyself! Some young archivist from Kaatrij, methinks? Truthfully, I sometimes confuse those New Houses with each other. Ah," they say, interrupting themself, "but yet my role here's still to finish and I've another meeting still to entertain. Fair travels, captain, and may we meet again." They splay their arms wide in the same gesture you've seen many times before and you offer a short bow in return.`
+			`	“很高兴听到这个消息，船长。我详细讲述了我对你语言和已知历史的研究。啊，你们的语言真是迷人的东西，发出真正有趣的声音……还有不少关于你本人的问题！好像是卡特里吉的一位年轻档案员？说实话，我有时会把那些新派家族搞混。啊，”他们打断自己，“但我在这里的角色尚未完成，还有另一场会议要参加。一路顺风，船长，后会有期。”他们张开双臂，做出你见过多次的手势，你鞠躬回礼。`
 			label end
 			action
 				clear "Successors: aboutyou"
 				clear "Successors: explain"
 				clear "Successors: sioeora"
-			`	With your meeting resolved here, you head back to the monorail station and catch the next train back to the spaceport.`
+			`	会议结束后，你回到单轨列车站，搭乘下一班列车返回太空港。`

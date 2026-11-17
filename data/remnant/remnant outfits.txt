@@ -45,8 +45,8 @@ outfit "Inhibitor Cannon"
 		"hull damage" 19.5
 		"hit force" 58.5
 		"slowing damage" .5
-	description `Nearly a century ago, a Remnant scout exploring space north of the Ember Waste came under fire from an alien fleet armed with weapons that interfered with the scout's engines. The story says that the Remnant captain calmly told her crew, "We aren't going home until we steal that weapon." That alien technology became the basis of the Inhibitor Cannon.`
-	description `	Although the Remnant appreciated the original weapon, they were disappointed that it was too big to fit on most of their ships. Instead of letting their effort go to waste, they instead opted to put their newfound knowledge to use creating a weapon suitable for their more nimble craft. Thus, the Inhibitor is excellent at controlling engagement distances, keeping targets at range by both pushing them backward with the impact of each shot while also slowing their approach by interfering with their engines.`
+	description `大约一个世纪前，一名遗民侦察兵在余烬废土以北的星域探索时，遭遇到一支外星舰队并受到攻击，对方的武器干扰了侦察兵的引擎。传说那位遗民舰长冷静地对船员说：“不偷到那件武器，我们绝不回家。”那项外星科技后来成为抑制炮的基础。`
+	description `	尽管遗民对原版武器评价颇高，但因体积过大无法适配大部分舰船而深感遗憾。他们不愿前功尽弃，转而将新获得的知识用于制造适合更灵巧舰船的武器。由此诞生的「抑制者」在控制交战距离方面表现卓越——每次冲击都将目标向后推开，同时干扰引擎使其减速趋近。`
 
 effect "inhibitor impact"
 	sprite "effect/inhibitor impact"
@@ -93,8 +93,8 @@ outfit "Inhibitor Turret"
 		"hull damage" 19.5
 		"hit force" 58.5
 		"slowing damage" .5
-	description `While cannons that can interfere with a ship's engines are useful in any situation, the Remnant have long desired a turret that their ships could use to impede those chasing after them. These versatile Inhibitor Turrets are typically found on ships trying to outrun opponents rather than defeat them.`
-	description `	Although these turrets are unremarkable in terms of performance, the comparatively recent refinement of the interference effect dampens the strong torques that previously made the use of a swiveling mount unfeasible, making these turrets a true engineering achievement.`
+	description `尽管能干扰飞船引擎的加农炮在任何情况下都很有用，但遗民长久以来一直渴望一种能让他们的飞船阻碍追击者的炮塔。这种多功能的抑制器炮塔通常见于试图甩掉对手而非击败对手的飞船上。`
+	description `	尽管这些炮塔在性能上并无特别之处，但相对近期才精炼完善的干涉效应抑制了原本使旋转支架无法使用的强大扭矩，使得这种炮塔堪称真正的工程成就。`
 
 
 outfit "Thrasher Cannon"
@@ -124,7 +124,7 @@ outfit "Thrasher Cannon"
 		"firing heat" 27
 		"shield damage" 38
 		"hull damage" 46
-	description "This weapon was originally developed in an attempt to reverse engineer a long-range energy projectile favored by an alien species that the Remnant encountered nearby. In the process they discovered that by adding more energy to the projectiles they could do a lot more damage in exchange for shorter range, and the Thrasher Cannon was born."
+	description "此武器最初是为了逆向解析一种遗民在附近遭遇的外星种族所偏好的远程能量弹而研发的。研发过程中，他们发现向弹体注入更多能量可以极大地提升威力，但会缩短射程，于是痛击炮便应运而生。"
 
 effect "thrasher impact"
 	sprite "effect/thrasher impact"
@@ -168,7 +168,7 @@ outfit "Thrasher Turret"
 		"firing heat" 27
 		"shield damage" 38
 		"hull damage" 46
-	description "This turret mounts four Thrasher Cannons on a single rotating base. The resulting weapon deals a very satisfying amount of damage when fired from close range, especially against a slow-moving target."
+	description "该炮塔将四门碎击者加农炮安装在一个旋转基座上。近距离开火时，这种武器能造成非常可观的伤害，尤其是针对缓慢移动的目标。"
 
 
 outfit "Point Defense Turret"
@@ -194,7 +194,7 @@ outfit "Point Defense Turret"
 		"reload" 10
 		"firing energy" 62
 		"firing heat" 18
-	description "Not long after the Remnant settled on Aventine, they began to discover caches of alien technology in vaults deep under the mountains, guarded by ancient but still-functioning point-defense systems. The Remnant learned how to duplicate those defense systems, and they are now considered to be much more useful than most of the items that they were guarding."
+	description "遗民刚在阿文丁定居不久，就开始发现深藏于山脉之下密库中的外星科技储藏，这些密库由古老但仍能运转的点防御系统守护。遗民学会了仿制那些防御系统，如今这些系统被认为比它们所守护的大部分物品有用得多。"
 
 effect "point defense fire"
 	sprite "effect/point defense fire"
@@ -221,7 +221,7 @@ effect "point defense die"
 
 
 outfit "EMP Torpedo"
-	plural "EMP Torpedoes"
+	plural "EMP 鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 03010
@@ -229,7 +229,7 @@ outfit "EMP Torpedo"
 	thumbnail "outfit/emp torpedo"
 	"mass" .6
 	"emp torpedo capacity" -1
-	description "This torpedo can emit electromagnetic pulses, interfering with a ship's generators."
+	description "这种鱼雷可释放电磁脉冲，干扰舰船的发电机。"
 
 outfit "EMP Torpedo Storage Bay"
 	category "Ammunition"
@@ -244,8 +244,8 @@ outfit "EMP Torpedo Storage Bay"
 	"energy capacity" 400
 	"emp torpedo capacity" 12
 	ammo "EMP Torpedo"
-	description "The EMP Torpedo Storage Bay is used to store extra ammunition for weapons that use EMP torpedoes."
-	description "	In addition to its ammunition capacity, the storage bay can also contain a small amount of charge, enough to let an otherwise battery-less ship fire EMP Torpedoes."
+	description "电磁脉冲鱼雷弹药库用于存放使用电磁脉冲鱼雷的武器的额外弹药。"
+	description "	除了弹药容量外，储存舱还能容纳少量电荷，足以让原本没有电池的飞船发射电磁脉冲鱼雷。"
 
 outfit "EMP Torpedo Bay"
 	category "Secondary Weapons"
@@ -294,8 +294,8 @@ outfit "EMP Torpedo Bay"
 		"scrambling damage" 48
 		"hit force" 135
 		"missile strength" 80
-	description "Electromagnetic pulse weapons were developed by the Remnant during the early days of their colony, when they were living in fear that the Alphas would overrun human space and expand beyond it."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "电磁脉冲武器由遗民在其殖民地早期开发，当时他们生活在恐惧之中，担心阿尔法人会占领人类空间并向外扩张。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -349,10 +349,10 @@ outfit "Teciimach Bay"
 		"scrambling damage" 48
 		"hit force" 135
 		"missile strength" 80
-	description `Electromagnetic pulse weapons were originally developed by the Remnant during the early days of their colony, when they were living in fear that the Alphas would overrun human space and expand beyond it.`
-	description `	The newest revision of the EMP Torpedo Bay, the "Teciimach," contains two major improvements. The first is a mechanism on the launcher that alters each torpedoes' energy to ignore allies, letting Teciimachs be deployed without risk of ionizing yourself or the rest of your fleet.`
-	description `	The second is a significant reduction in the size of the launcher hardware, allowing space for a clip that is a third larger.`
-	description `	Ammunition for this weapon can be restocked at any outfitter.`
+	description `电磁脉冲武器最初由遗民在其殖民地早期开发，当时他们生活在恐惧之中，担心阿尔法人会占领人类空间并向更远处扩张。`
+	description `	电磁脉冲鱼雷发射器的最新改型“泰西马赫”包含两项重大改进。其一是发射机构可调整每枚鱼雷的能量，使其忽略友军，从而让泰西马赫在部署时不会电离自身或舰队其他成员。`
+	description `	第二点是发射器硬件尺寸显著减小，从而为增大三分之一的弹夹腾出空间。`
+	description `	该武器的弹药可在任何装备商处补充。`
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -405,9 +405,9 @@ outfit "Teciimach Pod"
 		"scrambling damage" 48
 		"hit force" 135
 		"missile strength" 80
-	description "While originally developed as a heavy weapon to paralyze enemy capital ships, the Remnant have utilized on-the-spot assembly techniques to support their use on smaller ships. These pods sacrifice multiple assembly systems in order to fit them onto interceptor-class vessels."
-	description "	To better fit the hit-and-run tactics used on interceptors and light warships, Teciimach Pods launch all ready torpedoes at once instead of in sequence, maximizing the ion damage dealt in a single moment."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "虽然最初被设计为一种瘫痪敌主舰的重武器，但遗民采用了现场组装技术以支持其在较小飞船上使用。这些吊舱牺牲了多个组装系统，以便适配到拦截舰级舰艇上。"
+	description "	为了更适合截击舰和轻型战舰的游击战术，泰西马赫荚舱会一次性发射所有已准备好的鱼雷，而非依次发射，从而在单次攻击中最大化离子伤害。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -495,7 +495,7 @@ outfit "Ember Tear"
 		"fuel damage" 2.5
 	description "The Ember Waste is an anomalous region subject to forces that defy conventional physics: Energy spontaneously pouring from the vacuum, material density far greater than one would expect to find in space - even around a nebula, a concentration of wormholes unheard of in the galaxy, and regions where the universe itself seems to be in flux. This region, more than any building or ship, is the Remnant laboratory where they study the deepest workings of the universe."
 	description "	When asked to clarify whether the name refers to either ripping or crying, the technician looks at you with a curious expression, and replies 'both.' They then go on to explain that a very simplistic explanation for this weapon is that it is making micro-tears in the fabric of space-time, then cauterizing them together again. Should not the Ember Waste cry at the necessity of such weapons?"
-	description "	These massive weapons require special hardpoints, and are built in such few number that the Remnant distribute them directly on an as-needed basis. Due to the prodigious energy and fuel requirements, only the most massive of Remnant ships can support regular use of these weapons."
+	description "	这些巨型武器需要特殊挂载点，制造数量极少，遗民会按需直接分配。由于巨大的能量和燃料消耗，只有最大的遗民舰船才能支持其常规使用。"
 
 effect "ember tear spark"
 	sprite "effect/ember tear/ember tear spark"
@@ -561,8 +561,8 @@ outfit "Crystal Capacitor"
 	"heat generation" .4
 	"ion resistance" 0.01
 	"scramble resistance" 0.01
-	description "These crystals, mined on the Remnant planet Viminal, can store a surprising amount of power in a compact form. Crystals pure enough to be used in such a manner are hard to find, however."
-	description "	The capacitors tend to leak small amounts of energy in the form of excess heat. This leaking of energy also results in a quicker dissipation of ionization, granting ships with these crystals some resistance against the occasional ion storms that occur in the Waste."
+	description "这些晶体采掘自遗民行星维米纳尔，能以紧凑形态储存惊人能量。然而，纯度足以用于此途的晶体极为稀有。"
+	description "	这些电容器往往会以多余热量的形式泄漏少量能量。这种能量泄漏也导致电离现象更快消散，使装备这些晶体的飞船对废土区域偶发的离子风暴具备一定抵抗力。"
 
 outfit "Millennium Cell"
 	category "Power"
@@ -578,8 +578,8 @@ outfit "Millennium Cell"
 	"heat generation" 6.0
 	"ion resistance" 0.025
 	"scramble resistance" 0.025
-	description "This quite compact radiothermal generator uses isotopes so radioactive, and so tightly packed together, that it could almost be classified as a nuclear reactor."
-	description "	Although not very impressive in terms of how much energy they produce, Remnant generators have been designed to better handle the energy draining effects of ionization."
+	description "这款相当紧凑的放射性同位素热电发生器使用的同位素放射性极强，排列极为紧密，几乎可以被归类为核反应堆。"
+	description "	尽管产生的能量不算惊人，但遗民设计的发电机能够更好地应对电离导致的能量损耗效应。"
 
 outfit "Epoch Cell"
 	category "Power"
@@ -595,8 +595,8 @@ outfit "Epoch Cell"
 	"heat generation" 19.8
 	"ion resistance" 0.085
 	"scramble resistance" 0.085
-	description "Efficient Remnant technology ensures that nearly all the heat produced by this generator's radioisotopes is converted into electricity instead of becoming waste heat."
-	description "	The Remnant took the ion dissipation effects of the crystals found on Viminal and replicated them for their generators in order to help survive the hostile environment of the Ember Waste."
+	description "高效的遗民技术确保该发生器放射性同位素产生的热量几乎全部转化为电能，而不是成为废热。"
+	description "	遗民利用了在维米纳尔发现的晶体的离子消散效果，并将其复制到他们的发电机上，以帮助在余烬废土的恶劣环境中生存。"
 
 outfit "Aeon Cell"
 	category "Power"
@@ -612,8 +612,8 @@ outfit "Aeon Cell"
 	"heat generation" 31.5
 	"ion resistance" 0.14
 	"scramble resistance" 0.14
-	description "The early Remnant engineers did not trust the finicky and unpredictable nuclear reactors that were then in use in human space, so they instead focused on perfecting the art of radioisotope thermoelectric power."
-	description "	The ion resistance on all Remnant generators not only allows them to bounce back from ion storms more quickly, but also gives their ships a window of time when an ion storm starts where they are not affected, giving them a chance to escape before becoming debilitated by the storm."
+	description "早期的遗民工程师不信任当时人类空间使用的那些挑剔且不可预测的核反应堆，因此他们转而专注于完善放射性同位素热电发电技术。"
+	description "	所有遗民发电机上的离子抗性不仅能让它们更快地从离子风暴中恢复，还能在离子风暴开始时为船只提供一个不受影响的窗口期，使它们有机会在风暴削弱能力之前逃脱。"
 
 outfit "Thermoelectric Cooler"
 	category "Systems"
@@ -627,7 +627,7 @@ outfit "Thermoelectric Cooler"
 	"outfit space" -4
 	"active cooling" 8
 	"cooling energy" .4
-	description "This cooler is actually just one of the power-generating elements of a Millennium Cell, but wired so it can run in reverse: consuming electricity in order to transfer heat from a ship's systems to its exterior."
+	description "这种冷却器实际上是千禧电池的发电元件之一，但接线方式使其可以反向运行：消耗电力，将热量从飞船系统转移到外部。"
 
 outfit "Emergency Ramscoop"
 	category "Systems"
@@ -640,7 +640,7 @@ outfit "Emergency Ramscoop"
 	"mass" 4
 	"outfit space" -4
 	"ramscoop" 1.25
-	description `The Ember Waste is the sort of place where only a very foolish captain would travel without some sort of device for replenishing hyperspace fuel. While this risk is non-existent in Remnant ships due to their "gills," which are effectively built-in ramscoops, some captains prefer to speed up the process by adding additional capacity. For the rare captain braving the area in non-Remnant ships, this ramscoop is not particularly powerful, but it allows a ship to explore without fear of getting stranded.`
+	description `余烬废土是一个只有非常愚蠢的船长才会在没有某种补充超空间燃料的设备的情况下前往的地方。在遗民飞船中，由于它们有“鳃”这种内置冲压集气器，这种风险并不存在，但有些船长更喜欢通过增加额外容量来加快这个过程。对于极少数在非遗民飞船中勇敢进入该区域的船长来说，这个冲压集气器并不特别强大，但它能让飞船探索而无需担心被困。`
 
 outfit "NDR-114 Android"
 	category "Unique"
@@ -652,8 +652,8 @@ outfit "NDR-114 Android"
 	"energy consumption" 0.01
 	"unique"
 	unplunderable
-	description "While these were once considered cutting-edge outfits, their lack of autonomous capabilities and economic benefit ensured they were never licensed by a manufacturer."
-	description "	Despite this, some captains commissioned these directly from their inventor, effectively replacing one of their crew members with a robotic counterpart. These captains found that androids possessed sufficient capabilities to perform most work, but lacked the capability to captain a ship or take part in boarding actions."
+	description "这些曾被视作尖端装备，但因缺乏自主能力和经济效益，从未有任何制造商获得其生产许可。"
+	description "	尽管如此，仍有一些船长直接从其发明者那里订购这些机器人，实质上是用机器人替代了一名船员。这些船长发现，机器人具备执行多数工作的足够能力，但缺乏驾驶飞船或参与登船作战的能力。"
 
 outfit "Research Laboratory"
 	category "Systems"
@@ -671,8 +671,8 @@ outfit "Research Laboratory"
 	"atmosphere scan" 100
 	"required crew" 1
 	"unplunderable"
-	description "From the very beginning, the Remnant have relied on their ability to study everything they encounter. This knowledge has enabled them to survive and even prosper in the harsh environment of the Ember Waste. To enable this pursuit of knowledge, the Remnant designed this compact laboratory that is built onto the side of a cargo bay, mess hall, or other larger room. When the room isn't otherwise occupied, this module expands out to convert it into a fully fledged laboratory."
-	description "	While planetbound scientists might consider it little more than a closet packed with scanners and equipment, to the Remnant it is a base of operations used to investigate alien and stellar phenomena on-site. For captains, having advanced equipment to support their sensor suites as well as a trained scientist to serve in their crew amount to a strong benefit."
+	description "从一开始，遗民就依靠他们研究所遇一切事物的能力。这些知识使他们能够在余烬废土的严酷环境中生存甚至繁荣。为了支持这种对知识的追求，遗民设计了这种紧凑的实验室，它被安装在货舱、餐厅或其他较大房间的一侧。当房间未被占用时，这个模块会展开，将其变成一个功能齐全的实验室。"
+	description "	对于地面科学家而言，这可能不过是一个塞满扫描仪和设备的小隔间，但对遗民来说，它却是在现场研究外星与恒星现象的行动基地。对于船长而言，拥有支持传感器套件的先进设备，以及一名训练有素的科学家加入船员队伍，将带来极大的益处。"
 
 outfit "Quantum Key Stone"
 	category "Systems"
@@ -685,7 +685,7 @@ outfit "Quantum Key Stone"
 	"mass" 0.1
 	"outfit space" -1
 	"quantum keystone" 1
-	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through certain otherwise impassable wormholes in the Ember Waste. The stones are rare and valuable, because they can only be mined from one location in the Waste."
+	description "这件珍贵的神器能以特定方式调谐飞船的量子振荡，使其能够穿越余烬废土中某些原本无法通行的虫洞。这些石料稀有而价值连城，因为它们在废土中仅有一个矿源可采。"
 
 outfit "Salvage Scanner"
 	category "Systems"
@@ -700,8 +700,8 @@ outfit "Salvage Scanner"
 	"outfit scan power" 13
 	"outfit scan efficiency" 12
 	"tactical scan power" 84
-	description "When the Remnant unraveled the alien Point Defense Turrets guarding the vaults on Aventine, they also deciphered the mechanisms that guided the ancient weapons. After significant investments in research and development, they have transformed those guidance systems into sophisticated scanning technology."
-	description "	While all Remnant ships are equipped with internal scanners, some captains still prefer to boost their range and power to more effectively select enemy ships worth targeting."
+	description "当遗民破解了守卫阿文丁地下金库的外星点防御炮塔时，他们也破译了引导这些古代武器的机制。经过大量研发投入，他们将那些制导系统转化为先进的扫描技术。"
+	description "	虽然所有遗民飞船都配备了内部扫描仪，但一些船长仍倾向于提升其范围和功率，以更有效地选择值得锁定为目标的敌方飞船。"
 
 
 
@@ -722,8 +722,8 @@ outfit "Bellows-Class Afterburner"
 	"afterburner energy" 6
 	"afterburner heat" 72
 	"afterburner effect" "remnant afterburner"
-	description "The Remnant live in an environment where the raw materials for fuel are relatively common on the winds of the nebula. As such, their ships incorporate significant built-in ramscoop technology, and while they are reluctant to waste fuel, they aren't afraid of using it when needed. Far more important is the ability for their ships to quickly and efficiently enter or exit combat as needed. At the end of the day, it is continued life that is paramount."
-	description "	The Bellows-Class Afterburner embodies this philosophy by providing captains with a tool that allows them to make great leaps of acceleration, typically during evasive maneuvers or to catch up with a fleeing target. Due to their enormous fuel usage, only the most specialized of ships have enough fuel to use these for more than a few seconds at a time before completely running out of fuel."
+	description "遗民生活在燃料原料相对常见的星云气流环境中。因此，他们的飞船内置了大型冲压进气技术，虽然不愿浪费燃料，但在需要时也并不吝啬使用。更重要的是，他们的飞船能够根据需要快速有效地进入或脱离战斗。归根结底，持续生存才是至高无上的。"
+	description "	风箱级加力燃烧室体现了这一理念，为船长们提供了在规避机动或追击逃跑目标时实现大幅度加速的工具。由于其巨大的燃料消耗，只有最专业的飞船才能储备足够燃料，使其连续工作数秒而不会彻底耗尽燃料。"
 
 effect "remnant afterburner"
 	sprite "effect/remnant afterburner/remnant afterburner"
@@ -763,7 +763,7 @@ outfit "Anvil-Class Engine"
 	"reverse flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	"reverse flare sound" "plasma tiny"
-	description "This tiny set of engines was designed specifically for craft so small that it combines both thrusters and steering into one unit."
+	description "这套微型引擎专为极小型飞行器设计，将推进器与转向机构合为一体。"
 
 outfit "Crucible-Class Thruster"
 	category "Engines"
@@ -789,7 +789,7 @@ outfit "Crucible-Class Thruster"
 	"reverse flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	"reverse flare sound" "plasma tiny"
-	description "These small but powerful engines are driven by ionized gas propelled at a sizable fraction of the speed of light."
+	description "这些小巧但强劲的引擎利用电离气体推进，其喷射速度可达光速的相当大一部分。"
 
 outfit "Forge-Class Thruster"
 	category "Engines"
@@ -815,7 +815,7 @@ outfit "Forge-Class Thruster"
 	"reverse flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	"reverse flare sound" "plasma small"
-	description "The Remnant have taken the basic ion thruster design that has been used by humanity since the dawn of spaceflight and made it significantly more powerful... but also more power-hungry."
+	description "遗民们采用了人类从太空飞行时代之初就开始使用的基本离子推进器设计，并使其变得显著更加强劲……但同时也更加耗能。"
 
 outfit "Smelter-Class Thruster"
 	category "Engines"
@@ -841,7 +841,7 @@ outfit "Smelter-Class Thruster"
 	"reverse flare sprite" "effect/remnant flare/medium"
 		"frame rate" 5
 	"reverse flare sound" "plasma medium"
-	description "It is not unheard of for a Remnant ship's engines to draw even more power than its weapon systems: an indication, perhaps, of their preference for avoiding battle when possible."
+	description "遗民飞船的引擎耗电量甚至超过武器系统，这并不罕见：或许表明他们更倾向于尽可能避免战斗。"
 
 outfit "Crucible-Class Steering"
 	category "Engines"
@@ -861,7 +861,7 @@ outfit "Crucible-Class Steering"
 	"steering flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	"steering flare sound" "plasma tiny"
-	description "This steering system is tiny enough to fit in even an interceptor, but the Remnant mostly use them to provide an extra bit of maneuverability for their larger ships."
+	description "这个转向系统非常小巧，甚至可以安装在截击机上，但遗民主要用它来为大型飞船提供额外的机动性。"
 
 outfit "Forge-Class Steering"
 	category "Engines"
@@ -881,7 +881,7 @@ outfit "Forge-Class Steering"
 	"steering flare sprite" "effect/remnant flare/medium"
 		"frame rate" 4
 	"steering flare sound" "plasma small"
-	description "This unusually power-hungry steering system packs a lot of power into a relatively small space. It seems that engine technology has progressed more rapidly for the Remnant than it has for the rest of humanity."
+	description "这款异常耗能的转向系统在相对较小的空间内集成了强大的动力。看来遗民在引擎技术上的进步速度已远超人类其他族群。"
 
 outfit "Smelter-Class Steering"
 	category "Engines"
@@ -901,7 +901,7 @@ outfit "Smelter-Class Steering"
 	"steering flare sprite" "effect/remnant flare/large"
 		"frame rate" 3
 	"steering flare sound" "plasma medium"
-	description "It's unclear whether the Remnant's powerful engine systems are purely their own invention, or whether they are partly inspired by alien technology."
+	description "目前尚不清楚遗民强大的引擎系统是否完全由他们自己发明，还是部分受到外星技术的启发。"
 
 
 
@@ -919,7 +919,7 @@ outfit "Tuning Rifle"
 	"capture defense" 1.8
 	"unplunderable"
 	"can jettison"
-	description "The Tuning Rifle uses sound waves to destabilize the weaker internal tissue of many races and liquefies them."
+	description "调谐步枪使用声波来破坏许多种族脆弱的内部组织，并将其液化。"
 
 
 
@@ -939,13 +939,13 @@ outfit "Void Rifle"
 	"unique"
 	"unplunderable"
 	"can jettison"
-	description "The Remnant made a significant number of these weapons during the early years of their research on the void sprites, but have not been able to make any new ones since the Archon stopped their harvests. Without a supply of new tentacles to use, the Remnant have been unable to manufacture more. While durable, they rarely last more than a decade, so even the best cared for of the old Void Rifles degraded into uselessness centuries ago. These highly effective weapons are credited with helping the Remnant safeguard their refuges from ground-based threats during their early years."
-	description "	When fired, the Void Rifle emits a beam that has a strong paralyzing effect on the nervous system. With an area of effect that penetrates walls and other solid objects, it is an incredibly effective weapon."
+	description "遗民们在早期研究虚空精灵时制造了大量这种武器，但自从执政官停止他们的采集后，便无法再制造新的了。由于没有新的触手可供使用，遗民们无法继续生产。虽然这种武器坚固耐用，但很少能撑过十年，因此即使是保养最好的旧虚空步枪也在数百年前就退化至毫无用处。这些高效的武器被认为帮助遗民在早期保护了他们的避难所免受地面威胁。"
+	description "	虚空步枪发射时，会射出一道对神经系统有强烈麻痹作用的光束。其效果范围能穿透墙壁及其他固体障碍物，是一种极其有效的武器。"
 
 
 
 outfit "Void Sprite Parts"
-	plural "Void Sprite Parts"
+	plural "虚空精灵部件"
 	category "Unique"
 	series "Non-Functional Unique"
 	index 20
@@ -957,8 +957,8 @@ outfit "Void Sprite Parts"
 	"flotsam chance" .5
 	"uninstallable"
 	"unique"
-	description "This is nothing more and nothing less than a cubic meter of void sprite parts. To the Remnant, this represents both a terrible occurrence and a dreadful opportunity."
-	description "	This could have been very valuable to someone who knew what they were doing, if it had been handled properly. Instead, it is worth little more than the value of the compounds contained within."
+	description "这不多不少就是一立方米的虚空精灵零件。对遗民而言，这既代表着一桩可怕的事件，也意味着一场可怖的机遇。"
+	description "	若处理得当，这本可对识货者价值连城。可惜如今，其价值不过略高于所含化合物的本身罢了。"
 
 
 
@@ -969,11 +969,11 @@ outfit "Remnant License"
 	series "Licenses"
 	index 03010
 	thumbnail "outfit/remnant license"
-	description "In addition to serving as a handy IFF verifier, personal identification tool, and license to purchase Remnant technology, this device features movable parts that mechanically click with every adjustment. When the pieces are switched in a specific order and rhythm, the series of clicks produces a surprisingly beautiful blend of classical music tracks."
+	description "这款设备除了可用作便携式敌我识别验证器、个人身份识别工具以及购买遗民技术的许可证之外，其可动部件在每次调节时都会发出机械咔嗒声。当按照特定顺序和节奏切换这些部件时，一连串咔嗒声会汇合成出人意料地优美动听的古典音乐混曲。"
 
 outfit "Remnant Capital License"
 	category "Licenses"
 	series "Licenses"
 	index 03020
 	thumbnail "outfit/remnant capital license"
-	description "While seemingly innocuous at first, this device shows the brilliant simplicity of Remnant engineering. Tapping either edge produces a brief, faint hum which can carry over vast distances on a planet. This humming allows captains who have been entrusted with the Remnant's most valuable technology to call nearby patrols for aid should they ever become stranded."
+	description "虽然乍看之下无害，但该设备展现了遗民工程学的精妙简洁。轻点其边缘会发出短暂而微弱的嗡鸣声，这种声音在行星上可传播至远方。这种嗡鸣允许被托付遗民最珍贵科技的船长在遇险时召唤附近的巡逻队寻求援助。"

@@ -38,7 +38,7 @@ phrase "0-F"
 		"7"
 		"8"
 		"9"
-		"A"
+		"一个"
 		"B"
 		"C"
 		"D"
@@ -58,7 +58,7 @@ phrase "00-1F"
 
 phrase "A group of"
 	word
-		"A "
+		"一个 "
 	word
 		"pair"
 		"couple"
@@ -72,15 +72,15 @@ phrase "A group of"
 		"medium group"
 		"large group"
 	word
-		" of "
+		"属于"
 
 
 
 phrase "Indeterminate"
 	word
-		"A few"
+		"几个"
 		"Several"
-		"Some"
+		"一帮"
 		"Lots of"
 		"Many"
 	word
@@ -93,7 +93,7 @@ phrase "Amount of Remnant"
 		"A group of"
 		"Indeterminate"
 	word
-		"Remnant"
+		"遗民"
 
 
 news "remnant security advisory"
@@ -108,70 +108,70 @@ news "remnant security advisory"
 		word
 			" "
 		word
-			"Advisory"
+			"警告"
 			"Status"
 			"Threats"
 	message
 		word
 			`"`
 		word
-			"Incoming Korath Fleet in "
+			"科拉斯舰队来袭，预计到达时间： "
 		word
-			"${00-07} days"
+			"${00-07} 天"
 		word
 			" "
 		phrase
 			"00-1F"
 		word
-			" hours. Threat Sierra-"
+			" 小时后。威胁等级 Sierra-"
 		word
 			"2"
 			"3"
 		phrase
 			"0-F"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Incoming Korath Ship in "
+			"科拉斯飞船来袭，预计到达时间： "
 		word
-			"${00-07} days"
+			"${00-07} 天"
 		word
 			" "
 		phrase
 			"00-1F"
 		word
-			" hours. Threat Sierra-"
+			" 小时后。威胁等级 Sierra-"
 		word
 			"4"
 			"5"
 		phrase
 			"0-F"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Patrol"
-			"Salvage"
-			"Sentry"
-			"Attack"
-			"Reconnaissance"
-			"Escort"
-			"Decoy"
+			"巡逻队"
+			"打捞"
+			"哨兵"
+			"攻击"
+			"侦察"
+			"护卫"
+			"诱饵"
 		word
 			" "
 		word
-			"Flight"
-			"Talon"
-			"Wing"
+			"编队"
+			"利爪"
+			"联队"
 		word
 			" "
 		phrase
@@ -183,31 +183,31 @@ news "remnant security advisory"
 		word
 			" "
 		word
-			"prepare for"
-			"ready for"
-			"standby for"
-			"hold for"
+			"准备"
+			"就绪"
+			"待命"
+			"等待"
 		word
 			" "
 		word
-			"departure"
-			"launch"
-			"combat"
+			"离开"
+			"发射"
+			"战斗"
 		word
-			"."
+			"愿意砸多少钱。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Salvage ships report to orbit for incoming Korath ships."
-			"No change in current threat level."
-			"Maintain normal security status."
-			"All departing ships advised to have weapon systems hot."
-			"All departing ships advised to expect hostiles in the vicinity."
-			"Reminder to update your IFF settings and verify keys."
-			"Reminder to verify functionality of selective IFF broadcast every startup."
+			"打捞船注意，立即报告轨道位置，科拉斯飞船即将来袭。"
+			"当前威胁等级无变化。"
+			"保持正常安全状态。"
+			"建议所有离港飞船武器系统保持热机状态。"
+			"建议所有离港飞船注意附近可能有敌对目标。"
+			"提醒：更新敌我识别设置并验证密钥。"
+			"提醒：每次启动时验证选择性敌我识别广播功能。"
 		word
 			`"`
 
@@ -229,55 +229,55 @@ news "remnant incomprehensible"
 		phrase
 			"Amount of Remnant"
 		word
-			" sign "
-			" gesture "
+			" 示意 "
+			" 手势 "
 		word
-			"quickly"
-			"calmly"
-			"leisurely"
-			"slowly"
-			"deliberately"
-			"carefully"
-			"precisely"
-			"sharply"
-			"briskly"
-			"sweepingly"
-			"intensively"
-			"meticulously"
-			"at length"
-			"vaguely"
-			"briskly"
-			"hurriedly"
-			"hastily"
-			"abruptly"
-			"spontaneously"
+			"快速地"
+			"冷静地"
+			"悠闲地"
+			"缓慢地"
+			"从容地"
+			"小心地"
+			"精确地"
+			"尖锐地"
+			"轻快地"
+			"一扫而过地"
+			"密集地"
+			"细致地"
+			"详细地"
+			"模糊地"
+			"轻快地"
+			"匆忙地"
+			"仓促地"
+			"突然地"
+			"自发地"
 		word
-			" to "
+			" 向 "
 		word
-			"each other"
-			"another Remnant"
-			"other Remnant"
-			"a Remnant at the information desk"
-			"a dockworker"
-			"something or someone you can't see"
+			"互相"
+			"另一位遗民"
+			"其他遗民"
+			"在问讯处的一位遗民"
+			"一位码头工人"
+			"你无法看见的某物或某人"
 		word
 			". "
 		word
-			"You cannot "
+			"你无法 "
 		word
-			"make out"
-			"figure out"
-			"understand"
-			"comprehend"
+			"辨认出"
+			"推测出"
+			"理解"
+			"领会"
 		word
-			" what they are "
+			" 他们在 "
 		word
-			"saying"
-			"communicating"
-			"conveying"
-			"discussing"
+			"说什么"
+			"交流什么"
+			"表达什么"
+			"讨论什么"
 		word
-			"."
+			"愿意砸多少钱。"
 
 
 
@@ -300,14 +300,14 @@ news "remnant cafeteria"
 		word
 			" "
 		word
-			"collect trays heaped with food from the kitchen window"
-			"appear to be enjoying a large meal together"
-			"are relaxing around the remains of a large meal"
-			"are signing to each other over a large meal"
-			"are reading reports over a large meal"
-			"are examining holo projections over a large meal"
+			"从厨房窗口取走堆满食物的托盘"
+			"似乎正一起享用丰盛的一餐"
+			"正在大餐的残羹旁放松"
+			"正对着丰盛的餐食互相打手势"
+			"正一边吃大餐一边阅读报告"
+			"正一边吃大餐一边查看全息投影"
 		word
-			"."
+			"愿意砸多少钱。"
 
 
 
@@ -329,56 +329,56 @@ news "remnant comprehensible"
 		phrase
 			"Amount of Remnant"
 		word
-			" sign "
-			" gesture "
+			" 示意 "
+			" 手势 "
 		word
-			"quickly"
-			"calmly"
-			"leisurely"
-			"slowly"
-			"deliberately"
-			"carefully"
-			"precisely"
-			"sharply"
-			"briskly"
-			"sweepingly"
-			"intensively"
-			"meticulously"
-			"at length"
-			"vaguely"
-			"briskly"
-			"hurriedly"
-			"hastily"
-			"abruptly"
-			"spontaneously"
+			"快速地"
+			"冷静地"
+			"悠闲地"
+			"缓慢地"
+			"从容地"
+			"小心地"
+			"精确地"
+			"尖锐地"
+			"轻快地"
+			"一扫而过地"
+			"密集地"
+			"细致地"
+			"详细地"
+			"模糊地"
+			"轻快地"
+			"匆忙地"
+			"仓促地"
+			"突然地"
+			"自发地"
 		word
-			" to "
+			" 向 "
 		word
-			"each other"
-			"another Remnant"
-			"other Remnant"
-			"a Remnant at the information desk"
-			"a dockworker"
-			"something or someone you can't see"
+			"互相"
+			"另一位遗民"
+			"其他遗民"
+			"在问讯处的一位遗民"
+			"一位码头工人"
+			"你无法看见的某物或某人"
 		word
 			". "
 		word
-			"From this angle, "
-			"Without them facing you, "
+			"从这个角度， "
+			"当他们不面对你时， "
 		word
-			"all you can "
-			"what you can "
+			"你所能 "
+			"你所能 "
 		word
-			"make out"
-			"catch"
-			"see"
-			"discern"
+			"辨认出"
+			"捕捉到"
+			"看到"
+			"辨别出"
 		word
-			" is that they are "
+			" 是他们在 "
 		word
-			"discussing a recent salvage operation"
-			"making lunch plans"
-			"arguing about engine efficiencies"
-			"gossiping about a visitor from outside the Ember Waste"
+			"讨论最近的一次打捞行动"
+			"制定午餐计划"
+			"争论引擎效率"
+			"闲聊关于一位来自余烬废土之外的访客"
 		word
-			"."
+			"愿意砸多少钱。"

@@ -16,7 +16,7 @@ outfit "Successor License"
 	series "Licenses"
 	index 11010
 	thumbnail "outfit/successor license"
-	description "Presented to you by the High Houses in council, this small blue and white pin is an emblem of Successor diplomacy. Given to an alien such as yourself, it communicates their trust and confidence, and with it, their willingness to sell you their civilian-grade technology."
+	description "这枚蓝白相间的小胸针由高门议会授予于你，是继承者外交的象征。将它授予像你这样的外星人，传达了他们的信任与信心，并以此表明他们愿意向你出售其民用级技术。"
 
 outfit "High Houses License"
 	category "Licenses"
@@ -42,7 +42,7 @@ outfit "Harmonic Keystone"
 	description "The harmonic elements of this device pinch and twist at unfamiliar parts of the fabric of space. When a jump drive is equipped in tandem, it is made to sing in tune."
 
 outfit `"Byiaa" Shield Cortex`
-	plural `"Byiaa" Shield Cortices`
+	plural `“Byiaa”护盾皮层`
 	category "Systems"
 	series "Shields"
 	index 11010
@@ -57,10 +57,10 @@ outfit `"Byiaa" Shield Cortex`
 	"shield energy" 2.53
 	"shield connection point" 1
 	linked "Shield Cortex Interface"
-	description "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire. This allows Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
+	description "在全盛时期，先驱者之所以令人畏惧，并非因为他们能多快地压倒敌人，而是因为他们能极效地拖垮对手。许多世代之后，这种理念依然体现在现代继承者的护盾皮层中：这些皮层就其尺寸而言异常强大，但会削弱护盾对来袭火力的抗性。这使得继承者舰船能够从持续损伤中快速恢复，尽管它们对此会稍微显得更加脆弱。"
 
 outfit `"Ej" Shield Cortex`
-	plural `"Ej" Shield Cortices`
+	plural `“Ej”护盾皮层系列`
 	category "Systems"
 	series "Shields"
 	index 11020
@@ -75,10 +75,10 @@ outfit `"Ej" Shield Cortex`
 	"shield energy" 4.0
 	"shield connection point" 1
 	linked "Shield Cortex Interface"
-	description "Because their bimodal engines draw power from a ship's shield matrix, even non-combat Successor craft can justify equipping powerful shield generators to afford them greater mobility. This is the largest unit the High Houses permit for sale to the general public; even so, it offers substantially faster regeneration than even the largest human shield generators."
+	description "由于其双模态引擎会从飞船的护盾矩阵中汲取能量，即便是非战斗型的继承者飞船也完全有理由装备强大的护盾发生器，以获得更高的机动性。这是高门允许向公众出售的最大型号；即便如此，它所提供的充能速度也远超人类最大的护盾发生器。"
 
 outfit `"Jaase" Shield Cortex`
-	plural `"Jaase" Shield Cortices`
+	plural `“Jaase”护盾皮层系列`
 	category "Systems"
 	series "Shields"
 	index 11030
@@ -93,10 +93,10 @@ outfit `"Jaase" Shield Cortex`
 	"shield energy" 6.4
 	"shield connection point" 1
 	linked "Shield Cortex Interface"
-	description "The technology of their Predecessors was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nonetheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
+	description "先驱者的技术远不如现代继承者的同类设备那样模块化，后者必须依靠更为有限的资源和相对原始的制造技术来建造。尽管如此，这款中型护盾皮层依然足够强大，能轻松抵御数个弱小攻击者的联合火力，因此被高门保留用于其私人舰队。"
 
 outfit `"Jorv" Shield Cortex`
-	plural `"Jorv" Shield Cortices`
+	plural `“Jorv”护盾皮层系列`
 	category "Systems"
 	series "Shields"
 	index 11040
@@ -111,7 +111,7 @@ outfit `"Jorv" Shield Cortex`
 	"shield energy" 14.0
 	"shield connection point" 1
 	linked "Shield Cortex Interface"
-	description "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many more traditional members of the High Houses disapprove of its design, arguing that such a powerful piece of their technology deserves a more artful form, but there has ultimately been little desire to invest time and money into a redesign for purely aesthetic reasons."
+	description "这款大型继承者护盾皮层布满了再生节点，其所需的能量预算甚至超过了大多数人类战舰的整体能耗。许多更为传统的高门成员并不赞成这种设计，他们认为如此强大的科技产物理应拥有更具艺术感的形态；但归根结底，几乎没有人愿意纯粹为了美观而投入时间与资金去重新设计。"
 
 outfit "Shield Cortex Interface"
 	category "Systems"
@@ -125,7 +125,7 @@ outfit "Shield Cortex Interface"
 	"outfit space" -3
 	"shield protection" 0.33
 	"shield connection point" -2
-	description "This compact tract of electrical fibers connects two Successor shield cortices to function as a single unit, preventing the shield-softening effect of one of the generators from unduly reducing the durability of the ship's shields. The effect scales poorly past two connected generators."
+	description "这束紧凑的电气纤维将两个继承者护盾皮层连接起来，使其作为一个整体运作，从而防止其中一台发生器产生的护盾软化效应过度削弱飞船护盾的耐久度。不过，当连接的发生器超过两台时，该效应的扩展效果就会大打折扣。"
 
 
 outfit `1-"Uurau" Betavoltaic Cell`
@@ -141,7 +141,7 @@ outfit `1-"Uurau" Betavoltaic Cell`
 	"energy generation" 0.85
 	"heat generation" 0.65
 	"energy capacity" 1200
-	description "Unlike most radioisotope generators, this power cell operates by extracting electricity directly from beta particles produced by radioactive decay. While this process yields less energy per unit of material, it is also safer and produces very little waste heat."
+	description "与大多数放射性同位素发电机不同，这款电池通过直接从放射性衰变产生的β粒子中提取电力来运作。虽然这种方式在单位材料上产生的能量较少，但也更加安全，且产生的废热极少。"
 
 outfit `OC-"Mavra" Betavoltaic Cell`
 	category "Power"
@@ -156,7 +156,7 @@ outfit `OC-"Mavra" Betavoltaic Cell`
 	"energy generation" 2.25
 	"heat generation" 3.8
 	"energy capacity" 2000
-	description "In an effort to produce a high-density power source smaller than their fusion reactors, the Successors have created this overcharged betavoltaic cell, which contains particularly high-density radioactive material and lacks much of the radiation shielding of the standard models. While it has technically passed safety inspection, most Successor pilots understandably prefer to keep a bulkhead between themselves and one of these potent little cores at all times."
+	description "为了制造出一种比其聚变反应堆更小巧的高密度能源，继承者研发了这款过充型贝塔伏特电池。它含有密度极高的放射性物质，并且去除了标准型号上的大部分辐射屏蔽。虽然它在技术上通过了安全检查，但绝大多数继承者飞行员自然更倾向于在自己与这个强劲的小核心之间，随时隔着一道坚实的舱壁。"
 
 outfit `3-"Kaska" Betavoltaic Cell`
 	category "Power"
@@ -171,7 +171,7 @@ outfit `3-"Kaska" Betavoltaic Cell`
 	"energy generation" 3.5
 	"heat generation" 2.6
 	"energy capacity" 3100
-	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of their Predecessors' empire, one marked by scarcity and necessity. Their rugged designs did not appeal to traditional values of beauty, elegance, or uniqueness, but instead offered a level of reliability that made them very popular among those who were then struggling to survive."
+	description "继承者的贝塔伏特发电机诞生于先驱者帝国崩溃后不久的时期，那个时代充满了匮乏与迫切的需求。其粗犷的设计并没有迎合追求美观、优雅或独特性的传统价值观，而是提供了一定程度的可靠性，这使得它们在当时挣扎求生的人群中极受欢迎。"
 
 outfit `6-"Ruuv" Betavoltaic Cell`
 	category "Power"
@@ -186,7 +186,7 @@ outfit `6-"Ruuv" Betavoltaic Cell`
 	"energy generation" 8.1
 	"heat generation" 5.3
 	"energy capacity" 8500
-	description "This large modular betavoltaic generator is designed to be resilient and dependable: if one of its component cells fails, it can continue to operate at only a slightly reduced output. The Successors eschew its use on warships because of its low energy density, but it sees substantial use aboard their merchant, archaeological, and other civilian craft."
+	description "这款大型模块化贝塔伏特发电机在设计上强调了韧性与可靠：即便其中的某个组件单元发生故障，它仍能以仅略微降低的输出功率继续运行。由于其能量密度较低，继承者避免将其用于战舰，但它在他们的商船、考古船以及其他民用船只上得到了广泛应用。"
 
 
 outfit "Auxiliary Power Reserve"
@@ -201,7 +201,7 @@ outfit "Auxiliary Power Reserve"
 	"outfit space" -5
 	"energy capacity" 3000
 	"hull energy" -0.16
-	description "The relatively limited output of the Successors' betavoltaic cells has encouraged them to build efficient batteries to make up for that deficit. In order to gain some additional power overhead on their warships, these reserve a portion of their capacity exclusively for use by hull repair systems, effectively reducing the amount of power these systems draw from a ship's total energy pool while active."
+	description "继承者的贝塔伏特电池输出相对有限，这促使他们制造高效的电池来弥补这一不足。为了给战舰提供一些额外的电力冗余，这些电池会留出一部分容量专门供船体修复系统使用，从而有效减少了这些系统在启动时从飞船总能量池中汲取的电力。"
 
 outfit "Primary Power Reserve"
 	category "Power"
@@ -215,7 +215,7 @@ outfit "Primary Power Reserve"
 	"outfit space" -20
 	"energy capacity" 15000
 	"hull energy" -0.8
-	description "This larger Successor battery stores an impressive amount of energy, and can noticeably reduce the effective power draw of a ship's hull repair systems while in combat. The High Houses use this in concert with their reactors' power distribution systems to keep their warships powered and functional even when equipped with their most energy-hungry equipment. Even so, they do not restrict the sale of this unit to the general public."
+	description "这款大型继承者电池储存了惊人的能量，能够在战斗中显著降低飞船船体修复系统的实际功耗。高门将其与自身反应堆的配电系统协同使用，以确保战舰即便装备了最耗能的设备，也能保持充足的供电与正常运转。即便如此，他们也并未限制将该装置向公众出售。"
 
 
 outfit `"Nnesa" Fusion Core`
@@ -232,7 +232,7 @@ outfit `"Nnesa" Fusion Core`
 	"heat generation" 14.6
 	"shield energy multiplier" -0.08
 	"hull energy multiplier" -0.08
-	description "While betavoltaics may be sufficient for civilian use, the more advanced technology of the High Houses is energy-hungry enough to require more powerful generators. Rather than focusing on extracting as much power from as little space as possible, the High Houses have designed these stellarator fusion reactors for efficiency and portability; they produce little heat and few waste byproducts. In addition, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
+	description "虽然贝塔伏特电池对于民用而言可能已经足够，但高门那些更为先进的技术极其耗能，需要更强大的发电机。高门在设计这些仿星器聚变反应堆时，并未拘泥于从尽可能小的空间中榨取尽可能多的能量，而是将其重心放在了效率与便携性上；它们产生的热量和废料副产品都极少。此外，其设计还能更高效地向飞船的防御系统输送电力，这具体表现为相关装备功耗的降低。"
 
 outfit `"Ryuit" Fusion Core`
 	category "Power"
@@ -248,8 +248,8 @@ outfit `"Ryuit" Fusion Core`
 	"heat generation" 23.5
 	"shield energy multiplier" -0.14
 	"hull energy multiplier" -0.14
-	description "Like most Successor technology, their modern reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even though their modern efforts don't quite match the potency of their ancestors', the designs retain an aura of elegance and power, twisting like flames and humming with energy."
-	description "	One also can't help but wonder about those few original reactors, which presumably remain locked away in the private vaults of the High Houses, kept in prime condition for if and when they are needed once again."
+	description "就像大多数的继承者科技一样，他们现代的反应堆也是基于先驱者帝国崩溃期间被高门秘密藏匿的同类设备。尽管现代制造的产物在效能上尚不及先祖，但这些设计依然散发着一种优雅与力量交织的光环，宛如跳动的火焰，伴随着能量的低鸣。"
+	description "	人们也不禁对那少数几台原始反应堆感到好奇，它们大概仍被锁在高门的私人金库中，并维持着完美的状态，以备将来不时之需。"
 
 outfit `"Uoret" Fusion Core`
 	category "Power"
@@ -265,7 +265,7 @@ outfit `"Uoret" Fusion Core`
 	"heat generation" 35.1
 	"shield energy multiplier" -0.22
 	"hull energy multiplier" -0.22
-	description "Designed in the form of a flowering plant from the ancestral homeworld of the Successors, this largest and most powerful of the High Houses' stellarators demonstrates a mastery of nuclear fusion power far exceeding humanity's. In addition to being powerful and surprisingly efficient, it is also supported by a large and well-integrated power distribution network capable of massively reducing the draw of the Successors' energy-hungry defensive outfits."
+	description "这款仿星器采用了继承者先祖母星上的一种开花植物的造型，它是高门最大、最强悍的聚变核心，展现出了远超人类的核聚变掌控力。它不仅动力强劲且效率惊人，还配备了一个庞大且高度整合的配电网络，能够大幅降低继承者那些高耗能防御装备的电力需求。"
 
 
 outfit "Successor Cooling"
@@ -281,7 +281,7 @@ outfit "Successor Cooling"
 	"cooling" 4.5
 	"active cooling" 10.5
 	"cooling energy" 1.1
-	description "Like much of their technology, Successor cooling is bimodal, running a constant low-flow coolant loop that can be increased in both volume and heat rejection when the situation demands it."
+	description "就像他们的许多技术一样，继承者的冷却系统也是双模式的，它维持着一个恒定的低流量冷却剂循环，而在情况需要时，能够同时提升冷却剂流量与散热能力。"
 
 
 outfit "Successor Fuel Sail"
@@ -297,7 +297,7 @@ outfit "Successor Fuel Sail"
 	"ramscoop" 4.0
 	"solar heat" 6.0
 	"drag" 0.1
-	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. The sail expands to a vast area when in the vicinity of a stellar corona, gently collecting hydrogen from it and condensing it into a ship's fuel storage in a fashion much more elegant than the comparatively brutish action of a traditional ramscoop. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
+	description "继承者与他们的航海传统保持着深厚的联系，这款带有奇特质朴气息的燃料收集器便是最好的例证。当靠近恒星日冕时，它的帆面会展开至极为广阔的面积，轻柔地从中收集氢气，并将其冷凝至飞船的燃料储备中，这一过程远比传统冲压式收集器那相对粗暴的动作要优雅得多。不过，飞行员需要注意，展开后的巨大帆面同样会吸收大量的热量。"
 
 
 outfit `"Veldt" Combat Scanner`
@@ -314,8 +314,8 @@ outfit `"Veldt" Combat Scanner`
 	"tactical scan power" 50
 	"cargo scan power" 50
 	"cargo scan efficiency" 15
-	description "The High Houses prefer to keep their territories well-monitored, and have a long history of developing powerful and efficient scanners to that end. This scanning system is their latest generation, used to both identify contraband and target potential foes at great distance."
-	description "	While restricted for sale to the public, the sheer number of scanners produced has allowed a few to slip onto black markets; a persistent problem the High Houses are extremely eager to correct."
+	description "高门倾向于对自己的领地保持严密监控，并为此在开发强大高效的扫描仪方面拥有悠久的历史。这款扫描系统是他们的最新一代产品，可用于在远距离识别违禁品以及锁定潜在敌人。"
+	description "	尽管该设备限制向公众出售，但其庞大的产量仍使得少数扫描仪流入了黑市；这是一个高门极其渴望纠正的持续性问题。"
 
 outfit `"Tuur" Scanning Suite`
 	category "Systems"
@@ -330,12 +330,12 @@ outfit `"Tuur" Scanning Suite`
 	"energy consumption" 0.10
 	"asteroid scan power" 35
 	"atmosphere scan" 100
-	description "This scanning system was developed during the first years after the Predecessors' collapse, when the newly emigrated High Houses needed to find new resource deposits to replace those that they had left behind. While less efficient than human scanners, it is compact and powerful, useful for identifying materials both in asteroids and planetside."
-	description "	In the modern day, with the territories of the High Houses more or less static, these scanners are primarily used either by researchers as tools for planetary analysis or by independent pilots supporting themselves via asteroid mining."
+	description "这套扫描系统开发于先驱者崩溃后的最初几年，当时新近移居的高门需要寻找新的资源矿藏，以取代他们被迫遗弃的那些。虽然它的效率不如人类扫描仪，但却紧凑且强大，非常适合用于识别小行星与行星地表的各种物质。"
+	description "	到了现代，随着高门的领地已基本固定，这些扫描仪主要被研究人员用作行星分析的工具，或是被那些依靠小行星采矿谋生的独立飞行员所使用。"
 
 
 outfit `"Niis" Inductive Engines`
-	plural `"Niis" Inductive Engines`
+	plural `“尼斯”感应引擎`
 	category "Engines"
 	series "Engines"
 	index 11010
@@ -362,7 +362,7 @@ outfit `"Niis" Inductive Engines`
 	"steering flare sprite" "effect/successor flare/tiny"
 		"frame rate" 20
 	"steering flare sound" "ion tiny"
-	description "This tiny set of inductive engines is just enough to push around a Successor shuttle. They retain the dual-mode capabilities of the larger models, albeit at a much smaller scale."
+	description "这套微型的感应引擎刚好能够驱动一艘继承者穿梭机。它们保留了大型型号的双模态能力，尽管其规模要小得多。"
 
 outfit `"Aqra" Inductive Thruster`
 	category "Engines"
@@ -386,7 +386,7 @@ outfit `"Aqra" Inductive Thruster`
 	"flare sprite" "effect/successor flare/small"
 		"frame rate" 20
 	"flare sound" "ion small"
-	description "Successor thrusters are bimodal: most of the time, they are run in an energy-efficient low-power state, but when the time comes to flee or fight, they can be switched to a less efficient but very powerful high-thrust mode that draws power from the ship's shields."
+	description "继承者的推进器是双模态的：在大多数时候，它们以一种节能的低功率状态运行；但当需要逃离或战斗时，它们可以切换到一种效率较低但非常强劲的高推力模式，该模式会从飞船的护盾中汲取能量。"
 
 outfit `"Aqra" Inductive Steering`
 	category "Engines"
@@ -406,7 +406,7 @@ outfit `"Aqra" Inductive Steering`
 	"steering flare sprite" "effect/successor flare/small"
 		"frame rate" 20
 	"steering flare sound" "ion small"
-	description "Since their steering thrusters lack the mode switch emblematic of their linear propulsion, the Successors have invested their efforts into making these thrusters both powerful for their size and relatively efficient. In addition, recurrent power streams from the steering thrusters feed back into the ship's linear engines during afterburning modes, reducing or even reversing the additional energy cost associated with using afterburners."
+	description "由于其转向推进器缺乏线性推进系统那标志性的模式切换功能，继承者倾注了大量精力，致力于让这些推进器在其尺寸下不仅动力强劲，且相对高效。此外，在加力燃烧模式下，来自转向推进器的循环能量流会回馈至飞船的线性引擎，从而降低甚至抵消使用加力燃烧器所带来的额外能源消耗。"
 
 outfit `"Aqra" Inductive Reverser`
 	category "Engines"
@@ -426,8 +426,8 @@ outfit `"Aqra" Inductive Reverser`
 	"reverse flare sprite" "effect/successor flare/small"
 		"frame rate" 20
 	"reverse flare sound" "ion small"
-	description "The inductive thruster technology used by the Successors is most similar to the ion thrusters used in human space, but the more powerful magnetic fields utilized by these thrusters lets them generate substantially more thrust than any comparable human ion thruster."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "继承者使用的感应推进器技术与人类空间的离子推进器最为相似，但这些推进器利用了更为强大的磁场，使其能够产生远超任何同级人类离子推进器的推力。"
+	description "	由于反向推进器必须朝前安装，因此它需安装在飞船的武器槽位中，而非引擎槽位。"
 
 outfit `"Chyyra" Inductive Thruster`
 	category "Engines"
@@ -451,7 +451,7 @@ outfit `"Chyyra" Inductive Thruster`
 	"flare sprite" "effect/successor flare/medium"
 		"frame rate" 20
 	"flare sound" "ion medium"
-	description "This larger set of inductive thrusters is impressively efficient under low power, and produces an equally impressive amount of thrust in its high-power mode. With these, even large and apparently lumbering Successor ships can suddenly become substantially more agile when under threat."
+	description "这套更大型的感应推进器在低功率状态下效率惊人，而在其高功率模式下也能产生同样惊人的推力。有了它们，即便是庞大且看似笨重的继承者舰船，在受到威胁时也能瞬间变得极其灵活。"
 
 outfit `"Chyyra" Inductive Steering`
 	category "Engines"
@@ -471,7 +471,7 @@ outfit `"Chyyra" Inductive Steering`
 	"steering flare sprite" "effect/successor flare/medium"
 		"frame rate" 20
 	"steering flare sound" "ion medium"
-	description "While not particularly powerful for its size, this set of inductive steering engines is extraordinarily efficient, allowing large Successor vessels to remain relatively nimble even when equipped with very small generators."
+	description "尽管就其尺寸而言动力并不算特别强劲，但这套感应转向引擎却异常高效，它使得大型继承者舰船即便只配备了极小的发电机，也能保持相对敏捷的机动性。"
 
 outfit `"Chyyra" Inductive Reverser`
 	category "Engines"
@@ -491,8 +491,8 @@ outfit `"Chyyra" Inductive Reverser`
 	"reverse flare sprite" "effect/successor flare/medium"
 		"frame rate" 20
 	"reverse flare sound" "ion medium"
-	description "This large reverse thruster sees use in both commerce and warfare, speeding up the traversal of trade routes in the former situation and enhancing combat agility in the latter."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "这种大型反向推进器在商业与战争中均有应用，在前者的情况下能加快贸易路线的穿越速度，而在后者中则能提升战斗机动性。"
+	description "	由于反向推进器必须朝前安装，因此它需安装在飞船的武器槽位中，而非引擎槽位。"
 
 outfit `"Veusa" Inductive Thruster`
 	category "Engines"
@@ -516,7 +516,7 @@ outfit `"Veusa" Inductive Thruster`
 	"flare sprite" "effect/successor flare/large"
 		"frame rate" 20
 	"flare sound" "ion large"
-	description `The largest of the Successors' pulsed inductive thrusters, the Veusa is used primarily to propel their large warships and freighters. While its high-performance mode is powerful enough to accelerate even the largest vessels to high speeds, it also drains shield power remarkably quickly; this is clearly meant to be paired with one of the Successors' fast-recharging shield generators.`
+	description `作为继承者最大的脉冲感应推进器，Veusa主要用于驱动他们的大型战舰与货船。虽然它的高性能模式足以将最庞大的舰船加速至高速，但也会极其迅速地消耗护盾能量；这显然是设计来与继承者那些快速充能的护盾发生器搭配使用的。`
 
 outfit `"Veusa" Inductive Steering`
 	category "Engines"
@@ -536,7 +536,7 @@ outfit `"Veusa" Inductive Steering`
 	"steering flare sprite" "effect/successor flare/large"
 		"frame rate" 20
 	"steering flare sound" "ion large"
-	description `The Veusa series of Successor steering units is significantly smaller than comparable human engines, allowing the Successors to gain some flexibility in the engine layouts of their large ships.`
+	description `继承者的Veusa系列转向单元比同类的人类引擎要小得多，这使得继承者在他们大型飞船的引擎布局上能够获得一定的灵活性。`
 
 outfit `"Veusa" Inductive Reverser`
 	category "Engines"
@@ -556,8 +556,8 @@ outfit `"Veusa" Inductive Reverser`
 	"reverse flare sprite" "effect/successor flare/large"
 		"frame rate" 20
 	"reverse flare sound" "ion large"
-	description "While the invertebrate Successors are relatively unaffected, human pilots must take care when using a reverse thruster this large to avoid dangerous g-force stress on the body."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "虽然作为无脊椎动物的继承者相对不受影响，但人类飞行员在使用如此巨大的反向推进器时必须格外小心，以避免危险的重力加速度对身体造成过载压力。"
+	description "	由于反向推进器必须朝前安装，因此它需安装在飞船的武器槽位中，而非引擎槽位。"
 
 
 outfit "Multimodal Armor: Light"
@@ -571,8 +571,8 @@ outfit "Multimodal Armor: Light"
 	"inertia reduction" .15
 	"multimodal armor" -1
 	"unplunderable"
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration introduces well-ordered nanoscale voids into the armor's structure, reducing a warship's mass without compromising structural integrity."
+	description "继承者战舰的超材料装甲可以在设施齐备的太空港中进行改造，以改变其属性。"
+	description "	这种配置在装甲结构中引入了排列有序的纳米级孔隙，能够在不削弱结构完整性的前提下减轻战舰的质量。"
 
 outfit "Multimodal Armor: Heavy"
 	category "Systems"
@@ -584,8 +584,8 @@ outfit "Multimodal Armor: Heavy"
 	"hull protection" .2
 	"multimodal armor" -1
 	"unplunderable"
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration strengthens the bonds between the atoms making up the armor, increasing its resistance to direct damage."
+	description "继承者战舰的超材料装甲可以在设施齐备的太空港中进行改造，以改变其属性。"
+	description "	这种配置加强了构成装甲的原子之间的结合键，从而提高了其对直接伤害的抵抗力。"
 
 outfit "Multimodal Armor: Regen"
 	category "Systems"
@@ -597,8 +597,8 @@ outfit "Multimodal Armor: Regen"
 	"hull repair multiplier" .75
 	"multimodal armor" -1
 	"unplunderable"
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration increases the plasticity of the armor, greatly increasing the effectiveness of in-combat repair efforts."
+	description "继承者战舰的超材料装甲可以在设施齐备的太空港中进行改造，以改变其属性。"
+	description "	此配置提高了装甲的可塑性，极大地增强了战斗中维修工作的效率。"
 
 outfit "Multimodal Armor: Keystone"
 	category "Systems"
@@ -612,8 +612,8 @@ outfit "Multimodal Armor: Keystone"
 	"scan interference" 3
 	"multimodal armor" -1
 	"unplunderable"
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration allows a vessel equipped with it to safely pass through unstable wormholes. As a side effect, it also substantially interferes with external scans of a vessel's cargo or outfits."
+	description "继承者战舰的超材料装甲可以在设施齐备的太空港中进行改造，以改变其属性。"
+	description "	此配置使装备该装甲的舰船能够安全穿越不稳定的虫洞。作为副作用，它也会显著干扰针对舰船货物或装备的外部扫描。"
 
 
 outfit "Kinetic Rail Rifle"
@@ -627,7 +627,7 @@ outfit "Kinetic Rail Rifle"
 	"capture defense" 3.2
 	"unplunderable"
 	"can jettison"
-	description "While projectile weapons of this scale are considered obsolete in human space, having been superseded by laser weaponry, the Successors' generations of experience with high-power kinetic weapons have allowed them to produce this particularly terrifying railgun rifle, firing projectiles capable of piercing body armor and even intervening bulkheads. Particularly effective at repelling boarders, it is capable of interfacing with a Successor ship's computer and surveillance systems, routing target information to a built-in display."
+	description "尽管这种规格的抛射武器在人类空间中已被视为过时，并被激光武器取代，但继承者数代积累的高功率动能武器经验使他们得以制造出这种尤为可怖的磁轨步枪——其发射的弹丸足以穿透防弹装甲甚至舱壁隔板。该武器在击退登船者时特别有效，能够与继承者舰船的计算机和监控系统接口对接，将目标信息路由至内置显示屏。"
 
 outfit "Radiant Shield Shunt"
 	category "Unique"

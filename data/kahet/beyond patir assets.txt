@@ -46,7 +46,7 @@ fleet "Magic Asteroid"
 
 ship "Asteroid Large 1"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid adult"
 	"uncapturable"
 	attributes
@@ -99,7 +99,7 @@ ship "Asteroid Large 1"
 
 ship "Asteroid Large 2"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid adult 2"
 	"uncapturable"
 	attributes
@@ -154,7 +154,7 @@ ship "Asteroid Large 2"
 
 ship "Asteroid Large 3"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid adult 3"
 	"uncapturable"
 	attributes
@@ -207,7 +207,7 @@ ship "Asteroid Large 3"
 
 ship "Asteroid Large 4"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid adult 4"
 	"uncapturable"
 	attributes
@@ -260,7 +260,7 @@ ship "Asteroid Large 4"
 
 ship "Asteroid Large 5"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid adult 5"
 	"uncapturable"
 	attributes
@@ -313,7 +313,7 @@ ship "Asteroid Large 5"
 
 ship "Asteroid Medium"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid medium"
 	"uncapturable"
 	attributes
@@ -365,7 +365,7 @@ ship "Asteroid Medium"
 
 ship "Asteroid Young 1"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid young"
 	"uncapturable"
 	attributes
@@ -416,7 +416,7 @@ ship "Asteroid Young 1"
 
 ship "Asteroid Young 2"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid young 2"
 	"uncapturable"
 	attributes
@@ -467,7 +467,7 @@ ship "Asteroid Young 2"
 
 ship "Asteroid Young 3"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid young 3"
 	"uncapturable"
 	attributes
@@ -518,7 +518,7 @@ ship "Asteroid Young 3"
 
 ship "Asteroid Young 4"
 	"display name" "???"
-	"noun" "asteroid"
+	"noun" "小行星"
 	sprite "ship/asteroid young 4"
 	"uncapturable"
 	attributes
@@ -587,7 +587,7 @@ outfit "Asteroid Anti-Missile"
 		"lifetime" 1
 		"reload" 1
 		"firing heat" 18
-	description "Though its specifics are essentially the same as its smaller variant, its bubble shield is far bigger and just as indestructible. It has clearly become more unstable in the process, but this does not seem to have affected its capabilities."
+	description "虽然其具体规格与较小的型号基本相同，但它的泡泡护盾要大得多，而且同样坚不可摧。在这一过程中它显然变得更加不稳定，但这似乎并未影响其性能。"
 
 effect "asteroid am fire"
 	sprite "effect/asteroid am fire"
@@ -615,7 +615,7 @@ outfit "Asteroid Anti-Missile 2"
 		"lifetime" 1
 		"reload" 1
 		"firing heat" 18
-	description "A nearly impenetrable anti-missile field, instantly eliminating even the strongest missile that tries to pass through. However, the size of this protective bubble greatly limits its capabilities."
+	description "一种几乎无法穿透的反导力场，能瞬间消灭任何试图穿透它的最强导弹。然而，该防护罩的尺寸极大地限制了其效能。"
 
 effect "asteroid am circle defense"
 	sprite "effect/asteroid am circle defense"
@@ -651,7 +651,7 @@ outfit "Asteroid Weapon Small"
 		"hull damage" 600
 		"slowing damage" -28
 		"blast radius" 20
-	description "Similar in appearance to the anti-missile used by some of these ships, this weapon was created with two functions in mind: slowing down an opponent until it gets close enough, and then eliminating it with heavy, direct damage to the hull."
+	description "外观与某些飞船使用的反导系统类似，该武器在设计时考虑了两种功能：减缓对手的速度直到其足够接近，随后通过对船体的沉重直接伤害将其摧毁。"
 
 outfit "Asteroid Circle Submunition"
 	weapon
@@ -693,7 +693,7 @@ outfit "Asteroid Weapon Large"
 		"lifetime" 20
 		"submunition" "creeper1 print"
 		"reload" 100
-	description "By creating a circle of energy-based mines and then converting them into missiles at the same time, this weapon is capable of breaking through anti-missile defenses better than most."
+	description "通过制造一圈能量水雷并将其同时转化为导弹，该武器比大多数武器更能突破反导防御系统。"
 	
 outfit "creeper1 print"
 	weapon
@@ -1125,7 +1125,7 @@ outfit "Asteroid Weapon Large 2"
 		"split range" 400
 		"reload" 150
 		"firing heat" 5
-	description "This very peculiar weapon overwhelms its target by creating an array of short-living, laser-armed entities. However, the precision it requires, as well as its low raw damage output, limits its potential."
+	description "这种极其特殊的武器通过生成一组存在时间极短的激光武装实体来压制目标。然而，其所需的精度以及较低的原始伤害输出限制了它的潜力。"
 	
 effect "asteroid glow"
 	sprite "effect/asteroid glow"
@@ -1484,7 +1484,7 @@ outfit "Asteroid Weapon Large 3"
 		"split range" 180
 		"reload" 100
 		"firing heat" 5
-	description "While it may be technically described as a missile, its specifics differ from the average rocket launcher. The heap of energy created by this weapon's fire continuously releases projectiles which home in onto enemies, until finally exploding and breaking up into an enormous barrage of similar projectiles. These attributes make it very good at overwhelming anti-missiles enough to render them useless, then impacting a fair share of damage while they are down."
+	description "虽然从技术上讲它可以被称为导弹，但其具体特性与普通火箭发射器不同。该武器开火时产生的能量团会持续释放追踪敌人的弹射物，最终爆炸并分裂成包含大量同类弹射物的巨大弹幕。这些属性使其非常擅长压制反导系统并使其失效，随后在防御系统瘫痪时造成可观的伤害。"
 
 outfit "asteroid missile"
 	weapon
@@ -1621,7 +1621,7 @@ outfit "Asteroid Weapon Large 4"
 		"burst count" 7
 		"burst reload" 1
 		"firing heat" 5
-	description "An impressive defensive weapon, fending off even the mightiest attackers by projecting enormous bubble-shaped minefields all around itself. Though not a rapid-fire weapon by any means, it is able to maintain one of those fields continuously without issue."
+	description "一种令人印象深刻的防御武器，通过在自身周围投射巨大的气泡状雷区，甚至能抵御最强大的攻击者。尽管它绝不是速射武器，但它能毫无困难地持续维持一个这样的雷场。"
 	
 outfit "wep1 print"
 	weapon
@@ -2443,7 +2443,7 @@ outfit "Asteroid Jump Drive"
 	"jump effect" "jump drive 13"
 	"jump effect" "jump drive 14"
 	"jump effect" "jump drive 15"
-	description "Whatever the mechanism that hides beneath the translucent orb may be, it functions similarly to a jump drive, bridging different parts of the universe together for the cost of merely 200 units of fuel."
+	description "无论半透明球体之下隐藏着何种机制，其功能都与跃迁引擎相似，仅需消耗200单位燃料即可将宇宙的不同区域连接在一起。"
 
 # The "ajump drive" effect doesn't exist, but serve to reduce the number of effects spawned: as it always shows the same overall number, by showing empty ones it effectively reduces the visual bloat during the jump
 

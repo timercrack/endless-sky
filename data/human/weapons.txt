@@ -33,7 +33,7 @@ outfit "Energy Blaster"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "Although not the most accurate or damaging of weapons, the Energy Blaster is popular because it is small enough to be installed on even the tiniest of ships. One blaster is not enough to do appreciable damage to anything larger than a fighter, but a ship equipped with several of them becomes a force to be reckoned with."
+	description "虽然爆能炮并非最精准或最具破坏力的武器，但它体型小巧，足以安装在最小的飞船上，因此广受欢迎。单门爆能炮无法对大于战斗机的目标造成可观伤害，但装备多门爆能炮的飞船将变得不容小觑。"
 
 outfit "Twin Blaster"
 	category "Guns"
@@ -61,7 +61,7 @@ outfit "Twin Blaster"
 		"reload" 12
 		"firing energy" 11.6
 		"firing heat" 36
-	description "The Energy Blaster's ubiquity, low price, and stable performance have made it irresistible to tinkerers from the day it was first introduced. These blasters have been bolted together to fit within a single gun port, offering twice the damage of a single blaster at the cost of twice the heat and power consumption, along with some additional mass."
+	description "爆能炮凭借其普及性、低廉的价格和稳定的性能，自问世之日起就让改装者们难以抗拒。这些爆能炮被螺栓固定在一起，装入单个炮位，能提供单门爆能炮两倍的伤害，但代价是两倍的热量和电力消耗，外加额外的质量。"
 
 outfit "Blaster Submunition"
 	weapon
@@ -98,7 +98,7 @@ outfit "Blaster Turret"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "A Blaster Turret is a pair of Energy Blasters mounted on a rotating platform, allowing it to fire in any direction. Sophisticated software algorithms allow the turret to correct for a target's motion, making the Blaster Turret effective even against small, quickly moving fighters. Because it needs a special mounting point with a 360 degree field of view, not all ships are capable of being equipped with a turret."
+	description "爆能炮塔由一对安装于旋转平台上的爆能炮组成，使其可以向任何方向开火。精密的软件算法让炮塔能够修正目标的移动，使爆能炮塔即使面对小型快速战斗机也依然有效。由于需要拥有360度视野的特殊安装点，并非所有飞船都能装备炮塔。"
 
 outfit "Quad Blaster Turret"
 	category "Turrets"
@@ -126,7 +126,7 @@ outfit "Quad Blaster Turret"
 		"firing heat" 18
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description "A Quad Blaster Turret carries four guns on a single turret mount, doubling the firepower of an ordinary Blaster Turret for ships with enough space to install one and energy to drive it."
+	description "四联爆能炮塔在一个炮塔基座上搭载四门爆能炮，火力是普通爆能炮塔的两倍，适合有足够空间安装并能提供充足能量的飞船使用。"
 
 effect "blaster impact"
 	sprite "effect/blaster impact"
@@ -159,7 +159,7 @@ outfit "Modified Blaster"
 		"firing heat" 25.2
 		"shield damage" 13.2
 		"hull damage" 8.8
-	description "This is an Energy Blaster that has been tampered with to increase its power slightly, at the cost of reduced range and higher energy consumption. Modified Blasters also produce an extreme amount of heat when firing, increasing the risk that your ship will overheat."
+	description "这是一门经过改装以略微提升威力的爆能炮，代价是射程缩短、能耗增加。改装爆能炮开火时还会产生极高的热量，增加了飞船过热的风险。"
 
 outfit "Twin Modified Blaster"
 	category "Guns"
@@ -187,7 +187,7 @@ outfit "Twin Modified Blaster"
 		"reload" 12
 		"firing energy" 13
 		"firing heat" 50.4
-	description "An enterprising engineer, presumably having decided that the Modified Blaster's already-frightening lack of safety control was insufficient, has taken two of the weapons and shoved them together in the same gun port, crudely welded together with fervid enthusiasm. Whether or not this weapon will destroy the target before it melts its own components is anyone's guess; perhaps the intent was that the twin barrels would intimidate enemies into submission before the weapon would have to be fired."
+	description "一位富有进取心的工程师，大概是觉得改装爆能炮本身就令人恐惧的安全失控还不够，于是将两门这样的武器塞进了同一个炮口，用狂热的热忱粗陋地焊接在一起。这件武器究竟会在摧毁目标之前先熔化自身零部件，谁也说不准；或许其本意是双枪管能在开火之前就靠威慑力让敌人屈服。"
 
 outfit "Modified Blaster Submunition"
 	weapon
@@ -224,7 +224,7 @@ outfit "Modified Blaster Turret"
 		"firing heat" 25.2
 		"shield damage" 13.2
 		"hull damage" 8.8
-	description "This is a turreted version of the Modified Blaster, which is an Energy Blaster modified for greater power at the cost of higher energy consumption and heat. These turrets are popular with pirates and others who are trying to cram as much firepower into their ships as possible."
+	description "这是改装爆能炮的炮塔版本，后者由爆能炮改装而来，以更高的能耗和热量为代价换取更强的威力。这些炮塔深受海盗及其他试图在飞船上尽可能堆砌火力的人的青睐。"
 
 outfit "Heavy Blaster"
 	category "Guns"
@@ -248,7 +248,7 @@ outfit "Heavy Blaster"
 		"firing heat" 150
 		"shield damage" 90
 		"hull damage" 54
-	description "The Heavy Blaster is a scaled-up variant of the ever-so-popular Energy Blaster design. These saw extensive use on several warships earlier in history, most notably as the main armament of the Firebird when it was first produced. Over time, the development of more advanced weapons such as the Particle Cannon and Plasma Cannon has supplanted the Heavy Blaster on newer craft, but it still performs consistently enough to be found on older serviceable ships."
+	description "重型爆能炮是广受欢迎的爆能炮设计的放大版本。在早期历史中，这些武器曾被多艘战舰大量使用，最著名的是作为火鸟最初生产时的主武器。随着时间的推移，粒子加农炮和等离子加农炮等更先进武器的发展使得新型飞船上不再使用重型爆能炮，但它仍能稳定发挥，可在老旧仍服役的飞船上找到。"
 
 
 outfit "Beam Laser"
@@ -274,7 +274,7 @@ outfit "Beam Laser"
 		"firing heat" 1.6
 		"shield damage" 1
 		"hull damage" 1.3
-	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere."
+	description "在太空时代早期，被称为星渊的这片太空区域中的定居点，在与人类空间其他部分相对隔绝的情况下发展。这种隔绝的一个结果是，他们的武器技术主要使用光束武器，而非其他地方更常见的能量射弹武器。"
 
 outfit "Laser Turret"
 	category "Turrets"
@@ -303,7 +303,7 @@ outfit "Laser Turret"
 		"firing heat" 3.2
 		"shield damage" 2
 		"hull damage" 2.6
-	description "Laser Turrets are hated by fighter pilots because it is nearly impossible to dodge them once you are within their reach. This turret carries a pair of lasers and can swivel almost instantly to fire on new targets as they approach. Laser Turrets are especially useful when mounted on slow-moving freighters to fend off packs of small pirate vessels."
+	description "战斗机飞行员非常痛恨激光炮塔，因为一旦进入其射程，就几乎不可能躲避。这座炮塔搭载一对激光炮，可以在新目标接近时几乎瞬间旋转开火。激光炮塔尤其适合安装在缓慢移动的货船上，用来驱退成群的小型海盗飞船。"
 
 effect "beam laser impact"
 	sprite "effect/laser impact"
@@ -338,7 +338,7 @@ outfit "Heavy Laser"
 		"firing heat" 2.8
 		"shield damage" 1.7
 		"hull damage" 2.4
-	description "The Heavy Laser is an upgraded Beam Laser with a significantly longer range and higher power. It is mostly intended for larger ships, where energy and space are plentiful, but some pilots consider a single Heavy Laser to be a worthwhile alternative to a pair of Beam Lasers, because the longer range makes up for the fact that it does not quite deal twice as much damage."
+	description "重型激光是激光束的升级版，具有明显更远的射程和更高的功率。它主要适用于能量与空间充足的大型飞船，但有些飞行员认为，一门重型激光是替代一对激光束的理想选择，因为更远的射程弥补了它无法造成两倍伤害的不足。"
 
 outfit "Heavy Laser Turret"
 	category "Turrets"
@@ -367,7 +367,7 @@ outfit "Heavy Laser Turret"
 		"firing heat" 5.6
 		"shield damage" 3.4
 		"hull damage" 4.8
-	description "For ships with enough space to install one, the Heavy Laser Turret is a powerful weapon, equally useful for driving off fighters and for bombarding larger targets with continuous fire without having to worry about pointing your ship in the right direction."
+	description "对于有足够空间安装的飞船来说，重型激光炮塔是一款强大的武器，既能有效驱散战斗机，又能通过持续火力轰击大型目标，而无需担心必须将飞船对准正确的方向。"
 
 effect "heavy laser impact"
 	sprite "effect/heavy laser impact"
@@ -404,8 +404,8 @@ outfit "Mining Laser"
 		"hull damage" 1.4
 		"minable damage" 1.9
 		"prospecting" 1
-	description "The development of the Beam Laser in the mid-2400s not only led to advancements in space warfare, but also to the field of asteroid mining, as the traditional but inefficient method of towing asteroids to bases for extraction was supplanted by individual spacecraft that could precisely extract the ore from asteroids themselves."
-	description "	The modern Mining Laser is a derivative of the Beam Laser engineered to optimize mineral yield and extraction rates at the expense of range and shield damage."
+	description "2400年代中期激光束的发展不仅推动了太空战争的进步，也促进了小行星采矿领域的发展——传统的将小行星拖曳至基地进行提取的低效方式，被能够直接而精确地从小行星自身提取矿石的独立飞船所取代。"
+	description "	现代采矿激光是激光束的衍生型，经过工程优化以提高矿物产量和提取率，但牺牲了射程和护盾伤害。"
 
 
 outfit "Mining Laser Turret"
@@ -437,8 +437,8 @@ outfit "Mining Laser Turret"
 		"hull damage" 1.4
 		"minable damage" 1.9
 		"prospecting" 1
-	description "While asteroid miners typically prefer more nimble ships that can keep speed with asteroids, the Mining Laser Turret makes it easier for large and slow ships with spacious cargo holds to mine."
-	description "	Mining Laser Turrets are designed to be used in conjunction with asteroid scanners, as being unable to target asteroids means you have to aim the weapon manually as if it were a fixed gun."
+	description "虽然小行星采矿者通常更喜欢能够跟上小行星速度的灵活飞船，但采矿激光炮塔让拥有宽敞货舱的大型慢速飞船更容易进行采矿作业。"
+	description "	采矿激光炮塔设计为与小行星扫描仪配合使用，因为无法锁定小行星意味着你必须像操作固定武器一样手动瞄准。"
 
 
 outfit "Tractor Beam"
@@ -462,7 +462,7 @@ outfit "Tractor Beam"
 		"reload" 1
 		"firing energy" 2.1
 		"firing heat" .8
-	description "The anti-gravity properties of repulsor engines started a revolution in human spaceflight during the 24th century, but it was only relatively recently that engineers began experimenting with gravitational attraction. Tractor beams utilize rudimentary attractor technology to allow ships to attract space debris, be that the ores from a recently mined asteroid, or the dumped cargo from a merchant ship fleeing for its life. This has led to tractor beams being a popular outfit among asteroid miners and pirates alike."
+	description "斥力引擎的反重力特性在24世纪引发了人类航天革命，但直到相对较近的时期，工程师们才开始尝试引力吸引技术。牵引光束利用基础的吸引器技术，使飞船能够吸引太空碎片——无论是刚开采的小行星矿石，还是为保命而逃窜的商人飞船丢弃的货物。这使得牵引光束成为小行星矿工和海盗中广受欢迎的装备。"
 
 effect "tractor beam"
 	sprite "effect/tractor beam"
@@ -493,7 +493,7 @@ outfit "Electron Beam"
 		"firing heat" 3.6
 		"shield damage" 2.4
 		"hull damage" 3.3
-	description "The Electron Beam is a recent development by the Deep Sky labs, a more powerful weapon with a design similar to their perennially popular laser guns."
+	description "电子束是星渊实验室的近期研发成果，这是一种更强大的武器，其设计与他们长盛不衰的激光枪类似。"
 
 outfit "Electron Turret"
 	category "Turrets"
@@ -522,7 +522,7 @@ outfit "Electron Turret"
 		"firing heat" 7.2
 		"shield damage" 4.8
 		"hull damage" 6.6
-	description "This turret places two of Deep Sky's recently developed electron beam weapons onto a rotating turret, providing unsurpassed accuracy and power for shooting down fast-moving targets."
+	description "这座炮塔将两门幽海星新近开发的电子束武器安装到旋转炮塔上，在击落高速移动目标时提供无与伦比的精准度与威力。"
 
 effect "electron impact"
 	sprite "effect/electron impact"
@@ -554,7 +554,7 @@ outfit "Anti-Missile Turret"
 		"reload" 8
 		"firing energy" 5
 		"firing heat" 3
-	description "Centuries ago, space battles were fought mostly with missiles, with the outcome dependent only on which ship had more shielding or ammunition. Lovelace Labs was originally founded to remedy that situation by developing a protective system that could shoot missiles out of the air, defending freighter convoys from pirates who could otherwise simply bombard them into submission without ever venturing within range of their guns."
+	description "几个世纪以前，太空战主要依赖导弹，胜负仅取决于哪艘船拥有更强的护盾或更多的弹药。洛夫莱斯实验室最初就是为了改变这一局面而成立的，他们开发了一种能够击落空中导弹的防御系统，保护货运船队免受海盗的袭击——否则这些海盗只需在舰炮射程外进行轰炸，就能迫使船队投降。"
 
 effect "small anti-missile"
 	sprite "effect/small anti missile"
@@ -586,7 +586,7 @@ outfit "Heavy Anti-Missile Turret"
 		"reload" 6
 		"firing energy" 10
 		"firing heat" 5
-	description "The Heavy Anti-Missile Turret has a longer range, higher power, and shorter reload time than its smaller sibling. The only way to overcome it is by firing missiles in a cluster so that while one is being targeted, the others can get through, and as a result all missile systems on the market now default to firing in clusters if multiple copies of the same launcher are installed, rather than staggering their fire as ordinary guns do."
+	description "重型反导弹炮塔相比其小型版拥有更长的射程、更高的威力和更短的装填时间。突破其防御的唯一方法就是集群发射导弹，使得当其中一枚被锁定目标时，其他导弹能够穿透防线。因此，现在市面上所有导弹系统在安装多个相同型号发射器时都默认采用齐射模式，而非像普通火炮那样交错开火。"
 
 effect "large anti-missile"
 	sprite "effect/large anti missile"
@@ -622,7 +622,7 @@ outfit "Particle Cannon"
 		"hit force" 120
 		"shield damage" 65
 		"hull damage" 62
-	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
+	description "粒子加农炮通过将短促的粒子流加速至接近相对论速度来工作。当安装在能够快速转向以持续锁定逼近船只的飞船上时，它几乎成为无敌的武器，足以在较小的飞船尚未进入其相对短程武器的有效射程之前就将其摧毁。"
 
 effect "particle impact"
 	sprite "effect/particle impact"
@@ -657,7 +657,7 @@ outfit "Proton Gun"
 		"firing energy" 15
 		"firing force" 3
 		"firing heat" 60
-	description "The Proton Gun started out as the Syndicate's attempt to reverse engineer and mass-produce a cheap competitor for the Particle Cannon. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still popular with some captains, particularly as an anti-fighter gun."
+	description "质子炮最初是辛迪加试图逆向工程并大规模生产粒子加农炮的廉价竞争品。不幸的是，他们未能找到一种可靠的方法来保持光束的相干性，但由此产生的武器仍然受到一些船长的欢迎，尤其是作为反战斗机武器。"
 
 outfit "Proton Fragment"
 	weapon
@@ -706,7 +706,7 @@ outfit "Proton Turret"
 		"firing energy" 15
 		"firing force" 3
 		"firing heat" 60
-	description "The Syndicate Proton Turret is a relatively new product designed to compete with Deep Sky's perennially popular Laser Turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."
+	description "辛迪加质子炮塔是一款相对较新的产品，旨在反战斗机防御市场与幽海星长盛不衰的激光炮塔竞争。虽然比竞争对手粗糙，但质子炮塔在那些对激光武器短射程不满的船长中保持着一批忠实的拥趸。"
 
 
 outfit "Plasma Cannon"
@@ -734,7 +734,7 @@ outfit "Plasma Cannon"
 		"shield damage" 63
 		"hull damage" 25
 		"heat damage" 425
-	description "The Plasma Cannon fires bursts of superheated plasma. In addition to damaging your target, these plasma bursts impart a significant amount of heat, especially to a target whose shields are down."
+	description "等离子加农炮发射过热的等离子脉冲。除了对目标造成伤害外，这些等离子脉冲还会传递大量热量，尤其对护盾失效的目标效果显著。"
 
 outfit "Plasma Turret"
 	category "Turrets"
@@ -765,7 +765,7 @@ outfit "Plasma Turret"
 		"shield damage" 63
 		"hull damage" 25
 		"heat damage" 425
-	description "The Plasma Turret is a pair of Plasma Cannons mounted on a turret so that they can fire in any direction. It is a fearsome weapon, but only the largest of ships have the space and the energy that it requires."
+	description "等离子炮塔是一对安装在炮塔上的等离子加农炮，使其可以向任何方向开火。这是一种可怕的武器，但只有最大的飞船才有其所需的空间和能量。"
 
 outfit "Plasma Repeater"
 	category "Guns"
@@ -792,8 +792,8 @@ outfit "Plasma Repeater"
 		"hull damage" 13
 		"heat damage" 180
 		"hit force" 28.5
-	description `Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the Southern Rim. The repeater has so far proved immensely popular amongst any who braved testing it, and is shaping up to become an essential deterrent for anyone who flaunts their haul for pirate plunder.`
-	description `	Derived from the original Plasma Cannon, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
+	description `在买下等离子加农炮版权数十年后，左辖义体公司将这款武器摆上了南方星域每一家高端装备店的货架。迄今为止，这款连发炮被证明在任何敢于测试它的人中都极受欢迎，并正逐步成为那些炫耀货载、招致海盗觊觎者不可或缺的威慑力量。`
+	description `	源自最初的等离子加农炮，这个更重的版本以牺牲单发大型脉冲为代价，换来了快得多的射速。尽管较小的高温等离子脉冲造成的伤害远不及前代，但密集的火力总体上会对目标造成更大的损伤。`
 
 effect "plasma explosion"
 	sprite "effect/plasma explosion"
@@ -831,7 +831,7 @@ outfit "Flamethrower"
 		"firing energy" .1
 		"firing fuel" .15
 		"firing heat" 4
-	description "A crude but impressive-looking weapon, the Flamethrower ignites your hyperspace fuel and directs a stream of it towards your adversaries. The damage it does is relatively minor, but it can be useful for causing a target that is already operating near its thermal capacity to overheat, temporarily taking it out of the fight."
+	description "这是一种外观粗犷但颇具威慑力的武器，火焰喷射器会引燃你的超空间燃料，并将其化作一道洪流喷向敌人。它造成的伤害相对较低，但对于已经接近其热容量极限的目标，它可以使其过热，暂时使其失去战斗力。"
 
 outfit "Flamethrower Projectile"
 	weapon
@@ -882,10 +882,10 @@ outfit "Meteor Missile"
 	thumbnail "outfit/meteor"
 	"mass" .2
 	"meteor capacity" -1
-	description "A Meteor Missile serves as ammunition for the Meteor Missile Launcher. Each missile launcher has its own capacity; you cannot install missiles if you have not first purchased a pod, launcher, or storage to store them in."
+	description "流星导弹是流星导弹发射器的弹药。每个导弹发射器都有自己的容量；如果你没有先购买挂舱、发射器或存储设备来存放它们，你就无法安装导弹。"
 
 outfit "Meteor Missile Box"
-	plural "Meteor Missile Boxes"
+	plural "流星导弹箱"
 	series "Ammunition"
 	index 01021
 	category "Ammunition"
@@ -895,7 +895,7 @@ outfit "Meteor Missile Box"
 	"outfit space" -5
 	"meteor capacity" 15
 	ammo "Meteor Missile"
-	description "The Meteor Missile Box is used to store extra ammunition for Meteor Missile Launchers."
+	description "流星导弹箱用于储存流星导弹发射器的额外弹药。"
 
 outfit "Meteor Missile Launcher"
 	category "Secondary Weapons"
@@ -934,8 +934,8 @@ outfit "Meteor Missile Launcher"
 		"hull damage" 220
 		"hit force" 330
 		"missile strength" 6
-	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "流星导弹是人类空间中最便宜、最简单的制导武器。流星导弹很容易被反导弹系统摧毁，其红外追踪系统也难以锁定低热目标。尽管如此，当大量发射时，其巨大的弹头仍能给防御薄弱的目标带来灭顶之灾。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -978,9 +978,9 @@ outfit "Meteor Missile Pod"
 		"hull damage" 220
 		"hit force" 330
 		"missile strength" 6
-	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
-	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "流星导弹是人类空间中最便宜、最简单的制导武器。流星导弹很容易被反导弹系统摧毁，其红外追踪系统也难以锁定低热目标。尽管如此，当大量发射时，其巨大的弹头仍能给防御薄弱的目标带来灭顶之灾。"
+	description "	挂舱使战斗机和其他轻型飞船能够携带少量导弹投入战斗，同时保留足够的空间安装其他武器。大型飞船更适合使用全尺寸发射器。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1012,7 +1012,7 @@ outfit "Sidewinder Missile"
 	thumbnail "outfit/sidewinder"
 	"mass" .2
 	"sidewinder capacity" -1
-	description "The Sidewinder Missile is ammunition for the Sidewinder Missile Launcher; each launcher that you have installed can be armed with up to 45 of them, while pods can carry 4. You cannot install a missile without a pod or launcher to fire it from."
+	description "响尾蛇导弹是响尾蛇导弹发射器的弹药；每台已安装的发射器最多可装填45枚，而挂舱可携带4枚。如果你没有挂舱或发射器来发射它，你就无法安装导弹。"
 
 outfit "Sidewinder Missile Rack"
 	category "Ammunition"
@@ -1024,7 +1024,7 @@ outfit "Sidewinder Missile Rack"
 	"outfit space" -7
 	"sidewinder capacity" 23
 	ammo "Sidewinder Missile"
-	description "The Sidewinder Missile Rack is used to store extra ammunition for Sidewinder Missile Launchers."
+	description "响尾蛇导弹架用于为响尾蛇导弹发射器储存额外的弹药。"
 
 outfit "Sidewinder Missile Launcher"
 	category "Secondary Weapons"
@@ -1064,9 +1064,9 @@ outfit "Sidewinder Missile Launcher"
 		"hull damage" 180
 		"hit force" 255
 		"missile strength" 18
-	description "The Sidewinder Missile is designed by Lovelace Labs, which is ironically also the designer of the Anti-Missile Turret. Rumors say that the two engineering teams at Lovelace who make the missiles and the anti-missiles are locked in furious competition with each other: the result has been generation after generation of smarter missiles and then smarter turrets to fend them off."
-	description "	Although not as powerful or cheap as the popular Meteor Missiles, Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "响尾蛇导弹由洛夫莱斯实验室设计，讽刺的是，该实验室同样设计了反导弹炮塔。有传闻称，洛夫莱斯内部制造导弹与反导弹的两个工程团队陷入了激烈的竞争：其结果便是一代又一代更智能的导弹，接着是更智能的炮塔来抵御它们。"
+	description "	虽然不如广受欢迎的流星导弹那样威力强大或价格便宜，但响尾蛇导弹有几个优势，包括出色的机动性、更优秀的追踪系统以及使反导弹系统极难摧毁的保护外壳。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1110,10 +1110,10 @@ outfit "Sidewinder Missile Pod"
 		"hull damage" 180
 		"hit force" 255
 		"missile strength" 18
-	description "The Sidewinder Missile is designed by Lovelace Labs, which is ironically also the designer of the Anti-Missile Turret. Rumors say that the two engineering teams at Lovelace who make the missiles and the anti-missiles are locked in furious competition with each other: the result has been generation after generation of smarter missiles and then smarter turrets to fend them off."
-	description "	Although not as powerful or cheap as the popular Meteor Missiles, Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
-	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "响尾蛇导弹由洛夫莱斯实验室设计，讽刺的是，该实验室同样设计了反导弹炮塔。有传闻称，洛夫莱斯内部制造导弹与反导弹的两个工程团队陷入了激烈的竞争：其结果便是一代又一代更智能的导弹，接着是更智能的炮塔来抵御它们。"
+	description "	虽然不如广受欢迎的流星导弹那样威力强大或价格便宜，但响尾蛇导弹有几个优势，包括出色的机动性、更优秀的追踪系统以及使反导弹系统极难摧毁的保护外壳。"
+	description "	挂舱使战斗机和其他轻型飞船能够携带少量导弹投入战斗，同时保留足够的空间安装其他武器。大型飞船更适合使用全尺寸发射器。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1146,7 +1146,7 @@ outfit "Javelin"
 	thumbnail "outfit/javelin"
 	"mass" .04
 	"javelin capacity" -1
-	description "A Javelin missile is ammunition for the Javelin Pod; without a Pod to store them in you cannot purchase or use Javelins."
+	description "标枪导弹是标枪荚舱的弹药；没有荚舱来储存它们，您就无法购买或使用标枪。"
 
 outfit "Javelin Storage Crate"
 	category "Ammunition"
@@ -1158,7 +1158,7 @@ outfit "Javelin Storage Crate"
 	"outfit space" -6
 	"javelin capacity" 100
 	ammo "Javelin"
-	description "The Javelin Storage Crate is used to store extra ammunition for Javelin Pods."
+	description "标枪储存箱用于为标枪荚舱储存额外的弹药。"
 
 outfit "Javelin Pod"
 	category "Secondary Weapons"
@@ -1187,9 +1187,9 @@ outfit "Javelin Pod"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "The Javelin Pod fires a rapid stream of unguided missiles. A Javelin Pod does far more damage than any gun of a comparable size, and has a longer range as well, but once a ship has expended all of its ammunition it must leave combat and find a planet where it can buy more, which makes Javelins less useful in protracted battles."
-	description "	The weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "标枪荚舱可发射一连串快速的无制导导弹。标枪荚舱的伤害远超任何同等尺寸的火炮，射程也更远，但一旦飞船耗尽弹药，就必须脱离战斗并寻找行星补充弹药，这使得标枪在持久战中作用有限。"
+	description "	该武器的高射速也使其能够有效饱和防护严密的飞船的反导弹防御系统，从而让友军飞船发射的更危险的弹药能够趁机穿透防线。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1222,10 +1222,10 @@ outfit "Javelin Mini Pod"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "The Javelin Pod fires a rapid stream of unguided missiles. A Javelin Pod does far more damage than any gun of a comparable size, and has a longer range as well, but once a ship has expended all of its ammunition it must leave combat and find a planet where it can buy more, which makes Javelins less useful in protracted battles."
-	description "	The weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
-	description "	Mini pods enable fighters and other light craft to carry small quantities of Javelins into battle while retaining enough space for other weapons. Large ships are better off with full-size pods."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "标枪荚舱可发射一连串快速的无制导导弹。标枪荚舱的伤害远超任何同等尺寸的火炮，射程也更远，但一旦飞船耗尽弹药，就必须脱离战斗并寻找行星补充弹药，这使得标枪在持久战中作用有限。"
+	description "	该武器的高射速也使其能够有效饱和防护严密的飞船的反导弹防御系统，从而让友军飞船发射的更危险的弹药能够趁机穿透防线。"
+	description "	迷你荚舱使战斗机和其他轻型飞船能够携带少量标枪投入战斗，同时保留足够的空间安装其他武器。大型飞船更适合使用全尺寸荚舱。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1260,8 +1260,8 @@ outfit "Javelin Turret"
 		"hull damage" 26
 		"hit force" 75
 		"missile strength" 3
-	description "Mounting not one but two Javelin Pods, the Javelin Turret delivers a torrential downpour of unguided missiles that deal noticeably more damage than other turreted weapons of the same size, at the expense of using a prodigious amount of ammo due to its high fire rate. For that reason, these turrets are commonly paired with Javelin Storage Crates and weapons that don't require the use of ammunition to fall back on once all of the missiles are expended."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "标枪炮塔搭载了不止一个而是两个标枪荚舱，能够倾泻出如暴雨般的无制导导弹，造成的伤害明显高于其他同等尺寸的炮塔武器，但代价是其高射速导致弹药消耗惊人。因此，这些炮塔通常与标枪储存箱以及不需要消耗弹药的武器搭配使用，以便在所有导弹耗尽后有所依仗。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1280,7 +1280,7 @@ outfitter "Javelin Restock"
 
 
 outfit "Torpedo"
-	plural "Torpedoes"
+	plural "鱼雷"
 	series "Ammunition"
 	index 01050
 	category "Ammunition"
@@ -1288,7 +1288,7 @@ outfit "Torpedo"
 	thumbnail "outfit/torpedo"
 	"mass" .4
 	"torpedo capacity" -1
-	description "Torpedoes are ammunition for the Torpedo Launcher. Each Torpedo Launcher can hold 30 of them. You cannot install torpedoes unless you have also installed a launcher to fire them from."
+	description "鱼雷是鱼雷发射器的弹药。每个鱼雷发射器可容纳30枚。除非你已安装了用于发射鱼雷的发射器，否则无法安装鱼雷。"
 
 outfit "Torpedo Storage Rack"
 	category "Ammunition"
@@ -1300,7 +1300,7 @@ outfit "Torpedo Storage Rack"
 	"outfit space" -9
 	"torpedo capacity" 15
 	ammo "Torpedo"
-	description "The Torpedo Storage Rack is used to store extra ammunition for Torpedo Launchers."
+	description "鱼雷储存架用于为鱼雷发射器储存额外的弹药。"
 
 outfit "Torpedo Launcher"
 	category "Secondary Weapons"
@@ -1340,8 +1340,8 @@ outfit "Torpedo Launcher"
 		"hull damage" 820
 		"hit force" 450
 		"missile strength" 30
-	description "Torpedoes are the most powerful homing weapon, but they move slowly enough that fast ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge. Torpedo launchers are also much larger than other missile systems, so they are most often found in capital ships."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "鱼雷是最强大的制导武器，但它们移动得足够慢，使得快速飞船可以轻易甩开它们，因此它们最适合用来对付大型目标，或者在小飞船无暇躲避时用来对付它们。鱼雷发射器也比其他导弹系统大得多，所以它们最常在主力舰上出现。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1385,9 +1385,9 @@ outfit "Torpedo Pod"
 		"hull damage" 820
 		"hit force" 450
 		"missile strength" 30
-	description "Torpedoes are the most powerful homing weapon, but they move slowly enough that fast ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge."
-	description "	Pods enable fighters and other light craft to carry small quantities of Torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "鱼雷是最强大的自导武器，但速度较慢，敏捷的飞船可以轻松甩开它们，因此最适合攻击大型目标，或趁小型飞船分心无暇闪避时使用。"
+	description "	吊舱使战斗机及其他轻型舰船能够携带少量鱼雷投入战斗，同时为其他武器保留足够的空间。大型舰船更适合使用全尺寸发射器。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1411,7 +1411,7 @@ outfitter "Torpedo Restock"
 
 
 outfit "Typhoon Torpedo"
-	plural "Typhoon Torpedoes"
+	plural "台风鱼雷"
 	series "Ammunition"
 	index 01060
 	category "Ammunition"
@@ -1419,7 +1419,7 @@ outfit "Typhoon Torpedo"
 	thumbnail "outfit/typhoon"
 	"mass" .5
 	"typhoon capacity" -1
-	description "Typhoon Torpedoes are ammunition for the Typhoon Launcher. Each launcher can hold 30 of them. You cannot install Typhoon Torpedoes unless you have also installed a launcher to fire them from."
+	description "台风鱼雷是台风发射器的弹药。每个发射器可容纳30枚鱼雷。除非同时安装了发射器，否则无法安装台风鱼雷。"
 
 outfit "Typhoon Storage Tube"
 	category "Ammunition"
@@ -1431,7 +1431,7 @@ outfit "Typhoon Storage Tube"
 	"outfit space" -10
 	"typhoon capacity" 15
 	ammo "Typhoon Torpedo"
-	description "The Typhoon Storage Tube is used to store extra ammunition for Typhoon Launchers."
+	description "台风储存管用于存储台风发射器的额外弹药。"
 
 outfit "Typhoon Launcher"
 	category "Secondary Weapons"
@@ -1471,8 +1471,8 @@ outfit "Typhoon Launcher"
 		"hull damage" 1050
 		"hit force" 675
 		"missile strength" 40
-	description "Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "台风鱼雷是一种改进型鱼雷技术；与普通鱼雷相比，它们能造成相当多的伤害。然而，它们的速度也慢得多，因为它们主要用于攻击大型且缓慢移动的主力舰。因此，技术足够娴熟的飞行员往往能够规避它们。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1516,9 +1516,9 @@ outfit "Typhoon Pod"
 		"hull damage" 1050
 		"hit force" 675
 		"missile strength" 40
-	description "Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
-	description "	Pods enable fighters and other light craft to carry small quantities of Typhoon Torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "台风鱼雷是一种改进型鱼雷技术；与普通鱼雷相比，它们能造成相当多的伤害。然而，它们的速度也慢得多，因为它们主要用于攻击大型且缓慢移动的主力舰。因此，技术足够娴熟的飞行员往往能够规避它们。"
+	description "	吊舱使战斗机及其他轻型飞船能够携带少量台风鱼雷投入战斗，同时保留足够空间搭载其他武器。大型飞船更适合使用全尺寸发射器。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1549,7 +1549,7 @@ outfit "Heavy Rocket"
 	thumbnail "outfit/rocket"
 	"mass" .5
 	"rocket capacity" -1
-	description "Heavy Rockets are ammunition for the Heavy Rocket Launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher holds up to 20 rockets."
+	description "重型火箭是重型火箭发射器的弹药。你必须先安装发射器才能使用它。每个发射器最多可容纳20枚火箭。"
 
 outfit "Heavy Rocket Rack"
 	category "Ammunition"
@@ -1561,7 +1561,7 @@ outfit "Heavy Rocket Rack"
 	"outfit space" -7
 	"rocket capacity" 10
 	ammo "Heavy Rocket"
-	description "The Heavy Rocket Rack is used to store extra ammunition for Heavy Rocket Launchers."
+	description "重型火箭架用于储存重型火箭发射器的额外弹药。"
 
 outfit "Heavy Rocket Launcher"
 	category "Secondary Weapons"
@@ -1597,8 +1597,8 @@ outfit "Heavy Rocket Launcher"
 		"hull damage" 670
 		"hit force" 900
 		"missile strength" 24
-	description "Heavy Rockets are one of the most powerful missile weapons available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "重型火箭是可用的最强大的导弹武器之一，但代价是：它们没有制导系统，只能直线飞行，并依靠近炸引信引爆。然而，一旦引爆，它们会伤害爆炸半径内的所有船只，因此对付战斗机集群非常有效。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1637,9 +1637,9 @@ outfit "Heavy Rocket Pod"
 		"hull damage" 670
 		"hit force" 900
 		"missile strength" 24
-	description "Heavy Rockets are one of the most powerful missile weapons available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
-	description "	Pods enable fighters and other light craft to carry small quantities of rockets into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "重型火箭是可用的最强大的导弹武器之一，但代价是：它们没有制导系统，只能直线飞行，并依靠近炸引信引爆。然而，一旦引爆，它们会伤害爆炸半径内的所有船只，因此对付战斗机集群非常有效。"
+	description "	吊舱使战斗机及其他轻型舰艇能够在战斗中携带少量火箭，同时为其他武器保留足够空间。大型舰船更适合使用全尺寸发射器。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1712,8 +1712,8 @@ outfit "Nuclear Missile"
 		"hit force" 6000
 		"missile strength" 200
 		"triggers nuke alert"
-	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
-	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+	description "自从上一次核战争以来已经过去了数百年，直到最近，银河系中的大多数人都还认为那个混乱与毁灭的时代已经永远成为了过去……"
+	description "	[核导弹是一种一次性武器：每枚导弹占用一个武器槽位，发射后该槽位被清空。]"
 
 effect "nuke explosion"
 	sprite "effect/explosion/nuke"
@@ -1748,7 +1748,7 @@ effect "nuke residue slow"
 
 
 outfit "Gatling Gun Ammo"
-	plural "Gatling Gun Ammo"
+	plural "加特林弹药"
 	category "Ammunition"
 	series "Ammunition"
 	index 01070
@@ -1756,10 +1756,10 @@ outfit "Gatling Gun Ammo"
 	thumbnail "outfit/bullet"
 	"mass" .002
 	"gatling round capacity" -1
-	description "This simple cartridge is the ammunition for the Gatling Gun, with a projectile of depleted nuclear fuel or an illuminated tracer round. Since this ammunition is primarily manufactured on pirate worlds by slave children in poor working conditions, muzzle velocity can vary by up to 30%, and tracer distribution is seldom uniform."
+	description "这种简单的弹药筒是加特林机枪的弹药，弹头使用贫化核燃料或发光曳光弹。由于这种弹药主要在贫困工作条件下由奴隶儿童在海盗世界上制造，因此枪口初速的差异可达30%，且曳光弹分布很少均匀。"
 
 outfit "Bullet Boxes"
-	plural "Bullet Boxes"
+	plural "弹药箱"
 	category "Ammunition"
 	series "Ammunition"
 	index 01071
@@ -1769,7 +1769,7 @@ outfit "Bullet Boxes"
 	"outfit space" -5
 	"gatling round capacity" 1500
 	ammo "Gatling Gun Ammo"
-	description "Bullet Boxes are used to store extra ammunition for Gatling Guns."
+	description "弹药箱用于存储加特林机枪的额外弹药。"
 
 outfit "Gatling Gun"
 	category "Secondary Weapons"
@@ -1799,8 +1799,8 @@ outfit "Gatling Gun"
 		"submunition" "gbullet"
 		"cluster"
 		"hit effect" "bullet impact"
-	description `When Dr. Richard J. Gatling invented the rapid-fire gun bearing his name in the 19th century, he hoped that its destructiveness would lead to the end of war itself. Over a millennium later, this modern incarnation of the Gatling Gun sees action in the stars, a testament to its fundamentally robust design - and Dr. Gatling's naivete. While capable of a high fire rate, this gun needs to cool down for twice as long as it fires, and can only sustain a maximum of three seconds of continuous fire.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `当19世纪理查德·J·加特林博士发明以其名字命名的速射枪时，他曾希望这种武器的破坏力能够终结战争本身。一千年后，这款现代版加特林机枪在星际间投入战斗，既证明了其设计之坚固可靠——也证明了加特林博士的天真。虽然射速极高，但这种枪的冷却时间需要达到开火时间的两倍，且最多只能连续射击三秒。`
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -1840,8 +1840,8 @@ outfit "Gatling Turret"
 		"firing heat" 5
 		"cluster"
 		"hit effect" "bullet impact"
-	description `In an act that would make Dr. Richard J. Gatling spin in his grave with the ferocity of the barrels of his invention, the Gatling Turret was born when a resourceful pirate thought to replace the Energy Blasters on a Blaster Turret with a pair of Gatling Guns. Ever since, the dominion of the Gatling Turret has spread across the Southern Rim, terrorizing merchants and law enforcement alike with its unparalleled ability to tear apart the hulls of ships.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `一位足智多谋的海盗突发奇想，将爆能炮塔上的能量爆破炮换成了一对加特林机枪，于是加特林炮塔就此诞生。此举足以让理查德·J·加特林博士在九泉之下以他发明枪管旋转的狂怒之姿气得打转。自此，加特林炮塔的统治力遍布南环，以其无与伦比的撕裂船体能力，令商人与执法者闻风丧胆。`
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 

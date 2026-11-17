@@ -59,7 +59,7 @@ ship "Pug Zibruka"
 	explode "pug medium explosion" 20
 	explode "pug large explosion" 10
 	"final explode" "final explosion small"
-	description `The Zibruka is the smallest Pug warship that you know of. Despite having only two gun ports, its two advanced guns combined with its fast and efficient engine systems make it a fearsome ship to face off against, especially in swarms.`
+	description `Zibruka 是你所知的最小的帕格战舰。尽管只有两个炮口，但其两门先进火炮配合快速高效的引擎系统，使其成为令人畏惧的对手，尤其是在它们成群结队时。`
 
 
 ship "Pug Enfolta"
@@ -115,7 +115,7 @@ ship "Pug Enfolta"
 	explode "pug medium explosion" 25
 	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
-	description `The Enfolta is a medium-sized Pug warship. It has a formidable armament of advanced weaponry supported by powerful integrated energy generation. A single Enfolta can take on multiple smaller human ships.`
+	description `Enfolta 是一艘中型的帕格战舰。它配备了由强大的集成能量生成装置支持的先进武器系统。单艘 Enfolta 即可与多艘较小的人类飞船抗衡。`
 
 
 ship "Pug Maboro"
@@ -173,7 +173,7 @@ ship "Pug Maboro"
 	explode "pug large explosion" 20
 	explode "pug huge explosion" 5
 	"final explode" "final explosion large"
-	description `The Maboro appears to be the Pug's capital warship. Its shield matrix and hull are much weaker than human capital ships; however, it is able to regenerate its shields quickly. Its fearsome ordnance and advanced anti-missile defenses make it a ship that only the strongest human capital ships are able to oppose.`
+	description `Maboro 似乎是帕格的主力战舰。它的护盾矩阵和船体强度远不如人类的主力舰，但能够快速恢复护盾。其可怕的武器系统与先进的反导防御意味着，只有人类最强的主力舰才能与之抗衡。`
 
 
 ship "Pug Arfecta"
@@ -235,4 +235,4 @@ ship "Pug Arfecta"
 	explode "pug medium explosion" 30
 	explode "pug large explosion" 10
 	"final explode" "final explosion large"
-	description `This is a Pug "tier 3" warship, intended for use in combat against either a species on par with the Quarg, or a lesser species that has decided to be particularly meddlesome.`
+	description `这是一艘帕格“三级”战舰，旨在用于对抗与夸格同级别的物种，或者是那些决定要横插一脚的低等物种。`

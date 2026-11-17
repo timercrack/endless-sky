@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 "gamerules preset" "Default"
-	description "The default set of gamerules around which the game is developed."
+	description "开发游戏时所围绕的默认游戏规则集。"
 	
 	"depreciation aging active" true
 	"depreciation min" 0.25

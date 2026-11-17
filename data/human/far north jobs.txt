@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Betelgeuse Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Betelgeuse Shipyards, a well-respected ship manufacturer in the region. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，这里是该地区备受尊敬的飞船制造商——参宿四船坞的所在地。报酬为<payment>。"
 	cargo "weapons" 5 2 .1
 	job
 	repeat
@@ -36,8 +36,8 @@ mission "Betelgeuse Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Betelgeuse Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Betelgeuse Shipyards, a well-respected ship manufacturer in the region. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，这里是该地区备受尊敬的飞船制造商——参宿四船坞的所在地。报酬为<payment>。"
 	cargo "Ship Alloys" 5 2 .1
 	job
 	repeat
@@ -60,8 +60,8 @@ mission "Betelgeuse Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Betelgeuse Shipment [2]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Betelgeuse Shipyards, a well-respected ship manufacturer in the region. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，这里是该地区备受尊敬的飞船制造商——参宿四船坞的所在地。报酬为<payment>。"
 	cargo "minerals" 5 2 .1
 	job
 	repeat
@@ -84,8 +84,8 @@ mission "Betelgeuse Shipment [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Navy resupply [0]"
-	name "Resupply Navy base on <planet>"
-	description "The Navy base on <destination> is running low on equipment, but Navy supply ships are currently held up elsewhere and cannot assist. Deliver <cargo> to <planet> by <date>, for <payment>."
+	name "为 <planet> 的海军基地提供补给"
+	description "位于 <destination> 的海军基地装备短缺，但海军补给船目前在其他地方受阻，无法提供协助。请在 <date> 之前将 <cargo> 运送至 <planet>，报酬为 <payment>。"
 	cargo Military 5 2 .1
 	job
 	repeat

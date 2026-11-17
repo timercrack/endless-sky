@@ -35,10 +35,10 @@ mission "Message Buoy: Entering Republic space from Pirates"
 
 phrase "entering republic space from pirates"
 	word
-		"Message buoy to all ships: You have entered Republic-controlled space"
+		"致所有舰船的信息浮标：您已进入共和国控制星区"
 	word
-		". Private ships not flying blue markings must heave to and comply with Navy personnel or be deemed valid targets."
-		" from a system not under Republic jurisdiction. Be forewarned that you may be subject to further questioning upon landing at a Republic port under the Foreign Systems (Relations) Act."
+		"。未悬挂蓝色标识的民用舰船必须停机并服从海军人员指挥，否则将被视为合法打击目标。"
+		"，且来路星系不属于共和国管辖。特此预警：根据《外星系（关系）法案》，在共和国港口降落时，您可能会接受进一步质询。"
 
 mission "Message Buoy: Entering Republic space from Free Worlds (hostile)"
 	invisible
@@ -63,11 +63,11 @@ mission "Message Buoy: Entering Republic space from Free Worlds (hostile)"
 
 phrase "entering republic space from free worlds (hostile)"
 	word
-		"Message buoy to Free Worlds ships: You have entered Republic-controlled space"
+		"通信浮标向自由世界舰船广播：你已进入共和国控制星区"
 	word
-		". All ships flying unauthorized markings are to comply with Navy personnel or be deemed valid targets."
-		". Under the Planetary Militias (Restructuring) Act 3014, green markings may only be flown by authorized Militia ships. All ships unlawfully flying Militia green are to comply with Navy personnel or be deemed valid targets."
-		`. All ships affiliated with the so-called "Free Worlds" are to heave to and comply with Navy personnel or be deemed valid targets.`
+		"。所有悬挂未经授权标识的舰船均须服从海军人员指挥，否则将被视为合法打击目标。"
+		"。根据《3014年行星民兵组织（重组）法案》，绿色标识仅限获授权的民兵舰船悬挂。凡非法悬挂民兵绿标识的舰船均须服从海军人员指挥，否则将被视为合法打击目标。"
+		`。所有隶属于所谓“自由世界”的舰船均须停航并服从海军人员指挥，否则将被视为合法打击目标。`
 
 mission "Message Buoy: Entering Republic space from Free Worlds"
 	invisible
@@ -90,13 +90,13 @@ mission "Message Buoy: Entering Republic space from Free Worlds"
 
 phrase "entering republic space from free worlds"
 	word
-		"Message buoy to all ships: You have entered Republic-controlled space"
+		"致所有舰船的通信浮标：您已进入共和国控制星域"
 	word
-		". Prepare to be scanned."
-		". Peace among the stars."
-		". Upon landing in a Republic port, please subject your ship to scanning for any invasive species or pathogens."
-		". Are you a Galactic Entry accredited citizen? Skip the queues at Immigration upon presenting your planetary ID."
-		" from a system not under Republic jurisdiction. Be forewarned that you may be subject to further questioning upon landing at a Republic port under the Foreign Systems (Relations) Act."
+		"。请准备接受扫描。"
+		"。愿繁星间永享和平。"
+		"。降落共和国港口后，请配合接受针对入侵物种及病原体的舰船扫描。"
+		"。您是“银河快速通关”认证公民吗？出示您的星球身份证明即可免去在入境处排队。"
+		"（自非共和国管辖星系驶入）。请预先注意：根据《外星系（关系）法案》，在降落共和国港口后，您可能会接受进一步质询。"
 
 
 
@@ -123,14 +123,14 @@ mission "Message Buoy: Entering Syndicate space"
 
 phrase "entering syndicate space"
 	word
-		"Message buoy to all ships: Welcome to Syndicate space"
+		"信息浮标通告所有舰船：欢迎来到辛迪加星域"
 	word
-		", the galaxy's largest free trade zone."
-		", the galaxy's most economically free region."
-		", the backbone of the Republic's industrial power."
-		", where your future in the galaxy lies."
-		", where opportunities abound."
-		"."
+		"，这里是银河系最大的自由贸易区。"
+		"，这里是银河系经济最自由的区域。"
+		"，这里是共和国工业实力的支柱。"
+		"，这里是你于银河系中的未来所在。"
+		"，这里充满了无限机遇。"
+		"愿意砸多少钱。"
 
 
 
@@ -157,11 +157,11 @@ mission "Message Buoy: Entering Free Worlds space from Republic"
 
 phrase "entering free worlds space from republic"
 	word
-		"Message buoy to all ships: You have entered Free space"
+		"消息浮标致所有飞船：您已进入自由星域"
 	word
-		". Fly safe, captain."
-		". Freedom for the Southern Rim!"
-		". Stand United."
+		"。祝航行安全，船长。"
+		"。为了南部边缘星区的自由！"
+		"。团结一致。"
 
 mission "Message Buoy: Entering Free Worlds space from Pirate"
 	invisible
@@ -182,9 +182,9 @@ mission "Message Buoy: Entering Free Worlds space from Pirate"
 
 phrase "entering free worlds space from pirate"
 	word
-		"Message buoy: You have entered Free space"
+		"信息浮标：您已进入自由星域"
 	word
-		". By Free Worlds law, Merchant ships must identify themselves in blue markings. Any ship displaying unauthorized markings may be shot on sight."
+		"。根据自由世界法律，商船必须展示蓝色标识以明示身份。任何带有未经授权标识的舰船均可能被即刻击毁。"
 
 
 
@@ -311,11 +311,11 @@ mission "Message Buoy: Occupied Greenrock"
 
 phrase "occupied greenrock message buoy"
 	word
-		"Message buoy to all ships: The system of Shaula is under Free Worlds occupation."
+		"信息浮标致所有舰船：尾宿八星系正处于自由世界占领之下。"
 	word
-		" All ships flying unauthorized colors must turn themselves over to a Militia ship or be considered valid targets."
-		" We are scanning all inbound and outbound ships for contraband and fugitives."
-		" Our presence will remain until piracy on the planet of Greenrock is eliminated."
+		"所有悬挂未经授权旗帜的舰船必须向民兵舰船投降，否则将被视为合法打击目标。"
+		"我们正在对所有进出舰船进行扫描，盘查违禁品和逃犯。"
+		"在绿岩星的海盗活动被彻底铲除之前，我们将持续驻扎于此。"
 
 mission "Message Buoy: beyond Farpoint"
 	invisible
@@ -349,11 +349,11 @@ mission "Message Buoy: Megaparsec"
 
 phrase "message buoy: megaparsec"
 	word
-		"Message buoy to all ships:"
+		"通信浮标向所有舰船广播："
 	word
-		" Welcome to Mirfak, home of Megaparsec Inc."
-		" Need a perfect balance between armament and haulage? Choose the Megaparsec Splinter."
-		" The Megaparsec Bounder - setting new standards in interstellar travel."
+		"欢迎来到天船三，Megaparsec 公司的大本营。"
+		"需要在武装配置与载货能力之间寻求完美平衡？选择 Megaparsec “裂片”级吧。"
+		" Megaparsec “星跃者”级——树立星际航行新标准。"
 
 mission "Message Buoy: Tarazed Corporation"
 	invisible

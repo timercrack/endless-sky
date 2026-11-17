@@ -183,7 +183,7 @@ ship "Wardragon"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The origin of this Wardragon is shrouded in mystery. It was said that the Quarg once used this ship as a powerful light warship. Other sources suggest that it was used as a front-line heavy warship. One thing is for certain though, and that's its design is far different than any Quarg ship that exists today, and one can only question where it came from."
+	description "这艘战龙的起源笼罩在谜团之中。据说夸格曾将这种飞船用作强大的轻型战舰。其他说法则暗示它曾被当作前线重型战舰使用。不过有一点可以确定：它的设计与今日存在的任何夸格飞船都截然不同，人们只能质疑它究竟从何而来。"
 
 
 person "Marauding Max"
@@ -252,26 +252,26 @@ person "Marauding Max"
 
 phrase "MMK subphrase 1"
 	word
-		"got what it takes to "
-		"got the gumption to "
-		"could "
-		"have the guramba to "
-		"are good enough to "
+		"有本事"
+		"有胆量"
+		"能够"
+		"有魄力"
+		"够本事"
 	word
-		"capture "
-		"collect "
-		"gather "
+		"俘获"
+		"收集"
+		"集齐"
 
 phrase "MMK subphrase 2"
 	word
-		"are capable of "
+		"能够"
 	word
-		"capturing "
-		"collecting "
-		"gathering "
+		"捕获"
+		"集齐"
+		"凑齐"
 
 ship "Marauder Fury"
-	plural "Marauder Furies"
+	plural "掠夺者狂怒"
 	sprite "ship/mfury"
 	"administrative cost" 1
 	thumbnail "thumbnail/mfury"
@@ -329,7 +329,7 @@ ship "Marauder Fury"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."
+	description "你确信在这层层加装的额外改造之下，藏着一艘南方造船厂的狂怒。这艘飞船看来是一个人疯狂追求有史以来最强大的单人驾驶战舰的产物；经过仔细检查，你倾向于相信他或许真的成功了。"
 
 
 
@@ -826,7 +826,7 @@ person "Local God"
 	ship "Ursa Polaris"
 
 ship "Ursa Polaris"
-	plural "Ursa Polaris"
+	plural "大熊座勾陈一"
 	sprite "ship/localworldship"
 	"administrative cost" 10
 	"never disabled"
@@ -1031,7 +1031,7 @@ person "Prototype B3-CC4"
 ship "Shooting Star"
 	"administrative cost" 4
 	swizzle 0
-	noun "genocidal maniac"
+	noun "屠戮狂"
 	sprite "ship/shooting star/shooting star"
 		"frame time" 3
 	attributes
@@ -1083,8 +1083,8 @@ ship "Shooting Star"
 	explode "pug medium explosion" 25
 	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
-	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
-	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
+	description "这艘船似乎是一颗被挖空的小行星，里面装满了奇怪的设备。目前还不清楚是什么产生这些光束，但必定与其在没有明显引擎的情况下移动有关。"
+	description "	其先进特性使其能够抵御敌方指挥中心的影响，使其效果失效。"
 
 outfit "Crystal Projector"
 	category "Systems"
@@ -1098,7 +1098,7 @@ outfit "Crystal Projector"
 	weapon
 		"hardpoint sprite" "hardpoint/shooting star flare/ss-rays"
 			"frame time" 3
-	description "Never underestimate the power of a bunch of crystals on a rock. In this case all they do is project some harmless purple rays around the Shooting Star, but the point still stands."
+	description "永远不要低估一堆水晶放在岩石上的威力。在这个例子中，它们所做的只是在流星号周围投射一些无害的紫色光线，但道理依然成立。"
 
 outfit "Floating Crystal"
 	category "Systems"
@@ -1116,8 +1116,8 @@ outfit "Floating Crystal"
 		"reload" 4
 		"firing force" -139.5
 		"hit force" -121.5
-	description "The real core of the Shooting Star, this floating crystal uses the effects of space-time to reduce the distance between a ship and its target. Legend has it this is no different from a thruster, but conventional engines don't bring your enemy closer."
-	description "	It also takes up a spinal mount slot to be installed, although you aren't sure why."
+	description "作为流星号真正的核心，这颗浮空水晶利用时空效应缩短飞船与目标之间的距离。传说它与推进器并无区别，但传统引擎可不会让敌人向你靠近。"
+	description "	它还会占用一个脊柱安装槽才能安装，尽管你并不清楚原因。"
 
 outfit "Crystalline Formation"
 	"cost" 1914
@@ -1138,7 +1138,7 @@ outfit "Crystalline Formation"
 		"reload" 1
 		"piercing" 1
 		"hull damage" 293
-	description "There appear to have been several prior attempts to discern the mechanics of this outfit, but the debate is still ongoing whether this can be considered a device or not."
+	description "关于此装备的运作机制，此前似乎已有数次尝试加以解析，但究竟能否将其视为一件装置，争论仍在持续。"
 
 outfit "Hexagonal Crystal"
 	"cost" 1939
@@ -1161,7 +1161,7 @@ outfit "Hexagonal Crystal"
 		"firing force" 2700
 		"hit force" 5250
 		"hull damage" 2160
-	description "'Any sufficiently advanced technology is indistinguishable from magic,' Arthur C. Clarke said. This is sufficiently advanced technology."
+	description "“任何足够先进的技术都与魔法无异。”阿瑟·C·克拉克如是说。这就是足够先进的技术。"
 
 outfit "Tree Skeleton Key Stone"
 	"cost" 2003
@@ -1171,7 +1171,7 @@ outfit "Tree Skeleton Key Stone"
 	"outfit space" -1
 	"unique"
 	"quantum keystone" 1
-	description "Although in appearance it may look somewhat similar to a tree, you don't know how it is supposed to resemble a skeleton. You aren't sure you want to find out either."
+	description "虽然外观或许与树有些相似，但你不知道它为何会被认为像骨架。你也不确定自己是否想探究明白。"
 
 
 
@@ -1546,8 +1546,8 @@ ship "Modified Boxwing"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `No matter how maligned, every ship has someone out there that loves it.`
-	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. It is still terribly cramped, but at least it is luxurious and shiny!`
+	description `无论遭受多少诋毁，每一艘飞船都有人珍爱。`
+	description `令人惊讶的是，有人投入了大量时间、金钱和精力，将这款简陋的箱翼从一架飞行棺材改造成了一座宫殿般的棺椁。它依旧拥挤不堪，但至少变得奢华而闪亮！`
 
 
 
@@ -1650,7 +1650,7 @@ ship "Modified Battleship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`
+	description `永远不要低估一个人为了改造自己心爱的飞船愿意走多远——有时甚至是在它诞生之前。`
 
 outfit "Prototype Fusion Cannon"
 	category "Secondary Weapons"
@@ -1690,7 +1690,7 @@ outfit "Prototype Fusion Cannon"
 		"disruption damage" 5
 		"hit force" 150
 		"missile strength" 10
-	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	description "这是一门私人获取的原型融合加农炮，一种致命的大型脊柱武器。它的来源，除所有者外无人知晓，而那些想询问的人，也害怕自己成为炮下亡魂。"
 	
 effect "fusion cannon fire"
 	sprite "effect/plasma fire"
@@ -1899,7 +1899,7 @@ ship "Modified Ladybug"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `This is an old war-torn Hai Ladybug with numerous modifications done on the hull. Apart from the additional turret mounts, the main adjustments on the vessel are three huge engine cells - two in the back replacing the old engine pods, and one in the front replacing the gun mounts. These push the Modified Ladybug to speeds only an insane captain would enjoy.`
+	description `这是一架饱经战火洗礼的亥族“瓢虫”飞船，船体经过大量改装。除了新增的炮塔基座，飞船的主要改动是三组巨大的引擎单元——两组位于尾部，替换了原有的引擎吊舱；一组位于首部，替换了原有的火炮挂架。这些改造让改装型“瓢虫”的航速高到只有疯狂的船长才会享受。`
 
 
 
@@ -2075,14 +2075,14 @@ ship "Waverider"
 	gun 22.5 -56.5 "Particle Cannon"
 	gun -31.5 -7 "Particle Cannon"
 	gun 31.5 -7 "Particle Cannon"
-	description `The Waverider was a ship that was first requested and never used for five years, seven months and twenty-seven days.`
-	description `	Its disappointment was so immense, it willed itself into being.`
+	description `Waverider是一艘最早被订购、却在五年七个月零二十七天内从未被使用过的飞船。`
+	description `	它的失望如此深重，以至于它凭借意志化为了实体。`
 
 outfit "Emotional Baggage"
 	category "Unique"
 	thumbnail "outfit/unknown"
-	description `The physical embodiment of everything that makes the Reviewers who they are today.`
-	description `	Unfortunately, it's not for sale.`
+	description `它是成就当今审阅者的一切事物的实体化身。`
+	description `	很遗憾，此物品不出售。`
 
 
 
@@ -2264,4 +2264,4 @@ ship "Modified Hauler VI"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Hauler cargo ships are considered by many to be outdated, and it is unclear if upgrading the cargo space to six containers is sufficient to make this Hauler ship popular. It certainly doesn't help that the Hauler VI is more expensive than four Hauler IIIs."
+	description "许多人认为运输者系列货船已经过时，将货舱空间升级到六个货柜是否足以让这款运输者飞船流行起来尚不清楚。而运输者 VI的价格比四艘运输者 III还贵，这显然更不利于其受欢迎。"

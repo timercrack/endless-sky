@@ -22,7 +22,7 @@ minable "aluminum"
 	explode "asteroid crunch large"
 
 outfit "Aluminum"
-	plural "Aluminum"
+	plural "铝"
 	category "Minerals"
 	cost 1800
 	thumbnail "outfit/harvested aluminum"
@@ -30,7 +30,7 @@ outfit "Aluminum"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Lightweight and rust resistant, aluminum is often used for the hulls of civilian spacecraft that do not need to be able to stand up to prolonged weapons fire."
+	description "铝质轻且防锈，常用于无需承受长时间武器射击的民用飞船船体。"
 
 
 minable "copper"
@@ -44,7 +44,7 @@ minable "copper"
 	explode "asteroid crunch small"
 
 outfit "Copper"
-	plural "Copper"
+	plural "铜"
 	category "Minerals"
 	cost 3000
 	thumbnail "outfit/harvested copper"
@@ -52,7 +52,7 @@ outfit "Copper"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "In its pure form, copper is valued mostly for its high thermal and electrical conductivity. But, it is also used in small quantities in a wide variety of alloys."
+	description "纯铜主要因其出色的导热和导电性而备受重视。不过，它也会被少量应用于各种合金中。"
 
 
 minable "gold"
@@ -66,7 +66,7 @@ minable "gold"
 	explode "asteroid crunch small"
 
 outfit "Gold"
-	plural "Gold"
+	plural "金"
 	category "Minerals"
 	cost 8000
 	thumbnail "outfit/harvested gold"
@@ -74,7 +74,7 @@ outfit "Gold"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Useful for its high electrical conductivity and prized for its beauty and luxury status, gold can always find a well-paying market."
+	description "金因高导电性而极具实用价值，也因其美观与奢侈地位而备受珍视，在市场上总能卖出高价。"
 
 
 minable "iron"
@@ -88,7 +88,7 @@ minable "iron"
 	explode "asteroid crunch large"
 
 outfit "Iron"
-	plural "Iron"
+	plural "铁"
 	category "Minerals"
 	cost 1200
 	thumbnail "outfit/harvested iron"
@@ -96,7 +96,7 @@ outfit "Iron"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Although it is one of the most common metals, iron is also one of the most useful."
+	description "尽管铁是最常见的金属之一，但它同样也是最实用的金属之一。"
 
 
 minable "lead"
@@ -110,7 +110,7 @@ minable "lead"
 	explode "asteroid crunch medium"
 
 outfit "Lead"
-	plural "Lead"
+	plural "铅"
 	category "Minerals"
 	cost 900
 	thumbnail "outfit/harvested lead"
@@ -118,7 +118,7 @@ outfit "Lead"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "As one of the densest non-radioactive elements, lead has been the material of choice for bullets ever since the invention of firearms. Its other uses are limited by regulations for preventing lead poisoning."
+	description "作为密度最大的非放射性元素之一，自火器发明以来，铅一直是制造子弹的首选材料。为了预防铅中毒，法规限制了其在其他方面的应用。"
 
 
 minable "neodymium"
@@ -132,7 +132,7 @@ minable "neodymium"
 	explode "asteroid crunch large"
 
 outfit "Neodymium"
-	plural "Neodymium"
+	plural "钕"
 	category "Minerals"
 	cost 3800
 	thumbnail "outfit/harvested neodymium"
@@ -140,7 +140,7 @@ outfit "Neodymium"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "One of the most abundant of the rare earth elements, neodymium is used to make strongly magnetic alloys for use in engines and generators."
+	description "作为最丰富的稀土元素之一，钕用于制造强磁性合金，广泛应用于引擎和发电机中。"
 
 
 minable "platinum"
@@ -154,7 +154,7 @@ minable "platinum"
 	explode "asteroid crunch small"
 
 outfit "Platinum"
-	plural "Platinum"
+	plural "铂"
 	category "Minerals"
 	cost 10000
 	thumbnail "outfit/harvested platinum"
@@ -162,7 +162,7 @@ outfit "Platinum"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "As rare as gold and even more valuable, platinum has many industrial uses because it resists oxidation even when heated to high temperatures."
+	description "与黄金一样稀有，但价值更高。由于铂即使被加热到高温也能抗氧化，因此在工业上有着广泛的用途。"
 
 
 minable "silicon"
@@ -176,7 +176,7 @@ minable "silicon"
 	explode "asteroid crunch large"
 
 outfit "Silicon"
-	plural "Silicon"
+	plural "硅"
 	category "Minerals"
 	cost 400
 	thumbnail "outfit/harvested silicon"
@@ -184,7 +184,7 @@ outfit "Silicon"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Silicon in its pure form is used for electronics and semiconductors. It is a very common element and easy to harvest."
+	description "纯硅用于电子元件和半导体。这是一种非常常见的元素，易于开采。"
 
 
 minable "silver"
@@ -198,7 +198,7 @@ minable "silver"
 	explode "asteroid crunch small"
 
 outfit "Silver"
-	plural "Silver"
+	plural "白银星"
 	category "Minerals"
 	cost 6000
 	thumbnail "outfit/harvested silver"
@@ -206,7 +206,7 @@ outfit "Silver"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Although not as pricey as gold, silver is used not just in jewelry but in electronics, disinfectants, and high-quality mirrors, and as a chemical catalyst."
+	description "尽管不如黄金昂贵，但白银不仅用于珠宝，还广泛应用于电子产品、消毒剂和高品质反射镜，并可用作化学催化剂。"
 
 
 minable "titanium"
@@ -220,7 +220,7 @@ minable "titanium"
 	explode "asteroid crunch medium"
 
 outfit "Titanium"
-	plural "Titanium"
+	plural "钛"
 	category "Minerals"
 	cost 2500
 	thumbnail "outfit/harvested titanium"
@@ -228,7 +228,7 @@ outfit "Titanium"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Strong, lightweight, and resistant to corrosion, titanium is one of the chief metals used for starship hulls and structural members."
+	description "钛金属坚固、轻便且耐腐蚀，是用于星舰船体和结构件的主要金属之一。"
 
 
 minable "tungsten"
@@ -242,7 +242,7 @@ minable "tungsten"
 	explode "asteroid crunch medium"
 
 outfit "Tungsten"
-	plural "Tungsten"
+	plural "钨"
 	category "Minerals"
 	cost 4500
 	thumbnail "outfit/harvested tungsten"
@@ -250,7 +250,7 @@ outfit "Tungsten"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Tungsten has many industrial uses due to its high melting point and its strength."
+	description "钨因其高熔点和强度而具有许多工业用途。"
 
 
 minable "uranium"
@@ -264,7 +264,7 @@ minable "uranium"
 	explode "asteroid crunch medium"
 
 outfit "Uranium"
-	plural "Uranium"
+	plural "铀"
 	category "Minerals"
 	cost 5000
 	thumbnail "outfit/harvested uranium"
@@ -272,7 +272,7 @@ outfit "Uranium"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "Uranium is best known for its use in the nuclear reactors that power large starships. Its most stable isotope U-238 is also used for ultra-strong hull plating and for armor-piercing projectiles."
+	description "铀最广为人知的用途是用于为大型星舰提供动力的核反应堆。其最稳定的同位素U-238也用于制造超强船体装甲板和穿甲弹头。"
 
 
 minable "yottrite"
@@ -286,7 +286,7 @@ minable "yottrite"
 	explode "asteroid crunch medium"
 
 outfit "Yottrite"
-	plural "Yottrite"
+	plural "钇矿"
 	category "Minerals"
 	cost 200000
 	thumbnail "outfit/harvested yottrite"
@@ -294,7 +294,7 @@ outfit "Yottrite"
 	"mass" 3.14
 	"uninstallable"
 	"minable"
-	description "An extraordinarily rare crystalline formation, forged over tens of thousands of years in the molecular clouds around supernova remnants. Although less advanced species can potentially harvest it, very few civilizations other than the Quarg have developed the technology needed to incorporate yottrite in an alloy."
+	description "一种极其罕见的晶体结构，在超新星遗迹周围的分子云中经过数万年的锻造而成。虽然较不先进的物种也有可能采集到它，但除了夸格之外，鲜有文明开发出将钇矿融入合金所需的技术。"
 
 
 
@@ -312,7 +312,7 @@ minable "plant"
 	explode "final explosion medium"
 
 minable "plant2"
-	"display name" "Plant"
+	"display name" "植物"
 	sprite "asteroid/plant2/plant2"
 	hull 2340
 	"random hull" 520
@@ -343,7 +343,7 @@ minable "large plant"
 	explode "final explosion medium"
 
 minable "large plant2"
-	"display name" "Large Plant"
+	"display name" "大型植物"
 	sprite "asteroid/large plant2/large plant2"
 	hull 3240
 	"random hull" 720
@@ -395,7 +395,7 @@ minable "large space flora"
 
 
 outfit "Void Orchid"
-	plural "Void Orchids"
+	plural "虚空兰"
 	category "Minerals"
 	cost 15000
 	thumbnail "outfit/harvested silicon"
@@ -403,7 +403,7 @@ outfit "Void Orchid"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "'Void Orchid' is the generic term for a variety of strange, plant-like organisms that live primarily on asteroids. Due to the way they concentrate minerals from their host asteroid, they are valued both as scientific curiosities as well as for their mineral content."
+	description "“虚空兰”是多种主要生活在小行星上的奇特类植物生物的统称。由于它们能够富集寄主小行星中的矿物质，因此既作为科学奇珍受到重视，也因其矿物含量而备受青睐。"
 
 
 
@@ -423,8 +423,8 @@ minable "unknown"
 # Gossamer Smoke Ring Minables
 
 minable "tiny water droplet"
-	"display name" "Tiny"
-	noun "Water Droplet"
+	"display name" "微小"
+	noun "水滴"
 	sprite "asteroid/water droplet/droplet"
 		scale 0.125
 		"frame rate" 12
@@ -435,8 +435,8 @@ minable "tiny water droplet"
 	explode "droplet burst"
 
 minable "small water droplet"
-	"display name" "Small"
-	noun "Water Droplet"
+	"display name" "小型"
+	noun "水滴"
 	sprite "asteroid/water droplet/droplet"
 		scale 0.25
 		"frame rate" 12
@@ -449,8 +449,8 @@ minable "small water droplet"
 	explode "droplet burst" 3
 
 minable "medium water droplet"
-	"display name" "Medium"
-	noun "Water Droplet"
+	"display name" "中型"
+	noun "水滴"
 	sprite "asteroid/water droplet/droplet"
 		scale 0.5
 		"frame rate" 12
@@ -463,8 +463,8 @@ minable "medium water droplet"
 	explode "droplet burst" 6
 
 minable "large water droplet"
-	"display name" "Large"
-	noun "Water Droplet"
+	"display name" "大型"
+	noun "水滴"
 	sprite "asteroid/water droplet/droplet"
 		scale 0.75
 		"frame rate" 12
@@ -477,8 +477,8 @@ minable "large water droplet"
 	explode "droplet burst" 12
 
 minable "huge water droplet"
-	"display name" "Huge"
-	noun "Water Droplet"
+	"display name" "巨大"
+	noun "水滴"
 	sprite "asteroid/water droplet/droplet"
 		scale 1
 		"frame rate" 12
@@ -492,14 +492,14 @@ minable "huge water droplet"
 
 outfit "Voidfish"
 	category "Minerals"
-	plural "Voidfish"
+	plural "虚空鱼"
 	cost 2400
 	thumbnail "outfit/voidfish"
 	"flotsam sprite" "effect/flotsam voidfish"
 	"mass" 1
 	"uninstallable"
 	"minable"
-	description "These are a collection of numerous species of voidborne fish harvested in a perhaps unconventional manner. Despite being both flash-boiled and freeze-dried, they are surprisingly appetizing, and equally nourishing."
+	description "这是一批以或许非传统方式捕捞的多种虚空鱼。尽管同时经过了快速水煮和冷冻干燥，它们依然出人意料地美味，且同样营养丰富。"
 
 
 effect "droplet burst"
@@ -519,8 +519,8 @@ effect "droplet burst"
 
 
 minable "integral tree a"
-	"display name" "Wizened Integral"
-	noun "Tree"
+	"display name" "枯萎积分体"
+	noun "树"
 	sprite "asteroid/integral tree/tree a"
 	hull 7200
 	"random hull" 3600
@@ -530,8 +530,8 @@ minable "integral tree a"
 	explode "timber" 30
 
 minable "integral tree b"
-	"display name" Integral
-	noun "Tree"
+	"display name" 积分
+	noun "树"
 	sprite "asteroid/integral tree/tree b"
 		scale 0.75
 	hull 2400
@@ -542,8 +542,8 @@ minable "integral tree b"
 	explode "timber" 6
 
 minable "integral tree c"
-	"display name" "Integral"
-	noun "Tree"
+	"display name" "积分"
+	noun "树"
 	sprite "asteroid/integral tree/tree c"
 		scale 0.75
 	hull 3600
@@ -554,8 +554,8 @@ minable "integral tree c"
 	explode "timber" 6
 
 minable "integral tree d"
-	"display name" "Frosted Integral"
-	noun "Tree"
+	"display name" "霜凝晶"
+	noun "树"
 	sprite "asteroid/integral tree/tree d"
 		scale 0.75
 	hull 4800
@@ -568,8 +568,8 @@ minable "integral tree d"
 	explode "timber" 12
 
 minable "integral tree e"
-	"display name" "Amber Integral"
-	noun "Tree"
+	"display name" "琥珀整体"
+	noun "树"
 	sprite "asteroid/integral tree/tree e"
 		scale 0.75
 	hull 4800
@@ -582,8 +582,8 @@ minable "integral tree e"
 	explode "timber" 12
 
 minable "integral tree f"
-	"display name" "Dead Integral"
-	noun "Tree"
+	"display name" "死亡整体"
+	noun "树"
 	sprite "asteroid/integral tree/tree f"
 		scale 0.75
 	hull 600
@@ -603,12 +603,12 @@ effect "timber"
 
 outfit "Integral Wood"
 	category "Minerals"
-	plural "Integral Wood"
+	plural "集成木"
 	cost 12000
 	thumbnail "outfit/integral wood"
 	"flotsam sprite" "effect/flotsam integral wood"
 	"mass" 0.3
 	"uninstallable"
 	"minable"
-	description "Wood harvested from an integral tree is exquisitely lightweight, strong, and radiation resistant - it also fetches extraordinary prices on the market for exotic goods."
-	description "	Some claim it would even be the material of choice for a wooden starship, as ridiculous as the idea would be."
+	description "来自整体树的木材极其轻便、坚固且抗辐射——它在异域商品市场上也能卖出惊人的价格。"
+	description "	有些人声称它甚至会是建造木质星舰的首选材料，尽管这个想法听起来很荒谬。"

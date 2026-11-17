@@ -13,8 +13,8 @@
 
 
 ship "Aberrant Latte"
-	"display name" `K-IA "Latte"`
-	plural `Lattes`
+	"display name" `K-IA“拿铁”`
+	plural `拿铁`
 	sprite "ship/aberrant latte"
 	thumbnail "thumbnail/aberrant latte"
 	"never disabled"
@@ -74,18 +74,18 @@ ship "Aberrant Latte"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be as close to the baseline as can be expected from such a strange creature."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这个变体似乎已经尽可能地接近基线，考虑到它出自如此奇异的造物。"
 
 
 ship "Aberrant Latte" "Aberrant Latte (Disable-able)"
-	"display name" `K-IA "Latte"`
+	"display name" `K-IA“拿铁”`
 	"uncapturable"
 
 
 ship "Aberrant Chomper"
-	"display name" `K-IB "Chomper"`
-	plural "Chompers"
+	"display name" `K-IB “吞噬者”`
+	plural "吞噬者"
 	sprite "ship/aberrant chomper"
 	thumbnail "thumbnail/aberrant chomper"
 	"never disabled"
@@ -152,18 +152,18 @@ ship "Aberrant Chomper"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be much more heavily armed than most others of its kind."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这个变体似乎比同类中大多数其他型号的武装更为强大。"
 
 
 ship "Aberrant Chomper" "Aberrant Chomper (Disable-able)"
-	"display name" `K-IB "Chomper"`
+	"display name" `K-IB “吞噬者”`
 	"uncapturable"
 
 
 ship "Aberrant Pileup"
-	"display name" `K-IC "Pileup"`
-	plural "Pileups"
+	"display name" `K-IC“堆积者”`
+	plural "堆积者"
 	sprite "ship/aberrant pileup"
 	thumbnail "thumbnail/aberrant pileup"
 	"never disabled"
@@ -224,18 +224,18 @@ ship "Aberrant Pileup"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be somewhat larger and sturdier than others."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这一变体似乎比其他型号更大也更坚固。"
 
 
 ship "Aberrant Pileup" "Aberrant Pileup (Disable-able)"
-	"display name" "K-IC Pileup"
+	"display name" "K-IC“堆积者”"
 	"uncapturable"
 
 
 ship "Aberrant Hugger"
-	"display name" `K-IE "Hugger"`
-	plural "Huggers"
+	"display name" `K-IE“拥抱者”`
+	plural "拥抱者"
 	sprite "ship/aberrant hugger"
 	thumbnail "thumbnail/aberrant hugger"
 	"never disabled"
@@ -298,18 +298,18 @@ ship "Aberrant Hugger"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be lighter and capable of higher speeds than most other Aberrant ships, yet it still carries an enlarged armament."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这一变体似乎比大多数其他异变体飞船更轻，速度也更快，但依然搭载了更为强大的武器。"
 
 
 ship "Aberrant Hugger" "Aberrant Hugger (Disable-able)"
-	"display name" `K-IE "Hugger"`
+	"display name" `K-IE“拥抱者”`
 	"uncapturable"
 
 
 ship "Aberrant Longfellow"
-	"display name" `K-IF "Longfellow"`
-	plural "Longfellows"
+	"display name" `K-IF “朗费罗”`
+	plural "朗费罗"
 	sprite "ship/aberrant longfellow"
 	thumbnail "thumbnail/aberrant longfellow"
 	"never disabled"
@@ -378,18 +378,18 @@ ship "Aberrant Longfellow"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to have grown extra thrusters around a lean, sleek fuselage."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这一变体似乎在细长流线型的机身周围额外增加了推进器。"
 
 
 ship "Aberrant Longfellow" "Aberrant Longfellow (Disable-able)"
-	"display name" `K-IF "Longfellow"`
+	"display name" `K-IF “朗费罗”`
 	"uncapturable"
 
 
 ship "Aberrant Dancer"
-	"display name" `K-IG "Dancer"`
-	plural "Dancers"
+	"display name" `K-IG "舞者星"`
+	plural "舞者星"
 	sprite "ship/aberrant dancer"
 	thumbnail "thumbnail/aberrant dancer"
 	"never disabled"
@@ -456,18 +456,18 @@ ship "Aberrant Dancer"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular appears to have several hardpoints designed to mount turrets."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这种变体似乎特别设计了多个挂载点来安装炮塔。"
 
 
 ship "Aberrant Dancer" "Aberrant Dancer (Disable-able)"
-	"display name" `K-IG "Dancer"`
+	"display name" `K-IG "舞者星"`
 	"uncapturable"
 
 
 ship "Aberrant Junior"
-	"display name" `K-IIA "Junior"`
-	plural "Juniors"
+	"display name" `K-IIA “小型”`
+	plural "小型"
 	sprite "ship/aberrant junior"
 	thumbnail "thumbnail/aberrant junior"
 	"never disabled"
@@ -531,18 +531,18 @@ ship "Aberrant Junior"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be compact, smaller-than-average, and still in the process of growing."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这个变体看起来尤其紧凑，尺寸小于平均，并且仍处于成长过程中。"
 
 
 ship "Aberrant Junior" "Aberrant Junior (Disable-able)"
-	"display name" `K-IIA "Junior"`
+	"display name" `K-IIA “小型”`
 	"uncapturable"
 
 
 ship "Aberrant Icebreaker"
-	"display name" `K-IIB "Icebreaker"`
-	plural "Icebreakers"
+	"display name" `K-IIB“破冰船”`
+	plural "破冰船"
 	sprite "ship/aberrant icebreaker"
 	thumbnail "thumbnail/aberrant icebreaker"
 	"never disabled"
@@ -607,18 +607,18 @@ ship "Aberrant Icebreaker"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular seems to be in the process of growing more elongated, and has a tougher hull than most other variants."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这个变种似乎正在变得更细长，并且拥有比大多数其他变种更坚固的船体。"
 
 
 ship "Aberrant Icebreaker" "Aberrant Icebreaker (Disable-able)"
-	"display name" `K-IIB "Icebreaker"`
+	"display name" `K-IIB“破冰船”`
 	"uncapturable"
 
 
 ship "Aberrant Pike"
-	"display name" `K-IIC "Pike"`
-	plural "Pikes"
+	"display name" `K-IIC “派克”`
+	plural "派克"
 	sprite "ship/aberrant pike"
 	thumbnail "thumbnail/aberrant pike"
 	"never disabled"
@@ -682,18 +682,18 @@ ship "Aberrant Pike"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular has grown into a sleek, elongated shape."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这种变体尤其演变成了一种流线修长的外形。"
 
 
 ship "Aberrant Pike" "Aberrant Pike (Disable-able)"
-	"display name" `K-IIC "Pike"`
+	"display name" `K-IIC “派克”`
 	"uncapturable"
 
 
 ship "Aberrant Mole"
-	"display name" `K-IID "Mole"`
-	plural "Moles"
+	"display name" `K-IID "鼹鼠"`
+	plural "鼹鼠"
 	sprite "ship/aberrant mole"
 	thumbnail "thumbnail/aberrant mole"
 	"never disabled"
@@ -759,18 +759,18 @@ ship "Aberrant Mole"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant has grown a sharp, bladed prow capable of fitting more forward weapons."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这种变体生长出一个锋利的刃状船首，能够安装更多的前向武器。"
 
 
 ship "Aberrant Mole" "Aberrant Mole (Disable-able)"
-	"display name" `K-IID "Mole"`
+	"display name" `K-IID "鼹鼠"`
 	"uncapturable"
 
 
 ship "Aberrant Whiskers"
-	"display name" `K-IIE "Whiskers"`
-	plural "Whiskers"
+	"display name" `K-IIE“胡须者”`
+	plural "触须"
 	sprite "ship/aberrant whiskers"
 	thumbnail "thumbnail/aberrant whiskers"
 	"never disabled"
@@ -829,18 +829,18 @@ ship "Aberrant Whiskers"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant in particular appears to be growing some sort of tail-like structure, increasing its agility."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这种变体似乎生长出某种尾状结构，从而提升了其机动性。"
 
 
 ship "Aberrant Whiskers" "Aberrant Whiskers (Disable-able)"
-	"display name" `K-IIE "Whiskers"`
+	"display name" `K-IIE“胡须者”`
 	"uncapturable"
 
 
 ship "Aberrant Trip"
-	"display name" `K-IIF "Trip"`
-	plural "Trips"
+	"display name" `K-IIF“特里普”`
+	plural "特里普"
 	sprite "ship/aberrant trip"
 	thumbnail "thumbnail/aberrant trip"
 	"never disabled"
@@ -912,17 +912,17 @@ ship "Aberrant Trip"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "Something appears to have gone terribly wrong in the germination of this variant. It is a lopsided, deformed mass of malformed material, which survives only through sheer luck."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这种变体的萌发过程似乎出了严重问题。它是一团歪歪扭扭、畸形扭曲的劣质材料，能存活下来纯粹是运气使然。"
 
 ship "Aberrant Trip" "Aberrant Trip (Disable-able)"
-	"display name" `K-IIF "Trip"`
+	"display name" `K-IIF“特里普”`
 	"uncapturable"
 
 
 ship "Aberrant Triplet"
-	"display name" `K-IIG "Triplet"`
-	plural "Triplets"
+	"display name" `K-IIG “三联”`
+	plural "三联"
 	sprite "ship/aberrant triplet"
 	thumbnail "thumbnail/aberrant triplet"
 	"never disabled"
@@ -999,10 +999,10 @@ ship "Aberrant Triplet"
 	explode "large explosion" 18
 	"final explode" "nuke explosion"
 	"final explode" "nuke residue fast" 50
-	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
-	description "This variant seems to be a composite of two or three individuals, fused together into a single mass."
+	description "这似乎是一种有机金属实体，由有机组织、常规材料以及一种常规分析无法解析的奇异物质，像奇异的拼合体般构成。"
+	description "这个变体似乎是两到三个个体的组合体，融合成一个单一团块。"
 
 
 ship "Aberrant Triplet" "Aberrant Triplet (Disable-able)"
-	"display name" `K-IIG "Triplet"`
+	"display name" `K-IIG “三联”`
 	"uncapturable"

@@ -82,7 +82,7 @@ government "Avgi"
 	"hostile disabled hail" "hostile disabled avgi"
 
 government "Avgi (Consonance)"
-	"display name" "Consonance"
+	"display name" "协和"
 	swizzle 15
 	language "Avgi"
 	color "governments: Avgi"
@@ -112,7 +112,7 @@ government "Avgi (Consonance)"
 color "governments: Dissonance" 1 0 0.588
 
 government "Avgi (Dissonance)"
-	"display name" "Dissonance"
+	"display name" "不谐"
 	swizzle 1
 	language "Avgi"
 	color "governments: Dissonance"
@@ -147,7 +147,7 @@ government "Avgi (Dissonance)"
 	"hostile disabled hail" "hostile disabled dissonance"
 
 government "Avgi (Dissonance Angry)"
-	"display name" "Dissonance"
+	"display name" "不谐"
 	swizzle 1
 	language "Avgi"
 	color "governments: Dissonance"
@@ -176,7 +176,7 @@ government "Avgi (Dissonance Angry)"
 color "governments: Twilight Guard" 0.12 0.18 0.69
 
 government "Avgi (Twilight Guard)"
-	"display name" "Twilight Guard"
+	"display name" "暮光卫队"
 	swizzle 12
 	language "Avgi"
 	color "governments: Twilight Guard"
@@ -209,7 +209,7 @@ government "Avgi (Twilight Guard)"
 color "governments: Wandering Fleet" 0.9 0.72 0.12
 
 government "Avgi (Wandering Fleet)"
-	"display name" "Wandering Fleet"
+	"display name" "流浪舰队"
 	swizzle 22
 	language "Avgi"
 	color "governments: Wandering Fleet"
@@ -255,7 +255,7 @@ government "Bounty"
 	"hostile disabled hail" "hostile disabled"
 
 government "Bounty (Disguised)"
-	"display name" "Merchant"
+	"display name" "商人"
 	swizzle 5
 	confusion "pirate"
 	"player reputation" 1
@@ -318,7 +318,7 @@ government "Bunrodea"
 		assist 0
 
 government "Bunrodea (Erabu)"
-	"display name" "Bunrodea"
+	"display name" "邦罗迪亚"
 	swizzle 11
 	color .35 .65 .3
 	language "Bunrodea"
@@ -338,7 +338,7 @@ government "Bunrodea (Erabu)"
 		assist 0
 
 government "Bunrodea (Guard)"
-	"display name" "Bunrodea"
+	"display name" "邦罗迪亚"
 	swizzle 11
 	color .35 .65 .3
 	language "Bunrodea"
@@ -360,7 +360,7 @@ government "Bunrodea (Guard)"
 		disable 0
 
 government "Bunrodea (Megasa)"
-	"display name" "Bunrodea"
+	"display name" "邦罗迪亚"
 	swizzle 18
 	color .35 .65 .3
 	language "Bunrodea"
@@ -411,7 +411,7 @@ government "Conlatio"
 	"hostile disabled hail" "incipias hostile disabled"
 
 government "Deep"
-	"display name" "Deep Security"
+	"display name" "深渊安保"
 	swizzle 0
 	confusion "military"
 	"player reputation" -1000
@@ -438,7 +438,7 @@ government "Derelict"
 
 government "Derelict (Boardable)"
 	swizzle 10
-	"display name" "Derelict"
+	"display name" "弃船"
 	"player reputation" -1
 	"default attitude" -.01
 	"crew attack" 0
@@ -455,7 +455,7 @@ government "Drak"
 		"Ember Waste" 1
 
 government "Drak (Hostile)"
-	"display name" "Drak"
+	"display name" "德拉克"
 	swizzle 0
 	confusion "perfect"
 	"player reputation" -1000
@@ -463,7 +463,7 @@ government "Drak (Hostile)"
 		"Indigenous Lifeform" 1
 
 government "Drak (Incipias)"
-	"display name" "Drak"
+	"display name" "德拉克"
 	swizzle 0
 	color 1 1 1
 	confusion "perfect"
@@ -494,7 +494,7 @@ government "Escort"
 	"fine" 0
 
 government "Escort (Betraying)"
-	"display name" "Merchant"
+	"display name" "商人"
 	swizzle 5
 	confusion "pirate"
 
@@ -570,7 +570,7 @@ government "Gegno Scin"
 
 government "Gegno Scin (Combative)"
 	swizzle 18
-	"display name" "Gegno Scin"
+	"display name" "格诺辛"
 	language "Gegno"
 	color "governments: Gegno Scin"
 	confusion "militia"
@@ -585,7 +585,7 @@ government "Gegno Scin (Combative)"
 		assist 0
 
 government "Gegno Scin (Neutral)"
-	"display name" "Gegno Scin"
+	"display name" "格诺辛"
 	swizzle 18
 	language "Gegno"
 	color "governments: Gegno Scin"
@@ -628,7 +628,7 @@ government "Gegno Vi"
 
 government "Gegno Vi (Combative)"
 	swizzle 0
-	"display name" "Gegno Vi"
+	"display name" "格诺维"
 	language "Gegno"
 	color "governments: Gegno Vi"
 	confusion "militia"
@@ -644,7 +644,7 @@ government "Gegno Vi (Combative)"
 
 government "Gegno Vi (Duelist A)"
 	swizzle 0
-	"display name" "Gegno Vi"
+	"display name" "格诺维"
 	language "Gegno"
 	color "governments: Gegno Vi"
 	confusion "militia"
@@ -665,7 +665,7 @@ government "Gegno Vi (Duelist A)"
 
 government "Gegno Vi (Duelist B)"
 	swizzle 0
-	"display name" "Gegno Vi"
+	"display name" "格诺维"
 	language "Gegno"
 	color "governments: Gegno Vi"
 	confusion "militia"
@@ -685,7 +685,7 @@ government "Gegno Vi (Duelist B)"
 		destroy 0.3
 
 government "Gegno Vi (Neutral)"
-	"display name" "Gegno Vi"
+	"display name" "格诺维"
 	swizzle 0
 	language "Gegno"
 	color "governments: Gegno Vi"
@@ -733,7 +733,7 @@ government "Hai"
 	"ship bribe rejection hail" "ship bribe rejection hai"
 
 government "Hai Merchant"
-	"display name" "Hai"
+	"display name" "亥族"
 	swizzle 0
 	color "governments: Hai"
 	confusion "civilian"
@@ -763,7 +763,7 @@ government "Hai Merchant"
 	"ship bribe rejection hail" "ship bribe rejection hai"
 
 government "Hai Merchant (Sympathizers)"
-	"display name" "Hai"
+	"display name" "亥族"
 	swizzle 0
 	color "governments: Hai"
 	confusion "civilian"
@@ -788,7 +788,7 @@ government "Hai Merchant (Sympathizers)"
 	"ship bribe rejection hail" "ship bribe rejection hai"
 
 government "Hai Merchant (Human)"
-	"display name" "Hai"
+	"display name" "亥族"
 	swizzle 0
 	color "governments: Hai"
 	confusion "civilian"
@@ -850,7 +850,7 @@ government "Hai (Unfettered)"
 	raid "Large Plundering Unfettered" 8
 
 government "Hai (Unfettered Challenger)"
-	"display name" "Hai (Unfettered)"
+	"display name" "亥族（无羁者）"
 	swizzle 5
 	"crew attack" 1.4
 	"crew defense" 2.2
@@ -867,7 +867,7 @@ government "Hai (Unfettered Challenger)"
 government "Hai (Unfettered Civilians)"
 	swizzle 4
 	color "governments: Hai (Unfettered)"
-	"display name" "Hai (Unfettered)"
+	"display name" "亥族（无羁者）"
 	confusion "pirate"
 	
 	"player reputation" 10
@@ -882,7 +882,7 @@ government "Hai (Unfettered Civilians)"
 
 government "Hai (Unfettered Wanderer Tribute)"
 	swizzle 4
-	"display name" "Hai (Unfettered)"
+	"display name" "亥族（无羁者）"
 	"crew attack" 1.4
 	"crew defense" 2.2
 	confusion "military"
@@ -894,7 +894,7 @@ government "Hai (Unfettered Wanderer Tribute)"
 	"hostile disabled hail" "hostile disabled unfettered"
 
 government "Hai (Wormhole Access)"
-	"display name" "Hai"
+	"display name" "亥族"
 	swizzle 0
 	color "governments: Hai"
 	confusion "militia"
@@ -937,7 +937,7 @@ government "Heliarch"
 		"Quarg (Kor Efret)" -.01
 
 government "Heliarch Test Dummy"
-	"display name" "Heliarch"
+	"display name" "日权会"
 	confusion "elite"
 	swizzle 0
 	color 1 .8 .5
@@ -1119,7 +1119,7 @@ government "Independent"
 	raid "Large Southern Pirates"
 
 government "Independent (Killable)"
-	"display name" "Independent"
+	"display name" "独立"
 	swizzle 6
 	color "governments: Independent"
 	confusion "pirate"
@@ -1152,7 +1152,7 @@ government "Indigenous Lifeform"
 
 government "Indigenous Lifeform (Acheron)"
 	# This indigenous gov is specifically for Acheron space life so they do not influence Ember Waste life.
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	confusion "wild"
 	"player reputation" 1
 	"bribe" 0
@@ -1168,7 +1168,7 @@ government "Indigenous Lifeform (Acheron)"
 
 government "Indigenous Lifeform (Astral)"
 	# This indigenous gov is specifically for Astral Cetaceans so they "eat" other indigenous lifeforms.
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	confusion "wild"
 	"player reputation" 1
 	"bribe" 0
@@ -1188,7 +1188,7 @@ government "Indigenous Lifeform (Astral)"
 government "Indigenous Lifeform (Subsidurial)"
 	# This indigenous gov is specifically for the Subsidurial, so that nothing in the game tries to hurt the poor thing.
 	"player reputation" 1
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	confusion "wild"
 	"bribe" 0
 	"fine" 0
@@ -1202,7 +1202,7 @@ government "Indigenous Lifeform (Subsidurial)"
 		atrocity 0
 
 government "Indigenous Lifeform (Tree)"
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	confusion "wild"
 	"bribe" 0
 	swizzle 26
@@ -1220,7 +1220,7 @@ government "Indigenous Lifeform (Tree)"
 		atrocity 0
 
 government "Indigenous Lifeform (Tree Two)"
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	confusion "wild"
 	"bribe" 0
 	swizzle 14
@@ -1253,7 +1253,7 @@ government "Ka'het"
 	"player reputation" -1
 
 government "Ka'het (Infighting)"
-	"display name" "Ka'het"
+	"display name" "卡赫特"
 	swizzle 0
 	language "Ka'het"
 	confusion "ka'het"
@@ -1282,7 +1282,7 @@ government "Ka'sei"
 
 # Used only by the Patir Mystery missions in question
 government "Ka'sei (12.2)"
-	"display name" "Ka'sei"
+	"display name" "卡塞"
 	swizzle 0
 	language "Ka'het"
 	confusion "ka'het"
@@ -1299,7 +1299,7 @@ government "Ka'sei (12.2)"
 	"hostile disabled hail" "hostile disabled ka'het"
 
 government "Ka'sei (Patir 18)"
-	"display name" "Ka'sei"
+	"display name" "卡塞"
 	swizzle 0
 	language "Ka'het"
 	
@@ -1343,7 +1343,7 @@ government "Kor Mereti"
 	"player reputation" -1000
 
 government "Kor Mereti (Hostile)"
-	"display name" "Kor Mereti"
+	"display name" "科·梅雷提"
 	swizzle 5
 	language "Korath"
 	confusion "kor mereti"
@@ -1390,7 +1390,7 @@ government "Korath"
 	"hostile disabled hail" "hostile disabled korath untranslated"
 
 government "Korath (Civilian)"
-	"display name" "Korath"
+	"display name" "科拉斯"
 	swizzle 2
 	color "governments: Korath Exiles"
 	"crew attack" 1.1
@@ -1434,7 +1434,7 @@ government "Lunarium"
 		"Pirate" -.01
 
 government "Lunarium (Hidden)"
-	"display name" "Lunarium"
+	"display name" "月影社"
 	swizzle 5
 	"crew attack" 1.2
 	"crew defense" 2.7
@@ -1516,7 +1516,7 @@ government "Merchant"
 # Ships with merchant colors that are hostile to the player.
 government "Merchant (Hostile)"
 	swizzle 5
-	"display name" "Merchant"
+	"display name" "商人"
 	confusion "pirate"
 	
 	"player reputation" -10
@@ -1661,7 +1661,7 @@ government "People's Houses"
 	language "Successor"
 
 government "People's Houses (Hostile)"
-	"display name" "People's Houses"
+	"display name" "民舍"
 	swizzle 6
 	color 0.92 0.29 0.20
 	confusion "militia"
@@ -1705,7 +1705,7 @@ government "Pirate"
 	raid "pirate raid"
 
 government "Pirate (Rival)"
-	"display name" "Pirate"
+	"display name" "海盗"
 	swizzle 6
 	color "governments: Pirate"
 	confusion "pirate"
@@ -1752,7 +1752,7 @@ government "Pug"
 	"hostile disabled hail" "hostile pug"
 
 government "Pug (Wanderer)"
-	"display name" "Pug"
+	"display name" "帕格"
 	swizzle 0
 	color "governments: Pug"
 	confusion "perfect"
@@ -1826,7 +1826,7 @@ government "Quarg"
 government "Quarg (Gegno)"
 	swizzle 4
 	color "governments: Quarg"
-	"display name" "Quarg"
+	"display name" "夸格"
 	confusion "elite"
 
 	"player reputation" 1
@@ -1875,7 +1875,7 @@ government "Quarg (Gegno)"
 government "Quarg (Hai)"
 	swizzle 4
 	color "governments: Quarg"
-	"display name" "Quarg"
+	"display name" "夸格"
 	confusion "elite"
 
 	"player reputation" 1
@@ -1926,7 +1926,7 @@ government "Quarg (Hai)"
 government "Quarg (Incipias)"
 	swizzle 4
 	color "governments: Quarg"
-	"display name" "Quarg"
+	"display name" "夸格"
 	confusion "elite"
 
 	"player reputation" 1
@@ -1988,7 +1988,7 @@ government "Quarg (Incipias)"
 government "Quarg (Kor Efret)"
 	swizzle 4
 	color "governments: Quarg"
-	"display name" "Quarg"
+	"display name" "夸格"
 	confusion "elite"
 
 	"player reputation" 1
@@ -2074,7 +2074,7 @@ government "Remnant"
 		system "Nenia"
 
 government "Remnant (Research)"
-	"display name" "Remnant"
+	"display name" "遗民"
 	swizzle 0
 	color "governments: Remnant"
 	"crew defense" 2.2
@@ -2103,7 +2103,7 @@ government "Remnant (Research)"
 		system "Nenia"
 
 government "Remnant (Postverta)"
-	"display name" "Remnant"
+	"display name" "遗民"
 	swizzle 0
 	color "governments: Remnant"
 	"crew defense" 2.2
@@ -2160,7 +2160,7 @@ government "Republic"
 	raid "pirate raid"
 
 government "Republic (Friendly)"
-	"display name" "Republic"
+	"display name" "共和国"
 	swizzle 0
 	"crew attack" 1.2
 	"crew defense" 2.2
@@ -2204,7 +2204,7 @@ government "Scar's Legion"
 	"hostile disabled hail" "hostile disabled"
 
 government "Scar's Legion (Killable)"
-	"display name" "Scar's Legion"
+	"display name" "疤军团"
 	swizzle 6
 	color "governments: Pirate"
 	confusion "pirate"
@@ -2221,7 +2221,7 @@ government "Sheragi"
 	"crew defense" 0
 
 government "Silent Ones"
-	"display name" "Indigenous Lifeform"
+	"display name" "原生生物"
 	swizzle 0
 	confusion "wild"
 	"player reputation" 1

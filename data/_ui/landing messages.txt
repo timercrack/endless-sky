@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-"landing message" "You cannot land on this gas giant."
+"landing message" "你无法降落在这颗气态巨行星上。"
 	"planet/gas0"
 	"planet/gas0-b"
 	"planet/gas1"
@@ -55,7 +55,7 @@
 	"planet/uranus"
 	"planet/uranus-b"
 
-"landing message" "This planet has too much tectonic activity for you to land safely on it."
+"landing message" "这颗星球地质活动过于剧烈，无法安全降落。"
 	"planet/lava0"
 	"planet/lava0-b"
 	"planet/lava1"
@@ -73,7 +73,7 @@
 	"planet/lava7"
 	"planet/lava7-b"
 
-"landing message" "You cannot land on this part of the ringworld."
+"landing message" "你无法降落在环形世界的这个区域。"
 	"planet/ringworld left"
 	"planet/ringworld"
 	"planet/ringworld right"
@@ -83,23 +83,23 @@
 	"planet/panels4"
 	"planet/panels5"
 
-"landing message" "You are not sure what this is, but it's not something you can land on."
+"landing message" "你不确定这是什么，但它肯定不是能降落的地方。"
 	"planet/wisp"
 	"planet/wormhole"
 	"planet/wormhole-red"
 
-"landing message" "You cannot land on a black hole!"
+"landing message" "你无法降落在黑洞上！"
 	"star/black-hole"
 	"star/black-hole-core"
 	"star/small-black-hole"
 	"star/coal-black-hole"
 
-"landing message" "You cannot land on this part of the Dyson sphere."
+"landing message" "你无法降落在戴森球的这个区域。"
 	"planet/dyson1"
 	"planet/dyson2"
 	"planet/dyson3"
 
-"landing message" "You cannot land on this brown dwarf."
+"landing message" "你无法降落在这颗褐矮星上。"
 	"planet/browndwarf-l"
 	"planet/browndwarf-l-rogue"
 	"planet/browndwarf-t"
@@ -107,7 +107,7 @@
 	"planet/browndwarf-y"
 	"planet/browndwarf-y-rogue"
 
-"landing message" "This environment is too hostile for your ship to land in."
+"landing message" "这里的环境过于恶劣，你的飞船无法降落。"
 	"star/nova-small"
 	"star/nova"
 	"star/nova-old"

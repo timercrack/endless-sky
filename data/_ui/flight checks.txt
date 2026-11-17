@@ -14,25 +14,25 @@
 # Conversations shown when launching from a planet with insufficiently equipped ships.
 conversation "flight check: no energy!"
 	scene "scene/engine2"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up your systems for a test run... and you discover that your generator does not produce enough power to power them. You'll have to either install some batteries, or switch to a more powerful generator.`
+	`你已经听够了关于星舰系统故障导致的各种事故的恐怖故事，完全确信起飞前安全检查的必要性。当你聆听<ship>预热时发出的嗡嗡声、嘎嘎声和咔哒声组成的复杂交响曲时，你在心里逐项检查。电脑：正常。生命支持：正常。`
+	`	一切都很顺利，直到你准备启动系统进行测试运行……却发现发电机无法提供足够的电力来驱动它们。你得要么安装一些电池，要么换成功率更大的发电机。`
 	
 conversation "flight check: no thruster!"
 	scene "scene/engine2"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up the thrusters for a test run... and you realize, much to your embarrassment, that you do not have any thrusters installed. Time to head back to the outfitter and fix that!`
+	`你已经听够了关于星舰系统故障导致的各种事故的恐怖故事，完全确信起飞前安全检查的必要性。当你聆听<ship>预热时发出的嗡嗡声、嘎嘎声和咔哒声组成的复杂交响曲时，你在心里逐项检查。电脑：正常。生命支持：正常。`
+	`	一切进展顺利，直到启动推进器进行测试的时候……你才尴尬地发现，自己根本没有安装任何推进器。该回装备店补装一个了！`
 
 conversation "flight check: no steering!"
 	scene "scene/engine"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up the steering engines for a test run... and you realize, much to your embarrassment, that you do not have any steering installed. Time to head back to the outfitter and fix that!`
+	`你已经听够了关于星舰系统故障导致的各种事故的恐怖故事，完全确信起飞前安全检查的必要性。当你聆听<ship>预热时发出的嗡嗡声、嘎嘎声和咔哒声组成的复杂交响曲时，你在心里逐项检查。电脑：正常。生命支持：正常。`
+	`	一切都很顺利，直到要给转向引擎点火做测试的时候……你尴尬地发现，自己根本没装任何转向装置。该回装备站把这个问题解决了！`
 	
 conversation "flight check: overheating!"
 	scene "scene/engine"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	By the time you reach the end of the checklist, it has grown uncomfortably warm. The air smells like ozone and hot metal, and your cameras are showing a plume of steam or smoke escaping from the hull near the engines. If your systems are running this hot while still in the atmosphere, they're likely to overheat the moment you hit hard vacuum. You are going to have to either install cooling systems, or trade out some components for lower-heat alternatives.`
+	`你已经听够了关于星舰系统故障导致的各种事故的恐怖故事，完全确信起飞前安全检查的必要性。当你聆听<ship>预热时发出的嗡嗡声、嘎嘎声和咔哒声组成的复杂交响曲时，你在心里逐项检查。电脑：正常。生命支持：正常。`
+	`	当检查清单进行到最后时，机舱已经热得令人不适。空气中弥漫着臭氧和热金属的气味，你的摄像头显示引擎附近的船体正喷出一股蒸汽或烟雾。如果你的系统在大气层内就已经这么热，一旦进入硬真空很可能就会过热。你必须要么安装冷却系统，要么用一些低热量的组件替换掉部分部件。`
 
 conversation "flight check: no bunks!"
 	scene "outfit/bunk room"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly, but suddenly a manual confirmation prompt appears on the diagnostics screen. You hail the crew of the <ship>... and you realize, much to your embarrassment, that you do not have any bunks installed. Time to head back to the outfitter and fix that!`
+	`你已经听够了关于星舰系统故障导致的各种事故的恐怖故事，完全确信起飞前安全检查的必要性。当你聆听<ship>预热时发出的嗡嗡声、嘎嘎声和咔哒声组成的复杂交响曲时，你在心里逐项检查。电脑：正常。生命支持：正常。`
+	`	一切都很顺利，但诊断屏幕上突然弹出一个手动确认提示。你呼叫<ship>的船员……然后尴尬地意识到，你根本没安装任何铺位。得回装备店把这个补上！`

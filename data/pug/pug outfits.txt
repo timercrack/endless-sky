@@ -36,7 +36,7 @@ outfit "Pug Zapper"
 		"firing heat" 1.4
 		"shield damage" 3.7
 		"hull damage" 2.9
-	description "This is a formidable beam weapon, more damaging than even the most advanced energy beams that humanity has developed. Pug ships have integrated power plants that produce the considerable amount of energy that is needed to drive weapons like this one."
+	description "这是一种强大的光束武器，其威力甚至超过人类已开发出的最先进能量光束。帕格舰船集成了发电装置，能产生驱动此类武器所需的大量能量。"
 
 outfit "Pug Zapper Turret"
 	category "Turrets"
@@ -66,7 +66,7 @@ outfit "Pug Zapper Turret"
 		"firing heat" 2.8
 		"shield damage" 7.4
 		"hull damage" 5.8
-	description "Mounted on a turret, this Pug weapon becomes even more devastatingly powerful. However, its energy requirements are higher than most human ships can support."
+	description "安装在炮塔上后，这种帕格武器变得更具毁灭性。然而，其能量需求超出了大多数人类飞船所能承受的范围。"
 
 effect "zapper impact"
 	sprite "effect/zapper impact"
@@ -111,7 +111,7 @@ outfit "Pug Seeker"
 		"hull damage" 13
 		"hit force" 3
 		"missile strength" 10
-	description "You have no idea how this weapon works. It requires no ammunition, but its energy-based projectiles have the ability to home in on a target ship."
+	description "你完全不清楚这种武器的运作原理。它无需弹药，但其发射的能量弹能够自动追踪目标飞船。"
 
 effect "seeker impact"
 	sprite "effect/seeker impact"
@@ -143,7 +143,7 @@ outfit "Pug Anti-Missile"
 		"reload" 2
 		"firing energy" 8
 		"firing heat" 2
-	description "This anti-missile system designed by the Pug draws a lot of energy, but its fast firing rate makes it twice as effective as anything that Lovelace Labs has been able to come up with. A ship with one of these turrets will be very difficult to hit with missiles."
+	description "帕格设计的这种反导系统消耗大量能量，但其极高的射速使其效能达到洛夫莱斯实验室所能研发的任何产品的两倍。装备此炮塔的飞船将极难被导弹命中。"
 
 effect "pug anti-missile"
 	sprite "effect/large anti missile"
@@ -176,7 +176,7 @@ outfit "Tier 3 Anti-Missile"
 		"reload" 8
 		"firing energy" 60
 		"firing heat" 10
-	description "This powerful anti-missile turret is capable of destroying even the strongest of missiles."
+	description "这款强大的反导炮塔能够摧毁哪怕是最坚固的导弹。"
 
 effect "tier 3 anti-missile fire"
 	sprite "effect/anti-missile 3 fire"
@@ -223,7 +223,7 @@ outfit "Pug Gridfire Turret"
 		"hull damage" 300
 		"blast radius" 40
 		"piercing" .3
-	description "No one understands how the Gridfire Turret works, and the Pug aren't interested in explaining."
+	description "无人理解格网火炮塔的工作原理，而帕格人也无意解释。"
 
 effect "gridfire fire"
 	sprite "effect/gridfire fire"
@@ -268,7 +268,7 @@ outfit "Pug Akfar Thruster"
 	"flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"flare sound" "ion medium"
-	description "This is a small thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是帕格设计的一款小型推进器。其推力不及同尺寸的原子引擎，但通过接近离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Akfar Steering"
 	category "Engines"
@@ -285,7 +285,7 @@ outfit "Pug Akfar Steering"
 	"steering flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"steering flare sound" "ion medium"
-	description "This is a small steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格设计的小型转向系统。它的动力略逊于同体积的原子引擎，但通过几乎与离子引擎相当的能效弥补了这一不足。"
 
 outfit "Pug Cormet Thruster"
 	category "Engines"
@@ -302,7 +302,7 @@ outfit "Pug Cormet Thruster"
 	"flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"flare sound" "ion large"
-	description "This is a medium-sized thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一款由帕格设计的中型推进器。其推力略逊于同等级的原子引擎，但通过几乎媲美离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Cormet Steering"
 	category "Engines"
@@ -319,7 +319,7 @@ outfit "Pug Cormet Steering"
 	"steering flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"steering flare sound" "ion large"
-	description "This is a medium-sized steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一种由帕格设计的中型转向系统。其功率虽不及同级原子引擎，但凭借近乎离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Lohmar Thruster"
 	category "Engines"
@@ -336,7 +336,7 @@ outfit "Pug Lohmar Thruster"
 	"flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"flare sound" "ion huge"
-	description "This is a large thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是由帕格设计的大型推进器。它的功率略逊于同尺寸的原子引擎，但几乎与离子引擎一样节能，从而弥补了这一不足。"
 
 outfit "Pug Lohmar Steering"
 	category "Engines"
@@ -353,12 +353,12 @@ outfit "Pug Lohmar Steering"
 	"steering flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"steering flare sound" "ion huge"
-	description "This is a large steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是由帕格设计的大型转向系统。其推力不及同等体积的原子引擎，但能效几乎与离子引擎相当，从而弥补了这一不足。"
 
 
 
 outfit "Pug Biodefenses"
-	plural "Pug Biodefenses"
+	plural "帕格生物防御系统"
 	category "Hand to Hand"
 	series "Fortifications"
 	index 90020
@@ -367,10 +367,10 @@ outfit "Pug Biodefenses"
 	"capture defense" 100
 	"unplunderable"
 	"can jettison"
-	description "This semi-organic defense system is designed to release a highly lethal bioengineered virus capable of rapidly infecting any foreign entities present on the ship that it is installed on while leaving the crew of the ship unharmed. The virus, when combined with the defense system itself, is highly accurate at automatically determining friend from foe."
+	description "这种半有机防御系统能释放一种高度致命的生物工程病毒，可迅速感染安装它的舰船上的所有外来实体，同时不伤害舰船船员。该病毒与防御系统相结合，能高度精确地自动辨别敌我。"
 
 outfit "Pug Peacekeeping Staff"
-	plural "Pug Peacekeeping Staves"
+	plural "帕格维和杖"
 	category "Hand to Hand"
 	series "H2H"
 	index 90010
@@ -380,4 +380,4 @@ outfit "Pug Peacekeeping Staff"
 	"capture defense" 2.3
 	"unplunderable"
 	"can jettison"
-	description "Though designed for planetary population control, the peacekeeping staff also works exceptionally well for ship defense. The staff emits a short-ranged beam that incapacitates anyone it touches by causing them to enter a euphoric and hallucinogenic state, wandering off to somewhere where they won't cause any trouble. Coming down from the state of euphoria is never pleasant."
+	description "虽然设计用于行星人口控制，但维和杖在飞船防御方面也表现出色。该权杖能发射一道短距离光束，使被触及者进入一种充满快感和幻觉的状态，从而丧失行动能力，并游荡到不会制造麻烦的地方去。从这种快感状态中清醒过来绝非愉快的经历。"

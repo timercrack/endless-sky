@@ -14,7 +14,7 @@
 
 mission "Unfettered returning home"
 	minor
-	description "This Hai has asked you to smuggle him out of Unfettered space and bring him to <destination>."
+	description "这名亥族人请求你将他偷运出无羁者星域，并护送其前往<destination>。"
 	source
 		attributes "unfettered"
 	destination "Hai-home"
@@ -25,42 +25,42 @@ mission "Unfettered returning home"
 		random < 40
 	on offer
 		conversation
-			`During the night, you hear a gentle scratching sound on your ship's main hatch. Do you investigate?`
+			`夜里，你听到飞船主舱门传来轻微的刮擦声。要查看一下吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	（是的。）`
+				`	（否。）`
 					defer
-			`	You grab a flashlight and open the hatch, and find a juvenile Hai there, with a large satchel slung over his shoulder. "You are the <first> <last>, yes?" he says. You nod. He says, "Is it true what is written here?"`
-			`	In his hands he is holding a piece of foil paper. You recognize it as the wrapper from one of the food rations that you have been transporting to the Unfettered, the "tribute" that they demand from the peaceful Hai. But having never unwrapped one of the rations, you had not realized that there is writing on the inside, a few words in the angular alphabet of the Hai. The Unfettered youth sees your look of confusion, and translates the message. "It says, 'Hai-home is your home too. Rejoin your people.'"`
+			`	你抓起手电筒打开舱门，发现有一名年轻的亥族人站在那里，肩上挎着一个大挎包。“你就是<first> <last>，对吗？”他问道。你点了点头。他接着问：“上面写的东西是真的吗？”`
+			`	他手里拿着一张箔纸。你认出那是你之前一直运送给无羁者的口粮的包装纸——也就是他们向爱好和平的亥族人强征的“贡品”。由于你从未拆开过那些口粮，因而没有意识到包装纸的内侧写着字，那是用亥族棱角分明的字母写成的寥寥数语。那个无羁者青年看到你困惑的表情，便翻译了这条信息：“上面写着，‘亥族故土也是你的家。重归你的同胞吧。’”`
 			choice
-				`	"I think it is true. The Hai who gave this tribute said they hoped the Unfettered would turn from violence and be reconciled with them."`
+				`	“我认为这是真的。提供这份贡品的亥族人说，他们希望无羁者能放弃暴力，并与他们和解。”`
 					goto true
-				`	"I'm sorry, but I don't think they will ever let you live among them, if it is your nature to be prone to violence."`
-			`	You have little experience reading Hai emotions, but the youth seems crestfallen. "You are certain?" he asks.`
+				`	“抱歉，但如果你天性容易诉诸暴力，我不认为他们会允许你生活在他们之中。”`
+			`	你不太擅长解读亥族人的情绪，但这个青年似乎有些沮丧。“你确定吗？”他问。`
 			choice
-				`	"I am certain. I can do nothing for you."`
+				`	“我很确定。我帮不了你。”`
 					goto refuse
-				`	"Perhaps you can come with me and find out, but don't get your hopes up."`
+				`	“也许你可以跟我一起去看看，但别抱太大希望。”`
 					goto end
 			label true
-			`	"Will you take me to Hai-home?" he asks. "You are able to be outside Unfettered places. Can I go with you?"`
+			`	“你能带我去亥族故土吗？”他问，“你能够前往无缚者领地之外的地方。我能跟你一起去吗？”`
 			choice
-				`	"Yes, I will take you there."`
+				`	“好，我带你去。”`
 					goto end
-				`	"Sorry, I can't risk angering the Unfettered by carrying a defector."`
+				`	“抱歉，我不能冒着激怒无缚者的风险带上一个叛逃者。”`
 			label refuse
-			`	Disappointed, the youth leaves. You hope you made the right choice.`
+			`	青年失望地离开了。你希望自己做了正确的选择。`
 				decline
 			label end
-			`	You show the youth to one of your bunk rooms, and tell him to stay hidden there until you reach Hai-home.`
+			`	你带这名青年来到你的一间铺位室，并叮嘱他躲在里面，直到你们抵达亥族故土。`
 				accept
 
 	on visit
-		dialog `You look for the young Hai, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+		dialog `你寻找那个年轻的亥族人，却发现他搭上了你的一艘护航舰！最好先出发，并在这个星系中等待你的护航舰抵达。`
 	on complete
 		payment 100000
 		dialog
-			`You need not have worried about the reception the Unfettered youth would receive here on Hai-home. Scarcely minutes after you hesitantly contact the Hai government, a happy crowd has gathered around your ship. When he steps out of the hatchway, he looks stunned at being welcomed so warmly. One of the Hai governors thanks you for transporting him, and pays you <payment>.`
+			`你本不必担心那个无羁者青年在亥族故土会受到怎样的接待。在你犹豫地联系亥族政府后不过几分钟，欢呼的人群就聚集在了你的飞船周围。当他走出舱门时，面对如此热烈的欢迎，他显得目瞪口呆。一位亥族执政官感谢你送他回来，并支付了你<payment>。`
 		"reputation: Hai" += 10
 		"reputation: Hai (Wormhole Access)" += 10
 		"reputation: Hai Merchant" += 10
@@ -85,141 +85,141 @@ mission "Hai Legacy 1"
 		conversation
 			branch first
 				not "Hai Legacy 1: deferred"
-			`You recall a hooded figure offering a business opportunity in this shipyard. Do you want to follow their directions, and head to the specified coordinates?`
+			`你想起曾有一个戴兜帽的身影在这个船坞向你提供商机。你要遵照他们的指示，前往指定的坐标吗？`
 			choice
-				`	(Sure.)`
+				`	（当然。）`
 					goto go
-				`	(Maybe another time.)`
+				`	（也许下次吧。）`
 					defer
-				`	(Never.)`
+				`	（永远不。）`
 					decline
 			label first
-			`As you're browsing the shipyard, you are discreetly approached by a hooded figure. When you stop to see what they want to say, they grab and pull on your arm to follow them. "Keep walking," the stranger hisses. After pointing at and commenting on random ships, as if to mimic the actions of a regular passerby, they address you again.`
-			`	"My associates and I have a lucrative business proposition for you. It will require your undivided attention, so you would do well to finish any ongoing business first. If you are interested, come find us at these coordinates."`
-			`	Just before leaving they add, "We note you operate multiple ships. However, this is a solitary affair; make sure you can park most of your ships."`
+			`当你在船坞里浏览时，一个戴着兜帽的身影悄悄靠近了你。你停下来想听听他们要说什么，他们却一把抓住你的胳膊，拉着你跟上。“继续走，”那名陌生人低声喝道。在对几艘飞船指指点点并随意评价，假装成普通路人之后，他们再次向你搭腔。`
+			`	“我和我的伙伴想给你提供一个利润丰厚的商机。这需要你全神贯注，所以你最好先处理完手头的所有事务。如果你感兴趣，就来这个坐标找我们。”`
+			`	临走前，他们补充道：“我们注意到你指挥着多艘飞船。不过，这次是独自行动；确保你能把大部分飞船停放在港口。”`
 				to display
 					"total ships" > 1
-			`	Without waiting for a response, they fold a piece of paper into your hand before quickly fading into the crowd. It lists only a location, and if you cross-reference it with the local maps, it appears to point towards a beach on the other side of the planet.`
+			`	没等你回应，他们便将一张纸塞进你手中，随即迅速隐入人群之中。纸上只写了一个地点，当你对照当地地图时，它似乎指向了这颗星球另一侧的一处海滩。`
 			branch continue
 				"credits" >= 10000000
-			`	However, the paper also mentions you need to have at least ten million credits in cash! You'll have to save up or take a loan and then come back another day before heading to the specified location.`
+			`	不过，纸上还提到你手头至少需要有一千万信用点的现金！你必须攒够钱或是申请一笔贷款，改天再前往指定的地点。`
 				defer
 			label continue
-			`	Will you go there?`
+			`	你会去那里吗？`
 			choice
-				`	(Sure.)`
-				`	(Maybe another time.)`
+				`	（当然。）`
+				`	（也许下次吧。）`
 					defer
 			label go
-			`	While you're pondering whether or not there will be enough space to land your ship at the beach, you notice a train ticket attached to the back of the paper. A few more written notes give specific directions on how to get there, with a clear demand not to take your starship at the bottom.`
-			`	To your surprise, the local train station is located underground. You can't begin to make sense of the enormity of it - it almost feels like you can reach the entire planet from here. You ask a Hai for directions, feeling embarrassed when you learn that all you had to do was scan your ticket at a nearby terminal and all relevant information would be displayed for you.`
-			`	After departing the train station, you hike for a few hours until you reach your destination. Upon arriving, you look around for the stranger. Besides a cave, some sparse vegetation, and of course the beach itself, you cannot see anything significant in the vicinity. You double-check that these are the right coordinates and look around some more.`
-			`	You wait for some time until you spot two hooded figures further down the beach, and you start to doubt whether or not this was a good idea as they make their way toward you. Even when they're close enough to speak, their faces somehow remain impossible to glimpse beneath the hoods. "Hello, <last>," one says to you. "We are sorry for the secrecy, but the truth is, we cannot afford to take risks. It is best for all if you do not know who we are, and we needed a secluded area to speak to you."`
+			`	就在你思索那片海滩是否有足够空间降落飞船时，你发现纸的背面附着一张火车票。上面几行手写的便签给出了具体的路线指引，且在最下方明确要求不要驾驶你的星舰前往。`
+			`	令你惊讶的是，当地的火车站位于地下。你根本无法想象它有多么庞大——感觉你几乎能从这里前往整颗星球的任意地方。你向一位亥族人问路，而在得知只需在附近的终端上扫描车票，所有相关信息就会显示出来时，你感到有些窘迫。`
+			`	离开火车站后，你徒步走了几个小时才到达目的地。到达后，你四下寻找着那位陌生人。除了一个洞穴、一些稀疏的植被以及海滩本身，周围看不到任何显眼的事物。你再次核对了坐标确保无误，又在四周多转了转。`
+			`	你等了一会儿，直到在海滩远处看见了两个戴兜帽的身影，当他们朝你走来时，你开始怀疑这到底是不是个好主意。即使他们已经走到近前可以说话了，兜帽下的面孔依然无法窥视。“你好，<last>，”其中一人对你说，“抱歉如此隐秘，但事实是，我们承担不起任何风险。如果你不知道我们是谁，这对大家都好，而且我们需要一个僻静的地方来和你谈话。”`
 			choice
-				`	"Tell me more."`
+				`	“详细说说。”`
 					goto "tell me"
-				`	"How do you know me?"`
+				`	“你们是怎么知道我的？”`
 					goto know
-				`	(Run away.)`
-			`	They seem surprised at your sudden change of mind, but make no effort to stop you.`
+				`	（逃跑。）`
+			`	他们对你突然改变主意感到有些惊讶，但并没有试图阻拦你。`
 			label "train back"
-			`	Without any incidents, you return to the train station and buy a ticket back to the spaceport.`
+			`	一路无事，你回到火车站，买了张回太空港的车票。`
 				decline
 			label know
-			`	The second one grins. "Any outsider landing on our homeworld must be well-known. We know you have helped our kind."`
-			`	"Though do not think we are unaware of your skirmishes with the Unfettered," the first adds with a serious tone.`
+			`	第二个咧嘴一笑。“任何降落到我们母星上的外来者都必然会备受瞩目。我们知道你曾经帮助过我们的同胞。”`
+			`	“不过，别以为我们不知道你与无羁者发生过的小冲突，”第一个用严肃的语气补充道。`
 				to display
 					"reputation: Hai (Unfettered)" < -1250
 			label "tell me"
-			`	Suddenly, you hear a loud roar coming from the sea behind you, and the ground begins to shake.`
+			`	突然，你听到身后的大海传来一阵巨大的轰鸣声，地面也随之开始震颤。`
 			choice
-				`	(Turn around.)`
-			`	The waves become agitated and wind rushes past you as a shape surrounded by fumes emerges out of the water, as if an ancient sea monster was rising from the depths.`
-			`	But it is no monster. It is a ship, and its weapons are aimed straight at you!`
+				`	（转身。）`
+			`	海浪变得汹涌激荡，狂风呼啸着从你身边掠过，一个被烟雾笼罩的轮廓从水中浮现，仿佛是一头古老的海怪正从深渊中升起。`
+			`	但这并不是什么海怪。那是一艘飞船，其武器正直指着你！`
 			label "try again"
 			scene "scene/emerging ladybug"
 			choice
-				`	(Run!)`
-				`	(Wait.)`
+				`	（跑！）`
+				`	（静观其变。）`
 					goto wait
-				`	(Try to contact my fleet for help.)`
+				`	（尝试联系自己的舰队求援。）`
 					to display
 						"total ships" > 1
-				`	(Shoot it!)`
+				`	（朝它开火！）`
 					goto foolish
-			`	As you try to react, the Hai closest to you firmly grabs your arm and shouts through the noise. "If this ship wanted to kill you, <last>, you would already be dead."`
+			`	就在你想要做出反应时，离你最近的那名亥族人一把死死抓住你的胳膊，在震耳欲聋的噪声中大喊道：“如果这艘船真想杀你，<last>，你早就没命了。”`
 			label wait
-			`	You can barely hear anything over the sound of the engines as the ship proceeds to land on the beach. Suddenly, all is calm. They turn to you, one more at ease than the other. "This ship means you no harm."`
+			`	在飞船逐渐降落到海滩的过程中，巨大的引擎声震耳欲聋，你几乎听不见任何其他声音。突然间，一切都安静了下来。他们转向你，其中一人看起来比另一人更为从容。“这艘船对你没有恶意。”`
 			choice
-				`	(Say nothing.)`
+				`	（保持沉默。）`
 					goto explain
-				`	"Why didn't you say anything before that happened?"`
-			`	The second one replies, "We could have, but where's the fun in that? We wanted to see how you would react.`
+				`	“为什么在发生那事之前，你们什么都不说？”`
+			`	第二个咧嘴一笑答道：“我们本可以的，但那还有什么乐趣？我们只是想看看你会怎么反应。”`
 			label explain
-			`	"This ship is our guarantee that nothing goes wrong, should you attempt something against us. After all, we are still not sure if we can trust you."`
-			`	The two Hai then take you to a nearby cave. Crystals embedded in the walls cast a faint blue glow as you follow them, until you approach a large chamber where sunlight breaks through cracks, revealing another ship. The first Hai then speaks again. "That ship outside is not for sale. This one, however, is a mighty relic of the past, intended for war from the times our empire used to control the stars - an Anomalocaris!"`
+			`	“这艘船是我们的保障，万一你对我们图谋不轨，它能确保万无一失。毕竟，我们现在还不能确定能否完全信任你。”`
+			`	随后，那两名亥族人带你进入了附近的一个洞穴。当你跟着他们前进时，嵌在墙壁上的水晶折射出微弱的蓝色荧光，直到你们走进一处宽阔的洞室，阳光从缝隙中透射进来，显露出另一艘飞船。第一名亥族人再次开口：“外面那艘船是非卖品。然而这一艘，是我们帝国曾称霸群星的时代里专为战争而造的强大遗物——一艘‘奇虾’！”`
 			scene "scene/cave scene"
 			choice
-				`	"What is this about?"`
-			`	The second one now takes a step toward you to speak, almost interrupting the first. "We have a proposition for you. Should you agree to bring much needed supplies to our brethren, the Unfettered Hai, we will sell you this ship for the modest price of ten million credits - including two weapons belonging to the savage Korath!" The first one seems surprised by this and tries to intervene, but the second resumes before they can speak up.`
+				`	“这到底是怎么回事？”`
+			`	第二个这时向你走近一步，几乎是抢着打断了第一个人的话：“我们有个提议。如果你同意为我们的同胞——无羁亥族——运送急需的物资，我们就会以一千万信用点的优惠价格将这艘船卖给你——其中甚至包括两件属于野蛮科拉斯人的武器！”第一名亥族人对此似乎显得有些惊讶并想要插话，但第二个人不等他开口就继续说了下去：`
 			`	"These weapons pack more of a punch than anything in human or even Hai space for their size! Worry not, you'll be able to recuperate the cost of this ship with ease by assisting us. A load of medical supplies is needed on <destination>, and we lack the time and personnel to bring them ourselves on such short notice.`
-			`	"Of course, the ship is aged, and you should not expect the best price in a shipyard. Nevertheless, it is a fine vessel, capable of fighting, freighting, and mining. So, what do you say, <last>? This is the opportunity of a lifetime; they simply don't make ships like this anymore."`
+			`	“当然，这艘船已经有些年头了，你也别指望在船坞能卖出什么高价。但无论如何，它都是一艘优秀的好船，兼具战斗、货运与采矿能力。那么，你觉得怎么样，<last>？这可是千载难逢的机会，现在可造不出这样的好船了。”`
 			label choice
 			choice
-				`	"I will help you."`
+				`	“我会帮助你们的。”`
 					goto take
-				`	"If you lack crew, who was piloting the other ship?"`
+				`	“如果你们缺少人手，那另一艘飞船是谁在驾驶？”`
 					to display
 						not "unfettered: pilot dialog"
 					goto pilot
-				`	"Why was the other ship hidden underwater?"`
+				`	“另一艘船为什么藏在水下？”`
 					to display
 						not "unfettered: ocean dialog"
 					goto ocean
-				`	"No, thanks. I'm not looking to add another ship to my fleet."`
-			`	The two Hai look disappointed. "A shame. We will probably not meet again," one says. "It is best you forget we have met here," says the other. They signal the ship from earlier to submerge into the ocean again and walk off along the beach.`
+				`	“不了，谢谢。我没打算再给舰队添船。”`
+			`	两个亥族看起来有些失望。“真遗憾。我们大概不会再见了，”其中一个说。“你最好忘了我们曾在这里见过面，”另一个说。他们示意先前的那艘飞船重新潜入海中，随后沿着海滩走开了。`
 				goto "train back"
 			label pilot
 			action
 				set "unfettered: pilot dialog"
-			`	"The less you know, the better for all of us, Captain."`
+			`	“你知道得越少，对我们大家都好，船长。”`
 				goto choice
 			label ocean
 			action
 				set "unfettered: ocean dialog"
-			`	"We found it there," the first one answers.`
-			`	"It is hard to find a drop of rain in a storm, but the drop of rain may see all as it falls," the other one adds.`
+			`	“我们在那里找到了它，”第一个回答道。`
+			`	“在暴风雨中寻找一滴雨很难，但那滴雨在落下时却能看清一切，”另一个补充道。`
 				goto choice
 			label take
 			action
 				give ship "Anomalocaris (Venerable)" "Good Omen"
 					id "hai legacy"
 				debt 10000000
-			`	They give you access to the ship and proceed to explain the details. "It is of no real significance, but surely you understand we cannot go through standard means for this sale. We will instead present it as a loan."`
-			`	You quickly realize that they are not asking you for your opinion at all. In fact, you receive notice of the debt before they have even finished speaking. "We will need to make some modifications to the ship before you can use it.`
+			`	他们给了你这艘飞船的访问权限，并开始向你解释细节：“这其实无足轻重，但你肯定明白这笔交易我们无法通过正规途径进行。我们会改用罚款的形式。你将被指控携带你根本不知道已被禁用的技术，因为这些科拉斯武器确实很可疑。不过，这不会被记录在你的永久档案上。”`
+			`	你很快意识到他们根本不是在征求你的意见。事实上，还没等他们把话说完，你就收到了罚款通知。“我们需要对飞船做一些改装，然后你才能使用它。”`
 			choice
-				`	(Go back to the shipyard.)`
+				`	（返回船坞。）`
 					goto leave
-				`	"Why would they mind a different ship?"`
-			`	"As this ship is ancient, the Unfettered will try to preserve it. The same might not be true for other ships."`
+				`	“他们为什么会在意不同的飞船？”`
+			`	“因为这艘飞船十分古老，无羁者会想方设法保护它。但其他飞船就未必如此了。”`
 			label leave
-			`	They walk away until you cannot hear them speak anymore, leaving you with the access codes to the ship so you can bring it to the shipyard. With the aid of the autopilot, you manage to pilot the ship without any complications.`
+			`	他们渐渐走远，直到你再也听不见他们的谈话，只留下这艘飞船的访问代码，以便你将其开往船坞。在自动驾驶系统的辅助下，你顺利地驾驶了飞船，没有遇到任何麻烦。`
 				accept
 			label foolish
-			`	You get your weapon out and proceed to shoot at the ship.`
+			`	你掏出武器，开始朝飞船射击。`
 			branch miss
 				random < 50
 			branch lucky?
 				random < 2
-			`	Your shot reaches the ship, but the small weapon has no chance of doing anything to the heavy armor, even if it is somewhat worn. The ship then shoots back at you, barely missing and causing a geyser of sand to erupt at you, forcing you to drop your weapon. One of the two Hai then approaches you, seemingly disappointed.`
-			`	"You're lucky to still be alive, but even so you are of no use to us if you think it wise to use your firearm on a spaceship. Farewell." They turn and leave without another word, and the ship flies off.`
+			`	你的子弹击中了飞船，但这种小型武器根本无法对重型装甲造成任何伤害，即使装甲已经有些磨损。飞船随即还击，险些命中，激起的一股沙柱朝你涌来，迫使你丢掉了武器。那两个亥族中的一人随后朝你走来，显得有些失望。`
+			`	“你能活下来算你命大，但如果你觉得对飞船动枪是明智之举，那你就对我们毫无用处。再见。”他们转身一言不发地离开，飞船也飞走了。`
 				goto "train back"
 			label lucky?
-			`	You manage to land a shot, although it seems to do nothing to the large spacecraft before you. Then you hear a small explosion. You aren't sure whether the damaged ship's systems failed on their own, or if by some stroke of luck, your shot did something to it.`
-			`	Unfortunately, you do not get a chance to ponder your actions, as the ship abruptly explodes, taking you and everyone else on the beach down with it.`
+			`	你成功打中了一枪，但这似乎对你眼前的大型太空飞船毫无影响。随后你听到一声轻微的爆炸。你不确定是这艘受损飞船的系统自行发生了故障，还是纯属侥幸，你的那一枪真的对它造成了什么影响。`
+			`	不幸的是，你根本没有机会反思自己的行为，因为飞船突然爆炸，把你和海滩上的其他所有人一同葬送了。`
 				die
 			label miss
-			`	You miss your shot. Neither the ship nor the two Hai react. You feel like you heard a chuckle, but you're not sure where it came from.`
+			`	你这一枪落空了。飞船和那两个亥族都没有任何反应。你感觉自己似乎听到了一声轻笑，但不能确定是从哪里传来的。`
 				goto "try again"
 	on defer
 		set "Hai Legacy 1: deferred"
@@ -234,8 +234,8 @@ mission "Hai Legacy 1"
 mission "Hai Legacy 2"
 	autosave
 	landing
-	name "Heritage Reclaimed"
-	description "Use your newly acquired Anomalocaris to bring aid to the Unfettered Hai on <planet> by <date>."
+	name "遗产回收"
+	description "使用你新获得的“奇虾”飞船，在<date>之前将援助物资送达<planet>上的无羁亥族。"
 	clearance
 	deadline 7
 	cargo "food (aid)" 121
@@ -251,9 +251,9 @@ mission "Hai Legacy 2"
 		has "ship model: Anomalocaris"
 	on offer
 		conversation
-			`You leave the shipyard and go to the spaceport after your encounter. A worker immediately greets you while others begin to fill your ship with crates, and a quick check of the shipment data shows that the cargo has already been allocated in your name. All that's left is to deliver it to <destination> by <date>.`
-			`	As you head to back to your ship and prepare to take off from the planet, you notice a message on the command panel:`
-			`	"You would be wise to bring the Anomalocaris we trusted you with for your delivery."`
+			`在这次遭遇之后，你离开船坞前往太空港。一名工人立刻迎了上来，其他人则开始把板条箱装上你的飞船。快速查看货运数据表明，货物已经登记在了你的名下。现在剩下的就是需要在<date>之前将其送达<destination>。`
+			`	当你返回飞船，准备从星球起飞时，你注意到控制面板上有一条消息：`
+			`	“进行送货时，你最好带上我们托付给你的“奇虾”飞船。”`
 				accept
 	on enter
 		system
@@ -262,26 +262,26 @@ mission "Hai Legacy 2"
 			action
 				"old reputation: Hai (Unfettered)" = "reputation: Hai (Unfettered)"
 				"reputation: Hai (Unfettered)" >?= 0
-			`As you enter the system, you prepare for a fight to get the cargo through. However, the usually aggressive Unfettered have suddenly stopped firing at you.`
+			`当你进入星系时，你已准备好通过战斗强行护送货物通过。然而，平时极具攻击性的无羁者却突然停止了开火。`
 	on fail
 		"reputation: Hai (Unfettered)" <?= -1000
-		dialog `The Unfettered and their associates are clearly not happy when they somehow find out you didn't deliver the cargo in time, leaving you a brief message on your command panel: "You will not prove yourself to us by failing our requests."`
+		dialog `得知你未能按时运送货物后，无羁者及其同伴显然很不高兴，并在你的控制面板上留下了一条简短的消息：“未能完成我们的嘱托，你可没法向我们证明自己。”`
 	on visit
-		dialog `You have reached <planet>, but you either did not bring the Anomalocaris, or some of the cargo was on another ship.`
+		dialog `你已抵达 <planet>，但你要么没有驾驶“奇虾”飞船，要么就是有部分货物装在其他飞船上。`
 	to complete
 		has "ship model: Anomalocaris"
 	on complete
-		dialog `After landing, a group of Unfettered gather around your ship and begin unloading the medical supplies, though strangely they don't seem to be in any hurry. Shortly after they've finished, you receive a rather brief message from the Hai you bought the ship from, along with an unusually large sum of credits. "Thank you for helping our brethren, <last>. Please accept these <payment>."`
+		dialog `着陆后，一群无羁者围在你的飞船旁开始卸载医疗物资，不过奇怪的是，他们似乎并不着急。卸货完毕后不久，你收到了之前向其购买飞船的那名亥族发来的一条相当简短的信息，伴随而来的还有一笔数额多得惊人的信用点：“感谢你帮助我们的同胞，<last>。请收下这笔<payment>。”`
 		payment 1500000
-		log "Delivered a pressing food shipment to the Unfettered Hai using the Anomalocaris, which seems to have pleased them."
+		log "使用“奇虾”飞船向无羁亥族运送了一批急需的食品货物，这似乎令他们颇为满意。"
 
 
 
 mission "Hai Legacy 3"
 	landing
 	deadline 2
-	name "Ancient Claim"
-	description "Defeat the Unfettered challenger in combat in the system of <system>. You only have 2 days, and becoming disabled will result in losing the fight."
+	name "远古诉求"
+	description "在<system>星系中击败无羁者挑战者。你只有2天时间，且飞船瘫痪将导致挑战失败。"
 	source "Darkcloak"
 	destination "Firelode"
 	to offer
@@ -289,50 +289,50 @@ mission "Hai Legacy 3"
 		has "ship model: Anomalocaris"
 	on offer
 		conversation
-			`After delivering the supplies, you realize your ship is the center of attention. One Unfettered that looks like an engineer comes to speak to you, initially warmer than usual compared to your previous experiences with other Unfettered.`
-			`	"Welcome. Although I do not know how you have obtained this ship, I imagine some of us will see it as a sign. You see, it is a relic of our past, a past we are quite proud of. As such, most Unfettered warriors will say that you need to prove your right to use it."`
-			`	After a sigh, her tone then changes. "But I don't believe in any of that. What does matter to me is that ship is both durable and filled with valuable ancient technology."`
-			`	Her eyes light up as she focuses more on your ship. "I even see weapons that we fought valiantly to obtain from the savage Korath!"`
+			`送达补给后，你发现自己的飞船成为了焦点。一名看起来像工程师的无羁者走过来与你交谈，比起你之前与其他无羁者打交道的经历，她起初的态度要温和得多。`
+			`	“欢迎。虽然我不知道你是如何得到这艘飞船的，但我猜想我们中的一些人会把它视为一种昭示。你看，它是我们过去的遗存，一段我们引以为傲的过去。正因如此，大多数无羁者战士会说，你需要证明自己拥有使用它的权利。”`
+			`	她叹了口气，语气随之一转：“不过，我可不信那一套。对我来说，真正重要的是这艘飞船既坚固耐用，又充满了宝贵的古代技术。”`
+			`	当她的目光更加聚焦在你的飞船上时，她的眼睛亮了起来。“我甚至看到了那些我们英勇奋战才从野蛮的科拉斯人那里夺来的武器！”`
 				to display
 					has "outfit (flagship installed): Thermal Repeater Turret"
 			`	All of a sudden, she raises her voice for everyone to hear. "I, Mera, challenge you! It will be a one-on-one duel; you in the Anomalocaris against my own champion. The winner will earn the right to own this honorable relic and its mighty weapons!"`
 			choice
-				`	"What do I get if I win?"`
+				`	“如果我赢了能得到什么？”`
 					goto win
-				`	"Can't I just sell it to you?"`
-				`	"I bought this ship. It's mine and I shall do what I please with it."`
+				`	“我就不能把它直接卖给你吗？”`
+				`	“这艘飞船是我买的。它是我的，我想怎么处置就怎么处置。”`
 					goto fleeing
-			`	"No, because in the eyes of my brethren that would mean I, too, did not deserve this ship. They would then challenge me for it."`
+			`	“不行，因为在我同胞们的眼里，那就意味着我同样不配拥有这艘飞船。之后他们就会为此向我发起挑战。”`
 			label win
-			`	Mera turns around, talking to other Unfettered for a bit before addressing you again. "You will win the right to access our worlds. But, in order to keep our respect, you must keep this Anomalocaris in good condition until you prove yourself another way. It is a priceless artifact. Should you refuse to prove your worth, you will no longer be allowed to land here."`
-			`	She then glares at you. "Beware, for although there are no official rules, you must use only the Anomalocaris. So, will you take to the skies, or are you too afraid?"`
+			`	麦拉转过身去，与其他无羁者交谈了一会儿，然后才重新对你说道：“你将赢得前往我们世界的权利。但是，为了保持我们对你的尊重，在你用其他方式证明自己之前，你必须让这艘“奇虾”飞船保持良好的状态。它是一件无价的遗存。如果你拒绝证明自己的价值，你将不再被允许在此降落。”`
+			`	她接着瞪了你一眼。“当心，虽然没有什么官方规则，但你必须且仅能使用“奇虾”飞船。那么，你准备升空应战，还是因为害怕而退缩了？”`
 			choice
-				`	"I accept."`
-				`	"I have nothing to prove to you. This is my ship now."`
+				`	“我接受。”`
+				`	“我没有什么要向你们证明的。这艘飞船现在是我的。”`
 					goto fleeing
-			`	Mera grins. "Good! I won't be fighting you personally, as it is too risky to do so. I am but an engineer, after all. I would also not want to deny my brother and his crew the opportunity to prove themselves against a powerful human warrior!"`
-			`	You're not sure if Mera is being serious or not, but her friends seem to be in for it. One that appears to be their leader approaches you. "So you think you deserve to fly this mighty ship of the Hai empire?"`
-			`	"Yeah, what makes you think that, human?" another one adds.`
+			`	麦拉咧嘴一笑：“好！我不会亲自和你交手，因为那太冒险了。毕竟，我只是个工程师。不过，我可不想剥夺我的兄弟和他的船员们在一位强大的人类战士面前证明自己的机会！”`
+			`	你不确定麦拉是不是在开玩笑，但她的朋友们似乎已经跃跃欲试了。一个看起来像是他们头领的人走到你跟前：“这么说，你觉得自己配得上驾驶这艘属于亥族帝国的强大飞船？”`
+			`	“是啊，人类，你凭什么这么认为？”另一个人附和道。`
 			choice
-				`	(Say nothing.)`
-				`	"Are you trying to scare me out of the fight?"`
+				`	（保持沉默。）`
+				`	“你们是想把我吓得不敢应战吗？”`
 					goto scare
-			`	"I guess we'll find out," says a third.`
+			`	“我想我们很快就会知道答案了，”第三个人说道。`
 			label scare
-			`	The leader of the group gets closer and addresses you in a more serious tone. "You should be aware that this is not so much a friendly competition as it is a fight for you to truly earn the right to fly this ship. You should know that this fight has a few... implicit rules, even if there are no official ones. We would assume everyone knows them, but since you are an outsider I will explain them to you," he says as he leads you away from the group.`
-			`	"Naturally, because this is a duel, nobody other than us may interfere, but you should also know that being disabled counts as a loss. Don't even think about tricking us by switching to something other than this Anomalocaris, or we will not bother showing up! You must prove you deserve it, after all. To the victor go the spoils, so looting is allowed, but do not attempt to steal our ships. Do so, and all the Unfettered will be against you!"`
+			`	这群人的头领走近了一些，用更加严肃的语气对你说道：“你应该明白，这与其说是一场友谊赛，不如说是一场让你真正赢得驾驶这艘飞船资格的战斗。你应当知晓，这场对决有一些……隐含的规则，尽管并没有官方明文规定。我们原本以为大家都心知肚明，但既然你是个外来者，那我就给你讲解一下，”他一边说着，一边把你带离了人群。`
+			`	“自然，既然是决斗，除了我们之外无人可以干涉，但你也应该知道，飞船瘫痪就算输。别想耍花招换用这艘奇虾之外的飞船，否则我们连来都不会来！毕竟，你必须证明自己配得上它。胜者享有战利品，所以允许掠夺，但不要企图偷我们的飞船。要是那么干，所有无羁者都会与你为敌！”`
 			# This is a "warning" for the incoming extra ship that happens because you killed/captured 10 Shield Beetles or so.
-			`	He then looks at you intensely, straight in the eyes. "We sometimes bend the rules for our friends, but that is not the case with you."`
+			`	他随后死死盯着你的双眼。“我们有时会为朋友通融规则，但你可没有这个待遇。”`
 				to display
 					"reputation: Hai (Unfettered)" < -1500
-			`	Mera starts to look a bit impatient. "Are you going to talk all day, or are you going to fight? Head to Ehma Ti already!" The Unfettered immediately head to their ships, but Mera pulls you in close once they are far enough away. "I want this done by the end of the day, so do not try my patience. You are lucky I offered this deal in the first place, as they were planning to take the relic by force. Now, quick, get to your ship! Make any last minute modifications you may need, and then come fight us."`
-			`	You see the Unfettered have already begun their launching procedures, so you should prepare for takeoff in your Anomalocaris, and no other ships, as soon as you can.`
+			`	梅拉开始显得有点不耐烦。“你们是打算聊上一整天，还是动手决斗？赶紧去艾玛·提！”无羁者立刻奔向自己的飞船，但等他们走远后，梅拉把你拉到身边。“我希望今天之内把这件事办完，所以别考验我的耐心。你能得到这个协议算你走运，因为他们原本打算强行夺取遗物。现在，快，去你的飞船！做好最后需要的任何改装，然后来和我们打一场。”`
+			`	你看到无羁者已经开始起飞程序，所以你应该尽快准备驾驶你的奇虾起飞，不得使用其他飞船。`
 				accept
 			label fleeing
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 				set "unfettered: fled with the relic"
-			`	Seeing as they are unlikely to cooperate, you quickly head to your ship and launch, with the Unfettered rushing after you.`
+			`	眼看他们不太可能配合，你迅速回到飞船并起飞，无羁者紧随其后追了上来。`
 				launch
 	on enter
 		conversation
@@ -342,15 +342,15 @@ mission "Hai Legacy 3"
 				not "flagship model: Anomalocaris"
 			branch "too many ships"
 				"total ships" > 1
-			`As you leave the planet's atmosphere, you receive a short message. "We are waiting for you in Ehma Ti today. Do not disappoint us."`
+			`当你离开行星大气层时，收到了一条简短的信息。“我们今天在艾玛·提等你。别让我们失望。”`
 				accept
 			label fleeing
 			action
 				fail
-			`The Unfettered don't seem too pleased to see you leaving with their prize. The challenger is already waiting for you in orbit, and hails you. "Where do you think you're going, monkey?"`
+			`无羁者似乎很不高兴看到你带着他们的战利品离开。挑战者已经在轨道上等你，并向你发来通讯：“你想往哪跑，猴子？”`
 				decline
 			label "too many ships"
-			`As you take off to join your fleet in orbit, you receive a hail from the Unfettered. "You must leave your fleet on hold here. If they help you, the duel will be forfeit!"`
+			`当你起飞去与轨道上的舰队汇合时，收到了无羁者的通讯：“你必须让你的舰队留在原地待命。如果他们插手，决斗就会作废！”`
 				decline
 			label anomaly
 			`You are hailed by the Unfettered as soon as you reach orbit. "You think us blind, monkey? You are not flying the relic as your flagship! You're not even worth a launch sequence; the duel is forfeit," they say angrily.`
@@ -363,7 +363,7 @@ mission "Hai Legacy 3"
 				not "flagship model: Anomalocaris"
 			branch "too many ships"
 				"total ships" > 1
-			`As you enter the system you can see your challenger is indeed waiting for you, and they promptly send you a hail. "Show us what you've got, monkey! Show us that you control your weapons well, as any warrior should! Prove to us that you have the strength to disable our ships, yet still have the restraint not to destroy them!"`
+			`进入星系时，你看到挑战者确实在等你，他们立刻向你发来通讯：“让我们看看你有什么本事，猴子！像个真正的战士一样，展现你对武器的精准控制！向我们证明你有能力让我们的飞船瘫痪，同时又能保持克制不去摧毁它们！”`
 				accept
 			label "too many ships"
 			`As you arrive with your fleet in this system, you receive a hail from the Unfettered. "If you can't even count how many ships you have, you're not worthy of our time, monkey! Dishonor will get you nowhere with us True Hai! Leave."`
@@ -377,18 +377,18 @@ mission "Hai Legacy 3"
 	on enter "Hi Yahr" "Wah Ki" "Zuba Zub" "Bore Fah"
 		"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 		fail
-		dialog `You receive a hail from the Unfettered. "You ran away and failed to complete the duel. As such, you will not enjoy unwarranted respect any longer! It would be in your best interest to return the ship to us should we ever find you on our worlds again!`
+		dialog `你收到了来自无羁者的通讯：“你临阵脱逃，未能完成决斗。因此，你别想再平白得到我们的尊重了！要是我们以后在自己的星球上再次撞见你，你最好乖乖把船还给我们！”`
 	on disabled
 		fail
 		dialog
-			`After your ship is disabled, one of the Unfettered ships hails you. "You have lost the challenge, but we didn't expect much from a human like you. We will repair your ship for a fair bribe, but you better land at one of our worlds and return it to us with a most generous compensation. If you try to keep it from us, we'll do things the hard way.`
-			`	"Be warned, however, that your truce with us ends as soon as you land. Today, you've failed us. Maybe someday you will prove yourself otherwise."`
+			`在你的飞船瘫痪后，一艘无羁者的飞船向你发来呼叫：“你输掉了挑战，但我们本来也没对你这样的人类抱什么期望。只要你给出合理的贿赂，我们可以帮你修理飞船，但你最好降落在我们的星球上，并带着极其丰厚的补偿将其交还给我们。如果你想据为己有，那我们就只能诉诸武力了。`
+			`	“但请注意，你与我们的休战在你降落时即告结束。今天，你让我们失望了。或许有一天，你会证明自己的实力。”`
 	on visit
 		fail
 	on fail
 		"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 		clear "old reputation: Hai (Unfettered)"
-		dialog `You are contacted by the Unfettered as you enter the planet's atmosphere. "You failed to complete the duel. The ceasefire is over. You will not enjoy unwarranted respect any longer!"`
+		dialog `当你进入行星大气层时，无羁者联络了你：“你未能完成决斗。停火协议已结束。你别想再平白得到我们的尊重了！”`
 	npc disable
 		government "Hai (Unfettered Challenger)"
 		to spawn
@@ -399,7 +399,7 @@ mission "Hai Legacy 3"
 		ship "Sea Scorpion (Ionic Blasters)" "Thunder Struck"
 		system "Ehma Ti"
 		on kill
-			dialog `You receive a hail from Mera, who sounds quite angry. "Destroying the ship can only be due to either incompetence or evil intent, and we will not tolerate either!"`
+			dialog `你收到了梅拉的通讯，她的声音听起来相当愤怒：“摧毁那艘飞船只能是出于无能或恶意，而我们对这两者都绝不姑息！”`
 			"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 			fail
 		conversation
@@ -421,7 +421,7 @@ mission "Hai Legacy 3"
 		ship "Shield Beetle (Tripulse Ionic Turret)" "Requiem"
 		system "Ehma Ti"
 		on kill
-			dialog `You receive a hail from Mera, who sounds quite angry. "Destroying the ship can only be due to either incompetence or evil intent, and we will not tolerate either!"`
+			dialog `你收到了梅拉的通讯，她的声音听起来相当愤怒：“摧毁那艘飞船只能是出于无能或恶意，而我们对这两者都绝不姑息！”`
 			"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 			fail
 		conversation
@@ -441,11 +441,11 @@ mission "Hai Legacy 3"
 		system "Ehma Ti"
 		personality launching pacifist staying uninterested
 		on disable
-			dialog `Mera hails you. "Stop! I am only here as an observer. If you destroy my ship, the deal is off!"`
+			dialog `梅拉向你发来通讯：“停下！我只是个观察者。如果你摧毁了我的飞船，交易就作废！”`
 		on kill
 			"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 			set "unfettered: outcast"
-			dialog `As you destroy the Lightning Bug, along with Mera and her crew in it, you receive an angry hail from the Unfettered. "You completely disrespected the rules of a duel and killed one of our most prominent engineers! You will not be welcome here anymore!"`
+			dialog `当你摧毁了那艘萤火虫级飞船，连同船上的梅拉及其船员时，你收到了无羁者愤怒的通讯：“你彻底违背了决斗的规则，杀死了我们最杰出的工程师之一！这里不再欢迎你了！”`
 			fail
 	npc
 		government "Hai (Unfettered)"
@@ -459,22 +459,22 @@ mission "Hai Legacy 3"
 		has "flagship model: Anomalocaris"
 	on complete
 		clear "old reputation: Hai (Unfettered)"
-		log "Managed to use an ancient Hai warship to beat an Unfettered challenger, earning respect with the Unfettered Hai so long as the ship remains in my possession."
+		log "成功使用一艘古代亥族战舰击败了一名无羁者挑战者。只要那艘飞船还在我手中，我就能赢得无羁亥族的尊重。"
 		conversation
-			`When you land in one piece, Mera approaches, looking quite surprised. "You really won! I saw everything, and the data I got on the effects of these exotic weapons will be quite useful for my research. Was it hard for you?"`
+			`当你安然降落后，梅拉走了过来，显得十分惊讶：“你真的赢了！我目睹了全过程，我收集到的关于这些异星武器效果的数据对我的研究将大有裨益。你觉得难吗？”`
 			choice
-				`	"It was fun."`
+				`	“挺有意思的。”`
 					goto next
-				`	"This was easy!"`
-				`	"It was a challenge."`
+				`	“这太简单了！”`
+				`	“这算是个挑战。”`
 					goto challenge
-			`	"Don't get overconfident, Captain," she muses. "I am sure you know what happens to such pilots.`
+			`	“别太自负了，船长，”她若有所思地说道，“我相信你很清楚那类飞行员最后的下场。”`
 				goto next
 			label challenge
-			`	"Oh, so their plan almost worked after all? Maybe I should have participated in the fight too.`
+			`	“哦，这么说他们的计划到底还是差点得逞了？或许我也该加入这场战斗的。”`
 			label next
-			`	"Well, congratulations, I did not think you had it in you. I will give you authorization to land, on the condition that you keep this relic from our past in one piece. Remember, right now, your reputation with us is solely due to that ship. If you somehow lose it because of incompetence on your own end, it would look pretty bad to the True Hai."`
-			`	Mera then walks off as she begins reviewing data from your fight on a small device. For now, it seems that the Unfettered Hai have some level of respect for you, so long as you have the Anomalocaris.`
+			`	“好吧，恭喜你，我原以为你没这个本事。我会授权你降落，条件是你要完好无损地保存这件来自我们过去的遗物。记住，眼下你在我们这的声誉完全是沾了那艘飞船的光。如果你因为自己的无能而以某种方式丢了它，那在真亥族面前可就太难看了。”`
+			`	梅拉随后走开了，开始在一个小设备上查看你战斗的数据。目前看来，只要你还拥有奇虾，无羁亥族就会对你保持一定程度的尊重。`
 
 
 
@@ -491,21 +491,21 @@ mission "Undeserved Anomalocaris"
 		not "Hai Legacy 3: done"
 	on offer
 		conversation
-			`As you land, countless Hai hastily head to your ship, each armed with several weapons. One of them points at you and makes a declaration in front of the crowd that is quickly forming, shouting loud enough for all to hear. "You do not deserve to fly this relic of old!"`
-			`	One standing behind them then chimes in. "You wasted your opportunity for a glorious battle to earn that right! We know of what you've failed!"`
+			`当你降落时，无数的亥族急忙冲向你的飞船，每人都携带着数件武器。其中一人指着你，在迅速聚集的人群前大声宣告，声音大到所有人都能听见：“你不配驾驶这件古老的遗物！”`
+			`	站在他们身后的一人随后附和道：“你浪费了通过光荣战斗来赢得这一权利的机会！我们对你的失败一清二楚！”`
 				to display
 					has "Hai Legacy 3: offered"
-			`	A more important-looking Unfettered then steps up close to you, speaking in a menacing tone. "You must surrender the ship to us immediately, along with the weapons of the savages, if you did not already rob us of those." For a moment, they look down in thought, then speak to you once more. "We will give you another ship so you can leave, but you must give us the Anomalocaris!"`
+			`	随后，一个看起来地位更高的无羁者走近你，用威胁的语气说道：“你必须立刻把飞船交还给我们，还有那些野蛮人的武器——要是你还没有把它们抢走的话。”他低头思索了片刻，接着再次开口：“我们会给你另一艘飞船好让你离开，但你必须把奇虾交出来！”`
 			choice
-				`	(Hand over the Anomalocaris.)`
-				`	(Decline their request and leave.)`
+				`	（交出奇虾。）`
+				`	（拒绝他们的要求并离开。）`
 					depart
-			`	You and your crew exit what was briefly your ship, and the local Unfettered militia are informed that it is now theirs. The Unfettered that were assembling around your ship happily disperse, except for one - probably the leader, judging by the amount of weaponry on their person. They come to talk to you, weapons in hand but lowered. "We are happy you could see reason and decided to hand over the ship. In exchange, we will provide you with a suitable replacement.`
-			`	"That relic was not meant for you, but there are other ways for you to prove yourself to us." The leader of these Unfettered continues with blatantly forced casualness. "Say, for example, bringing us a Jump Drive... or two... that for sure will earn you favor, and prove you can fight."`
+			`	你和船员离开了这艘曾短暂属于你的飞船，当地的无羁者民兵被告知这艘船现在属于他们了。在你的飞船周围聚集的无羁者们高兴地散去，只留下一人——从他身上携带的武器数量来看，大概是他们的首领。他走过来与你交谈，手里拿着武器，但枪口朝下：“我们很高兴你能明事理，决定交出飞船。作为交换，我们会为你提供一艘合适的替代飞船。”`
+			`	“那件遗物本就不属于你，但你还有其他方式可以向我们证明自己。”这位无羁者首领继续以明显强装出来的轻松语气说道：“例如，给我们带一个跳跃引擎……或者两个……这绝对能赢得我们的好感，并证明你的战斗实力。”`
 				to display
 					not "Unfettered Jump Drive 1: offered"
 			action
 				give ship "Lightning Bug (Unfettered Shipyards)" "Good Will"
 				take ship "Anomalocaris"
-			`	The leader of the Unfettered group then has a few of them escort you to the edge of the spaceport. On your way there, some of them seemed to be holding back some frustration, and you could have sworn one wanted to attack you at any moment. Eventually you are lead to a landed Lightning Bug, and after some messy paperwork, the Unfettered leave it with you.`
+			`	无羁者首领随后派了几个人护送你到太空港边缘。在过去的路上，他们中的一些人似乎在极力克制怒火，你敢发誓其中有人随时都想攻击你。最终你被带到一艘停靠的萤火虫前，在办理了一些繁琐的手续后，无羁者们便将飞船留给了你。`
 				decline

@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Southbound Shipment [0]"
-	name "Shipment to <planet>"
+	name "运送至<planet>的货物"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>, the home of Southbound Shipyards, the largest ship foundry in the Rim. Payment is <payment>."
+	description "运送 <cargo> 至 <destination>，南向船厂所在地，也是边缘星区最大的飞船铸造星。报酬为 <payment>。"
 	cargo "weapons" 5 2 .1
 	to offer
 		random < 10
@@ -36,10 +36,10 @@ mission "Southbound Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Southbound Shipment [1]"
-	name "Shipment to <planet>"
+	name "运送至<planet>的货物"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>, the home of Southbound Shipyards, the largest ship foundry in the Rim. Payment is <payment>."
+	description "运送 <cargo> 至 <destination>，南向船厂所在地，也是边缘星区最大的飞船铸造星。报酬为 <payment>。"
 	cargo "Ship Alloys" 5 2 .1
 	to offer
 		random < 10
@@ -61,10 +61,10 @@ mission "Southbound Shipment [1]"
 
 
 mission "Kraz Shipment [0]"
-	name "Shipment to <planet>"
+	name "运送至<planet>的货物"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>, the home of Kraz Cybernetics, a major weapons and systems manufacturer in the Rim. Payment is <payment>."
+	description "将<cargo>运送至<destination>，此地是边缘星区主要武器与系统制造商——左辖赛博科技的总部。报酬为<payment>。"
 	cargo "weapons parts" 5 2 .1
 	to offer
 		random < 10
@@ -85,10 +85,10 @@ mission "Kraz Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Kraz Shipment [1]"
-	name "Shipment to <planet>"
+	name "运送至<planet>的货物"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>, the home of Kraz Cybernetics, a major weapons and systems manufacturer in the Rim. Payment is <payment>."
+	description "将<cargo>运送至<destination>，此地是边缘星区主要武器与系统制造商——左辖赛博科技的总部。报酬为<payment>。"
 	cargo Electronics 5 2 .1
 	to offer
 		random < 10
@@ -110,10 +110,10 @@ mission "Kraz Shipment [1]"
 
 
 mission "Han Sizer Month [0]"
-	name `Han Sizer celebration`
+	name `天市右垣十一·塞泽庆典`
 	job
 	repeat
-	description `In celebration of Han Sizer month, bring <fare> to all the marked systems and return to <destination> for <payment>.`
+	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 2 10 .9
 	substitutions
 		"<on Longjump>" "somewhere nearby"
@@ -135,14 +135,14 @@ mission "Han Sizer Month [0]"
 		not attributes "station"
 	on complete
 		payment 10000 170
-		dialog `Your passengers thank you for taking them on a journey around the Rim, and you collect your payment of <payment>. As they depart, you hear them talking about celebrating their trip with a party <on Longjump>.`
+		dialog `您的乘客感谢您带他们环绕边缘星区旅行，您收到了<payment>的报酬。他们离开时，您听到他们谈论要在<on Longjump>举办派对庆祝这次旅行。`
 
 
 mission "Han Sizer Month [1]"
-	name `Han Sizer celebration`
+	name `天市右垣十一·塞泽庆典`
 	job
 	repeat
-	description `In celebration of Han Sizer month, bring <fare> to all the marked systems and return to <destination> for <payment>.`
+	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 2 10 .8
 	substitutions
 		"<on Longjump>" "near here"
@@ -168,14 +168,14 @@ mission "Han Sizer Month [1]"
 		not attributes "station"
 	on complete
 		payment 15000 170
-		dialog `Your passengers are excited to have completed their journey around the Rim and pay you the agreed fee of <payment>. One is already uploading a travelogue to someone <on Longjump> as they start walking away.`
+		dialog `您的乘客很高兴完成了环绕边缘星区的旅程，并向您支付约定的费用 <payment>。其中一人已经开始一边走开，一边向某人 <on Longjump> 上传游记。`
 
 
 mission "Han Sizer Month [2]"
-	name `Han Sizer celebration`
+	name `天市右垣十一·塞泽庆典`
 	job
 	repeat
-	description `In celebration of Han Sizer month, bring <fare> to all the marked systems and return to <destination> for <payment>.`
+	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 2 10 .7
 	to offer
 		random < 10
@@ -200,14 +200,14 @@ mission "Han Sizer Month [2]"
 		not attributes "station"
 	on complete
 		payment 20000 170
-		dialog `Your guests thank you for taking them on a journey along the flight path of Han Sizer and cheerfully pay you <payment>. You notice one has a star chart open to Sabik's entry as they head off.`
+		dialog `您的客人感谢您带他们沿着天市右垣十一·赛泽的飞行路线旅行，并愉快地付给您<payment>。您注意到在离开时，其中一人打开了星图，停在天市左垣十一的条目上。`
 
 
 mission "Han Sizer Month [3]"
-	name `Han Sizer celebration`
+	name `天市右垣十一·塞泽庆典`
 	job
 	repeat
-	description `In celebration of Han Sizer month, bring <fare> to all the marked systems and return to <destination> for <payment>.`
+	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 25 4 .1
 	substitutions
 		"<on Longjump>" "near here"
@@ -233,11 +233,11 @@ mission "Han Sizer Month [3]"
 		not attributes "station"
 	on complete
 		payment 150000 110
-		dialog `Your passengers are excited to have completed their journey around the Rim and pay you the agreed fee of <payment>. One is already uploading a travelogue to someone <on Longjump> as they start walking away.`
+		dialog `您的乘客很高兴完成了环绕边境的旅程，并向您支付约定的费用 <payment>。其中一人已经开始一边走开，一边向某人 <on Longjump> 上传游记。`
 
 mission "Delta V Hovercraft Racer Transport"
-	name "Transport racer to <planet>"
-	description "Deliver a pilot and their hovercraft to <destination> to attend a race by <date>."
+	name "运送赛车手至<planet>"
+	description "在<date>前，将一名驾驶员及其气垫船送达<destination>以参加比赛。"
 	passengers 1
 	cargo "Delta V hovercraft" 1
 	job
@@ -254,10 +254,10 @@ mission "Delta V Hovercraft Racer Transport"
 	on complete
 		payment
 		payment 11000
-		dialog `You drop off the pilot with their hovercraft and collect your payment of <payment>.`
+		dialog `你送达了驾驶员和气垫船，并收到了<payment>的报酬。`
 
 mission "Delta V Hovercraft Large Racer Transport"
-	name "Transport team to <planet>"
+	name "运送车队至<planet>"
 	description "Deliver this <bunks>-member racing team and their set of <cargo> to <destination> to attend a race by <date>."
 	passengers 50 100 .9
 	cargo "Delta V hovercraft" 50
@@ -275,4 +275,4 @@ mission "Delta V Hovercraft Large Racer Transport"
 	on complete
 		payment
 		payment 23000
-		dialog `You drop off the racing team with their hovercraft and collect your payment of <payment>.`
+		dialog `你送达了赛车队和他们的气垫船，并收到了<payment>的报酬。`

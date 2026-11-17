@@ -38,7 +38,7 @@ outfit "Bombardment Cannon"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Coalition civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+	description `轰击炮是在与夸格最初交战时设计的，旨在让日权会的民用船只能够在安全距离外打击夸格战舰。但如今，正如他们的所有其他武器一样，它仅限装备于日权会的战舰上。`
 
 outfit "Bombardment Turret"
 	category "Turrets"
@@ -71,7 +71,7 @@ outfit "Bombardment Turret"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `A Bombardment Turret is not one of the most dangerous Heliarch weapons, but it has the advantage that it can hit targets a considerable distance away.`
+	description `轰击炮塔并非日权会威力最强的武器之一，但它的优势在于可以击中相当遥远的目标。`
 
 effect "bombardment impact"
 	sprite "effect/bombardment impact"
@@ -121,8 +121,8 @@ outfit "Finisher Pod"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Finisher Torpedoes are one of the Heliarchs' most dreaded weapons. In fact, in one way or another most of their other weapons merely exist to hold a ship in place for long enough for a barrage of Finishers to destroy it.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `终结者鱼雷是日权会最令人生畏的武器之一。事实上，他们的其他大多数武器在某种程度上都只是为了将敌舰固定在原地，直到一波终结者鱼雷将其彻底摧毁。`
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -165,8 +165,8 @@ outfit "Finisher Maegrolain"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Baptized with the Saryd word for "furious thunderstorm," this enormous launcher is not meant for prolonged fights nor for use by lighter craft, but for delivering a few quick, devastating bursts of Finisher Torpedoes. It has much greater damage potential than its smaller counterpart.`
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description `这款以萨里德语中意为“狂暴雷暴”的词汇命名的巨型发射器，既不适合持久战，也不适合轻型舰船，而是为了进行几次快速且具有毁灭性的终结者鱼雷齐射。它的伤害潜力远非较小的型号可比。`
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -203,10 +203,10 @@ outfit "Finisher Storage Tube"
 	"energy capacity" 120
 	"finisher capacity" 20
 	ammo "Finisher Torpedo"
-	description "In order to allow Heliarch ships to install more Finisher Storage Tubes, Heliarch engineers have incorporated a tiny battery pack into each module. This allows for Heliarch ships to have a respectable energy capacity while also carrying a fearsome number of Finishers."
+	description "为了让日权会的飞船能够安装更多终结者存储管，日权会工程师在每个模块中集成了一个微型电池组。这使得日权会的飞船在拥有不俗的能量容量之余，还能携带数量惊人的终结者鱼雷。"
 
 outfit "Finisher Torpedo"
-	plural "Finisher Torpedoes"
+	plural "终结者鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 08010
@@ -214,8 +214,8 @@ outfit "Finisher Torpedo"
 	thumbnail "outfit/finisher"
 	"mass" .5
 	"finisher capacity" -1
-	description `A substantial fraction of the Heliarch military complex is devoted to supervising the refining, enrichment, and breeding of nuclear fuels. Having ensured a steady supply of feedstock, they are able to produce a selective set of highly exotic fissile materials. With minuscule critical masses and favorable neutronics properties, these carefully controlled isotopes are the key to giving the miniaturized nuclear warhead in the Finisher Torpedo enough power to deter any would-be threats to the Coalition.`
-	description `	This extremely powerful but also expensive missile is ammunition for the Heliarch Finisher Pod.`
+	description `日权会军事工业体系的相当一部分都在用于监督核燃料的精炼、浓缩及增殖。在确保了稳定的原料供应后，他们能够生产出一些极为独特的易裂变材料。凭借微小的临界质量和优良的中子学特性，这些受严格控制的同位素，成为了赋予终结者鱼雷微型核弹头足够威力的关键，从而能够威慑任何可能对联盟产生威胁的潜在敌人。`
+	description `	这种威力极其强大但同样昂贵的导弹是日权会终结者荚舱的弹药。`
 
 effect "finisher sparks"
 	sprite "effect/finisher sparks"
@@ -301,7 +301,7 @@ outfit "Heliarch Attractor"
 		"hull damage" 4.2
 		"firing force" -45
 		"hit force" -45
-	description "When battling the Quarg, the Heliarchs learned that the Quarg would not engage in a battle that their ships might be unable to escape. In response, they focused on building weapons that would keep a ship from being able to come to a stop and activate its jump drive."
+	description "在与夸格交战时，日权会吸取了教训：夸格人绝不参与任何其舰船可能无法脱身的战斗。作为回应，他们专注于研发能够阻止敌舰停下并启动跳跃引擎的武器。"
 
 effect "attractor impact"
 	sprite "effect/attractor impact"
@@ -347,7 +347,7 @@ outfit "Heliarch Repulsor"
 		"firing force" 90
 		"hit force" 90
 		"slowing damage" .1
-	description "This beam turret allows a Heliarch ship to hold its enemies far enough away that they cannot make use of their short-range weapons."
+	description "这种光束炮塔能让日权会飞船将敌人阻截在安全距离之外，使其无法使用短程武器。"
 
 effect "repulsor impact"
 	sprite "effect/repulsor impact"
@@ -386,7 +386,7 @@ outfit "Ion Hail Turret"
 		"firing energy" 48
 		"firing heat" 24
 		"submunition" "ion hail" 4
-	description "Instead of just placing an Ion Rain Gun on a turret mount, the Heliarch tweaked the cycles of shots, having each shot be significantly more effective and seeing an overall increase to the weapon's range, but at the cost of a reload period."
+	description "日权会并没有简单地将离子雨炮直接安装在炮塔基座上，而是微调了射击循环，使得每次射击的效果都显著增强，整体射程也得以提升，但代价是需要一段重新装填的时间。"
 
 outfit "ion hail"
 	weapon
@@ -435,7 +435,7 @@ outfit "Ion Rain Gun"
 		"hull damage" 5
 		"ion damage" .2
 		"scrambling damage" .2
-	description "Heliarch ships primarily serve as a police force. This weapon is designed to neutralize a target's offensive capabilities until more Heliarch ships can join the fray."
+	description "日权会舰船主要负责执行治安任务。该武器旨在瘫痪目标的进攻火力，直到更多日权会舰船能够赶来支援。"
 
 effect "ion rain impact"
 	sprite "effect/ion rain impact"
@@ -474,8 +474,8 @@ outfit "MCS Extractor"
 		"hull damage" 1.4
 		"minable damage" 8.2
 		"prospecting" 9
-	description `Not legally a weapon under Heliarch definitions, the "Mineral Collection and Sorting" extraction unit consists of a set of sharp, durable blades designed to quickly break down minable asteroids. It also comes with an integrated scanning system that looks for asteroids rich in minerals to facilitate the mining efforts.`
-	description `	Especially popular with novice pilots looking to pay off their ships, the extractor has been a reliable tool of mining businesses in the Coalition for millennia.`
+	description `虽然在日权会的法律定义中这并不属于武器，但这款“矿物收集与分选”提取单元配备了一组锋利且耐用的刀刃，专为快速粉碎可开采的小行星而设计。它还配备了集成扫描系统，能够寻找富含矿物的小行星，从而便利采矿工作。`
+	description `	这款提取器在急于偿还购船贷款的新手飞行员中尤为受欢迎，数千年来，它一直是联盟采矿业中不可或缺的可靠工具。`
 
 effect "drilling"
 	sprite effect/smoke

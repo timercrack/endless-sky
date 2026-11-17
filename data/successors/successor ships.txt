@@ -14,7 +14,7 @@
 
 
 ship "Aaulqra"
-	plural "Aaulqran"
+	plural "奥尔克拉"
 	sprite "ship/aaulqra"
 	thumbnail "thumbnail/aaulqra"
 	"administrative cost" 6
@@ -101,16 +101,16 @@ ship "Aaulqra"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Aaulqra is the oldest warship design currently produced by the High Houses in Successor space, with a recognizable lineage continuing back several thousand years to early in the old empire. It is compact, fast, and durable for a ship of its class, but has relatively limited internal space and lacks any significant cargo or passenger facilities. The captains of these vessels are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's flexibility and ubiquitous presence make it an excellent starting point for those who do.`
+	description `这种中型战舰是继承者诸高阶家族最常用的设计之一。就同级别舰船而言，它紧凑、快速且耐久，但内部空间和燃料携带量有限，使其主要局限于短程巡逻任务。`
 
 
 ship "Aaulqra" "Aaulqra (Naive)"
-	description "This medium warship is among the most common designs employed by the High Houses of the Successors. It is compact, fast, and durable for a ship of its class, but limited internal space and fuel capacity restrict it mostly to short-range patrol service."
+	description "这种中型战舰是继承者诸高阶家族最常用的设计之一。就同级别舰船而言，它紧凑、快速且耐久，但内部空间和燃料携带量有限，使其主要局限于短程巡逻任务。"
 
 
 
 ship "Ejniisde"
-	plural "Ejniisden"
+	plural "埃杰尼兹登"
 	sprite "ship/ejniisde"
 	thumbnail "thumbnail/ejniisde"
 	"administrative cost" 3
@@ -184,7 +184,7 @@ ship "Ejniisde"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle lacks a degree of comfort and security, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm."
+	description "继承者的人口相对较少，因此对大型运输船的需求并不迫切。不过，完全依靠穿梭机运送乘客在舒适度和安全性上有所欠缺，因此对于较长的旅程，继承者会使用这种专用运输船。虽然默认没有武装，但它速度足够快，能够甩开大多数可能对其造成威胁的飞船。"
 
 
 
@@ -285,7 +285,7 @@ ship "Ejniisde-Khora"
 
 
 ship "Kaskhorade"
-	plural "Kaskhoraden"
+	plural "卡斯科拉德"
 	sprite "ship/kaskhorade"
 	thumbnail "thumbnail/kaskhorade"
 	"administrative cost" 6
@@ -377,12 +377,12 @@ ship "Kaskhorade"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Serving as the heavy multipurpose backbone of the fleets of the various High Houses, the Kaskhorade trades some of the maneuverability of its smaller siblings for greater flexibility; in addition to being a capable warship, it also offers a sizable amount of free cargo and bunk space that allow it to fulfill a wide variety of missions. Along with serving as convoy escorts and fleet warships, these vessels are often used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for fast and luxurious travel.`
+	description `作为各高阶家族舰队中重型多用途的中坚力量，卡斯科拉德以牺牲一些较小型号的机动性来换取更大的灵活性；除了是一艘强大的战舰外，它还拥有大量空闲的货舱和床铺空间，使其能够执行多种任务。除了担任护航队和舰队主力战舰外，这些飞船还常被用于运送高阶家族的高级成员，因为它们可以在进行快速且豪华的旅行改装时，仍保持良好的防御能力。`
 
 
 
 ship "Kvelqde"
-	plural "Kvelqden"
+	plural "克维尔德"
 	sprite "ship/kvelqde"
 	thumbnail "thumbnail/kvelqde"
 	"administrative cost" 1
@@ -454,17 +454,17 @@ ship "Kvelqde"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, and for short-duration research expeditions."
-	description "	The design of the Kvelqde is, like most Successor vessels, based on originals from the time of the Predecessors. While the modern incarnation is nowhere near as advanced, successive iterations with more limited resources have promoted the cost-efficiency and user-friendliness of the design."
+	description "这艘微型穿梭机是继承者星域内运行的最小飞船，也是新的继承者飞行员能够入手的第一艘船。尽管体型小巧，它们却是多功能舰船，常用于运输乘客和货物，以及执行短期研究考察任务。"
+	description "	克维尔德的设计正如大多数继承者飞船一样，基于先驱者时代的原始型号。虽然现代版本远不及原版先进，但在资源受限的情况下进行的后续迭代，提升了该设计的成本效益和用户友好性。"
 
 
 ship "Kvelqde" "Kvelqde (Naive)"
-	description "This tiny shuttle is the smallest vessel operating in Successor space, and appears to fulfill much the same role as the human shuttles with which you are familiar, transporting small groups of passengers and quantities of cargo throughout their space. While it has enough space to equip weapons if necessary, its limited internal space and the low energy density of civilian Successor generators make these hardpoints most suitable to mining rather than combat."
+	description "这艘小型穿梭机是继承者星域内最小的飞船，看起来与你熟悉的人类穿梭机扮演着相同的角色，在其星域内运送少量乘客和货物。虽然它有足够的空间在必要时装备武器，但其有限的内部空间和继承者民用发生器较低的能量密度使得这些挂点最适合采矿而非战斗。"
 
 
 
 ship "Kvelqde-Khora"
-	plural "Kvelqden-Khora"
+	plural "克维尔德-科拉"
 	sprite "ship/kvelqde-khora"
 	thumbnail "thumbnail/kvelqde-khora"
 	"administrative cost" 1
@@ -541,12 +541,12 @@ ship "Kvelqde-Khora"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `One of the more industrious members of the People's Houses has done their best to ruggedize this Kvelqde: additional armor plating has been laid over most of the exposed hull, a second gun port has been attached to the underside, and the shield grid has had its capacity substantially increased. While not quite capable of standing toe-to-toe with a production interceptor of the High Houses, it bares enough teeth for a bit of light piracy, and its greater durability is quite welcome for navigating the decaying stations and hostile worlds of southwestern Successor space.`
+	description `平民家族中一些更为勤勉的成员尽其所能将这款克维尔德改造得更加坚固：大部分外露船体上额外铺设了装甲板，机腹下方加装了第二座炮口，护盾网格容量也大幅提升。虽然尚不足以与高阶家族的量产截击机正面抗衡，但它已拥有足够进行轻度海盗活动的火力，且其更强的耐久性在航行于继承者星域西南部日渐腐朽的空间站与险恶世界时也颇受欢迎。`
 
 
 
 ship "Myaede"
-	plural "Myaeden"
+	plural "米亚德"
 	sprite "ship/myaede"
 	thumbnail "thumbnail/myaede"
 	"administrative cost" 3
@@ -621,16 +621,16 @@ ship "Myaede"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Myaede is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the High Houses, a familial Myaede is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
+	description `米亚德既不够优雅也不够迅捷，但它凭借宽敞的货舱、厚重的装甲以及灵活到足以在紧急情况下反击的武器布局，稳固地成为了继承者商业的中坚力量。其设计坚固可靠；你见过的许多该型飞船看起来虽然老旧磨损，但进出太空港时却丝毫不比那些较新的飞船逊色。`
 
 
 ship "Myaede" "Myaede (Naive)"
-	description `The Myaede is neither elegant nor fast, but has cemented itself as the backbone of Successor commerce with a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. The design is robust and dependable; many of the ships you've seen appear old and worn but pass through the spaceport no less smoothly than their newer counterparts.`
+	description `米亚德既不够优雅也不够迅捷，但它凭借宽敞的货舱、厚重的装甲以及灵活到足以在紧急情况下反击的武器布局，稳固地成为了继承者商业的中坚力量。其设计坚固可靠；你见过的许多该型飞船看起来虽然老旧磨损，但进出太空港时却丝毫不比那些较新的飞船逊色。`
 
 
 
 ship "Nnaatej"
-	plural "Nnaatejen"
+	plural "纳特吉"
 	sprite "ship/nnaatej"
 	thumbnail "thumbnail/nnaatej"
 	"administrative cost" 3
@@ -708,12 +708,12 @@ ship "Nnaatej"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Owing to their amphibious nature, a substantial portion of the Successor population lives underwater. Most of their ships are built with this in mind and are capable of some degree of underwater operation. However, the Nnaatej is a specialist vessel built specifically for this purpose, shuttling passengers from deep ocean to deep space and back again. It is designed with a denser, pressure-stable hull, built-in maintenance systems, and increased resistance to corrosion and slowing effects. These features come at the cost of making it a heavy and expensive ship for its size, but are considered well worth it to ensure the safety and comfort of its passengers and cargo.`
+	description `由于具有两栖特性，很大一部分继承者人口生活在水下。他们的大多数飞船在设计时便考虑到了这一点，并具备一定程度的水下运行能力。然而，纳特吉是一艘专门为此目的建造的特种飞船，负责将乘客从深海运送至深空并折返。它采用了更致密且耐压的船体设计、内置了维护系统，并增强了抗腐蚀及抗减速效应的能力。这些特性使其成为同尺寸中尤为沉重且昂贵的飞船，但为了确保乘客与货物的安全与舒适，这些代价被认为完全值得。`
 
 
 
 ship "Nnesaarau"
-	plural "Nnesaaraun"
+	plural "内萨罗"
 	sprite "ship/nnesaarau"
 	thumbnail "thumbnail/nnesaarau"
 	"administrative cost" 1
@@ -777,16 +777,16 @@ ship "Nnesaarau"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "Quick and comfortable, the Nnesaarau is among the newest designs utilized in Successor space, having first emerged from House Chydiyi's shipyards no more than twenty years ago. For various reasons, it is also among the least popular; it was designed solely as a luxury passenger transport and sees very little use outside that role because of its high price and restrictive internals. Nonetheless, some hotshot pilots swear by these ships as racing or fast courier vessels."
+	description "这些非常轻型的飞船没有太多空间搭载乘客或货物，但在继承者的星域中飞行迅速而优雅。这些特质，加上其高昂的价格和不常见的出现，暗示它们可能是某种豪华游艇，对大多数继承者来说太不实用。"
 
 
 ship "Nnesaarau" "Nnesaarau (Naive)"
-	description "These very light vessels don't have much room for passengers or cargo, but move swiftly and elegantly through Successor space. These qualities, combined with their high price and uncommon presence, suggest that these may be luxury craft of some sort, too impractical for use by the majority of Successors."
+	description "这些非常轻型的飞船没有太多空间搭载乘客或货物，但在继承者的星域中飞行迅速而优雅。这些特质，加上其高昂的价格和不常见的出现，暗示它们可能是某种豪华游艇，对大多数继承者来说太不实用。"
 
 
 
 ship "Ojde"
-	plural "Ojden"
+	plural "奥吉德"
 	sprite "ship/ojde"
 	thumbnail "thumbnail/ojde"
 	"administrative cost" 5
@@ -859,17 +859,17 @@ ship "Ojde"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Although it is the largest freighter employed by the Successors, the "Ojde" is still substantially smaller than large human freighters like the Bulk Freighter and Behemoth. While this limits the cargo capacity of any single ship, it also allows these vessels to be surprisingly fast and maneuverable and increases the number of facilities which can effectively tend to them.`
-	description `	Though somewhat less popular among more traditional merchants than the time-tested Myaede, the increased cargo capacity of the Ojde makes it a more or less mandatory choice for those hoping to assemble a large-scale transport operation.`
+	description `虽然它是继承者所采用的最大型货船，但“奥吉德”仍然明显小于人类的“散装货轮”和“巨兽”等大型货船。这虽然限制了单艘飞船的运载能力，但也使其出人意料地快速与灵活，并增加了能够对其进行有效维护的设施数量。`
+	description `	尽管在更为传统的商人中，它的受欢迎程度略逊于久经考验的米亚德，但奥吉德更大的货运容量使其几乎成为那些希望建立大规模运输业务之人的必然选择。`
 
 
 ship "Ojde" "Ojde (Naive)"
-	description `Although it is the largest freighter employed by the Successors, the Ojde is still substantially smaller than large human freighters like the Bulk Freighter and Behemoth. While this limits the cargo capacity of any single ship, it also allows these vessels to be surprisingly fast and maneuverable and increases the number of facilities which can effectively tend to them.`
+	description `尽管它是继承者所采用的最大型货船，但奥吉德仍然明显小于人类如散装货轮和巨兽等大型货船。这虽然限制了单艘飞船的运载能力，但也使其出人意料地快速与灵活，并增加了能够对其进行有效维护的设施数量。`
 
 
 
 ship "Seiitej"
-	plural "Seiitejen"
+	plural "塞特吉"
 	sprite "ship/seiitej"
 	thumbnail "thumbnail/seiitej"
 	"administrative cost" 4
@@ -949,13 +949,13 @@ ship "Seiitej"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Seiitej is the High Houses' vessel of choice for transporting small amounts of cargo and passengers throughout Successor space. Though less spacious than a dedicated civilian freighter or transport vessel, it is much more durable while remaining fast and maneuverable. While these vessels support a relatively light armament (by the standards of the High Houses), their speed and flexible internals allow them to frequently serve as patrol craft as well.`
-	description "	Their lighter armor and smaller combat systems also make them significantly less expensive to manufacture than the High Houses' purpose-built warships, which contributes to their growing ubiquity."
+	description `塞特吉是高阶家族在整个继承者星域中用于运输少量货物与乘客的首选舰船。尽管其内部空间不及专用的民用货船或运输舰宽敞，但它在保持高速与机动性的同时，坚固耐用得多。尽管这些舰船仅支持相对较轻的武装（以高阶家族的标准而言），但其速度与灵活的内部结构使其也常被用作巡逻艇。`
+	description "	它们较轻的装甲和较小的战斗系统也使得其制造成本远低于高阶家族专门建造的战舰，这促成了它们日益广泛的普及。"
 
 
 
 ship "Stolsaqra"
-	plural "Stolsaqran"
+	plural "斯托尔萨克拉"
 	sprite "ship/stolsaqra"
 	thumbnail "thumbnail/stolsaqra"
 	"administrative cost" 1
@@ -1036,17 +1036,17 @@ ship "Stolsaqra"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues, as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent captains call a deathtrap, but that continues to see use as a patrol and escort vessel because of its speed and heavy armament."
-	description `	The Stolsaqra also has the distinction of being the only purpose-built warship manufactured by the High Houses that is made available to the general public, albeit with significantly downgraded systems compared to the military-exclusive model.`
+	description "继承者们在制造如此小型的战舰方面经验有限。他们尝试打造的截击机虽然耐用，并且对于同体型的飞船来说火力惊人，但也饱受能源和推进问题的困扰——因为他们的标准技术大多要么体积过大，要么功率不足以在这个尺度上实现有效的战斗性能。最终诞生的这艘飞船，被雄心勃勃的飞行员称为挑战，而被谨慎的船长称作死亡陷阱，但由于其速度和重型武装，仍继续作为巡逻与护卫舰使用。"
+	description `	斯托尔萨克拉还有一个特别之处：它是高阶家族制造的唯一一款向公众开放的专用战舰，不过相较于军方专属型号，其系统性能有着大幅降级。`
 
 
 ship "Stolsaqra" "Stolsaqra (Naive)"
-	description `The Successors' attempt at an interceptor is quite compact and sports a surprising amount of firepower for a ship of its size, though restrictive internal space leaves it plagued with power and propulsion issues if it is equipped to fully utilize its weapons capacity. While it is manufactured by the High Houses, the Stolsaqra is made available to the general Successor public, albeit with significantly downgraded systems compared to the military-exclusive model.`
+	description `继承者尝试打造的截击舰非常紧凑，并且以其体型而言搭载了惊人的火力；然而，若要配备能够充分发挥其武器容量的装备，有限的内部空间会使其饱受动力和推进问题的困扰。尽管由高阶家族制造，斯托尔萨克拉仍向继承者公众开放，不过其系统相较于军方专属型号有显著降级。`
 
 
 
 ship "Veusade"
-	plural "Veusaden"
+	plural "维萨德"
 	sprite "ship/veusade"
 	thumbnail "thumbnail/veusade"
 	"administrative cost" 4
@@ -1132,17 +1132,17 @@ ship "Veusade"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for swiftness, the Veusade is designed for only one purpose: to carry eight drag cannons as close to an enemy ship's hull as possible.`
-	description "	Vessels of this lineage earned renown in many of the conflicts between the Predecessors' High Houses, catching and killing ships many times their size and escaping before reinforcements could arrive. In the present, such a narrowly-focused design makes these vessels ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly intercept and immobilize fleeing ships."
+	description `维萨德有幸被冠以继承者语中表示迅捷之词，其设计只有一个目的：携带八门拖拽炮，尽可能贴近敌舰船壳。`
+	description "	此系列舰船在先驱者高阶家族的多次冲突中声名显赫，它们能捕捉并摧毁数倍于自身体积的敌舰，并在增援抵达前逃脱。时至今日，这种高度专精的设计使这些飞船难以胜任多用途任务，但由于其能迅速拦截并瘫痪逃逸船只，它们常被用作辅助或警用飞船。"
 
 
 ship "Veusade" "Veusade (Naive)"
-	description `The Veusade bristles with gun ports but has a small overall weapons capacity; in fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
+	description `维萨德上遍布炮口，但整体武器容量很小；实际上，它的容量刚好够在挂点装满拖拽炮。这种高度专精的设计使得这些飞船不适合多用途使用，但由于它们能够快速追捕并瘫痪逃逸的飞船，因此常被用作辅助或警用飞船。`
 
 
 
 ship "Vujlet"
-	plural "Vujleten"
+	plural "武杰莱特"
 	sprite "ship/vujlet"
 	thumbnail "thumbnail/vujlet"
 	"administrative cost" 3
@@ -1230,12 +1230,12 @@ ship "Vujlet"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Navigating the stars with the grace of a flitting bird, the compact Vujlet is a mass-produced High Houses warship flexible enough to serve in a variety of light-duty roles. Large enough to operate as a self-sufficient unit, these vessels serve as a useful bridge between short-ranged and relatively vulnerable interceptors, and larger, more resource-intensive warships that can be much more expensive to build and operate.`
-	description `	The design was originally employed by House Kaatrij as a stealth reconnaissance vessel that made use of their then-recently-developed cloaking technology. As the alliance between the New Houses strengthened, the plans for the Vujlet were distributed among them, and the light warship rapidly became a mainstay of their fleets. Unfortunately, without the materials present in their Predecessors' domain, House Kaatrij has been unable to manufacture stealth equipment for the Vujlet in the modern era.`
+	description `像飞鸟般优雅地穿梭于星辰之间，紧凑的武杰莱特是一种大批量生产的高阶家族战舰，其灵活性足以胜任多种轻型任务。这些飞船的体型足以作为独立单位运作，在航程较短且相对脆弱的截击舰与更庞大、资源消耗更多、建造和运营成本高昂得多的大型战舰之间，起到了实用的桥梁作用。`
+	description `	该设计最初被卡特里吉家族用作隐形侦察舰，利用了其当时最新研发的隐身技术。随着新家族之间的联盟得到加强，武杰莱特的设计图纸在他们之间共享，这艘轻型战舰迅速成为其舰队的中坚力量。遗憾的是，由于缺少存在于先驱者疆域中的材料，卡特里吉家族在当代已无法为武杰莱特制造隐身装备。`
 
 
 ship "Vujlet" "Vujlet (Naive)"
-	description `The compact Vujlet is a mass-produced High Houses warship flexible enough to serve in a variety of light-duty roles. Large enough to operate as a self-sufficient unit, these vessels serve as a useful bridge between short-ranged, relatively vulnerable interceptors, and larger, more resource-intensive warships that can be much more expensive to build and operate.`
+	description `紧凑的武杰莱特是一种大批量生产的高阶家族战舰，其灵活性足以胜任多种轻型任务。这些飞船的体型足以作为独立单位运作，在航程较短、相对脆弱的截击舰与更庞大、资源消耗更多、建造和运营成本高昂得多的大型战舰之间，起到了实用的桥梁作用。`
 
 
 

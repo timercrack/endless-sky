@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Anomalocaris"
-	plural "Anomalocarises"
+	plural "奇虾级"
 	sprite "ship/hai anomalocaris"
 	thumbnail "thumbnail/hai anomalocaris"
 	"administrative cost" 5
@@ -72,7 +72,7 @@ ship "Anomalocaris"
 	explode "medium explosion" 30
 	explode "large explosion" 14
 	"final explode" "final explosion medium"
-	description "First created during the Hai's initial conflicts with the Sheragi, the Anomalocaris was supposedly one of the most versatile Hai warships of its time. Its high cargo capacity and low engine space suggest the original purpose of the ship was for mining or hauling, though it could also have found use in looting enemy ships and carrying ammunition. Vessels from the time were manufactured out of more expensive materials, making the Anomalocaris more sturdy and able to take larger amounts of damage."
+	description "最初建造于亥族与谢拉吉的早期冲突期间，奇虾级据称是当时用途最广泛的亥族战舰之一。其高货舱容量和较小的引擎空间表明，该舰最初的设计用途是采矿或拖运，不过也可能用于掠夺敌舰和运载弹药。那一时期的舰船采用更昂贵的材料制造，这使奇虾级更加坚固，不过这一艘在长期沉没于水下后已累积了损伤。"
 
 ship "Anomalocaris" "Anomalocaris (Venerable)"
 	add attributes
@@ -96,7 +96,7 @@ ship "Anomalocaris" "Anomalocaris (Venerable)"
 	turret "Thermal Repeater Turret"
 	turret "Thermal Repeater Turret"
 	turret "Chameleon Anti-Missile"
-	description "First created during the Hai's initial conflicts with the Sheragi, the Anomalocaris was supposedly one of the most versatile Hai warships of its time. Its high cargo capacity and low engine space suggest the original purpose of the ship was for mining or hauling, though it could also have found use in looting enemy ships and carrying ammunition. Vessels from the time were manufactured out of more expensive materials, making the Anomalocaris more sturdy, although this one has accrued damage after being submerged underwater for a long period of time."
+	description "最初建造于亥族与谢拉吉的早期冲突期间，奇虾级据称是当时用途最广泛的亥族战舰之一。其高货舱容量和较小的引擎空间表明，该舰最初的设计用途是采矿或拖运，不过也可能用于掠夺敌舰和运载弹药。那一时期的舰船采用更昂贵的材料制造，这使奇虾级更加坚固，不过这一艘在长期沉没于水下后已累积了损伤。"
 
 ship "Aphid"
 	sprite "ship/hai aphid"
@@ -137,7 +137,7 @@ ship "Aphid"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
-	description "The Aphid is the lightest freighter used by the Hai and was for many millennia the backbone of the Hai interplanetary economy. Because of how peaceful Hai space has been for much of its history, Aphids only come with basic defenses as stock, and rely on larger Hai ships for more serious protection."
+	description "蚜虫级是亥族所使用的最轻型货船，数千年来一直是亥族星际经济的支柱。由于在历史的大部分时期，亥族领空都十分和平，因此蚜虫级出厂时仅配备了基础防御系统，需要依靠更大的亥族舰船来提供更有效的保护。"
 
 ship "Aphid" "Aphid (Phantom Pallet)"
 	outfits
@@ -237,7 +237,7 @@ ship "Centipede"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `The introduction of humans to the Hai civilization has led to a substantial amount of cultural exchange. While some may argue that pickled acorns have been the greatest product of this relationship, many more will point to this luxury transport ship. The product of human-Hai cooperation from the project's inception, the Centipede was released around the turn of the 31st century, but has already become quite popular among Hai fleets.`
+	description `人类与亥族文明的接触促进了广泛的文化交流。尽管有人可能认为腌橡果才是这一合作最伟大的成果，但更多的人会指向这艘豪华运输船。作为项目启动伊始双方合作的结晶，“蜈蚣”级大约在31世纪之交问世，如今已在亥族舰队中变得相当受欢迎。`
 
 ship "Centipede" "Centipede (Holovid)"
 	outfits
@@ -329,7 +329,7 @@ ship "Cicada"
 	explode "large explosion" 16
 	explode "huge explosion" 4
 	"final explode" "final explosion medium"
-	description `A design nearly as old as the Aphid, practically no new Cicadas have been built in recent memory; it is so reliable that the second-hand market is saturated with Cicadas that have outlived not just one pilot, but in many cases whole lineages of Hai that have owned one and passed it down through the generations. This feature is likely the main factor which has kept the popularity of the Scarab in check as well as defining the Yeer e Ki shipyard's motto: "Service for Life."`
+	description `作为一款几乎与蚜虫级同样古老的设计，在人们的记忆中，近年来实际上没有新建造的蝉级；它如此可靠，以至于二手市场上充斥着大量的蝉级，它们不仅比单独一位飞行员活得更长，在许多情况下甚至熬过了拥有并代代相传该船的整个亥族家族世系。这一特性很可能是抑制圣甲虫级普及的主要原因，同时也奠定了耶尔基船厂的座右铭：“终身服务”。`
 
 
 
@@ -367,8 +367,8 @@ ship "Flea"
 	gun 0 -27 "Railgun"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
-	description `This combat drone is built to amplify the strength of any combat force for as few credits as possible. It was designed in conjunction with the tactical recoil of the Skipper Railgun to allow it to kite its targets, prolonging its combat efficacy while it supports its allies with debilitating ion damage.`
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description `这款战斗无人机旨在以尽可能少的信用点，最大程度地提升任何战斗部队的战力。它与“弄蝶电磁炮”的战术后座力协同设计，使其能够风筝目标，在通过削弱性离子伤害支援盟友的同时，延长自身的作战效能。`
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 ship "Flea" "Flea (Pulse)"
 	outfits
@@ -378,7 +378,7 @@ ship "Flea" "Flea (Pulse)"
 		`"Baellie" Atomic Engines`
 
 ship "Geocoris"
-	plural "Geocoris"
+	plural "地蝽级"
 	sprite "ship/hai geocoris"
 	thumbnail "thumbnail/hai geocoris"
 	"administrative cost" 5
@@ -434,7 +434,7 @@ ship "Geocoris"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "After large human freighters began to out-compete traditionally smaller Hai ships, the Hai responded by developing the Geocoris: a heavy freighter that surpassed anything humanity had to offer at the time."
+	description "在人类的大型货船开始逐渐压倒传统上体型较小的亥族飞船后，亥族作出的应对是开发了“地蝽”级：一款性能超越了当时人类所能提供的任何同类产品的重型货船。"
 
 ship "Geocoris" "Geocoris (Tracker)"
 	outfits
@@ -506,7 +506,7 @@ ship "Grasshopper"
 	explode "small explosion" 20
 	explode "medium explosion" 5
 	"final explode" "final explosion small"
-	description "Designed by the Hai to serve as a fast reconnaissance craft, the Grasshopper has been adopted by thrill-seekers and miners alike. At the same time, it is often used by Hai captains who are looking for effective protection at a low cost."
+	description "蚱蜢级由亥族设计，用作快速侦察船，如今同样受到了寻求刺激者与矿工们的青睐。与此同时，它也经常被那些寻求低成本高性价比防护的亥族船长们使用。"
 
 ship "Grasshopper" "Grasshopper (Tracker)"
 	outfits
@@ -602,7 +602,7 @@ ship "Lightning Bug"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion small"
-	description "The Lightning Bug is a small defensive ship, mostly used by the Hai as a convoy escort. The Lightning Bug, as with many insects, works best in a swarm: even a small number of Lightning Bugs can manage to leave the largest of ships helpless with their stock-fitted Ion Cannons."
+	description "萤火虫级是一款小型防御舰，主要被亥族用作商船队的护航舰。正如许多昆虫一样，萤火虫级在集群时能发挥出最佳效果：即便只有少数几艘萤火虫级，凭借其标配的离子炮也能让体型最大的飞船束手无策。"
 
 ship "Lightning Bug" "Lightning Bug (Phantom Pallet)"
 	outfits
@@ -735,8 +735,8 @@ ship "Ladybug"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "These sensor-laden exploration vessels hail back to a more peaceful era of the Hai. Though they have no true ramscoop, a technology the Hai never developed, their built-in collection gills magnify the natural ramscoop present in all ships. These expensive features are the reason the ship has been replaced with the Lightning Bug."
-	description "However, this ship has seen combat in recent years against human pirates. With room for plentiful shield regeneration, good maneuverability, and the range to strike deep in pirate territory, their long sleep has ended."
+	description "这些搭载了大量传感器的探索飞船，其设计可追溯至亥族一个更为和平的年代。尽管它们没有真正的冲压收集器——亥族从未发展出这项技术——但内置的采集鳃能够放大所有飞船都具备的天然冲压收集效应。这些昂贵的特性，正是该型号最终被“萤火虫”取代的原因。"
+	description "然而，这艘飞船近年来曾与人类海盗交战。凭借充足的护盾再生空间、优秀的机动性以及深入海盗腹地作战的航程，它们漫长的沉睡已然终结。"
 
 ship "Ladybug" "Ladybug (Three Ion)"
 	outfits
@@ -882,7 +882,7 @@ ship "Pond Strider"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Hai upgraded their original Pond Strider after acquiring hull repair technology through alien diplomacy. These improvements have greatly reduced casualties in their conflict with the Unfettered, since the light Pond Striders become vulnerable as they collect damaged drones. Besides enabling the ship to repair damaged drones, the Hai have cleverly innovated the Skipper Railgun to make the Pond Strider and Fleas into very efficient combat support for their fleets."
+	description "在通过外星外交获得船体修复技术后，亥族对其原有的水黾级飞船进行了升级。由于轻型水黾在回收受损无人机时会变得十分脆弱，这些改进在与无羁者的冲突中大幅减少了伤亡。除了使该飞船能够修复受损无人机外，亥族还巧妙地改良了弄蝶电磁炮，使水黾和跳蚤成为其舰队中极其高效的战斗支援力量。"
 
 ship "Pond Strider" "Pond Strider (Tracker)"
 	outfits
@@ -1013,7 +1013,7 @@ ship "Sea Scorpion"
 	explode "medium explosion" 30
 	explode "large explosion" 14
 	"final explode" "final explosion medium"
-	description "The Sea Scorpion was designed several decades ago to serve as a mobile platform to launch Trackers. However, it is only recently that the Unfettered have been able to mass-produce them. While individually vulnerable, the reduced cost of manufacturing compared to Shield Beetles allow the materially inferior Unfettered to gain a numerical advantage against their brethren."
+	description "海蝎级飞船的设计在数十年前就已定型，旨在作为发射追踪者的机动平台。然而直到近期，无羁者才得以将其量产。尽管单舰防护薄弱，但相比盾甲虫更低的制造成本，使物质上处于劣势的无羁者能够以数量优势对抗他们的同胞。"
 
 ship "Sea Scorpion" "Sea Scorpion (Tracker)"
 	outfits
@@ -1144,7 +1144,7 @@ ship "Scarab"
 	explode "medium explosion" 12
 	explode "large explosion" 4
 	"final explode" "final explosion small"
-	description `The hard-working cousin to the Lightning Bug, the Scarab has only ever grown in popularity, never declined. That this statistic is occasionally measured in thousandths of a percentage point for years at a time is immaterial to the title. This lightweight transport is commonly the pick for Grasshopper pilots looking to make money while continuing to feed their free spirit. It is also large enough to transport a large Hai family, making it perfect for nearly any odd job in Hai space.`
+	description `作为勤劳的“萤火虫”的近亲，圣甲虫的人气向来是只增不减。尽管这一数据在数年内有时仅以千分之几个百分点来微弱增长，但这无损于其名声。这款轻型运输船通常是“蚱蜢”飞行员的首选，因为他们渴望在赚钱的同时继续保持自由的精神。它也足够宽敞，可以容纳一个庞大的亥族家庭，使其非常适合在亥族领空内承接几乎任何零活。`
 
 
 
@@ -1212,7 +1212,7 @@ ship "Shield Beetle"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This ship was first built millennia ago, near the end of a more violent time in Hai history. Since then, it has served as the only heavy warship at the disposal of the Hai. The Shield Beetle is a versatile warship used by the Hai to guard their merchant convoys, or by the Unfettered to attack those very same convoys."
+	description "这艘飞船首次建造于数千年前，在亥族历史上一个更加动荡的时代接近尾声之时。自那以后，它便一直是亥族唯一的重型战舰。盾甲虫是一款多用途战舰，亥族用它来护卫商船队，而无羁者则用它来袭击同样的船队。"
 
 ship "Shield Beetle" "Shield Beetle (Police)"
 	outfits
@@ -1512,9 +1512,9 @@ ship "Emperor Beetle"
 	explode "large explosion" 53
 	explode "huge explosion" 22
 	"final explode" "final explosion large"
-	description "Before the Shield Beetle, the Hai used the Titan Beetle, a weaker but more capable ship of a similar design. The Emperor Beetle is a Titan coated with many layers of modern armor, making it a more powerful warship than anything else the Hai have built in modern times. Unfortunately, the advanced features are quite expensive, so these ships are used sparingly as flagships and trophy ships."
-	description "	As it is not meant to plunder but to lead in glorious battle, many of the cargo bays were removed and converted to space for weapons and defensive improvements. This change came at the cost of increased mass and lowered agility, but that is a sacrifice the Unfettered are more than willing to make."
-	description "	More than just a ship, the Emperor Beetle was built to inspire fear in its enemies, making it known that they face no simple Hai, but the military leaders of the Unfettered leading at the front of those they command. Some believe it to be foolish to show their leaders' ships in such a manner, but that is not how the Unfettered think. This ship was built to withstand far more punishment than any normal Shield Beetle, while still being able to dish out damage of its own."
+	description "在盾甲虫问世之前，亥族使用的是泰坦甲虫——一款设计相似但较弱、功能却更全面的飞船。而帝甲虫则是在泰坦甲虫的基础上覆盖了多层现代装甲，使其成为亥族在现代建造的最强战舰。遗憾的是，其先进特性造价高昂，因此这些飞船仅被少量用作旗舰与荣誉舰。"
+	description "	由于其设计目的并非劫掠，而是率领光荣的战斗，许多货舱被拆除，转换为武器和防御升级的空间。这一改变以增加质量和降低机动性为代价，但无羁者心甘情愿做出这种牺牲。"
+	description "	不仅是一艘飞船，帝甲虫的建造更是为了震慑敌人，让他们明白自己面对的并非寻常亥族，而是亲临前线、指挥军队的无羁者军事领袖。有人认为如此招摇地暴露领袖座舰实属愚行，但无羁者并不这么认为。这艘飞船能够承受远超常规盾甲虫的攻击，同时自身仍能输出可观的伤害。"
 
 
 
@@ -1597,7 +1597,7 @@ ship "Solifuge"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Impressed by the Alphas' "Giftbringer," the Unfettered endeavored to build their own fighter carrier to take more advantage of their supply of jump drives.`
+	description `阿尔法人的“赠礼者”给无羁者留下了深刻印象，促使他们也致力于建造自己的战机母舰，以更好地利用他们所拥有的跃迁引擎。`
 
 ship "Solifuge" "Solifuge (Jump)"
 	outfits
@@ -1738,8 +1738,8 @@ ship "Violin Spider"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `The Hai fighter is equipped with what most humans would consider the greatest technology available, but all of that high tech comes at a cost.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `这架亥族战斗机配备了大多数人类眼中最先进的科技，但所有这些高科技都伴随着高昂的代价。`
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 ship "Violin Spider" "Violin Spider (Pulse)"
 	outfits
@@ -1808,7 +1808,7 @@ ship "Water Bug"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion medium"
-	description "The design of the Water Bug is almost as old as the Aphid, but until recently it never saw much use. A spike in aggression from the Unfettered Hai has led the tougher and more well-defended Water Bug to see an increase in popularity over its little brother, the Aphid. The Water Bug is now the most widely used Hai freighter, comprising the bulk of all Hai merchant fleets."
+	description "水蝽的设计历史几乎与蚜虫一样悠久，但直到最近才被广泛使用。随着无羁亥族侵略活动的激增，更坚固、防卫更佳的水蝽开始比其小兄弟蚜虫更受欢迎。如今，水蝽已成为亥族使用最广泛的货船，构成了亥族商船队的主体。"
 
 ship "Water Bug" "Water Bug (Phantom Pallet)"
 	outfits

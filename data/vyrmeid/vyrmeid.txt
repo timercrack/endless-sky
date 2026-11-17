@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Vyrmeid"
-	noun "creature"
-	plural "Vyrmeid"
+	noun "生物"
+	plural "维尔梅德"
 	sprite "ship/vyrmeid/plankton"
 		"frame rate" 24
 		"random start frame"
@@ -51,7 +51,7 @@ ship "Vyrmeid"
 	"gun" 0 -3
 	"leak" "blood" 1 2
 	"final explode" "blood"
-	description `These are tiny space creatures that feed on solar energy, storing it into two receptors found at the front of their bodies. They are extremely docile, and are found in large groups, almost never seen alone.`
+	description `这种太空生命体常见于较热的恒星附近，以太阳能为食，能量储存于四个形似眼睛的器官中。由于体内积蓄的能量与压力，它们在死亡时会剧烈爆炸，可能让攻击者措手不及。`
 
 outfit "Plankton Mouth"
 	category "Guns"
@@ -71,8 +71,8 @@ outfit "Plankton Mouth"
 
 
 ship "Vyrmeid" "Vyrmeid (B)"
-	noun "creature"
-	plural "Vyrmeid"
+	noun "生物"
+	plural "维尔梅德"
 	sprite "ship/vyrmeid/boomerang"
 		"frame rate" 24
 		"random start frame"
@@ -106,7 +106,7 @@ ship "Vyrmeid" "Vyrmeid (B)"
 		"Boomerang Organ"
 	"leak" "blood" 2 3
 	"final explode" "blood"
-	description `Oddly shaped like a boomerang, these space creatures are in a constant rotary motion caused by a small internal organ. The motion provides a natural defense against small debris and projectiles that threaten to intercept the creature, which is harmless otherwise.`
+	description `这种太空生命体常见于较热的恒星附近，以太阳能为食，能量储存于四个形似眼睛的器官中。由于体内积蓄的能量与压力，它们在死亡时会剧烈爆炸，可能让攻击者措手不及。`
 
 outfit "Boomerang Organ"
 	category "Turrets"
@@ -124,8 +124,8 @@ outfit "Boomerang Organ"
 
 
 ship "Vyrmeid" "Vyrmeid (C)"
-	noun "creature"
-	plural "Vyrmeid"
+	noun "生物"
+	plural "维尔梅德"
 	sprite "ship/vyrmeid/squid"
 		"frame rate" 24
 		"random start frame"
@@ -164,7 +164,7 @@ ship "Vyrmeid" "Vyrmeid (C)"
 			"piercing" 0.1
 	explode "flamethrower die" 1
 	"final explode" "fission explosion"
-	description `This species of space life is found around hotter stars and feeds on solar energy, storing it in four organs that give off the appearance of eyes. Due to all of the internal energy and pressure, these creatures explode violently upon death, which may surprise aggressors.`
+	description `这种太空生命体常见于较热的恒星附近，以太阳能为食，能量储存于四个形似眼睛的器官中。由于体内积蓄的能量与压力，它们在死亡时会剧烈爆炸，可能让攻击者措手不及。`
 
 effect "fission explosion"
 	sprite "effect/explosion/nuke"
@@ -179,7 +179,7 @@ effect "fission explosion"
 
 
 ship "Astral Cetacean"
-	noun "creature"
+	noun "生物"
 	sprite "ship/astral cetacean/astral"
 		"center" 0 -50
 		"frame rate" 24
@@ -236,7 +236,7 @@ ship "Astral Cetacean"
 	leak "blood" 60 60
 	explode "blood" 160
 	"final explode" "blood"
-	description `Only a few captains have had the chance to observe this illustrious creature. Its natural attenuation to the depths of space allows it to travel beyond where most ships are able, and its appearance reflects both the beauty and mystery of the void itself.`
+	description `只有少数船长曾有幸目睹这传奇巨兽。它对太空深处有着天然的消隐能力，得以航至大多数飞船无法抵达的远方；而其外观本身，也映照着虚空的美丽与神秘。`
 
 outfit "Astral Mouth"
 	category "Guns"

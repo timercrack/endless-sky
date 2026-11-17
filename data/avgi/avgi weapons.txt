@@ -22,7 +22,7 @@ outfit "Speck Round"
 	thumbnail "outfit/speck round"
 	"mass" 0.003
 	"speck capacity" -1
-	description "These densely-wound metallic glass slugs are capable of inflicting a good amount of kinetic damage via hypervelocity impacts, but are easily stopped by momentum-repulsion shield systems."
+	description "这些密绕的金属玻璃弹丸能够通过超高速撞击造成大量动能伤害，但很容易被动量排斥护盾系统所阻挡。"
 
 
 outfit "Speck Magazine"
@@ -35,7 +35,7 @@ outfit "Speck Magazine"
 	"outfit space" -6
 	"speck capacity" 1200
 	ammo "Speck Round"
-	description "While Speckle Coilguns carry a considerable amount of ammunition in their internal magazines, for longer expeditions or for resupply operations the Avgi use these compact ammunition storages."
+	description "虽然斑点线圈炮的内部弹仓携带了大量弹药，但对于更长期的远征或补给任务，阿夫吉人仍使用这些紧凑型弹药储存器。"
 
 
 outfit "Speckle Coilgun"
@@ -64,9 +64,9 @@ outfit "Speckle Coilgun"
 		"firing heat" 30
 		"firing force" 12
 		"submunition" "Speck"
-	description "This compact coilgun fires a stream of hypervelocity projectiles, accelerating them on a traveling wave of magnetic energy as capacitors are discharged through a series of coils. Designed primarily for drones and smaller ships, the Speckle is a deadly albeit relatively unsophisticated weapon."
-	description "	Due to its limited range, the Speckle shines when a ship can sneak close enough to an enemy to bring it to bear, where it can begin tearing through armor and hull. However, its effectiveness is much more limited against shields, which shrug off its mass driver rounds with relative ease."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "这款紧凑型线圈炮能连续发射超高速射弹，利用电容器通过一系列线圈放电时产生的行波磁场对射弹进行加速。斑点主要设计用于无人机和小型飞船，虽然相对简陋，却是一种致命的武器。"
+	description "	由于射程有限，斑点线圈炮在飞船能够悄然逼近敌人至有效射程时才能大放异彩，届时它便能开始撕裂装甲与船体。然而，其对护盾的效果则非常有限，护盾能够相对轻松地抵御其质量加速弹丸。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 	
@@ -103,9 +103,9 @@ outfit "Speckle Turret"
 			"offset" -3 0
 		"submunition" "Speck"
 			"offset" 3 0
-	description "Designed for mid-sized ships, this variation on the Speckle Coilgun mounts a pair of coilguns onto a nimble turret. Its compact size allows even smaller ships to fit one, making it a versatile option for mid-ranged combat."
-	description "	Of course, the inherently limited range and velocity of kinetic weapons makes the Speckle Turret a poor match for some of the longer-ranged weapons used by the Avgi, but the sheer firepower it can put out can make it deadly to close targets."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "专为中型舰船设计，此型号在斑点线圈炮的基础上将一对线圈炮安装于灵活的炮塔上。其紧凑的体型甚至允许更小的舰船搭载，使其成为中程作战的全能选择。"
+	description "	当然，动能武器固有的射程和速度限制使得斑点炮塔难以与阿夫吉人使用的某些远程武器匹敌，但它能输出的纯粹火力足以对近距离目标造成致命威胁。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -170,8 +170,8 @@ outfit "Optical Lasing Generator"
 	"lasing power" 3
 	linked "Green Optical Laser"
 	linked "Blue Optical Laser"
-	description "A monolithic slab of semiconductor diode is used to efficiently pump a spool of doped optical fiber. Hundreds of kilometers long, the coiled fibers serve as a lasing medium with the power needed to produce an intense beam of light, and can be gain-switched to pulse at a variety of frequencies. The produced laser light, which can be converted to a number of wavelengths, can be easily tapped and routed via optical fibers or mirrors to a number of turrets on a ship, eliminating the need for the heavy lasing generator to be anywhere near the turret itself."
-	description "	The wavelength of light produced in the coil can altered by swapping the diodes and fiber dopants, allowing the Optical Lasing Generator to support up to three Green Optical Lasers or a single Blue Optical Laser."
+	description "一块巨大的单片半导体二极管被用于高效泵浦一卷掺杂光纤。这些盘绕的光纤长达数百公里，作为激光介质提供产生强光束所需的功率，并可通过增益开关以多种频率进行脉冲输出。产生的激光可转换为多种波长，能通过光纤或反射镜轻松分接并传导至舰船上的多个炮塔，从而无需将沉重的激光发生器安装在炮塔附近。"
+	description "	线圈中产生的光波长可以通过更换二极管和光纤掺杂物来改变，从而使得光学激光发生器能够支持最多三个绿色光学激光器或一个蓝色光学激光器。"
 
 
 outfit "Green Optical Laser"
@@ -199,8 +199,8 @@ outfit "Green Optical Laser"
 		"lifetime" 1
 		"firing energy" 3
 		"firing heat" 6
-	description "This lightweight turret can be fed a beam of light from a lasing generator, which is then combined and focused to produce an intense beam suitable for targeting and destroying missiles. Unlike a typical pulsed-shot human antimissile system, this turret's precise optics seems designed to hold a beam on target at an extreme distance for a longer period of time, making it better suited for defending and supporting other ships from afar."
-	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator is needed to run this turret, providing enough power to support three Green Lasers."
+	description "这款轻量炮塔可接收来自激光发生器的一束光，并将其合并聚焦，形成适合瞄准并摧毁导弹的强光束。与典型的人类脉冲式反导系统不同，这款炮塔的精密光学器件设计用于在极远距离上长时间保持光束对准目标，从而更适合从远处防御和支援其他舰船。"
+	description "	该炮塔本身仅包含合成、聚焦和瞄准光束所需的光学器件，激光的产生则在别处完成。因此，运行此炮塔需要一台光学激光发生器，为其提供足以支撑三门绿色激光器的能量。"
 
 effect "green laser glare"
 	sprite "effect/green optical laser glare"
@@ -261,8 +261,8 @@ outfit "Blue Optical Laser"
 		"heat damage" 6
 		"damage dropoff" 0 1500
 		"dropoff modifier" 0
-	description "This lightweight turret can be fed a beam of light from a lasing generator, which is then combined and focused to produce an intense beam ideal for damaging other ships. By pulsing thousands of times each second, the beam can create thermal and mechanical shocks in the target material, enhancing its ability to drill through armor. Unlike the advanced beam weapons used by some other species, this laser is subject to the effects of diffraction, causing its damage to become less intense with distance while also rendering it invisible. However, precise optics allow the beam to be targeted from an exceptional range, despite the tenuous damage at the edge of the laser's reach."
-	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator is needed to run this turret, providing enough power to support a single Blue Laser."
+	description "这款轻量型炮塔可由激光发生器馈入光束，经合束与聚焦后产生强光束，非常适合损伤其他舰船。通过每秒数千次的脉冲，光束可在目标材料中产生热冲击与机械冲击，增强其穿透装甲的能力。与其他种族使用的先进光束武器不同，本激光器受衍射效应影响，导致其伤害随距离增大而衰减，同时光束本身不可见。然而，精密光学系统使其能在极远距离上瞄准目标，尽管在激光射程边缘伤害已十分微弱。"
+	description "	炮塔本身仅包含合成、聚焦和瞄准光束所需的光学组件，激光光源在别处产生。因此，此炮塔需要配备一台光学激光发生器，以提供足够能量支持单个蓝色激光。"
 
 effect "blue laser glare"
 	sprite "effect/blue optical laser glare"
@@ -528,7 +528,7 @@ outfit "External Launch Rail"
 		"range override" 600
 		"stream"
 		"submunition" "Ophrys Terminal"
-	description "This pylon externally mounts a single torpedo, employing a small electromagnetic catapult to fling its payload towards a nearby target."
+	description "这个挂架可外挂一枚鱼雷，利用小型电磁弹射器将弹头抛射向附近的敌人。"
 
 
 outfit "External Launch Tube"
@@ -567,11 +567,11 @@ outfit "External Launch Tube"
 		"missile strength" 18
 		"stream"
 		"submunition" "Orchid Active"
-	description "This is a large launcher capable of carrying and deploying large torch-driven missiles and torpedoes. With a standardized design, it is compatible with a wide range of Avgi torch missiles. A coilgun-based ejection system allows missiles to be deployed with considerable initial velocity."
+	description "这是一个大型发射器，能够携带并部署大型火炬驱动导弹和鱼雷。采用标准化设计，兼容多种阿夫吉火炬导弹。基于线圈炮的弹射系统可使导弹以相当高的初速度发射。"
 
 
 outfit "Tiny VLS"
-	"display name" "Vertical Launch Array (9)"
+	"display name" "垂直发射阵列 (9)"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 07030
@@ -610,12 +610,12 @@ outfit "Tiny VLS"
 			"throttle control"
 		"missile strength" 9
 		"submunition" "Nettle Active"
-	description "This tiny vertical launch system contains nine independent launch cells, each occupying one ton of outfit space. Compatible with small-to-medium Avgi missiles, the cells' contents can be easily swapped to suit a given mission. This array's compact footprint makes it suitable for drones and fighters, though the system still requires a turret mount."
-	description "	Vertical launch systems enable rapid and versatile missile deployment, but as dual launchers and magazines, no separate missile storage is available."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "这个微型垂直发射系统包含九个独立发射单元，每个单元占用一吨装备空间。兼容中小型阿夫吉导弹，发射单元内的导弹可轻松更换以适应当前任务。该阵列紧凑的占地面积使其适用于无人机和战斗机，不过该系统仍需炮塔安装座。"
+	description "	垂直发射系统可实现快速、多样的导弹部署，但由于其兼作发射器和弹仓，因此无法提供独立的导弹存储空间。"
+	description "	该武器的弹药可在任何装备商处补充。"
 
 outfit "Small VLS"
-	"display name" "Vertical Launch Array (18)"
+	"display name" "垂直发射阵列 (18)"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 07031
@@ -654,12 +654,12 @@ outfit "Small VLS"
 			"throttle control"
 		"missile strength" 9
 		"submunition" "Nettle Active"
-	description "This small vertical launch system contains 18 independent launch cells in a rectangular array. Designed for flexibility, the system can employ a variety of small or medium-sized missiles. Owing to its large surface footprint, a turret mount is required for the launcher to deploy missiles safely."
-	description "	Vertical launch systems enable rapid and versatile missile deployment, but as dual launchers and magazines, no separate missile storage is available."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "这个小型垂直发射系统包含18个呈矩形阵列排列的独立发射单元。该系统专为灵活性而设计，可使用多种中小型导弹。由于占用表面积较大，发射器需要一个炮塔挂点才能安全发射导弹。"
+	description "	垂直发射系统可实现快速、多样的导弹部署，但由于其兼作发射器和弹仓，因此无法提供独立的导弹存储空间。"
+	description "	该武器的弹药可在任何装备商处补充。"
 
 outfit "Medium VLS"
-	"display name" "Vertical Launch Array (36)"
+	"display name" "垂直发射阵列 (36)"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 07032
@@ -698,9 +698,9 @@ outfit "Medium VLS"
 			"throttle control"
 		"missile strength" 9
 		"submunition" "Nettle Active"
-	description "This medium vertical launch system contains 36 independent launch cells arrayed in parallel. A wide variety of small to mid-sized Avgi missiles are compatible with the launch cells, which can be easily interchanged. Designed for swift vertical cold-launch, the system needs an open space comparable to a turret mount to function properly."
-	description "	Vertical launch systems enable rapid and versatile missile deployment, but as dual launchers and magazines, no separate missile storage is available."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "这个中型垂直发射系统包含36个平行排列的独立发射单元。其发射单元可兼容多种中小型阿夫吉导弹，并可轻松互换。该系统专为快速垂直冷发射而设计，需要相当于一个炮塔挂点的开阔空间才能正常运作。"
+	description "	垂直发射系统可实现快速、多样的导弹部署，但由于其兼作发射器和弹仓，因此无法提供独立的导弹存储空间。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -713,8 +713,8 @@ outfit `"Nettle" KKV`
 	thumbnail "outfit/nettle kkv"
 	"mass" 0.15
 	"nettle capacity" -1
-	description "The Nettle missile is a cheap, single-stage kinetic kill vehicle designed for situations where a nuclear warhead would be unnecessary. Little more than a payload of tungsten rods, an octaazacubane thruster package, and a nose mounted sensor array, they can be manufactured in bulk at minimal cost. Upon closing in on a target, the missile unwraps into dozens of thin tungsten rods to create a cone-shaped area of effect. While only a fraction of the payload actually impacts a target, the cloud of projectiles is difficult to completely eliminate."
-	description "	The Nettle KKV is ammunition for the Vertical Launch Array; without a Vertical Launch Array to store them in you cannot purchase or use Nettle KKVs."
+	description "“荨麻”导弹是一种廉价的单级动能杀伤器，专为无需使用核弹头的场合而设计。它基本上仅由钨棒载荷、八氮杂立方烷推进包以及头部传感器阵列构成，能够以极低成本批量生产。接近目标时，导弹会展开成数十根细钨棒，形成锥形杀伤区域。虽然只有一小部分载荷能实际击中目标，但这种散布的弹丸极难被完全拦截。"
+	description "	“荨麻”动能杀伤弹是垂直发射阵列的弹药；如果没有可供容纳它们的垂直发射阵列，你就无法购买或使用“荨麻”动能杀伤弹。"
 
 
 outfit "Nettle Active"
@@ -739,7 +739,7 @@ outfit "Nettle Active"
 		"submunition" "Nettle Flecks" 18
 
 outfit "Nettle Flecks"
-	plural "Nettle Flecks"
+	plural "荨麻碎片"
 	weapon
 		sprite "projectile/fleck"
 			"frame rate" 15
@@ -798,9 +798,9 @@ outfit `"Orchid" Nuclear Missile`
 	thumbnail "outfit/orchid missile"
 	"mass" 9
 	"orchid capacity" -1
-	description "Unlike humanity, the Avgi do not have a strong taboo against the use of nuclear weapons in space. To them, nuclear weapons are simply another tool, albeit one with a particularly high energy density, to be used when the occasion calls for it. They have been the Avgi's trump card against the Aberrant, the one weapon they have capable of reliably breaking their advanced shields and atomizing their armor."
-	description "	This particular missile carries a powerful thermonuclear warhead, a staged device with a far higher yield to weight ratio than anything humanity has developed. It seems to be the product of centuries of development of nuclear devices, as opposed to humanity's long abstention from nuclear weapons research."
-	description "	The Orchid Missile is ammunition for the External Launch Tube; without a External Launch Tube to store them in you cannot purchase or use Orchid Missiles."
+	description "与人类不同，阿夫吉人并不强烈忌讳在太空中使用核武器。对他们而言，核武器只是另一种工具——虽然其能量密度极高——在需要时便可使用。核武器一直是阿夫吉人对抗异变体的王牌，是他们唯一能够可靠击破其先进护盾并分解其装甲的武器。"
+	description "	这种导弹携带了一枚强大的热核弹头，这是一种分级式装置，其当量重量比远超人类开发的任何武器。它似乎是核装置经过数百年发展的产物，与人类长期放弃核武器研究形成了鲜明对比。"
+	description "	“兰花”核导弹是外部发射管的弹药；如果没有可供存放它们的外部发射管，你就无法购买或使用“兰花”核导弹。"
 
 
 outfit "Orchid Active"
@@ -946,9 +946,9 @@ outfit `"Ophrys" Nuclear Torpedo`
 	thumbnail "outfit/ophrys torpedo"
 	"mass" 3
 	"ophrys capacity" -1
-	description "The Ophrys is a minimally-guided nuclear torpedo derived from the Orchid Nuclear Missile. Little more than the Orchid's terminal stage with a layer of ablative armor added to the front, it allows even small drones to pose a credible threat to a capital warship."
-	description "	Unlike the nuclear missiles employed by the Avgi, the Ophrys carries only enough propellant to make small adjustments to its trajectory. It instead relies on the speed of the bomber carrying it, trading an independent propulsive capability for enough armor to improve the odds of surviving antimissile fire during its terminal path."
-	description "	The Ophrys Torpedo is ammunition for the External Launch Rail; without an External Launch Rail or Ophrys Stockpile to store them in you cannot purchase or use Ophrys Torpedoes."
+	description "“蜂兰”是一种衍生自“兰花”核导弹的轻度制导核鱼雷。它基本上仅仅是在“兰花”的末端级前端增加了一层烧蚀装甲，但这已足够让小型无人机对主力战舰构成实质性威胁。"
+	description "	与阿夫吉使用的核导弹不同，“蜂兰”只携带了足以微调其弹道的少量推进剂。它转而依赖搭载它的轰炸机所提供的速度，以牺牲独立的自主推进能力为代价，换取更强的装甲来提升其在末段弹道中抵御反导弹火力的生存几率。"
+	description "	“蜂兰”鱼雷是外部发射导轨的弹药；如果没有外部发射导轨或“奥弗里斯”储备来存放它们，你就无法购买或使用“蜂兰”鱼雷。"
 
 
 outfit "Ophrys Stockpile"
@@ -965,8 +965,8 @@ outfit "Ophrys Stockpile"
 	"required crew" 3
 	"ophrys capacity" 12
 	ammo `"Ophrys" Nuclear Torpedo`
-	description "This remotely operated reloading bay, intended for use on carriers, can quickly replenish a docked fighter or drone with Ophrys Torpedoes. A generous stockpile of torpedoes allows a carrier to support multiple sorties before needing to resupply."
-	description "	The restocking system requires oversight by a small team of specialists to ensure no accidents occur during the loading process."
+	description "这个远程装填舱专为航空母舰设计，能快速为对接的战斗机或无人机补充“蜂兰”鱼雷。充足的鱼雷储备使得航空母舰在需要补给前可支持多次出击。"
+	description "	重新装填系统需要由一小队专家进行监督，以确保在装弹过程中不会发生意外。"
 
 
 outfit "Ophrys Terminal"

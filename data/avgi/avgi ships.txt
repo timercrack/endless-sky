@@ -117,13 +117,13 @@ ship "Koryfi"
 	explode "medium explosion" 9
 	"final explode" "final explosion medium"
 
-	description "The Koryfi is a light passenger transport whose basic design predates the invention of the hyperdrive. Originally restricted to intrasystem travel, its spin gravity system ensured a comfortable voyage for passengers long before the development of gravity plating. Today, it is a popular choice among independent captains for its high maintainability and ample living space, with many using them as permanent homes."
-	description "	Enterprising captains often exploit the commonality of the Koryfi and Avlaki designs, swapping out the modular centrifuge for a set of standard cargo containers."
-	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Koryfi's constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
+	description "Koryfi 是一种轻型客运飞船，其基本设计早于超光速引擎的发明。最初仅限于恒星系内航行，其自旋重力系统在重力甲板问世之前便为乘客提供了舒适的航程。如今，因其高可维护性和宽敞的居住空间，它成为许多独立船长的热门选择，不少人将其作为永久居所。"
+	description "	富有进取心的船长们常常利用 Koryfi 与 Avlaki 两款设计的共通性，将模块化离心机替换为一套标准货柜。"
+	description "	虽说其标准配备的磁等离子动力推进器提供的加速度只能勉强称作迟缓，但 Koryfi 的持续推力飞行模式使其在时间充足的情况下，依然能达到令人瞩目的巡航速度。"
 
 
 ship "Melodikos"
-	plural "Melodikos"
+	plural "梅洛迪科斯级"
 	sprite "ship/avgi melodikos/melodikos"
 		"frame rate" 30
 	thumbnail "thumbnail/avgi melodikos"
@@ -263,9 +263,9 @@ ship "Melodikos"
 	explode "medium explosion" 15
 	"final explode" "final explosion large"
 
-	description "The Melodikos is a large passenger transport built around a similar propulsion and structural frame as the Koryfi and Avlaki, but with a vastly enlarged solar array, as well as a spacious centrifuge habitat. Once used as an interplanetary cycler, it is now used for mass transit between the stars."
-	description "	While not as modular as the Koryfi and Avlaki designs, the Melodikos shares the same solar array and structural frame as the Harmonikos. Refits to swap the centrifuge for a set of cargo pods are uncommon due to the work involved, but still possible."
-	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Melodikos' constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
+	description "Melodikos 是一艘大型客运飞船，其推进系统与结构框架与 Koryfi 和 Avlaki 类似，但配备了大幅扩大的太阳能阵列以及宽敞的离心居住舱。它曾用作行星际循环飞船，如今则用于恒星间的大规模客运。"
+	description "	虽然模块化程度不及穹顶级与槽渠级，但旋律级与和谐级采用了相同的太阳能电池阵列与结构框架。因改装工序繁琐，将离心舱替换为一组货运吊舱的做法虽不多见，但依然可行。"
+	description "	虽说其标准配备的磁等离子动力推进器提供的加速度只能勉强称作迟缓，但 Melodikos 的持续推力飞行模式使其在时间充足的情况下，依然能达到令人瞩目的巡航速度。"
 
 
 # Freighters
@@ -372,13 +372,13 @@ ship "Avlaki"
 	explode "medium explosion" 9
 	"final explode" "final explosion medium"
 
-	description "The Avlaki is a mid-sized freighter loosely descended from a pre-hyperdrive solar-electric tug design. Its low cost and renowned maintainability has enabled it to remain in service to this day, and is a popular choice among independent captains."
-	description "	Enterprising captains often exploit the commonality of the Koryfi and Avlaki designs, swapping out the standard cargo containers for a centrifuge habitat."
-	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Avlaki's constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
+	description "Avlaki 是一艘中型货船，其设计大致源自超空间引擎出现之前的太阳能电力拖船。其低廉的成本和著名的易维护性使其服役至今，并成为独立船长们的热门选择。"
+	description "	精明的船长常常利用 Koryfi 和 Avlaki 在设计上的共通性，将标准货柜替换为离心居住舱。"
+	description "	虽说其标准配备的磁等离子动力推进器提供的加速度只能勉强称作迟缓，但 Avlaki 的持续推力飞行模式使其在时间充足的情况下，依然能达到令人瞩目的巡航速度。"
 
 
 ship "Harmonikos"
-	plural "Harmonikos"
+	plural "哈莫尼科斯级"
 	sprite "ship/avgi harmonikos"
 		"frame rate" 30
 	thumbnail "thumbnail/avgi harmonikos"
@@ -517,13 +517,13 @@ ship "Harmonikos"
 	explode "medium explosion" 15
 	"final explode" "final explosion large"
 
-	description "The Harmonikos is a large freighter built around a similar propulsion and structural frame as the Koryfi and Avlaki, but with a vastly enlarged solar array, as well as a huge assembly of cargo modules towed behind the main truss. Once used as an interplanetary bulk freighter, it is now used for shipping cargo between the stars."
-	description "	While not as modular as the Koryfi and Avlaki designs, the Harmonikos shares the same solar array and structural frame as the Melodikos. Its generous cargo space is occasionally seen filled with equipment and bunks to create an ad-hoc passenger transport, albeit one lacking the artificial gravity of the Melodikos."
-	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Harmonikos' constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
+	description "Harmonikos 是一艘大型货船，其推进系统和结构框架与 Koryfi 和 Avlaki 类似，但配备了大幅扩大的太阳能阵列，并在主桁架后方拖曳着庞大的货舱模块组件。它曾是一艘行星际大宗货船，现在则用于恒星间的货物运输。"
+	description "	虽然不及 Koryfi 和 Avlaki 系列那样模块化，Harmonikos 却与 Melodikos 共享相同的太阳能阵列和结构框架。其宽敞的货舱偶尔会放满设备和床铺，临时改作客运用途，不过缺少了 Melodikos 的人工重力系统。"
+	description "	虽说其标准配备的磁等离子动力推进器提供的加速度只能勉强称作迟缓，但 Harmonikos 的持续推力飞行模式使其在时间充足的情况下，依然能达到令人瞩目的巡航速度。"
 
 
 ship "Phononos"
-	plural "Phononos"
+	plural "福诺诺斯级"
 	sprite "ship/avgi phononos"
 	thumbnail "thumbnail/avgi phononos"
 	"administrative cost" 1
@@ -582,8 +582,8 @@ ship "Phononos"
 	leak "leak" 30 60
 	explode "tiny explosion" 12
 
-	description "This retrofit of a decommissioned Photikon is little more than a set of cargo pods joined to the front of the former torpedo bomber, with container mounts taking the place of the hardpoints and pylons usually used to mount weapons. An expanded internal tank to fuel a hyperdrive has been barely crammed into the ship, at the expense of other internal systems and armor. Because of this, the Phononos is quite vulnerable to Dissonance piracy or even Aberrant incursions, and is thus always found as part of a larger fleet convoy. Even still, as an automated freighter it experiences much higher accident and loss rates in deep space, a fact that has kept crewed vessels like the Avlaki competitive."
-	description "	The Phononos can carry an impressive amount of cargo with the same standardized containers used by the Avlaki and Harmonikos, which can be quickly swapped out at the destination for a set of empty ones without needing to unload them."
+	description "这款基于退役 Photikon 的改装飞船，不过是在前鱼雷轰炸机前方连接了一组货舱吊舱，用集装箱挂载点取代了通常用于安装武器的硬点和挂架。一个用于为超空间引擎提供燃料的扩容内部油箱被勉强塞进飞船，牺牲了其他内部系统和装甲。正因如此，Phononos 极易受到不谐海盗甚至异变体入侵的威胁，因此总是作为更大护航舰队的一部分出现。即便如此，作为一艘自动货船，它在深空中的事故和损失率依然高得多，这一事实也让像 Avlaki 这样的载人飞船保持了竞争力。"
+	description "	Phononos 能够搭载数量可观的货物。它使用与 Avlaki 和 Harmonikos 相同的标准化货柜，这些货柜在抵达目的地后可以迅速换成一组空货柜，而无需现场卸下原有货物。"
 
 
 ship "Frequentia"
@@ -655,7 +655,7 @@ ship "Frequentia"
 	explode "large explosion" 12
 	"final explode" "final explosion medium"
 
-	description "The Frequentia-class Freighter is most commonly found serving as a fuel tender for ships in larger fleets, taking advantage of its large and ungainly cargo receptacle to store enough cryogenic deuterium to satisfy a small fleet's needs during long journeys. While its spherical fuel tank can be drained and used to transport dry goods and cargo, the cargo bay's notoriously small access door makes loading anything that can't be moved with a pump an exquisitely painful process."
+	description "Frequentia 级货船最常见的用途是作为大型舰队的燃料补给船，利用其庞大而笨重的货舱储存大量低温氘，以满足小型舰队在长途航行中的需求。虽然可以排空其球形燃料箱来运输干货，但货舱入口出了名的小，这使得装卸任何无法用泵输送的货物都成为了极其痛苦的过程。"
 
 
 # Utility
@@ -742,8 +742,8 @@ ship "Polari"
 	explode "small explosion" 9
 	"final explode" "final explosion medium"
 
-	description "The Polari-class Scout is a legacy design that has managed to remain relevant in the current era by virtue of fulfilling a role historically not requiring much in the way of combat power. A specialized science ship, it is fitted with a spacious laboratory for analyzing samples and processing data, as well as an extensive suite of sensor arrays for recording observations. A pair of bays can deploy Optikon sensor drones, while an external mount is designed to hold an Akoustiki Excursion Vehicle for piloted sample gathering operations."
-	description "	Despite this versatility, the contested battlespace of the post-Incursion Avgi cluster is one in which the Polari is simply not as capable in. As science crews are increasingly asked to lead risky scouting expeditions back to the Avgi homeworld, demands for a newer, more survivable science ship routinely make their way to the Twilight Guard."
+	description "Polari 级侦察舰是一款传统设计，由于其所承担的角色历来不需要太多战斗力，因此能在当前时代依然保持实用性。作为一艘专业科学舰，它配备了宽敞的实验室用于分析样本和处理数据，以及一套广泛的传感器阵列用于记录观测结果。两个舱室可以部署 Optikon 传感器无人机，同时一个外部挂载点设计用于携带声学号漫游艇，以进行有人驾驶的样本采集操作。"
+	description "	尽管拥有这种多用途性，但在入侵事件后阿夫吉星团充满争议的战场上，Polari 显然无法胜任。随着科研团队越来越多地被要求带领高风险的侦察探险队返回阿夫吉母星，要求配备一艘更新、生存能力更强的科研船的呼声不断传到暮光卫队那里。"
 
 
 ship "Entasi"
@@ -881,8 +881,8 @@ ship "Entasi"
 	explode "medium explosion" 9
 	"final explode" "final explosion large"
 
-	description "The Entasi is a mid-sized mining vessel, immediately recognizable by its pair of huge solar thermal generators. With the power and weapons capacity needed to support laser mining weapons, the Entasi is able to quickly and efficiently cut through asteroids, whose mineral contents can then be collected by the swarm of Sonikis cargo drones it can carry into an asteroid field."
-	description "	While somewhat fragile, the energy and space available to the Entasi can make it a potent warship with the right modifications. Rumors abound that certain Entasi captains sympathetic to the Dissonance movement maintain a stockpile of weapons for this very eventuality."
+	description "Entasi 是一艘中型采矿飞船，让人一眼就能认出它那一对巨大的太阳能热发电机。凭借支持激光采矿武器所需的动力和搭载能力，Entasi 能够快速高效地切割小行星，而它所携带的成群的 Sonikis 货运无人机可以进入小行星带采集其中的矿物。"
+	description "	虽然有些脆弱，但在适当改装下，Entasi 充沛的可用能量与空间能使其成为一艘强大的战舰。有传言称，某些同情不谐运动的 Entasi 船长正是为了应对这种情况而储备了一批武器。"
 
 
 ship "Undsyni"
@@ -987,9 +987,9 @@ ship "Undsyni"
 	explode "huge explosion" 9
 	"final explode" "final explosion large"
 
-	description "The Undsyni-class Auxiliary Freighter is not a flimsy bulk freighter, but rather one built to be large and strong enough to hold its own against attacks from smaller, more militarized vessels. While not quite as payload efficient as more spindly ships such as the Avlaki and Harmonikos, the Undsyni's resilience makes it much more survivable against attacks, with its fusion torch giving it the acceleration to both evade enemies and minimize travel times."
-	description "	Even before the Incursion, the Undsyni's strong hull and internal outfit capacity made it a popular option as a capital ship for renegade groups who could not gain access to specialized warships."
-	description "	A reinforced spine running the length of the ship allows it to fit a huge Plasmadyne Scoop, capable of bearing the extreme stresses the plasma magnet's field inflicts on its superconducting magnets. In this configuration, a tanker Undsyni can supply the fuel needs of an entire fleetgroup across dozens of systems."
+	description "Undsyni 级辅助货船并非脆弱的散装货船，而是造得足够庞大且坚固，能够抵御来自更小、更具军事化舰船的攻击。虽然它的有效载荷效率不如 Avlaki 和 Harmonikos 等更纤细的舰船，但 Undsyni 的韧性使其在遭受攻击时的生存能力更强，其聚变火炬提供的加速度既能让它规避敌人，也能缩短航行时间。"
+	description "	即使在入侵事件发生前，Undsyni 坚固的船体和充足的内部装备容量也使其成为了无法获得专业军舰的叛军团体的热门主力舰之选。"
+	description "	贯穿船身的强化脊柱使其能安装巨大的等离子动力收集器，该收集器能够承受等离子磁场对超导磁体施加的极端应力。在这种配置下，一艘 Undsyni 油轮可以跨越数十个星系，为整支舰队提供燃料。"
 
 
 ship "Undsyni" "Undsyni (Tanker)"
@@ -1184,14 +1184,14 @@ ship "Modified Tachytia"
 	"final explode" "nuke explosion" 6
 	"final explode" "nuke residue fast" 90
 
-	description "This was once an Avgi sublight starship, one of the last models built before the discovery of the hyperdrive. Most starships around this period used ram-augmented fusion drives to reach cruising speeds of up to 0.25c, but the Tachytia class was designed to reach a velocity of 0.4c with an antimatter fuel source to ignite propellant gathered with its huge ramscoop."
-	description "	This particular ship was never launched on its mission, commissioned just before the hyperdrive made it obsolete. Now, it has been extensively modified by removing many of its propellant tanks, replacing them with a hyperdrive, additional equipment spaces, and several docking bays. The cryosleep bay has also been substituted for spacious habitatation cylinders, making this a true city ship."
+	description "这曾经是一艘阿夫吉亚光速星际飞船，是在超空间引擎发现之前建造的最后一批型号之一。这一时期的多数星际飞船使用冲压增强聚变引擎以达到高达 0.25c 的巡航速度，但 Tachytia 级的设计是使用反物质燃料来点燃其巨大冲压进气口收集的推进剂，从而达到 0.4c 的速度。"
+	description "	这艘特定的飞船从未执行过任务，刚造好就被超空间引擎的出现淘汰了。如今，它经历了大规模改装：许多推进剂储罐被拆除，取而代之的是超空间引擎、额外的设备空间以及数个对接舱。低温休眠舱也被替换为宽敞的圆柱形居住舱，使其成为一座真正的城市飞船。"
 
 
 # Interceptors
 
 ship "Tremoros"
-	plural "Tremoros"
+	plural "特雷莫罗斯"
 	sprite "ship/avgi tremoros"
 	thumbnail "thumbnail/avgi tremoros"
 	"administrative cost" 1
@@ -1260,14 +1260,14 @@ ship "Tremoros"
 	explode "small explosion" 9
 	"final explode" "final explosion small"
 
-	description "The Tremoros-class Interceptor is a small autonomous ship designed to support patrol and interdiction missions. Derived from a transatmospheric hypersonic fighter, it is capable of dual operations in both space and planetary atmospheres. With an emphasis on raw acceleration, it can rocket past any adversary even as it brings its guns to bear, making it exceedingly difficult to hit."
-	description "	The Tremoros has also seen use as an escort for smaller merchant convoys, with the ability to intercept any enemies that might pose a threat before they can come within range of vulnerable civilian ships."
+	description "Tremoros 级拦截机是一种小型自主飞船，旨在支援巡逻与拦截任务。它源自跨大气层高超音速战斗机，能够在太空与行星大气层中双重作战。它专注于纯粹的加速度，即便在开火时也能疾驰超越任何对手，使其极难被击中。"
+	description "	Tremoros 还被用作小型商船队的护卫舰，能够在任何可能构成威胁的敌人进入脆弱民用飞船的射程前将其拦截。"
 
 
 # Light Warships
 
 ship "Prismaios"
-	plural "Prismaios"
+	plural "棱晶号"
 	sprite "ship/avgi prismaios"
 	thumbnail "thumbnail/avgi prismaios"
 	"administrative cost" 2
@@ -1353,7 +1353,7 @@ ship "Prismaios"
 	explode "medium explosion" 15
 	"final explode" "final explosion medium"
 
-	description "The Prismaios-class Frigate is a recent, streamlined design, praised by many Twilight Guard captains as a highly successful addition to Avgi strike fleets. New construction techniques allow for unprecedented gains in structural integrity for such a lightweight frame, allowing the frigate to serve on the front lines against the Aberrant as a fast, versatile, multi-role warship."
+	description "棱晶号护卫舰是一款近期设计的流线型战舰，被许多暮光卫队舰长誉为阿夫吉打击舰队中极具功用的新锐战力。全新的建造工艺为这种轻量化框架带来了前所未有的结构完整性提升，让这艘护卫舰能够作为一艘快速、多功能的多用途战舰，在对抗异变体的前线服役。"
 
 
 ship "Prismaios" "Prismaios (Laserstar)"
@@ -1412,7 +1412,7 @@ ship "Prismaios" "Prismaios (Orchid)"
 
 
 ship "Interferos"
-	plural "Interferos"
+	plural "因特菲罗斯"
 	sprite "ship/avgi interferos"
 	thumbnail "thumbnail/avgi interferos"
 	"administrative cost" 1
@@ -1495,7 +1495,7 @@ ship "Interferos"
 	explode "medium explosion" 6
 	"final explode" "final explosion medium"
 
-	description "The Interferos-class Frigate is an autonomous support ship, designed to be easy to build and disposable enough for mass production. To free up frontline warships from having to escort merchant convoys in the Tangles, the Consonance commissioned this design with the intent of licensing its sale to independent merchant captains. It has since become popular due to its impressively large armament, though its attrition rates leave something to be desired."
+	description "干扰者级护卫舰是一型自主支援舰船，设计上强调易于建造且成本低廉，足以进行量产。为了将前线战舰从护送商人船队穿越缠结区的任务中解放出来，谐律议会委托设计了这一型号，并计划将其销售许可授予独立商人船长。自问世以来，它因其惊人的强大火力而广受欢迎，尽管其损耗率尚有待改善。"
 
 
 ship "Interferos" "Interferos (KKV)"
@@ -1663,7 +1663,7 @@ ship "Diaspersi"
 	explode "large explosion" 9
 	"final explode" "final explosion medium"
 
-	description "The Diaspersi-class Escort Carrier is a light carrier capable of providing carrier operations support to smaller fleets, while also being capable of independent strike missions with minimal support. Seen escorting large merchant convoys and small Guard fleets alike, the Diaspersi can support two wings of combat drones as well as a single wing of larger fighters."
+	description "色散号护航航母是一种轻型航母，能够为较小的舰队提供航母作战支援，同时也能够在最小限度的支援下执行独立打击任务。无论在护送大型商船队还是小型警卫舰队时都很常见，色散号可以搭载两支战斗无人机中队以及一支大型战斗机中队。"
 
 
 ship "Diaspersi" "Diaspersi (Orchid)"
@@ -1729,7 +1729,7 @@ ship "Diaspersi" "Diaspersi (UREB)"
 
 
 ship "Refraktos"
-	plural "Refraktos"
+	plural "折射号"
 	sprite "ship/avgi refraktos"
 	thumbnail "thumbnail/avgi refraktos"
 	"administrative cost" 4
@@ -1827,9 +1827,9 @@ ship "Refraktos"
 	explode "large explosion" 6
 	"final explode" "final explosion medium"
 
-	description "The Refraktos-class Laserstar is a relatively recent, post-Diaspora destroyer design with a single focus: directed energy weapons. While its armor and shielding systems are light for its size, its expansive radiators can support the thermal loads of a staggering array of laser weapons, both offensive and defensive, allowing it to destroy both missiles and small ships from a vast distance."
-	description "	A long truss running the length of the ship is built to fit an impressively large mirror-cell fusion torch, giving the Refraktos the mobility needed to evade opponents until they are reduced to hot vapor."
-	description "	Due to the anemic damage output of Avgi laser weapons compared to their kinetic weapons and missiles, the Refraktos is most often seen in a support role, providing antimissile coverage to entire fleets."
+	description "折射号级激光星是一种相对较新的、大流散后的驱逐舰设计，其唯一专注之处便是定向能武器。尽管就体型而言，它的装甲与护盾系统偏轻，但庞大的散热器足以支撑数量惊人的激光武器阵列所产生的热负荷——这些激光武器兼具攻防能力，使其能在极远距离上摧毁导弹和小型飞船。"
+	description "	贯穿船身的长桁架用于安装一面极其巨大的镜面电池聚变火炬，赋予了折射号所需的机动性，使其能闪避对手，直至将对手化为高温蒸汽。"
+	description "	由于阿夫吉的激光武器相较于其动能武器和导弹而言伤害输出偏低，折射号最常承担支援角色，为整支舰队提供反导弹覆盖。"
 
 
 ship "Refraktos" "Refraktos (UREB)"
@@ -1891,7 +1891,7 @@ ship "Refraktos" "Refraktos (Excimer)"
 
 
 ship "Difraktos"
-	plural "Difraktos"
+	plural "衍射号"
 	sprite "ship/avgi difraktos"
 	thumbnail "thumbnail/avgi difraktos"
 	"administrative cost" 5
@@ -1999,7 +1999,7 @@ ship "Difraktos"
 	explode "large explosion" 12
 	"final explode" "final explosion large"
 
-	description "The Difraktos-class Cruiser is a versatile platform capable of serving in configurations from a high-performance kinetic weapon battlecruiser to a guided missile cruiser, or anything in between. Its powerful torch drive is used to push a heavily armored hull, rather than relying on speed, giving the Difraktos good survivability even in close-range brawls."
+	description "衍射号巡洋舰是一种多用途平台，能够配置成从高性能动能武器战列巡洋舰到导弹巡洋舰，或介于两者之间的任何形态。其强大的火炬引擎用于推动重装甲船体，而非依赖速度，使衍射号即使在近距离缠斗中也具有良好的生存能力。"
 
 
 ship "Difraktos" "Difraktos (KKV)"
@@ -2313,7 +2313,7 @@ ship "Atenuatia"
 	explode "huge explosion" 6
 	"final explode" "final explosion large"
 
-	description "The Atenuatia is an Avgi fleet carrier, a capital ship that makes up the centerpiece of their battlefleets. With six wings of combat drones and two wings of bombers, an Atenuatia can bring forth an astounding amount of firepower. Carrying this arsenal of fighters has its cost, however, and the Atenuatia can carry relatively few heavy weapons for its size."
+	description "衰减号是阿夫吉的舰队航母，作为其战斗舰队核心的旗舰。配备六个编队的战斗无人机和两个编队的轰炸机后，一艘衰减号能释放出惊人的火力。然而，搭载如此庞大的战机武库也代价不菲——相较于其体积，衰减号能携带的重型武器数量相当有限。"
 
 
 ship "Atenuatia" "Atenuatia (Orchid)"
@@ -2421,8 +2421,8 @@ ship "Akoustiki"
 	leak "leak" 30 60
 	explode "tiny explosion" 9
 
-	description "The Akoustiki Excursion Vehicle is a modern take on the utility pod, a small personal craft designed to aid in the maintenance and repair of a station, or a carrier vessel and its escorts. It is just as commonly seen flitting about the orbitals as it is servicing satellites or acting as a personal transport shuttle between stations and low gravity bodies. Recent advances in magnetoplasmadynamic engines have made it a capable mining craft as well, albeit one with little cargo space for ores."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "声学号漫游艇是对实用吊舱的现代诠释。这是一种小型个人飞船，旨在协助空间站、母舰及其护航编队的维护与修理工作。人们经常看到它在轨道设施间穿梭，维护卫星，或作为空间站与低重力天体之间的个人运输摆渡工具。磁等离子体动力引擎的最新进展使其也能胜任采矿任务，尽管其用于装载矿石的货舱空间极为有限。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 ship "Photikon"
@@ -2497,9 +2497,9 @@ ship "Photikon"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 
-	description "The Photikon Torpedo Bomber is the cornerstone of Avgi anti-ship carrier doctrine. While it is possible for a swarm of Vibratia and similar interdiction drones to engage capital ships, it is the Photikon that is capable of delivering the nuclear anti-ship munitions necessary to bring down the largest warships. By bringing a nuclear torpedo within close range, the payload has a higher chance of surviving enemy point defense weapons compared with standard missiles."
-	description "	Photikons are also often used as gun platforms, mounting a Speckle Turret instead of their standard armament of two Ophrys Torpedoes."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "Photikon 鱼雷轰炸机是阿夫吉反舰航母学说的基石。虽然一群 Vibratia 及其类似的拦截无人机也可以攻击主力舰，但只有 Photikon 能够投放摧毁最庞大军舰所需的核反舰弹药。通过将核鱼雷送至近距离，与标准导弹相比，该载荷有更高概率规避敌人的点防御武器。"
+	description "	光子级也常被用作炮火平台，安装一门斑点炮塔以取代其标配的两枚蜂兰鱼雷。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 ship "Photikon" "Photikon (KKV)"
@@ -2529,7 +2529,7 @@ ship "Photikon" "Photikon (Ophrys)"
 # Drones
 
 ship "Vibratia"
-	plural "Vibratia"
+	plural "维布拉提亚"
 	sprite "ship/avgi vibratia"
 	thumbnail "thumbnail/avgi vibratia"
 	"administrative cost" 0
@@ -2590,8 +2590,8 @@ ship "Vibratia"
 
 	explode "tiny explosion" 9
 
-	description "The Vibratia Interdictor is the primary Avgi strike fighter. While individually fragile, Vibratia are usually deployed in large swarms, and are agile enough to be surprisingly survivable even under heavy fire."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "Vibratia 拦截机是阿夫吉的主要打击战斗机。虽然单机脆弱，但 Vibratia 通常以大规模蜂群部署，且机动性极佳，即使在猛烈火力下也能展现出惊人的生存能力。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 
@@ -2662,9 +2662,9 @@ ship "Undulon"
 
 	explode "tiny explosion" 12
 
-	description "The Undulon Orbital Silo was first envisioned as a cheap static defense satellite, little more than a tube capable of storing and launching nuclear-tipped missiles. Over time, this specialization was broadened, and the modern line of Undulons is capable of both mounting a large fixed gun and carrying the energy supply needed to support it. Their mostly hollow construction provides a great deal of internal space for their size, but also makes the drone quite fragile."
-	description "	Undulons are usually seen defending critical planets and stations, ready to unload their atomic payloads on any hostile ships that jump into the system."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "“Undulon 轨道发射井”最初被构想为一种廉价的静态防御卫星，不过是一根能够储存和发射核弹头导弹的管子。随着时间的推移，这一专业化方向得到扩展，现代 Undulon 系列既能搭载大型固定炮，又能携带支撑其运作所需的能源供应。它们大多中空的构造在同等尺寸下提供了巨大的内部空间，但同时也使得这种无人机相当脆弱。"
+	description "	Undulon 通常被部署防守关键行星和空间站，随时准备向任何跃迁进入该星系的敌对飞船倾泻其原子载荷。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 ship "Optikon"
@@ -2713,12 +2713,12 @@ ship "Optikon"
 
 	explode "tiny explosion" 6
 
-	description "The Optikon Sensor Platform is the latest iteration of a long line of exploration probes developed shortly after the discovery of the hyperdrive. Previously, surveying star systems involved launching thousands of laser-propelled starwisp probes, no larger than a few hundred grams each. The hyperdrive turned this paradigm on its head, allowing the Avgi to build sizable probes designed to quickly map out newly accessible star systems. Over the decades, these gradually shrank as the duty of carrying them between star systems was offloaded onto dedicated exploration vessels, the precursors to the Polari-class Scout. This left the modern Optikon as a highly capable and deployable sensor platform, used in both scientific and combat information roles."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "Optikon 传感器平台是超光速引擎发现后不久开发的一系列探索探测器的最新型号。此前，考察恒星系需要发射数千个激光推进的星尘探测器，每个不到几百克。超光速引擎彻底颠覆了这一模式，使阿夫吉得以建造大型探测器，用于快速测绘新近可抵达的恒星系。几十年来，这些探测器逐渐缩小，因为在恒星系间运载它们的任务被移交给了专用的探索飞船——波拉里级侦察舰的前身。于是现代 Optikon 便成了一种功能强大且可部署的传感器平台，同时用于科学和战斗情报角色。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 ship "Sonikis"
-	plural "Sonikis"
+	plural "索尼基斯"
 	sprite "ship/avgi sonikis"
 	thumbnail "thumbnail/avgi sonikis"
 	"administrative cost" 0
@@ -2766,8 +2766,8 @@ ship "Sonikis"
 	leak "leak" 30 60
 	explode "tiny explosion" 9
 
-	description "The Sonikis Utility Drone was built as a cheap interorbital cargo drone, originally designed to carry modular cargo containers between stations and small moons. It is now commonly used by large freighters to assist in loading and unloading cargo, as well as to collect ores while asteroid mining."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "索尼基斯实用无人机被设计为一款廉价的轨道间货运无人机，最初用于在空间站和小型卫星之间运输模块化货柜。如今，它常被大型货船用于辅助装卸货物，以及在小行星采矿时收集矿石。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 ship "Sonikis" "Sonikis (Armed)"

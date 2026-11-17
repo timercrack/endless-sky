@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Archon"
-	noun "entity"
+	noun "实体"
 	sprite "ship/archon"
 		"frame rate" 0.87
 	thumbnail "thumbnail/archon"
@@ -94,7 +94,7 @@ ship "Archon"
 	turret -55 16 "Drak Distancer"
 	turret 55 16 "Drak Distancer"
 	"final explode" "archon a teleport"
-	description `The Archon's presence is chilling. The "ship" has an almost organic appearance, but your ship's scanners give you no discernible information on its construction. What exactly it is you do not know, but you can feel that it is powerful.`
+	description `执政官的存在令人不寒而栗。这艘“船”有着近乎有机体的外观，但你的飞船扫描仪无法获取任何关于其构造的可辨识信息。你并不确切知道它究竟是什么，但你能感受到它无比强大。`
 
 ship "Archon" "Archon B"
 	"never disabled"

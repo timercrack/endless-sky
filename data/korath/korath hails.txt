@@ -109,7 +109,7 @@ phrase "exile humanika: If you board us, we will win."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "exile humanika: insults"
 	phrase
@@ -170,8 +170,8 @@ phrase "exile mixed: bragging about tech"
 		"exile: [system] is snazzy" 7
 		"exile: [system] is better than yours" 4
 	word
-		"." 3
-		"!"
+		"愿意砸多少钱。" 3
+		"而战！"
 
 phrase "exile mixed: request for mercy"
 	phrase
@@ -185,18 +185,18 @@ phrase "exile mixed: request for mercy"
 
 phrase "exile humanika: You will lose this fight."
 	word
-		"Yu loose lif here."              # You [will] lose your life here. (mispronounced)
-		"Die yuu if no surendr."          # Die you if no surrender. (mispronounced)
-		"Wee wiiin yuu los if no cahgo."  # We [will] win [and] you [will] lose if [you give us] no cargo. (mispronounced)
-		"Yoo no gud fite so gif up."      # You are no good in a fight, so give up. (mispronounced)
+		"你在这里失去命。"              # You [will] lose your life here. (mispronounced)
+		"死你如果不投降。"          # Die you if no surrender. (mispronounced)
+		"我们赢你输如果没货物。"  # We [will] win [and] you [will] lose if [you give us] no cargo. (mispronounced)
+		"你不好打所以放弃。"      # You are no good in a fight, so give up. (mispronounced)
 
 
 phrase "exile humanika: Nobody can defeat the Korath."
 	word
-		"We Korath imotal!"     # We, the Korath, are immortal! (mispronounced)
-		"Korath flame stong."   # [The] Korath flame is strong. (mispronounced)
-		"Korath bove all."      # Korath [are] above all. (mispronounced)
-		"Foeva Korath!"         # The Korath will live forever! (mispronounced)
+		"俺们科拉斯不朽！"     # We, the Korath, are immortal! (mispronounced)
+		"科拉斯烈焰强。"   # [The] Korath flame is strong. (mispronounced)
+		"科拉斯凌驾万物。"      # Korath [are] above all. (mispronounced)
+		"科拉斯永恒！"         # The Korath will live forever! (mispronounced)
 
 phrase "exile: Exclamation!"
 	word
@@ -280,10 +280,10 @@ phrase "efreti: miscellaneous rambling"
 # two they heard before to say, "Don't gas us!"
 phrase "exile mixed: Please don't do terrible things to us while we are disabled."
 	word
-		"'uu shud" 3    # You should (mispronounced)
-		"Can hav" 3     # Can have (mispronounced)
-		"'oo wil" 3     # You will (mispronounced)
-		"Most yuu" 3    # Must you (mispronounced)
+		"请你" 3    # You should (mispronounced)
+		"能不能" 3     # Can have (mispronounced)
+		"希望你" 3     # You will (mispronounced)
+		"你必须" 3    # Must you (mispronounced)
 
 		"Ratami'"                # Please
 		"Asra 'olap"             # You should
@@ -292,10 +292,10 @@ phrase "exile mixed: Please don't do terrible things to us while we are disabled
 	word
 		" "
 	word
-		"'oo merve gas." 4  # no nerve gas (mispronounced)
-		"'o nerf gus." 4    # no nerve gas (mispronounced)
-		"no ga'as us." 4    # no gas us (mispronounced)
-		"nerf gas no." 4    # nerve gas no (mispronounced)
+		"别用神经毒气。" 4  # no nerve gas (mispronounced)
+		"不用神经毒气。" 4    # no nerve gas (mispronounced)
+		"不要毒害我们。" 4    # no gas us (mispronounced)
+		"绝不用神经毒气。" 4    # nerve gas no (mispronounced)
 
 		"ranrav rataron 'an jala'."       # do not use nerve gas.
 		"ranrav 'an ifat."                # do not gas us.
@@ -311,11 +311,11 @@ phrase "exile mixed: Please don't do terrible things to us while we are disabled
 
 phrase "exile humanika: If you board our ship, then"
 	word
-		"Yoo bored us"         # You board us (mispronounced)
-		"Board to"             # Board [us] to (mispronounced)
-		"Come'n onbod"         # Come in onboard (mispronounced)
-		"No you git unbod"     # No, you get onboard (mispronounced)
-		"Ova when boad"        # It will be over for you when you board us (mispronounced)
+		"你敢登船"         # You board us (mispronounced)
+		"硬要登船"             # Board [us] to (mispronounced)
+		"进来上船"         # Come in onboard (mispronounced)
+		"只要你敢上船"     # No, you get onboard (mispronounced)
+		"登船你就完蛋"        # It will be over for you when you board us (mispronounced)
 
 phrase "exile humanika: we will win the boarding mission"
 	word
@@ -345,7 +345,7 @@ phrase "exile humanika: Your ship sucks."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "exile humanika: We are better than you."
 	phrase
@@ -359,25 +359,25 @@ phrase "exile humanika: We are better than you."
 		"exile mixed:, you inferior beings"
 		"exile: empty phrase"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "exile humanika: Your ship or its contents or attributes"
 	word
-		"Yer ship"           # Your ship (mispronounced)
-		"Yoo"                # You (mispronounced)
-		"Yer injuns"         # Your engines (mispronounced)
-		"Yu wepuns"          # Your weapons (mispronounced)
-		"'oo gen'rator"      # Your [power] generator (mispronounced)
-		"Dem ship"           # Them ship (mispronounced)
+		"你的船"           # Your ship (mispronounced)
+		"你"                # You (mispronounced)
+		"你的引擎"         # Your engines (mispronounced)
+		"你的武器"          # Your weapons (mispronounced)
+		"你的发电机"      # Your [power] generator (mispronounced)
+		"那些船"           # Them ship (mispronounced)
 
 phrase "exile humanika: Our ship or its contents or attributes"
 	word
-		"Are ship"           # Our ship (mispronounced)
-		"Wee"                # We (mispronounced)
-		"Mi injuns"          # My engines (mispronounced)
-		"Oar wepuns"         # Our weapons (mispronounced)
-		"Ere pasa core"      # Our plasma core (mispronounced)
-		"Mi ship"            # My ship (mispronounced)
+		"俺们船"           # Our ship (mispronounced)
+		"俺们"                # We (mispronounced)
+		"俺的引擎"          # My engines (mispronounced)
+		"俺们武器"         # Our weapons (mispronounced)
+		"俺们等离子核"      # Our plasma core (mispronounced)
+		"俺的船"            # My ship (mispronounced)
 
 phrase "exile humanika: are sub-par by any reasonable standards"
 	word
@@ -403,9 +403,9 @@ phrase "exile humanika: are inferior to what we possess"
 
 phrase "exile humanika: are superior to what you possess"
 	word
-		"be'ren yurs"        # [is] better than yours (mispronounced)
-		"bigger yers"        # [is] bigger than yours (mispronounced)
-		"ston thin you"      # [is] stronger than [you|yours] (mispronounced)
+		"比你滴好"        # [is] better than yours (mispronounced)
+		"比你滴大"        # [is] bigger than yours (mispronounced)
+		"比你滴强"      # [is] stronger than [you|yours] (mispronounced)
 
 phrase "exile: empty phrase"
 	word
@@ -413,7 +413,7 @@ phrase "exile: empty phrase"
 
 phrase "exile mixed:, you inferior beings"
 	word
-		", "
+		"里，"
 	phrase
 		"exile humanika: you inferior beings"
 
@@ -456,26 +456,26 @@ phrase "exile humanika: You will give us [cargo] and we will let you live."
 
 phrase "exile humanika: You will give us"
 	word
-		"Can haf"                # Can have (mispronounced)
-		"Will haf"               # Will have (mispronounced)
-		"Gif us"                 # Give us (mispronounced)
-		"Tribu'e"                # Tribute (mispronounced, probably heard it from pirates)
-		"Wee taek yur"           # We take your (mispronounced)
-		"Is are"                 # Is our (mispronounced)
+		"能要"                # Can have (mispronounced)
+		"就要"               # Will have (mispronounced)
+		"给俺"                 # Give us (mispronounced)
+		"上贡"                # Tribute (mispronounced, probably heard it from pirates)
+		"俺们拿尔"           # We take your (mispronounced)
+		"归俺"                 # Is our (mispronounced)
 
 phrase "exile humanika: All of your"
 	word
-		"All yer"                # All your (mispronounced)
-		"Yor"                    # Your (mispronounced)
-		"Te"                     # The (mispronounced)
-		"A' of our"              # All of your (mispronounced)
+		"全部分尔等滴"                # All your (mispronounced)
+		"尔等滴"                    # Your (mispronounced)
+		"这些个"                     # The (mispronounced)
+		"吾等全部分滴"              # All of your (mispronounced)
 
 phrase "exile humanika: is ours now."
 	word
-		"blong to u'."           # belong to us (mispronounced)
-		"giv mine."              # give mine (mispronounced)
-		"arrr ows now."          # are ours now (mispronounced)
-		"ar ba'ong to us."       # are belong to us (mispronounced)
+		"是尔等滴。"           # belong to us (mispronounced)
+		"给吾。"              # give mine (mispronounced)
+		"阿啊，现归吾等。"          # are ours now (mispronounced)
+		"阿属吾等。"       # are belong to us (mispronounced)
 
 phrase "exile: You will give us"
 	word
@@ -599,7 +599,7 @@ phrase "exile humanika: non-luxury foodstuffs"
 		"starburries" 1       # strawberries (mispronounced)
 		"burds" 1             # birds (mispronounced)
 		"burries" 1           # berries (mispronounced)
-		"base" 1              # bass (mispronounced)
+		"卑劣下流的" 1              # bass (mispronounced)
 		"werms" 1             # worms (mispronounced)
 
 phrase "exile humanika: raw materials"
@@ -617,19 +617,19 @@ phrase "exile humanika: raw materials"
 
 phrase "exile humanika: tactical and strategic items"
 	word
-		"mapse of humanika spass"   # Maps of human space (mispronounced)
-		"tar maps"                  # Star maps (mispronounced)
-		"humanika flit moment dita" # Human fleet movement data (mispronounced)
-		"re' wermhol resurch"       # Red wormhole research (mispronounced)
-		"rad holl resurch"          # Red [worm]hole research (mispronounced)
-		"wermhol resurch"           # Wormhole research (mispronounced)
-		"sampil o humanika tetch"   # [Examples|Samples] of human technology (mispronounced)
-		"inernal govment docmants"  # internal government documents (mispronounced)
-		"humanika beakoff gupes"    # Information about human break-off groups (ie.: Remnant or Alphas) (mispronounced)
-		"medital resorch humanika"  # Medical research relating to humans. (Perhaps to keep captives alive, design bioweapons, or simple curiosity.) (mispronounced)
-		"nerf gus"                  # Nerve gas, probably to develop counter-measures. (mispronounced)
-		"all yer data"              # all [of] your data (mispronounced)
-		"'avigatun lugs"            # navigation logs (mispronounced)
+		"人类空间星图"   # Maps of human space (mispronounced)
+		"星图"                  # Star maps (mispronounced)
+		"人类舰队动向数据" # Human fleet movement data (mispronounced)
+		"红虫洞研究"       # Red wormhole research (mispronounced)
+		"红洞研究"          # Red [worm]hole research (mispronounced)
+		"虫洞研究"           # Wormhole research (mispronounced)
+		"人类技术样本"   # [Examples|Samples] of human technology (mispronounced)
+		"政府内部文件"  # internal government documents (mispronounced)
+		"人类分支派系资料"    # Information about human break-off groups (ie.: Remnant or Alphas) (mispronounced)
+		"人类医学研究"  # Medical research relating to humans. (Perhaps to keep captives alive, design bioweapons, or simple curiosity.) (mispronounced)
+		"神经毒气"                  # Nerve gas, probably to develop counter-measures. (mispronounced)
+		"尔等全部数据"              # all [of] your data (mispronounced)
+		"航行日志"            # navigation logs (mispronounced)
 
 
 # These show the Korath Exiles do still try to have a culture. All of
@@ -665,20 +665,20 @@ phrase "exile humanika: cultural items"
 # among the Korath that make them ask for this.
 phrase "exile humanika: strange items"
 	word
-		"Hoy a'orn cookees"                  # Hai acorn cookies (mispronounced)
-		"toilat pepper"                      # Toilet paper (mispronounced)
-		"geko"                               # Gecko (mispronounced)
-		"Sha'ls n Sheragi"                   # Shackles and Sheragi (mispronounced)
-		"Bondle' Fontre'z: tee Fire Lizards" # Boundless Frontiers: the Fire Lizards (mispronounced)
-		"Ter Mite Bee Riot Abums"            # There Might Be Riots Albums (mispronounced)
-		"How tu Serv Man buuk"               # The book, "How to Serve Man" (mispronounced)
-		"ganfadder clok"                     # grandfather clock (mispronounced)
-		"bored games"                        # board games (mispronounced)
-		"Dapdannel ay nenergy"               # Zapchannel Ray Energy (mispronounced)
-		"Woof, oat, and abbage"              # A wolf, a goat, and a cabbage (mispronounced)
-		"Oar Funzy Para-dice"                # "Our Fuzzy Paradise" TV series (mispronouced)
-		"rump of kowl"                       # A lump of coal (mispronounced)
-		"Three Keleton Knee Tone"            # Tree Skeleton Key Stone (mispronounced)
+		"海族橡果饼干"                  # Hai acorn cookies (mispronounced)
+		"卫生纸"                      # Toilet paper (mispronounced)
+		"壁虎"                               # Gecko (mispronounced)
+		"枷锁与谢拉吉"                   # Shackles and Sheragi (mispronounced)
+		"《无尽边疆：火蜥蜴》" # Boundless Frontiers: the Fire Lizards (mispronounced)
+		"《可能暴动》专辑"            # There Might Be Riots Albums (mispronounced)
+		"《如何服务人类》"               # The book, "How to Serve Man" (mispronounced)
+		"老爷钟"                     # grandfather clock (mispronounced)
+		"桌游"                        # board games (mispronounced)
+		"Zapchannel 射线能量"               # Zapchannel Ray Energy (mispronounced)
+		"狼、山羊与包心菜"              # A wolf, a goat, and a cabbage (mispronounced)
+		"《我们的毛绒天堂》"                # "Our Fuzzy Paradise" TV series (mispronouced)
+		"一块煤炭"                       # A lump of coal (mispronounced)
+		"树骨万能石"            # Tree Skeleton Key Stone (mispronounced)
 
 
 # The Exiles like to play other open source games. These are horribly
@@ -686,18 +686,18 @@ phrase "exile humanika: strange items"
 phrase "exile humanika: open source games"
 	word
 		"Nethick"                  # Nethack (mispronounced)
-		"Batfer Westnorth"         # Battle for Wesnoth (mispronounced)
-		"Komium Bee Essu"          # Chromium BSU (mispronounced)
+		"《韦诺之战》"         # Battle for Wesnoth (mispronounced)
+		"《Chromium B.S.U.（开源铬战机）》"          # Chromium BSU (mispronounced)
 		"Feedoid R Peegee"         # Freedroid RPG (mispronounced)
-		"Fee Rion"                 # Free Orion (mispronounced)
-		"Flea Civ"                 # Freeciv (mispronounced)
+		"《自由猎户座》"                 # Free Orion (mispronounced)
+		"《自由文明》"                 # Freeciv (mispronounced)
 		"Ehmmay Are Ess"           # M.A.R.S. (mispronounced)
-		"Hedgeworts"               # Hedgewars (mispronounced)
-		"Uppen Tee Tee Dee"        # Open TTD (mispronounced)
-		"Supper Tax Kert"          # SuperTuxKart (mispronounced)
+		"《刺猬大作战》"               # Hedgewars (mispronounced)
+		"《OpenTTD（开源运输大亨）》"        # Open TTD (mispronounced)
+		"《超级Tux赛车》"          # SuperTuxKart (mispronounced)
 		"Zero Add'ee"              # Zero AD (mispronounced)
 		"Nah Eve"                  # Naev (mispronounced)
-		"Pickle Dundun"            # Pixel Dungeon (mispronounced)
+		"《像素地牢》"            # Pixel Dungeon (mispronounced)
 		"2 pow 11"                 # 2048
 		"Hyperdrove"               # HyperRogue (mispronounced)
 		"Lu lan tee"               # Luanti (mispronounced)
@@ -988,8 +988,8 @@ phrase "exile: I do bad things to my enemies"
 	phrase
 		"exile: people who offend, attack, or oppress me"
 	word
-		"." 2
-		"!"
+		"愿意砸多少钱。" 2
+		"而战！"
 
 phrase "efreti: I do bad things to my enemies"
 	phrase
@@ -999,8 +999,8 @@ phrase "efreti: I do bad things to my enemies"
 	phrase
 		"efreti: people who offend, attack, or oppress me"
 	word
-		"." 2
-		"!"
+		"愿意砸多少钱。" 2
+		"而战！"
 
 phrase "exile: I perform harmful acts upon"
 	word
@@ -1168,7 +1168,7 @@ phrase "exile: I like to do things"
 		"exile: listen to (Band)"
 		"exile: eat good food"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "efreti: I like to do things"
 	phrase
@@ -1179,14 +1179,14 @@ phrase "efreti: I like to do things"
 		"efreti: listen to (Band)"
 		"efreti: eat good food"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "exile: I learned to do things"
 	phrase
 		"exile: To better myself"
 		"exile: For the community"
 	word
-		", "
+		"里，"
 	phrase
 		"exile: i learned | practiced | taught"
 	word
@@ -1195,14 +1195,14 @@ phrase "exile: I learned to do things"
 		"exile: artistic or musical skill"
 		"exile: practical skill"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "efreti: I learned to do things"
 	phrase
 		"efreti: To better myself"
 		"efreti: For the community"
 	word
-		", "
+		"里，"
 	phrase
 		"efreti: i learned | practiced | taught"
 	word
@@ -1211,7 +1211,7 @@ phrase "efreti: I learned to do things"
 		"efreti: artistic or musical skill"
 		"efreti: practical skill"
 	word
-		"."
+		"愿意砸多少钱。"
 
 phrase "exile: I like to"
 	word

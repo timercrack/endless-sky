@@ -22,20 +22,20 @@ news "high houses emissary"
 		not attributes "uninhabited"
 	name
 		word
-			"Emissary of a High House"
-			"Official of a High House"
-			"Agent of a High House"
-			"High House Emissary"
-			"High House Official"
-			"High House Agent"
+			"大家族使者"
+			"大家族官员"
+			"大家族特工"
+			"大家族使者"
+			"大家族官员"
+			"大家族特工"
 	message
 		word
 			`"`
 		word
-			"I hope thou has't enjoyed thy time amongst our people."
-			"The alien! Hath thou news from far in this endless sky?"
-			"Fair traveler, I've heard of thee. How must thy voyage weigh upon thy mind."
-			"Welcome to our space, honored alien. A pleasure 'tis to meet thee."
+			"希望你在我们族人中度过的时光是愉快的。"
+			"外星人！你带来了这无尽星空远方的消息吗？"
+			"美丽的旅者，我听闻过你的名字。这漫长的旅途想必让你心事重重吧。"
+			"欢迎来到我们的星域，尊贵的外星人。很高兴能见到你。"
 		word
 			`"`
 
@@ -54,27 +54,27 @@ news "port official"
 		word
 			`"`
 		word
-			"The Houses welcome thee as a guest among our people; "
-			"Please remain in concord with our people; "
-			"Informed, am I, of thy recent arrival; "
-			"Can I provide assistance, honored traveler? "
-			"Our noble house does greet thee full of joy; "
+			"诸家族欢迎你作为客人来到我们中间； "
+			"请与我们的族人和睦相处； "
+			"我已知晓你近日的到来； "
+			"尊敬的旅者，需要我提供帮助吗？ "
+			"我们尊贵的家族满怀喜悦地向你致意； "
 		word
-			"I am at thy service if 'tis needed."
-			"Today's been rather busy, please speak quickly."
+			"若有需要，我随时为你效劳。"
+			"今天相当忙碌，请长话短说。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Please submit to scans if 'tis requested"
-			"Taxes on transactions are collected"
-			"Transactions in this area are surveilled"
-			"If thou see'st something suspect, report't promptly"
+			"如被要求，请接受扫描检查"
+			"所有交易均需缴纳税款"
+			"本区域的交易均受监控"
+			"若发现可疑情况，请立即报告"
 		word
-			"; port rules and regulations should be posted."
-			" in accordance with our standard port procedure."
+			"；港口的规章制度应该已经张贴出来了。"
+			" 依照我们的标准港口程序。"
 		word
 			`"`
 
@@ -88,29 +88,29 @@ news "successor student"
 		not attributes "uninhabited"
 	name
 		word
-			"Student"
+			"学员"
 			"Successor student"
 	message
 		word
 			`"`
 		word
-			"Exams, I think, shall never know their end,"
-			"Hath I forgot my geographic terms?"
-			"Hath I forgot my chemical reagents?"
-			"Hyperspace Mechanics hurts my brain,"
-			"Predecessor His'try is a bore,"
-			"Plasma Flow Dynamics is a drag,"
-			"Particle Kinetics is a pain,"
+			"我想，考试永远都不会有尽头，"
+			"我是不是忘了地理术语？"
+			"我是不是忘了化学试剂？"
+			"超空间力学让我头痛欲裂，"
+			"先驱者历史真是无聊，"
+			"等离子流动力学真烦人，"
+			"粒子动力学太痛苦了，"
 		word
 			" "
 		word
-			"I know not sleep nor food nor meager rest"
-			"I wish that I could learn while I'm asleep"
-			"I know not how I even stay awake"
-			"I wish I knew some better study tricks"
+			"我不知睡眠，不思饮食，连片刻的休息都没有"
+			"但愿我能在睡梦中学习"
+			"我都不知道自己是怎么保持清醒的"
+			"希望我能知道些更好的学习技巧"
 		word
-			"."
-			"!"
+			"愿意砸多少钱。"
+			"而战！"
 		word
 			`"`
 
@@ -128,70 +128,70 @@ news "successor merchant"
 		word
 			`"`
 		word
-			"Interested in "
+			"有兴趣买些 "
 		phrase
 			"successor commodities (2-syllable)"
 		word
-			", noble traveler?"
-			", canny buyer?"
-			", noble captain?"
-			", clever buyer?"
-			", newest friend?"
-			", thoughtful buyer?"
-			", thoughtful captain?"
+			"吗，高贵的旅者？"
+			"吗，精明的买家？"
+			"吗，高贵的船长？"
+			"吗，聪明的买家？"
+			"吗，新结交的朋友？"
+			"吗，考虑周全的买家？"
+			"吗，深思熟虑的船长？"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"I miss the days I used to be a "
-			"I miss the times I used to be a "
-			"I still think back to when I was a "
-			"Thou remindeth me of when I was a "
+			"我怀念曾经身为一名 "
+			"我怀念从前作为一名 "
+			"我仍时常想起当年身为一个 "
+			"你让我想起了当年身为一个 "
 		word
-			"pilot, "
-			"captain, "
-			"ranger, "
+			"领航星， "
+			"船长， "
+			"游侠， "
 		word
-			"but alas, "
+			"但唉， "
 		word
-			"now 'tis planetside I shall remain."
-			"'twas never brave enough to stay."
-			"I was a spacesick little knave."
-			"it's down at earth I feel at home."
-			"it's selling items that's for me."
-			"my family needed my return."
-			"possessed of talent I was not."
+			"如今只愿留在地面。"
+			"从没有足够勇气留下。"
+			"我是个晕船的小淘气。"
+			"只有在地球我才感觉自在。"
+			"卖东西才是我该做的事。"
+			"我的家人需要我回去。"
+			"我并没有什么天赋。"
 		word
 			`"`
 	message
 		word
-			"A "
+			"一个 "
 		word
-			"pushy "
-			"friendly-looking "
-			"nervous-looking "
-			"furtive "
-			"brightly-colored "
-			"vibrantly-dressed "
-			"dour-looking "
+			"咄咄逼人的 "
+			"和蔼可亲的 "
+			"紧张不安的 "
+			"鬼鬼祟祟的 "
+			"色彩鲜艳的 "
+			"衣着鲜艳的 "
+			"面无表情的 "
 		word
-			"merchant "
-			"trader "
-			"artisan "
-			"Successor "
+			"商人 "
+			"交易商 "
+			"工匠 "
+			"继承者 "
 		word
-			"tries to get you to "
+			"试图让你 "
 		word
-			"purchase "
-			"buy "
+			"购买 "
+			"买 "
 		word
-			"some "
+			"一些 "
 		phrase
 			"successor commodities (2-syllable)"
 		word
-			"."
+			"愿意砸多少钱。"
 
 
 news "high houses propaganda"
@@ -202,18 +202,18 @@ news "high houses propaganda"
 		not attributes "quiet" "uninhabited"
 	name
 		word
-			"High House broadcast"
+			"大家族广播"
 			"Government broadcast"
 			"Video screen"
 			"Official broadcast"
 	message
 		word
-			"An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the High Houses."
-			"An advertisement plays, showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased."
-			"A short video plays showing the construction of a new spaceport on the surface of a prospering Successor planet. Several warships of the High Houses painted in ceremonial livery pass across the screen, showing clearly who is to be thanked."
-			`A proud-looking Successor naval officer stands before an imposing-looking warship: "Enlist!" the caption reads. "See the stars today!"`
-			`Several short vignettes play: a group of Successors unearthing ruins, the inside of a laboratory, a calm pastoral scene. A voiceover speaks: "Uncovering our heritage; bettering our lives." Meticulously-dressed officials of the High Houses are present in each situation, presented as supportive overseers.`
-			"A advertisement plays showing the sleek lines of a Successor warship, its polished armor gleaming in the sunlight. It goes on for several minutes, showing the vessel from numerous angles while a sweeping soundtrack plays."
+			"一则广告中，一艘继承者战舰表演了多种娴熟战术动作，随后鼓励观众加入高塔家族的武装部队。"
+			"播放的广告中，一群继承者紧挨着站在工厂背景前，他们的皮肤都泛着愉快的绿色。随后旁白指出工资最近已经上调。"
+			"一段短视频展示了一座新太空港在繁荣的继承者星球表面的建设过程。数艘涂着庆典涂装的高塔家族战舰划过屏幕，清楚指示该感谢谁。"
+			`一位神情骄傲的继承者海军军官站在一艘威武的战舰前：“参军吧！”标题写道，“今天就去见识星辰！”`
+			`播放了几段短小场景：一群继承者挖掘废墟、实验室内部、宁静的田园景象。旁白说：“发掘我们的遗产；改善我们的生活。”精心装扮的高塔家族官员出现在每一个情景中，被描绘成支持性的监督者。`
+			"一则广告展示了一艘继承者战舰的流畅线条，其抛光装甲在阳光下闪闪发光。广告持续数分钟，从多个角度展示这艘舰船，同时播放着宏大配乐。"
 
 news "successor advertisements"
 	to show
@@ -228,18 +228,18 @@ news "successor advertisements"
 			"Commercial advertisement"
 	message
 		word
-			"A bowl of a stringy kelp-like food dances around a screen while various seasonings are applied to it. After about thirty seconds, a Successor is shown slurping some of the strands, and their skin turns a happy pink."
-			"A cluster of small recreational sailing ships are shown on a pristine lake at sunset, their Successor crew either manning them or splashing happily in the water. A caption at the bottom encourages the viewer to purchase their own."
-			"An advertisement plays for the Successor Pulse Laser: it is shown being constructed in a clean, bright factory, installed on a ship, and extracting minerals from asteroids. It is never shown in a combat situation."
-			"An advertisement plays showing a variety of attractive and expensive-looking jewellery, made of gold, silver, and other stranger metals which you cannot recognize. A variety of models display it wrapped around their arms or other parts of their body, gently undulating as the camera moves."
-			"A screen shows an advertisement for one of the Successor universities, showing elegant, sculptural buildings emerging from the ground under a rain-soaked sky."
-			"A field of large, floral plants are shown growing long strings of gleaming metal which are quickly harvested by agricultural robots."
-			"A series of images of Successor models flash one after another so quickly that it is hard to tell what they are actually advertising."
-			"A short video clip is shown advertising a performance in a local concert hall. The stage is divided into two sections: one is underwater and the other is dry."
-			"A bright and colorful interactive game is displayed on one of the port video screens. It accrues a small group of young Successors; they appear captivated by it."
-			"An eye covering vaguely resembling a contact lens is shown being applied to the eyes of several models, changing their color and shape when applied."
-			"A shipbuilding organization advertises a members' discount on Kvelqde shuttles. They make sure to note that their operation is supported by one of the High Houses."
-			"An independent pilot briefly advertises their courier services in a pre-recorded message, offering guaranteed fastest-possible-delivery on packages under ten tons."
+			"一碗类似海带的条状食物在屏幕上舞蹈，各种调味料被洒在上面。约三十秒后，一名继承者正在吸食一些条状物，皮肤变成愉快的粉色。"
+			"日落时分，一簇小型休闲帆船出现在纯净的湖面上，继承者船员们或操控船只，或在水里快乐地嬉戏。底部字幕鼓励观众购买自己的帆船。"
+			"播放一则继承者脉冲激光的广告：它在干净明亮的工厂中被制造，安装到飞船上，从小行星中提取矿物。从未展示战斗场景。"
+			"播放的一则广告展示了各种诱人且昂贵的珠宝，它们由金、银和其他你无法辨认的奇特金属制成。多位模特将其缠绕在手臂或身体其他部位进行展示，随着镜头的移动，珠宝微微波动。"
+			"屏幕上播放一所继承者大学的广告，展示优雅的雕塑般的建筑在雨天的天空下从地面升起。"
+			"一片巨大的花卉植物正在生长出长长的闪亮金属丝线，农业机器人迅速收割它们。"
+			"一系列继承者模特的图像快速闪烁，很难看出他们到底在宣传什么。"
+			"播放一段短片，为当地音乐厅的演出做广告。舞台分为两部分：一部分在水下，另一部分在干燥区域。"
+			"港口视频屏幕上显示一款明亮多彩的互动游戏。它吸引了一小群年轻的继承者；他们似乎被迷住了。"
+			"画面展示了一种略似隐形眼镜的眼罩被佩戴在几位模特的眼睛上，并在佩戴后改变了眼睛的颜色和形状。"
+			"一家造船组织正在为克维尔德穿梭机打会员折扣广告。他们特意指出其运营得到了某个高塔家族的支持。"
+			"一位独立领航星在预录信息中简短宣传其快递服务，保证十吨以下包裹最快送达。"
 
 
 news "local news quiet"
@@ -251,19 +251,19 @@ news "local news quiet"
 		not attributes "station" "uninhabited"
 	name
 		word
-			"Local news report"
+			"本地新闻报道"
 			"News report"
 			"News program"
 	message
 		word
-			"A broadcast quietly lists out the details of a recent weather control unit failure, which resulted in a brief evacuation but no injuries. A photo shows a few dozen Successors gathered together along a shoreline while several ships swarm in the distance."
-			"A muted advertisement plays, showing architectural renders of several small underwater homes with walls that change color and texture from simulated wood, to simulated shell, to even a dark, amorphous metal resembling the hull of a starship."
-			"A short broadcast discusses a recent thunderstorm, showing several colorful pictures of lightning and rain taken by locals during the event."
-			"A text-only broadcast discusses a recent touch-based art performance. The script shimmers as you move your head around, the translation device doing its best to transcribe it."
-			"A broadcast shows a brief interview with a local florist, who shows off a collection of their living-metal plants."
-			"A formal document is shown with a column of text to the side of it. This describes it as a new trade ordinance, and lists its effects on independent merchants."
-			"A brief program on erosion control and restoration is narrated, in monotone, by a tired-looking Successor in an equally drab outfit."
-			"The news report playing on the video screen is briefly interrupted to display a general-use map for the spaceport."
+			"一段广播低调地列举了最近一次天气控制单元故障的细节，导致短暂疏散但无人受伤。一张照片显示数十名继承者聚集在海岸线上，远处有几艘飞船蜂拥而至。"
+			"一段静音广告播放着，展示了几座小型水下住宅的建筑渲染图，墙壁颜色和纹理从模拟木材变为模拟贝壳，甚至变为类似星舰外壳的暗色无定形金属。"
+			"一段简短的广播讨论了最近的雷暴，展示了当地人在此期间拍摄的几张闪电和雨水的彩色图片。"
+			"一则纯文本广播正在讨论最近的一场触觉艺术表演。随着你头部的移动，文本也会随之闪烁，这是翻译设备在尽最大努力将其转录下来。"
+			"一则广播播放了对当地一位花卉商的简短采访，对方正在展示其收集的活体金属植物。"
+			"屏幕上展示了一份正式文件，其旁边附有一列文字。这说明这是一项新的贸易法令，并列出了它对独立商人的影响。"
+			"一档关于水土流失控制与生态修复的简短节目正在播放，由一位面容疲惫、穿着朴素的继承者以毫无波澜的语调进行解说。"
+			"视频屏幕上播放的新闻报道被短暂中断，转而显示了一张太空港的通用地图。"
 
 
 news "station report"
@@ -277,10 +277,10 @@ news "station report"
 		word
 			"Station Report"
 			"Announcement System"
-			"Public Address System"
+			"公共广播系统"
 	message
 		word
-			"A public announcement clarifies that an inefficiency in the station's atmosphere processing units was resolved overnight."
-			"A schedule listing departure and arrival times for planetary shuttles is updated to account for a planetside delay."
-			"A graphic displays an interactive map of the station for visitors to access."
-			"A public announcement encourages residents to conserve water."
+			"一则公共广播澄清，空间站大气处理装置效率低下的问题已于昨夜得到解决。"
+			"一份列有行星穿梭机出发与到达时间的时刻表已更新，以反映地表的班次延误。"
+			"一幅图像展示了空间站的交互式地图，供访客查阅使用。"
+			"一则公共广播呼吁居民们节约用水。"

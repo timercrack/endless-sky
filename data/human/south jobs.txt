@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Pirate Occupation [0]"
-	name `Pirates occupying <system>`
+	name `海盗占据<system>`
 	minor
 	repeat
-	description `A small band of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> before <date>, to receive the payment of <payment>.`
+	description `一小股海盗一直占据着<system>，当地政府请求帮助。在<date>之前击败该星系中的海盗并降落于<planet>，即可获得<payment>的报酬。`
 	deadline
 	to offer
 		random < 5
@@ -50,10 +50,10 @@ mission "Pirate Occupation [0]"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Pirate Occupation [1]"
-	name `Pirates occupying <system>`
+	name `海盗占据<system>`
 	minor
 	repeat
-	description `A gang of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> before <date>, to receive the payment of <payment>.`
+	description `一群海盗一直占据着<system>，当地政府请求援助。在<date>之前击败该星系中的海盗并降落于<planet>，即可获得<payment>的报酬。`
 	deadline
 	to offer
 		random < 5
@@ -89,10 +89,10 @@ mission "Pirate Occupation [1]"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Pirate Occupation [2]"
-	name `Pirates occupying <system>`
+	name `海盗占据<system>`
 	minor
 	repeat
-	description `A large gang of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> before <date>, to receive the payment of <payment>.`
+	description `一大群海盗一直占据着<system>，当地政府请求援助。在<date>之前击败该星系中的海盗并降落于<planet>，即可获得<payment>的报酬。`
 	deadline
 	to offer
 		random < 5
@@ -128,21 +128,21 @@ mission "Pirate Occupation [2]"
 		dialog phrase "generic pirate attack payment dialog"
 
 conversation "pirate occupation"
-	`Suddenly you hear raised voices and shouting outside as pilots run for their ships: "<destination> is being occupied by a pirate fleet! They are requesting help from any combat-worthy ship that can get there by <date> to join the defenses!" The authorities of <planet> will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+	`突然，你听到外面传来高声呼喊与嘈杂声，飞行员们正冲向自己的飞船：“<destination>正在遭到一支海盗舰队的占领！他们请求任何具备战斗能力的飞船在<date>前赶去加入防御！”如果你能协助他们，<planet>的当局很可能会付给你丰厚的报酬，但这也是一种很容易送命的差事。`
 	choice
-		`	(Don't join the fight.)`
+		`	（不参与战斗。）`
 			decline
-		`	(Join the defense fleet.)`
-	`A few militia pilots have gathered to help repel the pirate attack. You join them, and prepare your ship for the upcoming battle...`
+		`	（加入防御舰队。）`
+	`几名民兵飞行员已经集结起来协助击退海盗的袭击。你加入了他们，并让自己的飞船为即将到来的战斗做好准备……`
 		accept
 
 
 
 mission "Sketchy Cargo [0]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <tons> of cargo to <destination>. Payment is <payment>."
+	description "运送<tons>货物至<destination>。报酬为<payment>。"
 	cargo "unlabeled cargo" 5 2 .1
 	to offer
 		random < 15
@@ -152,18 +152,18 @@ mission "Sketchy Cargo [0]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You follow the directions specified in the job to an abandoned-looking warehouse and find your cargo in unlabeled crates. As you load it onto your ship, you get the feeling that you are being watched.`
+		dialog `你按照任务指示来到一间看似废弃的仓库，并在一些没有标签的货箱里找到了你的货物。当你把它们搬上飞船时，你隐约感觉自己正被人监视。`
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 0 160
-		dialog "You drop off the unlabeled cargo in a warehouse not too dissimilar to the one you picked it up in. A man dressed in a cloak hands you <payment> after the last crate is removed from your ship."
+		dialog "你将这批无标签的货物卸在了一间与提货地点颇为相似的仓库里。最后一只货箱从你的飞船上搬走后，一个身披斗篷的男人递给你<payment>。"
 
 mission "Sketchy Cargo [1]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <tons> of cargo to <destination>. Payment is <payment>."
+	description "运送<tons>货物至<destination>。报酬为<payment>。"
 	cargo "unlabeled cargo" 25 2 .05
 	to offer
 		random < 10
@@ -173,20 +173,20 @@ mission "Sketchy Cargo [1]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You follow the directions specified in the job to an abandoned-looking warehouse and find your cargo in unlabeled crates. As you load it onto your ship, you get the feeling that you are being watched.`
+		dialog `你按照任务指示来到一间看似废弃的仓库，并在一些没有标签的货箱里找到了你的货物。当你把它们搬上飞船时，你隐约感觉自己正被人监视。`
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 0 160
-		dialog "You drop off the unlabeled cargo in a warehouse not too dissimilar to the one you picked it up in. A man dressed in a cloak hands you <payment> after the last crate is removed from your ship."
+		dialog "你将这批无标签的货物卸在了一间与提货地点颇为相似的仓库里。最后一只货箱从你的飞船上搬走后，一个身披斗篷的男人递给你<payment>。"
 
 
 
 mission "Sketchy Passenger [0]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -197,18 +197,18 @@ mission "Sketchy Passenger [0]"
 		attributes "south"
 		not attributes "station"
 	on accept
-		dialog `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+		dialog `寻找你的乘客费了点周折，但经过将近一小时的搜寻后你终于找到了他们。当他们跟着你返回飞船时，你听到他们互相在低声耳语，但听不清在说些什么。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 2000 160
-		dialog "Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
+		dialog "乘客们要求你降落在一个远离繁忙太空港中心的地方。他们递给你<payment>，随后以相当快的速度冲出你的飞船并离开了太空港。"
 
 mission "Sketchy Passenger [1]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 2 10 .7
 	to offer
 		random < 10
@@ -219,16 +219,16 @@ mission "Sketchy Passenger [1]"
 		attributes "south"
 		not attributes "station"
 	on accept
-		dialog `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+		dialog `寻找你的乘客费了点周折，但经过将近一小时的搜寻后你终于找到了他们。当他们跟着你返回飞船时，你听到他们互相在低声耳语，但听不清在说些什么。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 2000 160
-		dialog "Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
+		dialog "乘客们要求你降落在一个远离繁忙太空港中心的地方。他们递给你<payment>，随后以相当快的速度冲出你的飞船并离开了太空港。"
 
 mission "Delta V Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Delta V Corporation, a major missile and engine manufacturing firm in the Southern Rim. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，即Delta V公司的总部所在地，这是一家位于南方边疆的主要导弹与引擎制造商。报酬为<payment>。"
 	cargo "alloys" 5 2 .1
 	job
 	repeat
@@ -247,8 +247,8 @@ mission "Delta V Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Delta V Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Delta V Corporation, a major missile and engine manufacturing firm in the Southern Rim. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，即Delta V公司的总部所在地，这是一家位于南方边疆的主要导弹与引擎制造商。报酬为<payment>。"
 	cargo Electronics 5 2 .1
 	job
 	repeat
@@ -267,8 +267,8 @@ mission "Delta V Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tarazed Shipyards Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Tarazed Shipyards, one of the largest shipbuilding firms in the South. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，即南部星区最大的造船企业之一的河鼓三造船厂所在地。报酬为<payment>。"
 	cargo "weapons" 5 2 .1
 	job
 	repeat
@@ -286,8 +286,8 @@ mission "Tarazed Shipyards Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tarazed Shipyards Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Tarazed Shipyards, one of the largest shipbuilding firms in the South. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，即南部星区最大的造船企业之一的河鼓三造船厂所在地。报酬为<payment>。"
 	cargo "Ship Alloys" 5 2 .1
 	job
 	repeat
@@ -305,8 +305,8 @@ mission "Tarazed Shipyards Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tarazed Shipyards Shipment [2]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Tarazed Shipyards, one of the largest shipbuilding firms in the South. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，即南部星区最大的造船企业之一的河鼓三造船厂所在地。报酬为<payment>。"
 	cargo "Ship Systems" 5 2 .1
 	job
 	repeat
@@ -324,8 +324,8 @@ mission "Tarazed Shipyards Shipment [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tarazed Systems Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Tarazed Systems, a respected outfits manufacturer and designer in southern human space. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，即河鼓三系统公司的所在地。该公司是人类星域南部一家备受尊敬的装备制造商与设计公司。报酬为<payment>。"
 	cargo "alloys" 5 2 .1
 	job
 	repeat
@@ -343,8 +343,8 @@ mission "Tarazed Systems Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Tarazed Systems Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <planet>, the home of Tarazed Systems, a respected outfits manufacturer and designer in southern human space. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<planet>，即河鼓三系统公司的所在地。该公司是人类星域南部一家备受尊敬的装备制造商与设计公司。报酬为<payment>。"
 	cargo Electronics 5 2 .1
 	job
 	repeat

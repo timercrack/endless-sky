@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Escort (Tiny, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "尽管你经验尚浅，但<npc>的船长愿意支付你<payment>，雇你作为护卫，护送他进入一处危险星域，在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 8
@@ -75,8 +75,8 @@ mission "Escort (Tiny, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Tiny, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "尽管你经验尚浅，<npc>号的船长仍愿意支付你<payment>，雇你护送他离开这片危险空域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 8
@@ -138,8 +138,8 @@ mission "Escort (Tiny, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -183,8 +183,8 @@ mission "Escort (Small, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -229,8 +229,8 @@ mission "Escort (Small, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -279,8 +279,8 @@ mission "Escort (Medium, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -329,8 +329,8 @@ mission "Escort (Medium, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -374,8 +374,8 @@ mission "Escort (Large, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -420,8 +420,8 @@ mission "Escort (Large, Northern, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Northern, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -467,8 +467,8 @@ mission "Escort (Extra Large, Northern, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Northern, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -520,8 +520,8 @@ mission "Escort (Extra Large, Northern, Dangerous Origin)"
 
 
 mission "Escort (Tiny, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "尽管你经验尚浅，但<npc>的船长愿意支付你<payment>，雇你作为护卫，护送他进入一处危险星域，在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 8
@@ -583,8 +583,8 @@ mission "Escort (Tiny, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Tiny, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "尽管你经验尚浅，<npc>号的船长仍愿意支付你<payment>，雇你护送他离开这片危险空域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 8
@@ -646,8 +646,8 @@ mission "Escort (Tiny, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -691,8 +691,8 @@ mission "Escort (Small, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -737,8 +737,8 @@ mission "Escort (Small, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -782,8 +782,8 @@ mission "Escort (Medium, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -834,8 +834,8 @@ mission "Escort (Medium, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -879,8 +879,8 @@ mission "Escort (Large, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -925,8 +925,8 @@ mission "Escort (Large, Core, Dangerous Origin)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Core, Dangerous Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付你<payment>，以护卫其安全驶入危险太空区域，在<date>前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -972,8 +972,8 @@ mission "Escort (Extra Large, Core, Dangerous Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Core, Dangerous Origin)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>的船长将支付您<payment>，以在<date>之前护送他们安全离开这个危险的太空区域，抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -1026,8 +1026,8 @@ mission "Escort (Extra Large, Core, Dangerous Origin)"
 
 
 mission "Escort (Tiny, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort through this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "尽管你相对缺乏经验，但<npc>的船长仍愿意支付你<payment>，请你在<date>之前护送其通过这片危险星域抵达<destination>。"
 	repeat
 	job
 	deadline 8
@@ -1088,8 +1088,8 @@ mission "Escort (Tiny, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Small, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>号的船长将支付你<payment>，以护送其安全穿越这片危险星域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -1127,8 +1127,8 @@ mission "Escort (Small, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Medium, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>号的船长将支付你<payment>，以护送其安全穿越这片危险星域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -1166,8 +1166,8 @@ mission "Escort (Medium, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Large, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>号的船长将支付你<payment>，以护送其安全穿越这片危险星域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -1205,8 +1205,8 @@ mission "Escort (Large, Southern, Dangerous Origin or Destination)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
-	name "Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+	name "护卫至<planet>"
+	description "<npc>号的船长将支付你<payment>，以护送其安全穿越这片危险星域，并在<date>之前抵达<destination>。"
 	repeat
 	job
 	deadline 10
@@ -1248,8 +1248,8 @@ mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
 
 
 mission "Southern Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "保卫 <planet>"
+	description "击退袭击<destination>的海盗。"
 	minor
 	repeat
 	to offer
@@ -1270,12 +1270,12 @@ mission "Southern Pirate Attack"
 		fleet "Small Militia" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`突然，你听到外面传来高亢的叫喊声：“我们遭到袭击！<planet>遭到海盗袭击！所有能战斗的飞船都加入防御！”如果你协助当局，他们可能会付给你丰厚的报酬，但这也很容易让你丧命。`
 			choice
-				`	(Stay here until the fight is over.)`
+				`	（待在这里直到战斗结束。）`
 					decline
-				`	(Join the defense fleet.)`
-			`A few militia pilots have gathered to help repel the pirate attack. You join them, and take off together...`
+				`	（加入防御舰队。）`
+			`几名民兵飞行员已经聚集起来，准备击退海盗的进攻。你加入他们，一同起飞……`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1284,8 +1284,8 @@ mission "Southern Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Northern Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "保卫 <planet>"
+	description "击退袭击<destination>的海盗。"
 	minor
 	repeat
 	to offer
@@ -1306,12 +1306,12 @@ mission "Northern Pirate Attack"
 		fleet "Small Republic" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`突然，你听到外面传来高亢的叫喊声：“我们遭到袭击！<planet>遭到海盗袭击！所有能战斗的飞船都加入防御！”如果你协助当局，他们可能会付给你丰厚的报酬，但这也很容易让你丧命。`
 			choice
-				`	(Stay here until the fight is over.)`
+				`	（待在这里直到战斗结束。）`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Navy garrison is preparing to repel the pirate attack. You join them, and take off together...`
+				`	（加入防御舰队。）`
+			`当地海军驻军正在准备击退海盗进攻。你加入他们，一起起飞……`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1320,8 +1320,8 @@ mission "Northern Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Core Pirate Attack"
-	name "Defend <planet>"
-	description "Defeat a pirate raid on <destination>."
+	name "保卫 <planet>"
+	description "击退袭击<destination>的海盗。"
 	minor
 	repeat
 	to offer
@@ -1342,12 +1342,12 @@ mission "Core Pirate Attack"
 		fleet "Small Syndicate" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by pirates! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`突然，你听到外面传来高亢的叫喊声：“我们遭到袭击！<planet>遭到海盗袭击！所有能战斗的飞船都加入防御！”如果你协助当局，他们可能会付给你丰厚的报酬，但这也很容易让你丧命。`
 			choice
-				`	(Stay here until the fight is over.)`
+				`	（待在这里直到战斗结束。）`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the pirate attack. You join them, and take off together...`
+				`	（加入防御舰队。）`
+			`当地的辛迪加防御部队正准备击退海盗的进攻。你加入他们，一同起飞……`
 				launch
 	on visit
 		dialog phrase "generic pirate fleet battle on visit"
@@ -1356,8 +1356,8 @@ mission "Core Pirate Attack"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Raider Attack 1"
-	name "Defend <planet>"
-	description "Defeat an alien raid on <destination>."
+	name "保卫 <planet>"
+	description "击败一次外星人对<destination>的袭击。"
 	minor
 	repeat
 	to offer
@@ -1379,22 +1379,22 @@ mission "Raider Attack 1"
 		fleet "Small Syndicate"
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`突然你听到外面有人在高声喊叫：“我们遭到攻击！<planet> 遭到外星袭击者攻击！我们需要所有具备战斗能力的飞船加入防御！”如果你协助当局，他们可能会付给你丰厚的报酬，但这也可能让你轻易丧命。`
 			choice
-				`	(Stay here until the fight is over.)`
+				`	（待在这里直到战斗结束。）`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				`	（加入防御舰队。）`
+			`当地的辛迪加防御部队正准备击退外星袭击。你加入他们，一起起飞……`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still Korath circling overhead. You should take off and help finish them off.`
+		dialog `你已降落在<planet>，但头顶仍有科拉斯飞船盘旋。你应该起飞帮忙解决它们。`
 	on complete
 		payment 550000
-		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+		dialog `<planet>政府支付你<payment>，作为协助击退入侵者的报酬。`
 
 mission "Raider Attack 2"
-	name "Defend <planet>"
-	description "Defeat an alien raid on <destination>."
+	name "保卫 <planet>"
+	description "击败一次外星人对<destination>的袭击。"
 	minor
 	repeat
 	to offer
@@ -1416,26 +1416,26 @@ mission "Raider Attack 2"
 		fleet "Large Syndicate" 2
 	on offer
 		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			`突然你听到外面有人在高声喊叫：“我们遭到攻击！<planet> 遭到外星袭击者攻击！我们需要所有具备战斗能力的飞船加入防御！”如果你协助当局，他们可能会付给你丰厚的报酬，但这也可能让你轻易丧命。`
 			choice
-				`	(Stay here until the fight is over.)`
+				`	（待在这里直到战斗结束。）`
 					decline
-				`	(Join the defense fleet.)`
-			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				`	（加入防御舰队。）`
+			`当地的辛迪加防御部队正准备击退外星袭击。你加入他们，一起起飞……`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still Korath circling overhead. You should take off and help finish them off.`
+		dialog `你已降落在<planet>，但头顶仍有科拉斯飞船盘旋。你应该起飞帮忙解决它们。`
 	on complete
 		payment 750000
-		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+		dialog `<planet>政府支付你<payment>，作为协助击退入侵者的报酬。`
 
 
 
 mission "Cargo [0]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1449,10 +1449,10 @@ mission "Cargo [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [1]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1468,10 +1468,10 @@ mission "Cargo [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [2]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 80
@@ -1488,10 +1488,10 @@ mission "Cargo [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [3]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -1509,10 +1509,10 @@ mission "Cargo [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [4]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -1530,10 +1530,10 @@ mission "Cargo [4]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Cargo [5]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1547,10 +1547,10 @@ mission "Cargo [5]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [0]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 25 2 .05
 	to offer
 		random < 70
@@ -1566,10 +1566,10 @@ mission "Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [1]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 25 2 .05
 	to offer
 		random < 60
@@ -1586,10 +1586,10 @@ mission "Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [2]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 25 2 .05
 	to offer
 		random < 50
@@ -1607,10 +1607,10 @@ mission "Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Bulk Delivery [3]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 25 2 .05
 	to offer
 		random < 70
@@ -1626,11 +1626,11 @@ mission "Bulk Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [0]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1647,11 +1647,11 @@ mission "Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [1]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 80
@@ -1668,11 +1668,11 @@ mission "Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [2]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 70
@@ -1690,11 +1690,11 @@ mission "Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [3]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 60
@@ -1712,11 +1712,11 @@ mission "Rush Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Rush Delivery [4]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 5 2 .1
 	to offer
 		random < 90
@@ -1735,10 +1735,10 @@ mission "Rush Delivery [4]"
 
 
 mission "Passengers [0]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1753,10 +1753,10 @@ mission "Passengers [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [1]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .9
 	to offer
 		random < 75
@@ -1772,10 +1772,10 @@ mission "Passengers [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [2]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .9
 	to offer
 		random < 50
@@ -1791,10 +1791,10 @@ mission "Passengers [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [3]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .9
 	to offer
 		random < 25
@@ -1810,10 +1810,10 @@ mission "Passengers [3]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [4]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "These <bunks> passengers want to escape the pollution and crime on <origin> and settle on <destination>. Payment is <payment>."
+	description "这些<bunks>名乘客想要逃离<origin>上的污染与犯罪，定居到<destination>。报酬为<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -1831,10 +1831,10 @@ mission "Passengers [4]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers [5]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1849,8 +1849,8 @@ mission "Passengers [5]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers to Quarg [1]"
-	name "Passenger transport to <planet>"
-	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "将<fare>带到夸格星球<destination>。报酬为<payment>。"
 	job
 	repeat
 	passengers 1 10 .9
@@ -1868,8 +1868,8 @@ mission "Passengers to Quarg [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Passengers to Quarg [2]"
-	name "Passenger transport to <planet>"
-	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "将<fare>带到夸格星球<destination>。报酬为<payment>。"
 	job
 	repeat
 	passengers 1 10 .9
@@ -1889,7 +1889,7 @@ mission "Passengers to Quarg [2]"
 mission "Transport miners to <planet>"
 	job
 	repeat
-	description "This family of <bunks> miners is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的矿工家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1904,12 +1904,12 @@ mission "Transport miners to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the mining family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝愿这户矿工家庭在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport farmers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> farmers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的农民家庭希望在<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1924,12 +1924,12 @@ mission "Transport farmers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the farm family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝愿这户农民家庭在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport mill workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> mill workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的磨坊工人家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 2 2 .8
 	to offer
 		random < 50
@@ -1944,12 +1944,12 @@ mission "Transport mill workers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝工人们在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> factory workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的工厂工人家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 2 2 .8
 	to offer
 		random < 80
@@ -1964,13 +1964,13 @@ mission "Transport workers to <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝工人们在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Tourists out [0]"
-	name "Bring a tourist to <planet>"
+	name "运送一名游客至<planet>"
 	job
 	repeat
-	description "This tourist wants to see <destination>, and will pay you <payment>."
+	description "这位游客想看<destination>，并会支付您<payment>。"
 	passengers 1
 	to offer
 		random < 20
@@ -1988,10 +1988,10 @@ mission "Tourists out [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists out [1]"
-	name "Bring tourists to <planet>"
+	name "运送游客至<planet>"
 	job
 	repeat
-	description "These <bunks> tourists want to see <destination>. They are willing to pay you <payment>."
+	description "这些<bunks>名游客想要参观<destination>。他们愿意付给你<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -2009,10 +2009,10 @@ mission "Tourists out [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourists out"
-	name "Bring wealthy tourists to <planet>"
+	name "运送富豪游客至<planet>"
 	job
 	repeat
-	description "These <bunks> wealthy tourists want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "这些<bunks>名富有的游客想参观<destination>，并希望乘坐豪华飞船旅行。他们愿意支付给你<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 75
@@ -2032,10 +2032,10 @@ mission "Wealthy tourists out"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group out [0]"
-	name "Wealthy tourist group to <planet>"
+	name "富裕旅行团前往<planet>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "一群富有的游客，共<bunks>人，想要参观<destination>，并希望乘坐豪华飞船旅行。他们愿意支付你<payment>。"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2056,10 +2056,10 @@ mission "Wealthy tourist group out [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group out [1]"
-	name "Wealthy tourist group to <planet>"
+	name "富裕旅行团前往<planet>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "一群富有的游客，共<bunks>人，想要参观<destination>，并希望乘坐豪华飞船旅行。他们愿意支付你<payment>。"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2080,10 +2080,10 @@ mission "Wealthy tourist group out [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists back [0]"
-	name "Bring a tourist home to <planet>"
+	name "送一名游客回<planet>"
 	job
 	repeat
-	description "This tourist is headed home to <destination>, and will pay you <payment>."
+	description "这位游客要返回位于<destination>的家，并会支付你<payment>。"
 	passengers 1
 	to offer
 		random < 20
@@ -2101,10 +2101,10 @@ mission "Tourists back [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Tourists back [1]"
-	name "Bring tourists home to <planet>"
+	name "将游客送回<planet>"
 	job
 	repeat
-	description "These <bunks> tourists are headed home to <destination>. They are willing to pay you <payment>."
+	description "这些<bunks>游客正在返回<destination>的家。他们愿意支付给你<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 50
@@ -2122,10 +2122,10 @@ mission "Tourists back [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourists back"
-	name "Wealthy tourists home to <planet>"
+	name "富有的游客归家至 <planet>"
 	job
 	repeat
-	description "These <bunks> wealthy tourists are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "这些<bunks>名富裕的游客正返回家园<destination>，希望乘坐豪华飞船旅行。他们愿意支付您<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 75
@@ -2145,10 +2145,10 @@ mission "Wealthy tourists back"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group back [0]"
-	name "Wealthy tourists home to <planet>"
+	name "富有的游客归家至 <planet>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "一群由<bunks>位成员组成的富有的游客正在返回<destination>的家乡，他们希望乘坐一艘豪华飞船完成旅程。他们愿意付给你<payment>。"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2169,10 +2169,10 @@ mission "Wealthy tourist group back [0]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy tourist group back [1]"
-	name "Wealthy tourists home to <planet>"
+	name "富有的游客归家至 <planet>"
 	job
 	repeat
-	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+	description "一群由<bunks>位成员组成的富有的游客正在返回<destination>的家乡，他们希望乘坐一艘豪华飞船完成旅程。他们愿意付给你<payment>。"
 	passengers 15 5 .09
 	to offer
 		random < 75
@@ -2193,10 +2193,10 @@ mission "Wealthy tourist group back [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Family [0]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 60
@@ -2211,13 +2211,13 @@ mission "Family [0]"
 	on complete
 		payment
 		payment 4000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Family [1]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 50
@@ -2232,13 +2232,13 @@ mission "Family [1]"
 	on complete
 		payment
 		payment 6000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Family [2]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 40
@@ -2253,13 +2253,13 @@ mission "Family [2]"
 	on complete
 		payment
 		payment 8000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Family [3]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 30
@@ -2274,13 +2274,13 @@ mission "Family [3]"
 	on complete
 		payment
 		payment 10000
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Strike Breakers [mining]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+	description "将 <bunks> 名罢工破坏者送往 <destination>，替代正在罢工的矿工。公司会支付你 <payment>。"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2296,13 +2296,13 @@ mission "Strike Breakers [mining]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Strike Breakers [large mining]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+	description "将 <bunks> 名罢工破坏者送往 <destination>，替代正在罢工的矿工。公司会支付你 <payment>。"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2317,13 +2317,13 @@ mission "Strike Breakers [large mining]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Strike Breakers [textile]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+	description "将 <bunks> 名罢工破坏者运送到 <destination>，以顶替正在罢工的纺织工人。该公司将支付你 <payment>。"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2339,13 +2339,13 @@ mission "Strike Breakers [textile]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Strike Breakers [large textile]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+	description "将 <bunks> 名罢工破坏者运送到 <destination>，以顶替正在罢工的纺织工人。该公司将支付你 <payment>。"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2360,13 +2360,13 @@ mission "Strike Breakers [large textile]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Strike Breakers [factory]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+	description "将<bunks>名罢工破坏者送至<destination>，以接替正在罢工的工厂工人。公司会支付你<payment>。"
 	passengers 5 5 .2
 	to offer
 		random < 10
@@ -2382,13 +2382,13 @@ mission "Strike Breakers [factory]"
 	on complete
 		payment
 		payment 10000
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Strike Breakers [large factory]"
-	name "Strike breakers to <planet>"
+	name "罢工破坏者：前往<planet>"
 	job
 	repeat
-	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+	description "将<bunks>名罢工破坏者送至<destination>，以接替正在罢工的工厂工人。公司会支付你<payment>。"
 	passengers 40 4 .08
 	to offer
 		random < "passenger space" - 45
@@ -2403,13 +2403,13 @@ mission "Strike Breakers [large factory]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 130000 100
-		dialog "You unload the strike breakers amid an angry crowd of protesters held back by police. When you return to your ship, you find that the company has transferred the agreed-upon payment of <payment> into your account."
+		dialog "你在被警察拦住的愤怒抗议者中卸下了罢工破坏者。回到飞船后，你发现公司已将约定好的报酬<payment>转入你的账户。"
 
 mission "Colonists [0]"
-	name "Colonists to <planet>"
+	name "运送殖民者至<planet>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "这<bunks>个人希望加入<destination>上的殖民地。他们将付给你<payment>作为前往那里的报酬。"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2425,13 +2425,13 @@ mission "Colonists [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 70000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "殖民者在下船前递给你<payment>，渴望在<planet>上开始新生活。"
 
 mission "Colonists [1]"
-	name "Colonists to <planet>"
+	name "运送殖民者至<planet>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "这<bunks>个人希望加入<destination>上的殖民地。他们将付给你<payment>作为前往那里的报酬。"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2447,13 +2447,13 @@ mission "Colonists [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 80000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "殖民者在下船前递给你<payment>，渴望在<planet>上开始新生活。"
 
 mission "Colonists [2]"
-	name "Colonists to <planet>"
+	name "运送殖民者至<planet>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "这<bunks>个人希望加入<destination>上的殖民地。他们将付给你<payment>作为前往那里的报酬。"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2469,13 +2469,13 @@ mission "Colonists [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 90000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "殖民者在下船前递给你<payment>，渴望在<planet>上开始新生活。"
 
 mission "Colonists [3]"
-	name "Colonists to <planet>"
+	name "运送殖民者至<planet>"
 	job
 	repeat
-	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+	description "这<bunks>个人希望加入<destination>上的殖民地。他们将付给你<payment>作为前往那里的报酬。"
 	passengers 10 4 .1
 	to offer
 		random < ( "passenger space" - 20 ) / 2
@@ -2491,13 +2491,13 @@ mission "Colonists [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 100000 100
-		dialog "The colonists hand you <payment> before departing your ship, eager to start their new life on <planet>."
+		dialog "殖民者在下船前递给你<payment>，渴望在<planet>上开始新生活。"
 
 mission "Stranded Field Trip"
-	name "Stranded field trip to <planet>"
+	name "滞留的考察团 - <planet>"
 	job
 	repeat
-	description `These <bunks> pupils have been stranded on a field trip due to the unexpected bankruptcy of their booked transport. A reward of <payment> is available for them and their <tons> of luggage to be returned home to <destination>.`
+	description `这些<bunks>名学生因预订的交通工具意外破产而滞留在实地考察途中。现提供<payment>报酬，将他们及其<tons>吨行李送回<destination>家中。`
 	passengers 20 4 .1
 	cargo "educational supplies" 2 10 .6
 	to offer
@@ -2515,13 +2515,13 @@ mission "Stranded Field Trip"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 100000 150
-		dialog `The students excitedly rush off your ship into the arms of their waiting parents. The adventure was fun, but they're very pleased to be safely home after so long. The school deposits <payment> into your account.`
+		dialog `学生们兴奋地冲下飞船，扑进等候的家长怀中。这次冒险很有趣，但这么久之后能安全回家，他们非常高兴。学校将<payment>存入你的账户。`
 
 mission "Prisoners [0]"
-	name "Prisoner transport to <planet>"
+	name "运送囚犯至 <planet>"
 	job
 	repeat
-	description "Bring <bunks> petty criminals to <destination>, where they will serve their sentences as mine laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "将 <bunks> 名轻罪犯运送到 <destination>，他们将在那里作为矿工服刑。必须将其关押在专为罪犯转运而设的适当设施中。报酬为 <payment>。"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2538,13 +2538,13 @@ mission "Prisoners [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s mines. You collect your payment of <payment>."
+		dialog "乘客们在几位全副武装的警卫的监视下，不情愿地拖着脚步走出飞船，准备作为强制劳工在 <planet> 的矿井中偿还社会债务。你收到了 <payment> 的报酬。"
 
 mission "Prisoners [1]"
-	name "Prisoner transport to <planet>"
+	name "运送囚犯至 <planet>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as factory laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "将<bunks>名轻罪犯运送到<destination>，他们将在那里作为工厂劳工服刑。必须将他们安置在适合转运罪犯的设施中。报酬为<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -2561,13 +2561,13 @@ mission "Prisoners [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as forced laborers in <planet>'s factories. You collect your payment of <payment>."
+		dialog "乘客们不情愿地鱼贯走出飞船，在几名全副武装的警卫严密监视下，准备在<planet>的工厂里以强制劳动者的身份偿还社会债务。你收取了<payment>的报酬。"
 
 mission "Prisoners [2]"
-	name "Prisoner transport to <planet>"
+	name "运送囚犯至 <planet>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as domestic servants. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "将<bunks>名轻罪犯运往<destination>，他们将在那里以家政仆役身份服刑。这些罪犯必须关押在专为罪犯转运而设的合适设施中。报酬为<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -2583,13 +2583,13 @@ mission "Prisoners [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society as domestic servants for <planet>'s wealthy elite. You collect your payment of <payment>."
+		dialog "乘客们在几名全副武装的警卫监视下，不情愿地拖沓着脚步走出飞船。他们将作为家庭佣工，为<planet>的富裕精英阶层偿还社会债务。你收取了<payment>的报酬。"
 
 mission "Prisoners [3]"
-	name "Prisoner transport to <planet>"
+	name "运送囚犯至 <planet>"
 	job
 	repeat
-	description "Transport <bunks> petty criminals to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "运输<bunks>名轻罪犯到<destination>上的一个流放地。必须将他们关押在专为罪犯转运建设的合适设施中。报酬是<payment>。"
 	passengers 2 15 .9
 	to offer
 		random < 15
@@ -2605,13 +2605,13 @@ mission "Prisoners [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 165
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of several well-armed guards as they prepare to repay their debts to society in a penal colony on this remote world. You collect your payment of <payment>."
+		dialog "乘客们在一群全副武装的警卫的监视下，不情愿地拖着脚步走下飞船，准备在这个偏远世界的流放地偿还欠社会的债务。你收取了 <payment> 的报酬。"
 
 mission "Prisoners [4]"
-	name "Prisoner transport to <planet>"
+	name "运送囚犯至 <planet>"
 	job
 	repeat
-	description "Transport <bunks> violent felons to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+	description "将 <bunks> 名暴力重罪犯运送到 <destination> 上的劳改殖民地。他们必须被关押在适合转运罪犯的设施中。报酬为 <payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 10
@@ -2628,7 +2628,7 @@ mission "Prisoners [4]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 25000 175
-		dialog "Your shackled passengers offer bitter curses as burly and well-armed guards practically beat them out of your ship, driving them in the direction of a penal colony on this remote world. You collect your payment of <payment>."
+		dialog "戴镣铐的乘客发出恶毒的咒骂，魁梧且全副武装的守卫几乎是把他们从你的飞船上打出去，驱赶他们前往这个偏远星球上的一个流放地。你收取了<payment>的报酬。"
 	npc
 		government "Pirate"
 		personality nemesis plunders
@@ -2637,10 +2637,10 @@ mission "Prisoners [4]"
 		fleet "pirate raid"
 
 mission "Released Prisoners [0]"
-	name "Parolee transport to <planet>"
+	name "运送假释犯至<planet>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences of hard labor. Payment is <payment>."
+	description "运送<bunks>名服完劳役的囚犯回家。报酬：<payment>。"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2655,13 +2655,13 @@ mission "Released Prisoners [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk out into the spaceport with nothing but their meager belongings and discharge paperwork. You collect your payment of <payment>."
+		dialog "被释放的囚犯们走出太空港，身上只有微薄的行李和释放文件。你收到了 <payment> 的报酬。"
 
 mission "Released Prisoners [1]"
-	name "Parolee transport to <planet>"
+	name "运送假释犯至<planet>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences as domestic servants. Payment is <payment>."
+	description "在服完家庭佣工刑期后，运送<bunks>名囚犯回家。报酬为<payment>。"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2675,13 +2675,13 @@ mission "Released Prisoners [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk out into the spaceport with nothing but their meager belongings and discharge paperwork. You collect your payment of <payment>."
+		dialog "被释放的囚犯们走出太空港，身上只有微薄的行李和释放文件。你收到了 <payment> 的报酬。"
 
 mission "Released Prisoners [2]"
-	name "Parolee transport to <planet>"
+	name "运送假释犯至<planet>"
 	job
 	repeat
-	description "Transport <bunks> prisoners home after completing their sentences in a penal colony. Payment is <payment>."
+	description "将<bunks>名刑满释放的囚犯从流放地送回故乡。报酬为<payment>。"
 	passengers 2 10 .9
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -2695,11 +2695,11 @@ mission "Released Prisoners [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 3000 150
-		dialog "The released prisoners walk into the spaceport with nothing but discharge paperwork and the clothes on their backs. You collect your payment of <payment>."
+		dialog "被释放的囚犯们除了释放文件和身上穿的衣服外一无所有，走进了太空港。你收取了<payment>的报酬。"
 
 mission "Passenger Runoff [0]"
-	name "Passenger transport to <planet>"
-	description "Bring a hooded figure to <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "将一名戴兜帽的人送到 <destination>。报酬为 <payment>。"
 	job
 	repeat
 	passengers 1
@@ -2715,11 +2715,11 @@ mission "Passenger Runoff [0]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. You catch a glimpse of your passenger running off into the spaceport.`
+		dialog `当你的飞船降落在着陆坪上时，闪烁的灯光提示你货舱门已通过紧急释放装置打开。你瞥见你的乘客跑进了太空港。`
 
 mission "Passenger Runoff [1]"
-	name "Passenger transport to <planet>"
-	description "Bring a teenager to <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "送一名青少年前往<destination>。报酬：<payment>。"
 	job
 	repeat
 	passengers 1
@@ -2735,11 +2735,11 @@ mission "Passenger Runoff [1]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `After landing, you go to the passenger compartments to notify them of the arrival and ask for the payment. The door opens as you raise your hand to knock, and a teenager rushes past you. Before you can recover, they're already gone and on their way into the depths of the spaceport.`
+		dialog `着陆后，你前往乘客舱通知他们到达并索取报酬。当你抬手正要敲门时，门开了，一个少年从你身边冲过。你还没回过神来，他已经跑远，消失在太空港深处。`
 
 mission "Passenger Runoff With Payment [0]"
-	name "Passenger transport to <planet>"
-	description "Bring a hooded figure to <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "将一名戴兜帽的人送到 <destination>。报酬为 <payment>。"
 	job
 	repeat
 	passengers 1
@@ -2756,11 +2756,11 @@ mission "Passenger Runoff With Payment [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. Checking the bay, you find a payment of <payment> and spot your passenger running off into the spaceport.`
+		dialog `当你的飞船降落在着陆台上时，一个闪烁的灯光通知你货舱门已通过紧急释放装置打开。检查货舱后，你发现了一笔<payment>的付款，并看到你的乘客正朝太空港跑去。`
 
 mission "Passenger Runoff With Payment [1]"
-	name "Passenger transport to <planet>"
-	description "Bring a teenager to <destination>. Payment is <payment>."
+	name "运送乘客至<planet>"
+	description "送一名青少年前往<destination>。报酬：<payment>。"
 	job
 	repeat
 	passengers 1
@@ -2777,13 +2777,13 @@ mission "Passenger Runoff With Payment [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000
-		dialog `As your ship touches down on the landing pad, a blinking light notifies you that the cargo bay door was opened using the emergency release. Checking the bay, you find a payment of <payment> and spot your passenger running off into the spaceport.`
+		dialog `当你的飞船降落在着陆台上时，一个闪烁的灯光通知你货舱门已通过紧急释放装置打开。检查货舱后，你发现了一笔<payment>的付款，并看到你的乘客正朝太空港跑去。`
 
 mission "Large Bulk Delivery [0]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 40 2 .02
 	to offer
 		random < 70
@@ -2801,10 +2801,10 @@ mission "Large Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Bulk Delivery [1]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 40 2 .02
 	to offer
 		random < 60
@@ -2822,10 +2822,10 @@ mission "Large Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Bulk Delivery [2]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 40 2 .02
 	to offer
 		random < 50
@@ -2844,11 +2844,11 @@ mission "Large Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [0]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 20 6 .1
 	to offer
 		random < 90
@@ -2866,11 +2866,11 @@ mission "Large Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [1]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 20 6 .1
 	to offer
 		random < 80
@@ -2888,11 +2888,11 @@ mission "Large Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [2]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 20 6 .1
 	to offer
 		random < 70
@@ -2911,11 +2911,11 @@ mission "Large Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Large Rush Delivery [3]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 20 6 .1
 	to offer
 		random < 60
@@ -2934,8 +2934,8 @@ mission "Large Rush Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Recycle garbage"
-	name "Recycle garbage"
-	description "<origin> produces a lot of garbage that needs to be disposed of off-station. Transport <cargo> to the industrial solid waste recycler on <destination>. Payment is <payment>."
+	name "垃圾回收"
+	description "<origin> 产生了大量需要运离太空站的垃圾。将 <cargo> 运输到 <destination> 上的工业固体废物回收站。报酬为 <payment>。"
 	job
 	repeat
 	to offer
@@ -2949,21 +2949,21 @@ mission "Recycle garbage"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog "You drop off the <commodity> at an especially smelly solid waste recycler and collect your payment of <payment>."
+		dialog "你将<commodity>送到一个特别臭的固体废物回收站，并收取了<payment>报酬。"
 		payment
 		payment 20000
 
 mission "FW Wildfire Aid [1]"
 	job
 	repeat
-	name "Wildfire aid to <planet>"
+	name "野火救援：<planet>"
 	substitutions
 		"<problem>" "forest fire"
 		"<problem>" "brush fire"
 			"random" < 60
 		"<problem>" "wildfire"
 			"random" < 30
-	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Bring <cargo> to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+	description "在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。请在<date>之前将<cargo>运送至<planet>，以协助灭火工作。报酬为<payment>。"
 	cargo "flames aid" 25 2 .05
 	deadline
 	to offer
@@ -2978,19 +2978,19 @@ mission "FW Wildfire Aid [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 8500 80
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you for your assistance and bid you farewell."
+		dialog "你卸下了<commodity>货物，并收取了<payment>报酬。一群<planet>公民感谢你的帮助，并与你道别。"
 
 mission "FW Wildfire Aid [2]"
 	job
 	repeat
-	name "Firefighters to <planet>"
+	name "消防驰援<planet>"
 	substitutions
 		"<problem>" "forest fire"
 		"<problem>" "brush fire"
 			"random" < 60
 		"<problem>" "wildfire"
 			"random" < 30
-	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport a team of <bunks> firefighters to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+	description "在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。请在<date>前运送一组<bunks>名消防员到<planet>，协助灭火工作。报酬为<payment>。"
 	passengers 5 10
 	deadline
 	to offer
@@ -3005,11 +3005,11 @@ mission "FW Wildfire Aid [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10500 80
-		dialog "You wish the firefighting team well in their efforts and collect your payment of <payment>. A group of <planet> citizens comes to guide the team away to a nearby tent, and thank you for your assistance."
+		dialog "你向消防队表达了祝愿，并收取了<payment>报酬。一群<planet>公民前来引导队伍前往附近的帐篷，并感谢你的帮助。"
 
 mission "FW Cold Aid [1]"
-	name "Cold relief to <planet>"
-	description `A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport <cargo> to <planet> by <date> to assist in the recovery efforts. Payment is <payment>.`
+	name "寒冷救援：<planet>"
+	description `在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。在<date>之前将<cargo>运输至<planet>，以协助恢复工作。报酬为<payment>。`
 	job
 	repeat
 	deadline
@@ -3032,11 +3032,11 @@ mission "FW Cold Aid [1]"
 		random < 1
 	on complete
 		payment 8500 80
-		dialog `You turn your cargo of <cargo> over to the needy community in return for <payment>.`
+		dialog `你将货物 <cargo> 交给贫困社区，获得了 <payment>。`
 
 mission "FW Cold Aid [2]"
-	name "Cold relief to <planet>"
-	description `A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport <cargo> to <planet> by <date> to assist in the recovery efforts. Payment is <payment>.`
+	name "寒冷救援：<planet>"
+	description `在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。在<date>之前将<cargo>运输至<planet>，以协助恢复工作。报酬为<payment>。`
 	job
 	repeat
 	deadline
@@ -3059,13 +3059,13 @@ mission "FW Cold Aid [2]"
 		random < 1
 	on complete
 		payment 8500 80
-		dialog `You turn your cargo of <cargo> over to the needy community in return for <payment>.`
+		dialog `你将货物 <cargo> 交给贫困社区，获得了 <payment>。`
 
 
 
 mission "Bounty Hunting (Very Tiny)"
-	name "Wanted fighter near <system>"
-	description "A small pirate fighter named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉战机：<system>附近"
+	description "一艘名为<npc>的小型海盗战机一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 14
@@ -3099,8 +3099,8 @@ mission "Bounty Hunting (Very Tiny)"
 			fail
 
 mission "Bounty Hunting (Very Tiny, Local)"
-	name "Wanted fighter entering <system>"
-	description "A small pirate fighter named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉战机进入<system>"
+	description "一艘名为<npc>的小型海盗战机一直在邻近星系攻击商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3127,8 +3127,8 @@ mission "Bounty Hunting (Very Tiny, Local)"
 
 
 mission "Bounty Hunting (Tiny)"
-	name "Wanted interceptor near <system>"
-	description "A well armed pirate interceptor named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉拦截机：<system>附近"
+	description "一艘名为<npc>的武装精良的海盗拦截机一直在<system>星系附近攻击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 14
@@ -3162,8 +3162,8 @@ mission "Bounty Hunting (Tiny)"
 			fail
 
 mission "Bounty Hunting (Tiny, Local)"
-	name "Wanted interceptor entering <system>"
-	description "A well armed pirate interceptor named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉拦截机进入<system>"
+	description "一艘名为<npc>的武装精良的海盗拦截机一直在袭击附近星系的商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3188,8 +3188,8 @@ mission "Bounty Hunting (Tiny, Local)"
 			fail
 
 mission "Bounty Hunting (Very Small)"
-	name "Wanted small pirate near <system>"
-	description "A small pirate ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉小型海盗船：<system>附近"
+	description "一艘名为<npc>的小型海盗船一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 14
@@ -3223,8 +3223,8 @@ mission "Bounty Hunting (Very Small)"
 			fail
 
 mission "Bounty Hunting (Very Small, Local)"
-	name "Wanted small pirate entering <system>"
-	description "A small pirate ship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉小型海盗船进入<system>"
+	description "一艘名为<npc>的小型海盗船一直在攻击附近星系中的商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3249,8 +3249,8 @@ mission "Bounty Hunting (Very Small, Local)"
 			fail
 
 mission "Bounty Hunting (Small)"
-	name "Wanted light warship near <system>"
-	description "A light pirate warship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉轻型战舰：<system>附近"
+	description "一艘名为<npc>的轻型海盗战舰一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 14
@@ -3285,8 +3285,8 @@ mission "Bounty Hunting (Small)"
 			fail
 
 mission "Bounty Hunting (Small, Local)"
-	name "Wanted light warship entering <system>"
-	description "A light pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉轻型战舰进入<system>"
+	description "一艘名为<npc>的轻型海盗战舰一直在附近星系攻击商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3312,8 +3312,8 @@ mission "Bounty Hunting (Small, Local)"
 			fail
 
 mission "Bounty Hunting (Medium)"
-	name "Wanted medium warship near <system>"
-	description "A medium pirate warship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉中型战舰：<system>附近"
+	description "一艘名为<npc>的中型海盗战舰一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3342,8 +3342,8 @@ mission "Bounty Hunting (Medium)"
 			fail
 
 mission "Bounty Hunting (Medium, Local)"
-	name "Wanted medium warship entering <system>"
-	description "A medium pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉中型战舰进入<system>"
+	description "一艘名为<npc>的中型海盗战舰一直在附近星系攻击商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3368,8 +3368,8 @@ mission "Bounty Hunting (Medium, Local)"
 			fail
 
 mission "Bounty Hunting (Big)"
-	name "Wanted heavy warship near <system>"
-	description "A heavy warship known as the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉重型战舰：<system>附近"
+	description "一艘名为<npc>的重型战舰一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3398,8 +3398,8 @@ mission "Bounty Hunting (Big)"
 			fail
 
 mission "Bounty Hunting (Big, Local)"
-	name "Wanted heavy warship entering <system>"
-	description "A heavy warship known as the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+	name "通缉重型战舰进入<system>"
+	description "一艘名为<npc>的重型战舰一直在攻击附近星系的商船，据报正进入本星系。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 3
@@ -3424,8 +3424,8 @@ mission "Bounty Hunting (Big, Local)"
 			fail
 
 mission "Bounty Hunting (Small, Hidden)"
-	name "Disguised light warship near <system>"
-	description "A light pirate warship named the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "通缉伪装轻型战舰：<system>附近"
+	description "一艘名为<npc>的轻型海盗战舰在距<system>星系一跳范围内的区域伪装成商船。找到名字匹配的商船，并在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 30
@@ -3452,8 +3452,8 @@ mission "Bounty Hunting (Small, Hidden)"
 			fail
 
 mission "Bounty Hunting (Medium, Hidden)"
-	name "Disguised medium warship near <system>"
-	description "A medium pirate warship named the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "通缉伪装中型战舰：<system>附近"
+	description "一艘名为<npc>的中型海盗战舰在距<system>星系一跳范围内的区域伪装成商船。找到名字相符的商船，并在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 30
@@ -3480,8 +3480,8 @@ mission "Bounty Hunting (Medium, Hidden)"
 			fail
 
 mission "Bounty Hunting (Big, Hidden)"
-	name "Disguised heavy warship near <system>"
-	description "A heavy warship known as the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+	name "通缉伪装重型战舰：<system>附近"
+	description "一艘名为<npc>的重型战舰在距<system>星系一跳范围内的区域伪装成商船。找到名称匹配的商船，并在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 30
@@ -3508,8 +3508,8 @@ mission "Bounty Hunting (Big, Hidden)"
 			fail
 
 mission "Bounty Hunting (Small, Boarding, Entering)"
-	name "Stolen ship near <system>"
-	description "A wanted criminal is fleeing in a stolen ship, the <npc>, which is about to enter this system. Board the ship and detain the criminal in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+	name "通缉被盗飞船：<system>附近"
+	description "一名通缉犯正驾驶着被盗的飞船<npc>逃窜，即将进入本星系。登船并将其关入禁闭室，然后在<date>之前将其带到<destination>。捕获赏金：<payment>。"
 	passengers 1
 	deadline 14
 	repeat
@@ -3539,16 +3539,16 @@ mission "Bounty Hunting (Small, Boarding, Entering)"
 				"Scout (Speedy)"
 			variant
 				"Clipper (Speedy)"
-		dialog "You blast your way onto the ship and confine the fleeing criminal to your ship's brig. Time to deliver them to <planet>."
+		dialog "你强行登上飞船，将逃跑的罪犯关进船上的禁闭室。是时候把他们送到<planet>了。"
 	on visit
 		dialog phrase "generic bounty hunting boarding on visit"
 	on complete
 		payment 175000
-		dialog "The government of <planet> gratefully pays you <payment> for apprehending the criminal."
+		dialog "<planet>政府为你逮捕了罪犯而感激地支付了<payment>。"
 
 mission "Bounty Hunting (Medium, Boarding, Entering)"
-	name "Stolen warship near <system>"
-	description "Several wanted criminals are fleeing in a stolen warship, the <npc>, which is about to enter this system. Board the ship and detain the criminals in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+	name "通缉被盗战舰：<system>附近"
+	description "几名通缉犯正驾驶一艘偷来的战舰<npc>逃窜，该舰即将进入本星系。登舰并将罪犯关押至禁闭室，随后在<date>之前将人犯送至<destination>。抓捕赏金：<payment>。"
 	passengers 4
 	deadline 14
 	repeat
@@ -3580,16 +3580,16 @@ mission "Bounty Hunting (Medium, Boarding, Entering)"
 				"Modified Argosy (Heavy)"
 			variant
 				"Raven (Heavy)"
-		dialog "You blast your way onto the ship, subdue the fleeing criminals, and confine them to your ship's brig. Time to deliver them to <planet>."
+		dialog "你强行登船，制服了逃跑的罪犯，将他们关押在自己的飞船禁闭室里。是时候把他们送到<planet>了。"
 	on visit
 		dialog phrase "generic bounty hunting boarding on visit"
 	on complete
 		payment 350000
-		dialog "The government of <planet> gratefully pays you <payment> for apprehending the criminal gang."
+		dialog "<planet>政府为您逮捕了犯罪团伙而感激地支付了<payment>。"
 
 mission "Bounty Hunting (Solo Marauder I)"
-	name "Marauder interceptor near <system>"
-	description "A Marauder interceptor named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉掠夺者拦截机：<system>附近"
+	description "一艘名为<npc>的掠夺者拦截机一直在<system>星系附近攻击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3619,8 +3619,8 @@ mission "Bounty Hunting (Solo Marauder I)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder II)"
-	name "Small Marauder near <system>"
-	description "A small Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉小型掠夺者：<system>附近"
+	description "一艘名为<npc>的小型掠夺者飞船一直在<system>星系附近攻击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3650,8 +3650,8 @@ mission "Bounty Hunting (Solo Marauder II)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder III)"
-	name "Marauder near <system>"
-	description "A Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉掠夺者：<system>附近"
+	description "一艘名为<npc>的掠夺者飞船一直在<system>星系附近攻击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3677,8 +3677,8 @@ mission "Bounty Hunting (Solo Marauder III)"
 			fail
 
 mission "Bounty Hunting (Solo Marauder IV)"
-	name "Large Marauder near <system>"
-	description "A large Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+	name "通缉大型掠夺者：<system>附近"
+	description "一艘名为<npc>的大型掠夺者飞船一直在<system>星系附近袭击商船。在<day>之前将其摧毁以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3704,8 +3704,8 @@ mission "Bounty Hunting (Solo Marauder IV)"
 			fail
 
 mission "Bounty Hunting (Marauder I)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉小型掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的小型掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3736,8 +3736,8 @@ mission "Bounty Hunting (Marauder I)"
 			fail
 
 mission "Bounty Hunting (Marauder II)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉小型掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的小型掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3768,8 +3768,8 @@ mission "Bounty Hunting (Marauder II)"
 			fail
 
 mission "Bounty Hunting (Marauder III)"
-	name "Small Marauders near <system>"
-	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉小型掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的小型掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 16
@@ -3798,8 +3798,8 @@ mission "Bounty Hunting (Marauder III)"
 			fail
 
 mission "Bounty Hunting (Marauder IV)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3828,8 +3828,8 @@ mission "Bounty Hunting (Marauder IV)"
 			fail
 
 mission "Bounty Hunting (Marauder V)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3859,8 +3859,8 @@ mission "Bounty Hunting (Marauder V)"
 
 
 mission "Bounty Hunting (Marauder VI)"
-	name "Marauders near <system>"
-	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "通缉掠夺者：<system>附近"
+	description "一支由名为<npc>的飞船率领的掠夺者舰队，一直在<system>星系附近袭击商船。在<day>之前摧毁整支舰队以获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3889,8 +3889,8 @@ mission "Bounty Hunting (Marauder VI)"
 			fail
 
 mission "Bounty Hunting (Marauder VII)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<system>附近的大型掠夺者"
+	description "一支大型掠夺者舰队，由一艘名为<npc>的飞船率领，一直在<system>星系附近袭击商人。在<day>前摧毁整支舰队即可获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3915,8 +3915,8 @@ mission "Bounty Hunting (Marauder VII)"
 			fail
 
 mission "Bounty Hunting (Marauder VIII)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<system>附近的大型掠夺者"
+	description "一支大型掠夺者舰队，由一艘名为<npc>的飞船率领，一直在<system>星系附近袭击商人。在<day>前摧毁整支舰队即可获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3941,8 +3941,8 @@ mission "Bounty Hunting (Marauder VIII)"
 			fail
 
 mission "Bounty Hunting (Marauder IX)"
-	name "Large Marauders near <system>"
-	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+	name "<system>附近的大型掠夺者"
+	description "一支大型掠夺者舰队，由一艘名为<npc>的飞船率领，一直在<system>星系附近袭击商人。在<day>前摧毁整支舰队即可获得报酬（<payment>）。"
 	repeat
 	job
 	deadline 18
@@ -3967,8 +3967,8 @@ mission "Bounty Hunting (Marauder IX)"
 			fail
 
 mission "Bounty Hunting (Marauder X)"
-	name "Infamous Marauders near <system>"
-	description "The legendary <npc> and its accompanying fleet have been terrorizing merchants and law enforcement in this region of space. Destroy the whole fleet for payment (<payment>). Be warned that the <npc> is known to ambush those attempting to hunt them."
+	name "<system>附近的恶名掠夺者"
+	description "传说中的<npc>及其伴随舰队一直在该星域恐吓商人和执法部门。摧毁整支舰队即可获得报酬（<payment>）。请注意，<npc>素以伏击追捕者而闻名。"
 	repeat
 	job
 	"apparent payment" 10000000
@@ -3993,8 +3993,8 @@ mission "Bounty Hunting (Marauder X)"
 
 
 mission "Republic Navy Advisory System [frozen]"
-	name "Cold relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe cold snap. Payment is <payment>."
+	name "寒冷救援：<planet>"
+	description "在严重寒潮之后，于<date>之前将人道主义援助物资<cargo>运送至<destination>。报酬为<payment>。"
 	minor
 	repeat
 	deadline
@@ -4016,14 +4016,14 @@ mission "Republic Navy Advisory System [frozen]"
 	to offer
 		random < 1
 	on offer
-		dialog `A voice booms from the spaceport loudspeakers. "This is the Republic Navy Advisory System. <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses."`
+		dialog `太空港的扩音器传来一阵声音：“这里是共和国海军咨询系统。<planet>正遭受严重的<problem>。请求志愿者在<date>前向<planet>运送<cargo>。将提供<payment>作为津贴，以支付燃料、船员及任何杂项开支。”`
 	on complete
 		payment 8500 80
-		dialog `Shivering, appreciative aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `浑身发抖、满怀感激的救援人员接收了你的货物。你满意地看着，深知<cargo>很快就能送到最需要的人手中。回到飞船上，你收到通知，你的服务已获得<payment>的报酬。`
 
 mission "Republic Navy Advisory System [volcanic]"
-	name "Volcanic relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe volcanic eruption. Payment is <payment>."
+	name "火山救援至<planet>"
+	description "在严重火山喷发之后，于<date>之前将人道主义援助物资<cargo>运送至<destination>。报酬为<payment>。"
 	minor
 	repeat
 	deadline
@@ -4043,14 +4043,14 @@ mission "Republic Navy Advisory System [volcanic]"
 	to offer
 		random < 1
 	on offer
-		dialog `A voice booms from the spaceport loudspeakers. "This is the Republic Navy Advisory System. <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses."`
+		dialog `太空港的扩音器传来一阵声音：“这里是共和国海军咨询系统。<planet>正遭受严重的<problem>。请求志愿者在<date>前向<planet>运送<cargo>。将提供<payment>作为津贴，以支付燃料、船员及任何杂项开支。”`
 	on complete
 		payment 8500 80
-		dialog `Relieved-looking aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `如释重负的救援人员接收了你的货物。你满意地看着，深知<cargo>很快就能送达最需要的人手中。回到飞船上，你收到通知，你的服务已获得<payment>的报酬。`
 
 mission "Republic Navy Advisory System [wildfire cargo]"
-	name "Wildfire relief to <planet>"
-	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe wildfire. Payment is <payment>."
+	name "野火救援至<planet>"
+	description "在严重野火之后，于<date>之前将人道主义援助物资<cargo>运送至<destination>。报酬为<payment>。"
 	minor
 	repeat
 	deadline
@@ -4070,14 +4070,14 @@ mission "Republic Navy Advisory System [wildfire cargo]"
 	to offer
 		random < 1
 	on offer
-		dialog `A voice booms from the spaceport loudspeakers. "This is the Republic Navy Advisory System. <planet> is experiencing a severe <problem>. Volunteers are requested to supply <cargo> to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses."`
+		dialog `太空港的扩音器传来一阵声音：“这里是共和国海军咨询系统。<planet>正遭受严重的<problem>。请求志愿者在<date>前向<planet>运送<cargo>。将提供<payment>作为津贴，以支付燃料、船员及任何杂项开支。”`
 	on complete
 		payment 8500 80
-		dialog `Ash-covered, relieved aid workers welcome your shipment. You look on, feeling satisfied that <cargo> will soon arrive to those that need it most. Back in your ship, you're notified that you've received <payment> for your service.`
+		dialog `满身灰烬、如释重负的救援人员接收了你的货物。你满意地看着，深知<cargo>很快就能送达最需要的人手中。回到飞船上，你收到通知，你的服务已获得<payment>的报酬。`
 
 mission "Republic Navy Advisory System [wildfire firefighters]"
-	name "Transport Firefighters"
-	description "Transport <bunks> firefighters to <planet> by <date>. Payment is <payment>."
+	name "运输消防员"
+	description "在<date>之前运送<bunks>名消防员到<planet>。报酬为<payment>。"
 	minor
 	repeat
 	deadline
@@ -4097,19 +4097,19 @@ mission "Republic Navy Advisory System [wildfire firefighters]"
 	to offer
 		random < 1
 	on offer
-		dialog `A voice booms from the spaceport loudspeakers. "This is the Republic Navy Advisory System. <planet> is experiencing a severe <problem>. Volunteers are requested to transport <bunks> firefighters to <planet> by <date>. A stipend of <payment> is provided to cover fuel, crew, and any incidental expenses."`
+		dialog `太空港的扩音器传来一阵声音：“这里是共和国海军咨询系统。<planet>正遭受严重的<problem>。请求志愿者在<date>之前将<bunks>名消防员运送到<planet>。将提供<payment>作为津贴，以支付燃料、船员及任何杂项开支。”`
 	on complete
 		payment 9000 85
-		dialog "You land at a makeshift landing site a few minutes flight from the blaze. The smoky haze that drifts into your ship when the firefighters open the hatch to depart makes your eyes and nose itch. As you watch your passengers heading toward a staging area nearby, you think about the inferno they will soon be voluntarily entering. A chirp from your communications system indicates your stipend of <payment> has been deposited, and you begin your atmospheric flight back to <planet>'s main spaceport."
+		dialog "你在距离大火几分钟飞行路程的一个临时着陆点降落。消防员打开舱门出发时飘进飞船的烟雾让你的眼睛和鼻子发痒。当你看着你的乘客们走向附近的集结区时，你想到他们即将自愿进入的烈火。你的通信系统发出提示音，表明你的<payment>津贴已经到账，你开始在大气层中飞行，返回<planet>的主要太空港。"
 
 mission "Mineral Shortages (Silicon)"
-	name "Harvested silicon to <planet>"
+	name "运送采集的硅至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Silicon"
+		"<mineral>" "硅"
 		"<amount>" "120"
 	to offer
 		random < 5
@@ -4127,13 +4127,13 @@ mission "Mineral Shortages (Silicon)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Lead)"
-	name "Harvested lead to <planet>"
+	name "运送采集的铅至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Lead"
+		"<mineral>" "铅"
 		"<amount>" "120"
 	to offer
 		random < 5
@@ -4151,13 +4151,13 @@ mission "Mineral Shortages (Lead)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Iron)"
-	name "Harvested iron to <planet>"
+	name "运送采集的铁至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Iron"
+		"<mineral>" "铁"
 		"<amount>" "120"
 	to offer
 		random < 5
@@ -4175,13 +4175,13 @@ mission "Mineral Shortages (Iron)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Aluminum)"
-	name "Harvested aluminum to <planet>"
+	name "运送采集的铝至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Aluminum"
+		"<mineral>" "铝"
 		"<amount>" "90"
 	to offer
 		random < 5
@@ -4199,13 +4199,13 @@ mission "Mineral Shortages (Aluminum)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Titanium)"
-	name "Harvested titanium to <planet>"
+	name "运送采集的钛至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Titanium"
+		"<mineral>" "钛"
 		"<amount>" "90"
 	to offer
 		random < 5
@@ -4223,13 +4223,13 @@ mission "Mineral Shortages (Titanium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Copper)"
-	name "Harvested copper to <planet>"
+	name "运送采集的铜至<planet>"
 	job
 	repeat
 	deadline 7
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Copper"
+		"<mineral>" "铜"
 		"<amount>" "90"
 	to offer
 		random < 5
@@ -4247,13 +4247,13 @@ mission "Mineral Shortages (Copper)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Neodymium)"
-	name "Harvested neodymium to <planet>"
+	name "运送采集的钕至<planet>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Neodymium"
+		"<mineral>" "钕"
 		"<amount>" "60"
 	to offer
 		random < 5
@@ -4271,13 +4271,13 @@ mission "Mineral Shortages (Neodymium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Tungsten)"
-	name "Harvested tungsten to <planet>"
+	name "运送采集的钨至<planet>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Tungsten"
+		"<mineral>" "钨"
 		"<amount>" "60"
 	to offer
 		random < 5
@@ -4295,13 +4295,13 @@ mission "Mineral Shortages (Tungsten)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Uranium)"
-	name "Harvested uranium to <planet>"
+	name "运送采集的铀至<planet>"
 	job
 	repeat
 	deadline 14
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Uranium"
+		"<mineral>" "铀"
 		"<amount>" "60"
 	to offer
 		random < 5
@@ -4319,13 +4319,13 @@ mission "Mineral Shortages (Uranium)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Silver)"
-	name "Harvested silver to <planet>"
+	name "运送采集的银至<planet>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Silver"
+		"<mineral>" "白银星"
 		"<amount>" "30"
 	to offer
 		random < 5
@@ -4343,13 +4343,13 @@ mission "Mineral Shortages (Silver)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Gold)"
-	name "Harvested gold to <planet>"
+	name "运送采集的金至<planet>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Gold"
+		"<mineral>" "金"
 		"<amount>" "30"
 	to offer
 		random < 5
@@ -4367,13 +4367,13 @@ mission "Mineral Shortages (Gold)"
 		dialog phrase "generic mineral delivery payment"
 
 mission "Mineral Shortages (Platinum)"
-	name "Harvested platinum to <planet>"
+	name "运送采集的铂至<planet>"
 	job
 	repeat
 	deadline 28
-	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+	description "<planet>上的工厂正面临矿物短缺。请采集<amount>吨<mineral>并在<date>之前返回<destination>。报酬为<payment>。"
 	substitutions
-		"<mineral>" "Platinum"
+		"<mineral>" "铂"
 		"<amount>" "30"
 	to offer
 		random < 5
@@ -4393,8 +4393,8 @@ mission "Mineral Shortages (Platinum)"
 mission "Student transport"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination> by <date> to study at one of <planet>'s universities. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要你在<date>之前将其运送至<destination>，以便前往<planet>的一所大学学习。他们将支付你<payment>。"
 	deadline
 	to offer
 		random < 20
@@ -4414,8 +4414,8 @@ mission "Student transport"
 mission "Rich student transport"
 	job
 	repeat
-	name "Transport wealthy student to <planet>"
-	description "This rich student needs transport to <destination> by <date> to study at one of <planet>'s high-end universities. They will pay you <payment>."
+	name "运送富裕学生至<planet>"
+	description "这名富裕的学生需要你在<date>之前将其运送至<destination>，以便前往<planet>的一所高端大学学习。他们将支付你<payment>。"
 	deadline
 	passengers 1
 	to offer
@@ -4437,8 +4437,8 @@ mission "Rich student transport"
 mission "Student field research (farming)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source
@@ -4449,7 +4449,7 @@ mission "Student field research (farming)"
 		"<student research>" "farms of"
 		"<student research>" "soil quality of"
 			random < 80
-		"<student research>" "river water quality of"
+		"<student research>" "河流水质"
 			random < 60
 		"<student research>" "agricultural industry of"
 			random < 40
@@ -4467,8 +4467,8 @@ mission "Student field research (farming)"
 mission "Student field research (mining / oil)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source
@@ -4499,8 +4499,8 @@ mission "Student field research (mining / oil)"
 mission "Student field research (forest)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source
@@ -4533,8 +4533,8 @@ mission "Student field research (forest)"
 mission "Student field research (urban / factory)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source
@@ -4542,7 +4542,7 @@ mission "Student field research (urban / factory)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "quality of life of the inhabitants of"
+		"<student research>" "居民生活质量"
 		"<student research>" "cities of"
 			random < 80
 		"<student research>" "manufacturing industry of"
@@ -4566,8 +4566,8 @@ mission "Student field research (urban / factory)"
 mission "Student field research (fishing)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source
@@ -4600,8 +4600,8 @@ mission "Student field research (fishing)"
 mission "Student field research (volcanic)"
 	job
 	repeat
-	name "Transport student to <planet>"
-	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+	name "运送学生至<planet>"
+	description "这名学生需要运送至<destination>，他们将在那里对<planet>的<student research>进行实地研究。他们将支付你<payment>。"
 	to offer
 		random < 5
 	source

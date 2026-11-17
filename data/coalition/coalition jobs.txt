@@ -13,13 +13,13 @@
 
 phrase "coalition ringworld workers"
 	word
-		`You drop off the workers on the <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你将工人送达<planet>。几分钟后，你收到一笔<payment>的转账。`
 
 mission "Coalition: Ringworld Workers 1"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "运送工人前往<planet>"
+	description "将这组由<bunks>名工人组成的队伍运送至日权会的<planet>，他们将在那里协助维护和扩建环形世界。报酬为<payment>。"
 	passengers 5 8 .2
 	to offer
 		has "known to the heliarchs"
@@ -39,8 +39,8 @@ mission "Coalition: Ringworld Workers 1"
 mission "Coalition: Ringworld Workers 2"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "运送工人前往<planet>"
+	description "将这组由<bunks>名工人组成的队伍运送至日权会的<planet>，他们将在那里协助维护和扩建环形世界。报酬为<payment>。"
 	passengers 5 5 .1
 	to offer
 		has "known to the heliarchs"
@@ -60,8 +60,8 @@ mission "Coalition: Ringworld Workers 2"
 mission "Coalition: Ringworld Workers 3"
 	job
 	repeat
-	name "Workers to the <planet>"
-	description "Transport this crew of <bunks> workers to the Heliarch <planet>, where they will help in the efforts to maintain and expand the ringworld. Payment will be <payment>."
+	name "运送工人前往<planet>"
+	description "将这组由<bunks>名工人组成的队伍运送至日权会的<planet>，他们将在那里协助维护和扩建环形世界。报酬为<payment>。"
 	passengers 5 3 .04
 	to offer
 		has "known to the heliarchs"
@@ -81,13 +81,13 @@ mission "Coalition: Ringworld Workers 3"
 
 phrase "coalition ringworld volunteers"
 	word
-		`You drop off the volunteers on the <planet>, where they are met by a Heliarch agent. A few minutes later you receive a transfer of <payment>.`
+		`你将志愿者送达<planet>，一名赫利阿克特工正在那里迎接他们。几分钟后，你收到一笔<payment>的转账。`
 
 mission "Coalition: Ringworld Volunteers 1"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "运送志愿者前往<planet>"
+	description "政府将支付你<payment>，让你运送这<bunks>名志愿者工人到<planet>，他们将协助建设工作以换取食宿。"
 	passengers 5 3 .3
 	to offer
 		has "known to the heliarchs"
@@ -107,8 +107,8 @@ mission "Coalition: Ringworld Volunteers 1"
 mission "Coalition: Ringworld Volunteers 2"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "运送志愿者前往<planet>"
+	description "政府将支付你<payment>，让你运送这<bunks>名志愿者工人到<planet>，他们将协助建设工作以换取食宿。"
 	passengers 5 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -128,8 +128,8 @@ mission "Coalition: Ringworld Volunteers 2"
 mission "Coalition: Ringworld Volunteers 3"
 	job
 	repeat
-	name "Volunteers to the <planet>"
-	description "The government will pay you <payment> to bring these <bunks> volunteer workers to the <planet>, where they will assist in the construction effort in return for room and board."
+	name "运送志愿者前往<planet>"
+	description "政府将支付你<payment>，让你运送这<bunks>名志愿者工人到<planet>，他们将协助建设工作以换取食宿。"
 	passengers 5 4 .2
 	to offer
 		has "known to the heliarchs"
@@ -149,13 +149,13 @@ mission "Coalition: Ringworld Volunteers 3"
 
 phrase "coalition ringworld materials"
 	word
-		`You drop off the construction materials and receive <payment> in payment.`
+		`你卸下建筑材料，收到<payment>作为报酬。`
 
 mission "Coalition: Ringworld Materials 1"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "运送材料至<planet>"
+	description "在<date>前将这些<tons>吨建筑材料送达至日权会<planet>。报酬为<payment>。"
 	deadline
 	cargo "Construction" 10 3 .02
 	to offer
@@ -176,8 +176,8 @@ mission "Coalition: Ringworld Materials 1"
 mission "Coalition: Ringworld Materials 2"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "运送材料至<planet>"
+	description "在<date>前将这些<tons>吨建筑材料送达至日权会<planet>。报酬为<payment>。"
 	deadline
 	cargo "Construction" 10 4 .02
 	to offer
@@ -198,8 +198,8 @@ mission "Coalition: Ringworld Materials 2"
 mission "Coalition: Ringworld Materials 3"
 	job
 	repeat
-	name "Materials to the <planet>"
-	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
+	name "运送材料至<planet>"
+	description "在<date>前将这些<tons>吨建筑材料送达至日权会<planet>。报酬为<payment>。"
 	deadline
 	cargo "Construction" 10 5 .02
 	to offer
@@ -220,13 +220,13 @@ mission "Coalition: Ringworld Materials 3"
 
 phrase "coalition ringworld supplies"
 	word
-		`You drop off the donation of <commodity> and receive <payment> in payment.`
+		`你卸下了捐赠的<commodity>，并收到<payment>作为报酬。`
 
 mission "Coalition: Ringworld Supplies 1"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "向<planet>运送补给"
+	description "这批<tons>吨物资是<origin>政府捐赠的，用于支持日权会<planet>。交付后你将获得<payment>报酬。"
 	cargo random 5 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -246,8 +246,8 @@ mission "Coalition: Ringworld Supplies 1"
 mission "Coalition: Ringworld Supplies 2"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "向<planet>运送补给"
+	description "这批<tons>吨物资是<origin>政府捐赠的，用于支持日权会<planet>。交付后你将获得<payment>报酬。"
 	cargo random 5 10 .15
 	to offer
 		has "known to the heliarchs"
@@ -267,8 +267,8 @@ mission "Coalition: Ringworld Supplies 2"
 mission "Coalition: Ringworld Supplies 3"
 	job
 	repeat
-	name "Supplies to the <planet>"
-	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
+	name "向<planet>运送补给"
+	description "这批<tons>吨物资是<origin>政府捐赠的，用于支持日权会<planet>。交付后你将获得<payment>报酬。"
 	cargo random 5 10 .1
 	to offer
 		has "known to the heliarchs"
@@ -289,8 +289,8 @@ mission "Coalition: Ringworld Supplies 3"
 mission "Coalition: Heliarch Candidate"
 	job
 	repeat
-	name "Candidate to the <planet>"
-	description "You will be paid <payment> for transporting this candidate for elevation to the rank of Heliarch to the <planet> by <date>."
+	name "运送候选人至<planet>"
+	description "你将获得<payment>报酬，负责将这位提升为日权会成员的候选人运送至<planet>，截止日期为<date>。"
 	passengers 1
 	deadline 5 1
 	to offer
@@ -306,18 +306,18 @@ mission "Coalition: Heliarch Candidate"
 		"coalition jobs" ++
 		payment
 		payment 50000
-		dialog `Heliarch agents meet your ship as soon as it docks and receive the candidate whom you have been transporting, in a small ceremony. A few minutes later you receive a transfer of <payment>.`
+		dialog `你的飞船一靠港，日权会特工便登船迎接，并为你在途中护送的那位候选人举行了一个简短的仪式。几分钟后，你收到了一笔 <payment> 的转账。`
 
 
 phrase "coalition interpreters dialog"
 	word
-		`You drop off the interpreters on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你在<planet>将口译员放下不久，便收到了一笔<payment>的转账。`
 
 mission "Coalition: Interpreters 1"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "运送译员至<planet>"
+	description "将这批<bunks>名受过口译与调解训练的日权会特工送至<destination>。报酬为<payment>。"
 	passengers 2 3 .5
 	to offer
 		has "known to the heliarchs"
@@ -337,8 +337,8 @@ mission "Coalition: Interpreters 1"
 mission "Coalition: Interpreters 2"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "运送译员至<planet>"
+	description "将这批<bunks>名受过口译与调解训练的日权会特工送至<destination>。报酬为<payment>。"
 	passengers 2 5 .5
 	to offer
 		has "known to the heliarchs"
@@ -358,8 +358,8 @@ mission "Coalition: Interpreters 2"
 mission "Coalition: Interpreters 3"
 	job
 	repeat
-	name "Interpreters to <planet>"
-	description "Bring these <bunks> Heliarch agents, trained as interpreters and mediators, to <destination>. Payment is <payment>."
+	name "运送译员至<planet>"
+	description "将这批<bunks>名受过口译与调解训练的日权会特工送至<destination>。报酬为<payment>。"
 	passengers 2 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -379,13 +379,13 @@ mission "Coalition: Interpreters 3"
 
 phrase "coalition peacekeepers dialog"
 	word
-		`You drop off the peacekeepers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你将维和人员送达<planet>。几分钟后，你收到一笔<payment>的转账。`
 
 mission "Coalition: Peacekeepers 1"
 	job
 	repeat
-	name "Peacekeepers to <planet>"
-	description "Transport this corps of <bunks> peacekeepers to <destination> to investigate reports of Lunarium activity. Payment is <payment>."
+	name "运送维和部队至<planet>"
+	description "运送这支由<bunks>人组成的维和部队到<destination>，调查有关月影社活动的报告。报酬为<payment>。"
 	passengers 10 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -405,8 +405,8 @@ mission "Coalition: Peacekeepers 1"
 mission "Coalition: Peacekeepers 2"
 	job
 	repeat
-	name "Peacekeepers to <planet>"
-	description "Transport this corps of <bunks> peacekeepers to <destination> to investigate reports of Lunarium activity. Payment is <payment>."
+	name "运送维和部队至<planet>"
+	description "运送这支由<bunks>人组成的维和部队到<destination>，调查有关月影社活动的报告。报酬为<payment>。"
 	passengers 10 5 .1
 	to offer
 		has "known to the heliarchs"
@@ -426,13 +426,13 @@ mission "Coalition: Peacekeepers 2"
 
 phrase "coalition interspecies settlers"
 	word
-		`You drop off the settlers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你将这些定居者送达<planet>。几分钟后，你收到了<payment>的转账。`
 
 mission "Coalition: Saryd Interspecies 1"
 	job
 	repeat
-	name "Saryds to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送萨里德人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -452,8 +452,8 @@ mission "Coalition: Saryd Interspecies 1"
 mission "Coalition: Saryd Interspecies 2"
 	job
 	repeat
-	name "Saryds to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送萨里德人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -473,8 +473,8 @@ mission "Coalition: Saryd Interspecies 2"
 mission "Coalition: Kimek Interspecies 1"
 	job
 	repeat
-	name "Kimek to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送基梅克人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -494,8 +494,8 @@ mission "Coalition: Kimek Interspecies 1"
 mission "Coalition: Kimek Interspecies 2"
 	job
 	repeat
-	name "Kimek to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送基梅克人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -515,8 +515,8 @@ mission "Coalition: Kimek Interspecies 2"
 mission "Coalition: Arach Interspecies 1"
 	job
 	repeat
-	name "Arachi to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送阿拉奇人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 2 .1
 	to offer
 		has "known to the heliarchs"
@@ -536,8 +536,8 @@ mission "Coalition: Arach Interspecies 1"
 mission "Coalition: Arach Interspecies 2"
 	job
 	repeat
-	name "Arachi to <planet>"
-	description "As part of the Interspecies Exchange Program, these <bunks> volunteer settlers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "运送阿拉奇人至<planet>"
+	description "作为异种交流计划的一部分，这些<bunks>名志愿定居者需要被运输到<destination>。政府将支付他们<payment>的运输费用。"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -557,13 +557,13 @@ mission "Coalition: Arach Interspecies 2"
 
 phrase "coalition transfer dialog"
 	word
-		`You drop off the workers on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你在<planet>放下工人。几分钟后，你收到一笔<payment>的转账。`
 
 mission "Coalition: Transfer 1"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "转运至<planet>"
+	description "作为充分就业计划的一部分，这些 <bunks> 名工人需要被运送到 <destination>。政府将支付他们的运输费用 <payment>。"
 	passengers 2 10 .3
 	to offer
 		has "known to the heliarchs"
@@ -585,8 +585,8 @@ mission "Coalition: Transfer 1"
 mission "Coalition: Transfer 2"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "转运至<planet>"
+	description "作为充分就业计划的一部分，这些 <bunks> 名工人需要被运送到 <destination>。政府将支付他们的运输费用 <payment>。"
 	passengers 2 10 .2
 	to offer
 		has "known to the heliarchs"
@@ -608,8 +608,8 @@ mission "Coalition: Transfer 2"
 mission "Coalition: Transfer 3"
 	job
 	repeat
-	name "Transfer to <planet>"
-	description "As a part of the Full Employment Program, these <bunks> workers need transportation to <destination>. The government will pay their transport fee of <payment>."
+	name "转运至<planet>"
+	description "作为充分就业计划的一部分，这些 <bunks> 名工人需要被运送到 <destination>。政府将支付他们的运输费用 <payment>。"
 	passengers 2 10 .1
 	to offer
 		has "known to the heliarchs"
@@ -631,13 +631,13 @@ mission "Coalition: Transfer 3"
 
 phrase "coalition tourists outbound"
 	word
-		`The tourists thank you for bringing them to <planet> and pay you <payment>.`
+		`游客们感谢您带他们到达<planet>，并支付您<payment>。`
 
 mission "Coalition: Tourists Out 1"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这些<bunks>名游客愿意支付你<payment>，请你带他们前往<destination>，并希望搭乘非常舒适的飞船。若未能在<date>之前抵达，报酬将不予支付。"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -661,8 +661,8 @@ mission "Coalition: Tourists Out 1"
 mission "Coalition: Tourists Out 2"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这些<bunks>名游客愿意支付你<payment>，请你带他们前往<destination>，并希望搭乘非常舒适的飞船。若未能在<date>之前抵达，报酬将不予支付。"
 	deadline
 	passengers 2 5 .4
 	to offer
@@ -686,8 +686,8 @@ mission "Coalition: Tourists Out 2"
 mission "Coalition: Tourists Out 3"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这些<bunks>名游客愿意支付你<payment>，请你带他们前往<destination>，并希望搭乘非常舒适的飞船。若未能在<date>之前抵达，报酬将不予支付。"
 	deadline
 	passengers 2 5 .3
 	to offer
@@ -711,13 +711,13 @@ mission "Coalition: Tourists Out 3"
 
 phrase "coalition tourists homebound"
 	word
-		`The tourists thank you for bringing them home and pay you <payment>.`
+		`游客们感谢您送他们回家，并支付给您<payment>。`
 
 mission "Coalition: Tourists Home 1"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这<bunks>名游客愿意支付你<payment>，请你将他们带回家乡<destination>，并要求乘坐极为舒适的飞船。若未在<date>前抵达，报酬作废。"
 	deadline
 	passengers 2 5 .5
 	to offer
@@ -741,8 +741,8 @@ mission "Coalition: Tourists Home 1"
 mission "Coalition: Tourists Home 2"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这<bunks>名游客愿意支付你<payment>，请你将他们带回家乡<destination>，并要求乘坐极为舒适的飞船。若未在<date>前抵达，报酬作废。"
 	deadline
 	passengers 2 5 .4
 	to offer
@@ -766,8 +766,8 @@ mission "Coalition: Tourists Home 2"
 mission "Coalition: Tourists Home 3"
 	job
 	repeat
-	name "Vacationers to <planet>"
-	description "These <bunks> tourists will pay you <payment> to bring them home to <destination> and desire to travel in a very comfortable ship. Payment is void if they do not arrive by <date>."
+	name "运送度假者至<planet>"
+	description "这<bunks>名游客愿意支付你<payment>，请你将他们带回家乡<destination>，并要求乘坐极为舒适的飞船。若未在<date>前抵达，报酬作废。"
 	deadline
 	passengers 2 5 .3
 	to offer
@@ -791,13 +791,13 @@ mission "Coalition: Tourists Home 3"
 
 phrase "coalition fast courier"
 	word
-		`The recipient thanks you for bringing the <commodity> here so quickly, and pays you <payment>.`
+		`收件人感谢您如此迅速地将<commodity>运抵此处，并支付给您<payment>。`
 
 mission "Coalition: Fast Courier 1"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "速递至<planet>"
+	description "在<date>之前将<cargo>送达至<destination>，报酬为<payment>。"
 	deadline 5 1
 	cargo random 2 20 .6
 	to offer
@@ -819,8 +819,8 @@ mission "Coalition: Fast Courier 1"
 mission "Coalition: Fast Courier 2"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "速递至<planet>"
+	description "在<date>之前将<cargo>送达至<destination>，报酬为<payment>。"
 	deadline 5 1
 	cargo random 2 30 .6
 	to offer
@@ -842,8 +842,8 @@ mission "Coalition: Fast Courier 2"
 mission "Coalition: Fast Courier 3"
 	job
 	repeat
-	name "Fast courier to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
+	name "速递至<planet>"
+	description "在<date>之前将<cargo>送达至<destination>，报酬为<payment>。"
 	deadline 5 1
 	cargo random 2 40 .6
 	to offer
@@ -865,13 +865,13 @@ mission "Coalition: Fast Courier 3"
 
 phrase "coalition commodity delivery"
 	word
-		`You drop off the <commodity> on <planet>, and receive <payment> in payment.`
+		`你将<commodity>运抵<planet>，并获得<payment>作为酬劳。`
 
 mission "Coalition: Cargo 1"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "运送货物至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo "coalition cargo" 4 6 .3
 	to offer
 		has "known to the heliarchs"
@@ -892,8 +892,8 @@ mission "Coalition: Cargo 1"
 mission "Coalition: Cargo 2"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "运送货物至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo "coalition cargo" 4 8 .3
 	to offer
 		has "known to the heliarchs"
@@ -914,8 +914,8 @@ mission "Coalition: Cargo 2"
 mission "Coalition: Cargo 3"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "运送货物至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo "coalition cargo" 4 11 .3
 	to offer
 		has "known to the heliarchs"
@@ -936,8 +936,8 @@ mission "Coalition: Cargo 3"
 mission "Coalition: Cargo 4"
 	job
 	repeat
-	name "Cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "运送货物至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo "coalition cargo" 4 15 .3
 	to offer
 		has "known to the heliarchs"
@@ -959,8 +959,8 @@ mission "Coalition: Cargo 4"
 mission "Coalition: Bulk 1"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "大宗货运至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 20 6 .1
 	to offer
 		has "known to the heliarchs"
@@ -981,8 +981,8 @@ mission "Coalition: Bulk 1"
 mission "Coalition: Bulk 2"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "大宗货运至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 30 9 .1
 	to offer
 		has "known to the heliarchs"
@@ -1003,8 +1003,8 @@ mission "Coalition: Bulk 2"
 mission "Coalition: Bulk 3"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "大宗货运至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 40 15 .1
 	to offer
 		has "known to the heliarchs"
@@ -1025,8 +1025,8 @@ mission "Coalition: Bulk 3"
 mission "Coalition: Bulk 4"
 	job
 	repeat
-	name "Bulk cargo to <planet>"
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	name "大宗货运至<planet>"
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 50 25 .1
 	to offer
 		has "known to the heliarchs"
@@ -1048,8 +1048,8 @@ mission "Coalition: Bulk 4"
 mission "Coalition: Rush 1"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "紧急送货至<planet>"
+	description "<destination> 需要一批 <cargo>，须在 <date> 之前送达。报酬为 <payment>。"
 	deadline
 	cargo random 10 8 .2
 	to offer
@@ -1071,8 +1071,8 @@ mission "Coalition: Rush 1"
 mission "Coalition: Rush 2"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "紧急送货至<planet>"
+	description "<destination> 需要一批 <cargo>，须在 <date> 之前送达。报酬为 <payment>。"
 	deadline
 	cargo random 10 12 .2
 	to offer
@@ -1094,8 +1094,8 @@ mission "Coalition: Rush 2"
 mission "Coalition: Rush 3"
 	job
 	repeat
-	name "Rush Delivery to <planet>"
-	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
+	name "紧急送货至<planet>"
+	description "<destination> 需要一批 <cargo>，须在 <date> 之前送达。报酬为 <payment>。"
 	deadline
 	cargo random 10 18 .2
 	to offer
@@ -1118,8 +1118,8 @@ mission "Coalition: Rush 3"
 mission "Coalition: Doctors"
 	job
 	repeat
-	name "Doctors to <planet>"
-	description "The government will pay you <payment> to bring this team of <bunks> doctors to <destination>, to address a viral outbreak. They must arrive by <date>."
+	name "运送医生至<planet>"
+	description "政府将支付你 <payment>，让你护送这支由 <bunks> 名医生组成的医疗队前往 <destination>，以应对一次病毒爆发。他们必须在 <date> 之前抵达。"
 	deadline 8 1
 	passengers 4 10 .4
 	to offer
@@ -1136,18 +1136,18 @@ mission "Coalition: Doctors"
 		"coalition jobs" ++
 		payment
 		payment 50000
-		dialog `The doctors methodically pack up their equipment and leave your ship. From their lack of urgency, it appears that this is a routine event, not a crisis. A few minutes later you receive a transfer of <payment>.`
+		dialog `医生们有条不紊地收拾好设备，离开了你的飞船。看他们不慌不忙的样子，这似乎是一次例行事件，而非危机。几分钟后，你收到了一笔 <payment> 的转账。`
 
 
 phrase "coalition cadets dialog"
 	word
-		`You drop off the cadets on <planet>. A few minutes later you receive a transfer of <payment>.`
+		`你在<planet>放下了学员们。几分钟后你收到了一笔<payment>的转账。`
 
 mission "Coalition: Cadets 1"
 	job
 	repeat
-	name "Cadets to <planet>"
-	description "These <bunks> new recruits need transport to the Academy on <destination>. Payment is <payment>."
+	name "学员前往 <planet>"
+	description "这些<bunks>名新兵需要前往<destination>的学院。报酬为<payment>。"
 	passengers 10 10 .5
 	to offer
 		has "known to the heliarchs"
@@ -1167,8 +1167,8 @@ mission "Coalition: Cadets 1"
 mission "Coalition: Cadets 2"
 	job
 	repeat
-	name "Cadets to <planet>"
-	description "These <bunks> new recruits need transport to the Academy on <destination>. Payment is <payment>."
+	name "学员前往 <planet>"
+	description "这些<bunks>名新兵需要前往<destination>的学院。报酬为<payment>。"
 	passengers 10 10 .4
 	to offer
 		has "known to the heliarchs"
@@ -1188,13 +1188,13 @@ mission "Coalition: Cadets 2"
 
 phrase "coalition games dialog"
 	word
-		`The passengers thank you for bringing them to <planet> and pay you <payment>.`
+		`乘客感谢你把他们送到<planet>，并支付给你<payment>。`
 
 mission "Coalition: To Games 1"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "观众前往<planet>"
+	description "这些<bunks>名乘客将支付<payment>，要求在<date>之前将他们送到<planet>，以赶上联盟运动会。"
 	deadline 0 2
 	passengers 4 4 .2
 	to offer
@@ -1216,8 +1216,8 @@ mission "Coalition: To Games 1"
 mission "Coalition: To Games 2"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "观众前往<planet>"
+	description "这些<bunks>名乘客将支付<payment>，要求在<date>之前将他们送到<planet>，以赶上联盟运动会。"
 	deadline 0 2
 	passengers 4 4 .1
 	to offer
@@ -1239,8 +1239,8 @@ mission "Coalition: To Games 2"
 mission "Coalition: To Games 3"
 	job
 	repeat
-	name "Spectators to <planet>"
-	description "These <bunks> passengers will pay <payment> for transportation to <planet> in time for the Coalition Games (by <date>)."
+	name "观众前往<planet>"
+	description "这些<bunks>名乘客将支付<payment>，要求在<date>之前将他们送到<planet>，以赶上联盟运动会。"
 	deadline 0 2
 	passengers 4 4 .05
 	to offer
@@ -1263,8 +1263,8 @@ mission "Coalition: To Games 3"
 mission "Coalition: From Games 1"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "乘客送往<planet>"
+	description "将<bunks>名在<origin>参加联盟运动会的乘客运送回他们的母星<destination>。报酬为<payment>。"
 	passengers 4 4 .2
 	to offer
 		has "known to the heliarchs"
@@ -1286,8 +1286,8 @@ mission "Coalition: From Games 1"
 mission "Coalition: From Games 2"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "乘客送往<planet>"
+	description "将<bunks>名在<origin>参加联盟运动会的乘客运送回他们的母星<destination>。报酬为<payment>。"
 	passengers 4 4 .1
 	to offer
 		has "known to the heliarchs"
@@ -1309,8 +1309,8 @@ mission "Coalition: From Games 2"
 mission "Coalition: From Games 3"
 	job
 	repeat
-	name "Passengers to <planet>"
-	description "Transport <bunks> passengers, who were on <origin> for the Coalition Games, back to their home world of <destination>. Payment is <payment>."
+	name "乘客送往<planet>"
+	description "将<bunks>名在<origin>参加联盟运动会的乘客运送回他们的母星<destination>。报酬为<payment>。"
 	passengers 4 4 .05
 	to offer
 		has "known to the heliarchs"
@@ -1332,9 +1332,9 @@ mission "Coalition: From Games 3"
 
 mission "Heliarchs Buy Jump Drive Job 1"
 	job
-	name "Sell Jump Drive"
+	name "出售跳跃引擎"
 	"apparent payment" 5000000
-	description "Sell a jump drive to the Heliarchs for <payment>."
+	description "向日权会出售一台跳跃引擎，换取 <payment>。"
 	source
 		government "Heliarch"
 	to offer
@@ -1343,31 +1343,31 @@ mission "Heliarchs Buy Jump Drive Job 1"
 		has "outfit (cargo): Jump Drive"
 	on accept
 		conversation
-			`The Heliarchs thank you profusely when they see you've taken them up on their offer, and soon enough several of their ships have landed near your own. Apparently they've learned of your change of mind and are excited to see the exchange, leaving their ships and surrounding yours. Soon enough, they make space for an army of engineers to come and remove the spare jump drive from your ship. Still watching the scene, only now in formations, the Heliarch agents whisper among themselves, rarely shifting their eyes, as if looking at a spectacle.`
-			`	Once the drive is out of your ship, it is secured in an excessively reinforced container and transported to a restricted section of the ring, under the guard of hundreds of armed soldiers. One of the Heliarchs who seem to be in charge of the procedure, an Arach, personally comes to you, thanking you again and handing you <payment>. "Honor us you do with such generosity, Captain. Though made great progress in studying jump drives and their mechanisms, we have, still incapable of creating our own, we are, and means of acquiring new copies we have not. Tremendously valuable, each and every drive you could bring us is. If interested in selling any more jump drives, you are, continue to offer you such jobs, we will."`
+			`日权会众人看到你接受了他们的提议，对你感激不尽。不久，几艘日权会的飞船降落在你的飞船旁。显然他们已经得知你改变了主意，迫不及待地想进行交易，纷纷离开自己的飞船，将你的飞船围了起来。很快，他们腾出空间让一支工程队上前，从你的飞船上卸下那台备用的跳跃引擎。日权会特工们仍注视着这一幕，只是现在列队而立，彼此低声交谈，目光几乎不曾移动，仿佛在观看一场奇观。`
+			`	跳跃引擎一旦被卸下，便被装入一个过度加固的容器中，在数百名武装士兵的护卫下运送到环带的限制区域。一名似乎负责此事的日权会成员——一名阿剌克——亲自来到你面前，再次道谢，并递给你<payment>。“您如此慷慨之举，令我等深感荣幸，舰长。尽管在研究跳跃引擎及其机制方面已取得长足进步，但我等仍无法自行制造，且无获取新样本之途径。您能带来的每一台引擎都极为宝贵。若您有意出售更多跳跃引擎，我等将继续为您提供此类工作。”`
 			branch license
 				"coalition jobs" < 30
-			`	She thanks you yet again, salutes, and leaves to follow the entourage guarding the newly purchased jump drive.`
+			`	她再次道谢，敬礼，然后离开，跟随着押送新购跳跃引擎的队伍。`
 				accept
 			label license
 			action
 				"reputation: Coalition" += 10
 				"reputation: Heliarch" += 10
 				set "license: Coalition"
-				log "Sold a jump drive to the Heliarchs and received permission to purchase Coalition civilian technology and ships."
-				log "Factions" "Saryds" `Saryds are an alien species who look suspiciously similar to the centaurs found in early human mythology. They prefer to live on worlds with as much green space as possible, and even their major cities are full of parks and gardens. Most Saryds live in small communes with up to a few dozen of them per house.`
-				log "Factions" "Kimek" `The Kimek are large insectoid aliens, and are members of the Coalition. They discovered spaceflight after the Saryds, but before the Arachi. They are intensely social creatures, preferring to live together in massive buildings with thousands of inhabitants, and many of their worlds have populations in the tens of billions, far more than any human world.`
-				log "Factions" "Arachi" `The spider-like Arachi were the last of the three Coalition species to discover interstellar travel. Most members of their society owe allegiance to one of the great Arach "Houses," organizations that are somewhat similar to guilds and that each specialize in one particular form of industry or technology.`
-			`	She thanks you yet again, salutes, and leaves to follow the entourage guarding the newly purchased jump drive. Not a minute after she has left, three more Heliarchs arrive at your ship, a delegation consisting of a member of each of the three Coalition species, all wearing golden circlets denoting their rank and authority. "A most unexpected, but greatly value contribution this is," the Saryd says, "to think that so eager would our visitor be to prove their diligence and commitment."`
-			`	The Kimek says, "As aided you have our society in breaking free of the Quarg's cages, with our society's technology may you be trusted."`
-			`	"But," says the Arach, "like all civilians, even citizens, to you our weapons and warships we still cannot sell."`
+				log "向执政官出售了一个超空间引擎，并获得了购买联盟民用技术和飞船的许可。"
+				log "Factions" "Saryds" `萨里德是一个外星种族，外表看起来与早期人类神话中的半人马出奇地相似。他们偏爱居住在拥有尽可能多绿色空间的世界，甚至他们的主要城市里也遍布着公园和花园。大多数萨里德人生活在小型公社中，每栋住所最多容纳几十人。`
+				log "Factions" "Kimek" `基梅克是一种大型昆虫形态的外星生物，是联盟的成员。他们在萨里德之后、阿拉奇之前发现了航天技术。基梅克是高度社会化的生物，喜欢数千居民聚居在巨大的建筑中，他们的许多星球人口数以百亿计，远超任何人类世界。`
+				log "Factions" "Arachi" `形似蜘蛛的阿拉奇是联盟三个种族中最晚发现星际旅行的。他们社会中的大多数成员效忠于某个伟大的阿拉奇“家族”，这些组织有些类似于行会，且各自专精于某一种特定形式的工业或技术。`
+			`	她再次向你道谢，敬礼，然后跟随护卫新购得跳跃引擎的队伍离去。她离开后不到一分钟，又有三名日权会成员来到你的飞船旁。这是一支由联盟三个种族各出一人组成的代表团，所有人都戴着象征等级与权威的金色圆环。一名萨里德说道：“这是一份出乎意料，却极为宝贵的贡献。想不到我们的访客竟如此热切地证明自己的勤勉与投入。”`
+			`	那名基梅克说道：“既然你帮助我们的社会摆脱了夸格的牢笼，我们便可放心地将我们的技术交托于你。”`
+			`	“但是，”那名阿剌克说道，“如同对待所有平民，甚至是公民那样，我们依然不能向你出售我们的武器与战舰。”`
 			choice
-				`	"Thank you."`
+				`	“谢谢。”`
 					goto end
-				`	"Why don't you allow civilians to purchase weapons or warships?"`
-			`	"For the sake of peace it is," says the Saryd. "The Heliarch military, well-trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
+				`	“为什么不允许平民购买武器或战舰？”`
+			`	“皆是为了和平，”萨里德说道，“日权会军队训练有素，只将武器用于防御与正义。而且他们每个人都致力于将联盟的需求置于自身种族的野心之上。平民没有这样的纪律，即便你也一样。但既然你是尊贵的客人，我们将允许你保留你原有的武器。”`
 			label end
-			`	Apparently nothing is for sale here, but they assure you that many Coalition worlds will now grant you access to their shipyards and outfitters. The three Heliarchs all express their deep gratitude for your generosity with providing them a fresh jump drive, and wish you well.`
+			`	显然这里没有任何东西可以出售，但他们向你保证，现在许多联盟世界都会允许你使用他们的造船厂和装备商。三名日权会成员都对你慷慨提供新的跳跃引擎表示了深切的感激，并祝你一切顺利。`
 				accept
 		"coalition jobs" >?= 30
 		outfit "Jump Drive" -1
@@ -1377,9 +1377,9 @@ mission "Heliarchs Buy Jump Drive Job 1"
 mission "Heliarchs Buy Jump Drive Job 2"
 	job
 	repeat
-	name "Sell Jump Drive"
+	name "出售跳跃引擎"
 	"apparent payment" 5000000
-	description "Sell a jump drive to the Heliarchs for <payment>."
+	description "向日权会出售一台跳跃引擎，换取 <payment>。"
 	source
 		government "Heliarch"
 	to offer
@@ -1390,7 +1390,7 @@ mission "Heliarchs Buy Jump Drive Job 2"
 			not "Heliarchs Buy Jump Drive Mission: declined"
 			has "Heliarchs Buy Jump Drive Job 1: offered"
 	on accept
-		dialog "A team of Heliarch engineers carefully removes the spare jump drive from your ship and brings it to a restricted section of the ring. You're approached by the Heliarch who supervised the procedure, who thanks you for bringing in another drive, and hands you the pay of <payment>."
+		dialog "一队日权会工程师小心地从你的飞船上卸下那台备用的跳跃引擎，并将其运送到环带的一处限制区域。负责监督此过程的日权会成员走向你，感谢你又送来一台引擎，并将 <payment> 的报酬交到了你手中。"
 		"coalition jobs" += 2
 		outfit "Jump Drive" -1
 		payment 5000000
@@ -1400,8 +1400,8 @@ mission "Heliarchs Buy Jump Drive Job 2"
 mission "Heliarch Contain True"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on site. Payment is <payment>.`
+	name `遏制罪犯`
+	description `飞往<destination>，在<date>之前到达，以便你和另外<bunks>名日权会特工能够现场打击犯罪分子。报酬为<payment>。`
 	deadline
 	passengers 16 58
 	to offer
@@ -1419,13 +1419,13 @@ mission "Heliarch Contain True"
 	on complete
 		payment
 		payment 70000
-		dialog `You and the other agents converge on the marked area and quickly move to cut off any exits. After a brief firefight, the criminals surrender and a Heliarch ship swoops in to pick them up. You bid your Heliarch colleagues farewell and return to your ship, where you are happy to see that <payment> have already been transferred to your account.`
+		dialog `你和其他特工在标记区域会合，并迅速行动封锁了所有出口。经过短暂的交火，罪犯们投降了，一艘日权会的飞船随之降落将他们接走。你与日权会的同僚们道别后返回自己的飞船，高兴地发现 <payment> 已经转入了你的账户。`
 
 mission "Heliarch Contain Fail"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on site. Payment is <payment>.`
+	name `遏制罪犯`
+	description `飞往<destination>，在<date>之前到达，以便你和另外<bunks>名日权会特工能够现场打击犯罪分子。报酬为<payment>。`
 	deadline
 	passengers 16 58
 	"apparent payment" 70000
@@ -1442,13 +1442,13 @@ mission "Heliarch Contain Fail"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog `You and the other agents head to the marked area, but when you arrive it becomes evident that whoever occupied the place has managed to escape. You bring the other agents to the spaceport as they lament the failed job.`
+		dialog `你和其他的特工前往标记区域，但到达时发现，原先占据该地的人已经成功逃脱。你带着其他特工回到太空港，他们为任务的失败而惋惜。`
 
 mission "Heliarch Contain Fake"
 	job
 	repeat
-	name `Contain Criminals`
-	description `Fly to <destination> by <date> so that you and <bunks> other Heliarch agents can combat criminals on the site. Payment is <payment>.`
+	name `遏制罪犯`
+	description `飞往<destination>并在<date>之前到达，这样你和其他<bunks>名日权会特工就能在现场打击罪犯。报酬为<payment>。`
 	deadline
 	passengers 16 58
 	to offer
@@ -1466,14 +1466,14 @@ mission "Heliarch Contain Fake"
 	on complete
 		payment
 		payment 55000
-		dialog `Your team pounces and catches the targets entirely by surprise. They offer no resistance, relinquishing their weapons immediately. You call for a Heliarch ship to pick them up and then bid the other agents farewell as you leave. An extra <payment> is already waiting in your account when you return to your ship.`
+		dialog `你的团队猛扑过去，完全出其不意地抓住了目标。他们没有抵抗，立即交出了武器。你呼叫一艘日权会的飞船来接走他们，然后在离开时与其他特工告别。当你回到船上时，账户里已经多出了<payment>。`
 
 
 mission "Heliarch Prisoner Transport"
 	job
 	repeat
-	name `Transport Prisoners`
-	description `Bring <bunks> criminals, who were arrested on <origin>, to <destination>. Payment is <payment>.`
+	name `押送囚犯`
+	description `将<bunks>名在<origin>被捕的罪犯运送至<destination>。报酬为<payment>。`
 	passengers 3 11
 	to offer
 		random < 15
@@ -1490,14 +1490,14 @@ mission "Heliarch Prisoner Transport"
 	on complete
 		payment
 		payment 45000
-		dialog `When you land on <destination>, Heliarch agents help you move the prisoners out of your ship. Once the last prisoner leaves you're handed <payment>.`
+		dialog `当你在 <destination> 降落后，日权会的特工协助你将囚犯押出飞船。最后一名囚犯离开后，你收到了 <payment> 的报酬。`
 
 
 mission "Heliarch Investigate"
 	job
 	repeat
-	name `Investigate signs of criminal activity`
-	description `Land on <stopovers>, where you and <bunks> other Heliarch agents will investigate an area where suspicious activity was reported. When you've finished, return to <origin> to receive <payment>.`
+	name `调查犯罪迹象`
+	description `降落在<stopovers>，你与<bunks>名其他日权会特工将调查一处被报告有可疑活动的区域。完成后，返回<origin>领取<payment>。`
 	passengers 6 11
 	to offer
 		random < 60
@@ -1510,18 +1510,18 @@ mission "Heliarch Investigate"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on stopover
-		dialog `You and the other agents head to the reported area looking for anything out of place. You don't find anything prominent, but there are clear signs that the place was recently used. You spend a few hours collecting evidence before heading back to your ship.`
+		dialog `你和其他特工前往报告的区域，寻找任何异常之处。你并没有发现什么显眼的东西，但有明显迹象表明这里最近被使用过。你花了几个小时收集证据，然后返回你的飞船。`
 	on complete
 		payment
 		payment 40000
-		dialog `The agents thank you for transporting them in your ship, wish you safe travels, and head off to deliver the findings to their superiors. You're transferred <payment> a few moments later.`
+		dialog `特工们感谢你用飞船运送他们，祝你旅途平安，然后前往向上级提交发现。片刻之后，你收到了 <payment> 的转账。`
 
 
 mission "Evacuate Lunarium True"
 	job
 	repeat
-	name "Rescue Lunarium Members"
-	description "Pick up <bunks> Lunarium members on <stopovers>, then bring them to <destination> by <date>."
+	name "营救月影社员"
+	description "在<stopovers>接上<bunks>名月影社成员，然后在<date>之前将他们送到<destination>。"
 	deadline
 	to offer
 		random < 10
@@ -1541,19 +1541,19 @@ mission "Evacuate Lunarium True"
 		government "Coalition"
 		distance 5 6
 	on stopover
-		dialog `The Lunarium members rush to your ship once it touches down on the hangars, and you swiftly open your hatch for them to come in. One of the calmer members asks that you head to <destination> as soon as possible.`
+		dialog `月影社成员在飞船降落到机库后立即涌向你的飞船，你迅速打开舱门让他们进入。其中一位较为冷静的成员要求你尽快前往<destination>。`
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
 		payment
 		payment 33000
-		dialog `Each of the Lunarium members comes to thank you before they leave your ship, expressing their gratitude. The last one hands you <payment>, and heads off with the others.`
+		dialog `每名月影社成员在下船前都来向你道谢，表达感激之情。最后一人递给你<payment>，然后与其他成员一同离去。`
 
 mission "Evacuate Lunarium Fail"
 	job
 	repeat
-	name "Rescue Lunarium Members"
-	description "Pick up the <bunks> Lunarium members on <stopovers>, then bring them to <destination> by <date>."
+	name "营救月影社员"
+	description "在 <stopovers> 接上 <bunks> 个月影社成员，并在 <date> 之前将他们带到 <destination>。"
 	deadline
 	to offer
 		random < 5
@@ -1573,15 +1573,15 @@ mission "Evacuate Lunarium Fail"
 		government "Coalition"
 		distance 5 6
 	on stopover
-		dialog `You touch down on the hangars, and wait for a few minutes for the Lunarium members. Many minutes pass, however, and none arrive. Instead the docks become increasingly filled with Heliarch agents. A message appears on your monitor, saying that the Heliarchs got to the members here first, but thanking you for your efforts anyway.`
+		dialog `你降落在机库中，等候月影社成员到来。然而几分钟过去了，并没有人出现。相反，停靠区里挤满了越来越多的日权会特工。你的显示屏上弹出了一条消息，称日权会已抢先一步抓住了那里的成员，但依然对你的努力表示了感谢。`
 		fail
 
 
 mission "Lunarium: Armageddon Core Delivery"
 	job
 	repeat
-	name "Armageddon Core Delivery"
-	description "The Lunarium is offering <payment> for you to deliver an Armageddon Core to <destination>."
+	name "末日核心运送"
+	description "月影社出价 <payment>，要求你将一个末日核心送达 <destination>。"
 	to offer
 		random < 4
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1602,13 +1602,13 @@ mission "Lunarium: Armageddon Core Delivery"
 	on complete
 		outfit "Armageddon Core" -1
 		payment 13500000
-		dialog `Some Lunarium members unload the Armageddon Core after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `按照指示，你降落在<planet>一处偏僻区域后，几名月影社成员卸下了末日核心。他们交给你<payment>，随后悄然将反应堆运走。`
 
 mission "Lunarium: Fusion Reactor Delivery"
 	job
 	repeat
-	name "Fusion Reactor Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Fusion Reactor to <destination>."
+	name "聚变反应堆运送"
+	description "月影社出价<payment>，要求你将一个聚变反应堆运送到<destination>。"
 	to offer
 		random < 7
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1629,13 +1629,13 @@ mission "Lunarium: Fusion Reactor Delivery"
 	on complete
 		outfit "Fusion Reactor" -1
 		payment 7500000
-		dialog `Some Lunarium members unload the Fusion Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `按照指示降落在<planet>的偏远区域后，几名月影社成员卸下了聚变反应堆。他们交给你<payment>，然后悄悄将反应堆运走。`
 
 mission "Lunarium: Breeder Reactor Delivery"
 	job
 	repeat
-	name "Breeder Reactor Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Breeder Reactor to <destination>."
+	name "运送增殖反应堆"
+	description "月影社出价 <payment>，要求你将一个增殖反应堆运送到 <destination>。"
 	to offer
 		random < 10
 		has "Lunarium: Smuggling: Reactors: done"
@@ -1656,13 +1656,13 @@ mission "Lunarium: Breeder Reactor Delivery"
 	on complete
 		outfit "Breeder Reactor" -1
 		payment 3250000
-		dialog `Some Lunarium members unload the Breeder Reactor after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the reactor away.`
+		dialog `按照指示降落在<planet>的一处偏僻区域后，几名月影社成员卸下了增殖反应堆。他们递给你<payment>，然后悄然将反应堆运走。`
 
 mission "Lunarium: Torpedo Delivery"
 	job
 	repeat
-	name "Torpedo Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Torpedo Launcher, complete with 30 torpedoes, to <destination>."
+	name "鱼雷运送"
+	description "月影社向你提供<payment>报酬，要求你将一套鱼雷发射器（含30枚鱼雷）运送至<destination>。"
 	to offer
 		random < 12
 		has "Lunarium: Smuggling: Torpedoes: done"
@@ -1683,13 +1683,13 @@ mission "Lunarium: Torpedo Delivery"
 		outfit "Torpedo Launcher" -1
 		outfit "Torpedo" -30
 		payment 183000
-		dialog `Some Lunarium members unload the Torpedo Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+		dialog `按照指示降落在<planet>的一处偏僻区域后，几名月影社成员卸下了鱼雷发射器及其弹药。他们交给你<payment>，然后悄悄将货物运走。`
 
 mission "Lunarium: Typhoon Delivery"
 	job
 	repeat
-	name "Typhoon Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Typhoon Launcher, complete with 30 Typhoon Torpedoes, to <destination>."
+	name "台风运送"
+	description "月影社提供<payment>报酬，要求你将一套台风发射器及30枚台风鱼雷运送至<destination>。"
 	to offer
 		random < 7
 		has "Lunarium: Smuggling: Torpedoes: done"
@@ -1708,13 +1708,13 @@ mission "Lunarium: Typhoon Delivery"
 		outfit "Typhoon Launcher" -1
 		outfit "Typhoon Torpedo" -30
 		payment 511500
-		dialog `Some Lunarium members unload the Typhoon Launcher and its ammunition after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the cargo away.`
+		dialog `按照指示降落在<planet>的一处偏僻区域后，几名月影社成员卸下了台风发射器及其弹药。他们递给你<payment>，然后悄悄将货物运走。`
 
 mission "Lunarium: Plasma Delivery"
 	job
 	repeat
-	name "Plasma Turret Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Plasma Turret to <destination>."
+	name "等离子炮塔运送"
+	description "月影社提供<payment>，要求你将一座等离子炮塔运送至<destination>。"
 	to offer
 		random < 6
 		has "Lunarium: Smuggling: Heat: done"
@@ -1732,13 +1732,13 @@ mission "Lunarium: Plasma Delivery"
 	on complete
 		outfit "Plasma Turret" -1
 		payment 780000
-		dialog `Some Lunarium members unload the Plasma Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+		dialog `按照指示降落在<planet>的一处偏僻地点后，几名月影社成员卸下了等离子炮塔。他们交给你<payment>，然后悄悄将炮塔运走。`
 
 mission "Lunarium: Flamethrower Delivery"
 	job
 	repeat
-	name "Flamethrower Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a pair of Flamethrowers to <destination>."
+	name "火焰喷射器运送"
+	description "月影社出价<payment>的报酬，请你运送一对火焰喷射器到<destination>。"
 	to offer
 		random < 8
 		has "Lunarium: Smuggling: Heat: done"
@@ -1756,13 +1756,13 @@ mission "Lunarium: Flamethrower Delivery"
 	on complete
 		outfit "Flamethrower" -2
 		payment 570000
-		dialog `Some Lunarium members unload the Flamethrowers after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the Flamethrowers away.`
+		dialog `按照指示降落在<planet>的一处偏僻地点后，几名月影社成员卸下了火焰喷射器。他们交给你<payment>，然后悄悄将火焰喷射器运走。`
 
 mission "Lunarium: Grenade Delivery"
 	job
 	repeat
-	name "Grenade Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a dozen Fragmentation Grenades to <destination>."
+	name "榴弹运送"
+	description "月影社提供<payment>的报酬，要求你将一打破片手雷运送至<destination>。"
 	to offer
 		random < 11
 		has "Lunarium: Smuggling: Grenades: done"
@@ -1780,13 +1780,13 @@ mission "Lunarium: Grenade Delivery"
 	on complete
 		outfit "Fragmentation Grenades" -12
 		payment 306000
-		dialog `Some Lunarium members unload the Fragmentation Grenades after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the grenades away.`
+		dialog `按照指示降落在<planet>的一处偏远区域后，几名月影社成员卸下了破片手雷。他们交给你<payment>，然后悄悄将手雷运走。`
 
 mission "Lunarium: Anti-Missile Delivery"
 	job
 	repeat
-	name "Anti-Missile Delivery"
-	description "The Lunarium is offering <payment> for you to deliver a Heavy Anti-Missile Turret to <destination>."
+	name "反导弹运送"
+	description "月影社提供<payment>作为报酬，要求你将一座重型反导弹炮塔运送至<destination>。"
 	to offer
 		random < 10
 		has "Lunarium: Smuggling: AM: done"
@@ -1804,4 +1804,4 @@ mission "Lunarium: Anti-Missile Delivery"
 	on complete
 		outfit "Heavy Anti-Missile Turret" -1
 		payment 225000
-		dialog `Some Lunarium members unload the Heavy Anti-Missile Turret after you land on an isolated part of <planet> as instructed. They hand you <payment> before quietly transporting the turret away.`
+		dialog `按照指示降落到<planet>的一处偏僻区域后，几名月影社成员卸下了重型反导弹炮塔。他们将<payment>交给你，然后悄悄将炮塔运走。`

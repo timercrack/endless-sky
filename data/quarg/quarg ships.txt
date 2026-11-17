@@ -60,7 +60,7 @@ ship "Quarg Lindwyrm"
 	explode "quarg medium explosion" 50
 	explode "quarg large explosion" 20
 	"final explode" "final explosion medium"
-	description `The Quarg use the Lindwyrm as a heavy freighter, transporting in its ample cargo bays items both mundane and fantastical. In the days before the advent of modern cargo scanners revealed some measure of their contents, "the inside of a Quarg cargo hold" was slang used to describe any thing or place thought to be unknowable.`
+	description `夸格将林德蠕龙型飞船用作重型货船，其宽敞的货舱中既运输着平凡之物，也装载着奇幻之品。在现代货运扫描仪尚未发明、无法揭示其内部所藏之前，“夸格货舱内部”这一说法曾被用作俚语，形容任何被认为不可知的事物或地方。`
 
 
 ship "Quarg Guivre"
@@ -111,7 +111,7 @@ ship "Quarg Guivre"
 	explode "quarg large explosion" 45
 	explode "quarg huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Quarg employ these unusual craft as one of their primary tools for building and maintaining their ringworlds, each one operating continuously for hundreds or thousands of years on its planet-scale tasks. Each Guivre is equipped with a graviton slipstream projector, similar in usage to human-built tractor beams, but capable of shifting much, much larger objects with uncanny elegance and precision."
+	description "夸格运用这些非凡的飞船作为建造和维持环世界的主要工具之一，每一艘 Guivre 都在其行星级任务上连续运行数百年或数千年。每艘 Guivre 都配备有引力子滑流投射器，其用法类似于人类建造的牵引光束，但能够以诡异的优雅与精准移动远为庞大的物体。"
 
 
 ship "Quarg Drake"
@@ -164,7 +164,7 @@ ship "Quarg Drake"
 	explode "quarg medium explosion" 20
 	explode "quarg large explosion" 10
 	"final explode" "final explosion small"
-	description "The Drake is an older ship used by the Quarg for reconnaissance and initial contact with emerging spacefaring species. A popular legend states that a Drake surveyed Sol while humans began to discover spaceflight."
+	description "德雷克是一种较古老的飞船，被夸格用于侦察以及与新兴太空文明进行初次接触。有一个广为流传的传说称，人类刚开始探索太空飞行时，一艘德雷克曾对太阳系进行过勘测。"
 
 
 ship "Quarg Wardragon"
@@ -216,7 +216,7 @@ ship "Quarg Wardragon"
 	explode "quarg medium explosion" 25
 	explode "quarg large explosion" 15
 	"final explode" "final explosion medium"
-	description "The Wardragon is used by the Quarg as a light warship. It is an older design within the Quarg's fleets, supposedly less intimidating compared to their larger warships and thus more suitable for dealings with particularly nascent species."
+	description "战龙级是夸格使用的一种轻型战舰。在夸格舰队中属于较老的设计，据说相比他们的大型战舰威慑力更低，因此更适合与特别初生的物种打交道。"
 
 
 ship "Quarg Wyvern"
@@ -269,7 +269,7 @@ ship "Quarg Wyvern"
 	explode "quarg medium explosion" 30
 	explode "quarg large explosion" 25
 	"final explode" "final explosion medium"
-	description "When humans first encountered Quarg vessels, with their bizarre, scaly-looking hulls and alien forms, the comparisons to dragons of different sorts rapidly proliferated. The Wyvern is a midsize warship of the Quarg, though the distinction between the Quarg warship classes is insignificant to all but the most powerful forces in the galaxy."
+	description "当人类首次遭遇夸格飞船时，其怪异、覆鳞般的船体与异星形态迅速引发种种与龙类的类比。飞龙级是夸格的一款中型战舰，不过夸格各战舰级别间的差异对银河系中最强大的势力之外的所有力量而言都微不足道。"
 
 
 ship "Quarg Hydra"
@@ -328,4 +328,4 @@ ship "Quarg Hydra"
 	explode "quarg large explosion" 20
 	explode "quarg huge explosion" 10
 	"final explode" "final explosion large"
-	description "The many-headed mythological Hydra was supposedly venomous enough to kill mortals with nothing but the scent of its breath or a single drop of its blood. Any captain foolish enough to arouse the fury of the Quarg's heavy warships will no doubt quickly come to understand the exact significance of this part of the Hydra's legend."
+	description "神话中的九头蛇据说剧毒无比，仅凭呼吸的气息或一滴血便能杀死凡人。任何胆敢愚蠢到激起夸格重型战舰怒火的船长，无疑很快就会明白九头蛇传说中这部分的确切含义。"

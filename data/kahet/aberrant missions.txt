@@ -23,12 +23,12 @@ mission "Disabled Aberrant"
 			branch "boarded ka'het"
 				has "Disabled Ka'het: offered"
 			action
-				log `Successfully boarded an Aberrant. A strange presence seemed to watch during the investigation, one that gave a sense of foreboding. It appears to be a single, ship-sized organism that can travel in space using a special exoskeleton.`
-			`You draw the <flagship> alongside this strange entity, which, despite its lack of motion, seems to exude an ominous presence. Something feels fundamentally wrong with this ship as you approach a hole in a vulnerable part of its hull, which seems to be some kind of shell encasing a large, slug-like creature. Exposed to weapons fire, the creature seems to be dead, but you feel almost as if something is watching you.`
-			`	You have no trouble docking with what seems to be its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`
+				log `成功登上一艘异变体飞船。在调查期间，似乎有一个诡异的存在在一旁窥视，令人感到一种不祥的预兆。它似乎是一个飞船大小的单一有机体，能使用特殊的外骨骼在太空中旅行。`
+			`你将<flagship>驶近这个奇怪实体，尽管它一动不动，却散发着不祥的气息。当你靠近其船体脆弱处的一个破洞时，感觉这艘船从根本上就有问题——那个洞口似乎是某种外壳，包裹着一只巨大的蛞蝓状生物。那生物暴露在武器火力下，似乎已经死了，但你总觉得有什么东西正在注视着你。`
+			`	你轻松地与它的“外骨骼”对接，盘算着下一步该怎么做。这个异变体与普通飞船差异太大，你无法操控它，但可以肯定的是，你现在可以从它身上搜刮一些装备。其余的装备似乎嵌入了某种坚硬的玻璃状组织；也许摧毁这艘船就能把它们释放出来。`
 				decline
 			label "boarded ka'het"
 			action
-				log `Successfully boarded an Aberrant. It appears to strongly resemble a Ka'het, yet one that has been twisted into a new form, one that feels fundamentally wrong.`
-			`You draw the <flagship> alongside this strange, yet almost-familiar entity, which, despite its lack of motion, seems to exude an ominous presence. Something feels fundamentally wrong with this ship, which superficially resembles a Ka'het, yet is clearly not one - perhaps a distant relation, or a Ka'het that has been irrevocably changed by something else. You approach a hole in a vulnerable part of its hull, where a 'het slug appears dead, but you feel almost as if it still watches you.`
-			`	You have no trouble docking with its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`
+				log `成功登入了一艘异变体。它看起来与卡赫特极为相似，但它被扭曲成了一种新的形态，一种从根本上就让人觉得不对劲的形态。`
+			`你将<flagship>驶近这个奇怪却又似曾相识的实体，尽管它一动不动，却散发着不祥的气息。这艘船表面上看像卡赫特，但显然不是——也许是远亲，或是被某种东西不可逆转地改变了的一只卡赫特。你靠近其船体脆弱处的一个破洞，洞里的“赫特”蛞蝓看似已死，但你总觉得它仍在注视着你。`
+			`	你轻松地与它的“外骨骼”对接，盘算着下一步该怎么做。这个异变体与普通飞船差异太大，你无法操控它，但可以肯定的是，你现在可以从它身上搜刮一些装备。其余的装备似乎嵌入了某种坚硬的玻璃状组织；也许摧毁这艘船就能把它们释放出来。`

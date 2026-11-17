@@ -222,11 +222,11 @@ wormhole "Beyond Patir North Exit"
 
 planet "Chanai Structure"
 	landscape "land/station60"
-	description `This alien station is as vast as it is mysterious, concealing more secrets than you could ever hope to find. Its only discernible feature is a giant barrel, but what it was built for - or what it could still do - is impossible to say.`
+	description `这座外星空间站既广阔又神秘，隐藏的秘密远超你的想象。它唯一可辨认的特征是一个巨大的筒状结构，但其建造目的——或是它仍能发挥的作用——已无从知晓。`
 	government "Magic Asteroid"
 
 planet "Magic Asteroid Planet"
 	"display name" "???"
 	landscape "land/asteroid1"
-	description `The dosimeter on your suit doesn't seem to know what to think of this place, going back and forth even if you stay in the same location. Short valleys are covered with impact craters of all shapes and sizes, with pink-colored veins resurfacing from their edges. In spite of the vacuum, you would swear you can see a purplish hue surrounding the asteroid.`
+	description `你太空服上的辐射剂量计似乎不知道该对这个地方作何评价，即便你待在同一个位置，读数也会来回跳动。短浅的山谷中布满了各种形状和大小的撞击坑，坑缘露出粉色的矿脉。尽管身处真空，你简直可以发誓能看到这颗小行星周围环绕着一层淡紫色的光晕。`
 	government "Magic Asteroid"

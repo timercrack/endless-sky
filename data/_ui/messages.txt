@@ -76,13 +76,13 @@
 # Engine messages:
 
 message "no formations available"
-	text "No formations available."
+	text "没有可用编队。"
 
 message "disengaging autopilot"
-	text "Disengaging autopilot."
+	text "正在脱离自动驾驶。"
 
 message "coming to a stop"
-	text "Coming to a stop."
+	text "正在停泊。"
 
 message "cloaking fail"
 	text "One of your ships could not engage its cloaking device."
@@ -91,80 +91,80 @@ message "cloaking fail multiple"
 	text "Several of your ships could not engage their cloaking devices."
 
 message "engaging cloaking device"
-	text "Engaging cloaking device."
+	text "启动隐形装置。"
 
 message "disengaging cloaking device"
-	text "Disengaging cloaking device."
+	text "解除隐形装置。"
 
 message "no landables"
-	text "There are no planets in this system that you can land on."
+	text "此星系中没有可着陆的星球。"
 	category "high"
 
 message "no hyperdrive"
-	text "You do not have a hyperdrive installed."
+	text "未安装超光速引擎。"
 	category "high"
 
 message "cannot jump"
-	text "You cannot jump to the selected system."
+	text "无法跳跃至所选星系。"
 	category "high"
 
 message "no fuel"
-	text "You do not have enough fuel to make a hyperspace jump."
+	text "你没有足够的燃料进行超空间跳跃。"
 	category "high"
 
 message "cannot jump while landing"
-	text "You cannot jump while landing."
+	text "着陆时无法跳跃。"
 	category "high"
 
 message "undercrewed flagship"
-	text "Your ship is moving erratically because you do not have enough crew to pilot it."
+	text "你的飞船移动不稳定，因为没有足够的船员来驾驶它。"
 	category "low"
 
 message "cannot board while cloaked"
-	text "You cannot board a ship while cloaked."
+	text "隐形状态下无法登船。"
 	category "high no repeat"
 
 message "overheated"
-	text "Your ship has overheated."
+	text "你的飞船过热了。"
 	category "high no repeat"
 
 message "basics 1"
-	text `Press <View star map> to bring up your map. Select a destination, then close the map and press <Initiate hyperspace jump> to jump. Press <Land on planet / station> to land.`
+	text `按<View star map>打开星图。选择目的地，关闭星图后按<Initiate hyperspace jump>进行跳跃。按<Land on planet / station>着陆。`
 
 message "basics 2"
-	text `For the main menu, press <Show main menu>. The control key bindings can be viewed and changed in the preferences.`
+	text `在主菜单中，按<Show main menu>键。控制键位可在偏好设置中查看和更改。`
 
 message "basics 3"
-	text `To see a help message again, press <Show help>. To see all help messages again, go to the main menu, select Preferences, go to Settings, then locate and select "Reactivate first-time help."`
+	text `若要再次查看帮助信息，请按 <Show help>。若要重新显示所有帮助信息，请进入主菜单，选择偏好设置，进入设置，找到并选择“重新激活首次帮助”。`
 
 message "map received"
-	text "You received a map of nearby systems."
+	text "你收到了附近星系的星图。"
 
 message "turret tracking focused"
-	text "Turret tracking mode set to: focused."
+	text "炮塔追踪模式已设为：集中。"
 
 message "turret tracking opportunistic"
-	text "Turret tracking mode set to: opportunistic."
+	text "炮塔跟踪模式：机会主义"
 
 message "expend ammo frugally"
-	text "Your escorts will now expend ammo: frugally."
+	text "你的护航舰现在将节俭使用弹药。"
 
 message "expend ammo always"
-	text "Your escorts will now expend ammo: always."
+	text "您的护卫舰现在将始终消耗弹药。"
 
 message "expend ammo never"
-	text "Your escorts will now expend ammo: never."
+	text "您的护卫舰将永不消耗弹药。"
 
 message "cannot hail while jumping"
-	text "Unable to send hail: your flagship is entering hyperspace."
+	text "无法发送通信：您的旗舰正在进入超空间。"
 	category "high"
 
 message "cannot hail while cloaked"
-	text "Unable to send hail: your flagship is cloaked."
+	text "无法发送呼叫：你的旗舰已隐形。"
 	category "high"
 
 message "cannot hail"
-	text "Unable to send hail."
+	text "无法发送呼叫。"
 	category "high"
 
 message "wormhole hail"
@@ -172,5 +172,5 @@ message "wormhole hail"
 	category "high"
 
 message "cannot hail without target"
-	text "Unable to send hail: no target selected."
+	text "无法发送呼叫：未选择目标。"
 	category "high"

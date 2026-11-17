@@ -46,7 +46,7 @@ mission "Successors: Ghosts Aqrabe 1"
 				`	"Saints?"`
 					goto saints
 				`	"Are they alive?"`
-				`	"Who are you?"`
+				`	“你是谁？”`
 					goto identity
 			`	"No, nor has the cloak of death enveloped them either. They're between things. Like infants that never fear growing; like half-sleepers that never fear to wake."`
 			label saints
@@ -455,7 +455,7 @@ mission "Successors: Ghosts Aqrabe 7"
 			`	"Do you know something about those ships?" you ask them, eliciting a long groan and a wave of oily black over their skin.`
 			`	"This is what we earn for tearing up a nest; going where we shouldn't," they say. "'Twas a drone, an automated guardian from the days that garden was new. No doubt meant to chase off interlopers, as ourselves. But-"`
 			choice
-				`	"What is it?"`
+				`	“那是什么？”`
 				`	"Spit it out!"`
 			`	"Such a thing should not be. No House would've left a craft like that behind to molder, not for the sake of some petty metal. Heirlooms of that age are precious - I cannot see why such a thing should be so eas'ly discarded." They finally relax a bit, and the black wave subsides.`
 			`	"Thou hast done us a duty, nonetheless. Thou shalt see thine account flusher soon."`

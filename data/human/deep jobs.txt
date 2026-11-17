@@ -13,74 +13,74 @@
 
 phrase "deep mystery cube pickup"
 	word
-		`As instructed, you`
-		`You`
+		`按照指示，你`
+		`你`
 	word
 		` `
 	word
-		`open a deposit box`
-		`open a storage locker`
+		`打开了一个保险箱`
+		`打开了一个储物柜`
 	word
 		` `
 	word
-		`in an unmarked and uninhabited warehouse`
-		`near your landing site`
+		`，它位于一座无标识的无人仓库中`
+		`，它就在你的降落点附近`
 	word
 		` `
 	word
-		`and pick up the mystery package. It is a small black cube, about two centimeters to a side, surprisingly heavy for its size, with no markings of any kind.`
+		`，并取走了那个神秘包裹。那是一个小巧的黑色方块，每边长约两厘米，分量出奇地沉重，表面没有任何标记。`
 	word
 		` `
 	word
-		`Odd.` 2
-		`Strange.` 2
-		`You think you see a shady figure watching you, but it could be your imagination.`
-		`You overhear someone giving your description, but you can't see where it's coming from or who they're talking to.`
-		`As you leave, you make eye contact with a dangerous-looking individual. Were they watching you? Probably a coincidence.`
+		`真古怪。` 2
+		`真蹊跷。` 2
+		`你隐约看到有个可疑的身影在盯着你，但也可能是你的错觉。`
+		`你无意中听到有人在描述你的外貌特征，却看不到声音来自何处，也听不出是在向谁汇报。`
+		`当你离开时，你与一个看起来很危险的人打了个照面。对方是在盯着你吗？大概只是巧合吧。`
 
 phrase "deep mystery cube dropoff payment"
 	word
-		`As instructed, you`
+		`按照指示，你`
 	word
 		` `
 	word
-		`leave the mystery cube by the side of the road a few kilometers away from the spaceport.`
-		`leave the mystery cube behind a rickety-looking wooden tower.`
-		`bury the cube out in the middle of nowhere before landing in the spaceport.`
-		`hand the cube to the first beggar woman you see planetside. She accepts it without a word, and leaves.`
-		`drop the cube at a warehouse. Nobody comes around to collect it.`
+		`把这块神秘立方体放在距离航天港几公里外的路边。`
+		`把这块神秘立方体留在一座摇摇欲坠的木塔后面。`
+		`在降落航天港之前，把立方体埋在偏僻荒凉的地方。`
+		`把立方体交给你在行星表面看到的第一个女乞丐。她一言不发地收下，随后离开。`
+		`把立方体扔在一家仓库里。没有人过来取走它。`
 	word
 		``
-		` "This has to be legal, or they couldn't post it to the job board," you remind yourself.`
+		`“这一定是合法的，不然他们也没法发布到任务板上。”你提醒自己。`
 	word
 		` `
 	word
-		`Your bank account immediately notifies you that the agreed-upon payment of <payment> has been deposited. You wonder how they knew.`
+		`你的银行账户立刻收到通知，约定好的<payment>报酬已经到账。你好奇他们是怎么知道的。`
 
 phrase "deep mystery cube dropoff station payment"
 	word
-		`As instructed, you`
+		`按照指示，你`
 	word
 		` `
 	word
-		`leave the mystery cube in the second supplies cabinet you come across.`
-		`leave the mystery cube in an unscrewed air vent.`
-		`hand the cube to the third tourist couple you see on the station. They accept it without a word.`
-		`drop the cube into a copper trash can in the spaceport.`
-		`drop the cube into a laundry chute.`
+		`把神秘方块留在了你遇到的第二个物资柜里。`
+		`把神秘方块放进了一个拧开螺丝的通风口里。`
+		`把方块交给了你在空间站看到的第三对游客夫妻。他们二话不说就收下了。`
+		`把方块丢进了太空港里的一个铜制垃圾桶。`
+		`把方块扔进了洗衣通道里。`
 	word
 		``
-		` "This has to be legal, or they couldn't post it to the job board," you remind yourself.`
+		`“这肯定是合法的，不然他们不可能发布到任务板上。”你提醒自己。`
 	word
 		` `
 	word
-		`Your bank account immediately notifies you that the agreed-upon payment of <payment> has been deposited. You wonder how they knew.`
+		`你的银行账户立刻收到通知，约定好的 <payment> 报酬已经到账。你很好奇他们是怎么知道的。`
 
 mission "Mystery Cube Delivery Job Safe [0]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -103,8 +103,8 @@ mission "Mystery Cube Delivery Job Safe [0]"
 mission "Mystery Cube Delivery Job Safe [1]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -126,8 +126,8 @@ mission "Mystery Cube Delivery Job Safe [1]"
 mission "Mystery Cube Delivery Job [0]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -158,8 +158,8 @@ mission "Mystery Cube Delivery Job [0]"
 mission "Mystery Cube Delivery Job [1]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -190,8 +190,8 @@ mission "Mystery Cube Delivery Job [1]"
 mission "Mystery Cube Delivery Job [2]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -222,8 +222,8 @@ mission "Mystery Cube Delivery Job [2]"
 mission "Mystery Cube Delivery Job [3]"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -254,8 +254,8 @@ mission "Mystery Cube Delivery Job [3]"
 mission "Mystery Cube Delivery Job Station"
 	job
 	repeat
-	name "Mystery delivery to <planet>"
-	description "Deliver a package to <destination>. Payment is <payment>."
+	name "奥秘星快递至<planet>"
+	description "将包裹运送到<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -286,8 +286,8 @@ mission "Mystery Cube Delivery Job Station"
 mission "Mystery Cube Retrieval Job"
 	job
 	repeat
-	name "Mystery retrieval from <planet stopovers>"
-	description "Retrieve a package from <stopovers>, then return to <destination>. Payment is <payment>."
+	name "从<planet stopovers>取回奥秘星货物"
+	description "从<stopovers>取回包裹，然后返回<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	stopover
@@ -319,7 +319,7 @@ mission "Mystery Cube Retrieval Job"
 mission "Transport scientists"
 	job
 	repeat
-	description "A team of <bunks> scientists needs some research notes analyzed at the facility on <stopovers>. Take the scientists there and then return them to <planet> for <payment>."
+	description "一个由<bunks>名科学家组成的团队需要前往<stopovers>上的设施分析一些研究笔记。送他们前往该处，然后将他们送回<planet>，报酬为<payment>。"
 	source
 		attributes "deep"
 	stopover
@@ -330,11 +330,11 @@ mission "Transport scientists"
 	to offer
 		random < 15
 	on stopover
-		dialog "The scientists have been giddily discussing the results of their research during the entire trip. You're happy for a bit of peace and quiet as they make tracks for a prominent research lab to have the results analyzed. You prepare for the return journey to <planet>."
+		dialog "一路上，科学家们一直在兴高采烈地讨论着他们的研究成果。当他们前往一所著名的研究实验室去分析成果时，你乐得享受这片刻的清静。你开始为返回<planet>的旅程做准备。"
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
-		dialog "You bid goodbye to the scientists and accept your payment of <payment>."
+		dialog "你向科学家们告别，收下了<payment>的报酬。"
 		payment
 		payment 30000
 
@@ -342,7 +342,7 @@ mission "Transport scientists"
 mission "Transport science department"
 	job
 	repeat
-	description "A department of <bunks> scientists needs some research notes analyzed at the facility on <stopovers>. Take the scientists there and then return them to <planet> for <payment>."
+	description "一个拥有<bunks>名科学家的科研部门需要前往<stopovers>上的设施分析一些研究笔记。带他们前往该处，然后将他们送回<planet>，报酬为<payment>。"
 	source
 		attributes "deep"
 	stopover
@@ -353,18 +353,18 @@ mission "Transport science department"
 	to offer
 		random < "passenger space" - 30
 	on stopover
-		dialog "The scientists have been giddily sharing and discussing the results of each of their research teams during the entire trip. You're happy for a bit of peace and quiet as they make tracks for a prominent research lab to have the results analyzed. You prepare for the return journey to <planet>."
+		dialog "在整个航程中，科学家们一直在兴高采烈地分享和讨论着各自研究团队的成果。当他们前往一所著名的研究实验室分析成果时，你乐得享受这片刻的清静。你开始为返回<planet>的旅程做准备。"
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
-		dialog "You bid goodbye to the scientists and accept your payment of <payment>."
+		dialog "你向科学家们告别，收下了<payment>的报酬。"
 		payment 180000 100
 
 
 mission "Escort science vessel"
 	job
 	repeat
-	description "The crew of the science vessel <npc> requests an escort to <stopovers> where they plan to study some unusual phenomena. Escort them there and then return them to <planet> for <payment>."
+	description "<npc>号科研船的船员请求护卫至<stopovers>，他们计划在那里研究一些异常现象。护航他们前往该处，然后护航他们返回<planet>，报酬为<payment>。"
 	source
 		attributes "research"
 	stopover
@@ -392,30 +392,30 @@ mission "Escort science vessel"
 			variant
 				"Star Queen"
 	on stopover
-		dialog "The <npc> lands alongside you and teams of scientists wearing crisp white lab coats and serious-looking boots and gloves descend on the test site with all manner of exotic equipment. As they take their measurements, you prepare for the return journey to <planet>."
+		dialog "<npc>在你身旁着陆，一队队身穿洁白实验服、脚蹬专业靴子、戴着防护手套的科学家，携带着各式各样的奇异设备涌入测试场地。在他们进行测量时，你开始为返回<planet>的航程做准备。"
 	on visit
-		dialog "You have reached <planet>, but you can't complete this mission until the <npc> has visited <stopovers> with you and then joined you here."
+		dialog "你已经到达<planet>，但必须等<npc>随你一同访问过<stopovers>并在本星与你汇合后，才能完成此任务。"
 	on complete
-		dialog "You bid goodbye to the captain of the <npc> and accept your payment of <payment>."
+		dialog "你向<npc>的船长告别，收下了<payment>的报酬。"
 		payment
 		payment 60000
 
 phrase "academic conference recording payment"
 	word
-		`You touch down on <planet> and make your way to the conference hall at a grand university. The provided credentials gain you access and you set up the recording equipment at the back of the room.`
+		`你降落在<planet>，前往一所规模宏大的大学会议厅。凭着提供的通行凭证，你顺利进入会场，并在大厅后方架设好了录像设备。`
 	word
 		` `
 	word
-		`The panelists are electrifying, speaking eloquently on a variety of cutting-edge topics in the sciences and humanities. The experience leaves you feeling remarkably optimistic about the future of humanity here in the stars.`
+		`与会专家们的发言极具感染力，就科学与人文领域的各种前沿议题侃侃而谈。这段经历让你对人类在这片星空下的未来感到无比乐观。`
 	word
 		` `
 	word
-		`You transmit the video to your contact on <origin> and receive your payment of <payment>.`
+		`你将视频传输给位于<origin>的联系人，并收到了<payment>的报酬。`
 
 mission "Record academic conference"
 	job
 	repeat
-	description "Record an academic conference on <destination> for professors who cannot attend. Credentials and recording equipment will be provided. Payment is <payment>."
+	description "为无法出席的教授录制在<destination>举办的学术会议。届时将提供通行证件和录音设备。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -433,48 +433,48 @@ mission "Record academic conference"
 
 phrase "secure package pickup"
 	word
-		`As instructed, you`
-		`You`
+		`按照指示，你`
+		`你`
 	word
 		` `
 	word
-		`collect the package from a secure baggage counter`
-		`take possession of the package from a security desk`
+		`在安全行李柜台取走了包裹，`
+		`在安保前台接收了包裹，`
 	word
 		` `
 	word
-		`in a quiet part of the spaceport.`
-		`near your landing site.`
+		`地点位于太空港偏僻之处。`
+		`地点就在你的着陆点附近。`
 	word
 		` `
 	word
-		`It is a large box on a built-in secure antigrav trolley.`
-		`It is a small box with a complex, electronic combination lock.`
-		`It is a soft but tightly wrapped package that makes a disquieting sound if you squeeze it.`
+		`那是一个大箱子，放在带有内置安全锁的反重力推车上。`
+		`那是一个小箱子，带有复杂的电子密码锁。`
+		`那是一个包裹得严严实实的软包，捏一下就会发出令人不安的声音。`
 
 phrase "secure package dropoff payment"
 	word
-		`As instructed, you deliver the package to`
+		`按照指示，你将包裹送到了`
 	word
 		` `
 	word
-		`the reception counter of a technology firm.`
-		`a bored-looking spaceport security officer.`
-		`an elaborate curiosities store.`
-		`a plainclothes officer who receives it with minimal ID confirmation.`
-		`an old lady waiting on a bench.`
-		`another ship captain waiting on the docks.`
+		`一家科技公司的接待前台。`
+		`一名面露倦意的太空港安保官手中。`
+		`一家布置精美的奇珍店。`
+		`一名便衣警官手上，对方仅进行了最简单的身份核查便将包裹收下。`
+		`一位在长椅上等待的老妇人手中。`
+		`另一位在码头等候的船长手中。`
 	word
 		` `
 	word
-		`Your bank account immediately notifies you that the agreed-upon payment of <payment> has been deposited.`
+		`你的银行账户立刻收到通知，事先约定的 <payment> 报酬已经到账。`
 
 
 mission "Secure Transport Job (Secret) [0]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -506,8 +506,8 @@ mission "Secure Transport Job (Secret) [0]"
 mission "Secure Transport Job (Secret) [1]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -539,8 +539,8 @@ mission "Secure Transport Job (Secret) [1]"
 mission "Secure Transport Job (Secret) [2]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -572,8 +572,8 @@ mission "Secure Transport Job (Secret) [2]"
 mission "Secure Transport Job (Secret) [3]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -605,8 +605,8 @@ mission "Secure Transport Job (Secret) [3]"
 mission "Secure Transport Job (Secret) [4]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -651,65 +651,65 @@ mission "Deep Security Package Reveal"
 			not "chosen sides"
 			has "main plot completed"
 	on offer
-		log "Minor People" "Agent Wayde" `A young agent in the logistics division of Deep Security, he vouched for your increased job opportunities after you helped him out.`
+		log "Minor People" "Agent Wayde" `星渊安保后勤部门的一名年轻特工。在你向他伸出援手后，他为你作保，让你获得了更多的工作机会。`
 		conversation
-			`As you turn to leave a food stand in the spaceport, a rather young man in activewear waves you over to a bench off to the side of the main drag.`
+			`当你转身离开太空港的一处小吃摊时，一名身穿运动服、相当年轻的男子向你招手，示意你过去坐到主街一侧的长椅上。`
 			choice
-				`	(Go over to him.)`
+				`	（走过去。）`
 					goto bench
-				`	(Keep walking.)`
-			`	When you go to ignore him he gives a quick, sharp, whistle and briefly flashes a Deep Security badge at you. He immediately covers this with a friendly wave for any nearby eyes, but it is clear that he won't be ignored.`
+				`	（继续走。）`
+			`	当你打算无视他并继续走时，他迅速吹了一声清脆的口哨，并朝你晃了一下星渊安保的徽章。他随即挥了挥手，摆出一副友好的样子来掩人耳目，但很明显，他是不会轻易让你走掉的。`
 			label bench
-			`	When you approach the bench he says, "Hello captain. Please, have a seat and allow me to take a moment of your time."`
-			`	His manner is very rehearsed, but he seems quite intent and assured in his request.`
+			`	当你走近长椅时，他说：“你好，船长。请坐，请允许我占用你一点时间。”`
+			`	他的举动显得有些刻意，像是事先排练过一般，但他在提出请求时显得十分真诚且笃定。`
 			choice
-				`	"Sure. Who are you?"`
+				`	“好吧。你是谁？”`
 					goto who
-				`	"Sorry, but I'm busy right now."`
-			`	"To be clear, I'm here to thank you, if that helps." he says.`
+				`	“抱歉，我现在很忙。”`
+			`	“说白了，我是特地来感谢你的，如果这能让你安心的话。”他说。`
 			choice
-				`	"Oh. What is it?" (Sit down.)`
-				`	"Sorry, maybe next time."`
+				`	“哦。什么事？”（坐下。）`
+				`	“抱歉，下次吧。”`
 					decline
 			label who
-			`	As you sit down, the man smiles at you before directing his attention back to those passing by as he speaks. "My name is Wayde, Agent Wayde if you will. Don't mind the title though, I... well I work in the logistics division for Deep Security. You've transported a large number of secure packages recently, and several of them were mine."`
+			`	当你坐下时，那名男子朝你笑了笑，接着一边继续留意过路的行人，一边说道：“我叫韦德，不介意的话也可以叫我韦德特工。不过不用太在意这个头衔，我……呃，我在星渊安保的后勤部门工作。你最近运送了大量安全包裹，其中有好几批是我的。”`
 			choice
-				`	"If it pays, it pays."`
+				`	“只要给报酬就行。”`
 					goto "blind acceptance"
-				`	"Ah, yes."`
+				`	“啊，是的。”`
 					goto "blind acceptance"
-				`	"Do all the secure packages belong to Deep Security?"`
-			`	"Oh no, plenty of tech businesses and wealthy individuals use the same secure package shipping channels. We do monitor all of them though just to make sure our own channels don't get compromised by something ill-advised... or illegal." He shrugs, giving you a measured look.`
+				`	“所有的安全包裹都属于星渊安保吗？”`
+			`	“噢，不，很多科技公司和富人也使用同样的安全包裹运输渠道。不过我们确实会监控所有的渠道，以确保我们自己的渠道不会因为某些不明智……或者非法的行为而遭到破坏。”他耸了耸肩，带着打量的目光看着你。`
 			label "blind acceptance"
-			`	"Well, I looked at your record and it seems you've done quite a lot for the Deep, and you're well-regarded. We like to keep a list of pilots that we can call on if we need something delivered with either urgency or discretion, and it seems like you qualified. You passed the background check at any rate.`
-			`	"So at any rate, I'm authorized to give you a one-time offer to join that list. Don't worry, I'm not asking anything of you right now."`
-			`	He stops keeping an eye on passers-by for a moment to look directly at you. "So, are you interested?"`
+			`	“嗯，我查看了你的记录，看来你为星渊做了不少事，而且口碑很好。我们喜欢保留一份飞行员名单，以便在需要紧急或谨慎运送物品时联系他们，看来你符合条件。总之，你已经通过了背景调查。`
+			`	“总之，我获得了授权，可以为你提供一个加入该名单的一次性机会。别担心，我现在不要求你做任何事。”`
+			`	他暂时收回了环顾行人的目光，直视着你。“那么，你有兴趣吗？”`
 			choice
-				`	"I'm willing to help."`
+				`	“我愿意帮忙。”`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`	“抱歉，但我不想牵扯太深。”`
 					decline
-				`	"You said 'at any rate' twice."`
-			`	His expression twitches slightly but he carries on with a chuckle. "Er, good catch. The question stands though."`
+				`	“你说了两次‘总之’。”`
+			`	他的表情微微抽搐了一下，但还是笑呵呵地继续说道：“呃，好眼力。不过我刚才的问题依然有效。”`
 			choice
-				`	"I'm willing to help."`
+				`	“我愿意帮忙。”`
 					goto agree
-				`	"Sorry, but I don't think I want to get that involved."`
+				`	“抱歉，但我不想牵扯太深。”`
 					decline
 			label agree
-			`	"Excellent," he says, standing up and stretching as if concluding a friendly conversation. He turns back to you with a smile, "I'll add you to the list as soon as I get back to the office then. Your ID will also let you see which packages are ours specifically too. Oh, and again, thank you!"`
+			`	“太好了，”他说着站起身来伸了个腰，仿佛在为这场友好的交谈作结。他转过身来对你微笑道：“我一回办公室就把你加到名单里。你的ID也可以让你看到哪些包裹具体是属于我们星渊安保的。哦，再次感谢！”`
 			action
 				set "deep security reveal"
-			`	Agent Wayde appears to flick a subtle salute your direction, or perhaps merely tips an imaginary cap. "Good day, captain. I look forward to working with you in the future."`
-			`	With a quick motion he flicks his hair back out his eyes and jogs away, sending one last wave your direction just before he turns a corner and disappears.`
+			`	韦德特工似乎朝你的方向微微敬了个礼，又或者只是抬了抬那顶不存在的帽子。“祝你今天愉快，船长。我很期待未来能与你共事。”`
+			`	他利落地一甩头发，把挡在眼前的刘海拨开，然后小跑着离去，在拐弯消失前朝你的方向最后挥了挥手。`
 				decline
 
 
 mission "Secure Transport Job (Basic) [0]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -741,8 +741,8 @@ mission "Secure Transport Job (Basic) [0]"
 mission "Secure Transport Job (Basic) [1]"
 	job
 	repeat
-	name "Secure delivery to <planet>"
-	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+	name "安全运送至<planet>"
+	description "将一份安全物资包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -774,8 +774,8 @@ mission "Secure Transport Job (Basic) [1]"
 mission "Secure Transport Job (Deep Security) [0]"
 	job
 	repeat
-	name "Deep Security delivery to <planet>"
-	description "Deliver a Deep Security package to <destination>. Payment is <payment>."
+	name "星渊安保运送至<planet>"
+	description "将一个星渊安保包裹运送至<destination>。报酬为<payment>。"
 	cargo "deep security package" 1
 	to offer
 		random < 20
@@ -807,8 +807,8 @@ mission "Secure Transport Job (Deep Security) [0]"
 mission "Secure Transport Job (Deep Security) [1]"
 	job
 	repeat
-	name "Deep Security delivery to <planet>"
-	description "Deliver a Deep Security package to <destination>. Payment is <payment>."
+	name "星渊安保运送至<planet>"
+	description "将一个星渊安保包裹运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -840,8 +840,8 @@ mission "Secure Transport Job (Deep Security) [1]"
 
 mission "Deep Consultants"
 	minor
-	name "Transport consultants to <planet>"
-	description "Julie and her assistant missed their transport and need to reach <destination> by <date> in order to make several important business meetings."
+	name "运送顾问至<planet>"
+	description "朱莉和她的助手错过了她们的交通工具，需要在<date>之前抵达<destination>以参加几场重要的商务会议。"
 	source
 		attributes "deep"
 		attributes "urban"
@@ -859,81 +859,81 @@ mission "Deep Consultants"
 			has "main plot completed"
 	on offer
 		conversation
-			`Strolling through the spaceport, you are suddenly accosted by a young and breathless woman. "Please, Captain," she wheezes, "I'm so glad I caught you."`
-			`	After drawing in a deep breath, she stands up straighter and gestures to someone some distance away. "Captain, I'm sorry, but my colleague Julie and I are in dire need of urgent transport. Can you help?"`
-			`	As she catches her breath some more, her older colleague hustles over, bags in tow.`
+			`当你在太空港漫步时，一位气喘吁吁的年轻女子突然拦住了你。“拜托了，船长，”她喘着粗气说，“真高兴我赶上您了。”`
+			`	深吸了一口气后，她挺直了身子，朝不远处的某人指了指。“船长，很抱歉打扰，但我的同事朱莉和我急需搭乘紧急交通工具。您能帮帮我们吗？”`
+			`	在她继续平复呼吸时，年长些的同事拖着行李匆匆赶来。`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	“当然，很乐意帮忙。”`
 					goto sure
-				`	"Where do you need to go?"`
-				`	"Why is it so urgent?"`
-				`	"Who are you?"`
-			`	Julie holds out her hand in greeting. "Apologies, let's do this properly. My name is Julie Gillar. My assistant and I were held back with our duties and missed our booked transport. We're in dire need of passage to Valhalla for several important business meetings, but unfortunately everything is booked up for the next five days straight, and that's just not acceptable to my employer."`
+				`	“你们要去哪？”`
+				`	“为什么这么急？”`
+				`	“你是谁？”`
+			`	朱莉伸出手以示问候。“抱歉，我们正式认识一下。我叫朱莉·吉拉尔。我和助手因为公务耽搁，错过了预订的客船。我们急需前往瓦尔哈拉参加几个重要的商务会议，但不幸的是，接下来的整整五天里所有的班次都订满了，我的雇主可无法接受这种事情。”`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	“当然，很乐意帮忙。”`
 					goto sure
-				`	"Who's your employer?"`
-			`	Julie furtively glances at the people nearby. "Well, I have a few employers actually, but at the moment, indirectly, Deep Security."`
-			`	She leans in slightly closer and lowers her voice. "We have access to their list of trustworthy pilots for emergencies. You'll be paid quite well."`
+				`	“你的雇主是谁？”`
+			`	朱莉偷偷瞥了一眼附近的人。“嗯，其实我有几个雇主，但目前来说，间接是星渊安保。”`
+			`	她稍微凑近了一些，压低声音。“我们能查阅他们的紧急可信飞行员名单。给你的报酬会很丰厚。”`
 			choice
-				`	"Sure, I'd be glad to help."`
+				`	“当然，很乐意帮忙。”`
 					goto sure
-				`	"I'm sorry, but I really can't help you right now."`
+				`	“抱歉，但我现在真的帮不了你们。”`
 					decline
 			label sure
-			`	"Lead right on then," says Julie. You point towards your ship, and the women move to board it.`
+			`	“那就在前面带路吧，”朱莉说。你指向自己的飞船，两位女士便动身登船。`
 				accept
 	on complete
-		log "Minor People" "Julie Gillar" `A consultant who worked with Deep Security. She requested emergency transport from you and showed you how to make yourself available to future consultants.`
+		log "Minor People" "Julie Gillar" `一位曾与星渊安保合作的顾问。她曾向你请求紧急运送，并教你如何为日后的顾问提供服务。`
 		payment 350000
 		set "deep security consultants"
 		conversation
-			`Julie and her assistant are model passengers the entire journey. As she prepares to disembark, she thanks you for your assistance. In addition to transferring <payment> into your account, she helps you change your job board preferences with the local spaceport agencies to make yourself available for business passengers consulting with Deep Security.`
-			`	"Thank you Captain <last>, you've been most helpful. Do keep an eye out in the spaceports around here though. Deep Security is notorious for keeping us longer than we're booked for. There's often someone stuck and in need of rapid transport off-world."`
+			`朱莉和她的助理在整个航程中都是模范乘客。在她准备下船时，她对你的帮助表示感谢。除了将<payment>转入你的账户外，她还帮你修改了在本地太空港机构的任务板偏好设置，以便你能够承接与星渊安保合作的商务旅客的委托。`
+			`	“谢谢你，<last>船长，你帮了大忙。不过，平时还是多留意一下这附近的太空港。星渊安保是出了名地喜欢超时滞留我们。这里经常会有顾问被困住，急需快速离星。”`
 
 
 phrase "stranded consultant pickup"
 	word
-		`In accordance with the lodging request, you`
-		`Despite the short notice, you`
+		`按照住宿要求，你`
+		`虽然通知仓促，你还是`
 	word
 		` `
 	word
-		`meet the <passengers> at their hotel accommodation`
-		`collect the <passengers> from the security station`
-		`fish the <passengers> out of a seedy bar`
-		`rescue the <passengers> from some overbearing companions`
+		`在酒店下榻处接到了<passengers>`
+		`从安保站接走了<passengers>`
+		`从乌烟瘴气的酒吧里捞出了<passengers>`
+		`从几位盛气凌人的同伴手中解救了<passengers>`
 	word
 		` `
 	word
-		`in a quiet part of the spaceport`
-		`on the other side of town`
-		`in a raucous quarter just outside the port`
+		`，当时他们位于太空港偏僻安静的一角，`
+		`，当时他们位于城镇的另一侧，`
+		`，当时他们位于太空港外喧闹的街区，`
 	word
 		` `
 	word
-		`and escort them on board.`
+		`并护送他们登船。`
 
 phrase "stranded consultant dropoff payment"
 	word
-		`The consultants thank you as you deliver them to their destination.`
+		`当你将顾问们送达目的地时，他们向你表示了感谢。`
 	word
 		` `
 	word
-		`You find out only afterward that they left behind a soiled pair of boots in one of your cabins.`
-		`Afterward, you find a tie left hanging on one of your ship's door handles.`
-		`Later, you find some crumpled documents left onboard and wisely tip them into the ship's incinerator without looking at them.`
+		`事后你才发现，他们在你的一间舱室里留下一双脏靴子。`
+		`事后，你发现飞船门把头上挂着一条遗落的领带。`
+		`稍后，你在船上发现了一些揉皱的文件，明智地看也没看就扔进了飞船的焚化炉。`
 	word
 		` `
 	word
-		`Your bank account soon notifies you that the agreed-upon payment of <payment> has been deposited.`
+		`不久后，你的银行账户收到通知，约定的款项 <payment> 已到账。`
 
 
 mission "Transport Consultants (Deep Security) [0]"
 	job
 	repeat
-	name "Transport Deep Security consultants"
-	description "Transport <fare> whose schedules have been ruined by Deep Security to <destination>. Payment is <payment>."
+	name "运送星渊安保顾问"
+	description "将行程被星渊安保打乱的<fare>运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -965,8 +965,8 @@ mission "Transport Consultants (Deep Security) [0]"
 mission "Transport Consultants (Deep Security) [1]"
 	job
 	repeat
-	name "Transport Deep Security consultants"
-	description "Transport <fare> whose schedules have been ruined by Deep Security to <destination>. Payment is <payment>."
+	name "运送星渊安保顾问"
+	description "将行程被星渊安保打乱的<fare>运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 		not attributes "station"
@@ -999,8 +999,8 @@ mission "Transport Consultants (Deep Security) [1]"
 mission "Urgent Deep Sec Package"
 	minor
 	repeat
-	name "Rush Deep Security Delivery"
-	description "Deliver a Deep Security package to <destination> by <date>. Payment is <payment>."
+	name "星渊安保紧急递送"
+	description "在<date>前将星渊安保的包裹送达<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -1016,7 +1016,7 @@ mission "Urgent Deep Sec Package"
 		"reputation: Deep Security" >= 40
 		"secure deep package" >= 20
 	on offer
-		dialog `As you are walking through the spaceport, a man approaches you and flashes a Deep Security ID. "Greetings Captain <last>. We need someone to deliver this to <destination> by <date>, taking the most direct route possible."`
+		dialog `当你漫步在太空港时，一名男子朝你走来，并亮出了一张星渊安保的身份证明。“您好，<last>船长。我们需要有人在<date>前将这件物品送达<destination>，请务必走最直接的航线。”`
 	on abort
 		# No penalty for aborting.
 	on fail
@@ -1032,8 +1032,8 @@ mission "Urgent Deep Sec Package"
 mission "Urgent Deep Sec Consultants [0]"
 	minor
 	repeat
-	name "Rush Deep Security Consultants"
-	description "Deliver <bunks> Deep Security consultants to <destination> by <date>. Payment is <payment>."
+	name "紧急运送星渊安保顾问"
+	description "在<date>之前，将<bunks>名星渊安保顾问运送至<destination>。报酬为<payment>。"
 	source
 		attributes "deep"
 	destination
@@ -1049,7 +1049,7 @@ mission "Urgent Deep Sec Consultants [0]"
 		"reputation: Deep Security" >= 60
 		"secure deep package" >= 30
 	on offer
-		dialog `As you are walking through the spaceport, a harried man approaches you, informing you that <bunks> Deep Security consultants, including himself, are in need of urgent transport to <destination> by <date>, leaving no time for stopovers.`
+		dialog `当你穿过太空港时，一名神色匆忙的男子走近你，表示包括他在内的<bunks>名星渊安保顾问急需在<date>前被送往<destination>，期间不容许任何中途停留。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on abort
@@ -1065,8 +1065,8 @@ mission "Urgent Deep Sec Consultants [0]"
 mission "Urgent Deep Sec Consultants [1]"
 	repeat
 	minor
-	name "Rush Deep Security Consultants"
-	description "Deliver <bunks> Deep Security consultants to <destination> by <date>. Payment is <payment>."
+	name "紧急运送星渊安保顾问"
+	description "在<date>之前，将<bunks>名星渊安保顾问运送至<destination>。报酬为<payment>。"
 	source
 		near "Epsilon Leonis" 3 4
 		attributes "deep"
@@ -1080,7 +1080,7 @@ mission "Urgent Deep Sec Consultants [1]"
 		"reputation: Deep Security" >= 60
 		"secure deep package" >= 30
 	on offer
-		dialog `As you are walking through the spaceport, a harried man approaches you, informing you that <bunks> Deep Security consultants, including himself, are in need of urgent transport to <destination> by <date>, leaving no time for stopovers.`
+		dialog `当你穿过太空港时，一名神色匆忙的男子走近你，表示包括他在内的<bunks>名星渊安保顾问急需在<date>前被送往<destination>，期间不容许任何中途停留。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on abort
@@ -1095,8 +1095,8 @@ mission "Urgent Deep Sec Consultants [1]"
 
 
 mission "Lionheart Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，这里是因先进及实验性设计而闻名的狮心工业总部。报酬为<payment>。"
 	cargo "weapons" 5 2 .1
 	job
 	repeat
@@ -1114,8 +1114,8 @@ mission "Lionheart Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Lionheart Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，这里是因先进及实验性设计而闻名的狮心工业总部。报酬为<payment>。"
 	cargo "Ship Alloys" 5 2 .1
 	job
 	repeat
@@ -1133,8 +1133,8 @@ mission "Lionheart Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Lionheart Shipment [2]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，这里是因先进及实验性设计而闻名的狮心工业总部。报酬为<payment>。"
 	cargo "Ship Systems" 5 2 .1
 	job
 	repeat
@@ -1152,8 +1152,8 @@ mission "Lionheart Shipment [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Deep Sky Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Deep Sky, manufacturer of cutting-edge cybernetics, weapons, and starship equipment. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，这里是生产尖端网络增强设备、武器和星舰装备的深空工业总部。报酬为<payment>。"
 	cargo Metal 5 2 .1
 	job
 	repeat
@@ -1171,8 +1171,8 @@ mission "Deep Sky Shipment [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Deep Sky Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Deep Sky, manufacturer of cutting-edge cybernetics, weapons, and starship equipment. Payment is <payment>."
+	name "运送至<planet>的货物"
+	description "将<cargo>运送至<destination>，这里是生产尖端网络增强设备、武器和星舰装备的深空工业总部。报酬为<payment>。"
 	cargo Electronics 5 2 .1
 	job
 	repeat
@@ -1190,8 +1190,8 @@ mission "Deep Sky Shipment [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Deep Hovercraft Racer Transport"
-	name "Transport racer to <planet>"
-	description "Deliver a pilot and their hovercraft to <destination> to attend a race by <date>."
+	name "运送赛车手至<planet>"
+	description "在<date>前，将一名驾驶员及其气垫船送达<destination>以参加比赛。"
 	passengers 1
 	cargo "Deep hovercraft" 1
 	job
@@ -1209,10 +1209,10 @@ mission "Deep Hovercraft Racer Transport"
 	on complete
 		payment
 		payment 11000
-		dialog `You drop off the pilot with their hovercraft and collect your payment of <payment>.`
+		dialog `你送达了驾驶员和气垫船，并收到了<payment>的报酬。`
 
 mission "Deep Hovercraft Large Racer Transport"
-	name "Transport team to <planet>"
+	name "运送车队至<planet>"
 	description "Deliver this <bunks>-member racing team and their set of <cargo> to <destination> to attend a race by <date>."
 	passengers 50 100 .9
 	cargo "Deep hovercraft" 50
@@ -1231,4 +1231,4 @@ mission "Deep Hovercraft Large Racer Transport"
 	on complete
 		payment
 		payment 23000
-		dialog `You drop off the racing team with their hovercraft and collect your payment of <payment>.`
+		dialog `你送达了赛车队和他们的气垫船，并收到了<payment>的报酬。`

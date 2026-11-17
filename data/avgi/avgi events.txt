@@ -36,10 +36,10 @@ mission "Avgi: Aberrant Blockade"
 		attributes "aberrant siege"
 	on offer
 		conversation
-			`As you attempt to land, your sensors warn you of an approaching pod of Aberrant over the horizon, intent on destroying anything that approaches or tries to launch from <origin>. It seems you'll have to fight if you want to land here.`
+			`当你试图着陆时，传感器警告你地平线上有一群异变体正在接近，它们意图摧毁任何接近或试图从<origin>起飞的东西。看来如果你想在这里着陆，就必须战斗。`
 				launch
 	on complete
-		dialog "With the area cleared of Aberrant, you manage to slip through the blockade and land on <origin>."
+		dialog "清除了该区域的异变体后，你设法穿过封锁，降落在<origin>上。"
 
 	npc kill
 		government "Aberrant"

@@ -26,38 +26,38 @@ news "artist on post-fw Deneb"
 			"Composer"
 	message
 		word
-			"This "
+			"这个 "
 		word
-			"planet"
-			"city"
-			"building"
+			"星球"
+			"城市"
+			"建筑"
 		word
-			"'s "
+			"的 "
 		word
-			"alien"
-			"extraterrestrial"
-			"unique"
-			"Pug"
+			"外星"
+			"地外"
+			"独特的"
+			"帕格"
 		word
-			" origin is so "
+			" 起源如此 "
 		word
-			"inspiring"
-			"intriguing"
-			"thrilling"
-			"exciting"
+			"鼓舞人心"
+			"引人入胜"
+			"扣人心弦"
+			"激动人心"
 		word
-			"! I'm "
+			"！我 "
 		word
-			"full of"
-			"bristling with"
+			"充满"
+			"迸发着"
 		word
 			" "
 		word
-			"ideas"
-			"creativity"
-			"energy"
+			"想法"
+			"创造力"
+			"能量"
 		word
-			"!"
+			"而战！"
 
 news "tourist on post-fw Deneb"
 	location
@@ -70,48 +70,48 @@ news "tourist on post-fw Deneb"
 			"Traveler"
 	message
 		word
-			"Can you imagine"
-			"Did you know"
+			"你能想象吗"
+			"你知道吗"
 		word
-			" that "
+			"那"
 		word
-			"this entire"
-			"this whole"
-			"every part of this"
-		word
-			" "
-		word
-			"city"
-			"building"
-		word
-			" was "
-		word
-			"constructed"
-			"created"
-			"built"
-			"made"
-		word
-			" by "
-		word
-			"an alien species"
-			"aliens"
-			"insectoid aliens"
-			"another race"
-		word
-			"? "
-		word
-			"That's"
-			"I find that"
+			"整个"
+			"整个"
+			"这里的每一部分"
 		word
 			" "
-			" so "
 		word
-			"inspiring"
-			"incredible"
-			"exciting"
-			"fascinating"
+			"城市"
+			"建筑"
 		word
-			"!"
+			" 被 "
+		word
+			"建造"
+			"创造"
+			"建造"
+			"制造"
+		word
+			" ，出自 "
+		word
+			"一个外星种族"
+			"外星人"
+			"虫形外星人"
+			"另一个种族"
+		word
+			"吗？ "
+		word
+			"那真是"
+			"我觉得那"
+		word
+			" "
+			" 非常 "
+		word
+			"鼓舞人心"
+			"难以置信"
+			"激动人心"
+			"令人着迷"
+		word
+			"而战！"
 
 news "conspiracy theorist on post-fw Deneb"
 	location
@@ -124,52 +124,52 @@ news "conspiracy theorist on post-fw Deneb"
 			"Truth seeker"
 	message
 		word
-			"Do you really"
-			"How can you"
+			"你真的"
+			"你怎么能"
 		word
 			" "
 		word
-			"believe"
-			"still think"
-			"accept"
-			"trust"
+			"相信"
+			"还认为"
+			"接受"
+			"信任"
 		word
-			" that this "
+			" 这个 "
 		word
-			"city"
-			"spaceport"
-			"building"
-			"place"
+			"城市"
+			"空间港"
+			"建筑"
+			"地方"
 		word
-			" was "
+			" 被 "
 		word
-			"created"
-			"made"
-			"inhabited"
+			"创造"
+			"制造"
+			"被居住"
 		word
-			" by "
+			" ，出自 "
 		word
-			"another species"
-			"aliens"
-			"a different race"
+			"另一个物种"
+			"外星人"
+			"不同种族"
 		word
-			"? "
+			"吗？ "
 		word
-			"This was "
+			"这是 "
 		word
-			"clearly"
-			"obviously"
-			"without a doubt"
+			"明显"
+			"显然"
+			"毫无疑问"
 		word
-			" built for humans, by humans. "
+			" 由人类为人类建造的。 "
 		word
-			"You will eventually realize that"
-			"You will come to see that"
-			"I'm gathering evidence for a public trial"
-			"I can provide you with all the proof you need"
-			"This is all just a stunt by the Republic and the Free Worlds"
+			"你最终会意识到，"
+			"你会明白，"
+			"我正在为公开审判收集证据"
+			"我可以提供你所需的所有证据"
+			"这不过是共和国和自由世界的把戏"
 		word
-			"."
+			"愿意砸多少钱。"
 
 news "reporter on post-fw Deneb"
 	location
@@ -182,54 +182,54 @@ news "reporter on post-fw Deneb"
 			"Correspondent"
 	message
 		word
-			"I don't think there is anything"
-			"I don't find anything to be"
-			"There isn't anything"
+			"我不觉得有什么"
+			"我没发现有什么"
+			"没什么"
 		word
 			" "
 		word
-			"special"
-			"unique"
-			"different"
+			"特别的"
+			"独特的"
+			"不同的"
 		word
-			" about this "
+			" 的地方 "
 		word
-			"planet"
-			"place"
+			"星球"
+			"地方"
 		word
-			", but "
+			"，但 "
 		word
-			"the people"
-			"my viewers"
-		word
-			" "
-		word
-			"believe otherwise"
-			"always love when I report from here"
-			"still love to see me here"
-			"want me here, so here I am"
-			"find it fascinating"
-		word
-			". Anyway, I"
-		word
-			" have to go now"
-			"'m off to the studio"
-			" have to get going"
-			" stayed too long already"
-			" shouldn't be chatting with you"
-		word
-			", "
-		word
-			"the show"
-			"my segment"
+			"人们"
+			"我的观众们"
 		word
 			" "
 		word
-			"is about to begin"
-			"starts in three minutes"
-			"is going live in a minute"
+			"不这么看"
+			"总喜欢看我在这里报道"
+			"还是喜欢看我在这里"
+			"希望我在这，所以我来了"
+			"觉得这很有趣"
 		word
-			"."
+			"。总之，我"
+		word
+			" 得走了"
+			"要去演播室了"
+			" 得出发了"
+			" 已经待太久了"
+			" 不该跟你聊天的"
+		word
+			"里，"
+		word
+			"节目"
+			"我的环节"
+		word
+			" "
+		word
+			"马上开始"
+			"三分钟后开始"
+			"一分钟后直播"
+		word
+			"愿意砸多少钱。"
 
 news "merchant on post-fw Deneb"
 	location
@@ -240,61 +240,61 @@ news "merchant on post-fw Deneb"
 			"merchant names"
 	message
 		word
-			"You wouldn't believe"
-			"I didn't imagine"
+			"你简直不敢相信"
+			"我没想到"
 		word
-			" the "
+			"这"
 		word
-			"kind"
-			"amount"
-			"sort"
-			"sheer volume"
+			"那种"
+			"数量"
+			"种类"
+			"庞大的流量"
 		word
-			" of "
+			" 的 "
 		word
-			"ships"
-			"traffic"
-			"traders"
+			"飞船"
+			"交通"
+			"商人"
 		word
-			" passing through"
+			" 经过"
 		word
-			" here"
-			" this system"
+			" 在这里"
+			" 这个星系"
 			""
 		word
-			". This is a shortcut between "
+			"。这是一条捷径，连接着 "
 		word
-			"the Free Worlds"
-			"the Dirt Belt"
-			"the South"
-			"Tarazed"
+			"自由世界"
+			"灰带"
+			"南方"
+			"塔拉泽德"
 		word
-			" and the Syndicate. "
+			" 和辛迪加的捷径。 "
 		word
-			"Just yesterday"
-			"A couple days ago"
-			"When I arrived"
+			"就在昨天"
+			"几天前"
+			"我到达时"
 		word
 			" "
 		word
-			"I had to wait"
-			"I was delayed"
-			"they put me on hold"
-			"they kept telling me there wasn't a free landing pad"
+			"我不得不等"
+			"我被耽搁了"
+			"他们让我等着"
+			"他们一直说没有空的着陆坪"
 		word
-			" for "
+			" 长达 "
 		word
 			""
-			"like "
-			"what seemed like "
-			"about "
-			"nearly "
+			"大概 "
+			"感觉像是 "
+			"大约 "
+			"将近 "
 		word
-			"four hours"
-			"half a day"
-			"ninety minutes"
+			"四个小时"
+			"半天"
+			"九十分钟"
 		word
-			"!"
+			"而战！"
 
 news "worker on pug-occupied planet after fw"
 	location
@@ -306,49 +306,49 @@ news "worker on pug-occupied planet after fw"
 			"Worker"
 	message
 		word
-			"I "
+			"我 "
 		word
-			"was"
-			"was working"
-			"happened to be"
-			"had a contract"
+			"被"
+			"当时在工作"
+			"恰好就在"
+			"当时有个合同"
 		word
-			" here "
+			" 在这里 "
 		word
-			"during the occupation"
-			"during the Pug war"
-			"when the Pug attacked us"
-		word
-			". "
-		word
-			"For the weird aliens they are"
-			"Even when provoked"
-			"For the most part"
-		word
-			", they "
-		word
-			"didn't really cause trouble"
-			"didn't cause much damage"
-			"just left us alone"
+			"占领期间"
+			"帕格战争期间"
+			"帕格攻击我们时"
 		word
 			". "
 		word
-			"Unlike some "
+			"虽然他们是古怪的外星人"
+			"即使被挑衅"
+			"大多数时候"
 		word
-			"politicians"
-			"pencil pushers"
-			"people"
-			"bureaucrats"
+			"，他们 "
+		word
+			"其实没惹麻烦"
+			"没造成太大破坏"
+			"只是不管我们"
+		word
+			". "
+		word
+			"不像某些 "
+		word
+			"政客"
+			"文书虫"
+			"人们"
+			"官僚"
 		word
 			" "
 		word
-			"back home"
-			"on Earth"
-			"I know"
-			"here"
-			"we get these days"
+			"在老家"
+			"在地球"
+			"我认识的"
+			"在这里"
+			"我们如今遇到的"
 		word
-			"."
+			"愿意砸多少钱。"
 
 news "pug on pug planets during fw"
 	location
@@ -356,7 +356,7 @@ news "pug on pug planets during fw"
 		not attributes "uninhabited"
 	name
 		word
-			"Pug"
+			"帕格"
 	message
 		phrase
 			"friendly pug"

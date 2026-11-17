@@ -75,12 +75,12 @@ ship "Aerie"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Lionheart Aerie is a light carrier, designed to be just big enough for four fighter bays plus a decent armament of its own. Variations on this same ship design have been in use in the Deep for almost half a millennium, but this model comes with the very latest in generator and weapon technology."
+	description "狮心·鹰巢是一款轻型航母，其设计正好足以容纳四个战斗机舱，并配备可观的自卫武器。同一设计的变体在星渊已使用了近五百年，但本型号配备了最先进的发电机和武器技术。"
 
 
 
 ship "Argosy"
-	plural "Argosies"
+	plural "大商船级"
 	sprite "ship/argosy"
 	thumbnail "thumbnail/argosy"
 	"administrative cost" 2
@@ -137,8 +137,8 @@ ship "Argosy"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
-	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
+	description "南境船厂生产的大商船深受商人欢迎，并非因为其货舱容量——实际上它比辛迪加货船略小——而是因为它即使面对小型海盗舰队也能在战斗中站稳脚跟。"
+	description "	大商船也是一艘非常容易升级的飞船，可以根据需要安装更快的引擎或更强大的武器，因此许多私人拥有的大商船的性能与标准型号大不相同。"
 
 
 
@@ -191,12 +191,12 @@ ship "Arrow"
 	explode "small explosion" 18
 	explode "medium explosion" 6
 	"final explode" "final explosion small"
-	description "The Arrow is a light transport, designed for bringing a small number of very rich passengers - Syndicate CEOs, for example - from one planet to another with speed and style. It makes up for its light armament by being able to outrun nearly every other ship in the sky."
+	description "箭矢是一种轻型运输船，专为以速度和风格将少数极富有的乘客——例如辛迪加CEO——从一个星球运送到另一个星球而设计。它凭借能够超越天空中几乎所有其他飞船的能力，弥补了自身轻型武装的不足。"
 
 
 
 ship "Auxiliary"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryh"
 	thumbnail "thumbnail/auxiliaryh"
 	"administrative cost" 6
@@ -265,11 +265,11 @@ ship "Auxiliary"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Auxiliary is the Republic Navy's logistical backbone. The size and durability of a capital ship but more cargo and passenger space than any other Navy ship, the Auxiliary is used whenever the Navy needs large amounts of troops or cargo transported with a guarantee that they'll reach the destination."
-	description "The Auxiliary was built with modularity in mind, allowing the ship to be fitted for more cargo or bunk space depending on the mission. This modularity makes the ship rather expensive to build, however, and therefore a rare sight to see."
+	description "辅助舰是共和国海军的后勤支柱。它拥有主力舰的体型和耐久性，但载货和载客空间超过海军任何其他舰船。每当海军需要大批部队或货物运输，并确保它们安全抵达目的地时，便会动用辅助舰。"
+	description "辅助舰在设计之初便以模块化为核心理念，可根据任务需求装配更多货舱或居住舱位。然而，这种模块化设计使得建造成本相当高昂，因此在星空中颇为罕见。"
 
 ship "Auxiliary" "Auxiliary (Cargo)"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryc"
 	thumbnail "thumbnail/auxiliaryc"
 	add attributes
@@ -291,7 +291,7 @@ ship "Auxiliary" "Auxiliary (Cargo)"
 		"launch effect" "human internal"
 
 ship "Auxiliary" "Auxiliary (Transport)"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryt"
 	thumbnail "thumbnail/auxiliaryt"
 	add attributes
@@ -385,8 +385,8 @@ ship "Bactrian"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive for weeks at a time without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance."
-	description "	Naturally, this versatility also makes it extremely expensive, and the Bactrian is normally only for sale to citizens who have been vetted by the local government of the Deep."
+	description "狮心双峰驼是最后一座伟大的城市飞船，其设计可追溯到太空殖民早期，当时长途飞船需要成为一个自给自足的世界，能够在数周内不遇到任何有人居住星球而独立生存。它不仅是一艘货船，也是一艘母舰，无论是近程还是远程，都是一艘能力出众的战舰。"
+	description "	自然，这种多功能性也使其极为昂贵，双峰驼通常只出售给经过星渊当地政府审查的公民。"
 
 
 
@@ -429,9 +429,9 @@ ship "Barb"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `Though the Syndicate doesn't build fighter carriers, it is testing the waters with the Barb, a cheap and flexible carrier-launched craft featuring newly-developed miniaturized ion engines. The design philosophy of the Barb seems to have been "uglier than the Protector," and as you look at the cockpit nestled between the massive gun port and turret mount, you wonder where the power systems are supposed to go. Though an awkward-looking ship, it seems flexible enough to become a dangerous addition to any fleet with carriers.`
-	description "	In order to be capable of fitting a Proton Gun while still maintaining a turret mount, Syndicated Systems had to remove various life support systems, requiring that the pilot wear a pressurized suit rather than having the cabin be fully pressurized. Although it makes piloting a Barb an uncomfortable experience, the result is a level of short-range firepower that is unheard of for a craft its size."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `尽管辛迪加不制造战斗机母舰，但它正在通过“倒刺”测试市场——这是一种廉价且灵活的舰载发射飞行器，采用新开发的小型化离子引擎。“倒刺”的设计理念似乎是“比‘守护者’更难看”，当你看着嵌在巨大炮口和炮塔底座之间的驾驶舱时，你会好奇动力系统应该放在哪里。虽然外表笨拙，但它足够灵活，足以成为任何拥有母舰的舰队中危险的新成员。`
+	description "	为了使飞船能够安装质子炮的同时保留一个炮塔挂载点，联合系统公司不得不移除多个生命维持系统，要求飞行员穿戴加压服而非让座舱完全密封。尽管这使得驾驶倒刺号成为一种不舒适的体验，但其结果是提供了在这个尺寸的飞船上前所未有的短程火力。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 
@@ -496,7 +496,7 @@ ship "Bastion"
 	explode "medium explosion" 30
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Southbound Shipyards Bastion is designed as a heavy defense platform to accompany freighter convoys, in addition to having enough cargo capacity to serve as a freighter in its own right. Because of its heavy armament, it is classified as a warship rather than a freighter."
+	description "南方造船厂的 堡垒 被设计成重型防御平台，用于伴随货船护航队，同时自身也拥有足够的货舱容量来充当货船。由于其重型武装，它被归类为战舰而非货船。"
 
 
 
@@ -559,7 +559,7 @@ ship "Behemoth"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Behemoth is a recent ship design from Betelgeuse Shipyards, designed as an alternative to the Syndicate Bulk Freighter. Although its cargo capacity is somewhat lower, it is also more maneuverable, and packs a heavier armament by default."
+	description "巨兽号是参宿四造船厂的最新设计，旨在作为辛迪加散装货轮的替代型号。尽管其货舱容量略低，但机动性更佳，且默认搭载更强大的武装。"
 
 
 
@@ -611,7 +611,7 @@ ship "Berserker"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Once one of the most popular interceptor-class ships, the Berserker's popularity is now waning in favor of more modern and versatile ships like the Hawk. Although limited numbers are still produced by Betelgeuse Shipyards, most Berserkers that are in service today are more than half a century old."
+	description "作为曾经最受欢迎的截击机之一，狂战士如今已风光不再，人们更青睐像鹰这样更现代、更多功能的飞船。尽管参宿四造船厂仍在限量生产，但如今服役中的大多数狂战士都已有超过半个世纪的历史。"
 
 
 
@@ -665,7 +665,7 @@ ship "Blackbird"
 	explode "medium explosion" 18
 	explode "large explosion" 2
 	"final explode" "final explosion small"
-	description "The Tarazed Blackbird is a high-class passenger transport, designed to move large numbers of people across the galaxy with speed and safety. Although not equipped with much weaponry, a Blackbird is well protected and fast enough to evade pirate attacks, and its cargo capacity is high enough to allow the captain to take courier missions on the side."
+	description "河鼓三黑鸟是一款高级客运飞船，专为快速、安全地将大量乘客运送到银河系各处而设计。尽管未配备大量武器，黑鸟防护良好且速度足以规避海盗袭击，其货舱容量也足够让船长顺带承接信使任务。"
 
 
 
@@ -714,7 +714,7 @@ ship "Bounder"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Megaparsec Bounder is a scout ship and courier, designed not for battle but for carrying passengers and small amounts of cargo across large distances quickly."
+	description "星跃者 是一艘侦察船和信使船，其设计并非用于战斗，而是为了快速运送乘客和少量货物跨越遥远距离。"
 
 
 
@@ -753,8 +753,8 @@ ship "Boxwing"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `After introducing the "Type F" cargo pod for the Hauler, it became apparent to merchant captains that the new carriers could offer more flexibility within their fleet, if there were a cargo box they could attach to the fighter arms. Enter the "F6-C: Boxwing," the Fighter that doesn't fight, but carries cargo instead. Cargo preservation equipment gives the Boxwing much more mass and very poor heat dissipation characteristics compared to other fighters. That it cannot carry any weapons is only part of the reason jocks call it "Flying Coffin" amongst themselves; besides the ship resembling one and being very sluggish, the pilot "seat" doubles as a bunk, and is cramped beyond the comfort level of most. The interactive panoramic window H.U.D. is the only thing that keeps claustrophobic episodes from becoming a major problem.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `在推出用于运输者的“F型”货舱后，商人船长们意识到，如果能有一种可挂载到战斗机臂上的货箱，新型运输船就能为舰队提供更高的灵活性。于是便有了F6-C型：盒翼船，一艘不作战、专运货的战斗机。与其他战斗机相比，货物保鲜设备使盒翼船质量大增，散热性能极差。它无法携带任何武器，只是飞行员们私下称其为“飞行棺材”的部分原因；除了外形酷似棺椁、操作极其笨拙外，驾驶员的“座位”同时充当铺位，狭小到远超大多数人能忍受的舒适底线。交互式全景窗口平视显示器是唯一能防止幽闭恐惧症成为大问题的东西。`
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 ship "Bulk Freighter"
@@ -814,8 +814,8 @@ ship "Bulk Freighter"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Bulk Freighter is the ultimate cargo ship, able to carry as much cargo as four ordinary Syndicate Freighters. Its on-board gearing allows it to service even the most primitive colonies, though dock workers in busier spaceports often joke that it would be simpler to carry smaller freighters within its gigantic holds."
-	description "	It is also an incredibly slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Bulk Freighters just to avoid the hassle of constantly having to wait for the Bulk Freighter to properly align itself for hyperspace travel."
+	description "散装货轮是终极货运飞船，载货量相当于四艘普通辛迪加货船。其船上装备使其能够为最原始的殖民地提供服务，尽管繁忙太空港的码头工人经常开玩笑说，不如在其巨大的货舱里装上几艘小型货船更省事。"
+	description "	它也是一艘极其缓慢且难以操控的飞船，尤其是在满载货物时。一些货运商队宁愿使用普通货船也不使用散装货轮，就是为了避免不断等待散装货轮调整姿态以进入超空间航行的麻烦。"
 
 
 
@@ -880,7 +880,7 @@ ship "Bulwark"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description `The Bulwark is basically what you get by welding a bunch of scrap metal on to a Bastion. It is a tough, slow brawler that is most often used by warlords to protect their properties, whether it'd be their ships or hideouts from raids by either the authorities or their rivals. Due to their lack of speed and cargo space these ships rarely participate in raiding merchant convoys outside their home system.`
+	description `壁垒基本上就是在堡垒上焊接一堆废金属得到的。它是一艘坚固但缓慢的格斗舰，常被军阀用来保护他们的财产，无论是他们的飞船还是藏身处，以免遭到当局或对手的突袭。由于缺乏速度和货舱空间，这些飞船很少参与在其母星系外袭击商人护卫队。`
 
 
 
@@ -1072,8 +1072,8 @@ ship "Class C Freighter"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `The Class C "Freighter" is a Q-ship, a stealth warship designed by the Syndicate for baiting pirates with the offer of what appears to be a helpless, ordinary Bulk Freighter.`
-	description `	Inside, a layer of Interference Plating hides its military-grade equipment and a dozen combat drones secreted away in its converted cargo holds, while its faux gearing conceals extra shield emitters.`
+	description `C级“货船”是一艘伪装袭击舰，一种由辛迪加设计的隐形战舰，旨在用看似无助的普通散装货轮作诱饵，引诱海盗上钩。`
+	description `	其内部一层干扰镀层隐藏着军用级装备和秘密存放在改装货舱中的十余架战斗无人机，而仿制传动装置则遮掩了额外的护盾发射器。`
 
 
 
@@ -1126,7 +1126,7 @@ ship "Clipper"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
-	description "The Clipper is the smaller sister ship to the popular Southbound Shipyards Argosy. Although not able to carry as much cargo, Clippers are versatile ships that can be used as passenger transports, couriers, or even warships in a pinch, and they come with enough free space to be customized based on an individual captain's needs."
+	description "快帆是广受欢迎的南行造船厂大商船的小型姊妹船。虽然货舱容量不及后者，但快帆是一种多用途飞船，可用作客运船、信使船，甚至在必要时充当战舰。它自带充裕的自由空间，可根据每位船长的需求进行定制。"
 
 
 
@@ -1165,8 +1165,8 @@ ship "Combat Drone"
 	engine 8.5 28.5 0.9
 	gun 0 -29 "Beam Laser"
 	explode "tiny explosion" 15
-	description "Combat drones are pilotless attack ships used primarily by the Republic Navy. Although very weak and easy to destroy, they can be very effective in large numbers. Because drones do not need a cockpit, they can be filled entirely with equipment and solid metal, which makes their hulls stronger than other small ships."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "战斗无人机是共和国海军主要使用的无人攻击舰。尽管它们非常脆弱且易于摧毁，但大量部署时能发挥极高效率。由于无人机无需驾驶舱，机体内可完全填满设备和实心金属，这使得其外壳比其它小型飞船更加坚固。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 
@@ -1227,8 +1227,8 @@ ship "Container Transport"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Container Transport is a newer, more popular configuration of the Bulk Freighter that replaces the outboard loose cargo holds with intermodal containers for more efficient turnaround in larger, better-equipped ports."
-	description "	As with its geared cousin, however, it remains a slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Container Transports just to avoid the hassle of constantly having to wait for the Container Transport to properly align itself for hyperspace travel."
+	description "集装箱运输船是散装货轮的一种较新、更受欢迎的配置，它用联运集装箱取代了舷侧散装货舱，以便在更大、设备更完善的港口实现更高效的周转。"
+	description "	如同其带齿轮的同类，这艘船依然行动迟缓、操控困难，尤其当满载货物时。一些货运商队宁可选用普通货船，也不愿使用集装箱运输船，只为免去总得等待该船对准超空间航线的麻烦。"
 
 
 
@@ -1291,7 +1291,7 @@ ship "Corvette"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "Incorporating new, experimental lightweight materials, the Lionheart Corvette combines the speed and agility of a fighter with the armament of a heavy warship. Its weak hull is more than compensated for by its advanced shielding matrix."
+	description "采用新型实验性轻质材料，狮心护航艇将战斗机的速度与敏捷性同重型战舰的火力相结合。其脆弱的船体被先进的护盾矩阵充分弥补，可谓瑕不掩瑜。"
 
 
 
@@ -1373,7 +1373,7 @@ ship "Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Republic Cruiser is a relatively recent design, a much larger version of the Frigate designed to be able to take on an entire pirate fleet if necessary. In addition to a wide variety of weaponry, Cruisers have space to carry four attack drones: fast, pilotless fighters that can be controlled remotely."
+	description "共和国巡洋舰是相对较新的设计，是护卫舰的更大版本，旨在必要时能够对抗整个海盗舰队。除了种类繁多的武器外，巡洋舰还有空间携带四架攻击无人机：快速、无人驾驶的战斗机，可远程操控。"
 
 
 
@@ -1429,7 +1429,7 @@ ship "Cutthroat"
 	explode "small explosion" 25
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
-	description `Pirates call this heavily modified Clipper the "Cutthroat." With an extra pair of engine pods bolted on for the sole purpose of maximizing speed, it can outrun all but the most fine-tuned ships in the sky, allowing its users to run almost any blockade.`
+	description `海盗们将这艘经过重度改装的快帆称为“割喉”。额外加装的一对引擎吊舱，唯一目的就是最大化速度，使其能甩开空中几乎所有未经精细调校的飞船，让使用者几乎可以突破任何封锁。`
 
 
 
@@ -1476,8 +1476,8 @@ ship "Dagger"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The Dagger is a fighter designed by Lionheart Industries, intended to be carried by their Aerie warship, although other ships have been known to carry them, as well. As with many Lionheart ships, its chassis is largely composed of lightweight composite materials, making it considerably faster than other fighters."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "匕首是一款由狮心工业设计的战斗机，原本用于搭载在其鹰巢战舰上，不过其他飞船也有搭载该机型的记录。与许多狮心飞船相同，其机架大量采用轻质复合材料，使其速度显著快于其他战斗机。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 
@@ -1546,7 +1546,7 @@ ship "Dreadnought"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Dreadnought is a new warship that was designed by Southbound Shipyards in order to provide a large capital ship for the Free Worlds fleets, something capable of standing up to a Navy Cruiser or even a Carrier."
+	description "无畏舰是一种新型战舰，由南下船厂设计，旨在为自由世界舰队提供大型主力舰，能够与海军巡洋舰甚至航母抗衡。"
 
 
 ship "Dropship"
@@ -1592,8 +1592,8 @@ ship "Dropship"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Dropships were designed with the Navy's Auxiliary in mind. Landed Auxiliaries often act as forward operating bases, so troops needing transport to another area often rely on their Dropships. This cramped and uncomfortable vessel is able to move a squad of Republic soldiers at great speed for its size."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "登陆舰的设计以海军的辅助舰为考量。已着陆的辅助舰常作为前沿作战基地，因此需要调往其他区域的部队往往依赖其登陆舰。这种狭窄而不舒适的飞船，能以与其体型相符的高速运送一个班的共和国士兵。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 
@@ -1644,8 +1644,8 @@ ship "Enforcer"
 	explode "tiny explosion" 8
 	explode "small explosion" 12
 	explode "medium explosion" 4
-	description `Prior to the formation of the galactic Republic, many star systems were owned by "governing corporate entities," with the vast majority of space being inaccessible to private citizens. The only exception to this rule were the pirate bands, whose few ships were often stolen or rebellious corporate fleets of their own, yet who had an outsized impact on interstellar trade. The necessity for corporations to protect their operations meant that Enforcer was one of the most common vessels used for security and defense. The ship boasts an armament of four gun ports and a turreted mount, all packed on a small but defensible frame that was powerful for its time.`
-	description `	Although no longer on the market, the Enforcer finds itself in the possession of a small number of merchants and, ironically, various groups of pirates, as an aging combat ship easily outperformed by other light warships or even interceptors of a similar size.`
+	description `在银河共和国成立之前，许多星系统治权属于“企业治理实体”，绝大部分太空区域对普通公民而言无法进入。唯一的例外是海盗团伙，他们仅有少数飞船，往往是自己偷来或从叛变的企业舰队所得，却对星际贸易产生了巨大影响。企业保护自身运营的必要性，使得“执法者”成为用于安保与防御的最常见舰船之一。该舰配备四门炮位和一个炮塔挂架，全部集成在虽小但可防御的船体上，在其时代堪称强大。`
+	description `	虽然执法者已不再市售，但仍有一小部分商人与——讽刺的是——各类海盗团体持有它。作为一艘老化的战斗舰，它在性能上已被其他轻型战舰乃至同尺寸的截击机轻易超越。`
 
 
 
@@ -1711,12 +1711,12 @@ ship "Falcon"
 	explode "medium explosion" 60
 	explode "large explosion" 40
 	"final explode" "final explosion medium"
-	description "The Tarazed Falcon is one of the most powerful warships that civilians can buy, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
+	description "河鼓三猎鹰是平民可以购买的最强大的战舰之一，它是古老且略显过时的利维坦的一种造型更为流畅、机动性更优的替代选择。"
 
 
 
 ship "Finch"
-	plural "Finches"
+	plural "燕雀级"
 	sprite "ship/finch"
 	thumbnail "thumbnail/finch"
 	"administrative cost" 0
@@ -1759,8 +1759,8 @@ ship "Finch"
 	leak "flame" 60 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "When the Free Worlds started requesting a Carrier solution from its local shipyards, Tarazed Shipyards quickly saw that a few modifications could make their entry level interceptor into a top tier fighter. Over 85% of the parts that make up the Finch are shared with the Sparrow assembly line, so it's no surprise that even trimmed down to (barely) fit into a fighter bay, the blindingly fast Finch bears strong resemblance to its hyperspace-faring cousin."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "当自由世界开始向其本土船厂需求航母解决方案时，河鼓三造船厂迅速意识到，对其入门级拦截机稍加改装，便可升级为一流战斗机。“燕雀”级有超过85%的部件与“麻雀”级共用同一生产线，因此毫不意外，即便为了（勉强）塞进机库而大幅削减尺寸，这艘快得令人目眩的“燕雀”级依然与其能进行超空间航行的表亲极为相似。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 
@@ -1820,7 +1820,7 @@ ship "Firebird"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Betelgeuse Shipyards Firebird is a warship with a long and storied past; Firebirds fought on both sides of the Alpha Wars over half a millennium ago, and although the equipment and systems have been upgraded continuously since then, the basic design remains almost the same. The Firebird is also a very rugged ship and easy to repair; supposedly a few of the Firebirds that fought in those wars are still in service today."
+	description "参宿四造船厂生产的火鸟是一艘拥有悠久而传奇历史的战舰；五百多年前，火鸟曾在阿尔法战争双方服役，尽管自那时起设备和系统不断升级，但其基本设计几乎未变。火鸟也是一艘极其坚固的飞船，易于修理；据说当年参战的少数火鸟至今仍在服役。"
 
 
 
@@ -1867,7 +1867,7 @@ ship "Flivver"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description "With space for neither cargo nor passengers nor heavy weaponry, the Flivver's only selling point is speed. Flivvers are sold mostly to wealthy individuals who want to be able to travel the stars without needing to share a bunk room on a merchant transport with common people."
+	description "既不设货舱，也不设客舱，更无法搭载重型武器，小破船唯一的卖点便是速度。小破船主要出售给那些富有的个人，他们希望能在星际间旅行，而不必与普通人挤在商人运输船的宿舍舱里。"
 
 
 
@@ -1919,8 +1919,8 @@ ship "Freighter"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description "The Freighter is designed by the Syndicate to be an efficient means of carrying cargo from system to system, but is so slow and difficult to land that most pilots hate flying them."
-	description "	Freighters are an obvious target for pirates, but turn much too slowly to be able to bring any forward-facing guns to bear on an approaching enemy. As a result, the latest model of freighter is equipped only with turrets, including an anti-missile turret to prevent attackers from simply bombarding them into submission from a safe distance."
+	description "这款货船由辛迪加设计，旨在高效地在不同星系间运输货物；但其速度缓慢、着陆困难，令大多数飞行员避之不及。"
+	description "	货船是海盗的明显目标，但转向过于缓慢，无法将任何前置火炮对准接近的敌人。因此，最新型号的货船仅配备炮塔，包括一座反导弹炮塔，以防止攻击者仅仅从安全距离轰炸使其屈服。"
 
 
 
@@ -1987,12 +1987,12 @@ ship "Frigate"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "For centuries, the Frigate was the largest warship produced by the Republic Navy Yard, but now they seem quite small compared to a Cruiser or a Carrier. Armed with a variety of weapons, the Frigate is equally capable at fending off small fighters or bombarding larger ships. In its time it possessed relatively good maneuverability for a ship of its size, but now it sees continued use mostly due to the sheer number of them already built for service."
+	description "数个世纪以来，护卫舰一直是共和国海军船坞建造的最大型战舰，但如今与巡洋舰或航母相比，它们显得相当小巧。护卫舰配备了多种武器，既能有效抵御小型战斗机，也能轰击大型舰船。在其时代，就体型而言它拥有相对良好的机动性，但如今它持续服役的主要原因是已建造的数量极为庞大。"
 
 
 
 ship "Fury"
-	plural "Furies"
+	plural "狂怒"
 	sprite "ship/fury"
 	thumbnail "thumbnail/fury"
 	"administrative cost" 1
@@ -2041,7 +2041,7 @@ ship "Fury"
 	leak "flame" 50 80
 	explode "tiny explosion" 10
 	explode "small explosion" 20
-	description "The Fury is Southbound Shipyards' most popular design of escort ship. They have greater firepower than any other interceptor-class vessel, meaning that any pirate flying solo will think twice before attacking a convoy that is accompanied by a Fury. However, Furies are also much less maneuverable than other small ships."
+	description "狂怒是南方造船厂最受欢迎的护卫舰设计。它们的火力超过任何其他截击机级飞船，这意味着任何单独行动的海盗在攻击有狂怒护航的船队之前都会三思。然而，狂怒的机动性也比其他小型飞船差得多。"
 
 
 
@@ -2099,7 +2099,7 @@ ship "Gunboat"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."
+	description "海军炮艇专为短程交战设计，同时也是海军的移动传感器平台，用于扫描舰船以查获非法装备或货物。"
 
 
 
@@ -2159,7 +2159,7 @@ ship "Hauler"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
-	description "Several centuries ago, in the early days of the Republic, the sudden increase in commerce and space travel led to high demand for cargo ships. Haulers were first created simply by bolting a cockpit and engine block onto a cargo container, and the basic design has not changed much since then."
+	description "几个世纪前，共和国早期，商业与太空旅行的突然增长导致对货运飞船的需求激增。运输者最初仅仅是通过将驾驶舱和引擎组铆接到一个货柜上制造出来的，自那以后其基本设计就没有太大变化。"
 
 
 
@@ -2221,7 +2221,7 @@ ship "Hauler II"
 	explode "medium explosion" 30
 	explode "large explosion" 15
 	"final explode" "final explosion medium"
-	description "This is a mid-sized freighter, designed for a balance between cargo capacity and defensive capability. Centuries ago, various Hauler models made up nearly half of the merchant vessels in service, but today the design is considered somewhat outdated."
+	description "这是一艘中型货船，在设计上兼顾了货运能力与防御性能。数百年前，各种型号的运输者级飞船曾占据现役商船近半壁江山，但如今这一设计已略显过时。"
 
 
 
@@ -2283,7 +2283,7 @@ ship "Hauler III"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description "Considered by many to be outdated, there are nonetheless many Haulers still in service due to their combination of comparatively low price and simple construction. This large version of the Hauler provides the best tradeoff between price and cargo space."
+	description "许多人认为它已经过时，但仍有大量运输者在使用，因为它们价格相对低廉且结构简单。这款大型运输者在价格和货舱空间之间提供了最佳平衡。"
 
 
 
@@ -2332,7 +2332,7 @@ ship "Hawk"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "The Tarazed Hawk is an interceptor-class warship often used as an escort for freighters or in a planetary militia's patrol squadron. Hawks are fast enough to chase down most smaller ships, but are capable of mounting much more powerful weapons. They are also, of course, a favorite ship of pirate captains who have earned enough money to afford one."
+	description "河鼓三•鹰是一艘截击舰级战舰，常被用作货船的护卫，或编入行星民兵的巡逻中队。鹰级拥有足以追捕大多数小型舰船的速度，同时能够搭载火力强大的武器。自然，它也是那些积攒够钱的海盗船长的最爱。"
 
 
 
@@ -2386,7 +2386,7 @@ ship "Headhunter"
 	explode "small explosion" 25
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Headhunter is one of the newest ships designed by Lionheart: a versatile ship that can serve equally well for carrying cargo or for bounty hunting. As with many of Lionheart's designs, the hull is mostly composite fiber rather than metal, sacrificing armor strength for the sake of lighter weight and faster movement."
+	description "猎头者是狮心公司设计的最新飞船之一：一种多用途飞船，既能胜任货物运输，也能用于赏金狩猎。与狮心的许多设计一样，其船体主要采用复合纤维而非金属，牺牲装甲强度以换取更轻的重量和更快的机动性。"
 
 
 
@@ -2430,7 +2430,7 @@ ship "Heavy Shuttle"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "The Heavy Shuttle is an updated shuttle model from Betelgeuse Shipyards, attempting to improve on their perennial classic by offering slightly better cargo and passenger capacity, at the expense of some speed and maneuverability."
+	description "重型穿梭机是参宿四造船厂推出的升级版穿梭机型，试图在其经久不衰的经典型号基础上稍作提升，提高货运与客运容量，代价是牺牲部分速度和机动性。"
 
 
 
@@ -2487,8 +2487,8 @@ ship "Hogshead"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `First manufactured by a forgotten shipyard many centuries ago, the Hogshead got its iconic name from the keg-like shape of its engine pods; its design was a hot topic of discussion for captains everywhere. The ship quickly became popular after first being released for consumer purchase and was commonly seen around various systems as the go-to "space bus" in human space.`
-	description `	Unfortunately, only a few decades after introducing the ship, the shipyard went bankrupt and was never heard from again, leaving the Hogshead to history as their one-hit-wonder. In the current era, Hogsheads are much less common; they are considered "unsightly" compared to modern vessels such as the Star Queen, though a few places in human space still sell them.`
+	description `大酒桶飞船最初由数百年前一个已被遗忘的船厂制造，因其引擎舱呈桶状而得名；其设计曾是各地船长热议的话题。该飞船在首次面向消费者发售后迅速流行起来，在人类空间各个星系中常被视作首选“太空巴士”。`
+	description `	不幸的是，在推出该飞船仅几十年后，造船厂就破产了，从此再无音讯，大酒桶 便作为其昙花一现的作品载入史册。在当前时代，大酒桶 已相当罕见；与诸如 星后 等现代飞船相比，它们被认为“其貌不扬”，不过人类空间中仍有少数地方在出售它们。`
 
 
 
@@ -2538,7 +2538,7 @@ ship "Jackal"
 	explode "tiny explosion" 10
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description `The Jackal is notable for being one of the earliest warships that was designed with "freelancer" pilots in mind, rather than for corporate or law enforcement use. In its heyday, the Jackal contended with the Berserker for the title of the most popular Interceptor-class ship in human space. However, the Jackal's age and inflexibility regarding new developments in weaponry led to a decline in sales that eventually saw its manufacturer absorbed by the shipyard of its age-old rival, the Betelgeuse Shipyards Berserker.`
+	description `豺狼级以其作为最早一批专为“自由飞行员”而非企业或执法用途设计的战舰而著称。在其鼎盛时期，豺狼级与狂战士级争夺人类空间中最受欢迎的截击机级飞船称号。然而，豺狼级年代已久，且无法灵活适配新型武器装备，导致销量下滑，最终其制造商被宿敌——制造了狂战士级的参宿四造船厂所吞并。`
 
 
 
@@ -2584,8 +2584,8 @@ ship "Lance"
 	gun 13.5 -6.5 "Sidewinder Missile Pod"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The Lance is the primary fighter used by the Republic Navy. As with all fighters, it is weak by itself but very effective as part of a larger squadron."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "长矛 是共和国海军主要使用的战斗机。与所有战斗机一样，它单独作战时较弱，但作为更大中队的一部分时非常有效。"
+	description "	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。"
 
 
 
@@ -2646,7 +2646,7 @@ ship "Leviathan"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion large"
-	description "The Betelgeuse Shipyards Leviathan has been in service since long before the Republic existed. Although considered today to be an outdated and clunky model, it is still a force to be reckoned with."
+	description "参宿四造船厂的利维坦级飞船在共和国成立之前很久就已投入使用。尽管如今它被视为一款过时且笨重的型号，但依然是一股不可小觑的力量。"
 
 
 
@@ -2720,7 +2720,7 @@ ship "Mammoth"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This is a rare, extensively modified Behemoth used by some pirates and smugglers to transport large amounts of goods to systems both near and far. It is armed well enough to handle even a Navy Frigate if caught and fast enough to dash away from anything bigger."
+	description "这是一艘极为稀有的、经过大幅改装的 巨兽 级飞船，被部分海盗与走私者用以将大量货物运往远近各星系。其武装足以对付一艘海军护卫舰，而速度则足以甩开任何更大的对手。"
 
 
 
@@ -2777,7 +2777,7 @@ ship "Manta"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "After their Quicksilver light warship with its armament of Particle Cannons became a large success with convoy escorts and planetary defense forces, Megaparsec decided to develop a larger ship with similar maneuverability but heavier firepower. The Manta is the result: a ship with enough long-range firepower that fleeing from a battle with it is almost impossible."
+	description "在水银星轻型战舰凭借粒子炮武装在护航队和行星防御部队中获得巨大成功后，兆秒差距公司决定开发一款机动性相似但火力更强的大型飞船。这便是‘蝠鲼’号：一艘拥有强大远程火力的飞船，让对手几乎无法从与它的战斗中逃脱。"
 
 
 
@@ -2813,13 +2813,13 @@ ship "Mining Drone"
 	engine 0 22 0.9
 	gun 0 -22
 	explode "tiny explosion" 10
-	description "The semi-autonomous Mining Drone is used by the Syndicate alongside the Sunder mining vessel in a supportive role. Not being much more than a Mining Laser with an engine stuck to the rear of it, these drones do not last long in combat with other ships due to how fragile they are."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "半自主的采矿无人机被辛迪加用作“撕裂者”采矿船的支援角色。它基本就是采矿激光后面装了个引擎，由于非常脆弱，这些无人机与其他飞船交战时坚持不了多久。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 
 ship "Modified Argosy"
-	plural "Modified Argosies"
+	plural "改装大商船"
 	sprite "ship/modified argosy"
 	thumbnail "thumbnail/modified argosy"
 	"administrative cost" 2
@@ -2878,7 +2878,7 @@ ship "Modified Argosy"
 	explode "medium explosion" 30
 	explode "large explosion" 15
 	"final explode" "final explosion medium"
-	description "The Argosy has long been a favorite ship for pirates, who have come up with many tricks for modifying them to be more suitable as warships."
+	description "大商船 长期以来一直是海盗钟爱的飞船，他们想出了许多改装技巧，使其更适合作为战舰使用。"
 
 
 
@@ -2938,8 +2938,8 @@ ship "Monitor"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
-	description `When the Republic first formed, planetary governments and corporations often fielded their own fleets; only the Deep had any form of a combined navy. Earth often found itself inefficiently directing those fleets to fight against pirates or defiant worlds. With a need to bring "peace among the stars," per the Republic motto, the newly formed Republic Navy commissioned the shipyards on Luna to design a robust warship that would be able to project the power of a united Republic. The resulting ship, the Monitor, served as the mainstay of the Navy fleets until the introduction of the more advanced Frigate.`
-	description `The few Monitors that still fly today are remnants of those sold by the Navy to the government of Betelgeuse, before they joined the Republic. Of the Monitors that made it into private hands, some eventually found themselves passing through the black markets of the Far North.`
+	description `共和国初建之时，行星政府与企业时常各自拥有舰队；唯有星渊星存在某种形式的联合海军。地球往往无力高效指挥这些舰队去对抗海盗或反叛世界。为贯彻共和国“星际和平”的格言，新成立的共和国海军委托月球的船坞设计一款坚固的战舰，以彰显联合共和国的力量。由此诞生的“监视者”成为了海军舰队的中坚力量，直至更先进的护卫舰问世。`
+	description `如今仍在飞行的少数“监视者”级飞船，是当年参宿四加入共和国之前，海军出售给参宿四政府的遗存。在这些落入私人手中的“监视者”级中，有一些最终流入了极北地区的黑市。`
 
 
 
@@ -3004,7 +3004,7 @@ ship "Mule"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description "The Mule is as much of a hodgepodge as its looks suggest. The Lionheart ship designers combined a good deal of cargo space with a decent amount of weaponry and even a fighter bay, and ended up with a ship that is mostly used as a freighter but can also be used as a warship because of its heavy armament and shields. This hodgepodge nature has its downside, though, namely its high crew requirement and the fact that any dedicated ship of the same cost will do better in a specialized role than the Mule will."
+	description "骡子的外观如其本质一样是个大杂烩。狮心公司的设计师将大量货舱空间、可观的武器配置、甚至一个战机舱全部塞进同一艘船体，最终造就了一艘主要用作货船、却也能凭借重型武备与护盾充当战舰的多面手。这种大杂烩特性也有其缺点：船员需求高昂，而且任何一艘同等价位的专用船在特定任务中都能比骡子做得更好。"
 
 
 
@@ -3068,7 +3068,7 @@ ship "Nest"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
-	description `Southbound Shipyards quickly answered the Free Worlds' call for a carrier by building modified cargo containers for Haulers - adding a pair of Fighter docking arms, some additional outfit space, and even a couple of bunks. Access to the fighters from within the ship is so inconvenient that most pilots opt to just stay aboard their fighters when in flight. While the technical name for this ship is "Hauler I: Type F," Southbound assembly workers started calling the single container variant the "Nest" due to its complement of Finch Fighters, and the name stuck.`
+	description `南行造船厂迅速响应自由世界对航母的号召，为运输者级建造了改装货柜——加装了一对战斗机对接臂、额外装备空间，甚至还有几张铺位。从船内进入战斗机非常不便，因此大多数飞行员在飞行时选择直接留在座机内。尽管这艘船的技术名称为“运输者I型F”，但南行的装配工人因它搭载的是燕雀级战斗机，开始称单货柜型号为“巢穴”，这个名称便流传开来。`
 
 
 
@@ -3128,7 +3128,7 @@ ship "Nighthawk"
 	explode "medium explosion" 15
 	explode "large explosion" 2
 	"final explode" "final explosion small"
-	description "The Nighthawk is the result of modifications to increase a Blackbird's passenger capacity for transportation of both lawless individuals and slavery, sacrificing much of the original cargo space. Additionally, at the cost of some shield strength, hull conversions have given the ship a bit more armor plating, along with another turret mount. This gives Nighthawks a bit more defense for combat situations that a Blackbird would not want to find itself in."
+	description "夜鹰是对黑鸟进行改造的产物，旨在增加非法人员运送和奴隶贸易的载客量，为此牺牲了大部分原始货舱空间。此外，在牺牲部分护盾强度的代价下，船体改造为飞船增加了一定装甲板，并增设了一个炮塔座。这使得夜鹰在作战情况下拥有比黑鸟更优越的防御能力，而黑鸟本应避免卷入此类战斗。"
 
 
 
@@ -3190,7 +3190,7 @@ ship "Osprey"
 	explode "small explosion" 40
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
-	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+	description "“黑鸟”原本设计为运输船，却意外作为敏捷的轻型战舰大受欢迎，于是河鼓三决定专门设计一款新型战舰。“鱼鹰”便应运而生。尽管多数精明的飞行员认为其价格过高，但对于那些有闲钱的人来说，它始终是经久不衰的偏爱。"
 
 
 
@@ -3255,7 +3255,7 @@ ship "Protector"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion large"
-	description `Voted the "ugliest ship in the sky" by Stars and Starships Magazine, the Protector is a typical example of brutally efficient Syndicate engineering. It is basically nothing more than eight turrets attached to a set of engines and crew's quarters, designed as a defense platform that can accompany merchant convoys.`
+	description `被《星辰与星舰》杂志评为“星空最丑飞船”的“守护者”，是辛迪加粗暴高效工程学的典型代表。说白了，它不过是八座炮塔连接到一套引擎和船员舱室上，设计成可伴随商人船队的防御平台。`
 
 
 
@@ -3302,7 +3302,7 @@ ship "Quicksilver"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	"final explode" "final explosion small"
-	description "The Megaparsec Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two Particle Cannons. Because of its speed, reverse thrusters, and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. The focus on its weaponry left the Quicksilver with no room for even the most basic shield generator. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
+	description "麦格帕塞克水银星是一艘围绕单一概念设计的战舰：打造一艘能够搭载两门粒子炮的最小最快飞船。凭借其速度、反向推进器和较长的武器射程，水银星能与多数目标保持安全距离，并用粒子爆发轰击直至将其摧毁。对武备的侧重使得水银星没有空间安装最基本护盾发生器。不幸的是，猎头者最终超越了最初的设计意图，但水银星更好的耐久成本比以及长期合约的存在，使其仍在辛迪加安全部队中使用。"
 
 
 
@@ -3361,7 +3361,7 @@ ship "Rainmaker"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Rainmaker is a missile boat built in the Republic Navy Yard. It comes equipped with four missile launchers and enough ammunition to destroy even ships many times its size. Because of their lack of maneuverability and relatively light shielding, Rainmakers serve best as long-range attack ships, and once their missile supply is spent, they are relatively useless in combat."
+	description "“唤雨者”是一艘建造于共和国海军船坞的导弹艇。它配备了四具导弹发射器，以及足以摧毁多艘数倍于自身大小的飞船的弹药储备。由于其机动性不足且护盾相对薄弱，“唤雨者”最适合担任远程攻击舰，一旦导弹耗尽，其在战斗中的价值便相对有限。"
 
 
 
@@ -3419,7 +3419,7 @@ ship "Raven"
 	explode "tiny explosion" 28
 	explode "small explosion" 40
 	"final explode" "final explosion small"
-	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
+	description "狮心渡鸦是他们最受欢迎的战舰，一艘敏捷而优雅的飞船，却能造成并承受可观的伤害。渡鸦是赏金猎人的最爱，因为它们完全能对付海盗截击机，而且技术娴熟的驾驶员也能用它击落大得多的飞船。"
 
 
 
@@ -3488,7 +3488,7 @@ ship "Roost"
 	explode "medium explosion" 30
 	explode "large explosion" 15
 	"final explode" "final explosion medium"
-	description `Southbound Shipyards' new fighter-carrying containers have created a new use for what many considered an outdated design. Four external fighter bays make this the biggest civilian carrier on the market, if a little awkward as a warship. After Southbound assembly workers successfully named the "Nest," "Hauler II: Type F" was quickly dubbed the "Roost" to continue the theme.`
+	description `南远船坞的新型战机运载容器为许多人所认为的过时设计创造了新用途。四个外部战机挂架使其成为市场上最大的民用母舰，尽管作为战舰略显笨拙。在南远装配工人成功命名“巢穴”之后，“运输者 II：F型”很快被改称为“栖所”，以延续这一主题。`
 
 
 
@@ -3546,7 +3546,7 @@ ship "Saber"
 	explode "medium explosion" 28
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "During the caravan era, a boom of economic development spread along the paths of more heavily armed and technologically advanced merchant fleets originating from the Deep, which resulted in ships such as the Saber being developed. This medium warship was one of the powerhouses of military might in its time, armed to the teeth with five gun ports in the nose and a dorsal turret mount to fire at anything not in front of it. As pirates began to join together in larger war bands in response to the more heavily defended merchants, the Saber became popular amongst them as well. Unlike other ships such as the Firebird, it slowly faded out as competition rose, but it is nevertheless cherished by those who still own one."
+	description "在商队时代，经济发展热潮沿着源自星渊且装备更精良、技术更先进的商人舰队航线蔓延，由此催生了诸如军刀这样的飞船。这艘中型战舰曾是当时军事力量的佼佼者，武装到牙齿——舰首拥有五个炮位，背部还有一个炮塔基座，可以攻击前方以外的任何目标。随着海盗为了应对防御更强的商船而结成更大的战斗群，军刀在他们中间也流行起来。与火鸟等其他飞船不同，随着竞争加剧，军刀逐渐淡出，但那些仍拥有一艘的人对它依然珍视不已。"
 
 
 
@@ -3599,7 +3599,7 @@ ship "Scout"
 	leak "leak" 50 50
 	leak "flame" 60 80
 	"final explode" "final explosion small"
-	description "The Lionheart Scoutship was designed back in the days when the galaxy was more sparsely populated, and ships prospecting for habitable worlds or worlds rich in resources would often travel far away from any habitable ports where they would be able to refuel. Although the galaxy has now been much more thoroughly explored, the Scout remains a popular ship for long-distance travel."
+	description "狮心侦察舰的设计可追溯至星系人口较为稀疏的年代，当时寻找宜居或资源丰富的星球的飞船常常远离任何可补充燃料的港口。尽管如今星系已被更彻底地探索，侦察舰作为长途航行用船仍然广受欢迎。"
 
 
 
@@ -3643,7 +3643,7 @@ ship "Scrapper"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Rather than being a specific model of ship, the Scrappers are instead a family of vessels cobbled together from the remains of broken shuttles. On the rare occasion that Republic authorities bother to recognize their existence, Scrappers are treated as almost-illegal, patent-infringing death traps. Despite this, these ships are where many captains (and pirates) from poorer backgrounds get their start."
+	description "“拆解者”并非某种特定型号的飞船，而是一类用破损穿梭机残骸拼凑而成的船族。在共和国当局难得理会其存在时，它们被视作近乎非法、侵犯专利的死亡陷阱。尽管如此，许多出身贫寒的船长与海盗正是从这些飞船起步的。"
 
 
 
@@ -3689,8 +3689,8 @@ ship "Shuttle"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
-	description "Although Betelgeuse Shipyards produces other ship models as well, the majority of their profits come from sales of the Shuttle. This versatile ship serves equally well as a passenger transport or a cargo courier. It also happens to be the cheapest ship you can buy which is capable of hyperspace travel."
-	description `	Shuttles are not designed to withstand combat of any sort, but they are fast and maneuverable enough to get out of harm's way if attacked by a larger, slower ship. Although they are typically unarmed, they have enough space for one weapon, which is the origin of the popular phrase, "as useless as a blaster cannon on a shuttlecraft."`
+	description "虽然参宿四造船厂也生产其他型号的飞船，但其大部分利润来自穿梭机的销售。这款多用途飞船既可作客运交通工具，也可作货运快递员。它同时也是你能买到的最便宜的具备超空间航行能力的飞船。"
+	description `	穿梭机并非为承受任何形式的战斗而设计，但其速度快、机动性高，足以在遭受更大、更慢的飞船袭击时逃离危险。尽管通常不配备武器，它们仍有空间容纳一件武器——这便催生了“像穿梭机上的爆破加农炮一样没用”这句广为流传的俗语。`
 
 
 
@@ -3767,7 +3767,7 @@ ship "Skein"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `This particular cockpit and engine set has found itself attached to three of Southbound Shipyards' new "Type F" Fighter-carrier pods. When the Free Worlds asked for a carrier, they did not expect one that would be able to carry almost as many fighters as the heaviest Navy warships. Given this fact, the Free Worlds have asked Southbound and Tarazed to restrict sale of the "Hauler III: Type F," "Skein" to its Militia only.`
+	description `这个独特的驾驶舱与引擎组被安装到了南行船厂的三座新型“F型”战斗机-母舰吊舱上。当自由世界请求一艘母舰时，他们并未预料到会有一种能搭载几乎与海军最重型战舰同等数量战斗机的母舰。鉴于此，自由世界已要求南行船厂和河鼓三将“运输者 III：F型”、“雁阵”的销售仅限其民兵。`
 
 
 
@@ -3815,8 +3815,8 @@ ship "Sparrow"
 	leak "flame" 60 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Classified as an interceptor rather than a fighter because it has its own hyperdrive instead of needing to be carried inside a larger ship, the Tarazed Sparrow is the smallest and cheapest combat ship available. Because of its limited cargo and passenger space, the primary way for a Sparrow pilot to pay the bills is to upgrade the weapons and hunt pirates... or become one. In either case, it is a perilous way to earn a living."
-	description "	Government reports indicate that as many as two out of every three first-time ship buyers who choose to pilot a Sparrow lose their ship (and often, their life as well) within the first month of owning it. Pilots who have survived longer than that tend to swear by replacing the stock weapons with missile launchers."
+	description "河鼓三麻雀并非战斗机而是截击机，因为它自身搭载了超光速引擎，无需依赖大型飞船携带。它是市面上最小、最便宜的作战飞船。由于货运和载客空间极其有限，驾驶麻雀的飞行员想要维持生计，主要途径就是升级武器去猎杀海盗……或者沦为海盗。无论选择哪条路，都是艰险的谋生之道。"
+	description "	政府报告指出，每三位首次购船并选择驾驶“麻雀”级飞船的船主中，有多达两位会在购船后一个月内失去自己的飞船（并且往往连性命也一并丢掉）。那些存活时间更长的飞行员则往往深信应将原装武器替换为导弹发射器。"
 
 
 
@@ -3875,7 +3875,7 @@ ship "Splinter"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Splinter is the largest warship produced by the Megaparsec shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
+	description "“裂片”级是兆秒差距船厂生产的最大型战舰。其设计旨在比同尺寸舰船更快、更灵活，以充当重型护卫舰，或作为行星防御与巡逻舰队的一员。由于计划用于商船护航，它也拥有相当可观的货舱空间。"
 
 
 
@@ -3920,8 +3920,8 @@ ship "Star Barge"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description "The Syndicate CT-50 Star Barge is little more than a cluster of cargo containers with an engine at one end and a cockpit on the other. It is a slow and ugly ship, but it can carry enough cargo to earn its captain a steady income even in parts of the galaxy where it is hard to find passengers to carry or courier missions."
-	description "	Because they often carry valuable cargo, and because they are too slow to evade any attackers, Star Barges are a common target of pirates."
+	description "辛迪加 CT-50 星舟本质上只是一堆货柜，一头装引擎，另一头装驾驶舱。这艘船既慢又丑，但在那些难以找到乘客或快递任务的星系角落，它依然能装载足够的货物，为船长带来稳定的收入。"
+	description "	星舟常运送贵重货物，且航速过慢无法逃脱任何攻击者，因此成为海盗常见的袭击目标。"
 
 
 
@@ -3983,8 +3983,8 @@ ship "Star Queen"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Star Queen is a relic of a more peaceful period of galactic history: a luxury liner for high-end tourists. Every cabin has its own mini-bar, and the bathrooms have marble tile and showers that use actual hot water instead of chemicals or sonic vibrations."
-	description "	In support of environmental movements across the galaxy, all Star Queens come standard with an array of solar panels as their only source of energy as opposed to more popular power generators such as fuel cells or nuclear reactors that produce some amount of waste. Although some argue that this is a pointless move given the prevalence of clean fusion reactors, others have applauded it and cited the prohibitive costs of fusion reactors as a reason for using solar panels."
+	description "星后是银河历史上一个更和平时期的遗物：一艘面向高端游客的豪华客轮。每个客舱都配备独立迷你吧，浴室铺有大理石瓷砖，淋浴使用真正的热水而非化学药剂或声波振动。"
+	description "	为了支持整个银河系的环境保护运动，所有星后级飞船都标配了一系列太阳能电池板作为其唯一的能量来源，而非采用更流行的如燃料电池或核反应堆等会产生废物的发电设备。尽管有人指出，在清洁聚变反应堆已然普及的今天，这一举措毫无意义，但另一些人则对此表示赞赏，并认为聚变反应堆成本过于高昂，因此使用太阳能电池板是合理的选择。"
 
 
 
@@ -4043,7 +4043,7 @@ ship "Sunder"
 	explode "small explosion" 15
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Sunder is a versatile mining platform equipped with dedicated prospecting equipment, most notably an undercarriage that supports two Mining Drones. The lineage of this ship can be traced back to the old asteroid mining ships used in the Sol Main Belt centuries ago; however, because of recent Syndicate efforts to further exploit the Core's mineral wealth, the newest model of the Sunder is now manufactured by Syndicated Shipyards."
+	description "「撕裂者」是一款多功能采矿平台，配备专用的勘探设备，最显著的特征是底盘可搭载两架采矿无人机。该船的血统可追溯至数个世纪前太阳主小行星带使用的旧式小行星采矿船；然而，由于近期辛迪加加大力度开发核心星区矿产资源的努力，最新型号的「撕裂者」现由辛迪加船厂制造。"
 
 
 
@@ -4080,8 +4080,8 @@ ship "Surveillance Drone"
 	engine -3 29
 	engine 3 29
 	explode "tiny explosion" 15
-	description "Surveillance drones are unarmed drones used by the Republic navy to scan ships and planets in a star system."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "侦察无人机是共和国海军使用的无武装无人机，用于扫描星系内的飞船与行星。"
+	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 
 
@@ -4145,7 +4145,7 @@ ship "Valkyrie"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "Valkyries are modified Aeries that convert two of their bays and bunk space into more cargo space for smuggling goods, as well as more room to boast two extra gun mounts and increased armor protection. This allows Valkyries to both take and put out noticeable amounts of damage, however, due to the extra weight, they are somewhat slower and lose a bit of shield efficiency."
+	description "女武神级是埃里斯级的改装型号，将其中的两个舱室和铺位空间转换为更多的货舱空间用于走私货物，同时增加了额外的两座炮塔安装位和更强的装甲防护。这使得女武神级既能承受也能造成可观的伤害，但由于额外重量，其速度有所下降，护盾效率也有所降低。"
 
 
 
@@ -4211,7 +4211,7 @@ ship "Vanguard"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Vanguard is Syndicated Systems' newest warship intended for the heavy anti-pirate defense market. Vanguards offer an unusual feature set, focusing on powerful fixed guns and featuring Syndicated Systems' latest automation technologies, resulting in an atypically low crew complement for a ship its size. Few capital ships will endure for long under the withering fusillade of gunfire that it can unleash against those in front of it.`
+	description `先锋级是辛迪加系统最新型战舰，专为重型反海盗防御市场而设计。先锋级具备独特的功能组合，侧重于强大的固定火炮，并采用辛迪加系统最新的自动化技术，使得与其同尺寸舰船相比，其船员编制异常精简。在它向正前方倾泻的猛烈弹幕面前，少有主力舰能够长久支撑。`
 
 
 
@@ -4263,4 +4263,4 @@ ship "Wasp"
 	leak "leak" 60 50
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "The Wasp is a medium-strength interceptor, designed by Syndicated Shipyards to serve as an escort for cargo vessels. Like most Syndicate ships, it is not particularly pretty, but it at least serves the purpose it was made for."
+	description "黄蜂是一种中等强度的拦截舰，由辛迪加造船厂设计，用于为货船护航。与大多数辛迪加飞船一样，它并不特别美观，但至少能胜任其设计目的。"

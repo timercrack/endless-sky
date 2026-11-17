@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Human Vacation [1]"
-	name "Human vacationer to <planet>"
+	name "人类度假者前往<planet>"
 	job
 	repeat
-	description "This human wants to vacation on the Hai world of <destination>, and will pay you <payment>."
+	description "这个人类想去<destination>的亥族世界度假，并会付给你<payment>。"
 	passengers 1
 	to offer
 		random < 50
@@ -36,10 +36,10 @@ mission "Human Vacation [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Human Vacation [2]"
-	name "Human vacationers to <planet>"
+	name "人类度假者前往<planet>"
 	job
 	repeat
-	description "These <bunks> humans want to vacation on the Hai world of <destination>, and will pay you <payment>."
+	description "这<bunks>名人类想在亥族世界<destination>度假，他们会付给你<payment>。"
 	passengers 2 12 .8
 	to offer
 		random < 20
@@ -60,10 +60,10 @@ mission "Human Vacation [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Vacation [1]"
-	name "Hai vacationer to <planet>"
+	name "前往<planet>的亥族度假者"
 	job
 	repeat
-	description "This Hai wants to vacation on the strange Hai world of <destination>, and will pay you <payment>."
+	description "这个亥族人想去奇怪的亥族世界<destination>度假，并会付给你<payment>。"
 	passengers 1
 	to offer
 		random < 70
@@ -85,10 +85,10 @@ mission "Hai Vacation [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Vacation [2]"
-	name "Hai vacationers to <planet>"
+	name "前往<planet>的亥族度假者"
 	job
 	repeat
-	description "These <bunks> Hai want to vacation on the strange Hai world of <destination>, and will pay you <payment>."
+	description "这<bunks>名亥族人想去奇怪的亥族世界<destination>度假，并会付给你<payment>。"
 	passengers 2 12 .8
 	to offer
 		random < 50
@@ -110,10 +110,10 @@ mission "Hai Vacation [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Vacation [3]"
-	name "Hai vacationers to <planet>"
+	name "前往<planet>的亥族度假者"
 	job
 	repeat
-	description "These <bunks> Hai want to vacation on the strange Hai world of <destination>, and will pay you <payment>."
+	description "这<bunks>名亥族人想去奇怪的亥族世界<destination>度假，并会付给你<payment>。"
 	passengers 2 12 .8
 	to offer
 		random < 30
@@ -135,10 +135,10 @@ mission "Hai Vacation [3]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Vacation [4]"
-	name "Hai vacationers to <planet>"
+	name "前往<planet>的亥族度假者"
 	job
 	repeat
-	description "These <bunks> Hai want to vacation on the strange Hai world of <destination>, and will pay you <payment>."
+	description "这<bunks>名亥族人想去奇怪的亥族世界<destination>度假，并会付给你<payment>。"
 	passengers 2 12 .8
 	to offer
 		random < 20
@@ -162,10 +162,10 @@ mission "Hai Vacation [4]"
 
 
 mission "Wealthy Hai [1]"
-	name "Wealthy Hai to <planet>"
+	name "亥族富豪前往<planet>"
 	job
 	repeat
-	description "This wealthy family of <bunks> Hai will pay <payment> for a fast and comfortable journey to <planet> by <date>."
+	description "这户由<bunks>人组成的富裕亥族家庭愿意支付<payment>，以求在<date>前快速舒适地抵达<planet>。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -190,10 +190,10 @@ mission "Wealthy Hai [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Wealthy Hai [2]"
-	name "Wealthy Hai to <planet>"
+	name "亥族富豪前往<planet>"
 	job
 	repeat
-	description "This wealthy family of <bunks> Hai will pay <payment> for a fast and comfortable journey to <planet> by <date>."
+	description "这户由<bunks>人组成的富裕亥族家庭愿意支付<payment>，以求在<date>前快速舒适地抵达<planet>。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -220,13 +220,13 @@ mission "Wealthy Hai [2]"
 
 phrase "hai festival payment dialog"
 	word
-		`Luckily your <passengers> didn't cause too much trouble on the trip. After collecting their things, they pay you <payment> and make their way to the festival.`
+		`幸好你的<passengers>在旅途中没惹太多麻烦。他们收拾完东西后，付给你<payment>，然后前往节日现场。`
 
 mission "Hai Festival [1]"
-	name "Festival at <planet>"
+	name "<planet>的庆典"
 	job
 	repeat
-	description "For a month each year, the Hai have a huge holiday festival. This group of <bunks> Hai will pay you <payment> for you to transport them and their <tons> of supplies to <planet> by <date>."
+	description "每年有一个月，亥族都会举办盛大的节日庆典。这群<bunks>名亥族人将支付你<payment>，要求你在<date>前将他们及其<tons>吨的物资运往<planet>。"
 	deadline 0 2
 	passengers 10 20
 	cargo "party supplies" 1 2
@@ -258,10 +258,10 @@ mission "Hai Festival [1]"
 		dialog phrase "hai festival payment dialog"
 
 mission "Hai Festival [2]"
-	name "Festival at <planet>"
+	name "<planet>的庆典"
 	job
 	repeat
-	description "For a month each year, the Hai have a huge holiday festival. This group of <bunks> humans will pay you <payment> for you to transport them and their <tons> of supplies to <planet> by <date>."
+	description "每年有一个月，亥族都会举办盛大的节日庆典。这群<bunks>名人类将支付你<payment>，要求你在<date>之前将他们及其<tons>吨的物资运送至<planet>。"
 	deadline 0 2
 	passengers 10 20
 	cargo "party supplies" 1 2
@@ -293,10 +293,10 @@ mission "Hai Festival [2]"
 		dialog phrase "hai festival payment dialog"
 
 mission "Hai Festival [3]"
-	name "Festival at <planet>"
+	name "<planet>的庆典"
 	job
 	repeat
-	description "For a month each year, the Hai have a huge holiday festival. This group of <bunks> Hai and humans will pay you <payment> for you to transport them and their <tons> of supplies to <planet> by <date>."
+	description "每年有一个月，亥族都会举办盛大的节日庆典。这群共计<bunks>名的亥族和人类将支付你<payment>，要求你在<date>之前将他们及其<tons>吨的物资运送到<planet>。"
 	deadline 0 2
 	passengers 10 20
 	cargo "party supplies" 1 2
@@ -330,24 +330,24 @@ mission "Hai Festival [3]"
 
 phrase "unfettered aid payment dialog"
 	word
-		`You drop off the aid (or as they like to refer to it, "tribute") for the Unfettered, and receive <payment> from your contact on <origin>.`
+		`你将援助物资（或者他们喜欢称之为“贡品”）交付给无羁者，并从你在<origin>上的联系人处收到<payment>。`
 
 phrase "unfettered aid pickup dialog"
 	word
-		`The Hai dockworkers load the food for the Unfettered onto your ship. One of them says to you,`
-		`As the Hai load the food onto your ship, one of them says,`
+		`亥族码头工人把给无羁者的食物装上你的飞船，其中一人对你说：`
+		`当亥族码头工人把食物装上你的飞船时，其中一人说道：`
 	word
 		` `
 	word
-		`"Thank you. This is far better than watching our kinfolk starve."`
-		`"Tell our brothers and sisters that if they will only repent, they will be welcome to come home."`
+		`“谢谢你。这总比眼睁睁看着我们的同胞挨饿要强得多。”`
+		`“请转告我们的兄弟姐妹，只要他们愿意悔改，随时欢迎他们回家。”`
 
 mission "Unfettered Aid [0]"
-	name "Aid shipment to Unfettered"
+	name "援助无羁者"
 	job
 	repeat
-	clearance "After speaking with the Unfettered and explaining your presence, they give you permission to land with the cargo."
-	description "Deliver <tons> of food to the Unfettered on <destination>. You will be paid <payment>."
+	clearance "与无羁者交谈并说明来意后，他们准许你携货着陆。"
+	description "将<tons>吨食物运送至<destination>的无羁者处。你将获得<payment>报酬。"
 	cargo "food (aid)" 25 2 .05
 	to offer
 		random < 40
@@ -373,11 +373,11 @@ mission "Unfettered Aid [0]"
 		dialog phrase "unfettered aid payment dialog"
 
 mission "Unfettered Aid [1]"
-	name "Aid shipment to Unfettered"
+	name "援助无羁者"
 	job
 	repeat
-	clearance "After speaking with the Unfettered and explaining your presence, they give you permission to land with the cargo."
-	description "Deliver <tons> of food to the Unfettered on <destination>. You will be paid <payment>."
+	clearance "与无羁者交谈并说明来意后，他们准许你携货着陆。"
+	description "将<tons>吨食物运送至<destination>的无羁者处。你将获得<payment>报酬。"
 	cargo "food (aid)" 30 2 .05
 	to offer
 		random < 30
@@ -403,11 +403,11 @@ mission "Unfettered Aid [1]"
 		dialog phrase "unfettered aid payment dialog"
 
 mission "Unfettered Aid [2]"
-	name "Aid shipment to Unfettered"
+	name "援助无羁者"
 	job
 	repeat
-	clearance "After speaking with the Unfettered and explaining your presence, they give you permission to land with the cargo."
-	description "Deliver <tons> of food to the Unfettered on <destination>. You will be paid <payment>."
+	clearance "与无羁者交谈并说明来意后，他们准许你携货着陆。"
+	description "将<tons>吨食物运送至<destination>的无羁者处。你将获得<payment>报酬。"
 	cargo "food (aid)" 35 2 .05
 	to offer
 		random < 20
@@ -434,10 +434,10 @@ mission "Unfettered Aid [2]"
 
 
 mission "Delivery to Human Space [0]"
-	name "Special Delivery to <planet>"
+	name "特殊运送至<planet>"
 	job
 	repeat
-	description "This human wishes for <cargo> to be delivered to <destination> in human space. Payment is <payment>."
+	description "这位人类希望将<cargo>送往人类空间的<destination>。报酬为<payment>。"
 	cargo random 2 2 .29
 	to offer
 		random < 30
@@ -461,10 +461,10 @@ mission "Delivery to Human Space [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Delivery to Human Space [1]"
-	name "Special Delivery to <planet>"
+	name "特殊运送至<planet>"
 	job
 	repeat
-	description "This Hai wishes for <cargo> to be delivered to <destination> in human space. Payment is <payment>."
+	description "这位亥族希望将<cargo>运送至人类空间中的<destination>。报酬为<payment>。"
 	cargo random 2 2 .29
 	to offer
 		random < 25
@@ -486,10 +486,10 @@ mission "Delivery to Human Space [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Delivery to Human Space [2]"
-	name "Special Delivery to <planet>"
+	name "特殊运送至<planet>"
 	job
 	repeat
-	description "This human wishes for <cargo> to be delivered to <destination> in human space. Payment is <payment>."
+	description "这位人类希望将<cargo>送往人类空间的<destination>。报酬为<payment>。"
 	cargo random 2 2 .29
 	to offer
 		random < 20
@@ -513,10 +513,10 @@ mission "Delivery to Human Space [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Retrieve Human Luxury Goods"
-	name "Special order from <planet stopovers>"
+	name "来自<planet stopovers>的特殊订单"
 	job
 	repeat
-	description "A Hai socialite on <planet> wants to show off their knowledge of human culture to their peers. They want <cargo> from <stopovers> by <date>. Payment is <payment>."
+	description "一位在<planet>的亥族社会名流想在同伴面前炫耀他们对人类文化的了解。他们要求在<date>之前从<stopovers>取得<cargo>。报酬为<payment>。"
 	cargo "Luxury Goods" 2 2 .29
 	deadline 24
 	to offer
@@ -530,7 +530,7 @@ mission "Hai Retrieve Human Luxury Goods"
 	"distance calculation settings"
 		"only unrestricted wormholes"
 	on stopover
-		dialog "You gather the requested <commodity> and load them on your ship for return to <planet>."
+		dialog "你收集齐了所需的<commodity>并装上飞船，准备返回<planet>。"
 	on visit
 		dialog phrase "generic missing stopover or cargo"
 	on complete
@@ -540,13 +540,13 @@ mission "Hai Retrieve Human Luxury Goods"
 		"reputation: Hai Merchant" += 5
 		"reputation: Hai Merchant (Human)" += 5
 		"reputation: Hai Merchant (Sympathizers)" += 5
-		dialog "Your payment of <payment> is waiting when you touch down, along with delivery instructions. You send the <commodity> by dedicated courier."
+		dialog "当你降落时，你的<payment>报酬已经备好，随附的还有交货说明。你通过专人递送了<commodity>。"
 
 mission "Hai Retrieve Human Food"
-	name "Special order from <planet stopovers>"
+	name "来自<planet stopovers>的特殊订单"
 	job
 	repeat
-	description "A Hai gourmet on <planet> is bored with local fare and wants to try food they heard about from human tourists. They want <cargo> from <stopovers> by <date>. Payment is <payment>."
+	description "一位位于<planet>上的亥族美食家对当地菜肴感到厌倦，想尝试他们从人类游客那里听说的食物。他们要求在<date>之前从<stopovers>取得<cargo>。报酬为<payment>。"
 	cargo "Food" 2 2 .29
 	deadline 24
 	to offer
@@ -559,7 +559,7 @@ mission "Hai Retrieve Human Food"
 	"distance calculation settings"
 		"only unrestricted wormholes"
 	on stopover
-		dialog "You gather the requested <commodity> and load them on your ship for return to <planet>."
+		dialog "你收集齐了所需的<commodity>并装上飞船，准备返回<planet>。"
 	on visit
 		dialog phrase "generic missing stopover or cargo"
 	on complete
@@ -569,13 +569,13 @@ mission "Hai Retrieve Human Food"
 		"reputation: Hai Merchant" += 5
 		"reputation: Hai Merchant (Human)" += 5
 		"reputation: Hai Merchant (Sympathizers)" += 5
-		dialog "As soon as you touch down you receive a message from the Hai gourmet with thanks and your payment of <payment>."
+		dialog "你刚一降落就收到了那位亥族美食家的致谢信息，并收到了支付给你的<payment>报酬。"
 
 mission "Hai Retrieve Human Electronics"
-	name "Special order from <planet stopovers>"
+	name "来自<planet stopovers>的特殊订单"
 	job
 	repeat
-	description "A Hai tinkerer on <planet> wants to experiment with human technology. They want <cargo> from <stopovers> by <date>. Payment is <payment>."
+	description "一位在<planet>的亥族修补匠想要拿人类科技做实验。他们要求在<date>之前从<stopovers>取得<cargo>。报酬为<payment>。"
 	cargo "Electronics" 2 2 .29
 	deadline 24
 	to offer
@@ -588,7 +588,7 @@ mission "Hai Retrieve Human Electronics"
 	"distance calculation settings"
 		"only unrestricted wormholes"
 	on stopover
-		dialog "You gather the requested <commodity> and load them on your ship for return to <planet>."
+		dialog "你收集齐了所需的<commodity>并装上飞船，准备返回<planet>。"
 	on visit
 		dialog phrase "generic missing stopover or cargo"
 	on complete
@@ -598,13 +598,13 @@ mission "Hai Retrieve Human Electronics"
 		"reputation: Hai Merchant" += 5
 		"reputation: Hai Merchant (Human)" += 5
 		"reputation: Hai Merchant (Sympathizers)" += 5
-		dialog "The Hai tinkerer is waiting for you when you arrive. They pay you <payment> and then run after the cargo pallets as though they plan to open them right there in the spaceport."
+		dialog "当你抵达时，那位亥族修补匠已经等在那里。他们付给你<payment>，然后追着货物托盘跑去，仿佛打算当场在太空港里把它们拆开。"
 
 
 
 mission "Escort to Human Space (Small)"
-	name "Special Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> for an escort to reach <destination> in human space by <date>."
+	name "特殊护卫前往<planet>"
+	description "<npc>号的船长将支付你<payment>，要求在<date>前护送其抵达人类空间中的<destination>。"
 	repeat
 	job
 	deadline 15
@@ -651,8 +651,8 @@ mission "Escort to Human Space (Small)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort to Human Space (Medium)"
-	name "Special Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> for an escort to reach <destination> in human space by <date>."
+	name "特殊护卫前往<planet>"
+	description "<npc>号的船长将支付你<payment>，要求在<date>前护送其抵达人类空间中的<destination>。"
 	repeat
 	job
 	deadline 15
@@ -704,8 +704,8 @@ mission "Escort to Human Space (Medium)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort to Human Space (Large)"
-	name "Special Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> for an escort to reach <destination> in human space by <date>."
+	name "特殊护卫前往<planet>"
+	description "<npc>号的船长将支付你<payment>，要求在<date>前护送其抵达人类空间中的<destination>。"
 	repeat
 	job
 	deadline 15
@@ -752,8 +752,8 @@ mission "Escort to Human Space (Large)"
 		dialog phrase "generic arrived-without-npc dialog"
 
 mission "Escort to Human Space (Extra Large)"
-	name "Special Escort to <planet>"
-	description "The captain of the <npc> will pay you <payment> for an escort to reach <destination> in human space by <date>."
+	name "特殊护卫前往<planet>"
+	description "<npc>号的船长将支付你<payment>，要求在<date>前护送其抵达人类空间中的<destination>。"
 	repeat
 	job
 	deadline 15
@@ -808,10 +808,10 @@ mission "Escort to Human Space (Extra Large)"
 
 
 mission "Hai Passengers [1]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .7
 	to offer
 		random < 75
@@ -832,10 +832,10 @@ mission "Hai Passengers [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Passengers [2]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .7
 	to offer
 		random < 50
@@ -856,10 +856,10 @@ mission "Hai Passengers [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Passengers [3]"
-	name "Passenger transport to <planet>"
+	name "运送乘客至<planet>"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>送往<destination>。报酬为<payment>。"
 	passengers 1 10 .7
 	to offer
 		random < 25
@@ -880,10 +880,10 @@ mission "Hai Passengers [3]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Hai Family [0]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 60
@@ -905,13 +905,13 @@ mission "Hai Family [0]"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Hai Family [1]"
-	name "Transport family to <planet>"
+	name "运送家庭至<planet>"
 	job
 	repeat
-	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的家庭正搬迁至<destination>。他们将支付你<payment>带他们前往那里。"
 	passengers 2 4 .5
 	to offer
 		random < 40
@@ -933,12 +933,12 @@ mission "Hai Family [1]"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "The family you have been transporting departs your ship after paying you <payment>."
+		dialog "你运送的那户家庭在付给你<payment>后离开了飞船。"
 
 mission "Transport Hai miners to <planet>"
 	job
 	repeat
-	description "This family of <bunks> miners is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的矿工家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 3 3 .6
 	to offer
 		random < 40
@@ -959,12 +959,12 @@ mission "Transport Hai miners to <planet>"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "You wish the mining family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝愿这户矿工家庭在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport Hai farmers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> farmers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的农民家庭希望在<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 3 3 .6
 	to offer
 		random < 40
@@ -985,12 +985,12 @@ mission "Transport Hai farmers to <planet>"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "You wish the farm family the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝愿这户农民家庭在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport Hai mill workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> mill workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的磨坊工人家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 3 3 .6
 	to offer
 		random < 40
@@ -1011,12 +1011,12 @@ mission "Transport Hai mill workers to <planet>"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝工人们在<planet>上好运，并收下了<payment>的报酬。"
 
 mission "Transport Hai workers to <planet>"
 	job
 	repeat
-	description "This family of <bunks> factory workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+	description "这户由<bunks>人组成的工厂工人家庭希望到<destination>寻找工作，他们会支付你<payment>带他们前往那里。"
 	passengers 3 3 .6
 	to offer
 		random < 70
@@ -1037,15 +1037,15 @@ mission "Transport Hai workers to <planet>"
 		"reputation: Hai Merchant" += 2
 		"reputation: Hai Merchant (Human)" += 2
 		"reputation: Hai Merchant (Sympathizers)" += 2
-		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		dialog "你祝工人们在<planet>上好运，并收下了<payment>的报酬。"
 
 
 
 mission "Hai Cargo [0]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 8 4 .1
 	to offer
 		random < 90
@@ -1066,10 +1066,10 @@ mission "Hai Cargo [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Cargo [1]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 8 4 .1
 	to offer
 		random < 70
@@ -1090,10 +1090,10 @@ mission "Hai Cargo [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Cargo [2]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 8 4 .1
 	to offer
 		random < 60
@@ -1115,10 +1115,10 @@ mission "Hai Cargo [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Cargo [3]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 8 4 .1
 	to offer
 		random < 50
@@ -1141,10 +1141,10 @@ mission "Hai Cargo [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Cargo [4]"
-	name "Delivery to <planet>"
+	name "运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 8 4 .1
 	to offer
 		random < 40
@@ -1167,10 +1167,10 @@ mission "Hai Cargo [4]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Bulk Delivery [0]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 35 3 .05
 	to offer
 		random < 70
@@ -1191,10 +1191,10 @@ mission "Hai Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Bulk Delivery [1]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 35 3 .05
 	to offer
 		random < 60
@@ -1216,10 +1216,10 @@ mission "Hai Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Bulk Delivery [2]"
-	name "Bulk delivery to <planet>"
+	name "批量送货至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 35 3 .05
 	to offer
 		random < 50
@@ -1242,10 +1242,10 @@ mission "Hai Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Bulk Delivery [0]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 50 3 .02
 	to offer
 		random < 60
@@ -1268,10 +1268,10 @@ mission "Hai Large Bulk Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Bulk Delivery [1]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 50 3 .02
 	to offer
 		random < 50
@@ -1294,10 +1294,10 @@ mission "Hai Large Bulk Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Bulk Delivery [2]"
-	name "Large bulk delivery to <planet>"
+	name "大宗货物运送至<planet>"
 	job
 	repeat
-	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	description "将<cargo>运送到<destination>。报酬为<payment>。"
 	cargo random 50 3 .02
 	to offer
 		random < 40
@@ -1321,11 +1321,11 @@ mission "Hai Large Bulk Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Rush Delivery [0]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 8 3 .1
 	to offer
 		random < 70
@@ -1347,11 +1347,11 @@ mission "Hai Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Rush Delivery [1]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 8 3 .1
 	to offer
 		random < 60
@@ -1369,11 +1369,11 @@ mission "Hai Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Rush Delivery [2]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 8 3 .1
 	to offer
 		random < 50
@@ -1392,11 +1392,11 @@ mission "Hai Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Rush Delivery [3]"
-	name "Rush delivery to <planet>"
+	name "紧急运送至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 8 3 .1
 	to offer
 		random < 40
@@ -1415,11 +1415,11 @@ mission "Hai Rush Delivery [3]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Rush Delivery [0]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 30 8 .1
 	to offer
 		random < 80
@@ -1438,11 +1438,11 @@ mission "Hai Large Rush Delivery [0]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Rush Delivery [1]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 30 8 .1
 	to offer
 		random < 60
@@ -1461,11 +1461,11 @@ mission "Hai Large Rush Delivery [1]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Rush Delivery [2]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 30 8 .1
 	to offer
 		random < 40
@@ -1485,11 +1485,11 @@ mission "Hai Large Rush Delivery [2]"
 		dialog phrase "generic cargo delivery payment"
 
 mission "Hai Large Rush Delivery [3]"
-	name "Large rush delivery to <planet>"
+	name "大型急件速递至<planet>"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	description "在<date>之前将<cargo>送达至<destination>。报酬为<payment>。"
 	cargo random 30 8 .1
 	to offer
 		random < 30
@@ -1511,10 +1511,10 @@ mission "Hai Large Rush Delivery [3]"
 
 
 mission "Hai Prisoner Roleplay"
-	name `Hai "prison" cruise to <planet>`
+	name `亥族“监狱”游轮前往<planet>`
 	job
 	repeat
-	description "A group of Hai want to experience what it's like to be human criminals. Transport the <bunks> of them to <planet> in a brig. Payment is <payment>."
+	description "一群亥族人想体验成为人类罪犯的感觉。用禁闭室将他们中的<bunks>人运送至<planet>。报酬为<payment>。"
 	passengers 3 20
 	to offer
 		random < 5
@@ -1532,15 +1532,15 @@ mission "Hai Prisoner Roleplay"
 	on complete
 		payment 15000 150
 		"reputation: Hai" += 5
-		dialog "The Hai depart your ship chittering in excitement. One of them hands you your payment of <payment> before running to catch up with their friends."
+		dialog "亥族们兴奋地吱吱叫着离开了你的飞船。其中一人递给你<payment>报酬，然后跑去追赶同伴。"
 
 
 
 mission "Swiftsong Business Convention [1]"
 	job
 	repeat
-	name "<planet> business convention"
-	description "A group of <bunks> Hai who need to get to a business convention will pay you <payment> in exchange for transporting them and their <tons> of supplies to <planet>."
+	name "<planet>商务大会"
+	description "一群（共<bunks>名）需要前往商务大会的亥族愿意支付你<payment>，以换取你将他们以及<tons>吨物资运送至<planet>。"
 	passengers 4 2 .1
 	cargo "office supplies" 1 2
 	to offer
@@ -1554,15 +1554,15 @@ mission "Swiftsong Business Convention [1]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `During the trip, your passengers appeared to be practicing a presentation for the convention. You sense a tinge of nervousness as they give you <payment> and leave your ship.`
+		dialog `旅途中，你的乘客似乎在为大会的演讲做练习。当他们递给你<payment>并离开飞船时，你察觉到了一丝紧张。`
 
 
 
 mission "Swiftsong Business Convention [2]"
 	job
 	repeat
-	name "<planet> business convention"
-	description "A group of <bunks> Hai who need to get to a business convention will pay you <payment> in exchange for transporting them and their <tons> of supplies to <planet>."
+	name "<planet>商务大会"
+	description "一群（共<bunks>名）需要前往商务大会的亥族愿意支付你<payment>，以换取你将他们以及<tons>吨物资运送至<planet>。"
 	passengers 4 4 .1
 	cargo "office supplies" 1 3
 	to offer
@@ -1576,15 +1576,15 @@ mission "Swiftsong Business Convention [2]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `During the trip, your passengers appeared to be practicing a presentation for the convention. You sense a tinge of nervousness as they give you <payment> and leave your ship.`
+		dialog `旅途中，你的乘客似乎在为大会的演讲做练习。当他们递给你<payment>并离开飞船时，你察觉到了一丝紧张。`
 
 
 
 mission "Swiftsong Film Festival [1]"
 	job
 	repeat
-	name "<planet> film festival"
-	description "A group of <bunks> Hai movie buffs will pay you <payment> in exchange for transporting them to <planet>, where a film festival is taking place."
+	name "<planet>电影节"
+	description "一群（共<bunks>名）亥族影迷愿意支付你<payment>，以换取你将他们运送至正在举办电影节的<planet>。"
 	passengers 4 2 .1
 	to offer
 		random < 8
@@ -1597,15 +1597,15 @@ mission "Swiftsong Film Festival [1]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. Some of the movie plots they discussed during the trip were bewildering.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。他们在旅途中讨论的一些电影情节着实令人费解。`
 
 
 
 mission "Swiftsong Film Festival [2]"
 	job
 	repeat
-	name "<planet> film festival"
-	description "A group of <bunks> Hai movie buffs will pay you <payment> in exchange for transporting them to <planet>, where a large film festival is taking place."
+	name "<planet>电影节"
+	description "一群（共<bunks>名）亥族影迷愿意支付你<payment>，以换取你将他们运送至正在举办大型电影节的<planet>。"
 	passengers 4 4 .1
 	to offer
 		random < 3
@@ -1618,15 +1618,15 @@ mission "Swiftsong Film Festival [2]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. Some of the movie plots they discussed during the trip were bewildering.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。他们在旅途中讨论的一些电影情节着实令人费解。`
 
 
 
 mission "Swiftsong Music Festival [1]"
 	job
 	repeat
-	name "<planet> music festival"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a music festival is taking place."
+	name "<planet>音乐节"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们运送至正在举办音乐节的<planet>。"
 	passengers 4 2 .1
 	to offer
 		random < 8
@@ -1639,15 +1639,15 @@ mission "Swiftsong Music Festival [1]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. You can hear the music blasting all the way from the spaceport.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。即使在太空港，你也能听到远处传来的震耳欲聋的音乐。`
 
 
 
 mission "Swiftsong Music Festival [2]"
 	job
 	repeat
-	name "<planet> music festival"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a large music festival is taking place."
+	name "<planet>音乐节"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们运送至正在举办大型音乐节的<planet>。"
 	passengers 4 4 .1
 	to offer
 		random < 3
@@ -1660,15 +1660,15 @@ mission "Swiftsong Music Festival [2]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. You can hear the music blasting all the way from the spaceport.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。即使在太空港，你也能听到远处传来的震耳欲聋的音乐。`
 
 
 
 mission "Swiftsong Computer Security Conference [1]"
 	job
 	repeat
-	name "<planet> computer security conference"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a computer security conference is taking place."
+	name "<planet>计算机安全会议"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们送往正在举办计算机安全会议的<planet>。"
 	passengers 4 2 .1
 	to offer
 		random < 8
@@ -1681,15 +1681,15 @@ mission "Swiftsong Computer Security Conference [1]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. Your passengers' conversations went mostly over your head, but they were otherwise pleasant the entire trip.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。乘客们的对话你大都听不懂，但整个旅程中他们一直很愉快。`
 
 
 
 mission "Swiftsong Computer Security Conference [2]"
 	job
 	repeat
-	name "<planet> computer security conference"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a large computer security conference is taking place."
+	name "<planet>计算机安全会议"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们运送至正在举办大型计算机安全会议的<planet>。"
 	passengers 4 4 .1
 	to offer
 		random < 3
@@ -1702,14 +1702,14 @@ mission "Swiftsong Computer Security Conference [2]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. Your passengers' conversations went mostly over your head, but they were otherwise pleasant the entire trip.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。乘客们的对话你大都听不懂，但整个旅程中他们一直很愉快。`
 
 
 mission "Swiftsong Science Fiction Convention [1]"
 	job
 	repeat
-	name "<planet> science fiction convention"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a science fiction convention is taking place."
+	name "<planet>科幻大会"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们运送至正在举办科幻大会的<planet>。"
 	passengers 4 2 .1
 	to offer
 		random < 8
@@ -1722,15 +1722,15 @@ mission "Swiftsong Science Fiction Convention [1]"
 	on complete
 		payment 10000 50
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. As they leave, one of them gives you a hand gesture that you recognize from an old human sci-fi program.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。临走前，其中一人朝你做了一个手势，你认出那是来自一部古老的人类科幻节目。`
 
 
 
 mission "Swiftsong Science Fiction Convention [2]"
 	job
 	repeat
-	name "<planet> science fiction convention"
-	description "A group of <bunks> Hai will pay you <payment> in exchange for transporting them to <planet>, where a large science fiction convention is taking place."
+	name "<planet>科幻大会"
+	description "一群（共<bunks>名）亥族愿意支付你<payment>，以换取你将他们运送至正在举办大型科幻大会的<planet>。"
 	passengers 4 4 .1
 	to offer
 		random < 3
@@ -1743,14 +1743,14 @@ mission "Swiftsong Science Fiction Convention [2]"
 	on complete
 		payment 10000 100
 		"reputation: Hai" += 3
-		dialog `The Hai chitter excitedly as they give you <payment> and step off your ship. As they leave, one of them gives you a hand gesture that you recognize from an old human sci-fi program.`
+		dialog `亥族们兴奋地吱吱叫着，递给你<payment>后走下了你的飞船。临走前，其中一人朝你做了一个手势，你认出那是来自一部古老的人类科幻节目。`
 
 
 mission "Superstitious Hai [1]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This Hai matriarch will pay <payment> for a keystone-equipped ship to transport her family of <bunks> to <destination> by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "这位亥族女族长愿意支付<payment>，租用一艘配备基石的飞船在<date>之前将她的<bunks>名家人运送至<destination>。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1774,10 +1774,10 @@ mission "Superstitious Hai [1]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Superstitious Hai [2]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This family of <bunks> ranchers will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "这个由<bunks>人组成的牧场主家族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1802,10 +1802,10 @@ mission "Superstitious Hai [2]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Superstitious Hai [3]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This elderly Hai will pay <payment> for a journey on a keystone-equipped ship to their retirement home on <destination> by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "这位年迈的亥族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往其位于<destination>的养老住所。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 1
 	deadline
 	to offer
@@ -1832,10 +1832,10 @@ mission "Superstitious Hai [3]"
 
 
 mission "Superstitious Hai [4]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This group of <bunks> farm workers will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "这群（共<bunks>名）农工愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1861,10 +1861,10 @@ mission "Superstitious Hai [4]"
 
 
 mission "Superstitious Hai [5]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "A group of <bunks> elderly Hai will pay <payment> for a vacation to <destination> on a keystone-equipped ship by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "一群（共<bunks>名）年迈的亥族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>度假。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1890,10 +1890,10 @@ mission "Superstitious Hai [5]"
 
 
 mission "Superstitious Hai [6]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This family of <bunks> Hai will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>. They have requested that their ship have an authentic Hai keystone installed."
+	description "这个由<bunks>人组成的亥族家族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。他们要求飞船必须安装正宗的亥族基石。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1918,10 +1918,10 @@ mission "Superstitious Hai [6]"
 
 
 mission "Superstitious Hai [7]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This Hai matriarch will pay <payment> for a keystone-equipped ship to transport her family of <bunks> to <destination> by <date>."
+	description "这位亥族女族长愿意支付<payment>，租用一艘配备基石的飞船在<date>之前将她的<bunks>名家人运送至<destination>。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1945,10 +1945,10 @@ mission "Superstitious Hai [7]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Superstitious Hai [8]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This family of <bunks> ranchers will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>."
+	description "这个由<bunks>人组成的牧场主家族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -1973,10 +1973,10 @@ mission "Superstitious Hai [8]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Superstitious Hai [9]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This elderly Hai will pay <payment> for a journey on a keystone-equipped ship to their retirement home on <destination> by <date>."
+	description "这位年迈的亥族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往其位于<destination>的养老住所。"
 	passengers 1
 	deadline
 	to offer
@@ -2003,10 +2003,10 @@ mission "Superstitious Hai [9]"
 
 
 mission "Superstitious Hai [10]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This group of <bunks> farm workers will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>."
+	description "这群（共<bunks>名）农工愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -2032,10 +2032,10 @@ mission "Superstitious Hai [10]"
 
 
 mission "Superstitious Hai [11]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "A group of <bunks> elderly Hai will pay <payment> for a vacation to <destination> on a keystone-equipped ship by <date>."
+	description "一群（共<bunks>名）年迈的亥族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>度假。"
 	passengers 2 4 .8
 	deadline
 	to offer
@@ -2061,10 +2061,10 @@ mission "Superstitious Hai [11]"
 
 
 mission "Superstitious Hai [12]"
-	name "Superstitious Hai to <planet>"
+	name "迷信的亥族前往<planet>"
 	job
 	repeat
-	description "This family of <bunks> Hai will pay <payment> for a journey on a keystone-equipped ship to <destination> by <date>."
+	description "这个由<bunks>人组成的亥族家族愿意支付<payment>，乘坐一艘配备基石的飞船在<date>之前前往<destination>。"
 	passengers 2 4 .8
 	deadline
 	to offer

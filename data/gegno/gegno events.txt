@@ -42,13 +42,13 @@ event "gegno: vi occupy zydee"
 		fleet "Scin Warfleet" 3000
 	planet "Zydee"
 		attributes "gegno" "vi" "moon"
-		description `There is evidence that the nearby Gegno Scin have attempted to establish a presence on this barren moon in the form of several partially-constructed buildings and landing zones scattered about the surface. In recent times, however, the opposing Gegno Vi have fielded their own forces to take control of the system, and have begun a number of operations to convert existing infrastructure and set up posts of their own, claiming the moon in their name.`
-		spaceport `The Vi have made makeshift landing zones and outposts, such as this one, for the group of warriors they've distributed across the moon. Although their numbers are no more than that of a small village, those who are present have accomplished a considerable amount during their time on the surface while the fleets above defend them.`
+		description `有证据表明，附近的格诺辛曾试图在这颗荒凉的卫星上建立据点，其地表散布着几处半完工的建筑和着陆区。然而近期，敌对的格诺维部署了己方力量以夺取该星系的控制权，并开始开展一系列行动来改造现有基础设施、建立他们自己的哨所，从而以他们的名义宣布占领了这颗卫星。`
+		spaceport `维人已为分散在这颗卫星各处的战士队伍修建了临时的着陆区与前哨站（例如此处）。尽管他们的人数不过相当于一个小村落，但在头顶上方舰队的护卫下，这批驻留地表的战士在驻扎期间已取得了相当可观的成果。`
 		government "Gegno Vi"
 		"required reputation" 1
 	planet "Ghneoe"
-		description `Ghneoe's orbital period is dominated by a very long dry season due to the binary stars at the system's center. However, during a short portion of the year, Ghneoe experiences an intense water cycle that results in a boom of greenery and wildlife activity, developing a short-lived but flourishing ecosystem. Much of the flora and fauna have adapted to such drastic shifts in climate, and return to a dormant state once the intense heat cycle returns.`
-		description `	Unlike its moon, Ghneoe sees few to no colonization efforts from either the Gegno Vi or Scin, perhaps due to the abnormal weather cycles, continued system warfare, or a combination of both.`
+		description `由于星系中心的双星，格内欧的公转周期中大部分时间是极为漫长的旱季。然而，在一年中的短短一段时期里，格内欧会经历强烈的水循环，随之而来的是植被繁茂、野生动物活跃的盛景，形成短暂却生机勃勃的生态系统。这里的动植物大多已适应了如此剧烈的气候变化，等到高温周期再度降临时，它们便重归休眠状态。`
+		description `	与它的卫星不同，格内欧几乎看不到来自格诺维或辛恩的任何殖民努力，或许是因为异常的气候周期、持续的星系战争，抑或是两者的共同影响。`
 
 
 event "gegno: unified defense"

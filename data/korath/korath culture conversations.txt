@@ -23,54 +23,54 @@ mission "Korath Far'en Lai Prayer"
 		not attributes "station"
 	on offer
 		conversation
-			`The gloomy feel of the local spaceport appears to be somehow even more pronounced today. Very few Korath are doing anything but the most basic maintenance of the local facilities, as if they all had their attention elsewhere. It doesn't take you long to notice the gathering of a considerable number of Korath by one large, blackened side of an abandoned building, which seems to be the reason for the drop in the local morale.`
-			`	As you approach the group, you notice a few Korath children running their hands over the dark wall, scratching it carefully with what must be something akin to crayons, or some material that could perform the same function. After they play around for a while, you notice all their drawings seem to take a similar shape: a beige or brownish circle, with some shy spots of blue, and rare bits of green. Contrasted by the onyx background of the building wall, you easily make it out to be a planet.`
-			`	Up close, you see many adult and elderly Korath, gathered as if in a prayer group around a shrine of sorts, just a few steps away from the building. They are mostly silent but for a few brief gasps. The shrine seems to be simply a pile of common crates and boxes, hidden by a dusty canvas that's not large enough to cover all of the cubic components of the pyramid-like structure.`
-			`	At the bottom of the shrine, the Korath seem to have deposited a plethora of personal belongings - clothing pieces, tools, pictures and coins, books and crystals, large fragments of cracked eggshells, flasks of oils or other substances, small jewelry pieces, and all manner of beads. The items seem to pile on and on endlessly, as every passing Korath in the spaceport makes a point to pass by the shrine and leave something as an offering.`
-			`	On the first level of crates, you first see a number of wooden, stone, and metal slabs, with various scratch marks over them. Upon closer inspection, you see that from certain angles, the marks combine to form shapes like those of the planet drawn by the children. The marks also form many other planets, with clearly defined oceans and continents. There are stars, systems, symbols you can't recognize, and a great number of tablets with nothing but writing.`
-			`	One of the oldest Korath in the gathering, who had been shivering with his head in his hands since before you approached, lets out an agonizing, bark-like yelp in a frayed voice. He looks up to the top of the shrine. Standing at navel height, one lone crate supports only a few items. A large, colorful feather, an amazingly complex seashell, and a mysteriously beautiful flower sit on the top crate, all surrounding one single, lone candle, which looks as if it's been burning for hours on end.`
-			`	You wonder how this one candle could be burning for so long out in the open, and think that perhaps the Korath simply relight it whenever it is put out by a passing gust. Only at that thought do you notice that, today, there is no wind whatsoever on <origin>.`
-			`	Seemingly only taking notice of you now, one of the younger Korath sitting by the shrine slowly rises, making her way over to you, and briefly holds up her hands with both palms facing you. She speaks quickly, and you cannot understand most of it, but you do recognize the words "humani efreti" at the end of what you guess was a question.`
+			`今天本地太空港的阴郁氛围似乎比平时更加沉重。只有少数科拉斯人在进行最基本的设施维护，其他人仿佛都心不在焉。你很快注意到一大群科拉斯人聚集在一座废弃建筑被熏黑的大墙边——这似乎就是当地士气低落的原因。`
+			`	你走近那群人时，看到几个科拉斯小孩正用手在暗墙上涂抹，用类似蜡笔的东西小心地刮擦着。他们玩闹一阵后，你注意到所有涂鸦形状都差不多：一个米色或褐色的圆圈，带着几块害羞的蓝色斑点，间或有零星的绿色。在漆黑墙面的映衬下，你很容易认出那是一颗行星。`
+			`	近距离观察，你看到许多成年和老年的科拉斯人聚集在离建筑几步远的地方，仿佛围绕着一座神殿在祈祷。他们大多沉默不语，只是偶尔发出几声短促的叹息。那座神殿看起来只是一堆普通的板条箱和盒子，盖着一块布满灰尘的帆布，但这帆布不够大，遮不住这座金字塔状结构的所有立方体组件。`
+			`	在神殿底部，科拉斯人似乎堆放了大量个人物品——衣物碎片、工具、照片和硬币、书籍和水晶、破碎蛋壳的大块碎片、油或其他物质的瓶子、小首饰以及各种珠子。这些物品似乎源源不断地堆积着，因为太空港中每个路过的科拉斯人都会特意经过神殿，留下某样东西作为供奉。`
+			`	在第一层板条箱上，你首先看到许多木、石、金属板，上面有各种划痕。凑近细看，你发现从某些角度观察，这些划痕组合成了类似于孩子们画的星球形状。划痕还构成了许多其他行星，有着清晰的海洋和大陆。还有恒星、星系、你无法辨认的符号，以及大量只有文字的刻板。`
+			`	集会中最年长的一位科拉斯人——在你接近之前就一直抱头颤抖——发出了痛苦如吠叫般的嘶哑喊声。他抬头望向神殿顶端。在一张齐腰高的孤零零的板条箱上，只摆放着几样东西：一根大而色彩鲜艳的羽毛、一个精美复杂的贝壳、一朵神秘美丽的花，它们围绕着一支孤零零的蜡烛，那蜡烛看起来已经一连燃烧了好几个小时。`
+			`	你好奇这支蜡烛如何在露天燃烧这么久，心想也许科拉斯人只是每当它被一阵吹过的风熄灭时就重新点燃。正是想到这里，你才注意到，今天<origin>上完全没有一丝风。`
+			`	似乎直到现在才注意到你，一个坐在神殿旁的年轻的科拉斯人缓缓起身，朝你走来，短暂地举起双手，手心面向你。她说得很快，大部分你听不懂，但在你猜测是提问的末尾，你确实听出了“humani efreti”这个词。`
 			choice
-				`	"What exactly is all of this?"`
-				`	(Gesture inquisitively at the shrine.)`
-				`	"Sorry, I didn't mean to interrupt. I'll be on my way."`
+				`	“这到底是什么？”`
+				`	（好奇地指向神殿。）`
+				`	“抱歉，我不是有意打扰。我这就走。”`
 					goto end
-			`	Either due to somehow having understood your meaning, or simply having correctly guessed the reason for your curiosity, the Korath begins to attempt to explain the gathering. She grabs some of the crayon-like objects and beckons you a little closer to the wall, where she begins to draw many spiral arms in white, converging in what looks like a large maw at the center. She repeatedly jabs the crayon at a point close to the center, then at you, then at herself. "<origin>," she says.`
-			`	She then draws on the wall with a different crayon of a light-green coloring. The green seems to make a path to another dot, closer to the maw, though she takes great care to draw something like a barrier around the position - as if shielding it from the center of her spiral map. She stares at the dot thoughtfully for a few seconds, as if in disbelief of what she had just drawn herself. "Far'en Lai," she finally says, her voice cracking slightly, still facing the dot. Then, she looks back and points directly at the burning candle. "Far'en Lai," she says again, before looking back at you.`
-			`	Reaching in her garments, she pulls out what looks to be some form of communication device. She considers it briefly, then gestures for you to follow her back to the shrine, where she carefully places the object down onto the pile of offerings. She then looks at you, as if wondering if you would follow the gesture.`
+			`	不知是因为她理解了你的意思，还是仅仅正确猜到了你好奇的原因，这位科拉斯开始尝试解释这个集会。她抓了一些类似蜡笔的东西，示意你靠近墙壁，然后开始在墙上用白色画出许多螺旋臂，汇聚到一个看起来像巨大咽喉的中心。她反复用蜡笔戳靠近中心的一个点，然后戳你，再戳自己。“<origin>，”她说道。`
+			`	接着她用另一支浅绿色的蜡笔在墙上画。那条绿色似乎画出了一条通往另一个点的路径，那个点更靠近咽喉，但她非常小心地画了一个类似屏障的东西围绕在那个位置——仿佛要保护它不受螺旋地图中心的干扰。她若有所思地凝视那个点几秒钟，好像不敢相信自己刚刚画出的东西。“法恩莱，”她终于开口，声音略有沙哑，仍然面对着那个点。然后她回头，直接指向燃烧的蜡烛。“法恩莱，”她又说了一遍，然后回头看着你。`
+			`	她从衣服里掏出一个看起来像是某种通讯设备的东西。短暂考虑了一下，然后示意你跟她回到神殿，她小心地将那个设备放在供奉堆上。然后她看着你，似乎在等着你是否也会照做。`
 			choice
-				`	(Offer 100 credits.)`
+				`	（提供100信用点。）`
 					to display
 						"credits" >= 100
 					goto "small credits"
-				`	(Offer 10,000 credits.)`
+				`	（提供10,000信用点。）`
 					to display
 						"credits" >= 10000
 					goto "medium credits"
-				`	(Offer 10,000,000 credits.)`
+				`	（提供10,000,000信用点。）`
 					to display
 						"credits" >= 10000000
 					goto "large credits"
-				`	(Offer a picture of my home planet.)`
-				`	"I'm sorry, but I have nothing to offer. Goodbye."`
+				`	（提供一张我母星的照片。）`
+				`	“抱歉，我没什么可提供的。再见。”`
 					goto end
-			`	You remember the picture of your hometown back in <home planet> you tend to carry around, and start searching for it. Sure enough, you find it inside your back pocket, straighten it out as best as you can, and go to add it to the pile. However, the Korath stops you, holding your arm and stretching her hand carefully as if asking for the picture. You hand it to her, and she brings it very close to her eyes. The elderly Korath who wailed before appears beside her, and she shows him the picture. He seems to stare at it for minutes on end, and you begin to wonder if you somehow offended them with your choice. Then, he hands her back the picture, and seems to nod slightly. She heads close to the shrine and places the picture at the top level, with the feather, shell, and flower. The elderly Korath faces you, looking deeply into your eyes, then raises his palms toward you, letting out a faint bark. You notice all other Korath around the shrine are doing the same. When they've all acknowledged your contribution, the Korath who drew the spiral arms comes to you again, looking thoroughly impressed.`
+			`	你想起自己随身携带的那张 <home planet> 家乡的照片，开始翻找。果然，你在后口袋里找到了它，尽量把它弄平整，然后准备放到供奉堆上。然而，那位科拉斯人拦住了你，抓住你的手臂，小心地伸出手，像是在要照片。你把照片递给她，她把照片凑得很近。之前哀嚎的那位老年科拉斯人出现在她身边，她把照片给他看。他似乎凝视了照片好几分钟，你开始怀疑自己是不是选错了东西冒犯了他们。然后，他把照片还给她，微微点了点头。她走近神殿，将照片放在顶层，和羽毛、贝壳、花放在一起。那位老年科拉斯人面对着你，深深注视你的眼睛，然后向你举起掌心，发出一声轻微的吠叫。你注意到神殿周围所有其他科拉斯人都在做同样的动作。当他们全都确认了你的贡献后，画螺旋臂的那位科拉斯人再次来到你面前，看起来充满了赞叹。`
 				goto end
 			label "small credits"
 			action
 				payment -100
-			`	You add the credit chip to the objects by the shrine, and she seems to nod approvingly before looking at you once more, seemingly satisfied with your understanding of the gesture.`
+			`	你将信用芯片加到神殿旁的物品中，她赞许地点了点头，然后再次看向你，似乎对你理解这个举动的含义感到满意。`
 				goto end
 			label "medium credits"
 			action
 				payment -10000
-			`	You add the credit chips to the objects by the shrine, and she and a few of the other Korath seem to bow lightly to you. She turns to you once more, looking satisfied with your understanding of the gesture.`
+			`	你将信用芯片放到神殿旁的物品中，她和其他几个科拉斯人似乎向你微微鞠躬。她再次转向你，似乎对你理解了这个举动的含义感到满意。`
 				goto end
 			label "large credits"
 			action
 				payment -10000000
-			`	You attempt to carefully place the credit chips onto the pile of objects by the shrine, but despite your efforts a few end up slipping out and dropping down rather noisily. The Korath, however, seem in shock rather than disturbed at your addition. Many of them raise their hands up, their palms to you in greeting or in thanks. You look back at the Korath who drew the spiral arms, who seems to be beaming.`
+			`	你试图小心地将信用芯片放在神殿旁的物品堆上，但尽管你努力，还是有几个滑落下来，发出了不小的声响。不过，科拉斯人似乎不是被你的举动打扰，而是感到震惊。许多人举起手，掌心朝向你，像是在致意或感谢。你回头看向画螺旋臂的那位科拉斯人，她看上去正喜形于色。`
 			label end
-			`	She raises her hands up towards you again, as if bidding you farewell, as you head away from the shrine. You notice many of the Korath around the spaceport take a few glances at you, but still seem focused entirely on the shrine regardless of what activity they may be performing.`
+			`	当你转身离开神殿时，她再次向你举起双手，仿佛是在告别。你注意到太空港里许多科拉斯人都瞥了你几眼，但无论他们在做什么活动，似乎仍然完全专注于那座神殿。`
 				decline

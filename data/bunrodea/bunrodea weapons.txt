@@ -35,7 +35,7 @@ outfit "Locust Blaster"
 		"firing heat" 3
 		"shield damage" 5
 		"hull damage" 4
-	description "The Locust Blaster might look small, but its destructive potential for its size is nothing to scoff at. A single blaster is capable of sustaining 1,200 rounds per minute. While each individual projectile from the blaster deals rather insignificant damage, the sheer deluge of projectiles can rip even the largest of ships to shreds in due time."
+	description "蝗虫冲击炮看似小巧，但其与其尺寸相称的破坏潜力绝不容小觑。单门冲击炮能够维持每分钟1200发的射速。虽然每枚弹丸造成的伤害微不足道，但这铺天盖地的弹幕只要有足够的时间，就能将最庞大的飞船撕成碎片。"
 
 outfit "Locust Turret"
 	category "Turrets"
@@ -63,7 +63,7 @@ outfit "Locust Turret"
 		"firing heat" 3
 		"shield damage" 5
 		"hull damage" 4
-	description "Although Bunrodean ships typically rely on the power of their forward facing guns and fill any turret mounts with anti-missile systems, they have developed a turret mount for the Locust Blaster. This turret carries three Locust Blasters that all fire at once, resulting in an astonishing 3,600 projectiles per minute being thrown at the target."
+	description "虽然邦罗迪亚飞船通常依赖前向火炮的火力，并将所有炮塔位装满反导系统，但他们也为蝗虫冲击炮开发了一款炮塔。该炮塔搭载了三门蝗虫冲击炮，可同时开火，从而以每分钟3600发的惊人射速向目标倾泻火力。"
 
 
 
@@ -95,7 +95,7 @@ outfit "Mandible Cannon"
 		"hit force" 210
 		"shield damage" 152
 		"hull damage" 98
-	description "The Mandible Cannon is a significant part of the Bunrodean arsenal due to its versatility. Its range exceeds that of smaller weapons, and its size allows it to be used in numbers on most Bunrodean ships. However, the energy draw required to fire is rather significant, particularly for Bunrodean ships that rely on solar cells."
+	description "颚部炮因其多功能性而成为邦罗迪亚军备的重要组成部分。其射程超过小型武器，且尺寸适中，使得大多数邦罗迪亚飞船能够大量装配。然而，开火所需的能量消耗相当大，特别是对于依赖太阳能电池板的邦罗迪亚飞船而言。"
 
 
 
@@ -132,7 +132,7 @@ outfit "Thorax Cannon"
 		"hit force" 3750
 		"shield damage" 2870
 		"hull damage" 3430
-	description "The Thorax Cannon is a massive, slow-firing weapon that few ships can even support, not only because of its size but also because of the energy needed to fire it. It comes with its own energy capacitors to help alleviate the steep energy cost."
+	description "胸甲炮是一种体型庞大且射速缓慢的武器，极少有飞船能够搭载它，这不仅是因为它的尺寸，更是因为开火所需的庞大能量。它自带储能电容器，以帮助缓解高昂的能量消耗。"
 
 effect "yellow spark"
 	sprite "effect/yellow spark"
@@ -187,7 +187,7 @@ outfit "Swarm Clip"
 	"outfit space" -7
 	"swarm capacity" 200
 	ammo "Swarm Missile"
-	description "Swarm Clips provide a sizable increase in ammo capacity for Swarm Pods, holding a respectable 200 missiles able to be swiftly loaded into a launcher after its current clip is empty."
+	description "蜂群弹夹可大幅提升蜂群荚舱的弹药容量，内含可观的200枚导弹，能在当前弹夹打空后迅速装填至发射器中。"
 
 outfit "Swarm Missile"
 	category "Ammunition"
@@ -197,7 +197,7 @@ outfit "Swarm Missile"
 	thumbnail "outfit/swarm missile"
 	"mass" 0.03
 	"swarm capacity" -1
-	description "Swarm missiles are small, fast moving munitions for the Swarm Pod."
+	description "蜂群导弹是专为蜂群荚舱设计的小型高速弹药。"
 
 outfit "Swarm Pod"
 	category "Secondary Weapons"
@@ -235,8 +235,8 @@ outfit "Swarm Pod"
 		"hull damage" 24
 		"missile strength" 8
 		"stream"
-	description "The Swarm Pod proved to be an effective weapon in early conflicts with the Korath by overpowering early Korath anti-missile defenses. But just as the Bunrodea developed technology to combat Korath weaponry, the Korath did the same, prompting them to create their own rapid-fire anti-missile turret that limited the usefulness of the Swarm Pod against some Korath targets."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "在早期与科拉斯的冲突中，蜂群荚舱压制了早期的科拉斯反导防御系统，被证明是一种有效的武器。但正如邦罗迪亚开发出对抗科拉斯武器的技术一样，科拉斯也采取了同样的行动，这促使他们制造了自己的速射反导炮塔，从而限制了蜂群荚舱在对抗某些科拉斯目标时的效用。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -289,7 +289,7 @@ outfit "Buzzer Anti-Missile"
 		"reload" 2.5
 		"firing energy" 16
 		"firing heat" 1
-	description "As the Korath began to saturate systems with mines, the effectiveness of Bunrodean fighters dropped substantially. In response, the Bunrodea developed this rapid-fire anti-missile turret, able to clear sections of a system of Korath mines at blinding speed."
+	description "当科拉斯开始用雷场充斥星系时，邦罗迪亚战斗机的效能大幅下降。作为应对，邦罗迪亚开发了这款速射反导炮塔，能够以令人眼花缭乱的速度清除星系中一片区域内的科拉斯地雷。"
 
 effect "buzzer"
 	sprite "effect/buzzer am"

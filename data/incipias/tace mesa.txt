@@ -29,7 +29,7 @@ outfit "Strange Ray"
 		"shield damage" 50
 		"hull damage" 43
 		"minable damage" 64
-	description "It should be impossible for an organic being to heat up gas to this level, but this organ seems to be an exception."
+	description "有机生命体本不可能将气体加热到这种程度，但这个器官似乎是个例外。"
 
 outfit "Internal Plasma Exhaust"
 	"mass" 25
@@ -39,7 +39,7 @@ outfit "Internal Plasma Exhaust"
 	"turn" 1500
 	"flare sprite" "effect/plasma exhaust"
 		"frame rate" 16
-	description "The Tace Mesa move by expelling plasma from the end of their body."
+	description "泰斯梅萨通过从身体末端喷射等离子体来移动。"
 
 ship "Tace Mesa"
 	sprite "ship/silent harvester"
@@ -73,7 +73,7 @@ ship "Tace Mesa"
 	explode "large explosion" 40
 	explode "medium explosion" 50
 	"final explode" "final explosion large"
-	description "The Tace Mesa are creatures whose origins and inner workings are yet to be understood. They have existed for millennia and will probably continue to exist for a long time. Rumors tell of even larger creatures further out in the rims of the system."
+	description "泰斯梅萨是一种生物，其起源和内部运作机制至今尚不为人知。它们已存在了数千年，很可能还将长久延续下去。有传言称，在星系更遥远的外围还存在着更为庞大的同类生物。"
 
 mission "The Silent Ones"
 	invisible

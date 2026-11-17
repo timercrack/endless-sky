@@ -121,7 +121,7 @@ mission "Successors: Ghosts QSI 1"
 				set "successors: ghosts ally referred"
 				log "Attempted to land on Qasa-Sija-Iri but was denied for lack of authorization. Instructed to converse with a superior to acquire authorization to land."
 			choice
-				`	(Return to orbit.)`
+				`	（返回轨道。）`
 					flee
 				`	(Continue anyway.)`
 					goto proceed
@@ -129,7 +129,7 @@ mission "Successors: Ghosts QSI 1"
 			label elsewhere
 			`	"Irrelevant. No civilian vessels are permitted here. Return to orbit, on pain of death."`
 			choice
-				`	(Return to orbit.)`
+				`	（返回轨道。）`
 					flee
 				`	(Continue anyway.)`
 					goto proceed
@@ -190,9 +190,9 @@ mission "Successors: Ghosts QSI 2"
 			label "saajret of somber sejra"
 			`	"Ah." Their skin shifts to a deep pink, but only for a moment. They pull a long column of metal from the panel in front of them, examining it closely for a time before returning their attention to you. "If thou know'st them well enough to speak of, then 'tis sure thou canst appreciate the stresses on their time. But," they say, glittering, "I shall notify them of thy desire to meet, and I shall give them thy name and this," they say producing a data-sphere of the sort you've seen the Successors use before. "And if they wish to engage thee, then they may."`
 			choice
-				`	"My name is <first> <last>."`
+				`	“我叫<first> <last>。”`
 					goto end
-				`	"Thank you."`
+				`	“谢谢。”`
 				`	"That's not good enough. I need to speak with them now."`
 					goto impatient
 			label "who are you"
@@ -264,7 +264,7 @@ mission "Successors: Ghosts 1"
 					goto where
 				`	"What sort of aid?"`
 					goto aid
-				`	"What's in it for me?"`
+				`	“对我有什么好处？”`
 			`	"Naturally," says the lead officer, their skin bristling a little, "thou canst expect payment for thy services. The details shall be discussed with thee upon arrival." They hand over a data-sphere which highlights the <system> system and leave you to your business with a curt goodbye.`
 				accept
 			label here
@@ -296,10 +296,10 @@ mission "Successors: Ghosts 2"
 			`	You are met in the spaceport soon after by a distinctly stressed-looking Successor who instructs you to follow them to one of the tents in the new area. It turns out to be surprisingly comfortable and well-featured inside, and as you wait, you have to try your best to avoid the overhead mist generators. Eventually, another pair of Successors enter from the same door you did and introduce themselves to you.`
 			`	"Captain, captain, we lament thy wait. I am Sijra and this," they say, gesturing to the other, "is Rijatet." Rijatet offers a short splay of the arms on hearing their name. "We represent House Seineq here."`
 			choice
-				`	"What do you want from me?"`
+				`	“你想从我这里得到什么？”`
 					goto task
 				`	"Did Seineq establish all this?"`
-				`	"What is this place?"`
+				`	"这是什么地方？"`
 			`	Sijra nods as colors swim over their body. "A temporary post, approv'd by the New's combined navy. In times as these, 'tis a boon to watch over these oft-forgotten systems."`
 			`	Rijatet interjects. "'Tisn't why thou'rt here, though." Sijra hums gently at this, and they slither under one of the mist generators, writhing a little as if to get comfortable.`
 			label task
@@ -740,7 +740,7 @@ mission "Successors: Ghosts 6"
 			label saajret
 			`	Saajret soon returns as they promised, apparently unharmed. They unload their equipment in the quarters you set aside for them before returning to you in the cockpit. "It went without incident," they say, a shade of satisfaction on their skin. As they turn to go away, they catch themself, turning back around with a bit of trepidation. "I may never get this chance again, so I'll speak now: I've a personal request to beg of thee. There's another world within the Shroud where in the past my ancestors resided. 'Fore we return to Kaatrij, I'd long to see it for myself. I'd pay thee for the diversion, of course."`
 			choice
-				`	"Sure, I'll take you."`
+				`	“当然，我带你们去。”`
 					goto helped
 				`	"Sorry, you'll have to figure something else out."`
 			`	Saajret struggles to keep their disappointment from showing. "Very well," they manage to say before leaving.`
@@ -774,7 +774,7 @@ mission "Successors: Ghosts 7a"
 			`	"What is this place?" you ask.`
 			`	A blue tone makes its way over Saajret's face. "'Twas an arc of homes and shops before they were abandoned," they say. A couple of snowflakes land on their skin and their arms wriggle against the white ground. "Thou may'st join me if thou desirest. Kaatrij demands no secrecy from us here."`
 			choice
-				`	(Go with them.)`
+				`	（跟他们走。）`
 				`	(Stay.)`
 					goto stay
 			`	The two of you make your way through the abandoned streets. You are struck by how well-preserved everything is; more than those of any other Predecessor world, the buildings here seem only temporarily vacant, as if the two of you had merely caught the city on a day with everyone missing. A trio of little cleaning robots run around the rim of a fountain, polishing away the snow before it even has time to melt in the sun.`
@@ -782,7 +782,7 @@ mission "Successors: Ghosts 7a"
 			choice
 				`	"And where is 'here'?"`
 				`	"It's a pretty spot."`
-				`	(Stay silent.)`
+				`	（保持沉默。）`
 					goto building
 
 			`	"An ancestor of mine lived here briefly," they say. "One of import in the last days of House Sejra. But when they lived here, all that was still to come."`
@@ -819,7 +819,7 @@ mission "Successors: Ghosts 7a"
 mission "Successors: Ghosts 7b"
 	transition
 	clearance
-	name "Return to <planet>"
+	name "返回<planet>"
 	description "Having declined Saajret's request for a detour, return them home to <planet>."
 	destination "Raaqa-Puan-Uuoru"
 	passengers 1
@@ -869,7 +869,7 @@ conversation "saajret returns"
 
 mission "Successors: Ghosts Cloak Prompt"
 	landing
-	name "Investigate <planet>"
+	name "调查 <planet>"
 	description "Saajret's cryptic message may have been suggesting a way to more closely investigate House Kaatrij's hidden base on <planet>. Try to bypass the blockade by using a ship that can cloak."
 	destination "Qasa-Sija-Iri"
 	source
@@ -932,7 +932,7 @@ mission "Successors: Ghosts 9"
 			`Do you want to ask the Quarg here about their base on the Successor moon Qasa-Sija-Iri?`
 			choice
 				`	(Yes.)`
-				`	(Not now.)`
+				`	（现在不了。）`
 					defer
 			`	Though so far individual Quarg have seemed equivalent in their ability to answer your questions, it is several minutes before you spot one here who, for some reason, seems like it would be able to answer. When you repeat your question to it, it blinks slowly, and answers even more so.`
 			`	"I see," it says. "You have uncovered one of our great secrets of the galaxy. You were right to think that the world you speak of is ours. After what that foolish species did to themselves, we the Quarg could not bear to leave them unobserved. But we dared not do so unshrouded, lest we once again rouse them to the heights of envy - so we built no ringworld, no stations, no open worlds. Only a little... watching post, to keep our gaze over the Myiara."`
@@ -995,7 +995,7 @@ mission "Successors: Ghosts 10"
 			choice
 				`	"For what purpose exactly?"`
 					goto purpose
-				`	"And if I refuse?"`
+				`	“如果我拒绝呢？”`
 			`	"That would not be wise," the officer says. "Thou shalt understand, we trust?"`
 				goto interrogation
 
@@ -1128,7 +1128,7 @@ mission "Successors: Ghosts 10"
 			`	The inside of the facility is unlike that of any other Successor spaceport; though most of the structure features Successor - or to the Quarg, Myiaran - technology, the visual style of the interior shows a distinct Quarg influence. Though most of those who walk the spacious halls are Successors, every so often you catch a glimpse of a Quarg loping its way down a corridor or across an open area.`
 			`	Your escort finally stops outside a gleaming white door, indicating for you to open it.`
 			choice
-				`	(Go inside.)`
+				`	（走进去。）`
 					goto inside
 				`	"What should I expect?"`
 			`	The leader of the soldiers escorting you says nothing, instead only gesturing toward the door with a little more force. Getting the hint, you enter.`
@@ -1159,7 +1159,7 @@ mission "Successors: Ghosts 10"
 			`	The data-sphere flares with color, registering your assent. "'Tis done then," Kampa says. "Welcome to House Kaatrij." Both Kampa and Saajret bow again, the Quarg the only one in the room remaining motionless. "Thou shalt have access to much of our works, which now thou mightst explore at thy leisure. When thou'rt ready, thou shouldst meet Saajret at the spaceport here for thy first official task for us."`
 			choice
 				`	"You said you would answer my questions."`
-				`	(Stay silent.)`
+				`	（保持沉默。）`
 					goto end
 
 			`	"Very well," Kampa says. "Thou may'st query as thou please."`
@@ -1289,7 +1289,7 @@ mission "Successors: Ghosts 11"
 			`	The archive proves to be relatively modest by Successor standards; most of the engineering effort seems to have gone into armor rather than lush adornment. The two of you walk between long rows of storage units, each one suspending thousands of individual data-spheres in a bath of liquid metal. Saajret stops at a corner terminal in a section labeled for records between the years 1620 and 1636 and, after a few minutes of work, several data-spheres are bubbled up from one of the surrounding storage baths.`
 			`	Saajret plugs the spheres into the terminal and you watch over their shoulder as they consult the data within; what appears to be a mixture of dossiers on warships of the era and biographical data about their engineers. Saajret's skin blotches with confusion.`
 			choice
-				`	"What is it?"`
+				`	“那是什么？”`
 				`	"Have you found what you're looking for?"`
 			`	Saajret hums. "To our knowledge," they say, "twenty-three heirloom warships were smuggled through the wormhole in our Predecessors' era. Of these, six were fast battlecruisers, named Valkkyiaran - and of those, only three could possibly be the craft that struck at Qasa-Sija-Iri. Their names were Alasii-i-Lua, Ijahti-Khora, and Akhos-Itran."`
 			choice
@@ -1594,7 +1594,7 @@ mission "Successors: Ghosts 16"
 			`	The elevator takes the four of you down for several minutes; every once in a while, a window to the outside shows individual flashes of the sun setting as the station continues in its orbit. It finally stops on a platform overlooking a vast, dizzyingly-tall space, where pillars rise up for what seems like kilometers below you and terminate kilometers above. Myriad cargo containers are attached to their sides, and between them rest eight gleaming starships. Some of the designs are familiar, like polished versions of those you've seen in Successor space; others are entirely new to you.`
 			`	Saajret directs their two soldiers to set up a trio of small poles on the surface of the platform. They then radio to their ship and the poles light up, projecting barely-visible laser scanning beams throughout the vast space. After a couple of seconds, they mutter something to themself and order the soldiers to pack up the scanners.`
 			choice
-				`	"What is it?"`
+				`	“那是什么？”`
 				`	"Everything here that's supposed to be?"`
 					goto everything
 			`	"Kaatrij's fortune glows today," they say. "Naught lies out of place here; all is as 'twas when Kaatrij left it long ago."`
@@ -1858,7 +1858,7 @@ mission "Successors: Ghosts 19"
 
 			label "what now"
 			choice
-				`	"What now?"`
+				`	“现在怎么办？”`
 				`	"Do you have anything else for me?"`
 
 			branch "wedding preparations"
@@ -1964,7 +1964,7 @@ mission "Successors: Ghosts 20"
 			`	Only after a half hour of these acrobatics does the couple finally appear, rising up from the same apertures and joined by a flanking group of what must be the scions of their respective houses. You spy Khiajsore among them. There is a further intertwining, a display of finery and a ripple of many colors over the skin of those assembled, and then a collective hum rises from the crowd.`
 			choice
 				`	(Hum also.)`
-				`	(Remain silent.)`
+				`	（保持沉默。）`
 			`	With the moment apparently passed, speeches follow, each of the scions offering some short dialog about the history of their house and their hopes for its future. The translation device struggles to make sense of many of the words, as if they're being said in a dialect it's unfamiliar with. Eventually the ceremony seems to come to a close, the enormous audience trickling out of their seats and returning to mill about the facility.`
 
 			label skipped
@@ -1985,7 +1985,7 @@ mission "Successors: Ghosts 20"
 			label license
 			`	When they return to the edge, no more is said. Kampa returns to the pool and produces a small wooden box from their outfit, which they give to you.`
 			choice
-				`	(Take it.)`
+				`	（接过来。）`
 			`	You open the box to find an elaborate gold brooch nestled among soft folds of velvet.`
 			scene "outfit/high houses license"
 			`	"Let this gift make clear to all thy responsibilities and privileges, and may thou have free access to all our House and allies offer..." Kampa says, "<first> <last>, Honored Knight-Vassal of the High House Kaatrij." A colorful display rushes over Kampa's skin and they pick up the brooch with one arm and pin it on your jacket right next to your translation device and the civilian license. The metal must be very dense; it is noticeably heavier than the others.`

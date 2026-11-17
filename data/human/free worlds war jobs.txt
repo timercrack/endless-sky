@@ -13,7 +13,7 @@
 
 phrase "free worlds scanner payment"
 	word
-		`A Free Worlds captain is waiting for you when you land and takes a copy of your scanner logs, and you collect your payment of <payment>.`
+		`你着陆时，一位自由世界的船长正在等你，他取走了你的扫描日志副本，同时你收到了<payment>的报酬。`
 
 trade
 	commodity "Free Worlds Outfits"
@@ -46,8 +46,8 @@ trade
 mission "FW Scout Run [0]"
 	job
 	repeat
-	name `Scouting Run`
-	description `Fly through the <waypoints> system and scout it out for Navy activity. Then return to <destination> by <date> where your ship's scanner logs will be analyzed. Payment is <payment>.`
+	name `侦察任务`
+	description `飞越<waypoints>星系，侦察那里的海军活动。然后于<date>前返回<destination>，在那里分析你的飞船扫描日志。报酬为<payment>。`
 	deadline
 	to offer
 		random < 30
@@ -62,7 +62,7 @@ mission "FW Scout Run [0]"
 		government "Republic"
 		not system "Graffias"
 	on visit
-		dialog `You have landed on <planet>, but you have yet to scout out all the marked systems. Visit all the systems marked on your map before returning.`
+		dialog `你已降落在<planet>，但尚未侦查所有标记星系。在返回前，先访问星图上所有标记星系。`
 	on complete
 		payment 10000 180
 		dialog phrase "free worlds scanner payment"
@@ -70,8 +70,8 @@ mission "FW Scout Run [0]"
 mission "FW Scout Run [1]"
 	job
 	repeat
-	name `Scouting Run`
-	description `Fly through the <waypoints> systems and scout them out for Navy activity. Then return to <destination> by <date> where your ship's scanner logs will be analyzed. Payment is <payment>.`
+	name `侦察任务`
+	description `飞越<waypoints>星系，侦查其中的海军活动。然后在<date>之前返回<destination>，那里将分析你飞船的扫描日志。酬劳为<payment>。`
 	deadline
 	to offer
 		random < 25
@@ -90,7 +90,7 @@ mission "FW Scout Run [1]"
 		government "Republic"
 		not system "Graffias"
 	on visit
-		dialog `You have landed on <planet>, but you have yet to scout out all the marked systems. Visit all the systems marked on your map before returning.`
+		dialog `你已降落在<planet>，但尚未侦查所有标记星系。在返回前，先访问星图上所有标记星系。`
 	on complete
 		payment 20000 180
 		dialog phrase "free worlds scanner payment"
@@ -98,8 +98,8 @@ mission "FW Scout Run [1]"
 mission "FW Scout Run [2]"
 	job
 	repeat
-	name `Scouting Run`
-	description `Fly through the <waypoints> systems and scout them out for Navy activity. Then return to <destination> by <date> where your ship's scanner logs will be analyzed. Payment is <payment>.`
+	name `侦察任务`
+	description `飞越<waypoints>星系，侦查其中的海军活动。然后在<date>之前返回<destination>，那里将分析你飞船的扫描日志。酬劳为<payment>。`
 	deadline
 	to offer
 		random < 20
@@ -118,7 +118,7 @@ mission "FW Scout Run [2]"
 		government "Republic"
 		not system "Graffias"
 	on visit
-		dialog `You have landed on <planet>, but you have yet to scout out all the marked systems. Visit all the systems marked on your map before returning.`
+		dialog `你已降落在<planet>，但尚未侦查所有标记星系。在返回前，先访问星图上所有标记星系。`
 	on complete
 		payment 30000 180
 		dialog phrase "free worlds scanner payment"
@@ -127,13 +127,13 @@ mission "FW Scout Run [2]"
 
 phrase "free worlds convoy supplies payment"
 	word
-		`The captain of the <npc> thanks you for escorting them safely, and the shipyard pays you <payment> for helping to deliver the supplies.`
+		`<npc>的船长感谢您安全护送他们，造船厂因您协助运送补给而向您支付<payment>报酬。`
 
 mission "FW Convoy Defense [0]"
 	job
 	repeat
-	name `Convoy to <planet>`
-	description `The shipyard on <planet> is in need of more supplies for building warships. Immediately escort a convoy of ships to <destination> by <date>. Payment is <payment>.`
+	name `护送车队前往<planet>`
+	description `<planet>的造船厂需要更多物资来建造战舰。立即在<date>之前护送一支船队前往<destination>。报酬为<payment>。`
 	deadline 1 1
 	to offer
 		random < 30
@@ -191,13 +191,13 @@ mission "FW Convoy Defense [0]"
 		payment 270000
 		dialog phrase "free worlds convoy supplies payment"
 	on visit
-		dialog `You have reached <planet>, but you left part or all of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已抵达 <planet>，但部分或全部护航队被你甩下了！最好先离开，等待他们到达这个星系。`
 
 mission "FW Convoy Defense [1]"
 	job
 	repeat
-	name `Convoy to <planet>`
-	description `The shipyard on <planet> is in need of more supplies for building warships. Immediately escort a convoy of ships to <destination> by <date>. Payment is <payment>.`
+	name `护送车队前往<planet>`
+	description `<planet>的造船厂需要更多物资来建造战舰。立即在<date>之前护送一支船队前往<destination>。报酬为<payment>。`
 	deadline 1 1
 	to offer
 		random < 20
@@ -255,13 +255,13 @@ mission "FW Convoy Defense [1]"
 		payment 270000
 		dialog phrase "free worlds convoy supplies payment"
 	on visit
-		dialog `You have reached <planet>, but you left part or all of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已抵达 <planet>，但部分或全部护航队被你甩下了！最好先离开，等待他们到达这个星系。`
 
 mission "FW Convoy Defense [2]"
 	job
 	repeat
-	name `Convoy to <planet>`
-	description `The shipyard on <planet> is in need of more supplies for building warships. Immediately escort a convoy of ships to <destination> by <date>. Payment is <payment>.`
+	name `护送车队前往<planet>`
+	description `<planet>的造船厂需要更多物资来建造战舰。立即在<date>之前护送一支船队前往<destination>。报酬为<payment>。`
 	deadline 1 1
 	to offer
 		random < 10
@@ -319,15 +319,15 @@ mission "FW Convoy Defense [2]"
 		payment 270000
 		dialog phrase "free worlds convoy supplies payment"
 	on visit
-		dialog `You have reached <planet>, but you left part or all of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已抵达 <planet>，但部分或全部护航队被你甩下了！最好先离开，等待他们到达这个星系。`
 
 
 
 mission "FW Reinforcements [0]"
 	job
 	repeat
-	name `Reinforcements to <planet>`
-	description `These <bunks> Free Worlds soldiers require immediate transport to <destination> by <date> in order to reinforce the frontlines. Payment is <payment>.`
+	name `增援<planet>`
+	description `这些<bunks>名自由世界士兵需要立即在<date>前运送至<destination>，以增援前线。报酬为<payment>。`
 	deadline 2 1
 	passengers 5 5 .2
 	to offer
@@ -350,13 +350,13 @@ mission "FW Reinforcements [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 180
-		dialog `You unload the Free Worlds soldiers into the busy spaceport of <planet>, and collect your payment of <payment>.`
+		dialog `你将自由世界的士兵送达<planet>繁忙的太空港，并收取了<payment>的报酬。`
 
 mission "FW Reinforcements [1]"
 	job
 	repeat
-	name `Reinforcements to <planet>`
-	description `These <bunks> Free Worlds soldiers require immediate transport to <destination> by <date> in order to reinforce the frontlines. Payment is <payment>.`
+	name `增援<planet>`
+	description `这些<bunks>名自由世界士兵需要立即在<date>前运送至<destination>，以增援前线。报酬为<payment>。`
 	deadline 2 1
 	passengers 5 5 .2
 	to offer
@@ -379,7 +379,7 @@ mission "FW Reinforcements [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 180
-		dialog `You unload the Free Worlds soldiers into the busy spaceport of <planet>, and collect your payment of <payment>.`
+		dialog `你将自由世界的士兵送达<planet>繁忙的太空港，并收取了<payment>的报酬。`
 
 
 phrase "free worlds thanked resupply payment"
@@ -388,14 +388,14 @@ phrase "free worlds thanked resupply payment"
 	word
 		` `
 	word
-		`A Free Worlds captain stationed on <planet> thanks you for delivering the much-needed supplies.`
-		`The Free Worlds captains stationed on <planet> thank you for delivering the much-needed supplies.`
+		`驻扎在<planet>的一名自由世界船长感谢你送来这批急需的物资。`
+		`驻扎在<planet>的自由世界船长们感谢你送来这批急需的物资。`
 
 mission "FW Outfitter Resupply [0]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商补给即将耗尽，需要立即补充。请在<date>之前将<tons>吨拆解好的<commodity>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 5 2 .1
 	to offer
@@ -417,8 +417,8 @@ mission "FW Outfitter Resupply [0]"
 mission "FW Outfitter Resupply [1]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商库存不足，需要立即补货。请在<date>之前运送<tons>吨拆解后的<commodity>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 5 2 .1
 	to offer
@@ -440,8 +440,8 @@ mission "FW Outfitter Resupply [1]"
 mission "FW Outfitter Resupply [2]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商补给即将耗尽，需要立即补充。请在<date>之前将<tons>吨拆解好的<commodity>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 5 2 .1
 	to offer
@@ -463,8 +463,8 @@ mission "FW Outfitter Resupply [2]"
 mission "FW Bulk Outfitter Resupply [0]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商补给即将耗尽，需要立即补充。请在<date>之前将<tons>吨拆解好的<commodity>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 25 2 .05
 	to offer
@@ -486,8 +486,8 @@ mission "FW Bulk Outfitter Resupply [0]"
 mission "FW Bulk Outfitter Resupply [1]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商补给即将耗尽，需要立即补充。请在<date>之前将<tons>吨拆解好的<commodity>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 25 2 .05
 	to offer
@@ -509,8 +509,8 @@ mission "FW Bulk Outfitter Resupply [1]"
 mission "FW Bulk Outfitter Resupply [2]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The outfitter on <planet> is running low on supplies and needs to be restocked immediately. Deliver <tons> of disassembled <commodity> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `<planet>上的装备商补给即将耗尽，需要立即补充。请在<date>之前将<tons>吨拆解好的<commodity>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Free Worlds Outfits" 25 2 .05
 	to offer
@@ -532,8 +532,8 @@ mission "FW Bulk Outfitter Resupply [2]"
 mission "FW Frontline Resupply [0]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Food" 5 2 .1
 	to offer
@@ -561,8 +561,8 @@ mission "FW Frontline Resupply [0]"
 mission "FW Frontline Resupply [1]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Medical" 5 2 .1
 	to offer
@@ -590,8 +590,8 @@ mission "FW Frontline Resupply [1]"
 mission "FW Frontline Resupply [2]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Heavy Metals" 5 2 .1
 	to offer
@@ -619,8 +619,8 @@ mission "FW Frontline Resupply [2]"
 mission "FW Frontline Resupply [3]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Military" 5 2 .1
 	to offer
@@ -649,8 +649,8 @@ mission "FW Frontline Resupply [3]"
 mission "FW Bulk Frontline Resupply [0]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Food" 25 2 .95
 	to offer
@@ -678,8 +678,8 @@ mission "FW Bulk Frontline Resupply [0]"
 mission "FW Bulk Frontline Resupply [1]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Medical" 25 2 .95
 	to offer
@@ -707,8 +707,8 @@ mission "FW Bulk Frontline Resupply [1]"
 mission "FW Bulk Frontline Resupply [2]"
 	job
 	repeat
-	name `Resupply <planet>`
-	description `The frontlines of the war are in need of a resupply. Immediately deliver <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `补给 <planet>`
+	description `战争前线急需补给。请立即在<date>之前将<cargo>运送至<destination>。报酬为<payment>。`
 	deadline 2 1
 	cargo "Military" 25 2 .95
 	to offer
@@ -737,13 +737,13 @@ mission "FW Bulk Frontline Resupply [2]"
 
 phrase "free worlds thanked care package"
 	word
-		`You deliver the care package of <commodity> to the specified address and explain to the people where the care package came from. They thank you for delivering it, and you collect your payment of <payment>.`
+		`你将装有<commodity>的援助包裹送到指定地址，并向接收者说明包裹的来源。他们感谢你送达，你收取了<payment>的报酬。`
 
 mission "FW Care Package to Republic [0]"
 	job
 	repeat
-	name `Care package to <planet>`
-	description `A citizen of the Free Worlds are worried about family members in the Republic. Immediately deliver a care package of <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `送往<planet>的关怀包裹`
+	description `一位自由世界的公民担心在共和国的家人。请在<date>之前立即将一份<cargo>的关怀包裹送至<destination>。报酬为<payment>。`
 	deadline 1 1
 	cargo random 1 3
 	to offer
@@ -764,8 +764,8 @@ mission "FW Care Package to Republic [0]"
 mission "FW Care Package to Republic [1]"
 	job
 	repeat
-	name `Care package to <planet>`
-	description `A citizen of the Free Worlds are worried about family members in the Republic. Immediately deliver a care package of <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `送往<planet>的关怀包裹`
+	description `一位自由世界的公民担心在共和国的家人。请在<date>之前立即将一份<cargo>的关怀包裹送至<destination>。报酬为<payment>。`
 	deadline 1 1
 	cargo random 1 3
 	to offer
@@ -786,8 +786,8 @@ mission "FW Care Package to Republic [1]"
 mission "FW Care Package from Republic [0]"
 	job
 	repeat
-	name `Care package to <planet>`
-	description `A citizen of the Republic is worried about family members in the Free Worlds. Immediately deliver a care package of <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `送往<planet>的关怀包裹`
+	description `共和国的一位公民担心身在自由世界的家人。请在<date>之前立即将一份<cargo>的关怀包裹送至<destination>。报酬为<payment>。`
 	deadline 1 1
 	cargo random 1 3
 	to offer
@@ -808,8 +808,8 @@ mission "FW Care Package from Republic [0]"
 mission "FW Care Package from Republic [1]"
 	job
 	repeat
-	name `Care package to <planet>`
-	description `A citizen of the Republic is worried about family members in the Free Worlds. Immediately deliver a care package of <cargo> to <destination> by <date>. Payment is <payment>.`
+	name `送往<planet>的关怀包裹`
+	description `共和国的一位公民担心身在自由世界的家人。请在<date>之前立即将一份<cargo>的关怀包裹送至<destination>。报酬为<payment>。`
 	deadline 1 1
 	cargo random 1 3
 	to offer
@@ -831,13 +831,13 @@ mission "FW Care Package from Republic [1]"
 
 phrase "free worlds thanked refugee transport"
 	word
-		`Your passengers thank you graciously for taking them away from the dangerous frontlines of the war. You wish them the best of luck on <planet>, and collect your payment of <payment>.`
+		`你的乘客们由衷感谢你带他们远离危险的战争前线。你祝愿他们在<planet>上一切顺利，并收取了<payment>作为报酬。`
 
 mission "FW Refugees [0]"
 	job
 	repeat
-	name `Refugees to <planet>`
-	description `These <bunks> passengers would like to escape the frontlines of the war and immediately settle on <destination> by <date>. Payment is <payment>.`
+	name `前往<planet>的难民`
+	description `这些<bunks>名乘客希望逃离战争前线，并在<date>之前立即定居于<destination>。报酬为<payment>。`
 	deadline 2 1
 	passengers 2 10 .9
 	to offer
@@ -865,8 +865,8 @@ mission "FW Refugees [0]"
 mission "FW Refugees [1]"
 	job
 	repeat
-	name `Refugees to <planet>`
-	description `These <bunks> passengers would like to escape the frontlines of the war and immediately settle on <destination> by <date>. Payment is <payment>.`
+	name `前往<planet>的难民`
+	description `这些<bunks>名乘客希望逃离战争前线，并在<date>之前立即定居于<destination>。报酬为<payment>。`
 	deadline 2 1
 	passengers 2 10 .9
 	to offer
@@ -894,8 +894,8 @@ mission "FW Refugees [1]"
 mission "FW Refugees [2]"
 	job
 	repeat
-	name `Refugees to <planet>`
-	description `These <bunks> passengers would like to escape the frontlines of the war and immediately settle on <destination> by <date>. Payment is <payment>.`
+	name `前往<planet>的难民`
+	description `这些<bunks>名乘客希望逃离战争前线，并在<date>之前立即定居于<destination>。报酬为<payment>。`
 	deadline 2 1
 	passengers 2 10 .9
 	to offer
@@ -923,8 +923,8 @@ mission "FW Refugees [2]"
 mission "FW Bulk Refugees [0]"
 	job
 	repeat
-	name `Refugees to <planet>`
-	description `These <bunks> passengers would like to escape the frontlines of the war and immediately settle on <destination> by <date>. Payment is <payment>.`
+	name `前往<planet>的难民`
+	description `这些<bunks>名乘客希望逃离战争前线，并在<date>之前立即定居于<destination>。报酬为<payment>。`
 	deadline 2 1
 	passengers 5 5 .5
 	to offer

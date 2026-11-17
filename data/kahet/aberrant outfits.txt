@@ -55,7 +55,7 @@ outfit "Aberrant Spiker"
 		"shield damage" 1270
 		"corrosion damage" 3
 		"missile strength" 31
-	description "Spikes grow on the backs of many Aberrant variants, made of a seemingly random assortment of materials both metallic and mineral in nature. This device appears to allow an Aberrant to launch these spikes as an offensive weapon, but just how they are able to guide and propel themselves through space is a mystery that a cursory examination of this outfit does not reveal."
+	description "许多异变体变种的背部都长有尖刺，这些尖刺由看似随机组合的金属和矿物材料构成。这件装备似乎能让异变体将这些尖刺作为进攻性武器发射出去，但关于它们如何在太空中引导和推进自己，仅凭对这件装备的粗略检查仍是一个未解之谜。"
 
 effect "spiker trail"
 	sprite "effect/blood"
@@ -110,8 +110,8 @@ outfit "Nucleolysis Beam"
 		"heat damage" -9.1
 		"fuel damage" 1.66
 		"corrosion damage" 0.015
-	description "This beam weapon creates a field inside which otherwise stable atomic nuclei rapidly decay. This effect seems to be inversely proportional to the mass of the nucleus, causing isotopes like deuterium to break down at a higher rate than heavier elements. As the resultant products have a higher energy state than the original nucleus, the beam cools its target, defying conventional thermodynamics."
-	description "In practice, this beam can deplete a ship's deuterium fuel while causing the very matter of its hull to decay."
+	description "这种光束武器能制造一个场，在该场中原本稳定的原子核会迅速衰变。该效应似乎与原子核质量成反比，导致氘等同位素的分解速率高于较重元素。由于生成产物的能量状态高于原始原子核，该光束会冷却其目标，违背了传统热力学定律。"
+	description "实际上，这种光束能够消耗飞船的氘燃料，同时导致其船体物质发生衰变。"
 
 outfit "Telescopic Antimissile"
 	category "Turrets"
@@ -134,8 +134,8 @@ outfit "Telescopic Antimissile"
 		"lifetime" 1
 		"reload" 15
 		"firing energy" 90
-	description "Oddly enough, this antimissile system resembles an array of scanners and telescopes. Such an assortment of sensing devices was certainly not intended to be used as a weapon, but somehow enough power has been pumped through this scanner's optics to make it a potent antimissile defense."
-	description "The various lenses and mirrors that make up a large telescope seem to be used to focus the emitted beam, giving this antimissile system a very long range."
+	description "奇怪的是，这种反导弹系统看起来像是一组扫描仪和望远镜的阵列。如此多样的传感设备显然本不应用作武器，但不知何故，通过向该扫描仪的光学元件注入足够能量，它已变成一种强大的反导弹防御装置。"
+	description "构成大型望远镜的各种透镜和反射镜似乎用于聚焦发射的射束，使得这个反导弹系统拥有非常远的射程。"
 
 
 # Systems:
@@ -153,7 +153,7 @@ outfit "Anomalous Shield Restorer"
 	"shield energy" 6
 	"flotsam chance" 0.05
 	"unplunderable"
-	description "This emitter produces no detectable fields of any kind, but a shield springs into existence whenever any danger comes near."
+	description "这个发射器不产生任何可探测的场，但每当有危险接近时，就会有一个护盾凭空出现。"
 
 
 # Power:
@@ -171,13 +171,13 @@ outfit "Antimatter Power Cell"
 	"heat generation" 4.9
 	"flotsam chance" 0.05
 	"unplunderable"
-	description "This strange device seems to be partially organic in nature, slowly leaking antiprotons through a constantly-regrowing spongelike structure to release energy. The amount of power produced is inconsistent with the amount of matter and antimatter annihilated, generating more energy than should be possible."
+	description "这个奇特的装置似乎部分源于有机体，通过一个不断再生的海绵状结构缓慢泄漏反质子以释放能量。其产生的能量与湮灭的物质和反物质数量不符，超出了理论上可能达到的能级。"
 
 
 # Special
 
 outfit "Anomalous Mass"
-	plural "Anomalous Masses"
+	plural "异常质量体"
 	category "Special"
 	cost 800000
 	thumbnail "outfit/anomalous mass"
@@ -189,4 +189,4 @@ outfit "Anomalous Mass"
 	"drag" 0.04
 	"inertia reduction" 0.01
 	"unplunderable"
-	description "Found with widely varying properties in different mechanisms of an Aberration, this mass of glassy, fleshy material is characterized by the very difficulty of classifying its composition. Webs of anomalous material embedded in the mass seem not to be composed of atomic matter as the Avgi know it, but by something entirely different, which resists any attempts to probe its makeup. This is thought to enable many of the Aberrants' more baffling abilities, for lack of any other explanation."
+	description "这种玻璃质、肉质材料在不同异变体机制中呈现差异极大的特性，其成分极难归类。嵌入其中的异常物质网似乎并非由阿夫吉所知的原子物质构成，而是某种完全不同的存在，任何探查其构成的尝试都会遭到抵抗。由于缺乏其他解释，人们认为这赋予了异变体许多更令人费解的能力。"

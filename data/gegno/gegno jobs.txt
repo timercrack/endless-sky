@@ -15,8 +15,8 @@
 mission "Gegno Asteroid Mining - Aluminum"
 	job
 	repeat
-	name "Gather 10 tons of aluminum"
-	description "Mine and collect 10 tons of aluminum, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨铝"
+	description "开采并收集10吨铝，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -24,7 +24,7 @@ mission "Gegno Asteroid Mining - Aluminum"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of aluminum in your cargo hold. Make sure to mine 10 tons of aluminum and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨铝。降落前，请确保已开采并收集10吨铝装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 36000
@@ -35,8 +35,8 @@ mission "Gegno Asteroid Mining - Aluminum"
 mission "Gegno Asteroid Mining - Copper"
 	job
 	repeat
-	name "Gather 10 tons of copper"
-	description "Mine and collect 10 tons of copper, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨铜"
+	description "开采并收集10吨铜，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -44,7 +44,7 @@ mission "Gegno Asteroid Mining - Copper"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of copper in your cargo hold. Make sure to mine 10 tons of copper and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨铜。降落前，请确保已开采并收集10吨铜装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 60000
@@ -55,8 +55,8 @@ mission "Gegno Asteroid Mining - Copper"
 mission "Gegno Asteroid Mining - Iron"
 	job
 	repeat
-	name "Gather 10 tons of iron"
-	description "Mine and collect 10 tons of iron, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨铁"
+	description "开采并收集10吨铁，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -64,7 +64,7 @@ mission "Gegno Asteroid Mining - Iron"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of iron in your cargo hold. Make sure to mine 10 tons of iron and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨铁。降落前，请确保已开采并收集10吨铁装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 24000
@@ -75,8 +75,8 @@ mission "Gegno Asteroid Mining - Iron"
 mission "Gegno Asteroid Mining - Lead"
 	job
 	repeat
-	name "Gather 10 tons of lead"
-	description "Mine and collect 10 tons of lead, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨铅"
+	description "开采并收集10吨铅，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -84,7 +84,7 @@ mission "Gegno Asteroid Mining - Lead"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of lead in your cargo hold. Make sure to mine 10 tons of lead and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨铅。降落前，请确保已开采并收集10吨铅装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 18000
@@ -95,8 +95,8 @@ mission "Gegno Asteroid Mining - Lead"
 mission "Gegno Asteroid Mining - Silicon"
 	job
 	repeat
-	name "Gather 10 tons of silicon"
-	description "Mine and collect 10 tons of silicon, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨硅"
+	description "开采并收集10吨硅，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -104,7 +104,7 @@ mission "Gegno Asteroid Mining - Silicon"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of silicon in your cargo hold. Make sure to mine 10 tons of silicon and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨硅。降落前，请确保已开采并收集10吨硅装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 8000
@@ -115,8 +115,8 @@ mission "Gegno Asteroid Mining - Silicon"
 mission "Gegno Asteroid Mining - Titanium"
 	job
 	repeat
-	name "Gather 10 tons of titanium"
-	description "Mine and collect 10 tons of titanium, then bring the minerals back to the Gegno at <origin>."
+	name "采集10吨钛"
+	description "开采并收集10吨钛，然后将矿物带回至 <origin> 的格诺处。"
 	source "Tschyss"
 	to offer
 		has "Gegno Asteroid Mining Prologue: done"
@@ -124,7 +124,7 @@ mission "Gegno Asteroid Mining - Titanium"
 	to accept
 		"cargo space" > 10
 	on visit
-		dialog "You've returned to <origin>, but do not have 10 tons of titanium in your cargo hold. Make sure to mine 10 tons of titanium and collect it into your cargo before you land."
+		dialog "你已回到了 <origin>，但你的货舱中并没有10吨钛。降落前，请确保已开采并收集10吨钛装入货舱。"
 	on complete
 		"gegno: mining jobs" ++
 		payment 50000

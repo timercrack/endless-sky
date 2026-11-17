@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "vyu-Ir"
-	noun "entity"
+	noun "实体"
 	sprite "ship/vyuir/vyuir"
 		"frame rate" 4
 	thumbnail "thumbnail/vyuir"
@@ -84,4 +84,4 @@ ship "vyu-Ir"
 	explode "small explosion" 60
 	explode "tiny explosion" 120
 	"final explode" "final explosion large"
-	description `The vyu-Ir is an ancient ship of the Vyu, one of several chambers of the Rulei. It is not known whether or not this was their final ship-class, or one of many, but the technology found on it may represent the height of the Rulei's advancements, as well as the cause of their downfall.`
+	description `维尤-艾尔是维尤族的一艘古老飞船，也是鲁莱的多个分支之一。无人知晓这究竟是他们的最后一个舰级，还是众多舰级之一，但船上发现的技术或许代表了鲁莱文明的巅峰成就，同时也是其覆灭的根源。`

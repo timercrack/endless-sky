@@ -25,12 +25,12 @@ mission "remembrance day"
 	to offer
 		has "event: remembrance day"
 	on offer
-		log "Factions" "Alphas" `The Alphas were designed hundreds of years ago as genetically engineered super-soldiers, with no compassion or empathy. They escaped from their masters, enslaved entire planets, and commanded massive fleets of ships. Eventually they were defeated, and were either killed or went into hiding. They can be recognized by their green, photosynthetic skin.`
+		log "Factions" "Alphas" `阿尔法人是数百年前作为基因工程超级士兵被设计出来的，完全没有同情心或同理心。他们逃离了主人，奴役了整个星球，并指挥着庞大的飞船舰队。最终他们被击败，要么被杀，要么躲藏起来。他们可以通过绿色的、可进行光合作用的皮肤来识别。`
 			`Alphas can live for centuries, and it is likely that many of them have survived, hiding out on anarchist worlds or somewhere beyond human space. Fortunately, they reproduce much more slowly than ordinary humans do.`
 		conversation
-			`Today, throughout human space, is Remembrance Day, the anniversary of the beginning of the Alpha Wars more than five centuries ago. The Alphas were genetically engineered soldiers, with superhuman agility and intelligence, and a complete lack of compassion or empathy. At the height of the War, dozens of planets had been enslaved by the Alphas.`
-			`	Remembrance Day commemorates the beginning of the war, rather than its end, as a perpetual reminder that the war is not over: although the Alphas were defeated, some of them escaped and remained in hiding, and they and their offspring are presumed to still be present in the galaxy today.`
-			`	Since the Alpha War, genetic resequencing technology has been very tightly controlled. Because the Alphas were the product of experimental genetic manipulation rather than natural evolution, it is believed that their genes are less robust than true human beings, and they are almost unable to have viable offspring without access to special technology. Therefore, most Alpha enclaves that have been discovered since the War have had very small populations, no more than a few dozen.`
+			`今天，在整个人类空间，是追忆日，即五个多世纪前阿尔法战争爆发的周年纪念日。阿尔法人是基因工程改造的士兵，拥有超人的敏捷和智力，完全缺乏同情心或同理心。在战争的高峰期，数十颗行星曾被阿尔法人奴役。`
+			`	追忆日纪念的是战争的开始，而非结束，以此不断提醒人们战争并未结束：尽管阿尔法人被击败，但其中一些人逃脱并隐匿了起来，据推测，他们及其后代至今仍存在于银河系中。`
+			`	自阿尔法战争以来，基因重测序技术受到了严格控制。由于阿尔法人是实验性基因操纵的产物，而非自然进化，人们认为他们的基因不如真正的人类强健，且如果没有特殊技术，他们几乎无法生育可存活的后代。因此，战后发现的绝大多数阿尔法人飞地人口都非常少，不超过几十人。`
 			`	In these days when the Navy ensures peace throughout much of the galaxy, on many worlds the Alphas are treated as nothing more than a bogeyman story to frighten children. Because the most striking physical feature of the Alphas was their photosynthetic skin, on some worlds kids even run around wearing green face paint on Remembrance Day, trying to frighten people. But on other worlds, especially on the fringes of space where the Navy seldom patrols, the Alphas are still spoken of with fear.`
 				decline
 
@@ -129,22 +129,22 @@ event "war begins"
 		fleet "Large Republic" 1300
 		fleet "Republic Logistics" 3000
 	planet "Geminus"
-		description `Until recently, Geminus was home to the Republic Navy Yard, the largest shipyard in human space. Now, there is nothing left of the shipyard but a gaping crater in the ground, from the recent terrorist bombing.`
-		spaceport `Fortunately, the spaceport and residential areas survived the bombing, which was focused only on the Navy Yard and happened early in the morning, when very few people were at work.`
-		spaceport `The Navy officers who are in charge here have no time for anyone who is not enlisted in the Navy and participating in the ongoing investigation.`
+		description `不久前，杰米努斯还是共和国海军船坞的所在地，那是人类空间最大的造船厂。如今，在最近的恐怖爆炸袭击后，船坞已荡然无存，只在地面上留下一个巨大的弹坑。`
+		spaceport `万幸的是，空间港与居民区在那场轰炸中躲过了一劫——袭击仅仅针对海军船坞，且发生在大清早，当时在岗工作的人极少。`
+		spaceport `这里的海军主管军官根本无暇理会任何非海军现役、或是未参与当前调查的人员。`
 		shipyard clear
 		outfitter clear
 		"required reputation" 100
 	planet "Martini"
-		description `Martini is a world of exotic beaches and perfect weather. The Republic's central bank and the Galactic Stock Exchange were previously headquartered here, before a terrorist attack destroyed them and a large portion of the capital city as well.`
-		description `	Currently, a massive rescue and evacuation operation is underway in and around the capital to find and treat survivors and contain the radiation. As to be expected, the planet's supplies are running dangerously low, and what remains of Martini's government has called for civilian ships to help deliver goods and provisions for the operation.`
-		spaceport `Instead of the immaculate spaceport that Martini once sported, this temporary spaceport consists of randomly-scattered makeshift landing areas, in order to support the large number of Navy and civilian ships assisting with the rescue and evacuation operation.`
+		description `马提尼是一个拥有异国风情海滩和完美天气的世界。共和国中央银行和银河证券交易所曾将总部设在这里，直到一次恐怖袭击摧毁了它们以及首都的大部分地区。`
+		description `	目前，首都及周边地区正在开展大规模救援与疏散行动，以寻找并救治幸存者，并控制辐射扩散。不出所料，该星球的补给品正濒临危急匮乏，马提尼的残存政府已呼吁民用飞船协助运送物资和给养，以支持这次行动。`
+		spaceport `不同于马提尼曾引以为傲的那座整洁无瑕的空间港，如今这座临时空间港由零散分布的临时停机区拼凑而成，以支撑协助搜救与疏散行动的大批海军与民用舰船。`
 		"required reputation" 100
 		security .9
 	planet "Bourne"
-		description `Bourne is a well-developed industrial world that was first settled four centuries ago. Its cities are home to some of the richest individuals in this section of the galaxy, but also home to tens of thousands of homeless people, and many others whose factory jobs are barely providing enough to make ends meet.`
-		description `	Outside the cities, the climate is somewhat dry, but the deep valleys and some coastal regions are suitable for farming. Very little of the planet remains that is untouched by human hands.`
-		description `	Bourne is also the seat of government for the newly-formed Free Worlds.`
+		description `伯恩是一颗高度发达的工业星球，早在四个世纪前就迎来了第一批定居者。这里的城市既是这片星区最富有之人的家园，也是成千上万无家可归者的容身之所，还有许多靠着工厂微薄薪水勉强糊口的人。`
+		description `	城市之外的气候略显干燥，但幽深的山谷和部分沿海地区适宜农耕。如今这颗星球上几乎已经没有未被人类染指的土地了。`
+		description `	伯恩也是新成立的自由世界的政府所在地。`
 
 mission "event: war begins"
 	landing
@@ -155,7 +155,7 @@ mission "event: war begins"
 	to offer
 		has "event: war begins"
 	on offer
-		log "Factions" "Free Worlds" `The Free Worlds are a collection of local governments in the southern galactic arm who have declared independence from the Republic after Parliament refused to address issues they raised about trade tariffs, taxation, and representation. They may be linked to the recent terrorist attacks on the Navy Yard and the galactic stock exchange, although they deny responsibility.`
+		log "Factions" "Free Worlds" `自由世界是南银河臂的一批地方政府集合，在议会拒绝处理他们提出的关于贸易关税、税收和代表权的问题后，他们宣布从共和国独立。他们可能与最近针对海军船坞和银河证券交易所的恐怖袭击有关，尽管他们否认责任。`
 		conversation
 			branch geminus
 				has "flagship planet: Geminus"
@@ -163,83 +163,83 @@ mission "event: war begins"
 			branch martini
 				has "flagship planet: Martini"
 
-			`The moment you step off your ship you realize something is very wrong. The spaceport is eerily quiet, and a large crowd of people is gathered around a video screen in the local bar.`
-			`	You ask what is happening, and someone explains. Recently, a collection of planetary governments in the southern galactic arm have sent the Republic what amounted to an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, in the early morning, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`你刚走下飞船，就意识到情况非常不对劲。太空港里静得有些诡异，一大群人聚集在当地酒吧的屏幕前。`
+			`	你问发生了什么，有人解释了。最近，银河旋臂南部的一群行星政府向共和国发出了最后通牒：拒绝纳税，直到行星代表选举改革。这个自称为“自由世界”的团体还要求立即重新评估所有现有贸易关税和飞行员注册法规。议会断然拒绝考虑任何这些要求。`
+			`	随后在清晨，杰米努斯和马提尼发生核爆炸，摧毁了共和国海军船坞和银河证券交易所，瘫痪了共和国的军事与经济中心。尽管袭击的时机以及这些袭击非常符合他们的利益，但“自由世界”否认对袭击承担任何责任。`
+			`	除非能找到恐怖分子或者他们主动投案，否则内战一触即发。你买下飞船还不到一年，而银河系已经在你面前开始分崩离析。`
 				decline
 			
 			label geminus
 			action
 				set "bombing witness"
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. A liaison officer is herding a group of civilians toward a low bunker beside a nearby landing pad. On the landing pad itself, soldiers are struggling to set up a heavy plasma cannon mounted on an anti-aircraft turret.`
-			`	With the civilians safely in the bunker, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got a Carrier squadron coming in, and we need all the pads free."`
+			`	你刚踏下飞船，就意识到情况非常不对劲。重武装的海军人员列队在太空港大楼出口两侧，更多士兵在港口巡逻。一名联络官正将一群平民赶向附近降落坪旁的低矮掩体。降落坪上，士兵们正在费力架设一门安装在防空炮塔上的重型等离子炮。`
+			`	平民安全进入掩体后，联络官转向你。“抱歉，船长，但我必须请你离开这个星球。我们有一支航母中队即将抵达，所有降落坪都必须空出来。”`
 			choice
-				`	"Of course."`
+				`	“当然可以。”`
 					goto summary
-				`	"What's happening?"`
-				`	"Is this some sort of training exercise?"`
-				`	"What makes you think you can just order me to leave?"`
+				`	“发生什么事了？”`
+				`	“这是某种训练演习吗？”`
+				`	“你怎么能命令我离开？”`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, the Navy Yard here on Geminus was bombed along with the Galactic Stock Exchange on Martini. We don't know if it's the work of the 'Free Worlds' rebels or not, and I can't promise you there aren't going to be more attacks. All I know is that whoever did this used nuclear weapons, so we've got three thousand injured people we need to get to off-planet medical care immediately."`
+			`	联络官叹了口气。“船长，恐怕这颗星球已进入紧急状态。昨天，南部一些叛乱行星决定脱离共和国。向议会发送了最后通牒，要求选举和税收改革、自由贸易，都是他们抱怨了好多年的老调。不是什么大事。但三小时前，杰米努斯的海军船坞和马提尼的银河证券交易所被炸了。我们不知道是不是‘自由世界’叛军干的，也不能保证不会有更多袭击。我只知道袭击者用了核武器，所以这里有三千名伤员需要立即送往星球外治疗。”`
 			choice
-				`	"I'll get out of the way, then."`
+				`	“那我这就让路。”`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`	“抱歉，我不知道。我尽快起飞，不给你们添麻烦。”`
 					goto end
-				`	"Is there any way I can help?"`
+				`	“有什么我能帮忙的吗？”`
 					goto help
 
 			label martini
 			action
 				set "bombing witness"
 
-			`	As you descend towards the surface of Martini, you are met by an uncharacteristic layer of thick cloud, almost smoky in appearance. The clouds completely obscure Martini's main spaceport, as well as the rest of the capital city. Perhaps because of this, the landing controller instructs you to make your way to an auxiliary spaceport about ten kilometers from the city limits.`
-			`	The moment you step off your ship you realize something is very wrong. Heavily armed Navy personnel flank either side of the spaceport building's exit, and more soldiers are patrolling the port. The main road to the city echoes with sirens, and a liaison officer is herding a group of civilians toward a military transport parked precariously in a nearby field. Still more people are stretched out on cots in a makeshift field hospital in the center of the spaceport.`
-			`	As soon as the last mobile civilian is safely aboard the transport, the liaison officer turns to face you. "I'm sorry, Captain, but I'm going to have to ask you to leave the planet. We've got another transport fleet coming in, and we need all the pads free."`
+			`	在向马提尼地表下降时，你遇到一层异常厚重的云层，看起来几乎像烟雾。云层完全遮蔽了马提尼的主太空港以及首都的其他部分。也许正因如此，起降控制员指示你前往市区外约十公里的辅助太空港。`
+			`	你刚踏下飞船，就意识到情况非常不对劲。重武装的海军人员列队在太空港大楼出口两侧，更多士兵在港口巡逻。通往城市的主干道上警笛声回荡，一名联络官正将一群平民赶向停在附近田地里的一架军用运输机。太空港中央的临时野战医院里，更多的伤员躺在行军床上。`
+			`	最后一名能行动的平民安全登上运输船后，联络官转向你。“抱歉，船长，但我不得不请您离开这颗星球。我们还有另一支运输舰队即将抵达，需要空出所有的降落坪。”`
 			choice
-				`	"Of course."`
+				`	“当然可以。”`
 					goto summary
-				`	"What's happening?"`
-				`	"What makes you think you can just order me to leave?"`
+				`	“发生什么事了？”`
+				`	“你怎么能命令我离开？”`
 					goto noncompliance
 
-			`	The liaison officer sighs. "Captain, I'm afraid the planet is in a state of emergency. Yesterday, some rogue planets down south decided they wanted to secede from the Republic. Sent Parliament an ultimatum, wanted electoral and tax reform, free trade, all the same things they've been complaining about for years. No big deal. Three hours ago, though, someone - quite possibly this same 'Free Worlds' group - dropped a nuclear bomb on the Galactic Stock Exchange right here on Martini. At least, we presume that the Stock Exchange was their target, since the bomb took about a quarter of the city with it, as well as the main spaceport and half of the planet's medical resources. We've got more than a million injured people here and another five million we need to evacuate. To top it off, the terrorists also bombed the Navy Yard on Geminus, which means we don't have enough personnel available to both run the evacuation and deal with other civilians."`
+			`	联络官叹了口气。“船长，恐怕这颗星球已进入紧急状态。昨天，南部一些叛乱行星决定脱离共和国。向议会发送了最后通牒，要求选举和税收改革、自由贸易，都是他们抱怨了好多年的老调。不是什么大事。但三小时前，有人——很可能就是同一个‘自由世界’组织——在马提尼的银河证券交易所投下了一枚核弹。至少我们推测证券交易所是他们的目标，因为炸弹摧毁了城市大约四分之一区域，连同主太空港和该星球一半的医疗资源。我们这里有一百多万伤员，还有五百万人需要疏散。更糟的是，恐怖分子还轰炸了杰米努斯的海军船坞，这意味着我们既没有足够人手进行疏散，也顾不上其他平民。”`
 			choice
-				`	"I'll get out of the way, then."`
+				`	“那我这就让路。”`
 					goto end
-				`	"Sorry, I didn't know. I'll be out of your hair as soon as I can lift off."`
+				`	“抱歉，我不知道。我尽快起飞，不给你们添麻烦。”`
 					goto end
-				`	"Is there any way I can help?"`
+				`	“有什么我能帮忙的吗？”`
 					goto help
 
 			label noncompliance
-			`	"Look, Captain. The government here on <planet> has declared a state of emergency, and that means that the spaceport is under martial law. I'm not sure how you managed to get landing clearance, but you shouldn't be here. We've got thousands of injured people to get off-planet, even if we ignore the potential for a major follow-up attack. If you refuse to comply, I will have you arrested by the military police, and your ship will be impounded. If your crew refuses to accept the change in captainship, they will be replaced by troops from the Naval Reserve Command. Think what you will, but we've got human lives to save here and we aren't going to stop just because some hotshot captain is feeling full of themself. Is that clear?"`
+			`	“听着，船长。<planet>的政府已经宣布进入紧急状态，这意味着太空港正处于戒严状态。我不知道你是怎么获得降落许可的，但你不该在这里。即使不考虑可能发生的大规模后续袭击，我们也有成千上万的伤员要送离星球。如果您拒绝配合，我会让宪兵逮捕您，您的飞船将被扣押。如果您的船员拒绝接受更换船长的决定，他们将被海军预备役指挥部的部队接替。随你怎么想，但我们这里有生命要救，绝不会因为某个自命不凡的船长就停手。明白了吗？”`
 			choice
-				`	"Yes, that's clear."`
+				`	“是的，明白了。”`
 					goto summary
-				`	"Sorry, I didn't know. You won't have any trouble from me."`
+				`	“抱歉，我不知道。我不会给你添麻烦的。”`
 					goto summary
-				`	"Yeah, right. No way are you going to seize my ship."`
+				`	“得了吧，你休想扣押我的飞船。”`
 			
-			`	The liaison officer glowers at you, then turns and signals to another soldier. Military police officers in full combat gear materialize behind you, grabbing you by the arms and handcuffing you tightly. As you're frogmarched toward a waiting bunker, you watch as the <ship> lifts off without you, leaving you stranded here. In the bunker, one of the soldiers who arrested you frisks you, seizing your pilot's license and handing it to a sergeant who stamps the words "Permanently Revoked" across it. With those two words, you are barred from space forever. It has been less than a year since you bought your ship, and already you have lost the right to use it as the galaxy falls apart on you.`
+			`	联络官怒视着你，然后转身向另一名士兵示意。全副武装的宪兵从你身后出现，反剪你的双臂并紧紧铐住。当你被强行押向等待着的掩体时，只能眼睁睁看着<ship>在没有你的情况下起飞，将你孤零零留在此地。在掩体内，其中一名逮捕你的士兵对你进行了搜身，收缴了你的飞行员执照并递给一位中士，中士在上面狠狠盖上了“永久吊销”的印章。这行字宣告你被永远禁足于太空。你买下飞船还不到一年，而就在银河系开始分崩离析之时，你已失去了驾驭它的权利。`
 				die
 
 			label summary
-			`	"Glad to hear it," they reply, turning to calm a group of hysterical Paradisians.`
-			`	Re-entering the <ship>, you take off and head for orbit, narrowly missing the Carrier squadron mentioned by the liaison officer. Only then do you see that you've left the video screen in your ship on, playing footage almost identical to what you saw on the ground not long ago. According to the newscaster, this debacle was all started yesterday, when a group of planets in the south of the galaxy sent the Republic Parliament an ultimatum: a refusal to pay taxes until reforms are made in the election of planetary representatives. This group, calling itself the "Free Worlds," has also asked for immediate reevaluation of all existing trade tariffs and regulations concerning pilot registration. Parliament outright refused to consider any of these demands.`
-			`	Then, only hours before you landed, nuclear explosions on Geminus and Martini destroyed the Republic Navy Yard and the Galactic Stock Exchange, crippling the military and economic center of the Republic. The "Free Worlds" disclaim any responsibility for the attacks, despite the timing and the fact that the attacks serve their purposes very well.`
-			`	Unless the terrorists can be found or turn themselves in, civil war is imminent. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`	“很高兴听你这么说，”他们回答，转身去安抚一群歇斯底里的帕拉迪斯人。`
+			`	你重新进入<ship>，起飞前往轨道，刚好与联络官提到的那支航母中队擦肩而过。直到此时你才发现飞船上的屏幕还开着，正在播放你不久前在地面上看到的几乎一模一样的画面。据新闻评论员称，这场灾难始于昨天，当时银河系南部一群行星向共和国议会发送了最后通牒：拒绝纳税，直到行星代表选举改革。这个自称为“自由世界”的团体还要求立即重新评估所有现有贸易关税和飞行员注册法规。议会断然拒绝考虑任何这些要求。`
+			`	然后，就在你着陆的几个小时前，杰米努斯和马提尼发生核爆炸，摧毁了共和国海军船坞和银河证券交易所，瘫痪了共和国的军事与经济中心。尽管袭击的时机以及这些袭击非常符合他们的利益，但“自由世界”否认对袭击承担任何责任。`
+			`	除非能找到恐怖分子或者他们主动投案，否则内战一触即发。你买下飞船还不到一年，而银河系已经在你面前开始分崩离析。`
 				flee
 
 			label end
-			`	The liaison officer responds with a curt thank-you and turns around to calm a hysterical Paradisian. You re-enter the <ship>, and prepare to take off. It has been less than a year since you bought your ship, and already the galaxy is falling apart on you.`
+			`	联络官简短地道了声谢，转身去安抚一名歇斯底里的帕拉迪斯人。你重新进入<ship>，准备起飞。你买船还不到一年，银河系就已经在你面前分崩离析。`
 				flee
 			
 			label help
-			`	"Yes. You can take off like I asked you to." The officer pauses. "Sorry, Captain, but that's the truth. The Navy has personnel trained for responding to nuclear disasters, and all you'd be doing here right now is taking up space. If you really want to help, you're better off waiting a day for us to properly coordinate a disaster response plan with the neighboring planets and their job boards."`
-			`	The officer turns around, interrupted by the shrieks of a panicked Paradisian. You re-enter the <ship>, and prepare to take off.`
+			`	“是的。你可以按我说的起飞。”军官停顿了一下。“抱歉，船长，但事实就是如此。海军有训练有素的人员应对核灾难，你现在留在这里只会占用空间。如果你真想帮忙，最好等一天，让我们与邻近星球及其任务板妥善协调灾害应对计划。”`
+			`	一名惊恐的帕拉迪斯人发出的尖叫声打断了军官，他转过身去。你重新回到<ship>，准备起飞。`
 				flee
 
 event "initial deployment 1"
@@ -279,9 +279,9 @@ event "initial deployment 1"
 		fleet "Navy Surveillance" 2000
 		fleet "Republic Logistics" 4000
 	planet "Ingot"
-		description `Ingot is a volcanic moon, totally unsuitable for life but rich in metal. The miners who work here must spend all their time inside pressurized buildings.`
-		description `Because Ingot has almost no atmosphere to slow them down, meteorites are a constant danger to the colonists. The shells of the buildings have multiple layers, designed to be self-sealing in any but the largest of impacts. Most of the mining is done remotely by robotic vehicles, but someone still needs to be present to control them and to make repairs when something goes wrong.`
-		description `Ingot is also now home to a burgeoning Navy base, although since the planet is so unlivable most of the troops are just living in ships in orbit.`
+		description `锭石星是一颗火山活跃的卫星，完全不适合生命存在，但富含金属。在这里工作的矿工必须始终待在加压建筑中。`
+		description `由于锭石星几乎没有大气层来减缓冲击，陨石对殖民者构成了持续威胁。建筑外壳由多层结构组成，设计为除最大规模撞击外均可自密封。大多数采矿作业由机器人远程完成，但仍需人员在场控制并在出现故障时进行维修。`
+		description `锭石星如今也是一座新兴海军基地的所在地，不过由于这颗星球极不适宜居住，大部分驻军只能生活在轨道上的飞船里。`
 	system "Fala"
 		fleet "Small Northern Merchants" 1900
 		fleet "Large Northern Merchants" 3500
@@ -308,9 +308,9 @@ event "initial deployment 1"
 		fleet "Navy Surveillance" 2000
 		fleet "Republic Logistics" 4000
 	planet "New Wales"
-		description `New Wales is home to a few mining outposts which extract and refine rare earth minerals and heavy metals. It is dangerous work: the mines are deep underground and prone to noxious gases and cave-ins, and the refineries work with molten radioactive materials and caustic chemicals.`
-		description `Due to the somewhat dim light of the star Algorel, and the cloudiness of the atmosphere, this is not a good world for farming, and the population remains quite small.`
-		description `The Republic Navy has planted a base on New Wales. So far, it's just a densely packed cluster of prefabricated barracks and infirmary buildings on the outskirts of one of the mining colonies.`
+		description `新威尔士有几处采矿前哨站，用于提取和精炼稀土矿物与重金属。这是一份危险的工作：矿井深入地下，易发生有毒气体泄漏和塌方，而精炼厂则处理熔融放射性物质和腐蚀性化学品。`
+		description `由于阿尔戈雷尔星的暗淡光线，加上大气多云，这颗星球不适合农业，人口也一直很少。`
+		description `共和国海军在新威尔士建立了一个基地。到目前为止，它还只是某个采矿殖民地郊外一组密集排列的预制营房和医务所。`
 	system "Porrima"
 		fleet "Small Southern Merchants" 1400
 		fleet "Large Southern Merchants" 4000
@@ -351,10 +351,10 @@ event "initial deployment 1"
 		fleet "Republic Logistics" 10000
 		fleet "Human Miners" 2000
 	planet "New Austria"
-		description `New Austria is a rugged mountain world, full of snow-capped peaks and valleys so deep and so steep that they rarely see sunlight.`
-		description `	The few settlements that have been built here were developed for mining sapphires and rubies. The sapphires range from blue to yellow to black to clear in color and are used for industrial abrasives and jewelry.`
-		description `	For centuries the locals have tried to find a deposit of diamonds, and local folklore revolves around the prosperity that would come to this world if diamonds were ever discovered.`
-		description `	The Navy has recently requisitioned one of the abandoned mining towns and begun refurbishing it for a secure military base, with the mining tunnels used as deep underground bunkers.`
+		description `新奥地利是一个崎岖的山地世界，遍布白雪皑皑的山峰，以及深邃陡峭、终年不见阳光的深谷。`
+		description `	在此建立的少数定居点是为了开采蓝宝石和红宝石而开发的。这些蓝宝石的颜色从蓝色、黄色、黑色到无色透明不等，主要用于工业磨料和珠宝首饰。`
+		description `	几个世纪以来，当地人一直试图寻找钻石矿藏，而当地的民间传说大多围绕着如果能发现钻石，这个世界将会迎来怎样的繁荣。`
+		description `	海军最近征用了一座废弃的采矿城镇，并开始将其翻新为一座安全的军事基地，而旧矿道则用作深层地下掩体。`
 
 event "initial deployment 2"
 	date 14 8 3014
@@ -661,32 +661,32 @@ mission "Central Outfitters Expansion"
 		not "event: start of hostilities"
 	on offer
 		conversation
-			`When you walk into <origin>'s outfitter, you notice it has a raft of new outfits for sale; cooling equipment, afterburners, even new generators. Strangely, almost all the new stock appears to be from Kraz Cybernetics and Delta V - companies you'd usually see selling along the Southern Rim, not far up here so close to the center of the Republic. It is especially strange as those companies have been vocal supporters of the Free Worlds secessionists.`
+			`当你走进<origin>的装备店时，你注意到店里有一大批新装备待售：冷却设备、加力燃烧室，甚至还有新型发电机。奇怪的是，几乎所有新货似乎都来自左辖网络动力公司和德尔塔五公司——这些公司通常只在南部边缘星区销售产品，而不是在如此靠近共和国中心的大老远北方。这尤其令人匪夷所思，因为这些公司一直是自由世界分裂派的坚定支持者。`
 			choice
-				`	(Ask the proprietor about the new outfits.)`
-				`	(Move on.)`
+				`	（向店主询问新装备的事。）`
+				`	（继续前进。）`
 					decline
 
-			`	The proprietor's busy at his desk inside the outfitter's small office, but as you approach he gets up and acknowledges you. "Hi, how can I help you today?"`
+			`	店主正在装备店小办公室的桌后忙碌，但当你走近时，他起身招呼你。“嗨，今天有什么能帮你的吗？”`
 			choice
-				`	"How come you're selling Kraz and Delta V outfits up here?"`
-				`	"It looks like you've got new stock."`
+				`	“你怎么会在这里卖左辖和德尔塔五的装备？”`
+				`	“看起来你进了新货。”`
 					goto "new stock"
-				`	(Move on.)`
+				`	（继续前进。）`
 					decline
 
-			`	"You're not the first to ask!" the proprietor responds overly brightly. "With piracy on the rise, the increased tensions, and - what everybody's assuming but not saying - impending conflict with the nuke-happy secessionists down in the Southern Rim, we've had a lot of requests to stock some more... specialized equipment."`
-			`	He walks you over to a crate of Javelins. "A load of this stuff comes from the Syndicate, you know. Apparently they already had a load of these missiles in production, but now that Kraz and Delta V are no longer companies operating in the Republic, they've snapped up all the rights to manufacture their products!" He chuckles. "It's great for captains who rely on Delta V equipment but can't go down to the Southern Rim to restock their gear."`
+			`	“你不是第一个问这个的！”店主过于欢快地回应。“随着海盗活动增加，局势紧张，还有——大家心照不宣但闭口不谈的——与南部边缘星区那些动辄使用核弹的分裂分子之间迫在眉睫的冲突，我们收到了很多请求，要求进一些……更专业的装备。”`
+			`	他带你走到一箱标枪导弹旁。“这批货很多来自辛迪加，你知道的。显然，他们早就批量生产了这种导弹，但既然左辖和德尔塔五不再是共和国运营的公司，辛迪加就迅速拿下了它们所有产品的生产授权！”他轻笑道。“这对那些依赖德尔塔五装备、却又无法亲自南下到南部边缘星区补充装备的船长们来说，可真是件大好事。”`
 				goto end
 
 			label "new stock"
-			`	"Yes, yes we do!" He walks up to you. "Nitrogen coolers, Heavy Rockets, radar jammers to ward off those pesky Lovelace Sidewinders, high-power afterburners, you name it. We've had a lot of requests to stock equipment from the Southern Rim, now with all the tension down there making it hard to do business."`
-			`	The proprietor leans in towards you a little and says in a softer tone, "But you know, it's wrong to get supplies from the people who did those bombings and killed tens of thousands of people. It's simply wrong. Morally and commercially.`
-			`	"Courtesy of Syndicated Systems, however, you can get southern gear here without supporting those secessionists! They saw an opportunity to get the rights for Delta V and Kraz equipment, and they took it. And you get to benefit," he chuckles.`
+			`	“是的，我们确实有！”他走到你面前。“氮气冷却器、重型火箭、用来对付那些烦人的洛夫莱斯响尾蛇导弹的雷达干扰器、高功率加力燃烧室，凡是你想得到的，应有尽有。因为现在那边的紧张局势让生意很难做，我们收到了很多要求储备南部边缘星区装备的请求。”`
+			`	店主微微向你凑近，压低声音说道：“但是你知道的，从那些制造了那些爆炸袭击、杀害了数万人的家伙那里进货是不对的。这完全是错误的，不论是在道德上还是商业上。”`
+			`	“不过，多亏了辛迪加系统公司，你在这里就能买到南部星区的装备，而不必去支持那些分裂分子！他们看到了获取德尔塔五和左辖装备制造授权的商机，并且抓住了它。而你也能从中受益，”他轻笑道。`
 
 			label end
-			`	He produces a brochure from his vest jacket and hands it to you. "Now, if you're interested in any of our new stock, just flag down one of our workers and we'll have it prepared and installed on your ship promptly.`
-			`	"I wish you safe travels," he says, and returns to his office.`
+			`	他从马甲口袋里掏出一本小册子递给你。“现在，如果你对我们的新装备感兴趣，只需招呼一声我们的工人，我们就会迅速备好并安装到你的飞船上。”`
+			`	“祝你旅途平安，”他说完便回到了办公室。`
 				decline
 
 
@@ -972,16 +972,16 @@ event "initial deployment 4"
 
 event "fw zug expansion underway"
 	planet Zug
-		spaceport `The spaceport of Zug has been growing by amalgamation for centuries. At its core is the "Old Port," a set of quaint and rudimentary shops and warehouses. The landing pads for the Old Port were torn up to make room for what the locals call "The Port," a set of buildings that were constructed a century ago, with bolder architecture and more modern design.`
-		spaceport `	Some distance away is the "New Port," a towering structure with robotic cargo lifts and large hangars for more expensive ships. Meanwhile, an expansion to the New Port is currently ongoing. You can't help but wonder what the new expansion will be named.`
+		spaceport `苏格空间港几个世纪以来通过不断兼并扩建而成。其核心是“旧港”，由一批古雅简陋的商铺和仓库组成。旧港的原有着陆坪已被拆除，为当地人所谓的“港区”腾出空间——那是一组建于一个世纪前、建筑风格更为大胆前卫的现代化建筑群。`
+		spaceport `	稍远处则是“新港”，那是一座巍峨高耸的建筑，配备自动化货运升降机，并拥有可停放昂贵舰船的大型机库。与此同时，新港的扩建工程目前正在如火如荼地进行。你不禁好奇，这处新的扩建区域到时会被冠以何名。`
 
 
 
 event "fw zug expansion complete"
 	planet Zug
 		add shipyard "Tarazed Advanced"
-		spaceport `The spaceport of Zug has been growing by amalgamation for centuries. At its core is the "Old Port," a set of quaint and rudimentary shops and warehouses. The landing pads for the Old Port were torn up to make room for what the locals call "The Port," a set of buildings that were constructed a century ago, with bolder architecture and more modern design.`
-		spaceport `	Some distance away is the "New Port," a towering structure with robotic cargo lifts and large hangars for more expensive ships. It was recently expanded to handle the increased activity demanded by the Free Worlds, making Zug the chief ship foundry of the galactic south. It's not surprising to learn that the addition to the New Port has quickly been dubbed "The Expansion."`
+		spaceport `苏格空间港几个世纪以来通过不断兼并扩建而成。其核心是“旧港”，由一批古雅简陋的商铺和仓库组成。旧港的原有着陆坪已被拆除，为当地人所谓的“港区”腾出空间——那是一组建于一个世纪前、建筑风格更为大胆前卫的现代化建筑群。`
+		spaceport `	稍远处则是“新港”，那是一座巍峨高耸的建筑，配备自动化货运升降机，并拥有可停放昂贵舰船的大型机库。不久前它刚完成扩建，以应对自由世界日益增长的造舰需求，这也使苏格成为了银河南部首屈一指的星舰造船基地。得知新港这处扩建区被人们直截了当地唤作“扩建区”时，你一点也不觉得意外。`
 
 
 
@@ -999,11 +999,11 @@ event "capture of Kornephoros"
 		fleet "Small Free Worlds" 400
 		fleet "Large Free Worlds" 600
 	planet "Clink"
-		description `The mining outpost is swarming with Navy guards; they seem to have turned this moon into a temporary base of operations. The mine has been shut down, and no one is being allowed in or out of the mining outpost. It is not clear whether the miners are prisoners, or merely under a very tight watch.`
+		description `采矿前哨站内到处都是海军卫兵，他们似乎已经将这颗卫星变成了临时行动基地。矿井已被关闭，任何人都不准进出前哨站。目前还不清楚矿工们是被当成了囚犯，还是仅仅受到了极为严密的监视。`
 		security 1
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	There are hundreds of Navy officers patrolling this small spaceport, looking for any signs of local resistance.`
+		spaceport `空间港坐落在一座大岛上，其中心是一座海拔数公里的死火山。当地的大规模渔业几乎全由波塞冬工业一家包揽，该公司同时建造并维护着这座空间港。陡峭蜿蜒的山路两侧，坚固的混凝土住宅与仓库沿山坡依势而建；俯瞰下方的海港，数艘巨型拖网渔船静静停泊。在空间港外围，则是那些独立小渔民家庭搭建的破旧棚屋与露天集市。`
+		spaceport `	数百名海军军官正在这座狭小的空间港内往来巡逻，搜寻着任何可能存在的当地抵抗苗头。`
 		security 1
 	system "Altair"
 		remove fleet "Republic Logistics"
@@ -1062,11 +1062,11 @@ event "recapture of Kornephoros"
 		fleet "Large Free Worlds" 1700
 		fleet "Human Miners" 3000
 	planet "Clink"
-		description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
-		description `The miners who work here are a tight-knit group, since most of them were part of the original colonization team. They are not particularly open to outsiders, and the facilities here are so rudimentary that they do not even stock fuel for visiting ships.`
+		description `大约十年前，一家来自苏格的矿业公司在铮鸣星上建立了殖民地，以开采这颗卫星地壳中因异常频繁的小行星撞击而富含的某些稀土矿物。这里的大气过于稀薄，不佩戴呼吸器便无法呼吸，而由于低重力环境，采矿作业扬起的灰尘始终悬浮在空气中。`
+		description `在此工作的矿工们关系紧密，因为他们中的大多数都是最初殖民团队的成员。他们对外来者并不十分开放，而且这里的设施极度简陋，甚至连为过往飞船补给燃料的储备都没有。`
 		security .5
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
+		spaceport `空间港坐落在一座大岛上，其中心是一座海拔数公里的死火山。当地的大规模渔业几乎全由波塞冬工业一家包揽，该公司同时建造并维护着这座空间港。陡峭蜿蜒的山路两侧，坚固的混凝土住宅与仓库沿山坡依势而建；俯瞰下方的海港，数艘巨型拖网渔船静静停泊。在空间港外围，则是那些独立小渔民家庭搭建的破旧棚屋与露天集市。`
 		security .5
 
 	fleet "Small Republic"
@@ -1153,8 +1153,8 @@ event "oathkeepers founded"
 		fleet "Small Northern Merchants" 6000
 		fleet "Derelict Pirate" 10000
 	planet "Farpoint"
-		description `Farpoint, on the northernmost end of human space, is a rocky desert planet home to a Republic Navy base and not much else. Farming is possible only within greenhouses, and this system is too far from the galactic center to be desirable for trade or industry.`
-		description `	Lately, the Navy base on Farpoint has been growing. It has become the new home of the Navy Oathkeepers, a small branch of the Navy that has sworn to stay uninvolved in the conflict with the Free Worlds.`
+		description `远点星位于人类空间最北端，是一颗岩石荒漠行星，除了一座共和国海军基地外别无他物。农业只能在温室中进行，且该星系距银河中心过远，对贸易或工业缺乏吸引力。`
+		description `	近来，远点星上的海军基地一直在扩建。这里已经成为了“海军守誓者”的新大本营——这是海军中的一个小分支，他们曾宣誓绝不介入与自由世界的冲突。`
 
 
 
@@ -1240,8 +1240,8 @@ event "fw conservatory founded"
 		fleet "Human Miners" 1600
 	planet "Winter"
 		add attributes "education"
-		description `The dense clouds in Winter's atmosphere block out much of the sunlight, creating a frigid landscape below. The planet was not settled until about a century ago, when a group of investors from Pherkad decided to build a manufacturing center here, rather than trying to find more land on the already overcrowded planet of Solace. Claiming that the industrial emissions of carbon dioxide and other greenhouse gases would eventually warm the planet and turn it into a tropical paradise, they were able to draw enough settlers to keep the factories going.`
-		description `	Winter is home to the Free Worlds Conservatory, a new university focused on making terraforming technology and expertise available at a reasonable price, as well as on ecological protection and renewal.`
+		description `凛冬星大气中浓密的云层遮蔽了大量阳光，形成了地表严寒的景象。这颗星球直到大约一个世纪前才有人定居，当时一群来自太子的投资者决定在这里建立制造中心，而不是在已经拥挤不堪的慰藉星上寻找更多土地。他们宣称，工业排放的二氧化碳和其他温室气体最终会使星球变暖，将其变成热带天堂，这一说法吸引来足够的定居者，使工厂得以持续运转。`
+		description `	凛冬星是自由世界学院的所在地。这是一所新建的大学，致力于以合理的价格普及地球化改造技术与专业知识，并专注于生态保护与重建。`
 		security .4
 
 
@@ -1258,12 +1258,12 @@ event "Thule becomes independent"
 		fleet "Large Free Worlds" 1500
 	planet "Thule"
 		add attributes "ex-pirate"
-		description `Thule is a mountainous world with a population of nearly a billion, settled in the early days of space exploration. When the colony was first established, the government on Earth did not yet have the strength to control any system but its own. As such, Thule refused to join the Republic when it was formed, and has since repulsed all efforts to force it to do so.`
-		description `	Until recently, Thule was a well-known den of pirate activity, but the major tribal authorities have now forsworn piracy in the interest of keeping the Free Worlds from further meddling in their affairs. However, it is likely that all manner of illegal activity is still going on in secret here.`
+		description `图勒是一个多山的世界，拥有近十亿人口，在太空探索早期便已有人定居。在该殖民地初建之时，地球政府还没有能力控制除其自身以外的任何星系。因此，图勒在共和国成立时拒绝加入，并在那之后击退了所有试图强迫其加入的企图。`
+		description `	直到最近，图勒还是个众所周知的海盗巢穴，但主要的部落当局如今已经宣布放弃海盗行径，以防止自由世界进一步干涉他们的事务。然而，各种非法活动很可能仍在暗中进行。`
 	planet "Smuggler's Den"
-		description `Smuggler's Den was formerly known as Grendel Station, back when it was an operating refinery. After that, it was taken over by pirates, and became a haven for all manner of smugglers and privateers. Now, at least in theory, it is an independent station no longer allied with the pirates. In practice, you suspect a fair amount of piracy still goes on here.`
-		description `The repair shops here can make a variety of legal and illegal modifications to your ship, and in the shipyard you can buy refurbished starships... if it does not trouble your conscience to think about the likely fates of their previous owners.`
-		spaceport `It is a strange but indisputable fact that anarchists smell worse than ordinary human beings. In this day and age, where even the cheapest shuttlecraft at least has a sonic shower, there is no logical explanation for it, except that anarchist tendencies must somehow go hand in hand with a tendency to reject society's norms around hygiene. Here in a space station, with nothing but recycled air to breathe, the effect is overpowering.`
+		description `走私者之窟以前被称为格伦德尔空间站，当时它还是个运转中的精炼厂。此后，它被海盗强占，成为了各类走私犯和私掠船的避风港。现在，至少在理论上，它是一个独立的、不再与海盗结盟的空间站。但实际上，你怀疑这里仍有相当多的海盗活动在进行。`
+		description `这里的修理厂可以对你的飞船进行各种合法与非法的改装，而在船厂里，你可以购买翻新过的星际飞船……只要你不去细想它们原主人的可能下场，就不会良心不安。`
+		spaceport `一个奇怪却无可争辩的事实是：无政府主义者身上的气味比常人难闻得多。在当今这个连最廉价的穿梭机都至少配备了超声波淋浴的时代，对此根本找不出任何合理的逻辑解释，只能说无政府主义倾向在某种程度上必然伴随着对社会卫生规范的排斥。而在这座只能呼吸循环空气的空间站里，那种刺鼻难当的气味更是令人窒息。`
 
 
 
@@ -1297,10 +1297,10 @@ event "fw suppressed Greenrock"
 		fleet "Large Southern Pirates" 5000
 		fleet "Old Southern Pirates" 10000
 	planet "Greenrock"
-		description `Greenrock was the closest thing that the pirates in southern human space had to a center of government, at least until the Free Worlds occupied it. When rival pirate bands sought to negotiate on neutral territory, this is where they met. Nearly everything was for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	Now that the Free Worlds are occupying the system, Greenrock has become a marginally more respectable world. Pirates still run wild in the wilderness of the planet, but the Free Worlds are actively arresting criminals and freeing slaves in the population centers.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the remnants of slave markets, now empty as a result of the Free Worlds occupation. The normally shady establishments are now filled with militia and the occasional merchant captain looking to explore the planet while it's still in Free Worlds hands.`
-		spaceport `	Despite the Free Worlds presence, dark alleyways are still to be avoided. Down one alley you see an abandoned shop called "Mike's Mustelids," now overrun by weasels, ferrets, and wolverines that were once caged there.`
+		description `绿岩星曾是人类星区南部海盗们最接近政治中心的地方，至少在自由世界占领这里之前是如此。当敌对的海盗团伙想在中立领地进行谈判时，这里就是他们的会面地点。这里几乎一切都可以交易：非法武器、专门改装的劫掠飞船，甚至还有奴隶。`
+		description `	既然自由世界占领了该星系，绿岩星已经变得稍微体面了一些。海盗依旧在这颗星球的荒野中横行，但在人口聚居区，自由世界正积极逮捕罪犯并解放奴隶。`
+		spaceport `你对这座港口的恶名早有耳闻，因此在看到沦为空荡废墟的奴隶市场时并未感到意外——这正是自由世界进驻占领的结果。那些平日里藏污纳垢的阴暗场所，如今挤满了民兵，以及偶尔趁着星球尚在自由世界控制下前来探奇的商船船长。`
+		spaceport `	尽管有自由世界军队驻扎，阴暗的小巷依然是生人勿近之地。在一条小巷深处，你看到一家名为“麦克的鼬科动物”的荒废店铺，里头已被原本关在笼中的黄鼠狼、雪貂和狼獾彻底霸占。`
 
 
 
@@ -1317,26 +1317,26 @@ event "fw abandoned Greenrock"
 		fleet "Old Southern Pirates" 7000
 		fleet "Large Free Worlds" 9000
 	planet "Greenrock"
-		description `Greenrock was the closest thing that the pirates in southern human space had to a center of government, at least until the Free Worlds occupied it. When rival pirate bands sought to negotiate on neutral territory, this is where they met. Nearly everything was for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	That was until the Free Worlds occupied the system and cleaned up many of the major population centers. With the Free Worlds gone, the planet has begun to return to its natural state of crime and villainy.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the remnants of slave markets, now empty as a result of the Free Worlds occupation. The spaceport's shady establishments are beginning to return to their normal clientele and services.`
-		spaceport `	With the Free Worlds now gone, dark alleyways are absolutely to be avoided. Down one alley you see a shop called "Mike's Mustelids," the inside like a jungle. You hear the howls and yells of various exotic animals coming from inside, and the alleyway is home to a number of presumably-escaped weasels, ferrets, and wolverines running about.`
+		description `绿岩星曾是人类星区南部海盗们最接近政治中心的地方，至少在自由世界占领这里之前是如此。当敌对的海盗团伙想在中立领地进行谈判时，这里就是他们的会面地点。这里几乎一切都可以交易：非法武器、专门改装的劫掠飞船，甚至还有奴隶。`
+		description `	这种情况一直持续到自由世界占领了该星系并整顿了许多主要的人口中心。而随着自由世界的离去，这颗星球又开始恢复到其犯罪与邪恶横行的本来状态。`
+		spaceport `你对这座港口的恶名早有耳闻，因此在看到仍旧空空如也的奴隶市场残迹时并未感到意外——那曾是自由世界占领留下的印记。然而，空间港里那些见不得光的勾当场所，如今正逐步迎回昔日的常客与行当。`
+		spaceport `	随着自由世界撤离，那些阴暗的小巷更是绝对不可涉足。在一条小巷深处，你瞥见那家名叫“麦克的鼬科动物”的店铺，内部已然宛如一片原始丛林。你听到各种珍禽异兽从店内传出的阵阵嘶吼与尖叫，而小巷俨然成了这帮逃窜出笼的黄鼠狼、雪貂与狼獾四处乱窜的乐园。`
 
 
 
 event "Greenrock recovered"
 	planet "Greenrock"
-		description `Greenrock is the closest thing that the pirates in southern human space have to a center of government, but taking the form of large, powerful corporations rather than elected officials. When rival pirate bands seek to negotiate on neutral territory, this is where they meet. Nearly everything is for sale here: illegal weapons, ships customized for pirating, and even slaves.`
-		description `	The Free Worlds occupied this planet for a short while long ago, attempting to clean up the criminal hub, but almost all traces of the Free Worlds' influence on the planet is now long gone.`
-		spaceport `You have heard enough about this port's reputation that you are not surprised to see the slave markets, heavily guarded in case any visitors happen to find themselves in possession of a conscience. Nor are you shocked by the shady establishments catering to all manner of prurient interests. This is, after all, a pirate port, and everything is for sale here.`
-		spaceport `	Everything, in fact, including the very bizarre. You find one dark alley that has been completely fenced off from the rest of the spaceport, the howls of animals coming from behind the barrier. Beside the alley you see a sign for a shop called "Mike's Mustelids," promising the sale of "exotic animals from within Greenrock's urban spaceport jungle."`
+		description `作为人类空间南部海盗最接近政府中心的地方，绿岩星的统治形式不是民选官员，而是大型强力企业。当敌对海盗帮派寻求在中立领土上谈判时，他们会面之地便是这里。这里几乎什么都卖：非法武器、为海盗活动定制的舰船，甚至还有奴隶。`
+		description `	自由世界在很久以前曾短暂占领过这颗星球，试图清理这个犯罪枢纽，但如今自由世界对这颗星球产生的影响痕迹已几乎荡然无存。`
+		spaceport `你对这座港口的恶名早有耳闻，因此看到戒备森严的奴隶市场时丝毫不感意外——森严防守正是为了防备某些外来者突然“良心发现”。那些迎合各种低俗下流嗜好的勾当场所也未能让你动容。归根结底，这里是一座海盗港，在这里，万物皆可标价出售。`
+		spaceport `	事实上，确实是一切——甚至包括那些荒诞绝伦的买卖。你发现一条阴暗的小巷已被铁丝网与空间港的其他区域彻底隔开，防护障后不断传来阵阵野兽的嚎叫。小巷旁竖着一块招牌，上面写着“麦克的鼬科动物”，并承诺出售“绿岩星太空港都市丛林原生异兽”。`
 
 
 
 event "memorial on Deep"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. The nine completed walls are already filled on both sides; it seems unlikely the other fourteen walls will last the war.`
+		spaceport `空间港坐落在一座大岛上，其中心是一座海拔数公里的死火山。当地的大规模渔业几乎全由波塞冬工业一家包揽，该公司同时建造并维护着这座空间港。陡峭蜿蜒的山路两侧，坚固的混凝土住宅与仓库沿山坡依势而建；俯瞰下方的海港，数艘巨型拖网渔船静静停泊。在空间港外围，则是那些独立小渔民家庭搭建的破旧棚屋与露天集市。`
+		spaceport `	在空间港北侧矗立着自由世界阵亡将士纪念碑，那是一座座镌刻着阵亡者姓名的花岗岩纪念墙。建成的九面墙正反两面均已刻满；按眼下的伤亡态势来看，剩下的十四面墙恐怕根本撑不到战争结束。`
 
 
 
@@ -1780,16 +1780,16 @@ event "fw southern expansion"
 		fleet "Large Republic" 500
 		fleet "Republic Logistics" 4000
 	planet "New Iceland"
-		description `New Iceland is a perpetually hazy volcanic world, with a slightly caustic atmosphere but enough reserves of metal and petrochemicals to draw a large number of settlers. Some of those settlers also make a living as farmers, and a few well-developed factory towns produce goods for export to other worlds.`
-		description `	Many of the inhabitants wear dust masks to avoid letting the particulate matter from the volcanoes accumulate in their lungs.`
-		description `	In the wake of their defeat in the south, the Navy has begun to set up a massive new base here on New Iceland, in order to allow them to continue to have a strong presence in this sector.`
+		description `新冰岛是一个常年笼罩在雾霭中的火山世界，大气略带腐蚀性，但丰富的金属和石化资源吸引了大量定居者。部分定居者也以务农为生，少数发达的工厂城镇生产商品出口至其他星球。`
+		description `	许多居民佩戴防尘口罩，以避免火山颗粒物在肺部积聚。`
+		description `	在南部星区遭遇失败后，海军已经开始在新冰岛建立一座庞大的新基地，以确保他们能继续在该星区保持强大的存在。`
 
 
 
 event "Deep memorial expansion 1"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. The site has progressed from its original scale, with an outer ring being erected to hold fifty additional walls of names.`
+		spaceport `空间港坐落在一座大岛上，其中心是一座海拔数公里的死火山。当地的大规模渔业几乎全由波塞冬工业一家包揽，该公司同时建造并维护着这座空间港。陡峭蜿蜒的山路两侧，坚固的混凝土住宅与仓库沿山坡依势而建；俯瞰下方的海港，数艘巨型拖网渔船静静停泊。在空间港外围，则是那些独立小渔民家庭搭建的破旧棚屋与露天集市。`
+		spaceport `	在空间港北侧矗立着自由世界阵亡将士纪念碑，那是一座座镌刻着阵亡者姓名的花岗岩纪念墙。这里的规模已远远超出最初的设计，外围正筑起一道新的环形结构，用以容纳增建的五十面姓名墙。`
 
 
 
@@ -1858,7 +1858,7 @@ event "fw prison on Clink"
 
 event "fw prison on Clink closes"
 	planet "Clink"
-		description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
+		description `大约十年前，一家来自苏格的矿业公司在铮鸣星上建立了殖民地，以开采这颗卫星地壳中因异常频繁的小行星撞击而富含的某些稀土矿物。这里的大气过于稀薄，不佩戴呼吸器便无法呼吸，而由于低重力环境，采矿作业扬起的灰尘始终悬浮在空气中。`
 
 mission "FW Clink Prison Closes"
 	landing
@@ -1890,8 +1890,8 @@ event "liberation of Poisonwood"
 		fleet "Small Free Worlds" 1200
 		fleet "Human Miners" 2000
 	planet "Poisonwood"
-		spaceport `The starport is a hodgepodge of small metal structures, built from the remains of Navy and pirate ships that fought for control of this world. The locals here welcome you to their planet heartily.`
-		spaceport `	The tavern in the center of the port is named The Parting Glass. Its walls are covered in photographs from after the war, all taken here on Poisonwood: freed slaves boarding Navy ships to leave the planet that brought them so much pain; Navy officers disembarking to retire on the world that they liberated; friends gone away; friends left behind. There are newer pictures, too: a Cruiser and two Falcons, side by side; armored troops walking away from a factory; a familiar captain talking to a man you know as Commander Nguyen. It is a strange feeling to be shown among heroes of a history that you've had only the smallest effect on.`
+		spaceport `太空港由各式小型金属建筑拼凑而成，取材于当年争夺这颗星球控制权的海军与海盗舰船残骸。这里的当地人热情洋溢地欢迎你莅临他们的星球。`
+		spaceport `	港口中心的酒馆名为“离别酒”。其墙壁上贴满了战后的旧照，全都是在毒木星当地拍摄的：重获自由的奴隶登上海军舰船，告别这颗带给他们无尽痛苦的星球；海军军官走下舷梯，在他们亲手解放的世界解甲归田；远去的朋友、留下的故人。墙上也有更新的照片：一艘巡洋舰与两艘猎鹰级并肩停泊；全副武装的部队列队撤离工厂；一位相熟的船长正与那位你所熟知的阮指挥官交谈。自己竟能与这些青史留名的英雄并列在一起，让你心中泛起一种微妙的滋味——毕竟对那段历史而言，你不过是掀起了一丝微不足道的涟漪。`
 
 event "Poisonwood reverts to Republic"
 	system "Graffias"
@@ -1903,8 +1903,8 @@ event "Poisonwood reverts to Republic"
 		fleet "Small Free Worlds" 2600
 		fleet "Human Miners" 2000
 	planet "Poisonwood"
-		spaceport `The starport is a hodgepodge of small metal structures, built from the remains of Navy and pirate ships that fought for control of this world. The locals are unusually courteous and friendly to most of the captains landing here, but not to you.`
-		spaceport `	The tavern in the center of the port is named The Parting Glass. As you enter the building, you notice the tavern gradually become quieter and quieter, until all that you can hear is the rattling of the air conditioner and the clinking of glasses. At the same time, you feel the heat of several dozen eyes looking directly at you. You decide it best to leave before things escalate further.`
+		spaceport `太空港由各式小型金属建筑拼凑而成，取材于当年争夺这颗星球控制权的海军与海盗舰船残骸。当地人对绝大多数在此降落的船长都表现得异乎寻常地客气友好，但对你却绝非如此。`
+		spaceport `	港口中心的酒馆名为“离别酒”。当你踏入大门，敏锐地察觉到酒馆内渐渐安静下来，直到四周只剩下空调的震颤声与玻璃杯碰擦的脆响。与此同时，你能清晰地感受到数十道滚烫的目光齐刷刷地钉在你身上。你心想，趁局势进一步恶化之前，最好还是走为上策。`
 
 event "death of nguyen"
 
@@ -1938,8 +1938,8 @@ event "dreadnought deployment"
 event "bloodsea joins free worlds"
 	planet "Bloodsea"
 		add attributes "ex-pirate"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Until recently, this was a pirate world, but as the Free Worlds continued to expand they saw the writing on the wall and decided to become a civilized world. The Free Worlds are building a new spaceport here, but that will take months, and in the meantime the old spaceport is still in use.`
+		description `除了少数几个小型前哨站外，血海星几乎无人居住。这颗星球的名字来源于其海洋——因为红藻的大量繁殖，这里的海水呈现出血红色。尽管这里气候温和，且有许多白色沙滩，但可没有人会想来这儿游泳。`
+		description `	直到最近，这里都还是一个海盗世界。但随着自由世界的不断扩张，当地人审时度势，决定融入文明世界。自由世界正在这里建造一座新太空港，但这需要耗时数月，在此期间旧太空港仍将继续使用。`
 	system "Antares"
 		government "Free Worlds"
 		fleet "Small Southern Merchants" 700
@@ -1953,10 +1953,10 @@ event "bloodsea joins free worlds"
 
 event "bloodsea spaceport completed"
 	planet "Bloodsea"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Recently, with the help of the Free Worlds, a new spaceport was completed here. Bloodsea was formerly a pirate world, but the new spaceport has given it an air of respectability, and already a small number of settlers and curious tourists have begun flowing in.`
-		spaceport `The new spaceport is impressively well designed, with seawalls and landing pads of crisp, newly-set concrete, still unmarked by weather or mildew. It is also several times larger than necessary for the number of people and ships that are here, and aside from a lively market, it feels strangely empty.`
-		spaceport `	Some things remain unchanged from back in the pirate days. The local slang incorporates threats of extreme violence as a seemingly meaningless verbal tic. "Hey, I'm gonna cut off your fingers one by one until you buy a meat patty!" a vendor calls out cheerfully as you pass. "First one's free, and I'll tie a knot in your spine if you don't like it."`
+		description `除了少数几个小型前哨站外，血海星几乎无人居住。这颗星球的名字来源于其海洋——因为红藻的大量繁殖，这里的海水呈现出血红色。尽管这里气候温和，且有许多白色沙滩，但可没有人会想来这儿游泳。`
+		description `	最近，在自由世界的帮助下，这里建成了一座新太空港。血海星以前是个海盗世界，但新太空港给它带来了一丝体面的气息，已经有一些定居者和好奇的游客开始涌入这里。`
+		spaceport `新空间港的设计令人眼前一亮，防波堤与停机坪均采用清爽平整的新浇混凝土筑成，尚未留下丝毫风雨侵蚀或霉斑的痕迹。它的规模远超当前人口与飞船的实际需求，因而除了熙熙攘攘的集市之外，整座港口透着一股异样的空旷冷清。`
+		spaceport `	不过，海盗时代的某些习性依然根深蒂固。当地人的口头禅总夹杂着极具暴力色彩的恐吓，仿佛只是一种毫无恶意的说话口癖。“嘿，你要是不买个肉饼，老子就把你的手指头一根根剁下来！”当你走过时，一位小贩兴高采烈地朝你吆喝道，“第一个白送！要是嫌不好吃，老子就把你的脊椎骨拧成麻花！”`
 
 
 
@@ -1978,16 +1978,16 @@ event "bloodsea independent"
 		fleet "Small Free Worlds" 800
 		fleet "Large Free Worlds" 1500
 	planet "Bloodsea"
-		description `Bloodsea is nearly uninhabited, except for a few small outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
-		description `	Until recently, this was a pirate world, but they are now officially "independent," forswearing support for piracy and other criminal activity as a result of being dominated by the Free Worlds militia. You get the feeling that most of the locals are not too fond of the Free Worlds, however.`
+		description `除了少数几个小型前哨站外，血海星几乎无人居住。这颗星球的名字来源于其海洋——因为红藻的大量繁殖，这里的海水呈现出血红色。尽管这里气候温和，且有许多白色沙滩，但可没有人会想来这儿游泳。`
+		description `	直到最近，这里都还是个海盗世界。但在处于自由世界民兵的控制之下后，他们如今已正式“独立”，并宣誓放弃对海盗行径及其他犯罪活动的支持。然而，你仍然能感觉得到，大多数当地人对自由世界并没有多少好感。`
 
 
 
 event "albatross joins free worlds"
 	planet "Albatross"
 		add attributes "ex-pirate"
-		description `Albatross is a cold ocean world orbiting a small, cold sun. The first settlers on Albatross were anarchists who believed that in a society free from unnatural laws and constraints, everyone would happily and freely work for the common good. The next settlers were pirates who believed that a planet free from laws and constraints would be a great base of operations.`
-		description `	Recently, the Free Worlds have liberated Albatross from their pirate oppressors, but many of the locals remain skeptical, seeing the Free Worlds as little different from the other protection rackets that have held sway over them.`
+		description `信天翁星是一颗环绕寒冷小恒星运行的冰冷海洋世界。信天翁星的首批定居者是无政府主义者，他们深信，在一个没有违背自然的法律与束缚的社会中，人人都会自愿且愉快地为公共利益劳作。随后到来的定居者则是海盗，他们认为这个不受法律与束缚的星球简直就是绝佳的运作基地。`
+		description `	最近，自由世界将信天翁星从海盗压迫者的手中解放了出来。然而，许多当地居民仍旧持怀疑态度，认为自由世界与此前一直骑在他们头上收取保护费的黑帮团伙并无二致。`
 	system "Nunki"
 		government "Free Worlds"
 		fleet "Small Southern Merchants" 700
@@ -2801,7 +2801,7 @@ event "navy occupies algenib"
 		fleet "Large Republic" 1200
 		fleet "Large Syndicate" 1000
 	planet "Covert"
-		description `Covert is home to a powerful mining cartel, only nominally under the control of Republic law. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A pirate fleet lurks on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
+		description `隐秘星是某个强大采矿卡特尔的所在地，仅在名义上接受共和国法律管辖。据传，这里是人类星区内极少数开采并富集武器级铀和钚的星球之一。在此出售的任何货物，极有可能都是由奴隶劳工生产的——他们通常是被海盗劫获的飞船上的幸存者。太空港外围常年潜伏着一支海盗舰队，警告着任何敢于欺骗或反抗该卡特尔的私人飞行员。`
 
 
 
@@ -2818,7 +2818,7 @@ event "navy done with algenib"
 		fleet "Large Core Pirates" 800
 		fleet "Large Syndicate" 5000
 	planet "Covert"
-		description `Covert is home to a powerful mining cartel, operating outside the control of Republic law or any other external authority. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A massive pirate fleet is docked on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
+		description `隐秘星是一个强大矿业卡特尔的大本营，其运作完全不受共和国法律或任何外部权威的制约。据传这里是人类星域中少数开采并浓缩武器级铀和钚的行星之一。这里出售的一切货物，几乎都由奴隶劳工生产，而奴隶则往往是遭海盗劫持的船只幸存者。太空港外围停靠着一支庞大的海盗舰队，以此为警告威慑任何胆敢欺骗或对抗该卡特尔的私人领航员。`
 
 
 
@@ -2897,9 +2897,9 @@ event "fwc capture kaus borealis"
 		fleet "Large Free Worlds" 400
 		fleet "Large Republic" 2000
 	planet "New Iceland"
-		description `New Iceland is a perpetually hazy volcanic world, with a slightly caustic atmosphere but enough reserves of metal and petrochemicals to draw a large number of settlers. Some of those settlers also make a living as farmers, and a few well-developed factory towns produce goods for export to other worlds.`
-		description `	Many of the inhabitants wear dust masks to avoid letting the particulate matter from the volcanoes accumulate in their lungs.`
-		description `	The Navy had begun building a massive military base on New Iceland after they had been pushed out of the Southern Rim, but their defeat in this system by the Free Worlds has led to the base being abandoned prematurely.`
+		description `新冰岛是一个常年笼罩在雾霭中的火山世界，大气略带腐蚀性，但丰富的金属和石化资源吸引了大量定居者。部分定居者也以务农为生，少数发达的工厂城镇生产商品出口至其他星球。`
+		description `	许多居民佩戴防尘口罩，以避免火山颗粒物在肺部积聚。`
+		description `	在被驱赶出南部边缘星区后，海军开始在新冰岛建造一座庞大的军事基地；但随着他们在此星系被自由世界击败，该基地的建造工作不得不半途而废。`
 
 
 
@@ -3025,10 +3025,10 @@ event "fwc capture menkent"
 		fleet "Large Republic" 2000
 		fleet "Human Miners" 2000
 	planet "New Austria"
-		description `New Austria is a rugged mountain world, full of snow-capped peaks and valleys so deep and so steep that they rarely see sunlight.`
-		description `	The few settlements that have been built here were developed for mining sapphires and rubies. The sapphires found in New Austria range from blue to yellow to black to clear in color, and are used both for industrial abrasives and for jewelry.`
-		description `	For centuries the locals have been trying to find a deposit of diamonds, which would sell for much higher prices than sapphires, and local folklore revolves around the prosperity that would come to this world if diamonds were ever discovered.`
-		description `	The Navy once had a military base here, but they vacated it when the Free Worlds captured this system as part of the "Checkmate" plan.`
+		description `新奥地利是一个崎岖的山地世界，遍布白雪皑皑的山峰，以及深邃陡峭、终年不见阳光的深谷。`
+		description `	这里建立的少数定居点是为了开采蓝宝石和红宝石。在新奥地利发现的蓝宝石颜色从蓝、黄、黑到透明不等，既用作工业磨料，也用作珠宝。`
+		description `	几个世纪以来，当地人一直试图找到钻石矿藏，其售价远高于蓝宝石。当地的民间传说都围绕着如果发现钻石，这个世界将迎来的繁荣景象展开。`
+		description `	海军曾在此拥有一处军事基地，但在自由世界作为“将死”计划的一部分夺取该星系后，海军便撤离了此地。`
 
 
 
@@ -3419,8 +3419,8 @@ event "syndicate tech available"
 
 event "Deep memorial completed"
 	planet "Deep"
-		spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
-		spaceport `	Positioned north of the spaceport is the Free Worlds War Memorial, a series of granite walls engraved with the names of the fallen. Two additional rings of walls have been constructed around both the first twenty-three walls and the fifty walls of the old outer ring.`
+		spaceport `空间港坐落在一座大岛上，其中心是一座海拔数公里的死火山。当地的大规模渔业几乎全由波塞冬工业一家包揽，该公司同时建造并维护着这座空间港。陡峭蜿蜒的山路两侧，坚固的混凝土住宅与仓库沿山坡依势而建；俯瞰下方的海港，数艘巨型拖网渔船静静停泊。在空间港外围，则是那些独立小渔民家庭搭建的破旧棚屋与露天集市。`
+		spaceport `	在空间港北侧矗立着自由世界阵亡将士纪念碑，那是一座座镌刻着阵亡者姓名的花岗岩纪念墙。在最初的二十三面墙与旧外环的五十面墙之外，又环环相扣地筑起了两道全新的纪念墙环廊。`
 
 mission "Deep Memorial Finished"
 	landing
@@ -3436,10 +3436,10 @@ mission "Deep Memorial Finished"
 
 event "geminus rebuilt"
 	planet "Geminus"
-		description `Geminus, although not the most hospitable of worlds, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. The constant volcanic activity leaves the planet perpetually shrouded in a twilight haze of ash and fog.`
-		description `	The shattered remnants of the old Navy Yard are still left abandoned and slowly rusting away in the planet's caustic atmosphere, but the Republic has now built a new shipyard to replace the one destroyed in the bombing, and once again Geminus has become a central hub of technology and industry.`
-		spaceport `Like everything else on Geminus, the spaceport is not terribly pretty, but is functional and efficient. Each of the wide hallways is marked out like a road, with space in the center for electric carts carrying cargo, while pedestrians are relegated to the edges. Video cameras and sensors have been placed at every intersection, and access to the shipbuilding facilities is tightly controlled.`
-		spaceport `	The hub of the spaceport is a food court with a ring of shops in the center and seating on the outside, where you can look out of plate glass windows at the lava fields and caldera outside. By night, you can see the volcanic glow all around the horizon.`
+		description `杰米努斯虽然并不是最适宜居住的世界，但这颗星球足够年轻，其地表附近储藏着大量易于开采的铁、钛等金属。持续不断的火山活动使得这颗星球永久笼罩在由火山灰和浓雾构成的暮色阴霾之中。`
+		description `	旧海军船厂那破碎的残骸依然被遗弃在此，并在该星球腐蚀性的大气中缓慢锈蚀。然而，共和国如今已经建造了一座新船厂来取代那座在轰炸中被毁的旧厂，使得杰米努斯再次成为了技术与工业的中心枢纽。`
+		spaceport `如同杰米努斯上的一切事物一样，这座空间港谈不上美观，却兼具极高的实用性与效率。每条宽阔的走廊都像道路一样划分规整，中央车道留给运送货物的电动平板车穿梭，行人们则被引导靠边行走。每个十字路口都布置了监控摄像头与感应探头，通往造船基地的出入通道更是受到严密管制。`
+		spaceport `	空间港的枢纽是一座美食广场，中央环绕着一圈商铺，外围则是用餐坐席。坐在窗边，隔着厚厚的大平板玻璃，便能远眺外围的熔岩荒原与火山口。到了夜晚，整个地平线都被火山的炽红余晖映得一片通明。`
 		shipyard "Basic Ships"
 		shipyard "Navy Basics"
 		shipyard "Navy Advanced"
@@ -3462,10 +3462,10 @@ mission "Geminus Rebuilt"
 
 event "martini recovers"
 	planet "Martini"
-		description `Martini is a world of exotic beaches and perfect weather. The Republic's central bank and the galactic stock exchange were previously headquartered here, before a terrorist attack destroyed them and a large portion of the old capital city as well.`
-		description `	The new capital city is on the other side of the main continent, where lingering radiation will not affect the rest of the population. It is not so grand as the old capital, but its population has swelled from resettlement from the irradiated areas and it is quickly gaining the air of a major metropolis. The inhabitants, many of whom are survivors of the blast, have rallied behind a sort of 'will-do' attitude that only occurs after such a devastating and destructive event.`
-		spaceport `Currently, the newly-designated planetary spaceport does not possess the infrastructure to act as Martini's main spaceport. The expansive temporary spaceport from the relief operation is still being used, and since then, permanent landing pads have been built, but there are now plans to demolish it and give the new planetary spaceport a desperately needed expansion.`
-		spaceport `	Martini's old spaceport still remains, as it was located just outside the blast zone and its deflector shields bore the brunt of the shockwave, but its towers partially collapsed in the days following the devastation. It now appears from a distance to be a few unevenly-levelled black spires rising before a backdrop of the smoke and remnants of a ruined city, no longer gleaming as it once did.`
+		description `马提尼是一个拥有异国风情海滩与绝佳气候的世界。共和国中央银行与银河证券交易所曾在此设立总部，但后来一场恐怖袭击将它们以及旧首都的大片区域彻底摧毁了。`
+		description `	新首都位于主大陆的另一端，那里的残留辐射不会影响到其他人口。它虽然不及旧首都那般宏伟，但因为大量接收了从辐射区迁出的居民，人口迅速激增，正展现出大都市的气象。这里的居民大多是那场大爆炸的幸存者，他们凝聚起了一种只有在经历如此毁灭性灾难后才会出现的‘顽强拼搏’的精神。`
+		spaceport `目前，这座新指定的行星空间港尚不具备承担马提尼主要港口重任的基础设施。当初救援行动中建立的那座广阔的临时空间港仍在运转，虽然此后增建了部分永久停机坪，但当局现已计划将其拆除，从而为这座急需扩建的新行星空间港腾出充裕的空间。`
+		spaceport `	马提尼的旧空间港依然残存着——它恰好处在核爆冲击区边缘，自身的偏折护盾承受住了冲击波的主体威力，但其塔楼群在灾难发生后的几天里发生了局部坍塌。如今从远处望去，它宛如几座参差不齐的焦黑尖塔，孤零零地耸立在废墟焦土与袅袅残烟之间，再也不复当年的熠熠生辉。`
 
 mission "Martini Recovers"
 	landing

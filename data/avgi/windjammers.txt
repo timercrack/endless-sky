@@ -118,11 +118,11 @@ outfit "Pinecone Launcher"
 			"throttle control"
 		"tracking" .5
 		"missile strength" 40
-	description "When there is no one left to speak for the trees, these cannons will do all the talking."
+	description "当再也没有人为树木发声时，这些炮管将代它们发言。"
 
 
 outfit "Pollen"
-	plural "Pollen"
+	plural "花粉"
 	category "Minerals"
 	cost 12000
 	thumbnail "outfit/pollen particle"
@@ -131,8 +131,8 @@ outfit "Pollen"
 	"uninstallable"
 	"minable"
 	"flotsam chance" 0.6
-	description "This granule of exotic Windjammer pollen is not only replete with nutritious proteins, but also appears to contain valuable platinum group elements bound in organic molecules. This includes a collection of complex enzymes, which appear to be capable of catalyzing many difficult reactions with ease."
-	description "	Achoo!"
+	description "这枚异域风帆树的花粉颗粒不仅富含营养蛋白质，似乎还含有结合在有机分子中的珍贵铂族元素。其中包括一组复杂的酶，它们似乎能够轻松催化许多困难的反应。"
+	description "	阿嚏！"
 
 
 outfit "Jamfruit"
@@ -144,7 +144,7 @@ outfit "Jamfruit"
 	"uninstallable"
 	"minable"
 	"flotsam chance" 0.3
-	description "Closer to a berry than a fruit, this tart prize of a Windjammer tree is not only delicious, but is rich in nutrients. It can be refined to extract a variety of useful medicinal compounds, giving it value both as a delicacy and as a remedy."
+	description "这种果实更接近浆果而非一般水果，是风帆树结出的酸涩珍品。它不仅美味可口，而且营养丰富。它可以通过精炼提取出多种有用的药用化合物，这使其无论是作为美食还是良药都极具价值。"
 
 
 # Ships
@@ -306,7 +306,7 @@ ship "Windjammer"
 
 
 ship "Bluejacket"
-	"display name" "Windjammer"
+	"display name" "风帆树"
 	sprite "ship/bluejacket"
 	thumbnail "ship/bluejacket"
 	"uncapturable"
@@ -458,7 +458,7 @@ ship "Pollen"
 	outfits
 		"Pollen" 10
 	explode "pug tiny explosion" 2
-	description "This allergenic menace is dreaded by captains across the galaxy. Only the most powerful civilizations could hope to contend with even a single granule."
+	description "这种过敏原威胁令银河系各地的船长们都闻风丧胆。即便只是一颗微粒，也只有最强大的文明才敢奢望能与之抗衡。"
 
 
 ship "Sprout"
@@ -494,4 +494,4 @@ ship "Sprout"
 		"Pollen" 5
 
 	explode "pug tiny explosion" 2
-	description "Marginally tamer than a free floating pollen granule, this sprouting terror is still not to be underestimated."
+	description "与悬浮飘荡的花粉微粒相比，这艘萌生的恐怖之物不过略为温驯，但依然不容小觑。"

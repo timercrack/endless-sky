@@ -37,8 +37,8 @@ outfit "Plasma Discharger"
 		"shield damage" 33
 		"hull damage" 39
 		"minable damage" 90
-	description "The Incipias started to mine asteroids long before they began intrasystem travel due to the proximity of their home world's atmosphere to its rings. As a result this mining tool seems to be more advanced than their general technology, yet it is still not comparable to the efficiency of human weapons."
-	description "	The discharger itself shoots bolts of high density plasma that split up into small particles after some time. Because of the plasma infuser the fire rate is exceptional, but the energy usage is severe."
+	description "因西皮亚斯人在开始星系内航行之前很久就已经开始开采小行星，这是因为他们母星的大气层与行星环距离很近。因此，这种采矿工具似乎比他们的通用技术更为先进，但其效率仍无法与人类武器相提并论。"
+	description "	放电器本身发射高密度等离子体弹丸，一段时间后会分裂成微小粒子。由于等离子注入器的存在，射速极高，但能量消耗也非常严重。"
 
 outfit "plasma particle"
 	weapon
@@ -82,9 +82,9 @@ outfit "Stagnation Beam"
 		"hull damage" 0.1
 		"hit force" -40
 		"slowing damage" 0.1
-	description "The Stagnation Beam is one of the few technologies of the Incipias that surpasses anything humanity has made thus far - in fact, the first prototypes were built before the Incipias even dreamed of space travel. The weapon's origins lie in giant reactors that were constructed to pull asteroids out of their home planet's orbit, providing easy access to more resources. Naturally, a mechanism to slow the asteroids down was also implemented to prevent accidental asteroid strikes."
-	description "	As the Incipias' mastery of spaceflight grew, so did the generators' efficiency, which allowed for more compact, ship-based tractor beams. Resource collection was greatly streamlined by these new models, much to the benefit of the Incipias' otherwise sluggish ships."
-	description "	The secret of how these beams work is only known to a few scientists of the Incipias who are under the control of the state. Such knowledge, if made public, could have disastrous consequences for the Hicemus and their grip on power."
+	description "停滞光束是因西皮亚斯掌握的极少数超越人类迄今所有成就的技术之一——实际上，第一批原型机早在因西皮亚斯梦想太空旅行之前就已建成。这种武器的起源在于建造巨型反应堆，用以将小行星从其母星轨道拖出，从而轻松获取更多资源。自然，也配备了一种减速机制，以防止意外的小行星撞击。"
+	description "	随着因西皮亚斯对太空飞行的掌握日益精进，其能源发生器的效率也随之提高，从而能够制造出更紧凑的舰载牵引光束。这些新型号极大地简化了资源收集工作，对因西皮亚斯原本迟缓的飞船来说尤为有利。"
+	description "	这些停滞光束的工作原理只有因西皮亚斯中少数受国家控制的科学家知晓。这类知识一旦公开，可能会对希塞穆斯及其权力掌控造成灾难性后果。"
 
 effect "stagnation beam impact"
 	sprite "effect/stagnation beam impact"
@@ -130,9 +130,9 @@ outfit "Star Tail"
 
 		ammo "Star Tail Cell"
 		"submunition" "Star Tail Projectile" 1
-	description "Little to no information about this weapon has ever been made public. Rumors are that it shoots highly volatile plasma chunks."
-	description "	Captains that have used this weapon say that its projectiles could change direction mid-flight, and were able to follow their targets despite attempts by their victims to dodge the shots."
-	description "	Ammunition for this weapon can be restocked at any outfitter."
+	description "关于这件武器，几乎没有公开信息。传闻称它发射的是高挥发性等离子体块。"
+	description "	使用过该武器的船长们说，它的射弹能在飞行中改变方向，即使目标试图躲避射击，也能跟踪命中。"
+	description "	该武器的弹药可在任何装备商处补充。"
 		to display
 			has "gamerule: universal ammo restocking"
 
@@ -174,7 +174,7 @@ outfit "Star Tail Cell"
 	thumbnail "outfit/star tail cell"
 	"mass" .1
 	"star tail capacity" -1
-	description "The Star Tail needs an extreme amount of energy that the Incipias are not able to create in a short amount of time. To accommodate this, the Star Tail Cell contains an energy-rich substance that releases its energy when fired. One of these cells holds enough energy to fire exactly one shot."
+	description "星尾武器需要极其庞大的能量，因西皮亚斯无法在短时间内生成。为此，星尾电池内含一种能量富集物质，在开火时释放能量。每个电池所储存的能量恰好足够发射一发。"
 
 outfit "Star Tail Storage"
 	category "Ammunition"
@@ -186,8 +186,8 @@ outfit "Star Tail Storage"
 	ammo "Star Tail Cell"
 	licenses
 		"Hicemus Conflict"
-	description "Because Star Tail Cells are highly volatile, they need a robust storage system. This radial design is able to withstand minor explosions by using a variant of a shield that can be deployed temporarily."
-	description "	One layer of this easily expandable system is already shipped with the gun itself. To increase storage space, more layers are simply stacked on top."
+	description "由于星尾电池高度不稳定，需要配备坚固的存储系统。这种径向设计采用一种可临时部署的护盾变体，能够承受小型爆炸。"
+	description "	该易扩展系统的一层结构已随武器一同交付。如需增加存储空间，只需在顶部叠加更多层即可。"
 
 outfitter "Star Tail Cell Restock"
 	to sell
@@ -222,7 +222,7 @@ outfit "Horizon Grappler"
 		"reload" 1
 		"firing energy" 3.2
 		"firing heat" 1.1
-	description `The pinnacle of Incipian technology is represented by this mining utility. Perfected over centuries, this tractor beam is far beyond anything the Incipias have developed so far. The beam's name originates from its first prototypes developed before the advent of spaceflight, which gathered minerals by pulling asteroids from their homeworld's rings into its atmosphere.`
+	description `这款采矿设备代表了因西皮亚斯科技的巅峰。经过数个世纪的完善，这根牵引光束远超因西皮亚斯迄今为止开发出的任何产品。该光束的名称源自其首个原型机，早于太空飞行时代就已开发，它通过将小行星从母星环带拖入大气层来采集矿物质。`
 
 effect "horizon grappler"
 	sprite "effect/horizon grappler"
@@ -243,7 +243,7 @@ outfit "Gas-Class Shield"
 	"energy generation" 4.2
 	"heat generation" 5
 	"shield fuel" .01
-	description "Shield technology is one of the most recent developments of the Incipias. While this shield appears similar to a human shield device, it works on a completely different basis. In its core hydrogen is burned, providing energy for regeneration. This proved so effective that it became the main power source of all of their ships."
+	description "护盾技术是因西皮亚斯最新开发的成果之一。虽然这种护盾在外观上与人类的护盾装置相似，但其工作原理完全不同。其核心通过燃烧氢气来提供再生能量。这一技术如此高效，以至于成为了他们所有飞船的主要能源。"
 
 outfit "Liquid-Class Shield"
 	category "Systems"
@@ -257,7 +257,7 @@ outfit "Liquid-Class Shield"
 	"energy generation" 6.1
 	"heat generation" 6
 	"shield fuel" .02
-	description "This more advanced shield generator burns a liquid instead of a gas. This raises the efficiency considerably but also requires more space, making this outfit popular only on larger ships."
+	description "这款更先进的护盾发生器使用液态而非气态燃料。虽然效率大幅提升，但占用空间也更大，因此仅适用于大型飞船。"
 
 outfit "Metallic Hydrogen Cell"
 	category "Power"
@@ -268,7 +268,7 @@ outfit "Metallic Hydrogen Cell"
 	mass 20
 	"outfit space" -20
 	"energy capacity" 500
-	description "Hydrogen energy storage was discovered early by the Incipias because of the great amount of metallic hydrogen on their homeworld. Because Incipias ships usually access their energy at the time it is produced, only a small amount of storage is needed. Most of their ships have only one cell installed as a consequence."
+	description "氢能存储技术是由因西皮亚斯早期发现的，这得益于他们母星上存在的大量金属氢。由于因西皮亚斯的飞船通常在使用能量的同时即时生成能量，因此只需要少量的存储空间。因此，他们的大多数飞船仅安装了一个金属氢电池单元。"
 
 # Engines:
 outfit "MH Blue-Class Thruster"
@@ -286,7 +286,7 @@ outfit "MH Blue-Class Thruster"
 	"thrust" 24
 	"thrusting energy" 2
 	"thrusting heat" 2.5
-	description "In Incipian culture, blue is the weakest color. A thruster labeled as blue does not bode well for the speed of any ship using it."
+	description "在因西皮亚斯文化中，蓝色是最弱的颜色。标为蓝色的推进器对使用它的任何飞船的速度来说都不是好兆头。"
 
 outfit "MH Blue-Class Steering"
 	category "Engines"
@@ -300,7 +300,7 @@ outfit "MH Blue-Class Steering"
 	"turn" 498
 	"turning energy" 1.
 	"turning heat" 3
-	description "This steering barely provides the minimum force needed to turn a ship, but it is still used often because of how cheap it is."
+	description "这个转向装置只能提供转向所需的最小推力，但由于价格低廉，仍然被广泛使用。"
 
 outfit "MH Green-Class Thruster"
 	category "Engines"
@@ -317,7 +317,7 @@ outfit "MH Green-Class Thruster"
 	"thrust" 30
 	"thrusting energy" 2.2
 	"thrusting heat" 2.8
-	description "Green is a color of balance for the Incipias. This thruster balances the need for space with the need for powerful engines."
+	description "绿色对于因西皮亚斯而言是平衡之色。这款推进器在空间需求与强劲引擎之间取得了平衡。"
 
 outfit "MH Green-Class Steering"
 	category "Engines"
@@ -331,7 +331,7 @@ outfit "MH Green-Class Steering"
 	"turn" 618
 	"turning energy" 1.1
 	"turning heat" 3.1
-	description "The Incipias seem to have something against turning their ships. Even though this steering is supposed to be an upgrade from the Blue-Class steering, it is barely an improvement."
+	description "因西皮亚斯似乎对给飞船增加转向能力有所抵触。尽管这款转向系统本应是蓝级转向系统的升级版，但它几乎没有改进。"
 
 outfit "MH Red-Class Thruster"
 	category "Engines"
@@ -348,7 +348,7 @@ outfit "MH Red-Class Thruster"
 	"thrust" 48
 	"thrusting energy" 5
 	"thrusting heat" 10
-	description "The abundance of metallic hydrogen on the Incipias home planet has led to the development of engines that utilize this potent source of energy, allowing for more efficient thrusters than what might be expected given the Incipias' short history of spaceflight."
+	description "因西皮亚斯母星上丰富的金属氢催生了利用这种强大能源的发动机，使得推进器效率远超对因西皮亚斯短暂航天历史的预期。"
 
 outfit "MH Red-Class Steering"
 	category "Engines"
@@ -362,7 +362,7 @@ outfit "MH Red-Class Steering"
 	"turn" 1134
 	"turning energy" 2.5
 	"turning heat" 12
-	description "Even the Incipias realize that ships need to turn towards their target to be able to shoot it. This steering is specifically designed for combat, but captains with a lot of money find it very useful for mining."
+	description "就连因西皮亚斯人也明白，飞船需要转向目标才能开火。这款转向系统专为战斗设计，但资金充裕的船长们发现它在采矿中也大有用途。"
 
 
 # Hand to Hand
@@ -378,11 +378,11 @@ outfit "Cloud Piercer"
 	"capture defense" 1.5
 	"unplunderable"
 	"can jettison"
-	description "When it comes to close combat, the Incipias are formidable opponents. This brutal weapon may not be the best to invade another ship with, but when it comes to defending, it quite literally shreds enemies."
+	description "谈及近身战斗时，因西皮亚斯是可怕的对手。这种野蛮的武器或许不是登船入侵的最佳选择，但在防守时，它确实能将敌人撕成碎片。"
 
 # Special
 outfit "Hicemus Conflict License"
 	category "Licenses"
 	series "Licenses"
 	index 12010
-	description "The Hicemus have trusted you enough to give you this license, allowing a glimpse at their most precious technology - technology that is meant to give them an advantage over other factions."
+	description "希塞穆斯已经足够信任你，给予你这张许可证，让你得以一窥他们最珍贵的技术——这些技术旨在让他们在其他派系面前占据优势。"

@@ -148,7 +148,7 @@ ship "Auxiliary" "Auxiliary (Mark II)"
 
 
 ship "Auxiliary" "Auxiliary (Cargo Mark II)"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryc"
 	thumbnail "thumbnail/auxiliaryc"
 	add attributes
@@ -175,7 +175,7 @@ ship "Auxiliary" "Auxiliary (Cargo Mark II)"
 
 
 ship "Auxiliary" "Auxiliary (Transport Mark II)"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryt"
 	thumbnail "thumbnail/auxiliaryt"
 	add attributes
@@ -202,7 +202,7 @@ ship "Auxiliary" "Auxiliary (Transport Mark II)"
 
 
 ship "Auxiliary" "Auxiliary (Jump Transport)"
-	plural "Auxiliaries"
+	plural "辅助舰"
 	sprite "ship/auxiliaryt"
 	thumbnail "thumbnail/auxiliaryt"
 	"crew" 362

@@ -36,57 +36,57 @@ mission "First Contact: Quarg"
 	source
 		attributes "hai quarg" "human quarg"
 	on offer
-		log "Factions" "Quarg" `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
-		log "Factions" "Drak" `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+		log "Factions" "Quarg" `夸格是高大、瘦削、高深莫测的外星人，他们在一个非常小的行星上进化，能够舒适地生活在大气稀薄到人类无法呼吸的世界中。他们在数百万年前就掌握了太空航行。许多夸格人居住在人工建造的环状世界上，其中一处位于人类空间。他们与大多数智慧物种和平共处，并声称与一个名为德拉克的更古老物种保持着联系。`
+		log "Factions" "Drak" `德拉克据信是银河系中现存最古老的物种。夸格人表示，德拉克扮演着类似银河维和人员或警察的角色，一旦某个物种发明出足以导致自身灭绝的恐怖武器，他们便会进行干预。`
 		conversation
-			`You had seen pictures and videos of the Quarg before, but this is your first time in a spaceport that is owned by them. The architecture is truly alien: uncomfortably tall ceilings, strange colors, and walls that never quite seem to meet at right angles. The Quarg themselves are equally strange, towering above you, some nearly three meters tall. Their legs bend backwards at the bottom, like a dog walking on its hind feet, and they move gracefully and almost silently.`
-			`	Most of the Quarg you see are dressed entirely in shades of gray, or only slight hints of color. Quarg fashion seems to revolve not around color, but texture: coarse and fine woven fabrics, patterns like lizard scales or cobblestones, and occasional decorative fringes of sponge-like material. Their skin is deep gray, sometimes with a hint of green or blue or brown beneath it, with a fine scale pattern like a reptile. But what makes their eyes startling is that they look very human, except that some of them have gold or violet irises instead of green or blue or brown. They have no hair, but many are wearing small cloth caps or hoods.`
-			`	One of the Quarg notices you gawking at them and walks over. It squats down on its haunches so that its eyes are level with your own, and says, "Hello." Its voice is deep, sounding like an accordion or the buzz of a beehive blended with the hum of a starship engine.`
+			`你以前看过夸格人的图片和视频，但这是你第一次来到他们拥有的太空港。这里的建筑完全是异星风格：高得令人不适的天花板、怪异的颜色，以及墙壁似乎永远无法以直角交汇。夸格人本身也同样奇特，他们高耸在你面前，有些将近三米高。他们的腿在底部向后弯曲，就像狗用后腿站立一样，而他们移动起来优雅且几乎无声。`
+			`	你见到的大多数夸格人都穿着深浅不一的灰色服装，只有一点点色彩的点缀。夸格人的时尚似乎并不围绕颜色，而是围绕质感：粗糙与精细的编织面料、蜥蜴鳞片或鹅卵石般的图案，偶尔还有海绵状材料制成的装饰流苏。他们的皮肤是深灰色，有时在底下透出一丝绿、蓝或棕色调，带有爬行动物般的细密鳞纹。但他们的眼睛之所以令人惊讶，是因为看起来非常像人类的眼睛，只是有些是金色或紫色的虹膜，而不是绿色、蓝色或棕色。他们没有头发，但许多戴着小小的布帽或兜帽。`
+			`	一名夸格人注意到你在呆呆地看着他们，便走了过来。他蹲下身子，使眼睛与你平齐，说道：“你好。”他的声音低沉，听起来像手风琴，或是蜂巢的嗡嗡声与星舰引擎的嗡鸣混合在一起。`
 			choice
-				`	"Hello."`
-			`	Speaking slowly and deliberately, it says, "I think you are new here. Are you what is called a tourist?"`
+				`	“你好。”`
+			`	他缓慢而慎重地说：“我想你是新来的。你是那种被称为‘游客’的人吗？”`
 			choice
-				`	"Yes."`
-				`	"No, I'm a merchant captain, I'm here to buy and sell cargo."`
-			`	"I see." The Quarg blinks slowly. Its eyelids come from the sides of its eyes, instead of up and down. In an otherwise so human eye, the effect is disconcerting. "Many humans have many questions when they see us, and we the Quarg live for many lifetimes of humans, so it is not burdensome for this one to speak with you."`
+				`	“是的。”`
+				`	“不，我是名商船舰长，来这里买卖货物。”`
+			`	“我明白了。”这名夸格人缓慢地眨了眨眼。他的眼睑是从眼睛两侧而非上下闭合的。在一双如此像人类的眼睛上，这个效果让人不安。“许多人类见到我们时会有很多问题，而我们夸格人能活过许多代人类的寿命，所以与你交谈对我来说并不算是负担。”`
 			
 			label choice
 			choice
-				`	"Can you tell me about the Quarg?"`
+				`	“你能跟我讲讲夸格人的事吗？”`
 					goto quarg
-				`	"Are there other alien species in the galaxy?"`
-				`	"It is an honor to speak with you, but I do not have any questions."`
+				`	“银河系中还有其他外星种族吗？”`
+				`	“能与您交谈是我的荣幸，但我没有什么问题。”`
 					decline
 			
-			`	"Many. Most of them young, so much younger than the Quarg. Many foolish. A few wise. Many travel only along the ancient roads between the stars. A few need no roads to travel by. And some reshape the galaxy at will. But the Quarg are like no other, because we have nothing that the others covet."`
+			`	“很多。其中大部分很年轻，比夸格人年轻得多。很多很愚蠢，少数有智慧。许多只沿着星辰之间的古老道路旅行。少数不需要任何道路就能旅行。还有一些能随意重塑银河系。但夸格人独一无二，因为我们没有任何其他种族觊觎的东西。”`
 			choice
-				`	"What do you mean?"`
+				`	“什么意思？”`
 			
 			label quarg
-			`	"We the Quarg are unique of all the species in the galaxy. Our species began on the moon of a great gas giant, on a planet most small, that gathered about itself very little air. We cannot step many steps on the worlds that the Hai, the Korath, the other species desire. And the worlds like our home, you could not breathe their so thin air, for our lungs are very subtle. And we are an old race, and do not kill for sport or whimsy, so the Drak gave us the gift, that we may go among the other races and settle where we please, and make friends of all, because none dare be our enemy."`
+			`	“我们夸格人在整个银河系的所有种族中独一无二。我们的种族始于一颗巨大气态巨行星的卫星上，那是一颗很小的行星，只能聚集起非常稀薄的大气。我们在亥族、科拉斯人以及其他种族渴望的世界上连几步都走不了。而像我们家园那样的世界，你们也呼吸不了那样稀薄的空气，因为我们的肺非常精巧。而且我们是一个古老的种族，不会为了娱乐或一时兴起而杀戮，所以德拉克赐予我们礼物，让我们得以进入其他种族之间，在我们喜欢的地方定居，并与所有种族交朋友，因为没有人敢成为我们的敌人。”`
 			choice
-				`	"Who are the Drak?"`
+				`	“德拉克是谁？”`
 					goto drak
-				`	"Why do none dare to be your enemy?"`
+				`	“为什么没人敢成为你们的敌人？”`
 			
-			`	"Because we are very strong, and because we speak with the Drak."`
+			`	“因为我们非常强大，而且我们能与德拉克说得上话。”`
 			choice
-				`	"Who are the Drak?"`
+				`	“德拉克是谁？”`
 			
 			label drak
-			`	"The Drak are the eldest living. Not the firstborn, for they are long gone, but the eldest living, and yet they are far younger than the stars. They tend and cultivate the pathways between the stars, and prune away the paths that any species could travel to make war against another. And they hold the secret of travel beyond those pathways, and give the secret only to a worthy few, so that peace may prevail." It taps its chest with one hand, signaling that the Quarg are among those few.`
-			`	"Not that the Drak are strangers to war. Planets and moons and even stars were consumed in their wars and are no more. But then they learned wisdom, and have fought no more wars, many millions of human years. They live nearby, but they keep to themselves, and intervene in the affairs of other races only to prevent their destruction or the use of obscene technologies of war."`
+			`	“德拉克是现存最年长的一族。不是最早诞生的生命——那些早已消逝——而是现存最年长的，然而他们比星辰还要年轻得多。他们照料和培育星辰之间的路径，并切断任何可能被某个种族用来向另一个种族发动战争的路径。他们掌握着超越那些路径的旅行秘密，并且只把秘密赐予少数值得的种族，以便和平得以盛行。”他用手拍了拍胸口，示意夸格人就是那些少数种族之一。`
+			`	“不过，德拉克对战争并不陌生。行星、卫星，甚至恒星都在他们的战争中被消耗殆尽，不复存在。但后来他们领悟了智慧，并且数百万人类年中没有再进行过战争。他们生活在附近，但独来独往，只在为了防止种族毁灭或令人发指的战争技术被使用时，才会干预其他种族的事务。”`
 			choice
-				`	"We humans have used some rather destructive weapons against each other, and no alien species ever stepped in to put a stop to it."`
-				`	"Well, I hope we never do anything bad enough to force them to intervene."`
+				`	“我们人类曾对彼此使用过相当具有破坏性的武器，却没有任何外星种族介入制止。”`
+				`	“嗯，我希望我们永远不要做任何足以迫使他们干预的坏事。”`
 					goto closing
 			
-			`	"You have done what? Awakened the atom? There are weapons far worse than that. Consuming planets. Snuffing out stars. Tearing the flesh of space and time itself. Weapons of chaos I pray your reckless race cannot yet even conceive of. These things will attract the attention of the Drak, because they nearly destroyed this galaxy once, and must not be allowed to do so again."`
+			`	“你们做了什么？唤醒了原子？还有比那糟糕得多的武器。吞噬行星。熄灭恒星。撕裂时空的结构。那是混沌的武器——我祈祷你们鲁莽的种族尚无法想象。这些东西会引起德拉克的注意，因为它们曾经几乎毁灭了这个银河系一次，绝不能再让它们发生第二次。”`
 			choice
-				`	"Well, if there are technologies that dangerous out there, I hope the Drak do continue to succeed in keeping them from being used."`
+				`	“嗯，如果那些危险的科技真的存在，我希望德拉克能继续成功地阻止它们被使用。”`
 			
 			label closing
-			`	"I hope so too, human." The Quarg stands up, towering over you once again. "As long as you are a seeker of peace, you are most welcome on our worlds at any time." It bows to you. You are not sure if that is a Quarg gesture too, or if it is simply imitating a human custom, but you bow in return, and the Quarg walks quietly away.`
+			`	“我也希望如此，人类。”这名夸格人站起身来，再次俯视着你。“只要你是一个和平的寻求者，我们的世界随时欢迎你。”他向你鞠了一躬。你不确定这是否也是夸格人的礼节，还是单纯在模仿人类的习俗，但你也鞠躬回礼，然后夸格人静静地走开了。`
 				decline
 
 
@@ -98,51 +98,51 @@ mission "First Contact: Kuwaru Efreti"
 		has "First Contact: Quarg: offered"
 	on offer
 		conversation
-			`In your past experience, you've never seen the Quarg move with anything approaching haste or excitement, but when you land on this station a group of them run up to you, moving faster than you thought they were able to. For a minute or two they just gawk at you and talk amongst themselves in their own language; you think you recognize the word "Humani," and perhaps, "Eartha."`
-			`	Finally a Quarg appears who speaks your language, or at least is willing to try. It says, "Salutations, astonishing sojourner. Whither came you, and wherefore visit you us here in the unquiet graveyard of the Korathi?"`
+			`你过去从未见过夸格人带着任何急迫或兴奋的迹象移动，但当你降落在这个空间站时，一群夸格人朝你跑来，速度比你想象的要快。有一两分钟，他们只是呆呆地看着你，用他们自己的语言互相交谈；你觉得自己听懂了“Humani”这个词，也许还有“Eartha”。`
+			`	终于出现了一个会说你的语言的夸格人，或者至少愿意尝试。他说：“向你致敬，令人惊叹的旅者。你从何而来，又为何拜访我们这科拉斯人的喧嚣墓园？”`
 			choice
-				`	"I'm just here to explore. Can you tell me more about the Korath?"`
-				`	"I came here to learn what happened to the Korath."`
-			`	"Ah, the unwise Korath," it says. "Once a mighty empire, now sadly splintered and diminished. Their own thinking war machines, now breeding with abandon and inimical to all, hunt the survivors. And of them some, too, were exiled for their great crimes."`
+				`	“我只是来探索的。能告诉我更多关于科拉斯人的事吗？”`
+				`	“我来这里是为了了解科拉斯人遭遇了什么。”`
+			`	“啊，不明智的科拉斯人，”他说，“曾经是一个强大的帝国，如今可悲地分裂和衰落。他们自己制造的会思考的战争机器，现在肆意自我复制，与所有人为敌，猎杀幸存者。他们中的一部分，也因犯下重罪而遭到流放。”`
 			choice
-				`	"What crimes did they commit?"`
+				`	“他们犯了什么罪？”`
 					goto crimes
-				`	"What do you mean, 'thinking war machines'?"`
-			`	"Robotic starships, and autonomous factories to create them. Though now directed by no living being, they yet reproduce and wage against each other senseless war. Ware their ships should you wander north and east of here, for they wield weapons diverse and strange, and bring you can we no succor within the bourne of their space."`
+				`	“你说的‘会思考的战争机器’是什么意思？”`
+			`	“自动化星舰，以及制造它们的自主工厂。虽然现在没有生物指挥，它们仍在自我复制并互相发动毫无意义的战争。如果你向此处的东北方航行，务必当心它们的飞船，因为它们装备了各种奇异的武器。在它们的星域边界内，我们无法为你提供任何援助。”`
 			choice
-				`	"You mentioned 'crimes.' What crimes did they commit?"`
-			`	"Of that we shall not speak, lest awaken in you we the desire to in their footsteps follow. But you may observe the wreckage of their abominations and take warning."`
+				`	“你提到了‘罪行’。他们犯了什么罪？”`
+			`	“这件事我们不会谈论，以免唤起你追随他们脚步的欲望。但你可以观察他们可憎之物的残骸，并引以为戒。”`
 				goto korath
 			
 			label crimes
-			`	"Of that we shall not speak, lest awaken in you we the desire to in their footsteps follow. But you may observe the wreckage of their abominations and take warning."`
+			`	“这件事我们不会谈论，以免唤起你追随他们脚步的欲望。但你可以观察他们可憎之物的残骸，并引以为戒。”`
 			choice
-				`	"You mentioned 'thinking war machines.' What are those?"`
-			`	"Robotic starships, and autonomous factories to create them. Though now directed by no living being, they yet reproduce and wage against each other senseless war. Ware their ships should you wander north and east of here, for they wield weapons diverse and strange, and bring you can we no succor within the bourne of their space."`
+				`	“你提到了‘有思维的战争机器’。那是什么？”`
+			`	“自动化星舰，以及制造它们的自主工厂。虽然现在没有生物指挥，它们仍在自我复制并互相发动毫无意义的战争。如果你向此处的东北方航行，务必当心它们的飞船，因为它们装备了各种奇异的武器。在它们的星域边界内，我们无法为你提供任何援助。”`
 			
 			label korath
-			`	You are interrupted as one of the Korath who inhabit this ringworld walks by, and the Quarg says, "Friend Korath, meet the human."`
-			`	"<first> <last>," you say, holding out a hand automatically. The Korath does not shake your hand, but instead greets you by holding up both hands, palms toward you. It says something in its own language, then hurries away.`
-			`	The Quarg says to you, "One faction among the Korathi sought peace. 'Korath Efreti,' they name themselves, which means 'Korath Friends.' They are under our protection and intend you no harm. But, they have not your language; here humans are rare. Another question have you?"`
+			`	一名居住在这座环世界上的科拉斯人恰好路过，打断了你的话。夸格人说道：“科拉斯朋友，来见见这位人类。”`
+			`	“<first> <last>，”你下意识地伸出一只手说道。科拉斯人并没有与你握手，而是举起双手，掌心朝向你，以此作为问候。它用自己的语言说了些什么，便匆匆离开了。`
+			`	夸格人对你说：“科拉斯人中有一派寻求和平。他们自称‘Korath Efreti’，意为‘科拉斯之友’。他们受我们的保护，对你没有恶意。但他们不懂你的语言；在这里，人类十分罕见。你还有别的问题吗？”`
 			choice
-				`	"Will the friendly Korath let me purchase their technology?"`
-				`	"Why don't you destroy the robots, if they're such a threat?"`
+				`	“友好的科拉斯人会让我购买他们的技术吗？”`
+				`	“如果那些机器人威胁这么大，你们为什么不摧毁它们？”`
 					goto destroy
-				`	"No, but I'm glad to meet you."`
+				`	“没有了，但很高兴见到你。”`
 					decline
-			`	"Visit their worlds," says the Quarg. "Though they learn not your words, you are clever and may speak as does one without words, by pointing at things." You thank it for its time, and the crowd of Quarg that has been gawking at you slowly disperses.`
+			`	“去他们的世界看看吧，”夸格人说，“虽然他们不懂你们的语言，但你很聪明，可以像不会说话的人一样通过指指点点来交流。”你感谢它抽出时间与你交谈，那群一直盯着你打量的夸格人也慢慢散去了。`
 				decline
 			
 			label destroy
-			`	It clicks its teeth together, which might be the Quarg equivalent of laughter. "It was hoped that one faction of robots would destroy the other, and leave for us less work to do, but they are sadly too evenly matched. Instead we merely restrain them from expanding, as one isolates a fire one cannot extinguish and for it to burn out waits." You thank it for its time, and the crowd of Quarg that has been gawking at you slowly disperses.`
+			`	它磕了磕牙齿，这或许是夸格人笑的表现。“我们曾希望一派机器人能摧毁另一派，好让我们少费些力气，但遗憾的是它们势均力敌。因此，我们只能限制它们的扩张，就像隔离一场无法扑灭的火灾，静待它自行燃尽。”你感谢它抽出时间与你交谈，那群一直盯着你打量的夸格人也慢慢散去了。`
 				decline
 
 
 
 mission "Quarg Satellites"
 	minor
-	name "Deploy Quarg Scanners"
-	description "Head to each of the marked systems to deploy the Quarg scanning satellites, then head to <destination> to collect your payment."
+	name "部署夸格扫描仪"
+	description "前往每个被标记的星系部署夸格扫描卫星，然后前往<destination>领取报酬。"
 	source
 		near "Umbral" 1 3
 		government "Quarg"
@@ -158,49 +158,49 @@ mission "Quarg Satellites"
 		"pirate attraction" <= 1
 	on offer
 		conversation
-			`A Quarg slowly makes its way to you when it notices you in the spaceport. "Greetings, human friend. Would you happen to have the time to listen to a proposal? We are looking for a pilot willing to help us deploy some scanning satellites."`
+			`一名夸格在太空港中注意到了你，缓缓向你走来。“你好，人类朋友。不知你现在有没有时间听一个提议？我们在寻找一位愿意帮我们部署一些扫描卫星的飞行员。”`
 			choice
-				`	"Sure, where am I deploying them?"`
+				`	“当然，我要把它们部署在哪里？”`
 					goto where
-				`	"What are the satellites for?"`
-				`	"I don't have the time, no."`
+				`	“这些卫星是做什么的？”`
+				`	“我没时间，不了。”`
 					decline
-			`	"To help humans in the other end of this region, the South, be better prepared against incoming attacks, and help them keep track of ships that pass by their systems."`
+			`	“为了帮助这片区域另一端——也就是南部星区的人类，让他们能更好地防备来袭的攻击，并协助他们追踪经过其星系的飞船。”`
 			choice
-				`	"I'd like to help with that then. Where am I deploying them?"`
+				`	“既然如此，我愿意帮忙。我要把它们部署在哪里？”`
 					goto where
-				`	"Help? Why do you want to help people there all of a sudden?"`
-				`	"I am actually headed to a different part of the galaxy now, sorry."`
+				`	“帮忙？你为什么突然想帮那里的人？”`
+				`	“我现在其实正要前往银河系的另一个地方，抱歉。”`
 					decline
-			`	"Why?" It pauses for a second. "Surely you have seen the foolish thugs that plague this whole region. We can deal with them here, but we do not usually travel far. To promote peace all around, without even more needless slaughter, providing some measures to deter further attacks is but a courtesy."`
+			`	“为什么？”它停顿了片刻。“你肯定见过那些在这整片区域肆虐的愚蠢暴徒。我们可以在这里对付他们，但我们通常不会走得太远。为了促进各方和平，避免更多无谓的杀戮，提供一些威慑进一步攻击的手段，不过是出于礼貌罢了。”`
 			choice
-				`	"I'd like to help with that then. Where am I deploying them?"`
-				`	"I am actually headed to a different part of the galaxy now, sorry."`
+				`	“既然如此，我愿意帮忙。我要把它们部署在哪里？”`
+				`	“我现在其实正要前往银河系的另一个地方，抱歉。”`
 					decline
 			label where
-			`	"To <waypoints>. Once you are done, return here and you will receive <payment>."`
-			`	As soon as you arrive at your ship, you find various Quarg with loaderbots, putting the four satellites inside your ship's cargo hold. The satellites are shaped like triangular pyramids, with each point of the main pyramid being tipped with another, smaller triangular pyramid. You can't quite make it out from this distance, but you wonder if the smaller pyramids are also tipped with even smaller pyramids. Each of the devices is roughly half your size, but probably weigh a lot more than you.`
+			`	“去<waypoints>。一旦完成，回到这里，你就会收到<payment>。”`
+			`	你刚一回到飞船，就发现几名夸格人正带着装卸机器人，把四颗卫星放进你的货舱。这些卫星的形状像是三角锥，主锥体的每个顶点上又立着一个更小的三角锥。从这个距离你看不太清，但你怀疑这些小锥体的顶点上是否还有更小的锥体。每个装置的体积大约只有你的一半大小，但重量可能比你大得多。`
 				accept
 	on enter "Kappa Centauri"
-		dialog "You open your cargo hold, and let a Quarg scanner drift out to the void."
+		dialog "你打开货舱，让一个夸格扫描器飘入虚空。"
 	on enter "Graffias"
-		dialog "Looking at the former slave-colony planet here as you deploy their scanner, you wonder if the Quarg heard about Poisonwood's history, and that's why they decided to help with surveillance."
+		dialog "当你在部署扫描器时，注视着这颗曾是奴隶殖民地的星球，你不禁猜想夸格人是否听闻了毒木星的历史，所以才决定协助这里的监视工作。"
 	on enter "Antares"
-		dialog "You set a Quarg scanner free, and let it leave your ship."
+		dialog "你释放了一个夸格扫描器，让它离开你的飞船。"
 	on enter "Han"
-		dialog "Although those that live on the planet here don't seem to mind the occasional pirates demanding tribute, maybe they will come to appreciate the reduced pirate presence here, assuming the Quarg scanner really does help with that."
+		dialog "虽然这颗星球上的居民似乎并不介意偶尔有海盗来索要贡品，但如果夸格扫描器真的能起到作用，也许他们会感激这里海盗数量的减少。"
 	on visit
 		dialog phrase "generic waypoint on visit"
 	on complete
 		payment 263000
-		dialog `You land to find a Quarg waiting right at the docks. It hands you <payment>, and thanks you for your help.`
+		dialog `你降落时发现一名夸格人正等在码头。它递给你<payment>，并感谢了你的帮助。`
 
 
 
 mission "Lagrange Ring: Cargo"
 	minor
-	name "Human Construction Materials"
-	description "Head to <stopovers> to pick up <cargo>, then bring it all to <destination>, where the Quarg are preparing to open the first section of their ringworld for human visitors."
+	name "人类建材"
+	description "前往<stopovers>装载<cargo>，然后将它们全部运至<destination>。夸格人正在那里做准备，即将开放他们环世界的第一片区域供人类访客参观。"
 	cargo "construction materials" 254
 	source
 		near "Enif" 1
@@ -213,40 +213,40 @@ mission "Lagrange Ring: Cargo"
 		"pirate attraction" <= 3
 	on offer
 		conversation
-			`In the spaceport, a group of Quarg is talking to dozens of human captains. Some nod and head right back to their ships, while a few others remain and appear to discuss a bit more with the Quarg.`
+			`在太空港里，一群夸格人正在与数十名人类船长交谈。有些人点点头便径直返回自己的飞船，而另外几人则留了下来，似乎在与夸格人做进一步的商议。`
 			choice
-				`	(Join them to see what's going on.)`
-				`	(Ignore them.)`
+				`	（凑过去看看是怎么回事。）`
+				`	（无视他们。）`
 					decline
-			`	You join the group, and one of the Quarg diverts its attention to you, while the others continue speaking with the human merchants.`
-			`	"Would you also be someone willing to provide us a cargo service, Captain?" it asks, all the while checking a data pad, which seems to be related to the ships docked here. "Not many of you humans in this region have the cargo space required, much less proper defenses for cargo convoys. We are willing to pay adequately for whoever meets the criteria and is willing to help us."`
+			`	你加入了人群，其中一名夸格人将注意力转向了你，而其他人则继续与人类商人们交谈。`
+			`	“船长，您是否也愿意为我们提供货运服务？”它一边问，一边查看手中的数据板，那上面似乎记录着停靠在此处的飞船信息。“在这片区域的人类中，很少有人能拥有符合要求的货舱空间，更不用说为货运船队配备适当的防御了。我们愿意为任何符合标准且愿意伸出援手的人提供丰厚的报酬。”`
 			choice
-				`	"Are those other Captains also doing this? What do you need so much cargo for?"`
-				`	"I'm not looking for any more cargo jobs right now, sorry."`
+				`	“其他那些船长也是来做这差事的吗？你们需要这么多货物做什么？”`
+				`	“抱歉，我现在不想再接什么货运差事了。”`
 					decline
-			`	"Many have agreed to help us already, but we still need many more. Those that have agreed to help are headed all to different portions of human space, to safely bring us the materials we have ordered.`
-			`	"Our ringworld, under construction around the star of <system>, is to have a special open section for humans to visit soon. We wish to make the internal style and decoration of that section closer to human standards, so we are asking every capable captain to help. You are one such captain, are you willing to help us?"`
+			`	“已经有许多人同意帮助我们了，但我们还需要更多人手。那些答应帮忙的人正前往人类空间的各个区域，为我们安全地运回我们订购的材料。`
+			`	“我们正在<system>星系的恒星周围建造一座环世界，并且很快就会设立一个专门供人类参观的开放区域。我们希望该区域的内部风格和装饰能更贴近人类的标准，因此正在寻求每一位有能力的船长帮忙。您正是这样一位船长，愿意助我们一臂之力吗？”`
 			choice
-				`	"Alright, I'm interested. Where should I go to pick up the cargo?"`
-				`	"Sorry, I'm not looking for any cargo job right now, I was just curious."`
+				`	“好吧，我很感兴趣。我该去哪里取货？”`
+				`	“抱歉，我现在不想接货运差事，只是好奇问问。”`
 					decline
-			`	It fiddles with the data pad a bit more, then says, "You are to pick up <cargo> on <stopovers>, then deliver that cargo to <destination>. You will be paid <payment> for the service. Be well, human."`
-			`	It gestures a bow to you, then leaves to speak with another merchant captain that got curious as well.`
+			`	它又摆弄了一会儿数据板，然后说道：“您需要前往<stopovers>提取<cargo>，然后将这批货物运送到<destination>。您将获得<payment>作为此次服务的报酬。祝您安好，人类。”`
+			`	它向你微微鞠躬示意，随后便离开，去与另一位同样被吸引过来的商船船长交谈了。`
 				accept
 	on stopover
-		dialog `The <cargo> is loaded into your ship under strict supervision, each crate carefully accounted for.`
+		dialog `在严格的监督下，<cargo>被装上了你的飞船，每一个货箱都经过了仔细的清点。`
 	on visit
 		dialog phrase "generic missing stopover or cargo"
 	on complete
 		payment 953000
 		conversation
-			`Much like your own ship, several other human freighters and convoys are arriving, and the cargo being meticulously checked by the Quarg, as they use their own machinery to unload what must be tens of thousands of tons from all the ships.`
-			`	About halfway through the unloading of your own cargo, a Quarg comes up to you and hands you <payment>.`
+			`就像你自己的飞船一样，还有几艘人类货船和船队正在陆续抵达，他们的货物也都接受了夸格人一丝不苟的检查。夸格人使用着他们自己的机械，从所有飞船上卸下了总计重达数万吨的物资。`
+			`	大约在你的货物卸到一半时，一名夸格人走到你面前，递给了你<payment>。`
 
 
 mission "Lagrange Ring: Cargo Job"
-	name "Human Construction Materials"
-	description "Head to <stopovers> to pick up <cargo>, then bring it all to <destination>, where the Quarg are preparing to open the first section of their ringworld for human visitors."
+	name "人类建材"
+	description "前往<stopovers>装载<cargo>，然后将它们全部运至<destination>。夸格人正在那里做准备，即将开放他们环世界的第一片区域供人类访客参观。"
 	job
 	repeat
 	cargo "construction materials" 98
@@ -261,12 +261,12 @@ mission "Lagrange Ring: Cargo Job"
 		has "Lagrange Ring: Cargo: done"
 		random < 1
 	on stopover
-		dialog `The <cargo> is loaded into your ship under strict supervision, each crate carefully accounted for.`
+		dialog `在严格的监督下，<cargo>被装上了你的飞船，每一个货箱都经过了仔细的清点。`
 	on visit
 		dialog phrase "generic missing stopover or cargo"
 	on complete
 		payment 341000
-		dialog `About halfway through the meticulous unloading of the cargo, a Quarg comes up to you and hands you <payment>.`
+		dialog `当这种细致入微的卸货工作进行到大约一半时，一名夸格人走到你面前，递给了你<payment>。`
 
 
 
@@ -282,26 +282,26 @@ mission "Ask Quarg About Coalition Early"
 		attributes "station"
 	on offer
 		conversation
-			`You've met the Coalition, and the Heliarchs that rule their space from within the ringworlds the Quarg built there who claim that they "defeated the Quarg oppressors." Would you like to look for some Quarg here and ask for their side of the story?`
+			`你见过联盟，以及那些从夸格人建造的环世界内部统治其空域的赫利亚克人，他们声称自己“击败了夸格压迫者”。你想不想在这里找几位夸格人，听听他们那边的说法？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	（是的。）`
+				`	（否。）`
 					decline
-			`	You stop the first Quarg that passes by you, and ask if they could tell their side of the story about the Coalition.`
-			`	"Ah, so you have encountered the foolish Coalition," it begins. "They once were three promising species, before they succumbed to the unwise desire for usurpation of the great deeds of others.`
-			`	"Not that all of them are petty thieves, but sadly the civilization they have become is now ruled by a fanatical military, as I am sure you have seen, having spoken with those wretched Heliarchs."`
+			`	你拦下了第一位从你身边经过的夸格人，问它能否讲讲关于联盟的事情，听听他们的版本。`
+			`	“啊，看来你已经接触过愚蠢的联盟了，”它开口说道。“他们曾经是三个大有前途的种族，直到他们被窃取他人丰功伟业的不智欲望所吞噬。`
+			`	"倒不是说他们都是鸡鸣狗盗之辈，但可悲的是，他们如今的文明已被一个狂热的军事集团统治，我相信你与那些可悲的赫利亚克交谈时已经见识过了。"`
 			choice
-				`	"Is it true that they defeated you?"`
+				`	"他们击败你们，这是真的吗？"`
 					goto defeat
-				`	"Is it true what they told me? That you oppressed them and hindered their development?"`
+				`	"他们告诉我的那些是真的吗？你们压迫了他们，阻碍了他们的发展？"`
 					goto oppress
 			label defeat
-			`	It clicks its teeth together for a moment, and frowns a bit. "Do not underestimate us, human. We are numerous, and we are strong." It pauses for a moment, with a blank expression on its face, as if trying to remember something. "We just know better than to slaughter billions for the sake of maintaining our position."`
+			`	它牙齿叩击了一会儿，微微皱眉。"别小看我们，人类。我们数量众多，而且强大。"它停顿了一下，面无表情，仿佛在回忆什么。"我们只是知道，没必要为了维护自己的地位而屠杀数十亿生命。"`
 				goto end
 			label oppress
-			`	"Of course not. Have you seen us do such things with humanity? Or with any other alien species you might have reached in your travels with a jump drive? The Heliarchs, like any other fanatical military, merely fabricated an excuse to justify attacking us."`
+			`	“当然没有。你见过我们对人类这样做吗？或者对你用跃迁引擎旅行中可能遇到的任何其他外星物种这样做过吗？赫利亚克和其他狂热的军事集团一样，只是捏造了一个借口来为其攻击我们的行为辩护。”`
 			label end
-			`	Before you can ask it anything else, the Quarg bids you farewell, and walks away.`
+			`	你还没来得及问其他问题，那个夸格便向你告别，走开了。`
 				decline
 
 
@@ -319,39 +319,39 @@ mission "Quarg Pug Arfecta Warning"
 		conversation
 			branch flagship
 				has "flagship model: Pug Arfecta"
-			`As soon as you land, you see a crowd of Quarg gathering around one of your escorts, the Pug Arfecta. The captain of the ship looks shaken as the Quarg surround them, seemingly being questioned by a rather tall Quarg, even by Quarg standards. The captain looks around and, seeing you, points in your direction, causing the Quarg to come your way. The tall Quarg towers over you and gives you a piercing stare.`
+			`你刚一降落，就看到一群夸格围着你的一艘护航舰——帕格阿费克塔号。舰长神色慌张，被夸格们团团围住，似乎正被一个即便在夸格中也算异常高大的夸格审问。舰长四下张望，见到你后朝你一指，于是夸格们便向你走来。那个高大的夸格居高临下地俯视着你，目光锐利如锥。`
 				goto choice
 			label flagship
-			`As soon as you land your ship, a crowd of Quarg start to gather around. As you go to disembark, you find a rather imposing Quarg blocking the exit. Tall even by Quarg standards, it towers over you and gives you a piercing stare.`
+			`你的飞船刚一降落，一群夸格便开始聚集。当你准备下船时，发现一个气势逼人的夸格挡住了出口。即便按夸格的标准他也算异常高大，它居高临下地俯视着你，目光锐利如锥。`
 			label choice
-			`	"It is as though a baby in swaddling has tamed a dragon and now rides it through the sky spewing fire with reckless abandon," it says while not breaking its gaze, unblinking.`
+			`	“简直就像襁褓中的婴孩驯服了一条巨龙，然后骑着它肆无忌惮地在天空喷火。”它目不转睛地说，一眨也不眨。`
 			choice
-				`	"It's a long story..."`
+				`	“说来话长……”`
 					goto evasive
-				`	"It was an act of righteous defiance."`
+				`	“那是一场正义的反抗。”`
 					goto righteous
-				`	"The Pug fancy themselves gods, but since God is dead..."`
+				`	“帕格自以为是神，可既然上帝已死……”`
 					goto anarchy
-				`	"I saw something I liked, so I made it mine."`
+				`	“我看上一样东西，就把它弄到手了。”`
 					goto greedy
 			label evasive
-			`	It scoffs, "It matters not how it happened.`
+			`	它嗤笑一声：“事情是怎么发生的并不重要。`
 				goto end
 			label righteous
-			`	"You fancy yourself a savior or a revolutionary then?" the Quarg says with what you assume is a sarcastic tone.`
+			`	“那么你自以为是个救世主或革命者？”夸格用你猜想是讽刺的口吻说道。`
 				goto end
 			label anarchy
-			`	"So you deign to prove them wrong?" the Quarg says with an almost amused, or perhaps incredulous tone.`
+			`	“所以你就屈尊去证明他们错了？”夸格几乎带着好笑、又或许是难以置信的语气说道。`
 				goto end
 			label greedy
-			`	"A baby in swaddling, indeed...`
+			`	“襁褓中的婴孩，确实……`
 				goto end
 			label end
-			`	"We give you a warning. You know not what you have, human - what weapon you wield.`
-			`	"We have seen its power. We have felt it, and learned from it. But you and your kind know nothing of the burdens and dangers that follow it. Be careful that you are the one who directs this power, and not it you.`
-			`	"Know well that we have learned how to overcome it."`
-			`	The Quarg takes one last long look at your ship, then makes a curt farewell motion, leaving you to your business. The crowd, too, starts to disperse, with only a few staying behind to gawk at the ship.`
-			`	As you make your way through the ring, you notice occasional glares from the Quarg onboard the ring.`
+			`	“我们给你一个警告。你不知道自己拥有什么，人类——你挥舞的是什么武器。`
+			`	“我们见识过它的力量。感受过它，并从中学习。但你和你的同类对其背后的负担与危险一无所知。小心是你驾驭这股力量，而不是被它驾驭。`
+			`	“你要清楚，我们已经学会了如何战胜它。”`
+			`	夸格最后久久地看了你的飞船一眼，然后做了一个简短的告别手势，留下你自行其是。人群也开始散去，只有少数几个还留在后面盯着飞船看。`
+			`	当你穿过环状空间站时，你注意到环上的夸格偶尔会投来怒视。`
 				decline
 
 
@@ -373,106 +373,106 @@ mission "Ask Quarg About Coalition Late"
 			branch lunarium
 				has "joined the lunarium"
 			label heliarch
-			`You've obtained the rank of Heliarch, the group who to this day remain hostile to the Quarg. Despite that, you were allowed to land here on <origin> - you don't know whether that's because the Quarg simply don't know that you've joined the Heliarchs, or don't care enough to stop you from coming to their rings. Would you like to ask the Quarg for their side of the story, in light of what you've learned from the Heliarchs?`
+			`你已获得了赫利亚克的头衔——这个群体至今仍对夸格持敌对态度。尽管如此，你被允许降落在<origin>上——你不知这是否因为夸格根本不知道你加入了赫利亚克，还是他们根本不在乎阻止你前来他们的环带。鉴于你从赫利亚克那里了解到的情况，你想听听夸格对此的说法吗？`
 			choice
-				`	(Yes.)`
+				`	（是的。）`
 					goto yes
-				`	(Not now.)`
+				`	（现在不了。）`
 					defer
-				`	(No, I'm not interested.)`
+				`	（不，我没兴趣。）`
 					decline
 			label lunarium
-			`You've joined the Lunarium in Coalition space, and even served as a messenger to bring the Quarg some information about the Lunarium itself, in the hopes that they might provide some help. Would you like to ask the Quarg for their side of the story, in light of what you've learned from the Lunarium and from your visit to the Quarg with Oobat?`
+			`你已加入了联盟空间中的月影社，甚至还曾担任信使，将月影社的一些信息带给夸格族，希望他们能提供一些帮助。鉴于你从月影社以及随乌巴特拜访夸格族时了解到的情况，你想听听夸格族对此的说法吗？`
 			choice
-				`	(Yes.)`
+				`	（是的。）`
 					goto yes
-				`	(Not now.)`
+				`	（现在不了。）`
 					defer
-				`	(No, I'm not interested.)`
+				`	（不，我没兴趣。）`
 					decline
 			label yes
-			`	You're never quite sure who to speak with when it comes to the Quarg, but this time you're drawn to one that easily stands out. You judge it to be an older member of their species; its thin scales cover its fingers, and the more bony parts of its head have turned to a bright, silvery shade. Unlike most Quarg you've seen, it is wearing a pale, faded white robe, with patches of red-colored chains (that somehow perfectly transition into fabric again) becoming more and more prominent closer to the top, culminating in a firm, crimson hood covering its head. Most surprising of all for a Quarg, however, is the large scar taking up much of the left side of its face, completely covering where its left eye should be.`
-			`	It is completely static, with a lost gaze focused on the ceiling until you approach it. It doesn't squat down to meet your eye level. Instead it says nothing, simply gazing at you with its one eye, colored a bright gold.`
+			`	你始终不太确定该与哪位夸格交谈，但这次你被一个格外显眼的身影吸引。你判断它是这个种族中较老的成员；它手指上覆盖着薄薄的鳞片，头部较骨感的部分已变成明亮的银白色。与你见过的多数夸格不同，它穿着一件褪色的淡白色长袍，靠近顶部时，红色链条的补丁（不知何故完美地过渡为织物）越来越显眼，最终汇成一个坚实的深红色兜帽罩在头上。然而，最令你惊讶的是，一道巨大的疤痕占据了它左脸的大部分，完全覆盖了原本左眼所在的位置。`
+			`	它完全静止，失神的目光盯着天花板，直到你走近。它没有蹲下来与你的视线平齐，而是一言不发，只用那只明亮的金色眼睛凝视着你。`
 			choice
-				`	"Hello, I'm <first> <last>. What can you tell me about the Coalition?"`
-				`	"Hello. Is it true that the Heliarchs defeated you and stole your ringworlds?"`
-			`	It continues to stare at you for a while, without as much as blinking. It looks over to a bench in one of the quieter areas of the spaceport, and gestures for you to follow. As you two sit down, you notice it pauses mid-breath. After a few seconds of adjusting itself in the seat, the Quarg finally speaks up.`
+				`	“你好，我是<first> <last>。关于联盟，你能告诉我些什么？”`
+				`	“你好。赫利亚克打败了你们并偷走了你们的环世界，这是真的吗？”`
+			`	它继续凝视了你一会儿，连眼睛都没眨一下。它看向太空港较安静区域的一条长凳，示意你跟上。你们坐下后，你注意到它在呼吸中停顿了一下。几秒钟后，它在座位上调整了一下，终于开口了。`
 			`	"Those three species arose in relative rapid succession, all in close proximity, compared to how other species tend to be separated by long periods of time, and longer still their distances." Its voice, while still sharing the buzzing, deep hums you've grown to expect from the Quarg, is broken up every other word by something like a crack - or a creak - as if certain vocal cords have grown sore, with an uncomfortable sound akin to an out-of-tune cello mixing its way into the Quarg's words. "So large are the gaps, that one might never learn of those that came before. But, that was not the case for the three. The first of them, the Saryds, were in many ways much like us Quarg in our younger days, and we perhaps were much too lenient because of that..." It stops, and brings one hand over its head, and then the other, closing its eye as if in a sudden headache. Your eyes almost instinctively go to its scales, expecting them to change like other Quarg you've seen. But, their colors remain unaltered, the same pale gray and silver shades. A few seconds pass, and it brings down its hands back to its lap, opening its eye as it continues. "The Kimek, traumatized by the billions fallen in their famines, sought help to make sure they would never face such a crisis again, and were eager to establish friendly relations with the Saryds. The Arachi, in a way, parallel humanity's development, though they were less keen on letting their inner conflicts be made public. They were the last of the three, and upon meeting their two seniors, invested heavily in research to catch up."`
-			`	It pauses again, taking a look around the spaceport. It fixates on you for a bit, then on the ships landing and departing here. "In the intersecting point of their territories, we built our ringworlds. Seven thousand Earth years ago, the three species of the Coalition sought to take over those rings. After centuries... no, a millennium of fighting, we left that part of the galaxy."`
+			`	它又停顿了一下，环顾太空港。它注视了你一会儿，然后看向这里起飞降落的飞船。“在他们领土的交汇点，我们建造了环世界。七千地球年前，联盟的三个种族试图夺取这些环带。经过几个世纪……不，一千年的战斗，我们离开了那片星域。”`
 			choice
-				`	"Why did they decide to start attacking you and your rings?"`
-				`	"Even now you're more advanced than them, aren't you? How come you lost thousands of years ago, when they were weaker?"`
+				`	“他们为什么决定攻击你和你的环带？”`
+				`	“即使现在你仍然比他们先进，不是吗？为什么几千年前他们更弱的时候你们会失败？”`
 					goto lost
-			`	"Whatever reasons they had, whatever drove them to attack us, we cannot quite comprehend... No." It stops, not sighing or showing much emotion, its scales still showing no sign of changing. It looks at the ceiling again, then back at you. "No. You are tired of hearing this same story from us Quarg, are you not? That the foolish and young species warred for no good reason." It pauses again, contemplating its words. "That war was not the first instance where we lost a ring of ours, but never did any of us wish for any ring to be lost in the first place. With three rings there, with the living space for over three trillion Quarg being constructed, we got awfully... protective of that region, in order to prevent outside interference from causing us trouble again. Our relations with the Kimek and Arachi were a far cry from the initial success and amicability we enjoyed with the Saryds, and when an Arach ship first showed signs of technology that repaired its hull platings mid-flight, an achievement even the Saryds were yet to make, we... jumped to conclusions."`
+			`	“无论他们有什么理由，无论是什么驱使他们攻击我们，我们都无法完全理解……不。”它停下了，没有叹气或表现出多少情绪，鳞片仍然毫无变色迹象。它又看了看天花板，然后看回你。“不。你已经厌倦了听我们夸格讲同一个故事，不是吗？关于愚蠢年轻的种族毫无理由地开战。”它再次停顿，斟酌着措辞。“那次战争并不是我们第一次失去环带，但起初我们谁都不希望失去任何环带。那里的三个环带，正在建造供超过三万亿夸格居住的空间，我们变得极其……保护那片区域，以防止外部干扰再次给我们带来麻烦。我们与基梅克和阿拉奇的关系远不如与萨里德人最初的成功和友好，当一艘阿拉奇飞船首次显示出在飞行中修复船体板的科技时——这是连萨里德人都尚未实现的成就——我们……仓促下了结论。”`
 			choice
-				`	"You 'jumped to conclusions'? What do you mean?"`
-				`	"Even now you're more advanced than them, aren't you? How come you lost thousands of years ago, when they were weaker?"`
+				`	“你们‘仓促下了结论’？什么意思？”`
+				`	“即使现在你仍然比他们先进，不是吗？为什么几千年前他们更弱的时候你们会失败？”`
 					goto lost
-				`	"That's all. Thank you for speaking with me."`
+				`	“就这些。谢谢你与我交谈。”`
 					goto end
-			`	It slowly turns its head over to face you, with its eye gazing into your own. An uncomfortable minute passes at a snail's pace, as you seem to struggle keeping eye contact with the Quarg, while at the same time finding it difficult to look elsewhere.`
-			`	"We had gone there to protect the three species. To guide them. To observe them. We failed the latter, losing track of wisdom and reason in favor of fearing past shames. In that, our guidance became compromised, for they trusted us no longer. We were no longer seen as protectors, but as those they had to protect themselves against."`
+			`	它慢慢转过头面对你，那只眼睛凝视着你的眼睛。令人不安的一分钟如蜗牛般缓慢流逝，你似乎很难与夸格保持眼神接触，同时又觉得难以看向别处。`
+			`	“我们去那里是为了保护那三个种族。引导他们。观察他们。我们没能做到后者，出于对过去耻辱的恐惧而失去了智慧和理性。因此，我们的引导受到了损害，因为他们不再信任我们。我们不再被视为保护者，而是被视为他们需要自我保护的对象。”`
 			choice
-				`	"Even now you're more advanced than them, aren't you? How come you lost thousands of years ago, when they were weaker?"`
-				`	"That's all. Thank you for speaking with me."`
+				`	“即使现在你仍然比他们先进，不是吗？为什么几千年前他们更弱的时候你们会失败？”`
+				`	“就这些。谢谢你与我交谈。”`
 					goto end
 			label lost
-			`	"Are we so horribly powerful indeed, or is our might mere consequence of being elders in this galaxy littered with the premature deaths of other species?" it asks. "No... forgive me, I did not answer your question. We... many of our young ones and veterans alike vowed to never allow another ring to be lost. We do not kill for sport, but it has become as natural for a Quarg to defend a ring as it would be for a human to defend their family.`
-			`	"By the billions, defenders arose, ignoring our ways of peace, what social customs we were expected to follow, and... what you may call 'orders.' After a few centuries, those that tolerated, or were forced to tolerate the request for a ceasefire, were evacuated from the rings, and then it was only a matter of time before those of us that remained were overrun by the Coalition."`
-			`	It once again starts looking at the ceiling, remaining like that for a minute or so.`
+			`	“我们真的如此强大得可怕，还是我们的力量仅仅是我们身为这个布满其他种族过早死亡的星系中的长老的后果？”它问道。“不……请原谅，我没有回答你的问题。我们……我们许多年轻人和老兵都发誓再也不允许失去任何环带。我们不因娱乐而杀戮，但保护一个环带对夸格来说已变得像人类保护家人一样自然。`
+			`	“数以十亿计的防卫者涌现，无视我们的和平之道、我们应遵守的社会习俗，以及……你们所谓的‘命令’。几个世纪后，那些容忍或被迫容忍停火请求的人被撤离了环带，然后我们留在那里的人被联盟压垮，只是时间问题。”`
+			`	它再次开始看着天花板，就这样维持了一分钟左右。`
 			branch "heliarch 2"
 				has "joined the heliarchs"
 			branch "lunarium 2"
 				has "joined the lunarium"
 			label "heliarch 2"
-			`	It then turns to face you once more. "We have of course noticed that headpiece the Heliarchs have provided you with. Though you have officially joined their ranks, you are human. You are not bound to that area of space. There is no need for you to obey their orders. You do not need to ever return there. There is no need for you and us Quarg to be enemies."`
+			`	然后它再次转向你。“我们当然注意到了赫利亚克提供给你的那个头饰。尽管你正式加入了他们的行列，但你是人类。你不受那片空间限制。你没有必要服从他们的命令。你永远不需要回到那里。你与我们夸格之间没有理由成为敌人。”`
 			label "heliarch ask"
 			branch end
 				has "ask quarg coalition late: threat"
 				has "ask quarg coalition late: aid"
 			choice
-				`	"Is that a threat?"`
+				`	“这是威胁吗？”`
 					goto threat
 					to display
 						not "ask quarg coalition late: threat"
-				`	"What if I do want to aid the Heliarchs?"`
+				`	“如果我想帮助赫利亚克呢？”`
 					goto aid
 					to display
 						not "ask quarg coalition late: aid"
 			label threat
 			action
 				set "ask quarg coalition late: threat"
-			`	"No. It is advice. Though you have joined them, you are still welcome at our rings, for the time being. But, the Heliarchs are a group formed and bound by their distrust and revulsion for our kind. Should you continue to follow the Heliarchs, sooner or later they are sure to put you against us, at which point I can no longer guarantee you will retain safe passage through our systems, or will be granted landing clearance on our worlds still."`
+			`	“不。这是建议。尽管你加入了他们，但暂时你仍然受到我们环带的欢迎。但是，赫利亚克是一个因对我们种族的不信任和厌恶而形成并束缚的团体。如果你继续追随赫利亚克，迟早他们一定会让你与我们对抗，到那时我无法再保证你仍能安全通过我们的星系，或仍能获准降落我们的世界。”`
 				goto "heliarch ask"
 			label aid
 			action
 				set "ask quarg coalition late: aid"
-			`	"Your motives are your own, but if you were captivated by your own obsessions, then I can only hope you will come to see reason before you too are lost to their path."`
+			`	“你的动机是你自己的，但如果你被自己的执念所迷惑，那么我只能希望你能在迷失于他们的道路之前认清事理。”`
 				goto "heliarch ask"
 			label "lunarium 2"
-			`	It then turns to face you again, saying, "I am aware that you brought one from the Coalition to us, for a conversation. One belonging to a group that seeks to overthrow the Heliarchs. Do be careful, human, they might not be as technologically advanced as us Quarg, but they are very strong still, and duty-bound unlike most others. You and your allies are bound to face tremendous hardship, if you are to oppose them."`
+			`	然后它再次转向你，说道：“我知道你带了一个联盟的人来与我们交谈。一个属于试图推翻赫利亚克的团体的人。小心点，人类，他们可能不像我们夸格那样科技先进，但他们仍然非常强大，而且比大多数人都更忠于职守。如果你要对抗他们，你和你的盟友必将面临巨大的困难。”`
 			label "lunarium ask"
 			branch end
 				has "ask quarg coalition late: help"
 				has "ask quarg coalition late: tips"
 			choice
-				`	"Will the Quarg help us fight the Heliarchs?"`
+				`	“夸格会帮助我们对抗赫利亚克吗？”`
 					goto help
 					to display
 						not "ask quarg coalition late: help"
-				`	"Any tips on how to fight them?"`
+				`	“有什么对抗他们的建议吗？”`
 					goto tips
 					to display
 						not "ask quarg coalition late: tips"
 			label help
 			action
 				set "ask quarg coalition late: help"
-			`	"We agreed to that conversation, that 'interview' of yours. Beyond that, we cannot help much without provoking war, I fear. We seek not to strike fear into the hearts of those of the Coalition, we never did. It would burden your cause to have us take part in the fighting."`
+			`	“我们同意了那次谈话，你的那个‘采访’。除此之外，恐怕在不引发战争的情况下我们帮不了太多。我们不想让联盟的种族心中恐惧，我们从来都不想。让我们参与战斗会拖累你们的事业。”`
 				goto "lunarium ask"
 			label tips
 			action
 				set "ask quarg coalition late: tips"
-			`	"Do not be arrogant. Do not underestimate them. Do not take victory for granted, no matter how cornered they may seem, lest you shall be cornered yourself."`
+			`	“不要傲慢。不要低估他们。不要认为胜利是理所当然的，无论他们看起来多么走投无路，否则你自己也会陷入绝境。”`
 				goto "lunarium ask"
 			label end
 			action
@@ -480,48 +480,48 @@ mission "Ask Quarg About Coalition Late"
 				clear "ask quarg coalition late: tips"
 				clear "ask quarg coalition late: threat"
 				clear "ask quarg coalition late: aid"
-			`	You get up and are just about to leave when it says, "<first> <last>." The Quarg's gaze pierces you, its eye on the same level as your own. "Where is your home?"`
+			`	你站起来正要离开时，它说道：“<first> <last>。”夸格的目光穿透了你，它的眼睛与你的视线平齐。“你的家在哪儿？”`
 			choice
-				`	"I come from New Boston, in the Dirt Belt."`
+				`	“我来自尘带的新波士顿。”`
 					to display
 						has "start: default"
-				`	"I come from Midgard, in the Deep."`
+				`	“我来自幽海星的米德加德。”`
 					to display
 						has "start: deep"
-				`	"I come from Mainsail of the Paradise Worlds."`
+				`	“我来自天堂世界的主帆星。”`
 					to display
 						has "start: paradise"
-				`	"I come from Greenwater, in Hai space."`
+				`	“我来自亥族空间的绿水星。”`
 					to display
 						has "start: hai"
-				`	"I was born on Earth."`
+				`	“我在地球出生。”`
 					goto homeworld
 					to display
 						has "start: syndicate"
 				`	"I come from <start planet>, in the <start system> system."`
 					to display
 						not "start: vanilla"
-				`	"My ship is my home."`
+				`	“我的飞船就是我的家。”`
 					goto ship
-				`	"I don't really have a home."`
+				`	“我其实没有家。”`
 					goto homeless
-			`	It acknowledges your answer with the faintest of nods. "Sparse were my own visits to the rocky worlds inhabited by other species. They are unlike our own. So different, so... complete." Its eye darts around, looking at your surroundings, other Quarg here, then finally its own hands and arms. "But us Quarg must make do."`
+			`	它极其轻微地点了点头，表示认可你的回答。“我很少亲自拜访其他种族居住的岩石世界。它们与我们的不同。如此不同，如此……完整。”它的眼睛快速扫视，看着你周围的环境、这里的其他夸格，最后是自己的双手和手臂。“但我们夸格必须凑合着过。”`
 				goto name
 			label homeworld
-			`	Though it is the faintest of movements, you swear the Quarg turns ever so slightly away from you. "It is perhaps only natural that a species ends up venerating their own homeworld, as the cradle that supported them until they could claim the stars." Then it leans in close and whispers, "But many still consider the birthplace of their kind as nothing more than a relic of a bygone age."`
+			`	尽管是最微小的动作，但你发誓夸格略微背过身去了。“一个种族最终尊崇自己的母星，将其视为支撑他们直到能够迈向群星的摇篮，这或许是理所当然的。”然后它凑近低语道，“但许多人仍将他们种族的诞生地视为过去时代的遗物。”`
 				goto name
 			label homeless
-			`	Your words seem to stir something within it, as it brings one hand over its scar, gaze dropping. "A harrowing sensation, is it not?"`
+			`	你的话似乎触动了它的内心，它一只手覆上伤疤，目光垂下。“一种令人痛苦的感觉，不是吗？”`
 				goto name
 			label ship
-			`	After staring you down for a few seconds, it fixates upon the ceiling again. "I suppose others such as you may imagine that our own lives in our ringworlds are similar to your own within a ship or simple space station." It pauses again, for nearly a minute this time. "Considering the circumstances, that may be a reasonable conclusion on your part."`
+			`	它盯着你看了几秒钟后，目光再次固定在天花板上。“我想，像你这样的其他人可能会想象，我们在环世界中的生活类似于你们在飞船或简单空间站中的生活。”它又停顿了，这次将近一分钟。“考虑到实际情况，你得出这样的结论是合理的。”`
 			label name
-			`	It faces you again, and asks, "Have you any more questions for me, Captain?"`
+			`	它再次面对你，问道：“你还有问题要问我吗，船长？”`
 			choice
-				`	"Who are you?"`
+				`	“你是谁？”`
 			action
-				log "People" "Gohl" `Full name Gohl Salyi Memt-Wrik Laz. It is an old, odd Quarg that is more open than its species tends to be in answering questions about rather sensitive topics.`
-			`	"I am called Gohl Salyi Memt-Wrik Laz. An old Quarg. Too old for my own good."`
-			`	You thank it for its time, and see it get up to leave. As soon as it steps away from the bench, you notice a dozen heavily armored Quarg begin to follow it, some coming from the sides of the bench, others seemingly having materalized from the very walls and flooring. They follow Gohl in a machine-like formation, and never so much as acknowledge you.`
+				log "People" "Gohl" `全名戈尔·萨里·梅姆特-里克·拉兹。它是一只古老而古怪的夸格，在回答一些相当敏感的话题时，它比其同类更表现得更加开放。`
+			`	“我叫戈尔·萨利·梅姆特-里克·拉兹。一个老夸格。老得都不中用了。”`
+			`	你感谢它抽出时间，看着它起身离开。它刚离开长凳，你就注意到十几名重甲夸格开始跟随它，有的从长凳两侧出现，有的似乎从墙壁和地板里凭空显现。它们以机器般的队形跟随戈尔，甚至连看都没看你一眼。`
 			`	When you last glance back at it before entering your ship again, you see the distinct reflection of Gohl's eye glancing at you from a distance, before being followed by the armor-clad Quarg deeper into the station.`
 				decline

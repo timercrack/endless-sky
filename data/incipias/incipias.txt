@@ -77,7 +77,7 @@ phrase "consonant vocal (capitalized)"
 
 phrase "vocal"
 	word
-		"a"
+		"一"
 		"e"
 		"i"
 		"o"
@@ -85,9 +85,9 @@ phrase "vocal"
 
 phrase "vocal (capitalized)"
 	word
-		"A"
+		"一个"
 		"E"
-		"I"
+		"我"
 		"O"
 		"U"
 
@@ -143,7 +143,7 @@ phrase "hex digit"
 		"7"
 		"8"
 		"9"
-		"a"
+		"一"
 		"b"
 		"c"
 		"d"
@@ -231,7 +231,7 @@ news "Incipias common"
 	name
 		word
 			"Incipias Captain"
-			"Incipias Crew Member"
+			"因西庇亚斯船员"
 	message
 		phrase
 			"incipias common hard defined"
@@ -246,14 +246,14 @@ phrase "incipias common"
 
 phrase "incipias common hard defined"
 	word
-		"You say you left this home-system? One day, I will also see other home-systems."
-		"The before-present was a more interesting time to fly a spaceship. Nowadays, a lot of people have one."
-		"I just got my crewmember-ship-license renewed. The government controls them strictly."
-		"There is nothing more exciting than to switch to turbine mode and fly through the landscape-clouds of our origin-home."
-		"It has been some time since the last great knowledge-breakthrough has been achieved in technological research-understanding. The government promises us that they are working on something, but my guess is that they have no clue what to do."
-		"I saw a plasma discharger with a leak-crack not so long ago. The ship looked good from the outside, but the inside was a firestorm."
-		"I have never seen something like your species. Why don't you float like us?"
-		"I was on a mining mission-job not so long ago when I saw a government ship drop a small box. The box accelerated very fast in one direction and disappeared with a flash."
+		"你说你离开了这个母星系？总有一天，我也会去看看其他的母星系。"
+		"从前的那段时间开飞船更有意思。如今，很多人都有了飞船。"
+		"我刚续签了我的船员执照。政府管得很严。"
+		"没有什么比切换到涡轮模式，飞过我们起源之家的景观云层更令人兴奋的了。"
+		"上一次在技术研究理解上取得重大知识突破已经有一段时间了。政府向我们保证他们正在研究点什么，但我猜他们根本不知道该怎么办。"
+		"不久前我见过一个带着裂纹泄漏的等离子放电器。那艘船外面看起来挺好，里面却是一片火海。"
+		"我从没见过像你们这样的物种。为什么你们不像我们一样漂浮？"
+		"不久前我在执行一次采矿任务时，看到一艘政府船丢下了一个小盒子。那个盒子朝一个方向加速得非常快，然后伴随着一道闪光消失了。"
 
 phrase "incipias common praise"
 	word
@@ -266,61 +266,61 @@ phrase "incipias common praise"
 		" "
 	word
 		"of yours"
-		"you have"
-		"you have installed"
+		"你拥有"
+		"你所安装的"
 		"of your kind"
 	word
 		" "
 	word
-		"are very impressive."
-		"are very efficient."
-		"look very stylish."
-		"seem to work with utmost efficiency."
+		"非常令人赞叹。"
+		"非常高效。"
+		"看起来非常美观。"
+		"似乎以极高的效率运转着。"
 
 phrase "incipias common interest"
 	word
 		"What "
 	word
-		"have you seen"
+		"你见识过什么"
 		"happened to you"
-		"did you encounter"
+		"你遭遇了什么"
 		"wonders lie"
 	word
 		" "
 	word
-		"beyond our system-home"
+		"在我们的星系家园之外"
 		"in the stars"
-		"away from safety"
-		"past our travel-borders"
+		"在远离安全港湾之处"
+		"在我们的航行边界之外"
 	word
-		"? "
+		"的消息吗？ "
 	word
-		"Were you impressed?"
-		"Was it fearsome?"
-		"Was it dangerous?"
+		"你为之惊叹了吗？"
+		"那令人恐惧吗？"
+		"那很危险吗？"
 
 phrase "incipias common advise"
 	word
-		"See"
+		"看看"
 		"Look at"
 		"Pay attention to"
-		"Light"
+		"光芒"
 	word
 		" my "
 	word
 		"advice"
 		"wisdom"
 		"call"
-		"wish"
+		"祝愿"
 	word
-		": Do not "
+		"：切勿 "
 	word
-		"use your engines on our planet-home"
-		"fiddle with the plasma discharger"
-		"oppose the government"
-		"use your weaponry for something other than mining" 2
+		"在我们行星家园上开动引擎"
+		"乱摆弄等离子放电器"
+		"违抗政府"
+		"把武器用于采矿之外的用途" 2
 	word
-		"; it would cause death-sadness."
+		"；那会招致死难之悲。"
 
 
 news "Hicemus official"
@@ -328,21 +328,21 @@ news "Hicemus official"
 		government "Hicemus"
 	name
 		word
-			"Hicemus Police Officer"
+			"希切姆斯警官"
 			"Hicemus Executive"
 			"Hicemus Inspector"
 	message
 		word
-			"We go forward to evolve-advance. No one can stop us."
-			"Have you seen-understood our newest engines? They are much more efficient than anything before them."
-			"Our technology is superior. No one can question our authority."
-			"As long as we exist, we will progress-change."
-			"The beginning-dawn of a new age of space travel is near."
+			"我们前进、进化、超越。无人能挡。"
+			"你们见过、了解我们的新引擎吗？它们比以往任何引擎都高效得多。"
+			"我们的技术无可匹敌。无人能质疑我们的权威。"
+			"只要我们存在，就会不断进步、变革。"
+			"太空旅行新时代的起始、曙光，近在咫尺。"
 
 
 phrase "incipias friendly disabled"
 	word
-		"Friend"
+		"朋友"
 		"Known-stranger"
 		"Fellow captain"
 	word
@@ -353,22 +353,22 @@ phrase "incipias friendly disabled"
 		"in trouble"
 		"in need of repair-assistance"
 		"unable to fly"
-		"on the brink of uselessness"
+		"濒临毫无用处的境地"
 	word
-		"."
+		"愿意砸多少钱。"
 	word
-		" Could you please "
+		" 能否请你 "
 	word
 		"assist me"
 		"save me"
-		"perform an outstanding action-accomplishment"
+		"展现一次卓越的功绩成就"
 	word
-		"?"
+		"吗？"
 
 phrase "incipias hostile disabled"
 	word
-		"Would you really take-destroy our future?"
-		"Where is your honor?"
-		"What would happen to our civilization if there were more like you?"
-		"Stop your chaos-rampage!"
-		"Do you not value future-life?"
+		"你真的要毁掉我们的未来吗？"
+		"你的荣誉何在？"
+		"如果像你这样的人更多，我们的文明会变成什么样？"
+		"停止你的混乱暴行！"
+		"难道你不珍视未来的生命吗？"

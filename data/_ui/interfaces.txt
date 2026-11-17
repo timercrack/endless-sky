@@ -247,15 +247,15 @@ interface "performance info"
 		color "medium"
 		align left
 	visible if "!ready"
-	label "CPU: calculating..."
+	label "CPU：计算中……"
 		from 570 16
 		color "medium"
 		align left
-	label "GPU: calculating..."
+	label "GPU：计算中……"
 		from 570 30
 		color "medium"
 		align left
-	label "MEM: calculating..."
+	label "MEM：计算中……"
 		from 570 44
 		color "medium"
 		align left
@@ -326,34 +326,34 @@ interface "main menu"
 		center 360 0
 	
 	visible if "can load"
-	button e "_Enter Ship"
+	button e "进入飞船[_e]"
 		center 435 155
 		dimensions 90 30
 	visible if "gamerules unlocked"
 	sprite "ui/wide button"
 		center 435 195
-	button g "_Gamerules"
+	button g "游戏设置[_g]"
 		center 435 195
 		dimensions 90 30
 	visible if "no pilot loaded"
-	button n "_New Pilot"
+	button n "新建驾驶员[_n]"
 		center 435 155
 		dimensions 90 30
 	visible if "pilot dead"
-	button r "_Reload Pilot"
+	button r "重新加载驾驶员[_r]"
 		center 435 155
 		dimensions 90 30
 	
 	visible
-	button m "_Manage Pilots..."
+	button m "管理驾驶员...[_m]"
 		center 300 155
 		dimensions 120 30
 	
 	# Left panel (credits):
-	button q "_Quit"
+	button q "退出游戏[_q]"
 		center -285 155
 		dimensions 90 30
-	button p "_Preferences..."
+	button p "设置...[_p]"
 		center -420 155
 		dimensions 120 30
 
@@ -363,7 +363,7 @@ interface "menu player info"
 	outline "ship sprite"
 		center 360 -105
 		dimensions 100 100
-	label "pilot:"
+	label "驾驶员:"
 		from 250 -35
 		align left
 	string "pilot"
@@ -371,7 +371,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate middle
-	label "ship:"
+	label "飞船:"
 		from 250 -15
 		align left
 	string "ship"
@@ -379,7 +379,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "planet:"
+	label "星球:"
 		from 250 15
 		align left
 	string "planet"
@@ -387,7 +387,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "system:"
+	label "星系:"
 		from 250 35
 		align left
 	string "system"
@@ -395,19 +395,19 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "credits:"
+	label "资金:"
 		from 250 65
 		align left
 	string "credits"
 		from 315 65
 		align left
-	label "date:"
+	label "日期:"
 		from 250 85
 		align left
 	string "date"
 		from 315 85
 		align left
-	label "playtime:"
+	label "游戏时长:"
 		from 250 105
 		align left
 	string "playtime"
@@ -421,37 +421,37 @@ interface "menu start info"
 	image "thumbnail"
 		center 360 -105
 		dimensions 220 240
-	label "name:"
+	label "姓名："
 		from 250 -35
 		align left
 	string "name"
 		from 310 -35
 		align left
-	label "date:"
+	label "日期："
 		from 250 -15
 		align left
 	string "date"
 		from 310 -15
 		align left
-	label "planet:"
+	label "星球："
 		from 250 15
 		align left
 	string "planet"
 		from 310 15
 		align left
-	label "system:"
+	label "星系："
 		from 250 35
 		align left
 	string "system"
 		from 310 35
 		align left
-	label "credits:"
+	label "资金："
 		from 250 65
 		align left
 	string "credits"
 		from 310 65
 		align left
-	label "debt:"
+	label "负债："
 		from 250 85
 		align left
 	string "debt"
@@ -468,17 +468,17 @@ interface "start conditions menu"
 	sprite "_menu/buttonless side panel"
 		center 360 0
 	
-	button b "_Back to Menu"
+	button b "返回主菜单[_b]"
 		center -420 155
 		dimensions 120 30
 	active if "unlocked start"
-	button s "_Start Game"
+	button s "开始游戏[_s]"
 		center -285 155
 		dimensions 90 30
 	sprite "ui/wide button"
 		center -435 195
 	active
-	button g "_Gamerules"
+	button g "游戏规则[_g]"
 		center -435 195
 		dimensions 90 30
 	
@@ -520,23 +520,23 @@ interface "load menu"
 	sprite "_menu/side panel"
 		center 360 0
 	
-	button n "_New Pilot"
+	button n "新建驾驶员[_n]"
 		center -420 155
 		dimensions 120 30
 	active if "pilot selected"
-	button d "_Delete"
+	button d "删除[_d]"
 		center -285 155
 		dimensions 90 30
 
 	sprite "ui/wide button"
 		center -435 195
 	active
-	button o "_Open Saves"
+	button o "打开存档文件夹[_o]"
 		center -435 195
 		dimensions 90 30
 	
 	active if "can add snapshot"
-	button a "_Add Snapshot"
+	button a "添加快照[_a]"
 		center -60 155
 		dimensions 120 30
 	active if "can remove snapshot"
@@ -545,18 +545,18 @@ interface "load menu"
 		dimensions 90 30
 	
 	active
-	button b "_Back to Menu"
+	button b "返回主菜单[_b]"
 		center 300 155
 		dimensions 120 30
 	active if "can load"
-	button l "_Load Game"
+	button l "加载游戏[_l]"
 		center 435 155
 		dimensions 90 30
 	active
 	visible if "gamerules unlocked"
 	sprite "ui/wide button"
 		center 435 195
-	button g "_Gamerules"
+	button g "游戏规则[_g]"
 		center 435 195
 		dimensions 90 30
 
@@ -571,34 +571,34 @@ interface "controls"
 		center -350 102
 	sprite "ui/settings base panel"
 		center -1 -20
-	button c "_Controls"
+	button c "控制[_c]"
 		center -300 -230
 		dimensions 90 30
 		color bright
-	button s "_Settings"
+	button s "设置[_s]"
 		center -300 -190
 		dimensions 90 30
 		color medium
 		hover bright
-	button p "_Plugins"
+	button p "插件[_p]"
 		center -300 -150
 		dimensions 90 30
 		color medium
 		hover bright
-	button a "_Audio"
+	button a "音频[_a]"
 		center -300 -110
 		dimensions 90 30
 		color medium
 		hover bright
 	
-	label "Additional info"
+	label "附加信息"
 		from -275 34
 		align top right
 		color bright
 	fill
 		from -400 48 to -270 49
 		color medium
-	"wrapped label" "Press '_x' over controls to unbind them. Controls can share the same keybind."
+	wrapped label "按下 '_x' 键解除绑定。不同的操作可以绑定到同一个按键。"
 		from -420 70 to -270 130
 		alignment right
 		color medium
@@ -607,13 +607,13 @@ interface "controls"
 	sprite "ui/dialog cancel"
 		center -115 210
 	active if "show next controls"
-	button n "_Next"
+	button n "下一页[_n]"
 		center -115 210
 		dimensions 70 30
 	sprite "ui/wide button"
 		center -210 210
 	active if "show previous controls"
-	button r "P_revious"
+	button r "上一页[_r]"
 		center -210 210
 		dimensions 90 30
 
@@ -626,21 +626,21 @@ interface "settings"
 		center 285 -82
 	sprite "ui/settings base panel"
 		center -1 -20
-	button c "_Controls"
+	button c "控制[_c]"
 		center -300 -230
 		dimensions 90 30
 		color medium
 		hover bright
-	button s "_Settings"
+	button s "设置[_s]"
 		center -300 -190
 		dimensions 90 30
 		color bright
-	button p "_Plugins"
+	button p "插件[_p]"
 		center -300 -150
 		dimensions 90 30
 		color medium
 		hover bright
-	button a "_Audio"
+	button a "音频[_a]"
 		center -300 -110
 		dimensions 90 30
 		color medium
@@ -649,13 +649,13 @@ interface "settings"
 	sprite "ui/dialog cancel"
 		center -115 210
 	active if "show next settings"
-	button n "_Next"
+	button n "下一页[_n]"
 		center -115 210
 		dimensions 70 30
 	sprite "ui/wide button"
 		center -210 210
 	active if "show previous settings"
-	button r "P_revious"
+	button r "上一页[_r]"
 		center -210 210
 		dimensions 90 30
 
@@ -670,35 +670,35 @@ interface "plugins"
 		center -1 -20
 	sprite "ui/very wide button"
 		center -194 210
-	button c "_Controls"
+	button c "控制[_C]"
 		center -300 -230
 		dimensions 90 30
 		color medium
 		hover bright
-	button s "_Settings"
+	button s "设置[_s]"
 		center -300 -190
 		dimensions 90 30
 		color medium
 		hover bright
-	button p "_Plugins"
+	button p "插件[_p]"
 		center -300 -150
 		dimensions 90 30
 		color bright
-	button a "_Audio"
+	button a "音频[_A]"
 		center -300 -110
 		dimensions 90 30
 		color medium
 		hover bright
-	button o "_Open Plugins"
+	button o "打开插件文件夹[_o]"
 		center -195 210
 		dimensions 120 30
 	visible if "show plugins changed"
-	label "Restart to apply changes"
+	label "重启游戏以生效"
 		from -225 -236
 		align top left
 		color "plugin reload required"
 	visible if "!show plugins changed"
-	label "Installed Plugins:"
+	label "已安装的插件:"
 		from -225 -236
 		align top left
 		color bright
@@ -719,28 +719,28 @@ interface "audio"
 		center 285 -82
 	sprite "ui/settings base panel"
 		center -1 -20
-	button c "_Controls"
+	button c "控制[_C]"
 		center -300 -230
 		dimensions 90 30
 		color medium
 		hover bright
-	button s "_Settings"
+	button s "设置[_s]"
 		center -300 -190
 		dimensions 90 30
 		color medium
 		hover bright
-	button p "_Plugins"
+	button p "插件[_p]"
 		center -300 -150
 		dimensions 90 30
 		color medium
 		hover bright
-	button a "_Audio"
+	button a "音频[_a]"
 		center -300 -110
 		dimensions 90 30
 		color bright
 	value "volume bar size" 195
 
-	label "Music"
+	label "音乐"
 		center -129.5 -228
 		color bright
 	fill
@@ -770,7 +770,7 @@ interface "audio"
 		center -238 -208
 
 	visible
-	label "UI"
+	label "界面"
 		center -129.5 -168
 		color bright
 	fill
@@ -800,7 +800,7 @@ interface "audio"
 		center -238 -148
 
 	visible
-	label "Anti-Missiles"
+	label "反导弹"
 		center -129.5 -108
 		color bright
 	fill
@@ -830,7 +830,7 @@ interface "audio"
 		center -238 -88
 
 	visible
-	label "Weapons"
+	label "武器"
 		center -129.5 -48
 		color bright
 	fill
@@ -860,7 +860,7 @@ interface "audio"
 		center -238 -28
 
 	visible
-	label "Engines"
+	label "引擎"
 		center -129.5 12
 		color bright
 	fill
@@ -890,7 +890,7 @@ interface "audio"
 		center -238 32
 
 	visible
-	label "Afterburners"
+	label "加力燃烧器"
 		center -129.5 72
 		color bright
 	fill
@@ -920,7 +920,7 @@ interface "audio"
 		center -238 92
 
 	visible
-	label "Hyperdrives"
+	label "超空间引擎"
 		center -129.5 132
 		color bright
 	fill
@@ -950,7 +950,7 @@ interface "audio"
 		center -238 152
 
 	visible
-	label "Explosions"
+	label "爆炸"
 		center 129.5 -228
 		color bright
 	fill
@@ -980,7 +980,7 @@ interface "audio"
 		center 238 -208
 
 	visible
-	label "Scans"
+	label "扫描"
 		center 129.5 -168
 		color bright
 	fill
@@ -1010,7 +1010,7 @@ interface "audio"
 		center 238 -148
 
 	visible
-	label "Environment"
+	label "环境"
 		center 129.5 -108
 		color bright
 	fill
@@ -1040,7 +1040,7 @@ interface "audio"
 		center 238 -88
 
 	visible
-	label "Alerts"
+	label "警报"
 		center 129.5 -48
 		color bright
 	fill
@@ -1072,7 +1072,7 @@ interface "audio"
 
 
 interface "preferences"
-	button b "_Back to Menu..."
+	button b "返回主菜单...[_b]"
 		center 195 210
 		dimensions 120 30
 	value "master volume bar size" 220
@@ -1110,28 +1110,28 @@ interface "gamerules"
 		center -350 102
 	sprite "ui/settings base panel"
 		center -1 -20
-	button b "_Back to Menu..."
+	button b "返回主菜单...[_b]"
 		center 195 210
 		dimensions 120 30
-	button g "_Gamerules"
+	button g "游戏规则[_g]"
 		center -304 -230
 		dimensions 90 30
 		color medium
 		hover bright
-	button p "_Presets"
+	button p "预设[_p]"
 		center -304 -190
 		dimensions 90 30
 		color medium
 		hover bright
 	
-	label "Additional info"
+	label "附加信息"
 		from -275 34
 		align top right
 		color bright
 	fill
 		from -400 48 to -270 49
 		color medium
-	"wrapped label" "Press '_x' over a rule to reset it to the value from the chosen preset."
+	wrapped label "按下 '_x' 键可将规则重置为所选预设的值。"
 		from -400 60 to -275 130
 		alignment right
 		color medium
@@ -1140,13 +1140,13 @@ interface "gamerules"
 	sprite "ui/dialog cancel"
 		center -115 210
 	active if "show next gamerules"
-	button n "_Next"
+	button n "下一页[_n]"
 		center -115 210
 		dimensions 70 30
 	sprite "ui/wide button"
 		center -210 210
 	active if "show previous gamerules"
-	button r "P_revious"
+	button r "上一页[_r]"
 		center -210 210
 		dimensions 90 30
 
@@ -1158,20 +1158,20 @@ interface "gamerules presets"
 		center -350 102
 	sprite "ui/settings base panel"
 		center -1 -20
-	button b "_Back to Menu..."
+	button b "返回主菜单...[_b]"
 		center 195 210
 		dimensions 120 30
-	button g "_Gamerules"
+	button g "游戏规则[_g]"
 		center -304 -230
 		dimensions 90 30
 		color medium
 		hover bright
-	button p "_Presets"
+	button p "预设[_p]"
 		center -304 -190
 		dimensions 90 30
 		color medium
 		hover bright
-	label "Gamerule Presets:"
+	label "游戏规则预设:"
 		from -225 -236
 		align top left
 		color bright
@@ -1182,14 +1182,14 @@ interface "gamerules presets"
 	box "preset description"
 		from 250 -244 to 10 184
 	
-	label "Additional info"
+	label "附加信息"
 		from -275 34
 		align top right
 		color bright
 	fill
 		from -400 48 to -270 49
 		color medium
-	"wrapped label" "Click the checkbox next to a preset to activate it."
+	wrapped label "点击预设旁边的复选框以启用该预设。"
 		from -400 50 to -275 120
 		alignment right
 		color medium
@@ -1642,7 +1642,7 @@ interface "planet"
 	visible if "has trade"
 	sprite "ui/planet dialog button"
 		center -340 90
-	button t "_Trading"
+	button t "交易[_T]"
 		center -340 90
 		dimensions 140 40
 		size 18
@@ -1652,7 +1652,7 @@ interface "planet"
 	visible if "has job board"
 	sprite "ui/planet dialog button"
 		center -340 145
-	button j "_Job Board"
+	button j "任务板[_J]"
 		center -340 145
 		dimensions 140 40
 		size 18
@@ -1662,7 +1662,7 @@ interface "planet"
 	visible
 	sprite "ui/planet dialog button"
 		center -340 200
-	button i "Player _Info"
+	button i "玩家信息[_I]"
 		center -340 200
 		dimensions 140 40
 		size 18
@@ -1672,7 +1672,7 @@ interface "planet"
 	visible if "has bank"
 	sprite "ui/planet dialog button"
 		center -340 255
-	button b "_Bank"
+	button b "银行[_B]"
 		center -340 255
 		dimensions 140 40
 		size 18
@@ -1692,7 +1692,7 @@ interface "planet"
 	visible if "has shipyard"
 	sprite "ui/planet dialog button"
 		center 340 90
-	button s "_Shipyard"
+	button s "船厂[_S]"
 		center 340 90
 		dimensions 140 40
 		size 18
@@ -1702,7 +1702,7 @@ interface "planet"
 	visible if "has outfitter"
 	sprite "ui/planet dialog button"
 		center 340 145
-	button o "_Outfitter"
+	button o "装备店[_O]"
 		center 340 145
 		dimensions 140 40
 		size 18
@@ -1712,7 +1712,7 @@ interface "planet"
 	visible if "can hire crew"
 	sprite "ui/planet dialog button"
 		center 340 200
-	button h "_Hire Crew"
+	button h "雇佣船员[_H]"
 		center 340 200
 		dimensions 140 40
 		size 18
@@ -1723,7 +1723,7 @@ interface "planet"
 	active if "has ship"
 	sprite "ui/planet dialog button"
 		center 340 310
-	button d "_Depart"
+	button d "出发[_D]"
 		center 340 310
 		dimensions 140 40
 		size 18
@@ -1747,7 +1747,7 @@ interface "planet (small screen)"
 	visible if "has trade"
 	sprite "ui/planet dialog button"
 		center -400 90
-	button t "_Trading"
+	button t "交易[_T]"
 		center -400 90
 		dimensions 140 40
 		size 18
@@ -1757,7 +1757,7 @@ interface "planet (small screen)"
 	visible if "has job board"
 	sprite "ui/planet dialog button"
 		center -400 145
-	button j "_Job Board"
+	button j "任务板[_J]"
 		center -400 145
 		dimensions 140 40
 		size 18
@@ -1767,7 +1767,7 @@ interface "planet (small screen)"
 	visible
 	sprite "ui/planet dialog button"
 		center -400 200
-	button i "Player _Info"
+	button i "玩家信息[_I]"
 		center -400 200
 		dimensions 140 40
 		size 18
@@ -1777,7 +1777,7 @@ interface "planet (small screen)"
 	visible if "has bank"
 	sprite "ui/planet dialog button"
 		center -400 255
-	button b "_Bank"
+	button b "银行[_B]"
 		center -400 255
 		dimensions 140 40
 		size 18
@@ -1797,7 +1797,7 @@ interface "planet (small screen)"
 	visible if "has shipyard"
 	sprite "ui/planet dialog button"
 		center 280 90
-	button s "_Shipyard"
+	button s "船厂[_S]"
 		center 280 90
 		dimensions 140 40
 		size 18
@@ -1807,7 +1807,7 @@ interface "planet (small screen)"
 	visible if "has outfitter"
 	sprite "ui/planet dialog button"
 		center 280 145
-	button o "_Outfitter"
+	button o "装备店[_O]"
 		center 280 145
 		dimensions 140 40
 		size 18
@@ -1817,7 +1817,7 @@ interface "planet (small screen)"
 	visible if "can hire crew"
 	sprite "ui/planet dialog button"
 		center 280 200
-	button h "_Hire Crew"
+	button h "雇佣船员[_H]"
 		center 280 200
 		dimensions 140 40
 		size 18
@@ -1828,7 +1828,7 @@ interface "planet (small screen)"
 	active if "has ship"
 	sprite "ui/planet dialog button"
 		center 280 310
-	button d "_Depart"
+	button d "出发[_D]"
 		center 280 310
 		dimensions 140 40
 		size 18
@@ -1867,7 +1867,7 @@ interface "news"
 		to -50 10
 	box "message"
 		from -340 -80
-		to 140 20
+		to 80 10
 
 
 
@@ -1885,7 +1885,7 @@ interface "news (small screen)"
 		to -50 10
 	box "message"
 		from -400 -80
-		to 80 20
+		to 80 10
 
 
 
@@ -1903,34 +1903,34 @@ interface "boarding"
 	value "plunder table: size column: width" 70
 	value "plunder table: icon offset" 14
 
-	label "item"
+	label "物品"
 		from -320 -189
 		align left
-	label "value"
+	label "价值"
 		from -60 -189
 		align right
-	label "size"
+	label "体积"
 		from 10 -189
 		align right
 	
-	label "cargo space free:"
+	label "剩余货舱空间："
 		from -320 75
 		align left
 	string "cargo space"
 		from 10 75
 		align right
 	
-	label "crew"
+	label "船员"
 		from 190 -112
 		align right
-	label "attack"
+	label "攻击"
 		from 260 -112
 		align right
-	label "defense"
+	label "防御"
 		from 330 -112
 		align right
 	
-	label "your ship:"
+	label "我方飞船："
 		from 50 -92
 		align left
 	string "your crew"
@@ -1943,7 +1943,7 @@ interface "boarding"
 		from 330 -92
 		align right
 	
-	label "enemy ship:"
+	label "敌方飞船："
 		from 50 -72
 		align left
 	string "enemy crew"
@@ -1956,26 +1956,26 @@ interface "boarding"
 		from 330 -72
 		align right
 	
-	label "capture odds (attacking):"
+	label "俘获概率（进攻方）："
 		from 50 -42
 		align left
 	string "attack odds"
 		from 330 -42
 		align right
-	label "expected casualties:"
+	label "预期损失："
 		from 50 -22
 		align left
 	string "attack casualties"
 		from 330 -22
 		align right
 	
-	label "survival odds (defending):"
+	label "存活概率（防守方）："
 		from 50 8
 		align left
 	string "defense odds"
 		from 330 8
 		align right
-	label "expected casualties:"
+	label "预期损失："
 		from 50 28
 		align left
 	string "defense casualties"
@@ -1987,22 +1987,22 @@ interface "boarding"
 		to 330 160
 	
 	active if "can take"
-	button t "_Take"
+	button t "夺取[_T]"
 		center -235 115
 		dimensions 70 30
 	
 	active if "can exit"
-	button d "_Done"
+	button d "完成[_D]"
 		center -155 115
 		dimensions 70 30
 	
 	active if "can capture"
-	button c "Attempt _Capture"
+	button c "尝试俘获[_C]"
 		center -40 115
 		dimensions 140 30
 	
 	active if "can attack"
-	button a "_Attack"
+	button a "进攻[_A]"
 		center 120 185
 		dimensions 80 30
 	
@@ -2015,15 +2015,15 @@ interface "boarding"
 
 # The top of the text panel is the planet dialog is at +70, and it is 500 x 260.
 interface "hiring"
-	label "flagship"
+	label "旗舰"
 		center -10 85
 		color "bright"
 		align right
-	label "entire fleet"
+	label "全舰队"
 		center 110 85
 		color "bright"
 		align right
-	label "salary"
+	label "薪资"
 		center 230 85
 		color "bright"
 		align right
@@ -2032,7 +2032,7 @@ interface "hiring"
 		center 0 95
 		dimensions 480 1
 	
-	label "bunks"
+	label "舱位"
 		center -230 110
 		align left
 	string "flagship bunks"
@@ -2042,7 +2042,7 @@ interface "hiring"
 		center 110 110
 		align right
 	
-	label "required crew"
+	label "所需船员"
 		center -230 130
 		align left
 	string "flagship required"
@@ -2055,7 +2055,7 @@ interface "hiring"
 		center 230 130
 		align right
 	
-	label "extra crew"
+	label "额外船员"
 		center -230 150
 		align left
 	string "flagship extra"
@@ -2068,14 +2068,14 @@ interface "hiring"
 	active if "can hire"
 	sprite "ui/dialog cancel"
 		center 200 355
-	button h "_Hire"
+	button h "雇佣[_H]"
 		center 200 355
 		dimensions 80 40
 	
 	active if "can fire"
 	sprite "ui/dialog cancel"
 		center 120 355
-	button f "_Fire"
+	button f "解雇[_F]"
 		center 120 355
 		dimensions 80 40
 	
@@ -2085,7 +2085,7 @@ interface "hiring"
 		color "dim"
 		align left
 	
-	label "passenger space"
+	label "乘客空间"
 		center -230 180
 		align left
 	string "flagship unused"
@@ -2095,16 +2095,16 @@ interface "hiring"
 		center 110 180
 		align right
 	
-	label "passengers"
+	label "乘客"
 		center -230 200
 		align left
 	string "passengers"
 		center 110 200
 		align right
 	
-	label "(Extra crew for your flagship increases your odds of capturing ships,"
+	label "（旗舰额外船员可提升俘获敌方飞船的几率，"
 		center 0 290
-	label "and once you capture a ship you need crew members to serve on it.)"
+	label "并且俘获飞船后需要船员驻守。）"
 		center 0 310
 
 
@@ -2112,15 +2112,15 @@ interface "hiring"
 
 # The top of the text panel is the planet dialog is at +70, and it is 500 x 260.
 interface "hiring (small screen)"
-	label "flagship"
+	label "旗舰"
 		center -70 85
 		color "bright"
 		align right
-	label "entire fleet"
+	label "全舰队"
 		center 50 85
 		color "bright"
 		align right
-	label "salary"
+	label "薪资"
 		center 170 85
 		color "bright"
 		align right
@@ -2129,7 +2129,7 @@ interface "hiring (small screen)"
 		center -60 95
 		dimensions 480 1
 	
-	label "bunks"
+	label "舱位"
 		center -290 110
 		align left
 	string "flagship bunks"
@@ -2139,7 +2139,7 @@ interface "hiring (small screen)"
 		center 50 110
 		align right
 	
-	label "required crew"
+	label "所需船员"
 		center -290 130
 		align left
 	string "flagship required"
@@ -2152,7 +2152,7 @@ interface "hiring (small screen)"
 		center 170 130
 		align right
 	
-	label "extra crew"
+	label "额外船员"
 		center -290 150
 		align left
 	string "flagship extra"
@@ -2165,14 +2165,14 @@ interface "hiring (small screen)"
 	active if "can hire"
 	sprite "ui/dialog cancel"
 		center 140 355
-	button h "_Hire"
+	button h "雇佣[_H]"
 		center 140 355
 		dimensions 80 40
 	
 	active if "can fire"
 	sprite "ui/dialog cancel"
 		center 60 355
-	button f "_Fire"
+	button f "解雇[_F]"
 		center 60 355
 		dimensions 80 40
 	
@@ -2182,7 +2182,7 @@ interface "hiring (small screen)"
 		color "dim"
 		align left
 	
-	label "passenger space"
+	label "乘客空间"
 		center -290 180
 		align left
 	string "flagship unused"
@@ -2192,16 +2192,16 @@ interface "hiring (small screen)"
 		center 50 180
 		align right
 	
-	label "passengers"
+	label "乘客"
 		center -290 200
 		align left
 	string "passengers"
 		center 50 200
 		align right
 	
-	label "(Extra crew for your flagship increases your odds of capturing ships,"
+	label "（旗舰额外船员可提升俘获敌方飞船的几率，"
 		center -60 290
-	label "and once you capture a ship you need crew members to serve on it.)"
+	label "并且俘获飞船后需要船员驻守。）"
 		center -60 310
 
 
@@ -2401,7 +2401,7 @@ interface "bank"
 	active if "can pay"
 	sprite "ui/dialog cancel"
 		center 200 355
-	button a "Pay _All"
+	button a "全部还款[_A]"
 		center 200 355
 		dimensions 80 40
 
@@ -2418,7 +2418,7 @@ interface "bank (small screen)"
 	active if "can pay"
 	sprite "ui/dialog cancel"
 		center 140 355
-	button a "Pay _All"
+	button a "全部还款[_A]"
 		center 140 355
 		dimensions 80 40
 
@@ -2435,23 +2435,23 @@ interface "mission" bottom
 		align bottom
 
 	visible
-	label "cargo space free:"
+	label "剩余货舱空间："
 		center -130 -85
 	string "cargo free"
 		center -130 -65
 	
-	label "passenger space:"
+	label "乘客空间："
 		center 0 -85
 	string "bunks free"
 		center 0 -65
 	
-	label "today's date:"
+	label "当前日期："
 		center 130 -85
 	string "today"
 		center 130 -65
 	
 	active if "can accept"
-	button a "_Accept Mission"
+	button a "接受任务[_A]"
 		center -45 -25
 		dimensions 130 30
 	
@@ -2466,53 +2466,53 @@ interface "map buttons" bottom right
 	active if "!is shipyards"
 	sprite "ui/wide button"
 		from -544 -50 to -434 0
-	button s "_Shipyards"
+	button s "船厂[_S]"
 		from -534 -40 to -444 -10
 	
 	active if "!is outfitters"
 	sprite "ui/wide button"
 		from -444 -50 to -334 0
-	button o "_Outfitters"
+	button o "装备店[_O]"
 		from -434 -40 to -344 -10
 	
 	active if "!is missions"
 	sprite "ui/dialog cancel"
 		from -344 -50 to -254 0
-	button i "M_issions"
+	button i "任务[_I]"
 		from -334 -40 to -264 -10
 	
 	active if "!is ports"
 	sprite "ui/dialog cancel"
 		from -264 -50 to -174 0
-	button p "_Ports"
+	button p "港口[_P]"
 		from -254 -40 to -184 -10
 
 	active if "!is stars"
 	sprite "ui/dialog cancel"
 		from -184 -50 to -94 0
-	button t "S_tars"
+	button t "恒星[_T]"
 		from -174 -40 to -104 -10
 	
 	active
 	sprite "ui/dialog cancel"
 		from -90 -50 to 0 0
-	button d "_Done"
+	button d "完成[_D]"
 		from -80 -40 to -10 -10
 	
 	active
 	sprite "ui/dialog cancel"
 		from 0 -40 to -90 -90
-	button f "_Find"
+	button f "搜索[_F]"
 		from -80 -80 to -10 -50
 
 	sprite "ui/zoom"
 		from 0 -80 to -90 -130
 	active if "!max zoom"
-	button + "_+"
+	button + "放大[_+]"
 		from -10 -90 to -40 -120
 		size 18
 	active if "!min zoom"
-	button - "_-"
+	button - "缩小[_-]"
 		from -50 -90 to -80 -120
 		size 18
 
@@ -2521,53 +2521,53 @@ interface "map buttons (small screen)" bottom right
 	active if "!is shipyards"
 	sprite "ui/wide button"
 		from -270 -40 to -160 -90
-	button s "_Shipyards"
+	button s "船厂[_S]"
 		from -260 -50 to -170 -80
 
 	active if "!is outfitters"
 	sprite "ui/wide button"
 		from -270 -50 to -160 0
-	button o "_Outfitters"
+	button o "装备店[_O]"
 		from -260 -40 to -170 -10
 
 	active if "!is missions"
 	sprite "ui/dialog cancel"
 		from -170 -30 to -80 -180
-	button i "M_issions"
+	button i "任务[_I]"
 		from -160 -90 to -90 -120
 
 	active if "!is ports"
 	sprite "ui/dialog cancel"
 		from -170 -50 to -80 0
-	button p "_Ports"
+	button p "港口[_P]"
 		from -160 -40 to -90 -10
 
 	active if "!is stars"
 	sprite "ui/dialog cancel"
 		from -170 -40 to -80 -90
-	button t "S_tars"
+	button t "恒星[_T]"
 		from -160 -80 to -90 -50
 
 	active
 	sprite "ui/dialog cancel"
 		from -90 -50 to 0 0
-	button d "_Done"
+	button d "完成[_D]"
 		from -80 -40 to -10 -10
 
 	active
 	sprite "ui/dialog cancel"
 		from 0 -40 to -90 -90
-	button f "_Find"
+	button f "搜索[_F]"
 		from -80 -80 to -10 -50
 
 	sprite "ui/zoom"
 		from 0 -80 to -90 -130
 	active if "!max zoom"
-	button + "_+"
+	button + "放大[_+]"
 		from -10 -90 to -40 -120
 		size 18
 	active if "!min zoom"
-	button - "_-"
+	button - "缩小[_-]"
 		from -50 -90 to -80 -120
 		size 18
 
@@ -2577,23 +2577,23 @@ interface "map buttons (simplified)" bottom right
 	active
 	sprite "ui/dialog cancel"
 		from -90 -50 to 0 0
-	button d "_Done"
+	button d "完成[_D]"
 		from -80 -40 to -10 -10
 	
 	active
 	sprite "ui/dialog cancel"
 		from 0 -40 to -90 -90
-	button f "_Find"
+	button f "搜索[_F]"
 		from -80 -80 to -10 -50
 
 	sprite "ui/zoom"
 		from 0 -80 to -90 -130
 	active if "!max zoom"
-	button + "_+"
+	button + "放大[_+]"
 		from -10 -90 to -40 -120
 		size 18
 	active if "!min zoom"
-	button - "_-"
+	button - "缩小[_-]"
 		from -50 -90 to -80 -120
 		size 18
 
@@ -2652,52 +2652,52 @@ interface "map: mission view: key"
 		"orientation angle" 135
 		color "waypoint"
 	visible if "available"
-	label "Available job; can accept"
+	label "可接任务；可承接"
 		align bottom left
 		from 18 -87
 		color bright
 	visible if "!available"
-	label "Available job; can accept"
+	label "可接任务；可承接"
 		align bottom left
 		from 18 -87
 		color dim
 	visible if "unavailable"
-	label "Too little space to accept"
+	label "空间不足，无法承接"
 		align bottom left
 		from 18 -67
 		color bright
 	visible if "!unavailable"
-	label "Too little space to accept"
+	label "空间不足，无法承接"
 		align bottom left
 		from 18 -67
 		color dim
 	visible if "active"
-	label "Active job; go here to complete"
+	label "进行中任务；前往此处完成"
 		align bottom left
 		from 18 -47
 		color bright
 	visible if "!active"
-	label "Active job; go here to complete"
+	label "进行中任务；前往此处完成"
 		align bottom left
 		from 18 -47
 		color dim
 	visible if "blocked"
-	label "Has unfinished requirements"
+	label "有未满足的前置条件"
 		align bottom left
 		from 18 -27
 		color bright
 	visible if "!blocked"
-	label "Has unfinished requirements"
+	label "有未满足的前置条件"
 		align bottom left
 		from 18 -27
 		color dim
 	visible if "waypoint"
-	label "System of importance"
+	label "重要星系"
 		align bottom left
 		from 18 -7
 		color bright
 	visible if "!waypoint"
-	label "System of importance"
+	label "重要星系"
 		align bottom left
 		from 18 -7
 		color dim
@@ -2734,10 +2734,10 @@ interface "info panel"
 		dimensions 250 30
 	sprite "ui/ship tab"
 		center 0 -310
-	label "Ship Info"
+	label "飞船信息"
 		center -300 -305
 		color "bright"
-	label "Player _Info"
+	label "玩家信息[_I]"
 		center -420 -305
 	button i
 		center -420 -305
@@ -2746,9 +2746,9 @@ interface "info panel"
 	visible if "player tab"
 	sprite "ui/player tab"
 		center 0 -310
-	label "_Ship Info"
+	label "飞船信息[_S]"
 		center -300 -305
-	label "Player Info"
+	label "玩家信息"
 		center -420 -305
 		color "bright"
 	button s
@@ -2756,23 +2756,23 @@ interface "info panel"
 		dimensions 120 30
 	
 	visible
-	button d "_Done"
+	button d "完成[_D]"
 		center 455 305
 		dimensions 90 30
-	button m "_Missions..."
+	button m "任务……[_M]"
 		center 355 305
 		dimensions 90 30
 	active if "enable logbook"
-	button l "_Logbook..."
+	button l "航行日志……[_L]"
 		center 255 305
 		dimensions 90 30
 	active
 	
 	visible if "five buttons"
-	button n "_Next"
+	button n "下一艘[_N]"
 		center 145 305
 		dimensions 90 30
-	button p "_Previous"
+	button p "上一艘[_P]"
 		center 45 305
 		dimensions 90 30
 	
@@ -2780,7 +2780,7 @@ interface "info panel"
 	active if "can park"
 	sprite "ui/dialog cancel"
 		center -55 305
-	button k "Par_k"
+	button k "停泊[_K]"
 		center -55 305
 		dimensions 70 30
 	active
@@ -2788,7 +2788,7 @@ interface "info panel"
 	visible if "show unpark"
 	sprite "ui/dialog cancel"
 		center -55 305
-	button k "Unpar_k"
+	button k "启航[_K]"
 		center -55 305
 		dimensions 70 30
 	
@@ -2806,8 +2806,8 @@ interface "info panel"
 		center -245 305
 		dimensions 70 30
 	
-	visible if "show dump/jettison button"
-	active if "enable dump/jettison"
+	visible if "show dump"
+	active if "enable dump"
 	sprite "ui/wide button"
 		center -65 305
 	visible if "show dump"
@@ -2823,31 +2823,31 @@ interface "info panel"
 	visible if "show park all"
 	sprite "ui/wide button"
 		center 145 305
-	button a "Park _All"
+	button a "全部停泊[_A]"
 		center 145 305
 		dimensions 90 30
 	visible if "show unpark all"
 	sprite "ui/wide button"
 		center 145 305
-	button a "Unpark _All"
+	button a "全部启航[_A]"
 		center 145 305
 		dimensions 90 30
 	visible if "show park system"
 	sprite "ui/wide button"
 		center 40 305
-	button c "Park Lo_cal"
+	button c "停泊本星系[_C]"
 		center 40 305
 		dimensions 90 30
 	visible if "show unpark system"
 	sprite "ui/wide button"
 		center 40 305
-	button c "Unpark Lo_cal"
+	button c "启航本星系[_C]"
 		center 40 305
 		dimensions 90 30
 	visible if "show save order"
 	sprite "ui/wide button"
 		center -195 305
-	button v "Sa_ve Order"
+	button v "保存排序[_V]"
 		center -195 305
 		dimensions 90 30
 
@@ -2888,7 +2888,7 @@ interface "message log"
 		dimensions 70 30
 
 	visible if "empty"
-	label "(The message log is empty.)"
+	label "（通信日志为空。）"
 		from 300 0 left
 		color medium
 
@@ -2906,33 +2906,33 @@ interface "hail panel"
 		from -50 -50
 		to 280 90
 
-	button d "_Done"
+	button d "完成[_D]"
 		center 250 115
 		dimensions 80 30
 
 	visible if "!show pay bribe"
 	active if "can bribe"
-	button b "Offer _Bribe"
+	button b "贿赂[_B]"
 		center 130 115
 		dimensions 140 30
 	visible if "show pay bribe"
 	active if "can pay bribe"
-	button b "Pay _Bribe"
+	button b "支付赎金[_B]"
 		center 130 115
 		dimensions 140 30
 		
 	visible if "show dominate"
 	active if "can dominate"
-	button t "Demand _Tribute"
+	button t "索要贡品[_T]"
 		center -20 115
 		dimensions 140 30
 	visible if "show relinquish"
-	button t "Relinquish _Tribute"
+	button t "缴纳贡品[_T]"
 		center -20 115
 		dimensions 140 30
 	visible if "show assist"
 	active if "can assist"
-	button h "Ask For _Help"
+	button h "请求协助[_H]"
 		center -20 115
 		dimensions 140 30
 
@@ -2970,44 +2970,44 @@ interface "map: sales key"
 		color "map: sale marker: item stored"
 
 	visible if "is shipyards"
-	label "Has no shipyard",
+	label "无船厂"
 		from 350 -72
 		align left
-	label "Has shipyard",
+	label "有船厂"
 		from 350 -52
 		align left
-	label "Sells this ship",
+	label "出售此飞船"
 		from 350 -32
 		align left
-	label "Ship parked here"
+	label "飞船停泊于此"
 		from 350 -12
 		align left
 
 	visible if "is outfitters"
-	label "Has no outfitter",
+	label "无装备店"
 		from 350 -72
 		align left
-	label "Has outfitter",
+	label "有装备店"
 		from 350 -52
 		align left
-	label "Sells this outfit",
+	label "出售此装备"
 		from 350 -32
 		align left
-	label "Outfit in storage"
+	label "装备存储于此"
 		from 350 -12
 		align left
 
 	visible if "is outfitters w/ minerals"
-	label "Has no outfitter",
+	label "无装备店"
 		from 350 -72
 		align left
-	label "Has outfitter",
+	label "有装备店"
 		from 350 -52
 		align left
-	label "Mine this here",
+	label "可在此开采"
 		from 350 -32
 		align left
-	label "Mineral in storage"
+	label "矿物存储于此"
 		from 350 -12
 		align left
 

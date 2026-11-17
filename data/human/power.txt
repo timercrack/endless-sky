@@ -20,7 +20,7 @@ outfit "Supercapacitor"
 	"mass" 2
 	"outfit space" -2
 	"energy capacity" 750
-	description "With a powerful enough generator, many ships do not need batteries at all. The one exception is projectile weapons, which usually require a burst of energy far exceeding what the generator produces. Supercapacitors provide just enough energy storage for those weapons, without requiring you to install a bulky battery pack."
+	description "如果发电机足够强大，许多飞船根本不需要电池。唯一的例外是弹道武器，它们通常需要远超发电机输出能力的能量爆发。超级电容器为这些武器提供了足够的储能，无需安装笨重的电池组。"
 
 outfit "LP036a Battery Pack"
 	category "Power"
@@ -31,7 +31,7 @@ outfit "LP036a Battery Pack"
 	"mass" 10
 	"outfit space" -10
 	"energy capacity" 4000
-	description "A ship can run without batteries if its generator's instantaneous power output is higher than the total energy consumption of its systems, but batteries make it possible to store up energy when it is not needed and thus to use a much smaller and cheaper generator."
+	description "如果发电机的瞬时功率输出高于系统总能耗，飞船可以不带电池运行；但电池使得在不需用电时储存能量成为可能，从而可以使用更小、更便宜的发电机。"
 
 outfit "LP072a Battery Pack"
 	category "Power"
@@ -42,7 +42,7 @@ outfit "LP072a Battery Pack"
 	"mass" 20
 	"outfit space" -20
 	"energy capacity" 8800
-	description "This battery pack has more than twice the energy capacity of the most basic model, allowing your ship to engage in combat for longer periods of time before running out of energy. Some pilots have even been known to install these in lieu of any generator at all, trusting that they can reach their destination planet and recharge before running out of battery power, but that is a risky proposition."
+	description "这个电池组的能量容量是最基础型号的两倍以上，能让你的飞船在能量耗尽前进行更长时间的战斗。甚至有飞行员完全不用发电机，只安装此电池组，指望能在电池耗尽前抵达目的地星球并重新充电——但这风险极高。"
 
 outfit "LP144a Battery Pack"
 	category "Power"
@@ -53,7 +53,7 @@ outfit "LP144a Battery Pack"
 	"mass" 40
 	"outfit space" -40
 	"energy capacity" 19200
-	description "This medium-sized battery pack is intended for ships that need to fire the occasional salvo of high-powered weaponry without running out of energy. As with all battery packs, relying on batteries is risky if combat lasts long enough for them to become depleted."
+	description "这款中型电池组专为需要偶尔发射一轮高能武器而不耗尽能量的舰船设计。与所有电池组一样，若战斗持续足够长的时间导致电池耗尽，依赖电池供电将存在风险。"
 
 outfit "LP288a Battery Pack"
 	category "Power"
@@ -64,7 +64,7 @@ outfit "LP288a Battery Pack"
 	"mass" 60
 	"outfit space" -60
 	"energy capacity" 31200
-	description "This is a large battery pack designed for ships that may occasionally have high power needs but do not want the expense or the heat associated with a more powerful ship's generator."
+	description "这是一款大型电池组，专为那些偶尔需要高功率、但又不想承受更大功率舰船发电机所带来的成本或热量的飞船设计。"
 
 outfit "LP576a Battery Pack"
 	category "Power"
@@ -75,7 +75,7 @@ outfit "LP576a Battery Pack"
 	"mass" 80
 	"outfit space" -80
 	"energy capacity" 46000
-	description "For most ships that require this much power, a larger generator makes more sense than a battery this size. However, battery packs have the advantage that they generate no heat, so some captains use them instead of powerful generators if they do not expect to be in combat frequently or for extended periods of time."
+	description "对于大多数需要这种功率的飞船来说，使用更大的发电机比使用这种尺寸的电池更有意义。然而，电池组的优势在于它们不产生热量，因此有些船长在不期望频繁或长时间战斗的情况下，会选择使用电池组而不是大功率发电机。"
 
 
 outfit "KP-6 Photovoltaic Panel"
@@ -87,7 +87,7 @@ outfit "KP-6 Photovoltaic Panel"
 	"mass" 3
 	"outfit space" -2
 	"solar collection" .1
-	description "This early commercial photovoltaic system was the driving force behind humanity's first interplanetary trade network. Rugged and modular, it can be bolted to the hull of any ship and has seen even the most remote parts of human space."
+	description "这款早期的商用光伏系统是人类第一个星际贸易网络的驱动力。它坚固且模块化，可安装在任何飞船的船体上，甚至见证了人类空间中最为偏远的角落。"
 
 outfit "KP-6 Photovoltaic Array"
 	category "Power"
@@ -98,7 +98,7 @@ outfit "KP-6 Photovoltaic Array"
 	"mass" 24
 	"outfit space" -16
 	"solar collection" 1.1
-	description "The compact modularity of the KP-6 lent itself well to the creation of larger solar collection arrays. This original Korunak Photovoltaics model is equipped with a solar tracker, allowing it to make better use of available light."
+	description "KP-6的紧凑模块化设计使其便于构建更大的太阳能收集阵列。这款原始的Korunak光伏型号配备了太阳跟踪器，使其能够更好地利用可用光线。"
 
 
 outfit "nGVF-AA Fuel Cell"
@@ -111,7 +111,7 @@ outfit "nGVF-AA Fuel Cell"
 	"outfit space" -20
 	"energy generation" 1.2
 	"heat generation" 1.9
-	description "Fuel cells have been the cheapest and most common starship power sources since the dawn of the space era. This model produces only enough power for very small or slow ships."
+	description "自太空时代之初，燃料电池就一直是价格最低廉、最普遍的星舰能源。该型号仅能为非常小或速度缓慢的船只提供足够电力。"
 
 outfit "nGVF-BB Fuel Cell"
 	category "Power"
@@ -123,7 +123,7 @@ outfit "nGVF-BB Fuel Cell"
 	"outfit space" -30
 	"energy generation" 1.9
 	"heat generation" 2.9
-	description "This is a step up from the smallest fuel cells, providing enough energy to power a few small guns in addition to your engines."
+	description "这是比最小型燃料电池更高一级的型号，可提供足够能量，除了驱动引擎外还能为几门小型武器供能。"
 
 outfit "nGVF-CC Fuel Cell"
 	category "Power"
@@ -135,7 +135,7 @@ outfit "nGVF-CC Fuel Cell"
 	"outfit space" -40
 	"energy generation" 2.6
 	"heat generation" 3.8
-	description "This is a medium-sized fuel cell, designed to be sufficient for larger civilian ships and small warships while still being more affordable than the more sophisticated generator options."
+	description "这是一种中等尺寸的燃料电池，设计上足以满足大型民用飞船和小型战舰的需求，同时价格比更先进的发电装置更为亲民。"
 
 outfit "nGVF-DD Fuel Cell"
 	category "Power"
@@ -147,7 +147,7 @@ outfit "nGVF-DD Fuel Cell"
 	"outfit space" -60
 	"energy generation" 4.1
 	"heat generation" 5.7
-	description "This is a relatively large fuel cell. Other generators are available that produce more energy and fit into a smaller space, but they are much more expensive. As a result, large civilian ships that will not be frequently in combat often come equipped with these fuel cells."
+	description "这是一个相对较大的燃料电池。市面上有其他发电机，能产生更多能量且体积更小，但价格要昂贵得多。因此，那些不常参与战斗的大型民用飞船通常会配备这种燃料电池。"
 
 outfit "nGVF-EE Fuel Cell"
 	category "Power"
@@ -159,7 +159,7 @@ outfit "nGVF-EE Fuel Cell"
 	"outfit space" -80
 	"energy generation" 5.9
 	"heat generation" 7.8
-	description "This is the largest fuel cell available, larger than some nuclear reactors but much, much more affordable. Many captains on a tight budget are willing to put up with one of these until they can raise the money for something more efficient."
+	description "这是目前可用的最大型燃料电池，体积比某些核反应堆还大，但价格却便宜得多。许多预算紧张的船长都愿意凑合使用这种电池，直到攒够钱换装更高效的型号。"
 
 
 outfit "RT-I Radiothermal"
@@ -172,7 +172,7 @@ outfit "RT-I Radiothermal"
 	"outfit space" -45
 	"energy generation" 4.4
 	"heat generation" 18
-	description "Radiothermal generators harvest heat from radioactive isotopes and convert it into electricity. They are more powerful than fuel cells, but also produce a relatively high amount of heat."
+	description "放射性热发电机从放射性同位素中收集热量并将其转化为电能。它们比燃料电池更强大，但也会产生相对较高的热量。"
 
 outfit "S3 Thermionic"
 	category "Power"
@@ -184,7 +184,7 @@ outfit "S3 Thermionic"
 	"outfit space" -55
 	"energy generation" 5.0
 	"heat generation" 12
-	description "Thermionic radioisotopic generators were designed as a cooler-running alternative to radiothermal generators."
+	description "热离子放射性同位素发电机被设计为一种运行温度更低的替代方案，以取代放射性热发电机。"
 
 outfit "NT-200 Nucleovoltaic"
 	category "Power"
@@ -196,7 +196,7 @@ outfit "NT-200 Nucleovoltaic"
 	"outfit space" -65
 	"energy generation" 7.2
 	"heat generation" 15
-	description "Nucleovoltaic generators are a relatively recent generator technology that harvests energy from the decay of a radioisotope source and converts it directly into electricity. They are the most powerful generator that relies on nuclear decay instead of an active nuclear chain reaction."
+	description "核伏特发电机是一种相对较新的发电机技术，它从放射源衰变中获取能量并将其直接转化为电能。它是依赖核衰变而非活跃核链式反应的最强大的发电机。"
 
 
 outfit "Dwarf Core"
@@ -209,7 +209,7 @@ outfit "Dwarf Core"
 	"outfit space" -36
 	"energy generation" 4.8
 	"heat generation" 14
-	description "A Dwarf Core is a miniaturized nuclear reactor, small enough to be installed in any ship larger than a fighter. It was designed by Deep Sky to be paired with their power-hungry atomic engines."
+	description "矮星核心是一种微型核反应堆，小到可以安装在任何比战斗机大的飞船上。它由幽海星设计，以配合其耗电的原子引擎。"
 
 outfit "Fission Reactor"
 	category "Power"
@@ -221,7 +221,7 @@ outfit "Fission Reactor"
 	"outfit space" -65
 	"energy generation" 9.4
 	"heat generation" 25
-	description "Fission reactors have been a mainstay of large military vessels since even before the dawn of the space era. Today's models are very safe and efficient, but some pilots still find them disconcerting."
+	description "裂变反应堆早在太空时代来临之前就已成为大型军用舰船的中流砥柱。如今的型号非常安全高效，但仍有部分飞行员对其感到不安。"
 
 outfit "Breeder Reactor"
 	category "Power"
@@ -233,7 +233,7 @@ outfit "Breeder Reactor"
 	"outfit space" -80
 	"energy generation" 12.8
 	"heat generation" 35
-	description "A Breeder Reactor is a more efficient fission reactor that captures some of the neutron radiation produced by the reactor and uses it to enrich more fuel. They are also, of course, bigger and more expensive as a result."
+	description "增殖反应堆是一种效率更高的裂变反应堆，它能捕获反应堆产生的部分中子辐射，并用其浓缩更多燃料。当然，也因此更大、更昂贵。"
 
 outfit "Fusion Reactor"
 	category "Power"
@@ -245,7 +245,7 @@ outfit "Fusion Reactor"
 	"outfit space" -100
 	"energy generation" 18.2
 	"heat generation" 40
-	description "The invention of practical fusion power near the end of the twenty-first century spurred a new era of prosperity and plenty. Centuries later, the generators have been reduced in size, but are still generally only used in capital warships."
+	description "二十一世纪末实用化聚变动力的发明开启了繁荣与富足的新纪元。数百年后，这些发电机体积已大幅缩小，但通常仍仅用于主力战舰。"
 
 outfit "Armageddon Core"
 	category "Power"
@@ -257,7 +257,7 @@ outfit "Armageddon Core"
 	"outfit space" -130
 	"energy generation" 24.2
 	"heat generation" 70
-	description "The Armageddon Core was designed to meet the extreme power needs of the largest warships of the Republic Navy. One of these generators costs more than an entire fleet of smaller ships."
+	description "末日核心旨在满足共和国海军最大型战舰的极端能源需求。一台这样的发电机造价超过一整支小型舰队。"
 
 outfit "Stack Core"
 	category "Power"
@@ -269,4 +269,4 @@ outfit "Stack Core"
 	"outfit space" -140
 	"energy generation" 22.9
 	"heat generation" 55
-	description "The Stack Core was created by the Free Worlds primarily as a power source for their Dreadnoughts. It is a fission reactor, and therefore less efficient than the Navy's fusion technology, but it is also significantly cheaper to produce."
+	description "堆叠核心是自由世界主要为他们的无畏舰制造的电源。它是一个裂变反应堆，因此效率低于海军的聚变技术，但生产成本也显著更低。"

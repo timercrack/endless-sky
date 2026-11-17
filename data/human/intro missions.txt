@@ -20,197 +20,197 @@ conversation "intro mission"
 	branch syndicate
 		has "start: syndicate"
 	
-	`With some trepidation, you give the shipyard owner your money and take your new ship for a test drive, piloting it out of the shipyard and onto a spare landing pad by the spaceport. Then you get out and look the ship over a bit more closely. You are busy polishing out a few rust spots with a piece of steel wool when an old man in grease-stained coveralls walks up.`
-	`	"Nothing quite like buying your very first starship," he says.`
+	`你带着些许忐忑，把钱交给船厂老板，开着新船出去试驾，驶出船厂，在太空港的一个备用停机坪上着陆。然后你下了船，更仔细地打量这艘船。你正忙着用钢丝绒打磨几个锈点时，一个穿着沾满油污工装裤的老人走了过来。`
+	`	他说：“没什么比买下自己的第一艘星舰更带劲了。”`
 	choice
-		`	"Yeah, I'm still kind of in shock over how much money I spent."`
+		`	“是啊，我到现在还不敢相信自己花了这么多钱。”`
 			goto money
-		`	"Well, I don't plan to get too attached to this one. I'll be flying something much nicer before long."`
+		`	“嗯，我没打算对这艘船太留恋。用不了多久我就能开上更棒的家伙。”`
 			goto bigger
-		`	"Beat it, old-timer, I've got more important things to do than chat with you."`
+		`	“滚开，老家伙，我有比跟你聊天更重要的事要做。”`
 			decline
 	label money
-	`	He grins. "I know the feeling. It's a crime how much interest the banks charge to first-timers. It's been that way ever since when I first started out."`
+	`	他咧嘴一笑：“我懂这感觉。银行对新手收那么高的利息，真是犯罪。从我刚开始入行那会儿就这样了。”`
 		goto captain
 	label bigger
-	`	He smiles. "I'm sure you will. But there's something nice to having a ship you can pilot all by yourself. Believe me, once you have to start managing crew and paying salaries, or keeping track of a whole fleet, you'll miss these days when everything was simple."`
+	`	他微笑着说：“我相信你会的。但能有一艘完全由自己驾驶的船，那种感觉很不错。相信我，等你开始管理船员、发工资，或者指挥一整支舰队时，你会怀念这些简简单单的日子。”`
 		goto captain
 	
 	label deep
-	`With some trepidation, you hand one of the salespeople your money, and they give you the passcode to your starship, along with the number of the docking bay your ship is being transported to. By the time you arrive, your <model> is already there, beckoning you aboard. You spend a minute admiring your ship until a man walks up to you. You recognize him as the old man who rode the train with you, and you wave.`
-	`	He waves back, turns to look at your ship and says, "Nothing quite like buying your first starship, is there?"`
+	`你带着些许忐忑，把钱交给一个销售员，他们给了你星舰的密码，还有你的船要运过去的船坞编号。等你到达时，你的<model>已经在那里了，正召唤着你登船。你花了一分钟欣赏你的船，直到一个人走到你面前。你认出他就是和你一起坐火车的那位老人，于是你挥了挥手。`
+	`	他也挥了挥手，转头看着你的船说：“没什么比买下自己的第一艘星舰更带劲了，对吧？”`
 	choice
-		`	"Yeah, it's a real beauty."`
+		`	“是啊，它真漂亮。”`
 			goto beauty
-		`	"I'm hoping to fly a much better ship, honestly."`
+		`	“说实话，我希望开上一艘更好的船。”`
 			goto bigger
-		`	"Sorry, but I'd like to be left alone."`
+		`	“抱歉，我想一个人待着。”`
 			decline
 	label beauty
-	`	He grins. "And I'm sure you'll be modifying it for days on end to make it even more beautiful. God knows how long I spent tuning my own ships."`
+	`	他咧嘴一笑：“我敢肯定你会连续好几天改造它，让它更漂亮。天知道我花了多久调试我自己的船。”`
 		goto captain
 	
 	label paradise
-	`With some trepidation, you hand over your money and take your new ship for a test drive, piloting it out of the shipyard and onto a spare landing pad in the spaceport. You disembark and spend a minute admiring your ship until an old man in grease-stained coveralls walks up to you.`
-	`	"Nothing quite like buying your first starship," he says.`
+	`你带着些许忐忑，把钱交出去，开着新船出去试驾，驶出船厂，在太空港的一个备用停机坪上着陆。你下了船，花了一分钟欣赏你的船，直到一个穿着沾满油污工装裤的老人走了过来。`
+	`	他说：“没什么比买下自己的第一艘星舰更带劲了。”`
 	choice
-		`	"I can't wait to explore the galaxy!"`
-		`	"Just you wait; I'll be flying an entire fleet soon."`
+		`	“我已经等不及要探索银河了！”`
+		`	“你等着瞧吧，我很快就能开上一整支舰队。”`
 			goto bigger
-		`	"If I wanted to talk, I would have said something. Beat it."`
+		`	“要是想聊天，我早开口了。滚开。”`
 			decline
-	`	He grins. "Well, don't be too hasty. The galaxy is a big and dangerous place, and not for the fainthearted. It'll be quite a while until you can make the universe your oyster. Took me decades."`
+	`	他咧嘴一笑：“嗯，别太着急。银河是个广大又危险的地方，可不是给懦夫准备的。你得花好一阵子才能遨游全宇宙。我花了数十年。”`
 		goto captain
 	
 	label syndicate
 	branch jackal
 		has "Intro [0 Jackal]: offered"
 		has "ship model: Jackal"
-	`With a strange sense of relief, you give the salesman your money and jump into your new ship. The flight from the shipyard to the landing bays has you navigate through tunnels with only centimeters of clearance in all directions. After setting your ship down and disembarking, an old man in grease-stained coveralls approaches you.`
-	`	"Nothing quite like buying your first starship," he says.`
+	`你带着一种奇怪的解脱感，把钱交给销售员，跳进了你的新船。从船厂到停机坪的飞行要穿过隧道，四面八方只有几厘米的间隙。你停好船下了船，一个穿着沾满油污工装裤的老人向你走来。`
+	`	他说：“没什么比买下自己的第一艘星舰更带劲了。”`
 	choice
-		`	"I'm just glad to be free from working for someone else."`
-		`	"And there's nothing quite like going six hundred thousand credits into debt."`
+		`	“我只是庆幸终于不用给别人打工了。”`
+		`	“也没什么比欠下六十万贷款更带劲了。”`
 			goto money
-		`	"If I wanted to talk with you, I'd have said something. Leave me alone."`
+		`	“要是想跟你聊，我早开口了。别烦我。”`
 			decline
-	`	He grins. "Well, I wouldn't be so sure yet. Often, the quickest way to fame and fortune is to curry favor with the big players. I always preferred to work by myself, though."`
+	`	他咧嘴一笑：“嗯，我还不那么确定。通常来说，最快名利双收的办法是讨好大人物。不过我一直更喜欢自己单干。”`
 		goto captain
 	
 	label jackal
-	`Sure enough, you find your new Jackal waiting in one of the port's landing bays. You start to examine the <ship>, and your worst fears are realized. Of the ship's outfits, the only one to pass any safety tests is the battery; you'll have to completely replace everything else. As you rip out broken components and throw them in the nearest dumpster, an old man in grease-stained coveralls approaches you.`
-	`	"Looks like you've landed yourself a real lemon, haven'tcha?" he says.`
+	`果然，你发现新买的Jackal停在港口的一个停机位上。你开始检查<ship>，你最担心的事情发生了。飞船的装备里，唯一能通过安全测试的只有电池；你得把其他东西全换掉。当你拆下破损的零件扔进最近的垃圾桶时，一个穿着沾满油污工装裤的老人向你走来。`
+	`	他说：“看来你买到一辆中看不中用的破车，是吧？”`
 	choice
-		`	"Yep."`
-		`	"Look, I'm having a really bad day today. Bother someone else."`
+		`	“嗯。”`
+		`	“听着，我今天已经够烦的了。去找别人吧。”`
 			decline
-	`	"Well, there's no point crying over jettisoned cargo. Mind if I give you a hand?"`
-	`	With the old man's help, you manage to clear out the Jackal before nightfall. "Haven't had to do this to a ship in a long time. Still, it's nice to have a blank slate when you're outfitting your fleet."`
+	`	“嘿，为抛弃的货物哭也没用。要我搭把手吗？”`
+	`	在老人的帮助下，你赶在天黑前清空了Jackal。“很久没对一艘船干这种事了。不过，给舰队装配时从零开始也挺好。”`
 	
 	label captain
-	`	"You're a captain?" you ask.`
-	`	"Was," he says. "Sold off my fleet a few days ago, and I already miss it. But it was time. Time for me to retire." His voice trails off, then his face lights up. "Say, any chance I could hitch a ride with you, maybe show you the ropes, give you some pointers? I could pay you, of course."`
+	`	你问：“您是船长？”`
+	`	他说：“曾经是。几天前刚卖掉了我的舰队，已经开始想念了。但是时候了。到我退休的时候了。”他的声音渐渐低下去，然后眼睛一亮：“喂，我能搭个便船吗？顺便教你些门道，给你指点指点？当然，我会付你钱的。”`
 	choice
-		`	"Sure, where are you trying to get to?"`
-		`	"I'd rather figure things out on my own."`
+		`	“当然，您要去哪儿？”`
+		`	“我更想自己摸索。”`
 			decline
-	`	"Well," he says, "I've got a spot reserved in a retirement home, but I don't mind taking a roundabout way to get there. For starters, how about you give me a lift to <planet>? It's just one jump away from here; I can mark it on your map."`
+	`	他说：“嗯，我在养老院订了个位子，但我不介意绕点路过去。首先，你能带我去<planet>吗？从这儿就一跳的距离；我可以在地图上标出来。”`
 	choice
-		`	"Sounds good!"`
+		`	“听起来不错！”`
 			goto end
-		`	"How much will you pay me?"`
-	`	"That's kind of a rude question," he says, "but I'll pay you ten thousand credits. I guarantee you that's more than any captain ever gets for carrying one passenger for one day."`
+		`	“你付我多少钱？”`
+	`	他说：“这问题有点不客气，但我付你一万信用点。我保证，这比任何船长带一名乘客一天的收入都多。”`
 	choice
-		`	"That's really generous. Thank you."`
+		`	“真慷慨，谢谢您。”`
 			goto end
-		`	"You're treating me like a charity case? No thanks, I'll earn my money legitimately."`
+		`	“你把我当慈善对象？不了，我要正正当当赚自己的钱。”`
 			decline
 	label end
-	`	"Great," he says. "My name is James, by the way."`
-	`	"<first> <last>," you say.`
-	`	"I'm looking forward to traveling with you, Captain <last>," says James.`
+	`	他说：“太好了。顺便，我叫詹姆斯。”`
+	`	你说：“我叫<first> <last>。”`
+	`	詹姆斯说：“我很期待和您一起旅行，<last>船长。”`
 		to display
 			not "name: Michael Zahniser"
-	`	"<first> <last>?" he stops for a moment. "I've heard that name before. Reminds me of someone famous, I think," says James. "Anyways, I'm looking forward to traveling with you."`
+	`	“<first> <last>？”他顿了顿。“我以前听过这个名字。好像让我记起某个名人，”詹姆斯说。“总之，我很期待和您一起旅行。”`
 		to display
 			has "name: Michael Zahniser"
 	
-	`	As you're helping him wheel his luggage aboard and showing him his bunk, he says, "Before we take off, you might head on over to the trading center and <trade>; we can sell those for a good profit on <planet>.`
-	`	"Also make sure to visit the local outfitter. <while>, every world with an outfitter will at least carry a map with information on the neighboring systems. Buying them can help if you're not quite sure where you're going."`
+	`	你帮他把行李搬上船，带他到铺位时，他说：“起飞前，你最好去一下贸易中心，<trade>；我们可以在<planet>卖个好价钱。”`
+	`	“也记得去本地的装备店转转。<while>，每个有装备店的星球至少会卖周边星系的信息图。不确定去哪儿的话，买下它们会对你有所帮助。”`
 		accept
 
 
 conversation "mission intro end"
-	`As you land on <planet>, James says, "Congrats on your first trip through hyperspace! I'm impressed that you didn't throw up; most folks do, the first time."`
-	`	"Including you?" you ask.`
-	`	"Yeah, and then spent half an hour in orbit cleaning my cabin while hoping the passengers wouldn't come out of their bunk room and see the mess. Not my proudest moment. Anyway, here's your pay." He hands you <payment>.`
-	`	Then he adds, "If you're okay with giving me a lift for a while longer, sell off any of that cargo you bought and then meet me in the spaceport. I'll see if I can rustle up any interesting work for you to do."`
+	`当你降落在<planet>时，詹姆斯说：“恭喜你第一次穿越超空间！我很惊讶你居然没吐；大多数人第一次都会吐。”`
+	`	“也包括你吗？”你问道。`
+	`	“是啊，然后我在轨道上花了半小时清理舱室，同时祈祷乘客别从他们的铺位出来看到这一团糟。那可不是我最光彩的时刻。总之，这是你的报酬。”他把<payment>递给你。`
+	`	然后他补充道：“如果你愿意再载我一段时间，就卖掉你买的那批货物，然后到太空港见我。我看看能不能给你找点有意思的活干。”`
 	``
-	`	(Click the "Spaceport" button to continue this mission.)`
+	`	（点击“太空港”按钮以继续此任务。）`
 
 
 
 conversation "intro earth offer"
-	`The spaceport on <origin> is so big and crowded that it takes a long time to find James. The sheer number of people here is almost overwhelming. Homeless men wrapped in old army blankets beg money from well-dressed businessmen. Soldiers in Navy uniforms walk by in groups of ten or twenty, all marching in unison. Starship captains haggle with merchants over trade goods and jobs. Flashes of light come from various landing bays as welders make repairs.`
-	`	When you find James, he's standing by a window, looking out at the city, watching the starships taking off and landing in a continuous stream. "This is it," he says, "where our race began. The world that all the tourists want to visit, and that no one wants to live on. Twenty billion people, more industry and exports than any other place in the galaxy. But underneath it all, poverty of a completely different sort from what <they've> got in the Dirt Belt."`
-	`	After taking one last glance out the window, he says, "Anyway, we're nearing my destination. Are you willing to take me on one last trip? I need to get to <destination>, and of course I'll pay you quite well to take me there."`
+	`<origin>太空港规模庞大、人潮拥挤，花了很长时间才找到詹姆斯。这里的人数之多几乎令人窒息。无家可归者裹着旧军毯，向衣着光鲜的商人乞讨。身穿海军制服的水兵十人二十人一队，迈着整齐的步伐走过。星舰船长们与商贩讨价还价，谈着货物和任务。各个停机坪里焊枪火花闪烁，维修工作正在进行。`
+	`	当你找到詹姆斯时，他正站在一扇窗前，望着城市，看着星舰在不断流动中起降。“就是这里，”他说，“我们种族的发源地。所有游客都想来，却没人愿意住的地方。两百亿人口，工业产值和出口量比银河任何地方都多。但在这表象之下，却是与尘土带<they've>所经历的截然不同的贫困。”`
+	`	最后瞥了一眼窗外，他说：“不管怎样，快到我的目的地了。你愿意带我走最后一趟吗？我需要去<destination>，当然我会付你相当可观的报酬。”`
 	choice
-		`	"Of course."`
-		`	"Sorry, but I was planning on heading out in a different direction from here."`
+		`	“当然可以。”`
+		`	“抱歉，我本打算从这里往别的方向走。”`
 			decline
 	branch paradise
 		has "start: paradise"
-	`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's one of the "Paradise Worlds," terraformed to have a perfect climate, accessible only to the very wealthy. You wonder whether James is going to be able to fit in there.`
+	`	你再次和詹姆斯一起走回飞船。到了之后，他放行李时，你调出电脑上关于<planet>的信息。它是“天堂世界”之一，经过地球化改造，拥有完美的气候，只有极富有的人才能进入。你好奇詹姆斯在那里是否适应。`
 		accept
 	label paradise
-	`	Once again you walk back to your ship with James. You've heard of <planet> before; one of the Paradise Worlds terraformed from a lifeless ice planet to the largest and most luxurious retirement home in the galaxy. As you look at his utilitarian outfit and modest luggage, something seems off about the idea of James living in such a place.`
+	`	你再次和詹姆斯一起走回飞船。你以前听说过<planet>：一个天堂世界，从无生命的冰行星改造而来，成为银河系最大最豪华的养老院。当你看着他实用的衣服和简朴的行李时，想到詹姆斯要住在那种地方，总觉得有些不对劲。`
 		accept
 
 
 
 conversation "freighter 1 end"
-	`You drop off the shipment of <commodity> on <planet>, and collect your payment of <payment>. "Hauling freight," says James. "Not the most glamorous job, or the most interesting, but you're always guaranteed steady income. And once you know the galaxy a bit better, instead of taking missions you can find your own trade routes to follow. The only trouble is, build up a fleet with lots of cargo space and not enough defenses and the pirates begin to take notice."`
+	`你把这批<commodity>送到<planet>，并收到了<payment>的报酬。“运货，”詹姆斯说道。“不是最风光的工作，也不是最有趣的，但总有稳定的收入。一旦你对星系更熟悉了，就不用接任务，可以自己找贸易路线跑。唯一的问题是，组建一支货舱很大但防御不足的舰队，海盗就会盯上你。”`
 	choice
-		`	"Did you have a lot of trouble with pirates when you were a captain?"`
+		`	“你当船长的时候，海盗给你惹了很多麻烦吗？”`
 		`	"But what if I want to earn money more quickly than I can by trading?"`
 			goto quick
 	`	"Some. That's why you can't just go traipsing around the galaxy in a fleet of unarmed star barges; every pirate within a week's travel will hear you're coming through and come after you. In the long term, having a few heavy freighters with good defenses is more cost-effective than losing a star barge or two to the pirates on every journey."`
 		goto port
 	label quick
-	`	"There's no quick road to riches, kid. The more something pays, the riskier it is. If you need to make lots of money in a hurry, bounty hunting is the way to go, but nine out of ten pilots who give bounty hunting a try end up dead. And no one's going to give you those sorts of missions until you've proved yourself in combat, anyway."`
+	`	“没有快速致富的路，小子。报酬越高，风险越大。如果你急需大笔钱，赏金猎人是条路，但十个尝试赏金猎人的飞行员里有九个都死了。而且，除非你已经在战斗中证明了自己，否则没人会把那种任务交给你。”`
 	label port
-	`	He picks up his suitcase. "If you want to run another mission with me, look for me in the spaceport. I'll see if I can find you something with a higher profit margin this time."`
+	`	他拎起手提箱。“如果你想跟我再跑一趟任务，到太空港来找我。这次我看看能不能给你找个利润更高的活儿。”`
 	``
-	`	(As before, click the "Spaceport" button to continue this mission.)`
+	`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 conversation "freighter 2 end"
-	`By now, your entire ship smells like brine and raw fish, but as best you can tell the fish is still fresh enough to eat. The dock workers on <planet> offload it without comment, and give you your payment of <payment>.`
+	`到现在，你的整艘船闻起来都是盐水和生鱼的味道，但就你所能判断的，鱼还新鲜得足以食用。<planet>上的码头工人一言不发地卸下货物，并支付你<payment>的报酬。`
 		to display
 			or
 				has "start: default"
 				has "start: deep"
-	`Your cargo has loomed silently in your hold for the last few days, but as far as you can tell, the samples are still safely contained. The dock workers on <planet> offload it without comment, and give you your payment of <payment>.`
+	`过去几天里，你的货物一直静静地堆在货舱中，但就你所知，样本仍然安全地封装着。<planet>上的码头工人一言不发地卸下货物，并支付你<payment>的报酬。`
 		to display
 			has "start: paradise"
-	`Your cargo has loomed silently in your hold for the last few days, but the radiation alarms in your ship's hold haven't let out a squeak. The dock workers on <planet> offload it quickly onto several waiting trains, and give you your payment of <payment>.`
+	`过去几天里，你的货物一直静静地堆在货舱中，而你船上的辐射警报器一声也没响。<planet>上的码头工人迅速将其卸到几列等待的火车上，并支付你<payment>的报酬。`
 		to display
 			has "start: syndicate"
 	
-	`	"If you can line them up right," says James, "rush deliveries can be your best source of income as a freighter captain. And keep your eye out for missions with large amounts of cargo, too, because your barge's hold is definitely big enough to handle them. And if you've got any cargo space to spare and you know what the prices are going to be at your destination, be sure to stock up on something you can sell for a profit."`
+	`	“如果你能合理安排好时间，”詹姆斯说，“作为货船船长，急送任务可以成为你最大的收入来源。同时也要留意那些大货运量的任务，因为你的驳船货舱完全足够应付。如果你还有富余的货舱空间，并且知道目的地的价格行情，一定要囤些能赚钱的货物。”`
 	choice
-		`	"What would you recommend if I want to do more than just carry cargo?"`
-		`	"Did you do that for your whole career?"`
+		`	“如果我想做点不只是运货的事，你有什么建议？”`
+		`	“你整个职业生涯都这样干吗？”`
 			goto career
-	`	He pauses for a moment to think, then says, "Unless you want to do something really risky like hunting pirates, your best bet is to work with the Navy, or the Syndicate, or one of the local militias. Any of those would be a decent choice, although they've each got their own problems. If any of them offer you a mission, go ahead and take it; that's a good way to build connections and get to know the lay of the land."`
+	`	他停顿片刻思考，然后说：“除非你想干点真正冒险的事，比如猎杀海盗，否则最好的选择是与海军、辛迪加或某个地方民兵组织合作。任何一个都是不错的选择，尽管它们各自都有问题。如果它们中任何一个给你任务，就接受它；那是建立人脉和了解形势的好方法。”`
 		goto end
 	label career
-	`	"Well," he says, "Back when I was a bit older than you, I piloted a Firebird for a while, escorting merchant convoys up and down the Rim. I used to hope we'd get attacked; I'd disable the pirate ships and rob them blind. Turnabout is fair play, after all.`
-	`	"Then one day I got a bit too greedy and thought I'd try to capture a pirate ship or two, to add more firepower to my fleet. We boarded their ship, and I sent my crew through the airlock to kill off the pirates. And it turns out the pirates had grenades. Four of my men were dead before I even realized what was happening. We had to retreat, and then limp back to port without even enough crew left uninjured to pilot the ship right. After that I decided to stick to less risky jobs."`
+	`	“嗯，”他说，“在我比你大一点的时候，我开过一阵子火鸟，护送商人船队往返边疆。我那时还巴不得被攻击；我会瘫痪海盗船，把他们抢个精光。毕竟，以牙还牙才算公平。`
+	`	“后来有一天我有点太贪心，想试着捕获一两艘海盗船来增强我舰队的火力。我们登上了他们的船，我派我的船员通过气密门去消灭海盗。结果那些海盗有手榴弹。我还没反应过来就有四个兄弟死了。我们不得不撤退，然后蹒跚着返回港口，连足够未受伤的船员来正常驾驶飞船都不够。那之后我决定还是做风险小点的工作。”`
 	label end
-	`	He glances toward the spaceport and says, "Anyway, if you want to make one more trip with me, you know where to find me."`
+	`	他瞥了一眼太空港说：“总之，如果你想再跟我跑一趟，你知道去哪儿找我。”`
 
 
 
 conversation "intro ingot"
-	`You find James talking with a group of miners, who seem to be old acquaintances of his. As you approach, he says, "Well guys, here comes my ride. I should probably say goodbye." They head back off to do their work. "Every time I land here," says James, "I'm amazed that this station hasn't been wiped out yet by a meteorite. Can you imagine spending your life here?"`
+	`你发现詹姆斯正与一群矿工交谈，他们似乎是他的老相识。你走近时，他说：“好了伙计们，我的顺风车来了。该告别了。”他们转身回去干活。“每次降落在这里，”詹姆斯说，“我都惊叹这个空间站居然还没被陨石毁灭。你能想象在这里度过一生吗？”`
 	choice
-		`	"It does seem awfully isolated. But some people might enjoy the solitude."`
-		`	"Well, if you need the money, at least it's a steady job."`
-	`	"I suppose," he says. "Anyway, I think it's time for the last leg of my journey. Do you think you can give me a lift to <planet>? I'll pay you quite well for your services, of course."`
+		`	“确实相当与世隔绝。但有些人或许会喜欢这种孤独。”`
+		`	“呃，如果你缺钱，至少这份工作稳定。”`
+	`	“我想也是，”他说，“总之，该走我旅程的最后一程了。你能载我去<planet>吗？当然，我会付你优厚的报酬。”`
 	choice
-		`	"I can take you there."`
-		`	"Sorry, I was thinking of heading in a different direction from here."`
+		`	“我可以带你去。”`
+		`	“抱歉，我打算往另一个方向走。”`
 			decline
-	`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's one of the "Paradise Worlds," terraformed to have a perfect climate, accessible only to the very wealthy. You wonder whether James is going to be able to fit in there.`
+	`	你再次和詹姆斯一起走回飞船。到了之后，他放行李时，你调出电脑上关于<planet>的信息。它是“天堂世界”之一，经过地球化改造，拥有完美的气候，只有极富有的人才能进入。你好奇詹姆斯在那里是否适应。`
 		accept
 
 
 
 conversation "interceptor escort end"
-	`The captain of the <npc> hands you <payment> and thanks you for your escort services. From the expression on <their> face, you'd guess that <they're> feeling lucky to still be alive after entrusting the safety of <their> fleet to a rookie pilot like yourself.`
-	`	After <they are> gone, James turns to you and says, "Not too bad for your first escort mission. I recognize that look on your face - it's the same one I had after my first job like this back when I was a beginner. If I recall, my first priority after touching down was replacing some of the ship's guns with missile launchers so I'd actually have a chance against pirates. It's a scandal how they sell interceptors with nothing but short-ranged energy weapons these days; trying to use them in combat on such a small ship is practically suicide. Keep your distance with some missiles and you can almost never go wrong.`
+	`<npc>的船长将<payment>交给你，并感谢你的护卫服务。从<their>脸上的表情来看，你猜<they're>觉得自己把<their>舰队的安危托付给你这样的新手飞行员还能活着真是幸运。`
+	`	<they are>离开后，詹姆斯转向你说：“第一次护卫任务干得不错。我认识你脸上的表情——我当初还是新手的时候，第一次干这种活之后也是这副模样。如果我没记错的话，我落地后第一件事就是把船上的一些火炮换成导弹发射器，这样才真正有机会对抗海盗。现在他们卖的截击机只配短程能量武器，简直是丑闻；用这种武器在这么小的船上作战基本等于自杀。装上导弹保持距离，你几乎永远不会出错。”`
 
 	`	"Anyway, I'll stop rambling. If you've still got a hankering for some dangerous missions, come and find me in the spaceport before you leave." He picks up his suitcase and heads outside.`
 		to display
@@ -242,89 +242,89 @@ conversation "interceptor evade intro"
 		has "start: paradise"
 	branch syndicate
 		has "start: syndicate"
-	`You find James in the spaceport bar, talking with a woman wearing a business suit. The expression on James' face is growing increasingly concerned as she speaks. Seeing you come in, he waves to you and you join them at the table.`
-	`	"Hello <first>," says James. "This is Marissa, a senior manager at the mines." You shake hands with her.`
-	`	"Here's the deal," says Marissa. "Most of the gemstones we mine here are industrial grade, not pretty enough to be worth using as anything but sandpaper grit or drill bits. But every once in a while we happen on some higher quality gems. No one in this sector has the money to spend on jewelry, so we ship them north to the Paradise Worlds.`
-	`	"But in the past few months, every shipment we've sent has been attacked by a pirate ship, the Hammer of Thor. We don't have the money to pay a bounty hunter to take out the Hammer, so instead we're going to pay you to outrun it. Is the <ship> a fast ship?"`
+	`你在太空港的酒吧里找到了詹姆斯，他正与一位穿商务套装的女士交谈。随着她说话，詹姆斯脸上的表情越来越担忧。看到你进来，他向你招手，你便加入他们，在桌旁坐下。`
+	`	“你好，<first>，”詹姆斯说道。“这位是玛丽莎，矿场的高级经理。”你与她握了手。`
+	`	“是这样的，”玛丽莎说。“我们这里开采的大部分宝石都是工业级的，不够漂亮，除了当砂纸磨料或钻头之外，没有什么价值。但偶尔我们也会碰到一些更高质量的宝石。这个星域没人有闲钱买珠宝，所以我们把它们运往北方的天堂世界。”`
+	`	“但在过去几个月里，我们发出的每一批货都遭到了一艘海盗船——‘雷神之锤’的袭击。我们没钱请赏金猎人去干掉那艘锤子船，所以打算花钱雇你甩掉它。<ship>速度快吗？”`
 	choice
-		`	"As fast as they come. Nothing bigger than a fighter could chase it down."`
-		`	"Not fast enough. I don't think I can risk taking on this mission."`
+		`	“它快到极致，除了战斗机，没什么大家伙能追上它。”`
+		`	“不够快。我觉得没法冒险接这个任务。”`
 			decline
-	`	"Great," she says. "My people will load up your ship immediately. Good luck, Captain."`
+	`	“太好了，”她说。“我的人马上给你装船。祝你好运，船长。”`
 		goto leave
 	
 	label deep
-	`You end up finding James in a bar talking to a woman in a military uniform. "Nice to see you, <first>," he says. "I've been talking to Lieutenant Engberg over here, and I think we have a job on our hands."`
+	`你最后在酒吧里找到了詹姆斯，他正与一位穿军装的女士交谈。“很高兴见到你，<first>，”他说。“我刚在和恩伯格中尉聊天，我觉得我们手上有活了。”`
 	choice
-		`	"What is it?"`
+		`	“那是什么？”`
 			goto job
-		`	"You haven't drafted me into the Navy, have you?"`
-		`	"Actually, I want to go out on my own now."`
+		`	“你没把我拉进海军吧？”`
+		`	“其实，我现在想单飞了。”`
 			decline
-	`	Engberg chuckles. "Firstly, I'm not part of the Navy, I'm with Deep Security. And secondly, not to disparage your abilities, but we only recruit experienced captains into our ranks."`
+	`	恩伯格轻声笑了笑。“首先，我不是海军的人，我是深渊安保的。其次，不是贬低你的能力，但我们只招募有经验的船长。”`
 	label job
-	`	James says, "Deep Security mainly acts as the Deep equivalent of the Navy, protecting merchants from pirates. However, they also deal with the transport of confidential documents and equipment, for both the private and government sector."`
-	`	Engberg continues. "Recently, one of our logistics ships was attacked and damaged by a merchant warship named the Arm of Odin. We now believe that ship to be a pirate vessel in disguise, specifically targeting the cargo onboard. We're looking for a replacement ship capable of avoiding the threat while we track down the warlord. How fast would you say the <ship> is?"`
+	`	詹姆斯说：“深渊安保主要扮演幽海星上相当于海军的角色，保护商人免受海盗侵扰。不过，他们也负责运输机密文件和设备，包括私营和政府部门的。”`
+	`	恩伯格继续说道。“最近，我们一艘后勤船遭到了名为‘奥丁之臂’的商船袭击并受损。我们现在认为那艘船是伪装的海盗船，专门针对船上的货物。我们正在找一艘能避开威胁的替代船，同时去追查那个军阀。<ship>有多快？”`
 	choice
-		`	"It'll outspeed anything short of a fighter."`
-		`	"Not fast enough. You'll have to find someone else for the job."`
+		`	“除了战斗机，没什么能比它更快。”`
+		`	“不够快。你得另找人接手。”`
 			decline
-	`	"Good," she says. "We'll have the cargo loaded onto your ship by sundown."`
+	`	“很好，”她说。“我们会在日落前把货物装上你的船。”`
 		goto leave
 
 	label paradise
-	`For a planet so close to the Paradise Worlds, <origin> could not be any more different. Where the Paradise Worlds have meticulously preplanned cities, <origin> was designed by immediate needs. Where the Paradise Worlds cover themselves with nature and sculptures, <origin> bares itself to the galaxy, indulging in concrete pillars and steel trusses. Where the Paradise Worlds believe themselves to be untouchable utopias, <origin> is hardly afraid to show the scars of battle, its turrets and Navy garrisons in full display.`
-	`	You end up finding James in one of the cleaner bars, talking to a man in a Navy uniform. "Nice to see you, <first>," he says. "I've been talking to Lieutenant Armen over here, and I think we have a job on our hands."`
+	`对于一个离天堂世界如此之近的星球来说，<origin>简直天差地别。天堂世界有精心规划的城市，而<origin>是按即时需求设计的。天堂世界用自然景观和雕塑装饰自己，<origin>却向银河袒露自身，沉迷于混凝土柱和钢桁架。天堂世界自认是不可触及的乌托邦，<origin>却毫不羞于展示战斗的伤痕，其炮塔和海军驻地一览无余。`
+	`	你最后在一间较干净的酒吧里找到了詹姆斯，他正与一位穿海军制服的男子交谈。“很高兴见到你，<first>，”他说。“我刚在和阿尔缅中尉聊天，我觉得我们手上有活了。”`
 	choice
-		`	"What is it?"`
+		`	“那是什么？”`
 			goto "job 2"
-		`	"You haven't drafted me into the Navy, have you?"`
-		`	"Actually, I want to go out on my own now."`
+		`	“你没把我拉进海军吧？”`
+		`	“其实，我现在想单飞了。”`
 			decline
-	`	Armen grins. "You would have a lot more to do if you were joining the Navy."`
+	`	阿尔缅咧嘴一笑。“你要是加入海军，要做的事可多得多。”`
 	label "job 2"
-	`	James says, "More than ever, the Republic Navy is struggling to hold off the threat of piracy. While they are able to keep the Paradise Worlds safe, on the edges of the known galaxy, pirates readily outnumber Navy forces. There are more ways to stop piracy than sheer force, however."`
-	`	Armen continues. "Which is where you come in. Recently, we've come into contact with someone claiming to have information on pirate activity in the North. If they're telling the truth, their knowledge could open the way for preemptive strikes against the pirates, freeing ships to be deployed elsewhere. However, the informant's existence has leaked, and a hired ship named the Eye of Loki is trying to cover up this loose end. We're looking for a ship able to outspeed the Eye and bring the informant safely to Pearl; we can handle transport from there. How fast would you say the <ship> is?"`
+	`	詹姆斯说：“共和国海军正竭尽全力抵御海盗威胁，比以往任何时候都艰难。虽然他们能保证天堂世界的安全，但在已知银河的边缘，海盗数量远超海军。不过，阻止海盗并非只有武力一条路。”`
+	`	阿尔缅继续说道。“这就是你需要出马的地方。最近，我们接触了一个自称了解北方海盗活动情报的人。如果他说的是真的，他的情报可以为先发制人的打击开辟道路，从而解放舰船部署到其他地方。然而，线人的身份已经泄露，一艘名为‘洛基之眼’的雇佣船正试图掩盖这个破绽。我们在找一艘能比‘洛基之眼’更快、将线人安全送到珍珠星的船；到了那里我们可以负责转运。<ship>有多快？”`
 	choice
-		`	"It'll outspeed anything short of a fighter."`
-		`	"Not fast enough. You'll have to find someone else for the job."`
+		`	“除了战斗机，没什么能比它更快。”`
+		`	“不够快。你得另找人接手。”`
 			decline
-	`	"Good," he says. "I'll have the informant on your ship by sundown."`
+	`	“很好，”他说。“我让线人在日落前上你的船。”`
 		goto leave
 
 	label syndicate
-	`You find James in the spaceport bar, talking with a man wearing a business suit. The expression on James' face is growing increasingly concerned as he speaks. Seeing you come in, he waves to you and you join them at the table.`
-	`	"Hello <first>," says James. "This is Miguel, an independent mine owner on <origin>." Miguel smiles at you.`
-	`	"Here's the deal," says Miguel. "Most of the mining companies on <origin> have ties to the Syndicate, whether that be through direct ownership or indirect influence. Not us, though; my company's been resistant to any attempts of a takeover. One of their controlling techniques is preventing us from shipping our minerals to refineries within the Syndicate. However, there's nothing stopping us from shipping materials elsewhere in the galaxy, like magnetic elements for Lovelace's particle accelerators."`
-	`	"But in the past few months, every shipment we've sent has been attacked by a pirate ship, the Spear of Heimdall. I doubt Syndicated Security would be keen on helping a rival company, so instead we're going to pay you to outrun it. Can you do that for us?"`
+	`你在太空港的酒吧里找到了詹姆斯，他正与一位穿商务套装的男子交谈。随着他说话，詹姆斯脸上的表情越来越担忧。看到你进来，他向你招手，你便加入他们，在桌旁坐下。`
+	`	“你好，<first>，”詹姆斯说道。“这位是米格尔，<origin>上的一位独立矿主。”米格尔对你微笑。`
+	`	“是这样的，”米格尔说。“<origin>上的大多数矿业公司都与辛迪加有联系，不论是通过直接所有权还是间接影响。但我们不同；我的公司一直抵制任何收购企图。他们的控制手段之一就是阻止我们把矿石运往辛迪加内的精炼厂。不过，我们不受限制可以把材料运到银河其他地方，比如给洛芙莱斯的粒子加速器用的磁性元素。”`
+	`	“但在过去几个月里，我们发出的每一批货都遭到了一艘海盗船——‘海姆达尔之矛’的袭击。我怀疑辛迪加保安不会热心帮助竞争对手，所以我们打算花钱雇你甩掉它。你能帮我们吗？”`
 	choice
-		`	"If you're willing to pay, I'm willing to fly."`
-		`	"I got into the starship business to get away from people like you. Count me out."`
+		`	“只要你肯付钱，我就肯飞。”`
+		`	“我进飞船这行就是为了远离你这种人。别找我。”`
 			decline
-	`	"Great," he says. "My people will load up your ship immediately. Good luck, Captain."`
+	`	“太好了，”他说。“我的人马上给你装船。祝你好运，船长。”`
 
 	label leave
-	`	After <person> leaves, James says to you, "Now, get one thing clear. This is not your David and Goliath moment. The <enemy>'s shields are <magnitude> times as strong as yours, and if it's able to bring its weapons to bear, we'll be dead in two seconds. So, the moment we're in the sky, we head straight for hyperspace. Don't even wait around to see if the <enemy> is coming or not. Got it?"`
+	`	在<person>离开后，詹姆斯对你说：“现在，你给我搞清楚。这不是你上演大卫与歌利亚的时刻。<enemy>的护盾强度是你的<magnitude>倍，如果它能把武器对准你，两秒我们就会完蛋。所以，一升空，我们就直奔超空间。连回头看看那艘<enemy>跟没跟上来都别等。明白吗？”`
 	choice
-		`	"Got it."`
+		`	“明白。”`
 			accept
-		`	"I really shouldn't try to fight?"`
-	`	"It just isn't feasible," he says. "If a ship has turrets, your <model> can't get close enough to hit it with your guns without being damaged, and then it's just a matter of whose weapons and shields are stronger. If it has anti-missile turrets, you can't count on hanging back and bombarding it with missiles from long distances, or at least not with weapons that can fit in a <model>. So, don't risk it.`
-	`	"It's like rock paper scissors; recognize what your enemy's strengths and weaknesses are, as well as your own."`
+		`	“我真的不该尝试战斗？”`
+	`	“就是行不通，”他说。“如果一艘船有炮塔，你的<model>没法靠近到用机炮击中它而不受损，然后就变成谁的武器和护盾更强的问题了。如果它有反导炮塔，你就别指望躲在远处用导弹狂轰滥炸——至少用能塞进<model>里的武器不行。所以，别冒险。”`
+	`	“这就像石头剪刀布；认清你敌人的长处和短处，还有你自己的。”`
 		accept
 
 
 
 conversation "interceptor evade end"
-	`As you land on <planet>, James says, "Well, you made it in one piece! Still think you want to be piloting an interceptor?"`
+	`当你降落在<planet>上时，詹姆斯说：“嗯，你居然完整无损地到了！还觉得你想驾驶截击机吗？”`
 	choice
-		`	"Sure, but I can't wait until I've got a ship big enough to stand up to pirates instead of running from them."`
-		`	"Well, maybe I should've bought a freighter instead."`
-	`	"Better start saving up then," he says. "I know a number of old Sparrow pilots who made their first million credits mining asteroids before they could afford a more combat-worthy ship. They had to look around for a while before finding a system with any asteroids worth mining, but it was worth it. Anyway, let's go get your payment." You walk out of the ship and sign the papers to hand off the <commodity> to the dock workers on <planet>. They hand you a credit chip worth <payment>.`
-	`	"I've got an idea for something you might want to try," says James. "Meet me in the spaceport bar in a little while."`
+		`	“当然，但我等不及要弄一艘大船，能跟海盗正面对抗，而不是一见他们就逃。”`
+		`	“嗯，也许我该买艘货船才对。”`
+	`	“那最好现在就开始攒钱，”他说。“我认识不少驾驶麻雀的老飞行员，他们先靠开采小行星赚了头一百万信用点，然后才买得起更适合战斗的飞船。他们得四处找一阵子才找到有值得开采的小行星的星系，不过很值。总之，我们去拿你的报酬吧。”你走出飞船，签署文件将<commodity>交给<planet>的码头工人。他们递给你一张价值<payment>的信用芯片。`
+	`	“我有个主意，你可能会想试试，”詹姆斯说。“一会儿来太空港酒吧找我。”`
 		to display
 			not "flagship model: Jackal"
-	`	"I've got an idea for something you might want to try," says James. "Meet me in the spaceport bar in a little while. And make sure you have a weapon installed; you should be able to buy one in <planet>'s outfitter."`
+	`	“我有个主意，你可能会想试试，”詹姆斯说。“一会儿来太空港酒吧找我。记得装好武器系统；你应该能在<planet>的装备商那里买到。”`
 		to display
 			has "flagship model: Jackal"
 
@@ -333,55 +333,55 @@ conversation "interceptor evade end"
 conversation "mining intro"
 	branch glory
 		has "start: paradise"
-	`You find James waiting for you just outside the spaceport bar. Against the steady patter of micrometeorites against the roof he tells you, "Working here on <origin> is one of the few jobs in the galaxy more dangerous than fighting pirates. And worse, because if a big meteorite decides to strike this station, there's basically nothing the miners can do about it except hope they see it coming." He turns to you with a grin. "But nonetheless, I think you might be interested in this idea."`
+	`你发现詹姆斯正在太空港酒吧外等你。在微陨石持续敲打屋顶的啪嗒声中，他告诉你：“在<origin>上工作是银河系中少数比对抗海盗更危险的工作之一。更糟的是，如果一颗大陨石决定撞击这个空间站，矿工们基本上除了祈祷能提前看到它之外毫无办法。”他转向你咧嘴一笑：“不过尽管如此，我想你可能会对这个想法感兴趣。”`
 		to display
 			not "start: syndicate"
-	`Similar to Delve, <origin>'s spaceport is embedded in solid rock, but that is where the similarities end. Where Delve's spaceport was utilitarian, Ada finds space to flex its wealth by turning the industrial elements of rock and metal into elegant architecture. The nightmarish take-off and landing angles one might expect from a spaceport set in a canyon wall are missing, replaced by spacious and well-marked flight paths. The smell of oil and steel pervasive in many Syndicate ports is suppressed by crisp air supplied by the local environmental control systems.`
+	`与挖掘星相似，<origin>的太空港也嵌于坚硬的岩石之中，但两者的相似之处仅此而已。挖掘星的太空港讲究实用，而艾达则有足够的空间将岩石与金属等工业元素转化为优雅的建筑，以此彰显其财富。在这里，人们预想中那种建在峡谷岩壁上的太空港常有的噩梦般的起降角度并不存在，取而代之的是宽敞且标记清晰的航道。许多辛迪加港口弥漫着的机油和钢铁气味，也已被当地环境控制系统送入的清新空气所掩盖。`
 		to display
 			has "start: syndicate"
-	`	James leads you down the side of the bar to a booth where a man with a half-eaten hamburger and a plate of fries is sitting, busily examining a star map of the local sector. He notices your arrival and stands up to greet you. "<first>, this is Captain Marshall," James says as you shake his hand. "I told him about your new ship and how it'd be a good idea for you to get a taste of asteroid mining. He mines in this part of space and says there's a good system nearby if you're willing to give it a try."`
+	`	詹姆斯领着你走到酒吧边缘的一个卡座，那里坐着一个男人，面前放着吃了一半的汉堡和一盘薯条，正忙着查看本地星区的星图。他注意到你们的到来，起身迎接。“<first>，这位是马歇尔船长。”当你与他握手时，詹姆斯介绍道，“我跟他提了你的新飞船，说让你体验一下小行星采矿会是个不错的主意。他在这片空域采矿，说附近有个不错的星系，如果你愿意可以去试试。”`
 		goto choice
 
 	label glory
-	`The world of <origin> is in full bloom; the fields that the spaceport overlooks are filled with flowers of every color of the rainbow, and a sweet smell rests in the air. You end up finding James in one of the spaceport's gardens, and he waves you over to a table with a woman who is finishing off a steak. On the far side of the table is a map covered in annotations. As you get closer, the woman notices your arrival, wipes her mouth, and offers her hand.`
-	`	"<first>, this is Captain Hwang," James says as you shake her hand. "Rather than throwing you into the deep end of space combat, I figure you should try your hand at something a little safer. Hwang mines asteroids in this part of space and says there's a good system nearby if you're willing to give it a try."`
+	`<origin>星球正值花期；从太空港俯瞰，田野里开满了五颜六色的花朵，空气中弥漫着香甜的气息。你最终在太空港的一个花园里找到了詹姆斯，他向你挥手，示意你过去他那桌。桌旁坐着一位即将吃完牛排的女士，桌子的另一端放着一张标满注释的地图。你走近时，那位女士注意到了你的到来，擦了擦嘴，向你伸出了手。`
+	`	“<first>，这位是黄船长。”当你与她握手时，詹姆斯介绍道，“与其让你直接涉险体验太空战斗，我想你还是先试试更安全一点的行当比较好。黄船长在这片空域开采小行星，她说附近有个不错的星系，如果你愿意可以去试试。”`
 
 	label choice
 	choice
-		`	"Mining sounds interesting. I'll give it a shot."`
-		`	"I think I'm ready to head out on my own."`
+		`	“采矿听起来很有趣。我愿意试试。”`
+		`	“我想我已经准备好自己出发了。”`
 			decline
-	`	"That's good to hear," Captain <captain> says with a smile. "But be warned that mining isn't as easy as one might think. Especially without an asteroid scanner, mining can be just as much a test of your piloting skills as combat.`
-	`	"The first challenge," <they> continues, "will be finding which asteroids are valuable. The worthless asteroids are either brown and smooth or gray and spiky with no apparent orbit. It doesn't matter how long you shoot them, they won't be destroyed. Valuable asteroids will always orbit the star and have a range of colors and surface textures. If you're not sure which are which and you don't have an asteroid scanner to tell you, keep a look out for other miners to see what they're firing at.`
-	`	"Generally speaking, the more valuable minerals are tougher to mine, either because they're harder to break apart, or they're less common and in more dangerous regions of the galaxy. Silicon breaks up quickly; you'll fill your hold in a hurry and the stuff is everywhere. Platinum or gold asteroids are more work; they're not as common in areas where the Navy watches your back, but you make several times the number of credits for the effort.`
-	`	"I could go on, but I think you get the picture."`
+	`	“能听你这么说真是太好了，”<captain>船长微笑着说，“不过得提醒你，采矿可不像别人想的那么容易。尤其是在没有小行星扫描仪的情况下，采矿对你驾驶技术的考验绝不亚于战斗。`
+	`	“第一个挑战，”<they>继续说道，“将是找出哪些小行星有价值。那些毫无价值的小行星要么是棕色且光滑的，要么是灰色且布满尖刺的，没有明显的轨道。不管你打多久，它们都不会被摧毁。而有价值的小行星总是围绕恒星运行，并且有各种各样的颜色和表面纹理。如果你无法分辨，又没有小行星扫描仪来帮忙，那就多留意其他矿工都在射击些什么。`
+	`	“一般来说，越有价值的矿物越难开采。要么是因为它们更难被击碎，要么是因为它们极其稀有，且通常分布在银河系中更危险的区域。硅质小行星很容易碎裂，你很快就能装满货舱，而且这东西随处可见。但开采含铂或金的小行星就得多费些功夫了；在有海军提供保护的区域，它们并不常见，但你付出的努力能换来好几倍的信用点。`
+	`	“我还可以继续说下去，但我想你已经明白了。”`
 
 	branch paradise
 		has "start: paradise"
 	branch syndicate
 		has "start: syndicate"
-	`	You and James chat with <captain> a while longer, and <they> suggests trying your hand at mining in <system>. "It's a great place. You could throw a dart in that system and half the time you'd hit an asteroid worth at least something, and I've never been bothered by pirates while I've been there. The easiest asteroids to get there are the silicon ones; you can spot them by their slightly-green tint."`
-	`	"That does sound like a good place for a beginner pilot," James says. "How about we start small, <first>? Let's go mine at least five tons of silicon before landing on <planet> and we can call it a day."`
+	`	你和詹姆斯又与<captain>聊了一会儿，<they>建议你去<system>星系试试采矿。“那是个好地方。你在那个星系里随便扔个飞镖，都有一半的几率能砸中一颗多少有点价值的小行星。而且我在那里采矿时，从来没被海盗骚扰过。那里最容易开采的是硅质小行星；你可以通过它们略带绿色的外观来识别。”`
+	`	“这听起来确实是个适合新手飞行员的好地方，”詹姆斯说道，“我们循序渐进怎么样，<first>？咱们先去开采至少五吨的硅，然后降落到<planet>，今天就可以收工了。”`
 		accept
 
 	label paradise
-	`	You and James chat with Hwang a while longer, and she suggests trying your hand at mining in <system>. "It's a great place. You could throw a dart in that system and half the time you'd hit an asteroid worth at least something, and I've never been bothered by pirates while I've been there. The easiest asteroids to get there are the lead ones; you can spot them by their light gray, rounded appearance."`
-	`	"That does sound like a good place for a beginner pilot," James says. "How about we start small, <first>? Let's go mine at least five tons of lead before landing on <planet> and we can call it a day."`
+	`	你和詹姆斯又与黄船长聊了一会儿，她建议你去<system>星系试试采矿。“那是个好地方。你在那个星系里随便扔个飞镖，都有一半的几率能砸中一颗多少有点价值的小行星。而且我在那里采矿时，从来没被海盗骚扰过。那里最容易开采的是铅质小行星；你可以通过它们浅灰色且圆润的外观来识别。”`
+	`	“这听起来确实是个适合新手飞行员的好地方，”詹姆斯说道，“我们循序渐进怎么样，<first>？咱们先去开采至少五吨的铅，然后降落到<planet>，今天就可以收工了。”`
 		accept
 
 	label syndicate
-	`	You and James chat with August a while longer, and he suggests trying your hand at mining in Procyon. "It's a great place. You could throw a dart in that system and half the time you'd hit an asteroid worth at least something, and I've never been bothered by pirates while I've been there. Just watch out for getting stranded; the only landable planet in Procyon is Cassandra, which is uninhabited. Still, merchant and Navy ships should come frequently enough that you can just hail one of them for a refuel."`
-	`	"That does sound like a good place for a beginner pilot," James says. "How about we start small, <first>? Let's go mine at least five tons of silicon in Procyon before jumping to <system> and landing on <planet>."`
+	`	你和詹姆斯又与奥古斯特聊了一会儿，他建议你去南河三试试采矿。“那是个好地方。你在那个星系里随便扔个飞镖，都有一半的几率能砸中一颗多少有点价值的小行星。而且我在那里采矿时，从来没被海盗骚扰过。只是要当心别被困在那里；南河三唯一可降落的行星是卡桑德拉，而且上面无人居住。不过，商船和海军舰船路过的频率应该挺高，你可以随便呼叫一艘来补充燃料。”`
+	`	“这听起来确实是个适合新手飞行员的好地方，”詹姆斯说道，“我们循序渐进怎么样，<first>？咱们先在南河三开采至少五吨的硅，然后再跳跃到<system>，降落到<planet>。”`
 		accept
 
 
 conversation "mining intro end"
-	`Once you've landed, you meet up with James and he asks you, "What did you think of mining?"`
+	`降落之后，你与詹姆斯碰面，他问道：“你觉得采矿怎么样？”`
 	choice
-		`	"I can't believe anyone would do that much work."`
-		`	"That was great!"`
-	`	James nods and says, "Chasing asteroids can be a challenge, but when you're starting off, mining can be a fast way to build cash for your next ship. It's also a great way to explore the galaxy. Jobs always follow the trade routes and settled areas. Mining makes it profitable to explore the nooks and crannies of the hyperlanes. If the place you end up landing has an economy, they'll buy the minerals in your hold. Mainly though, it's about how you like to spend your time. Some captains like managing a trading fleet while others like to strike out on their own.`
-	`	"Mining can be complex compared to running jobs or trading commodities. I learned that first hand after pirates disabled my ship when I was starting out and I worked aboard a mining ship while it was being repaired. Now that was a while back so I might be a little rusty, but I could try at answering any other questions you might have about mining."`
+		`	“真不敢相信居然有人愿意干这种苦力活。”`
+		`	“太棒了！”`
+	`	詹姆斯点点头说道：“追逐小行星的确是个挑战，但在你刚起步时，采矿是为下一艘飞船快速积累资金的捷径。这也是一种探索银河系的极佳方式。工作机会总是集中在贸易路线和定居星系，而采矿却能让你在探索超空间航线的犄角旮旯时也能有利可图。只要你最终降落的地方有经济体系，他们就会收购你货舱里的矿物。不过，归根结底还是看你喜欢如何度过自己的时间。有些船长喜欢管理贸易船队，而有些则喜欢独自闯荡。`
+	`	“与跑腿做任务或买卖商品相比，采矿可能要复杂得多。我刚起步时，飞船曾被海盗打坏，在修理期间我便在一艘采矿船上干过活，深切体会到了这一点。虽然那已经是有些年头的事了，我也可能有点生疏，但我可以试着回答你关于采矿的其他任何问题。”`
 
 	label choices
 	choice
@@ -401,12 +401,12 @@ conversation "mining intro end"
 
 	action
 		set "mining intro: equipment"
-	`	"Well, you need a weapon that does hull damage," James says. "A Beam Laser will get the job done, but it will take a while. If you want to optimize your mining operations, however, you'll want a Mining Laser. Not only does it cut through asteroids faster, it's also more precise and preserves more minerals when the asteroid breaks apart. Some miners like to have a bit of combat flexibility by mining with Heavy Lasers, however.`
-	`	"Aside from lasers, the most valuable tool is an asteroid scanner. They're expensive, but they connect into your navigation and targeting systems to point you towards minable asteroids. You can also set them to find the most valuable asteroids, which increases your profitability per run. After that, a tactical scanner will tell you how far away the asteroid is and show how much damage you're doing. An afterburner is good for chasing down fast moving asteroids or getting away from pirates without leaving the system. A ramscoop will let you refuel while mining, extend your exploration range, and allow you to be ready for a quick escape."`
+	`	“嗯，你需要一件能造成船体伤害的武器，”詹姆斯说道，“激光束就能完成任务，不过得多花点时间。但如果你想优化你的采矿效率，你会需要一台采矿激光。它不仅切割小行星的速度更快，而且更精准，能在小行星碎裂时保留更多的矿物。不过，也有一些矿工喜欢用重型激光进行采矿，以此来保留一点战斗的灵活性。`
+	`	“除了激光武器，最有价值的工具就是小行星扫描仪。它们虽然昂贵，但能接入你的导航和火控系统，为你指出可开采小行星的方向。你还可以将其设置为寻找最值钱的小行星，这能提升你每趟出航的利润。其次，战术扫描仪能告诉你小行星有多远，并显示你造成的伤害。加力燃烧室很适合用来追逐快速移动的小行星，或者让你在不离开星系的情况下摆脱海盗。冲压进气器则能让你在采矿时补充燃料，延长探索范围，并让你随时准备好快速逃亡。”`
 	choice
 		`	"I can't fit all that on my ship!"`
 			goto fit
-		`	"That all makes sense."`
+		`	“这些都很有道理。”`
 	`	"Anything else you want to ask me?" says James.`
 		goto choices
 	label fit
@@ -435,46 +435,46 @@ conversation "mining intro end"
 	`	"If you're willing to take me on one more journey," James says, "meet me in the spaceport bar in a little while. Don't forget to sell off your minerals at the trading post, or if there is one, the outfitter."`
 		decline
 	label first
-	`	"If you'd rather whet your teeth with some starfighting, come and find me in the spaceport before you leave." He picks up his suitcase and heads outside.`
+	`	“如果你更想用星际战斗来练练手，离开之前到太空港来找我。”他拎起手提箱，向外走去。`
 	``
-	`	(As before, click the "Spaceport" button to continue this mission.)`
+	`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 conversation "mining intro new sahara"
-	`You find James sitting at the spaceport's tiny bar, sipping a beer while watching the large displays that show the landing pads and the irrigated fields beyond. The displays are supposed to make the underground building feel less claustrophobic.`
-	`	"This is one of the least habitable planets in the galaxy. But if it doesn't kill us instantly, then someone's tried to settle it." He pauses for a moment while gazing at one of the displays. You spot a sandstorm picking up in the far distance as the workers in the fields hastily finish their work before it arrives.`
-	`	"Care for a drink?" he asks.`
+	`你发现詹姆斯正坐在太空港狭小的酒吧里，一边抿着啤酒，一边看着大屏幕上显示的着陆坪和远处的灌溉农田。这些屏幕原本是为了让这座地下建筑显得不那么幽闭压抑。`
+	`	“这是银河系中最不宜居的行星之一。但只要它不能立刻把我们弄死，就总会有人试图在这里定居。”他凝视着其中一块屏幕，停顿了片刻。你注意到远方正卷起一场沙尘暴，田野里的工人们赶在沙尘暴到来之前匆匆结束着手头的工作。`
+	`	“来一杯吗？”他问道。`
 	choice
-		`	"Sure."`
-		`	"No thanks."`
+		`	“当然。”`
+		`	“不了，谢谢。”`
 			goto end
-	`	He buys you a beer. It tastes a little stale, but it's not the worst beer you've ever had. You can't help but feel sorry for the people who work here, so isolated and cut off from even the basic amenities you took for granted on <home planet>.`
+	`	他给你买了一杯啤酒。味道有些走味了，但这还不是你喝过最差劲的啤酒。你不禁对在这里工作的人们心生怜悯，他们如此与世隔绝，甚至连你在<home planet>上习以为常的基本便利设施都享受不到。`
 	label end
-	`	"Anyway," says James, "would you be willing to take me on one more journey? It's time for me to head for that retirement home."`
+	`	“不管怎样，”詹姆斯说道，“你愿意再载我一程吗？我是时候去那个养老院了。”`
 	choice
-		`	"Of course."`
-		`	"Sorry, I think I'll go hunt some pirates instead."`
+		`	“当然可以。”`
+		`	“抱歉，我想我还是去猎杀几个海盗吧。”`
 			decline
-	`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's one of the "Paradise Worlds," terraformed to have a perfect climate, accessible only to the very wealthy. You wonder whether James is going to be able to fit in there.`
+	`	你再次和詹姆斯一起走回飞船。到了之后，他放行李时，你调出电脑上关于<planet>的信息。它是“天堂世界”之一，经过地球化改造，拥有完美的气候，只有极富有的人才能进入。你好奇詹姆斯在那里是否适应。`
 		accept
 
 
 conversation "intro relic"
-	`You find James talking with a group of dock workers, who seem to be old acquaintances of his. As you approach, he says, "Well guys, here comes my ride. I should probably say goodbye." They head back off to do their work. "Even after all my years as a captain," says James, "I still feel a little sad visiting this world. <origin> was meant to be the future; an evergreen rest station for ships seeking to conquer the great cosmos. But then ships were able to travel for longer and further, and they discovered bigger, greener, more valuable planets, and suddenly the 'future' became little more than a ghost town. Can you imagine spending your life here?"`
+	`你发现詹姆斯正和一群码头工人交谈，他们似乎是他的老相识。当你走近时，他说道：“好了伙计们，我的顺风车来了。我恐怕得说再见了。”他们便散去继续工作。“即使当了这么多年的船长，”詹姆斯说道，“每次造访这个世界时，我还是会感到一丝感伤。<origin>原本被寄予厚望，应是代表着未来的地方；一座为寻求征服浩瀚宇宙的飞船提供常青休憩之所的补给站。但后来，飞船能够航行得更久、更远了，人们发现了更大、更绿、更有价值的行星。于是乎，这所谓的‘未来’转眼间就沦为了空城。你能想象自己一辈子都耗在这里吗？”`
 	choice
-		`	"It's better than living in poverty on an urban planet."`
-		`	"No."`
+		`	“那也总比在城市星球上穷困潦倒要好。”`
+		`	“不知道。”`
 			goto no
-	`	"I suppose," he says. "Anyway, I think it's time for the last leg of my journey. Do you think you can give me a lift to <planet>? I'll pay you quite well for your services, of course."`
+	`	“我想也是，”他说，“总之，该走我旅程的最后一程了。你能载我去<planet>吗？当然，我会付你优厚的报酬。”`
 		goto final
 	label no
-	`	James cracks a smile at your frankness. "Anyway, I think it's time for the last leg of my journey. Do you think you can give me a lift to <planet>? I'll pay you quite well for your services, of course."`
+	`	詹姆斯被你的直率逗笑了。“不管怎样，我想是时候踏上我旅程的最后一段了。你觉得能顺路载我去一趟<planet>吗？当然了，我会为你的服务支付相当丰厚的报酬。”`
 	label final
 	choice
-		`	"I can take you there."`
-		`	"Sorry, I was thinking of heading in a different direction from here."`
+		`	“我可以带你去。”`
+		`	“抱歉，我打算往另一个方向走。”`
 			decline
-	`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's one of the "Paradise Worlds," terraformed to have a perfect climate, accessible only to the very wealthy. You wonder whether James is going to be able to fit in there.`
+	`	你再次和詹姆斯一起走回飞船。到了之后，他放行李时，你调出电脑上关于<planet>的信息。它是“天堂世界”之一，经过地球化改造，拥有完美的气候，只有极富有的人才能进入。你好奇詹姆斯在那里是否适应。`
 		accept
 
 
@@ -492,7 +492,7 @@ mission "Intro [0 Fighter]"
 		"ships: Fighter" == "total ships"
 	on offer
 		conversation
-			`As you check over the specs of your brand new <flagship model> one last time, you realize it lacks the hyperdrive necessary for interstellar travel! Unless you're happy to spend the rest of your life flying past the same few planets, you'll need to sell the <flagship model> and buy a proper spacefaring vessel.`
+			`就在你最后一次检查这艘崭新的<flagship model>的参数时，你才意识到它缺少星际旅行所必需的超光速引擎！除非你乐意余生都在相同的几颗行星间打转，否则你就得卖掉这艘<flagship model>，去买一艘像样的星际航行飞船。`
 				decline
 
 
@@ -506,7 +506,7 @@ mission "Intro [0 Drone]"
 		"ships: Drone" == "total ships"
 	on offer
 		conversation
-			`You prepare to board your new ship and take it for a test flight, only to find it is an automated drone that lacks a crew compartment entirely! Unless you want to try strapping yourself on the outside of the hull, you'll need to sell off your drone and buy a proper spacefaring vessel.`
+			`当你正准备登上新飞船去试飞时，却发现这竟然是一架全自动的无人机，根本没有船员舱！除非你想试试把自己绑在船体外壳上，否则你得把这架无人机卖掉，去买一艘像样的星际航行飞船。`
 				decline
 
 
@@ -528,43 +528,43 @@ mission "Intro [0 Jackal]"
 		not "Delve Intro [0]: offered"
 	on offer
 		conversation
-			`For reasons known only to yourself, you have spent your mortgage on three Mining Drones that are completely useless to you. As you bask in the economic genius of your decision, you hear a merchant haggling with a ship reseller.`
-			`	"Look, you'd have to be looking real close to tell that she's a pre-loved ship. Plus, she isn't 'outdated,' she's an antique! Ship collectors will be throwing their wallets at you just to get a photo of the ship."`
-			`	The reseller is unamused by the merchant's arguments and takes his leave when it becomes clear neither side is willing to compromise. Exhausted, the merchant slumps onto a nearby bench.`
+			`出于只有你自己才清楚的原因，你用抵押贷款买下了三架对你来说毫无用处的采矿无人机。就在你为自己这般天才的经济决策而暗自得意时，你听到一位商人正在与飞船经销商讨价还价。`
+			`	“听着，你得凑得很近仔细看，才能发现这是一艘二手的飞船。另外，她可不是‘过时’，她是一件古董！那些飞船收藏家就算只是为了拍一张她的照片，也会毫不犹豫地把钱包砸向你的。”`
+			`	经销商对商人的说辞不为所动，眼看双方都不愿让步，便转身离开了。精疲力竭的商人瘫坐到附近的长椅上。`
 			choice
-				`	(Approach the merchant.)`
-				`	(Ignore the merchant so I can appreciate my Mining Drones more.)`
+				`	（走向商人。）`
+				`	（无视商人，以便更好地欣赏我的采矿无人机。）`
 					decline
-			`	You take a seat on the bench and ask, "What was that all about?"`
-			`	The merchant turns his head to face you. "That whole kerfuffle? Tried to cheat me out of a fair deal, he did." Seeing your confusion, he elaborates. "I'm a space miner by trade. A few days ago, I got caught in a nasty pirate ambush - lost all my Mining Drones in the blink of an eye. The pirates weren't doing so hot either, though. I got lucky and managed to disable and capture a Jackal, one of those old, Caravan-era interceptors. I thought I'd sell it off and replace my drones, but the shipyards here are running a racket; I can't even buy half a Mining Drone with the credits they're offering." He lets out a sigh.`
+			`	你在长椅上坐下，问道：“刚才是怎么回事？”`
+			`	商人转过头看着你。“刚才那场闹剧？他想坑我，不让我做成正经生意。”见你一脸困惑，他解释道：“我是个太空矿工。几天前，我遭遇了一伙凶残的海盗伏击——眨眼间就损失了所有采矿无人机。不过那帮海盗也不好过。我运气不错，成功瘫痪并俘获了一艘‘豺狼’级，就是那种老式的、商队时代的拦截船。我本想把它卖掉，换回我的无人机，可这儿的船厂在敲竹杠；他们给的价钱连半架采矿无人机都买不到。”他叹了口气。`
 			choice
-				`	"Actually, I have some spare Mining Drones."`
+				`	“其实，我正好有几架多余的采矿无人机。”`
 					goto deal
-				`	"Thanks for the story, but I have places to be."`
-			`	"Well, thanks for listening." The merchant bids you farewell as you stand up and leave.`
+				`	“多谢你讲的故事，但我还有事要办。”`
+			`	“好吧，谢谢你听我说。”你站起身离开时，商人向你告别。`
 				decline
 			label deal
-			`	The merchant's head perks up. "Really? That's fantastic!" He quietly mutters some numbers to himself, then says, "How about two Mining Drones for the Jackal? You think that's a fair deal?"`
+			`	商人精神一振。“真的吗？太棒了！”他低声念叨了几个数字，然后说：“用两架采矿无人机换这艘‘豺狼’级，怎么样？你觉得公平吗？”`
 			choice
-				`	"Sounds good."`
+				`	“听起来不错。”`
 					goto jackal
-				`	"What about just one drone?"`
-				`	"I can't take that deal."`
+				`	“只换一架无人机怎么样？”`
+				`	“这交易我不能接受。”`
 					goto refuse
-			`	He shakes his head. "It's got to be two drones, or no drones."`
+			`	他摇了摇头。“必须两架无人机，否则免谈。”`
 			choice
-				`	"Alright, you'll have your drones."`
+				`	“好吧，你会得到你的无人机的。”`
 					goto jackal
-				`	"No deal."`
+				`	“不行。”`
 			label refuse
-			`	"Darn. Well, at least you've given me an idea; there's got to be a captain out there willing to hand me a couple of Mining Drones for my Jackal!" The merchant hops up from the bench and jauntily walks away.`
+			`	“该死。不过，至少你给了我一个主意；总会有哪个船长愿意用几架采矿无人机换我的‘豺狼’级！”商人从长椅上跳起来，轻快地走了。`
 				decline
 			label jackal
 			action
 				give ship "Jackal (Empty)" "Exemplar"
 				take ship "Mining Drone"
 					count 2
-			`	You shake hands with the merchant. "Thanks for the deal, partner." He hands you the license to the Jackal and walks off towards the loading bays to claim his new Mining Drones.`
+			`	你和商人握了握手。“谢了，搭档，成交。”他把‘豺狼’级的执照递给你，然后朝装卸区走去，去领取他的新采矿无人机。`
 				decline
 
 
@@ -577,8 +577,8 @@ ship "Jackal" "Jackal (Empty)"
 # Missions for the New Boston start
 
 mission "Intro [0]"
-	name "Passenger to <planet>"
-	description "This old-timer captain offered to ride along with you to <destination>, and to give you some tips along the way."
+	name "前往<planet>的乘客"
+	description "这位老资格的船长提出要与你一同前往<destination>，并在途中给你一些建议。"
 	landing
 	passengers 1
 	source "New Boston"
@@ -588,15 +588,15 @@ mission "Intro [0]"
 	to accept
 		"total ships" > "ships: Fighter" + "ships: Drone"
 	substitutions
-		"<trade>" "stock up on medical goods"
-		"<while>" "While they don't sell much here compared to on the big manufacturing worlds"
+		"<trade>" "采购一批医疗物资"
+		"<while>" "虽说相比大型制造世界，这里出售的装备并不算多"
 	
 	on offer
 		conversation "intro mission"
 	
 	on accept
-		log "Getting some basic instructions on making a living as a merchant from an old captain named James."
-		log "Minor People" "James" `An old man who accompanied you on your first few jobs as a starship captain.`
+		log "从一位名叫詹姆斯的老船长那里得到了一些作为商人谋生的基本指导。"
+		log "Minor People" "James" `一位老人，曾在你作为星舰船长的头几份工作中陪伴着你。`
 	
 	on complete
 		payment 10000
@@ -606,9 +606,9 @@ mission "Intro [0]"
 
 mission "Intro [1 Transport]"
 	priority
-	name "Transport family to <planet>"
-	description "Bring your new friend James, along with this large family, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送家庭至<planet>"
+	description "带上你的新朋友詹姆斯，以及这户大家庭，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "New Greenland"
 	destination "New China"
 	passengers 5
@@ -624,11 +624,11 @@ mission "Intro [1 Transport]"
 	
 	on offer
 		conversation
-			`You begin strolling through the spaceport, walking briskly in order to keep warm and wondering if it might be worth investing in a good winter coat for visiting planets like this one. Eventually you find James. He has an entire family in tow: a young couple, an elderly woman, and three children who range in age from probably about three or four up to twelve or thirteen.`
-			`	"Captain <last>!" he says. "Wonderful to see you again. I was just talking to this family. They've been having trouble finding a single ship that can give them all passage, but I told them that your shuttlecraft has plenty of bunks, at least if the kids triple up. They can pay you <payment> to take them to <planet>, which is just a few jumps away from Earth, and is a planet well worth visiting in its own right. What do you say?"`
-			`	You're absolutely sure that your shuttle was not designed to fit eight people including yourself, but if they're willing to squeeze into the available five bunks you've got no reason to discourage them.`
+			`你开始在太空港中漫步，快步行走以保持温暖，同时琢磨着是否值得买一件好冬装来拜访这样的星球。最终你找到了詹姆斯。他身后跟着一大家子：一对年轻夫妇、一位老妇人，以及三个孩子——年龄大概从三四岁到十二三岁不等。`
+			`	“<last>船长！”他说，“真高兴再次见到你。我正和这家人聊天。他们一直找不到一艘能载得下所有人的船，但我告诉他们你的穿梭机有足够的铺位，至少孩子们可以挤一挤。他们可以付给你<payment>，送他们去<planet>，那里离地球只有几跳的距离，而且本身也是一个值得一游的星球。你觉得怎么样？”`
+			`	你非常确定你的穿梭机设计上并不适合容纳包括你在内的八个人，但如果他们愿意挤进现有的五个铺位，你也没有理由劝阻他们。`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	James helps the older woman up the steps and into your ship while the younger family members carry the luggage. You are going to have quite a full ship for the next few days.`
@@ -637,19 +637,19 @@ mission "Intro [1 Transport]"
 	on complete
 		payment 40000
 		conversation
-			`Along the journey, you learned that the family you are transporting are named the Hendersons, and that they are moving to <planet> mostly because they hope the urban setting will be better for their kids than <origin>, where there were hardly any children at all and their village had only a few thousand people in it. The grandmother, Olivia, has also been chattering nonstop about how excited she is about being on a world where she can actually go sunbathing: "I've gotten much too old for snowshoeing," she says.`
-			`	You say goodbye to them and wish them well, and as agreed they pay you <payment>. You are already well on your way towards paying down your mortgage!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`旅途中，你得知你运送的这家人姓亨德森，他们搬到<planet>主要是因为他们希望城市环境对孩子更好——在<origin>那里几乎没什么孩子，他们的村庄也只有几千人。祖母奥利维亚则一直喋喋不休地讲着她多么兴奋能到一个可以真正享受日光浴的世界：“我已经太老了，不适合穿雪鞋了，”她说。`
+			`	你向他们告别并祝他们好运，按照约定他们付给你<payment>。你离还清贷款又近了一大步！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Intro [2 Transport]"
 	priority
-	name "Tourists to <planet>"
-	description "These tourists will pay you <payment> to take them to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送游客至<planet>"
+	description "这些游客会付给你<payment>，让你带他们去<destination>。你的新朋友詹姆斯也会一起同行。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 4
 	source "New China"
 	destination "Earth"
@@ -658,28 +658,28 @@ mission "Intro [2 Transport]"
 	
 	on offer
 		conversation
-			`It doesn't take you long to find James in the <origin> spaceport. He's already got a small group of people with him: a middle-aged couple, and a teenage boy. "Hi there, Captain <last>!" says James. "Interested in carrying some tourists to <planet>?"`
+			`你没花多久就在<origin>的太空港找到了詹姆斯。他已经带着一小群人：一对中年夫妇和一个十几岁的男孩。“嘿，<last>船长！”詹姆斯说，“有兴趣载几位游客去<planet>吗？”`
 			choice
-				`	"Sure!"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“当然！”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"Great," he says. "This is Chuck, Sarah, and their son Carl. Let's help them carry their luggage to your ship." As you begin walking back, slightly ahead of them, James whispers to you, "Tourists are always a good way to make money. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time."`
+			`	“太好了，”他说。“这是查克、莎拉和他们的儿子卡尔。我们帮他们把行李搬上你的船。”你们开始往回走时，詹姆斯稍微走在前面，低声对你说：“游客总是赚钱的好方法。他们在度假，所以不介意多付点钱。但你的货舱空间也不能浪费，看看任务板，有没有我们能顺路做的送货任务。”`
 				accept
 	
 	on complete
 		payment 20000
 		conversation
-			`As you make the final landing descent to the surface of <planet>, Chuck and Sarah stare out the window in rapt attention, pointing out landmarks on the planet's surface. James joins in by telling you all about some of the history of the cities you are flying over. Carl, meanwhile, has spent the entire journey playing a video game, and only glances out the window when the ship shakes from turbulence. As they all grab their luggage and step off your ship to explore humanity's homeworld, he is still immersed in the game.`
-			`	As you collect your payment, James pulls the parents aside and says, "Watch out for pickpockets, okay? And take it from an experienced captain, you do not want to be out after dark here. Play it safe, and have a great time."`
-			`	After they leave, James shakes his head ruefully. "It'll probably be a decade before that kid is old enough to realize what he's missing out on. Waste of money, doing a trip like this with a teenage boy. They should've gone to Skymoot and seen the dragons instead; I'm sure that would interest him a lot more than historical museums and ancient cities." Then, he picks up his luggage and adds, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`当你最后一次着陆下降到<planet>表面时，查克和莎拉全神贯注地盯着窗外，指着星球表面的地标。詹姆斯也加入进来，一边飞过城市上空，一边告诉你一些关于这些城市历史的故事。与此同时，卡尔整个旅程都在玩电子游戏，只有当飞船因气流颠簸时才瞥一眼窗外。当他们拿起行李走下船，去探索人类的母星时，他依然沉浸在游戏中。`
+			`	当你收取报酬时，詹姆斯把父母拉到一边说：“小心扒手，好吗？听我这位经验丰富的船长一句劝，天黑后最好别在外面瞎逛。注意安全，玩得开心。”`
+			`	他们走后，詹姆斯无奈地摇了摇头。“大概还得再过十年，那孩子才能意识到他错过了什么。带着一个十几岁的男孩做这样的旅行真是浪费钱。他们应该去天空议会看龙，我肯定那比历史博物馆和古城更让他感兴趣。”然后他拿起行李补充道：“和之前一样，如果你想继续一起旅行，在太空港等我。”`
 
 
 
 mission "Intro [3 Transport]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Earth"
 	destination "Hestia"
@@ -693,17 +693,17 @@ mission "Intro [3 Transport]"
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Met a few spoiled tourists and got to visit Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起执行了几个任务后，将詹姆斯送到赫斯提亚。途中遇到几个娇生惯养的游客，还顺便去了一趟地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Intro [1 Freighter]"
 	priority
-	name "Delivery to <planet>"
-	description "Travel with your new friend James to <destination>, and deliver <cargo>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "与你的新朋友詹姆斯一同前往<destination>，并交付<cargo>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo vaccines 48
 	passengers 1
 	source "New Greenland"
@@ -719,12 +719,12 @@ mission "Intro [1 Freighter]"
 	
 	on offer
 		conversation
-			`The spaceport on <origin> is small enough that it doesn't take long to find James. He's talking with a man wearing what looks like a doctor's lab coat. "Captain <last>!" says James. "Glad you could join us. It turns out there's been a flu outbreak on <planet>, and they're asking every captain with space to spare to carry some vaccines and other medical supplies over there. Are you willing to help out?"`
+			`<origin>的太空港很小，所以没花多久就找到了詹姆斯。他正和一个穿着看起来像医生白大褂的男人说话。“<last>船长！”詹姆斯说道，“很高兴你能来。原来<planet>爆发了流感，他们正在请求所有有空余空间的船长把疫苗和其他医疗物资运过去。你愿意帮忙吗？”`
 			choice
-				`	"I'd be glad to help!"`
-				`	"Sorry, I've heard bad things about that region of space. I think I'm going to head in the other direction."`
+				`	“我很乐意帮忙！”`
+				`	“抱歉，我听说过那片星域的坏消息。我想我该往另一个方向走。”`
 					decline
-			`	"Great!" says James. "They'll be loading up your ship shortly."`
+			`	“太好了！”詹姆斯说道。“他们马上就会给你的船装货。”`
 				accept
 	
 	on complete
@@ -735,9 +735,9 @@ mission "Intro [1 Freighter]"
 
 mission "Intro [2 Freighter]"
 	priority
-	name "Rush delivery to <planet>"
-	description "This shipment of <commodity> needs to get to <destination>, by <date>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "紧急运送至<planet>"
+	description "这批 <commodity> 货物需要在 <date> 前送达 <destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "raw eel" 34
 	passengers 1
 	source "Heartland"
@@ -748,17 +748,17 @@ mission "Intro [2 Freighter]"
 	
 	on offer
 		conversation
-			`As you walk through the spaceport, James sees you from a distance and waves you over. As you approach, the smell of raw fish overwhelms you. "I've found another job for you," he says.`
+			`你在太空港里走着，远远看到詹姆斯在朝你挥手。走近时，一股生鱼味扑面而来。“我又给你找了份差事，”他说。`
 			choice
-				`	"Is it by any chance an unusually smelly job?"`
-				`	"Sorry, I think I'll head off on my own now."`
+				`	“该不会是个特别臭的活儿吧？”`
+				`	“抱歉，我想我现在得自己走了。”`
 					decline
-			`	"It is indeed," he says, "but a lucrative one. <cargo> needs to get to <planet> while it's still fresh, and that means it needs to be there no later than <day>. If we take a direct route, there should be no trouble making the delivery on time. What do you say?"`
+			`	“确实臭，”他说，“但报酬丰厚。<cargo>的货得趁新鲜送到<planet>，也就是说最晚不能超过<day>。如果我们走直达航线，准时交货应该没问题。你看怎么样？”`
 			choice
-				`	"Sounds good. Let's do it!"`
-				`	"No way am I loading up my shiny new starship with smelly fish. Count me out."`
+				`	“听着不错。就这么干！”`
+				`	“我可不想在我崭新的星舰上装满腥鱼。算了吧。”`
 					decline
-			`	"Great!" he says. "I mentioned this earlier, but you might want to stop by the outfitter and buy a local map. Hyperspace routes aren't always logical, and the last thing you want to do is get lost and end up with a pile of rotten fish that no one wants filling up your cargo hold."`
+			`	“太好了！”他说。“我之前提过，你最好去装备商那买张本地星图。超空间航线不总是合乎逻辑的，你绝对不想迷路，结果货舱里装满一堆没人要的臭鱼。”`
 				accept
 	
 	on complete
@@ -769,9 +769,9 @@ mission "Intro [2 Freighter]"
 
 mission "Intro [3 Freighter]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Ingot"
 	destination "Hestia"
@@ -783,17 +783,17 @@ mission "Intro [3 Freighter]"
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Ship still smells like fish."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起完成了几个任务后，把詹姆斯送到了赫斯提亚。船上仍有鱼腥味。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Intro [1 Interceptor]"
 	priority
-	name "Escort convoy to <planet>"
-	description "Escort a merchant convoy to <destination>, along with your new friend James."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护卫船队至<planet>"
+	description "护送一支商人车队前往<destination>，和你的新朋友詹姆斯一起。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "New Greenland"
 	destination "Gemstone"
@@ -820,18 +820,18 @@ mission "Intro [1 Interceptor]"
 		ship "Freighter" "Horn of Plenty"
 		ship "Freighter" "Morning Light"
 	substitutions
-		"<their>" "his"
+		"<their>" "他的"
 		"<they're>" "he's"
 		"<they are>" "he is"
 	
 	on offer
 		conversation
-			`You find James standing on a landing pad underneath a large freighter, chatting with a man you assume is the captain. "There you are!" he says. "Captain Eldred here says his two ships have been having trouble with pirates ever since they left the Rim ten days ago, and he's looking for an escort to get them safely to Gemstone. Are you interested?"`
+			`你发现詹姆斯站在一艘大型货船下方的着陆台上，正与一名你认为是船长的男子聊天。“你来了！”他说。“这位是埃尔德雷德船长，他说他的两艘船自从十天前离开边缘星区后一直遭遇海盗麻烦，他在寻找一名护卫，好安全护送他们抵达宝石星。你有兴趣吗？”`
 			choice
-				`	"Of course!"`
-				`	"No, sounds a bit too risky for me."`
+				`	“当然有！”`
+				`	“不了，对我来说有点太冒险了。”`
 					decline
-			`	"Great," he says. "Whenever we're ready to leave the planet, they'll take off behind us and follow us to <planet>." As you begin walking away together, he adds in a quieter voice, "Normally a fresh pilot like you with no combat reputation would never be offered a mission like this, so try not to mess things up. Remember that we don't have to kill the pirates, all we have to do is make sure the convoy isn't destroyed. But freighters are slow, so you can't just go skipping through hyperspace as fast as you want; you need to stick around and make sure they're behind you."`
+			`	“太好了，”他说，“等我们准备好离开这颗星球，他们就起飞跟在我们后面，一起前往<planet>。”你们并肩走开时，他压低声音补充道：“像你这样毫无战斗名声的新手飞行员，平时根本接不到这种任务，所以尽量别搞砸了。记住，我们不需要消灭海盗，只要确保船队不被摧毁就行。但货船速度很慢，你不能只顾着自己飞快地跃迁；你得等他们跟上来。”`
 				accept
 	
 	on visit
@@ -844,9 +844,9 @@ mission "Intro [1 Interceptor]"
 
 mission "Intro [2 Interceptor]"
 	priority
-	name "Delivery to <planet>"
-	description "Deliver <commodity> to <destination>, while avoiding pirate attacks."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "将<commodity>运送到<destination>，同时避免海盗袭击。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	cargo gemstones 15
 	source "Gemstone"
@@ -873,9 +873,9 @@ mission "Intro [2 Interceptor]"
 
 mission "Intro [2.1 Interceptor]"
 	priority
-	name "Mine asteroids in <system>"
-	description "Go to the <system> system and mine five tons of silicon, then land on <planet>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I think you'll find what I want to show you next very interesting, but you'll need to free up <capacity> first. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "在<system>开采小行星"
+	description "前往<system>星系，开采五吨硅，然后在<planet>着陆。"
+	blocked `当你在太空港与詹姆斯碰面时，他说：“你好，<first>！我想你一定会对我接下来要展示给你的东西很感兴趣，但你需要先腾出<capacity>。所以，你要么取消另一个任务，要么之后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Ingot"
 	destination "New Sahara"
@@ -890,7 +890,7 @@ mission "Intro [2.1 Interceptor]"
 		conversation "mining intro"
 	
 	on visit
-		dialog `You've reached <destination>, but you don't have at least five tons of silicon in your cargo hold. Locate and mine silicon asteroids in this system before returning.`
+		dialog `你已抵达<destination>，但货舱中至少需要五吨硅。在返回前，请在此星系中寻找并开采硅质小行星。`
 	
 	on complete
 		require "Silicon" 5
@@ -900,9 +900,9 @@ mission "Intro [2.1 Interceptor]"
 
 mission "Intro [3 Interceptor]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "New Sahara"
 	destination "Hestia"
@@ -914,8 +914,8 @@ mission "Intro [3 Interceptor]"
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Escort duty is a risky business."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几次任务后，把他送到了赫斯提亚。护卫任务风险不小。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
@@ -923,8 +923,8 @@ mission "Intro [3 Interceptor]"
 # Missions for the Midgard start
 
 mission "Midgard Intro [0]"
-	name "Passenger to <planet>"
-	description "This old-timer captain offered to ride along with you to <destination>, and to give you some tips along the way."
+	name "前往<planet>的乘客"
+	description "这位老资格的船长提出要与你一同前往<destination>，并在途中给你一些建议。"
 	landing
 	passengers 1
 	source "Midgard"
@@ -934,15 +934,15 @@ mission "Midgard Intro [0]"
 	to accept
 		"total ships" > "ships: Fighter" + "ships: Drone"
 	substitutions
-		"<trade>" "load some bundles of clothing onto your ship"
-		"<while>" "While most of the outfits will be far outside your price range"
+		"<trade>" "往船上装几捆成衣"
+		"<while>" "虽说绝大多数装备的价格你现在还远承受不起"
 	
 	on offer
 		conversation "intro mission"
 	
 	on accept
-		log "Getting some basic instructions on making a living as a merchant from an old captain named James."
-		log "Minor People" "James" `An old man who accompanied you on your first few jobs as a starship captain.`
+		log "从一位名叫詹姆斯的老船长那里得到了一些作为商人谋生的基本指导。"
+		log "Minor People" "James" `一位老人，曾在你作为星舰船长的头几份工作中陪伴着你。`
 	
 	on complete
 		payment 10000
@@ -952,9 +952,9 @@ mission "Midgard Intro [0]"
 
 mission "Midgard Intro [1 Transport]"
 	priority
-	name "Transport scientists to <planet>"
-	description "Bring your new friend James, along with a team of scientists, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送科学家至<planet>"
+	description "带上你的新朋友詹姆斯，以及一队科学家，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "Asgard"
 	destination "Nifel"
 	passengers 5
@@ -972,9 +972,9 @@ mission "Midgard Intro [1 Transport]"
 	
 	on offer
 		conversation
-			`You find James with four middle-aged people in tow. "Captain <last>!" he says. "Wonderful to see you again. I was just talking to these scientists. They've been having trouble finding a ship that's willing to stopover on a low-profile world like <planet>. They can pay you <payment> to take them there. What do you say?"`
+			`你找到了詹姆斯，他身后跟着四个中年人。“<last>船长！”他说。“真高兴再次见到你。我刚才正和这些科学家聊天呢。他们一直在找一艘愿意在一颗像<planet>这样低调的世界停靠的船。他们可以付给你<payment>载他们过去。你怎么说？”`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	You and James direct the team to your ship. Looks like you're about to set off on your first real job...`
@@ -983,19 +983,19 @@ mission "Midgard Intro [1 Transport]"
 	on complete
 		payment 45000
 		conversation
-			`Along the journey, you learned that the team of scientists you are transporting are studying indigenous life on sub-arctic worlds. <planet> is of particular interest to them, as it hosts a variety of colorful organisms, from the six-winged albatross to the all-consuming Ice-Slug. "<planet> is also a planet of great historical importance," one of the scientists says. "A bacterium living in its wilderness was able to bring the Rigellian Plague to an end four centuries ago. Before then, entire colonies could be wiped out by a single infected ship."`
-			`	You say goodbye to them and wish them well, and as agreed they pay you <payment>. You are already well on your way towards paying down your mortgage!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`旅途中，你了解到你运送的科学家团队正在研究亚极寒星球上的本土生命。<planet>让他们特别感兴趣，因为这里拥有各种色彩斑斓的生物，从六翼信天翁到吞食一切的冰蛞蝓。“<planet>也是一颗具有重大历史意义的行星，”其中一位科学家说。“四百年前，其荒野中的一种细菌终结了瑞格里安瘟疫。在那之前，整个殖民地都可能被一艘受感染的飞船抹去。”`
+			`	你向他们告别并祝他们好运，按照约定他们付给你<payment>。你离还清贷款又近了一大步！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Midgard Intro [2 Transport]"
 	priority
-	name "Tourists to <planet>"
-	description "These tourists will pay you <payment> to take them to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送游客至<planet>"
+	description "这些游客会付给你<payment>，让你带他们去<destination>。你的新朋友詹姆斯也会一起同行。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 4
 	source "Nifel"
 	destination "Calda"
@@ -1004,31 +1004,31 @@ mission "Midgard Intro [2 Transport]"
 	
 	on offer
 		conversation
-			`<origin>'s spaceport is far colder than anything you've experienced; you try to insulate yourself with what you have as nearby vendors peddle overpriced coats. Despite its size, the port is almost completely empty. Many storefronts have been shuttered, and the provided seating looks brand-new and outdated at the same time.`
-			`	By the time you see James, he's already got a small group of people with him: a middle-aged couple and a teenage boy. "Hi there, Captain <last>!" says James. "Interested in carrying some tourists to <planet>?"`
+			`<origin>的太空港比你经历过的任何地方都要寒冷得多；你尽力用现有的衣物裹紧自己，而附近的小贩正在兜售昂贵的夹克。尽管港口规模不小，却几乎空无一人。许多店面已经关门，提供的座椅看起来既崭新又过时。`
+			`	当你看到詹姆斯时，他已经带着一小群人：一对中年夫妇和一个十几岁的男孩。“嗨，<last>船长！”詹姆斯说，“有兴趣带几位游客去<planet>吗？”`
 			choice
-				`	"Sure!"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“当然！”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"Great," he says. "This is Chai, Simon, and their son Kamon. Let's help them carry their luggage to your ship." As you begin walking back, slightly ahead of them, James whispers to you, "Tourists are always a good way to make money. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time.`
-			`	"Make sure your jobs go to the same planet, though; there's two habitable planets in the system of <system>, and landing on <planet> won't complete any missions with Vail as a destination."`
+			`	“太好了，”他说。“这是柴、西蒙和他们的儿子卡蒙。我们帮他们把行李搬到你的飞船上。”当你开始往回走，稍微领先他们时，詹姆斯低声对你说：“游客总是赚钱的好路子。他们在度假，所以不介意多付点钱。但别让货舱空间浪费了，所以看看任务板，有没有同时能跑的同路送货任务。”`
+			`	“确保你的任务都去同一个星球；<system>星系有两个宜居星球，降落在<planet>可完不成目的地为韦尔的任务。”`
 				accept
 	
 	on complete
 		payment 30000
 		conversation
-			`Calda is everything Nifel is not. The planet is warm, wet, and filled to the brim with obnoxious tourists. Shortly after you disembark, you are approached by half a dozen salespeople talking over each other as they promote their company's luxury hotels and hot springs. When Chai, Simon, and Kamon step off, the marketeers realize their mistake and begin harassing them instead.`
-			`	While Chai is busy handling them, Simon hands you the payment for the trip. As they walk away, you see a spaceport cleaner accidentally back into Kamon while wiping down a bench. A nearby couple in swimsuits spots the incident and starts chewing out the cleaner.`
-			`	After the commotion clears, James shakes his head and says, "Some people don't have the first clue about how good they have it." Then, he turns to you and says, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`考尔达拥有尼福尔所没有的一切。这颗星球温暖、潮湿，挤满了令人厌烦的游客。你刚下船，就有六七个销售人员争先恐后地推销他们公司的豪华酒店和温泉。当柴、西蒙和卡蒙下船时，营销人员意识到自己找错了人，转而开始缠着他们。`
+			`	在柴忙着应付他们时，西蒙把旅费递给你。他们走开后，你看到一个太空港清洁工在擦长椅时不小心撞到了卡蒙。附近一对穿着泳装的夫妇看到这一幕，开始痛骂清洁工。`
+			`	骚动平息后，詹姆斯摇摇头说：“有些人根本不知道自己多享福。”然后他转向你说：“跟以前一样。如果你想继续一起旅行，在太空港见我。”`
 
 
 
 
 mission "Midgard Intro [3 Transport]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Calda"
 	destination "Hestia"
@@ -1037,29 +1037,29 @@ mission "Midgard Intro [3 Transport]"
 	
 	on offer
 		conversation
-			`By the time you find James, it is already night. You find him overlooking a cliff face covered with hot tubs. A number of the pools are coated in shimmering platinum; the rest must settle with mere gold. The patrons enjoying the tubs range from old couples enjoying their retirement to inebriated teenagers wildly swinging their heads. Overhead, an aerobatics show leaves trails of light in the air, forming shapes and names. Below, in one of the tubs, you spot cleaners in drenched overalls draining a pool stained puke-yellow. In another, you see a waitress accosted by a red-faced man in a red business suit.`
-			`	"It's hardly a wonder why they call them the 'Paradise Worlds,'" James says. "Nine planets, including Calda, each terraformed to perfection. Life on one of these worlds is the most sought-after commodity in the galaxy. But behind each of these worlds, millions of workers toil night and day to maintain a utopia that they will never enjoy."`
-			`	After taking one last glance at the cliff, he says, "But that's enough of an old man's hypocritical ramblings. Are you willing to take me on one last trip? I need to get to <destination>, and of course I'll pay you quite well to take me there."`
+			`当你找到詹姆斯时，已经是夜晚了。你发现他正在俯瞰一面布满热水浴缸的悬崖。许多浴池覆盖着闪亮的铂金；其余的只能满足于普通的金。享受浴池的顾客从享受退休生活的老夫妇到醉醺醺地狂甩头的青少年。头顶上，一场特技飞行表演在空中留下光迹，形成各种形状和名字。下方，在一个浴池里，你看到清洁工穿着湿透的工作服在排干一个被呕吐物染黄的水池。在另一个浴池，你看到一个女服务员被一个穿着红色西装、脸通红的男人搭讪。`
+			`	詹姆斯说：“难怪他们称它们为‘天堂世界’。包括考尔达在内的九颗行星，每一颗都经过了完美的地球化改造。在这些世界中的任何一颗上生活，是银河系中最抢手的商品。但在每一个世界背后，数以百万计的工人日夜辛劳，维护着一个他们永远无法享受的乌托邦。”`
+			`	他又最后看了一眼悬崖，然后说：“但一个老家伙虚伪的唠叨就到此为止了。你愿意带我走最后一趟吗？我需要去<destination>，如果你送我去，我当然会付给你丰厚的报酬。”`
 			choice
-				`	"Of course."`
-				`	"Sorry, but I was planning on heading out in a different direction from here."`
+				`	“当然可以。”`
+				`	“抱歉，我本打算从这里往别的方向走。”`
 					decline
-			`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's another member of the "Paradise Worlds," and a retirement home for some of the richest people in the Republic. You wonder whether James is going to be able to fit in there.`
+			`	你再次与詹姆斯一起走回飞船。到达后，在他收拾行李时，你调出电脑上关于<planet>的信息。那是“天堂世界”的另一个成员，也是共和国一些最富有的人的养老院。你不禁怀疑詹姆斯是否能融入那里。`
 				accept
 	
 	on complete
 		payment 50000
-		log "Dropped James off on Hestia after running a few missions with him. Met a few spoiled tourists and got to visit Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起执行了几个任务后，将詹姆斯送到赫斯提亚。途中遇到几个娇生惯养的游客，还顺便去了一趟地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Midgard Intro [1 Transport Alt]"
 	priority
-	name "Transport family to <planet>"
-	description "Bring your new friend James, along with a spacediver, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送家庭至<planet>"
+	description "带上你的新朋友詹姆斯和一名太空潜水员，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "Asgard"
 	destination "Norn"
 	passengers 2
@@ -1077,10 +1077,10 @@ mission "Midgard Intro [1 Transport Alt]"
 	
 	on offer
 		conversation
-			`You find James conversing with another person. "Captain <last>!" he says. "Wonderful to see you again. Chen here is willing to pay <payment> if you bring them to <planet> so that they can skydive from the edge of space."`
-			`	Chen says, "Norn has a thick enough atmosphere and low enough gravity that you can get away with aerial stunts you wouldn't be able to on any other world. Don't worry about handling the procedure for the space jump; I've done it before."`
+			`你发现詹姆斯正在与另一个人交谈。“<last>船长！”他说。“很高兴再次见到你。这位陈愿意支付<payment>，只要你带他们去<planet>，他们想从太空边缘跳伞。”`
+			`	陈说：“诺恩的大气层够厚，重力够低，你可以完成在其他星球无法做到的特技飞行。别担心太空跳伞的程序，我以前做过。”`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	You and James direct Chen to your ship. After they board, James turns to you and says, "Make sure to pay attention to where you're landing. The system of <system> has two inhabited planets, Muspel and <planet>, and you don't want to land on the wrong planet when trying to finish a job."`
@@ -1089,19 +1089,19 @@ mission "Midgard Intro [1 Transport Alt]"
 	on complete
 		payment 18000
 		conversation
-			`Just before you enter <planet>'s atmosphere, you open your loading bay ramp, as directed by Chen. Shortly afterward, they appear on your cargo hold camera in full skydiving garb. They take a running start and launch themself into space, quickly vanishing from your vision.`
-			`	Several minutes after your ship touches down, Chen approaches you in the spaceport, thanks you, and hands you <payment>. You are already well on your way towards paying down your mortgage!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`就在进入<planet>大气层之前，你按照陈的指示打开装载坡道。不久后，他们出现在你的货舱摄像头画面中，穿着全套跳伞装备。他们助跑后一跃跳入太空，很快从视线中消失。`
+			`	你的飞船降落几分钟后，陈在太空港找到你，向你道谢，并交给你<payment>。你离还清贷款又近了一大步！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Midgard Intro [2 Transport Alt]"
 	priority
-	name "Tourist to <planet>"
-	description "This returning tourist will pay you <payment> to take them to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "游客前往<planet>"
+	description "这位回程游客将支付你<payment>，让你送他们前往<destination>。你的新朋友詹姆斯也会随行一程。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 2
 	source "Norn"
 	destination "Earth"
@@ -1110,28 +1110,28 @@ mission "Midgard Intro [2 Transport Alt]"
 	
 	on offer
 		conversation
-			`The smell of brine permeates <origin>'s spaceport. By the time you find James, it seems unlikely that you'll ever eat seafood without gagging again. "Hi there, Captain <last>!" he says. "Interested in carrying a returning tourist to <planet>?" Behind him is a young man in red sunglasses.`
+			`盐水的味道弥漫在<origin>的太空港。当你找到詹姆斯时，你觉得自己以后恐怕一吃海鲜就要反胃了。“嗨，<last>船长！”他说，“有兴趣搭载一位返回<planet>的游客吗？”他身后站着一个戴着红色墨镜的年轻人。`
 			choice
-				`	"Sure!"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“当然！”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"Great," he says. "This is Van. Let's help him carry his luggage to your ship." As you begin walking back, slightly ahead of them, James whispers to you, "Tourists are always a good way to make money, especially if you're low on bunk space. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time."`
+			`	“太好了，”他说，“这是凡。我们帮他搬行李到你的船上吧。”你往回走，比他们稍稍领先，詹姆斯低声对你说：“游客总是赚钱的好门路，尤其是你卧舱空间紧张的时候。他们在度假，所以不介意多付一点。但也不用浪费你的货舱，所以看看任务公告板，有没有什么送货任务我们可以同时跑一趟。”`
 				accept
 	
 	on complete
 		payment 22000
 		conversation
-			`As you make the final landing descent to the surface of Earth, Van looks down on its cluttered surface and begins listing off places he recognizes. James joins in by bringing up the history of the cities you fly over, and the two of them begin making jokes about the worst places to live on <planet>.`
-			`	As he steps off, Van hands you <payment>. "Thanks for the fun times, but I'd best be going. I've got work first thing in the morning."`
-			`	After he leaves, James says, "I haven't met too many people from Earth during my time. Even today, billions of people grow up and die on this planet without taking a single step on another world." Then, he picks up his luggage and adds, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`当你最后降落到地球表面时，凡俯视着下方杂乱的地表，开始列举他认出的地方。詹姆斯加入进来，讲起飞越城市的历史，两人开始拿<planet>上最糟糕的居住地开玩笑。`
+			`	凡下船时，递给你<payment>。“感谢这段愉快的时光，不过我最好走了。明早第一件事就是工作。”`
+			`	他离开后，詹姆斯说：“我在这儿没见过太多地球人。即使在今天，数十亿人在这颗星球上出生、死去，从未踏足另一个世界。”然后他拎起行李补充道：“和之前一样。如果你想继续一起旅行，在太空港见我。”`
 
 
 
 mission "Midgard Intro [3 Transport Alt]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Earth"
 	destination "Hestia"
@@ -1145,17 +1145,17 @@ mission "Midgard Intro [3 Transport Alt]"
 	
 	on complete
 		payment 90000
-		log "Dropped James off on Hestia after running a few missions with him. Met a skydiver and a tourist, and got to visit Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几项任务后，把他送到了赫斯提亚。途中遇到一名跳伞者和一名游客，还顺道造访了地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Midgard Intro [1 Freighter]"
 	priority
-	name "Delivery to <planet>"
-	description "Travel with your new friend James to <destination> and deliver <cargo>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "与你的新朋友詹姆斯一同前往 <destination> 并交付 <cargo>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "outfit parts" 40
 	passengers 1
 	source "Asgard"
@@ -1171,12 +1171,12 @@ mission "Midgard Intro [1 Freighter]"
 	
 	on offer
 		conversation
-			`You find James talking with a man wearing a business suit. "Captain <last>!" says James. "Glad you could join us. One of the most prominent manufacturers of starship outfits, Deep Sky, is headquartered on <origin>. Usually, they use a company fleet to deliver their equipment to other outfitters. However, a pirate attack has left that fleet out of commission, so they're asking merchants to assist where possible. Are you willing to help out?"`
+			`你发现詹姆斯正在和一个穿西装的男人交谈。"船长<last>！"詹姆斯说。"很高兴你能加入我们。最著名的星舰装备制造商之一，幽海星，总部位于<origin>。通常，他们使用公司舰队将装备运送给其他装备商。但一次海盗袭击使那支舰队瘫痪了，所以他们请商人在可能的情况下提供帮助。你愿意帮忙吗？"`
 			choice
-				`	"I'll help."`
-				`	"Sorry, but I think I'm going to head out on my own."`
+				`	"我愿意帮忙。"`
+				`	"抱歉，我想我还是自己走吧。"`
 					decline
-			`	"Great!" says James. "They'll be loading up your ship shortly."`
+			`	“太好了！”詹姆斯说道。“他们马上就会给你的船装货。”`
 				accept
 	
 	on complete
@@ -1187,9 +1187,9 @@ mission "Midgard Intro [1 Freighter]"
 
 mission "Midgard Intro [2 Freighter]"
 	priority
-	name "Rush delivery to <planet>"
-	description "This shipment of <commodity> needs to get to <destination>, by <date>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "紧急运送至<planet>"
+	description "这批 <commodity> 货物需要在 <date> 前送达 <destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "raw bass" 34
 	passengers 1
 	source "Valhalla"
@@ -1200,19 +1200,19 @@ mission "Midgard Intro [2 Freighter]"
 	
 	on offer
 		conversation
-			`The landscape of <origin> beats even the urban sprawls of Midgard and Asgard. Beyond the spaceport's glass walls is a vast forest of skyscrapers reaching out to the edge of your vision. Far away, the lights of distant buildings blend together, as though the horizon is ablaze.`
-			`	James sees you from a distance and waves you over. As you walk over, you are treated to the overwhelming smell of raw fish, sticking out like a sore thumb in the industrial environment. "I've found another job for you," he says.`
+			`<origin>的景观甚至比米德加德和阿斯加德的都市蔓延更胜一筹。太空港的玻璃墙外，是一片摩天大楼的广阔森林，一直延伸到视线的尽头。远方，远处建筑的光芒交织在一起，仿佛地平线在燃烧。`
+			`	詹姆斯远远看到你，挥手招呼你过去。你走过去时，一股浓烈的生鱼味扑面而来，在这工业环境中显得格外突兀。“我又给你找了个活儿，”他说道。`
 			choice
-				`	"Is it by any chance an unusually smelly job?"`
-				`	"Sorry, I think I'll head off on my own now."`
+				`	“该不会是个特别臭的活儿吧？”`
+				`	“抱歉，我想我现在得自己走了。”`
 					decline
-			`	"It is indeed," he says, "but a lucrative one. <cargo> needs to get to <planet> while it's still fresh, and that means it needs to be there no later than <day>. If we take a direct route, there should be no trouble making the delivery on time. What do you say?"`
+			`	“确实臭，”他说，“但报酬丰厚。<cargo>的货得趁新鲜送到<planet>，也就是说最晚不能超过<day>。如果我们走直达航线，准时交货应该没问题。你看怎么样？”`
 			choice
-				`	"Sounds good. Let's do it!"`
-				`	"No way am I loading up my shiny new starship with smelly fish. Count me out."`
+				`	“听着不错。就这么干！”`
+				`	“我可不想在我崭新的星舰上装满腥鱼。算了吧。”`
 					decline
-			`	"Great!" he says. "I mentioned this earlier, but you might want to stop by the outfitter and buy a local map. Hyperspace routes aren't always logical, and the last thing you want to do is get lost and end up with a pile of rotten fish that no one wants filling up your cargo hold.`
-			`	"We're also leaving Deep space soon; pirate attacks are a lot more frequent outside of the Deep or the Paradise Worlds, so watch out."`
+			`	“太好了！”他说。“我之前提过，你最好去装备店买份本地星图。超空间航路并不总是合乎逻辑的，你肯定不想迷路，最后船舱里堆满没人要的烂鱼吧。`
+			`	“我们也要很快离开幽海星了；在幽海星或乐园世界之外，海盗袭击要频繁得多，小心点。”`
 				accept
 	
 	on complete
@@ -1223,9 +1223,9 @@ mission "Midgard Intro [2 Freighter]"
 
 mission "Midgard Intro [3 Freighter]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Ingot"
 	destination "Hestia"
@@ -1237,17 +1237,17 @@ mission "Midgard Intro [3 Freighter]"
 	
 	on complete
 		payment 50000
-		log "Dropped James off on Hestia after running a few missions with him. Ship still smells like fish."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起完成了几个任务后，把詹姆斯送到了赫斯提亚。船上仍有鱼腥味。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Midgard Intro [1 Interceptor]"
 	priority
-	name "Delivery to <planet>"
-	description "Deliver <commodity>, along with your new friend James, to <destination>, while avoiding a pirate warship."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "将<commodity>和你的新朋友詹姆斯一起运送到<destination>，同时避开一艘海盗战舰。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	cargo "confidential documents" 2
 	source "Asgard"
@@ -1280,26 +1280,26 @@ mission "Midgard Intro [1 Interceptor]"
 	on complete
 		payment 50000
 		conversation
-			`As you touch down on <planet>, a team of uniformed workers are ready to unload the confidential cargo. One of them thanks you and hands you a credit chip worth <payment>. James asks, "How was that, <first>?"`
+			`当你降落在<planet>上时，一队穿制服的工人已准备好卸下机密货物。其中一人向你致谢，并递给你一张价值<payment>的信用芯片。詹姆斯问道：“感觉怎么样，<first>？”`
 			choice
-				`	"Easy peasy. What's next?"`
+				`	"小菜一碟。接下来呢？"`
 				`	"I was hoping to do some shooting, not get shot at."`
 					goto shooting
 			`	James lets out a laugh. "Now that's the spirit! Most Sparrow pilots get the wind knocked out of them after their first taste of danger, and decide to do some asteroid mining instead. It takes some time to find a system with good enough materials, but the lower risk is worth it. Anyway, I'll see if there's another mission in the spaceport for you. Meet me there."`
 				goto end
 			label shooting
-			`	"That's just how it is," James says. "Don't forget you're in a <model>; the very bottom of the food chain. You've got to respect any and all opponents, no matter how weak you think they are. Some Sparrow pilots realize how vulnerable their ship is, and decide to take up asteroid mining instead. It takes some time to find a system with good enough materials, but the lower risk is worth it. Anyway, meet me in the spaceport if you want to do another job."`
+			`	“现实就是这样，”詹姆斯说，“别忘了你开的是一架<model>——食物链最底层的玩意。你得尊重每一个对手，不管你觉得他们多弱。有些‘麻雀’飞行员意识到自己的飞船有多脆弱，就会转而选择采小行星矿。虽然找个有好矿的系统需要点时间，但低风险还是值得的。总之，如果你想再接任务，来太空港找我。”`
 			label end
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Midgard Intro [2 Interceptor]"
 	priority
-	name "Escort convoy to <planet>"
-	description "Escort a merchant convoy to <destination>, along with James."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护卫船队至<planet>"
+	description "与詹姆斯一起，护送一支商人车队到<destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Valhalla"
 	destination "Ingot"
@@ -1317,20 +1317,20 @@ mission "Midgard Intro [2 Interceptor]"
 		ship "Freighter" "Conagher's Porter"
 		ship "Freighter" "Solemn Vow"
 	substitutions
-		"<their>" "their"
+		"<their>" "他们的"
 		"<they're>" "they're"
 		"<they are>" "they are"
 	
 	on offer
 		conversation
-			`The landscape of <origin> beats even the urban sprawls of Midgard and Asgard. Beyond the spaceport's glass walls is a vast forest of skyscrapers reaching out to the edge of your vision. Far away, the lights of distant buildings blend together, as though the horizon is ablaze.`
-			`	You find James standing on a landing pad underneath a large freighter, chatting with a person you assume is the captain. "There you are!" he says. "Captain McLain here says their two ships have always had troubles with pirates when venturing outside of the Deep, and they're looking for an escort to get them safely to Gemstone. Are you interested?"`
+			`<origin>的景观甚至比米德加德和阿斯加德的都市蔓延更胜一筹。太空港的玻璃墙外，是一片摩天大楼的广阔森林，一直延伸到视线的尽头。远方，远处建筑的光芒交织在一起，仿佛地平线在燃烧。`
+			`	你发现詹姆斯正站在一艘大型货船下方的降落平台上，与一个你猜测是船长的人聊天。"你来了！"他说。"这位麦克莱恩船长说，他们的两艘船在星渊以外航行时总是遇到海盗麻烦，他们想找一艘护卫舰安全护送到宝石星。你有兴趣吗？"`
 			choice
-				`	"Of course!"`
-				`	"No, sounds a bit too risky for me."`
+				`	“当然有！”`
+				`	“不了，对我来说有点太冒险了。”`
 					decline
-			`	"Great," he says. "Whenever we're ready to leave the planet, they'll take off behind us and follow us to <planet>." As you begin walking away together, he adds in a quieter voice, "While the Deep is well guarded against pirates, most of human space is clamoring with bandits and other ruffians. Normally a fresh pilot like you with no combat reputation would never be offered a mission like this, so try not to mess things up. Remember that we don't have to kill the pirates, all we have to do is make sure the convoy isn't destroyed. But freighters are slow, so you can't just go skipping through hyperspace as fast as you want; you need to stick around and make sure they're behind you.`
-			`	"Also, make sure to refuel your ship in Zosma before jumping into Algieba; if you run out of fuel there, you'll be a sitting duck unless you can get another ship to help you."`
+			`	"太好了，"他说。"等我们准备好离开这颗星球，他们就会跟在我们后面起飞，跟随我们去<planet>。"当你们开始一起走开时，他用更轻的声音补充道，"虽然星渊星对海盗防范严密，但人类空间的大部分地区都充斥着匪徒和其他恶棍。通常像你这样没有战斗声誉的新手飞行员是绝不会接到这样的任务的，所以尽量别搞砸了。记住，我们不必杀死海盗，我们只需要确保船队不被摧毁。但货船很慢，所以你不能随心所欲地快速穿越超空间；你必须待在附近，确保它们跟在后面。`
+			`	"另外，在跳入轩辕十二之前，确保在太微右垣四加满燃料；如果在那里燃料耗尽，除非有其他船帮你，否则你将成为一个活靶子。"`
 				accept
 	
 	on visit
@@ -1343,9 +1343,9 @@ mission "Midgard Intro [2 Interceptor]"
 
 mission "Midgard Intro [2.1 Interceptor]"
 	priority
-	name "Mine asteroids in <system>"
-	description "Go to the <system> system and mine five tons of silicon, then land on <planet>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I think you'll find what I want to show you next very interesting, but you'll need to free up <capacity> first. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "在<system>开采小行星"
+	description "前往<system>星系，开采五吨硅，然后在<planet>着陆。"
+	blocked `当你在太空港与詹姆斯碰面时，他说：“你好，<first>！我想你一定会对我接下来要展示给你的东西很感兴趣，但你需要先腾出<capacity>。所以，你要么取消另一个任务，要么之后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Ingot"
 	destination "New Sahara"
@@ -1359,7 +1359,7 @@ mission "Midgard Intro [2.1 Interceptor]"
 		conversation "mining intro"
 	
 	on visit
-		dialog `You've reached <destination>, but you don't have at least five tons of silicon in your cargo hold. Locate and mine silicon asteroids in this system before returning.`
+		dialog `你已抵达<destination>，但货舱中至少需要五吨硅。在返回前，请在此星系中寻找并开采硅质小行星。`
 	
 	on complete
 		require "Silicon" 5
@@ -1369,9 +1369,9 @@ mission "Midgard Intro [2.1 Interceptor]"
 
 mission "Midgard Intro [3 Interceptor]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "New Sahara"
 	destination "Hestia"
@@ -1383,8 +1383,8 @@ mission "Midgard Intro [3 Interceptor]"
 	
 	on complete
 		payment 50000
-		log "Dropped James off on Hestia after running a few missions with him. Escort duty is a risky business."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几次任务后，把他送到了赫斯提亚。护卫任务风险不小。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
@@ -1392,8 +1392,8 @@ mission "Midgard Intro [3 Interceptor]"
 # Missions for the Mainsail start
 
 mission "Mainsail Intro [0]"
-	name "Passenger to <planet>"
-	description "This old-timer captain offered to ride along with you to <destination>, and to give you some tips along the way."
+	name "前往<planet>的乘客"
+	description "这位老资格的船长提出要与你一同前往<destination>，并在途中给你一些建议。"
 	landing
 	passengers 1
 	source "Mainsail"
@@ -1403,15 +1403,15 @@ mission "Mainsail Intro [0]"
 	to accept
 		"total ships" > "ships: Fighter" + "ships: Drone"
 	substitutions
-		"<trade>" "load some electronic goods onto your ship"
-		"<while>" "While they don't sell much here compared to on the big manufacturing worlds"
+		"<trade>" "采购一批电子产品装上船"
+		"<while>" "虽说相比大型制造世界，这里出售的装备并不算多"
 	
 	on offer
 		conversation "intro mission"
 	
 	on accept
-		log "Getting some basic instructions on making a living as a merchant from an old captain named James."
-		log "Minor People" "James" `A old man who accompanied you on your first few jobs as a starship captain.`
+		log "从一位名叫詹姆斯的老船长那里得到了一些作为商人谋生的基本指导。"
+		log "Minor People" "James" `一位在你作为星舰船长的最初几次任务中陪伴你的老人。`
 	
 	on complete
 		payment 10000
@@ -1421,9 +1421,9 @@ mission "Mainsail Intro [0]"
 
 mission "Mainsail Intro [1 Transport]"
 	priority
-	name "Transport family to <planet>"
-	description "Bring your new friend James, along with a team of engineers, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送家庭至<planet>"
+	description "带你的新朋友詹姆斯，以及一队工程师，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "Glory"
 	destination "Tinker"
 	passengers 5
@@ -1441,10 +1441,10 @@ mission "Mainsail Intro [1 Transport]"
 	
 	on offer
 		conversation
-			`The world of <origin> is in full bloom; the gardens the spaceport overlooks are filled with a spectrum of flowers, and a sweet smell rests in the air. Eventually you find James with a small group in tow: four young-looking men and women.`
-			`	"Captain <last>!" he says. "Wonderful to see you again. I was just talking to this group of engineers. Their original transport has been delayed, and they're looking for another ship to take them to <planet>. They can pay you <payment> to take them there. What do you say?"`
+			`<origin>世界正处于盛放之季；俯瞰太空港的花园里鲜花盛开，色彩斑斓，空气中飘荡着一股甜香。你最终找到了詹姆斯，他身后跟着一小群人：四个看起来还很年轻的男女。`
+			`	"<last>船长！"他说，"很高兴再次见到你。我刚才正和这群工程师聊天。他们原本的运输船延误了，正在找另一艘船送他们去<planet>。他们愿意付给你<payment>作为报酬。你觉得怎么样？"`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	You and James direct the team to your ship. Looks like you're about to set off on your first real job...`
@@ -1453,19 +1453,19 @@ mission "Mainsail Intro [1 Transport]"
 	on complete
 		payment 40000
 		conversation
-			`Along the journey, you learned that the team of engineers you are transporting are working on replacing one of their automated terraforming controllers. "We all graduated from the same class on Chiron," one of the engineers says while grinning. "One of us managed to land a job on Glory thanks to a relative, and from there, we were able to form our team. There's been ups and downs over the last few decades, but we always managed to figure things out in the end." He looks barely a day over twenty-five.`
-			`	You say goodbye to them and wish them well, and as agreed they pay you <payment>. You have just completed your first proper job as a starship captain!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`旅途中，你了解到这队工程师正在替换一台自动地形改造控制器。"我们都是从喀戎同一届毕业的，"其中一个工程师咧嘴笑道，"我们中有一人靠亲戚关系在荣耀星上谋了份差事，从那里开始，我们才组建起了自己的团队。过去几十年里起起落落，但最后我们总能把问题解决。"他看起来年轻得不过二十五岁。`
+			`	你与他们告别，祝他们好运，按照约定他们支付给你<payment>。作为一艘星舰的船长，你刚刚完成了第一份正式工作！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Mainsail Intro [2 Transport]"
 	priority
-	name "Tourists to <planet>"
-	description "These tourists will pay you <payment> to take them to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送游客至<planet>"
+	description "这些游客会付给你<payment>，让你带他们去<destination>。你的新朋友詹姆斯也会一起同行。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 4
 	source "Tinker"
 	destination "Earth"
@@ -1474,30 +1474,30 @@ mission "Mainsail Intro [2 Transport]"
 	
 	on offer
 		conversation
-			`It is raining.`
-			`	A deep fog envelops the spaceport city on <origin>. In the distance, you can see the faded lights of distant starships drifting like phantoms. On the streets below, harsh rain whips against the congested traffic, blurring it into a muddy mess of red light.`
-			`	By the time you see James, he's already got a small group of people with him: a young couple, and a teenage boy. "Hi there, Captain <last>!" says James. "Interested in carrying some tourists to <planet>?"`
+			`下雨了。`
+			`	浓雾笼罩着<origin>上的太空港城市。远处，可以看到遥远星舰的暗淡灯光如幽灵般飘荡。下方的街道上，暴雨猛烈抽打着拥挤的交通，将其模糊成一片泥泞的红光。`
+			`	等你见到詹姆斯时，他已经带着一小群人：一对年轻夫妇和一个少年男孩。“嘿，<last>船长！有兴趣带几位游客去<planet>吗？”`
 			choice
-				`	"Sure!"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“当然！”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"Great," he says. "This is Chiyo, Salim, and their son Khalil. Let's help them carry their luggage to your ship." As you begin walking back, slightly ahead of them, James whispers to you, "Tourists are always a good way to make money. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time."`
+			`	“太好了，”他说，“这是千代、萨利姆和他们的儿子哈利勒。帮他们把行李搬到你的船上。”当你开始往回走，稍稍领先他们时，詹姆斯对你低语：“游客总是赚钱的好途径。他们在度假，所以不介意多付点钱。但你的货舱空间不能浪费，所以去瞧瞧任务板，看看有没有能顺路做的送货任务。”`
 				accept
 	
 	on complete
 		payment 20000
 		conversation
-			`As you make the final landing descent to the surface of Earth, Chiyo and Salim stare out the window in rapt attention, pointing out landmarks on the planet's surface. James joins in by telling you all about some of the history of the cities you are flying over. Khalil, meanwhile, has spent the entire journey playing a video game, and only glances out the window when the ship shakes from turbulence. As they all grab their luggage and step off your ship to explore humanity's homeworld, he is still immersed in the game.`
-			`	As you collect your payment, James pulls the parents aside and says, "Watch out for pickpockets, okay? And take it from an experienced captain, you do not want to be out after dark here. Play it safe, and have a great time."`
-			`	After they leave, James shakes his head ruefully. "It'll probably be a decade before that kid is old enough to realize what he's missing out on. Waste of money, doing a trip like this with a teenage boy. They should've gone to Vinci and visited the holo-arcades; I'm sure that would interest him a lot more than historical museums and ancient cities." Then, he picks up his luggage and adds, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`当你们最终下降降落到地球表面时，千代和萨利姆出神地盯着窗外，指出星球表面的地标。詹姆斯也加入进来，向你讲述你们飞过的城市的一些历史。与此同时，哈利勒整个旅程都在玩电子游戏，只有在飞船因颠簸摇晃时才瞥一眼窗外。当他们拿起行李走下飞船去探索人类的家园时，他仍然沉浸在游戏中。`
+			`	当你收取报酬时，詹姆斯把父母拉到一边说：“小心扒手，好吗？听我这位经验丰富的船长一句劝，天黑后最好别在外面瞎逛。注意安全，玩得开心。”`
+			`	他们离开后，詹姆斯懊恼地摇摇头。“大概要过十年那孩子才会明白自己错过了什么。带个青春期男孩做这种旅行，真是浪费钱。他们应该去芬奇，逛逛全息游戏厅；我敢肯定那比历史博物馆和古城更让他感兴趣。”然后他拿起行李，补充道：“和之前一样。如果你想继续一起旅行，在太空港见我。”`
 
 
 
 mission "Mainsail Intro [3 Transport]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Earth"
 	destination "Hestia"
@@ -1511,17 +1511,17 @@ mission "Mainsail Intro [3 Transport]"
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Met a few spoiled tourists and got to visit Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起执行了几个任务后，将詹姆斯送到赫斯提亚。途中遇到几个娇生惯养的游客，还顺便去了一趟地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Mainsail Intro [1 Transport Alt]"
 	priority
-	name "Transport family to <planet>"
-	description "Bring your new friend James, along with a passenger, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送家庭至<planet>"
+	description "带上你的新朋友詹姆斯，以及一名乘客，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "Glory"
 	destination "Tinker"
 	passengers 2
@@ -1539,10 +1539,10 @@ mission "Mainsail Intro [1 Transport Alt]"
 	
 	on offer
 		conversation
-			`The world of <origin> is in full bloom; the gardens the spaceport overlooks are filled with a spectrum of flowers, and a sweet smell rests in the air. Eventually you find James, with someone else in tow.`
-			`	"Captain <last>!" he says. "Wonderful to see you again. I was just talking to Jan over here. His original transport has been delayed, and he's looking for another ship to take him to <planet>. He can pay you <payment> to take him there. What do you say?"`
+			`<origin> 星球正鲜花盛开；太空港俯瞰的园圃中繁花似锦，空气中弥漫着甜美的气息。最终你找到了詹姆斯，他身后还跟着一个人。`
+			`	"<last>船长！"他说，"再次见到你真是太好了。我刚才正和这位简说话。他原本的航班延误了，正在找另一艘船送他去<planet>。他可以付给你<payment>作为酬劳。你觉得怎么样？"`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	You and James direct Jan to your ship. Looks like you're about to set off on your first real job...`
@@ -1551,19 +1551,19 @@ mission "Mainsail Intro [1 Transport Alt]"
 	on complete
 		payment 20000
 		conversation
-			`Along the journey, you learned that Jan is a terraforming engineer traveling to <planet> to meet with his colleagues. "We all graduated from the same class on Chiron," he says. "One of us managed to land a job on Glory thanks to a relative, and from there, we were able to form our team. There's been ups and downs across our decades of work, but we always managed to figure things out in the end." He looks barely a day over twenty-five.`
-			`	You say goodbye to Jan and wish him well, and as agreed he pays you <payment>. You have just completed your first proper job as a starship captain!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`旅途中，你了解到简是一位行星改造工程师，正前往<planet>与同事们会面。"我们都是从喀戎同一届毕业的，"他说，"有个同学靠关系在荣耀星找到了工作，从那里起步，我们才得以组建起团队。几十年的工作有起有落，但我们总能找到解决办法。"他看起来简直不像超过二十五岁的人。`
+			`	你和简道别并祝他好运，按照约定，他付给你<payment>。你刚刚完成了作为飞船船长的第一份正式工作！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Mainsail Intro [2 Transport Alt]"
 	priority
-	name "Tourist to <planet>"
-	description "This tourist will pay you <payment> to take him to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "游客前往<planet>"
+	description "这位旅行者会付给你 <payment> 信用点，让你把他送到 <destination>。你的新朋友詹姆斯也会一路同行。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 2
 	source "Tinker"
 	destination "Earth"
@@ -1572,30 +1572,30 @@ mission "Mainsail Intro [2 Transport Alt]"
 	
 	on offer
 		conversation
-			`It is raining.`
-			`	A deep fog envelops the spaceport city on <origin>. In the distance, you can see the faded lights of distant starships drifting like phantoms. On the streets below, harsh rain whips against the congested traffic, blurring it into a muddy mess of red light.`
-			`	"Hi there, Captain <last>!" James says as he approaches you. "Interested in carrying a tourist to <planet>?" Behind him is a young-looking man wearing a floral shirt.`
+			`下雨了。`
+			`	浓雾笼罩着<origin>上的太空港城市。远处，可以看到遥远星舰的暗淡灯光如幽灵般飘荡。下方的街道上，暴雨猛烈抽打着拥挤的交通，将其模糊成一片泥泞的红光。`
+			`	"嗨，<last>船长！"詹姆斯走近时说。"有兴趣带一位游客去<planet>吗？"他身后是一个穿着花衬衫的年轻人。`
 			choice
-				`	"Sure!"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“当然！”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"Great," he says. "This is Mecit. Let's help him carry his luggage to your ship." As you begin walking back, slightly ahead of him, James whispers to you, "Tourists are always a good way to make money, especially if you're low on bunk space. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time."`
+			`	"太好了，"他说。"这位是梅奇特。我们帮他把行李搬到你的船上。"走回去时，你稍微走在他前面，詹姆斯低声对你说："游客总是赚钱的好路子，特别是当你床位不多的时候。他们正在度假，所以不介意多付点钱。但你的货舱空间也不能浪费，去看看任务板，看看有没有能顺路做的运输任务。"`
 				accept
 	
 	on complete
 		payment 10000
 		conversation
-			`As you make the final landing descent to the surface of Earth, Mecit looks down on Earth's cluttered surface, his eyes wide open. In an attempt to lighten the mood, James begins telling the both of you some of the history of the cities you are flying over, but Mecit wears a dour expression on his face up until he picks up his luggage and prepares to disembark.`
-			`	As you collect your payment, James pulls Mecit aside and says, "Watch out for pickpockets, okay? And take it from an experienced captain, you do not want to be out after dark here. Play it safe, and have a great time."`
-			`	After he leaves, James shakes his head ruefully. "He probably expected Earth to be a relaxing holiday planet, like Caldra or Farseer. I just hope that he's able to see past his preconceptions and appreciate <planet>'s legacy." Then, he picks up his luggage and adds, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`当你最终降落到地球表面时，梅奇特低头看着地球拥挤的地面，眼睛睁得大大的。为了缓和气氛，詹姆斯开始给你们讲你们飞过的城市的一些历史，但梅奇特一直板着脸，直到他拿起行李准备下船。`
+			`	当你收钱时，詹姆斯把梅奇特拉到一边说："当心扒手，好吗？一位经验丰富的船长告诉你，天黑以后你最好不要待在这里。安全第一，祝你玩得开心。"`
+			`	他离开后，詹姆斯无奈地摇了摇头。"他可能以为地球是个像卡尔德拉或远见星那样放松的度假星球。我只希望他能抛开成见，欣赏<planet>留下的遗产。"然后他拿起行李补充道："和之前一样。如果你想继续一起旅行，到太空港找我。"`
 
 
 
 mission "Mainsail Intro [3 Transport Alt]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Earth"
 	destination "Hestia"
@@ -1609,17 +1609,17 @@ mission "Mainsail Intro [3 Transport Alt]"
 	
 	on complete
 		payment 65000
-		log "Dropped James off on Hestia after running a few missions with him. Met a skydiver and a hapless tourist, and got to visit Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和他一起执行了几个任务后，把詹姆斯送到了赫斯提亚。路上遇到了一位跳伞者和一位倒霉的游客，还顺便去了趟地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Mainsail Intro [1 Freighter]"
 	priority
-	name "Delivery to <planet>"
-	description "Travel with your new friend James to <destination>, and deliver <cargo>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "与你的新朋友詹姆斯一同前往<destination>，并交付<cargo>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "climbing equipment" 37
 	passengers 1
 	source "Glory"
@@ -1635,12 +1635,12 @@ mission "Mainsail Intro [1 Freighter]"
 	
 	on offer
 		conversation
-			`The world of <origin> is in full bloom; the fields that the spaceport overlooks are filled with flowers of every color of the rainbow, and a sweet smell rests in the air. You find James talking with a man wearing dusty, rugged clothing, completely unlike the world around him. "Captain <last>!" says James. "Glad you could join us. Raphael here runs a tourism company centered around rock climbing. He's looking to expand his operations to <planet>, but he needs <cargo> delivered there in advance. Are you willing to help out?"`
+			`<origin>世界正值花季；太空港俯瞰的原野上开满了彩虹般各色的花朵，空气中飘散着甜美的清香。你看到詹姆斯正和一个穿着风尘仆仆、粗犷衣服的男子谈话，他与周围的环境格格不入。“<last>船长！”詹姆斯说，“很高兴你能来。这位拉斐尔经营着一家以攀岩为核心的旅游公司。他想把业务扩展到<planet>，但需要先把<cargo>运送到那里。你愿意帮忙吗？”`
 			choice
-				`	"I'd be glad to help out!"`
-				`	"Sorry, but I think I'm going to head out on my own."`
+				`	“我很乐意帮忙！”`
+				`	"抱歉，我想我还是自己走吧。"`
 					decline
-			`	"Great!" says James. "They'll be loading up your ship shortly."`
+			`	“太好了！”詹姆斯说道。“他们马上就会给你的船装货。”`
 				accept
 	
 	on complete
@@ -1651,9 +1651,9 @@ mission "Mainsail Intro [1 Freighter]"
 
 mission "Mainsail Intro [2 Freighter]"
 	priority
-	name "Rush delivery to <planet>"
-	description "This shipment of <commodity> needs to get to <destination>, by <date>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "紧急运送至<planet>"
+	description "这批 <commodity> 货物需要在 <date> 前送达 <destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "viral samples" 32
 	passengers 1
 	source "Maelstrom"
@@ -1665,17 +1665,17 @@ mission "Mainsail Intro [2 Freighter]"
 	
 	on offer
 		conversation
-			`As you walk through the spaceport, James sees you from a distance and waves you over. As you approach, you see several people in hazmat suits working behind him. "I've found another job for you," he says.`
+			`你穿过空间港时，詹姆斯远远看见你，招手让你过去。走近时，你看到他身后有几个穿着防护服的人在忙碌。“我给你又找了份活儿，”他说。`
 			choice
-				`	"I hope it isn't related to those workers."`
-				`	"Sorry, I think I'll head off on my own now."`
+				`	“希望和那些工人没关系。”`
+				`	“抱歉，我想我现在得自己走了。”`
 					decline
-			`	"As long as you don't do anything stupid," James says, "like open up the cargo yourself, you'll be safe. <cargo> need to get to the refrigeration vaults on <planet> before they decay, and that means they needs to be there no later than <day>. If we take a direct route, there should be no trouble making the delivery on time. What do you say?"`
+			`	“只要你别干傻事，”詹姆斯说，“比如自己打开货物，就安全。<cargo> 需要在腐烂之前送到 <planet> 的冷藏库，也就是说最晚 <day> 必须到。如果走直航线，按时交货应该没有问题。你怎么说？”`
 			choice
-				`	"Sounds good. Let's do it!"`
-				`	"I'm not loading diseases onto my shiny new starship. Count me out."`
+				`	“听着不错。就这么干！”`
+				`	“我可不想把疾病装上我那崭新的星舰。别算上我。”`
 					decline
-			`	"Great!" he says. "I mentioned this earlier, but you might want to stop by the outfitter and buy a local map. Hyperspace routes aren't always logical, and the last thing you want to do is get lost and end up with canisters full of pathogens no one wants filling up your cargo hold."`
+			`	“太棒了！”他说，“我刚才提到过，但你最好去装备店买个当地星图。超空间航线并不总是合乎逻辑的，你最不想碰到的情况就是迷路，结果货舱里塞满了没人要的病原体罐子。”`
 				accept
 	
 	on complete
@@ -1686,9 +1686,9 @@ mission "Mainsail Intro [2 Freighter]"
 
 mission "Mainsail Intro [3 Freighter]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Hermes"
 	destination "Hestia"
@@ -1697,31 +1697,31 @@ mission "Mainsail Intro [3 Freighter]"
 	
 	on offer
 		conversation
-			`You find James talking with a group of scientists and dock workers, who seem to be old acquaintances of his. As you approach, he says, "Well guys, here comes my ride. I should probably say goodbye." They head back off to do their work. "Even after all my years as a captain," says James, "I still feel uncomfortable every time I land on <origin>. Every day, scientists on this planet work with pathogens capable of wiping out a planet within months. The danger of infection is such that you need a permit just to live here. Can you imagine spending your life on this planet?"`
+			`你发现詹姆斯正和一群科学家及码头工人交谈，他们似乎是他旧识。你走近时，他说：“好了各位，接我的人来了。我该道别了。”他们回去继续工作。“即便当了这么多年船长，”詹姆斯说，“每次降落在<origin>时我还是感到不自在。这颗星球上的科学家每天都在研究能在几个月内毁灭一颗行星的病原体。感染的风险高到需要许可证才能在这里居住。你能想象终其一生待在这颗星球上吗？”`
 			choice
-				`	"Somebody has to do the dangerous stuff so that the rest of humanity can prosper."`
-				`	"It does seem awfully isolated. But some people might enjoy the solitude."`
-			`	"I suppose," he says. "Anyway, I think it's time for the last leg of my journey. Do you think you can give me a lift to <planet>? I'll pay you quite well for your services, of course."`
+				`	“总得有人做危险的事，这样其余人类才能繁荣。”`
+				`	“确实相当与世隔绝。但有些人或许会喜欢这种孤独。”`
+			`	“我想也是，”他说，“总之，该走我旅程的最后一程了。你能载我去<planet>吗？当然，我会付你优厚的报酬。”`
 			choice
-				`	"I can take you there."`
-				`	"Sorry, I was thinking of heading in a different direction from here."`
+				`	“我可以带你去。”`
+				`	“抱歉，我打算往另一个方向走。”`
 					decline
-			`	Once again you walk back to your ship with James. You've heard of <planet> before; one of the Paradise Worlds terraformed from a lifeless ice planet to the largest and most luxurious retirement home in the galaxy. As you look at his utilitarian outfit and modest luggage, something seems off about the idea of James living in such a place.`
+			`	你再次和詹姆斯一起走回飞船。你以前听说过<planet>：一个天堂世界，从无生命的冰行星改造而来，成为银河系最大最豪华的养老院。当你看着他实用的衣服和简朴的行李时，想到詹姆斯要住在那种地方，总觉得有些不对劲。`
 				accept
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Still not convinced that my hold isn't a biohazard."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起跑了几个任务后，把他送到了赫斯提亚。我还是不太相信我的货舱没有沾染生物危害。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Mainsail Intro [0.1 Interceptor]"
 	priority
-	name "Mine asteroids in <system>"
-	description "Go to the <system> system and mine five tons of lead, then land on <planet>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I think you'll find what I want to show you next very interesting, but you'll need to free up <capacity> first. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "在<system>开采小行星"
+	description "前往<system>星系开采五吨铅，然后降落在<planet>。"
+	blocked `当你在太空港与詹姆斯碰面时，他说：“你好，<first>！我想你一定会对我接下来要展示给你的东西很感兴趣，但你需要先腾出<capacity>。所以，你要么取消另一个任务，要么之后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Glory"
 	destination "Pearl"
@@ -1746,7 +1746,7 @@ mission "Mainsail Intro [0.1 Interceptor]"
 		conversation "mining intro"
 	
 	on visit
-		dialog `You've reached <destination>, but you don't have at least five tons of lead in your cargo hold. Locate and mine lead asteroids in this system before returning.`
+		dialog `你已经抵达<destination>，但你的货舱中没有至少五吨铅。在本星系中定位并开采铅质小行星，然后返回。`
 	
 	on complete
 		require "Lead" 5
@@ -1756,9 +1756,9 @@ mission "Mainsail Intro [0.1 Interceptor]"
 
 mission "Mainsail Intro [1 Interceptor]"
 	priority
-	name "Escort convoy to <planet>"
-	description "Escort a merchant convoy to <destination>, along with James."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护卫船队至<planet>"
+	description "与詹姆斯一起，护送一支商人车队到<destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Pearl"
 	destination "Prime"
@@ -1776,21 +1776,21 @@ mission "Mainsail Intro [1 Interceptor]"
 		ship "Freighter" "Paradise Doll"
 		ship "Freighter" "Strange Dream"
 	substitutions
-		"<their>" "his"
+		"<their>" "他的"
 		"<they're>" "he's"
 		"<they are>" "he is"
 	
 	on offer
 		conversation
-			`<origin>'s spaceport is located on the least biodiverse island on the planet; a necessity, given that contaminants introduced by outsiders pose the greatest threat to <origin>'s wildlife sanctuaries. That has not stopped the port's architects from making it as extravagant as possible. Walking over the bridge between the landing peninsula and the main port, you are greeted by a verdant plaza, filled with some of the more resilient species of exotic life present on <origin>. Directly ahead, in the center of the spaceport, is a giant holographic globe showing the origins of the flora and fauna on each island.`
-			`	Before you can get closer, you are knocked aside by several classes of students pouring out of a Star Queen. They seem to be in primary school, excitedly marching behind their teachers while clutching plushies depicting the animals on this planet.`
-			`	You find James standing on a landing pad underneath a large freighter, chatting with a person you assume is the captain. "There you are!" he says. "Captain Donald here says his two ships have always had troubles with pirates when venturing outside of the Deep, and he's looking for an escort to get them safely to <planet>. Are you interested?"`
+			`<origin>的太空港位于该星球生物多样性最低的岛屿上；这是必要的，因为外来者携带的污染物对<origin>的野生动物保护区构成了最大威胁。但这并未阻止港口建筑师将其建造得尽可能奢华。走过连接着陆半岛和主港的桥梁，迎接你的是一个翠绿的广场，其中种满了<origin>上一些更具韧性的外来生命物种。正前方，太空港中央是一个巨大的全息地球仪，展示着各岛屿动植物的起源。`
+			`	你还没来得及靠近，就被几群从一艘星后级飞船涌出的学生撞到一边。他们似乎是小学生，兴奋地跟在老师身后，手里紧抱着描绘该星球动物的毛绒玩具。`
+			`	你发现詹姆斯站在一艘大型货船下方的着陆坪上，正与一位你猜测是船长的人交谈。“你来了！”他说。“这位唐纳德船长说他的两艘船在离开星渊星区域时总是遇到海盗麻烦，他想找一位护卫，安全护送他们到<planet>。你有兴趣吗？”`
 			choice
-				`	"Of course!"`
-				`	"No, sounds a bit too risky for me."`
+				`	“当然有！”`
+				`	“不了，对我来说有点太冒险了。”`
 					decline
-			`	"Great," he says. "Whenever we're ready to leave the planet, they'll take off behind us and follow us to <planet>." As you begin walking away together, he adds in a quieter voice, "While the Paradise Worlds are well guarded against pirates, most of human space, especially the far north, is clamoring with bandits and other ruffians. Normally a fresh pilot like you with no combat reputation would never be offered a mission like this, so try not to mess things up.`
-			`	"Remember that we don't have to kill the pirates, all we have to do is make sure the convoy isn't destroyed. But freighters are slow, so you can't just go skipping through hyperspace as fast as you want; you need to stick around and make sure they're behind you."`
+			`	“太好了，”他说。“等我们准备好离开星球时，他们就会在我们后面起飞，跟着我们前往<planet>。”当你们一起走开时，他压低声音补充道：“虽然天堂世界对海盗防范严密，但人类空间的大部分区域，尤其是极北星区地区，都充斥着强盗和其他恶棍。通常像你这样没有战斗经验的新手绝不可能接到这样的任务，所以尽量别搞砸了。`
+			`	“记住，我们不必杀死海盗，我们只需确保船队不被摧毁。但货船很慢，所以你不能随心所欲地快速穿越超空间；你必须守在附近，确保它们跟在你后面。”`
 				accept
 	
 	on complete
@@ -1801,9 +1801,9 @@ mission "Mainsail Intro [1 Interceptor]"
 
 mission "Mainsail Intro [2 Interceptor]"
 	priority
-	name "Transport to <planet>"
-	description "Transport an informant, along with James, to <destination>, while avoiding a pirate warship."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "护送一名线人以及詹姆斯前往<destination>，途中需避开一艘海盗战舰。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 2
 	source "Prime"
 	destination "Pearl"
@@ -1824,20 +1824,20 @@ mission "Mainsail Intro [2 Interceptor]"
 	on complete
 		payment 40000
 		conversation
-			`As you touch down on <planet>, a team of Navy troopers are ready to escort the informant, who has diligently hidden their appearance in a brown cloak for the entire trip, out of your ship. One of the officers hands you a credit chip worth <payment> before turning back to command their squad. From behind, James says, "Well, you made it in one piece! Still think you want to be piloting an interceptor?"`
+			`当你在<planet>降落时，一队海军士兵已准备护送那名情报员离开你的飞船——情报员在整个旅途中一直勤恳地用一件棕色斗篷隐藏自己的外表。一名军官递给你一张价值<payment>的信用芯片，然后转身去指挥小队。身后传来詹姆斯的声音：“嘿，你总算完好无损地到了！还觉得自己想开截击机吗？”`
 			choice
-				`	"Sure, but I can't wait until I've got a ship big enough to stand up to pirates instead of running from them."`
-				`	"Well, maybe I should've bought a freighter instead."`
-			`	"Better start saving up then," he says. "Remember that you can always make a living as an asteroid miner, if the interceptor life proves too much for you.`
-			`	"If you're willing to take me on one more journey," James says, "meet me in the spaceport bar in a little while.`
+				`	“当然，但我等不及要弄一艘大船，能跟海盗正面对抗，而不是一见他们就逃。”`
+				`	“嗯，也许我该买艘货船才对。”`
+			`	“那你最好开始存钱，”他说。“记住，如果截击机的生活对你来说太难，你总还可以当小行星矿工谋生。`
+			`	“如果你愿意再载我一程，”詹姆斯说，“一会儿到太空港酒吧找我。`
 
 
 
 mission "Mainsail Intro [3 Interceptor]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Pearl"
 	destination "Hestia"
@@ -1846,29 +1846,29 @@ mission "Mainsail Intro [3 Interceptor]"
 	
 	on offer
 		conversation
-			`Even though barely more than a week has passed since the last time you were on <origin>, something about the planet feels off. Maybe it's because the spaceport is quieter today. Maybe it's because you've sensed a pattern in the way the trees have been planted and grown that isn't dissimilar to the metal supports of Prime's spaceport. Or maybe it's because the bridge acting as the sole connection between the landing pads and the main port would break just as easily as your own ship against the fire of a pirate warship.`
-			`	"Something on your mind?" James asks from behind you.`
+			`虽然你上次来<origin>才过了一周多，但这颗星球总有些不对劲。可能因为今天航天港更安静了。可能因为你注意到树木的种植和生长方式与中枢航天港的金属支架别无二致。又或者，那座连接着陆平台和主港的唯一桥梁，就像你的飞船在海盗战列舰的火力下一样脆弱易碎。`
+			`	“你在想什么？”詹姆斯在你身后问道。`
 			choice
-				`	"No, nothing."`
+				`	“没，没什么。”`
 					goto nothing
-				`	"Is this place really any better than Prime?"`
-			`	"Better?" James raises an eyebrow. "I'd be lying if I said one of the largest shipyards in the galaxy was worth less than a glorified petting zoo. There's plenty of people out there who'd agree with me too, and plenty who'd consider my words as nothing short of blasphemy.`
-			`	"Anyway," says James, "would you be willing to take me on one more journey? It's time for me to head for that retirement home, on <planet>."`
+				`	“这地方真的比中枢好吗？”`
+			`	“更好？”詹姆斯挑起眉毛。“要我说银河系最大的造船厂之一还不如一个花哨的宠物动物园，那我就是在撒谎。外面有很多人会同意我的看法，也有很多人会认为我的话简直是亵渎。`
+			`	“总之，”詹姆斯说，“你愿意带我再来一趟吗？我该去<planet>的那家养老院了。”`
 				goto end
 			label nothing
-			`	"Then," says James, "would you be willing to take me on one more journey? It's time for me to head for that retirement home, on <planet>."`
+			`	“那么，”詹姆斯说，“你愿意带我再来一趟吗？我该去<planet>的那家养老院了。”`
 			label end
 			choice
-				`	"Of course."`
-				`	"Sorry, I think I'll go hunt some pirates instead."`
+				`	“当然可以。”`
+				`	“抱歉，我想我还是去猎杀几个海盗吧。”`
 					decline
-			`	Once again you walk back to your ship with James. You've heard of <planet> before; one of the Paradise Worlds terraformed from a lifeless ice planet to the largest and most luxurious retirement home in the galaxy. As you look at his utilitarian outfit and modest luggage, something seems off about the idea of James living in such a place.`
+			`	你再次和詹姆斯一起走回飞船。你以前听说过<planet>：一个天堂世界，从无生命的冰行星改造而来，成为银河系最大最豪华的养老院。当你看着他实用的衣服和简朴的行李时，想到詹姆斯要住在那种地方，总觉得有些不对劲。`
 				accept
 	
 	on complete
 		payment 30000
-		log "Dropped James off on Hestia after running a few missions with him. Escort duty is a risky business."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几次任务后，把他送到了赫斯提亚。护卫任务风险不小。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
@@ -1876,8 +1876,8 @@ mission "Mainsail Intro [3 Interceptor]"
 # Missions for the Delve start
 
 mission "Delve Intro [0]"
-	name "Passenger to <planet>"
-	description "This old-timer captain offered to ride along with you to <destination>, and to give you some tips along the way."
+	name "前往<planet>的乘客"
+	description "这位老资格的船长提出要与你一同前往<destination>，并在途中给你一些建议。"
 	landing
 	passengers 1
 	source "Delve"
@@ -1887,15 +1887,15 @@ mission "Delve Intro [0]"
 	to accept
 		"total ships" > "ships: Fighter" + "ships: Drone"
 	substitutions
-		"<trade>" "stock up on medical goods"
-		"<while>" "While most of the outfits will be far outside your price range"
+		"<trade>" "采购一批医疗物资"
+		"<while>" "虽说绝大多数装备的价格你现在还远承受不起"
 	
 	on offer
 		conversation "intro mission"
 	
 	on accept
-		log "Getting some basic instructions on making a living as a merchant from an old captain named James."
-		log "Minor People" "James" `A old man who accompanied you on your first few jobs as a starship captain.`
+		log "从一位名叫詹姆斯的老船长那里得到了一些作为商人谋生的基本指导。"
+		log "Minor People" "James" `一位在你作为星舰船长的最初几次任务中陪伴你的老人。`
 	
 	on complete
 		payment 10000
@@ -1905,9 +1905,9 @@ mission "Delve Intro [0]"
 
 mission "Delve Intro [1 Transport]"
 	priority
-	name "Transport family to <planet>"
-	description "Bring your new friend James, along with a family, to <destination>. Payment will be <payment>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送家庭至<planet>"
+	description "带你的新朋友詹姆斯，以及一个家庭，前往<destination>。报酬为<payment>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	source "Burthen"
 	destination "Tinker"
 	passengers 5
@@ -1923,11 +1923,11 @@ mission "Delve Intro [1 Transport]"
 	
 	on offer
 		conversation
-			`Every step on <origin> is a struggle. By the time you reach the spaceport cafe, you have just enough energy to slump into a chair with steel legs as thick as its cushions. After you have waited for a few minutes, James comes up. Following him is a family of four: a couple pushing along a pram, with a young child following close behind. While James would be below-average height back on Earth, he easily towers over the Burthen natives.`
-			`	"Captain <last>!" he says. "Wonderful to see you again. I was just talking to this family. They've been having trouble finding a single ship that can give them all passage, but I told them that your shuttlecraft has plenty of bunks. They can pay you <payment> to take them to <planet>, which is just a few jumps away from Earth, and is a planet well worth visiting in its own right. What do you say?"`
-			`	The husband chimes in. "We were afraid that if we were split across multiple ships, we wouldn't be able to keep an eye on Faiza." He gestures towards the child in the pram. "She hasn't been taking Burthen's gravity well."`
+			`在<origin>上每走一步都是一种挣扎。当你终于到达太空港咖啡馆时，只剩下足够瘫进一把椅子的力气——那椅子的钢腿和坐垫一样粗。等了几分钟后，詹姆斯走了过来。他身后跟着一家四口：一对夫妇推着一辆婴儿车，后面紧跟着一个小孩。詹姆斯在地球上算矮个子，但在重负星本地人面前却轻易高出许多。`
+			`	“<last>船长！”他说。“很高兴再次见到您。我刚刚在和这家人聊天。他们一直找不到一艘能载所有人同行的船，但我告诉他们您的穿梭艇有足够的铺位。他们可以付给您<payment>，让您把他们送到<planet>，那里离地球只有几跳的距离，本身也是一个非常值得一去的行星。您觉得怎么样？”`
+			`	丈夫插话道。“我们担心如果分乘多艘船，就没法照看法伊扎了。”他朝婴儿车里的孩子示意。“她一直不适应重负星的重力。”`
 			choice
-				`	"Welcome aboard!"`
+				`	“欢迎登船！”`
 				`	"Sorry, I think I'd rather go off in my own direction from here."`
 					decline
 			`	You and James direct the family to your ship. Looks like you're about to set off on your first real job...`
@@ -1936,19 +1936,19 @@ mission "Delve Intro [1 Transport]"
 	on complete
 		payment 30000
 		conversation
-			`Along the journey, you learned more about the family you are transporting and why they are moving to <planet>. "There's Faiza's condition, of course, but we've always wanted to move offworld since before our first child was born," says the mother, Carlijn. "My husband and I constantly moved between different mining towns as we grew up. We didn't want our children to go through the same thing."`
-			`	You say goodbye to them and wish them well, and as agreed they pay you <payment>. You are already well on your way towards paying down your mortgage!`
-			`	As James leaves the ship, he says, "Again, if you're okay with continuing to give me a ride, just meet me in the spaceport."`
+			`旅途过程中，你更了解了这趟运输的一家人，以及他们为什么要搬到<planet>。“当然是因为法伊扎的状况，但我们早在第一个孩子出生前就一直想搬离母星了，”母亲卡莱恩说。“我和我丈夫在成长过程中不断在不同的采矿城镇之间搬迁。我们不想让自己的孩子也经历同样的事。”`
+			`	你向他们告别并祝他们好运，按照约定他们付给你<payment>。你离还清贷款又近了一大步！`
+			`	詹姆斯离开飞船时说：“再说一次，如果你还愿意继续载我一程，就在太空港找我。”`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission.)`
+			`	（像之前一样，点击“太空港”按钮继续本任务。）`
 
 
 
 mission "Delve Intro [2 Transport]"
 	priority
-	name "Tourists to <planet>"
-	description "These tourists will pay you <payment> to take them to <destination>. Your new friend James will also be tagging along for the ride."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送游客至<planet>"
+	description "这些游客会付给你<payment>，让你带他们去<destination>。你的新朋友詹姆斯也会一起同行。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 4
 	source "Tinker"
 	destination "Earth"
@@ -1957,38 +1957,38 @@ mission "Delve Intro [2 Transport]"
 	
 	on offer
 		conversation
-			`It is raining.`
-			`	A deep fog envelops the spaceport city on <origin>. In the distance, you can see the faded lights of distant starships drifting like phantoms. On the streets below, harsh rain whips against the congested traffic, blurring it into a muddy mess of red light.`
-			`	By the time you see James, he's accompanied by three others. "Hi there, Captain <last>!" says James. "Interested in carrying some tourists?"`
+			`下雨了。`
+			`	浓雾笼罩着<origin>上的太空港城市。远处，可以看到遥远星舰的暗淡灯光如幽灵般飘荡。下方的街道上，暴雨猛烈抽打着拥挤的交通，将其模糊成一片泥泞的红光。`
+			`	当你见到詹姆斯时，他身边还跟着三个人。“你好啊，<last>船长！”詹姆斯说，“有兴趣载些游客吗？”`
 			choice
-				`	"Where are you headed?"`
-				`	"No thanks, I think I'll strike off on my own now."`
+				`	“你们要去哪儿？”`
+				`	“不了，谢谢，我想我现在该独自上路了。”`
 					decline
-			`	"To <planet>," one of them eagerly replies.`
+			`	“去<planet>，”其中一人急切地回答。`
 			choice
-				`	"I can take you there."`
-				`	"Sorry, but I'd like to avoid <planet> right now."`
+				`	“我可以带你去。”`
+				`	“抱歉，但我现在想避开<planet>。”`
 					decline
-			`	"Great," he says. "This is Chiaki, Sarika, and Catrina. Let's help them carry their luggage to your ship." As you begin walking back, slightly ahead of them, James whispers to you, "Tourists are always a good way to make money. They're on vacation, so they don't mind paying a bit extra. But no point in your cargo space going to waste, so take a look at the job board and see if there are any delivery missions we can run at the same time."`
+			`	“太好了，”他说，“这是千明、萨里卡和卡特里娜。我们来帮他们把行李搬上你的船。”当你开始往回走，稍微领先他们一点时，詹姆斯低声对你说：“游客总是赚钱的好办法。他们在度假，不介意多付点钱。但你的货舱空间也不能浪费，所以去看看任务板，看看有没有可以同时跑的运输任务。”`
 				accept
 	
 	on complete
 		payment 14000
 		conversation
-			`As you make the final landing descent to the surface of Earth, Sarika is on the edge of her seat as she rattles off all the landmarks you pass over, of which you recognize surprisingly few. James tries to show off his own knowledge of the planet's history, but for every story he offers, Sarika responds with five more.`
-			`	Catrina lets out a laugh. "Give it a rest, old man. Sarika's been obsessed with the homeworld since she was in diapers." Then, she leans on Chiaki's shoulder. "The real question I wanna ask is why you of all people haven't said a word since re-entry. I mean, isn't seeing Earth again bringing up any memories?"`
-			`	Chiaki's reply is pointed. "I left this place for a reason." When she sees Catrina's cheeky smile fade, she quickly adds, "It's nothing serious. I'd just prefer making new memories with the two of you than dwelling on the past."`
-			`	You carefully follow the instructions from the air traffic controller to a landing pad halfway up the spaceport and bring your ship to rest. After all you've done for the Syndicate to escape this planet, you've returned.`
-			`	As your passengers disembark and you collect your payment, James pulls the trio aside and says, "Watch out for pickpockets, okay? And take it from an experienced captain, you do not want to be out after dark here. Play it safe, and have a great time."`
-			`	After they leave, James chuckles. "Can't say I've ever seen an Earth fanatic and an Earth native in the same group before, let alone be on good terms. That's one of the perks of being a starship captain, though: you get to have the most unique experiences in the galaxy." Then, he picks up his luggage and adds, "Same deal as before. If you want to keep traveling together, meet me in the spaceport."`
+			`当你最终降落到地球表面时，萨里卡坐在座位边缘，滔滔不绝地报出你们飞过的所有地标，而你惊讶地发现自己认出来的寥寥无几。詹姆斯试图炫耀他对这颗行星历史的了解，但他每讲一个故事，萨里卡就能回敬五个。`
+			`	卡特里娜笑了一声。“歇歇吧，老头子。萨里卡从穿尿布时就对母星痴迷不已。”然后她靠在千明的肩上。“我真正想问的是，为什么偏偏是你从再入大气层起就一言不发？我是说，再见到地球难道没有勾起任何回忆吗？”`
+			`	千明的回答一针见血。“我离开这里自有原因。”当她看到卡特里娜得意的笑容消失时，赶紧补充道：“没什么大不了的。我只是更愿意和你们俩一起创造新的回忆，而不是沉溺于过去。”`
+			`	你小心翼翼地听从空中交通管制员的指示，降落在太空港半山腰的一个着陆台上，让飞船停稳。在为辛迪加做了那么多事以逃离这颗行星之后，你回来了。`
+			`	当你的乘客们下船，你收取报酬时，詹姆斯把三人拉到一边说：“小心扒手，知道吗？听我这位经验丰富的船长一句劝，天黑后你绝对不想待在外面。安全第一，祝你们玩得开心。”`
+			`	他们离开后，詹姆斯轻声笑了笑。“以前从没见过地球狂热者和地球本地人同在一个队伍里，更别说还相处融洽。不过，这就是当星舰船长的好处之一：你能体验到银河系中最独特的经历。”然后他提起行李补充道：“和之前一样。如果你想继续一起旅行，就到太空港来找我。”`
 
 
 
 mission "Delve Intro [3 Transport]"
 	priority
-	name "Bring James to <planet>"
-	description "Bring James to <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯带到<destination>，那里已为他预留了养老院的位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Earth"
 	destination "Hestia"
@@ -1997,30 +1997,30 @@ mission "Delve Intro [3 Transport]"
 	
 	on offer
 		conversation
-			`<origin> is the same as it's always been. Homeless men wrapped in old army blankets beg money from well-dressed businessmen. Soldiers in Navy uniforms walk by in groups of ten or twenty, driving the beggars to hide behind trashcans or do their best impressions of respectable citizens until they pass. Starship captains haggle with merchants, speaking of sums greater than the income of some neighborhoods. Flashes of light come from various landing bays as poorly-protected welders risk their health to repair ships destined for places they can only dream of.`
-			`	When you find James, he's standing by a window, looking out at the city, watching the starships taking off and landing in a continuous stream. "You're from Earth, aren't you?" You nod.`
-			`	"Thought so," James replies. "I've seen all manner of reactions to experiencing <origin> in person for the first time. Awe. Surprise. Respect. Disgust. Their second reactions are just as varied. Some take it as a reminder of humanity's ever-present base nature; others see it as an inexcusable failure of the Republic and its predecessors." He smirks. "Only ever seen one kind of reaction from an Earth native. Maybe you folk know something the rest of us don't."`
-			`	After taking one last look out the window, he says, "Anyway, we're nearing my destination. Are you willing to take me on one last trip? I need to get to <destination>, and of course I'll pay you quite well to take me there."`
+			`<origin>一直都没变过。无家可归的人裹着旧军毯，向衣着光鲜的商人乞讨；穿着海军制服的士兵十人或二十人一组走过，逼得乞丐们躲到垃圾桶后面，或者尽力装出正派市民的模样，直到他们过去。星舰船长们与商人讨价还价，谈论的金额比某些街区的整年收入还高。各个降落港不时闪过弧光，那是防护不良的焊工们冒着健康风险在修理船只——这些船的目的地，是他们做梦也去不了的地方。`
+			`	找到詹姆斯时，他正站在窗边，眺望城市，看着星舰川流不息地起降。“你来自地球，对吧？”你点了点头。`
+			`	“我就知道，”詹姆斯回答。“初次亲眼见到<origin>的人，反应我见得多了。敬畏、惊讶、尊重、厌恶。他们的第二反应也同样五花八门。有人将其视为人性中永远存在的卑劣本性的提醒；另一些人则将其视为共和国及其前任不可原谅的失败。”他得意地一笑。“唯独从地球来的人，我只见过一种反应。说不定你们知道些我们不知道的东西。”`
+			`	最后望了一眼窗外，他说：“总之，我们快到我的目的地了。你愿意送我这最后一程吗？我需要去<destination>，当然我会付给你丰厚的报酬。”`
 			choice
-				`	"Of course."`
-				`	"Sorry, but I was planning on heading out in a different direction from here."`
+				`	“当然可以。”`
+				`	“抱歉，我本打算从这里往别的方向走。”`
 					decline
-			`	Once again you walk back to your ship with James. Once you get there, as he's stowing his luggage, you pull up the information your computer has on <planet>. It's one of the "Paradise Worlds," terraformed to have a perfect climate, accessible only to the very wealthy. You wonder whether James is going to be able to fit in there.`
+			`	你再次和詹姆斯一起走回飞船。到了之后，他放行李时，你调出电脑上关于<planet>的信息。它是“天堂世界”之一，经过地球化改造，拥有完美的气候，只有极富有的人才能进入。你好奇詹姆斯在那里是否适应。`
 				accept
 	
 	on complete
 		payment 10000
-		log "Dropped James off on Hestia after running a few missions with him. Met a few tourists and revisited Earth along the way."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "与詹姆斯一起执行了几次任务后，把他留在了赫斯提亚。途中遇到了一些游客，并再次造访了地球。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Delve Intro [1 Freighter]"
 	priority
-	name "Delivery to <planet>"
-	description "Travel with your new friend James to <destination>, and deliver <cargo>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "与你的新朋友詹姆斯一同前往<destination>，并交付<cargo>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "lithium" 27
 	passengers 1
 	source "Burthen"
@@ -2035,12 +2035,12 @@ mission "Delve Intro [1 Freighter]"
 	
 	on offer
 		conversation
-			`Every step on <origin> is a struggle. By the time you reach the spaceport cafe, you have just enough energy to slump into a chair with steel legs as thick as its cushions. After taking a rest, you find James talking with a woman who is an offworlder just like you, judging by her height and how labored her movements are. "Captain <last>!" says James. "Glad you could join us. Mayumi is a visiting representative of one of <origin>'s largest mining companies, and she's looking for a captain to help move <cargo> to <destination> for processing. Are you willing to help out? They'll pay for the work, of course."`
+			`在<origin>上的每一步都是一种挣扎。等你终于走到太空港咖啡馆时，已经精疲力竭，只能瘫倒在一把钢铁椅腿和坐垫一样厚的椅子上。休息片刻后，你发现詹姆斯正在和一个非本星球的女性交谈——从她的身高和动作的吃力程度来看，她和你一样是外星人。“<last>船长！”詹姆斯说道。“很高兴你能来。真由美是<origin>最大矿业公司之一的来访代表，她正在找一位船长帮忙把<cargo>运到<destination>加工。你愿意帮忙吗？当然，他们会付报酬的。”`
 			choice
-				`	"If they're paying, then I'm in."`
-				`	"Sorry, but I think I'm going to head out on my own."`
+				`	“只要给钱，我就干。”`
+				`	"抱歉，我想我还是自己走吧。"`
 					decline
-			`	"Great!" says James. "They'll be loading up your ship shortly."`
+			`	“太好了！”詹姆斯说道。“他们马上就会给你的船装货。”`
 				accept
 	
 	on complete
@@ -2051,9 +2051,9 @@ mission "Delve Intro [1 Freighter]"
 
 mission "Delve Intro [2 Freighter]"
 	priority
-	name "Rush delivery to <planet>"
-	description "This shipment of <commodity> needs to get to <destination>, by <date>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "紧急运送至<planet>"
+	description "这批 <commodity> 货物需要在 <date> 前送达 <destination>。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	cargo "thorium" 33
 	passengers 1
 	source "Tinker"
@@ -2065,19 +2065,19 @@ mission "Delve Intro [2 Freighter]"
 	
 	on offer
 		conversation
-			`It is raining.`
-			`	A deep fog envelops the spaceport city on <origin>. In the distance, you can see the faded lights of distant starships drifting like phantoms. On the streets below, harsh rain whips against the congested traffic, blurring it into a muddy mess of red light.`
-			`	As you walk through the spaceport, James sees you from a distance and waves you over. As you approach, you see several people in radiation suits working behind him. "I've found another job for you," he says.`
+			`下雨了。`
+			`	浓雾笼罩着<origin>上的太空港城市。远处，可以看到遥远星舰的暗淡灯光如幽灵般飘荡。下方的街道上，暴雨猛烈抽打着拥挤的交通，将其模糊成一片泥泞的红光。`
+			`	你穿过太空港时，詹姆斯远远看到你，招手示意你过去。走近时，你看到他身后有几个穿着辐射服的人在工作。“我给你找了另一个活儿，”他说。`
 			choice
-				`	"I hope it isn't related to those workers."`
-				`	"Sorry, I think I'll head off on my own now."`
+				`	“希望和那些工人没关系。”`
+				`	“抱歉，我想我现在得自己走了。”`
 					decline
-			`	"As long as you don't do anything stupid," James says, "like open up the cargo yourself, you'll be safe. <cargo> needs to get to <planet> to help with an urgent reactor fuel shortage, and that means it needs to be there no later than <day>. If we take a direct route, there should be no trouble making the delivery on time. What do you say?"`
+			`	“只要你别做蠢事，”詹姆斯说，“比如自己打开货箱，就没事。<cargo>需要运到<planet>去帮助解决紧急的核燃料短缺问题，也就是说最迟<day>必须到那里。如果我们走直线航线，准时送达应该没问题。你觉得怎么样？”`
 			choice
-				`	"Sounds good. Let's do it!"`
-				`	"No way am I loading up my shiny new starship with radioactive rocks. Count me out."`
+				`	“听着不错。就这么干！”`
+				`	“我才不会把闪亮的新飞船装上放射性石头呢。别算我。”`
 					decline
-			`	"Great!" he says. "I mentioned this earlier, but you might want to stop by the outfitter and buy a local map. Hyperspace routes aren't always logical, and the last thing you want to do is get lost and end up with a pile of nuclear fuel no one wants filling up your cargo hold."`
+			`	“太好了！”他说，“我先前提过，但你可能该去装备店买张本地星图。超空间航道不一定总是有逻辑的，你最不想做的事就是迷路，结果货舱里堆着一堆没人要的核燃料。”`
 				accept
 	
 	on complete
@@ -2088,9 +2088,9 @@ mission "Delve Intro [2 Freighter]"
 
 mission "Delve Intro [3 Freighter]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Relic"
 	destination "Hestia"
@@ -2102,17 +2102,17 @@ mission "Delve Intro [3 Freighter]"
 	
 	on complete
 		payment 10000
-		log "Dropped James off on Hestia after running a few missions with him. Still not convinced that my hold isn't radioactive."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几个任务后，把他送到了赫斯提亚。我仍然不相信我的货舱没有放射性。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 mission "Delve Intro [1 Interceptor]"
 	priority
-	name "Escort convoy to <planet>"
-	description "Escort a merchant convoy to <destination>, along with your new friend James."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护卫船队至<planet>"
+	description "护送一支商人车队前往<destination>，和你的新朋友詹姆斯一起。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	source "Burthen"
 	destination "Lodestone"
@@ -2139,18 +2139,18 @@ mission "Delve Intro [1 Interceptor]"
 		ship "Freighter" "Spring Coming"
 		ship "Freighter" "Paparazzi Party"
 	substitutions
-		"<their>" "her"
+		"<their>" "她的"
 		"<they're>" "she's"
 		"<they are>" "she is"
 	
 	on offer
 		conversation
-			`Every step on <origin> is a struggle. By the time you reach the spaceport cafe, you have just enough energy to slump into a chair with steel legs as thick as its cushions. After taking a rest, you find James standing on a landing pad underneath a large freighter, chatting with a woman you assume is the captain. "There you are!" he says. "Captain Rawda here says her two ships have always had trouble with pirates in the Core, and she's looking for an escort to get them safely to <planet>. Are you interested?"`
+			`在<origin>上，每走一步都很艰难。好不容易走到太空港的咖啡馆，你已经累得瘫进一把椅子里——钢制椅腿和椅垫一样粗。休息了一会儿，你看到詹姆斯站在一艘大型货船下方的起降台上，正和一个女人聊天，你猜她就是船长。“你来了！”他说，“这位罗达船长说她的两艘船在核心星区经常被海盗骚扰，她想找个护卫护送它们安全抵达<planet>。有兴趣吗？”`
 			choice
-				`	"Of course!"`
-				`	"No, sounds a bit too risky for me."`
+				`	“当然有！”`
+				`	“不了，对我来说有点太冒险了。”`
 					decline
-			`	"Great," he says. "Whenever we're ready to leave the planet, they'll take off behind us and follow us to <planet>." As you begin walking away together, he adds in a quieter voice, "Normally a fresh pilot like you with no combat reputation would never be offered a mission like this, so try not to mess things up. Remember that we don't have to kill the pirates, all we have to do is make sure the convoy isn't destroyed. But freighters are slow, so you can't just go skipping through hyperspace as fast as you want; you need to stick around and make sure they're behind you."`
+			`	“太好了，”他说，“等我们准备好离开这颗星球，他们就起飞跟在我们后面，一起前往<planet>。”你们并肩走开时，他压低声音补充道：“像你这样毫无战斗名声的新手飞行员，平时根本接不到这种任务，所以尽量别搞砸了。记住，我们不需要消灭海盗，只要确保船队不被摧毁就行。但货船速度很慢，你不能只顾着自己飞快地跃迁；你得等他们跟上来。”`
 				accept
 	
 	on visit
@@ -2163,9 +2163,9 @@ mission "Delve Intro [1 Interceptor]"
 
 mission "Delve Intro [2 Interceptor]"
 	priority
-	name "Delivery to <planet>"
-	description "Deliver <commodity> to <destination>, while avoiding pirate attacks."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "运送至<planet>"
+	description "将<commodity>运送到<destination>，同时避免海盗袭击。"
+	blocked `你在太空港见到詹姆斯时，他说：“嗨，<first>！我又给你找了个任务，但看来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来继续这个任务。抱歉！”`
 	passengers 1
 	cargo "niobium" 10
 	source "Lodestone"
@@ -2192,9 +2192,9 @@ mission "Delve Intro [2 Interceptor]"
 
 mission "Delve Intro [2.1 Interceptor]"
 	priority
-	name "Mine asteroids in Procyon"
-	description "Go to the Procyon system and mine five tons of silicon, then land on <planet>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I think you'll find what I want to show you next very interesting, but you'll need to free up <capacity> first. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "南河三采矿"
+	description "前往南河三星系，开采五吨硅，然后在<planet>着陆。"
+	blocked `当你在太空港与詹姆斯碰面时，他说：“你好，<first>！我想你一定会对我接下来要展示给你的东西很感兴趣，但你需要先腾出<capacity>。所以，你要么取消另一个任务，要么之后再来继续这个任务。抱歉！”`
 	passengers 1
 	mark "Procyon"
 	source "Ada"
@@ -2212,7 +2212,7 @@ mission "Delve Intro [2.1 Interceptor]"
 		unmark "Procyon"
 	
 	on visit
-		dialog `You've reached <destination>, but you don't have at least five tons of silicon in your cargo hold. Locate and mine silicon asteroids in Procyon or another system before returning.`
+		dialog `你已经抵达<destination>，但货舱里没有至少5吨硅。在返回之前，先去南河三或其他星系寻找并开采硅质小行星。`
 	
 	on complete
 		require "Silicon" 5
@@ -2222,9 +2222,9 @@ mission "Delve Intro [2.1 Interceptor]"
 
 mission "Delve Intro [3 Interceptor]"
 	priority
-	name "Bring James to <planet>"
-	description "Drop James off on <destination>, where he has a spot reserved in a retirement home."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I have one final mission for you, but you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	name "护送詹姆斯到<planet>"
+	description "将詹姆斯送到<destination>，他在那里的一家养老院预订了位置。"
+	blocked `当你在太空港与詹姆斯会面时，他说：“嗨，<first>！我有一个最终任务给你，但你需要<capacity>才能接取。所以，你得取消另一个任务，或者稍后再回来继续这个任务。抱歉！”`
 	passengers 1
 	source "Relic"
 	destination "Hestia"
@@ -2236,78 +2236,78 @@ mission "Delve Intro [3 Interceptor]"
 	
 	on complete
 		payment 10000
-		log "Dropped James off on Hestia after running a few missions with him. Escort duty is a risky business."
-		log "Minor People" "James" `He currently resides on Hestia, having retired from life as a merchant captain.`
+		log "和詹姆斯一起执行了几次任务后，把他送到了赫斯提亚。护卫任务风险不小。"
+		log "Minor People" "James" `他目前定居于赫斯提亚，已从商船船长的生涯中退休。`
 		conversation "end of intro missions"
 
 
 
 substitutions
 	"<intro end suit>" ""
-	"<intro end suit>" " As a lifelong textile worker, you automatically note that the suit is made of real wool, very finely woven, and that it has been tailored to fit him."
+	"<intro end suit>" " 作为一名大半辈子都在纺织业打拼的工人，你下意识地注意到这套西装是上等纯羊毛料，织造极细，且经过精细的量身剪裁。"
 		has "start: default"
-	"<intro end suit>" " You recognize a logo on the collar of the suit that belongs to a famous - and expensive - brand."
+	"<intro end suit>" " 你认出西装衣领上的标志属于一个声名显赫——且价值不菲——的知名品牌。"
 		has "start: paradise"
 
 conversation "end of intro missions"
-	`As you are piloting your ship down to land on <planet>, James disappears into his bunk room. After the ship has landed he comes out, no longer in the grease-stained coveralls he's been wearing up until now, but in a suit.<intro end suit> He smooths down the front of the suit distractedly and then looks at his hands as if unsure of where to put them. "How do I look?" he asks.`
+	`当你驾驶飞船在<planet>降落时，詹姆斯消失在他的铺位里。飞船着陆后他出来了，不再是之前一直穿的沾满油渍的工作服，而是一身西装。<intro end suit>他心不在焉地抚平西装前襟，然后看着自己的手，好像不知道该放在哪里。“我看起来怎么样？”他问道。`
 	choice
-		`	"Like a millionaire."`
+		`	“像个百万富翁。”`
 			goto millionaire
-		`	"You look great."`
+		`	“你看起来好极了。”`
 			goto great
 	
 	label millionaire
-	`	"Well, that's the other thing about being a captain," he says. "You can get filthy rich."`
+	`	“嗯，当船长还有另一个好处，”他说，“你可以变得超级有钱。”`
 		goto next
 	
 	label great
-	`	"Let's hope the locals think so," he says.`
+	`	“希望当地人这么想，”他说。`
 	
 	label next
-	`	There's an awkward pause. You're unsure of how to respond. Then he says, "Thing is, this here planet is one of the most exclusive retirement communities in the galaxy. Plenty of the locals are probably worth more than a billion credits. But they're mostly financial or business types, or old money. I'm rich enough to be here, but I just hope they're willing to socialize with someone who made his fortune flying a ship.`
-	`	"Before you go, is there anything else you'd like to ask me about being a new pilot?"`
+	`	尴尬地停顿了一下。你不知道该怎么回答。然后他说：“问题是，这颗星球是银河系最高端的退休社区之一。这里的居民很可能身价超过十亿信用点。但他们大多是金融或商界人士，或者继承了祖辈的财富。我虽然富裕到足以待在这里，但我只希望他们愿意同我这样一个靠开飞船发家致富的人打交道。`
+	`	“在你走之前，关于做一名新手飞行员还有什么想问的吗？”`
 	label choices
 	choice
-		`	"Where should I go if I want to avoid pirates?"`
+		`	“如果我想避开海盗，应该去哪里？”`
 			to display
 				not "intro end: pirates"
-		`	"Have you ever met any aliens?"`
+		`	“你遇到过外星人吗？”`
 			to display
 				not "intro end: aliens"
 			goto aliens
-		`	"Are there any good trade routes you can give me?"`
+		`	“你能告诉我一些好的贸易路线吗？”`
 			to display
 				not "intro end: trade"
 			goto trade
-		`	"Where can I find well-paying jobs?"`
+		`	“哪里能找到报酬高的工作？”`
 			to display
 				not "intro end: jobs"
 			goto jobs
-		`	"I'm ready to go out on my own."`
+		`	“我准备好独自闯荡了。”`
 			goto end
 	action
 		set "intro end: pirates"
-	`	"Stay near Sol and around the Paradise Worlds. The Navy stays there the most, so even if a pirate does show up, they won't last long. The Deep is also a pretty safe place, as they have their own security forces. Once you start moving farther south, things get riskier. The worlds down there don't bring in as much tax revenue as the Paradise Worlds do, so the Navy tends to ignore them. You'll find some local militia to back you up, but they're nothing compared to one of the Navy's Cruisers.`
-	`	"If you do end up in pirate space, then sometimes the best defense is no defense at all. Pirates will prioritize fighting armed threats over unarmed transports, so if you don't install any weapons, you might be able to sneak away."`
+	`	“待在太阳附近和乐园世界周边。海军在那里驻扎最多，所以即使有海盗出现，他们也撑不了多久。幽海星也很安全，他们有自己的安保部队。一旦你往南走，风险就大了。那边的世界税收不如乐园世界高，海军往往忽视它们。你会找到一些当地民兵支援，但他们跟海军的巡洋舰没法比。`
+	`	“如果你真的进入了海盗空间，有时最好的防御就是没有防御。海盗会优先攻击武装威胁而不是非武装的运输船，所以如果你不安装武器，说不定能偷偷溜走。”`
 		goto choices
 	
 	label aliens
 	action
 		set "intro end: aliens"
-	`	"I've spoken with the Quarg a few times, but what captain hasn't? You'll find them down south by Tarazed. I haven't met any other aliens," he pauses for a moment, "as far as I'm aware, that is, but I'm sure they're out there if you go looking hard enough. I've explored all of Republic space in my many years, but there are far more systems out there that we don't even know how to reach."`
+	`	“我和夸格人谈过几次，但哪个船长没谈过？你会在南边靠近河鼓三的地方找到他们。我没有遇到过其他外星人，”他停顿了一下，“据我所知是这样，但我相信如果你足够努力去寻找，他们就在那里。我这些年来探索了整个共和国空间，但还有更多我们甚至不知道怎么到达的星系。”`
 		goto choices
 	
 	label trade
 	action
 		set "intro end: trade"
-	`	"One of the most reliable trade routes is to bring food from the Dirt Belt to Earth or the other urban worlds around it. There are billions of mouths to feed on those worlds, and the Dirt Belt sells food for cheap, so it's a great place to get started. Just remember though that if you use the same trade route for too long, you might end up causing the prices to stabilize. The Dirt Belt can only produce food and people can only eat it so fast, so change up your trade routes if you notice the return getting worse."`
+	`	“最可靠的贸易路线之一是把食物从尘带运到地球或周围的都市世界。那些世界有数十亿张嘴要喂，而尘带的食物很便宜，所以是起步的好地方。但记住，如果你长时间使用同一条路线，可能会导致价格稳定。尘带只能生产那么多食物，人们也只能吃得那么快，所以如果你发现回报变差，就换条路线。”`
 		goto choices
 	
 	label jobs
 	action
 		set "intro end: jobs"
-	`	"Getting good jobs is more about having the space to accept the good jobs than it is finding them, but if you're looking for jobs that pay well for little effort, then you'll want to watch out around the holidays. There's always a big celebration on Earth every April 22nd, Earth Day, so pay attention to the job board in the months leading up to that. The people down in the Rim have some month-long celebration every August that you should look out for too."`
+	`	“找到好工作更多是看你有空间接好活，而不是找到它们，但如果你想找那种轻松又高薪的工作，那就留意节假日。每年4月22日地球日，地球上都有大型庆祝活动，所以在那之前的几个月注意任务板。边疆那边每年八月也有一个持续一个月的大型庆祝活动，你也该留意。”`
 		goto choices
 		
 	label end
@@ -2316,4 +2316,4 @@ conversation "end of intro missions"
 		clear "intro end: aliens"
 		clear "intro end: trade"
 		clear "intro end: jobs"
-	`	James hands you a credit chip worth <payment>, and says, "Best of luck to you, Captain. Don't hesitate to look me up if you're ever in the area. And remember to check the spaceports wherever you land. You never know who you'll find wandering around there."`
+	`	詹姆斯递给你一张价值<payment>的信用芯片，说：“祝你好运，船长。如果你到这一带，一定要来找我。记住，无论在哪里着陆，都要检查太空港。你永远不知道会碰到谁在那里闲逛。”`

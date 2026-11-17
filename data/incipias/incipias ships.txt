@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Venta"
-	"plural" "Ventae"
+	"plural" "文塔级"
 	"sprite" ship/venta
 	"thumbnail" thumbnail/venta
 	"administrative cost" 6
@@ -67,10 +67,10 @@ ship "Venta"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "When the Hicemus came to power they needed a ship to symbolize their strength. With six guns, the Venta is the most powerful ship in the Incipias' history. Thanks to its sleek and aerodynamic design it is as comfortable hunting down outlaws in space as in the clouds of a gas giant."
+	description "希塞穆斯掌权后，需要一艘能象征其力量的飞船。装备六门炮的文塔是因西皮亚斯历史上最强大的飞船。凭借其流线型气动设计，无论是在太空追捕亡命徒，还是在气态巨行星的云层中作战，都同样得心应手。"
 
 ship "Nimbus"
-	"plural" "Nimbi"
+	"plural" "骤雨星级"
 	"sprite" ship/nimbus
 	"thumbnail" thumbnail/nimbus
 	"administrative cost" 4
@@ -121,8 +121,8 @@ ship "Nimbus"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Nimbus is the first spaceship that the Incipias built that was truly able to navigate through a system. Since it was first manufactured it has been cherished among wealthier captains and a dream of captains just starting out."
-	description "	Although the Nimbus is labeled as a medium warship, it is multipurpose; whether one uses it for mining, passenger transport or cargo, it will perform its job nicely. It is only occasionally used in combat because the Incipias are not currently fighting open wars."
+	description "骤雨星是因西皮亚斯建造的第一艘真正能够实现星系内导航的飞船。自首次建造以来，它一直受到富裕船长的珍视，也是初出茅庐的船长们的梦想之船。"
+	description "	尽管骤雨星被归类为中型战舰，但它用途广泛；无论是用于采矿、客运还是货运，都能出色完成任务。它仅在偶发战斗中被使用，因为因西皮亚斯目前并未进行公开战争。"
 
 ship "Nimbus" "Nimbus (Civilian)"
 	outfits
@@ -144,7 +144,7 @@ ship "Nimbus" "Nimbus (Mining)"
 		"MH Red-Class Steering"
 
 ship "Nimbo Stratus"
-	"plural" "Nimbo Strati"
+	"plural" "雨层云级"
 	"sprite" ship/stratus
 	"thumbnail" thumbnail/stratus
 	"administrative cost" 2
@@ -184,10 +184,10 @@ ship "Nimbo Stratus"
 	explode "medium explosion" 10
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "Mining has always been a big business in Incipias society, which is why the Nimbo Stratus is the most common ship for beginning captains. Its cheap price tag and ability to bring money in quickly ensure its continuing popularity. While the Stratus could theoretically be used in combat, it stands no chance against the Nimbus and therefore has never been used by the Hicemus military forces."
+	description "在因西皮亚斯社会中，采矿一直是一项大生意，这就是为何雨层云号是起始船长们最常见的飞船。它低廉的价格和快速赚钱的能力确保了它持续受欢迎。虽然雨层云号理论上可用于战斗，但它完全不是骤雨星的对手，因此从未被希塞穆斯军方使用过。"
 
 ship "Nimbo Cirrus"
-	"plural" "Nimbo Cirri"
+	"plural" "雨卷云级"
 	"sprite" ship/cirrus
 	"thumbnail" thumbnail/cirrus
 	"administrative cost" 2
@@ -225,7 +225,7 @@ ship "Nimbo Cirrus"
 	explode "medium explosion" 20
 	explode "large explosion" 30
 	"final explode" "final explosion medium"
-	description "When Pon'tes was built, the need arose for a ship that could carry large amounts of material and supplies into orbit. When the Nimbus proved insufficient at this task, the Nimbo Cirrus, a specialized cargo ship, was built. The inhabitants of Pon'tes rely on its regular deliveries for basic goods and equipment."
+	description "当庞特斯空间站建成后，需要一种能将大量物资和补给运入轨道的飞船。当骤雨星被证明无法胜任此任务时，雨卷云号——一种专用货船——被建造出来。庞特斯空间站的居民依赖其定期运送来获取基本商品和设备。"
 
 ship "Gero"
 	"sprite" ship/gero
@@ -265,4 +265,4 @@ ship "Gero"
 	explode "medium explosion" 20
 	explode "large explosion" 30
 	"final explode" "final explosion medium"
-	description "The completion of Pon'tes caused a huge increase in travel between the station and Redias. Designers from Alto Shipyards quickly saw an opportunity and so the Incipias' first transport ship was built."
+	description "庞特斯空间站的建成导致该站与雷迪亚斯之间的旅行量大幅增加。阿尔托造船厂的设计师迅速看到了机会，于是因西皮亚斯的第一艘运输船便诞生了。"
