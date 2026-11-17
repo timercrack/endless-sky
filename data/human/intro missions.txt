@@ -152,9 +152,9 @@ conversation "freighter 1 end"
 	`你把这批<commodity>送到<planet>，并收到了<payment>的报酬。“运货，”詹姆斯说道。“不是最风光的工作，也不是最有趣的，但总有稳定的收入。一旦你对星系更熟悉了，就不用接任务，可以自己找贸易路线跑。唯一的问题是，组建一支货舱很大但防御不足的舰队，海盗就会盯上你。”`
 	choice
 		`	“你当船长的时候，海盗给你惹了很多麻烦吗？”`
-		`	"But what if I want to earn money more quickly than I can by trading?"`
+		`	“可要是我想比做贸易更快地赚钱呢？”`
 			goto quick
-	`	"Some. That's why you can't just go traipsing around the galaxy in a fleet of unarmed star barges; every pirate within a week's travel will hear you're coming through and come after you. In the long term, having a few heavy freighters with good defenses is more cost-effective than losing a star barge or two to the pirates on every journey."`
+	`	“有一些。所以你不能带着一支没有武装的星舟船队在银河里到处晃悠；方圆一周航程内的每个海盗都会听说你要路过，然后找上门来。从长远来看，拥有几艘防御良好的重型货船，要比每趟航程都被海盗抢走一两艘星舟划算得多。”`
 		goto port
 	label quick
 	`	“没有快速致富的路，小子。报酬越高，风险越大。如果你急需大笔钱，赏金猎人是条路，但十个尝试赏金猎人的飞行员里有九个都死了。而且，除非你已经在战斗中证明了自己，否则没人会把那种任务交给你。”`
@@ -212,10 +212,10 @@ conversation "interceptor escort end"
 	`<npc>的船长将<payment>交给你，并感谢你的护卫服务。从<their>脸上的表情来看，你猜<they're>觉得自己把<their>舰队的安危托付给你这样的新手飞行员还能活着真是幸运。`
 	`	<they are>离开后，詹姆斯转向你说：“第一次护卫任务干得不错。我认识你脸上的表情——我当初还是新手的时候，第一次干这种活之后也是这副模样。如果我没记错的话，我落地后第一件事就是把船上的一些火炮换成导弹发射器，这样才真正有机会对抗海盗。现在他们卖的截击机只配短程能量武器，简直是丑闻；用这种武器在这么小的船上作战基本等于自杀。装上导弹保持距离，你几乎永远不会出错。”`
 
-	`	"Anyway, I'll stop rambling. If you've still got a hankering for some dangerous missions, come and find me in the spaceport before you leave." He picks up his suitcase and heads outside.`
+	`	“总之，我就不啰嗦了。如果你还想接些危险的任务，离开前到太空港来找我。”他拎起手提箱，朝外面走去。`
 		to display
 			has "start: default"
-	`	"Anyway, I'll stop rambling." James pauses for a moment, then says, "I've got an idea for something you might want to try. Meet me in the spaceport bar in a little while."`
+	`	“总之，我就不啰嗦了。”詹姆斯停顿了一下，然后说：“我有个主意，你也许会想试试。过一会儿到太空港酒吧来找我。”`
 		to display
 			has "start: deep"
 	``
@@ -224,12 +224,12 @@ conversation "interceptor escort end"
 				has "start: default"
 				has "start: paradise"
 				has "start: syndicate"
-	`	(As before, click the "Spaceport" button to continue this mission. The next mission will involve carrying cargo, so it will only show up if you have 10 tons of space free.)`
+	`	（和之前一样，点击“太空港”按钮来继续这个任务。下一个任务涉及运送货物，所以只有当你有10吨空余货舱时才会出现。）`
 		to display
 			or
 				has "start: default"
 				has "start: syndicate"
-	`	(The next mission will involve carrying a passenger, so it will only show up if you have all your bunks free.)`
+	`	（下一个任务涉及运送一名乘客，所以只有当你所有铺位都空着时才会出现。）`
 		to display
 			has "start: paradise"
 
@@ -385,18 +385,18 @@ conversation "mining intro end"
 
 	label choices
 	choice
-		`	"What equipment do I need to mine?"`
+		`	“采矿需要什么装备？”`
 			to display
 				not "mining intro: equipment"
-		`	"How do you deal with pirates?"`
+		`	“你们是怎么对付海盗的？”`
 			to display
 				not "mining intro: pirates"
 			goto pirates
-		`	"How can I check the value of minerals?"`
+		`	“我怎么查看矿物的价值？”`
 			to display
 				not "mining intro: value"
 			goto value
-		`	"I think I have enough information."`
+		`	“我觉得我了解得够多了。”`
 			goto end
 
 	action
@@ -404,25 +404,25 @@ conversation "mining intro end"
 	`	“嗯，你需要一件能造成船体伤害的武器，”詹姆斯说道，“激光束就能完成任务，不过得多花点时间。但如果你想优化你的采矿效率，你会需要一台采矿激光。它不仅切割小行星的速度更快，而且更精准，能在小行星碎裂时保留更多的矿物。不过，也有一些矿工喜欢用重型激光进行采矿，以此来保留一点战斗的灵活性。`
 	`	“除了激光武器，最有价值的工具就是小行星扫描仪。它们虽然昂贵，但能接入你的导航和火控系统，为你指出可开采小行星的方向。你还可以将其设置为寻找最值钱的小行星，这能提升你每趟出航的利润。其次，战术扫描仪能告诉你小行星有多远，并显示你造成的伤害。加力燃烧室很适合用来追逐快速移动的小行星，或者让你在不离开星系的情况下摆脱海盗。冲压进气器则能让你在采矿时补充燃料，延长探索范围，并让你随时准备好快速逃亡。”`
 	choice
-		`	"I can't fit all that on my ship!"`
+		`	“我的船可装不下那么多东西！”`
 			goto fit
 		`	“这些都很有道理。”`
-	`	"Anything else you want to ask me?" says James.`
+	`	“还有别的想问我的吗？”詹姆斯说。`
 		goto choices
 	label fit
-	`	James gives you a knowing smile as he answers, "Not in a factory build, you won't. But you'd be surprised how much space you can free up even in a <model> if you're willing to be flexible. Do you really need that much power? If you've got an outfitter on the planet where you're mining, do you need a hyperdrive, or even a shield generator? Maybe a cargo expansion would be of more use." He pauses briefly, perhaps considering what liability he's opened himself up for, then adds, "I'm not saying you should, of course, but you have options."`
+	`	詹姆斯会意地笑了笑，答道：“出厂配置当然装不下。不过只要你肯变通，就算是<model>也能腾出多得惊人的空间。你真的需要那么多能量吗？如果你采矿的星球上有装备商店，你还需要超空间引擎吗？甚至还需要护盾发生器吗？也许一个货舱扩展舱会更有用。”他稍稍停顿，大概在掂量自己这番话可能要担什么责任，然后补充道：“当然，我不是说你应该这么做，但你确实有选择。”`
 		goto choices
 
 	label pirates
 	action
 		set "mining intro: pirates"
-	`	"You can always bribe them to leave you alone. If the minerals are good enough and you have enough cargo capacity, you'll still turn a profit. Or if you have a fast ship, you can just run away. Of course, with enough of a fleet you just fight them off." He shakes his head. "Most pirates would be richer and live longer if they just mined instead of extorting merchants and plundering ships."`
+	`	“你随时可以花钱贿赂他们，让他们别来烦你。只要矿物够好，货舱够大，你照样能赚到钱。要是你的船够快，直接逃跑也行。当然，如果你有足够规模的舰队，就直接把他们打跑。”他摇了摇头。“大多数海盗要是老老实实去采矿，而不是勒索商人、劫掠飞船，反倒会更有钱，也活得更久。”`
 		goto choices
 
 	label value
 	action
 		set "mining intro: value"
-	`	"You will learn this by experience, but if the planet has an outfitter, you can check the price there before you sell."`
+	`	“这个你会在实践中慢慢学会，不过如果星球上有装备商店，你可以在卖之前先去那里查一下价格。”`
 		goto choices
 		
 	label end
@@ -432,7 +432,7 @@ conversation "mining intro end"
 		clear "mining intro: value"
 	branch first
 		has "start: paradise"
-	`	"If you're willing to take me on one more journey," James says, "meet me in the spaceport bar in a little while. Don't forget to sell off your minerals at the trading post, or if there is one, the outfitter."`
+	`	“如果你愿意再带我走一趟，”詹姆斯说，“过一会儿到太空港酒吧来找我。别忘了在贸易站把你的矿物卖掉，如果有装备商店的话，也可以卖给装备商店。”`
 		decline
 	label first
 	`	“如果你更想用星际战斗来练练手，离开之前到太空港来找我。”他拎起手提箱，向外走去。`
@@ -629,9 +629,9 @@ mission "Intro [1 Transport]"
 			`	你非常确定你的穿梭机设计上并不适合容纳包括你在内的八个人，但如果他们愿意挤进现有的五个铺位，你也没有理由劝阻他们。`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	James helps the older woman up the steps and into your ship while the younger family members carry the luggage. You are going to have quite a full ship for the next few days.`
+			`	詹姆斯扶着那位老妇人走上台阶，进入你的飞船，几位年轻的家庭成员则搬着行李。接下来的几天，你的船上会相当拥挤。`
 				accept
 	
 	on complete
@@ -686,7 +686,7 @@ mission "Intro [3 Transport]"
 	to offer
 		has "Intro [2 Transport]: done"
 	substitutions
-		"<they've>" "you've"
+		"<they've>" "你们"
 	
 	on offer
 		conversation "intro earth offer"
@@ -821,8 +821,8 @@ mission "Intro [1 Interceptor]"
 		ship "Freighter" "Morning Light"
 	substitutions
 		"<their>" "他的"
-		"<they're>" "he's"
-		"<they are>" "he is"
+		"<they're>" "他"
+		"<they are>" "他"
 	
 	on offer
 		conversation
@@ -858,9 +858,9 @@ mission "Intro [2 Interceptor]"
 		personality entering plunders
 		ship "Bastion" "Hammer of Thor"
 	substitutions
-		"<person>" "she"
-		"<enemy>" "Hammer"
-		"<magnitude>" "ten"
+		"<person>" "她"
+		"<enemy>" "‘雷神之锤’"
+		"<magnitude>" "十"
 	
 	on offer
 		conversation "interceptor evade intro"
@@ -883,8 +883,8 @@ mission "Intro [2.1 Interceptor]"
 		has "Intro [2 Interceptor]: done"
 		not "Intro [3 Interceptor]: offered"
 	substitutions
-		"<captain>" "Marshall"
-		"<they>" "he"
+		"<captain>" "马歇尔"
+		"<they>" "他"
 	
 	on offer
 		conversation "mining intro"
@@ -975,9 +975,9 @@ mission "Midgard Intro [1 Transport]"
 			`你找到了詹姆斯，他身后跟着四个中年人。“<last>船长！”他说。“真高兴再次见到你。我刚才正和这些科学家聊天呢。他们一直在找一艘愿意在一颗像<planet>这样低调的世界停靠的船。他们可以付给你<payment>载他们过去。你怎么说？”`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	You and James direct the team to your ship. Looks like you're about to set off on your first real job...`
+			`	你和詹姆斯领着队员们走向你的飞船。看来你即将开始你的第一份真正的工作了……`
 				accept
 	
 	on complete
@@ -1081,9 +1081,9 @@ mission "Midgard Intro [1 Transport Alt]"
 			`	陈说：“诺恩的大气层够厚，重力够低，你可以完成在其他星球无法做到的特技飞行。别担心太空跳伞的程序，我以前做过。”`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	You and James direct Chen to your ship. After they board, James turns to you and says, "Make sure to pay attention to where you're landing. The system of <system> has two inhabited planets, Muspel and <planet>, and you don't want to land on the wrong planet when trying to finish a job."`
+			`	你和詹姆斯领着陈走向你的飞船。陈登船后，詹姆斯转向你说：“一定要注意你降落的地方。<system>星系有两颗有人居住的星球，穆斯贝尔和<planet>，完成任务时可别降落错了星球。”`
 				accept
 	
 	on complete
@@ -1138,7 +1138,7 @@ mission "Midgard Intro [3 Transport Alt]"
 	to offer
 		has "Midgard Intro [2 Transport Alt]: done"
 	substitutions
-		"<they've>" "they've"
+		"<they've>" "他们"
 	
 	on offer
 		conversation "intro earth offer"
@@ -1270,9 +1270,9 @@ mission "Midgard Intro [1 Interceptor]"
 		personality entering nemesis plunders
 		ship "Leviathan" "Arm of Odin"
 	substitutions
-		"<person>" "she"
-		"<enemy>" "Arm"
-		"<magnitude>" "a hundred"
+		"<person>" "她"
+		"<enemy>" "‘奥丁之臂’"
+		"<magnitude>" "一百"
 	
 	on offer
 		conversation "interceptor evade intro"
@@ -1283,9 +1283,9 @@ mission "Midgard Intro [1 Interceptor]"
 			`当你降落在<planet>上时，一队穿制服的工人已准备好卸下机密货物。其中一人向你致谢，并递给你一张价值<payment>的信用芯片。詹姆斯问道：“感觉怎么样，<first>？”`
 			choice
 				`	"小菜一碟。接下来呢？"`
-				`	"I was hoping to do some shooting, not get shot at."`
+				`	“我本来是想开几枪的，可不是想挨枪子儿。”`
 					goto shooting
-			`	James lets out a laugh. "Now that's the spirit! Most Sparrow pilots get the wind knocked out of them after their first taste of danger, and decide to do some asteroid mining instead. It takes some time to find a system with good enough materials, but the lower risk is worth it. Anyway, I'll see if there's another mission in the spaceport for you. Meet me there."`
+			`	詹姆斯哈哈大笑。“这才对嘛！大多数麻雀飞行员第一次尝到危险的滋味后就泄了气，决定改去开采小行星。要找到一个矿产够好的星系得花些时间，不过风险低，值得。总之，我去太空港看看有没有别的任务适合你。在那儿等我。”`
 				goto end
 			label shooting
 			`	“现实就是这样，”詹姆斯说，“别忘了你开的是一架<model>——食物链最底层的玩意。你得尊重每一个对手，不管你觉得他们多弱。有些‘麻雀’飞行员意识到自己的飞船有多脆弱，就会转而选择采小行星矿。虽然找个有好矿的系统需要点时间，但低风险还是值得的。总之，如果你想再接任务，来太空港找我。”`
@@ -1318,8 +1318,8 @@ mission "Midgard Intro [2 Interceptor]"
 		ship "Freighter" "Solemn Vow"
 	substitutions
 		"<their>" "他们的"
-		"<they're>" "they're"
-		"<they are>" "they are"
+		"<they're>" "他们"
+		"<they are>" "他们"
 	
 	on offer
 		conversation
@@ -1352,8 +1352,8 @@ mission "Midgard Intro [2.1 Interceptor]"
 	to offer
 		has "Midgard Intro [2 Interceptor]: done"
 	substitutions
-		"<captain>" "Marshall"
-		"<they>" "he"
+		"<captain>" "马歇尔"
+		"<they>" "他"
 	
 	on offer
 		conversation "mining intro"
@@ -1445,9 +1445,9 @@ mission "Mainsail Intro [1 Transport]"
 			`	"<last>船长！"他说，"很高兴再次见到你。我刚才正和这群工程师聊天。他们原本的运输船延误了，正在找另一艘船送他们去<planet>。他们愿意付给你<payment>作为报酬。你觉得怎么样？"`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	You and James direct the team to your ship. Looks like you're about to set off on your first real job...`
+			`	你和詹姆斯领着队员们走向你的飞船。看来你即将开始你的第一份真正的工作了……`
 				accept
 	
 	on complete
@@ -1504,7 +1504,7 @@ mission "Mainsail Intro [3 Transport]"
 	to offer
 		has "Mainsail Intro [2 Transport]: done"
 	substitutions
-		"<they've>" "they've"
+		"<they've>" "他们"
 	
 	on offer
 		conversation "intro earth offer"
@@ -1543,9 +1543,9 @@ mission "Mainsail Intro [1 Transport Alt]"
 			`	"<last>船长！"他说，"再次见到你真是太好了。我刚才正和这位简说话。他原本的航班延误了，正在找另一艘船送他去<planet>。他可以付给你<payment>作为酬劳。你觉得怎么样？"`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	You and James direct Jan to your ship. Looks like you're about to set off on your first real job...`
+			`	你和詹姆斯领着简走向你的飞船。看来你即将开始你的第一份真正的工作了……`
 				accept
 	
 	on complete
@@ -1602,7 +1602,7 @@ mission "Mainsail Intro [3 Transport Alt]"
 	to offer
 		has "Mainsail Intro [2 Transport Alt]: done"
 	substitutions
-		"<they've>" "they've"
+		"<they've>" "他们"
 	
 	on offer
 		conversation "intro earth offer"
@@ -1739,8 +1739,8 @@ mission "Mainsail Intro [0.1 Interceptor]"
 		not "Mainsail Intro [1 Transport Alt]: offered"
 		not "Mainsail Intro [1 Freighter]: offered"
 	substitutions
-		"<captain>" "Hwang"
-		"<they>" "she"
+		"<captain>" "黄"
+		"<they>" "她"
 	
 	on offer
 		conversation "mining intro"
@@ -1777,8 +1777,8 @@ mission "Mainsail Intro [1 Interceptor]"
 		ship "Freighter" "Strange Dream"
 	substitutions
 		"<their>" "他的"
-		"<they're>" "he's"
-		"<they are>" "he is"
+		"<they're>" "他"
+		"<they are>" "他"
 	
 	on offer
 		conversation
@@ -1814,9 +1814,9 @@ mission "Mainsail Intro [2 Interceptor]"
 		personality entering plunders nemesis
 		ship "Corvette (Speedy)" "Eye of Loki"
 	substitutions
-		"<person>" "he"
-		"<enemy>" "Eye"
-		"<magnitude>" "ten"
+		"<person>" "他"
+		"<enemy>" "‘洛基之眼’"
+		"<magnitude>" "十"
 	
 	on offer
 		conversation "interceptor evade intro"
@@ -1928,9 +1928,9 @@ mission "Delve Intro [1 Transport]"
 			`	丈夫插话道。“我们担心如果分乘多艘船，就没法照看法伊扎了。”他朝婴儿车里的孩子示意。“她一直不适应重负星的重力。”`
 			choice
 				`	“欢迎登船！”`
-				`	"Sorry, I think I'd rather go off in my own direction from here."`
+				`	“抱歉，我想从这里开始走我自己的路。”`
 					decline
-			`	You and James direct the family to your ship. Looks like you're about to set off on your first real job...`
+			`	你和詹姆斯领着这一家人走向你的飞船。看来你即将开始你的第一份真正的工作了……`
 				accept
 	
 	on complete
@@ -2140,8 +2140,8 @@ mission "Delve Intro [1 Interceptor]"
 		ship "Freighter" "Paparazzi Party"
 	substitutions
 		"<their>" "她的"
-		"<they're>" "she's"
-		"<they are>" "she is"
+		"<they're>" "她"
+		"<they are>" "她"
 	
 	on offer
 		conversation
@@ -2177,9 +2177,9 @@ mission "Delve Intro [2 Interceptor]"
 		personality entering plunders
 		ship "Splinter" "Spear of Heimdall"
 	substitutions
-		"<person>" "he"
-		"<enemy>" "Spear"
-		"<magnitude>" "ten"
+		"<person>" "他"
+		"<enemy>" "‘海姆达尔之矛’"
+		"<magnitude>" "十"
 	
 	on offer
 		conversation "interceptor evade intro"
@@ -2202,8 +2202,8 @@ mission "Delve Intro [2.1 Interceptor]"
 	to offer
 		has "Delve Intro [2 Interceptor]: done"
 	substitutions
-		"<captain>" "August"
-		"<they>" "he"
+		"<captain>" "奥古斯特"
+		"<they>" "他"
 	
 	on offer
 		conversation "mining intro"

@@ -48,8 +48,8 @@ news "port official"
 		not attributes "crime" "uninhabited"
 	name
 		word
-			"Port official"
-			"Port officer"
+			"港口官员"
+			"港务警官"
 	message
 		word
 			`"`
@@ -89,7 +89,7 @@ news "successor student"
 	name
 		word
 			"学员"
-			"Successor student"
+			"继承者学生"
 	message
 		word
 			`"`
@@ -123,7 +123,7 @@ news "successor merchant"
 		not attributes "uninhabited"
 	name
 		word
-			"Independent merchant"
+			"独立商人"
 	message
 		word
 			`"`
@@ -203,9 +203,9 @@ news "high houses propaganda"
 	name
 		word
 			"大家族广播"
-			"Government broadcast"
-			"Video screen"
-			"Official broadcast"
+			"政府广播"
+			"视频屏幕"
+			"官方广播"
 	message
 		word
 			"一则广告中，一艘继承者战舰表演了多种娴熟战术动作，随后鼓励观众加入高塔家族的武装部队。"
@@ -224,8 +224,8 @@ news "successor advertisements"
 	name
 		word
 			"Advertisement" 2
-			"Video display"
-			"Commercial advertisement"
+			"视频显示屏"
+			"商业广告"
 	message
 		word
 			"一碗类似海带的条状食物在屏幕上舞蹈，各种调味料被洒在上面。约三十秒后，一名继承者正在吸食一些条状物，皮肤变成愉快的粉色。"
@@ -252,8 +252,8 @@ news "local news quiet"
 	name
 		word
 			"本地新闻报道"
-			"News report"
-			"News program"
+			"新闻报道"
+			"新闻节目"
 	message
 		word
 			"一段广播低调地列举了最近一次天气控制单元故障的细节，导致短暂疏散但无人受伤。一张照片显示数十名继承者聚集在海岸线上，远处有几艘飞船蜂拥而至。"

@@ -162,7 +162,7 @@ mission "Hai Legacy 1"
 			choice
 				`	“这到底是怎么回事？”`
 			`	第二个这时向你走近一步，几乎是抢着打断了第一个人的话：“我们有个提议。如果你同意为我们的同胞——无羁亥族——运送急需的物资，我们就会以一千万信用点的优惠价格将这艘船卖给你——其中甚至包括两件属于野蛮科拉斯人的武器！”第一名亥族人对此似乎显得有些惊讶并想要插话，但第二个人不等他开口就继续说了下去：`
-			`	"These weapons pack more of a punch than anything in human or even Hai space for their size! Worry not, you'll be able to recuperate the cost of this ship with ease by assisting us. A load of medical supplies is needed on <destination>, and we lack the time and personnel to bring them ourselves on such short notice.`
+			`	“就体积而言，这些武器的威力比人类甚至亥族空间里的任何武器都要强！别担心，只要协助我们，你就能轻松收回这艘船的成本。<destination>急需一批医疗物资，而事出突然，我们没有时间和人手亲自运送。`
 			`	“当然，这艘船已经有些年头了，你也别指望在船坞能卖出什么高价。但无论如何，它都是一艘优秀的好船，兼具战斗、货运与采矿能力。那么，你觉得怎么样，<last>？这可是千载难逢的机会，现在可造不出这样的好船了。”`
 			label choice
 			choice
@@ -226,7 +226,7 @@ mission "Hai Legacy 1"
 	on accept
 		clear "unfettered: ocean dialog"
 		clear "unfettered: pilot dialog"
-		log "Accepted a somewhat shady deal for an old Hai ship called an Anomalocaris; the transaction could not be conducted through normal channels, so a loan was issued in lieu of a conventional purchase. It seems to still be in a good enough state to fly."
+		log "接受了一笔有些见不得光的交易，购入一艘名为“奇虾”的古老亥族飞船；由于交易无法通过正常渠道进行，因此以发放贷款代替常规购买。这艘船的状况似乎依然足以飞行。"
 		fail
 
 
@@ -295,7 +295,7 @@ mission "Hai Legacy 3"
 			`	当她的目光更加聚焦在你的飞船上时，她的眼睛亮了起来。“我甚至看到了那些我们英勇奋战才从野蛮的科拉斯人那里夺来的武器！”`
 				to display
 					has "outfit (flagship installed): Thermal Repeater Turret"
-			`	All of a sudden, she raises her voice for everyone to hear. "I, Mera, challenge you! It will be a one-on-one duel; you in the Anomalocaris against my own champion. The winner will earn the right to own this honorable relic and its mighty weapons!"`
+			`	突然，她提高嗓门，让所有人都能听见：“我，麦拉，向你发起挑战！这将是一场一对一的决斗：你驾驶奇虾，对阵我的勇士。胜者将赢得拥有这件光荣遗存及其强大武器的权利！”`
 			choice
 				`	“如果我赢了能得到什么？”`
 					goto win
@@ -353,7 +353,7 @@ mission "Hai Legacy 3"
 			`当你起飞去与轨道上的舰队汇合时，收到了无羁者的通讯：“你必须让你的舰队留在原地待命。如果他们插手，决斗就会作废！”`
 				decline
 			label anomaly
-			`You are hailed by the Unfettered as soon as you reach orbit. "You think us blind, monkey? You are not flying the relic as your flagship! You're not even worth a launch sequence; the duel is forfeit," they say angrily.`
+			`你刚进入轨道，无羁者就向你发来了通讯。“你当我们是瞎子吗，猴子？你根本没有把那件遗存当作旗舰来驾驶！你连让我们启动起飞程序都不配，这场决斗作废了，”他们愤怒地说道。`
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
 				fail
@@ -366,10 +366,10 @@ mission "Hai Legacy 3"
 			`进入星系时，你看到挑战者确实在等你，他们立刻向你发来通讯：“让我们看看你有什么本事，猴子！像个真正的战士一样，展现你对武器的精准控制！向我们证明你有能力让我们的飞船瘫痪，同时又能保持克制不去摧毁它们！”`
 				accept
 			label "too many ships"
-			`As you arrive with your fleet in this system, you receive a hail from the Unfettered. "If you can't even count how many ships you have, you're not worthy of our time, monkey! Dishonor will get you nowhere with us True Hai! Leave."`
+			`当你率领舰队到达这个星系时，收到了无羁者的通讯：“如果你连自己有多少艘船都数不清，就不配让我们浪费时间，猴子！在我们真亥族人面前，不光彩的手段是行不通的！滚吧。”`
 				goto failed
 			label anomaly
-			`You are hailed by the Unfettered as you enter the system. "Monkey! Why do you refuse to use the relic? Only by winning with the relic can you prove yourself worthy of it. Leave - we will not waste any more of our time with the likes of you."`
+			`你一进入星系，就收到了无羁者的通讯。“猴子！你为什么拒绝使用那件遗存？只有用遗存赢得胜利，你才能证明自己配得上它。滚吧——我们不会再在你这种人身上浪费任何时间了。”`
 			label failed
 			action
 				"reputation: Hai (Unfettered)" = "old reputation: Hai (Unfettered)"
@@ -405,10 +405,10 @@ mission "Hai Legacy 3"
 		conversation
 			branch cheat
 				"total ships" > 1
-			`You receive a message from the Unfettered ship. "We surrender. Land on Firelode to receive your reward."`
+			`你收到了来自那艘无羁亥族飞船的消息：“我们投降。降落到火脉星去领取你的奖赏吧。”`
 				accept
 			label cheat
-			`"You come here with a fleet and have the audacity to disable my ship? Your dishonor knows no bound, monkey!"`
+			`“你带着一支舰队来到这里，还有脸让我的船瘫痪？你的无耻简直没有底线，猴子！”`
 			action
 				fail
 	npc disable
@@ -427,10 +427,10 @@ mission "Hai Legacy 3"
 		conversation
 			branch cheat
 				"total ships" > 1
-			`You have managed to defeat the Unfettered challenger. Now it's time to land on Firelode and claim your reward.`
+			`你成功击败了无羁亥族的挑战者。现在是时候降落到火脉星领取你的奖赏了。`
 				accept
 			label cheat
-			`"You come here with a fleet and have the audacity to disable my ship? Your dishonor knows no bound, monkey!"`
+			`“你带着一支舰队来到这里，还有脸让我的船瘫痪？你的无耻简直没有底线，猴子！”`
 			action
 				fail
 	npc

@@ -106,11 +106,11 @@ ship "Resja, of the Nine Eyes"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Resja engraved the hull of each of the ships that bore their name personally, carving into the squirming metal a poem that they came to know by heart:`
-	description `Four eyes for Houses who're no longer there,`
-	description `Three for the cursed stars' shimmering flare,`
-	description `Two for the bitter rings, blinking with light,`
-	description `And a final one missing, lost to the night.`
+	description `雷斯雅亲手在每一艘冠以其名的飞船船体上刻字，在蠕动的金属中刻下一首他们早已烂熟于心的诗：`
+	description `四只眼，献给已不复存在的家族，`
+	description `三只眼，献给受诅咒群星闪烁的光焰，`
+	description `两只眼，献给苦涩的星环，明灭闪烁着光芒，`
+	description `最后一只眼已然失落，消逝在夜色之中。`
 
 effect "resja afterburner"
 	sprite "effect/resja afterburner"
@@ -207,8 +207,8 @@ ship "Hasur, Vowsworn"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `One would think that, immured deep within those hostile, rotting abscesses of the stars, the constructs of the foolish Myiara would prove themselves inadequate; that their artificial minds would splinter and falter and crumble like their so-false flesh, festering on the bone. And yet they remain, eternally dying but never dead, consumed by programmed rage and unknowable perception. The constructs will keep their promises, interloper:`
-	description `	They'll kill you. They'll do it quick.`
+	description `人们或许会以为，被禁锢在群星那些充满敌意、腐烂溃疡般的深处，愚蠢的米亚拉所造的构造体终将证明自身的无能；以为它们的人工心智会像它们那虚假的血肉一样碎裂、衰颓、崩解，在骨头上溃烂。然而它们依旧存在，永远垂死却永不死去，被程序设定的狂怒与不可知的感知所吞噬。构造体会信守它们的诺言，闯入者：`
+	description `	它们会杀了你。而且会很快。`
 
 effect "hasur afterburner"
 	sprite "effect/hasur afterburner"
@@ -307,7 +307,7 @@ ship "Queru, Luminous Gaze"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Queru came last, and was the most inspired of the three, eviscerating at a distance before it could even be seen. For their part, Resja hated it - but by then, Resja's fate had long been sealed.`
+	description `奎鲁是三者中最后诞生的，也是最具灵感的一个，能在敌人看见它之前便从远处将其开膛破肚。至于雷斯雅，他们憎恶它——但那时，雷斯雅的命运早已注定。`
 
 effect "queru afterburner"
 	sprite "effect/queru afterburner"
@@ -349,7 +349,7 @@ outfit `"Iasa," Lethal Word`
 		"hit force" 18
 		"piercing" 0.33
 		"firing shields" 11
-	description `Resja's chosen implement of death, Iasa was a drone ship's perfect coilgun, a fearsome, hungry weapon with respect for the shields of neither friend nor foe. It remains remarkably efficient, even after fifteen hundred years of waiting.`
+	description `伊阿萨是雷斯雅钟爱的杀戮利器，是一艘无人舰的完美线圈炮，一件令人生畏、贪婪饥渴的武器，无论敌友的护盾都不放在眼里。即使在等待了一千五百年之后，它依然效率惊人。`
 
 effect "iasa fire"
 	sprite "effect/emp torpedo fire"
@@ -383,7 +383,7 @@ outfit `"Kis," Lethal Wish`
 		"firing heat" 600
 		"firing shields" 120
 		"submunition" "kis short range" 4
-	description `Like a cold and ravenous beast, the frightful Kis tears through the defenses of anything that dares stride close enough to its jaws. At long range this weapon loses its high shield penetration but continues to output respectable damage, encouraging enemies to retreat while they still can.`
+	description `如同一头冷酷而贪婪的野兽，可怖的基斯会撕裂任何胆敢靠近其利齿之物的防御。在远距离上，这件武器会失去高护盾穿透力，但仍能输出可观的伤害，迫使敌人趁还来得及时撤退。`
 
 outfit "kis short range"
 	"display name" "“基斯”短程弹"
@@ -451,7 +451,7 @@ outfit `"Torji," Lethal Sight`
 		"shield damage" 520
 		"hull damage" 720
 		"hit force" 400
-	description `Resja designed a complex loading system to enable this weapon to fire as quickly as it does. The drone ship Queru was built around it, a paired ship and weapon to surpass at range all prior designs of the Myiara.`
+	description `雷斯雅设计了一套复杂的装填系统，使这件武器能以如此高的速率开火。无人舰奎鲁正是围绕它打造的，舰与炮相辅相成，其远程能力超越了米亚拉以往的一切设计。`
 
 
 outfit `Crimson Halo`
@@ -467,7 +467,7 @@ outfit `Crimson Halo`
 	"shield energy" 6.6
 	"shield protection" -0.5
 	"shield connection point" 1
-	description `Resja's ships didn't need shields for defense - only as fuel for powering their various aggressive technologies. Their favored shield cortex is unusually powerful for its size, though it proves much less useful for intercepting damage than for its intended purpose, feeding energy back into a starship's systems.`
+	description `雷斯雅的飞船不需要护盾来防御——护盾只是为其各种进攻性技术提供能量的燃料。他们偏爱的这款护盾皮层就其尺寸而言异常强大，不过比起拦截伤害，它在其本来用途上要有用得多：将能量回馈给星舰的各个系统。`
 
 
 outfit `Visions of Rime`
@@ -482,7 +482,7 @@ outfit `Visions of Rime`
 	cooling 28
 	"shield generation" -0.6
 	unique
-	description `Radiating excess heat through a starship's shield matrix, this compact, ancient cooling system is strikingly efficient. On Resja's furious drone ships, the shield strength that this saps is all but insignificant, but on lesser craft it may come with a cost to endurance.`
+	description `这套小巧而古老的冷却系统通过星舰的护盾矩阵散发多余热量，效率惊人。在雷斯雅狂暴的无人舰上，它所消耗的护盾强度几乎微不足道，但在较逊色的舰船上，它可能会以牺牲续航能力为代价。`
 
 
 # Heirloom Ships
@@ -576,8 +576,8 @@ ship "Valkkyiara-Khorasaqra"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "During the collapse of their Predecessors' empire, the High Houses of the Myiara stored away as much of their wealth and property as they could manage. Included in this were their private fleets of warships, by now passed down for over a thousand years as priceless family heirlooms. Despite being far more powerful than anything else in Successor space, these vessels almost never leave the ground, since the High Houses have no desire to risk these irreplaceable ships that are so deeply intertwined with their family history."
-	description `	By the time of the collapse, the Valkkyiara-Khorasaqra was already a time-proven design; a clean and elegant expression of Myiaran martial artistry. Clad in dense mirrored armor, these mostly saw action in conflicts between the Houses, using their high speed and long-ranged weapons to menace colonies and outmaneuver more lumbering warships.`
+	description "在其先民帝国崩溃期间，米亚拉的高阶家族尽其所能地封存了大量财富与资产，其中包括他们的私人战舰舰队。这些战舰至今已传承了一千多年，成为无价的家族传家宝。尽管它们远比继承者空间中的任何其他东西都要强大，这些舰船却几乎从不离开地面，因为高阶家族不愿让这些与其家族历史紧密交织、无可替代的舰船冒任何风险。"
+	description `	到帝国崩溃之时，瓦尔基亚拉-科拉萨克拉早已是经过时间考验的设计，是米亚拉尚武艺术简洁而优雅的体现。它们披挂着致密的镜面装甲，主要参与家族之间的冲突，凭借高速与远程武器威胁殖民地，并以机动性胜过更为笨重的战舰。`
 
 # Heirloom outfits
 
@@ -617,7 +617,7 @@ outfit `"Sarija" Heirloom Coilgun`
 		"hit force" 120
 		"cluster"
 		"submunition" "Bimodal Switch" 3
-	description "Secretly stashed away by the High Houses since the collapse of the old empire, this lovingly-maintained coilgun is far more powerful than any of the Successors' modern technology."
+	description "自旧帝国崩溃以来便被高阶家族秘密收藏，这门经过精心保养的线圈炮远比继承者的任何现代技术都要强大。"
 
 
 outfit `"Tijra" Heirloom Lance`
@@ -658,7 +658,7 @@ outfit `"Tijra" Heirloom Lance`
 		"hit force" 800
 		"ion damage" 20
 		"penetration count" 5
-	description "Among the largest and most powerful of the Predecessors' weapons, this massive coilgun propels its magnetic projectiles to a sizable fraction of the speed of light, delivering enough kinetic energy on impact to destroy a small city or, alternatively, a large warship."
+	description "作为先民最庞大、最强大的武器之一，这门巨型线圈炮能将其磁性弹丸加速到光速的可观比例，撞击时释放的动能足以摧毁一座小城市——或者一艘大型战舰。"
 
 
 outfit `"Ija" Heirloom Reactor`
@@ -674,7 +674,7 @@ outfit `"Ija" Heirloom Reactor`
 	"heat generation" 15
 	"shield energy multiplier" -0.15
 	"hull energy multiplier" -0.15
-	description "The Myiaran Predecessors viewed the mastery of technology as an art rather than a science, and this reactor is a perfect example of that: a graceful, elegant machine easily mistaken for a sculpture. It is also, of course, an extremely efficient and powerful fusion reactor that far outstrips their Successors' attempts at replicating it."
+	description "米亚拉先民将掌握技术视为一门艺术而非科学，而这座反应堆正是完美的例证：一台优雅精致、极易被误认为雕塑的机器。当然，它同时也是一座效率极高、功率强大的聚变反应堆，远远胜过其继承者的仿制尝试。"
 
 
 outfit "Heirloom Power Reserve"
@@ -688,7 +688,7 @@ outfit "Heirloom Power Reserve"
 	"outfit space" -26
 	"energy capacity" 26000
 	"hull energy" -1
-	description "This Predecessor battery stores energy in the almost innumerable voids of a stellar metal foam, a technology now unfortunately lost to time."
+	description "这款先民电池将能量储存在一种恒星金属泡沫中几乎数不清的空隙里，这项技术如今已不幸失传。"
 
 
 outfit "Heirloom Cooling"
@@ -703,7 +703,7 @@ outfit "Heirloom Cooling"
 	"cooling" 24
 	"active cooling" 60
 	"cooling energy" 4.4
-	description "The Successors' modern equipment does not produce nearly enough heat to necessitate the large and powerful cooling units their Predecessors used in the past."
+	description "继承者的现代设备产生的热量，远不足以需要其先民过去所用的那种大型强力冷却装置。"
 
 
 outfit `"Jiita" Heirloom Shielding`
@@ -719,7 +719,7 @@ outfit `"Jiita" Heirloom Shielding`
 	"shield protection" -0.33
 	"shield energy" 8.0
 	"shield connection point" 1
-	description "Polished to gleaming for over a thousand years, this ancient shield generator yearns to see combat once again."
+	description "历经一千多年的擦拭而光可鉴人，这台古老的护盾发生器渴望再次投入战斗。"
 
 
 outfit "Point Drive"
@@ -744,7 +744,7 @@ outfit "Point Drive"
 	"jump effect" "jump drive 2"
 	"jump effect" "jump drive 3"
 	"jump effect" "jump drive 4"
-	description `"There was a terrible emptiness inside," Resja said of the device, "like a black spot in one's vision that grew larger with every blink, that spread moment by moment until the world went away. The first time I truly understood one, I felt that absence within grow to envelop me. And long after I have died, long after the name of the Myiara fades to a future era, that pang-ridden emptiness will remain."`
+	description `“它内部有一种可怕的空虚，”雷斯雅如此描述这件装置，“就像视野中的一个黑点，每眨一次眼就变大一些，一刻接一刻地扩散，直到整个世界消失不见。我第一次真正理解它时，便感到那内在的空缺不断扩大，将我吞没。而在我死去很久之后，在米亚拉之名淡入未来的时代之后，那份痛楚弥漫的空虚仍将留存。”`
 
 effect "point drive void small"
 	sprite "effect/void spark"
@@ -799,4 +799,4 @@ outfit "Stolen Cloak (Deactivated)"
 	"cloaking shields" 3.2
 	"unique"
 	"unplunderable"
-	description "An ancient cloaking device stolen from House Kaatrij. It has been temporarily deactivated by a detector device."
+	description "一台从卡特里吉家族偷来的古老隐形装置。它已被一台探测装置暂时停用。"

@@ -23,7 +23,7 @@ outfit "Korath Tek'far Reactor"
 	"outfit space" -25
 	"energy generation" 3.9
 	"heat generation" 7.3
-	description "This is a miniature nuclear reactor, used by the Korath to power their fighters."
+	description "这是一座微型核反应堆，科拉斯人用它为战斗机供能。"
 
 outfit "Korath Tek'nel Reactor"
 	"display name" "科拉斯泰克内尔反应堆"
@@ -34,7 +34,7 @@ outfit "Korath Tek'nel Reactor"
 	"outfit space" -140
 	"energy generation" 27.1
 	"heat generation" 80
-	description "This massive reactor was designed by the Korath to meet the power needs of their largest ships."
+	description "这座巨型反应堆由科拉斯人设计，用以满足其最大型舰船的能源需求。"
 
 
 outfit "Korath Shield Generator"
@@ -46,7 +46,7 @@ outfit "Korath Shield Generator"
 	"outfit space" -52
 	"shield generation" 2.4
 	"shield energy" 2.4
-	description "Korath fighters are not able to recharge their shields, but their larger ships are equipped with one of these."
+	description "科拉斯战斗机无法为护盾充能，但他们的大型舰船都配备了这种装置。"
 
 outfit "Korath Heat Shunt"
 	"display name" "科拉斯热分流器"
@@ -56,7 +56,7 @@ outfit "Korath Heat Shunt"
 	"mass" 34
 	"outfit space" -34
 	"cooling" 78
-	description "Korath weapons generate extreme amounts of heat, and the cooling systems they require are massive."
+	description "科拉斯武器会产生极其大量的热量，因此所需的冷却系统也十分庞大。"
 
 outfit "Korath Ark'torbal Thruster"
 	"display name" "科拉斯阿克托巴尔推进器"
@@ -72,7 +72,7 @@ outfit "Korath Ark'torbal Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "This engine is used by Korath fighters."
+	description "这款引擎用于科拉斯战斗机。"
 
 outfit "Korath Ark'parat Steering"
 	"display name" "科拉斯阿克帕拉特转向器"
@@ -85,7 +85,7 @@ outfit "Korath Ark'parat Steering"
 	"turn" 360
 	"turning energy" .6
 	"turning heat" .7
-	description "This engine is used by Korath fighters."
+	description "这款引擎用于科拉斯战斗机。"
 
 outfit "Korath Jak'torbal Thruster"
 	"display name" "科拉斯贾克托巴尔推进器"
@@ -101,7 +101,7 @@ outfit "Korath Jak'torbal Thruster"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"flare sound" "plasma large"
-	description "This engine is used in the Korath capital ships."
+	description "这款引擎用于科拉斯主力舰。"
 
 outfit "Korath Jak'parat Steering"
 	"display name" "科拉斯贾克帕拉特转向器"
@@ -114,7 +114,7 @@ outfit "Korath Jak'parat Steering"
 	"turn" 2520
 	"turning energy" 3.1
 	"turning heat" 7.9
-	description "This engine is used in the Korath capital ships."
+	description "这款引擎用于科拉斯主力舰。"
 
 
 # Deprecated in favor of the Outfits Expansion, which has a cooling penalty that
@@ -128,7 +128,7 @@ outfit "Mass Expansion"
 	"outfit space" 15
 	"cargo space" -20
 	unplunderable
-	description "A mass expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space unfortunately."
+	description "质量扩展舱让你可以牺牲部分货舱空间来腾出更多装备空间，适用于只差一点空间就能装上某个系统的情形。可惜的是，它并不能增加你的武器或引擎空间。"
 
 # Deprecated to give it a less generic name.
 outfit "Reverse Thruster"
@@ -202,14 +202,14 @@ outfit "Cruiser License"
 	"display name" "巡洋舰许可证"
 	category "Special"
 	thumbnail "outfit/navy cruiser license"
-	description "It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."
+	description "获准购买海军主力舰作私用是一项极为罕见的特权——不仅是因为巡洋舰的强大火力，更因为它是共和国实力的有力象征。"
 
 # Deprecated to clarify their name as being part of the Navy, and not a general purpose license for carrier type ships.
 outfit "Carrier License"
 	"display name" "航母许可证"
 	category "Special"
 	thumbnail "outfit/navy carrier license"
-	description "Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."
+	description "在过去的一个世纪里，只有极少数人获准购买海军航母作为私用，即便是退役的航母也是如此。"
 
 # Compatibility patch for those who use plug-ins that give all the licenses.
 # Each one checks for the presence of one of the two licenses, then replaces it.
@@ -245,7 +245,7 @@ outfit "Afterburner"
 	"afterburner fuel" .1
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	description "An afterburner works by dumping hyperspace fuel into your engines and igniting it, producing a large amount of thrust. This can be very useful for dodging missiles or briefly escaping from faster opponents, but you must be careful to avoid using up so much fuel that you do not have enough left for hyperspace travel."
+	description "加力燃烧室的工作原理是将超空间燃料注入引擎并点燃，从而产生巨大的推力。这在躲避导弹或短暂逃脱速度更快的对手时非常有用，但必须小心避免消耗过多燃料，导致剩余燃料不足以进行超空间航行。"
 
 
 
@@ -286,7 +286,7 @@ outfit "Korath Grab-Strike"
 		"shield damage" 108
 		"hull damage" 32
 		"hit force" -240
-	description "Korath Grab-Strike projectiles are designed to pull a target closer to the Korath ship, to keep it from escaping."
+	description "科拉斯抓取打击弹头旨在将目标拉近至科拉斯飞船，以防其逃脱。"
 
 outfit "Korath Banisher"
 	"display name" "科拉斯放逐者"
@@ -315,7 +315,7 @@ outfit "Korath Banisher"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" 60
-	description "The Korath like to keep their enemies close... but not too close."
+	description "科拉斯人喜欢让敌人靠近……但又不愿其过于接近。"
 
 outfit "Korath Warder"
 	"display name" "科拉斯守卫者"
@@ -337,7 +337,7 @@ outfit "Korath Warder"
 		"reload" 5
 		"firing energy" 24
 		"firing heat" 10
-	description "This anti-missile system helps defend Korath warships from long-range attacks."
+	description "这种反导弹系统用于保护科拉斯战舰免受远程攻击。"
 
 outfit "Korath Fire-Lance"
 	"display name" "科拉斯火焰长矛"
@@ -363,7 +363,7 @@ outfit "Korath Fire-Lance"
 		"shield damage" 3.5
 		"hull damage" 1.5
 		"heat damage" 12
-	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
+	description "科拉斯火焰长矛是一种中程光束武器，专为其战斗机设计。"
 
 outfit "Korath Repeater"
 	"display name" "科拉斯连发炮"
@@ -392,7 +392,7 @@ outfit "Korath Repeater"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "This is the smallest and simplest Korath projectile weapon, designed mostly for use on fighters and drones. As with most Korath technology, it generates a large amount of heat, enough that the gun must pause briefly after every few shots to cool down."
+	description "这是最小最简易的科拉斯实弹武器，主要设计用于战斗机和无人机。与大多数科拉斯技术一样，它会产生大量热量，足以让这门炮在每射击几发后必须短暂停顿以冷却。"
 
 outfit "Korath Repeater Turret"
 	"display name" "科拉斯连发炮塔"
@@ -425,7 +425,7 @@ outfit "Korath Repeater Turret"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "Korath repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
+	description "科拉斯连发炮向目标发射紧凑的过热等离子弹。舰船上每安装一座这种炮塔，通常都需要额外配备一套辅助冷却系统来应对其产生的热量。"
 
 outfit "Korath Piercer"
 	"display name" "科拉斯穿刺导弹"
@@ -434,7 +434,7 @@ outfit "Korath Piercer"
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Korath Piercer Launcher."
+	description "这种导弹由科拉斯穿刺导弹发射器发射。"
 
 outfit "Korath Piercer Rack"
 	"display name" "科拉斯穿刺导弹架"
@@ -445,7 +445,7 @@ outfit "Korath Piercer Rack"
 	"outfit space" -7
 	"piercer capacity" 16
 	ammo "Korath Piercer"
-	description "The Korath Piercer Rack is used to store extra ammunition for Korath Piercer Launchers."
+	description "科拉斯穿刺导弹架用于为科拉斯穿刺导弹发射器储存额外弹药。"
 
 outfit "Korath Piercer Launcher"
 	"display name" "科拉斯穿刺导弹发射器"
@@ -488,7 +488,7 @@ outfit "Korath Piercer Launcher"
 		"hit force" 450
 		"missile strength" 73
 		"stream"
-	description "Korath Piercer Missiles carry a pair of warheads. The first, a smaller one in the very tip of the missile, explodes on impact to blast a hole in the ship's shields to allow some of the subsequent, larger explosion to pierce through."
+	description "科拉斯穿刺导弹携带一对弹头。第一枚较小，位于导弹最尖端，会在撞击时爆炸，在飞船护盾上炸开一个洞，使后续更大规模的爆炸得以部分穿透。"
 
 outfit "Korath Mine"
 	"display name" "科拉斯太空雷"
@@ -497,7 +497,7 @@ outfit "Korath Mine"
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Korath Minelayer. Each mine splits into eleven submunitions after it is deployed."
+	description "这是科拉斯布雷器的弹药。每枚太空雷在部署后会分裂成十一枚子雷。"
 
 outfit "Korath Mine Rack"
 	"display name" "科拉斯太空雷架"
@@ -508,7 +508,7 @@ outfit "Korath Mine Rack"
 	"outfit space" -9
 	"minelayer capacity" 9
 	ammo "Korath Mine"
-	description "The Korath Mine Rack is used to store extra ammunition for Korath Minelayers."
+	description "科拉斯太空雷架用于为科拉斯布雷器储存额外弹药。"
 
 outfit "Korath Minelayer"
 	"display name" "科拉斯布雷器"
@@ -550,7 +550,7 @@ outfit "Korath Minelayer"
 		"hull damage" -2400
 		"hit force" -225
 		"stream"
-	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+	description "这种发射器发射子母弹药，分裂成一片静止的雷群。若船只撞上其中任何一枚，将承受大量伤害；但若在雷尚未部署完成时撞上，则伤害大幅降低。"
 
 outfit "Korath Disruptor"
 	"display name" "科拉斯扰乱器"
@@ -579,7 +579,7 @@ outfit "Korath Disruptor"
 		"shield damage" 3.8
 		"hull damage" .5
 		"disruption damage" .24
-	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "科拉斯扰乱器会干扰舰船的护盾，使船体即使在护盾开启时也会受到伤害。不过，扰乱器本身造成的船体伤害微乎其微。"
 
 outfit "Korath Slicer"
 	"display name" "科拉斯切割器"
@@ -605,7 +605,7 @@ outfit "Korath Slicer"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
+	description "这种巨大的光束武器对护盾效果相对较差，但切割船体装甲却如同切纸一般轻松。"
 
 outfit "Korath Slicer Turret"
 	"display name" "科拉斯切割器炮塔"
@@ -635,7 +635,7 @@ outfit "Korath Slicer Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "该炮塔发射一束高度聚焦的能量束，对船体装甲特别有效。当与干扰炮塔搭配使用时，是致命的组合。"
 
 outfit "Korath Repeater Rifle"
 	"display name" "科拉斯连发步枪"
@@ -646,7 +646,7 @@ outfit "Korath Repeater Rifle"
 	"capture defense" 2.4
 	"unplunderable"
 	"can jettison"
-	description "This rifle is commonplace among the Korath, predating the creation of the Repeater by at least two centuries. As it uses superheated plasma instead of lasers, the rifle is slow to fire and can sometimes burn its user's hands if they aren't careful. It makes up for these setbacks by guaranteeing that those hit won't live long enough to fire back."
+	description "这种步枪在科拉斯人中十分常见，其出现比连发炮早了至少两个世纪。由于使用的是过热等离子体而非激光，这种步枪射速缓慢，使用者若不小心，有时还会烫伤双手。但它弥补这些缺点的方式是：确保被击中的人活不到还击的那一刻。"
 
 outfit "Nanotech Battery"
 	"display name" "纳米技术电池"
@@ -657,7 +657,7 @@ outfit "Nanotech Battery"
 	"mass" 50
 	"outfit space" -50
 	"energy capacity" 60000
-	description "Human engineers who first came into contact with the Quarg were astonished by the sheer efficiency of their technology. The energy density of Quarg batteries is unparalleled, storing nearly a third more energy than the best human batteries while being over a third smaller."
+	description "最早接触夸格的人类工程师，都被其技术的惊人效率所震撼。夸格电池的能量密度无可比拟，储能比最好的人类电池多出近三分之一，体积却小了三分之一以上。"
 
 outfit "Quantum Shield Generator"
 	"display name" "量子护盾发生器"
@@ -668,7 +668,7 @@ outfit "Quantum Shield Generator"
 	"outfit space" -120
 	"shield generation" 10
 	"shield energy" 10
-	description "The first humans who met the Quarg thought that their technology worked on magic, and many even think so to this day. The mechanism by which this Quarg shield generator works is completely unknown to humanity, and the Quarg aren't interested in giving up their secrets."
+	description "最早遇见夸格的人类以为他们的技术靠魔法运转，直到今天仍有许多人这么认为。这种夸格护盾发生器的工作原理完全不为人类所知，而夸格也无意交出他们的秘密。"
 
 outfit "Intrusion Countermeasures"
 	"display name" "入侵反制系统"
@@ -678,7 +678,7 @@ outfit "Intrusion Countermeasures"
 	"capture defense" 24
 	"unplunderable"
 	"can jettison"
-	description "Quarg ships are outfitted with special systems for repelling boarders. Because no one wants to be caught by the Quarg with stolen technology, these systems are pretty much worthless on the open market."
+	description "夸格舰船配备了专门用于击退登船者的系统。由于没人想在夸格面前被抓到持有偷来的技术，这些系统在公开市场上几乎一文不值。"
 
 outfit "Quarg Skylance"
 	"display name" "夸格天矛"
@@ -708,7 +708,7 @@ outfit "Quarg Skylance"
 		"hull damage" 40
 		"ion damage" .1
 		"scrambling damage" .1
-	description "These immensely powerful beam weapons are used by Quarg warships to strike fear into the hearts of all who dare oppose them."
+	description "夸格战舰用这些威力无比的光束武器，让所有胆敢与之作对者心生恐惧。"
 
 outfit "Quarg Anti-Missile"
 	"display name" "夸格反导系统"
@@ -728,7 +728,7 @@ outfit "Quarg Anti-Missile"
 		"lifetime" 1
 		"reload" 10
 		"firing energy" 50
-	description "Quarg anti-missile defenses can target projectiles from considerable range compared to human technology, ensuring that only the most powerful missiles are capable of even getting near a Quarg ship."
+	description "与人类技术相比，夸格反导防御系统能在相当远的距离上锁定来袭弹体，确保只有最强大的导弹才可能接近夸格舰船。"
 
 outfit "Multimodal Armor: Resilient"
 	"display name" "多模态装甲：坚韧型"
@@ -742,8 +742,8 @@ outfit "Multimodal Armor: Resilient"
 	"corrosion protection" 0.5
 	"multimodal armor" -1
 	"unplunderable"
-	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "	This configuration is designed for exploring hazardous areas, substantially increasing the armor's ability to resist engine-dampening effects and long-term degradation."
+	description "继承者战舰的超材料装甲可以在设施齐备的太空港中进行改造，以改变其属性。"
+	description "	这种配置专为探索危险区域而设计，大幅提升了装甲抵御引擎抑制效应和长期损耗的能力。"
 
 outfit "Nettle Magazine"
 	"display name" "荨麻弹匣"
@@ -758,7 +758,7 @@ outfit "Nettle Magazine"
 	"outfit space" -12
 	"nettle capacity" 72
 	ammo `"Nettle" KKV`
-	description "To improve the combat endurance of ships that rely on flooding the battlespace with small missiles, this magazine extends the capacity of Nettle launch cells by loading new Nettle KKVs through the bottoms of the cells."
+	description "为了提升依靠小型导弹饱和战场的舰船的作战续航能力，这种弹匣从发射单元底部装填新的“荨麻”动能杀伤弹，扩充了荨麻发射单元的容量。"
 
 outfit "Orchid Magazine"
 	"display name" "兰花弹匣"
@@ -773,7 +773,7 @@ outfit "Orchid Magazine"
 	"outfit space" -12
 	"orchid capacity" 3
 	ammo `"Orchid" Nuclear Missile`
-	description "This large ammunition storage loads new Orchid Missiles into the launch tubes with little more than a few cables, actuators, and solenoids. Designed to be as minimalistic as possible, the sheer size of each Orchid nonetheless makes this magazine rather bulky for the number of missiles it stores."
+	description "这种大型弹药储存装置仅凭几根缆线、作动器和电磁线圈，就能将新的“兰花”导弹装入发射管。尽管设计上力求极简，但每枚“兰花”导弹的体积依然庞大，使得这种弹匣相对于其储弹量而言颇为笨重。"
 
 outfit `Z-3600 "Beam" Amat Torch`
 	"display name" "Z-3600“光束”反物质火炬"
@@ -802,7 +802,7 @@ outfit `Z-3600 "Beam" Amat Torch`
 		"scale" 0.5
 	"steering flare sound" "remnant afterburner"
 	"magnetic nozzle" 18
-	description "The fastest Avgi starships were propelled not just by their engines, but also by immense banks of lasers and particle beams stationed in the Anax system, pushing ships to velocities in excess of 0.2c before braking with a magsail or plasma magnet. Just before the invention of the hyperdrive, however, the Avgi perfected this beam-core antimatter drive, capable of pushing a starship with sufficient antimatter fuel to 0.4c and perhaps beyond. Requiring immense quantities of antimatter, the amat farms around Anax such as Antivli Station would have been strained to their limits had this design entered mass production, but the surprise invention of the hyperdrive rendered it laughably obsolete overnight."
+	description "最快的阿夫吉星舰不仅依靠自身引擎推进，还借助部署在阿纳克斯星系的大量激光与粒子束阵列，将飞船加速至超过0.2倍光速，随后利用磁帆或等离子磁体进行减速。然而，就在超光速推进器发明前不久，阿夫吉人完善了这种束芯反物质驱动器，只要有充足的反物质燃料，它就能将星舰推进到0.4倍光速甚至更高。由于需要消耗极其庞大的反物质，如果这种设计投入量产，阿纳克斯周边如安蒂夫利站这样的反物质农场将被逼至极限——但超光速推进器的意外发明，在一夜之间便让它沦为了可笑的过时之物。"
 
 outfit "Teciimach Canister"
 	"display name" "泰西马赫弹罐"
@@ -813,8 +813,8 @@ outfit "Teciimach Canister"
 	thumbnail "outfit/emp torpedo"
 	"mass" 1
 	"teciimach canister capacity" -1
-	description "This canister contains everything required to assemble a Teciimach Torpedo. These weapons emit strong electromagnetic pulses which interfere with a ship's generators and neutralize a portion of their energy."
-	description `	Unlike the previous generation of "EMP Torpedoes," the Teciimach torpedoes actively shape their emission pattern to avoid impacting their allies.`
+	description "这个弹罐内装有组装一枚泰西马赫鱼雷所需的全部部件。这种武器会发出强烈的电磁脉冲，干扰舰船的发电机，并抵消其部分能量。"
+	description `	与上一代“电磁脉冲鱼雷”不同，泰西马赫鱼雷会主动调整其发射模式，以避免波及友军。`
 
 outfit "Teciimach Canister Rack"
 	"display name" "泰西马赫弹罐架"
@@ -830,5 +830,5 @@ outfit "Teciimach Canister Rack"
 	"energy capacity" 500
 	"teciimach canister capacity" 9
 	ammo "Teciimach Canister"
-	description "The Teciimach Canister Rack is used to store extra sets of components, both to expand the capacity of a ship, and on carriers for resupplying fighters."
-	description "	In addition to its ammunition capacity, the storage bay can also contain a small amount of charge, enough to let an otherwise battery-less ship assemble Teciimach Torpedoes."
+	description "泰西马赫弹罐架用于储存额外的成套部件，既可扩充舰船的容量，也可在航母上为战斗机补给。"
+	description "	除了储存弹药外，这个储存舱还能容纳少量电荷，足以让没有电池的舰船组装泰西马赫鱼雷。"

@@ -422,7 +422,7 @@ government "Conlatio"
 	"hostile disabled hail" "incipias hostile disabled"
 
 government "Deep"
-	"display name" "深渊安保"
+	"display name" "幽海星"
 	swizzle 0
 	confusion "military"
 	"player reputation" -1000

@@ -17,10 +17,10 @@ news "food in Hai space"
 		not attributes "retirement"
 	name
 		word
-			"Visiting chef"
-			"Food connoisseur"
+			"客座厨师"
+			"美食家"
 			"Tourist"
-			"Tour guide"
+			"导游"
 	message
 		word
 			`"`
@@ -44,7 +44,7 @@ news "trading in Hai space"
 		not attributes "retirement"
 	name
 		word
-			"Merchant captain"
+			"商船船长"
 	message
 		word
 			`"`
@@ -118,7 +118,7 @@ news "cute hai story in Hai space"
 		government "Hai"
 	name
 		word
-			"Hai civilian"
+			"亥族平民"
 			"亥族导游"
 	message
 		word
@@ -141,12 +141,12 @@ news "business owner in Hai space"
 		not attributes "station"
 	name
 		word
-			"Store owner"
+			"店主"
 			"小企业主"
-			"Hair stylist"
+			"发型师"
 			"Barber"
-			"Restaurant owner"
-			"Fruit salesperson"
+			"餐馆老板"
+			"水果商贩"
 	message
 		word
 			`"`
@@ -184,10 +184,10 @@ news "there might be riots on allhome Hai"
 		has "There Might Be Riots part 3B: done"
 	name
 		word
-			"Hai captain"
-			"Hai pilot"
+			"亥族船长"
+			"亥族飞行员"
 			"亥族导游"
-			"Hai merchant"
+			"亥族商人"
 	message
 		word
 			`"`
@@ -207,9 +207,9 @@ news "there might be riots on allhome human"
 		has "There Might Be Riots part 3B: done"
 	name
 		word
-			"Human citizen"
+			"人类市民"
 			"Tourist"
-			"Human pilot"
+			"人类飞行员"
 	message
 		word
 			`"`
@@ -226,7 +226,7 @@ news "concerned merchant in Hai space"
 		not attributes "retirement"
 	name
 		word
-			"Merchant captain"
+			"商船船长"
 	message
 		word
 			`"`
@@ -248,8 +248,8 @@ news "concerned hai in Hai space"
 		government "Hai"
 	name
 		word
-			"Hai merchant"
-			"Hai civilian"
+			"亥族商人"
+			"亥族平民"
 	message
 		word
 			`"`
@@ -268,7 +268,7 @@ news "human citizen in Hai space"
 		not attributes "retirement"
 	name
 		word
-			"Human citizen"
+			"人类市民"
 	message
 		word
 			`"`
@@ -290,9 +290,9 @@ news "human reaction to Greenwater outfitter"
 		has "event: outfitter on Greenwater"
 	name
 		word
-			"Merchant captain"
+			"商船船长"
 			"Engineer"
-			"Merchant pilot"
+			"商船飞行员"
 	message
 		word
 			`"`
@@ -311,7 +311,7 @@ news "businessperson in hai space"
 	name
 		word
 			"Businessperson"
-			"Professional investor"
+			"职业投资人"
 			"Retiree"
 	message
 		word
@@ -330,7 +330,7 @@ news "reformed pirate in Hai space"
 		not attributes "retirement"
 	name
 		word
-			"Reformed pirate"
+			"改过自新的海盗"
 	message
 		word
 			`"`
@@ -364,7 +364,7 @@ news "human advertisement in Hai space"
 		attributes "human tourism"
 	name
 		word
-			"Holographic advertisement"
+			"全息广告"
 	message
 		word
 			`"`
@@ -383,7 +383,7 @@ news "hai advertisement in Hai space"
 		attributes "hai tourism"
 	name
 		word
-			"Holographic advertisement"
+			"全息广告"
 	message
 		word
 			`"`
@@ -403,8 +403,8 @@ news "hai attacked by pirates"
 		random < 30
 	name
 		word
-			"Hai civilian"
-			"Hai youth"
+			"亥族平民"
+			"亥族青年"
 	message
 		word
 			`"`
@@ -422,8 +422,8 @@ news "hai joining unfettered"
 		government "Hai"
 	name
 		word
-			"Hai civilian"
-			"Hai youth"
+			"亥族平民"
+			"亥族青年"
 	to show
 		random < 60
 	message
@@ -446,7 +446,7 @@ news "hai joining unfettered"
 		government "Hai (Unfettered)"
 	name
 		word
-			"Hai merchant"
+			"亥族商人"
 	to show
 		has "Unfettered Jump Drive 1: offered"
 		random < 60
@@ -469,11 +469,11 @@ news "unfettered hai no dialog"
 		government "Hai (Unfettered)"
 	name
 		word
-			"Unfettered fighter"
-			"Unfettered youth"
-			"Unfettered warlord"
-			"Hai youth"
-			"Hai warlord"
+			"无羁战士"
+			"无羁青年"
+			"无羁军阀"
+			"亥族青年"
+			"亥族军阀"
 	message
 		word
 			"一个亥族看着你，用他们的语言喊了些什么。你感觉那不是什么好话。"
@@ -488,7 +488,7 @@ news "unfettered hai no dialog group"
 		word
 			"Group of Unfettered"
 			"Group of Hai"
-			"Group of youth"
+			"一群青年"
 	message
 		word
 			"你看到一群亥族与另一群对峙。他们互相叫骂并亮出武器，随后又退开了。"
@@ -502,11 +502,11 @@ news "unfettered hai dialog"
 		government "Hai (Unfettered)"
 	name
 		word
-			"Unfettered fighter"
-			"Unfettered youth"
-			"Unfettered warlord"
-			"Hai youth"
-			"Hai warlord"
+			"无羁战士"
+			"无羁青年"
+			"无羁军阀"
+			"亥族青年"
+			"亥族军阀"
 	message
 		word
 			`"`
@@ -536,9 +536,9 @@ news "Unfettered Regret"
 		random < 20
 	name
 		word
-			"Unfettered fighter"
-			"Unfettered youth"
-			"Hai youth"
+			"无羁战士"
+			"无羁青年"
+			"亥族青年"
 	message
 		word
 			`"`
@@ -558,11 +558,11 @@ news "unfettered hai after wanderers invasion"
 		has "event: wanderers: unfettered invasion starts"
 	name
 		word
-			"Unfettered fighter"
-			"Unfettered youth"
-			"Unfettered warlord"
-			"Hai youth"
-			"Hai warlord"
+			"无羁战士"
+			"无羁青年"
+			"无羁军阀"
+			"亥族青年"
+			"亥族军阀"
 	message
 		word
 			`"`
@@ -588,9 +588,9 @@ news "unfettered hai after wanderers invasion regret"
 		random < 40
 	name
 		word
-			"Unfettered fighter"
-			"Unfettered youth"
-			"Hai youth"
+			"无羁战士"
+			"无羁青年"
+			"亥族青年"
 	message
 		word
 			`"`

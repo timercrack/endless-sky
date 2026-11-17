@@ -257,14 +257,14 @@ mission "Unfettered Jump Drive 2"
 			action
 				outfit "Jump Drive" -1
 				outfit "Hyperdrive" 1
-			`	Once again, they swap your jump drive for a hyperdrive, and pay you far more than you could sell a jump drive for anywhere else.`
+			`	你的跳跃引擎再一次被他们换成了超空间引擎，而他们付给你的钱远比你在其他任何地方卖掉一台跳跃引擎所得的要多。`
 				goto end
 			label spareJD
 			action
 				outfit "Jump Drive" -1
-			`	Once again, they take your jump drive pay you far more than you could sell it for anywhere else.`
+			`	他们再一次拿走了你的跳跃引擎，付给你的钱远比你在其他任何地方卖掉它所得的要多。`
 			label end
-			`	"We will tell the other true Hai to offer you jobs in our job boards," they tell you, "and remember that we need still more jump drives."`
+			`	“我们会让其他真亥族在我们的任务板上为你提供工作，”他们告诉你，“记住，我们还需要更多的跳跃引擎。”`
 			choice
 				`	“那我再去找更多，然后带给你们。”`
 					accept
@@ -346,12 +346,12 @@ mission "Unfettered Jump Drive 3"
 			action
 				outfit "Jump Drive" -1
 				outfit "Hyperdrive" 1
-			`	Once again, the Unfettered engineers swap your jump drive for a hyperdrive.`
+			`	无羁亥族的工程师们再一次把你的跳跃引擎换成了超空间引擎。`
 				goto job
 			label spareJD
 			action
 				outfit "Jump Drive" -1
-			`	Once again, the Unfettered engineers take your jump drive.`
+			`	无羁亥族的工程师们再一次拿走了你的跳跃引擎。`
 			label job
 			`	首领说：“如果你想再给我们提供跃迁引擎，从今往后就去任务板查看。我们会安排战士从你那里接收，并按惯例支付报酬。”`
 				decline
@@ -383,7 +383,7 @@ mission "Unfettered Jump Drive Trading"
 		"<The engineer>" "那名在决斗中退到一旁的工程师露出了真容，"
 			"unfettered: blade rodeo" == 2
 		"<as before (run)>" "你"
-		"<as before (run)>" "As before, you"
+		"<as before (run)>" "和上次一样，你"
 			has "unfettered: dodged the blade"
 		"<as before (flee)>" "你"
 		"<as before (flee)>" "就像上次一样，你"
@@ -532,12 +532,12 @@ mission "Unfettered Jump Drive Trading"
 			action
 				outfit "Jump Drive" -1
 				outfit "Hyperdrive" 1
-			`	The Unfettered engineer swaps your jump drive for a hyperdrive before leaving, and you return to your ship after being escorted out of the facility.`
+			`	那名无羁亥族工程师在离开前把你的跳跃引擎换成了超空间引擎，随后你被护送离开设施，回到了自己的飞船上。`
 				accept
 			label spareJD
 			action
 				outfit "Jump Drive" -1
-			`	The Unfettered engineer takes your jump drive before leaving, and you return to your ship after being escorted out of the facility.`
+			`	那名无羁亥族工程师在离开前拿走了你的跳跃引擎，随后你被护送离开设施，回到了自己的飞船上。`
 				accept
 
 			label dodge

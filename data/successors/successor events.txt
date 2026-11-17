@@ -106,7 +106,7 @@ event "successors: ghosts incident"
 	set "successors: ghosts stage 0"
 	planet "Qasa-Sija-Iri"
 		government "House Kaatrij"
-		description `Until recently, this moon was an utterly unremarkable uninhabited world within House Kaatrij's sphere of influence. However, near the south pole, the exposed guts of a strange facility now twinkle and shimmer half-enveloped in the moon's sands. A large military presence by House Kaatrij repels any closer inspection, but regardless, it seems that Qasa-Sija-Iri is not quite as uninhabited as it immediately appeared.`
+		description `直到不久前，这颗卫星还是卡特里吉家族势力范围内一个毫不起眼的无人世界。然而，在南极附近，一座奇异设施裸露的内部结构如今半掩在卫星的沙土中，闪烁着微光。卡特里吉家族庞大的军事存在阻挡了任何近距离调查，但无论如何，卡萨-西贾-伊里似乎并不像乍看之下那样无人居住。`
 			to display
 				not "successors kaatrij vassal"
 
@@ -122,8 +122,8 @@ event "successors: ghosts stage 1"
 
 event "successors: ghosts unrestrict"
 	planet "Qasa-Sija-Iri"
-		description `Beneath the colorless sandy surface of Qasa-Sija-Iri, House Kaatrij and their Quarg patrons have built a variety of advanced bases. The one near the south pole, now recovered from its earlier attack, is the moon's primary spaceport.`
-		spaceport `The subterranean spaceport here is small but clearly well-maintained. The landing pads travel on elevators to deep below the surface - the House Kaatrij ones, at least, because Successor vessels are the only craft visible here. If the Quarg have their own craft in residence, they must be landing in a different section of the facility, or at a different base altogether.`
+		description `在卡萨-西贾-伊里无色的沙质地表之下，卡特里吉家族及其夸格庇护者建造了多座先进基地。南极附近那座基地如今已从先前的袭击中恢复，是这颗卫星的主要太空港。`
+		spaceport `这里的地下太空港规模不大，但显然维护良好。着陆坪会随升降机一同降至地表深处——至少卡特里吉家族的着陆坪如此，因为这里能看到的只有继承者的舰船。如果夸格在此驻有自己的飞船，那它们一定降落在设施的其他区域，或者干脆是另一座基地。`
 		add outfitter `Successor Basics`
 
 event "successors: ghosts message delay"

@@ -27,10 +27,10 @@ mission "First Contact: Gegno Vi"
 	description `将你在<origin>协助过的<alien>运送至地图上标定的位置。`
 	substitutions
 		"<alien>" "异星人"
-		"<alien>" "Gegno"
+		"<alien>" "格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
-		"<Alien>" "Alien"
-		"<Alien>" "Gegno"
+		"<Alien>" "异星人"
+		"<Alien>" "格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
 	source "Var Oti"
 	destination "Dueyu Eitch"
@@ -198,16 +198,16 @@ mission "Visit Quarg in Gegno Space"
 	description `按指示前往<designated system>。`
 	substitutions
 		"<alien>" "异星人"
-		"<alien>" "Gegno"
+		"<alien>" "格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
-		"<Alien>" "Alien"
-		"<Alien>" "Gegno"
+		"<Alien>" "异星人"
+		"<Alien>" "格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
 		"<aliens>" "外星人"
-		"<aliens>" "Gegno"
+		"<aliens>" "格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
-		"<designated system>" "designated system"
-		"<designated system>" "Giaru Gegno"
+		"<designated system>" "指定星系"
+		"<designated system>" "贾鲁格诺"
 			has "Giaru Gegno: Quarg Contact: offered"
 	source "Dueyu Eitch"
 	destination "Giaru Gegno"
@@ -227,16 +227,16 @@ mission "Visit Quarg in Gegno Space"
 			branch "hostile quarg"
 				"reputation: Quarg (Gegno)" < 0
 				has "visited system: Aleit"
-			`	After fiddling with it, the <alien> marks a new location and presents it to you. "Oukeug," they say, and gesture you to depart in a fashion of urgency. They then leave your ship, walk towards the others, and have a brief discussion. A few moments later, another smaller group of <aliens> arrive with what looks to be some type of fueling device, and after a minute or so of fidgeting with it, they manage to hook it up to your ship. These <aliens> look shorter and thinner than the others, and wear more leather-like garments than heavy metal ones - but their demeanor is just as rigid. Once your ship's fuel has been filled, the <alien> that has been guiding you gestures towards the sky. It seems your visit to the mysterious <alien> homeworld will have to be cut short.`
+			`	那名<alien>在设备上摆弄了一会儿，标注了一个新的位置，然后递到你面前。“Oukeug，”它说道，并急切地做手势催促你离开。随后它走下你的飞船，走向其他同伴，与他们简短地交谈了几句。片刻之后，另一小群<aliens>带着一台看似某种加注设备的装置赶来，摆弄了大约一分钟后，他们成功将其接到了你的飞船上。这些<aliens>比其他人更矮更瘦，穿着更像皮革的服装，而非沉重的金属铠甲——但他们的举止同样刻板。你的飞船加满燃料后，一路引导你的那名<alien>朝天空比了比手势。看来你对这颗神秘的<alien>母星的造访只能匆匆结束了。`
 				launch
 			
 			label "has met quarg"
-			`	After fiddling with it, the Vi marks a new location and presents it to you. "Oukeug," they say, and gesture you to depart in a fashion of urgency. You look at the location and notice that it's the Quarg ringworld you've previously visited. They then leave your ship, walk towards the others, and have a brief discussion. A few moments later, another smaller group of Gegno arrive with what looks to be some type of fueling device, and after a minute or so of fidgeting with it, they manage to hook it up to your ship. These Gegno look shorter and thinner than the others, and wear more leather-like garments than heavy metal ones - but their demeanor is just as rigid. Once your ship's fuel has been filled, the Gegno Vi that has been guiding you gestures towards the sky. It seems your visit to the mysterious Gegno homeworld will have to be cut short.`
+			`	那名维族战士在设备上摆弄了一会儿，标注了一个新的位置，然后递到你面前。“Oukeug，”它说道，并急切地做手势催促你离开。你看了看那个位置，发现那正是你之前造访过的夸格环世界。随后它走下你的飞船，走向其他同伴，与他们简短地交谈了几句。片刻之后，另一小群格诺带着一台看似某种加注设备的装置赶来，摆弄了大约一分钟后，他们成功将其接到了你的飞船上。这些格诺比其他人更矮更瘦，穿着更像皮革的服装，而非沉重的金属铠甲——但他们的举止同样刻板。你的飞船加满燃料后，一路引导你的那名格诺维朝天空比了比手势。看来你对这颗神秘的格诺母星的造访只能匆匆结束了。`
 				launch
 			
 			label "hostile quarg"
 			`	那名<alien>在设备上摆弄了一会儿，标注了一个新的位置，然后递到你面前。“Oukeug，”它说道，并急切地做手势催促你离开。你看了看那个位置，意识到那正是附近的夸格环世界。考虑到你与夸格的过往纠葛，可想而知，他们绝对不会张开双臂欢迎你。那名<alien>突然用胳膊肘戳了你一下，再次示意你起飞。`
-			`	You begin preparing your ship for departure, and the <alien> leaves your ship. They walk towards the others, have a brief discussion, and another smaller group of <aliens> arrive with what looks to be some type of fueling device. After a minute or so of fidgeting with it, they manage to hook it up to your ship. These <aliens> look shorter and thinner than the others, and wear more leather-like garments than heavy metal ones - but their demeanor is just as rigid. Once your ship's fuel has been filled, the <alien> that has been guiding you points towards the sky. Visiting the Quarg isn't an option, so it seems associating with these <aliens> is unlikely for the foreseeable future.`
+			`	你开始为飞船做起飞准备，那名<alien>走下了你的飞船。它走向其他同伴，与他们简短地交谈了几句，随后另一小群<aliens>带着一台看似某种加注设备的装置赶来。摆弄了大约一分钟后，他们成功将其接到了你的飞船上。这些<aliens>比其他人更矮更瘦，穿着更像皮革的服装，而非沉重的金属铠甲——但他们的举止同样刻板。你的飞船加满燃料后，一路引导你的那名<alien>指了指天空。拜访夸格并不可行，看来在可预见的将来，你都不太可能与这些<aliens>打交道了。`
 				flee
 
 	npc
@@ -487,7 +487,7 @@ mission "Suspicious Scin"
 	on offer
 		conversation
 			`正当你忙于手头的事务时，一个微弱的信号开始从你飞船的某个角落发出。你不确定那是什么，因为它似乎并非源自飞船系统本身，于是你决定去查个究竟。搜寻了几分钟后，你找到了罪魁祸首——一个与你在瓦尔奥蒂遇到的格诺人给你的那个颇为相似的小装置，被随手塞在了飞船内部管道的角落里。你不知道它是怎么或者什么时候出现在那里的，但它看起来并没有什么危险。`
-			`	Aside from the strange signal it's emitting, all the device appears to be doing is pointing to the location of a planet within Gegno space. The only option, aside from ignoring the device, is to visit this planet and see if there are any answers to this strange situation.`
+			`	除了发出奇怪的信号外，这台设备似乎唯一的功能就是指向格诺星域内一颗行星的位置。除了无视这台设备之外，唯一的选择就是前往这颗行星，看看能否为这一离奇状况找到答案。`
 				accept
 
 	npc
@@ -514,28 +514,28 @@ mission "First Contact: Gegno Scin"
 		conversation
 			`在你飞船上的神秘装置引导下，你降落到这个世界的地表，穿过了几层厚厚的云雾。一旦穿透云层并准备着陆，你注意到附近停着几艘格诺辛飞船，从它们身上各式的绿色斑纹中很容易就能辨认出来。其中两艘看起来很像你在附近星系见过的军用舰船，而夹在它们中间的第三艘则是一架小型穿梭机。这装置想必是辛人放置的，而且他们似乎一直在等着你，因为其中一艘战舰已经开始离地升空，正朝着你的方向飞来。`
 			choice
-				`	(Leave the planet.)`
+				`	（离开这颗行星。）`
 					goto leave
-				`	(Wait and see what they do.)`
+				`	（等着看他们会做什么。）`
 					goto wait
 				`	（准备战斗。）`
-			`	Engaging your weapon systems, you brace yourself for a hostile encounter as they approach. The Scin ship advances towards yours then slowly comes to a halt in front of you. They haven't fired any weapons, and they aren't displaying any aggressive behavior, so they might not be looking for conflict. Ever so slightly, the warship reverses backwards and comes to a stop. You decide to stop your ship as well, and you wonder what this is about. Once again, the Scin ship reverses, slowly drifting away from you. It appears they want you to follow them.`
+			`	你启动武器系统，在他们靠近时做好了迎接敌对遭遇的准备。那艘辛族飞船朝你的飞船逼近，随后缓缓停在你面前。他们没有开火，也没有表现出任何挑衅的举动，因此或许并非前来寻衅。那艘战舰极其缓慢地向后倒退，然后停了下来。你决定也让自己的飞船停下，心里琢磨着这究竟是怎么回事。那艘辛族飞船再次倒退，慢慢地漂离你。看来他们希望你跟上去。`
 				goto interaction
 			
 			label wait
-			`	Bringing your ship to a halt, you decide to wait and see what the Scin ship does as it advances towards you. As it slowly approaches, it slows down and eventually stops for a brief moment. Ever so slightly, the warship then begins to reverse backwards, and continues to drift away from you while facing you. They don't seem to be cautious of you, rather, it's almost as if they're implying to follow them.`
+			`	你让飞船停了下来，决定先静观那艘辛族飞船朝你逼近时会做些什么。它缓缓靠近，逐渐减速，最终短暂地停了下来。随后，那艘战舰极其缓慢地开始倒退，在保持面向你的同时继续漂离。他们似乎并未对你心存戒备，反倒像是在暗示你跟上他们。`
 				goto interaction
 
 			label interaction
 			choice
-				`	(Follow them.)`
+				`	（跟上他们。）`
 					goto follow
 				`	（离开。）`
 					goto leave
 			label "leave"
 			action
 				set "gegno: left scin"
-			`	Wary of the Scin warship, you turn around and begin to ascend back into space. The Scin ship advances towards yours, but as it comes closer, it begins to take on an escort formation with you, following you as you leave the planet's atmosphere. You're unsure of what they're doing on the planet or why you've been led to them, but maybe it's better for you to be careful and not get involved.`
+			`	出于对那艘辛族战舰的戒备，你调转方向，开始向太空爬升。那艘辛族飞船朝你的飞船逼近，但随着距离拉近，它开始与你组成护航队形，一路跟随你离开这颗行星的大气层。你不确定他们在这颗行星上做什么，也不知道你为何会被引到他们这里，但或许你还是小心为妙，别卷入其中。`
 				accept
 
 			label "follow"
@@ -545,15 +545,15 @@ mission "First Contact: Gegno Scin"
 			`	虽然这颗星球被几层厚云遮挡，起初看起来平淡无奇，但地表偶尔可见生命的痕迹，比如草地平原或干涸的河床，而低矮的雾气覆盖着其他区域。飞行持续进行，两艘辛人飞船慢慢移动，一左一右伴在你两侧。前方远处，一片雾墙后面出现了一座大型建筑的身影。再靠近一些，你认出了随你同行的飞船上的那种熟悉的绿色。两艘战舰开始下降，朝一艘停在开阔沙地上的、显然属于辛人的大型货船而去。`
 			`	你之前与维人战士的遭遇混乱且难以预料，所以眼下最好格外谨慎。你在那艘飞船附近降落后，引导你来的两艘战舰也在旁边降落并关闭了引擎。除了眼前的格诺飞船外，雷达上暂时没有发现任何异常活动。外部的环境读数意外地显示对人类来说安全，但谨慎些总是好的。你穿上环境服并带好手枪以防万一。`
 			choice
-				`	(Approach the Scin.)`
+				`	（走近那些辛族人。）`
 					goto approach
 				`	(待在我飞船旁边。)`
 			`	你向前走了一两步，但仍不离飞船太远，保持警觉。那艘货船确实很大——大约是“运输者”的四倍，或者接近“巨兽”的两倍。一个升降台从船底降下，一群辛人走出飞船，朝你走来。他们的着装与维人截然不同：大多数人穿着多层甲片构成的鳞甲，看起来就像鳞片一样。然而，其中一人穿着一套轻得多的铠甲，主要集中在肩部，下面衬着橙色袍服。此人比其他辛人稍微瘦弱一些。虽然他们远不如维人魁梧，但依然比任何人类都高。更重要的是，他们似乎更渴望与你交流，因为他们甚至主动离开自己舒适的飞船来迎接你。`
 			`	在离你大约四米的地方停住，穿着重甲的辛人单膝跪地。穿袍子的那个又走了几步，然后在你面前席地而坐，盘起腿。`
 			choice
-				`	(Sit down.)`
+				`	（坐下。）`
 					goto sit
-				`	(Reach for my pistol.)`
+				`	（伸手去拿我的手枪。）`
 					goto reach
 			label "sit"
 			`	你坐下来，仔细打量他们。他们的皮肤看起来几乎是骨质的，带着极淡的浅绿色纹路。与维人不同，他们头上长着三只小角，几乎没有毛发。他们同样对你的外貌很感兴趣，上下打量着你。另一个辛人从货船上走来，拿着某种设备，跪在穿袍者身旁；穿袍者接过设备，放在你和他们之间。看起来像某种平板电脑或绘图工具。`
@@ -570,7 +570,7 @@ mission "First Contact: Gegno Scin"
 			action
 				set "scin: gestures"
 			`	你伸出右手，辛人俯身仔细检查，然后在设备上又做了一个记录。又写了些东西之后，他们从地上站起来，朝你做了个奇怪的手势——双臂交叉，在左侧形成一个加号形状。其他重甲辛人也从跪姿起身，开始返回自己的飞船，你面前的那个也跟在后面。`
-			`	You return to your own ship after the bewildering encounter, wondering what to make of it, and the Scin do not follow you any further.`
+			`	经历了这场令人困惑的遭遇后，你回到了自己的飞船，琢磨着该如何理解这一切，而辛族人没有再跟着你。`
 				accept
 
 			label "imagery"
@@ -589,7 +589,7 @@ mission "First Contact: Gegno Scin"
 			`	他们面露困惑地看着你，又画了一幅肖像，看起来很像他们母星上穿着皮革的矮个格诺人，然后把这幅图和维人、辛人的图像放到了一起。“格诺，”他们说着，陷入了沉思。片刻之后，他们又开始在设备上写画。当他们再次把设备转向你时，你看到了一块绿色色块和一块褐色色块。“维，”辛人指着褐色说道。“辛，”他们又指着绿色说。随后，他们指向包含三幅格诺肖像的画组。“格诺。”`
 			`	又记录了些信息后，他们从地上站起来，开始返回自己的飞船。身穿重甲的辛人也纷纷从跪姿起身，跟在他们后面。`
 			`	突然，一阵沙尘从你身后卷过，你转身看到又有三名身穿护甲的辛人从沙中现身，其中一个离你相当近。他们的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备，但最引人注目的是他们手持的镰刀状利刃。看来辛人对局势的掌控比你想象的要强——如果刚才你做出了错误的抉择，很可能此刻已经沦为那些利刃的刀下亡魂了。`
-			`	You return to your ship and take off from the planet, but the Scin do not follow you any further.`
+			`	你回到飞船，从这颗行星起飞，但辛族人没有再跟着你。`
 				accept
 			
 			label "quiet"
@@ -601,7 +601,7 @@ mission "First Contact: Gegno Scin"
 					goto "no thoughts"
 			`	在你歪过头之后，他在设备上记录下了你的行为。随后，他们从地上站起来，开始返回自己的飞船。身穿重甲的辛人也纷纷从跪姿起身，跟在他们后面。`
 			`	突然，一阵沙尘从你身后卷过，你转身看到又有三名身穿护甲的辛人从沙中现身，其中一个离你相当近。他们的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备，但最引人注目的是他们手持的镰刀状利刃。看来辛人对局势的掌控比你想象的要强——如果刚才你做出了错误的抉择，很可能此刻已经沦为那些利刃的刀下亡魂了。`
-			`	You return to your ship and take off from the planet, but the Scin do not follow you any further.`
+			`	你回到飞船，从这颗行星起飞，但辛族人没有再跟着你。`
 				accept
 				
 			label "no thoughts"
@@ -612,14 +612,14 @@ mission "First Contact: Gegno Scin"
 			action
 				set "scin: provocative"
 			`你刚打算有所动作，就感觉到一把弯刀缠上了你的脖子，同时一阵沙尘从你身边卷过。面前的辛人随意地在设备上记录了些什么，随后起身开始返回自己的飞船。你慢慢转过头，迎上的是另一个辛人冰冷、面无表情的脸孔，他示意你回自己的飞船。你照做了，而他一路上继续将刀刃架在你的脖子上。沿途又有两名辛人突然从沙中现身，而你最初遇到的那些人则留在了原地。押送你的那名辛人的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备。`
-			`	Once you are at your ship, they move their blade away from your neck. When you get a better look at it, you realize that the blade is shaped like a sickle as opposed to a sword, meaning there was little chance you could have avoided being decapitated if they chose to use it. You board your ship in a hurry, preparing to take off. It's clear you've overstayed your welcome.`
+			`	当你走到自己的飞船旁时，他们才把刀刃从你的脖子上移开。待你看清那把刀刃，你才意识到它形如镰刀而非长剑，这意味着如果他们当时选择动手，你几乎不可能逃过身首异处的下场。你匆忙登上飞船，准备起飞。显然，你在这里待得太久，已经不受欢迎了。`
 				launch
 			
 			label "reach"
 			action
 				set "scin: provocative"
 			`	辛人能够如此轻松随意地接近你，这相当令人警惕；考虑到之前与维人遭遇的经历，接下来发生什么都有可能。你决定伸手去拿手枪，但刚一动作，首先感觉到的就是架在脖子上的弯刀，以及一阵卷过的沙尘。你慢慢转过头，迎面撞上的是另一名辛人冰冷、面无表情的面孔，他示意你返回飞船。你照做了，而他一路上继续将刀刃架在你的喉咙上。沿途又有两名辛人突然从沙中现身，而最初遇到的那些人则留在了原地。押送你的那名辛人的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备。`
-			`	Once you are at your ship, they move their blade away from your neck. When you get a better look at it, you realize that the blade is shaped like a sickle as opposed to a sword, meaning there was little chance you could have avoided being decapitated if they chose to use it. Boarding your ship in a hurry, you prepare to take off, and you notice the other Scin warship also powering up. It's clear you've overstayed your welcome.`
+			`	当你走到自己的飞船旁时，他们才把刀刃从你的脖子上移开。待你看清那把刀刃，你才意识到它形如镰刀而非长剑，这意味着如果他们当时选择动手，你几乎不可能逃过身首异处的下场。你匆忙登上飞船准备起飞，并注意到另一艘辛族战舰也在启动。显然，你在这里待得太久，已经不受欢迎了。`
 				launch
 
 
@@ -630,7 +630,7 @@ mission "First Contact: Gegno Scin"
 			`	你一走到升降台前，身穿重甲的辛人就护送你登了上去。升降台升回飞船内部，通向一个宽阔的内部舱室。穿长袍的辛人走到一旁，拿来某种设备走到你站立的地方，并示意你过去。`
 			choice
 				`	(过去。)`
-				`	(Reach for my pistol.)`
+				`	（伸手去拿我的手枪。）`
 					goto pistol
 			`	你走到设备旁，仔细打量着那名穿长袍的辛人。他们的皮肤看起来几乎是骨质的，带着极淡的浅绿色纹路。与维人不同，他们头上有三只小角，几乎没有毛发。他们同样对你的外貌很感兴趣，上下打量着你。在对设备又摆弄了一会儿之后，那名辛人展示出了一个类似平板电脑或绘图工具的东西。`
 			`	接着，那个辛人伸出手掌，在显示屏的一半上画了个记号，然后把设备转向你。`
@@ -646,7 +646,7 @@ mission "First Contact: Gegno Scin"
 			action
 				set "scin: gestures"
 			`	当你伸出右手，辛人俯身仔细检查，随后在设备上又做了一次记录。又写了些东西之后，他们转向你，做了个奇怪的手势——双臂交叉，在左侧形成一个加号形状。其他身穿重甲的辛人走上前来，护送你回到升降台并送回你的飞船。一路上，你注意到几名之前没见过的辛人。他们的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备，但最引人注目的是他们手持的镰刀状利刃。`
-			`	Once you return to your ship, the Scin return to theirs, but remain on the planet. Although just as strange, this encounter went far better than the one with the Vi.`
+			`	你回到自己的飞船后，辛族人也回到了他们的飞船上，但仍留在这颗行星上。虽然同样离奇，但这次遭遇比与维族那次要顺利得多。`
 				accept
 
 			label "images"
@@ -664,14 +664,14 @@ mission "First Contact: Gegno Scin"
 				set "scin: imagery"
 			`	他们面露困惑地看着你，又画了一幅肖像，看起来很像他们母星上穿着皮革的矮个格诺人，并将这幅图与维人、辛人的图像放到了一起。“格诺，”他们说着，陷入了沉思。片刻之后，他们又开始在设备上写画。当他们再次把设备转向你时，你看到了一块绿色色块和一块褐色色块。“维——，”辛人咬字清晰地指着褐色说道。“辛——，”他们指着绿色说。随后，他们指向包含三幅格诺肖像的画组。“格诺。”`
 			`	在记录了更多信息之后，那名辛人低下了头，随后其他的辛人将你领回升降台，启动它将你送回地表。在被护送回飞船的途中，你见到了几名之前没有遇到的辛人。他们的护甲与其他人大不相同，颜色更深，边缘更锐利，且配备了多种设备，但最引人注目的是他们手持的镰刀状利刃。`
-			`	Once you return to your ship, the Scin return to theirs, but remain on the planet. Although just as strange, this encounter went far better than the one with the Vi.`
+			`	你回到自己的飞船后，辛族人也回到了他们的飞船上，但仍留在这颗行星上。虽然同样离奇，但这次遭遇比与维族那次要顺利得多。`
 				accept
 
 			label "pistol"
 			action
 				set "scin: provocative"
 			`	你发现自己正处于非常微妙而危险的境地——身处异星种族的飞船内，被各种陌生的装置所包围，接下来任何事情都有可能发生。你决定伸手去拿手枪，但刚一动作，首先感觉到的就是架在脖子上的弯刀。你慢慢转过头，迎面撞上的是另一张冰冷、面无表情的辛人面孔，此人先前并未露过面。他一路上继续将刀刃架在你的喉咙上，同时再次启动升降台，将你送回地表。他们的护甲与其余人大不相同，颜色更深，边缘更锐利，且配备了多种设备。`
-			`	They escort you back to your ship, and along the way, several more Scin stand guard in the same armor. Once you are at your ship, the blade is moved away from your neck. When you get a better look at it, you realize that the blade is shaped like a sickle as opposed to a sword, meaning there was little chance you could have escaped being decapitated if they had chosen to use it. Boarding your ship in a hurry, you prepare to take off, and you notice the other Scin warship also powering up. It's clear you've overstayed your welcome.`
+			`	他们押送你返回飞船，一路上还有更多身穿同样铠甲的辛族人在站岗。当你走到自己的飞船旁时，那把刀刃才从你的脖子上移开。待你看清那把刀刃，你才意识到它形如镰刀而非长剑，这意味着如果他们当时选择动手，你几乎不可能逃过身首异处的下场。你匆忙登上飞船准备起飞，并注意到另一艘辛族战舰也在启动。显然，你在这里待得太久，已经不受欢迎了。`
 				launch
 			
 			label "silence"
@@ -682,7 +682,7 @@ mission "First Contact: Gegno Scin"
 			action
 				set "scin: provocative"
 			`你刚想动，首先感觉到的便是架在脖颈上的一柄弯刀。那名辛人随意地在设备上又记了一笔，随后便离开此地，向飞船深处走去。你慢慢转过头，迎上的是另一张冰冷、面无表情的辛人面孔——这是你此前从未见过的另一个辛人。他继续将刀刃抵在你的喉头，同时再次启动升降平台，将你降回地面。这名辛人的铠甲与其余人截然不同，色调更暗，边缘更显锋利，还挂着几个小装置。`
-			`	They escort you back to your ship, and along the way, several more Scin stand guard, wearing the same armor. Once you are at your ship, the blade is moved away from your neck. When you get a better look at it, you realize that the blade is shaped like a sickle as opposed to a sword, meaning there was little chance you could have escaped being decapitated if they chose to use it. You board your ship in a hurry, preparing to take off. It's clear you've overstayed your welcome.`
+			`	他们押送你返回飞船，一路上还有更多辛族人在站岗，身上穿着同样的铠甲。当你走到自己的飞船旁时，那把刀刃才从你的脖子上移开。待你看清那把刀刃，你才意识到它形如镰刀而非长剑，这意味着如果他们当时选择动手，你几乎不可能逃过身首异处的下场。你匆忙登上飞船，准备起飞。显然，你在这里待得太久，已经不受欢迎了。`
 				launch
 
 	npc

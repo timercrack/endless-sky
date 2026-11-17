@@ -88,20 +88,20 @@ mission "Avgi: First Contact"
 			action
 				set "avgi: fired on by planets"
 			choice
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto explode
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" <= 18000 * 1000
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto hit
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" > 18000 * 1000
 						"flagship attribute: shields" + "flagship attribute: hull" < 90000 * 1000
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto scratched
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" >= 90000 * 1000
-				`	(Move to a higher orbit.)`
+				`	（移动到更高的轨道。）`
 					goto orbit
 
 			label "core world"
@@ -110,32 +110,32 @@ mission "Avgi: First Contact"
 			action
 				set "avgi: fired on by planets"
 			choice
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto explode
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" <= 9000 * 1000
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto hit
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" > 9000 * 1000
 						"flagship attribute: shields" + "flagship attribute: hull" < 60000 * 1000
-				`	(Attempt to land regardless.)`
+				`	（不管怎样，尝试降落。）`
 					goto scratched
 					to display
 						"flagship attribute: shields" + "flagship attribute: hull" >= 60000 * 1000
-				`	(Move to a higher orbit.)`
+				`	（移动到更高的轨道。）`
 					goto orbit
 
 			label explode
-			`	You make it no more than a few seconds before your ship is lanced by a rapid succession of shots from below. Your shields shatter almost instantly, your hull pierced as though it is tissue paper. You don't even have time to think before you are consumed by the rapidly expanding cloud of plasma that was once the <ship>.`
+			`	你还没飞出几秒，飞船就被来自下方的一连串急速射击贯穿。护盾几乎瞬间破碎，船体像纸巾一样被洞穿。你甚至来不及思考，就被急速膨胀的等离子云吞没——那团云曾经是<ship>。`
 				explode
 
 			label hit
-			`	You make it no more than a few seconds before the <ship> is lanced by a rapid succession of shots from below. Your ship appears to be holding up under the fire, but the species that lives here doesn't seem willing to welcome you. When you detect the launch of a rather unreasonable number of missiles, you decide it would be safer to proceed back to orbit.`
+			`	你还没飞出几秒，<ship>就被来自下方的一连串急速射击贯穿。你的飞船似乎还顶得住火力，但住在这里的物种显然并不欢迎你。当你探测到对方发射了数量多得离谱的导弹时，你决定还是返回轨道更为安全。`
 				goto orbit
 
 			label scratched
-			`	You make it no more than a few seconds before the <ship> is lanced by a rapid succession of shots from below. Your ship easily shrugs off the kinetic impacts, but the species that lives here doesn't seem willing to welcome you. When you detect the launch of a rather unreasonable number of missiles, you decide it would be safer to proceed back to orbit.`
+			`	你还没飞出几秒，<ship>就被来自下方的一连串急速射击击中。你的飞船轻松扛下了这些动能冲击，但住在这里的物种显然并不欢迎你。当你探测到对方发射了数量多得离谱的导弹时，你决定还是返回轨道更为安全。`
 				goto orbit
 
 			label uninhabited
@@ -145,9 +145,9 @@ mission "Avgi: First Contact"
 			label orbit
 			`	回到轨道上，地平线上出现了一艘沿着拦截航向向你飞来的飞船，让你吓了一跳。它看起来和你以前见过的任何飞船都不一样，与你习惯的流线型人类飞船相比显得有些笨拙。你不确定它属于居住在这片空间的同一种族，还是完全不同的另一个种族，但至少它肯定不像那些充斥着这个星团的敌对飞船。`
 			choice
-				`	(Try transmitting a standard hail.)`
+				`	（尝试发送标准呼号。）`
 					goto talk
-				`	(Transmit a series of prime numbers.)`
+				`	（发送一串质数。）`
 					goto prime
 				`	（保持沉默。）`
 					goto silent
@@ -156,9 +156,9 @@ mission "Avgi: First Contact"
 			`这座外星空间站显然已经风光不再。虽然主体结构仍然完好，没有像你见过的其他废墟那样沦为碎片区，但船体上布满了强大的武器射击留下的刻痕和缺口。空间站的所有系统似乎都已断电，因为你探测不到任何光或热辐射。不指望能找到任何活物，你机动靠近一个你认为可能是开放对接舱口的位置。`
 			`	就在<ship>靠近那个"对接舱口"时，你发现里面藏着一艘像飞船的东西。它和你以前见过的任何飞船都不一样，与你习惯的流线型人类飞船相比显得有点笨拙。你不确定它属于这片空间的原生种族，还是完全不同的另一个种族，但至少它肯定不像那些似乎充斥这个星团的敌对飞船。更重要的是，它的反应堆正在运行，似乎有活跃的护盾矩阵。看来确实有人在家。`
 			choice
-				`	(Transmit a standard hail.)`
+				`	（发送标准呼号。）`
 					goto talk
-				`	(Transmit a series of prime numbers.)`
+				`	（发送一串质数。）`
 					goto prime
 				`	（保持沉默。）`
 					goto silent
@@ -166,13 +166,13 @@ mission "Avgi: First Contact"
 			label talk
 			`	你不太确定如何与完全未知的物种交流，但你发送了标准呼号，至少让那艘外星飞船知道你在试图联系它。`
 			`	然而，令你震惊的是，那艘外星飞船只过了几分钟就回应了，不仅使用相同的频段，而且编码方式居然能被你的飞船电脑解析：一种标准的人类数据格式，与你刚刚发送的类似。要么这些外星人有惊人的解码能力，要么他们之前以某种方式接触过人类。`
-			`	The message is short and direct:`
+			`	信息简短而直接：`
 				goto transmission
 
 			label prime
 			`	你不能指望一个新的外星种族能解码你的传输，更不用说理解你的语言了，所以你就通过简单的振幅调制信号发送了一串短质数，至少让那艘外星飞船知道你在尝试沟通。`
 			`	然而，令你震惊的是，当你刚发送完数字"37"时，那艘外星飞船就中断了你的传输，不仅使用相同的频段，而且编码方式居然能被你的飞船电脑解析：一种标准的人类数据格式，与你刚刚发送的类似。他们一定之前以某种方式接触过人类。`
-			`	The message is short and direct:`
+			`	信息简短而直接：`
 				goto transmission
 
 			label silent
@@ -180,7 +180,7 @@ mission "Avgi: First Contact"
 
 			label transmission
 			`	"问候。我是阿夫吉人。你，人类，疑问？重要。你跟着。这片空间，‘薄暮’，不安全。你有超光速引擎，对吧？强调。我们要穿越的空间不稳定，像迷宫。跟紧，小心。"`
-			`	The message includes an alien-looking star chart, with a trail of marked systems leading to a system far to the south. Something appears to have been lost in translation, as the systems are unmarked past a certain point and are instead labeled as "shrouded," whatever that means. Just as you are still processing first contact with an alien civilization, a group of the same ships that attacked you earlier jump into the system.`
+			`	信息中附有一张外星风格的星图，标出了一串星系，一路延伸至遥远南方的某个星系。翻译过程中似乎丢失了什么：越过某个节点之后，星系便不再标注，而是被标为“帷幕笼罩”，不管那是什么意思。就在你还在消化与外星文明的第一次接触时，一群与先前攻击过你的同型舰船跃迁进入了这个星系。`
 				launch
 
 	npc
@@ -286,7 +286,7 @@ mission "Avgi: Humans From the Deep"
 	to offer
 		has "Avgi: First Contact: done"
 	on offer
-		log `Met an alien species calling themselves the Avgi. Their home cluster appears infested with hostile ships from some unknown advanced civilization. Made contact with a scout ship and followed it back through a region south of Avgi space called the Tangled Shroud. Met with members of the Avgi government and made an agreement to let me purchase civilian technology.`
+		log `遇到了一个自称阿夫吉的外星种族。他们的母星团似乎遭到某个未知先进文明的敌对舰船侵扰。与一艘侦察船取得了联系，并跟随它穿过阿夫吉空间以南一片名为“缠结帷幕”的区域。与阿夫吉政府成员会面，并达成协议，获准购买他们的民用技术。`
 		log "Factions" "Avgi" `阿夫吉是一个年轻的异族，形似色彩斑斓的大型蜻蜓，栖息于银河系这一区域的暮光星云中。在遭遇他们称为“异变体”的舰船大举入侵后，大多数幸存的飞船向南逃窜，穿过一片名为「缠结帷幕星」的迷宫般的区域。`
 		log "Factions" "Avgi Consonance" `流亡的阿夫吉人似乎由一个称为“协和”的中央政权领导，但有许多人并不承认这个政权。`
 		log "People" "Asime" `阿西梅是协和议会的三位首席发言者之一。尽管她性格矜持，但对于协和议会为应对异变体入侵所做出的决策，阿西梅似乎表现得极力维护。`
@@ -564,20 +564,20 @@ mission "Avgi: Defend Ensemble 2"
 			`	在距离空间站几公里外，一个舰队群正在展开宽阔的阵型进行集结。你看到几艘巡洋舰级别的飞船，周围簇拥着十几艘较小的飞船。你呼叫它们，请求加入编队，一位感到有些吃惊的阿夫吉海军上将指示你飞往合奏星系。`
 			`	“警告。接下来的战斗中将会使用核武器，所以请与我们的弹头保持距离，”她说。“如果你能飞在我们舰队的前方，清除沿途零星的异变体，我们将不胜感激。这样一来，我们就能为合奏之战节省尽可能多的核弹头。”`
 			choice
-				`	"Acknowledged."`
+				`	“收到。”`
 					goto end
 				`	“等等，核武器？你们竟然使用这种武器？”`
 
 			`	“困惑。当然。不然我们该用什么，光束武器吗？”她抖了抖翅膀。“别告诉我你是个‘光束党’，我得让你知道，制导武器每次都是最后的赢家。”`
 			choice
-				`	"It's nothing, I was just surprised."`
+				`	“没什么，我只是有点意外。”`
 					goto end
 				`	“我不确定自己是否能接受使用这种用于灭绝种族的武器。”`
 
 			`	"恼怒。我们又不是用它们攻击平民目标，甚至一开始就不是针对行星目标。说实话，你们人类有些古怪的敏感性。"`
 
 			label end
-			`	She turns away from the viewscreen as another Avgi starts speaking to her, dismissing you with a flick of her fingers.`
+			`	另一名阿夫吉人开始跟她说话，她便转身离开了屏幕，弹了弹手指，示意你可以走了。`
 				accept
 	npc
 		government "Avgi (Twilight Guard)"
@@ -672,10 +672,10 @@ mission "Avgi: Defend Ensemble 2"
 			`战斗结束后你降落在维莱多斯，而大多数幸存的阿夫吉飞船则在轨道上进行临时维修，随后再返回纳维杰奥船厂。你正和达里乌斯检查<ship>的受损情况，这时听到有人走来，那脚步声明显属于人类。`
 			`	“看来那些传闻并非空穴来风。这里确实还有另一个我们的人。”你抬起头，看见一名身穿作战服的女人站在面前，伸出了手。`
 			choice
-				`	(Shake her hand.)`
+				`	（和她握手。）`
 					goto handshake
 				`	“你是谁？”`
-			`	She drops her hand after a moment. "Name's Sora. And you?"`
+			`	片刻之后，她放下了手。“我叫索拉。你呢？”`
 				goto name
 			label handshake
 			`	“我叫索拉。你呢？”`
@@ -700,7 +700,7 @@ mission "Avgi: Defend Ensemble 2"
 			`	几个小时后，一艘阿夫吉巡洋舰——一艘“折射”级激光星舰——降落在你旁边的停机坪上，一名阿夫吉军官走了下来。`
 			`	“致意。你好，<first> <last>船长。我叫科基诺，‘幽灵碰撞’号的船长。告诉我，<ship>是一艘战舰吗，疑问？”`
 			choice
-				`	"Yes, the <ship> is as powerful as they come."`
+				`	“是的，<ship>的战力首屈一指。”`
 					goto warship
 				`	“不，<ship>不是为战斗而造的。”`
 			action
@@ -709,7 +709,7 @@ mission "Avgi: Defend Ensemble 2"
 			choice
 				`	“是的，当然。”`
 				`	“我洗耳恭听。”`
-			`	"Approval. That is very good, for your unique capabilities may help us save the lives of some very brave people. Come, meet me in the spaceport in an hour." He gives you a set of directions to a small building in Ensemble's main spaceport before leaving. "We will have much to discuss."`
+			`	“赞许。那太好了，因为你独特的能力或许能帮我们挽救一些非常勇敢的人的生命。来吧，一小时后到航天港来见我。”他给了你一份路线指引，通往合奏主航天港里的一座小建筑，随后便离开了。“我们有很多事要商量。”`
 				goto end
 
 			label warship
@@ -826,7 +826,7 @@ mission "Avgi: Frontline Combat"
 				`	“我该做什么？”`
 				`	“你想让我做什么？”`
 			`	“考虑。你的飞船性能远超我们目前能够本土制造的任何飞船，至少眼下如此。虽然你确实擅长舰队战，但我认为，你最适合去执行独立打击——也就是我们单艘舰船根本无法独立完成的任务。”`
-			`	He looks down at a device similar to a tablet. "With the attack on Ensemble, we were forced to pull back our main fleetgroups from the front lines in Quintessence in an attempt to contain them. While we have since reclaimed many of our initial positions, during all the maneuvering a large number of Aberrant were able to slip past us, not into the Shroud, but rather north, towards the Empyrean system. With the current situation, I do not want to divert an entire strike force from the defenses to hunt them down. Report back to the Feo Platform when the Aberrant are eliminated."`
+			`	他低头看了看一个类似平板的设备。“合奏遭到攻击后，我们被迫将主力舰队群从精粹的前线撤回，试图遏制敌军。虽然此后我们已夺回许多原有阵地，但在这一系列调动中，大量异变体趁机从我们身边溜了过去——它们没有进入帷幕，而是向北朝最高天星系而去。以目前的局势，我不想从防线上抽调整支打击部队去追剿它们。消灭这些异变体后，回到费奥平台向我报告。”`
 				accept
 	on accept
 		log `同意帮助科基诺清除侵扰前线后方星系群的异变体溃兵。`
@@ -931,7 +931,7 @@ mission "Avgi: Dissonance Outreach"
 				accept
 
 	on accept
-		log `Agreed to transport Hriso to a Dissonance mining station in the Tangled Shroud, while Darius and Sora investigate a lead that could potentially help me escape the Twilight.`
+		log `同意将赫里索送往缠结帷幕中的一座不谐采矿站，与此同时，达里乌斯和索拉去调查一条或许能帮我逃离暮光区域的线索。`
 
 
 mission "Avgi: Twilight Escape 1"
@@ -1022,7 +1022,7 @@ mission "Avgi: Twilight Escape 1"
 			`	“先把我放在芬奇，”莱昂插话道，“我得让生活重新步入正轨，而且那里有个人，我需要和他谈谈这一切。反正去幽海星也顺路。”`
 	on complete
 		log `成功与被困在暮光区域的其他人类一同逃离了暮光区域。`
-		log "People" "Leon Shez" `Leon is extremely grateful for helping him return to human space. He wants to tell a contact on Vinci about the Avgi, and asks to stay in touch.`
+		log "People" "Leon Shez" `利昂非常感激我帮他回到人类空间。他想把阿夫吉的事告诉芬奇上的一位联系人，并希望保持联络。`
 		clear "avgi: lost in twilight"
 		"reputation: Avgi (Dissonance Angry)" <?= -10
 		conversation

@@ -346,18 +346,18 @@ mission "FW Recon 1"
 			`当你走进太空港酒吧时，一名身穿民兵制服的男子向你招手，并说道：“<last>船长。我手下的一名军官让我留意你。你愿意再为自由世界帮个小忙吗？”`
 			choice
 				`	“也许吧。你想让我做什么？”`
-				`	"I only agreed to a transport job. I want no part in your rebellion."`
+				`	“我只同意了一份运输工作。我不想参与你们的叛乱。”`
 					decline
 			`	“这是一件非常简单的事，”他说。“大多数穿行这个星系的共和国飞船似乎都只配备了侦察设备，而非战斗装备。但现在轨道上有一艘名为<npc>的飞船，看起来是一艘武装战舰。你愿意扫描它的装备，并向我们报告你的发现吗？如果你没有扫描仪的话，装备港有售，不过你可能需要安装几个以提升性能。我们会支付你<payment>。”`
 			choice
-				`	"Sure, that sounds simple enough."`
+				`	“当然，听起来挺简单的。”`
 					accept
 				`	“你们为什么不自己去扫描那艘船？”`
 			`	“我相信你能理解目前……自由世界与共和国之间的紧张局势。我们只是想求个自保，并不想去招惹海军。如果能找到一位同情我们立场的商人来替我们扫描，事情就简单多了。”`
 			choice
-				`	"Sounds reasonable enough. I'll do it."`
+				`	“听起来很合理。我来做。”`
 					accept
-				`	"If shady jobs like this are what constitute 'helping the Free Worlds,' then count me out."`
+				`	“如果说‘帮助自由世界’就是干这种见不得光的活，那就别算我一份。”`
 					decline
 	
 	npc "scan outfits"
@@ -372,13 +372,13 @@ mission "FW Recon 1"
 		conversation
 			`你刚一扫描完<npc>，对方的船长就向你发来了呼叫。“打扰一下，船长，”他说，“有什么需要我帮您的吗？”`
 			choice
-				`	"I was just wondering what sort of engines you've got that let you move so fast."`
+				`	“我只是好奇你装的是什么引擎，能让你飞得这么快。”`
 					goto engines
-				`	"Never mind sir, I was just admiring your... impressive equipment."`
+				`	“没什么，先生，我只是在欣赏你那……令人印象深刻的装备。”`
 					goto equipment
 			label engines
 			`	“不错吧？”他说。“原子引擎，幽海星最新的推进技术。它们运转起来特别顺畅且响应迅速，让我感觉自己又回到了当初开穿梭机的时候。”`
-			`	He pauses, then adds, "They pay me a thousand credits every time I say that."`
+			`	他顿了顿，又补充道：“我每说一次这句话，他们就付我一千信用点。”`
 				goto close
 			label equipment
 			`	他看起来得意洋洋。“是啊，我猜像这样的飞船肯定能吸引不少目光。下次我们降落到同一颗星球时，顺道来我的泊位转转，我很乐意带你……私下参观一下。”他向你眨了眨眼。`
@@ -496,7 +496,7 @@ mission "FW Recon 3B"
 			`	你停下脚步假装系鞋带，试图偷听。“什么消息？”另一人问。`
 			`	“这里不能说，”第一个人说，随后两人躲到了一间储物棚后面。`
 			choice
-				`	(Ignore them and return to my ship.)`
+				`	（不理会他们，返回我的飞船。）`
 					accept
 				`	（跟上去偷听。）`
 			
@@ -508,7 +508,7 @@ mission "FW Recon 3B"
 			`	“我们怎么办，长官？”中尉问。`
 			`	“什么都不做。要是盯着我们的船看也算犯罪，那本地一半人早就进监狱了。不过，如果这位船长再接什么任务，我们可能就得采取行动了。”`
 			`	“至少该提醒这位，那些板条箱可藏不住人吧？”中尉咧嘴笑道。`
-			`	"Now, now," says the other officer, "no need to be spiteful." They walk off, leaving you thoroughly embarrassed.`
+			`	“好了，好了，”另一名军官说，“没必要这么刻薄。”他们走开了，留下你尴尬不已。`
 				accept
 	
 	npc evade
@@ -537,12 +537,12 @@ mission "FW Recon 3B"
 				`	“炮艇？什么炮艇？”`
 				`	“我就知道。我一直有种被跟踪的感觉。”`
 					goto followed
-			`	"You didn't notice? I have scouts that report that you were being followed by a Gunboat by the name of the <npc> ever since you left <origin>. Keeping an eye on where you were going, no doubt.`
+			`	“你没注意到吗？我的侦察员报告说，自从你离开<origin>，就一直有一艘名为<npc>的炮艇在跟踪你。毫无疑问，是在留意你的去向。`
 				goto followed
 			
 			label caught
 			choice
-				`	"They knew I was gathering information on the base. It's no wonder they had someone following me."`
+				`	“他们知道我在搜集那个基地的情报。难怪他们会派人跟踪我。”`
 					goto followed
 				`	“他们怎么知道我和你有联系？”`
 					goto followed
@@ -556,9 +556,9 @@ mission "FW Recon 3B"
 			`	“共和国的情报搜集能力极其庞大，远非我们所能及。我只能猜测他们是如何知道你和我们有联系并盯上你的。”`
 			choice
 				`	“既然共和国在监视我，我现在该怎么办？”`
-				`	"Knowing that, how can you possibly expect to stand up against the Republic?"`
+				`	“既然如此，你们怎么可能指望对抗共和国？”`
 					goto odds
-			`	"Keep your head low. You're compromised, so I can't ask you to do any more recon work for us. So long as you don't cause them any trouble, they'll likely eventually leave you alone. We have a great number of merchants helping us, and as capable as the Republic is, they can only keep a close eye on so many people at a time."`
+			`	“低调行事。你已经暴露了，所以我不能再让你为我们做任何侦察工作。只要你不给他们惹麻烦，他们最终很可能会放过你。我们有很多商人在帮忙，而共和国再怎么能干，同一时间能严密盯住的人也有限。”`
 				goto info
 			
 			label odds
@@ -570,18 +570,18 @@ mission "FW Recon 3B"
 				`	“谢谢。”`
 					goto end
 				`	“你打算怎么处理这些情报？”`
-				`	"Free Worlds Council? What's that?"`
+				`	“自由世界议会？那是什么？”`
 					goto council
 			
-			`	"Full of questions, aren't we?" JJ chuckles. "We will not attack this naval base, so you don't need to worry about anyone being hurt by your actions today. But should the Free Worlds and the Republic go to war, information will be a vital resource, including the information that you've provided me, so thank you for that.`
+			`	“问题还真多啊，是吧？”JJ轻笑道。“我们不会攻击这个海军基地，所以你不用担心有人会因为你今天的行动而受伤。但如果自由世界与共和国开战，情报将是至关重要的资源，包括你提供给我的这些情报，所以谢谢你。`
 				goto end
 			
 			label council
-			`	"Full of questions, aren't we?" JJ chuckles. "The Council is a collection of leaders born out of what used to be the Southern Mutual Defense Pact. It includes myself and a few others. We are currently responsible for commanding the militias of the Free Worlds, and should it come to it, we will be the commanding officers in a war with the Republic.`
+			`	“问题还真多啊，是吧？”JJ轻笑道。“议会是由一群领袖组成的，前身是南部互助防御公约。我和其他几个人都在其中。我们目前负责指挥自由世界的民兵，如果真到了那一步，我们将会是与共和国作战时的指挥官。`
 				goto end
 			
 			label end
-			`	"Now if you'll excuse me, Captain, I have other work to attend to," JJ says. "If you wish to continue helping us, I'm sure there are others who could call upon you if you go looking for them."`
+			`	“好了，失陪了，船长，我还有别的工作要处理，”JJ说，“如果你想继续帮助我们，只要你去找，我相信还会有其他人需要你的帮助。”`
 				decline
 
 
@@ -784,7 +784,7 @@ mission "FW Escort 1B"
 	on offer
 		conversation
 			`尽管多次遭遇海盗，你的货船队依然完好无损地抵达了<origin>。护航的截击机刚好足以抵挡他们。商船船长们售出了贸易商品，并采购了武器和飞船装备，这些将用于为自由世界建造新飞船。`
-			`	Before you leave, a Free Worlds militia officer who you didn't arrive with approaches you, saying that he's finished doing business with the Tarazed Corporation and will join the convoy back to <planet>. The officer is commanding a Falcon, a much more formidable warship than your group of interceptors. Which is good, since, now that the freighters are carrying much more valuable cargo, the pirate attacks are likely to get even worse...`
+			`	在你离开之前，一名并非与你同来的自由世界民兵军官走了过来，说他已经和河鼓三公司谈完了生意，将随船队一起返回<planet>。这名军官指挥着一艘猎鹰，这是一艘比你那群截击机强大得多的战舰。这是件好事，因为既然货船现在装载着价值高得多的货物，海盗的袭击很可能会更加猛烈……`
 				accept
 	
 	npc accompany save
@@ -978,10 +978,10 @@ mission "FW Escort 3"
 			`	托梅克带你来到太空港的一家酒吧，在吧台坐下前，他与几位熟客打了个招呼。“是这样的，”他说，“我们的一艘货船<npc>刚才在<waypoints>星系瘫痪了。我们需要你立刻飞过去，修复它，并在海盗捕获它之前把它带回来。你觉得能胜任吗？”`
 			choice
 				`	“当然！”`
-				`	"Sorry, no. I'm a merchant captain with bills to pay. I'm not going to go search for your missing ships in the middle of nowhere."`
+				`	“抱歉，不行。我是个有账单要付的商船船长。我不会跑到荒郊野外去找你们失踪的飞船。”`
 					decline
 		
-			`	"Glad to hear it," he says. "The crew of that freighter is depending on you. I know I don't have to tell you what will happen to them if pirates board them before you get there, so get moving quickly."`
+			`	“很高兴听你这么说，”他说，“那艘货船的船员就指望你了。我想不必告诉你，如果在你赶到之前海盗登上了那艘船，他们会有什么下场，所以赶快出发吧。”`
 				accept
 	
 	npc accompany save
@@ -1008,7 +1008,7 @@ mission "FW Escort 3"
 		conversation
 			`托梅克看到<npc>安全返回，大大松了口气。“你今天帮了我们大忙，船长，”他边说边递给你价值<payment>的信用点。“我会确保让议会其他成员知道你的帮助有多大，并祈祷我们将来还能请你帮忙。”`
 			choice
-				`	"I'll be ready to answer the call whenever it comes."`
+				`	“只要有需要，我随时听候召唤。”`
 					decline
 				`	“议会到底是什么？”`
 			
@@ -1783,7 +1783,7 @@ mission "FW Katya 4"
 	blocked `你需要为卡佳和艾斯都提供铺位才能继续此任务。`
 	substitutions
 		"<dirt belt origin>" ""
-		"<dirt belt origin>" " like yourself,"
+		"<dirt belt origin>" "，和你一样"
 			has "start: default"
 	to offer
 		has "FW Katya 3: done"
@@ -2246,7 +2246,7 @@ mission "FW Commitment"
 			`				阿隆多·格鲁耶尔`
 			`				卡捷琳娜·雷诺兹`
 			``
-			`	You notice that Katya's name is printed, instead of signed like the others; she must still be undercover on Clink.`
+			`	你注意到卡蒂娅的名字是打印的，而不是像其他人那样亲笔签名；她一定还在铮鸣星上做卧底。`
 				accept
 
 
@@ -2397,7 +2397,7 @@ mission "Defend Sabik"
 			`	你拿起刷子，爬上飞船顶部，开始把它涂成自由世界的绿金色。突然，你听到附近停泊的一艘飞船上传来欢呼声；有人看到了你正在做的事，大声喊道：“为了自由！又多了一艘为自由而战的飞船！”很快，另外几个人也看到了你，没过多久，整个港口里的人似乎都跟着欢呼起来。`
 			`	托梅克在一旁默默看着，直到你涂完，然后走上前，向你递出一张执照。“拿着，你会需要它的。我相信你的协助对我们的事业而言是无价的，”当你接过民兵执照时，他说道。“那么失陪了，我必须去召集民兵，为即将到来的战斗做准备。”`
 			choice
-				`	(Let him go.)`
+				`	（让他走。）`
 					goto end
 				`	“我从没和别的舰队一起作战过，你有什么建议吗？”`
 			`	他停下准备离去的脚步。“当然，你可能没怎么在民兵舰队里待过，也不了解如何保卫星球或星系。”沉思了片刻，他继续说道：“在与大舰队并肩作战时，最好协同行动，与大家攻击同一个目标。你会看到周围的舰船协同配合，一次只瘫痪一个目标，而不是各自为战。我们并不指望你单枪匹马干掉所有的海军舰船。还有，尽量不要离它们太近，你肯定不想被一群敌舰同时锁定。”他停顿了一下。“不过，如果你够胆量，可以尝试吸引大批敌舰来追击你，带它们兜圈子，这样其他人就能先解决较弱的兵力，然后再来接应你。但如果你无法保持在它们的武器射程之外并规避导弹，这场追逐很快就会结束。特别是如果要保卫这个星系，海军可能会在首波攻击后增派援军。它们很可能会从河中方向切入，所以在它们抵达前，要避免停留在那个方向的交火路线上。”`
@@ -2405,7 +2405,7 @@ mission "Defend Sabik"
 			label end
 			`	你发现民兵们正在太空港酒吧聚集。有人祝贺你加入自由世界，但大多数人只是安静地站着，等待事情发生。随着时间的推移，聚集的人越来越多，酒吧变得拥挤不堪，民兵们等候在大楼外的街道上。`
 			`	一个小时后，你站在酒吧外，抬头看见行星远处的天空中闪烁着舰船交火的火光。一些民兵开始跑向自己的飞船，但大多数人只是愣在原地，不知所措。就在这时，托梅克拿着扩音器走回来，大声下达命令：“海军已经进入星系！我们决不能让他们占领这里，否则我们就会被完全困死。一切在此一举，我们必须战斗！快回你们的飞船去！我们还有更多增援正从边缘星区深处赶来！”`
-			`	"And if you can, disable their ships instead of destroying them. These are Navy ships, after all, and most of them don't want war any more than we do. Now go! Your worlds need you!" You hurry to join all the other ships taking off to defend the system.`
+			`	“还有，如果可以的话，尽量让他们的飞船瘫痪，而不是摧毁它们。毕竟这些是海军的飞船，他们中的大多数人和我们一样不想打仗。现在出发！你的世界需要你！”你赶紧加入其他正在起飞保卫星系的飞船。`
 				launch
 	
 	on accept

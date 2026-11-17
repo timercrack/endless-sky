@@ -34,7 +34,7 @@ mission "HR Removed"
 		not "Hai Reveal: Meet the Team: Sayari 2: done"
 	on offer
 		conversation
-			`When you updated your game, you were in the middle of the Hai Reveal intro, which has since been removed. You will receive no further missions for this storyline.`
+			`你更新游戏时，正处于“亥族揭秘”序章剧情中，而该剧情现已被移除。你将不会再收到这条故事线的任何任务。`
 				decline
 
 event "hr: friend arrives"

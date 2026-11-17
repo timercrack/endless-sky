@@ -1881,7 +1881,7 @@ planet "Exotic Metal Garden"
 	"display name" "奇异金属花园"
 	attributes predecessor station uninhabited "requires: starlining"
 	landscape land/space6
-	description `Eerily quiet, the small habitable areas of this station are dominated by the view of a tangled nest of enormous metallic ribbons that stretch away from the Kasii-Cavasaa star. Deep in the bowels of the facility, these are spooled into strings of exotic stellar metal which, despite their small size, are improbably heavy and uncomfortably cold to the touch. Having not been harvested in many hundreds of years, the spools are silent and still - apart from a single one, which slowly revolves and holds almost no material.`
+	description `这座空间站寂静得令人不安，狭小的宜居区域里，映入眼帘的尽是一团纠缠交错的巨大金属缎带，从卡西-卡瓦萨恒星处向外延伸。在设施深处，这些缎带被卷绕成一股股奇异的恒星金属丝；它们虽然细小，却重得出奇，摸上去冰冷刺骨。这些线轴已有数百年未经采收，全都寂然不动——只有一个例外：它缓缓转动着，上面几乎空无一物。`
 
 planet "Factory of Eblumab"
 	"display name" "埃布鲁马布工厂"
@@ -2983,8 +2983,8 @@ planet "Ijra-Ea, Shimmering Veil"
 	"display name" "伊杰拉-埃阿·微光帷幕"
 	attributes predecessor station uninhabited
 	landscape land/station42
-	description `Uncomfortably vast, this ancient citadel of House Kaatrij seems to remain in a state of partial cloaking; sections of it shimmer in and out of view. Because of this, it shows up only intermittently on long-range sensors despite its great size.`
-	description `	Having been labeled as an ally by the station's security systems, your ship is able to land inside an empty docking bay within, but without a way of interfacing with the station's damaged computer systems, the further depths of its vast interior remain inscrutable for now. Though it still appears damaged, your previous visit seems to have activated some of its self-repair functions: tiny, ant-sized robots are hard at work performing maintenance on the bay's systems.`
+	description `这座卡特里吉家族的古老堡垒庞大得令人不安，似乎仍处于部分隐形的状态；它的某些区段时隐时现，闪烁不定。正因如此，尽管体积巨大，它在远程传感器上也只是断断续续地出现。`
+	description `	由于被空间站的安保系统标记为盟友，你的飞船得以降落在内部一座空荡荡的船坞里。但由于无法与空间站受损的计算机系统建立连接，其广阔内部的更深处暂时仍无从探知。尽管空间站看上去依旧残破，你上次的造访似乎激活了它的部分自我修复功能：蚂蚁大小的微型机器人正忙着维护船坞的各项系统。`
 		to display
 			has "Successors: Ghosts 16: done"
 	government Predecessor

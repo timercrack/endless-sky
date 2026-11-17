@@ -19,5 +19,5 @@ substitutions
 
 	# Substitution for home system defaults to your start system.
 	"<home system>" "<start system>"
-	"<home system>" "Sol"
+	"<home system>" "太阳"
 		has "start: syndicate"

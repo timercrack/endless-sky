@@ -478,7 +478,7 @@ mission "FW Defend Farpoint"
 			`当你回到远点星降落时，丹佛斯急切地迎上来，询问你得到了什么情报。你告诉了他。他说：“那么，铸造星上有一个执行官，赫菲斯托斯上也有一个。那两个都是辛迪加的核心星球，上面有数十亿人。硬来肯定不行。但这个金融方面的家伙，亚历山大·索伊伦特……你的线人说，他住在一艘巨型游艇上，在骤雨星的海洋上航行。那倒是个更诱人的目标。而且据索耶所说，正是辛迪加的金融部门最初认定战争会带来好处。”`
 			`	你们正说着话，丹佛斯的一名军官冲进房间。“长官，”他说，“我们探测到一支海盗舰队正在逼近。”`
 			`	丹佛斯咒骂了一句。“当然，这才是我的本职工作，”他解释道，“守卫北方，抵御海盗入侵。我们击退过不止一次进攻了，但最近议会一直在找借口把我最好的战舰调去别处。<last>船长，你愿意加入防御舰队吗？等把那些家伙赶走后，我们再谈完剩下的事。”`
-			`	You hurry to your ship and join the defenders...`
+			`	你赶回飞船，加入防御者的行列……`
 				launch
 	
 	npc
@@ -700,7 +700,7 @@ mission "FW Embassy 1C"
 			`当你降落在伯恩时，发现卡蒂娅和伊吉斯已经在那里待了一个星期了。阿隆多也和他们在一起。“我们就是没法长时间置身事外，”伊吉斯说。`
 			`	那艘将地球大使们带来伯恩的“星后”号豪华客轮仍停在一个比较偏僻的机库里。“别担心，船长，”卡蒂娅说，“我们的大使绝不会乘坐那么俗气的东西出行。他们已经征用了一艘无畏舰。正好借这艘好船，提醒地球人我们也拥有一支强大的舰队。”`
 			`	“更不用说，”伊吉斯说，“这是一艘参与我们打击辛迪加行动的好船。”`
-			`	Alondo introduces you to the Free Worlds ambassadors who will be returning to Earth. "I've already contacted Governor Flint and Admiral Danforth," he says. "Their ships will be arriving in the Sol system about the same time as yours. Good luck, Captain." You help Ijs and Katya load their luggage onto your ship, and tell the Dreadnought carrying the ambassadors to be ready to follow you.`
+			`	阿隆多向你介绍了将返回地球的自由世界大使们。“我已经联系了弗林特总督和丹佛斯上将，”他说，“他们的飞船将与你的差不多同时抵达太阳星系。祝你好运，船长。”你帮伊杰斯和卡蒂娅把行李搬上飞船，并通知搭载大使们的无畏舰做好跟随你的准备。`
 				accept
 	
 	npc accompany save
@@ -822,7 +822,7 @@ mission "FW Syndicate Capture 1B"
 			`当你接近星球时，你的飞船分散开来，开始扫描海面，寻找与描述相符的游艇。在紧张地担心索伊伦特此时可能不在星球上之后，你找到了那艘船。`
 			`	这艘游艇既没有偏转护盾，也没有任何可见的武器，显然对武装星舰构不成威胁。埃德里克派出的“鹰巢”号放出了四架战斗机；当它们降落在游艇甲板上时，武装警察从中涌出。与此同时，你的舰队已准备好在出现任何抵抗迹象时立即开火。`
 			`	警官们很快用无线电通知你，他们找到了索伊伦特，并把他带到了你的船上。在一片混乱中，你注意到一个穿着潜水装备的身影从游艇尾部跳下，消失在海浪之下——那是索伊伦特的一个手下，试图逃跑。但既然他的头目已在你的控制之下，任务也已完成，你觉得没必要去追他。`
-			`	The Oathkeeper captain sends you a brief message: "Your first priority is to reach the Deep with the prisoner. Our crew is prepared to serve as a rearguard, staying behind if necessary to ensure that you survive. Good luck, Captain."`
+			`	守誓者的船长给你发来一条简短的消息：“你的首要任务是带着囚犯抵达幽海星。我们的船员已准备好担任后卫，必要时会留下断后，确保你能活下来。祝你好运，船长。”`
 				accept
 	on visit
 		dialog `你降落在<planet>上，但发现载有卡蒂亚和眼睛先生的护卫尚未进入星系。最好离开并等待它到达。`
@@ -1913,7 +1913,7 @@ mission "FW Pug 4"
 			`辛迪加指示你将飞船降落到辛迪加系统的私人机库中。着陆后，他们迅速在海军和自由世界的飞船上安装跳跃引擎。忙碌间，你听到一名工人对另一人说：“老天，我都忘了海军舰船有这么大。跟它们一比，‘护卫者’显得小得可怜，是吧？”`
 			branch extra
 				has "already had jump drive"
-			`	Once the work is done, you meet with a senior Syndicate executive named Marco Bugati. "I really hope this works," he says, "because these are the only jump drives we've been able to acquire. If your fleet is destroyed, we will have lost access to the occupied territory entirely."`
+			`	工作完成后，你与一位名叫马可·布加蒂的辛迪加高管会面。“我真心希望这能成功，”他说，“因为这些是我们能弄到的仅有的跳跃引擎。如果你的舰队被摧毁，我们将彻底失去进入占领区的途径。”`
 				goto end
 			label extra
 			`	工作完成后，你与一位名叫马可·布加蒂的辛迪加高管会面。“我真希望这能成功，”他说，“因为这些是我们能弄到的仅有的跳跃引擎，不过你似乎自己也搞到了一个；如果我们都能活下来，我想跟你聊聊，弄清楚你是怎么弄到的。可以告诉你，多亏那个备用跳跃引擎，我们多出来的那艘船可能至关重要。但要是你的舰队被摧毁，我们就彻底失去对被占领领土的通道了。”`
@@ -1971,7 +1971,7 @@ mission "FW Pug 4A"
 			label generator
 			`	弗雷雅带来了一些好消息：她捕捉到了来自室宿一星系超空间通信中继站非常微弱、断断续续的信号。“这意味着链路可能没有完全关闭，”她说，“或者至少，还残留着一些余波。”`
 			`	弗雷雅指引你飞越行星，巡视帕格留下的建筑和设备。搜索一段时间后，你发现了一座外形类似无线电发射器的外星建筑。你在附近降落，步行靠近建筑时，感觉脚下的地面像在波涛汹涌的海面上起伏摇摆。“引力子扭曲，”她说。“这很可能就是他们用来扰乱超空间链路的设备。不过，我需要花些时间才能搞懂它的运作方式。”`
-			`	You agree that she will stay here to try to figure out the alien technology, while you do your best to defend the planet and to keep the Pug from retaking it.`
+			`	你们商定由她留在这里设法弄懂外星技术，而你则尽全力保卫这颗星球，不让帕格夺回它。`
 				accept
 	on visit
 		dialog `你已经降落在<planet>，但仍有帕格飞船在上空盘旋。你应该起飞并协助消灭它们。`
@@ -2149,13 +2149,13 @@ mission "FW Pug 5"
 			`弗雷雅欣喜若狂，因为她找到了逆转帕格技术、恢复与人类空间超空间连接的方法。“现在我们总算有了机会，”她说，“之前，只有你和另外七艘船，胜利看起来遥不可及。”`
 			label choice
 			choice
-				`	"What should we do next?"`
+				`	“我们下一步该做什么？”`
 					goto next
 				`	“你确定生成这些引力波是安全的吗？”`
 			
 			`	“我什么都不敢确定，”她说，“但看起来有效，而且到目前为止没有造成灾难性副作用，这就算不错了。”`
 			label next
-			`	Freya leads you to a warehouse in the spaceport where another one of the "graviton reflectors" is stored. "This should work the same as the one you brought to Hephaestus," she says. "If there's a transmitter on Shiver, we can bring the reflector to Sol and open a link back to the very heart of human space. And at that point, we may even have the Pug outgunned. But first, we need to drive them away from that star system for long enough for me to work the transmitter."`
+			`	芙蕾雅带你来到太空港的一座仓库，那里存放着另一台“引力子反射器”。“这台的作用应该和你带到赫菲斯托斯的那台一样，”她说，“如果颤栗星上有发射器，我们就能把反射器带到太阳星系，打开一条直通人类空间心脏的链路。到那时，我们的火力说不定还能压过帕格。但首先，我们得把他们从那个星系赶走足够长的时间，好让我操作发射器。”`
 				accept
 	on visit
 		dialog `你已经降落在<planet>，但仍有帕格飞船在上空盘旋。你应该起飞并协助消灭它们。`
@@ -2221,7 +2221,7 @@ mission "FW Pug 5A"
 			choice
 				`	“你真的觉得我跑去<planet>的话，你能拖住帕格？”`
 				`	“我担心如果我不防守这个星系，你活不下来。”`
-			`	"Don't worry about us here," she says. "We have a fair number of ships here on the ground, if it comes to that. But the most important thing is that you rendezvous with the Navy reinforcements in the <system> system, and if you can draw the Pug fleet to pursue you, all the better. Good luck, <first>."`
+			`	“别担心我们这边，”她说，“真到了那一步，我们在地面上也有不少飞船。但最重要的是，你要在<system>星系与海军援军会合，如果你能引诱帕格舰队追击你，那就更好了。祝你好运，<first>。”`
 				accept
 	on visit
 		dialog `你降落在 <planet> 上，但意识到载有引力子反射器的护卫舰尚未进入星系。最好起飞等待它到达。`
@@ -2267,7 +2267,7 @@ mission "FW Pug 5B"
 		event "reconnected altair" 0
 		conversation
 			`你协助地球上的海军工程师按照芙蕾雅的指示架设引力子反射器。和之前一样，反射器启动后不久，地面似乎开始倾斜摇晃——芙蕾雅的光束锁定反射器，在两者之间建立起了谐波振荡。“通道正在重新开启！”一位工程师喊道。“我们又开始收到来自河鼓二和辛迪加的超空间通信了。”`
-			`	A second later your own communicator beeps. It's Freya. "Get back here quickly," she says. "Bring whatever reinforcements you can. A massive Pug fleet just appeared in orbit."`
+			`	一秒钟后，你自己的通讯器也响了。是芙蕾雅。“快回来，”她说，“能带多少援军就带多少。一支庞大的帕格舰队刚刚出现在轨道上。”`
 				accept
 	on visit
 		dialog `你已经降落在<planet>，但仍有帕格飞船在上空盘旋。你应该起飞并协助消灭它们。`
@@ -2335,7 +2335,7 @@ mission "FW Pug 6"
 				`	“我想我已经尽其所能地准备好了。”`
 			`	她笑了。“我想这就是我们能期望的最好情况了。明天我能乘你的船，而不是别人的船吗？如果这真的是终结，我更愿意和认识的人一起面对。”你同意了。她转身继续望向窗外。`
 			`	既然芙蕾雅似乎想独处，你便下楼，发现一支规模不小的守誓者舰队已经抵达。在太空港的主门厅里，一名守誓者军官正带领一群人进行气功冥想。令人惊讶的是，你看到丹佛斯上将正和穆斯林祈祷小组坐在一起，用流利的阿拉伯语吟诵着。与此同时，酒吧外的派对仍在继续。`
-			`	Eventually morning comes, and you prepare your ship for the assault on the Pug homeworld...`
+			`	终于，清晨到来，你为进攻帕格母星做好了飞船的准备……`
 				accept
 	
 	npc
@@ -2407,21 +2407,21 @@ mission "FW Pug 6"
 			`当你带领舰队降落时，发现帕格的主要太空港出奇地空旷。然而，一群帕格小孩聚集在其中一个停机坪上，松散地围成一圈。他们似乎在玩某种游戏，完全无视了头顶上的舰队。`
 			choice
 				`	（攻击他们。）`
-				`	(Avoid harming them and land.)`
+				`	（避免伤害他们，直接降落。）`
 					goto avoid
 			
 			`	你朝圆圈中央开了一枪，在停机坪上留下一道焦黑的痕迹，扬起一柱灰尘和烟雾。孩子们继续玩着游戏，仿佛什么都没发生过。`
 			label avoid
 			`	你将飞船降落在帕格小孩的圆圈附近。他们正在互相传球，刻意无视你的存在。除了球撞击地面的声音，整座城市寂静得诡异。“这真奇怪，”芙蕾雅说。`
 			choice
-				`	(Explore the city.)`
+				`	（探索城市。）`
 					goto city
-				`	(Join the game.)`
+				`	（加入游戏。）`
 					goto join
 			
 			label join
 			`	你走进圆圈，伸手去抓球，但球径直穿过了你的手指。芙蕾雅伸手去碰一个小孩，她的手也穿了过去。“某种全息投影，”她说。`
-			`	The Navy ships are beginning to land and send crew out to explore. You and Freya walk into the city, passing by a pair of adult Pug who sit at a table outside what looks like some sort of cafe, playing a board game with black and white stones on a hexagonal grid. You check and find that they, too, are a holographic illusion.`
+			`	海军飞船开始降落并派出船员探索。你和芙蕾雅走进城市，经过两个成年帕格，他们坐在一处看似咖啡馆外的桌旁，在六边形棋盘上用黑白两色的棋子下着棋。你检查后发现，他们同样是全息幻象。`
 				goto house
 			
 			label city
@@ -2429,15 +2429,15 @@ mission "FW Pug 6"
 			choice
 				`	（攻击他们。）`
 					goto attack
-				`	(Try to talk to them.)`
+				`	（试着和他们交谈。）`
 					goto talk
 			
 			label attack
-			`	You throw a punch at one of the Pug at the table, but your fist passes right through its head as if nothing is there. Surprised, Freya reaches out to touch the other one, and again her hand passes through them. "Some sort of holographic projection," she says. You continue exploring.`
+			`	你朝桌边的一个帕格挥了一拳，但拳头径直穿过了它的脑袋，仿佛那里什么都没有。芙蕾雅吃了一惊，伸手去碰另一个，她的手同样穿了过去。“某种全息投影，”她说。你继续探索。`
 				goto house
 			
 			label talk
-			`	You try to talk to the Pug, but they, like the children, are ignoring you completely; they do not even seem to be aware of your existence. Finally, Freya reaches out to shake one of them by the shoulder, and her hand passes straight through it. Surprised, she waves her hands back and forth through both of them. "Some sort of holographic projection," she says.`
+			`	你试着和这两个帕格说话，但他们和那些孩子一样，完全无视你；他们甚至似乎根本没意识到你的存在。最后，芙蕾雅伸手想摇一摇其中一个的肩膀，她的手却直接穿了过去。她吃了一惊，在两人身上来回挥手。“某种全息投影，”她说。`
 				goto house
 			
 			label house
@@ -2575,7 +2575,7 @@ mission "FW Syndicate Extremists 1B"
 		outfit "Cloaking Device" 1
 		conversation
 			`你降落在之前安装跃迁引擎时去过的那个私人机库里，你确信这些工程师就是当时接待你的那批人。“这东西几乎和跃迁引擎一样古怪，”其中一个说道。“我们完全不知道它怎么工作的，而且科尔班命令我们把它交给你时我们还没研究完，所以请别把自己炸飞了。明白吗？”`
-			`	Meanwhile, Danforth is on his way back to Deneb to rally the Oathkeepers. You should head directly for the <system> system, so that you arrive there far enough in advance of the Oathkeeper fleet.`
+			`	与此同时，丹佛斯正赶回天津四召集守誓者。你应该直接前往<system>星系，以便比守誓者舰队提前足够长的时间抵达那里。`
 				accept
 	on visit
 		dialog `你已降落在<planet>，但仍有辛迪加飞船在头顶盘旋。你应该起飞并协助消灭他们。`

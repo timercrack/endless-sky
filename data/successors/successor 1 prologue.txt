@@ -345,8 +345,8 @@ mission "Successors: First Contact 3"
 	cargo "Animal Transport Container" 1
 	blocked `你与西塞杰交谈，他告知你需要至少1个空闲铺位用于他的旅行，以及1吨的载货空间来将“基杰拉-里塔”运回继承者空间。`
 	substitutions
-		"<tranq h2h>" "Pug staff"
-		"<tranq h2h>" "Heliarch staff"
+		"<tranq h2h>" "帕格权杖"
+		"<tranq h2h>" "日权会权杖"
 			has "outfit: Enforcer Riot Staff"
 		"<a tranq h2h long>" "一把帕格治安权杖"
 		"<a tranq h2h long>" "一把执法者防暴棍"
@@ -720,7 +720,7 @@ mission "Successors: Kaatrij First Contact 1"
 	to fail
 		has "Successors: Unified Defense: offered"
 	substitutions
-		"<coalition ally>" "Heliarchy"
+		"<coalition ally>" "日权会"
 		"<coalition ally>" "月影社"
 			has "joined the lunarium"
 	on offer
@@ -790,7 +790,7 @@ mission "Successors: Kaatrij First Contact 1"
 			choice
 				`	“没错。”`
 				`	“你是谁？”`
-			`	“嗯。很好。我是卡特里吉家族高贵后裔的使者。我以悲伤的塞伊拉家族的萨杰雷特之名亲自作证。”萨杰雷特说话时，皮肤上泛起绿色斑点。“感谢您的耐心等待。”他们像当初继承者第一次迎接你时那样摊开双臂，身后的另外两人也照做。“啊，”他们继续说道，“但您一定很好奇我们为何召您前来。您的所作所为——无论有意与否——都使本高贵家族受益，我们若是愚蠢到不承认这一点，那便是懦夫。请您现在明白，拉卡-乌尔-卡夫是我们的世界，不是肖尔拉家族的。同样，基吉兰也是我们的，从来不是他们能掌控或染指的。”`
+			`	“嗯。很好。我是卡特里吉家族高贵后裔的使者。我以黯淡塞杰拉家族的萨杰雷特之名亲自作证。”萨杰雷特说话时，皮肤上泛起绿色斑点。“感谢您的耐心等待。”他们像当初继承者第一次迎接你时那样摊开双臂，身后的另外两人也照做。“啊，”他们继续说道，“但您一定很好奇我们为何召您前来。您的所作所为——无论有意与否——都使本高贵家族受益，我们若是愚蠢到不承认这一点，那便是懦夫。请您现在明白，拉卡-乌尔-卡夫是我们的世界，不是肖尔拉家族的。同样，基吉兰也是我们的，从来不是他们能掌控或染指的。”`
 			choice
 				`	“所以基吉兰属于你们？”`
 					goto kijran
@@ -847,7 +847,7 @@ mission "Successors: Kaatrij First Contact 1"
 			action
 				log "People" "Saajret, of Somber Sejra" "黯淡塞杰拉的萨杰雷特是继承者卡特里吉高门的档案馆员（亦担任其他职务）。他们是现已消亡的塞杰拉高门高贵血统的成员，在先驱者社会发生部分崩溃期间，该高门的部分公民被并入了卡特里吉高门。"
 				set "Successors: saajret"
-			`	一道粉色波浪沿着萨杰雷特的手臂蔓延开来，然后回答道：“我是萨杰雷特，高贵的卡特里吉家族的荣誉公民，悲伤的塞伊拉家族高贵血脉的成员——塞伊拉家族如今已不复存在，只剩下卡特里吉庇护之翼下的一面旗帜。啊，并非我们所有的家族都在那场陨落中幸存：贾西、维杰雷特、伊吉里达尼、塞伊拉，以及更多家族永远消失了，它们分崩离析，历史支离破碎。卡特里吉吸收了其中一些家族的公民，如今它是一个拼凑体，提醒我们大家都是拼凑体，变化无常且由碎片构成。我在其中的角色很多，但首要的，我算是某种档案管理员。我负责保存我们手中仅存的古老科技，并在必要时，以我们判断的最佳方式加以利用。”`
+			`	一道粉色波浪沿着萨杰雷特的手臂蔓延开来，然后回答道：“我是萨杰雷特，高贵的卡特里吉家族的荣誉公民，黯淡塞杰拉家族高贵血脉的成员——塞伊拉家族如今已不复存在，只剩下卡特里吉庇护之翼下的一面旗帜。啊，并非我们所有的家族都在那场陨落中幸存：贾西、维杰雷特、伊吉里达尼、塞伊拉，以及更多家族永远消失了，它们分崩离析，历史支离破碎。卡特里吉吸收了其中一些家族的公民，如今它是一个拼凑体，提醒我们大家都是拼凑体，变化无常且由碎片构成。我在其中的角色很多，但首要的，我算是某种档案管理员。我负责保存我们手中仅存的古老科技，并在必要时，以我们判断的最佳方式加以利用。”`
 				goto questions
 			label premature
 			`	觉得已经等得够久了，你启动<ship>的推进器返回轨道。`
@@ -885,11 +885,11 @@ mission "Successors: Trusted"
 	to fail
 		has "Successors: Unified Defense: offered"
 	substitutions
-		"<successor patron>" "Sioeora"
-		"<successor patron>" "Kaatrij"
+		"<successor patron>" "肖尔拉"
+		"<successor patron>" "卡特里吉"
 			has "successors kaatrij patron"
-		"<successor opponent>" "Kaatrij"
-		"<successor opponent>" "Sioeora"
+		"<successor opponent>" "卡特里吉"
+		"<successor opponent>" "肖尔拉"
 			has "successors kaatrij patron"
 	on offer
 		"reputation: Old Houses" += 1

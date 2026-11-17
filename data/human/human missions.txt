@@ -3019,7 +3019,7 @@ mission "Paradise Fortune 4"
 				has "FW Epilogue: Alondo: offered"
 			`	当你准备在伯恩降落时，收到了阿隆多的消息。“<first>！”他说。“我刚听说你在这个星系。想出来喝一杯，聊聊往事吗？”`
 			choice
-				`	"I'd be glad to any other time, but I need your help at the moment."`
+				`	“换作别的时候我很乐意，但眼下我需要你帮忙。”`
 					goto conversation
 			
 			label epilogue
@@ -3036,12 +3036,12 @@ mission "Paradise Fortune 4"
 			`	"被惯坏了的孩子，"阿隆多轻声说。"就是这种态度让我加入了南方防御联盟。总之，船长，我建议你立即把她交给海军。如果需要，我可以联系共和国。"`
 			choice
 				`	"好吧，我会把她交出去。"`
-				`	"Sorry, Alondo, but I agree with her cause."`
+				`	“抱歉，阿隆多，但我认同她的理想。”`
 					goto agree
 			
 			action
 				set "navy contacted"
-			`	Alondo breathes a sigh of relief. "You should probably go check on her. I'll message you where the Navy wants to pick her up."`
+			`	阿隆多松了口气。“你最好去看看她。海军想在哪里接她，我会发消息告诉你。”`
 				goto end
 			
 			label agree
@@ -3059,22 +3059,22 @@ mission "Paradise Fortune 4"
 			`	你低头看着背包，里面塞满了超过五亿的信用点。`
 			choice
 				`	（将信用点上交给海军。）`
-				`	(Steal the credits.)`
+				`	（把信用点据为己有。）`
 					goto steal
 			
 			branch navy
 				has "navy contacted"
-			`	You fold the note and slip it into the backpack so that you can show it to the Navy to explain why Diana is not with you. You contact the Navy's crime report hotline and tell them that you have the stolen credits. A few minutes later, they respond telling you that a fleet is waiting on <destination> to retrieve the credits.`
+			`	你把纸条折好塞进背包，好向海军出示，解释戴安娜为什么没和你在一起。你拨通海军的犯罪举报热线，告诉他们被盗的信用点在你手上。几分钟后，他们回复说已有一支舰队在<destination>等候取回这些信用点。`
 				accept
 			
 			label navy
 			action
 				clear "navy contacted"
-			`	You fold the note and slip it into the backpack so that you can show it to the Navy to explain why Diana is not with you. Alondo sends you a message, telling you that the Navy says they are waiting on <destination> for the credits.`
+			`	你把纸条折好塞进背包，好向海军出示，解释戴安娜为什么没和你在一起。阿隆多给你发来消息，说海军表示他们正在<destination>等你把信用点送去。`
 				accept
 			
 			label steal
-			`	You rip the note apart and begin counting the credits. In total, the backpack contains a whopping 525,894,400 credits. Over half a billion credits richer, you sit down and wonder what you will spend it on.`
+			`	你把纸条撕得粉碎，开始清点信用点。背包里总共装着多达525,894,400信用点。一下子多了五亿多信用点，你坐下来琢磨该怎么花这笔钱。`
 				decline
 	
 	on accept
@@ -3365,25 +3365,25 @@ mission "Capture Smuggler"
 			`当你走进一家小酒馆想喝一杯时，你见过最壮的大汉站起来挡住了你的去路。他身高两米有余，行动时肌肉仿佛带着几乎不加克制的暴力在颤抖。他用浓重的口音说道：“<first> <last>。我雇主听说你接某些活，收钱，不问问题。他听说你很可靠。有个男人，一个走私贩，偷了我雇主的货。我雇主非常想把货要回来，还有这个人。”`
 			choice
 				`	“抱歉，先生，我今天不接新活。请代我向您雇主致以最诚挚的谢意，感谢他的好意。”`
-				`	"Of course. I won't say a word."`
+				`	“当然。我一个字也不会说。”`
 					goto accept
-				`	"Get out of my way. I don't take jobs from any schlub who bothers me when I need a drink."`
+				`	“给我让开。我想喝一杯的时候，可不接哪个来烦我的蠢货的活。”`
 					goto mistake
 
-			`	The man looks down at you with no change in expression. "My employer, he will not be happy. I will tell him, '<first> <last> is not so reliable.' I hope next time, you are reliable." As the man speaks, you notice that his teeth are filed to vicious points. Every patron in the bar stares at you in shock as you sit down for a badly-needed drink.`
+			`	那人低头看着你，表情毫无变化。“我雇主，他不会高兴。我会告诉他，‘<first> <last>不怎么可靠。’希望下次，你可靠。”那人说话时，你注意到他的牙齿被锉成了狰狞的尖刺。你坐下来喝一杯急需的酒，酒吧里的每个客人都震惊地盯着你。`
 				decline
 
 			label accept
-			`	The man looks down at you with no change in expression. "This is good. To be reliable, it is a great thing on <origin>." As the man speaks, you notice that his teeth are filed to vicious points. He holds out a round, flat object about the size of your palm. It has a recessed button in the center of one side. "This is gift for this smuggler. Press button, it becomes surprise. Make sure surprise is not on you." He hands you the object and a data chip containing details of the job. As the man leaves, you see every patron in the bar staring warily at his back.`
+			`	那人低头看着你，表情毫无变化。“这很好。可靠，在<origin>是了不起的事。”那人说话时，你注意到他的牙齿被锉成了狰狞的尖刺。他拿出一个圆形扁平的物件，大约有你的手掌大小，其中一面的正中有个凹进去的按钮。“这是给走私贩的礼物。按下按钮，它变成惊喜。确保惊喜不在你身上。”他把那个物件和一张载有任务详情的数据芯片交给你。那人离开时，你看到酒吧里的每个客人都警惕地盯着他的背影。`
 				accept
 
 			label mistake
-			`	The man looks down at you with no change in expression. "This is great shame. I will tell my employer, '<first> <last> was not so reliable. I had to make example.'" The man grabs your neck with one monstrous hand. The last thing you see as your vision fades to black is a mouth full of pointed teeth.`
+			`	那人低头看着你，表情毫无变化。“这很可惜。我会告诉我雇主，‘<first> <last>不怎么可靠。我只好杀鸡儆猴。’”那人用一只巨手掐住你的脖子。你眼前渐渐发黑，最后看到的是一张满是尖牙的嘴。`
 				die
 	npc board
 		conversation
 			`你登上船时，走私贩和他的船员已经准备就绪。你掏出那个“礼物”按下按钮，然后迅速扔向走廊。有那么一瞬间，你和走私贩对视。他看到“礼物”时，惊恐地睁大了眼睛。你躲回掩体。几秒后，你听到一声奇怪的沉闷爆炸声，随后归于寂静。一分钟后，你冒险从掩体后窥视。走私贩和他所有船员都昏迷在地。一个船员鼻子里和耳朵里流着血。你把他们都绑起来，将走私贩锁进你飞船上一个锁好的舱室。`
-			`	Once they're secured, you sweep the ship. Ultimately you find the stolen cargo in the captain's cabin, hidden behind a false panel. The cargo is a nondescript storage container, but upon closer inspection you see that it's code-locked and covered with Interference Plating.`
+			`	把他们都控制住之后，你搜查了整艘船。最终你在船长室的一块假面板后面找到了被盗的货物。那是一个毫不起眼的储物箱，但仔细检查后你发现它装有密码锁，外面还覆盖着干扰镀层。`
 				launch
 		government "Merchant"
 		personality staying uninterested timid target marked
@@ -5743,18 +5743,18 @@ mission "Deal Change 2"
 				`	（爬起来要求对方道歉。）`
 			`	你站起身正要开口，却发现对方早已不见踪影。环顾四周，你看到身边的地上有一张写着字的纸条。你捡起纸条，读道：`
 			``
-			`<first> <last>,`
+			`<first> <last>，`
 			`		你目前正携带五吨货物前往天空议会。这批货物被描述为一份“遗产”，对方承诺付给你十万信用点作为报酬。无论如何，你都不能让这批货物抵达目的地。相反，请把它带到<destination>。如果你照做，你将获得<payment>报酬。这张纸条背面有一串代码，你可以用它获得降落许可，无需支付通常的通行费。`
 			``
 			`	你把纸条翻过来，看到一串字母和数字。纸条没有署名，也没有任何能辨认写作者身份的信息。`
 			choice
-				`	(Keep the note.)`
+				`	（留下纸条。）`
 					goto accept
 				`	（扔掉纸条。）`
-			`	You stand up and crumple the note in your hand before throwing it into a bin. You think you catch a glance of a cloaked figure, but don't meet any more trouble on your way to the spaceport.`
+			`	你站起身，把纸条揉成一团扔进垃圾桶。你似乎瞥见了一个披着斗篷的身影，但在前往太空港的路上没再遇到任何麻烦。`
 				decline
 			label accept
-			`	You stand up and stuff the note in your pocket before continuing towards the spaceport.`
+			`	你站起身，把纸条塞进口袋，然后继续朝太空港走去。`
 				accept
 	npc
 		government "Bounty Hunter"
@@ -5778,15 +5778,15 @@ mission "Deal Change 2"
 				`	“我能问几个问题吗？”`
 			`	你旁边的一个海盗龇了龇尖牙，但Ci走上前抬起了手。“请原谅这位船长的天真，”他对海盗说，然后转向你。“我很抱歉，但我恐怕不能回答你的问题。这事非常敏感，任何信息错漏都可能招致死亡。你知道得越少就越安全。”`
 			choice
-				`	"I understand."`
+				`	“我明白。”`
 					goto skip
 				`	“如果你不回答，我就把货拿回去。”`
 			`	Ci朝周围的海盗做了个手势。“你确定这是明智的选择吗，船长？”他走近几步。“你还活着，唯一的原因就是比杀了你更方便。保持现状对你最有利。”`
 			choice
-				`	"Okay, I'll stay quiet."`
+				`	“好吧，我不说话了。”`
 					goto skip
 				`	（拔出枪。）`
-			`	The moment your hand touches the handle of your gun, you are blinded by bright lights and searing pain. You die before your body falls to the ground.`
+			`	你的手刚碰到枪柄，一阵刺眼的强光和灼烧般的剧痛就让你什么都看不见了。你还没倒地就已经死了。`
 				die
 			label skip
 			`	几分钟后，海盗们卸完了货，Ci走上前，递出一张信用芯片。“<payment>，这是你做出正确选择的报酬。”你起飞前往<planet>的主太空港时，Ci和海盗们返回了各自的飞船。`
@@ -6753,7 +6753,7 @@ event "lost racer deadline"
 mission "Lost Racer 2 - Deadline"
 	entering
 	name "带奥古斯特前往<planet>"
-	description "After your aborted search for Artemis Renard, take her father, August, back to <destination>."
+	description "在你搜寻阿尔忒弥斯·雷纳德失败后，将她的父亲奥古斯特带回<destination>。"
 	destination "Glory"
 	passengers 1
 	to offer
@@ -6764,12 +6764,12 @@ mission "Lost Racer 2 - Deadline"
 		set "lost racer august to glory"
 		set "lost racer august aborted"
 		conversation
-			`As you enter the system, August enters the bridge. "Captain, we're too late. Artemis is dead. I just know it."`
+			`你进入星系时，奥古斯特来到舰桥。“船长，我们来晚了。阿尔忒弥斯死了。我就是知道。”`
 			choice
-				`	"No need to panic."`
+				`	“没必要惊慌。”`
 				`	（保持沉默。）`
-			`	"Even if she wasn't attacked by competition, she still can't have survived this long. You've failed." He looks ready to break down.`
-			`	"Take me back to Glory. There's no hope."`
+			`	“就算她没遭到竞争对手的袭击，她也不可能撑这么久。你失败了。”他看上去快要崩溃了。`
+			`	“带我回荣耀星吧。已经没有希望了。”`
 				accept
 
 mission "Lost Racer 2 - Failed"
@@ -6793,7 +6793,7 @@ mission "Lost Racer 2 - August Reached Glory"
 	on offer
 		clear "lost racer august to glory"
 		conversation
-			`As the advanced medical facilities of <planet> rise up to greet the <ship>, August comes to meet you on the bridge. "Captain, I would like to thank you for attempting to find my daughter, even though we failed. Thank you for that, at least." He then prepares to exit the ship, outside of which a veritable army of attendants are waiting.`
+			`当<planet>的高级医疗设施拔地而起迎接<ship>时，奥古斯特来到舰桥上见你。“船长，我想感谢你尝试寻找我的女儿，尽管我们失败了。至少，为此感谢你。”然后他准备下船，船外正有一大群随从在等候。`
 			choice
 				`	“你难道不打算付我钱吗？”`
 					goto greedy
@@ -7273,7 +7273,7 @@ mission "Southern Fiance 2"
 			`	我们很高兴地宣布，尽管时局艰难、周遭困苦，我们两人还是在三天前于丰饶角的哈特山葡萄园结为连理。没有你的帮助，这一切绝无可能实现。我们衷心感谢你。请欣赏这些婚礼照片。`
 			`				汤姆与卡尔·阿德怀特-张伯伦`
 			``
-			`	You recognize Tom's style in the design of the photo set, which includes a photo of them on the tarmac at the Cornucopia spaceport where they were reunited after the uncertainty of the war parted them.`
+			`	你从这组照片的设计中认出了汤姆的风格，其中有一张是他们在丰饶角太空港停机坪上的合影——战争的动荡曾让他们分离，他们正是在那里重逢的。`
 				decline
 
 
@@ -7538,11 +7538,11 @@ mission "Lost Dog"
 			`你从<ship>走出来，离开<origin>喧嚣的太空港，踏入太空港小镇那条表面热情周到、刻意无害的街道。每条路都似乎挤满了游客，而且专门设计成将旅行者越带越远离他们的飞船，深入这个天堂世界超自然的璀璨光芒之中。手工雕琢的美景无处不在，连绵不绝的壮丽景象令人目不暇接。`
 			`	走着走着，你偶然发现一个修剪得完美无瑕的花园公园，名叫“流形公园”。你走近大门，发现一个售票处，告示牌上写着本周免费入场优惠，原价3400信用点的常规门票被划掉了。`
 			choice
-				`	(Go to the park.)`
+				`	（去公园。）`
 					goto park
 				`	（返回我的飞船。）`
 
-			`	You have more important things to do than wander around an expensive terraformed garden.`
+			`	你有更重要的事要做，没空在一座昂贵的地形改造花园里闲逛。`
 				decline
 
 			label park
@@ -7550,11 +7550,11 @@ mission "Lost Dog"
 			`	空气清新爽朗，就连脚下树叶的嘎吱声和泥土的闷响也莫名地令人愉悦和满足。终于，太阳开始落山，你想起告示牌上说公园很快就要关门了。`
 			`	当你走近公园出口时，一只小狗慢悠悠地走过来，用悲伤的眼神看着你。它似乎是孤零零的，四周不见主人的踪影。`
 			choice
-				`	(Call to the dog.)`
+				`	（呼唤小狗。）`
 					goto "dog lover"
 				`	（无视小狗。）`
 
-			`	You ignore the dog and eventually it sulks away to interact with another patron of the park. As you return to your ship it begins to get dark, and you feel your day of quiet contemplation come to a close.`
+			`	你没理会小狗，它最终闷闷不乐地走开，去找公园里的其他游客了。你返回飞船时天色渐暗，感到这一天的静思时光就此结束。`
 				decline
 
 			label "dog lover"
@@ -7567,20 +7567,20 @@ mission "Lost Dog"
 			``
 			`	“真奇怪，”你对凯撒说。“你怎么会在错误的星球上迷路呢，嗯，小家伙？”`
 			choice
-				`	(Take Caesar to his owners on Glory.)`
+				`	（把凯撒送回荣耀星的主人那里。）`
 					goto "take him"
 				`	（把凯撒留在这里。）`
 
 			action
 				event "lost dog: homeward bound" 30 60
 			`	也许他的主人正在度假，随时会回来找他。尽管天色已晚且周围似乎空无一人，但你决定最好的做法还是把凯撒留在你发现他的地方。`
-			`	As you turn away, Caesar begins to whine, but he soon quiets down when you don't come back to pick him up. Looking back, you notice him slinking off into the shadow of a perfectly manicured shrub.`
+			`	你转身离开时，凯撒开始呜咽，但见你没有回来抱他，他很快就安静下来。回头望去，你看到他悄悄溜进了一丛修剪得完美无瑕的灌木的阴影里。`
 				decline
 
 			label "take him"
 			`	“好了，来吧，小家伙，”你说。“我们走。”`
 			`	凯撒急切地跟着你回到了飞船。能和你在一起，而不是被独自留在公园里，他似乎大大松了一口气。`
-			`	Once back on your ship, you make sure he's fed, watered, and settled in for his interstellar journey.`
+			`	回到飞船后，你确保他吃饱喝足、安顿妥当，准备开始星际旅程。`
 				accept
 
 	on complete
@@ -7604,13 +7604,13 @@ mission "Lost Dog"
 			`	当你向管家展示凯撒时，他的眉头皱得更深了。`
 			`	他叹了口气说：“请出示名片。”他端出一个银盘，等待你的名片。`
 			choice
-				`	(Explain that I don't have a calling card.)`
+				`	（解释我没有名片。）`
 					goto "no card"
-				`	(Place my card on the tray.)`
+				`	（把我的名片放到托盘上。）`
 					to display
 						"net worth" > 20000000
 
-			`	The butler's eyebrows rise in the slightest hint of surprise when you place your card on the tray. He promptly turns and disappears into the overlarge house. You, Caesar, and the footman all wait for half an hour before a woman arrives at the front entrance, wearing an exceedingly complicated gown.`
+			`	你把名片放到托盘上时，管家的眉毛微微一挑，流露出一丝惊讶。他立刻转身，消失在那座大得过分的宅邸里。你、凯撒和男仆一起等了半个小时，才有一位身穿极其繁复礼服的女士来到正门。`
 				goto boolinbrook
 
 			label "no card"
@@ -7692,22 +7692,22 @@ mission "Adelita 1"
 			`	每块标牌的底部都写着前往展览的路线。它似乎位于附近的一个仓库区，正是太空港区与周边城市交界的地方。`
 			choice
 				`	（去看看。）`
-				`	(Not interested.)`
+				`	（没兴趣。）`
 					decline
 
 			`	顺着标牌指引，你注意到一大群人聚集在一个大仓库前，这个仓库在场地中格外显眼。排队等候时，一个年轻女子排在你身后，满脸兴奋地问你：“好奇问一下，你对希望星及其历史了解多少？”`
 			choice
 				`	“几乎一无所知。”`
-				`	"I come from the Dirt Belt, but I really don't know too much about what happened on Hope."`
+				`	“我来自泥壤带，但对希望星上发生的事真的不太了解。”`
 					to display
 						has "start: default"
-				`	"I've been there myself and know what happened, but other than that I don't know."`
+				`	“我自己去过那里，知道发生了什么，但除此之外就不清楚了。”`
 					goto "been to hope"
 					to display
 						has "visited planet: Hope"
 						not "Expedition to Hope 2: done"
 						not "FW Katya 4: done"
-				`	"I've been there myself, actually, and met some people affected by it."`
+				`	“其实我自己去过那里，还见过一些受影响的人。”`
 					goto "been to hope"
 					to display
 						or
@@ -7716,12 +7716,12 @@ mission "Adelita 1"
 								has "FW Katya 4: done"
 								has "visited planet: Hope"
 							has "Stone to Hope: done"
-				`	"I haven't been there myself, but I know people who have been affected by it."`
+				`	“我自己没去过，但我认识一些受过影响的人。”`
 					to display
 						has "FW Katya 4: done"
 						not "visited planet: Hope"
 
-			`	"Well then it's a good thing you're seeing Adelita's exhibition on Hope. It's really moving. You'll learn a lot about the tragedy and what Parliament and the Paradise Worlds did to everybody who tried to help," she adds somewhat sullenly. "You know, this was their first work that really got them famous in the interplanetary scene, but they've been forced to close it, so today's their final day. I had to see it one more time before they went."`
+			`	“那你来看阿德丽塔关于希望星的展览可真是来对了。它非常感人。你会了解到很多关于那场悲剧的事，还有议会和天堂世界对所有试图提供帮助的人做了什么，”她略带愤懑地补充道。“你知道吗，正是这部作品让他们在星际间真正出了名，但他们被迫关闭展览，所以今天是最后一天。我必须在他们离开前再来看一次。”`
 				goto questions
 
 			label "been to hope"
@@ -7730,10 +7730,10 @@ mission "Adelita 1"
 			label questions
 			choice
 				`	“阿德丽塔是谁？”`
-				`	"Why did they have to close it?"`
+				`	“他们为什么不得不关闭展览？”`
 					goto signage
 
-			`	"They're an independent journalistic collective all about the injustices of human civilization. No one knows who they really are, but Adelita's work is what inspired me to study journalism. Their use of mixed media, their eye for story telling... I just love it. I know you're going to love it too," she says.`
+			`	“他们是一个独立的新闻团体，专门揭露人类文明中的种种不公。没人知道他们的真实身份，但正是阿德丽塔的作品激励我去学新闻。他们对混合媒体的运用，他们讲故事的眼光……我简直爱死了。我知道你也会爱上的，”她说。`
 				goto exhibition
 
 			label signage
@@ -7747,14 +7747,14 @@ mission "Adelita 1"
 			choice
 				`	“令人印象深刻。”`
 				`	“还行吧。”`
-				`	"Isn't that a bit deceptive?"`
+				`	“这是不是有点误导人？”`
 					goto deceptive
 
 			`	“我来过十次，每次都感到震撼，”女子回答。“趁还能看，好好享受展览吧！”她朝出口走去。`
 			choice
 				`	（继续在展区内闲逛。）`
 					goto wander
-				`	(Go to the exit.)`
+				`	（前往出口。）`
 					goto exit
 
 			label deceptive
@@ -7762,14 +7762,14 @@ mission "Adelita 1"
 			`	“嗯，不管怎么说，我来过十次，每次都感到震撼，”女子说。“趁还能看，好好享受展览吧。”她朝出口走去。`
 			choice
 				`	（继续在展区内闲逛。）`
-				`	(Go to the exit.)`
+				`	（前往出口。）`
 					goto exit
 
 			label wander
 			branch katya
 				has "FW Katya 4: done"
 
-			`	Inside houses, you see families frantically gathering their belongings and running for the Navy ships. You walk down one of the lines of refugees, observing each person - their faces harried, frightened, resolute. From the corner of your eye, you notice that a Navy officer slips in the snow, and as you look around, a young man helps him up. Wandering around the exhibit gives you a sense of the desperation of the people as they evacuate, though it's a bit disconcerting when the occasional hologram walks through you.`
+			`	在房屋内部，你看到家家户户慌乱地收拾财物，跑向海军舰艇。你沿着一条难民队伍走下去，观察每一个人——他们脸上写满了焦虑、恐惧和坚毅。眼角余光中，你注意到一名海军军官在雪地里滑倒，你环顾四周，一个年轻人扶起了他。在展区内漫步，你能感受到人们撤离时的绝望，不过偶尔有全息影像从你身上穿过，还是让人有点不安。`
 				goto "move on"
 
 			label katya
@@ -7780,45 +7780,45 @@ mission "Adelita 1"
 			`	突然，整个投影在一阵令人眩晕的闪光中消失，你发现自己站在仓库一个被隔离的区域。展览几乎空无一人，一个女人向你走来。“有一位作者也很喜欢那个瞬间。大概这就是她极力要求保留那一部分的原因吧。”她低声咕哝了一句“安全风险”，然后把注意力转回到你身上。`
 			`	“哦，我太冒昧了，”她伸出手说道。“我叫玛丽埃尔。我负责组织这些展览，并担任阿德丽塔的发言人。你是？”`
 			choice
-				`	"I'm <first> <last>."`
+				`	“我是<first> <last>。”`
 					goto extended
 				`	“我是<last>船长。”`
 
-			`	"Captain," she says, her eyes lighting up. "Well, as you may know, this is the last day of the exhibition. The captain I hired to transport everything back to <planet> is not only rude, but is now late. I would much rather have it in the hands of someone who appreciates the work. I was going to pay him 60,000 credits, but I'll pay you <payment> to take his contract instead given the short notice. What do you say?"`
+			`	“船长，”她说着，眼睛一亮。“嗯，你可能知道，今天是展览的最后一天。我雇来把所有东西运回<planet>的船长不仅粗鲁，现在还迟到了。我宁愿把它交给一个懂得欣赏这些作品的人。我本来打算付他60,000信用点，但考虑到时间紧迫，如果你愿意接手他的合同，我会付你<payment>。你觉得怎么样？”`
 				goto choice
 
 			label extended
 			`	“这样啊，”她说。“嘿，你碰巧知道有什么飞船能装下 <tons> 吨重的展览设备并运到<destination>吗？你可能知道，今天是展览的最后一天。我雇来的船长不仅粗鲁，现在还迟到了，我需要有人临时接手他的合同。”`
 			choice
 				`	“嗯，我是<ship>的船长。”`
-				`	"Sorry, I can't help you."`
+				`	“抱歉，我帮不了你。”`
 					goto decline
 
 			`	玛丽埃尔眼睛一亮。“太好了！我本来打算付他六万信用点，但如果你愿意接手他的合同，我会付你<payment>。你觉得呢？”`
 
 			label choice
 			choice
-				`	"I would love to."`
+				`	“我很乐意。”`
 					goto accept
 				`	“我有更紧迫的事要处理。”`
 
 			`	“哦。我以为这对你来说是个不错的交易，尤其是还能有机会见到那些艺术家。但决定权在你。”`
 			choice
 				`	“好，我干。”`
-				`	"I'm sorry, I can't take the job."`
+				`	“抱歉，这活我接不了。”`
 					goto decline
 
 			label accept
 			`	“太好了！”玛丽埃尔说。“我会让我们的工作人员立即准备好所有东西，装到你的飞船上。”`
-			`	After a couple hours, the whole exhibition is packed up and ready for transport to <planet>.`
+			`	几个小时后，整个展览都打包完毕，准备运往<planet>。`
 				accept
 
 			label decline
-			`	"That's unfortunate. I'll have to find someone else, then." Mariel glances at her watch. "Well, anyway, the exhibition has closed. I'm going to have to ask you to leave."`
+			`	“真遗憾。那我只好另找别人了。”玛丽埃尔看了看手表。“好吧，不管怎样，展览已经结束了。我只能请你离开了。”`
 				decline
 
 			label exit
-			`	Following her, you find the true exit of the warehouse and go back out onto the more familiar grounds of <origin>'s spaceport.`
+			`	你跟着她找到了仓库真正的出口，回到了你更熟悉的<origin>太空港。`
 				decline
 
 	on visit
@@ -8259,14 +8259,14 @@ mission "Syndicate Business 2"
 			`你来到霍华德给你的空间站售货亭位置，他立刻发现你并走近。到达后，他万分感谢，兴奋地告诉你，你收到了一个独家机会，可以购买兆秒差距公司债券。`
 			`	"重申一下，要购买一份兆秒差距公司的永久债券，你需要一次性支付一百万信用点，并签署一些法律文件。我们承诺的年回报率超过35%，预计将持续永久，每天以1000信用点的股息支付给你。你接受这些条款吗？"`
 			choice
-				`	"Sure, here's the one million credits."`
+				`	“没问题，这是一百万信用点。”`
 					goto signed
 				`	"我想先看看这些文件再签。"`
-				`	"Can I get a lawyer to review this?"`
+				`	“我能请个律师审阅一下吗？”`
 					goto lawyer
-				`	"I need more time to think about this."`
+				`	“我需要更多时间考虑一下。”`
 					goto unsure
-				`	"No, I'd prefer not to become an investor."`
+				`	“不了，我不想当投资者。”`
 					decline
 			label "looking through"
 			`	霍华德轻笑一声，好像你的要求很荒谬。`
@@ -8274,9 +8274,9 @@ mission "Syndicate Business 2"
 			`	霍华德把封面和第一页滑向你，不耐烦地用笔敲着。`
 			choice
 				`	（看看霍华德滑过来的东西。）`
-				`	"Alright, I'll sign."`
+				`	“好吧，我签。”`
 					goto signed
-				`	"If I can't read the whole thing, I won't sign it. I refuse to become an investor."`
+				`	“如果我不能通读全文，我就不签。我拒绝成为投资者。”`
 					decline
 			`	你低头看向这份私人债券信用协议的封面：`
 			``
@@ -8303,27 +8303,27 @@ mission "Syndicate Business 2"
 			`	第一条——投资条款和条件摘要：投资者签署本协议后，不可撤销地同意向发行人一次性预付并最终支付一百万（1,000,000）信用点，作为每年三十六万五千（365,000）信用点永久债券的对价，每日向投资者支付。投资者向发行人支付的款项将被视为完全赚取且不可退还，无论之后发生任何事件、交易失败、任何一方的作为或不作为。发行人收到上述款项后，将向投资者授予本协议所概述的权利和利益，前提是投资者遵守发行人或其他相关共和国、辛迪加或兆秒差距机构当前及未来施加的所有法律、监管和行政要求——包括但不限于签署本协议未列明的附加文件、披露或协议。拒绝签署任何此类未来文件可能导致立即丧失一百万（1,000,000）信用点，且投资者无需在初始投资之外再支付任何款项。`
 			`	投资者确认已获得部分或全部审阅本协议的机会，并可要求转介至经辛迪加和兆秒差距监管投资法认证的法律顾问，费用按标准费率收取。投资者在下方签名即确认其完全且无条件接受本协议，包括所有前述条款和条件、本协议所含的补充材料，以及发行人发布的任何未来修订或扩展，这些内容一经发行人发布即具有立即约束力。`
 			choice
-				`	"I'm ready to sign!"`
+				`	“我准备好签字了！”`
 					goto signed
-				`	"I think I need a lawyer."`
+				`	“我想我需要一个律师。”`
 					goto lawyer
-				`	"But I don't have a 'complete understanding and acceptance of the foregoing terms and conditions,' so I'm backing out."`
+				`	“但我并没有‘完全理解并接受前述条款和条件’，所以我退出。”`
 					decline
 			label unsure
 			`	霍华德笑了一声，声音有点勉强，笑容却纹丝不动，额头上冒出一滴汗珠。"啊，我明白了，你是那种注重细节的人。听着，我和其他商人一样欣赏严谨，但现实点——这些文件都是标准模板。你不需要完全理解每一个字才能认出一个摆在面前的金色机会。"`
 			`	他随意挥手指向那叠文件。"但如果你坚持要花更多时间思考或通读全文，让我提醒你——这个机会不会永远等你。这样的机会很少见，犹豫可能意味着完全错过。所以，你怎么决定？你准备好抓住这个一生一次的交易，还是让它从指缝间溜走？"`
 			`	霍华德用笔敲了敲那叠文件，明显不耐烦，但仍保持优雅的风度。`
 			choice
-				`	"Okay, okay, I'll sign."`
+				`	“好吧好吧，我签。”`
 					goto signed
 				`	"我想要一个律师。"`
-				`	"Actually, let me take a look at the contract."`
+				`	“其实，还是让我看看合同吧。”`
 					goto "looking through"
 			label lawyer
 			`	霍华德的笑容收紧了，语气依然礼貌但坚定。"当然，你有权寻求法律顾问。不过，辛迪加和兆秒差距的法规都要求任何律师必须同时获得辛迪加和兆秒差距监管投资法的认证，并支付惯例费用和会费。此类专业服务的标准费率为每页审阅795信用点，外加20,000信用点的文件分析基础法律费。这份协议共101页，总计100,295信用点。为了安心，这点代价不算大，你说呢？"`
 			`	霍华德向前倾身，压低声音。"如果你愿意，我甚至可以推荐一个人——可靠、高效。你觉得怎么样？"`
 			choice
-				`	"I'll just sign the investment."`
+				`	“我还是直接签这份投资吧。”`
 					goto signed
 				`	"谢谢，我希望能有个推荐。"`
 				`	"不用了，我自己找。"`
@@ -8332,10 +8332,10 @@ mission "Syndicate Business 2"
 			`	你低头看向数据板。每位律师的可用状态用颜色编码：绿色表示立即可用，黄色表示需要排队等待几天，橙色表示需要几周，红色表示目前不接受新客户。第一位律师，即霍华德的推荐，是唯一高亮为绿色的。`
 			`	"高效、全面、精通兆秒差距投资结构，"霍华德继续用流畅的语气说道。"而且当然可以立即提供服务。他们今天就可以为你审查这些文件，只需支付100,295信用点这一适中的费用。如果你追求安心，这是最佳选择。或者，你也可以现在就相信这个机会的真实性，直接推进。选择权在你。"`
 			choice
-				`	"I'll just sign the investment."`
+				`	“我还是直接签这份投资吧。”`
 					goto signed
 				`	“我想我只能选这个唯一可用的律师了。”`
-				`	"I'm backing out and not becoming an investor."`
+				`	“我退出，不当投资者了。”`
 					decline
 			label "only lawyer"
 			action
@@ -8348,10 +8348,10 @@ mission "Syndicate Business 2"
 			`	一直在耐心等待的霍华德向前倾身，挂着他那永远无可挑剔的笑容。“很高兴看到你做了法律审查。对于这种规模的投资，这永远是明智之举，”他用流畅而充满鼓励的语气说道。他指了指桌上的一沓文件。“那么，既然一切都确认无误了，你准备好签字并敲定你的投资了吗？”`
 			choice
 				`	“是的，我准备好签字了。”`
-				`	"No, I don't want to invest in anything, I'm done."`
+				`	“不，我什么都不想投资，到此为止。”`
 					decline
 			label signed
-			`	After you've signed numerous dotted lines, Howard says, "Alright, we have your payment and preliminary signatures. This particular investment is administered by Syndicated Systems as outlined in the agreement, so we'll need to submit this first set of paperwork to their office and then go to <destination> to sign the final documents and conduct a biometric scan at our secure facility. I'll go with you to help finalize the paperwork. Once that is complete, you should immediately start receiving dividend payments."`
+			`	你在无数条虚线上签完字后，霍华德说：“好了，我们已经收到你的款项和初步签名。按照协议所述，这项投资由辛迪加系统公司管理，所以我们需要先把这第一套文件提交到他们的办公室，然后前往<destination>签署最终文件，并在我们的安全设施进行生物特征扫描。我会和你一起去，帮忙把手续办完。一旦完成，你应该就会立即开始收到股息。”`
 				accept
 	on accept
 		payment -1000000
@@ -8365,7 +8365,7 @@ mission "Syndicate Business 2"
 				`	“当然可以。”`
 					goto high
 				`	“我退出。出于道德原因，我无法投资这个。”`
-			`	Howard nods. "I get it, ethics are important and I respect your decision. Unfortunately, the initial deposit is non-refundable, nothing I can do there. Best of luck finding another investment that suits you."`
+			`	霍华德点点头。“我明白，道德很重要，我尊重你的决定。遗憾的是，首笔存款不可退还，这一点我无能为力。祝你好运，希望你能找到另一项适合你的投资。”`
 				decline
 			label high
 			action
@@ -8472,7 +8472,7 @@ mission "Syndicate Business 4"
 	on offer
 		conversation
 			`你在太空港见到了霍华德。他站在附近的一个停机坪上，紧挨着他的穿梭机，衣着笔挺但神情略显匆忙。你走近时，他朝你迅速点了点头。`
-			`	"Good to see you're on time," Howard says, glancing at his antique wristwatch. "We've got a lot of ground - or space - to cover." Howard briefly looks at the <ship>. "Your ship ought to go fast enough, I suppose. I'll be tied up in calls for most of the trip, but once we're back at the office, we can talk." He starts toward his Shuttle's ramp, already shifting his attention back to his wristwatch. "Let's get moving."`
+			`	“很高兴看到你准时到了，”霍华德瞥了一眼他的古董腕表说道，“我们还有很长的路——或者说很长的太空——要赶。”霍华德朝<ship>扫了一眼。“我想你的飞船应该够快。这一路上我大部分时间都要忙着打电话，不过等我们回到办公室，就可以好好谈谈了。”他朝自己穿梭机的舷梯走去，注意力已经重新回到了腕表上。“我们出发吧。”`
 				launch
 	npc accompany save
 		government "Syndicate"
@@ -9107,30 +9107,30 @@ mission "Timothy Radrickson 3b: Pirate Base"
 			`	当你从山谷周围安全的丘陵地带接近信标信号时，你从远处侦察了这个基地。它显然是围绕着一组地下防爆门建造的，信标——以及想必也在那里的舰队——就在其中。你的飞船还识别出基地内外停放着许多海盗船只。`
 			`	海盗们尚未意识到你的敌意，你有机会抢占先机发动突袭。或者，你可以再靠近些，继续侦察基地，看看有没有其他进入路径。`
 			choice
-				`	(Do a surprise attack!)`
+				`	（发动突袭！）`
 					to display
 						"armament deterrence" > 0
 					goto surprise
 				`	（再靠近些。）`
-				`	(Hail the pirates and use diplomacy.)`
+				`	（呼叫海盗，尝试外交手段。）`
 					goto diplomacy
-				`	(This is too dangerous. Leave.)`
+				`	（这太危险了。离开。）`
 					flee
 
 			`	你尽可能在不暴露位置的情况下向基地靠近，注意到基地周围布满了激光炮塔和地对空导弹系统，继续接近风险极高。此外，基地外的船只看起来都经过高度改装。不过，你并没有发现其他入口；看来你无论如何都得把海盗逼出来。`
 			`	海盗们似乎仍然没有察觉到你。稍微移动一下，你就能扫射营地，在避开炮塔的同时摧毁相当一部分停泊的船只。`
 			choice
-				`	(Strafe the parked pirate vessels.)`
+				`	（扫射停泊的海盗船只。）`
 					to display
 						"armament deterrence" > 0
-				`	(Hail the pirates and use diplomacy.)`
+				`	（呼叫海盗，尝试外交手段。）`
 					goto diplomacy
-				`	(This is too dangerous. Leave.)`
+				`	（这太危险了。离开。）`
 					flee
 
 			action
 				set "diminished greenrock pirate fleet"
-			`	Carefully maneuvering into position, your ship flies out of the hills that hid it and lets loose a withering barrage over the parked pirate vessels. You manage to destroy a number of the ships while their shields are down, before the defense turrets force you to fly back up into space as the surviving ships sortie after you.`
+			`	你小心地调整到位，飞船从藏身的丘陵后飞出，对停泊的海盗船只倾泻了一轮猛烈的火力。你趁它们护盾未开之际摧毁了好几艘，随后防御炮塔迫使你飞回太空，幸存的船只也紧随你出击。`
 				launch
 
 			label diplomacy
@@ -9138,14 +9138,14 @@ mission "Timothy Radrickson 3b: Pirate Base"
 				set "big greenrock pirate fleet"
 				set "Timothy Radrickson 3b: diplomacy"
 			`	你向营地里停泊的船只广播了一条信息，声明你无意伤害他们，并邀请他们就兰德车队一事进行谈判。`
-			`	Their only response is to launch their entire fleet after you. You're forced back into space to fight them.`
+			`	他们唯一的回应是派出整支舰队追击你。你被迫退回太空与他们作战。`
 				launch
 
 			label surprise
 			action
 				set "big greenrock pirate fleet"
 			`	你将推进器开至全速，飞入山谷，直冲防爆门外最大的一片停泊船只集群。`
-			`	That is, until your sensors run hot with a multitude of approaching enemy warnings and missile locks. Without the protection of the hills that were hiding your ship, it looks like the pirates' early warning system detected you before you could get into position to attack. You're forced to turn back as an entire fleet of marauders fire up their engines and chase you into space.`
+			`	可就在这时，你的传感器因大量逼近的敌舰警报和导弹锁定而响成一片。没了藏身丘陵的掩护，看来海盗的预警系统在你进入攻击位置之前就发现了你。一整支掠夺者舰队启动引擎，追着你冲进太空，你被迫掉头撤退。`
 				launch
 
 	on visit
@@ -9308,7 +9308,7 @@ mission "Timothy Radrickson 3c: Escort the Convoy"
 mission "Timothy Radrickson 3d: Return to Rand"
 	landing
 	name "重返兰德"
-	description "Now that you've finished escorting the Hroar's Haulers Convoy, visit <destination> for your reward."
+	description "既然你已经完成了对赫罗尔搬运队船队的护送，前往<destination>领取报酬。"
 	source "Wayfarer"
 	destination "Rand"
 	to offer

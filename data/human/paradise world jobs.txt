@@ -1029,7 +1029,7 @@ phrase "martini evac 1"
 		"南部公约组织"
 		"“那些${insults for southerners}”"
 		"“那些${insults for southerners}”"
-		"the '${insults for southerners}'"
+		"所谓的‘${insults for southerners}’"
 	word
 		"要为马提尼遭受的"
 	word
@@ -1115,7 +1115,7 @@ phrase "martini evac 2"
 		"南部协定"
 		"“那些${insults for southerners}”"
 		"“他们${insults for southerners}”"
-		"the '${insults for southerners}'"
+		"所谓的‘${insults for southerners}’"
 	word
 		"要对"
 	word
@@ -1362,9 +1362,9 @@ mission "Martini Relief (People) [0]"
 		"<martini relief occupations>" "医生"
 		"<martini relief occupations>" "技术员"
 			random < 50
-		"<martini relief occupations>" "nurses"
+		"<martini relief occupations>" "护士"
 			random < 33
-		"<martini relief occupations>" "surgeons"
+		"<martini relief occupations>" "外科医生"
 			random < 25
 	clearance "当你向太空港管制员解释你船上载有一批协助马提尼救灾工作的<martini relief occupations>时，他们批准了你的降落请求。"
 	to offer
@@ -1387,12 +1387,12 @@ mission "Martini Relief (People) [1]"
 	repeat
 	passengers 2 2 .3
 	substitutions
-		"<martini relief occupations>" "evacuation coordinators"
+		"<martini relief occupations>" "撤离协调员"
 		"<martini relief occupations>" "搜救人员"
 			random < 50
-		"<martini relief occupations>" "firefighters"
+		"<martini relief occupations>" "消防员"
 			random < 33
-		"<martini relief occupations>" "volunteers"
+		"<martini relief occupations>" "志愿者"
 			random < 25
 	clearance "当你向太空港管制员解释你船上载有一批协助马提尼救灾工作的<martini relief occupations>时，他们批准了你的降落请求。"
 	to offer
@@ -1418,9 +1418,9 @@ mission "Martini Relief (People) [2]"
 		"<martini relief occupations>" "工程师"
 		"<martini relief occupations>" "技术员"
 			random < 50
-		"<martini relief occupations>" "construction workers"
+		"<martini relief occupations>" "建筑工人"
 			random < 33
-		"<martini relief occupations>" "volunteers"
+		"<martini relief occupations>" "志愿者"
 			random < 25
 	clearance "当你向太空港管制员解释你船上载有一批协助马提尼救灾工作的<martini relief occupations>时，他们批准了你的降落请求。"
 	to offer

@@ -37,13 +37,13 @@ mission "Liberate Kornephoros"
 			`	“那么出发！”托梅克喊道，船长和船员们急忙冲向各自的飞船。`
 			`	托梅克在动员完民兵们之后回到你身边。“还要和我们一起并肩战斗吗？”`
 			choice
-				`	"Yes, sir. I'll move out immediately."`
+				`	“是，长官。我马上出发。”`
 					accept
 				`	“我真希望没走到这一步。”`
 			
 			`	“谁又不是呢，”他说。“没有人想要这样。我们不想，海军当然也不想。但如果他们为了夺走我们的自由而向我们开战，我们就必须奋起自卫，将其捍卫到底。明白吗？”`
 			choice
-				`	"Yes, sir. I'll prepare my ship for another battle."`
+				`	“是，长官。我会为下一场战斗做好飞船的准备。”`
 					accept
 	
 	npc
@@ -130,10 +130,10 @@ mission "Liberate Kornephoros"
 			`	他把你拉到一边，问道：“这里情况怎么样？”`
 			choice
 				`	“非常平静。他们没给我们添任何麻烦。”`
-				`	"The battle was brutal. I hope we don't have to keep doing that."`
+				`	“战斗很惨烈。希望我们不必一直这样打下去。”`
 					goto brutal
 			
-			`	"Glad to hear it," he says.`
+			`	“很高兴听你这么说，”他说。`
 				goto speech
 			
 			label brutal
@@ -976,7 +976,7 @@ mission "FW Pirates 1"
 			`	你向他描述了等离子炮塔出色的性能，以及寻找一艘足够大的飞船来搭载它们有多么不易。“太棒了！”他说，“这带来了一些有趣的战术可能性。不过，现在是时候完全转换方向了。”`
 			`	他抚平星图，扫掉上面几粒散落的花生和碎屑。显然，他已经在这里坐了挺长时间。“眼下，”他说，“海军没来招惹我们，我们也没有理由去主动攻击。因此，议会已经开始将注意力转向其他事务，也就是海盗。他们对我们的航运威胁很大，每一批因海盗而损失的物资都在削弱我们的战争力量。此外，如果我们能解决海盗问题，就能在附近的共和国星系中赢得大量支持。一旦争取到共和国世界的同情，就能降低共和国开战的意愿。”`
 			choice
-				`	"Agreed."`
+				`	“同意。”`
 					goto agree
 				`	“但海军难道不依然是更大的威胁吗？”`
 			
@@ -991,14 +991,14 @@ mission "FW Pirates 1"
 				`	“骑官十以北的那些海盗星系呢？”`
 			`	托梅克耸了耸肩。“简单来说，那边的世界目前对我们构不成威胁。据我们所知，那里的多数派系目前都把心思放在内部的权力斗争上，而不是在边缘星区搞海盗劫掠。光是那些 CCOR 游击队，就足以让那里的海盗军阀在近期内忙得不可开交了。”`
 			choice
-				`	"CCOR?"`
+				`	“CCOR？”`
 					goto ccor
-				`	"Understood."`
+				`	“明白了。”`
 					goto leave
 			label ccor
 			`	托梅克显得有些惊讶。“我原以为你知道。外环联合会曾是一个试图在共和国势力范围之外，实践其独特共产主义的政权。他们在大约五十年前倒台了，其昔日的行星领地如今要么被海盗团伙控制，要么落入试图重建 CCOR 的游击队手中。不过你不用太担心那些游击队——时至今日，他们和普通海盗团伙其实没什么两样。”`
 			label leave
-			`	As you are about to leave, he says, "Oh, one other thing: you've been approved for a salary raise to 2,100 credits. We figure that helping you maintain a slightly larger ship is a worthwhile investment. Congratulations, Captain."`
+			`	当你正要离开时，他说：“哦，还有一件事：你的薪水已获批上调至2,100信用点。我们认为帮你维持一艘稍大一点的飞船是一项值得的投资。恭喜你，船长。”`
 				accept
 	
 	on visit
@@ -1323,10 +1323,10 @@ mission "FW Pirates: Attack 2"
 			`	海军没能征服长跃星。为什么一支规模相似的舰队就能征服绿岩星？也许参议院建议外交解决是正确的。或者，运气会站在你这边。`
 			choice
 				`	（无视参议院的命令，直接攻击绿岩星，无论后果如何。）`
-				`	(Give up on Tomek's scheme and follow the Senate's orders to make a diplomatic visit to Thule.)`
+				`	（放弃托梅克的计划，遵照参议院的命令前往图勒进行外交访问。）`
 					decline
 			`	你与入侵舰队的一些船长交谈。显然托梅克一直忙于走访各个太空港，发表激动人心的演讲，宣称要在南部星区一劳永逸地终结海盗和奴隶制，因此尽管未获参议院授权，这支舰队仍然如此庞大。这也解释了为什么舰队中包括了几位商船船长——他们很可能是当地的船长，偶然听到了演讲，虽然对加入自由世界与海军作战不感兴趣，但如果此举成功，他们非常乐意让自己的货船日子好过些。`
-			`	You plan to leave after nightfall, which should hopefully mean that Alondo doesn't realize that you've left him behind until it's too late. Now all that remains is for you to travel to <system>, defeat whatever opposition you find, and land on <planet>. Or die trying.`
+			`	你计划在夜幕降临后出发，希望这样阿隆多直到为时已晚才会发现你把他甩下了。现在只剩下前往<system>，击败你遇到的一切抵抗，然后降落在<planet>上。或者死在半路上。`
 				accept
 	
 	on accept
@@ -1392,7 +1392,7 @@ mission "FW Pirates: Attack 2"
 			`	托梅克下达完命令、庆祝完毕后，他走向你，紧紧握住你的手。“谢谢你听从理智，<last>船长。我知道，当我让你直接违抗参议院的命令时，对你要求太多了。”`
 			choice
 				`	“现在怎么办？”`
-				`	"I'm sure we'll be getting in trouble for this."`
+				`	“我肯定我们会因为这件事惹上麻烦的。”`
 					goto trouble
 			
 			`	托梅克笑了：“现在我们趁优势尽可能驱逐这里的罪犯和军阀。给他们造成的损失越多，今后自由世界被海盗伤害的无辜百姓就越少。我已经下令扫荡太空港，之后会留下一支舰队驻扎一段时间维持秩序。也许过阵子我们得撤回来重新对付海军，但眼下绿岩星是我们的了。”`
@@ -1750,7 +1750,7 @@ mission "FW Early Warning 1"
 			`	“你难道不知道这让我们处于多被动的境地吗？”阿隆多对托梅克说。“如果我们想守住绿岩星，那将是一个永久的资源黑洞，我们现在根本承受不起。”`
 			`	“你没看清大局，”托梅克回应。“没错，我们需要投入资源控制绿岩星，但我们现在已经耗费大量资源来保卫我们的星球、星系和货船免受海盗侵扰。如果绿岩星在我们控制之下，其他海盗世界就不敢轻举妄动，那我们只需要集中精力对付这一个地方，而不是在整个领土上分散兵力。我认为最终这对我们来说是净收益。”`
 			`	“这还有待观察，”弗雷娅说，“但我们现在是赤字。你知道你这次鲁莽行动要花多少钱修复吗？不只是信用点，还有工时？我们舰队有大量舰船因此瘫痪。如果海军现在进攻，我们几乎毫无防备。”`
-			`	Tomek pauses for a moment, allowing JJ to step in. "We can discuss the consequences of Tomek's actions later. For now we need to focus on the situation at hand."`
+			`	托梅克停顿了片刻，让JJ插话。“我们可以晚些再讨论托梅克的行为所带来的后果。眼下我们需要专注于当前的局势。”`
 				goto report
 			
 			label greenrock
@@ -1765,7 +1765,7 @@ mission "FW Early Warning 1"
 			`	"但就在过去一周内，经过该星系的海军飞船数量开始迅速增加。我们从每隔几天看到一支舰队变成每天多支，而且那些进入的舰队常常停留更长时间，原因不明。"`
 			branch sensors
 				has "fw caught navy planting sensors"
-			`	"Whatever we're capable of, they're capable of and then some," says JJ. "I wouldn't be surprised if they know about our sensors and are trying to use them against us."`
+			`	“我们能做到的事，他们都能做到，甚至做得更多，”JJ说，“如果他们已经知道了我们的传感器，并试图利用它们来对付我们，我也不会感到意外。”`
 				goto next
 			
 			label sensors
@@ -1778,14 +1778,14 @@ mission "FW Early Warning 1"
 			branch "no casualties"
 				has "FW Pirates: Invasion Fleet: done"
 			
-			`	"We could sure use those ships that were lost attacking Greenrock," Freya snips.`
+			`	“我们现在可真需要那些在进攻绿岩星时损失的飞船，”弗雷娅尖刻地说。`
 				goto task
 
 			label "no casualties"
 			`	"为了攻击绿岩星而把我们的舰队调离阵地，可真是帮了巡逻计划的大忙，"弗雷娅尖刻地说。`
 
 			label task
-			`	Tomek ignores her. "Alright, Captain <last>, I want you to scout <waypoints>. Simply enter the systems, look at what forces the Navy has there, then leave as soon as possible. We need to know what we're up against, if the Navy truly are moving to attack from Wei. If it turns out this is a distraction, hopefully we'll have intel from the returning patrol fleets by then."`
+			`	托梅克没有理她。“好了，<last>船长，我要你去侦察<waypoints>。只需进入这些星系，看看海军在那里部署了什么兵力，然后尽快离开。如果海军真的打算从尾宿二发动进攻，我们需要知道自己要面对的是什么。如果事实证明这只是佯攻，希望到那时我们已经从返航的巡逻舰队那里得到了情报。”`
 				accept
 	
 	npc
@@ -1937,7 +1937,7 @@ mission "FW Early Warning 3"
 			`	“你们内部不受控的分子？如果正是你们叛军中不受控的分子实施了那些夺走数千名共和国公民生命的恐怖行动，那你们在这方面确实是有前科的。至少，我姑且假定那是不受控的分子干的，因为我从来没听说过可敬的让-雅克·索洛是个骗子，所以我当然相信你说的你们‘自由世界’不会做那种事。尽管我也确信你同样会告诉我，你们的‘自由世界’也绝不会奴役绿岩星的人口。”`
 			choice
 				`	“这家伙似乎对和谈没什么兴趣。我们该走了。”`
-				`	(Let JJ handle the situation.)`
+				`	（让JJ来处理这个局面。）`
 					goto handle
 			`	你低声对 JJ 说出你的担忧。“不，”他回答，“我能应付。”`
 			label handle
@@ -1947,7 +1947,7 @@ mission "FW Early Warning 3"
 			`	海因斯嗤之以鼻。“你脚下踩着的毫无疑问是共和国的领土，索洛，因此我们完全有权逮捕你。”`
 			`	“我想你的手下并不认同，”JJ 说道。所有的海军人员要么站在原地未动，要么已经退回了队列中。“记住，我自己也曾是海军的一员。那支肯定被你手下每一位光荣的士兵所铭记的海军，无论是出于亲身经历，还是从小就对它心怀敬仰。但我离开海军，正是因为有像你这样的人。抱歉让你失望了，但既然我们无法进行和谈，那我们就告辞了。我祈祷你能足够明智，看清自己的错误，然后放我们走。”JJ 站起身向外走去，留下海因斯在椅子上生闷气。`
 			`	“你的日子不多了，索洛，”海因斯喊道，但他仍坐在椅子上，没有向手下下达任何命令。`
-			`	The Navy allows you to leave unmolested as you enter your ship with JJ. "Launch your ship immediately and return to <planet>," he says. "The only thing that rivals honor among the Navy is duty, and I don't want to be around when Hines starts whipping his men into his shape."`
+			`	你和JJ进入飞船时，海军没有为难你们。“立即起飞，返回<planet>，”他说，“在海军中，唯一能与荣誉相提并论的就是职责，我可不想在海因斯开始狠狠整顿手下时还待在这附近。”`
 				launch
 	
 	on enter "Kornephoros"
@@ -2018,7 +2018,7 @@ mission "FW Early Warning 4"
 		conversation
 			`当你回来时，托梅克正忙着整备舰队。看起来大多数舰船都已准备就绪，有些甚至已经发动了引擎。“我猜和谈没成功吧，”他说。`
 			`	“也不尽然，”JJ说，“不过我们或许在另一方面赢得了小小的胜利。”`
-			`	"You'll have to tell me later," Tomek says, beginning to shout as ships around you begin to take off. "Captain <last>, get your ship ready for the air. Our sensors tell us there's a massive Navy fleet in <system>. They could jump in here any hour now. I've ordered a preemptive strike; we're going to rush into <system> and take them head on before they can reach our territory. Detain any surviving Navy personnel on <planet> and we'll send in transports to either ferry them back to the Republic if they agree to join the Oathkeepers, or to Bourne if they refuse. Now get going. We have no time to waste."`
+			`	“你得晚点再告诉我了，”托梅克说，周围的飞船开始起飞，他不得不提高嗓门喊道。“<last>船长，让你的飞船做好起飞准备。我们的传感器显示<system>有一支庞大的海军舰队。他们随时都可能跃迁到这里。我已经下令先发制人；我们将冲进<system>，在他们抵达我们的领土之前正面迎击。扣押<planet>上所有幸存的海军人员，我们会派运输船过去，如果他们同意加入守誓者，就把他们送回共和国，如果拒绝，就送往伯恩。现在出发吧。我们没时间可浪费了。”`
 				accept
 	
 	npc

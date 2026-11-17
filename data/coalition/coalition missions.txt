@@ -1472,7 +1472,7 @@ mission "Coalition: Alpha Encounter"
 		not planet "Secret Sky" "Remote Blue" "Bloptab's Furnace" "Ahr"
 	on offer
 		event "alitis freed" 1095
-		log "Minor People" "Alitis" `阿利提斯，原名阿提斯，是一位生活在联盟中的阿尔法人。数个世纪前，他从一艘外星飞船上偷来了一台跳跃驱动器，并用它进行探索，但在银河东部遭遇某种变故后，他决定放弃过去的生活。`
+		log "Minor People" "Alitis" `阿利提斯，原名阿提斯，是一位生活在联盟中的阿尔法人。数个世纪前，他从一艘外星飞船上偷来了一台跳跃引擎，并用它进行探索，但在银河东部遭遇某种变故后，他决定放弃过去的生活。`
 		conversation
 			`你在太空港的橱窗前驻足浏览时，突然捕捉到一阵急促的脚步声朝你逼近。你还没来得及转头，就被一个极其类人形的东西猛地扑倒在地。你试图起身，但袭击者把你死死按住，将你的脸压在地上，反扣你的双臂限制行动。你在挣扎中瞥见一缕长发，随后心头一紧——你看见了绿色的皮肤：一个阿尔法。`
 			`	不过你并没有被按太久。你感到阿尔法的注意力转向了你看不到的一侧，一只阿拉克猛扑过来将他撞开。阿尔法松开你的手臂试图格挡，但阿拉克还是把他从你身上撞飞了出去。在你视线范围内，两者开始扭打起来。那个阿尔法是个男人，令你惊讶的是，尽管他力气不小，但阿拉克日权会成员没花多久就制服了袭击者。她用四条腿牢牢缠住他的双臂贴紧躯干，两条腿压住他的髋部，最后一条腿撑地发力，将全身重量压下去锁住阿尔法。`
@@ -3346,11 +3346,11 @@ mission "Coalition: Struggling Author - Book Discovered"
 			``
 			choice
 				`	（寻找安娜·方文。）`
-				`	(Maybe later.)`
+				`	（以后再说。）`
 					defer
-				`	(Discard the message.)`
+				`	（删除这条消息。）`
 					decline
-			`	A quick look through your ship's data files reveals nothing. However, checking a copy of the data chip that you gave the Coalition citizens reveals Anna Fangvin to be an author from a human planet in the Rim. After a few maddening minutes of trying to find the book on the Worlds Wide Web, you decide to find her on <destination> for an interview.`
+			`	快速翻查你飞船上的数据文件，一无所获。不过，检查你交给那些联盟公民的数据芯片拷贝后，你发现安娜·方文是一位来自边缘星区某颗人类星球的作家。在万维网上徒劳地搜寻那本书好几分钟、几乎抓狂之后，你决定前往<destination>找她当面谈谈。`
 				accept
 	on complete
 		conversation
@@ -3826,8 +3826,8 @@ mission "Coalition: Struggling Author 5B"
 
 conversation "anna invites you to book signing"
 	action
-		log "People" "Anna Fangvin" `Anna was a struggling science fiction author in human space until she found success publishing her novel Beyond the Hyperdrive in the Coalition. Her book is a bestseller in the Kimek region.`
-		log "Helped somebody named Anna Fangvin get her book published in Coalition space. Apparently, it's a bestseller now. The book was Beyond the Hyperdrive, something about humans stealing jump drives from the Quarg."
+		log "People" "Anna Fangvin" `安娜曾是人类空间一位苦苦挣扎的科幻小说作家，直到她的小说《超空间引擎之外》在联盟出版并大获成功。她的书在基梅克星域十分畅销。`
+		log "帮助一位名叫安娜·方文的人在联盟空间出版了她的书。显然，这本书现在成了畅销书。书名是《超空间引擎之外》，讲的好像是人类从夸格那里偷来跃迁引擎的故事。"
 		event "beyond the hyperdrive payment" 40
 		set "beyond the hyperdrive news can show now"
 		outfit "Beyond the Hyperdrive" 1

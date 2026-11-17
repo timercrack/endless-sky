@@ -31,7 +31,7 @@ mission "remembrance day"
 			`今天，在整个人类空间，是追忆日，即五个多世纪前阿尔法战争爆发的周年纪念日。阿尔法人是基因工程改造的士兵，拥有超人的敏捷和智力，完全缺乏同情心或同理心。在战争的高峰期，数十颗行星曾被阿尔法人奴役。`
 			`	追忆日纪念的是战争的开始，而非结束，以此不断提醒人们战争并未结束：尽管阿尔法人被击败，但其中一些人逃脱并隐匿了起来，据推测，他们及其后代至今仍存在于银河系中。`
 			`	自阿尔法战争以来，基因重测序技术受到了严格控制。由于阿尔法人是实验性基因操纵的产物，而非自然进化，人们认为他们的基因不如真正的人类强健，且如果没有特殊技术，他们几乎无法生育可存活的后代。因此，战后发现的绝大多数阿尔法人飞地人口都非常少，不超过几十人。`
-			`	In these days when the Navy ensures peace throughout much of the galaxy, on many worlds the Alphas are treated as nothing more than a bogeyman story to frighten children. Because the most striking physical feature of the Alphas was their photosynthetic skin, on some worlds kids even run around wearing green face paint on Remembrance Day, trying to frighten people. But on other worlds, especially on the fringes of space where the Navy seldom patrols, the Alphas are still spoken of with fear.`
+			`	如今，海军确保了银河系大部分地区的和平，在许多世界上，阿尔法人不过是用来吓唬小孩子的怪物故事。由于阿尔法人最显著的身体特征是他们能进行光合作用的皮肤，在一些世界上，孩子们甚至会在追忆日这天把脸涂成绿色四处乱跑，试图吓唬别人。但在其他世界，尤其是海军很少巡逻的边缘地带，人们谈起阿尔法人时仍然心怀恐惧。`
 				decline
 
 

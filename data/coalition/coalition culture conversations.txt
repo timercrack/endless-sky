@@ -254,10 +254,10 @@ mission "Coalition Departing Trouble - A"
 				has "joined the heliarchs"
 			branch lunarium
 				has "joined the lunarium"
-			`	Some more minutes later, you see a select few of the Heliarch ships that passed close to you departing the planet. They pay you no mind, and much to your relief steer a safe distance from your ship this time.`
+			`	又过了几分钟，你看到先前从你身边掠过的日权会舰船中有几艘离开了这颗星球。它们没有理会你，令你大松一口气的是，这次它们与你的飞船保持了安全距离。`
 				decline
 			label heliarch
-			`	Some more minutes later, you see a select few of the Heliarch ships that passed close to you departing the planet, steering a safe distance from your ship this time. The captain of one of the ships, a Heliarch Interdictor, hails you, apologizing for the earlier distress, briefly mentioning they've gotten the situation back under control. They wish you a good day, and prepare to leave the system.`
+			`	又过了几分钟，你看到先前从你身边掠过的日权会舰船中有几艘离开了这颗星球，这次它们与你的飞船保持了安全距离。其中一艘日权会阻绝者的舰长向你发来通讯，为刚才的惊扰致歉，并简单提到局势已重新得到控制。他们祝你今天过得愉快，随后准备离开星系。`
 				decline
 			label lunarium
 			`	又过了几分钟，你看到之前从你附近飞过的几艘日权会飞船正在离开这颗行星。它们没有理会你，而且这次让你松了一口气的是，它们与你的飞船保持了安全距离。你禁不住想，它们追逐的那些飞船里是否藏着月影社的成员，或者只是更多不幸的平民。`
@@ -294,11 +294,11 @@ mission "Coalition Departing Trouble - B"
 				not "joined the lunarium"
 			label heliarch
 			`	他们似乎正在登临那些受损尚不足以击穿船壳的少数飞船。短短几分钟后，他们已夺取控制权，并指挥这些船跟随战舰离开星系。`
-			`	One of the ships hails you briefly, apparently in a cheery mood as they celebrate having captured the criminals. They wish you a good day and good luck on your duties, and cut the comms as they prepare to leave.`
+			`	其中一艘飞船短暂地呼叫了你，对方似乎心情不错，正为抓获罪犯而庆祝。他们祝你今天愉快、执勤顺利，随后便切断通讯，准备离开。`
 				decline
 			label lunarium
 			`	他们似乎正在登临那些受损尚不足以击穿船壳的少数飞船。短短几分钟后，他们已夺取控制权，并指挥这些船跟随战舰离开星系。`
-			`	As you glance at the wreckage of the civilian ships, you feel uneasy. Worse still is the thought that hits you soon after, of whether any of the Lunarium leaders you met were aboard any of the ships.`
+			`	你瞥了一眼那些民用船只的残骸，心中感到不安。更糟糕的是随即浮现在你脑海中的念头：你见过的那些月影社领袖，会不会有人就在这些飞船上。`
 				decline
 			label neither
 			`	他们似乎正在登临那些受损尚不足以击穿船壳的少数飞船。短短几分钟后，他们已夺取控制权，并指挥这些船跟随战舰离开星系。`
@@ -349,7 +349,7 @@ mission "Coalition Departing Trouble - C"
 			branch lunarium
 				has "joined the lunarium"
 			`	你还没来得及回应，对方就结束了通讯。惩击者准备登上 <ship>，与此同时更多战舰聚集到现场。数十名全副武装的日权会特工沉默地走进你的船，勤勉地检查铺位、驾驶舱、引擎室……`
-			`	Within a few minutes, they appear satisfied with turning your ship upside down, and all march back to the Punisher. They thank you for "cooperating," and the ships clear the way for you to move out.`
+			`	短短几分钟内，他们似乎已心满意足地把你的飞船翻了个底朝天，随后全体列队返回惩戒者。他们感谢你的“配合”，舰船随即让开道路，放你离开。`
 				decline
 			label lunarium
 			`	你还没来得及回应，对方就结束了通讯。惩击者准备登上 <ship>，与此同时更多战舰聚集到现场。虽然你目前并没有为月影社执行任何任务，但随着惩击者接近并连接你的船，你还是越来越担心。你尽力保持冷静，看着数十名全副武装的日权会特工沉默地走进你的船，勤勉地检查铺位、驾驶舱、引擎室……`

@@ -871,10 +871,10 @@ mission "Sheragi Archaeology: The Box 4"
 			`	“我听说你在找我，<first> <last>，”另一边的人说道。`
 			
 			choice
-				`	"Who are you? How do you know my name?"`
+				`	“你是谁？你怎么知道我的名字？”`
 					goto who
 				`	“听说过？怎么知道的？”`
-			`	"In my line of business, I have to know everything. That includes the identities of any potential clients, such as yourself. How else would you hope to find me?`
+			`	“干我这一行，必须无所不知，包括任何潜在客户的身份，比如你。不然你还指望怎么找到我？`
 				goto intro
 			
 			label who
@@ -899,16 +899,16 @@ mission "Sheragi Archaeology: The Box 4"
 			branch cash
 				"credits" >= 10000000
 			choice
-				`	"What? I don't have that much money!"`
+				`	“什么？我可没有那么多钱！”`
 					goto "no money"
-				`	"That's expensive. If it's such a trivial service, can't I have a discount?"`
+				`	“这也太贵了。既然这只是件微不足道的小事，就不能给我打个折吗？”`
 					goto haggle
 			
 			label visited
 			`你回到风暴要塞，收到新的坐标去见玛门。你要去拜访他们吗？`
 			choice
 				`	（是的。）`
-				`	(No.)`
+				`	（不。）`
 					defer
 			`	你按照新坐标前进，再次抵达海上一处随机地点，又是暴风雨天气，这似乎成了这颗星球的常态。潜艇浮出，你降落，跟随手下再次来到玛门的房间。`
 			`	“欢迎回来，”他们说。`
@@ -920,60 +920,60 @@ mission "Sheragi Archaeology: The Box 4"
 			branch haggled
 				has "haggled"
 			choice
-				`	"You should know that I don't have that much money to spare."`
+				`	“你应该知道，我可拿不出那么多闲钱。”`
 					goto "no money"
-				`	"Are you ready to give me a discount?"`
+				`	“你准备好给我打折了吗？”`
 					goto haggle
 			label haggled
 			choice
-				`	"You should know that I don't have that much money to spare."`
+				`	“你应该知道，我可拿不出那么多闲钱。”`
 					goto "no money"
-				`	"How about you tell me what I want and I don't blow up your ship and your pirate friends?"`
+				`	“不如这样：你把我想知道的告诉我，我就不炸掉你的船和你那些海盗朋友，怎么样？”`
 					goto threat
 
 			label cash
 			branch "haggled cash"
 				has "haggled"
 			choice
-				`	"I need to think about this. Give me some time."`
+				`	“我得考虑一下。给我点时间。”`
 					goto time
-				`	"That's a lot of money just for information. Can you make it cheaper?"`
+				`	“光是一条情报就要这么多钱。能便宜点吗？”`
 					goto haggle
-				`	"Here's the money."`
+				`	“钱在这儿。”`
 					goto pay
 			label "haggled cash"
 			choice
-				`	"I need to think about this. Give me some time."`
+				`	“我得考虑一下。给我点时间。”`
 					goto time
-				`	"How about you tell me what I want and I don't blow up your ship and your pirate friends?"`
+				`	“不如这样：你把我想知道的告诉我，我就不炸掉你的船和你那些海盗朋友，怎么样？”`
 					goto threat
-				`	"Here's the money."`
+				`	“钱在这儿。”`
 					goto pay
 
 			label "no money"
 			`	“我知道你没有。我可以安排其他方式支付。器官捐献、卖淫、自愿当实验品……不过得先做个估价。”`
 			`	你礼貌地拒绝了。`
-			`	"Come back to me when you have it, then, and I shall provide you with the information. We have all the time in the universe. Until you die, or someone decides to destroy the cube, that is."`
+			`	“那就等你有钱了再来找我，到时我自会把情报给你。我们有的是时间——除非你死了，或者有人决定摧毁那个立方体。”`
 				goto exit
 			
 			label time
 			`	“准备好了再来找我。宇宙里时间有的是——除非你死了，或者有人决定摧毁那个立方体。一切都取决于你。”`
 			
 			label exit
-			`	They gesture, and the men promptly and diligently escort you back out to your ship.`
+			`	他们打了个手势，那些人便迅速而尽职地护送你回到你的飞船。`
 				defer
 			
 			label haggle
 			action
 				set "haggled"
 			`	玛门看上去不太高兴。`
-			`	"What part of non-negotiable did you not understand? You're pushing your luck, Captain <last>. I didn't expect you to be such a petty money pincher."`
+			`	“‘不二价’这三个字你哪里没听懂？你这是在得寸进尺，<last>船长。我没想到你竟是这么个斤斤计较的小气鬼。”`
 				goto question
 
 			label threat
 			`	玛门只是咧嘴一笑，露出尖牙，用分叉的舌头舔了舔，与其说是被吓到，不如说是被逗乐了。`
 			`	“真的吗？你觉得你能吓到我？你这是自寻死路，人类。你要是聪明就该知道，我的力量远超过你，尤其在我自己家里。你知道我现在不会让你活着离开。那会给我开个坏先例。安全第一。”`
-			`	You look around, and the men in suits are pointing guns at you. Alien guns. Before you can react, Mammon shoots you from under the table, fatally injuring your abdomen. Your half conscious body is dragged out of the submarine, and your ship being shredded to pieces by alien weapons is the last thing you see.`
+			`	你环顾四周，那些西装革履的人正用枪指着你。外星枪械。你还没来得及反应，玛门就从桌下朝你开了枪，子弹致命地击中了你的腹部。你半昏迷的身体被拖出潜艇，而你看到的最后一幕，是你的飞船被外星武器撕成碎片。`
 				die
 			
 			label pay
@@ -985,7 +985,7 @@ mission "Sheragi Archaeology: The Box 4"
 			`	全息图进一步放大到观测者星——该星系的一颗卫星，最终停在一片广袤的森林上方。`
 			`	“你会在这颗无人卫星上找到他们。他们躲在这片森林里，神器也在他们手上。精确坐标会发到你的飞船。做好战斗准备。”`
 			`	你感谢了玛门的服务，起身离开。`
-			`	"See you, Captain <last>. Remember I always do."`
+			`	“再见，<last>船长。记住，我可是一直看得见你。”`
 				accept
 	
 	on defer

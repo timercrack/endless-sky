@@ -326,7 +326,7 @@ mission "FW Deep Memorial"
 			`			在绿岩星袭击中阵亡`
 			``
 			label end
-			`	The sound of construction persists as you return to the main spaceport.`
+			`	你返回主太空港时，施工的声音仍在持续。`
 				decline
 
 
@@ -547,10 +547,10 @@ mission "FW Wolf Pack 2A"
 			`	等你进了飞船里的私人房间，较年轻的雷克斯说：“有了冲压采集技术，我们的飞船就能深入尘带。那么，船长，你觉得共和国为什么如此执着地要守住尘带，哪怕要打血战？显然税收根本不值这个价。”`
 			choice
 				`	“也许只是不战不割地的原则问题。”`
-				`	"Maybe they want the resources that the Dirt Belt produces?"`
+				`	“也许他们想要泥壤带出产的资源？”`
 					goto resources
 				`	“也许是为了在我们领土和他们真正看重的世界——比如地球和天堂星球——之间保留缓冲？”`
-			`	"That might be part of it," says Rex, "but there is a larger reason."`
+			`	“这可能是一部分原因，”雷克斯说，“但还有一个更重要的原因。”`
 				goto map
 			label resources
 			`	“正是，”雷克斯说，“而有一种资源，对他们来说比其他所有加起来都重要。”`
@@ -558,18 +558,18 @@ mission "FW Wolf Pack 2A"
 			`	年长、留着浓密胡须的菲多把一张地图摊在桌上。你认出那是人类空间各地的食品价格图。“食物，”雷克斯说，“泥壤带是银河系的粮仓。而共和国满是人口过剩的星球，根本没法自给自足。如果我们切断食物供应，共和国就不得不与我们议和。”`
 			`	菲多说：“我们计划集中力量摧毁向共和国最富裕、人口最密集的星球运送食物的货船队。当那些星球的公民发现缺乏基本物资时，他们就会要求结束战争。”`
 			choice
-				`	"I'd be glad to join you. That does sound like a much quicker solution than our current policies that the Senate and the Council support."`
+				`	“我很乐意加入你们。这听起来确实比参议院和理事会支持的现行政策解决问题快得多。”`
 					goto join
 				`	“你们想用饥饿逼共和国屈服？这难道不会给已经太过血腥的战争增添更多残酷吗？”`
 			`	“短期内或许如此，”雷克斯说，“但想想看——通过迫使他们迅速结束战争，而不是拖延数年——能拯救多少生命、避免多少血战。”`
 			choice
 				`	“我不同意你的观点。如果我们用这种可憎的手段来建设新社会，建成的社会只会和旧社会一样腐败。”`
-				`	"Okay, you've convinced me. What do you want me to do?"`
+				`	“好吧，你说服我了。你要我做什么？”`
 					goto join
-			`	"Very well," says Rex. "Sorry for wasting your time." They leave.`
+			`	“很好，”雷克斯说，“抱歉浪费了你的时间。”他们离开了。`
 				decline
 			label join
-			`	"First, you should buy a ramscoop here, if you haven't got one already," says Rex. "Then, your first target is a convoy of three freighters that will be departing from Big Sky in the Sarin system shortly. There may be escorts, but only the freighters themselves need to be destroyed."`
+			`	“首先，如果你还没有冲压收集器，应该在这里买一个，”雷克斯说，“然后，你的第一个目标是一支由三艘货船组成的船队，它们很快就会从天市左垣一星系的阔天星出发。可能会有护卫，但只需要摧毁货船本身。”`
 				accept
 	
 	npc kill

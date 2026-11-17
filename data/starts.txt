@@ -71,12 +71,12 @@ mission "Start: Vanilla Patch"
 
 conversation "default intro"
 	action
-		log "Finally scraped together enough money to buy a pilot's license. The interest on the mortgage for my starship is exorbitant."
-		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
-			`Representation in the Republic Parliament is based on population. That means that some individual "Paradise Worlds" have more representatives than entire regions of space like the Dirt Belt that are more sparsely settled.`
-		log "Factions" "Syndicate" `The Syndicate is a megacorporation, the largest employer in human space. People who cannot find steady work elsewhere flock to the Syndicate factory worlds, where they are almost guaranteed to find a job. Although the Syndicate is technically part of the Republic, Syndicate worlds are governed directly by the corporation.`
-			`The Syndicate is a central part of the Republic's economy, but they are also well known for selling shoddy products and for doing damage to the environment on the worlds they control. Their treatment of workers is questionable, and their opposition to organized labor is legendary. Some Syndicate factory towns have even been accused of human rights abuses.`
-		log "Factions" "Pirates" `In poorer and more remote star systems, where the Navy seldom patrols, pirate attacks on merchant ships are frequent. Pirates are also known to attack large, unguarded convoys of freighters even in more populated areas. Most pirate fleets come from lawless worlds on the outskirts of human space.`
+		log "终于凑够了钱，买下了一张飞行员执照。我那艘星舰的贷款利息高得离谱。"
+		log "Factions" "Republic" `数百年前，人类空间各处的独立领地同意联合起来，组建一个以地球为首都的统一民主政府。共和国的崛起为人类历史开启了一段漫长的和平与繁荣时期。`
+			`共和国议会的席位按人口分配。这意味着某些单个的“天堂世界”拥有的议员，比泥壤带等人口更稀疏的整片星域还要多。`
+		log "Factions" "Syndicate" `辛迪加是一家巨型企业，也是人类空间中最大的雇主。在别处找不到稳定工作的人们纷纷涌向辛迪加的工厂世界，在那里他们几乎一定能找到工作。尽管辛迪加在名义上属于共和国，但辛迪加的世界由该公司直接管辖。`
+			`辛迪加是共和国经济的核心组成部分，但他们也以出售劣质产品、破坏其所控制世界的环境而臭名昭著。他们对待工人的方式颇受质疑，对有组织劳工运动的打压更是出了名的。一些辛迪加工厂城镇甚至被指控侵犯人权。`
+		log "Factions" "Pirates" `在较为贫穷偏远、海军很少巡逻的星系中，海盗袭击商船的事件屡见不鲜。即便在人口较多的地区，海盗也会袭击无人护航的大型货船船队。大多数海盗舰队来自人类空间边缘那些无法无天的世界。`
 	scene "scene/lobby"
 	`银行的建筑风格正是你曾称之为“未来派”的那种——当你梦想未来会比如今更整洁时：层层叠叠的曲线、尖顶和阳台，全部由闪亮的金属构成。每扇沉重的玻璃门旁都站着一位门卫。你穿着最好的衣服，但在他们旁边仍显得寒酸。`
 	`	贷款经纪人的办公室同样令人生畏。墙壁上满是大型电脑显示屏，股票报价和其他信息飞速滚动，几乎难以看清。你偶尔瞥见一些只在电影里见过的地方的名字：毕宿五、河鼓三、地球。`
@@ -113,12 +113,12 @@ start "deep"
 
 conversation "deep intro"
 	action
-		log "Applied for the Deep's starship captain program, and was accepted. The program included a pilot's license and low-interest loan."
-		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
-			`Representation in the Republic Parliament is based on population. That means that some individual "Paradise Worlds" have more representatives than entire regions of space like the Dirt Belt that are more sparsely settled.`
-		log "Factions" "Syndicate" `The Syndicate is a megacorporation, the largest employer in human space. People who cannot find steady work elsewhere flock to the Syndicate factory worlds, where they are almost guaranteed to find a job. Although the Syndicate is technically part of the Republic, Syndicate worlds are governed directly by the corporation.`
-			`The Syndicate is a central part of the Republic's economy, but they are also well known for selling shoddy products and for doing damage to the environment on the worlds they control. Their treatment of workers is questionable, and their opposition to organized labor is legendary. Some Syndicate factory towns have even been accused of human rights abuses.`
-		log "Factions" "Pirates" `In poorer and more remote star systems, where the Navy seldom patrols, pirate attacks on merchant ships are frequent. Pirates are also known to attack large, unguarded convoys of freighters even in more populated areas. Most pirate fleets come from lawless worlds on the outskirts of human space.`
+		log "申请了星渊的星舰船长计划，并被录取了。该计划包含一张飞行员执照和一笔低息贷款。"
+		log "Factions" "Republic" `数百年前，人类空间各处的独立领地同意联合起来，组建一个以地球为首都的统一民主政府。共和国的崛起为人类历史开启了一段漫长的和平与繁荣时期。`
+			`共和国议会的席位按人口分配。这意味着某些单个的“天堂世界”拥有的议员，比泥壤带等人口更稀疏的整片星域还要多。`
+		log "Factions" "Syndicate" `辛迪加是一家巨型企业，也是人类空间中最大的雇主。在别处找不到稳定工作的人们纷纷涌向辛迪加的工厂世界，在那里他们几乎一定能找到工作。尽管辛迪加在名义上属于共和国，但辛迪加的世界由该公司直接管辖。`
+			`辛迪加是共和国经济的核心组成部分，但他们也以出售劣质产品、破坏其所控制世界的环境而臭名昭著。他们对待工人的方式颇受质疑，对有组织劳工运动的打压更是出了名的。一些辛迪加工厂城镇甚至被指控侵犯人权。`
+		log "Factions" "Pirates" `在较为贫穷偏远、海军很少巡逻的星系中，海盗袭击商船的事件屡见不鲜。即便在人口较多的地区，海盗也会袭击无人护航的大型货船船队。大多数海盗舰队来自人类空间边缘那些无法无天的世界。`
 	scene "scene/train"
 	`从你家乡开来的列车有节奏地左右摇晃，载着你越来越接近首都。往前几排座位，一对和你年纪相仿的年轻情侣正一边踢着行李，一边热切地讨论着搬进新公寓的事。你身后，一位穿着油腻工装裤的老者正在和一位熟人告别。`
 	`	不久之后，你来到了新雷克雅未克处理星舰贷款的政府办公室。接待处一片繁忙景象，其他刚毕业的年轻人一边聊天一边等着叫号。阳光透过天花板的条形窗户洒落在门厅中央的幽海星标志三维模型上——那是一棵红色树木，树枝组成了大脑的形状。雕塑周围环绕着一圈文字，宣扬着幽海星的核心价值观：和平。繁荣。进步。`
@@ -151,12 +151,12 @@ start "paradise"
 
 conversation "paradise intro"
 	action
-		log "Got a pilot's license for my birthday, as well as 500,000 credits to purchase a starship. The galaxy is now at my fingertips."
-		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
-			`Representation in the Republic Parliament is based on population. That means that some individual "Paradise Worlds" have more representatives than entire regions of space like the Dirt Belt that are more sparsely settled.`
-		log "Factions" "Syndicate" `The Syndicate is a megacorporation, the largest employer in human space. People who cannot find steady work elsewhere flock to the Syndicate factory worlds, where they are almost guaranteed to find a job. Although the Syndicate is technically part of the Republic, Syndicate worlds are governed directly by the corporation.`
-			`The Syndicate is a central part of the Republic's economy, but they are also well known for selling shoddy products and for doing damage to the environment on the worlds they control. Their treatment of workers is questionable, and their opposition to organized labor is legendary. Some Syndicate factory towns have even been accused of human rights abuses.`
-		log "Factions" "Pirates" `In poorer and more remote star systems, where the Navy seldom patrols, pirate attacks on merchant ships are frequent. Pirates are also known to attack large, unguarded convoys of freighters even in more populated areas. Most pirate fleets come from lawless worlds on the outskirts of human space.`
+		log "生日时得到了一张飞行员执照，外加 500,000 信用点用来购买星舰。整个银河系如今触手可及。"
+		log "Factions" "Republic" `数百年前，人类空间各处的独立领地同意联合起来，组建一个以地球为首都的统一民主政府。共和国的崛起为人类历史开启了一段漫长的和平与繁荣时期。`
+			`共和国议会的席位按人口分配。这意味着某些单个的“天堂世界”拥有的议员，比泥壤带等人口更稀疏的整片星域还要多。`
+		log "Factions" "Syndicate" `辛迪加是一家巨型企业，也是人类空间中最大的雇主。在别处找不到稳定工作的人们纷纷涌向辛迪加的工厂世界，在那里他们几乎一定能找到工作。尽管辛迪加在名义上属于共和国，但辛迪加的世界由该公司直接管辖。`
+			`辛迪加是共和国经济的核心组成部分，但他们也以出售劣质产品、破坏其所控制世界的环境而臭名昭著。他们对待工人的方式颇受质疑，对有组织劳工运动的打压更是出了名的。一些辛迪加工厂城镇甚至被指控侵犯人权。`
+		log "Factions" "Pirates" `在较为贫穷偏远、海军很少巡逻的星系中，海盗袭击商船的事件屡见不鲜。即便在人口较多的地区，海盗也会袭击无人护航的大型货船船队。大多数海盗舰队来自人类空间边缘那些无法无天的世界。`
 	scene "scene/reception"
 	`“我知道你一直想当星舰船长很久了，”你父亲说。“所以作为我的生日礼物，我们去给你弄一张飞行员执照，再从船厂搞一艘船，怎么样？”你想都没想就答应了。`
 	`	你父亲带你来到太空港的共和国星舰许可管理局大楼。队伍排得很长，但你父亲径直走向其中一张办公桌。不等队伍最前面的人和桌后的人开口抱怨，他就朝每人弹了一张信用芯片——面额都不小。“我想给我的孩子办一张飞行员执照。”`
@@ -192,12 +192,12 @@ start "syndicate"
 
 conversation "syndicate intro"
 	action
-		log "Bought a pilot's license and a ship, but had to take out a crushing mortgage. One last greedy stab by the Syndicate before I'm free."
-		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
-			`Representation in the Republic Parliament is based on population. That means that some individual "Paradise Worlds" have more representatives than entire regions of space like the Dirt Belt that are more sparsely settled.`
-		log "Factions" "Syndicate" `The Syndicate is a megacorporation, the largest employer in human space. People who cannot find steady work elsewhere flock to the Syndicate factory worlds, where they are almost guaranteed to find a job. Although the Syndicate is technically part of the Republic, Syndicate worlds are governed directly by the corporation.`
-			`The Syndicate is a central part of the Republic's economy, but they are also well known for selling shoddy products and for doing damage to the environment on the worlds they control. Their treatment of workers is questionable, and their opposition to organized labor is legendary. Some Syndicate factory towns have even been accused of human rights abuses.`
-		log "Factions" "Pirates" `In poorer and more remote star systems, where the Navy seldom patrols, pirate attacks on merchant ships are frequent. Pirates are also known to attack large, unguarded convoys of freighters even in more populated areas. Most pirate fleets come from lawless worlds on the outskirts of human space.`
+		log "买下了飞行员执照和一艘飞船，却不得不背上一笔沉重的贷款。这是辛迪加在我获得自由之前最后一次贪婪的盘剥。"
+		log "Factions" "Republic" `数百年前，人类空间各处的独立领地同意联合起来，组建一个以地球为首都的统一民主政府。共和国的崛起为人类历史开启了一段漫长的和平与繁荣时期。`
+			`共和国议会的席位按人口分配。这意味着某些单个的“天堂世界”拥有的议员，比泥壤带等人口更稀疏的整片星域还要多。`
+		log "Factions" "Syndicate" `辛迪加是一家巨型企业，也是人类空间中最大的雇主。在别处找不到稳定工作的人们纷纷涌向辛迪加的工厂世界，在那里他们几乎一定能找到工作。尽管辛迪加在名义上属于共和国，但辛迪加的世界由该公司直接管辖。`
+			`辛迪加是共和国经济的核心组成部分，但他们也以出售劣质产品、破坏其所控制世界的环境而臭名昭著。他们对待工人的方式颇受质疑，对有组织劳工运动的打压更是出了名的。一些辛迪加工厂城镇甚至被指控侵犯人权。`
+		log "Factions" "Pirates" `在较为贫穷偏远、海军很少巡逻的星系中，海盗袭击商船的事件屡见不鲜。即便在人口较多的地区，海盗也会袭击无人护航的大型货船船队。大多数海盗舰队来自人类空间边缘那些无法无天的世界。`
 	scene "scene/icy opening"
 	`挖掘星与你到过的任何星球都不同：整个太空港都建在一个巨大的山洞里，一侧暴露在露天中。构成港口的横梁和建筑使得对跖星上那些可怜的建筑相形见绌，却又让人感觉与地球那种令人窒息的都市景观截然不同。`
 	`	你把最后一点信用点交给了载你来的船长。她离开前给了你一些建议。“提醒一句：如果不想早死，起飞后往北走。南边除了无人星系就是海盗。就你买得起的船，撑不了多久。”你在告别前感谢了她一路搭载和忠告。`
@@ -275,15 +275,15 @@ mission "Start: Hai Patch"
 conversation "hai intro"
 	scene "scene/hai shipyard"
 	action
-		log "Finally scraped together enough money for a down payment on a starship. The interest on the mortgage is exorbitant."
-		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
-			`Representation in the Republic Parliament is based on population. That means that some individual "Paradise Worlds" have more representatives than entire regions of space like the Dirt Belt that are more sparsely settled.`
-		log "Factions" "Syndicate" `The Syndicate is a megacorporation, the largest employer in human space. People who cannot find steady work elsewhere flock to the Syndicate factory worlds, where they are almost guaranteed to find a job. Although the Syndicate is technically part of the Republic, Syndicate worlds are governed directly by the corporation.`
-			`The Syndicate is a central part of the Republic's economy, but they are also well known for selling shoddy products and for doing damage to the environment on the worlds they control. Their treatment of workers is questionable, and their opposition to organized labor is legendary. Some Syndicate factory towns have even been accused of human rights abuses.`
-		log "Factions" "Pirates" `In poorer and more remote star systems, where the Navy seldom patrols, pirate attacks on merchant ships are frequent. Pirates are also known to attack large, unguarded convoys of freighters even in more populated areas. Most pirate fleets come from lawless worlds on the outskirts of human space.`
-		log "Factions" "Hai" `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
-		log "Factions" "Unfettered Hai" `The "Unfettered" are a faction within the Hai species who are not as peaceful as the rest, and are normally not friendly toward humans. They claim that long ago the Drak altered the Hai to make them docile and peaceful, and that the Unfettered are descendants of those Hai who avoided undergoing that alteration. They are seeking jump drives so that they can escape the "prison" they are now stuck in: a few deteriorating worlds on the far northern edge of Hai space.`
-		log "Factions" "Sheragi" `A long extinct dragon-like species called the "Sheragi" used to live in human space, back when much of what is now human territory was occupied by the Hai.`
+		log "终于凑够了一艘星舰的首付。贷款利息高得离谱。"
+		log "Factions" "Republic" `数百年前，人类空间各处的独立领地同意联合起来，组建一个以地球为首都的统一民主政府。共和国的崛起为人类历史开启了一段漫长的和平与繁荣时期。`
+			`共和国议会的席位按人口分配。这意味着某些单个的“天堂世界”拥有的议员，比泥壤带等人口更稀疏的整片星域还要多。`
+		log "Factions" "Syndicate" `辛迪加是一家巨型企业，也是人类空间中最大的雇主。在别处找不到稳定工作的人们纷纷涌向辛迪加的工厂世界，在那里他们几乎一定能找到工作。尽管辛迪加在名义上属于共和国，但辛迪加的世界由该公司直接管辖。`
+			`辛迪加是共和国经济的核心组成部分，但他们也以出售劣质产品、破坏其所控制世界的环境而臭名昭著。他们对待工人的方式颇受质疑，对有组织劳工运动的打压更是出了名的。一些辛迪加工厂城镇甚至被指控侵犯人权。`
+		log "Factions" "Pirates" `在较为贫穷偏远、海军很少巡逻的星系中，海盗袭击商船的事件屡见不鲜。即便在人口较多的地区，海盗也会袭击无人护航的大型货船船队。大多数海盗舰队来自人类空间边缘那些无法无天的世界。`
+		log "Factions" "Hai" `亥族是一种巨型智慧啮齿类物种，生活在人类空间以北。他们允许任何发现其领地的人类与他们比邻而居，与他们进行贸易并购买他们的技术。`
+		log "Factions" "Unfettered Hai" `“无羁者”是亥族中的一个派系，他们不像其他亥族那样爱好和平，通常对人类也不友好。他们声称，很久以前德拉克改造了亥族，使其变得温顺而和平，而无羁者则是那些逃过这次改造的亥族的后裔。他们正在寻求跳跃引擎，以便逃离他们如今被困的“牢笼”：位于亥族空间最北端边缘的几颗日渐衰败的世界。`
+		log "Factions" "Sheragi" `一个早已灭绝、名为“谢拉吉”的类龙物种曾经生活在人类空间，那时如今人类领土的大部分还由亥族占据。`
 	
 	`前往北极已经让人感觉像到了另一个世界；即使在渡轮的泊位里，你看到的亥族数量也比你整个家乡的还多。公共广播系统播出几句告别词后，你和同行的乘客开始下船，人流与亥族的人群交汇在一起。`
 	`	你朝船坞走去，调出贷款协议的人类语言版本查看：你借了143.1万信用点，分两年偿还。利率为0.3%，每天需还款4836信用点。`

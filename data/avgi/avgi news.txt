@@ -22,10 +22,10 @@ news "avgi siege civilian"
 		word
 			"Avgi"
 		word
-			" civilian"
-			" citizen"
-			" bystander"
-			" onlooker"
+			"平民"
+			"公民"
+			"旁观者"
+			"围观者"
 			""
 	message
 		word
@@ -54,9 +54,9 @@ news "avgi siege merchant"
 		word
 			" "
 		word
-			"smuggler"
+			"走私者"
 			"商人" 3
-			"merchant captain" 3
+			"商船船长" 3
 	message
 		word
 			`“解脱。你简直不敢相信，要突破那些异变体的封锁有多难！”`
@@ -78,9 +78,9 @@ news "avgi siege hatchling"
 		word
 			" "
 		word
-			"hatchling"
-			"youngling"
-			"youth"
+			"幼体"
+			"少年"
+			"年轻人"
 	message
 		word
 			`“惊叹。听说我们曾经能穿越星海。你觉得我们还能回去吗？”`
@@ -109,7 +109,7 @@ news "avgi merchant"
 		word
 			"船长"
 			"飞行员"
-			"skipper"
+			"船老大"
 	message
 		word
 			`“沮丧。反应堆燃料每天都在涨价。”`
@@ -136,15 +136,15 @@ news "avgi politician"
 		word
 			" "
 		word
-			"politician"
-			"bureaucrat"
-			"economist"
-			"planner"
-			"commissioner"
-			"manager"
-			"political aide"
-			"political staffer"
-			"political assistant"
+			"政治家"
+			"官僚"
+			"经济学家"
+			"规划师"
+			"专员"
+			"主管"
+			"政治助理"
+			"政治幕僚"
+			"政务助手"
 	message
 		word
 			`"恼火。议会里谁都知道税收和配额不得人心，但要打这场对抗异变体的战争，没有别的办法。"`
@@ -294,8 +294,8 @@ news "avgi student happy"
 		word
 			" "
 		word
-			"student" 3
-			"researcher"
+			"学生" 3
+			"研究员"
 	message
 		word
 			`“幸福。我马上就要拿到物理学硕士学位了！”`
@@ -328,8 +328,8 @@ news "avgi student frustrated"
 		word
 			" "
 		word
-			"student" 3
-			"researcher"
+			"学生" 3
+			"研究员"
 	message
 		word
 			`“沮丧。我想学政治学，可这里教的全是‘实用’科目。难怪议会上尽是些无能之辈……”`
@@ -361,9 +361,9 @@ news "avgi physicist"
 		word
 			" "
 		word
-			"scientist"
-			"researcher"
-			"physicist"
+			"科学家"
+			"研究员"
+			"物理学家"
 	message
 		word
 			`“感激。幸运的是，我们全部的知识都被保存了下来，即使在最遥远的深空之中。”`
@@ -409,10 +409,10 @@ news "avgi engineer"
 		word
 			"Avgi "
 		word
-			"engineer"
-			"mechanical engineer"
-			"aerospace engineer"
-			"mechanic"
+			"工程师"
+			"机械工程师"
+			"航天工程师"
+			"机械师"
 	message
 		word
 			`“着迷。你会惊讶于护盾——哪怕是较弱的护盾——能解决多少问题。它们可不只是用来抵挡武器火力的！”`
@@ -440,12 +440,12 @@ news "avgi artist"
 		word
 			" "
 		word
-			"artist"
+			"艺术家"
 			"画家"
 			"雕塑家"
-			"engraver"
-			"enameler"
-			"gilder"
+			"雕刻师"
+			"珐琅匠"
+			"镀金匠"
 			"作家"
 	message
 		word
@@ -470,9 +470,9 @@ news "avgi performer"
 		word
 			" "
 		word
-			"musician"
-			"performer"
-			"stage actor"
+			"音乐家"
+			"表演者"
+			"舞台演员"
 	message
 		word
 			`“自豪。就在前几天，我在整个议会面前表演了一段。我相信他们一定很喜欢！”`
@@ -491,10 +491,10 @@ news "avgi doctor"
 			"Avgi "
 		word
 			"医生"
-			"healer"
-			"biomedic"
-			"surgeon"
-			"medic"
+			"治疗师"
+			"生物医师"
+			"外科医生"
+			"医务员"
 	message
 		word
 			`"欣赏。阿夫吉的自然寿命原本平均约六十年，在基因工程和纳米医学的帮助下延长了一倍多。"`

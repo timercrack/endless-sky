@@ -196,64 +196,64 @@ mission "War Reactions: Syndicate Orphan"
 			`当你走出着陆区时，听到了一阵拳头砸在皮肉上的声音，还伴随着一个孩子大喊救命。拐角处有三个看起来邋里邋遢的男孩正在殴打第四个男孩，后者刚被打倒在地。看不出他们是否有停手的意思。`
 			choice
 				`	"都住手，小鬼们。"`
-				`	(Ignore them and keep walking.)`
+				`	（无视他们，继续走。）`
 					decline
 			`	三个攻击者转过身来，满脸愤怒。他们瞥了一眼你枪套里的枪，然后跑掉了。`
 			`	地上的男孩慢慢站起来。他看起来大约十二岁。他花了几秒钟才恢复过来。"谢谢。这里没多少人会像这样帮忙。我叫格斯。" 他看起来很担心，问道："你能送我去修理店吗？我已经上班迟到了，我怕他们还会攻击我。"`
 			label questions
 			choice
-				`	"Why were those boys attacking you?"`
+				`	“那些男孩为什么打你？”`
 					goto attacking
 					to display
 						not "WR: Orphan: attacking"
-				`	"Aren't you a little young to work in a repair shop?"`
+				`	“你在修理店工作，年纪是不是小了点？”`
 					goto young
-				`	"I'm in a hurry. You're on your own."`
+				`	“我赶时间。你自己想办法吧。”`
 					decline
 					to display
 						not "WR: Orphan: attacking"
-				`	"That's rough, buddy, but I'm in a hurry. You're on your own."`
+				`	“真够倒霉的，小兄弟，不过我赶时间。你自己想办法吧。”`
 					decline
 					to display
 						has "WR: Orphan: attacking"
 			label attacking
 			action
 				set "WR: Orphan: attacking"
-			`	"My brother is a private, third class, in the Syndicate's Ancillary Security Service." He grins proudly, clearly having practiced that delivery. "He monitors the Syndicate workplaces and he turned those boys in for smoking on the job last week. I guess they finally got a break for the repair shop and came after me since they can't hurt my brother."`
+			`	“我哥哥是辛迪加辅助安保局的三等列兵。”他骄傲地咧嘴一笑，显然把这句话练习过很多次。“他负责监督辛迪加的工作场所，上周他举报了那几个男孩上班抽烟。我猜他们终于等到休息时间，跑来修理店这边找我麻烦，因为他们伤不了我哥哥。”`
 				goto questions
 			label young
 			`	你迈步向前走去，他回答道。"不，我是个孤儿。" 他看出了你的困惑，解释道。"辛迪加允许我们一些孤儿在工厂工作。作为回报，他们提供更好的教育、更好的住房和医疗服务。" 他挺起胸膛。"只有我们中最聪明的才能做这个。所有给孤儿的工作也都是安全的；我们不用大型危险设备。只是普通的东西，比如锤子、烙铁或缝纫机。`
 			`	"等一下！" 他突然睁大眼睛看着你。"你是个船长，对吧？你参加过那些大战吗？我在制造者星的时候，在我们学校的大教育屏幕上看到一些帕格飞船与我们的飞船战斗。"`
 			choice
-				`	"Yes, I'm Captain <first> <last>."`
+				`	“是的，我是<first> <last>船长。”`
 					goto me
-				`	"I blew up my share of Pug ships."`
+				`	“我炸掉过不少帕格飞船。”`
 					goto blew
 				`	"实际上，我领导了那场战斗。"`
-			`	"Oh, hold on," he says, pulling out a durable-looking data pad labeled "Syndicate Childcare Device." After some typing and swiping, he declares, "You're Captain <first> <last>! Wow! It's an honor to meet you. Can I shake your hand?" He puts out his hand, and you shake it.`
+			`	“哦，等一下，”他说着掏出一台看起来很耐用的数据板，上面标着“辛迪加儿童看护设备”。一阵敲打和滑动之后，他宣布：“你是<first> <last>船长！哇！见到你真是荣幸。我能和你握个手吗？”他伸出手，你和他握了握。`
 				goto next
 			label me
-			`	"Oh, hold on," he says, pulling out a durable-looking data pad labeled "Syndicate Childcare Device." After some typing and swiping, he declares, "You led the attack! Wow! It's an honor to meet you. Can I shake your hand?" He puts out his hand, and you shake it.`
+			`	“哦，等一下，”他说着掏出一台看起来很耐用的数据板，上面标着“辛迪加儿童看护设备”。一阵敲打和滑动之后，他宣布：“是你领导了那次进攻！哇！见到你真是荣幸。我能和你握个手吗？”他伸出手，你和他握了握。`
 				goto next
 			label blew
 			`	"我敢说你一定是的！我希望我当时也在我们的战舰上，勇敢地保卫大家。炸毁帕格，拿报酬。听起来太棒了！"`
 			label next
 			`	"和那些邪恶、讨厌的帕格战斗是什么感觉？"`
 			choice
-				`	"War is hell, kid. I'm not going to glorify it for you."`
+				`	“战争就是地狱，孩子。我不会替你美化它。”`
 					goto hell
 				`	"实际上，他们并不邪恶。他们的‘战争’是一个让我们停止自相残杀的计谋。很多帕格心甘情愿地献出生命，来拯救我们免于自我毁灭。"`
-				`	"Leading a battle is like chess with guns and engines. It's the most exhilarating feeling I've ever felt."`
+				`	“指挥一场战斗就像是用枪炮和引擎下国际象棋。那是我这辈子体验过的最令人兴奋的感觉。”`
 					goto chess
-				`	"It was an honor to protect the human race from our attackers."`
+				`	“能保护人类免受侵略者的攻击，是我的荣幸。”`
 					goto honor
-			`	"Woah, you sound really smart. Like one of those sensible experts in the vids! Still, without people like you, the Pug's plan couldn't have worked. I still reckon you were the best, Captain."`
+			`	“哇，你说话听起来好聪明。就像视频里那些明事理的专家一样！不过，要是没有你这样的人，帕格的计划也不可能成功。我还是觉得你是最棒的，船长。”`
 				goto salute
 			label hell
-			`	"You went through hell for us, eh? That sounds less fun than I thought... Maybe I should stick to school and be an engineer instead of a pilot. I dunno."`
+			`	“你为了我们经历了地狱，是吧？听起来没有我想象的那么好玩……也许我应该好好上学，以后当个工程师，而不是飞行员。我也说不准。”`
 				goto salute
 			label chess
-			`	"The Syndicate is training me to maintain and they're even going to train me to pilot their combat ships when I'm older! One day, I'll fight aliens like you did."`
+			`	“辛迪加正在培训我做维修，等我长大了，他们甚至还会训练我驾驶他们的战舰！总有一天，我也会像你一样和外星人战斗。”`
 				goto salute
 			label honor
 			`	"荣誉……和服务。辛迪加会培训像我这样的男孩，但我一直在考虑加入海军。虽然不那么赚钱，但听起来更崇高。"`
@@ -261,5 +261,5 @@ mission "War Reactions: Syndicate Orphan"
 			`	你到达了修理店，一个年长些的男孩，大概十七岁，迎了上来。格斯立正站好，向你行了一个训练有素的敬礼。你礼貌地回礼。`
 			`	当格斯结束敬礼时，那个男孩从背后袭击他，锁住了他的脖子。很明显他做得非常小心。"你是不是从儿童保育区跑出来了？这次是太空港着陆区吗？我看你全身都是抓伤和瘀伤。" 格斯回答："对不起，卡尔文！我只是好奇。"`
 			`	卡尔文松开他，对你说："谢谢你救了我弟弟。他是我剩下的唯一家人，我希望，" 他拧了他一下，"他别再因为好奇而冒生命危险了。" 他温和地看着格斯。"来吧，我带你去医务室。"`
-			`	Calvin waves goodbye as he walks his brother in.`
+			`	卡尔文挥手告别，领着弟弟走了进去。`
 				decline

@@ -221,12 +221,12 @@ mission "Hai Waypoint Warning"
 				`	“我为什么必须说谎？”`
 			`	那名亥族再次笑了起来，这次显得有些紧张。“你知道吗，外面有些人确实能面不改色地把你说的那番话说出口。”`
 			choice
-				`	"Alright, I'll be on my way."`
+				`	“好吧，我这就上路了。”`
 					goto easy
 				`	“我是认真的。”`
 			`	虽然你无法通过通信器看到与你交谈的对手，但你觉得他现在一定在揉着自己的鼻梁。“几十年前，你很难找到会考虑泄露亥族存在秘密的船长。但到了今天，感觉连亥族自己都在大肆宣扬要将其公之于众，全然不顾这会带来多大的动荡。`
 			`	“但这不仅仅是为了保护亥族星域。有些势力有充足的动机和能力，去抹除任何试图在人类星域制造混乱的苗头，其中就包括任何想要曝光未知智慧种族存在的人。`
-			`	"Anyway, stay safe out there." The hail cuts off.`
+			`	“总之，在外面注意安全。”通讯随即切断。`
 				decline
 			label easy
 			`	“很高兴听到你这么说。回头见，船长。”呼叫切断了。`
@@ -1005,7 +1005,7 @@ mission "Pirate Troubles [0]"
 			`和平的太空港内突然警笛大作。你看到一些亥族和少数人类跑向他们的飞船，并迅速升空进入轨道。看来这个星系正遭受攻击，但无羁亥族从来没有到过这么靠南的地方。太空港的扬声器里开始大声广播：“一支由无羁人类组成的庞大舰队已经进入星系并开始发动袭击！请求所有具备战斗能力的飞行员协助保卫我们的领空。这里不欢迎这些破坏和谐的敌人。”`
 			branch unfettered
 				has "Unfettered: Jump Drive Source: offered"
-			`	You find the phrase "unfettered humans" odd, but guess that they may be referring to pirates. The Hai will probably be very gracious if you help, but this could also be an easy way to get yourself killed, especially if a group of pirates is bold enough to attack the Hai.`
+			`	你觉得“无羁人类”这个说法有些古怪，但猜想他们指的可能是海盗。如果你出手相助，亥族想必会非常感激，但这也可能让你轻易送命，尤其是如果一伙海盗胆敢攻击亥族的话。`
 				goto choice
 
 			label unfettered
@@ -1014,7 +1014,7 @@ mission "Pirate Troubles [0]"
 			choice
 				`	（加入防御舰队。）`
 					launch
-				`	(Stay here until the fight is over.)`
+				`	（待在这里，直到战斗结束。）`
 					decline
 	npc
 		government "Hai"
@@ -1676,7 +1676,7 @@ mission "Nanachi Meeting"
 mission "Strider Alt Start"
 	landing
 	name "无羁者新型舰船"
-	description "Ambassador Sayari has informed the council of elders about the development of the Solifuge. The council is interested in meeting with you on <destination> to hear more."
+	description "萨亚里大使已将避日蛛的研发情况告知长老议会。议会希望与你在<destination>会面，以听取更多详情。"
 	source
 		government "Hai"
 		not planet "Hai-home"
@@ -1690,7 +1690,7 @@ mission "Strider Alt Start"
 			has "Wanderers Solifuge Recon 2: done"
 			has "Wanderers Pond Strider Recon 2: done"
 	on offer
-		dialog `After you finish landing, you're approached by a Hai in formal uniform. "Greetings, Captain <last>. Ambassador Sayari has sent word to the council of elders that our Unfettered brethren have created a new ship of great strength. The council has requested your presence on <planet>; Sayari said you have been in combat with these ships, and the elders are interested in your expertise."`
+		dialog `你降落完毕后，一名身着正式制服的亥族人走上前来。“你好，<last>船长。萨亚里大使已向长老议会传信，称我们的无羁同胞建造了一艘威力强大的新飞船。议会邀请你前往<planet>；萨亚里说你曾与这些飞船交过手，长老们对你的专业经验很感兴趣。”`
 	on complete
 		conversation "solifuge conversation"
 
@@ -1699,7 +1699,7 @@ mission "Strider Alt Start"
 mission "Strider 0"
 	landing
 	name "船体修复技术"
-	description "The Hai are working on a drone carrier to counter the Unfettered Solifuge, but the creator of the ship is still developing hull repair technology to make it more effective in combat. Visit <planet> to help the Hai with this technology when you are able."
+	description "亥族正在研发一艘无人机母舰，以对抗无羁亥族的避日蛛，但这艘船的设计者仍在开发船体修复技术，以提升其作战效能。方便时请前往<planet>，协助亥族获取这项技术。"
 	destination "Hai-home"
 	clearance
 	to offer
@@ -1716,7 +1716,7 @@ mission "Strider 0"
 mission "Strider 1"
 	landing
 	name "船体修复技术"
-	description "The Hai are working on a drone carrier to counter the Unfettered Solifuge, but the creator of the ship is still developing hull repair technology to make it more effective in combat. Travel to <planet> to meet the delegation tasked with negotiating for this technology."
+	description "亥族正在研发一艘无人机母舰，以对抗无羁亥族的避日蛛，但这艘船的设计者仍在开发船体修复技术，以提升其作战效能。请前往<planet>，与负责就这项技术进行谈判的代表团会面。"
 	source "Hai-home"
 	destination "Allhome"
 	to offer
@@ -1737,7 +1737,7 @@ mission "Strider 1"
 				defer
 			
 			label "know both"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with such technology, and you have met the Coalition, who have outfits capable of repairing hulls, and the Remnant, who have ships that repair themselves. Would you like to tell the elders about one of these groups?`
+			`你回到了<origin>，帮助亥族研发船体修复技术。奥森的父亲问你是否认识拥有此类技术的外星种族，而你已遇到了拥有能修复船体的装备的联盟，以及拥有能自我修复的飞船的遗民。你愿意向长老们介绍其中一方吗？`
 			choice
 				`	（是的。）`
 					goto start
@@ -1745,7 +1745,7 @@ mission "Strider 1"
 					defer
 			
 			label "know coalition"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with such technology, and you have met the Coalition, who have outfits capable of repairing hulls. Would you like to tell the elders about the Coalition?`
+			`你回到了<origin>，帮助亥族研发船体修复技术。奥森的父亲问你是否认识拥有此类技术的外星种族，而你已遇到了拥有能修复船体的装备的联盟。你愿意向长老们介绍联盟吗？`
 			choice
 				`	（是的。）`
 					goto start
@@ -1753,7 +1753,7 @@ mission "Strider 1"
 					defer
 			
 			label "know remnant"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with such technology, and you have met the Remnant, who have ships that repair themselves. Would you like to tell the elders about the Remnant?`
+			`你回到了<origin>，帮助亥族研发船体修复技术。奥森的父亲问你是否认识拥有此类技术的外星种族，而你已遇到了拥有能自我修复的飞船的遗民。你愿意向长老们介绍遗民吗？`
 			choice
 				`	（是的。）`
 				`	（现在还不想。）`
@@ -1841,7 +1841,7 @@ mission "Strider: Remnant 1"
 			choice
 				`	“他们当时正在物色拥有修复技术的人，我说我能帮他们找到。”`
 				`	“他们问我是否认识懂飞行中修复技术的人，我说我认识一群人类研究员。”`
-			`	"So they do not actually know about us. That is good." Rayn looks thoughtful and closes their eyes for a moment, then continues. "Pick up the Hai diplomats, but do not tell them where you are going. Take them to these coordinates on Covert in the Gienah system. It is a location in an uninhabited area where we will be able to talk. We will be waiting with something that might be able to help them - if they can pay our price."`
+			`	“看来他们实际上并不知道我们的存在。这很好。”雷恩若有所思地闭上眼睛片刻，接着说道。“去接上那几位亥族外交官，但不要告诉他们你们要去哪儿。把他们带到天津九星系隐秘星上的这组坐标。那里位于无人居住的地区，我们可以在那里交谈。我们会带上可能对他们有所帮助的东西在那里等候——前提是他们付得起我们开出的价码。”`
 
 
 
@@ -1891,8 +1891,8 @@ mission "Strider: Remnant 3"
 		conversation
 			`在指定的坐标处，设有一个小型营地，隐约让人联想到沙漠商人的前哨站。除了拴在水槽旁的几头骆驼外，这里看起来空无一人。当你在营地旁着陆时，代表团小心翼翼地走了出来。“是这里吗？”一位亥族有些担忧地问道。`
 			`	在你回答之前，几名遗民从帐篷中走了出来，你注意到雷恩就在他们之中。“欢迎来到我们的营地，各位代表，”雷恩吟诵道，“<first>船长带来了你们的信件，我们请他带你们来这里。要进来坐坐吗？”他们指向最大的帐篷。雅诗丽大使虽然感到惊讶，但还是同意了，亥族代表们迈步走入。雷恩示意你跟上，其余的遗民开始在营地周围巡逻。`
-			`	Rayn offers food and water to the Hai and then takes a seat on a cushion on the ground. The Hai politely refuse the food before joining Rayn on the cushions. Ambassador Yashili begins. "We come representing the Hai people, who live far from here. Some of our brothers and sisters have turned violent toward us, and have recently created a new ship that may cause us much trouble. We have created a ship of our own in retaliation, but we are still in need of technology capable of repairing the hull of a ship while in flight so that we may have an advantage. Captain <last> has told us that you have such technology, with ship hulls that repair themselves."`
-			`	"It is true that our ships self-repair," Rayn responds. "But this is not technology that we are able to share. The property is intrinsic to the metals that we build our ships with - metals which are in low supply." Yashili looks concerned with this development; perhaps this journey was a worthless one.`
+			`	雷恩向亥族人奉上食物和水，随后在地上的一块坐垫上坐下。亥族人礼貌地谢绝了食物，然后与雷恩一同在坐垫上落座。雅什利大使率先开口。“我们代表远在他方的亥族人民而来。我们的一些兄弟姐妹对我们诉诸暴力，最近还造出了一艘可能给我们带来大麻烦的新飞船。我们也造出了自己的飞船予以反击，但仍需要能在飞行中修复船体的技术，好让我们占据优势。<last>船长告诉我们，你们拥有这样的技术，你们的船体能够自我修复。”`
+			`	“我们的飞船确实能自我修复，”雷恩答道。“但这并不是我们能够分享的技术。这种特性源自我们用来建造飞船的金属本身——而这种金属十分稀缺。”雅什利对这一情况显得忧心忡忡；或许这趟旅程是白跑了。`
 			choice
 				`	“那么，就没有什么办法能帮帮他们吗？”`
 				`	“一定还有什么我们可以做的。”`
@@ -1910,7 +1910,7 @@ mission "Strider: Remnant 3"
 			``
 			`	交谈了一个小时后，大使的助手带回了一个大容量数据盘并交给了她。遗民们也拿出了他们的数据芯片，双方正式交换了数据。在接到一个暗号后，另一名遗民拉开帐篷的一侧，一队人抬进来一段配有几个微型机器人的系统核心部件。“外面还有更多这样的设备在等着，但这个是给你们检查的样品。使用我们提供的说明，你们应该可以毫无问题地掌握这项技术。”他们在控制台上操作了几下，那些微型机器人立刻活跃起来，将一小堆零件拼装成了一艘模型飞船。`
 			`	“感谢与我们达成合作，”雅诗丽大使说道，“你们已经赢得了亥族的友谊。”她鞠了一躬，遗民们也回以流畅而优雅的礼节，随后迅速扛起科拉斯设备。随着代表团登船，他们将所有物资装上了<ship>，随后你便启程返回<planet>。`
-			`	As you take off, a final glance at your exterior cameras shows the Remnant have already almost finished packing up their encampment onto the camels. As one tent comes down, it reveals an anti-aircraft artillery cannon installed on a sled. Despite the rustic appearance they portrayed, the Remnant certainly took their security seriously. There is still no ship visible, but you suspect that a Starling or Gull is undoubtedly hiding nearby.`
+			`	当你起飞时，你最后瞥了一眼外部摄像头，发现遗民们几乎已经把营地打包完毕，装上了骆驼。随着一顶帐篷被拆下，一门安装在雪橇上的防空炮显露了出来。尽管他们表现得一副质朴的模样，遗民显然对自身的安全十分重视。四周仍看不到任何飞船，但你猜想附近必定藏着一艘椋鸟或海鸥。`
 				accept
 
 
@@ -1974,12 +1974,12 @@ mission "Strider: Coalition 2"
 			
 			label business
 			`	日权者们再次警告亥族要对夸格保持警惕，随后终于让亥族解释他们此行的目的。`
-			`	The delegation still looks a bit overwhelmed, as if still processing all the history the Heliarch just told them, but Yashili has kept her composure and begins speaking. "We come representing the Hai people, who live far from here. Some of our brothers and sisters have turned violent toward us, and have recently created a new ship that may cause us much trouble. We have created a ship of our own in retaliation, but we are still in need of technology capable of repairing the hull of a ship while in flight so that we may have an advantage. Captain <last> has told us that you possess such technology."`
+			`	代表团看起来仍有些不知所措，似乎还在消化日权会刚刚告诉他们的那一大段历史，但雅什利保持着镇定，开口说道。“我们代表远在他方的亥族人民而来。我们的一些兄弟姐妹对我们诉诸暴力，最近还造出了一艘可能给我们带来大麻烦的新飞船。我们也造出了自己的飞船予以反击，但仍需要能在飞行中修复船体的技术，好让我们占据优势。<last>船长告诉我们，你们掌握着这样的技术。”`
 			`	“要说这种技术，我们的确开发过，”一位阿拉奇特工回答。“由数十个小型修复机器人及它们的控制中心组成的，便是这类装备。”`
 			choice
-				`	"Would you be willing to give or sell one of those outfits to the Hai?"`
-				`	"Would you be willing to share how those outfits are mass-produced with the Hai?"`
-			`	"Much involved in the production of our repair modules, House Chamgar is," the same Arach says. "Contact their representatives in this ring, we will."`
+				`	“你们愿意将其中一件装备赠予或出售给亥族吗？”`
+				`	“你们愿意与亥族分享这些装备的量产方法吗？”`
+			`	“深度参与我们修复模块的生产，查姆加尔家族是，”还是那名阿拉奇人说道。“联系他们在这个环上的代表，我们会。”`
 			`	“你们想要什么回报吗？”雅什利问特工。`
 			`	“作为回报，我们一无所求。帮助你们突破夸格加诸你们的限制，这本身便是足够的回报了，”阿拉奇人回答。雅什利看起来有些困惑，但没有再追问下去。`
 			`	不久之后，代表Chamgar家族的一群阿拉奇人抵达。他们让亥族描述了其飞船，并利用这些信息为亥族飞船优化了修复模块。接着，他们准备了一份蓝图副本，将存有船体修复模块及船体行走机器人示意图的数据芯片递交给亥族。随后，几名工人将一个装有两套小型模块的箱子搬上你的飞船，供亥族作为样品。雅什利感谢了联盟的慷慨，随后登上你的飞船，准备返回 <destination>。`
@@ -2062,7 +2062,7 @@ mission "Strider 3"
 				has "Strider: Coalition 2: done"
 			
 			`	“希望遗民待你不错，”一位长老说道。`
-			`	"They were an interesting group. Very reclusive, and not willing to share much about their people, but they were more than willing to help after we provided them with a copy of our historical astronomical data."`
+			`	“他们是个有趣的群体。非常隐秘，也不太愿意透露自己族人的情况，但在我们向他们提供了一份我们的历史天文数据副本之后，他们非常乐意提供帮助。”`
 				goto next
 			
 			label coalition
@@ -2071,7 +2071,7 @@ mission "Strider 3"
 			
 			label next
 			`	雅什利随后将数据副本递给奥森。“你会用得着的，”她说。`
-			`	"And I'll certainly love it," Osen responds. "The spaceport workers have already sent the cargo en route to my shipyard. I'll begin working on integrating it into the Pond Strider immediately."`
+			`	“我当然会爱不释手，”奥森答道。“太空港的工人已经把货物运往我的船厂了。我会立刻着手将它整合进水黾。”`
 			choice
 				`	“水黾？”`
 				`	“希望你用它玩得开心。”`
@@ -2085,8 +2085,8 @@ mission "Strider 3"
 			`	“当你热爱自己的工作时，很难不乐在其中。”`
 			
 			label end
-			`	Osen is about to run off, but one of the elders stops him. "Can you give us an estimate on how long it will take to make use of this information?"`
-			`	"Oh, yes," Osen says. "It may take us a few months to get everything working. At least a single month, if we are lucky."`
+			`	奥森正要跑开，一位长老叫住了他。“你能估计一下，要多久才能把这些信息派上用场吗？”`
+			`	“哦，好的，”奥森说。“我们可能需要几个月才能让一切正常运转。如果运气好的话，最快一个月。”`
 			`	“这很好。这些飞船越早投入使用越好。”`
 			`	奥森再次准备跑开，但这次他停下了脚步，转向你。“谢谢你，船长。没有这些信息，我可能要花上几年时间才能完成这个项目。”你点头回应，奥森终于跑回了他的船厂。`
 			`	“我也想向你表达谢意，”雅什利说。“我已经有一段时间没能离开我们的星域了。去往新地方、结识新朋友总是令人兴奋。”雅什利向你鞠躬，你亦躬身回礼。`
@@ -2105,7 +2105,7 @@ mission "Strider notification"
 	on offer
 		conversation
 			scene `thumbnail/hai pond strider`
-			`Upon landing on <planet>, you receive a message from Osen. "Hello Captain <last>! I hope this message finds you well. I would like to thank you once again for your help on the Pond Strider, and would like to inform you that we have finished integrating the hull repair technology that you have provided us into the Pond Strider. We have now put the ship into mass production. You may also be interested to learn that we have developed new weaponry for the Pond Strider's drone, the Flea. I won't spoil the surprise for you, though. Check out the shipyard on Hai-home the next time you stop by and take a look at the Flea yourself."`
+			`降落在<planet>后，你收到了奥森发来的一条消息。“你好，<last>船长！希望你一切安好。我想再次感谢你在水黾一事上提供的帮助，并告诉你，我们已经将你提供的船体修复技术整合进了水黾。现在这艘船已经投入量产。你或许也会有兴趣知道，我们还为水黾的无人机‘跳蚤’开发了新的武器。不过我就不剧透了。下次你路过亥族故土时，去船厂亲自看看跳蚤吧。”`
 				decline
 
 

@@ -247,9 +247,9 @@ mission "Small Pirate gambling"
 		conversation
 			`你在灯光昏暗的太空港酒吧里喝着酒，注意到一群穿着深红皮衣的年轻人正蹲在暗角赌博。酒保警惕地盯着他们。其中一人举起酒杯朝你招手，示意你加入他们的牌局。`
 			choice
-				`	(Join their game.)`
+				`	（加入他们的游戏。）`
 					goto gamble
-				`	(Ignore them and leave quickly.)`
+				`	（无视他们，赶紧离开。）`
 					defer
 
 			label gamble
@@ -260,32 +260,32 @@ mission "Small Pirate gambling"
 			label "good luck"
 			action
 				payment 23974
-			`	Fortunately, you're able to outsmart them anyway and win the game, winding up with a sizable pile of credit chips. They don't look too happy about it, but do not bother you as you quickly leave. You thank your lucky stars: you're nearly 25,000 credits richer and still in one piece after a face-to-face encounter with pirates.`
+			`	幸运的是，你还是智胜了他们，赢下了这局，赢得了一大堆信用筹码。他们看上去不太高兴，但在你迅速离开时并没有找你麻烦。你暗自庆幸：与海盗面对面打了一回交道，你不仅毫发无损，还多赚了将近25,000信用点。`
 				accept
 
 			label "bad luck"
 			`	你开始大把输钱，已经损失超过10,000信用点了。`
 			choice
-				`	(Call them out on their cheating.)`
+				`	（揭穿他们出老千。）`
 					goto call
-				`	(Say nothing and continue playing.)`
+				`	（什么也不说，继续玩。）`
 					goto lose
 
 			label lose
 			action
 				payment -14357
-			`	You grit your teeth and lose hand after hand before the game finally ends. The pirates gloat over their "winnings" of almost 15,000 credits as you leave.`
+			`	你咬紧牙关，一手接一手地输，直到牌局终于结束。你离开时，海盗们正为他们将近15,000信用点的“赢款”沾沾自喜。`
 				decline
 
 			label call
 			`	你当面质问他们公然作弊，这时长相最凶恶的一个冲你咆哮：“我们只是在这儿玩个游戏，懂吗？识相的话就闭上你的大嘴！我们随时能让场面变得很难看。”`
 			`	暴徒们威胁地盯着你，开始伸手掏枪。`
 			choice
-				`	(Shoot first!)`
+				`	（先开枪！）`
 					goto shoot
-				`	(Grab the pot and run!)`
+				`	（抢了赌注就跑！）`
 					goto run
-				`	(Let them fleece me.)`
+				`	（任由他们宰我一把。）`
 					goto lose
 
 			label shoot
@@ -293,14 +293,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "shoot and die"
-			`	Unfortunately, they're faster than you. Your mutilated corpse hits the floor with a wet thump.`
+			`	不幸的是，他们比你快。你血肉模糊的尸体砰的一声湿漉漉地倒在地上。`
 				die
 
 			label "shoot and run"
 			action
 				payment 23974
 			`	庆幸自己从不空手下船，你的手飞快摸向大腿上的手枪。你拔出武器朝刚才威胁你的海盗开火。子弹在他胸口正中开了个洞，他瘫倒在地。震惊的同伙惊恐地摸索武器，但你打了他们一个措手不及，又迅速撂倒一人，然后决定是时候逃跑了。你在出门时顺手抓起了桌上的一些信用点！`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, the remaining two pirates hurl obscenities over the comms from their own ships, which are in hot pursuit.`
+			`	你冲向机库，匆忙起飞。你快速清点了一下战利品，发现自己多赚了将近25,000信用点！飞到大气层一半时，剩下的两个海盗正驾驶着自己的飞船紧追不舍，还在通讯频道里对你破口大骂。`
 				launch
 
 			label run
@@ -308,14 +308,14 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "grab and die"
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. Dodging gunfire, you run towards the door and get halfway there before one of the slugs finds its mark. You fall to the floor in pain, watching a pool of your own blood expand around you. You try to struggle to your feet, but the toughest-looking pirate kicks you to the ground and finishes you off with another shot.`
+			`	你抓起赌注拔腿就跑！那帮恶棍怒吼着拔出了枪。你躲避着枪林弹雨冲向门口，刚跑到一半，一颗子弹就击中了你。你痛苦地倒在地上，看着自己的血在身边蔓延开来。你挣扎着想站起来，但那个看起来最凶悍的海盗一脚把你踢倒在地，又补了一枪结果了你。`
 				die
 
 			label "grab and run"
 			action
 				payment 23974
 			`	你抓起赌注拔腿就跑！歹徒们嚎叫着拔出了枪。你呈Z字形朝门口跑去，子弹从身边飞过，在墙上打出碎片。你回头瞥了一眼，正好看到酒保用一把巨型霰弹枪把一名歹徒轰成了肉酱。剩下的三个人紧追不舍。`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, you receive a message from the port authorities warning you that while they apprehended two of the pirates, the remaining two made it to their ships and are in hot pursuit.`
+			`	你冲向机库，匆忙起飞。你快速清点了一下战利品，发现自己多赚了将近25,000信用点！飞到大气层一半时，你收到太空港当局发来的消息，警告你说虽然他们逮捕了两名海盗，但另外两人已经登上自己的飞船，正在紧追不舍。`
 				launch
 
 	to complete

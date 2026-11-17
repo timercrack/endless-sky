@@ -227,7 +227,7 @@ news "textile worker"
 		attributes "textiles"
 	name
 		word
-			"Textile worker"
+			"纺织工人"
 	message
 		word
 			`"`
@@ -276,7 +276,7 @@ news "factory worker"
 		attributes "factory"
 	name
 		word
-			"Factory worker"
+			"工厂工人"
 	message
 		word
 			`"`
@@ -306,7 +306,7 @@ news "street vendor"
 		not attributes "paradise"
 	name
 		word
-			"Street vendor"
+			"街头小贩"
 			"露天集市摊贩"
 			"小吃摊摊主"
 	message
@@ -335,9 +335,9 @@ news "grifter"
 		not attributes "paradise"
 	name
 		word
-			"Suspicious salesperson"
-			"Hooded salesperson"
-			"Shifty dealer"
+			"可疑的推销员"
+			"戴兜帽的推销员"
+			"鬼祟的贩子"
 	message
 		word
 			`"`
@@ -360,7 +360,7 @@ news "company psychologist"
 		attributes "wealthy" "urban"
 	name
 		word
-			"Company psychologist"
+			"公司心理咨询师"
 	message
 		word
 			`"`
@@ -387,8 +387,8 @@ news "genetic counselor"
 		attributes "wealthy" "urban"
 	name
 		word
-			"Genetic counselor"
-			"Personal geneticist"
+			"遗传咨询师"
+			"私人遗传学家"
 	message
 		word
 			`"`
@@ -451,7 +451,7 @@ news "unemployed youth"
 		attributes "urban" "near earth" "dirt belt" "south"
 	name
 		word
-			"Unemployed youth"
+			"失业青年"
 	message
 		word
 			`"`
@@ -484,7 +484,7 @@ news "union organizer"
 		not attributes "research" "frontier"
 	name
 		word
-			"Union organizer"
+			"工会组织者"
 	message
 		word
 			`"`
@@ -522,9 +522,9 @@ news "waste collector"
 		not attributes "paradise" "station"
 	name
 		word
-			"Waste collector"
-			"Garbage collector"
-			"Trash collector"
+			"废物收集工"
+			"垃圾收集工"
+			"垃圾清运工"
 			"Janitor"
 	message
 		word
@@ -547,7 +547,7 @@ news "dock worker"
 		attributes "dirt belt" "rim" "factory" "south" "core"
 	name
 		word
-			"Dock worker"
+			"码头工人"
 			"Stevedore"
 	message
 		word
@@ -583,7 +583,7 @@ news "housekeeper"
 	name
 		word
 			"Housekeeper"
-			"Domestic worker"
+			"家政工人"
 	message
 		word
 			`"`
@@ -632,7 +632,7 @@ news "hair stylist"
 		attributes "wealthy" "urban" "paradise"
 	name
 		word
-			"Hair stylist"
+			"发型师"
 	message
 		word
 			`"`
@@ -666,7 +666,7 @@ news "tour guide"
 		attributes "tourism"
 	name
 		word
-			"Tour guide"
+			"导游"
 	message
 		word
 			`"`
@@ -698,7 +698,7 @@ news "tour guide - warning"
 		attributes "tourism"
 	name
 		word
-			"Tour guide"
+			"导游"
 	message
 		word
 			`"`
@@ -786,8 +786,8 @@ news "loan officer"
 		attributes "wealthy"
 	name
 		word
-			"Loan officer"
-			"Mortgage broker"
+			"信贷专员"
+			"房贷经纪人"
 	message
 		word
 			`"`
@@ -835,9 +835,9 @@ news "hyperspace scientist"
 		attributes "research" "deep"
 	name
 		word
-			"Hyperspace researcher"
-			"Hyperspace scientist"
-			"Hyperspace specialist"
+			"超空间研究员"
+			"超空间科学家"
+			"超空间专家"
 	message
 		word
 			`"`
@@ -861,7 +861,7 @@ news "geological engineer"
 		attributes "mining" "volcanic"
 	name
 		word
-			"Geological engineer"
+			"地质工程师"
 	message
 		word
 			`"`
@@ -881,7 +881,7 @@ news "electrical engineer"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	name
 		word
-			"Electrical engineer"
+			"电气工程师"
 			"电力网络专家"
 	message
 		word
@@ -902,7 +902,7 @@ news "agricultural scientist"
 		attributes "farming"
 	name
 		word
-			"Agricultural scientist"
+			"农业科学家"
 	message
 		word
 			`"`
@@ -1083,13 +1083,13 @@ news "ship salesperson"
 		attributes "shipyard"
 	name
 		word
-			"Used spaceship "
+			"二手飞船"
 		word
 			"推销员"
-			"saleswoman"
-			"salesperson"
-			"seller"
-			"dealer"
+			"女推销员"
+			"销售员"
+			"卖家"
+			"经销商"
 	message
 		word
 			`"`
@@ -1118,7 +1118,7 @@ news "nuclear technician"
 		not attributes "volcanic" "frontier"
 	name
 		word
-			"Nuclear technician"
+			"核技术员"
 	message
 		word
 			`"`
@@ -1195,8 +1195,8 @@ news "public relations worker"
 			not attributes "human"
 	name
 		word
-			"PR consultant"
-			"Crisis consultant"
+			"公关顾问"
+			"危机公关顾问"
 	message
 		word
 			`"`
@@ -1217,7 +1217,7 @@ news "museum curator"
 		attributes "tourism" "near earth" "paradise" "wealthy"
 	name
 		word
-			"Museum curator"
+			"博物馆馆长"
 	message
 		word
 			`"`
@@ -1291,7 +1291,7 @@ news "technical writer"
 		attributes "north" "rim" "core" "near earth"
 	name
 		word
-			"Technical writer"
+			"技术文档撰写员"
 	message
 		word
 			`"`
@@ -1362,7 +1362,7 @@ news "insurance agent"
 		attributes "wealthy" "urban" "paradise" "near earth"
 	name
 		word
-			"Insurance agent"
+			"保险代理人"
 	message
 		word
 			`"`
@@ -1386,8 +1386,8 @@ news "excavation specialist"
 		attributes "mining"
 	name
 		word
-			"Excavation specialist"
-			"Explosives worker"
+			"挖掘专家"
+			"爆破工人"
 	message
 		word
 			`"`
@@ -1461,7 +1461,7 @@ news "financial analyst"
 		not government Pug
 	name
 		word
-			"Financial analyst"
+			"金融分析师"
 	message
 		word
 			`"`
@@ -1487,7 +1487,7 @@ news "syndicate manager"
 		attributes "urban"
 	name
 		word
-			"Syndicate manager"
+			"辛迪加经理"
 			"管理者"
 	message
 		word
@@ -1538,7 +1538,7 @@ news "work coach"
 		government "Syndicate"
 	name
 		word
-			"Corporate consultant"
+			"企业顾问"
 			"工作生活平衡导师"
 			"工作效率导师"
 	message
@@ -1629,7 +1629,7 @@ news "religious"
 	name
 		word
 			"Mystic"
-			"Religious scholar"
+			"宗教学者"
 			"Preacher"
 	message
 		word
@@ -1699,8 +1699,8 @@ news "tourist on frozen world"
 		attributes "frozen"
 	name
 		word
-			"Adventure tourist"
-			"Arctic tourist"
+			"探险游客"
+			"极地游客"
 			"Tourist"
 	message
 		word
@@ -1741,7 +1741,7 @@ news "diplomat"
 	name
 		word
 			"Diplomat"
-			"Elite negotiator"
+			"精英谈判专家"
 	message
 		word
 			`"`
@@ -1787,7 +1787,7 @@ news "republic soldier"
 		attributes "military"
 	name
 		word
-			"Republic soldier"
+			"共和国士兵"
 	message
 		word
 			`"`
@@ -1817,7 +1817,7 @@ news "republic soldier (bragging)"
 		attributes "military"
 	name
 		word
-			"Republic soldier"
+			"共和国士兵"
 	message
 		word
 			`"`
@@ -1902,7 +1902,7 @@ news "syndicate soldier"
 		attributes "military"
 	name
 		word
-			"Syndicate soldier"
+			"辛迪加士兵"
 	message
 		word
 			`"`
@@ -2082,9 +2082,9 @@ news "conspiracy theorist"
 		government "Republic" "Free Worlds" "Neutral" "Independent" "Syndicate"
 	name
 		word
-			"Conspiracy theorist"
-			"Free thinker"
-			"Truth seeker"
+			"阴谋论者"
+			"自由思想者"
+			"真相追寻者"
 	message
 		word
 			`"`
@@ -2120,7 +2120,7 @@ news "player's crew member"
 		"flagship crew" > 40
 	name
 		word
-			"Crew member"
+			"船员"
 	message
 		word
 			`"`
@@ -2139,7 +2139,7 @@ news "sticker on ship"
 	name
 		word
 			"飞船保险杠贴纸"
-			"Sticker on ship"
+			"飞船上的贴纸"
 	message
 		word
 			"我为小行星蜗牛刹车。"
@@ -2157,7 +2157,7 @@ news "label on ship"
 		government "Republic" "Free Worlds" "Neutral" "Independent" "Syndicate"
 	name
 		word
-			"Label on ship"
+			"飞船上的标签"
 			"飞船警示标签"
 	message
 		word
@@ -2178,7 +2178,7 @@ news "logo on ship hull"
 	name
 		word
 			"飞船船体标识"
-			"Print on a spaceship"
+			"飞船上的印字"
 	message
 		word
 			"贾斯汀即时——准时送达"
@@ -2196,9 +2196,9 @@ news "goods handling"
 		government "Republic" "Free Worlds" "Neutral" "Independent" "Syndicate"
 	name
 		word
-			"Cargo handling"
-			"Cargo loading"
-			"Cargo unloading"
+			"货物装卸"
+			"货物装载"
+			"货物卸载"
 	message
 		word
 			`你看见一个箱子，标签上写着“适于运输”，但底下似乎还压着另一个标签，写着“警告：易爆”。`
@@ -2442,7 +2442,7 @@ news "explorer on frozen world"
 			" "
 		word
 			"探索者"
-			"surveyor"
+			"勘测员"
 	message
 		word
 			`"`
@@ -2652,7 +2652,7 @@ news "ccor gendarme"
 	name
 		word
 			"Gendarme"
-			"Spaceport guard"
+			"太空港警卫"
 			"空间港安保警官"
 	message
 		word
@@ -2752,7 +2752,7 @@ news "careless landing"
 		planet "Jakobsen"
 	name
 		word
-			"Ship landing"
+			"飞船着陆"
 	message
 		word
 			"一艘麻雀"
@@ -2856,8 +2856,8 @@ news "betelgeuse stolen ship advisory"
 	name
 		word
 			"交互屏幕上的讯息"
-			"Audio broadcast"
-			"Televised message"
+			"音频广播"
+			"电视讯息"
 	message
 		word
 			`"你怎么知道你买的参宿四飞船`

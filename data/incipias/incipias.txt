@@ -257,18 +257,18 @@ phrase "incipias common hard defined"
 
 phrase "incipias common praise"
 	word
-		"These technologies"
-		"These ships"
-		"These death-weapons"
-		"These engines"
-		"These life-shields"
+		"这些技术"
+		"这些飞船"
+		"这些死亡-武器"
+		"这些引擎"
+		"这些生命-护盾"
 	word
 		" "
 	word
-		"of yours"
+		"归你所有的"
 		"你拥有"
 		"你所安装的"
-		"of your kind"
+		"你们种族的"
 	word
 		" "
 	word
@@ -282,14 +282,14 @@ phrase "incipias common interest"
 		"What "
 	word
 		"你见识过什么"
-		"happened to you"
+		"你经历了什么"
 		"你遭遇了什么"
-		"wonders lie"
+		"有何奇观"
 	word
 		" "
 	word
 		"在我们的星系家园之外"
-		"in the stars"
+		"在群星之间"
 		"在远离安全港湾之处"
 		"在我们的航行边界之外"
 	word
@@ -303,14 +303,14 @@ phrase "incipias common advise"
 	word
 		"看看"
 		"Look at"
-		"Pay attention to"
+		"留意"
 		"光芒"
 	word
-		" my "
+		"我的"
 	word
-		"advice"
-		"wisdom"
-		"call"
+		"忠告"
+		"智慧"
+		"呼唤"
 		"祝愿"
 	word
 		"：切勿 "
@@ -343,24 +343,24 @@ news "Hicemus official"
 phrase "incipias friendly disabled"
 	word
 		"朋友"
-		"Known-stranger"
-		"Fellow captain"
+		"相识-陌生人"
+		"船长同僚"
 	word
-		", I am "
-		", we are "
+		"，我"
+		"，我们"
 	word
-		"in a dangerous-tense situation"
-		"in trouble"
-		"in need of repair-assistance"
-		"unable to fly"
+		"正身处危险-紧迫的境况"
+		"遇到了麻烦"
+		"需要维修-援助"
+		"无法飞行"
 		"濒临毫无用处的境地"
 	word
 		"。"
 	word
 		" 能否请你 "
 	word
-		"assist me"
-		"save me"
+		"协助我"
+		"救救我"
 		"展现一次卓越的功绩成就"
 	word
 		"吗？"

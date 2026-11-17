@@ -48,7 +48,7 @@ phrase "ship bribe rejection"
 	word
 		" "
 	word
-		"here!"
+		"呢，就在这儿！"
 		"呢！"
 	word
 		"我们没闲工夫理这事！"
@@ -358,7 +358,7 @@ phrase "contraband"
 		"冲突矿物"
 		"伪造的艺术品"
 		"伪造的雕塑"
-		"伪造的星币"
+		"伪造的信用点"
 		"伪造的夸格技术"
 		"违禁药物"
 		"禁运物资"
@@ -936,7 +936,7 @@ phrase "friendly civilian"
 		"真奇怪"
 		"真离奇"
 	word
-		" how much "
+		"，"
 	word
 		"有些人"
 		"有钱人"
@@ -1861,7 +1861,7 @@ phrase "friendly civilian"
 
 phrase "friendly civilian"
 	word
-		"Sometimes I hear"
+		"我有时听人说"
 		"我听过传闻"
 		"有个常见的说法是"
 		"我听说"
@@ -2544,7 +2544,7 @@ phrase "friendly civilian"
 		"给我留言，发给"
 		"呼叫我，联系"
 	word
-		" at ${pyramid scheme company}. "
+		" ${pyramid scheme company}。"
 	word
 		"找 ${human names} ${family names} 就行。"
 		"就说你是 ${human names} ${family names} 介绍来的。"
@@ -6413,7 +6413,7 @@ phrase "hostile deep"
 	word
 		" "
 	word
-		"that"
+		"这一点："
 		"，好好看看"
 		"一个事实："
 	word

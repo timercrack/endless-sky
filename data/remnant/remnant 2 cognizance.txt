@@ -29,18 +29,18 @@ mission "Remnant: Cognizance 1"
 			`你踏入阿文丁拥挤的太空港时，一张熟悉的面孔正等着你。“<first>船长！”普卢姆打着手语说。“我一直盼着你路过呢。”他示意你坐到旁边的长椅上。`
 			`	“现在大部分茧已归还，我希望你返回纳斯克戎和斯莱兰德罗，观察虚空精灵的行为。我希望能更深入地了解它们的生命周期。”`
 			choice
-				`	"Sure, I could do that."`
+				`	“当然，我可以去。”`
 					goto rc1accept
-				`	"Not right now, but I could later."`
+				`	“现在不行，不过晚些时候可以。”`
 					defer
 				`	“报酬多少？”`
 			`	“研究发表后，你会收到一百万信用点。”`
 			choice
 				`	“我接受。”`
-				`	"Not right now, but I could later."`
+				`	“现在不行，不过晚些时候可以。”`
 					defer
 			label rc1accept
-			`	"Excellent. As before, please visit both Nasqueron and Slylandro, record the void sprites there, and return here."`
+			`	“很好。和上次一样，请前往纳斯克戎和斯莱兰德罗，记录那里的虚空精灵，然后返回这里。”`
 				accept
 	npc
 		government "Drak"
@@ -86,19 +86,19 @@ mission "Remnant: Cognizance 2"
 			`你抵达太空港，发现普卢姆正沿着走道急促地踱步。他匆匆打了个招呼，便直接切入正题。"我们从未见过虚空精灵身上自然出现这样的痕迹，但这与科拉斯舰船留下的武器灼痕吻合。因此，我们认为科拉斯已经开始猎杀虚空精灵。"`
 			`	他带着惊人的活力看着你。"我不会让那些爬虫类的战争狂毁掉我们的工作。摧毁负责的科拉斯猎人，然后我们才能继续研究。"`
 			choice
-				`	"Okay, I will destroy the Korath hunters' ship."`
+				`	“好的，我会摧毁那些科拉斯猎手的飞船。”`
 					goto acceptance
 				`	"你有权下这种命令吗？"`
 			`	他简短地点点头。"我没有权调动舰队，也无权命令船长摧毁飞船，但我可以宣布这艘科拉斯船威胁到了遗民的利益。如何应对这一威胁的认定，由你决定。"`
 			choice
-				`	(Accept his explanation.)`
+				`	（接受他的解释。）`
 					goto acceptance
 				`	"你能解释一下吗？"`
 			`	"尽管遗民拥有一个无所不包的层级体系，确保人人都向某人负责，但我们认为应当保持社会各个层面的融合，以防止分化为‘民事’或‘军事’分支。这种融合的两个方面是：何时动用武力，以及动用多大武力才算值得。根据我作为研究员的职位，我有权将某物指定为对我项目或整个遗民的威胁。我甚至可以下令让人采取行动。然而，鉴于我在军事能力方面地位较低，我无法决定军事响应的规模，并且可能被军事资格更高的人否决。"`
 			`	"在我们目前的情况下，我的异星生物学资质比你高，因此我可以向你以及大多数其他异星生物学家下达指令：保护虚空精灵是优先事项。然而，你在战斗和军事事务上比我更有经验。因此，这件事相对于其他军事任务的重要性由你决定。同样，需要动用多少武力、采用什么战术或其他军事考量，也由你决定。"`
 			`	"这正是执政官与众不同之处：他们是遗民中在自己的领域表现出色、在众多领域拥有可靠判断力、并且擅长平衡遗民资源多重需求的人。谦逊也是一项要求，因为他们必须始终认识到，尽管他们的特定技能组合可能独一无二，但在任何单一事项上总有别人比自己更强。因此，执政官是裁定我们各项任务优先级的裁决者，也是维护遗民统一的领袖。"`
 			choice
-				`	"Thanks for the explanation!"`
+				`	“谢谢你的解释！”`
 					goto acceptance
 				`	"我以为执政官都是专家。"`
 			`	"嗯，既是也不是。大多数执政官会被分配特定的任务，他们需要全身心投入。通常，这些任务与其专业领域相关，但并非总是如此。一般来说，执政官被视为其负责任务的最终权威，但他们也需要考虑其他执政官以及相关领域专家的建议。`
@@ -107,7 +107,7 @@ mission "Remnant: Cognizance 2"
 				`	"谢谢！这比我预想的要详细得多。"`
 				`	"好的，暂时满足了我的好奇心。"`
 			label acceptance
-			`	"Excellent. You deal with the Korath, and I will file a report about this threat. Please inform me immediately once you have taken care of it." He pauses, then continues, "Oh, and remember to record the battle. It may be useful in understanding what they are doing there."`
+			`	“很好。你去对付科拉斯人，我来就这一威胁提交报告。处理完毕后请立即通知我。”他顿了顿，接着说：“哦，还有，记得把战斗过程记录下来。这或许有助于弄清他们在那里做什么。”`
 				accept
 	on enter Nenia
 		dialog
@@ -157,7 +157,7 @@ mission "Remnant: Cognizance 4"
 			branch chilia
 				has "remnant chilia"
 			`当你的<ship>刚刚在指定停机坪上停稳时，控制面板就开始闪烁，显示有人请求登船。瞥一眼屏幕，只见一位体格健壮、带着军人气质的年轻人正站在你的气闸舱门前。你迅速向星港控制中心确认，得知负责遗民军事活动的长官确实正在等待登船。你按下解锁按钮，看着奇利亚长官大步走进船舱。`
-			`	"Greetings, Captain <first>," he signs. "I am Prefect Chilia. I have the nominal responsibility for the overall defense of Remnant space and military operations." He smiles deprecatingly. "I say 'nominal' as virtually all our activities are military in some way, but usually fall under the purview of those who better understand them."`
+			`	“你好，<first>船长，”他用手语说道，“我是执政官奇利亚。名义上，我负责整个遗民空间的防务和军事行动。”他自嘲地笑了笑。“我之所以说‘名义上’，是因为我们几乎所有的活动在某种程度上都与军事有关，只不过通常归更了解它们的人管辖。”`
 				goto main
 			label chilia
 			`当你的<ship>刚刚在指定停机坪上停稳时，控制面板就开始闪烁，显示有人请求登船。快速瞥一眼屏幕，只见奇利亚长官正站在你的气闸舱门前。你立刻按下解锁按钮，看着他大步走进船舱。`
@@ -165,12 +165,12 @@ mission "Remnant: Cognizance 4"
 			label main
 			branch "void rifle"
 				has "Remnant: Face to Maw 2B: done"
-			`	His gestures take on an abrupt cadence without many of the normal connecting movements that you are accustomed to. "Now, for the task at hand: it seems the Korath have discovered the void sprites and shot at enough of them that almost all have retreated into the depths of Nasqueron and Slylandro. There are military implications of the Korath harvesting void sprites, and we must take steps to prevent this from happening.`
+			`	他的手势带着一种生硬的节奏，少了许多你习惯看到的衔接动作。“现在，说说眼下的任务：科拉斯人似乎发现了虚空精灵，并向它们开火，打得几乎所有虚空精灵都退入了纳斯克戎和斯莱兰德罗的深处。科拉斯人捕获虚空精灵会带来军事上的隐患，我们必须采取措施加以阻止。`
 				goto next
 			label "void rifle"
 			`	他的手势节奏突然变得急促，缺少了许多你习惯的常规连接动作。“好了，说正事：看来科拉斯人发现了虚空精灵，并且向它们射击了不少次，以至于几乎所有虚空精灵都退入了纳斯克戎和斯莱兰德罗的深处。你很清楚科拉斯人捕猎虚空精灵的潜在军事影响，也一定明白阻止这件事的重要性。”`
 			label next
-			`	"It is imperative that all the Korath involved in this exploration be located immediately. According to our surveillance, that ship was part of a fleet that recently passed through Parca. Locate the fleet and report back."`
+			`	“当务之急是立即找到参与这次探索的所有科拉斯人。根据我们的监视，那艘船隶属于一支最近途经帕尔卡的舰队。找到那支舰队并回来报告。”`
 				accept
 	npc kill
 		to despawn
@@ -233,7 +233,7 @@ mission "Remnant: Cognizance 5"
 			`你到达太空港时，发现奇利亚长官正在向一群遗民做简报。你走近时他招手让你上前，并向大家介绍你。“各位，这位是<last>船长，他已经两次定位到了科拉斯猎手，最近还摧毁了他们部分舰队。本次任务将由船长牵头追踪剩余目标。”当你穿过房间走向他时，你仔细打量了一下这群人。一个引人注目的细节是，这群遗民每个人都戴着一条厚皮革项圈，向上延伸到发际线。皮革有鳞片质感，而且似乎在微弱地脉动。遗憾的是，你没有时间提问，因为奇利亚仍在不停发布指令。`
 			label next
 			`	他转向你。“这些是听你指挥的船长。他们驾驶两艘信天翁级、两艘满员编制的朱鹭级，以及六艘椋鸟级。其中一艘信天翁级改装成了护盾船；让它承受主要攻击。”他顿了顿，环顾四周。“这支特遣队对付预定目标绰绰有余，但我们不能掉以轻心：确保杀死每一个科拉斯人。打捞是次要任务：首要优先是保证没有漏网之鱼。”`
-			`	He steps back and looks at the group. "May the Embers burn bright for you." With that, he gives the group a respectful nod and walks away. The captains all look around and make various signs you think are probably encouraging combat pilot slang and variations on Prefect Chilia's parting words. As they disperse to their ships, one gestures to you. "Lead on, Captain."`
+			`	他退后一步，看着众人。“愿余烬为你们长明。”说完，他向众人恭敬地点了点头，然后走开了。船长们互相张望，打出各种手势，你猜那大概是战斗机飞行员之间互相打气的俚语，以及奇利亚执政官临别赠言的各种变体。众人散去、返回各自的飞船时，其中一人向你示意：“船长，带路吧。”`
 				accept
 	npc kill
 		government "Korath"
@@ -625,17 +625,17 @@ mission "Remnant: Cognizance 18"
 				`	“我们该怎么把它们引进去？”`
 				`	“我们确定这是个好主意吗？”`
 					goto "good idea"
-				`	"Okay, let's go do this."`
+				`	“好，我们去把这事办了。”`
 					goto "lets go"
 			`	普卢姆显得有些尴尬。“几个世纪前我们初次研究虚空精魂时，学会了如何采集它们。在这个过程中，我们发现它们对某些类型的辐射特别感兴趣。同样地，如果它们发现某种在小行星中常见的元素，就会几乎无视一切地去啃食。所以，我们在货舱里安装了辐射发射器，还放了些小行星，好让它们短时间内有事可忙。”`
 			choice
 				`	“我们确定这是个好主意吗？”`
-				`	"Okay, let's go."`
+				`	“好，我们走吧。”`
 					goto "lets go"
 			label "good idea"
 			`	奇利亚用坚决的手语比划道。“这是个好主意吗？也许是，也许不是。但它是我们目前最好的方案吗？是的。”他叹了口气。“我完全预料到执政官会插手：它们的记性很好。据我们所知，它们能识别出是谁在带领舰队，所以你要做好它们会跟你通话的准备。当然，前提是它们没有直接开火。”`
 			label "lets go"
-			`	Chilia continues. "You don't need to actually land anywhere in Nenia this time, Captain. Just make sure the Pelicans get there, load up, and return safely." The two stand up and get ready to leave. "May the Embers burn bright for you, Captain." With that, they disembark and quickly clear the blast area around the landing pad. Around you a large group of Pelicans are warming up, each one synchronizing to your IFF and confirming their status.`
+			`	奇利亚接着说：“这次你不需要真的在涅尼亚的任何地方降落，船长。只要确保鹈鹕们抵达那里、装好货，然后安全返回就行。”两人站起身准备离开。“愿余烬为你长明，船长。”说完，他们下了船，迅速撤离着陆坪周围的冲击危险区。你周围有一大群鹈鹕正在预热，每一艘都在与你的敌我识别系统同步并确认状态。`
 				accept
 	npc accompany save
 		government "Remnant"
@@ -1041,17 +1041,17 @@ mission "Remnant: Cognizance 23"
 			`你正好走下<ship>，目睹三艘小飞船从泰莉工作的机库滑行出来。它们是些奇怪的小飞船，只比燕鸥和海燕略大一点。然而最引人注目的是，这三艘飞船似乎在自主行走，在灵活的起落架上向前移动。`
 			`	泰莉跟着它们出来，当它们到达停机坪时，她吹了声口哨，三艘飞船转身围拢在她身边。即使从你站的位置也能看到她的笑容。你看着她抬手轻拍每艘飞船的机鼻。这三艘飞船移动时闪烁着彩虹般的涟漪，船壳像某种有机生物一样弯曲扭动。`
 			choice
-				`	(Walk over to where she is standing.)`
+				`	（走到她站的地方。）`
 					goto "walk over"
 				`	（等她注意到我。）`
-			`	After several minutes of watching Taely commune with the trio of ships, she turns toward you and waves you over. "Enjoying the view?" she signs as you approach, but she continues without waiting for a response. "They are nice ships, and a major step forward in our ship development. Well worth watching." She nods to herself as she runs a hand along a fin, as if checking something.`
+			`	你看着泰莉与这三艘飞船默默“交流”了几分钟后，她转向你，挥手示意你过去。“在欣赏风景吗？”你走近时她用手语问道，但没等你回答就继续说了下去。“它们是很漂亮的船，也是我们舰船研发上的一大进步。很值得一看。”她一边自顾自地点头，一边用手抚过一片尾翼，好像在检查什么。`
 				goto "merganser intro"
 			label "walk over"
 			`	你走近时，泰莉向你挥手。“急着想见我们舰队的最新成员吗？”她再次拍拍最近那艘飞船的机鼻。“它们绝对是遗民巡逻队美丽的新成员。”她对自己笑了笑，用手指划过一片鳍翼，像是在检查什么。`
 			label "merganser intro"
 			branch penguin
 				has "event: remnant: penguin"
-			`	"Captain <first>," she signs, "Please meet our first three Mergansers. I have been working on them for years now, and recent breakthroughs in our materials science have enabled significant progress in our ship designs." She pauses and gestures to one. "Would you like to touch them?"`
+			`	“<first>船长，”她用手语说道，“来认识一下我们的头三艘秋沙鸭。我已经为它们忙了好些年，而我们材料科学最近的突破让我们的舰船设计取得了重大进展。”她顿了顿，指了指其中一艘。“你想摸摸它们吗？”`
 				goto touch
 			label penguin
 			`	“<first>船长，”她比划着，“请见见我们的首批三艘秋沙鸭。我已经研究它们好几年了。事实上，你帮我完成的那架企鹅就是早期的原型机，用来测试其中一些技术。结合那个和最近材料科学的其他突破，我们的飞船设计才得以取得重大进展。”她停顿一下，指向其中一艘。“你想摸摸它们吗？”`
@@ -1062,7 +1062,7 @@ mission "Remnant: Cognizance 23"
 				`	“是的。”`
 			`	泰莉笑了。“先伸出手，让它感知你。等它碰了你的手，你就可以安全地摸它了。”你学着她的样子，不一会儿，最近的秋沙鸭轻轻蹭了蹭你的手。你跟着泰莉的引导用手抚摸它，发现——尽管外表黏滑——这艘飞船的皮肤干燥光滑。表面显然是金属的，但你能感觉到随着飞船移动，它在你手下伸展扭转。你能感觉到脉冲般的振动，与你习惯的<ship>上的振动不完全相同，但有微妙的波动。`
 			choice
-				`	"So what do these ships do?"`
+				`	“那么，这些船是做什么用的？”`
 					goto "turn down"
 				`	“现在的科学真了不起。”`
 				`	“它们很漂亮。”`
@@ -1116,7 +1116,7 @@ mission "Remnant: Cognizance 23"
 			`	不久后，技术人员和飞行员们开始交换故事，而秋沙鸭们则在人群上方投下高大的身影。有时它们会轻轻戳戳各种工程师或技术人员，技术人员则频繁地从通讯器上分享信息。显然，他们把这些通讯器和秋沙鸭连接了起来，所以飞船也在分享它们自己的巡逻经历。经过几个小时的庆祝后，泰莉宣布大家都该睡觉了，因为明天又是新的一天。大家互相道别时，你注意到道别的对象也包括了飞船——大多数人在离开时会拍打或抚摸一艘或多艘飞船。`
 			branch busy
 				has "remnant: dusk busy"
-			`	"Stop by the cafeteria tomorrow morning, <first>. Dusk and I will have more you can help with, if you are interested." With that, she gestures farewell and heads off at a brisk pace.`
+			`	“明天早上到食堂来一趟，<first>。如果你有兴趣，达斯克和我还有更多事需要你帮忙。”说完，她用手势道别，快步离开了。`
 				decline
 			label busy
 			`	“等你和暮色手头的工作结束后，顺道来食堂一趟；如果你有兴趣的话，我们还有更多事情需要你帮忙。”说完，她做了个告别的手势，快步离开了。`
@@ -1508,7 +1508,7 @@ mission "Remnant: Cognizance 33"
 		event "remnant: remove hidden"
 		conversation
 			`你受到的接待正如<origin>的名声所预示的那样友好：没人来迎接你，也没人来帮忙装载货物。迎接你的只有板条箱堆旁一个孤零零的安全终端，以及一张要求船只装完货就立刻离港的告示。你用奇利亚发来的代码解锁了板条箱，装载好<ship>，准备前往<planet>。`
-			`	As you are completing your checks, your sensors alert you to the arrival of a small fleet that seems to be maintaining orbit over this area. It looks like you might have to take steps to avoid observers right away.`
+			`	就在你完成检查时，传感器提示有一支小型舰队抵达，似乎正在这片区域上空维持轨道。看来你得马上采取措施避开这些观察者了。`
 				accept
 	on enter "Kornephoros"
 		dialog `你的通信器传来一阵噼啪作响的广播：“我不知道你是谁，但这里有个悬赏，针对那些无隶属关系却大量采购武器级材料的人——我正打算拿了这笔赏金！”`

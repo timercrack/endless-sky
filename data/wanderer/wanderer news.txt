@@ -75,8 +75,8 @@ news "Wanderers and Aliens"
 	name
 		word
 			"流浪者商船船长"
-			"Wanderer captain"
-			"Wanderer civilian"
+			"流浪者船长"
+			"流浪者平民"
 			"Wanderer"
 	message
 		word
@@ -103,7 +103,7 @@ news "Wanderer Linguistics 2"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer linguist"
+			"流浪者语言学家"
 			"Linguist"
 	message
 		word
@@ -124,9 +124,9 @@ news "Wanderer civilians, dialog"
 	name
 		word
 			"Wanderer"
-			"Wanderer worker"
-			"Wanderer traveler"
-			"Wanderer youth"
+			"流浪者工人"
+			"流浪者旅行者"
+			"流浪者青年"
 	message
 		word
 			`"`
@@ -149,9 +149,9 @@ news "Wanderer scientists"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer scientist"
+			"流浪者科学家"
 			"Scientist"
-			"Wanderer ecologist"
+			"流浪者生态学家"
 			"Ecologist"
 	message
 		word
@@ -173,7 +173,7 @@ news "Wanderer oil safety"
 		attributes "oil"
 	name
 		word
-			"Safety inspector"
+			"安全检查员"
 			"流浪者安全巡检员"
 	message
 		word
@@ -192,7 +192,7 @@ news "Wanderer oil drilling"
 		attributes "oil"
 	name
 		word
-			"Oil rigger"
+			"石油钻工"
 			"流浪者钻井工"
 	message
 		word
@@ -211,7 +211,7 @@ news "wanderer farmer"
 		attributes "farming"
 	name
 		word
-			"Wanderer farmer"
+			"流浪者农民"
 			"Farmer"
 	message
 		word
@@ -231,9 +231,9 @@ news "Wanderer soldier"
 		government "Wanderer"
 	name
 		word
-			"Wanderer soldier"
+			"流浪者士兵"
 			"Soldier"
-			"Wanderer conscript"
+			"流浪者应征兵"
 			"Conscript"
 	message
 		word
@@ -257,7 +257,7 @@ news "Wanderer engineer"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer engineer"
+			"流浪者工程师"
 			"Engineer"
 	message
 		word
@@ -279,11 +279,11 @@ news "Wanderers and the Eye"
 	name
 		word
 			"Wanderer"
-			"Wanderer civilian"
+			"流浪者平民"
 			"Civilian"
 			"Pilot"
-			"Wanderer pilot"
-			"Wanderer scientist"
+			"流浪者飞行员"
+			"流浪者科学家"
 			"Scientist"
 	message
 		word
@@ -309,9 +309,9 @@ news "Wanderers and Korath"
 	name
 		word
 			"流浪者商船船长"
-			"Wanderer captain"
+			"流浪者船长"
 			"Wanderer"
-			"Wanderer civilian"
+			"流浪者平民"
 	message
 		word
 			`"`
@@ -334,7 +334,7 @@ news "Wanderer Linguistics"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer linguist"
+			"流浪者语言学家"
 			"Linguist"
 	message
 		word

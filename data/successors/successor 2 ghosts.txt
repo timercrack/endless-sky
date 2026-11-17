@@ -13,7 +13,7 @@
 
 phrase "successor ghosts story failed"
 	word
-		"You have failed a crucial mission of the Successors' story line. If you wish to continue it, revert to an earlier save."
+		"你未能完成继承者故事线中的一个关键任务。如果你想继续，请读取较早的存档。"
 
 mission "Successors: Ghosts Prelude Timer"
 	landing
@@ -34,19 +34,19 @@ mission "Successors: Ghosts Prelude Wedding"
 		has "event: successors: ghosts initial timer"
 		random < 50
 	on offer
-		log "Learned of an upcoming wedding between some of the scions of Houses Chydiyi and Myurej."
+		log "得知奇迪伊家族与缪雷吉家族的子嗣之间即将举行一场婚礼。"
 		conversation
-			`	The crowds of Successors in this spaceport are unusually active today, many animatedly chatting to each other while others sit splayed around displays, watching a news broadcast. It's not long after you step off your ship that one particularly excited-looking Successor approaches you, their skin aburst with splashes of pink and green. "Hast thou heard the recent news, Captain?"`
+			`	今天这座太空港里的继承者人群异常活跃，许多人兴致勃勃地互相交谈，另一些人则摊开身体围坐在显示屏旁，观看一则新闻广播。你刚走下飞船不久，一名看上去格外兴奋的继承者便向你走来，皮肤上迸发出一片片粉色和绿色。“汝听说最近的新闻了吗，船长？”`
 			choice
-				`	"No."`
-				`	"I try to avoid it when I can."`
+				`	“没有。”`
+				`	“能不看我就尽量不看。”`
 			branch incident
 				has "successors: ghosts incident"
-			`	The Successor wriggles. "A scion of Chydiyi plans to marry one of Myurej! T'was announced t'day, early in the morn! Chydiyi and Myurej have been close for so long, and this shall only make the two closer..." As they trail off, they see someone in the crowd and hastily say goodbye to you before slithering away. As you go about your business, you are interrupted a few more times to see if you've "heard the news." While many Successors appear excited about this, some take on a more suspicious tone. A shift in power like this would surely not be good for everyone.`
+			`	那名继承者扭动着身体。“奇迪伊的一位子嗣要与缪雷吉的一位结婚！是今天一大早宣布的！奇迪伊和缪雷吉亲近已久，这桩婚事只会让两家更加亲密……”话音渐弱时，他们在人群中看到了某人，匆匆向你道别后便滑走了。你处理事务时，又被打断了好几次，有人问你是否“听说了那条新闻”。虽然许多继承者似乎对此颇为兴奋，但也有一些人语气中带着怀疑。这样的权力变动，必然不是对所有人都有好处。`
 				decline
 
 			label incident
-			`	The Successor wriggles, a little uncomfortably. "A scion of Chydiyi announced their plan to marry one of Myurej's. T'was announced today, along with a message of their sympathy for Kaatrij. A little convenient, methinks. Chydiyi and Myurej t'were already each other's darlings, and now they'll be closer still..." As they trail off, they spot someone in the crowd and excuse themselves before slithering away. As you go about your business, you are interrupted a few more times to see if you've "heard the news." While quite a few of the Successors here are relatively excited about the upcoming noble wedding, many take on a more suspicious tone. A shift in power like this would put the already-wounded New Houses at a further disadvantage against their soon-to-be more closely connected rivals.`
+			`	那名继承者扭动着身体，似乎有些不自在。“奇迪伊的一位子嗣宣布了与缪雷吉一位子嗣结婚的计划。是今天宣布的，同时还表达了他们对卡特里吉的同情。吾看，未免有点太巧了。奇迪伊和缪雷吉本就彼此亲厚，如今只会更加亲密……”话音渐弱时，他们在人群中发现了某人，告辞后便滑走了。你处理事务时，又被打断了好几次，有人问你是否“听说了那条新闻”。虽然这里有不少继承者对即将到来的贵族婚礼颇为兴奋，但许多人语气中带着更多怀疑。这样的权力变动，将使本已受创的新派家族在面对即将结成更紧密联系的对手时更加不利。`
 				decline
 
 mission "Successors: Ghosts Prelude Incident"
@@ -61,18 +61,18 @@ mission "Successors: Ghosts Prelude Incident"
 	on offer
 		event "successors: ghosts incident"
 		event "successors: ghosts stage 1" 5
-		log "Learned of an incident on a moon controlled by House Kaatrij that revealed portions of a hidden base."
+		log "得知卡特里吉家族控制的一颗卫星上发生了一起事故，暴露出一座隐秘基地的部分区域。"
 		conversation
-			`The usual orderly structure of the spaceport's activity lies in pieces. Throngs of merchants, travelers, and military officers alike crowd around displays in the port, their shops and vessels left behind. It is uncomfortably quiet - the only voice you hear above a whisper is that of a news announcer, writhing in your ears as the translation device rearranges the sound, word by word.`
-			`	"... incident has laid bare aught what noble House Kaatrij hath labor'd t'leave concealed. The moon, long thought lifeless, barren, raw, now show'th the spilt guts of some long-conceal'd base. View, fellows! See it seethe beneath the light!"`
-			`	The display changes to show an overhead view of a sandy moon. Tucked in a valley between rust-colored dunes is a bloom of distorted metal and intermittent light, the shape of a long arc stretching for maybe a kilometer across the surface. Near the ends, the image shimmers and warps before the whole thing is obscured by a Kaatrij warship flying into view - it's not clear whether the distortion is actually present or just a fault of the transmission.`
+			`太空港平日井然有序的运作已然支离破碎。商人、旅客和军官成群地挤在港内的显示屏周围，丢下了各自的店铺和船只。四周安静得令人不安——你唯一能听到的高过耳语的声音，是一名新闻播音员的声音，随着翻译装置逐词重组语音，在你耳中扭动着。`
+			`	“……此事件已将尊贵的卡特里吉家族苦心隐藏之物暴露无遗。那颗卫星，长久以来被认为毫无生机、荒芜、原始，如今却显露出某座隐藏已久的基地那溢出的内脏。看哪，同胞们！看它在光芒下翻腾！”`
+			`	显示屏切换为一颗沙质卫星的俯瞰画面。在锈色沙丘之间的一条山谷中，绽开着一片扭曲的金属与时隐时现的光芒，形状呈一道长弧，横跨地表约一公里。在弧线两端附近，图像闪烁扭曲，随后一艘卡特里吉战舰飞入画面，遮住了整个景象——无法确定那种扭曲是真实存在，还是仅仅是传输故障。`
 			branch "seen this before"
 				has "event: war begins"
 			label continue
-			`	Whatever the cause, it's clear that House Kaatrij has been caught out.`
+			`	不管原因是什么，很明显，卡特里吉家族的把柄已经被人抓住了。`
 				decline
 			label "seen this before"
-			`	The similarities to the immediate aftermath of the bombing of Geminus and Martini are striking. Though it's unclear what - or who - caused this incident, this could easily incite even greater conflict between the Houses.`
+			`	这与杰米努斯和马提尼爆炸案刚发生后的情形惊人地相似。虽然尚不清楚是什么——或是谁——导致了这起事件，但它很可能在诸家族之间引发更大的冲突。`
 				decline
 
 mission "Successors: Ghosts QSI 1"
@@ -87,51 +87,51 @@ mission "Successors: Ghosts QSI 1"
 	on offer
 		event "successors: ghosts restrict"
 		conversation
-			`Immediately after you enter the moon's atmosphere, your communication system springs to life.`
-			`	"Unauthorized vessel! Cease thine approach and return to orbit! This world is under crisis jurisdiction of House Kaatrij and no civilian craft are permitted.`
+			`你刚进入这颗卫星的大气层，通讯系统便骤然响起。`
+			`	“未经授权的船只！停止靠近并返回轨道！此世界处于卡特里吉家族的危机管辖之下，禁止任何民用飞船进入。`
 			choice
-				`	(Do as they say.)`
+				`	（照他们说的做。）`
 					flee
-				`	"I'm an ally of House Kaatrij!"`
+				`	“我是卡特里吉家族的盟友！”`
 					to display
 						has "successors kaatrij patron"
 					goto ally
-				`	"I'm not interested in your base, I just want to land elsewhere."`
+				`	“我对你们的基地没兴趣，我只是想在别的地方降落。”`
 					goto elsewhere
-				`	(Continue anyway.)`
+				`	（无论如何继续前进。）`
 
 			label proceed
-			`	You cut the communication channel and proceed anyway. For a moment, all seems well, but soon your sensors detect weapons fire from emplacements on the surface and the underbelly of your ship is lanced by a barrage of hypervelocity spikes.`
+			`	你切断通讯频道，继续前进。一时间似乎一切正常，但很快你的传感器就探测到地表炮位开火，一阵超高速尖刺弹齐射击中了你飞船的腹部。`
 			branch fragile
 				"flagship shields" + "flagship hull" < 25000
 			branch medium
 				"flagship shields" + "flagship hull" < 85000
-			`	The shots ram against your ship's shields with punishing ferocity, but the <ship> holds fast under the onslaught. However, the heavy fire greatly disturbs your flight path and it becomes increasingly clear that you won't be able to land regardless of your vessel's durability.`
+			`	炮弹以惩罚般的凶猛撞击着你飞船的护盾，但<ship>在这番猛攻下岿然不动。然而，密集的火力严重扰乱了你的航线，越来越明显的是，无论你的飞船多么坚固，都无法降落。`
 				flee
 			label medium
-			`	The shots ram against your ship's shields, rapidly wearing them down and disturbing your flight pattern enough that you have no choice but to return to orbit. The batteries stop firing once you clear the atmosphere, fortunately.`
+			`	炮弹撞击着你飞船的护盾，迅速将其削弱，并严重扰乱了你的飞行轨迹，你别无选择，只能返回轨道。幸好，你一离开大气层，炮台便停止了射击。`
 				flee
 			label fragile
-			`	Your ship's shields go down after the first few shots and it doesn't even take the full volley to destroy your vessel entirely.`
+			`	你飞船的护盾在头几发炮弹后便已崩溃，甚至用不着一整轮齐射，你的飞船就被彻底摧毁了。`
 				die
 
 			label ally
-			`	"Thou art denied, for thou'rt without a writ of authorization. Converse with thy superior if this is in error, and return only when thou canst present it. Now return to orbit, on pain of death, ally or no."`
+			`	“汝遭拒绝，因汝没有授权令状。若此有误，请与汝的上级交涉，待汝能出示令状时再回来。现在返回轨道，违者处死，无论是否盟友。”`
 			action
 				set "successors: ghosts ally referred"
-				log "Attempted to land on Qasa-Sija-Iri but was denied for lack of authorization. Instructed to converse with a superior to acquire authorization to land."
+				log "尝试在卡萨-西贾-伊里降落，但因缺乏授权而遭拒。被告知需与上级交涉以获取降落授权。"
 			choice
 				`	（返回轨道。）`
 					flee
-				`	(Continue anyway.)`
+				`	（无论如何继续前进。）`
 					goto proceed
 
 			label elsewhere
-			`	"Irrelevant. No civilian vessels are permitted here. Return to orbit, on pain of death."`
+			`	“无关紧要。此处禁止任何民用船只。返回轨道，违者处死。”`
 			choice
 				`	（返回轨道。）`
 					flee
-				`	(Continue anyway.)`
+				`	（无论如何继续前进。）`
 					goto proceed
 
 mission "Successors: Ghosts QSI 2"
@@ -144,75 +144,75 @@ mission "Successors: Ghosts QSI 2"
 		not "Successors: Ghosts 10: offered"
 	on offer
 		conversation
-			`Though the Kaatrij spaceport is usually quiet, its patrons speaking in hushed whispers, today it is utterly soundless. The very few Successors who go about their business inside do so without a word and stick to only the most thinly-hydrated pathways such that they leave only the smallest of splashes in their wake.`
-			`	Near the center of the landing wing is a concierge of sorts: a tall, burnt orange Successor splayed atop a seat of sculpted rocks before a collection of panels.`
+			`尽管卡特里吉的太空港平日就很安静，往来者都低声细语，但今天这里完全鸦雀无声。港内寥寥几名还在办事的继承者都一言不发，只走那些水层最浅的通道，在身后只留下最微小的水花。`
+			`	着陆翼中央附近有一位类似礼宾员的人物：一名高大的焦橙色继承者，摊开身体坐在一张由雕琢岩石砌成的座椅上，面前是一组面板。`
 			choice
-				`	(Go to them.)`
-				`	(Go about your business as usual.)`
+				`	（走向他们。）`
+				`	（照常办自己的事。）`
 					decline
-			`	As you approach, they push themself off the rocks and into the surrounding puddle. "Hello, noble traveler," they say, "But ask me naught 'bout this House's recent business, for I have naught to give on it."`
+			`	你走近时，他们从岩石上撑起身，滑入周围的水洼。“你好，尊贵的旅人，”他们说，“但莫要问吾任何关于本家族近来之事，因吾对此无可奉告。”`
 			choice
-				`	"Can you help me get authorization to approach the moon?"`
-				`	"That's okay. Can you help me find Saajret?"`
+				`	“你能帮我拿到接近那颗卫星的授权吗？”`
+				`	“没关系。你能帮我找到萨杰雷特吗？”`
 					goto saajret
-			`	The concierge gently rubs a spot on one of the panels, as if trying to remove a stain. "'But ask me naught!' I say, and already my words are as ash and fall unheard. To put it plain, then: no, and never. Make still thy lust for knowledge."`
+			`	礼宾员轻轻揉擦着一块面板上的某处，仿佛想擦掉一块污渍。“‘莫要问吾！’吾如是说，而吾之言语已如灰烬般飘落，无人听闻。那便直说吧：不能，永远不能。平息汝对知识的渴求吧。”`
 			choice
-				`	"Could you help me find Saajret, then?"`
+				`	“那你能帮我找到萨杰雷特吗？”`
 					goto saajret
-				`	"I tried to land there and they told me to seek authorization."`
+				`	“我试过在那里降落，他们让我去申请授权。”`
 					to display
 						has "successors: ghosts ally referred"
 					goto referred
-				`	(Leave and go about your business.)`
+				`	（离开，去办自己的事。）`
 					decline
 
 			label referred
-			`	"That I cannot give," they say, "nor would I do so if empowered."`
+			`	“此物吾无法给予，”他们说，“即便吾有此权限，也不会给。”`
 			choice
-				`	"Could you help me find Saajret, then?"`
+				`	“那你能帮我找到萨杰雷特吗？”`
 					goto saajret
-				`	(Leave and go about your business.)`
+				`	（离开，去办自己的事。）`
 					decline
 
 			label saajret
-			`	The concierge makes a noise like humming, but lower and more musical. "Perhaps. A friend, or companion of yours? But I require more than their third name, traveler."`
+			`	礼宾员发出一种类似哼唱的声音，但更低沉、更富乐感。“或许可以。是汝的朋友，还是同伴？但吾需要的不止是他们的第三个名字，旅人。”`
 			choice
-				`	"Saajret, of Somber Sejra."`
+				`	“黯淡塞杰拉的萨杰雷特。”`
 					goto "saajret of somber sejra"
-				`	"I don't know them by any other names."`
-			`	"A rose! A rose," they say, "by any other name would smell as sweet. Not so close a friend, I suppose. But I suppose too much, methinks."`
+				`	“我不知道他们的其他名字。”`
+			`	“玫瑰！玫瑰，”他们说，“换个名字也依然芬芳。看来不是那么亲密的朋友。不过，吾想，吾想得太多了。”`
 			choice
-				`	"Wait! What about 'Saajret, of Somber Sejra?'"`
+				`	“等等！那‘黯淡塞杰拉的萨杰雷特’呢？”`
 					goto "saajret of somber sejra"
-				`	(Leave and go about your business.)`
+				`	（离开，去办自己的事。）`
 					decline
 
 			label "saajret of somber sejra"
-			`	"Ah." Their skin shifts to a deep pink, but only for a moment. They pull a long column of metal from the panel in front of them, examining it closely for a time before returning their attention to you. "If thou know'st them well enough to speak of, then 'tis sure thou canst appreciate the stresses on their time. But," they say, glittering, "I shall notify them of thy desire to meet, and I shall give them thy name and this," they say producing a data-sphere of the sort you've seen the Successors use before. "And if they wish to engage thee, then they may."`
+			`	“啊。”他们的皮肤转为深粉色，但只持续了片刻。他们从面前的面板中抽出一根长长的金属柱，仔细端详了一阵，然后才将注意力转回你身上。“若汝与他们相熟到足以提起其名，那么汝想必能体谅他们时间之紧迫。不过，”他们闪烁着说，“吾会通知他们汝欲会面之意，将汝的名字转告他们，再把这个交给汝，”说着，他们拿出一个你此前见过继承者使用的那种数据球。“若他们愿意与汝接触，自会联系。”`
 			choice
 				`	“我叫<first> <last>。”`
 					goto end
 				`	“谢谢。”`
-				`	"That's not good enough. I need to speak with them now."`
+				`	“这还不够。我需要现在就跟他们谈。”`
 					goto impatient
 			label "who are you"
-			`	"Indeed. And what is thy name?"`
+			`	“自然。那么，汝叫什么名字？”`
 			choice
-				`	"<first> <last>."`
+				`	“<first> <last>。”`
 			label end
 			action
-				log "Attempted to get in contact with Saajret, of Somber Sejra. Received a data-sphere from a House Kaatrij spaceport concierge and was informed that Saajret will make contact on their own time, if at all."
+				log "试图联系黯淡塞杰拉的萨杰雷特。从卡特里吉家族太空港的一名礼宾员处收到一个数据球，并被告知萨杰雷特若愿意，会在方便时主动联系。"
 				event "successors: ghosts saajret contact" 9
-			`	The concierge rolls the sphere around at the tip of two of their arms for a little while, then offers it to you. As you take it, you can feel gentle ripples on the surface of the metal, almost like fingerprints. The concierge then slowly returns to their prior position atop the stone seat, their body slithering over the wet rocks along the way.`
+			`	礼宾员用两条手臂的尖端来回滚动那个球体好一会儿，然后把它递给你。你接过时，能感觉到金属表面有轻柔的波纹，几乎像指纹一样。随后，礼宾员慢慢回到石座上原来的位置，身体一路滑过湿漉漉的岩石。`
 				decline
 
 			label impatient
-			`	"Mayhaps, mayhaps. But is thy need echoed by their want, or is it but an arrow pointing to a void?"`
+			`	“或许，或许。但汝之所需，可有他们之所愿相呼应？抑或只是一支指向虚空的箭？”`
 			choice
-				`	"Okay, I'm sorry, please just give them my name."`
+				`	“好吧，对不起，请把我的名字转告他们就行。”`
 					goto "who are you"
-				`	"Do you ever speak in anything other than riddles?"`
-			`	The concierge examines another metallic cylinder projecting from their station. "Today? No." They push the cylinder back and return to their prior position atop the stone seat.`
+				`	“你说话除了打哑谜，就没有别的方式吗？”`
+			`	礼宾员端详着从其工作台中伸出的另一根金属圆柱。“今天？没有。”他们将圆柱推回去，回到石座上原来的位置。`
 				decline
 
 mission "Successors: Ghosts QSI 3"
@@ -224,22 +224,22 @@ mission "Successors: Ghosts QSI 3"
 		has "event: successors: ghosts saajret contact"
 	on offer
 		conversation
-			`Shortly after you land on <origin>, the Successor data-sphere you received from the House Kaatrij concierge springs to life. It displays a short message, text-only:`
-			`	'Tis good of thee, captain, that thou soughtest me out upon learning of this recent incident. Thine instincts do thee justice. Nonetheless, I've naught to give thee. The matter underway is of Kaatrij and does not pertain to thee nor the other Houses. If well thou regardest this House, keep clear of this. Enjoy our fruitful world, assist our grateful citizens, be regaled by what gifts we yet may give. Do not pry. This I beseech you, for our sake and for thine: do not be tempted by our secrets' jaws.`
-			`	This I myself attest as K- I- Saajret, of Somber Sejra.`
+			`你在<origin>降落后不久，从卡特里吉家族礼宾员处获得的那个继承者数据球便骤然启动。它显示了一条简短的纯文字消息：`
+			`	船长，汝得知近来事件后便来寻吾，此心甚善。汝之直觉不负于汝。然吾无可相告。此事关乎卡特里吉，与汝及其他家族皆无干系。若汝敬重本家族，便请远离此事。尽情享受吾等丰饶的世界，帮助吾等心怀感激的公民，享用吾等尚能给予的馈赠。切勿窥探。吾恳求于汝，为吾等，亦为汝自身：莫受吾等秘密之巨口诱惑。`
+			`	此乃吾亲自作证：黯淡塞杰拉的 K- I- 萨杰雷特。`
 				decline
 
 # Seineq investigation
 
 mission "Successors: Ghosts 1"
 	landing
-	name "Assist House Seineq"
+	name "协助塞内克家族"
 	source
 		attributes "successor"
 		not attributes "uninhabited"
 		not planet "Shassa-Wyra-Orrou"
 	destination "Shassa-Wyra-Orrou"
-	description "House Seineq would like to meet you at <destination>."
+	description "塞内克家族希望在<destination>与你会面。"
 	to offer
 		has "Successors: Ghosts Prelude Incident: offered"
 		random < 50
@@ -248,147 +248,147 @@ mission "Successors: Ghosts 1"
 			branch raaqa-puan-uuoru
 				has "flagship planet: Raaqa-Puan-Uuoru"
 
-			`Soon after you exit your ship on this planet, you are discreetly pulled aside by a trio of Successor military officers. Their leader splays their arms gently in greeting. "Honored captain," they say, "We've come to inform thee that the noble House Seineq requests thy presence for the purposes of lending aid to their ally, the wounded House Kaatrij."`
+			`你刚走出飞船不久，便被三名继承者军官悄悄拉到一边。为首者轻轻展开双臂致意。“尊贵的船长，”他们说，“吾等前来告知汝，尊贵的塞内克家族请汝前往，以援助其盟友——负伤的卡特里吉家族。”`
 				goto questions
 
 			label raaqa-puan-uuoru
-			`Soon after you exit your ship, you are pulled aside by a trio of Successor military officers; unlike most here, they are not wearing House Kaatrij's colors. Their leader splays their arms gently in greeting. "Honored captain," they say, "and friend to Kaatrij. The noble House Seineq would request thy presence at a nearby offworld staging post to aid our assistance efforts to our mutual ally."`
+			`你刚走出飞船不久，便被三名继承者军官拉到一边；与这里的大多数人不同，他们没有穿戴卡特里吉家族的颜色。为首者轻轻展开双臂致意。“尊贵的船长，”他们说，“卡特里吉之友。尊贵的塞内克家族请汝前往附近一处星外集结站，协助吾等援助共同的盟友。”`
 
 			label questions
 			choice
-				`	"Wouldn't it be easier if you coordinated your efforts from here?"`
+				`	“你们在这里协调工作不是更方便吗？”`
 					to display
 						has "flagship planet: Raaqa-Puan-Uuoru"
 					goto here
-				`	"Where do I need to go?"`
+				`	“我需要去哪里？”`
 					goto where
-				`	"What sort of aid?"`
+				`	“什么样的援助？”`
 					goto aid
 				`	“对我有什么好处？”`
-			`	"Naturally," says the lead officer, their skin bristling a little, "thou canst expect payment for thy services. The details shall be discussed with thee upon arrival." They hand over a data-sphere which highlights the <system> system and leave you to your business with a curt goodbye.`
+			`	“自然，”为首的军官说，皮肤微微竖起，“汝可期待为此获得报酬。详情将在汝抵达后与汝商议。”他们递过一个标示出<system>星系的数据球，然后草草道别，留你去忙自己的事。`
 				accept
 			label here
-			`	"Indeed," says the lead officer, "but Kaatrij is presently understandably reluctant to permit the other Houses even temporary constructions on their homeworld. Details shall be provided upon thine arrival." They hand over a data-sphere which highlights the <system> system and leave you to your business with a curt but expectant goodbye.`
+			`	“确实如此，”为首的军官说，“但眼下卡特里吉不愿让其他家族在其母星上修建哪怕是临时的设施，这也可以理解。详情将在汝抵达后提供。”他们递过一个标示出<system>星系的数据球，然后简短却带着期待地道别，留你去忙自己的事。`
 				accept
 			label aid
-			`	"'Tisn't for us to say," says the lead officer. "The details of thy task shall be revealed to thee upon thy visit." They hand you a data-sphere from a pocket in their uniform; it splashes to highlight the <system> system and the officers bid you a curt goodbye.`
+			`	“这不是吾等能说的，”为首的军官说，“汝之任务详情将在汝到访时向汝揭晓。”他们从制服口袋里取出一个数据球交给你；它如水花般展开，标示出<system>星系，随后军官们草草向你道别。`
 				accept
 			label where
-			`	The lead officer hands you a Successor data-sphere from a pocket in their uniform; it splashes open as soon as you touch it to highlight the <system> system. "More details shall be provided t'thee upon thine arrival," the officer says, before splaying their arms in a polite goodbye.`
+			`	为首的军官从制服口袋里取出一个继承者数据球交给你；你一碰到它，它便如水花般展开，标示出<system>星系。“详情将在汝抵达后提供，”军官说完，礼貌地展开双臂道别。`
 				accept
 
 mission "Successors: Ghosts 2"
 	landing
-	name "Deploy sensor drones"
+	name "部署传感器无人机"
 	source "Shassa-Wyra-Orrou"
 	destination "Shassa-Wyra-Orrou"
 	waypoint "Kasii-Sola"
 	waypoint "Khasola-Ryuit"
 	waypoint "Eta Carinae"
 	waypoint "Avasaa-Novaa"
-	description "House Seineq is concerned that the incident at Qasa-Sija-Iri may be the doing of parties from the other side of the wormhole, and have asked you to deploy a net of sensors in <waypoints> before returning to <destination>."
+	description "塞内克家族担心卡萨-西贾-伊里的事件可能是虫洞另一侧的势力所为，请你在<waypoints>部署传感器网络，然后返回<destination>。"
 	cargo "Successor sensor drones" 6
 	to offer
 		has "Successors: Ghosts 1: done"
 	on offer
 		conversation
-			`The normally quiet industrial spaceport here has been overrun by another facility on its outskirts, a sea of temporary buildings made of white metallic fabric that ripples in the wet breeze. Repulsor-driven transports are setting up a variety of familiar and unfamiliar machinery throughout the new addition, and you watch as one unloads a shipment of what looks like planetary shield generators.`
-			`	You are met in the spaceport soon after by a distinctly stressed-looking Successor who instructs you to follow them to one of the tents in the new area. It turns out to be surprisingly comfortable and well-featured inside, and as you wait, you have to try your best to avoid the overhead mist generators. Eventually, another pair of Successors enter from the same door you did and introduce themselves to you.`
-			`	"Captain, captain, we lament thy wait. I am Sijra and this," they say, gesturing to the other, "is Rijatet." Rijatet offers a short splay of the arms on hearing their name. "We represent House Seineq here."`
+			`这里平日安静的工业太空港已被其外围的另一座设施所淹没——那是一片由白色金属织物搭建的临时建筑之海，在潮湿的微风中泛起涟漪。由排斥器驱动的运输车正在这片新扩区域各处安装各种或熟悉或陌生的机械，你看到其中一辆卸下了一批看起来像行星护盾发生器的货物。`
+			`	不久，一名看上去格外紧张的继承者在太空港与你会面，指引你跟随他们前往新区域中的一顶帐篷。帐篷内部出乎意料地舒适，设施齐全；等待期间，你不得不尽量避开头顶的喷雾装置。终于，另外两名继承者从你进来的那扇门走进来，向你作了自我介绍。`
+			`	“船长，船长，让汝久等，吾等深表歉意。吾乃西杰拉，这位，”他们指着另一人说，“是里贾特特。”里贾特特听到自己的名字，短暂地展开双臂致意。“吾等在此代表塞内克家族。”`
 			choice
 				`	“你想从我这里得到什么？”`
 					goto task
-				`	"Did Seineq establish all this?"`
+				`	“这一切都是塞内克建立的吗？”`
 				`	"这是什么地方？"`
-			`	Sijra nods as colors swim over their body. "A temporary post, approv'd by the New's combined navy. In times as these, 'tis a boon to watch over these oft-forgotten systems."`
-			`	Rijatet interjects. "'Tisn't why thou'rt here, though." Sijra hums gently at this, and they slither under one of the mist generators, writhing a little as if to get comfortable.`
+			`	西杰拉点点头，色彩在其身上游动。“一处临时哨站，经新派联合海军批准。在这样的时局下，看守这些常被遗忘的星系乃是一大益事。”`
+			`	里贾特特插话道：“但这并不是汝来此的原因。”西杰拉对此轻哼一声，滑到一台喷雾装置下，微微扭动，仿佛在调整一个舒适的姿势。`
 			label task
-			`	"Our ally, Kaatrij," says Sijra, "has ceased their internal messages to us, and the rest of the New. But even if they do not wish to share, we can derive our own answers well enough."`
-			`	"This was an attack," says Rijatet. Their voice is low and rumbly, like rocks rolling down a hill. "Kaatrij would not close up otherwise. They do not trust the other Houses. They never have. They think another House has wounded them."`
-			`	"And thou, captain, thou'rt a... free element. Thy place in this can't be eas'ly divined. We can handle one alien, and their host, but canst not be sure thyself is all we have to reckon with." Waves of color run over Sijra's body, and one of their legs twitches gently against the floor.`
+			`	“吾等的盟友卡特里吉，”西杰拉说，“已经停止向吾等及其他新派家族发送内部消息。但即便他们不愿分享，吾等也能自行推断出答案。”`
+			`	“这是一次袭击，”里贾特特说。其声音低沉隆隆，如同滚下山坡的岩石。“否则卡特里吉不会如此封闭。他们不信任其他家族，从来都不。他们认为是另一个家族伤害了他们。”`
+			`	“而汝，船长，汝是一个……自由的要素。汝在此事中的位置不易判明。吾等能应付一名外星人及其大军，却无法确定汝是否就是吾等需要应对的全部。”色彩的波浪掠过西杰拉的身体，其一条腿轻轻抽动着点在地板上。`
 			choice
-				`	"Are you saying you think this is some prelude to alien invasion?"`
-				`	"Are you saying you think that another House attacked Kaatrij?"`
-			`	Sijra wriggles. "No. Not necessarily. Just that we are in need of information and wish to ensure that thou canst be relied upon to provide it. So," says Sijra, "we have for thee a task. We will load sensors onto thy craft that can be deployed'n the other side of the wormhole, 'round the disconnected stars where our ships can't travel. If this is the work of some meddling alien force thinking cloaks and a jump drive make them gods, then we will know it, and we will show them their folly.`
+				`	“你是说，你认为这是某种外星入侵的前奏？”`
+				`	“你是说，你认为是另一个家族袭击了卡特里吉？”`
+			`	西杰拉扭动了一下。“不。未必如此。只是吾等需要情报，并希望确认汝在提供情报方面值得信赖。所以，”西杰拉说，“吾等有一项任务交予汝。吾等会在汝的飞船上装载传感器，可部署在虫洞另一侧，那些吾等舰船无法抵达的断联星辰周围。若此事是某个多管闲事的外星势力所为，以为凭借隐形装置和跃迁引擎就能成神，那吾等定会知晓，也定会让他们明白自己的愚蠢。`
 			choice
-				`	"And what if it isn't?"`
+				`	“如果不是呢？”`
 					goto "isn't"
-				`	"So you can penetrate cloaks?"`
+				`	“这么说，你们能看穿隐形？”`
 					goto cloaks
-				`	"And what if I refuse?"`
+				`	“如果我拒绝呢？”`
 					goto refuse
 
 			label "isn't"
-			`	"Then," Sijra says, "we shall have to determine which of our Houses is threatening war." Rijatet hums at that, bunching up two of their arms and regarding you with piercing eyes.`
+			`	“那么，”西杰拉说，“吾等便不得不查明，究竟是吾等哪个家族在挑起战争。”里贾特特对此哼了一声，蜷起两条手臂，用锐利的目光打量着你。`
 			choice
-				`	"Very well, I'll deploy your sensors."`
+				`	“好吧，我会部署你们的传感器。”`
 					goto yes
-				`	"I'm not interested in being a part of this."`
+				`	“我没兴趣参与这件事。”`
 					goto refuse
 
 			label cloaks
 			action
 				"successors: ghosts suspicion" ++
-			`	Pink spots break out over Rijatet's body. "We would not tell thee either way. But never in thirty thousand years have we or our Predecessors met a race with drives like yours that could camouflage their imprint on the weave of space. Listen well enough, and when they jump, it will always be there."`
+			`	里贾特特身上冒出粉色斑点。“无论如何吾等都不会告诉汝。但三万年来，吾等与吾等先民从未遇到过哪个种族，拥有像你们那样能掩饰自身在空间织网上留下的印记的引擎。只要仔细聆听，他们跃迁时，那印记总会在那里。”`
 			choice
-				`	"And what if the threat is more close to home?"`
+				`	“如果威胁来自更近的地方呢？”`
 					goto "isn't"
-				`	"Very well, then, I'll deploy your sensors."`
+				`	“好吧，那我会部署你们的传感器。”`
 					goto yes
-				`	"I'm not interested in being a part of this."`
+				`	“我没兴趣参与这件事。”`
 					goto refuse
 
 			label refuse
-			`	"We won't cage thee, Captain," says Sijra. "Thou art not our vassal, nor our responsibility. But each day of this disruption, thy liability to thy patron - to the Houses all - grows. An alien swims into our pool and soon after, a House is bombed? Thou art an article of suspicion and concern. An opportunity like this will not come again for thee, methinks."`
+			`	“吾等不会囚禁汝，船长，”西杰拉说，“汝并非吾等的封臣，也不归吾等负责。但这场动荡每持续一天，汝对汝的庇护者——乃至对所有家族——而言便多一分隐患。一个外星人游进吾等的池子，紧接着就有一个家族遭到轰炸？汝本身便是猜疑与忧虑的对象。吾想，这样的机会，汝不会再有第二次了。”`
 			choice
-				`	"Very well, then, I'll deploy your sensors."`
+				`	“好吧，那我会部署你们的传感器。”`
 					goto yes
-				`	"Then why contact me if you're so suspicious?"`
+				`	“既然你们这么怀疑我，为什么还要联系我？”`
 					goto suspicious
-				`	"I'm still not interested in being part of this."`
-			`	Sijra and Rijatet each turn a slightly different shade of blue. "Very well," says Sijra. "Farewell."`
+				`	“我还是没兴趣参与这件事。”`
+			`	西杰拉和里贾特特各自变成了略有不同的蓝色。“很好，”西杰拉说，“再会。”`
 				decline
 
 			label suspicious
-			`	Rijatet makes a noise sort of like chuckling. "Peril and opportunity oft travel arm-in-arm," they say. "Canst thou blame us for keeping our objects of suspicion close, that they might one day become our allies?"`
+			`	里贾特特发出一种类似轻笑的声音。“危险与机遇常常臂挽着臂同行，”他们说，“吾等将可疑之人留在身边，以期他们有朝一日成为盟友，汝能为此责怪吾等吗？”`
 			choice
-				`	"All right, I'll do it."`
+				`	“好吧，我来做。”`
 					goto yes
-				`	"You'll have to find a different ally for this."`
-			`	Sijra and Rijatet each turn a slightly different shade of blue. "Very well," says Sijra. "Farewell."`
+				`	“这件事你们得另找盟友了。”`
+			`	西杰拉和里贾特特各自变成了略有不同的蓝色。“很好，”西杰拉说，“再会。”`
 				decline
 
 			label yes
-			`	Both of the two seem to relax a bit when you say this, their arms showing a little more slack. Sijra notes down something on a metallic pad that they take out of their outfit, before informing you that they've ordered the sensor drones to be transferred to the <ship>. "Once thy task is done, Captain, return here and we shall have thy next opportunity for usefulness."`
-			`	"And of course Seineq means to make this worth your while," says Rijatet. "Thou shalt be compensated with a fee of <payment> upon completion. We are not at liberty to negotiate this."`
+			`	听你这么说，两人似乎都稍稍放松了下来，手臂也松弛了一些。西杰拉从装束中取出一块金属板，在上面记下了什么，然后告诉你他们已下令将传感器无人机转运到<ship>上。“待汝完成任务，船长，便回到这里，吾等将为汝准备下一个效力的机会。”`
+			`	“当然，塞内克会让你觉得这一趟值得，”里贾特特说，“任务完成后，汝将获得<payment>的报酬。此数目不容商议。”`
 				accept
 
 	on enter "Kasii-Sola"
-		dialog `You release one of House Seineq's scanners, which orients itself with small thrusters before nestling into low planetary orbit.`
+		dialog `你释放了一台塞内克家族的扫描器，它用小型推进器调整好姿态，随后进入低行星轨道。`
 	on enter "Khasola-Ryuit"
-		dialog `You eject one of the scanners into space here at the northernmost reach of the Predecessors' region.`
+		dialog `你在先民疆域的最北端将一台扫描器弹射到太空中。`
 	on enter "Eta Carinae"
-		dialog `You release one of the scanners from your cargo hold, letting it disappear in the glare of this system's enormous star.`
+		dialog `你从货舱中释放了一台扫描器，看着它消失在这个星系巨大恒星的强光之中。`
 	on enter "Avasaa-Novaa"
-		dialog `You eject one of the scanners, which proceeds into a close solar orbit. Perhaps the gravity well helps shield it from the destructive spatial phenomena here.`
+		dialog `你弹射出一台扫描器，它随即进入近日轨道。也许引力井能帮助它免受此处破坏性空间现象的侵害。`
 
 	on visit
 		dialog phrase "generic waypoint on visit"
 
 	on complete
 		conversation
-			`Docking control at the <planet> spaceport directs the <ship> to a protected, fabric-shrouded hangar on the western side of the new facility. A pair of Successor ground crews supervise the automated refueling and maintenance processes, and one of them waves you down from the cockpit, where they hand you a data-sphere. A few seconds after it touches your skin, it plays a message from Rijatet:`
-			`	"Our thanks to thee for setting the sensors, Captain. We saw their first reports only shortly after thy own craft jumped away, and nothing since. We shall remain as watchful as we ought to be. For thine efforts, Seineq's credited thee the agreed payment of <payment>. If thou wishest for further, join us at the port here tonight for another task."`
-			`	I attest this, A- T- Rijatet.`
+			`<planet>太空港的泊港控制将<ship>引导至新设施西侧一座受保护、由织物遮蔽的机库。两组继承者地勤人员监督着自动加油与维护流程，其中一人招手示意你从驾驶舱下来，递给你一个数据球。它接触到你的皮肤几秒后，便播放了一条来自里贾特特的消息：`
+			`	“感谢汝布设传感器，船长。就在汝的飞船跃迁离开后不久，吾等便收到了它们的首批报告，此后再无动静。吾等将保持应有的警惕。为酬谢汝的辛劳，塞内克已将约定的<payment>报酬转入汝的账户。若汝还想承接更多，今晚请到这里的港口与吾等会合，另有任务相托。”`
+			`	吾以此作证，A- T- 里贾特特。`
 		payment 223000
-		log "Deployed Successor sensor drones throughout Predecessor space to scan for ships using jump drives, cloaked or not."
+		log "在先民空间各处部署了继承者传感器无人机，以扫描使用跃迁引擎的舰船，无论其是否隐形。"
 
 
 mission "Successors: Ghosts 3a Sioeora"
 	landing
 	invisible
-	name "Inform House Sioeora"
-	description "Contact House Sioeora about Seineq asking you to investigate."
+	name "告知肖尔拉家族"
+	description "就塞内克请你调查一事联络肖尔拉家族。"
 	source
 		attributes successor
 		not attributes uninhabited
@@ -401,16 +401,16 @@ mission "Successors: Ghosts 3a Sioeora"
 		conversation "successor house contact"
 	on complete
 		conversation
-			`Once you have landed, your ship's communications system chirps with a new message delivered from House Sioeora:`
-			`	Honored captain <first> <last>, Sioeora once again calls thee 'ally' with pride and confidence in thy discretion and fair judgment. Thou mayst proceed as thou pleasest with Seineq's scheme - it concerns us little what they plan to do in sealed-off space, so long as they recognize that Sioeora and the rest shall keep our eyes upon their actions. Should Seineq, in foolishness, resolve to some act of aggression, they shall find we and our allies eager to correct their errant course.`
-			`	In confirmation of this message, I do myself attest: I- C- N-, on behalf of honored scion Riijaaora E- Sioeora of their noble House.`
+			`你降落后，飞船的通讯系统便啁啾作响，收到一条来自肖尔拉家族的新消息：`
+			`	尊贵的<first> <last>船长，肖尔拉再次以“盟友”相称，对汝的谨慎与公正判断满怀自豪与信心。汝可随意处置塞内克的计划——他们在封闭空间中打算做什么，吾等并不怎么关心，只要他们明白，肖尔拉与其余家族会一直注视着他们的一举一动。倘若塞内克愚蠢到决意采取某种侵略行动，他们便会发现，吾等与吾等的盟友迫不及待要纠正其错误的航向。`
+			`	为确认此消息，吾在此亲自作证：I- C- N-，代表其尊贵家族的尊贵子嗣里贾奥拉 E- 肖尔拉。`
 
 
 mission "Successors: Ghosts 3b Kaatrij"
 	landing
 	invisible
-	name "Inform House Kaatrij"
-	description "Contact House Kaatrij about Seineq asking you to investigate."
+	name "告知卡特里吉家族"
+	description "就塞内克请你调查一事联络卡特里吉家族。"
 	source
 		attributes successor
 		not attributes uninhabited
@@ -423,56 +423,56 @@ mission "Successors: Ghosts 3b Kaatrij"
 		conversation "successor house contact"
 	on complete
 		conversation
-			`Once you have landed, your ship's communications system chirps with a new message delivered from House Kaatrij:`
-			`	<first> <last>, our thanks for thy contact. It has been received amicably. Because of a recent accident on a territorial possession of House Kaatrij, many missives we receive currently go unanswered. Shouldst thou not receive further contact on this matter, we implore thee to stay thy disappointment.`
+			`你降落后，飞船的通讯系统便啁啾作响，收到一条来自卡特里吉家族的新消息：`
+			`	<first> <last>，感谢汝的联络，吾等已友善地收悉。由于卡特里吉家族的一处领地近来发生事故，吾等收到的许多信函目前都未能回复。若汝未就此事收到进一步联络，恳请汝勿要失望。`
 
 
 conversation "successor house contact"
-	`After you were asked to deploy sensor drones by House Seineq, it might be prudent to contact your patron House to update them about this development.`
+	`塞内克家族请你部署传感器无人机之后，或许应该谨慎地联络你的庇护家族，向他们通报这一进展。`
 	choice
-		`	(Yes.)`
-		`	(No.)`
+		`	（是。）`
+		`	（否。）`
 			decline
 	action
 		event "successors: ghosts message delay" 4
-	`	You find your way to the local spaceport's communication hub, where you check out one of the Successors' data-spheres to encode your message for delivery to your patron House. When you're done, you submerge the data-sphere into a liquid-metal bath that pushes it around for a few moments before spitting it back at you, quietly chirping "missive sent."`
+	`	你找到本地太空港的通讯中心，在那里借用了一个继承者数据球，将你的消息编码，以便送达你的庇护家族。完成后，你把数据球浸入一池液态金属中，它被推着翻滚了片刻，然后被吐回你手中，轻声啁啾道：“信函已发送。”`
 		accept
 
 
 mission "Successors: Ghosts 4"
 	invisible
 	source "Shassa-Wyra-Orrou"
-	description "Investigators from House Seineq want you to report back your dealings with the other High Houses."
+	description "塞内克家族的调查员希望你回报你与其他高阶家族的往来情况。"
 	to offer
 		has "Successors: Ghosts 2: done"
 	on offer
 		event "successors: ghosts seineq attacked" 40
 		conversation
-			`Soon after you re-enter the spaceport, a Successor there directs you to the same room in which you met with Sijra and Rijatet before, and just as before, the two of them enter a few minutes later.`
-			`	"A pleasure t'see thee again after thy fruitful voyage, Captain," says Sijra. They wriggle under one of the mist generators. "We've a second task for thee. Thou art, as we explained before, a more neutral being here. If another House were to contact thee and ask for help as we have-"`
-			`	"Perhaps they already have," notes Rijatet.`
-			`	"Then in providing it, thou mayst see things our forces might not be privy to."`
+			`你回到太空港后不久，一名继承者便把你领到你先前与西杰拉和里贾特特会面的那个房间。和上次一样，两人几分钟后走了进来。`
+			`	“船长，汝此行收获颇丰，能再次见到汝，实乃幸事，”西杰拉说。他在一台喷雾器下扭动身体。“吾等另有一项任务相托。正如先前所说，汝在此地是较为中立的存在。倘若另一个家族联系汝，像吾等这样请汝相助——”`
+			`	“也许他们已经这么做了，”里贾特特指出。`
+			`	“那么在提供帮助之时，汝或许能见到吾等的部队无从知晓之事。”`
 			choice
-				`	"Are you asking me to spy for you?"`
+				`	“你们是要我替你们当间谍吗？”`
 					goto spy
-				`	"Get to the point, please."`
-			`	Sirja moves their head a little closer to you. "If and when another House contracts thee for some purpose that thou suspectest in any way, make note of it. Tell us and we shall pay thee a fair sum for thy time and effort."`
+				`	“请说重点。”`
+			`	西杰拉把头凑近了你一些。“若另一个家族雇汝去做某事，而汝对此心存任何疑虑，便记下来。告诉吾等，吾等会为汝付出的时间与精力支付一笔公道的报酬。”`
 				goto decision
 
 			label spy
-			`	A faint pink color forms at the tips of Sirja's arms, though what exactly this connotes you cannot tell. "No, Captain. That is not thy art, methinks. We only ask thee to be attentive in thy duties, and to tell us of anything untoward."`
+			`	西杰拉的手臂尖端泛起一抹淡粉色，但你看不出这究竟意味着什么。“不，船长。依吾之见，那并非汝所长。吾等只请汝在履行职责时多加留心，并将任何不当之事告知吾等。”`
 			label decision
 			choice
-				`	"Very well."`
+				`	“好吧。”`
 					goto yes
-				`	"I've had enough of this. No."`
-			`	The two Successors eye you, a shade of blue slowly creeping over their skin. "Disappointing, Captain. But it is thy own decision."`
+				`	“我受够了。不行。”`
+			`	两名继承者盯着你，一抹蓝色慢慢爬上他们的皮肤。“令人失望，船长。但这是汝自己的决定。”`
 				decline
 
 			label yes
 			action
-				log "Accepted an offer by House Seineq to report back my dealings with the other Houses, and whether I observe anything incriminating."
-			`	"Excellent!" says Rijtatet. "In that case, Sijra and I have nothing further for thee. We shall call thee back when we are ready for thy report."`
+				log "接受了塞内克家族的提议，向他们回报我与其他家族的往来情况，以及我是否发现任何可疑之处。"
+			`	“好极了！”里贾特特说。“既然如此，西杰拉和我就没有别的事了。等吾等准备好听取汝的报告时，会再召汝回来。”`
 				decline
 
 
@@ -480,8 +480,8 @@ mission "Successors: Ghosts 4"
 mission "Successors: Ghosts Mark Houses"
 	transition
 	destination "Shassa-Wyra-Orrou"
-	name "Investigate the other High Houses"
-	description "House Seineq is interested in what tasks the other Houses might offer a free agent. Their homeworlds would be a good place to investigate their activities."
+	name "调查其他高阶家族"
+	description "塞内克家族想知道其他家族会给一名自由行动者提供什么样的任务。它们的母星会是调查其活动的好去处。"
 	to offer
 		has "Successors: Ghosts 4: declined"
 	to fail
@@ -508,9 +508,9 @@ mission "Successors: Ghosts Seineq Attacked"
 	on offer
 		event "successors: ghosts seineq memorial" 50
 		conversation
-			`As you disembark into this planet's spaceport, you can feel a new and heightened tension in the air. In an unsettling mirror of the immediate aftermath of the attack on Kaatrij's base, the Successors here all stand crowded around the spaceport's screens, watching as news comes in of a second attack. This time, however, the image shown on the displays is one you recognize: it's the base on Shassa-Wyra-Orrou from which you worked with House Seineq.`
-			`	"...reports, yet confirmed, that several ships were seen, soonafter retreating under veil of cloak," the reporter on the displays says. "Much suspicion now falls to noble House Kaatrij for using such technol'gies in the past, ones they once had sworn they left behind."`
-			`	The Successors around the screen murmur and slither around each other. As the broadcast goes on and the crowd grows and the first casualty numbers begin to come in, the overlapping translated speech in your ears starts to smear together; you find yourself stumbling against a wall in the spaceport, only able to get up once you've momentarily plucked the translation device from your jacket.`
+			`当你走下飞船进入这颗行星的太空港时，你能感觉到空气中弥漫着一种新的、更加强烈的紧张气氛。仿佛令人不安地重现了卡特里吉家族基地遇袭后的情景，这里的继承者都挤在太空港的屏幕周围，看着有关第二次袭击的新闻不断传来。然而这一次，屏幕上显示的画面是你认得的：那是恰萨-维拉-奥鲁上的基地，你曾在那里与塞内克家族共事。`
+			`	“……据尚未证实的报道，有人目击数艘舰船，随后在隐形的掩护下撤离，”屏幕上的播报员说。“如今大量怀疑落到了高贵的卡特里吉家族身上，因其过去曾使用此类技术——他们曾发誓已将其弃置。”`
+			`	屏幕周围的继承者们低声议论，彼此缠绕着蠕动。随着广播继续，人群越聚越多，第一批伤亡数字开始传来，你耳中层层叠叠的翻译语音开始糊成一片；你发现自己踉跄着撞在太空港的一面墙上，直到暂时从外套上摘下翻译装置后，才得以站起身来。`
 				decline
 
 
@@ -522,17 +522,17 @@ mission "Successors: Ghosts Seineq Memorial"
 		has "event: successors: ghosts seineq memorial"
 	on offer
 		conversation
-			`While exploring House Seineq's spaceport here on <origin>, you take notice of a series of obelisks erected in the middle of one of the concourses; they weren't here the last time you visited. As you draw nearer, you can make out an inscription on a plaque that stands before them:`
-			`	"In remembrance and grief we stand,`
-			`	reminders of the deaths of the`
-			`	eighteen killed in service of`
-			`	our noble House off'ring succor`
-			`	to its ally House Kaatrij."`
+			`在探索塞内克家族位于<origin>的太空港时，你注意到一处大厅中央竖立着一排方尖碑；你上次来时它们还不在这里。走近之后，你能辨认出立在它们前方的一块牌匾上的铭文：`
+			`	“我们怀着追思与哀恸伫立于此，`
+			`	铭记逝去的生命——`
+			`	十八位为我们高贵的家族`
+			`	效力而殉难者，彼时家族正驰援`
+			`	其盟友卡特里吉家族。”`
 			choice
-				`	(Pay your respects.)`
-				`	(Walk on.)`
+				`	（致以敬意。）`
+				`	（继续走。）`
 					decline
-			`	You offer the memorial a few moments of quiet contemplation. On each of the pillars a name is engraved; though most you do not recognize, one is labeled "Asirij T- Rijatet."`
+			`	你在纪念碑前静默沉思了片刻。每根石柱上都刻着一个名字；虽然大多数你都不认识，但其中一个写着“阿西里吉 T- 里贾特特”。`
 				decline
 
 
@@ -542,8 +542,8 @@ mission "Successors: Ghosts Seineq Memorial"
 mission "Successors: Ghosts 5"
 	landing
 	clearance
-	name "Transport equipment for Kaatrij"
-	description "Some scientific equipment belonging to House Kaatrij needs to return to <destination> by <date> as the House consolidates itself after its recent crises."
+	name "为卡特里吉家族运送设备"
+	description "卡特里吉家族在接连的危机后正着手整顿内部，其一批科学设备需要在<date>前运回<destination>。"
 	deadline
 	source
 		government "Successor" "New Houses" # So, not the homeworlds of any of the other houses.
@@ -560,46 +560,46 @@ mission "Successors: Ghosts 5"
 			branch kaatrij
 				has "successors kaatrij patron"
 
-			`Waiting in the spaceport here as you arrive is a trio of Successors comprising two guards and one other individual who wears a black, cocoon-like outfit with lots of pockets. Both of the guards bear the insignia of House Kaatrij.`
-			`	The black-draped individual bows gently to you as green sparkles dot their skin. "Captain <first> <last>?" they say. When you indicate affirmatively, they continue. "I am Saajret, of Somber Sejra, an envoy of the noble scions of House Kaatrij. Kaatrij hopes that thou mightst do us a boon."`
+			`你抵达时，太空港里正有三名继承者等候着：两名卫兵，以及另一位身着缀满口袋的黑色茧状服装的个体。两名卫兵都佩戴着卡特里吉家族的徽记。`
+			`	那位身披黑衣的个体朝你轻轻鞠躬，皮肤上点缀着绿色的闪光。“是<first> <last>船长吗？”他问道。你给予肯定答复后，他继续说道：“我是黯淡塞杰拉的萨杰雷特，卡特里吉家族高贵子嗣的使者。卡特里吉希望汝能帮我们一个忙。”`
 				goto questions
 
 			label kaatrij
-			`Waiting in the spaceport here as you arrive are a trio of Successors, two guards and one other individual who you recognize as Saajret, of Somber Sejra. Kaatrij's archivist looks different from the last time you saw them; their outfit is wrapped up more tightly and the colors of their face seem muted and subdued.`
-			`	Saajret bows to you gently, green and reddish tones swirling on their skin. "Captain <first> <last>," they say, "whose patience I have tested thoroughly, it would seem. Kaatrij sends me to ask of thee a boon to us."`
+			`你抵达时，太空港里正有三名继承者等候着：两名卫兵，另一位你认得，正是黯淡塞杰拉的萨杰雷特。卡特里吉家族的这位档案员看上去与你上次见到时有所不同；他的服装裹得更紧了，脸上的颜色也显得暗淡而压抑。`
+			`	萨杰雷特向你轻轻鞠躬，绿色与微红的色调在皮肤上旋转。“<first> <last>船长，”他说，“看来我已将汝的耐心考验得够久了。卡特里吉派我来，请汝帮我们一个忙。”`
 
 			label questions
 			choice
-				`	"Why haven't I heard from you since the incident?"`
+				`	“出事之后，为什么我一直没收到你们的消息？”`
 					to display
 						has "successors kaatrij patron"
 					goto silence
-				`	"What sort of 'boon?'"`
+				`	“什么样的‘忙’？”`
 					goto boon
-				`	"Why me?"`
+				`	“为什么找我？”`
 
 			label me
-			`	"Thou'rt earning thyself a reputation for efficiency and discretion," Saajret says. "And Kaatrij has need of both. Some scientific equipment here must return to the homeworld, ideally with haste. Canst thy craft serve?"`
+			`	“汝正以高效与谨慎为自己赢得声誉，”萨杰雷特说。“而这两者，卡特里吉都需要。这里的一些科学设备必须运回母星，最好尽快。汝的飞船能否效劳？”`
 				goto offer
 
 			label boon
-			`	"Thy reputation for professionalism seems well-earned, Captain," they say. "Some scientific equipment stored here must return to the homeworld with haste. Canst thy craft serve?"`
+			`	“汝的专业声誉似乎名副其实，船长，”他说。“存放在这里的一些科学设备必须尽快运回母星。汝的飞船能否效劳？”`
 				goto offer
 
 			label silence
-			`	Saajret hums, colors continuing to swim over their body. Eventually, they speak. "In the wake of Kaatrij's wound, our suspicion of others was great and wide. And thou wert included in this, for these incidents came only soon after thy arrival. Some believe thou play'd some part in this, some do not." They pause for a moment, running their eyes over you. "'Tis the latter faction that offers thee this opportunity: some equipment here must return to the homeworld. A chance to demonstrate thy benevolence, mayhaps?"`
+			`	萨杰雷特低声哼着，色彩继续在身上游动。终于，他开口了。“卡特里吉受创之后，我们对他人的猜疑既深且广。汝也在其列，因为这些事件恰在汝到来后不久发生。有人认为汝在其中扮演了某种角色，有人则不然。”他停顿片刻，目光在你身上扫过。“向汝提供这个机会的，正是后一派：这里的一些设备必须运回母星。或许这正是汝展示善意的机会？”`
 
 			label offer
 			choice
-				`	"All right. I assume the House is paying?"`
+				`	“好吧。我想家族会付钱吧？”`
 					goto accepted
-				`	"I don't want to get involved in this."`
+				`	“我不想卷进这件事。”`
 
-			`	"Very well," Saajret says. "'Tis thy own choice, after all."`
+			`	“好吧，”萨杰雷特说。“毕竟这是汝自己的选择。”`
 				decline
 
 			label accepted
-			`	"Of course," Saajret says. "I will see the items are loaded forthwith."`
+			`	“当然，”萨杰雷特说。“我会让人立即把东西装上船。”`
 				accept
 
 	on decline
@@ -616,20 +616,20 @@ mission "Successors: Ghosts 5"
 					has "successors kaatrij patron"
 					has "visited planet: Raaqa-Puan-Uuoru"
 
-			`You've heard <planet> described by outsiders as an insular and well-guarded world, but neither of those prepared you for how strikingly quiet it is. The rainy spaceport seems almost deserted, the loudest sound almost always the pattering of heavy drops on the sail-like projections overhead, only occasionally interrupted by a soft-spoken announcement about an incoming ship landing or departing. None of the Successors you transported give any indication about whether this is typical or just a result of Kaatrij's recent incidents.`
+			`你曾听外人形容<planet>是一个封闭而戒备森严的世界，但这些说法都没能让你料到这里竟会如此安静。阴雨绵绵的太空港几乎空无一人，最响的声音几乎始终是沉重雨滴打在头顶帆状突出物上的啪嗒声，只偶尔被一则轻声播报的飞船起降通知打断。你运送的继承者们没有一个表示过这究竟是常态，还是卡特里吉家族近来变故所致。`
 				goto paid
 
 			label "visited before"
-			`The <planet> spaceport is caught in the midst of a gentle rainstorm. The loudest sound you hear during the time you spend there is the patter of the heavy drops overhead and the occasional whirring of the machinery the dockworkers use to unload your cargo.`
+			`<planet>太空港正笼罩在一场和缓的阵雨中。在你停留期间，你听到的最响的声音就是头顶沉重雨滴的啪嗒声，以及码头工人卸货时所用机械偶尔发出的嗡鸣。`
 
 			label paid
-			`	Saajret meets with you on the landing pad, informing you that you've been credited <payment> by the House for your services. Before leaving, they ask you to return to the spaceport this evening to meet with them.`
+			`	萨杰雷特在着陆台上与你会面，告诉你家族已为你的服务支付了<payment>。离开前，他请你今晚回太空港与他见面。`
 
 
 
 mission "Successors: Ghosts 6"
-	name "Visit <planet> again"
-	description "Saajret, of Somber Sejra has been instructed by House Kaatrij to scan the wildlife on <destination>, which must be of interest to multiple of the High Houses."
+	name "再访<planet>"
+	description "黯淡塞杰拉的萨杰雷特受卡特里吉家族指派，前往<destination>扫描当地的野生动植物——那里想必引起了多个高阶家族的兴趣。"
 	source "Raaqa-Puan-Uuoru"
 	destination "Raaqa-Uur-Kaav"
 	passengers 1
@@ -637,90 +637,90 @@ mission "Successors: Ghosts 6"
 		has "Successors: Ghosts 5: done"
 	on offer
 		conversation
-			`The black-shrouded Saajret meets you back at the spaceport as the sun is setting, joining you in a lobby area looking out on a landing pad for Kaatrij's military ships. As they start to speak, a pair of Veusaden hover to the ground in the distance, their repulsor thrusters kicking into the air drops of the everpresent rain.`
-			`	"I've managed to convince Kaatrij that thou mightst be helpful to us in one more task," they say. "As the situation develops, they now agree thou'rt too substantive to deny all dialog. Dost thou remember thy prior visit to <planet>, wherein thou didst confront the Kijran?"`
+			`夕阳西下时，裹着黑衣的萨杰雷特回到太空港与你会面，和你一同来到一处休息厅，从这里可以望见卡特里吉家族军舰专用的着陆台。他刚开口，远处便有两艘维萨德悬停着降落到地面，它们的斥力推进器将终年不停的雨滴激扬到空中。`
+			`	“我已设法说服卡特里吉，汝或许能在另一项任务上帮到我们，”他说。“随着局势发展，他们如今也认同汝分量太重，不能一概拒绝与汝对话。汝可还记得先前造访<planet>，在那里与基杰兰对峙之事？”`
 			choice
-				`	"Yes."`
-				`	"It was hard to forget."`
+				`	“记得。”`
+				`	“很难忘记。”`
 			branch kaatrij
 				has "successors kaatrij patron"
 
 			action
-				log "People" "Saajret, of Somber Sejra" "Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij."
-			`	"My role here is... something of an archivist," Saajret says, "collecting and ordering information, items, records, of our Predecessors 'fore we left that period behind. Kaatrij believes certain data about the creatures on the old homeworld would be of use to them, and since thou now providest them the opportunity," they say, spreading their arms in a wide gesture, "Kaatrij is willing to compensate thee for taking me there to scan them."`
+				log "People" "Saajret, of Somber Sejra" "黯淡塞杰拉的萨杰雷特是继承者高阶家族卡特里吉的档案员，亦身兼他职。"
+			`	“我在这里的职责……算是档案员吧，”萨杰雷特说，“负责收集、整理我们先民在我们告别那个时代之前留下的信息、物品和记录。卡特里吉认为，关于旧母星上那些生物的某些数据会对他们有用。既然汝如今为他们提供了这个机会，”他张开双臂，做了个宽大的手势，“卡特里吉愿意付钱，请汝带我去那里扫描它们。”`
 				goto choices
 
 			label kaatrij
-			`	"I'm an archivist, as I told thee before," Saajret continues. "Kaatrij believes certain data about the creatures there would be of use to them and, since thou now providest them the opportunity, shall compensate thee for taking me there to scan them."`
+			`	“正如我之前告诉汝的，我是一名档案员，”萨杰雷特继续说。“卡特里吉认为，关于那里生物的某些数据会对他们有用，而既然汝如今为他们提供了这个机会，他们愿意付钱，请汝带我去那里扫描它们。”`
 
 			label choices
 			choice
-				`	"In the wake of an attack, Kaatrij's interest is in scanning plants and animals? I don't buy it."`
+				`	“刚遭受袭击，卡特里吉却对扫描动植物感兴趣？我不信。”`
 					to display
 						"successors: ghosts suspicion" >= 6
 					goto suspicious
 
-				`	"Last time I went the wildlife wasn't very friendly."`
+				`	“上次我去的时候，那里的野生动物可不太友好。”`
 					to display
 						not "Successors FC3: friend to animals"
 					goto scared
 
-				`	"All right."`
+				`	“好吧。”`
 					to display
 						has "Successors FC3: friend to animals"
 					goto yes
 
-				`	"I have no interest in going back there."`
+				`	“我可不想再回那里去。”`
 
-			`	Saajret hums. "After thy prior experience, I wonder'd if that would be the case. Very well," they say. "I'll bid thee farewell, then."`
+			`	萨杰雷特低声哼着。“有了先前那番经历，我就猜到汝会这么说。好吧，”他说。“那我就此与汝道别了。”`
 				decline
 
 			label yes
-			`	"So readily accepted?" Saajret says, more than a little surprised. "Perhaps thy prior experience was not as fearful as I thought. In that case, I shall ready myself to leave and meet thee at thy craft."`
+			`	“答应得这么爽快？”萨杰雷特说，显得颇为惊讶。“或许汝先前的经历并不如我想的那般可怕。既然如此，我这就准备出发，到汝的飞船上与汝会合。”`
 				accept
 
 			label scared
-			`	"Indeed not," Saajret says, humming. "Thou shalt not be expected to face them again, if that concerns thee. The scans I mean to take are not invasive and would not arouse the fury of the Kijran-Khora, but thou'rt needed for naught but transportation there and back."`
+			`	“确实不友好，”萨杰雷特哼着说。“若汝担心此事，汝无需再面对它们。我要进行的扫描并无侵扰性，不会激怒基杰兰-霍拉，汝只需负责往返运送即可。”`
 				goto "final choice"
 
 			label suspicious
 			branch "kaatrij kijran"
 				has "successors kaatrij patron"
 
-			`	Saajret laughs, a quiet ruk-ruk sound that doesn't seem very mirthful. "Perhaps not," they say. "These creatures are important to the House nonetheless. They were important enough to House Sioeora to pay thee to steal, were they not?" They pause, continuing more quietly. "In their own way they are valuable to Kaatrij," they finally add. "What say'st thou to the House's offer?"`
+			`	萨杰雷特笑了起来，发出一种轻轻的“噜-噜”声，听起来并不怎么欢快。“或许是吧，”他说。“但这些生物对家族仍然很重要。它们对肖尔拉家族也重要到足以出钱雇汝去偷，不是吗？”他停顿了一下，声音放低了些。“它们以自己的方式对卡特里吉而言很有价值，”他最后补充道。“对于家族的提议，汝意下如何？”`
 				goto "final choice"
 
 			label "kaatrij kijran"
-			`	Saajret laughs, a quiet ruk-ruk sound that doesn't seem very mirthful. "'Twas the Kaatrij of old that engineered them, was it not? Is it not sensible that they would be important to the House, worthy of a cast gaze even in a fraught time?" They pause for a moment, a swirl of indeterminate colors on their face. "What say'st thou to the House's offer?" they finally say.`
+			`	萨杰雷特笑了起来，发出一种轻轻的“噜-噜”声，听起来并不怎么欢快。“设计出它们的，正是古时的卡特里吉，不是吗？它们对家族至关重要，即使在这动荡时期也值得一顾，这难道不合情理吗？”他停顿片刻，脸上旋起一团难以分辨的颜色。“对于家族的提议，汝意下如何？”他终于说道。`
 				goto "final choice"
 
 			label "final choice"
 			choice
-				`	"All right, I'll do it."`
-				`	"I'm still not willing to go back."`
+				`	“好吧，我去。”`
+				`	“我还是不愿意回去。”`
 					decline
 
-			`	"Kaatrij will be pleased," says Saajret. "I shall ready myself to leave and meet thee then at thy craft."`
+			`	“卡特里吉会很高兴的，”萨杰雷特说。“我这就准备出发，到汝的飞船上与汝会合。”`
 				accept
 
 	on complete
 		conversation
-			`	You land your ship on the outskirts of the same facility you visited with Sieasej in the past; it looks much the same, though now many of the green plants have turned various shades of yellow and orange as the seasons have changed. Saajret meets you in your ship's cockpit, now dressed in a slightly different black, well-pocketed outfit. They carry a device with a rotating drum in one of their arms, probably some sort of scanner.`
-			`	"I shall keep in contact with thy craft," they say, "though I foresee no problems in my expedition. Expect me back about three hours hence."`
-			`	As they leave, you are left with little to do but wait.`
+			`	你把飞船降落在你过去与谢阿塞一同造访过的那座设施的外围；它看上去大致未变，只是随着季节更替，许多绿色植物已变成深浅不一的黄色和橙色。萨杰雷特在你的驾驶舱与你会合，此时他换上了一套略有不同、同样缀满口袋的黑色服装。他用一条手臂托着一台带有旋转鼓的装置，大概是某种扫描仪。`
+			`	“我会与汝的飞船保持联络，”他说，“不过我预计此行不会有什么问题。大约三小时后等我回来。”`
+			`	他离开后，你除了等待也没什么可做的。`
 			choice
-				`	(Assess your ship's systems.)`
+				`	（检查飞船系统。）`
 					goto inside
-				`	(Look around outside.)`
+				`	（到外面看看。）`
 
 			branch "friend to animals"
 				has "Successors FC3: friend to animals"
 
-			`	The remarkably peaceful vista conceals a feeling of unease; in the distance, you see cuts in a couple of trees, their bark leaking sap from a wound surely left by a serrated antenna. You spy what you recognize as a Kijra-riita flitting between trees; it drains a flower of nectar on a shrub and bats a twig full of dried leaves, knocking a few to the ground. Perhaps it's the same one you encountered the last time you visited.`
+			`	这片格外宁静的景色之下潜藏着一丝不安；远处，你看到几棵树上有切痕，树皮从伤口处渗出汁液，那伤口无疑是锯齿状触角留下的。你发现了一只你认得的基杰拉-里塔，正在树间飞掠；它吸干了一丛灌木上一朵花的花蜜，又拍打一根挂满枯叶的树枝，把几片叶子打落在地。也许它正是你上次来访时遇到的那一只。`
 				goto saajret
 
 			label "friend to animals"
-			`	It's a remarkably peaceful vista and only becomes more so as the day wears into late afternoon and the autumn color is amplified by the golden sunlight. In the distance you see what you recognize as a Kijra-riita flitting between trees; it laps nectar from a flower on a shrub and playfully bats at a twig full of dried leaves, knocking a few to the ground. Perhaps it's the same one you released the last time you visited.`
+			`	这是一片格外宁静的景色，随着白昼渐入午后，金色的阳光让秋日的色彩愈发浓烈，景色也变得愈加宁静。远处，你看到一只你认得的基杰拉-里塔正在树间飞掠；它从一丛灌木的花朵里舔食花蜜，又顽皮地拍打一根挂满枯叶的树枝，把几片叶子打落在地。也许它正是你上次来访时放走的那一只。`
 				goto saajret
 
 			label inside
@@ -729,38 +729,38 @@ mission "Successors: Ghosts 6"
 					has "Successors: Ghosts Myurej 4: done"
 					has "Successors: Ghosts Myurej 4: active"
 
-			`	You check over the <ship>'s various internal systems, making sure its power couplings are operating within normal parameters and taking a long moment to admire its jump drive, which hums away inside its housing, inscrutable as always.`
+			`	你检查了<ship>的各项内部系统，确保其能量耦合器在正常参数内运行，并花了好一会儿欣赏它的跃迁驱动器——它在外壳中嗡嗡运转，一如既往地高深莫测。`
 				goto saajret
 
 			label "killed riiria"
 			action
 				"successors: ghosts suspicion" ++
-			`	You check over the <ship>'s various internal systems, and discover a mysterious anomaly in one of the power consumption logs, though it's hard to track down what caused it or where it was located. Regardless, the anomaly resolved itself some time ago.`
+			`	你检查了<ship>的各项内部系统，在一份能耗日志中发现了一处神秘的异常，但很难查出是什么引起的，也难以确定它发生在哪里。不管怎样，这个异常早在一段时间前就自行消失了。`
 
 			label saajret
-			`	Saajret soon returns as they promised, apparently unharmed. They unload their equipment in the quarters you set aside for them before returning to you in the cockpit. "It went without incident," they say, a shade of satisfaction on their skin. As they turn to go away, they catch themself, turning back around with a bit of trepidation. "I may never get this chance again, so I'll speak now: I've a personal request to beg of thee. There's another world within the Shroud where in the past my ancestors resided. 'Fore we return to Kaatrij, I'd long to see it for myself. I'd pay thee for the diversion, of course."`
+			`	萨杰雷特如他所言很快便回来了，看上去毫发无伤。他把设备卸到你为他预留的舱室里，然后回到驾驶舱找你。“一切顺利，”他说，皮肤上泛起一抹满意的色彩。他转身要走，却又停住，带着几分忐忑转过身来。“我也许再也不会有这样的机会了，所以我现在就说吧：我有一个私人请求想求汝。在帷幕之内还有另一个世界，我的祖先过去曾在那里居住。在我们返回卡特里吉之前，我很想亲眼去看看。当然，我会为这段绕路付钱给汝。”`
 			choice
 				`	“当然，我带你们去。”`
 					goto helped
-				`	"Sorry, you'll have to figure something else out."`
-			`	Saajret struggles to keep their disappointment from showing. "Very well," they manage to say before leaving.`
+				`	“抱歉，你得另想办法了。”`
+			`	萨杰雷特竭力不让失望流露出来。“好吧，”他勉强说完，便离开了。`
 				goto end
 
 			label helped
 			action
 				set "Successors: Ghosts Helped Saajret"
-			`	Saajret keeps their composure for a second before a faint pink color creeps up their face and arms. "My thanks to thee, Captain," they say. "The world is Osolaa-Val-Mavra; I'll give thee its place."`
+			`	萨杰雷特保持了一秒的镇定，随后一抹淡粉色爬上了他的脸和手臂。“我感谢汝，船长，”他说。“那个世界是奥索拉-瓦尔-马夫拉；我会把它的位置交给汝。”`
 
 			label end
-			`	With nothing left to do here, you prepare to leave.`
+			`	这里已无事可做，你准备离开。`
 
 
 
 mission "Successors: Ghosts 7a"
 	transition
 	clearance
-	name "Detour to Osolaa-Val-Mavra"
-	description "Saajret has asked to visit <stopovers> as a personal favor, before returning home to <planet>."
+	name "绕道前往奥索拉-瓦尔-马夫拉"
+	description "萨杰雷特请你帮个私人的忙：在返回<planet>老家之前，先去<stopovers>一趟。"
 	stopover "Osolaa-Val-Mavra"
 	destination "Raaqa-Puan-Uuoru"
 	passengers 1
@@ -768,47 +768,47 @@ mission "Successors: Ghosts 7a"
 		has "Successors: Ghosts 6: done"
 		has "Successors: Ghosts Helped Saajret"
 	on stopover
-		log "Took Saajret to the Predecessor planet Osolaa-Val-Mavra. They visited an abandoned city on the surface where an ancestor of theirs once lived, retrieving from it a data-sphere and a small wooden box."
+		log "带萨杰雷特前往先民星球奥索拉-瓦尔-马夫拉。他造访了地表上一座被遗弃的城市，他的一位祖先曾在那里生活，并从中取回了一个数据球和一个小木盒。"
 		conversation
-			`You set the <ship> on one of the landing terraces of the planet's equatorial trench, near a location that Saajret indicates. The spot provides a dizzying view: snowflakes from a cloud overhead drift over ledges and deserted balconies before falling kilometers down into the abyss below. Saajret joins you by the airlock, now wrapped warmly in a shiny silver outfit with a collar of small ribbons that stream in the breeze.`
-			`	"What is this place?" you ask.`
-			`	A blue tone makes its way over Saajret's face. "'Twas an arc of homes and shops before they were abandoned," they say. A couple of snowflakes land on their skin and their arms wriggle against the white ground. "Thou may'st join me if thou desirest. Kaatrij demands no secrecy from us here."`
+			`你按照萨杰雷特指示的位置，把<ship>降落在这颗行星赤道海沟的一处着陆阶台上。这里的景色令人目眩：头顶云层飘落的雪花掠过一道道岩架和空无一人的阳台，然后坠入下方数公里深的深渊。萨杰雷特来到气闸旁与你会合，此时他裹着一套暖和的闪亮银色服装，衣领上缀着一圈在微风中飘扬的小丝带。`
+			`	“这是什么地方？”你问道。`
+			`	一抹蓝色漫过萨杰雷特的脸。“在被遗弃之前，这里曾是一片弧形排列的住宅和商铺，”他说。几片雪花落在他的皮肤上，他的手臂在白色的地面上蠕动。“汝若愿意，可以随我同去。在这里，卡特里吉并不要求我们保密。”`
 			choice
 				`	（跟他们走。）`
-				`	(Stay.)`
+				`	（留下。）`
 					goto stay
-			`	The two of you make your way through the abandoned streets. You are struck by how well-preserved everything is; more than those of any other Predecessor world, the buildings here seem only temporarily vacant, as if the two of you had merely caught the city on a day with everyone missing. A trio of little cleaning robots run around the rim of a fountain, polishing away the snow before it even has time to melt in the sun.`
-			`	Saajret follows their own path, periodically checking what must be a map on a datapad they carry. Occasionally their skin will erupt in color as they see something that interests them, but they never stay distracted for long. Eventually the two of you arrive in an elegant square of organic buildings; Saajret checks their map a few times before declaring, "Here we are."`
+			`	你们俩穿行在被遗弃的街道上。一切都保存得如此完好，令你震惊；这里的建筑比任何其他先民世界的都更像只是暂时空置，仿佛你们恰好在某个所有人都不在的日子来到了这座城市。三台小型清洁机器人沿着一座喷泉的边缘跑来跑去，在积雪还来不及在阳光下融化之前就把它擦拭干净。`
+			`	萨杰雷特走着自己的路线，不时查看随身数据板上想必是地图的东西。偶尔，当他看到感兴趣的东西时，皮肤上会骤然迸发出色彩，但他从不会分心太久。最终，你们俩来到一座由有机建筑环绕的雅致广场；萨杰雷特又查看了几次地图，然后宣布：“到了。”`
 			choice
-				`	"And where is 'here'?"`
-				`	"It's a pretty spot."`
+				`	“‘这里’是哪里？”`
+				`	“这地方真漂亮。”`
 				`	（保持沉默。）`
 					goto building
 
-			`	"An ancestor of mine lived here briefly," they say. "One of import in the last days of House Sejra. But when they lived here, all that was still to come."`
+			`	“我的一位祖先曾在这里短暂居住过，”他说。“那是塞杰拉家族末期的一位要人。不过在他住在这里的时候，那一切都还未发生。”`
 
 			label building
-			`	Saajret walks inside the largest building, entering a code onto a spherical terminal beside the door. You move to go after them, but they hold out an arm to stop you. "This last part, I would prefer to go alone," they say. They point to a high bench outside.`
-			`	They stay inside for about half an hour; you watch the snow fall on the square and the terraces. When Saajret returns, they are carrying a data-sphere and a small wooden box that they carry cradled in one of their arms. There's a color on their face you can't quite place.`
+			`	萨杰雷特走进最大的那座建筑，在门边一台球形终端上输入了一串代码。你正要跟进去，他却伸出一条手臂拦住了你。“最后这一段，我更想独自前往，”他说。他指了指外面的一张高长椅。`
+			`	他在里面待了大约半小时；你看着雪花飘落在广场和阶台上。萨杰雷特回来时，带着一个数据球和一个小木盒，他用一条手臂把它们抱在怀里。他脸上有一种你说不太上来的颜色。`
 			choice
-				`	"Are you ready to return?"`
-				`	"What did you get?"`
+				`	“你准备好回去了吗？”`
+				`	“你拿到了什么？”`
 					goto nosy
-			`	They hum. "Yes, I have what I came for," they say, "thanks to thine indulgence of me. I shan't forget that."`
+			`	他低声哼了哼。“是的，我已拿到所求之物，”他说，“这多亏了汝对我的迁就。我不会忘记的。”`
 				goto end
 
 			label nosy
-			`	They hum. "One thing I had hoped for and another I had dreaded. So often those two go arm-in-arm, do they not?" The color on their face fades. "I have what I came for," they say. "My thanks to thee for indulging me in this."`
+			`	他低声哼了哼。“一样是我所盼望的，另一样是我所畏惧的。这两者常常结伴而行，不是吗？”他脸上的颜色渐渐褪去。“我已拿到所求之物，”他说。“感谢汝在此事上对我的迁就。”`
 				goto end
 
 			label stay
-			`	Saajret splays their arms as farewell and tells you to expect them back before nightfall. You look over your ship's systems, take in the views, and watch the snow clump in the joints of the <ship>'s hull.`
-			`	A couple of hours later, Saajret returns. They carry in their arms a data-sphere and a small wooden box, intricately carved. "I have all I came for, I believe," they tell you, and there's a color on their face you can't quite place. "My thanks," they say, "for indulging me."`
+			`	萨杰雷特张开双臂作别，告诉你他会在天黑前回来。你检查了飞船的系统，欣赏了一番风景，看着雪花在<ship>船体的接缝处积聚成团。`
+			`	几个小时后，萨杰雷特回来了。他双臂抱着一个数据球和一个雕刻精美的小木盒。“我想，我已拿到所求的一切，”他告诉你，脸上有一种你说不太上来的颜色。“谢谢汝，”他说，“迁就了我。”`
 
 			label end
-			`	The two of you pack up your things and prepare for departure.`
+			`	你们俩收拾好东西，准备启程。`
 	on complete
-		log "Saajret told a story about the hunting practices of the elusive self-camouflaging Kijran-Khora. These infiltrated House Kaatrij's bases long in the past. They suggested someone might do something similar."
+		log "萨杰雷特讲了一个故事，关于行踪难觅、能自我伪装的基杰兰-霍拉的狩猎习性。很久以前，它们曾潜入卡特里吉家族的基地。他暗示或许有人会做类似的事。"
 		payment 220000
 		conversation "saajret returns"
 		event "successors: ghosts cloak prompt delay" 30
@@ -820,14 +820,14 @@ mission "Successors: Ghosts 7b"
 	transition
 	clearance
 	name "返回<planet>"
-	description "Having declined Saajret's request for a detour, return them home to <planet>."
+	description "你拒绝了萨杰雷特绕道的请求，现在把他送回<planet>的家。"
 	destination "Raaqa-Puan-Uuoru"
 	passengers 1
 	to offer
 		has "Successors: Ghosts 6: done"
 		not "Successors: Ghosts Helped Saajret"
 	on complete
-		log "Saajret told a story about the hunting practices of the elusive self-camouflaging Kijran-Khora. These infiltrated House Kaatrij's bases long in the past. They suggested someone might do something similar."
+		log "萨杰雷特讲了一个故事，关于行踪难觅、能自我伪装的基杰兰-霍拉的狩猎习性。很久以前，它们曾潜入卡特里吉家族的基地。他暗示或许有人会做类似的事。"
 		payment 140000
 		conversation "saajret returns"
 		event "successors: ghosts cloak prompt delay" 30
@@ -837,40 +837,40 @@ mission "Successors: Ghosts 7b"
 
 
 conversation "saajret returns"
-	`	Your ship once again glides into the <planet> spaceport, slipping beneath a dense layer of early-morning fog. Saajret meets you just outside, informing you the data they were sent to collect has already been transmitted and thanking you for your help.`
+	`	你的飞船再次滑入<planet>太空港，从一层浓密的晨雾下方穿过。萨杰雷特在舱外迎接你，告诉你他受命收集的数据已经传送出去，并感谢你的帮助。`
 	branch helped
 		has "Successors: Ghosts Helped Saajret"
-	`	They tell you to expect a deposit of <payment> from House Kaatrij.`
+	`	他告诉你，卡特里吉家族会向你支付<payment>。`
 		goto secret
 
 	label helped
-	`	They tell you to expect a deposit of 140000 credits from House Kaatrij and hand over a small chip containing 80000 additional credits.`
+	`	他告诉你，卡特里吉家族会向你支付140000信用点，并另外递给你一枚装有80000信用点的小芯片。`
 
 	label secret
-	`	As Saajret watches a dockworker fitting a fuel hose to the <ship>'s side, something changes in their demeanor and a glint of almost furious orange sparks on their skin. "Captain," they say. "I'm told that thou'st experienced for thyself the hunting practices of the dread Kijran-Khora."`
+	`	萨杰雷特看着一名码头工人把燃料软管接到<ship>的侧面，他的神态忽然起了变化，皮肤上闪过一道近乎愤怒的橙色火花。“船长，”他说。“我听说汝曾亲身领教过可怖的基杰兰-霍拉的狩猎手段。”`
 	choice
-		`	"I beg your pardon?"`
-		`	"A little too closely, actually."`
-	`	They continue, the color continuing to sparkle on their skin. "Beautiful beasts, aren't they? Truly aspirational; adept at camouflage, hiding themselves beyond all but the most scrutinizing gaze before closing in on their quarry. In the early days of Kaatrij, when the Kijran were still new, some particularly well-cloaked ones slipped into a weather-control tower. Perhaps," they say, "one might learn from their example, were there somewhere notable one wished to go." They cast their gaze upward, where the shimmering dots of planets above peek through the clouds.`
+		`	“你说什么？”`
+		`	“其实是领教得太近了点。”`
+	`	他继续说着，色彩仍在皮肤上闪烁。“很美的野兽，不是吗？着实令人向往；它们精于伪装，除了最审慎的目光，谁也发现不了它们，直到它们向猎物逼近。在卡特里吉的早期，基杰兰还是新物种时，有几只伪装得格外好的溜进了一座气候控制塔。或许，”他说，“若有人想去某个要紧的地方，可以向它们学学。”他抬眼向上望去，头顶的行星化作闪烁的光点，从云层间隐约透出。`
 	choice
-		`	"Why are you telling me this?"`
-		`	"Are you trying to tell me something?"`
+		`	“你为什么要告诉我这些？”`
+		`	“你是想暗示我什么吗？”`
 			goto foolish
-	`	The sparkle of color on their skin dies down and they look at you with mirth in their eyes. "I'm an archivist," they say. "I adore a good story."`
+	`	他皮肤上闪烁的色彩渐渐平息，他用含着笑意的眼睛看着你。“我是个档案员，”他说。“我就爱听好故事。”`
 		goto end
 
 	label foolish
-	`	The sparkle of color on their face intensifies for a moment before dying out. "Naught but an archivist's foolish games," they say.`
+	`	他脸上闪烁的色彩骤然增强了片刻，随即消失。“不过是一个档案员愚蠢的游戏罢了，”他说。`
 
 	label end
-	`	They look over at the spaceport again. "Till again we meet, <first> <last>."`
+	`	他又望向太空港。“后会有期，<first> <last>。”`
 
 
 
 mission "Successors: Ghosts Cloak Prompt"
 	landing
 	name "调查 <planet>"
-	description "Saajret's cryptic message may have been suggesting a way to more closely investigate House Kaatrij's hidden base on <planet>. Try to bypass the blockade by using a ship that can cloak."
+	description "萨杰雷特那番隐晦的话，或许是在暗示一种更深入调查卡特里吉家族位于<planet>的隐秘基地的方法。试着驾驶一艘具备隐形能力的飞船突破封锁。"
 	destination "Qasa-Sija-Iri"
 	source
 		attributes successor
@@ -880,9 +880,9 @@ mission "Successors: Ghosts Cloak Prompt"
 		not "Successors: Ghosts 8: offered"
 	on offer
 		conversation
-			`You spend a little while stretching your legs here on the <origin> spaceport, watching the various ships come in and go out and looking over the wide variety of Successors that mill about them. In many ways it's not unlike human space, though the elegance and efficiency with which the Successors build and operate their spaceports gives some hint about the much greater experience they have as an interstellar species.`
-			`	Some things are just the same, though, like the news display that you realize is right above you as it lets out a particularly noticeable warble. It catches your eye for a moment; the program is presenting a visualization of what the attack on House Seineq's base could have plausibly looked like, a well of morphic metal unspooling from the display to form small simulated Vujleten flying in formation, firing their weapons, and even cloaking themselves once they've delivered their payloads, their forms growing indistinct and wavy as the liquid metal returns to its origin.`
-			`	As the narrator intones something about historical uses of cloaking technology, a spark of understanding suddenly lights in your mind: you recall your last conversation with Saajret and their story about the camouflaging Kijran-Khora, and in light of House Kaatrij's blockade over <planet>, how they might have been offering you a way that you could investigate Kaatrij's base for yourself. The moon's atmosphere is thin enough that a cloaked ship could probably approach the surface totally undetected, even considering the no-doubt advanced scanners House Kaatrij is using to detect intruders.`
+			`你在<origin>太空港待了一会儿，舒展舒展腿脚，看着各式飞船进进出出，打量着在它们周围往来的形形色色的继承者。在许多方面，这里与人类空间并无太大不同，不过继承者建造和运营太空港时所展现的优雅与高效，多少透露出他们作为星际物种所拥有的远为丰富的经验。`
+			`	不过有些东西是一样的，比如你发现就在你头顶的新闻屏幕，它恰好发出一声格外引人注意的颤鸣。它吸引了你片刻的注意；节目正在演示塞内克家族基地遇袭时可能的情形：一汪可变形的金属从屏幕中舒展而出，化作模拟的小型武杰莱特编队飞行，开火射击，甚至在投下载荷后启动隐形，随着液态金属流回原处，它们的形体也变得模糊而波动。`
+			`	当解说员用平板的语调讲起隐形技术的历史用途时，你脑中忽然灵光一闪：你想起了上次与萨杰雷特的谈话，以及他讲的那个关于善于伪装的基杰兰-霍拉的故事；再联想到卡特里吉家族对<planet>的封锁，他或许是在向你提供一种亲自调查卡特里吉基地的方法。这颗卫星的大气足够稀薄，即使考虑到卡特里吉家族用来侦测入侵者的那些无疑十分先进的扫描器，一艘隐形飞船大概也能完全不被察觉地接近地表。`
 				accept
 
 
@@ -896,28 +896,28 @@ mission "Successors: Ghosts 8"
 			has "Successors: Ghosts 7b: done"
 	on offer
 		conversation
-			`As you enter orbit over <origin>, you can see that House Kaatrij continues to occupy the planet's surface, scanning and intercepting any ships that might attempt to land.`
+			`当你进入<origin>的轨道时，你可以看到卡特里吉家族仍然占据着这颗行星的地表，扫描并拦截任何试图降落的飞船。`
 			choice
-				`	(Cloak.)`
+				`	（启动隐形。）`
 					to activate
 						has "flagship attribute: cloak"
 					goto cloaked
-				`	(Continue down.)`
-				`	(Leave.)`
+				`	（继续下降。）`
+				`	（离开。）`
 					depart
-			`	The <ship> is soon detected by Kaatrij's scanners, and you are forced to return to orbit lest you face destruction.`
+			`	<ship>很快就被卡特里吉的扫描器发现，你被迫返回轨道，以免遭到摧毁。`
 				depart
 			label cloaked
 			action
 				set "successors: ghosts seen quarg"
-			`	The hull of the <ship> warbles as its cloaking equipment engages, and as the seconds pass it becomes clear that Kaatrij's ships cannot detect you above the mostly-airless moon. Though you must descend slowly to avoid disturbing the atmosphere, you eventually find your way over the sandy surface to right above the now-revealed base House Kaatrij went to so much effort to hide.`
-			`	As you once saw in the news broadcast, the outline of it is an enormous circle several kilometers in radius. Though the shimmering effect is now gone and some of the damage has been repaired, much of it still remains visible and there appears to be ongoing work on the damaged sections - House Kaatrij-registered freighters land on temporary landing pads and offload massive amounts of materials, some familiar, some not.`
-			`	Most striking of all, however, is the appearance of some familiar-looking dark metal and purple lighting in the damaged section of the base; it's hard to be certain, but it bears a distinct resemblance to Quarg technology. Perhaps the Quarg might be able to provide some answers about what's been going on.`
-			`	Not long after you see this, a thin sandstorm starts to roll in, and you take the <ship> back up to orbit before the mysterious absence of airborne grit gives your ship away.`
+			`	<ship>的船体随着隐形装置启动而泛起波纹，几秒钟过去，情况越来越明显：卡特里吉的舰船在这颗几乎没有大气的卫星上空无法发现你。尽管你必须缓慢下降以免扰动大气，但你最终还是来到了沙质地表上空，正位于那座卡特里吉家族费尽心机隐藏、如今已暴露的基地上方。`
+			`	正如你曾在新闻广播中看到的，它的轮廓是一个半径数公里的巨大圆形。尽管那种微光闪烁的效果如今已经消失，部分损坏也已修复，但大部分损坏仍清晰可见，受损区域似乎正在持续施工——登记在卡特里吉家族名下的货船降落在临时着陆台上，卸下大量材料，有些你很眼熟，有些则不然。`
+			`	然而最引人注目的是，基地受损区域中出现了一些看起来很眼熟的深色金属和紫色灯光；虽然难以确定，但它与夸格的技术有着明显的相似之处。或许夸格能就这里发生的事给出一些答案。`
+			`	看到这一幕后不久，一场稀薄的沙尘暴开始席卷而来，你驾驶<ship>返回轨道，以免空中沙尘那蹊跷的缺失暴露你的飞船。`
 				flee
 
 	on decline
-		log "Approached the base on Qasa-Sija-Iri while under cloak. Its design vaguely resembles Quarg construction - perhaps they have some answers about what's been going on with the Successors."
+		log "在隐形状态下接近了卡萨-西贾-伊里上的基地。它的设计隐约类似夸格的建筑——也许夸格能解答继承者那边发生的事。"
 
 
 
@@ -929,59 +929,59 @@ mission "Successors: Ghosts 9"
 		has "successors: ghosts seen quarg"
 	on offer
 		conversation
-			`Do you want to ask the Quarg here about their base on the Successor moon Qasa-Sija-Iri?`
+			`你想向这里的夸格询问他们在继承者卫星卡萨-西贾-伊里上的基地吗？`
 			choice
-				`	(Yes.)`
+				`	（是。）`
 				`	（现在不了。）`
 					defer
-			`	Though so far individual Quarg have seemed equivalent in their ability to answer your questions, it is several minutes before you spot one here who, for some reason, seems like it would be able to answer. When you repeat your question to it, it blinks slowly, and answers even more so.`
-			`	"I see," it says. "You have uncovered one of our great secrets of the galaxy. You were right to think that the world you speak of is ours. After what that foolish species did to themselves, we the Quarg could not bear to leave them unobserved. But we dared not do so unshrouded, lest we once again rouse them to the heights of envy - so we built no ringworld, no stations, no open worlds. Only a little... watching post, to keep our gaze over the Myiara."`
-			`	You interject. "The Myiara? Do you mean the Successors?"`
-			`	The Quarg considers the term. "Before they called themselves that, they were the Myiara. Have they truly become so rooted in their memories of their valorous past?" It makes a noise like the rumbling of distant thunder. "You must have questions."`
+			`	尽管到目前为止，每个夸格回答你问题的能力似乎都不相上下，但过了好几分钟，你才在这里发现一个不知为何看起来能够回答的夸格。当你向它重复你的问题时，它缓缓眨了眨眼，回答得更加缓慢。`
+			`	“我明白了，”它说。“你揭开了我们在这个银河系中的一个重大秘密。你认为你所说的那个世界属于我们，这没有错。在那个愚蠢的物种对自己做出那种事之后，我们夸格不忍对他们放任不管。但我们不敢毫无遮掩地这样做，以免再次激起他们的嫉妒之心——所以我们没有建造环形世界，没有空间站，没有公开的世界。只有一个小小的……观察哨，让我们得以注视着米亚拉。”`
+			`	你插话道：“米亚拉？你是说继承者吗？”`
+			`	夸格思考着这个称呼。“在他们这样称呼自己之前，他们是米亚拉。他们真的已如此执着于对自己英勇过去的记忆了吗？”它发出一种如远方雷声隆隆般的声音。“你一定有很多问题。”`
 			choice
-				`	"What is it that they did to themselves? Did they build some kind of terrible weapons?"`
+				`	“他们对自己做了什么？他们制造了某种可怕的武器吗？”`
 					goto what
-				`	"I didn't think hiding away was in your nature."`
+				`	“我还以为躲躲藏藏不是你们的作风。”`
 					goto hiding
 
 			label what
-			`	"No," says the Quarg, "not weapons. That you have met them shows that you have found, or stolen, the secret to sail between the stars unhindered. Long, long ago, the Drak discovered that secret for the first time, and after many years, they shared it with us, the Quarg, so that peace and amity might reign in the galaxy. Then, only a few thousand human years ago, the Myiara found it too." The Quarg blinks slowly, and its whole body slumps as if burdened by a great sorrow.`
-			`	"What they discovered was not what the Drak had, nor the beauty that the Korath, despite all their warring, had wrought. It was a new and dangerous thing, and while it let them explore with new freedom, in the years that followed, its mark became clear. It rent wounds among the stars, tore apart the paths between them, led their ships away to nowhere, and turned their verdant worlds to ash."`
+			`	“不，”夸格说，“不是武器。你能遇见他们，说明你已经找到——或者偷到了——在群星之间畅行无阻的秘密。很久很久以前，德拉克首次发现了这个秘密，许多年后，他们把它分享给了我们夸格，好让和平与友爱统治银河系。然后，就在几千个人类年之前，米亚拉也发现了它。”夸格缓缓眨眼，整个身体垂下，仿佛背负着巨大的悲伤。`
+			`	“他们发现的，并不是德拉克所拥有的东西，也不是科拉斯尽管征战不休却依然造就的那种美。那是一种新的、危险的东西，虽然它让他们得以更自由地探索，但在随后的岁月里，它的印记变得清晰可见。它在群星之间撕开伤口，撕裂了星辰之间的通路，将他们的舰船引向虚无之境，并将他们葱郁的世界化为灰烬。”`
 			choice
-				`	"Why did you allow them to develop something so destructive?"`
+				`	“你们为什么允许他们发展出如此具有破坏性的东西？”`
 					goto allow
-				`	"How did you keep yourselves hidden for so long?"`
+				`	“你们是如何把自己隐藏了这么久的？”`
 					goto hiding
 
 			label allow
-			`	"They were then upon the precipice of a great change. Their long-wrought divisions were melding; they had turned away from the gruesome vagaries of war, and were moved to explore and preserve the arts of others. We hoped," and the Quarg imparts a heightened tone on this word, "that in time, they could become as we are, guardians and friends to all. Our judgment was clouded by our desire for this."`
+			`	“那时，他们正站在一场巨变的边缘。他们长久以来的分裂正在弥合；他们已摒弃了战争那骇人的反复无常，转而致力于探索和保存其他种族的艺术。我们曾希望，”夸格在这个词上加重了语气，“假以时日，他们能变得和我们一样，成为所有种族的守护者和朋友。我们的判断被这种渴望蒙蔽了。”`
 			choice
-				`	"It's hard to believe they were ever so unified."`
-				`	"You saw them as equals to yourselves?"`
-			`	A demeanor of great reflection passes over the Quarg, and then is gone just as quickly. "The Myiara were like... children, just beginning to conceive of and adopt the responsibilities that lie beyond youth. Full of cleverness and arrogance still, but borne aloft by a new-blooming capacity to see beyond themselves and their own base concerns."`
+				`	“很难相信他们曾经如此团结。”`
+				`	“你们把他们视为与自己平等的存在？”`
+			`	一种深沉的反思神情掠过夸格，又同样迅速地消失了。“米亚拉就像……孩子，刚刚开始理解并承担起青春之后的责任。他们依然满怀聪明与傲慢，却也被一种新萌发的能力托举起来，得以超越自身和自身的卑微关切去看待世界。”`
 			choice
-				`	"How did you keep yourself hidden from them for so long?"`
+				`	“你们是如何把自己隐藏了这么久的？”`
 
 			label hiding
-			`	"Hiding indeed does not come naturally to us," the Quarg says. "With no others have we had need to conceal ourselves. One of their Houses, when it knew what they had done, agreed to work with us to preserve their species. They were most skilled in matters of illusion, and shared their cloaks with us to obscure our presence."`
+			`	“躲藏确实不是我们的天性，”夸格说。“对其他任何种族，我们都从未需要隐藏自己。他们的一个家族在得知他们所做的事后，同意与我们合作，以保全他们的物种。他们最擅长幻象之术，并与我们分享了他们的隐形技术，以遮蔽我们的存在。”`
 				goto end
 
 			label end
-			`	"What troubles this one most, though," says the Quarg, "is that this watching post of ours was laid bare to see at all. We made ourselves rancid to the Myiara for their own good, stole away their precious creations, worked with those of them who would help us to tear down so much of what they had built, sealed them away - all so they would not have the means to recreate their folly in a later age. That this deception of ours has come to light may drive them even further from what they were, undo even the meager gains they have wrought in their exile. For all their wrong, that would still be a cause for lament."`
-			`	With that, the Quarg offers you a gentle bow. "Goodbye now, Captain," they say, and quietly walk away.`
+			`	“不过，最令我困扰的，”夸格说，“是我们的这座观察哨竟会被人看见。为了米亚拉自身的好处，我们让自己在他们眼中变得令人憎恶，夺走了他们珍贵的造物，与他们之中愿意帮助我们的人合作，拆毁了他们所建造的许多东西，将他们封闭起来——这一切都是为了让他们在日后的时代里没有重蹈覆辙的手段。我们的这场欺骗已然曝光，这可能会使他们离过去的自己更远，甚至抹去他们在流亡中取得的微薄进步。纵然他们有千般过错，那仍将是令人哀叹之事。”`
+			`	说完，夸格向你轻轻鞠了一躬。“再见了，船长，”它说，然后静静地走开了。`
 				decline
 
 	on decline
 		set "successors: myiara name"
-		log "Spoke with the Quarg, who revealed that they have kept a base on Qasa-Sija-Iri to monitor the Successors. It has remained cloaked by House Kaatrij, who has collaborated with the Quarg since the collapse of the Predecessors."
-		log "Factions" "Successors" "The Successor species is properly referred to as the Myiara, though this term has fallen out of favor since the collapse of their old empire."
+		log "与夸格交谈，得知他们在卡萨-西贾-伊里上设有一座基地，用以监视继承者。自先民崩溃以来，这座基地一直由与夸格合作的卡特里吉家族负责隐形遮蔽。"
+		log "Factions" "Successors" "继承者这一物种的正式名称是米亚拉，不过自他们的旧帝国崩溃以来，这个称呼已不再受欢迎。"
 
 
 
 mission "Successors: Ghosts 10"
 	landing
-	name "Meet with House Kaatrij"
-	description "Having allied with House Kaatrij, go with one of their military ships to their base at <destination>."
+	name "与卡特里吉家族会面"
+	description "既然已与卡特里吉家族结盟，就随他们的一艘军舰前往他们位于<destination>的基地。"
 	source
 		government "Successor" "New Houses"
 	destination "Qasa-Sija-Iri"
@@ -990,101 +990,101 @@ mission "Successors: Ghosts 10"
 		has "successors: ghosts dealt with aqrabe"
 	on offer
 		conversation
-			`As you disembark from your ship, you notice a group of Successor soldiers emerging from another craft in the spaceport, a Seiitej bearing House Kaatrij's colors. They meet you outside your own vessel, their weapons held at attention.`
-			`	"Captain <first> <last>," their leader says, "We've been instructed to take thee with us."`
+			`你走下飞船时，注意到一群继承者士兵正从太空港里的另一艘飞船中走出，那是一艘涂着卡特里吉家族配色的塞特吉。他们在你的飞船外与你碰面，手持武器，保持戒备姿态。`
+			`	“<first> <last>船长，”他们的首领说，“我们奉命带汝随我们走。”`
 			choice
-				`	"For what purpose exactly?"`
+				`	“究竟是为了什么？”`
 					goto purpose
 				`	“如果我拒绝呢？”`
-			`	"That would not be wise," the officer says. "Thou shalt understand, we trust?"`
+			`	“那并不明智，”那名军官说。“汝会明白的，对吧？”`
 				goto interrogation
 
 			label purpose
-			`	"Kaatrij wishes to speak with thee," says the lead officer. "And to hear what thou hast to say."`
+			`	“卡特里吉希望与汝谈谈，”领头的军官说。“并听听汝有何话要说。”`
 
 			label interrogation
-			`	With apparently no choice, you accompany the officers back to their ship; they remove your sidearm and take you to a room inside. Two stand guard over you while the rest attend to other things outside, and it's only after the better part of an hour that someone else finally enters, a tall Successor who looks over you with an incisive glare.`
-			`	"Captain <first> <last>," they say. "How didst thou acquire cloaking technology?"`
+			`	显然别无选择，你随军官们回到他们的飞船上；他们卸下了你的随身武器，把你带进里面的一个房间。两人在一旁看守你，其余人则到外面处理其他事务，直到将近一个小时后，终于有另一个人走了进来——一名高大的继承者，用锐利的目光打量着你。`
+			`	“<first> <last>船长，”他说。“汝是如何获得隐形技术的？”`
 			choice
-				`	"It comes from another society, far away from here."`
-				`	"I was given it by a human government; they found it in an alien cargo hold."`
+				`	“它来自一个遥远的外星社会。”`
+				`	“是一个人类政府给我的；他们在一个外星货舱里发现了它。”`
 					to display
 						has "outfit (all): Cloaking Device"
-			`	"So it was not given to thee by a faction here, among the Successors?"`
-			`	"No," you say. The Successor relaxes, if only a little. "We will search thy ship t'confirm this," they say. "But I do not believe thou liest."`
+			`	“那么，它并非这里——继承者之中的某个派系给汝的？”`
+			`	“不是，”你说。那名继承者稍稍放松了一些。“我们会搜查汝的飞船加以证实，”他说。“但我不认为汝在撒谎。”`
 			branch "cloaks"
 				has "flagship attribute: cloak"
 
 			choice
-				`	"You won't find anything, my current ship isn't cloak-capable."`
-			`	The Successor looks over you with a curious gaze. "Intriguing," they say. "'Tis no matter; we shall consult our records of thy craft."`
+				`	“你们什么也找不到的，我现在的飞船不具备隐形能力。”`
+			`	那名继承者用好奇的目光打量着你。“有意思，”他说。“无妨；我们会查阅关于汝飞船的记录。”`
 
 			label cloaks
-			`	After a moment passes, your interrogator leans over you and the guards in the back stand, attentive. "Now we must decide what is to be done with thee," they say, "now that thou hast learned of our arrangement with the Quarg. Thou shouldst understand we do not wish that information to be avail'ble to all. Not all the Houses nor their members regard the Quarg with amity."`
+			`	片刻之后，审讯者俯身靠近你，后面的卫兵也站直了身子，全神戒备。“如今我们必须决定如何处置汝，”对方说，“既然汝已得知我们与夸格之间的约定。汝当明白，我们不愿让此情报为众人所知。并非所有家族及其成员都对夸格怀有善意。”`
 			choice
-				`	"I have no intention of spilling your secret."`
+				`	“我无意泄露你们的秘密。”`
 					goto discreet
-				`	"I'll keep my lips sealed, for a price."`
+				`	“我会守口如瓶——但得有个价钱。”`
 					goto blackmail
-				`	"The people deserve to know about this."`
+				`	“人们有权知道这件事。”`
 
-			`	"Perhaps they shall one day, but neither thee nor I should decide that now. 'Tis a time far too fraught to bring such a thing to light. No," they say, one of their arms moving toward you, "but Kaatrij would be willing to offer thee an alternative: a formal relation with the House, that thou mightst be brought into our circle of knowledge and receive our boons. And, of course, be subject to our directives, including those of silence."`
+			`	“或许终有一日他们会知道，但此事不该由汝或我在此刻决定。如今局势太过动荡，不宜将此等事揭露于世。不，”对方说着，一条手臂朝你伸来，“但卡特里吉愿给汝另一条路：与本家族建立正式关系，使汝得以进入我们的知情圈子，并享受我们的恩惠。当然，汝也须服从我们的指令，包括缄默之令。”`
 			choice
-				`	"And what would House Sioeora think of this?"`
+				`	“那肖尔拉家族会怎么看这件事？”`
 					to display
 						has "successors sioeora patron"
 					goto sioeora
-				`	"What would that entail, exactly?"`
+				`	“具体需要做些什么？”`
 					goto details
-				`	"Yes, if it finally gets me some answers."`
+				`	“好，只要终于能让我得到些答案。”`
 					goto yes
-				`	"No, I'm not willing to lie for you."`
+				`	“不，我不愿意为你们撒谎。”`
 					goto no
 
 			label blackmail
-			`	"Thou shouldst be careful with such propositions, Captain," they say. Their skin remains a murky, ashen blue. "Kaatrij would be willing to offer thee an alternative, however: a formal relation with the House, that thou mightst be brought into our circle of knowledge and receive our boons. Of course, thou wouldst also be subject to our directives, including those of silence. Wouldst that be sufficient reward for thine efforts?"`
+			`	“提出这种条件时，汝当谨慎些，船长，”对方说。其皮肤依旧是一片浑浊的灰蓝。“不过，卡特里吉愿给汝另一条路：与本家族建立正式关系，使汝得以进入我们的知情圈子，并享受我们的恩惠。当然，汝也须服从我们的指令，包括缄默之令。这对汝的付出而言，可算是足够的报酬？”`
 			choice
-				`	"And what would House Sioeora think of this?"`
+				`	“那肖尔拉家族会怎么看这件事？”`
 					to display
 						has "successors sioeora patron"
 					goto sioeora
-				`	"And what would that entail, exactly?"`
+				`	“那具体需要做些什么？”`
 					goto details
-				`	"Yes, if it finally gets me some answers."`
+				`	“好，只要终于能让我得到些答案。”`
 					goto yes
-				`	"No, I think I'll stick to credits."`
+				`	“不，我想我还是只认信用点。”`
 					goto no
 
 			label discreet
 			action
 				set "Successors: Ghosts: discreet"
-			`	"Most discreet, Captain," they say. "But forgive me for not taking thy word alone. To that, Kaatrij is willing to make thee an offer: a formal relation with our House, that thou mightst be brought into our circle of knowledge and receive our boons. And in turn, thou wouldst also be subject to our directives, including those of silence. An arrangement, Kaatrij believes, of mutual benefit."`
+			`	“十分谨慎，船长，”对方说，“但请原谅我不能单凭汝一句话便相信。为此，卡特里吉愿向汝提出一项提议：与本家族建立正式关系，使汝得以进入我们的知情圈子，并享受我们的恩惠。作为回报，汝也须服从我们的指令，包括缄默之令。卡特里吉相信，这是一桩互惠互利的安排。”`
 			choice
-				`	"And what would House Sioeora think of this?"`
+				`	“那肖尔拉家族会怎么看这件事？”`
 					to display
 						has "successors sioeora patron"
 					goto sioeora
-				`	"And what would that entail, exactly?"`
+				`	“那具体需要做些什么？”`
 					goto details
-				`	"Yes, if it finally gets me some answers."`
+				`	“好，只要终于能让我得到些答案。”`
 					goto yes
-				`	"No, I prefer to remain a free agent."`
+				`	“不，我宁愿保持自由身。”`
 					goto no
 
 			label sioeora
-			`	Incendiary yellow speckles dot the Successor's face, and they continue with some small hint of satisfaction. "No doubt they would be displeas'd to have lost one they so dearly wish'd to possess. But they have fail'd to act with swiftness. What sayest thou to our offer?"`
+			`	那位继承者的脸上泛起点点炽烈的黄斑，继续说话时带着一丝满意。“他们痛失一个如此渴望收归麾下之人，想必会不悦。但他们行动不够迅速。汝对我们的提议意下如何？”`
 			choice
-				`	"All right, I'll do it."`
+				`	“好吧，我答应。”`
 					goto yes
-				`	"No, I don't want to get any more tangled up in this than I already am."`
+				`	“不，我不想在这件事里陷得比现在更深了。”`
 					goto no
 
 			label details
-			`	"Thou wouldst be counted as an alien vassal of House Kaatrij, thus granted access to our facilities, subject to our rules and directives, and empowered to fight our enemies on our behalf under a commission of war. Thou wouldst retain thy freedom of movement, thine ability to go elsewhere in the galaxy. But when thou dost travel 'tween the stars of the Successors, 'tis House Kaatrij that thou shalt call thy home."`
+			`	“汝将被视为卡特里吉家族的异族封臣，从而获准使用我们的设施，遵从我们的规章与指令，并凭战争委任状代我们与敌人作战。汝仍可自由行动，前往银河其他地方。但当汝穿行于继承者的星辰之间时，卡特里吉家族便是汝的归属之家。”`
 			choice
-				`	"All right, I accept."`
+				`	“好吧，我接受。”`
 					goto yes
-				`	"No, I don't want to get any more tangled up in this than I already am."`
+				`	“不，我不想在这件事里陷得比现在更深了。”`
 					goto no
 
 			label yes
@@ -1092,27 +1092,27 @@ mission "Successors: Ghosts 10"
 				set "successors kaatrij vassal"
 				event "successors: ghosts unrestrict"
 				"reputation: House Kaatrij" >?= 2
-			`	"Excellent," the Successor says. "I would have thee come with us, then, to the moon where this all began, our base on <planet>. There, some of thy no-doubt-pressing questions shall be answered."`
+			`	“甚好，”那位继承者说，“那便请汝随我们前往这一切开始的那颗卫星——我们在<planet>上的基地。在那里，汝那些想必十分迫切的疑问，有一部分将得到解答。”`
 				accept
 
 			label no
 			branch "was discreet"
 				has "Successors: Ghosts: discreet"
 
-			`	"A shame," your interrogator says, making a motion with one of their arms; behind them, one of the guards raises their rifle. Instinctively, you go to grab your own sidearm, only to remember that it was taken from you minutes ago just as the guard's railgun round pierces your body.`
+			`	“可惜，”审讯者说着，用一条手臂比了个手势；在其身后，一名卫兵举起了步枪。你本能地去摸自己的随身武器，这才想起它几分钟前就被收走了——就在这时，卫兵的磁轨枪弹贯穿了你的身体。`
 				die
 
 			label "was discreet"
-			`	Your interrogator regards you thoughtfully for a moment. "Consider thy choice carefully, Captain," they say. "Among us, there is little way forward for a 'free agent,' as thou namest it. An offer such as this one shall not come again."`
+			`	审讯者若有所思地打量了你片刻。“船长，汝当慎重考虑自己的选择，”对方说，“在我们之中，汝所谓的‘自由身’几乎无路可走。这样的提议，不会再有第二次。”`
 			choice
-				`	"All right, then, if it's the only way forward for me."`
+				`	“好吧，既然这是我唯一的出路。”`
 					goto yes
-				`	"No, I've made my decision. I won't join you."`
+				`	“不，我已经决定了。我不会加入你们。”`
 
 			action
 				set "successors free agent" # This doesn't do anything now, but if Ghosts is ever expanded to let the player character ally with other Houses, this tag would be useful to have.
-			`	"A shame," the Successor says. "But so long as thou dost not give up what thou hast learned or otherwise make thyself an enemy of this House, Kaatrij shall not impede thee." They pause and their skin blossoms with intense color. "Do not make us regret this leniency."`
-			`	They gesture towards the door and the guards move to the side, allowing you to leave. As you walk back to your ship, the Seiitej takes off, leaving you alone but free.`
+			`	“可惜，”那位继承者说，“但只要汝不泄露所知之事，也不以其他方式与本家族为敌，卡特里吉便不会为难汝。”对方顿了顿，皮肤上绽开浓烈的色彩。“莫让我们后悔今日的宽容。”`
+			`	对方朝门口示意，卫兵们让到一旁，放你离开。在你走回自己飞船的途中，那艘塞特吉起飞了，留下你孤身一人，却也重获自由。`
 				decline
 
 	npc save
@@ -1121,51 +1121,51 @@ mission "Successors: Ghosts 10"
 		ship "Seiitej" "Diri, Defiant Nnesa"
 
 	on complete
-		log "Formally inducted as a vassal of House Kaatrij, with all the attendant responsibilities and rewards."
-		log "People" "Kampa" "One of House Kaatrij's fleet captains and a leader in their effort to unmask and retaliate against the attacker that damaged their base on Qasa-Sija-Iri."
+		log "正式成为卡特里吉家族的封臣，随之承担一切相应的责任，也享有相应的回报。"
+		log "People" "Kampa" "卡特里吉家族的舰队指挥官之一，在揭露并报复袭击其卡萨-西贾-伊里基地之敌的行动中担任领导者。"
 		conversation
-			`You once again descend to the dusty moon, though this time with the authorization to pass through the blockade. The ring-shaped base is now nowhere to be seen, but as you proceed to your landing coordinates, a shimmering aperture opens in the sand to reveal an advanced landing bay. As you set the <ship> down inside it, the top closes up again, sealing you off from the outside. Your hear the deep hum of motors and a faint sense of weightlessness as the whole landing bay plunges deep into the moon's crust, and only once it comes to a stop do the ground crew permit you to exit with an escort of House Kaatrij soldiers.`
-			`	The inside of the facility is unlike that of any other Successor spaceport; though most of the structure features Successor - or to the Quarg, Myiaran - technology, the visual style of the interior shows a distinct Quarg influence. Though most of those who walk the spacious halls are Successors, every so often you catch a glimpse of a Quarg loping its way down a corridor or across an open area.`
-			`	Your escort finally stops outside a gleaming white door, indicating for you to open it.`
+			`你再次降落到这颗尘土飞扬的卫星上，不过这一次你持有穿越封锁线的许可。那座环形基地已不见踪影，但当你飞向指定的着陆坐标时，沙地上张开了一道闪烁的开口，露出一座先进的着陆舱。你将<ship>降落其中后，顶部再次闭合，将你与外界隔绝。你听到马达低沉的嗡鸣，感到一丝轻微的失重——整个着陆舱正沉入卫星地壳深处。直到它停下，地勤人员才允许你在一队卡特里吉家族士兵的护送下走出飞船。`
+			`	这座设施的内部与其他任何继承者太空港都不同；尽管大部分结构采用的是继承者——在夸格口中则是米亚拉——的技术，内部的视觉风格却明显带有夸格的影响。在宽敞大厅中走动的大多是继承者，但你时不时会瞥见一个夸格迈着大步穿过走廊或空旷的区域。`
+			`	护送你的人终于在一扇闪亮的白门外停下，示意你把门打开。`
 			choice
 				`	（走进去。）`
 					goto inside
-				`	"What should I expect?"`
-			`	The leader of the soldiers escorting you says nothing, instead only gesturing toward the door with a little more force. Getting the hint, you enter.`
+				`	“我该做好什么准备？”`
+			`	护送你的士兵首领一言不发，只是更用力地朝门比了比。你会意，走了进去。`
 
 			label inside
-			`	Three figures stand on the other side: one is the Successor who interrogated you, one you recognize as Saajret, and the third is a Quarg who stands overlooking the other two. All three focus their eyes on you as the door opens, the Successors splaying their arms in polite greeting, the Quarg merely examining you.`
-			`	"Captain <last>, 'tis good of thee to join us," the first Successor says. "We have not had a formal introduction, I recall. My name is Kampa; I lead one of Kaatrij's fleets. Thou hast already made acquaintance with Saajret, of Somber Sejra, of course." Saajret bows gently at this, their skin warbling with faint colors. "Already thine induction to our circles presents us with tasks for thee, but there is aught we must complete before that: to formalize the process."`
-			`	They produce a data-sphere which they give over to you. It feels slightly cold to the touch. "Thine acceptance binds thee to this House as vassal; herefore it shall expect of thee thine support and secrecy, and thou might expect from it the powers and privileges thou might require. Dost thou accept?"`
+			`	门后站着三个身影：一个是审讯过你的那位继承者，一个你认出是萨杰雷特，第三个则是一位夸格，居高临下地俯视着另外两人。门开时，三者的目光都落在你身上；两位继承者摊开双臂，礼貌地向你致意，而那个夸格只是打量着你。`
+			`	“<last>船长，汝能前来甚好，”第一位继承者说，“我记得我们尚未正式介绍过彼此。我名坎帕，统领卡特里吉的一支舰队。至于黯淡塞杰拉的萨杰雷特，汝自然早已相识。”萨杰雷特闻言轻轻鞠了一躬，皮肤上泛起微弱的色彩波动。“汝刚入我们的圈子，便已有任务等着汝，但在此之前，我们还有一事须完成：将这一程序正式化。”`
+			`	坎帕取出一个数据球递给你，摸上去微微发凉。“汝一旦接受，便作为封臣与本家族相系；自此，本家族将期待汝的支持与保密，而汝亦可期待从本家族获得所需的权力与特权。汝可接受？”`
 			choice
-				`	"I do."`
+				`	“我接受。”`
 					goto yes
-				`	"Maybe this was a bad idea."`
+				`	“也许这是个坏主意。”`
 					goto uncertain
-				`	"Does this mean you'll sell me weapons and warships?"`
+				`	“这是不是意味着你们会卖给我武器和战舰？”`
 
-			`	A color flits upon Kampa's face, but you can't quite tell if it's amusement or suspicion. "Strictly, yes, but such exchanges are governed by treaty. For the moment, while thine alignment with us is still unclear to the rest, Kaatrij declines this responsibility."`
+			`	坎帕脸上掠过一抹色彩，但你分辨不出那是觉得好笑还是起了疑心。“严格来说，是的，但此类交易受条约约束。眼下，在其他家族尚不清楚汝与我们的关系之时，卡特里吉不便担此责任。”`
 			choice
-				`	"All right, I formally accept."`
+				`	“好吧，我正式接受。”`
 					goto yes
-				`	"Maybe this was a bad idea."`
+				`	“也许这是个坏主意。”`
 
 			label uncertain
-			`	"Thou hast already seen this place, Captain, hast already accepted in word if not in bond. Thou art... too far in already."`
+			`	“汝已见过此地，船长，即便尚未立约，口头上也已应允。汝已经……陷得太深了。”`
 			choice
-				`	"I suppose I am."`
+				`	“我想也是。”`
 
 			label yes
-			`	The data-sphere flares with color, registering your assent. "'Tis done then," Kampa says. "Welcome to House Kaatrij." Both Kampa and Saajret bow again, the Quarg the only one in the room remaining motionless. "Thou shalt have access to much of our works, which now thou mightst explore at thy leisure. When thou'rt ready, thou shouldst meet Saajret at the spaceport here for thy first official task for us."`
+			`	数据球迸发出色彩，记录下你的同意。“如此便成了，”坎帕说，“欢迎加入卡特里吉家族。”坎帕和萨杰雷特再次鞠躬，屋里只有那个夸格纹丝不动。“汝可使用我们的诸多设施，如今可随意探索。准备好后，便到此地的太空港与萨杰雷特会面，领取汝为我们执行的第一项正式任务。”`
 			choice
-				`	"You said you would answer my questions."`
+				`	“你说过会回答我的问题。”`
 				`	（保持沉默。）`
 					goto end
 
-			`	"Very well," Kampa says. "Thou may'st query as thou please."`
+			`	“很好，”坎帕说，“汝想问什么便问吧。”`
 			label questions
 			choice
-				`	"That's all."`
+				`	“就这些了。”`
 					to display
 						has "Successors: attack"
 						has "Successors: drone"
@@ -1173,24 +1173,24 @@ mission "Successors: Ghosts 10"
 						has "Successors: cloak"
 						has "Successors: quarg"
 					goto end
-				`	"Do you know who attacked your base?"`
+				`	“你们知道是谁袭击了你们的基地吗？”`
 					to display
 						not "Successors: attack"
 					goto attack
-				`	"Are you behind the drone ships in Predecessor space?"`
+				`	“先民空间里的那些无人舰，是你们在幕后操纵吗？”`
 					to display
 						not "Successors: drone"
 					goto drone
-				`	"What exactly is this arrangement with the Quarg that you have?"`
+				`	“你们和夸格之间到底是什么约定？”`
 					to display
 						not "Successors: quarg"
 					goto quarg
-				`	"How much cloaking technology do you actually have?"`
+				`	“你们到底掌握了多少隐形技术？”`
 					to display
 						not "Successors: cloak"
 						has "Successors: attack"
 					goto cloak
-				`	"Did you attack House Seineq?"`
+				`	“是你们袭击了塞内克家族吗？”`
 					to display
 						has "Successors: attack"
 						has "Successors: drone"
@@ -1201,31 +1201,31 @@ mission "Successors: Ghosts 10"
 			label attack
 			action
 				set "Successors: attack"
-			`	"'Twas one of the High Houses, but which exactly, we do not know yet for certain." Kampa contemplates for a moment. "Each of the Houses keeps a few heirloom warships from the time of the old empire, and most dare not bring them from the gilded vaults where they lie, for they are far too precious to risk in petty conflicts. Yet another still fielded one of theirs, raided the moon, killed hundreds, all to steal a single cloaking unit. Now they flit about unseen."`
+			`	“是某个高阶家族所为，但究竟是哪一家，我们尚不能确定。”坎帕沉思了片刻。“每个家族都保存着几艘旧帝国时代的传家战舰，大多数家族都不敢将它们从安放的镀金宝库中取出，因为它们太过珍贵，不值得在琐碎的冲突中冒险。然而还是有人派出了一艘，突袭了这颗卫星，杀害了数百人，只为偷走一台隐形装置。如今他们来去无踪。”`
 				goto questions
 
 			label seineq
 			action
 				set "Successors: seineq"
-			`	There's a pause as Kampa looks at you with incisive eyes. "Thou'rt fair to ask it," they say. "No," they say, "'twas not Kaatrij that struck them. Once our cloak was stolen, our 'lusive foe had all 'twas needed t'frame us of that trait'rous blow: t'let themselves be seen with signs that we alone had once posses'd."`
+			`	坎帕用锐利的目光盯着你，沉默了片刻。“汝问得合理，”坎帕说，“不，袭击他们的并非卡特里吉。我们的隐形装置一经被盗，那难以捉摸的敌人便有了嫁祸于我们、栽给我们那叛逆一击所需的一切：只需让自己现身时，带着唯有我们曾拥有之物的迹象。”`
 				goto questions
 
 			label drone
 			action
 				set "Successors: drone"
-			`	Kampa's skin ripples with hollow mirth. "Not exactly," they say. "'Twere creations of an ally of the old House Kaatrij during the last great inter-Houses war, a bold engineer of Aqrabe. Autonomous as they were, they could - when stripp'd of those drives that spoiled the savor of our victory - remain to ward off plund'rers of our cities and hidden vaults."`
+			`	坎帕的皮肤上泛起空洞的笑意。“不尽然，”坎帕说，“那些是上一次家族大战期间，旧卡特里吉家族的一位盟友——一位阿克拉贝的大胆工程师——所造之物。它们本就能自主运作，因此在拆除了那些令我们的胜利滋味尽失的引擎之后，便得以留守原地，驱逐那些觊觎我们城市与秘藏宝库的掠夺者。”`
 				goto questions
 
 			label cloak
 			action
 				set "Successors: cloak"
-			`	"I shan't tell thee exactly," Kampa says. "Thy retrieval of the stellar metal for Aqrabe has been a boon to us in that, though."`
+			`	“确切数目我不会告诉汝，”坎帕说，“不过，汝为阿克拉贝取回的恒星金属，在这方面帮了我们大忙。”`
 				goto questions
 			
 			label quarg
 			action
 				set "Successors: quarg"
-			`	"We do not claim to be the equals of the Quarg in wisdom or grace," says Kampa, "but we share an affection for our species, and we would not see ourselves destroyed. The Quarg benefit from our cloaks and these dusty lands of ours; in turn, we have their counsel and consideration and, as 'tis necessary, some small material support."`
+			`	“我们不敢自称在智慧或风度上能与夸格比肩，”坎帕说，“但夸格和我们一样怜惜我们这一族，我们也不愿眼看自己走向毁灭。夸格从我们的隐形技术和这片尘土之地中获益；作为回报，我们得到他们的建议与关照，必要时还有些许物质支援。”`
 				goto questions
 
 			label next
@@ -1237,7 +1237,7 @@ mission "Successors: Ghosts 10"
 				clear "Successors: quarg"
 
 			label end
-			`	With that said, Kampa leaves the room, as does a distracted-looking Saajret soon after. As you also turn to go and explore the facility, the Quarg, still watching, stops you as it starts to speak. "Do you believe that the threads of the universe must tend to constrict?" it says in your own language. "Perhaps there is something inherent in separation that existence abhors." It hums, a deep and organic rumble. "You may go. Saajret waits for you in the spaceport."`
+			`	说完，坎帕离开了房间，神色心不在焉的萨杰雷特不久也随之离去。正当你也转身要去探索这座设施时，那个一直注视着你的夸格开口叫住了你。“你是否相信，宇宙的丝线终究趋于收紧？”它用你的语言说道，“或许分离之中本就有某种为存在所憎恶的东西。”它发出一阵低沉而有机的嗡鸣。“你可以走了。萨杰雷特在太空港等你。”`
 
 	on fail
 		dialog phrase "successor ghosts story failed"
@@ -1245,8 +1245,8 @@ mission "Successors: Ghosts 10"
 
 
 mission "Successors: Ghosts 11"
-	name "Visit Kaatrij archive"
-	description "Take Saajret to <planet stopovers> so they can consult one of House Kaatrij's offworld archives, before returning them to <planet>."
+	name "参观卡特里吉档案馆"
+	description "带萨杰雷特前往<planet stopovers>，让他们查阅卡特里吉家族的一处星外档案馆，然后将他们送回<planet>。"
 	source "Qasa-Sija-Iri"
 	stopover "Kasi-Osolaa-Sossa"
 	passengers 1
@@ -1254,67 +1254,67 @@ mission "Successors: Ghosts 11"
 		has "Successors: Ghosts 10: done"
 	on offer
 		conversation
-			`Saajret meets you in a room overlooking your ship, once again dressed in their black pocket-laden outfit. They bow as you approach.`
+			`萨杰雷特在一间能俯瞰你飞船的房间里与你会面，又穿上了那身缀满口袋的黑色装束。你走近时，他们向你鞠了一躬。`
 			choice
-				`	"What's our task?"`
+				`	“我们的任务是什么？”`
 					goto task
-				`	"How have you been?"`
+				`	“你最近怎么样？”`
 			branch helped
 				has "Successors: Ghosts 7a: done"
 
-			`	Saajret hums, colors of preoccupation dancing over their skin. "Well enough to focus on what's before us," they say. They pull their body into a more rigid posture.`
+			`	萨杰雷特哼了一声，皮肤上跃动着心事重重的色彩。“还好，足以专注于眼前之事，”他们说着，将身体绷成更挺直的姿态。`
 				goto task
 
 			label helped
-			`	Saajret hums, colors of preoccupation dancing over their skin. "Well enough to focus on what's before us," they say. "I shall thank thee again for indulging my little trip into the past. The sense of it stays with me." They shake their head and offer you another gentle bow.`
+			`	萨杰雷特哼了一声，皮肤上跃动着心事重重的色彩。“还好，足以专注于眼前之事，”他们说，“我要再次感谢汝成全了我那趟追忆往昔的小小旅程。那种感受至今仍萦绕在我心头。”他们摇了摇头，又向你轻轻鞠了一躬。`
 
 			label task
-			`	"Kaatrij maintains a number of offworld archives for our files since the time of our Predecessors. I've a certain angle I'd like to investigate at our archive on <planet stopovers>. Would'st thou transport me?"`
+			`	“自先民时代起，卡特里吉便在星外维护着若干档案馆，用以保存我们的文献。我想到我们在<planet stopovers>上的档案馆查证一个思路。汝可愿载我前去？”`
 			choice
-				`	"What sort of angle?"`
-				`	"I can't right now."`
+				`	“什么样的思路？”`
+				`	“我现在没空。”`
 					defer
 
-			`	Saajret nods. "Kampa believes 'twas an heirloom warship of the Houses that was used against us. By comparing our scan data of the attack with historical information of ships used before our Predecessors' exile, I think I may be able to determine exactly which ship it was that struck us. And with it, the House that lies behind it."`
+			`	萨杰雷特点点头。“坎帕认为，袭击我们的是某个家族的传家战舰。将我们对那次袭击的扫描数据与先民流亡前所用舰船的历史资料加以比对，我想我或许能确定袭击我们的究竟是哪一艘船。进而查出其背后的家族。”`
 			choice
-				`	"All right, let's go."`
+				`	“好，我们出发吧。”`
 					accept
-				`	"I can't right now."`
+				`	“我现在没空。”`
 					defer
 
 	on stopover
 		"Successors: Ghosts Saajret Forgiveness" ++
 		conversation
-			`Saajret directs you to land at a small facility set into the ground in the midst of one of this planet's forests. A couple of guards greet the two of you at the entrance, where Saajret presents their authorization, inserting a small data-chip into a pad beside the facility's door while a scanner beam passes over them. They wave you inside once the process is complete.`
-			`	The archive proves to be relatively modest by Successor standards; most of the engineering effort seems to have gone into armor rather than lush adornment. The two of you walk between long rows of storage units, each one suspending thousands of individual data-spheres in a bath of liquid metal. Saajret stops at a corner terminal in a section labeled for records between the years 1620 and 1636 and, after a few minutes of work, several data-spheres are bubbled up from one of the surrounding storage baths.`
-			`	Saajret plugs the spheres into the terminal and you watch over their shoulder as they consult the data within; what appears to be a mixture of dossiers on warships of the era and biographical data about their engineers. Saajret's skin blotches with confusion.`
+			`萨杰雷特指引你降落在一座嵌入地下的小型设施旁，它坐落于这颗星球的一片森林之中。几名守卫在入口处迎接你们二人，萨杰雷特出示了授权：他们将一枚小小的数据芯片插入设施门旁的面板，同时一道扫描光束掠过他们全身。流程完成后，守卫挥手让你们进去。`
+			`	以继承者的标准而言，这座档案馆相当朴素；大部分工程心血似乎都花在了装甲上，而非华丽的装饰。你们二人穿行于一排排长长的储存单元之间，每个单元都在液态金属浴中悬浮着成千上万个数据球。萨杰雷特在一处标注为1620年至1636年记录的区域，于角落的终端前停下，忙活了几分钟后，几个数据球从周围的一个储存浴池中冒了上来。`
+			`	萨杰雷特将这些数据球接入终端，你从他们肩后看着他们查阅其中的数据：看起来混杂着那个年代战舰的档案和其工程师的传记资料。萨杰雷特的皮肤上泛起困惑的斑块。`
 			choice
 				`	“那是什么？”`
-				`	"Have you found what you're looking for?"`
-			`	Saajret hums. "To our knowledge," they say, "twenty-three heirloom warships were smuggled through the wormhole in our Predecessors' era. Of these, six were fast battlecruisers, named Valkkyiaran - and of those, only three could possibly be the craft that struck at Qasa-Sija-Iri. Their names were Alasii-i-Lua, Ijahti-Khora, and Akhos-Itran."`
+				`	“你找到要找的东西了吗？”`
+			`	萨杰雷特哼了一声。“据我们所知，”他们说，“在先民时代，共有二十三艘传家战舰被偷运穿过了虫洞。其中六艘是被称为瓦尔基亚兰的快速战列巡洋舰——而这六艘中，只有三艘可能是袭击卡萨-西贾-伊里的那艘船。它们的名字分别是阿拉西-伊-卢阿、伊贾提-霍拉和阿霍斯-伊特兰。”`
 			choice
-				`	"Do you know what House they belonged to?"`
-				`	"Is there no way to tell which one exactly was behind the attack?"`
-			`	"That is where misfortune meets us," Saajret says. "All three of those were made for a combined alliance that fought in the last great inter-Houses war; when t'were disassembled and smuggled away, we know not which House of the alliance spirited each away. Much remains unclear."`
+				`	“你知道它们属于哪个家族吗？”`
+				`	“就没有办法确定到底是哪一艘发动了袭击吗？”`
+			`	“不幸正在于此，”萨杰雷特说，“这三艘都是为上一次家族大战中的一个联合同盟所造；当它们被拆解并偷运出去时，我们不知道同盟中的哪个家族各自带走了哪一艘。诸多事情仍不明朗。”`
 			choice
-				`	"Do you have any data on the drone ships?"`
-				`	"We'd better return, then."`
+				`	“你有关于那些无人舰的资料吗？”`
+				`	“那我们最好回去吧。”`
 					goto end
 
-			`	"A good thought, captain," Saajret says. A difficult-to-identify emotion flits over their skin as they return to the terminal. They download some of the biographical data they were consulting into a portable data-sphere and, once they have tracked down data pertaining to the ships themselves, download that as well.`
-			`	The drone ships themselves were designed by a Myiara named Resja, a noted shipwright for the old House Aqrabe. Initially, the craft were designed for small crews, but after Resja's death - apparently by poisoning - they were retrofitted with drone cores and robotic maintenance systems, after which they served first as expendable rearguards and finally as the lingering defense systems that you've encountered.`
-			`	The biographical data is added to your log.`
+			`	“好主意，船长，”萨杰雷特说。他们回到终端前，皮肤上掠过一种难以辨识的情绪。他们将刚才查阅的部分传记资料下载到一个便携数据球中，又找出了与那些舰船本身相关的数据，一并下载下来。`
+			`	这些无人舰是由一位名叫雷斯雅的米亚拉人设计的，此人是旧阿克拉贝家族的著名造船师。这些舰船最初是为少量船员设计的，但在雷斯雅死后——显然是被毒死的——它们被加装了无人核心和机器维护系统，此后先是充当可牺牲的后卫部队，最终成了你所遭遇的那些滞留不去的防御系统。`
+			`	这份传记资料已添加到你的日志中。`
 
 			action
 				"Successors: Ghosts Saajret Forgiveness" -= 2
 				set "successors: ghosts resja biography"
-				log "People" "Resja" "Resja was a noted Myiaran engineer and shipwright who worked soon before the collapse of the empire of the Myiaran Predecessors, circa 1600. They are responsible for designing the originally-crewed drone ships that linger in Predecessor space, later retrofitted as self-guided craft after Resja's death by poisoning."
+				log "People" "Resja" "雷斯雅是一位著名的米亚拉工程师和造船师，活跃于米亚拉先民帝国崩溃前不久，约1600年前后。先民空间中至今滞留的那些无人舰正是由其设计；这些舰船原本需要船员操作，在雷斯雅被毒死后才被改装为自主舰船。"
 
 			label end
-			`	With Saajret satisfied that the two of you have gleaned what information you can, you both return to the <ship> outside.`
+			`	萨杰雷特确认你们二人已收集到所能获取的全部信息后，你们一同回到了外面的<ship>上。`
 
 	on complete
-		dialog "Saajret thanks you for transporting them and asks to meet you back in one of the spaceport planning rooms once they have shown their data to Kaatrij's military officers."
+		dialog "萨杰雷特感谢你载他们一程，并请你等他们把数据交给卡特里吉的军官们过目之后，回到太空港的一间筹划室与他们会面。"
 
 	on fail
 		dialog phrase "successor ghosts story failed"
@@ -1322,17 +1322,17 @@ mission "Successors: Ghosts 11"
 
 
 mission "Successors: Ghosts 12"
-	name "Pick up keystone shipment"
-	description "Travel to <destination> to pick up 16 tons of modified quantum keystones from House Aqrabe."
+	name "领取基石货物"
+	description "前往<destination>，从阿克拉贝家族处领取16吨改良量子基石。"
 	source "Qasa-Sija-Iri"
 	destination "Kasii-Cavasaa-Oa"
 	to offer
 		has "Successors: Ghosts 11: done"
 	on offer
 		conversation
-			`Though Saajret fails to meet you at the spaceport, you are soon delivered a data-sphere with a message from them:`
-			`	'My apologies for not meeting thee as we agreed. Kaatrij requests thou transport a quantity of Aqrabe's new keystones from <destination> back here for outfitting. They should amount to sixteen tons in total.`
-			`	This I myself attest as K- I- Saajret, of Somber Sejra.`
+			`萨杰雷特没有如约到太空港与你会面，但你很快收到了一个数据球，里面有他们的留言：`
+			`	‘抱歉未能如约与汝会面。卡特里吉请汝从<destination>运送一批阿克拉贝的新型基石回到此地，以供装配。总计应为十六吨。`
+			`	此言由我，黯淡塞杰拉的K- I- 萨杰雷特，亲自作证。’`
 				accept
 
 	on fail
@@ -1342,8 +1342,8 @@ mission "Successors: Ghosts 12"
 
 mission "Successors: Ghosts 13"
 	landing
-	name "Deliver keystone shipment"
-	description "Return the <tons> of <cargo> to <destination>."
+	name "交付基石货物"
+	description "将<tons><cargo>运回<destination>。"
 	source "Kasii-Cavasaa-Oa"
 	destination "Qasa-Sija-Iri"
 	cargo "Harmonic Keystones" 16
@@ -1354,26 +1354,26 @@ mission "Successors: Ghosts 13"
 			branch "prototypes only"
 				not "event: successors: ghosts keystones finished"
 
-			`Not long after disembarking you are met by Tiliia, the Aqrabe engineer you worked with before. They splay their arms courteously to you while, behind them, crates of keystones are carried by and soon loaded into the <ship>.`
-			`	"I thought it fair to see this shipment off myself," Tiliia says by way of introduction. "Though it pleaseth me to see thee again as well, Captain."`
+			`下船后不久，蒂利亚便来迎接你——就是你之前合作过的那位阿克拉贝工程师。他们彬彬有礼地向你摊开双臂，而在他们身后，一箱箱基石正被搬过，很快便装进了<ship>。`
+			`	“我想这批货理应由我亲自送行，”蒂利亚开门见山地说，“不过能再见到汝，我也很高兴，船长。”`
 			choice
-				`	"Likewise."`
+				`	“彼此彼此。”`
 					goto short
-				`	"I'm surprised you're letting go of the keystones so easily."`
+				`	“我很惊讶你们这么轻易就肯放出这些基石。”`
 
-			`	Some mirth seems to come over Tiliia. "We've enough to do so now. And I imagine House Kaatrij has offered Aqrabe generous compensation for them, too. It's good they're trading with us at all now. If only I could work fast enough to satisfy that appetite for novelty!"`
+			`	蒂利亚似乎有些乐了。“我们如今的存量足以如此。而且我猜卡特里吉家族也为此给了阿克拉贝丰厚的报酬。他们现在肯跟我们做交易，已经是好事了。要是我的工作速度能快到满足那份求新的胃口就好了！”`
 
 			label short
 
-			`	The two of you chat for a few more minutes as the keystones are loaded. Eventually, Tiliia offers you a "farewell" before returning to their work and leaving you to prepare your ship for departure.`
+			`	基石装货期间，你们二人又聊了几分钟。最后，蒂利亚向你道了声“再会”，便回去继续工作，留你为飞船做起飞前的准备。`
 				accept
 
 			label "prototypes only"
-			`Not long after disembarking you are met by Tiliia, the Aqrabe engineer you worked with recently. They offer you a perfunctory and hurried splay of the arms. "Thou'rt here for the keystone shipment, I take it?" they say in a clipped tone. You nod in reply. "Well, Kaatrij will get their sixteen tons, but let them know they're only prototypes. Politics moves faster than my work." They turn to depart, clearly eager to get back to it, before stopping and offering you a quick "good to see thee, Captain," before they leave you to oversee the loading of the keystones.`
+			`下船后不久，蒂利亚便来迎接你——就是你最近合作过的那位阿克拉贝工程师。他们敷衍而匆忙地向你摊了摊手臂。“汝是为那批基石而来的吧？”他们语气简短地问。你点头回应。“好吧，卡特里吉会拿到他们的十六吨，但请告诉他们，这些只是原型。政治的脚步比我的工作快。”他们转身要走，显然急着回去干活，却又停下来匆匆说了句“很高兴见到汝，船长”，随后便离开了，留你监督基石的装货。`
 				accept
 
 	on complete
-		dialog `The base's outfitter takes possession of the keystones and informs you that Saajret would like to see you in the spaceport later this evening.`
+		dialog `基地的装备商接收了这些基石，并告诉你萨杰雷特希望今晚晚些时候在太空港见你。`
 
 	on fail
 		dialog phrase "successor ghosts story failed"
@@ -1381,8 +1381,8 @@ mission "Successors: Ghosts 13"
 
 
 mission "Successors: Ghosts 14"
-	name "Destroy sensor probes"
-	description "House Kaatrij is concerned that the sensor probes in Predecessor space are being used against them, and have asked you to destroy them in Avasaa-Novaa, Eta Carinae, Khasola-Ryuit, and Kasii-Sola."
+	name "摧毁传感探测器"
+	description "卡特里吉家族担心先民空间中的传感探测器正被用来对付他们，因此请你前往阿瓦萨-诺瓦、海山二、卡索拉-留伊特和卡西-索拉将其摧毁。"
 	passengers 1
 	source "Qasa-Sija-Iri"
 	waypoint "Khasola-Ryuit"
@@ -1392,56 +1392,56 @@ mission "Successors: Ghosts 14"
 		has "Successors: Ghosts 13: done"
 	on offer
 		conversation
-			`Saajret meets you in another one of the spaceport's overlooking rooms, a liquid-metal starchart laid out on a table before them. It looks like it's showing areas of Predecessor space. They greet you with a splay of the arms as you enter.`
-			`	"Is this my next mission?" you ask, gesturing to the starchart.`
-			`	Saajret hums thoughtfully. "Yes," they say. "One of the things thou did earli'r was the placement of scanning eyes throughout the Shroud, at Seineq's dear request."`
+			`萨杰雷特在太空港另一间可俯瞰全景的房间里与你会面，面前的桌上铺着一幅液态金属星图，看起来显示的是先民空间的区域。你进门时，他们摊开双臂向你致意。`
+			`	“这就是我的下一个任务？”你指着星图问道。`
+			`	萨杰雷特若有所思地哼了一声。“是的，”他们说，“汝先前做过的事之一，便是应塞内克的殷切请求，在帷幕各处布下扫描之眼。”`
 			choice
-				`	"I recall."`
+				`	“我记得。”`
 					goto direct
-				`	"Could Seineq be the House behind the attack?"`
+				`	“塞内克会不会就是幕后发动袭击的家族？”`
 
-			`	Whorls of pink mirth erupt over Saajret's skin. "Perhaps so, perhaps not," they say. "For now, Kaatrij's aim is more direct. The eyes make notes of jumps of the proper sort, as are made by thine own craft and the Quarg - but the flitting of our foe relies on aught uncanni'r that we believe evades their gaze. Thus, as Kampa's wont to say, they are to us a tactical disadvantage. Kaatrij seeks that thou, and I, observing, destroy them."`
+			`	萨杰雷特的皮肤上涌出一圈圈粉色的笑意。“或许是，或许不是，”他们说，“眼下，卡特里吉的目标更为直接。那些眼睛会记录常规的跃迁，就像汝的飞船和夸格所做的那样——但我们那敌人的来去无踪，依靠的是某种更为诡异之物，我们相信它能避开那些眼睛的注视。因此，用坎帕惯常的说法，它们对我们而言是一种战术劣势。卡特里吉希望汝去摧毁它们，由我从旁观察。”`
 				goto questions
 
 			label direct
-			`	"Kaatrij now seeks that thou undoeth this, with my presence as observer. 'Thout Seineq's control of those, our foe might come to watch them - 'tis a risk Kaatrij is loath to take. For they make note of jumps of the proper sort, as made by thy craft and the Quarg's alike. But the flitting of our foe relies on aught uncanni'r that we think evades their gaze. Thus, they reveal not the comings and goings of the guilty but thee and perhaps our own craft."`
+			`	“如今卡特里吉希望汝将这些布置撤除，由我在场观察。若那些眼睛脱离了塞内克的掌控，我们的敌人或许会来监视它们——这是卡特里吉不愿承担的风险。因为它们记录的是常规的跃迁，就像汝的飞船和夸格的飞船所做的那样。但我们那敌人的来去无踪，依靠的是某种更为诡异之物，我们认为它能避开那些眼睛的注视。因此，它们暴露的不是罪魁的行踪，而是汝的，或许还有我们自己飞船的行踪。”`
 
 			label questions
 			choice
-				`	"Why are you joining me?"`
+				`	“你为什么要跟我一起去？”`
 					to display
 						not "Successors: you"
 					goto you
-				`	"What do you mean, 'something uncannier?'"`
+				`	“你说的‘更诡异之物’是什么意思？”`
 					to display
 						not "Successors: uncannier"
 					goto uncannier
-				`	"All right, I'm ready to go."`
+				`	“好了，我准备出发了。”`
 					accept
 
 			label uncannier
 			action
 				set "Successors: uncannier"
-			`	Saajret's skin bubbles with dark blue spots. "The Quarg say thou hast already learn'd of our Predecessors' efforts to sail beyond the bound'ries set by the Drak. The drives 'twere built to do this are that uncanny thing of which I speak."`
+			`	萨杰雷特的皮肤上冒出一个个深蓝色的斑点。“夸格说，汝已得知我们的先民试图越过德拉克所设边界航行的种种努力。为此建造的那些引擎，正是我所说的诡异之物。”`
 				goto questions
 
 			label you
 			action
 				set "Successors: you"
-			`	Saajret hums. "Thy presence here is still new, captain, and Kaatrij would not send thee far 'thout someone to look over thee. And for myself particularly," they say, looking out at your ship below them, "I have spoken to thee the most, and my role as archivist makes me knowledgeable of the things we may find in the blighted worlds of the Shroud."`
+			`	萨杰雷特哼了一声。“汝来此尚不久，船长，卡特里吉不会在无人照看的情况下派汝远行。至于为何偏偏是我，”他们望着下方你的飞船说，“我与汝交谈最多，而我身为档案管理员，熟知我们在帷幕那些荒败世界中可能遇到的事物。”`
 				goto questions
 
 	on enter "Khasola-Ryuit"
-		dialog `Though it takes several seconds for your ship's targeting scanners to pinpoint the scanning probe you deployed earlier, they eventually find it. A single shot is all it takes to destroy it.`
+		dialog `尽管你飞船的瞄准扫描仪花了好几秒才锁定你先前部署的扫描探测器，但最终还是找到了它。只需一发射击便将其摧毁。`
 
 	on enter "Eta Carinae"
-		dialog `You find the scanner tucked among some particularly vibrant nebular gas. It is easily dispatched.`
+		dialog `你在一片格外绚丽的星云气体中找到了这台扫描器。轻而易举便将它解决了。`
 
 	on enter "Avasaa-Novaa"
-		dialog `Undoing your earlier hard work, you locate and destroy the scanner in this system.`
+		dialog `你亲手推翻了自己先前的辛苦成果，找到并摧毁了这个星系中的扫描器。`
 
 	on waypoint
-		dialog `With this system cleared, you've destroyed all the sensor probes except the one in Kasii-Sola.`
+		dialog `清理完这个星系后，除了卡西-索拉的那一个，你已摧毁了所有传感探测器。`
 		mark "Kasii-Sola"
 		event "successors: ghosts ijra-ea decloak"
 		clear "Successors: you"
@@ -1481,17 +1481,17 @@ mission "Successors: Ghosts 15"
 		unmark "Kasii-Sola" "Successors: Ghosts 14"
 		set "successors: ghosts entered kasii-sola"
 		conversation
-			`As you enter the system, your ship's sensors remark on an object that wasn't here the last time: a space station has appeared in close solar orbit. Every few seconds your lock on the station breaks before it is quickly reacquired.`
-			`	Saajret's look at examining the station is one of despair. "Wretches!" they say. "We shall need to address this upon returning. Our time is running short, Captain. Let us destroy the fourth probe with haste."`
+			`你进入星系时，飞船的传感器侦测到一个上次并不存在的物体：一座空间站出现在了贴近恒星的轨道上。每隔几秒，你对空间站的锁定就会中断，随即又迅速恢复。`
+			`	萨杰雷特审视着那座空间站，神情绝望。“卑鄙之徒！”他们说，“回去之后我们得处理此事。我们的时间不多了，船长。让我们尽快摧毁第四个探测器。”`
 			choice
-				`	"You recognize that station?"`
-				`	"What's going on here?"`
-			`	Saajret hums for a moment. "Fine, fine. It's one of ours, a citadel of old Kaatrij from bygone years. 'Twas cloaked, of course. 'Til now, t'would seem; and so we are outmaneuvered again. That is why we must be quick, Captain; thou mustn't delay."`
+				`	“你认得那座空间站？”`
+				`	“这里出了什么事？”`
+			`	萨杰雷特哼了片刻。“好吧，好吧。那是我们的，是旧日卡特里吉的一座要塞。当然，它原本是隐形的。看来直到现在为止都是；我们又一次被抢占了先机。所以我们必须快，船长；汝万不可耽搁。”`
 				accept
 
 	on complete
 		conversation
-			`While you are presenting your landing authorization, Saajret calls for several members of Kaatrij to meet you in the docking bay; by the time you land, they are there waiting, slithering over to speak to Saajret almost immediately. The leader of this group dismisses you and Saajret, with an apologetic bow, asks you to meet them at the <planet> spaceport in an hour.`
+			`在你出示着陆授权时，萨杰雷特召集了几名卡特里吉成员到停泊舱与你们会合；等你降落时，他们已在那里等候，几乎立刻便蠕行过来与萨杰雷特交谈。这群人的首领打发你离开，萨杰雷特则歉意地鞠了一躬，请你一小时后到<planet>的太空港与他们会面。`
 
 
 
@@ -1508,18 +1508,18 @@ mission "Successors: Saajret Remarks"
 	on offer
 		"Successors: Ghosts Saajret Openness" ++ # Increases as Saajret experiences new, interesting, and joyful things.
 		conversation
-			`As the stygian fog of the Tangled Shroud fades away to reveal normal space, Saajret makes a small noise of excitement, their skin dancing with bright hues. "So long it's been," they say, "since one of ours has seen beyond the horizon of our folly. I confess I wonder what the rest of the galaxy has become after fifteen hundred years of solitude." They shake their head, the regions of color splashing like water. "Yet our task remains. Perhaps in some future time..."`
+			`随着缠结帷幕那冥河般幽暗的迷雾渐渐散去，露出寻常的太空，萨杰雷特发出一声轻微的兴奋之声，皮肤上跃动着明亮的色彩。“已经太久了，”他们说，“自我们的族人上一次望见我们愚行的地平线之外，已过去太久。我承认，我很好奇在一千五百年的孤寂之后，银河的其余部分变成了什么模样。”他们摇了摇头，一片片色彩如水般泼溅开来。“但我们的任务仍在。或许在将来的某个时候……”`
 			choice
-				`	"There are more things in heaven and earth, Saajret, than are dreamed of in your philosophy."`
-				`	"The galaxy isn't all you make it out to be, at least in my experience."`
-			`	They hum, long and slow. "Perhaps," they say.`
+				`	“萨杰雷特，天地之间有许多事情，是你的哲学里所没有梦想到的。”`
+				`	“依我的经验，银河并没有你想象的那么好。”`
+			`	他们发出一声悠长而缓慢的哼鸣。“或许吧，”他们说。`
 				decline
 
 
 
 mission "Successors: Ghosts 16"
-	name "Investigate mysterious station"
-	description "Return to the mysterious station in <system> with Saajret to investigate what has happened to it."
+	name "调查神秘空间站"
+	description "与萨杰雷特一同返回<system>的神秘空间站，调查那里发生了什么。"
 	source "Qasa-Sija-Iri"
 	destination "Ijra-Ea, Shimmering Veil"
 	to offer
@@ -1530,93 +1530,93 @@ mission "Successors: Ghosts 16"
 		ship "Vujlet-Usaqri (Jump)" "o-Sapi, Brilliant Voice"
 	on offer
 		conversation
-			`Saajret meets with you in a small room about fifteen degrees around the ring of the cloaked facility. It's circular with a shallow pool in the middle; something similar to moss crawls up the walls and a couple of small flowering plants poke their colorful heads up underfoot.`
-			`	"My thanks to thee for thy help so far," Saajret says. "I hope thou hast found our little shared space here comfortable enough."`
+			`萨杰雷特在这座隐形设施环形结构上约十五度位置的一间小屋里与你会面。屋子呈圆形，中央有一方浅池；某种类似苔藓的东西爬满了墙壁，脚下还有几株开花的小植物探出色彩斑斓的花头。`
+			`	“感谢汝迄今为止的帮助，”萨杰雷特说，“希望汝觉得我们这处小小的共享空间还算舒适。”`
 			choice
-				`	"I have."`
-				`	"What's the situation with that station?"`
-			`	Saajret nods. "I've conferred with Kaatrij and our Quarg patrons and, for once, we are all agreed. Two tasks lie before us, with thou included if thou wilt: first, we must assess how our citadel has been plunder'd. 'Tis well-defended, and seeing as its cloak was not fully disabled, its security must remain at least partially op'rative. For this, thou might'st play a vital role, again with thy unhind'red craft."`
+				`	“挺舒适的。”`
+				`	“那座空间站现在情况如何？”`
+			`	萨杰雷特点点头。“我已与卡特里吉以及我们的夸格庇护者商议过，难得这一次我们意见一致。我们面前有两项任务，若汝愿意，也算汝一份：首先，我们必须查明我们的要塞遭到了怎样的劫掠。它防御严密，而且既然它的隐形装置并未完全失效，其安保系统想必至少仍有部分在运作。在这方面，汝那不受阻碍的飞船或许又能发挥关键作用。”`
 			label "questions 1"
 			choice
-				`	"'Security?' Not sure I like the sound of that."`
+				`	“‘安保’？我不太喜欢这个说法。”`
 					to display
 						not "Successors: security"
 					goto security
-				`	"How could it have been revealed in the first place?"`
+				`	“它最初怎么会暴露的？”`
 					to display
 						not "Successors: revealed"
 					goto revealed
-				`	"What's the second task?"`
+				`	“第二项任务是什么？”`
 					goto second
 
 			label security
 			action
 				set "Successors: security"
-			`	Saajret prods a flower on the floor with the tip of one of their arms. "I've been fashioned with keys to elude the station's own defenses. That which poses the most threat to us are the independent ones; thou hast before met the guardian drone ships? With the citadel reveal'd, no doubt one has already taken up residence there."`
+			`	萨杰雷特用一条手臂的尖端拨弄着地上的一朵花。“我已获配密钥，可以避开空间站自身的防御。对我们威胁最大的是那些独立的防御者；汝以前遇到过那些守卫无人舰吧？要塞既已暴露，想必已有一艘进驻了那里。”`
 				goto "questions 1"
 
 			label revealed
 			action
 				set "Successors: revealed"
-			`	"That may be the most pertinent question that faces us all now, Captain." Many-colored waves ripple over Saajret's skin. "The location of our citadel, I am now told, was known to precious few within Kaatrij and none without. It suggests what I've suspected all along; one within Kaatrij has betrayed the House, sold our secrets to another."`
+			`	“这或许正是如今摆在我们所有人面前最紧要的问题，船长。”萨杰雷特的皮肤上荡起斑斓的波纹。“据我现在所知，我们要塞的位置在卡特里吉内部只有寥寥数人知晓，外部则无人知晓。这印证了我一直以来的怀疑：卡特里吉内部有人背叛了家族，把我们的秘密卖给了别家。”`
 				goto "questions 1"
 
 			label second
 			action
 				clear "Successors: security"
 				clear "Successors: revealed"
-			`	"Secondly," says Saajret, "'tis clear we must end this flitting about in the shadow of our foe. While thou and I breach the citadel, Kaatrij and the Quarg here plan a trap to snare an heirloom warship. To destroy such a craft would be a great wound to our attacker, and would, if we are fortunate, give us some measure of their identity.`
+			`	“其次，”萨杰雷特说，“显然我们必须终结这种被敌人在暗处来回戏耍的局面。在汝与我突入要塞之时，卡特里吉和此地的夸格正计划设下陷阱，捕获一艘传家战舰。摧毁这样一艘船，将给袭击者以重创；若我们运气好，还能让我们对其身份有所了解。”`
 			choice
-				`	"How do you plan to catch it if it's cloaked?"`
-				`	"All right, what's next?"`
+				`	“它是隐形的，你们打算怎么抓住它？”`
+				`	“好吧，接下来做什么？”`
 					goto next
-			`	The mess of colors dotting Saajret's face resolves into a unified shade of satisfaction. "The Quarg, it seems, have certain ways to uncover such hidden craft. An old foe of theirs used a similar tactic, I'm told. Convincing them to share aught is a lifetime task for the most persuasive of diplomats, but in this instance they may help us for the sake of quieting that ship's space-ripping drive. For that," they say, "they are most eager."`
+			`	萨杰雷特脸上斑驳杂乱的色彩汇聚成一种统一的满意色调。“看来夸格有某些手段能揭露这类隐藏的飞船。我听说，他们的一个宿敌也曾用过类似的战术。要说服他们分享任何东西，对最善于游说的外交官而言也是毕生的功课，但这一次，为了让那艘船撕裂空间的引擎沉寂下来，他们或许会帮我们。对此，”他们说，“他们可是迫不及待。”`
 
 			label next
-			`	A fine mist is emitted by ports on the ceiling, watering the plants and gathering in tiny spheres on your clothes. "We should prepare for our journey to the citadel. Equip thy craft as thou desireth, then let us depart."`
+			`	天花板上的喷口喷出一阵细雾，浇灌着植物，也在你的衣服上凝成细小的水珠。“我们该为前往要塞的旅程做准备了。按汝的心意装备好汝的飞船，然后我们便出发。”`
 				accept
 
 	on complete
 		conversation
-			`As you approach a central docking port on the citadel, alarms momentarily ring throughout the <ship>'s bridge as numerous weapon locks are detected. A moment later they cease and Saajret radios you from their own craft that it is safe to land, the shape of the Vujlet disappearing into the station's wide mouth.`
-			`	The inside is truly cavernous; the circular vault of the station's core forms an artificial sky, the landing pad for your ship a stamp-sized rectangle on its perimeter. Saajret exits from their landed ship and meets you with a pair of Kaatrij soldiers; you recognize one as having accompanied Kampa before when they interrogated you.`
-			`	"I've added us as allies in the station's security rolls," says Saajret. "It should permit us access below." They check a data-pad that they produce from one of their pockets, looking from the shifting metallic screen to the layout of the docking bay. Eventually, they point to one of several circular apertures on the floor. As you approach, a large elevator pod emerges from it and its doors open expectantly.`
+			`当你接近要塞中央的一处停泊口时，<ship>的舰桥上短暂地响起一片警报——侦测到大量武器锁定。片刻之后警报停止，萨杰雷特从自己的飞船上通过无线电告诉你可以安全着陆，那艘武杰莱特的身影随即消失在空间站宽阔的入口中。`
+			`	里面空旷得如同巨洞；空间站核心的圆形穹顶构成了一片人造天空，你飞船的着陆台只是其边缘上一个邮票大小的长方形。萨杰雷特从降落的飞船里出来，带着两名卡特里吉士兵与你会合；你认出其中一人曾在坎帕审讯你时陪同在侧。`
+			`	“我已将我们登记为空间站安保名册上的盟友，”萨杰雷特说，“这应该能让我们进入下层。”他们从一个口袋里取出一块数据板查看，目光在流动变幻的金属屏幕与停泊舱的布局之间来回移动。最后，他们指向地板上几个圆形开口中的一个。你们走近时，一个大型电梯舱从中升起，舱门仿佛早有预料般打开了。`
 			choice
-				`	"What's with the Myiara and these massive constructions?"`
-				`	"How far down are we going?"`
+				`	“米亚拉人怎么都喜欢这种庞大的建筑？”`
+				`	“我们要下到多深？”`
 					goto down
-			`	Saajret is speckled with mirth and hums. "Myiara?" they say. "'Twas the Quarg that told thee this, no doubt. Ah, but to answer thy query: after the discovery of cloaks, Kaatrij's outposts grew smaller and more independent. This one was simply older, and 'twas no challenge in the day to clad even a citadel such as this in stellar metal. That way, even small generators could cloak it whole." They rub the tips of two of their arms over a data-sphere embedded in the elevator pod.`
+			`	萨杰雷特身上泛起点点笑意，哼了一声。“米亚拉？”他们说，“想必是夸格告诉汝的。啊，不过还是回答汝的问题：发现隐形技术之后，卡特里吉的前哨变得越来越小，也越来越独立。这一座只是年代更久远而已；在那个时代，即便是这样的要塞，要用恒星金属包覆起来也算不上难事。如此一来，即使是小型发生器也能让它整个隐形。”他们用两条手臂的尖端摩挲着嵌在电梯舱里的一个数据球。`
 			choice
-				`	"How far down are we going?"`
+				`	“我们要下到多深？”`
 
 			label down
-			`	"We shall want to check the systems core and the vault, at least," says Saajret. "A very long way, for certain."`
-			`	The elevator takes the four of you down for several minutes; every once in a while, a window to the outside shows individual flashes of the sun setting as the station continues in its orbit. It finally stops on a platform overlooking a vast, dizzyingly-tall space, where pillars rise up for what seems like kilometers below you and terminate kilometers above. Myriad cargo containers are attached to their sides, and between them rest eight gleaming starships. Some of the designs are familiar, like polished versions of those you've seen in Successor space; others are entirely new to you.`
-			`	Saajret directs their two soldiers to set up a trio of small poles on the surface of the platform. They then radio to their ship and the poles light up, projecting barely-visible laser scanning beams throughout the vast space. After a couple of seconds, they mutter something to themself and order the soldiers to pack up the scanners.`
+			`	“我们至少要检查系统核心和宝库，”萨杰雷特说，“当然得下去很远很远。”`
+			`	电梯载着你们四个下降了好几分钟；每隔一阵，一扇通向外面的窗户便会闪现出一次日落——那是空间站仍在轨道上运行所致。电梯最终停在一处平台上，俯瞰着一片高得令人目眩的广阔空间：一根根支柱从似乎数公里深的下方升起，一直延伸到数公里高的上方才到顶。支柱侧面挂满了数不清的货物集装箱，其间停放着八艘闪闪发亮的星舰。有些设计你很眼熟，像是你在继承者空间见过的那些船的精修版；另一些则是你从未见过的。`
+			`	萨杰雷特吩咐两名士兵在平台表面架起三根小杆。随后他们用无线电联络自己的飞船，小杆随即亮起，向整个广阔的空间投射出几乎难以察觉的激光扫描光束。几秒钟后，他们自言自语地嘀咕了几句，命令士兵收起扫描器。`
 			choice
 				`	“那是什么？”`
-				`	"Everything here that's supposed to be?"`
+				`	“该在这里的东西都还在吗？”`
 					goto everything
-			`	"Kaatrij's fortune glows today," they say. "Naught lies out of place here; all is as 'twas when Kaatrij left it long ago."`
+			`	“今日卡特里吉福星高照，”他们说，“这里没有任何东西被动过；一切都与卡特里吉很久以前离开时一模一样。”`
 				goto core
 
 			label everything
-			`	"Fortunately," they say, "it is. Naught lies out of place; all is as 'twas when Kaatrij left it long ago."`
+			`	“幸运的是，”他们说，“都在。这里没有任何东西被动过；一切都与卡特里吉很久以前离开时一模一样。”`
 			label core
-			`	You all return to the elevator and it once again begins to plunge you deeper into the citadel. You start to feel something prickling in your ear, but it is gone as soon as it began. The views of outside stop and the elevator shaft seems to grow darker and redder as the four of you travel deeper. Eventually it reaches another platform, but the door of the elevator refuses to open. Saajret enters some commands on the elevator controls, and the reason is revealed: as the elevator's door blushes transparent, you can see the corridor behind it has been perforated and torn open from outside. In the distance you can see a blast door leading into an armored, spherical construction, but that too has been blasted apart.`
-			`	Saajret mutters darkly and once again orders the soldiers to set up the scanners, and once again they project their beams, now through the transparent door and into the breached segment. A wave of black ruffles over Saajret's skin. "All but one of the station's cloaking nodes have been remov'd. So strange..." they say, "to have stolen these and yet left the vault unassailed." The wave passes, leaving only colorlessness in its wake. "We must bring this news with haste. Let us hurry back."`
-			`	All of a sudden, the station's comm system crackles to life. A rapid series of interweaving clicks emerge, and they soon shift and warp in your ears as your translation device begins to interpret them. "Interloper!" something screams, and you feel dizzy. "Despoiler! Invading wretch!"`
+			`	你们一同回到电梯里，电梯再次载着你们向要塞更深处疾降。你开始感到耳朵里有什么东西在刺痛，但那感觉刚出现就消失了。外面的景色不见了，随着你们四个越降越深，电梯井似乎变得越来越暗、越来越红。电梯终于抵达另一处平台，但门却拒绝打开。萨杰雷特在电梯控制面板上输入了一些指令，原因随之揭晓：电梯门渐渐变得透明，你看到门后的走廊已被从外部打穿、撕开。远处可见一扇防爆门，通向一座装甲包覆的球形建筑，但那扇门同样已被炸开。`
+			`	萨杰雷特阴沉地嘀咕着，再次命令士兵架起扫描器，扫描器再次投射出光束，这一次穿过透明的门，射入被攻破的区段。一阵黑色的波纹拂过萨杰雷特的皮肤。“空间站的隐形节点除了一个之外，全都被拆走了。真奇怪……”他们说，“偷走了这些，却对宝库秋毫未犯。”波纹过去后，只留下一片无色。“我们必须尽快把这个消息带回去。快回去吧。”`
+			`	突然，空间站的通讯系统噼啪一声恢复了运作。一连串急促交织的咔嗒声传了出来，很快便在你耳中扭曲变形——你的翻译装置开始解读它们。“入侵者！”某个东西尖叫着，你一阵头晕目眩。“掠夺者！入侵的卑劣之徒！”`
 			choice
-				`	(Rip off the translation device.)`
-				`	(Try to block out the sounds.)`
-			`	As soon as you move, something punches against your inner ear and you crumple to the ground. The screaming voice stops, and another one takes its place, less pointed but no less painful. "We recognize thy kind," it says. "And the other with thee, too. Saajret?" As their name is spoken, Saajret stands over you, their words unintelligible. The voice shifts again. "Deceiver!" it screams. "Thou who hast plundered beast and bone from where they shouldst forever lie!"`
+				`	（扯下翻译装置。）`
+				`	（试着屏蔽那些声音。）`
+			`	你刚一动，就有什么东西猛击你的内耳，你瘫倒在地。尖叫声停了，另一个声音取而代之，不那么尖锐，却同样令人痛苦。“吾等认得汝之同类，”它说，“还有与汝同行的那位。萨杰雷特？”随着这个名字被念出，萨杰雷特俯身站在你身旁，说的话你却一句也听不懂。那声音又变了。“欺诈者！”它尖叫道，“汝将兽与骨从其永眠之所劫掠而去！”`
 			choice
-				`	"I'm trying to stop the thieves!"`
-				`	"How are you in my head!?"`
-				`	"What about Saajret?"`
-			`	The rage of the artificial voice chills. "Insignificant," it shouts, and as something else begins to interleave with the sound, something sharp and painful, there comes a quiet final phrase: "I missed thee," the voice says. "I missed thee."`
-			`	And all of a sudden it stops; the pain, the voice. The pressure fades away from your head and Saajret looks down at you, the translation device plucked from your body and held in their arm. They help you to your feet and return it to you; you store it in a pocket, deactivated.`
-			`	Saajret confers with their guards for a moment, their words a mess of unintelligible sound. One of them interacts with the elevator controls and the carriage starts to move upwards again, the station's com system shrieking to no avail. Saajret comes to speak to you, gently poking your chest with the tip of one of their arms; they say something that sounds a bit like your name. Suddenly the elevator is shaken by an impact from outside, and soon after dozens more follow. The four of you are deposited back in the landing bay just as you catch a glimpse of a ship in the distance firing on the station. You dash back to your own craft and prepare to flee or fight.`
+				`	“我是在阻止那些窃贼！”`
+				`	“你怎么会在我脑子里！？”`
+				`	“那萨杰雷特呢？”`
+			`	那人工合成声音中的怒意冷却下来。“无足轻重，”它喊道。就在另一种尖锐而痛苦的东西开始与这声音交织时，传来了最后一句轻语：“我想念汝，”那声音说，“我想念汝。”`
+			`	然后一切戛然而止——疼痛，还有那声音。头部的压迫感渐渐消退，萨杰雷特低头看着你，一条手臂里握着从你身上摘下的翻译装置。他扶你站起来，把装置还给你；你将它关闭后收进了口袋。`
+			`	萨杰雷特与卫兵们商议了片刻，他们的话在你听来只是一团无法理解的声响。其中一名卫兵操作了电梯控制台，轿厢再次开始上升，空间站的通讯系统徒劳地尖叫着。萨杰雷特过来跟你说话，用一条手臂的尖端轻轻戳了戳你的胸口；他说了句听起来有点像你名字的话。突然，电梯被来自外部的冲击震得一晃，紧接着又是几十次。你们四个刚被送回停机库，你就瞥见远处有一艘飞船正在向空间站开火。你冲回自己的飞船，准备逃离或迎战。`
 				launch
 
 	on fail
@@ -1626,8 +1626,8 @@ mission "Successors: Ghosts 16"
 
 mission "Successors: Ghosts 17"
 	landing
-	name "Flee to Successor space"
-	description "Escape the drone ship and return to <destination>."
+	name "逃往继承者空间"
+	description "摆脱无人舰，返回<destination>。"
 	source "Ijra-Ea, Shimmering Veil"
 	destination "Qasa-Sija-Iri"
 	to offer
@@ -1638,7 +1638,7 @@ mission "Successors: Ghosts 17"
 		personality heroic nemesis unconstrained vindictive launching
 		on kill
 			set "Successors: Ghosts Resja transmission"
-			dialog "As the drone ship explodes it transmits some data to your own vessel. It cannot be deciphered at this time."
+			dialog "无人舰爆炸时向你的飞船传输了一些数据。目前还无法破译。"
 	npc save
 		government `House Kaatrij`
 		personality launching coward
@@ -1666,8 +1666,8 @@ mission "Successors: Ghosts Scout Escorts"
 
 mission "Successors: Ghosts 18"
 	landing
-	name "Set up cloak detectors"
-	description "Set up the Quarg cloak detectors on the far side of the Successors' wormhole before landing on <destination> to lay in wait for the heirloom warship."
+	name "部署隐形探测器"
+	description "在继承者虫洞的另一侧部署夸格隐形探测器，然后降落在<destination>，埋伏等待那艘传家战舰。"
 	source "Qasa-Sija-Iri"
 	destination "Myiara-Aret-Iir"
 	cargo "Cloak detection node" 10
@@ -1681,104 +1681,104 @@ mission "Successors: Ghosts 18"
 		ship "Vujlet-Usaqri (Keystone)" "Siij, of Able Ej"
 		ship "Vujlet-Usaqri (Keystone)" "Luatet, Gentle Song"
 		ship "Vujlet-Usaqri (Keystone)" "Ruu, of Votive Naaq"
-	blocked "You need a ship with at least 10 units of free cargo space to begin this mission."
+	blocked "你需要一艘至少有 10 单位空余货舱的飞船才能开始这个任务。"
 	on offer
 		conversation
 			branch deferred
 				has "Successors: Ghosts 18: deferred"
 
-			`Saajret meets you soon after you disembark, their voice once again being translated by your now-reactivated translation device. "I've no time to consult with thee immediately," they say, "but please join me once I've updated Kaatrij."`
+			`你下船后不久，萨杰雷特便来见你，他的话再次由你重新启用的翻译装置翻译出来。“我眼下没空与你商议，”他说，“不过待我向卡特里吉汇报完毕，请来与我会合。”`
 			choice
-				`	"Before you go! Thank you."`
-				`	(Wait.)`
+				`	“在你走之前！谢谢你。”`
+				`	（等待。）`
 					goto briefing
 
 			action
 				"Successors: Ghosts Saajret Openness" ++
-			`	The cool blue of satisfaction washes over Saajret's skin. "Thou art most welcome, Captain," they say, and leave you to wait.`
+			`	代表满意的冷蓝色漫过萨杰雷特的皮肤。“不必客气，船长，”他说完便离开了，留你在此等候。`
 
 			label briefing
-			`	While you wait, you notice the two scout ships that joined you in the Oublaa-Khora system have landed nearby. Three other Vujleten-Usaqri soon join them, forming a small fleet within one of the larger hangar bays of the spaceport.`
-			`	After a while, one of the members of House Kaatrij comes to meet you and guides you to the same conference room you were shown on your first visit to the base. Inside stands Kampa, now dressed in an opulent uniform, along with Saajret and a number of Kaatrij's military officers.`
-			`	"Captain <last>," Kampa says. "With Saajret's report on the Kasii-Sola citadel's plund'ring we've no time to squander." A metallic pool in the center of the room splashes and forms into a depiction of a warship, more sharp and elegant than any you've seen the Successors use.`
-			`	"Another House," they say, "has dragg'd an heirloom starship from their reliquary and set it 'gainst us, and now used it t'steal no less than five sep'rable cloaks. So long as such a craft flies free, Kaatrij shan't know peace. To catch it, the Quarg provide us on loan some tools of theirs, detectors to wrap round the wormhole's mouth and catch our quarry when next it seeks to pass through.`
-			`	Our plan's an ambush; a fleet of our own cloaked craft shall lay in wait for it and intercept it while 'tis stricken. The alien captain shall join them, should it please them."`
+			`	等待期间，你注意到在乌布拉-科拉星系与你会合的那两艘侦察舰已在附近降落。很快又有三艘武杰莱特-乌萨克里加入它们，在太空港一座较大的机库内组成了一支小型舰队。`
+			`	过了一会儿，一名卡特里吉家族成员前来迎接你，把你领到你初次造访基地时去过的那间会议室。坎帕站在里面，此刻身着一套华丽的制服，身旁是萨杰雷特和多名卡特里吉的军官。`
+			`	“<last>船长，”坎帕说，“萨杰雷特已禀报卡西-索拉要塞遭劫一事，我们没有时间可以浪费了。”房间中央的金属池泛起水花，凝成一艘战舰的图像，比你见过的任何继承者战舰都更加锋利优雅。`
+			`	“另一个家族，”坎帕说，“从其圣物库中拖出一艘传家星舰来对付我们，如今又用它窃走了不下五套可拆卸的隐形装置。只要这样一艘飞船仍逍遥在外，卡特里吉便不得安宁。为了捕获它，夸格借给我们一些他们的工具——可环绕虫洞口布设的探测器，待我们的猎物下次试图穿越时便能将其捉住。`
+			`	“我们的计划是伏击：一支由我方隐形舰船组成的舰队将埋伏等候，趁它受困时将其截击。若外星船长乐意，也可加入其中。”`
 			label questions
 			choice
-				`	"My current ship isn't able to cloak."`
+				`	“我现在的飞船无法隐形。”`
 					to display
 						not "flagship attribute: cloak"
 					goto "no cloak"
-				`	"What if the fleet is disabled?"`
+				`	“如果舰队失去战斗力怎么办？”`
 					to display
 						not "Successors: lose"
 					goto lose
-				`	"What sort of fight should I expect?"`
+				`	“我该做好打一场什么样的仗的准备？”`
 					to display
 						not "Successors: expect"
 					goto expect
-				`	"All right, I'm ready."`
+				`	“好了，我准备好了。”`
 					to display
 						has "flagship attribute: cloak"
 					goto end
 			label lose
 			action
 				set "Successors: lose"
-			`	Kampa nods. "We've a second plan, with crews already prepar'd. But 'tisn't thy responsibility to know it."`
+			`	坎帕点点头。“我们另有一套计划，人员都已准备就绪。不过那就不是你需要知道的了。”`
 				goto questions
 
 			label expect
 			action
 				set "Successors: expect"
-			`	Saajret is the one who speaks now. "'Tis a proper battlecruiser of our Predecessors' age," they say. "Our warships in their day were second only to those of the Quarg; one could not doubt stand against a fleet of lesser craft handily."`
+			`	这次开口的是萨杰雷特。“那是一艘货真价实的先行者时代战列巡洋舰，”他说，“我们的战舰在当年仅次于夸格；毫无疑问，单单一艘就能轻松抵挡一支由较弱舰船组成的舰队。”`
 				goto questions
 
 			label end
-			`	Saajret speaks. "I'll join thee, <last>, before we depart. Thou shalt need a guide to the world where we seek to plan the ambush."`
+			`	萨杰雷特说道：“出发前我会与你会合，<last>。你需要一名向导，带你前往我们计划设伏的那个世界。”`
 				accept
 
 			label "no cloak"
 			action
 				set "Successors: Ghosts 18: deferred"
-			`	Kampa considers this for a moment. "The benefit of thy joining us outweighs the loss of a small delay," they say. "We can afford to wait on thee to acquire such a craft if it enables this ambush. Please act quickly if thou wish t'assist."`
+			`	坎帕考虑了片刻。“你的加入所带来的益处，胜过稍作拖延的损失，”他说，“若能促成这次伏击，我们可以等你弄到这样一艘飞船。如果你愿意协助，请尽快行动。”`
 				defer
 
 			label deferred
 			branch "still no cloak"
 				not "flagship attribute: cloak"
 
-			`	Having acquired a cloak-capable flagship, you are quickly directed back to a briefing room within the base where Kampa reiterates the plan: you will join a fleet of House Kaatrij's ships to deploy Quarg cloak detectors around the wormhole, before laying in wait on <destination> to ambush the heirloom warship that attacked Kaatrij.`
+			`	在你弄到一艘能够隐形的旗舰后，你很快被领回基地内的一间简报室，坎帕在那里重申了计划：你将与卡特里吉家族的一支舰队一道，在虫洞周围部署夸格隐形探测器，然后在<destination>埋伏，伏击那艘袭击过卡特里吉的传家战舰。`
 				accept
 
 			label "still no cloak"
-			`	Without a cloak-capable flagship, you cannot join House Kaatrij in their ambush.`
+			`	没有一艘能够隐形的旗舰，你就无法加入卡特里吉家族的伏击行动。`
 				defer
 
 
 	on enter "Oublaa-Khora"
-		dialog `As you exit the wormhole, you trigger the release of the cloak detector from your ship's cargo bay. The metal orb floats into position at the wormhole's edge before disappearing from view entirely as its cloaking armor activates. Apparently satisfied, Saajret directs you to land on the nearby planet.`
+		dialog `你一驶出虫洞，便触发了货舱中隐形探测器的释放装置。那颗金属球飘到虫洞边缘就位，随后隐形装甲启动，彻底从视野中消失。萨杰雷特似乎很满意，指引你降落到附近的行星上。`
 
 	on complete
 		conversation
-			`Once the rest of House Kaatrij's fleet has deployed their own cloak detectors, the fleet of Vujleten follow you into <planet>'s atmosphere, bedding down in the shadow of an ancient weather control tower to shield them from the dust. Several of the Successors inside exit to inspect the tower's functioning, and return after a few minutes. They bring long fuel hoses out of their ships and connect them to ports on the tower's side; one by one, the flock of Vujleten shimmer and then disappear as their own cloaks engage.`
-			`	As one of the crew of the Kaatrij ships links the <ship>'s own fuel tank to the tower's reserves, Saajret slithers onto the bridge and greets you. "Now, it seems, we wait," they say. Black and white patterns of dots dance across their face, whirling around each other and occasionally splashing apart.`
+			`卡特里吉家族舰队的其余舰船也部署好各自的隐形探测器后，这群武杰莱特跟随你进入<planet>的大气层，在一座古老的气象控制塔的阴影下落脚，以躲避尘土。舰上的几名继承者下船去检查塔的运转情况，几分钟后返回。他们从飞船上拉出长长的燃料软管，接到塔侧的接口上；随着隐形装置逐一启动，这群武杰莱特一艘接一艘地闪烁几下，随即消失不见。`
+			`	一名卡特里吉舰员将<ship>的燃料箱接上塔内储备时，萨杰雷特滑行着来到舰桥，向你问好。“看来，现在我们只能等待了，”他说。黑白相间的斑点图案在他脸上舞动，彼此回旋，时而四散溅开。`
 			choice
-				`	"What makes you think they'll even come back this way?"`
+				`	“你凭什么认为他们还会从这条路回来？”`
 					goto retreat
-				`	"How long will we be able to stay here?"`
-			`	Saajret tilts their head to the side as the whirling colors slow. "Some few days, at most. The tower's fuel has mostly long since gone, and we drink now only the last dregs of it. I think we shall not need to, though," they say. "Soon after leaving, Kaatrij pulled its fleets from Aaura-Kaska, circled them around our core. 'Tis an invitation to the wormhole, we should think - fewer scans, fewer edits to one's course."`
+				`	“我们能在这里待多久？”`
+			`	萨杰雷特把头歪向一侧，回旋的色彩慢了下来。“最多几天吧。塔里的燃料大多早已耗尽，我们如今喝的只是最后一点残渣。不过我想，我们用不着等那么久，”他说，“我们离开后不久，卡特里吉便从奥拉-卡斯卡撤回舰队，将其环绕布防在我们的核心周围。在我们看来，这等于是向虫洞发出邀请——扫描更少，航线也不必多作调整。”`
 				goto trap
 
 			label retreat
-			`	Saajret's skin sparkles with satisfaction. "Soon after leaving, Kaatrij pulled its fleets from Aaura-Kaska, circled them around our core. 'Tis an invitation to the wormhole, we should think - fewer scans, fewer edits to one's course. Open we leave the gate, and now something wicked this way comes."`
+			`	萨杰雷特的皮肤闪烁着满意的光彩。“我们离开后不久，卡特里吉便从奥拉-卡斯卡撤回舰队，将其环绕布防在我们的核心周围。在我们看来，这等于是向虫洞发出邀请——扫描更少，航线也不必多作调整。我们敞开大门，如今便有邪恶之物循路而来。”`
 
 			label trap
-			`	"Won't they think it could be a trap?"`
-			`	"Perhaps." Outside, a gust of wind throws up enough grit to leave tiny blue flashes against the shields of one of the cloaked Vujleten. "We've become our own quarries, though, isolated from our allies, no longer fearsome in scale. Surprise," they say, "is only worth so much."`
-			`	Saajret excuses themself there, offering you a short bow and splay of the arms. With nothing left to do but wait, you and your crew work to prepare the <ship> for the forthcoming battle.`
+			`	“他们不会想到这可能是个陷阱吗？”`
+			`	“也许吧。”外面，一阵风卷起的沙砾打在一艘隐形武杰莱特的护盾上，激起点点细小的蓝色闪光。“不过我们自己也成了猎物，与盟友隔绝，规模也不再令人生畏。出其不意的价值，”他说，“终究有限。”`
+			`	萨杰雷特说完便告辞了，向你微微鞠躬并摊开双臂。除了等待已无事可做，你和船员们着手让<ship>为即将到来的战斗做好准备。`
 			choice
-				`	(Wait.)`
-			`	In the early morning of the following day, an alarm rings on the bridge of the <ship>. Your sensors pick up the annihilation of countless antiprotons against the shields of a cloaked ship emerging from the wormhole and soon after, a new contact blinks into existence as its cloak fails. The radios between your ship and Kaatrij's spring to life as you all cut loose your fuel cables and take off.`
+				`	（等待。）`
+			`	次日清晨，<ship>的舰桥上警报大作。你的传感器探测到无数反质子在一艘刚从虫洞中驶出的隐形飞船护盾上湮灭，紧接着，随着其隐形失效，一个新的目标信号闪现出来。你的飞船与卡特里吉舰船之间的无线电顿时热闹起来，你们纷纷断开燃料管线，起飞迎敌。`
 				launch
 
 	on fail
@@ -1788,8 +1788,8 @@ mission "Successors: Ghosts 18"
 
 mission "Successors: Ghosts 19"
 	landing
-	name "Defeat the heirloom warship"
-	description "Destroy the Myiaran heirloom warship with the help of House Kaatrij before returning to their base on <destination> for debriefing."
+	name "击败传家战舰"
+	description "在卡特里吉家族的协助下摧毁那艘米亚拉传家战舰，然后返回其位于<destination>的基地汇报。"
 	source "Myiara-Aret-Iir"
 	destination "Qasa-Sija-Iri"
 	to offer
@@ -1800,7 +1800,7 @@ mission "Successors: Ghosts 19"
 		ship "Valkkyiara-Khorasaqra" "Ijahti-Khora"
 		on kill
 			set "Successors: Ghosts killed heirloom"
-			dialog "With the warship destroyed, you should return to Qasa-Sija-Iri for debriefing."
+			dialog "战舰已被摧毁，你应返回卡萨-西贾-伊里汇报。"
 	npc
 		government "House Kaatrij"
 		personality launching heroic escort
@@ -1815,65 +1815,65 @@ mission "Successors: Ghosts 19"
 		event "successors: ghosts abandoned kaatrij" 3
 	on complete
 		payment 10000000
-		log "Fought and destroyed an heirloom warship of the High Houses with the support of House Kaatrij, likely the same ship that attacked their base on Qasa-Sija-Iri."
+		log "在卡特里吉家族的支援下，与一艘高等家族的传家战舰交战并将其摧毁，它很可能就是袭击卡萨-西贾-伊里上该家族基地的那艘飞船。"
 		conversation
-			`As the <ship> returns to the Kaatrij base, it is scanned even more thoroughly than usual, planetary coilguns tracking it carefully until at last the scanners are satisfied. The portal in the sand opens to a curiously quiet scene; the whole facility seems to be waiting for whatever comes next. As soon as your landing gear touches ground, everything springs into motion.`
-			`	Saajret slithers off almost immediately, only offering a hasty promise of their return and a poorly-concealed tint of satisfaction. You don't have to wait long, though; by the time the spaceport's automated repair arms have folded down to assess the <ship>'s battle damage, you notice Saajret coming back, Kampa and a smattering of Kaatrij officers at their side. Though none of the base's Quarg join them, you notice one watching the scene from one of the rooms overlooking the spaceport.`
-			`	Kampa speaks first as they lead you away from your ship and into a more secluded region of the port. "'Tis good that thou prevail'd," they say, sharing in Saajret's satisfaction. "'Twas a fraught battle, I trust?"`
+			`<ship>返回卡特里吉基地时，受到了比平时更为彻底的扫描，行星线圈炮一路小心地跟踪着它，直到扫描仪终于确认无误。沙地中的入口开启，里面是一片出奇安静的景象；整座设施仿佛都在等待接下来会发生的事。你的起落架刚一触地，一切便骤然忙碌起来。`
+			`	萨杰雷特几乎立刻就滑行离开了，只匆匆承诺会回来，皮肤上掩饰不住地透出一抹满意之色。不过你并没有等太久；当太空港的自动维修臂刚刚降下、开始评估<ship>的战损时，你便看见萨杰雷特回来了，身边跟着坎帕和几名卡特里吉军官。基地里的夸格没有一个过来，但你注意到有一个正从一间俯瞰太空港的房间里注视着这一幕。`
+			`	坎帕领着你离开飞船，走向太空港一处较为僻静的区域，率先开口：“你得胜归来，很好，”他说，与萨杰雷特一样流露出满意之色，“想必是一场艰苦的战斗吧？”`
 			choice
-				`	"Indeed. We were lucky it was just one ship."`
+				`	“确实。幸好只有一艘船。”`
 					goto next
-				`	"It was. I'm sorry none of your own crews survived."`
+				`	“是的。很遗憾你们的舰员无一生还。”`
 					to display
 						has "Successors: Ghosts support fleet died"
 					goto mournful
-				`	"I've fought tougher."`
+				`	“我打过更难的仗。”`
 
-			`	"Indeed?" Kampa says. "Later thou shalt have to tell us more of this."`
+			`	“哦？”坎帕说，“那你之后可得跟我们多讲讲。”`
 
 			label mournful
-			`	"As are we," says Kampa. "But their names shall be honored ones for their courage and devotion."`
+			`	“我们也一样，”坎帕说，“但他们的勇气与忠诚，将使他们的名字永受尊崇。”`
 			label next
-			`	They produce a data-sphere from their outfit and offer it to you. As you take it, they continue, "I shall enjoy debriefing thee after our conversation here, but for now, Kaatrij has seen fit to offer thee a reward for thy able service. Since thou hast yet to receive the ability to purchase our technologies, today 'tis purely monetary. The sphere authorizes the transfer of <payment> to thee."`
+			`	坎帕从衣服里取出一枚数据球递给你。你接过时，他继续说道：“谈完这些后，我很乐意听你详细汇报。不过眼下，卡特里吉决定为你的出色效力给予奖赏。鉴于你尚未获得购买我们技术的资格，今日的奖赏只能是钱款。这枚数据球授权向你转账<payment>。”`
 			choice
-				`	"Has this brought us any closer to knowing which House committed the attacks?"`
-				`	"And what about purchasing your technology, since you mention it?"`
+				`	“这件事让我们离查明是哪个家族发动袭击更近一步了吗？”`
+				`	“既然你提到了，那购买你们的技术又怎么说？”`
 					goto technology
-				`	"Thank you. It's most generous."`
+				`	“谢谢。你们真是太慷慨了。”`
 					goto generous
 
-			`	Kampa nods. "It shall, if fortune favors us. We've dispatched fleets to examine the wreckage left after the fray. There is little chance anything clearly identifying remains, but the wreckage may give valuable context to our intelligence."`
-			`	Saajret interjects. "That wedding 'tween Myurej and Chydiyi, too, offers us an opportunity to observe the other Houses in the wake of this. One there has been wounded now, and we shall see if it shows."`
-			`	"Such a gathering also fulfills the treaty conditions under which we may offer thee our license," says Kampa. "In short, we await it eagerly."`
+			`	坎帕点点头。“若命运眷顾，会的。我们已派出舰队查看交战后留下的残骸。残骸中留有明确身份线索的可能性很小，但它们或许能为我们的情报提供宝贵的背景。”`
+			`	萨杰雷特插话道：“缪雷吉与奇迪伊之间的那场婚礼，也让我们有机会观察其他家族在此事之后的反应。其中有一家如今已经负伤，我们倒要看看它是否会露出破绽。”`
+			`	“这样的聚会也满足了条约中允许我们授予你许可证的条件，”坎帕说，“简而言之，我们正翘首以待。”`
 				goto "what now"
 
 			label technology
-			`	Saajret nods here. "That wedding 'tween Myurej and Chydiyi is likely to happen soon," they say. "Thy time of shrouded service to Kaatrij has come to its close; with all the Houses there, 'tis a fair opportunity to present thee with our license."`
-			`	"Thou hast done service to other Houses, too," Kampa says, "so it should be 'thout much resistance."`
+			`	萨杰雷特点了点头。“缪雷吉与奇迪伊之间的那场婚礼很可能不久便会举行，”他说，“你暗中为卡特里吉效力的日子已告一段落；届时各家族齐聚，正是授予你我们许可证的好时机。”`
+			`	“你也曾为其他家族效过力，”坎帕说，“所以应该不会遇到太大阻力。”`
 				goto "what now"
 
 			label generous
-			`	Kampa bows and Saajret interjects. "That wedding 'tween Myurej and Chydiyi is likely to happen soon," they say. "And with it, the end to thy shrouded service to Kaatrij. 'Tis a fair time to present thee with our license, as much as it may interest thee."`
-			`	"Thou hast done service to other Houses, too," Kampa says, "so it should be 'thout much resistance."`
+			`	坎帕鞠了一躬，萨杰雷特插话道：“缪雷吉与奇迪伊之间的那场婚礼很可能不久便会举行，”他说，“届时，你暗中为卡特里吉效力的日子也将随之结束。那正是授予你我们许可证的好时机，想必你也会感兴趣。”`
+			`	“你也曾为其他家族效过力，”坎帕说，“所以应该不会遇到太大阻力。”`
 
 			label "what now"
 			choice
 				`	“现在怎么办？”`
-				`	"Do you have anything else for me?"`
+				`	“你还有别的事要我做吗？”`
 
 			branch "wedding preparations"
 				not "successors: ghosts dealt with myurej"
 
-			`	"Just to wait," Kampa says. "Kaatrij must now determine its next move."`
+			`	“只有等待，”坎帕说，“卡特里吉现在必须决定下一步行动。”`
 				goto end
 
 			label "wedding preparations"
 
-			`	"On the matter of the forthcoming wedding," Kampa says. "Myurej continues to whine about some absent gifts of theirs. Shouldst thou need to earn thyself an invitation, that would be a matter to pursue."`
+			`	“至于即将举行的婚礼，”坎帕说，“缪雷吉仍在为他们丢失的几件礼物抱怨不休。若你需要为自己赢得一份请柬，不妨从此事入手。”`
 
 			label end
 
-			`	With that said, Kampa bows and leaves. "I expect thou shouldst wish to supervise thy craft's repairs," Saajret says, "or perhaps merely enjoy some rest." Their skin speckles with mirth. "Farewell, Captain. I hope to see thee again soon."`
+			`	说完，坎帕鞠了一躬便离开了。“我想你大概希望去监督飞船的维修，”萨杰雷特说，“或者只是好好休息一下。”他的皮肤上泛起欢快的斑点。“再会，船长。希望不久能再见到你。”`
 
 	on fail
 		dialog phrase "successor ghosts story failed"
@@ -1902,8 +1902,8 @@ mission "Successors: Ghosts Salvage Fleet"
 
 mission "Successors: Ghosts 20"
 	landing
-	name "Go to the scions' wedding"
-	description "The long-awaited wedding between scions of House Myurej and Chydiyi will take place at <destination> by <date>."
+	name "参加子嗣婚礼"
+	description "缪雷吉家族与奇迪伊家族子嗣之间期待已久的婚礼将于<date>前在<destination>举行。"
 	source
 		attributes "successor"
 		not attributes "uninhabited"
@@ -1915,127 +1915,127 @@ mission "Successors: Ghosts 20"
 	deadline 10
 	on offer
 		conversation
-			`Shortly after landing here, a data-sphere is delivered to you. It jumps to life as soon as you touch it, displaying its message:`
-			`	Honored alien who has earned audience at the gilded wedding 'tween Myurej and Chydiyi, we wish to inform thee that the date is set. Thy presence we shall cordially request at <planet> by <date>.`
-			`	This is attested on behalf of Myurej M- Khiajsore, honored scion of House Myurej.`
+			`在此降落后不久，有人给你送来一枚数据球。你一碰到它，它便亮了起来，显示出其中的讯息：`
+			`	尊敬的外星人，你已获准出席缪雷吉与奇迪伊之间的盛大婚礼，我们谨此告知你，日期已定。我们诚挚恭请你于<date>前莅临<planet>。`
+			`	此信以缪雷吉家族尊贵子嗣——缪雷吉 M- 基亚索尔之名为证。`
 				accept
 	on complete
-		log "Attended the wedding between scions of Houses Chydiyi and Myurej. Was presented with a license to purchase advanced Successor technology."
+		log "出席了奇迪伊家族与缪雷吉家族子嗣之间的婚礼。获授一份许可证，可购买先进的继承者技术。"
 		set "license: High Houses"
 		event "successors: ghosts intermission timer" 40
 		event "successors: ghosts kaatrij expansion"
 		conversation
 			branch waterlining
 				has "flagship attribute: waterlining"
-			`You are given directions to one of the shallow-water landing pads on a secondary <planet> spaceport, from which you once again take a long elevator deep into the ocean. Outside the window dance the "Ribbons of Iret," enormous plumes of color rising up from from the abyss, only growing more intense the farther down you travel.`
+			`你被引导至<planet>一座次要太空港的某个浅水着陆坪，再次从那里乘坐长长的电梯深入海洋。窗外舞动着“伊雷特缎带”——从深渊中升腾而起的巨大彩色羽流，你下潜得越深，它们就越发浓烈。`
 				goto complex
 
 			label waterlining
-			`Traffic control gives you coordinates to the deepwater complex where the wedding is to take place, and you plunge the <ship> into the planet's ocean, its hull wrapped around by one of the "Ribbons of Iret," enormous and colorful. The farther down you travel, the more intense the bioluminescent plume grows, until it feels almost as if you are traveling through a nebula in space rather than an underwater bloom.`
-			`	You reach the complex and dock at it, disembarking through an airlock and taking an elevator for the final short distance.`
+			`交通管制给了你婚礼举办地——一座深水建筑群的坐标，你驾驶<ship>一头扎进这颗星球的海洋，船身被一条巨大而绚丽的“伊雷特缎带”环绕。你下潜得越深，那生物荧光羽流就越发浓烈，直到你几乎觉得自己是在太空中穿越一片星云，而非水下的一团藻华。`
+			`	你抵达建筑群并停靠，穿过气闸下船，再乘电梯走完最后一小段路。`
 
 			label complex
-			`	You soon enter a similar room to the one you visited the last time you were here, though this one is even larger and more richly decorated, the walls a riot of color and form that is as ostentatious as it is impressive. A gentle mist issues from apertures on the vaulted ceiling and long golden threads trail downwards, writhing around particular Successors and eventually, you.`
-			`	The thread inspects your face and clothing for a short time before it speaks in a soft, synthesized voice. "Greetings, Captain <first> <last>! Thou'rt authorized to attend the ceremony this afternoon and, following, a special meeting of the locally-gathered Houses." The voice continues for a while, providing you with information on which rooms to visit and how you are to find your way there.`
-			`	Soon after, you catch sight of Khiajsore, the Myurej scion you spoke with before. They catch sight of you as well and slither towards you, batting away one of the threads with a bejeweled arm. "Captain, captain, delightful Captain," they say. "How pleasant of thee to accept our invitation."`
+			`	你很快进入一个与你上次来此时造访过的房间相似的大厅，只是这里更加宽敞，装饰也更加华丽，墙壁上色彩与造型纷繁交错，既张扬炫目又令人叹服。拱形天花板的孔隙中飘出轻柔的水雾，长长的金色细丝垂落下来，在某些继承者身边蜿蜒缠绕，最后也绕到了你身旁。`
+			`	那根细丝检查了一会儿你的面孔和衣着，然后用柔和的合成声音说道：“你好，<first> <last>船长！你已获准出席今天下午的典礼，以及之后在此聚集的各家族所召开的特别会议。”那声音又继续说了一阵，告诉你该去哪些房间、怎样找到路。`
+			`	不久，你看到了基亚索尔，就是你之前交谈过的那位缪雷吉子嗣。对方也看到了你，朝你滑行而来，用一条缀满珠宝的手臂拨开一根细丝。“船长，船长，令人愉快的船长，”他说，“你肯赏光接受我们的邀请，真是太好了。”`
 			choice
-				`	"I appreciated your extending it."`
+				`	“感谢你发出邀请。”`
 					goto appreciate
-				`	"It's a very impressive facility you have here."`
-			`	They hum. "Such beauty earns the envy of many; the natural and artificial intertwined."`
+				`	“你们这里的设施真是令人印象深刻。”`
+			`	他发出一声低鸣。“如此美景令众人艳羡；自然与人工交织一体。”`
 				goto khiajsore
 
 			label appreciate
-			`	"For such a unique and industrious figure, 'twould've been an unbearable snub not to!"`
+			`	“对你这样独特又勤勉的人物，若不邀请，那可就是难以容忍的怠慢了！”`
 
 			label khiajsore
-			`	They rattle one of their arms a little, red gold and sparkling stones swinging through the air. "I just spoke of thee, in fact, with a delegate of House Seineq here, who confirmed what I've heard that thou wert of use to them as well! I think," they say, "thou didst set a good example for future aliens - benevolent, equitable, humble. Though I hear now Kaatrij has obtained thy vassalage? A boon to them, no doubt." Their face sparkles with color, eyes alight with furtive interest. "Though I hope for our efforts, Myurej has earned some measure of thy favor."`
+			`	他轻轻晃了晃一条手臂，红金饰物与闪亮的宝石在空中摇摆。“其实我刚和塞内克家族在此的一位代表谈起你，他证实了我听到的传闻——你对他们也颇有助益！我认为，”他说，“你为将来的外星人树立了良好的榜样——仁慈、公正、谦逊。不过我听说，如今卡特里吉已将你收为封臣？这对他们而言无疑是件幸事。”他的脸上闪烁着色彩，眼中燃起隐秘的兴趣。“不过我希望，凭我们的努力，缪雷吉也已赢得你几分青睐。”`
 			choice
-				`	"I'm happy to help, so long as it doesn't conflict with my other responsibilities."`
-				`	"I'm not sure I like where this is going."`
-			`	Khiajsore laughs. "Of course, of course," they say. "Thou hast already helped us greatly. Now please excuse me."`
-			`	They leave and two members of the crowd break off to follow them, which you notice carry small weapons strapped to their outfits. One of the golden threads makes its way back to you, informing you that the wedding ceremony will be beginning soon.`
+				`	“我很乐意帮忙，只要不与我的其他职责冲突就行。”`
+				`	“我不太喜欢这话的走向。”`
+			`	基亚索尔笑了起来。“当然，当然，”他说，“你已经帮了我们大忙。现在请容我失陪。”`
+			`	他离开后，人群中有两人脱身跟了上去，你注意到他们的衣服上绑着小型武器。一根金色细丝又绕回你身边，告诉你婚礼仪式即将开始。`
 			choice
-				`	(Attend the wedding.)`
-				`	(Wait around until the later meeting.)`
+				`	（参加婚礼。）`
+				`	（在附近等到稍后的会议。）`
 					goto skipped
-			`	While most Successors are waiting outside the entrance to what must be a massive room, you are instead guided to an inconspicuous and out-of-the-way door, guarded by a pair of Successor soldiers. Neither one reacts to your attempt to pass, and as you step behind the door, it becomes clear why you aren't lining up with the general public: that massive room is entirely filled with water, a gigantic sphere with lights, platforms, and countless seats all built within it. A few small rooms like the one you now stand in are built into the walls like little transparent air bubbles at the shore of a great sea.`
-			`	You are joined by three other Successors after a few minutes, each of whom takes their place in the little room. The ceremony begins shortly after. From apertures in the bottom of the sphere, legions of soldiers emerge, half wearing the colors of House Chydiyi and the other half of House Myurej. The two small armies swim around each other, interleaving their lines of bodies like the Ribbons themselves that you saw outside.`
-			`	Only after a half hour of these acrobatics does the couple finally appear, rising up from the same apertures and joined by a flanking group of what must be the scions of their respective houses. You spy Khiajsore among them. There is a further intertwining, a display of finery and a ripple of many colors over the skin of those assembled, and then a collective hum rises from the crowd.`
+			`	大多数继承者都在一个想必极为宏大的厅堂入口外等候，你却被引向一扇不起眼的偏僻小门，门口有两名继承者士兵把守。你上前通过时，两人都毫无反应；一跨进门内，你便明白了自己为何不必与普通宾客一同排队：那座宏大的厅堂完全灌满了水，是一个巨大的球体，内部建有灯光、平台和无数座席。几间与你此刻所在相仿的小房间嵌在墙壁中，犹如大海岸边一个个透明的小气泡。`
+			`	几分钟后，另有三名继承者加入了你，各自在小房间里就座。仪式随即开始。成群的士兵从球体底部的孔洞中游出，一半身着奇迪伊家族的颜色，另一半则是缪雷吉家族的。这两支小型军队彼此环游，队列交错穿插，就像你在外面看到的那些彩带一样。`
+			`	这番杂技表演持续了半个小时后，新人才终于现身，从同样的孔洞中升起，两侧簇拥着一群想必是双方家族子嗣的人。你在其中瞥见了基亚索尔。众人再次交织盘绕，华服纷呈，在场者的皮肤上泛起五彩涟漪，随后人群中响起一阵齐声的低鸣。`
 			choice
-				`	(Hum also.)`
+				`	（也跟着低鸣。）`
 				`	（保持沉默。）`
-			`	With the moment apparently passed, speeches follow, each of the scions offering some short dialog about the history of their house and their hopes for its future. The translation device struggles to make sense of many of the words, as if they're being said in a dialect it's unfamiliar with. Eventually the ceremony seems to come to a close, the enormous audience trickling out of their seats and returning to mill about the facility.`
+			`	这一时刻似乎过去后，接着是演讲，每位子嗣都简短讲述了自己家族的历史以及对其未来的期望。翻译装置难以理解其中许多词语，仿佛它们是用一种它不熟悉的方言说出的。仪式最终似乎落下帷幕，庞大的观众群陆续离席，回到设施各处四下走动。`
 
 			label skipped
-			`	You wait around for a little while until one of the threads comes to find you, giving you directions to an out-of-the-way room. Inside are representatives of all six High Houses; among them Khiajsore of House Myurej, Riijaaora of House Sioeora, and Kampa of House Kaatrij.`
-			`	Kampa takes to the pool in the center of the room, addressing the group: "Honored representatives of the Houses assembled. House Kaatrij calls this union to make public our declaration of suzerainty to the alien captain <first> <last>. In keeping with the inter-Houses Treaty on Alien Agents, we herefore shall provide our vassal the violent fruits of our House, so that they might adequately and securely perform their duties.`
-			`	In keeping with the Treaty, this offer may be extended by the other Houses in courtesy and deference to sovereign Kaatrij."`
-			`	They step back to the rim of the pool and three others take to the pool's center: Myurej, Aqrabe, and Seineq. Each one speaks in turn, variations on a phrase: "In appreciation with the captain's service to our House, we provide our assent to and recognition of this offer."`
-			`	Chydiyi's representative stays on the edge of the pool, abstaining from the discussion, but Sioeora's takes the center, glaring at you.`
+			`	你在附近等了一会儿，直到一根细丝来找你，为你指明前往一间偏僻房间的路。里面是全部六个高等家族的代表，其中有缪雷吉家族的基亚索尔、肖尔拉家族的里贾奥拉，以及卡特里吉家族的坎帕。`
+			`	坎帕走进房间中央的水池，向众人致辞：“在座的各家族尊贵代表。卡特里吉家族召集此次会盟，是为公开宣布我们对外星船长<first> <last>的宗主权。依照各家族间的《外星代理人条约》，我们将向我们的封臣提供本家族的武力成果，使其能够充分而安全地履行职责。`
+			`	“依照该条约，其他家族亦可出于礼节，并尊重卡特里吉的主权，一并给予此项授权。”`
+			`	坎帕退回池边，另外三位走到池中央：缪雷吉、阿克拉贝和塞内克的代表。他们依次发言，说的都是同一句话的不同版本：“感念船长对本家族的效劳，我们对此项授权表示赞同与认可。”`
+			`	奇迪伊的代表留在池边，未参与讨论；肖尔拉的代表则走到中央，怒视着你。`
 			branch "kaatrij patron"
 				has "successors kaatrij patron"
 
-			`	"Despite Sioeora's generosity and patronage to the captain," Riijaaora says, "this alien sees fit to vassalize another House. We shall not recognize this relationship, nor open our outfitters to them."`
+			`	“尽管肖尔拉对船长慷慨相待、多有庇护，”里贾奥拉说，“此外星人仍决意臣属于另一家族。吾等不承认此种关系，亦不会向其开放吾等的装备店。”`
 				goto license
 
 			label "kaatrij patron"
-			`	"Despite Sioeora's generosity to the captain," Riijaaora says, "this alien sees fit to vassalize another House. We shall not recognize this relationship, nor open our outfitters to them."`
+			`	“尽管肖尔拉对船长慷慨相待，”里贾奥拉说，“此外星人仍决意臣属于另一家族。吾等不承认此种关系，亦不会向其开放吾等的装备店。”`
 
 			label license
-			`	When they return to the edge, no more is said. Kampa returns to the pool and produces a small wooden box from their outfit, which they give to you.`
+			`	里贾奥拉回到池边后，再无人发言。坎帕回到水池中央，从衣服里取出一个小木盒，交给了你。`
 			choice
 				`	（接过来。）`
-			`	You open the box to find an elaborate gold brooch nestled among soft folds of velvet.`
+			`	你打开盒子，发现一枚精美的金质胸针安放在柔软的天鹅绒褶皱之间。`
 			scene "outfit/high houses license"
-			`	"Let this gift make clear to all thy responsibilities and privileges, and may thou have free access to all our House and allies offer..." Kampa says, "<first> <last>, Honored Knight-Vassal of the High House Kaatrij." A colorful display rushes over Kampa's skin and they pick up the brooch with one arm and pin it on your jacket right next to your translation device and the civilian license. The metal must be very dense; it is noticeably heavier than the others.`
-			`	With this, the meeting concludes, the various members exiting in turn - the ones you've met before offering some short words of congratulations. You eventually exit as well, finding your way back through the facility. By a floral display you spy Saajret, apparently deep in conversation with Tiliia, the House Seineq engineer.`
+			`	“愿此礼向众人昭示你的职责与特权，愿你可自由取用我们家族及盟友所提供的一切……”坎帕说，“<first> <last>，高等家族卡特里吉的荣誉封臣骑士。”一片缤纷的色彩涌过坎帕的皮肤，他用一条手臂拿起胸针，别在你的外套上，就在你的翻译装置和民用许可证旁边。这金属想必密度极高，明显比另外两枚更沉。`
+			`	会议就此结束，与会者依次离场——你此前见过的几位还向你简短道贺。最后你也离开了，循路穿过设施返回。在一处花卉装饰旁，你瞥见萨杰雷特，他似乎正与塞内克家族的工程师蒂利亚深谈。`
 			choice
-				`	(Go speak with them.)`
-				`	(Leave.)`
+				`	（过去和他们说话。）`
+				`	（离开。）`
 					goto end
 
-			`	Tiliia spots you first, their skin breaking out in colors of excitement. "Saajret tells me of thine ascent to Kaatrij's ranks," they say. "Excellent that thou might be a concerted ally to mine own House as well."`
-			`	Saajret hums and nods. "The captain is a canny sort," they say. "Capable of surviving our wiles, I believe." Tiliia laughs at that, Saajret continuing. "And Tiliia tells me thou wert of help to them as well, the reason by which our craft now gain an advantage through the wormhole."`
+			`	蒂利亚先发现了你，皮肤上泛起兴奋的色彩。“萨杰雷特跟我说了你跻身卡特里吉之列的事，”他说，“太好了，你也可以成为我家族的同心盟友。”`
+			`	萨杰雷特低鸣一声，点了点头。“船长是个精明人，”他说，“我相信，能在我们的种种算计中安然周旋。”蒂利亚听了笑起来，萨杰雷特继续说道：“蒂利亚还告诉我，你也帮过他们，正因如此，我们的舰船如今穿越虫洞时才占得优势。”`
 			label "saajret and tiliia"
 			choice
-				`	"It's good to see you two getting along."`
+				`	“很高兴看到你们俩相处融洽。”`
 					to display
 						not "Successors: getting along"
 					goto "getting along"
-				`	"Do you think Aqrabe and Kaatrij will be collaborating much?"`
+				`	“你们觉得阿克拉贝和卡特里吉会有很多合作吗？”`
 					to display
 						not "Successors: collaboration"
 					goto collaboration
-				`	"I'm still uncertain joining Kaatrij was the right choice."`
+				`	“我还是不确定加入卡特里吉是不是正确的选择。”`
 					to display
 						not "Successors: uncertain"
 					goto uncertain
-				`	"I should get going."`
+				`	“我该走了。”`
 					goto end
 
 			label "getting along"
 			action
 				"Successors: Ghosts Saajret Openness" ++
 				set "Successors: getting along"
-			`	Saajret nods. "Tiliia's work on the keystones that thou provided intrigues me greatly. It bears some resemblance to technologies I've studied in our archives - though the stellar metal shells are a wholly inventive solution, I believe."`
-			`	Tiliia interjects at this, a hint of embarrassment on their skin. "T'was a matter of managing with what could be done," they say.`
-			`	"Nonetheless," says Saajret, now to Tiliia, "A worthy achievement. I am glad for this little lull if only for the sake of collaboration."`
+			`	萨杰雷特点点头。“蒂利亚对你所提供的基石所做的研究令我深感兴趣。它与我在我们档案中研究过的一些技术颇有相似之处——不过我认为，恒星金属外壳是一个全然独创的解决方案。”`
+			`	蒂利亚这时插话，皮肤上透出一丝难为情。“不过是就手头能做的勉力为之罢了，”他说。`
+			`	“即便如此，”萨杰雷特转向蒂利亚说，“这仍是值得称道的成就。哪怕只是为了合作，我也庆幸能有这片刻的平静。”`
 				goto "saajret and tiliia"
 
 			label "collaboration"
 			action
 				set "Successors: collaboration"
 
-			`	"'T'would be fruitful, doubtless," Tiliia says. "And now that Kaatrij opens up a little for the first time since their wound, perhaps 'tis not beyond the realm of possibility."`
+			`	“毫无疑问，那会卓有成效，”蒂利亚说，“既然卡特里吉自受创以来首次稍稍敞开了大门，或许这并非全无可能。”`
 			branch "low openness"
 				"Successors: Ghosts Saajret Openness" < 0
 
-			`	"I, too, would welcome it," Saajret adds. Their skin betrays a genuine satisfaction.`
+			`	“我也会乐见其成，”萨杰雷特补充道。他的皮肤流露出真切的满意。`
 				goto "saajret and tiliia"
 
 			label "low openness"
-			`	"I shall welcome it while it lasts," Saajret adds. "Though I fear Kaatrij's openness may be but a fleeting thing."`
+			`	“只要它能持续，我便乐于接受，”萨杰雷特补充道，“不过我担心，卡特里吉的开放或许只是昙花一现。”`
 				goto "saajret and tiliia"
 
 			label "uncertain"
@@ -2044,11 +2044,11 @@ mission "Successors: Ghosts 20"
 			branch "high forgiveness"
 				"Successors: Ghosts Saajret Forgiveness" > 0
 
-			`	Saajret hums deeply. "For us," they say, "our Houses are our families, and family is always a complicated thing. Perhaps I understand thee, captain, better than thou might imagine."`
+			`	萨杰雷特发出深沉的低鸣。“对我们而言，”他说，“家族就是我们的家人，而家人总是复杂的。船长，或许我比你想象的更能理解你。”`
 				goto "saajret and tiliia"
 
 			label "high forgiveness"
-			`	Saajret hums, a shade of curiosity coming over them. "Perhaps 'tis more uncertain for thee," they say. "For us, our Houses are our families - we must endeavor to live with them, eccentricities and all."`
+			`	萨杰雷特低鸣一声，身上泛起一抹好奇之色。“对你而言，或许更难确定吧，”他说，“对我们来说，家族就是我们的家人——我们必须努力与之共处，连同它的种种怪癖一起。”`
 				goto "saajret and tiliia"
 
 			label end
@@ -2056,9 +2056,9 @@ mission "Successors: Ghosts 20"
 				clear "Successors: getting along"
 				clear "Successors: collaboration"
 				clear "Successors: uncertain"
-			`	You take the elevator back to your ship, catching one last brief glimpse of the Ribbons of Iret. As you leave, you receive a message from Kampa:`
-			`	My congratulations once again. Thy service so far has been exemplary. Our House's efforts now focus on finding the identity of our attacker, a task, I fear, there is little thou can do t'accelerate. For now, thou might'st explore and prepare thyself for what may come in the future.`
-			`	This I myself attest as J- S- Kampa, Fleet Captain to the High House Kaatrij.`
+			`	你乘电梯返回飞船，最后匆匆瞥了一眼伊雷特缎带。离开时，你收到了坎帕发来的消息：`
+			`	再次向你道贺。迄今为止，你的效力堪称典范。我们家族眼下正全力查明袭击者的身份，这件事恐怕你也难以帮忙加快进展。目前，你不妨四处探索，并为将来可能发生的事做好准备。`
+			`	此信由我本人以高等家族卡特里吉舰队舰长 J- S- 坎帕之名为证。`
 
 
 
@@ -2075,81 +2075,81 @@ mission "Successors: Ghosts Black Box"
 			has "Successors: Ghosts Hasur transmission"
 	on offer
 		conversation
-			`The license you have received from House Kaatrij includes some cryptographic information that you might be able to use to decode the transmission you received from the drone ships. Would you like to do so?`
+			`你从卡特里吉家族获得的许可证中包含一些加密信息，或许可以用来解码你从无人舰那里收到的传输。你想这样做吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	（是。）`
+				`	（否。）`
 					decline
 
 			branch "no resja"
 				not "Successors: Ghosts Resja transmission"
 			action
-				log "People" "Resja" `(FILE "Lost"): [...] hastily, through the red chyme of the gullet of death [...] avian and [...] undefeated except in the battle over Avasaa-Novaa, which [...] and they have composed another in honor [...] named for the [...] of which there are nine, "four for the [...] and a final one missing, lost [...] lost [...]`
-				log "People" "Resja" `(FILE "Heart"): [...] the destroyer whispers to the hero, "Not always was I what I am now [...] and took a spear and drove it deep into [...] heart [...] death [...] I find myself thinking much of this story [...] responsibility of knowing which thou art [...]`
-				log "People" "Resja" `(FILE [...]): [...] I am starting to understand [...] which I why I must tell Saajret while [...]`
+				log "People" "Resja" `（文件“失落”）：[...]匆忙地，穿过死亡咽喉中那赤红的食糜[...]鸟类与[...]除了在阿瓦萨-诺瓦上空的那一战外从未败过，那一战[...]而他们又谱写了另一首以示纪念[...]以[...]命名，共有九个，“四个给[...]而最后一个下落不明，失落了[...]失落了[...]`
+				log "People" "Resja" `（文件“心”）：[...]毁灭者对英雄低语道：“我并非一直都是如今的模样[...]拿起一支长矛，深深刺入[...]心脏[...]死亡[...]我发现自己时常想起这个故事[...]知晓汝究竟是哪一个的责任[...]`
+				log "People" "Resja" `（文件[...]）：[...]我开始明白[...]所以我必须告诉萨杰雷特，趁[...]`
 
 			label "no resja"
 
 			branch "no queru"
 				not "Successors: Ghosts Queru transmission"
 			action
-				log "People" "Resja" `(FILE "Trial"): [...] eight have gone on trial in the last [...] I was called upon to testify to the [...] do not know why they think I am an authority [...] absence [...] I sometimes wonder if [...] how it tastes [...]`
+				log "People" "Resja" `（文件“审判”）：[...]在过去的[...]已有八个受审[...]我被传唤去为[...]作证[...]不知道他们为何认为我是权威[...]缺席[...]我有时会想，如果[...]它尝起来是什么味道[...]`
 
 			label "no queru"
 
 			branch "no hasur"
 				not "Successors: Ghosts Hasur transmission"
 			action
-				log "People" "Resja" `(FILE "Emptiness"): [...] There was a terrible emptiness inside [...] grew larger with every blink [...] understood [...] envelop me. And long after I have died, long after the name of the Myiara fades to a future [...] that pang-ridden [...] will remain."`
+				log "People" "Resja" `（文件“空虚”）：[...]内心有一种可怕的空虚[...]每眨一次眼便扩大一分[...]明白了[...]将我吞没。而在我死去很久之后，在米亚拉之名淡入未来很久之后[...]那充满痛楚的[...]仍将留存。”`
 
 			label "no hasur"
 
-			`	In addition to the ship's flight telemetry and internal systems logs, the data recorder seems to contain a small number of text datablocks, badly degraded:`
+			`	除了飞船的飞行遥测数据和内部系统日志之外，数据记录器中似乎还存有少量文本数据块，均已严重损坏：`
 			label files
 			choice
-				`	(FILE "Lost")`
+				`	（文件“失落”）`
 					to display
 						has "Successors: Ghosts Resja transmission"
 					goto lost
-				`	(FILE "Heart")`
+				`	（文件“心”）`
 					to display
 						has "Successors: Ghosts Resja transmission"
 					goto heart
-				`	(FILE "Trial")`
+				`	（文件“审判”）`
 					to display
 						has "Successors: Ghosts Queru transmission"
 					goto trial
-				`	(FILE "Emptiness")`
+				`	（文件“空虚”）`
 					to display
 						has "Successors: Ghosts Hasur transmission"
 					goto emptiness
-				`	(FILE [...])`
+				`	（文件[...]）`
 					to display
 						has "Successors: Ghosts Resja transmission"
 					goto lacuna
-				`	(Exit.)`
+				`	（退出。）`
 					decline
 
 			label lost
-			`	[...] hastily, through the red chyme of the gullet of death [...] avian and [...] undefeated except in the battle over Avasaa-Novaa, which [...] and they have composed another in honor [...] named for the [...] of which there are nine, "four for the [...] and a final one missing, lost [...] lost [...]`
+			`	[...]匆忙地，穿过死亡咽喉中那赤红的食糜[...]鸟类与[...]除了在阿瓦萨-诺瓦上空的那一战外从未败过，那一战[...]而他们又谱写了另一首以示纪念[...]以[...]命名，共有九个，“四个给[...]而最后一个下落不明，失落了[...]失落了[...]`
 				goto files
 
 			label heart
-			`	[...] the destroyer whispers to the hero, "Not always was I what I am now [...] and took a spear and drove it deep into [...] heart [...] death [...] I find myself thinking much of this story [...] responsibility of knowing which thou art [...]`
+			`	[...]毁灭者对英雄低语道：“我并非一直都是如今的模样[...]拿起一支长矛，深深刺入[...]心脏[...]死亡[...]我发现自己时常想起这个故事[...]知晓汝究竟是哪一个的责任[...]`
 				goto files
 
 			label trial
-			`	[...] eight have gone on trial in the last [...] I was called upon to testify to the [...] do not know why they think I am an authority [...] absence [...] I sometimes wonder if [...] how it tastes [...]`
+			`	[...]在过去的[...]已有八个受审[...]我被传唤去为[...]作证[...]不知道他们为何认为我是权威[...]缺席[...]我有时会想，如果[...]它尝起来是什么味道[...]`
 				goto files
 
 			label emptiness
-			`	[...] There was a terrible emptiness inside [...] grew larger with every blink [...] understood [...] envelop me. And long after I have died, long after the name of the Myiara fades to a future [...] that pang-ridden [...] will remain."`
+			`	[...]内心有一种可怕的空虚[...]每眨一次眼便扩大一分[...]明白了[...]将我吞没。而在我死去很久之后，在米亚拉之名淡入未来很久之后[...]那充满痛楚的[...]仍将留存。”`
 				goto files
 
 			label lacuna
 			action
 				set "Successors: Ghosts Messages from the Past"
-			`	[...] I am starting to understand how much I [...] so I must tell Saajret while [...]`
+			`	[...]我开始明白我有多么[...]所以我必须告诉萨杰雷特，趁[...]`
 				goto files
 
 
@@ -2162,24 +2162,24 @@ mission "Successors: Ghosts Reincarnation"
 		has "Successors: Ghosts Messages from the Past"
 	on offer
 		conversation
-			`Would you like to speak to Saajret about finding their name in the file transmitted from Resja, of the Nine Eyes?`
+			`你想和萨杰雷特谈谈你在九眼之雷斯雅传来的文件中发现了他名字的事吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	（是。）`
+				`	（否。）`
 					decline
 
 			action
 				"Successors: Ghosts Saajret Forgiveness" --
 				"Successors: Ghosts Saajret Openness" ++
 				set "Successors: Ghosts Saajret friend"
-			`	Though it's a few minutes before your data-sphere missive is answered, Saajret soon invites you to join them in a nearby town, which proves to be only a half-hour away by spaceport shuttle. It is built into an amphitheatre-shaped cutout of a seaside cliff, terraced homes and shops emerging from the rock with their curious flowing Kaatrij architecture. Many share the sail-like projections of the main spaceport, some decorated with iridescent patterns that shimmer as the wind tosses them.`
-			`	Saajret meets you at the regional spaceport, explaining that you caught them on a day off. They lead you through the town to one of the more elegant homes. It's shaped like a series of concentric semicircles, and they invite you into the outermost one, what you might call a receiving area with benches and indoor gardens. Small robots slither over the floors, attending to dust and water.`
-			`	After a while, they turn to matters at hand. "Thou said that thou discover'd something about me in a transmission from the drone craft?" they ask. Though their tone is curious, something like a shade of fear lurks on their skin.`
+			`	你通过数据球发出的讯息过了几分钟才得到回复，萨杰雷特随即邀请你去附近的一座小镇与他会面，乘太空港穿梭机只需半小时。小镇建在海边悬崖上一处圆形剧场般的凹地里，阶梯状排列的住宅与商铺从岩石中探出，呈现出卡特里吉建筑那奇特的流线造型。其中许多建筑与主太空港一样带有帆状的突出结构，有些还饰有虹彩图案，随风翻动时闪闪发亮。`
+			`	萨杰雷特在地区太空港迎接你，解释说你正好赶上他休息的日子。他领你穿过小镇，来到一座较为雅致的住宅。房子由一系列同心半圆构成，他请你进入最外层的那一圈——大概可以称作会客区，里面摆着长凳，还有室内花园。小型机器人在地板上滑来滑去，清理灰尘、照料浇水。`
+			`	过了一阵，他把话题转到正事上。“你说你在无人舰发出的传输中发现了与我有关的东西？”他问道。虽然语气中透着好奇，他的皮肤上却潜伏着一丝近似恐惧的色彩。`
 			choice
-				`	"It's probably just someone who shared your name, but I thought I'd tell you anyway. The transmissions included what seem like journals, and one of them mentions a 'Saajret.'"`
-				`	"The transmissions included journals, and one of them mentions a 'Saajret.' Do you think they could have been an ancestor of yours?"`
-			`	Something about hearing their name in this context seems to strike a discordant chord within Saajret. All at once confusion and anger and sorrow flit over them before they tense and their skin becomes a steely gray. They say nothing more on the matter, instead striking up a conversation about your recent experiences and never slowing. After an hour or so of catching up, they've finally had enough and let the conversation die.`
-			`	As you leave, Saajret turns to you a final time. A strange expression is sitting on their face, and their skin seems incapable of resolving into a single color display. "Thou hast my deepest thanks, my friend," they say, sounding a little haunted, and close the door.`
+				`	“那可能只是某个与你同名的人，不过我想还是该告诉你。传输内容里有一些看似日记的东西，其中一篇提到了一个叫‘萨杰雷特’的人。”`
+				`	“传输内容里有一些日记，其中一篇提到了一个叫‘萨杰雷特’的人。你觉得那会是你的祖先吗？”`
+			`	在这样的情境下听到自己的名字，似乎拨动了萨杰雷特心中一根不和谐的弦。困惑、愤怒与悲伤一齐在他身上掠过，随后他浑身绷紧，皮肤变成了钢灰色。他没有再就此事多说一句，而是聊起你最近的经历，滔滔不绝，片刻不停。叙旧了大约一个小时后，他终于说够了，任由谈话冷了下来。`
+			`	你离开时，萨杰雷特最后一次转向你。他脸上带着一种奇怪的神情，皮肤似乎始终无法定格成单一的色彩。“我由衷地感谢你，我的朋友，”他说，声音听起来有些心神不宁，随后关上了门。`
 				decline
 
 

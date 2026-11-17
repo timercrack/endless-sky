@@ -617,7 +617,7 @@ phrase "ship bribe acceptance hai"
 		"极其可耻"
 		"非常卑劣"
 	word
-		" to work with you, "
+		"，"
 	word
 		"但"
 		"不过"

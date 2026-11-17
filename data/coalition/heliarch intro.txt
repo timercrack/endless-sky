@@ -731,7 +731,7 @@ mission "Heliarch Recon 2-B"
 	on offer
 		conversation
 			`与你交谈过的日权会特工在你降落后已准备好一队工程师。他们从你的飞船上拆下装备扫描仪，带到一个受限制区域。大约一小时后，他们返回，虽然你看不出装备有任何可见变化，但他们保证现在它更适合扫描夸格飞船了。`
-			`	The agents then come into your ship, asking for your map again. "Now, in the earliest stages of construction, this ring you showed us is," the Arach says, pointing to <waypoints>, where Lagrange is. "Interested in the Quarg ships guarding that system, Consul Aulori is. Suffice, one scan per type of ship there should."`
+			`	随后，特工们走进你的飞船，再次向你索要星图。“如今，尚处于建造的最初阶段，你给我们看的这座星环，”那名阿拉奇人说着，指向<waypoints>——拉格朗日所在之处。“对守卫那个星系的夸格舰船感兴趣，奥洛里执政官是。足够了，对那里的每种舰船各扫描一次，应该。”`
 				accept
 	npc "scan outfits"
 		personality staying uninterested target
@@ -774,29 +774,29 @@ mission "Quarg Interrogation"
 				`	"有什么问题吗？"`
 			`	它眨了眨眼，然后缓缓看向停在远处的战龙。"你被看见降落在我们的一些世界和星环上，带来了奇怪的扫描装置，并且还被发现扫描了我们的一些飞船。这是为什么？"`
 			choice
-				`	"I was just curious about your species."`
+				`	“我只是对你们这个种族感到好奇。”`
 					goto lie
-				`	"What are you talking about? I never did any of that."`
+				`	“你在说什么？我从来没做过那种事。”`
 					goto lie
-				`	"Scanning? I'm sorry, I think my ship just had some malfunctions. I didn't mean to offend."`
+				`	“扫描？抱歉，我想我的飞船只是出了些故障。我无意冒犯。”`
 					goto lie
-				`	"The Heliarchs asked me to do it."`
+				`	“是日权会让我这么做的。”`
 					goto truth
 			label lie
-			`	Around ten seconds pass without it saying anything, simply staring at your eyes and blinking slowly. "I see." Without another word, it walks away, heading toward the Wardragon.`
+			`	大约十秒钟过去了，它一言不发，只是盯着你的眼睛，缓缓眨眼。“我明白了。”它没再多说一句，转身朝战龙走去。`
 				accept
 			label truth
 			`	"那你为什么同意？你希望加入他们的行列，是吗？"它问道。`
 			choice
 				`	"我只是想帮忙。我又没有摧毁你们的飞船之类的。"`
-				`	"They told me that the Quarg keep others in 'separate boxes,' and that you hinder their development."`
+				`	“他们告诉我，夸格把其他种族关在‘各自的盒子’里，还阻碍他们的发展。”`
 					goto hinder
-			`	"Perhaps not, but you agreed to collect information on us and our worlds, which hold countless civilians, and deliver the findings to a group that despises us."`
+			`	“也许没有，但你同意收集关于我们和我们世界的情报——那些世界上居住着无数平民——并把结果交给一个鄙视我们的组织。”`
 				goto end
 			label hinder
 			`	"你相信那些话吗？我们限制过你的行动吗？责备过你与亥族或科拉斯交往吗？即使在你同意帮助那些愚蠢、暴虐的赫利阿克斯之后，你现在不还是在我们的世界里，和平地与一个夸格交谈吗？"`
 			label end
-			`	It blinks a few more times as a few small stripes on its face rapidly alternate between shades of deep blue and bright red. It then ends with, "It would be most wise to cut off all your ties with these 'Heliarchs,' human." It walks away, headed to the Wardragon it looked at before.`
+			`	它又眨了几下眼，脸上几道细小的条纹在深蓝与亮红之间快速变换。最后它说道：“与这些‘日权会’断绝一切关系，才是最明智的做法，人类。”它走开了，朝它先前看过的那艘战龙走去。`
 				decline
 	npc save
 		government "Quarg"
@@ -1704,12 +1704,12 @@ mission "Heliarch Drills 2-A"
 			label explain
 			`	她再次指向那几个星系。“在不被猎手发现的情况下，降落在<planet>和余烬岬角，你的任务是。攻击你，它们不会，但在你降落时允许它们留在星系中，你不能。一旦顺利在这两个星球都完成了降落，你做到后，返回这里领取<payment>，你可以。”`
 			choice
-				`	"Okay, I'll head out to the planets then."`
+				`	“好的，那我这就出发前往那些星球。”`
 					goto accept
 				`	“你能告诉我追捕者会在哪里吗？”`
 			`	“知晓他们的追捕者，被追捕者是不会的，”她说着，笑出了声，仿佛这是个玩笑。“好吧，通常如此……来自联盟中的许多星系，那些猎手是。准备好在你起飞时跟随你的飞船，它们会是。”`
 			label accept
-			`	She points again to one of the planets. "Still preparing, some Hunters around Ashy Reach are, so head for <planet> first, you should." She wishes you luck on avoiding the Hunters and heads off to a Heliarch military building.`
+			`	她再次指向其中一颗星球。“仍在准备，余烬岬角附近的一些猎手们是，所以先前往<planet>，你应该。”她祝你顺利避开猎手，随后前往一座日权会军事建筑。`
 				accept
 	npc evade
 		government "Heliarch"
@@ -1858,7 +1858,7 @@ mission "Heliarch Drills 2-C"
 	on offer
 		conversation
 			`你又一次成功避开了猎手并降落在<origin>，当地的一名日权会特工随即将你的成功告知了行政官洛图奥拉。她联系你时说道：“出色的工作，<last>船长！现在，同一些我拥有的线人谈过了，并且另外一场供你协助的演习，我已安排好。在你最方便的时候返回<planet>，你可以。”她挂断了通讯……几秒钟后又打了回来。“啊，原谅我，你必须，船长。忘记了一些事，我曾是。听闻了最近的演习，一些同僚有，并且为参加演习准备好了他们自己的猎手，他们如今已。在返回<planet>的途中避开它们，按照惯例，你应该。”`
-			`	She mentions they've contributed some credits to your reward, now a total of <payment>, which will be yours when you land on <destination> without any of the Hunters on your tail.`
+			`	她提到他们为你的报酬追加了一些信用点，现在总额为<payment>，只要你在没有任何猎手尾随的情况下降落在<destination>，这笔钱就归你了。`
 				accept
 	npc evade
 		government "Heliarch"

@@ -99,7 +99,7 @@ mission "Unfettered Jump Drive 4"
 	job
 	repeat
 	name "出售跳跃引擎"
-	description "Exchange a jump drive on your flagship or in cargo for money or, if an outfitter is available, for weapons."
+	description "用旗舰上或货舱中的一台跳跃引擎换取金钱；如果当地有装备港，也可以换取武器。"
 	source
 		attributes "unfettered"
 	to offer
@@ -134,7 +134,7 @@ mission "Unfettered Jump Drive 4"
 			label money
 			action
 				payment 1000000
-			`	The Unfettered pay you a million credits for your jump drive.`
+			`	无羁亥族为你的跳跃引擎付了一百万信用点。`
 				goto trade
 
 			label trade
@@ -146,12 +146,12 @@ mission "Unfettered Jump Drive 4"
 			action
 				outfit "Jump Drive" -1
 				outfit "Hyperdrive" 1
-			`	The Unfettered engineer swaps your jump drive for a hyperdrive before leaving.`
+			`	那名无羁亥族工程师在离开前把你的跳跃引擎换成了超空间引擎。`
 				accept
 			label spareJD
 			action
 				outfit "Jump Drive" -1
-			`	The Unfettered engineer takes your jump drive before leaving.`
+			`	那名无羁亥族工程师在离开前拿走了你的跳跃引擎。`
 				accept
 
 

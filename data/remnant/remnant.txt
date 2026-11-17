@@ -457,7 +457,7 @@ phrase "remnant trusting"
 phrase "remnant greetings"
 	word
 		"向你致意"
-		"Hello there"
+		"你好啊"
 		"向你致敬"
 	word
 		"里，"

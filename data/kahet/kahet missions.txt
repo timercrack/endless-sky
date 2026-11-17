@@ -57,7 +57,7 @@ mission "Disabled Ka'het"
 			`	你毫不费力地与它的“外骨骼”完成了对接，并开始思考下一步该怎么做。虽然卡赫特与普通飞船的差异大到让你无法驾驶它，但至少你现在可以放心搜刮它的装备了。`
 
 conversation "ka'het: remnant"
-	`Do you want to ask the Remnant about the section of space south of the Ember Waste, the Graveyard, and its inhabitants?`
+	`你想向遗民询问有关余烬废土南侧那片星区——星冢，以及其居民的情况吗？`
 	choice
 		`	（是的。）`
 		`	（现在不了。）`
@@ -113,14 +113,14 @@ mission "First Contact: Ka'het: Remnant 1B"
 		has "remnant met taely"
 	on offer
 		conversation
-			`Do you want to ask Taely about the section of space south of the Ember Waste, the Graveyard, and its inhabitants?`
+			`你想向泰莉询问有关余烬废土南侧那片星区——星冢，以及其居民的情况吗？`
 			choice
 				`	（是的。）`
 				`	（现在不了。）`
 					defer
 			`	你在船厂外围的一个机库里找到了泰莉，她显然正在教一小群人如何对一艘信天翁星进行基本维修。你坐在长椅上等她上完课，随后她向你走来。“你好，<first>！”她说，“有什么我能帮你的吗？”`
 			`	“我来是因为我需要问你几个问题，”你回答道。`
-			`	As she sits near you, you start explaining to her the area you reached, including the weird alien ships that attacked you with weapons similar to the ones the Remnant possess, although this doesn't seem to be news for her. "We know of the existence of the Ka'het, the aliens you encountered, since we first reached the Ember Waste. We found many of their shells within our planets, crashed there thousands, perhaps even tens of thousands of years before our arrival, but some of their outfits survived long enough for us to reverse engineer these advanced technologies."`
+			`	她在你身旁坐下，你开始向她讲述你抵达的那片区域，包括那些用类似遗民武器攻击你的怪异外星飞船，不过这对她来说似乎并不是什么新闻。“自从我们最初抵达余烬废土，就知道卡赫特——也就是你遇到的那些外星人——的存在了。我们在我们的星球上发现了许多它们的外壳，它们在我们到来之前数千年、甚至可能数万年前就坠毁在那里，但它们的一些装备保存得足够久，让我们得以对这些先进技术进行逆向工程。”`
 			`	“后来，”她继续说道，“在几百年前，一支侦察舰队抵达了一个仍有活体卡赫特存在的星系。它们立刻用EMP鱼雷攻击了我们的舰队，迅速瘫痪了两艘椋鸟。那两艘椋鸟未能及时恢复以求生还，而仅存的一艘飞船除了尽快逃离别无他法。”`
 			choice
 				`	“你们从坠毁的卡赫特那里回收了什么技术？”`
@@ -324,7 +324,7 @@ mission "Ka'het: Death in the Graveyard 1"
 		has "event: remnant: lab availability"
 	on offer
 		conversation
-			`After setting course toward the surface, you feel comfortable enough to leave the control panel and let the autopilot do the job. It's a calm, cloudless night on this part of <planet>; a rare sight in the Graveyard, and indeed in most of the Ember Waste. With all but the essential lights turned off, you catch the opportunity to relax for a few minutes on your chair, watching the evolving landscape below and the night sky above.`
+			`设定好飞往地表的航线后，你感到足够放心，便离开控制面板，让自动驾驶接手。<planet>的这一侧正值一个平静无云的夜晚；这在星冢、乃至余烬废土的大部分地方都是难得一见的景象。除了必要的灯光外，你关掉了所有照明，趁机在座椅上放松几分钟，看着下方不断变换的地貌和上方的夜空。`
 			`	你的飞船接近警报打破了寂静，但在你到达控制面板前又安静下来。快速瞥一眼窗外，确认你仍在相当高的高度，飞船的雷达没有显示任何值得注意的东西——至少目前没有。你按下几个按钮查看飞船记录，发现警报期间距离飞船一百米处有一个巨大的物体闪烁了几秒钟。`
 			choice
 				`	（继续下降。）`
@@ -683,13 +683,13 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 		conversation
 			`随着卡赫特飞船被摧毁，你回到了那只毫无防备的蛞蝓旁。虽然战斗并未波及到它，但你注意到许多部件都出现了表面损伤，要么是因为你之前的拆解工作，要么是之前的战斗损伤。最好集中搜刮一个区域并忽略其余部分，以免冒着让其坍塌的风险。`
 			choice
-				`	(Loot its energy generators.)`
+				`	（搜刮它的能量发生器。）`
 					goto energy
-				`	(Loot its shield and cooling implants.)`
+				`	（搜刮它的护盾和冷却植入物。）`
 					goto shield
-				`	(Loot its engine bay.)`
+				`	（搜刮它的引擎舱。）`
 					goto engine
-				`	(Loot its weapon systems.)`
+				`	（搜刮它的武器系统。）`
 					goto weapon
 				`	（尝试搜刮它所有的装备。）`
 			branch "all lucky"
@@ -699,7 +699,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Neodymium"
 				outfit "Iron" 4
 				outfit "Copper" 2
-			`	You are about halfway through the outfit list when, without warning, the entire structure starts pulsating in an increasingly more violent manner. You leap toward your ship, but the entire slug implodes in front of you! You make it through unscathed, but most of the outfits you had extracted have been critically damaged by the flying debris. The only things left intact among the scrap are a single Reserve Accumulator and some precious metals.`
+			`	你才拆到装备清单的一半左右，整个结构就毫无预兆地开始越来越剧烈地搏动起来。你朝自己的飞船纵身跃去，但整只蛞蝓就在你面前向内坍塌了！你毫发无伤地逃了出来，但你已拆下的大部分装备都被飞溅的碎片严重损坏。残骸中唯一完好无损的只有一个备用蓄能器和一些贵金属。`
 				decline
 
 			label "all lucky"
@@ -721,7 +721,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Maeri Engine Nacelles"
 				outfit "Ka'het Sustainer Nacelles"
 				outfit "Hyperdrive"
-			`	Despite the apparent damage, the structure holds up surprisingly well to your careful looting. It takes a while, but you successfully extract all of the outfits carried aboard the downed Maeri'het.`
+			`	尽管看起来损伤严重，这具结构在你小心翼翼的搜刮下却出奇地稳固。虽然花了不少时间，但你成功拆下了这艘坠毁的梅里赫特上搭载的全部装备。`
 				decline
 			label "all telis"
 			action
@@ -737,7 +737,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Telis Engine Nacelles"
 				outfit "Ka'het Sustainer Nacelles"
 				outfit "Hyperdrive"
-			`	Despite the apparent damage, the structure holds up surprisingly well to your careful looting. It takes a while, but you successfully extract all the outfits carried aboard of the downed Telis'het.`
+			`	尽管看起来损伤严重，这具结构在你小心翼翼的搜刮下却出奇地稳固。虽然花了不少时间，但你成功拆下了这艘坠毁的泰利斯赫特上搭载的全部装备。`
 				decline
 			label "all vareti"
 			action
@@ -756,7 +756,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				
 				outfit "Vareti Engine Block"
 				outfit "Hyperdrive"
-			`	Despite the apparent damage, the structure holds up surprisingly well to your careful looting. It takes a while, but you successfully extract all of the outfits carried aboard the downed Vareti'het.`
+			`	尽管看起来损伤严重，这具结构在你小心翼翼的搜刮下却出奇地稳固。虽然花了不少时间，但你成功拆下了这艘坠毁的瓦雷蒂赫特上搭载的全部装备。`
 				decline
 
 			label energy
@@ -767,19 +767,19 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 			action
 				outfit "Ka'het MHD Generator" 2
 				outfit "Ka'het Reserve Accumulator"
-			`	Deep inside the shell of the Maeri'het, you use a blowtorch to cut the MHD Generators out of their fittings and uninstall the Reserve Accumulators from their banks. Over a few hours, you are able to make a nice stash in your cargo hold before you leave.`
+			`	在梅里赫特的外壳深处，你用喷灯将磁流体发电机从固定座上切割下来，并把备用蓄能器从蓄能组中卸下。几个小时后，你在货舱里攒下了一批不错的存货，然后离开。`
 				decline
 			label "energy telis"
 			action
 				outfit "Ka'het MHD Generator" 4
 				outfit "Ka'het Reserve Accumulator"
-			`	Deep inside the shell of the Telis'het, you use a blowtorch to cut the MHD Generators out of their fittings and uninstall the Reserve Accumulators from their banks. Over a few hours, you are able to make a good stash in your cargo hold before you leave.`
+			`	在泰利斯赫特的外壳深处，你用喷灯将磁流体发电机从固定座上切割下来，并把备用蓄能器从蓄能组中卸下。几个小时后，你在货舱里攒下了一批可观的存货，然后离开。`
 				decline
 			label "energy vareti"
 			action
 				outfit "Ka'het MHD Generator" 6
 				outfit "Ka'het Reserve Accumulator" 8
-			`	Deep inside the shell of the Vareti'het, you use a blowtorch to cut the MHD Generators out of their fittings and uninstall the Reserve Accumulators from their banks. Over a few hours, you are able to make a huge stash in your cargo hold before you leave.`
+			`	在瓦雷蒂赫特的外壳深处，你用喷灯将磁流体发电机从固定座上切割下来，并把备用蓄能器从蓄能组中卸下。几个小时后，你在货舱里攒下了满满一大批存货，然后离开。`
 				decline
 
 			label shield
@@ -791,21 +791,21 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Support Cooling"
 				outfit "Ka'het Primary Cooling"
 				outfit "Ka'het Shield Restorer" 2
-			`	Mounted at the very edges of the shell of the Maeri'het, you find a pair of pristine Shield Restorers connected with a heat sink. You uninstall them together with the cooling systems they sit next to, and in a few hours you are ready to leave.`
+			`	在梅里赫特外壳的最边缘，你发现了一对完好无损的护盾修复者，它们与一个散热器相连。你将它们连同旁边的冷却系统一并拆下，几个小时后便准备离开了。`
 				decline
 			label "shield telis"
 			action
 				outfit "Ka'het Primary Cooling"
 				outfit "Ka'het Support Cooling"
 				outfit "Ka'het Shield Restorer" 10
-			`	Mounted at the very edges of the shell of the Telis'het, you find a series of pristine Shield Restorers connected with a heat sink. You uninstall them together with the cooling systems they sit next to, and in a few hours you are ready to leave.`
+			`	在泰利斯赫特外壳的最边缘，你发现了一系列完好无损的护盾修复者，它们与一个散热器相连。你将它们连同旁边的冷却系统一并拆下，几个小时后便准备离开了。`
 				decline
 			label "shield vareti"
 			action
 				outfit "Ka'het Primary Cooling"
 				outfit "Ka'het Support Cooling"
 				outfit "Ka'het Grand Restorer" 2
-			`	Mounted at the very edges of the shell of the Vareti'het, you find a pair of enormous Grand Restorers connected with a heat sink. You carefully uninstall them together with the cooling systems they sit next to, and in a few hours you are ready to leave.`
+			`	在瓦雷蒂赫特外壳的最边缘，你发现了一对巨大的大修复者，它们与一个散热器相连。你小心地将它们连同旁边的冷却系统一并拆下，几个小时后便准备离开了。`
 				decline
 
 			label engine
@@ -816,18 +816,18 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 			action
 				outfit "Maeri Engine Nacelles"
 				outfit "Ka'het Sustainer Nacelles"
-			`	Despite their easily accessible position, disconnecting the nacelles of a Maeri'het proves to be more complicated than expected due to the bundle of tubes attached to them. After a few hours and a lot of sweat you are able to put both engine types into your cargo hold, and you can finally leave.`
+			`	尽管位置很容易够到，但由于连着一大束管道，拆卸梅里赫特的引擎舱比预想的要复杂。经过几个小时的挥汗苦干，你终于把两种引擎搬进了货舱，可以离开了。`
 				decline
 			label "engine telis"
 			action
 				outfit "Telis Engine Nacelles"
 				outfit "Ka'het Sustainer Nacelles" 2
-			`	Despite their easily accessible position, disconnecting the nacelles of a Telis'het proves to be more complicated than expected due to the bundle of tubes attached to them. After a few hours and a lot of sweat you are able to put both engine types into your cargo hold, and you can finally leave.`
+			`	尽管位置很容易够到，但由于连着一大束管道，拆卸泰利斯赫特的引擎舱比预想的要复杂。经过几个小时的挥汗苦干，你终于把两种引擎搬进了货舱，可以离开了。`
 				decline
 			label "engine vareti"
 			action
 				outfit "Vareti Engine Block"
-			`	Despite its easily accessible position, disconnecting the huge thrusters of a Vareti'het proves to be more complicated than expected due to the bundle of tubes attached to it. After a few hours and a lot of sweat you are able to put the engine block into your cargo hold, and you can finally leave.`
+			`	尽管位置很容易够到，但由于连着一大束管道，拆卸瓦雷蒂赫特的巨型推进器比预想的要复杂。经过几个小时的挥汗苦干，你终于把整个引擎组搬进了货舱，可以离开了。`
 				decline
 
 			label weapon
@@ -848,7 +848,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Annihilator Turret" 2
 				outfit "Ka'het Ravager Turret" 2
 				outfit "Ka'het Ravager Beam" 2
-			`	The front of this Maeri'het appears to have been set up to focus on hull damage: a pair of Ravager Beams and another of Ravager Turrets show prominently, plus a couple of Annihilator Turrets on the back. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘梅里赫特的前部似乎专为造成船体伤害而配置：一对劫掠者光束和一对劫掠者炮塔赫然在目，后部还有两座歼灭者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 			label "weapon maeri EMP"
 			action
@@ -856,13 +856,13 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Ravager Turret"
 				outfit "Ka'het EMP Deployer" 2
 				outfit "Ka'het Annihilator Turret" 3
-			`	The front of this Maeri'het appears to have been set up for electronic warfare: a pair of EMP Deployers with their storage rack show prominently, plus a couple of Annihilator Turrets on the back. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘梅里赫特的前部似乎是为电子战而配置的：一对电磁脉冲部署器及其储存架赫然在目，后部还有两座歼灭者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 			label "weapon telis gun"
 			action
 				outfit "Ka'het Ravager Beam" 4
 				outfit "Ka'het Annihilator Turret" 5
-			`	The front of this Telis'het appears to have been set up to focus on hull damage: a long series of Ravager Beams show prominently, plus a number of Annihilator Turrets on the back. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘泰利斯赫特的前部似乎专为造成船体伤害而配置：一长排劫掠者光束赫然在目，后部还有数座歼灭者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 			label "weapon telis EMP"
 			action
@@ -870,7 +870,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Annihilator Turret"
 				outfit "Ka'het Ravager Turret" 4
 				outfit "EMP Torpedo" 64
-			`	The front of this Telis'het appears to have been set up for electronic warfare: a long series of EMP Deployers with their storage rack show prominently, plus a number of Ravager Turrets on the back. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘泰利斯赫特的前部似乎是为电子战而配置的：一长排电磁脉冲部署器及其储存架赫然在目，后部还有数座劫掠者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 			label "weapon vareti gun"
 			action
@@ -879,7 +879,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Ravager Beam" 2
 				outfit "Ka'het Annihilator Turret" 2
 				outfit "Ka'het Ravager Turret" 4
-			`	The impressive front of this Vareti'het appears to have been set up to focus on shield damage: a long series of Annihilators show prominently, surrounding the enormous barrel of the Nullifier. On the back, a variety of Ravager and Annihilator Turrets make their appearance. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘瓦雷蒂赫特气势恢宏的前部似乎专为造成护盾伤害而配置：一长排歼灭者赫然在目，环绕着无效化器巨大的炮管。后部则分布着各式劫掠者炮塔和歼灭者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 			label "weapon vareti EMP"
 			action
@@ -889,7 +889,7 @@ mission "Ka'het: Another Death in the Graveyard 1B"
 				outfit "Ka'het Ravager Turret"
 				outfit "Ka'het EMP Deployer" 2
 				outfit "EMP Torpedo" 32
-			`	The impressive front of this Vareti'het appears to have been set up to focus on hull damage: a number of EMP Deployers and Ravager Beams show prominently, surrounding the enormous barrel of the Nullifier. On the back, a variety of Ravager and Annihilator Turrets make their appearance. You disconnect them from their base plates, making sure not to damage any of their fragile targeting systems, and move them all to your cargo hold.`
+			`	这艘瓦雷蒂赫特气势恢宏的前部似乎专为造成船体伤害而配置：数台电磁脉冲部署器和劫掠者光束赫然在目，环绕着无效化器巨大的炮管。后部则分布着各式劫掠者炮塔和歼灭者炮塔。你将它们从底座上拆下，小心不损坏任何脆弱的瞄准系统，然后全部搬进货舱。`
 				decline
 
 mission "Ka'het: Patir Reveal"
@@ -1839,7 +1839,7 @@ mission "Ka'het: Patir Mystery 9"
 			label what
 			`	“我也想知道。而且最糟的也许还在后面，”达斯克回答，“天空不太对劲。”`
 			label constellation
-			`	He points at the projector. "Do you see those two triangular formations near the top of the star map? That is something we called the Ember Prism - a constellation of six stars of similar magnitude, located far from the Wastes and close to each other. While it is not visible from Earth, it should be recognizable from almost every system here, including Patir, but no longer. And that is not all. None of the constellations in this star map can be found anywhere in the sky." He stops for a second, giving a worried look to the rest of the team. "We are no longer in the Ember Waste."`
+			`	他指着投影仪。“你看到星图顶部附近那两个三角形结构了吗？那就是我们称之为余烬棱镜的星座——六颗亮度相近的恒星，远离废土，彼此紧密相邻。虽然从地球上看不到，但在这一带的几乎每个星系都应该能认出来，包括帕提尔，但现在却找不到了。而且还不止这些。这张星图上的所有星座在天空中都找不到。”他停了一秒，忧心忡忡地看了团队其他成员一眼。“我们已经不在余烬废土了。”`
 			choice
 				`	“这怎么可能？”`
 				`	“那我们在哪里？”`
@@ -1952,21 +1952,21 @@ mission "Ka'het: Patir Mystery 11"
 			`	"不过也有缺点。探索它意味着我们需要进入空间站内部，面对任何装置或陷阱；我们之前在‘墓地’探索建造者空间站时是付出过生命代价的。"杜斯克停顿了几秒，沉浸在自己的思绪中。"目前来看，登上那个空间站风险太大了。"`
 			`	一名遗民翻找地上的大包，取出了另一台全息投影仪。她摆弄了一阵，直到画面聚焦在你之前到访过的中子星——拉西亚上。"这是我们了解这些生物最安全的方式，"她用手语表示，"根据你的数据，这个系统里的生物数量和种类都远远超过其他地方。如果你开启隐形装置飞越这个系统，并使用我们的传感器，也许就能在不冒风险的情况下获得足够的信息。"`
 			choice
-				`	"If those scanners did not work on them here, why would it be different in Lathia?"`
+				`	“如果那些扫描仪在这里对它们不起作用，那到了拉蒂亚又凭什么会不同呢？”`
 					goto why
-				`	"What if I run out of fuel?"`
+				`	“如果我的燃料耗尽了怎么办？”`
 					goto fuel
 				`	"如果这次也失败了呢？"`
-			`	"That is a distinct possibility," Dusk replies, "but we must investigate every avenue before we resort to risking personnel."`
+			`	“确实有这种可能，”达斯克答道，“但在冒险动用人员之前，我们必须先尝试所有途径。”`
 				goto assembly
 
 			label fuel
-			`	"It will only take a few minutes to determine whether our equipment can see through the exterior of these beings," Dusk replies. "I suggest filling your fuel tanks near Patir before leaving."`
+			`	“只需几分钟就能确定我们的设备能否看穿这些生物的外部，”达斯克答道。“我建议你在出发前，先在帕提尔附近把燃料箱加满。”`
 				goto assembly
 			label why
 			`	"这是盲目尝试，"杜斯克回答，"哪怕能扫描到其中一个生物，也会是巨大的突破——或许它会缺少外部护盾，或者受损到可以让我们分析的程度。"`
 			label assembly
-			`	The Remnant begin to mount and wire all the scanning equipment on the <ship>. After a few hours, you're ready to take off once again.`
+			`	遗民们开始在<ship>上安装所有扫描设备并接好线路。几个小时后，你已准备好再次起飞。`
 				accept
 	on enter Lathia
 		dialog
@@ -2256,11 +2256,11 @@ mission "Ka'het: Patir Mystery 12.2B"
 			`	“当然，这将是遗民历史上第一次有人登上卡塞；毕竟，我们也是不久前才知道它们的存在。但多年来我们探索过多种类型的卡赫特，结果各异，凭借这些经验，我有信心我们能完成任务。”`
 			choice
 				`	“你确定这安全吗？”`
-				`	"Let's go then."`
+				`	“那就走吧。”`
 					goto depart
 			`	“相信我，<first>，”达斯克回答，“这极其危险。如果我们能确定有更好的方法，谁都不会冒险做这个，但现实如此。现在帮我搬这个板条箱；我们差不多准备出发了。”`
 			label depart
-			`	As the last container is brought inside, the cargo ramp moves back, and the exit door follows suit. Glancing at the scanner telemetry, you realize the alien being has already started to exit hyperspace; with a button press, the engines roar back to life, and the ship starts gaining altitude.`
+			`	随着最后一个集装箱被搬进来，货运坡道收回，出口舱门也随之关闭。瞥了一眼扫描仪遥测数据，你意识到那个外星生物已经开始脱离超空间；你按下按钮，引擎重新轰鸣起来，飞船开始爬升。`
 				launch
 	on enter
 		event "Patir spaceport returns and Fetri spawn" 1
@@ -2276,13 +2276,13 @@ mission "Ka'het: Patir Mystery 12.2B"
 			`巨大的生物漂浮在驾驶舱外几米处，沉默而静止，但你知道在甲壳内，那头蛞蝓依然活着，随时准备杀戮。与坟场中的一些卡赫特相比，这是建造者较小的造物之一，但作为单个有机体，它的体型依然令人印象深刻。`
 			`	在将<flagship>设为自动驻留之前，你移动飞船，使主舱门尽可能靠近Fetri'sei。遗民们已经在气闸里穿上了舱外服，你随后加入他们。`
 			`	“进入内部后，我们很可能无法通信，”达斯克提醒道。“通常装甲壳壁太厚太密，信号无法穿透，而且我们需要通过的空间也阻止我们使用物理系绳。但这并不意味着我们没有保护。我能看看你的手枪吗？”`
-			`	You draw your weapon out of the holster and hand it to him. After a quick examination, he nods and gives it back before continuing. "Once inside, one of our first operations will be connecting to the downlink of the Fetri's telemetry: it is not protected, in our experience, and it is easy to access. From there, we will be able to monitor the vessel's systems.`
-			`	"Many things could go wrong during this mission: the unknown creature could leave the system early, or maybe we could inadvertently awaken the Ka'sei with our actions. If you notice anything out of the ordinary, no matter how minor, take out this gun, point at an empty spot on the shell, and shoot. Our terminals will let us know even the smallest variation in its system metrics, and we will run back to safety as soon as this happens."`
+			`	你从枪套里拔出武器递给他。他快速检查了一番，点点头把枪还给你，然后继续说道：“进入内部后，我们首先要做的事之一就是接入费特里的遥测下行链路：根据我们的经验，它没有任何防护，很容易访问。这样我们就能监控这艘飞船的系统了。`
+			`	“这次任务中可能出很多差错：那个未知生物可能提前离开星系，或者我们的行动可能会无意中唤醒卡塞。如果你注意到任何异常情况，不管多么细微，就拿出这把枪，瞄准外壳上的空位开枪。哪怕它的系统指标出现最微小的变化，我们的终端也会通知我们，一旦发生这种情况，我们就会立刻撤回安全地带。”`
 			choice
-				`	"Will this not anger the Ka'sei?"`
+				`	“这样不会激怒卡塞吗？”`
 					goto anger
-				`	"What if you cannot access the vessel's systems?"`
-			`	"Then we will abandon the mission. Without that safety net, it would be too dangerous to continue. However, since they were both created by the Builders, it should be similar enough to the Ka'het design language.`
+				`	“如果你们无法访问这艘飞船的系统怎么办？”`
+			`	“那我们就放弃任务。没有这层安全保障，继续下去就太危险了。不过，既然它们都是建造者创造的，它的设计语言应该与卡赫特足够相似。`
 				goto move
 
 			label anger
@@ -2290,7 +2290,7 @@ mission "Ka'het: Patir Mystery 12.2B"
 			label move
 			`	“进去后，我们会寻找飞船的记忆库。根据我们能抓取的数据快速筛选后，取出那些包含我们研究信息的数据并提取内容。明白吗？”`
 			choice
-				`	(Nod.)`
+				`	（点头。）`
 					goto entrance
 				`	“那我呢？”`
 			`	“考虑到你需要尽可能快地射击，你不能回到驾驶舱。所以我们擅自在这里创建了一个小终端来监控情况。”他指向货舱里一张堆满遗民设备的小桌子。`
@@ -2299,28 +2299,28 @@ mission "Ka'het: Patir Mystery 12.2B"
 			`	随着队员移出你的视线且通讯中断，你的不安逐渐增长。你不断在面前多个屏幕和气闸外瞥视之间切换注意力。你手腕上的时钟滴答滴答缓慢走动。`
 			`	不知道第多少次扫视监视器时，你发现未知生物内部检测到能量水平升高。`
 			choice
-				`	(Wait and see what happens.)`
+				`	（静观其变。）`
 					goto waiting
 				`	（用手枪射击Fetri'sei。）`
-			`	You take the weapon from the table and shoot the Fetri'sei just as the creature covers itself in rose-tinted sparks. According to Dusk, one shot should be enough to send the message through the impenetrable armor of the spacecraft, but nothing seems to happen after your gun's energy bolt disperses on the surface of the ship.`
+			`	你从桌上拿起武器，就在那生物周身泛起玫瑰色火花的一刹那，朝费特里塞开了一枪。按照达斯克的说法，一枪就足以将信息传过这艘飞船坚不可摧的装甲，但你枪中射出的能量弹在船体表面消散后，似乎什么也没有发生。`
 				goto fired
 			label waiting
 			`	一秒钟后，那生物爆发出一团玫瑰色火花——它要跳跃了！你从桌上拿起武器扣动扳机，释放出一束能量，在 Fetri'sei 表面迅速消散。按照 Dusk 的说法，这应该足以穿过飞船坚不可摧的装甲传递信息，但在射击后似乎什么也没发生。`
 			label fired
 			`	一秒一秒无情地过去，Fetri'sei 及其周围没有任何反应。当未知生物消失在紫罗兰云后跳跃离开时，你不由陷入沉思。`
 			choice
-				`	(Shoot the Fetri'sei a second time.)`
+				`	（再朝费特里塞开一枪。）`
 					goto shoot
-				`	(Keep waiting.)`
+				`	（继续等待。）`
 					goto wait
 				`	（跳上卡塞叫遗民们回来。）`
 			`	不能浪费时间。你毫不犹豫地从气闸边缘蹬离，向 Fetri'sei 飞去。在空中停留片刻后，你落在最左侧的引擎吊舱旁，随即被它的外壳弹开。不过，手腕上推进器的及时启动帮你重新贴回了它的表面，抓住它背上的一根长刺，你终于稳住了身形，继续向前移动。`
 			`	通讯器开始传出白噪音；你抬起头，终于看到遗民们跳出舱口，腋下夹着十几个微微发光的圆柱形管子。通讯恢复正常的那一刻，他们正好注意到了你，一条消息清晰地传了过来："跳！"`
-			`	You leave the handles and use your feet to give you a good push away from the spacecraft. At the last second, you move to the right to avoid ending up behind one of its thrusters just as they roar to life. The Fetri'sei has awakened, and for an instant you see all of its systems activate at once - the engines, the steering, even the Ravagers.`
+			`	你松开把手，用双脚使劲一蹬，远离这艘飞船。在最后一秒，你向右一闪，避免落到它的一个推进器后方——就在这时，推进器轰鸣着启动了。费特里塞已经苏醒，在一瞬间，你看到它的所有系统同时启动——引擎、转向，甚至连劫掠者也一并激活。`
 				goto return
 
 			label shoot
-			`	You pull the trigger once more, and the projectile again impacts the back of the Fetri'sei. For a few seconds still nothing seems to happen, but then, slowly, white noise starts coming from the communicator. Watching the spacecraft, you finally see the Remnant leaping out of the hatch, carrying a dozen faintly glowing cylindrical tubes under their arms.`
+			`	你再次扣动扳机，弹丸又一次击中了费特里塞的后部。有好几秒钟依然毫无动静，但随后，通讯器里慢慢开始传出白噪音。注视着飞船，你终于看到遗民们跳出舱口，腋下夹着十几个微微发光的圆柱形管子。`
 				goto continue
 			label wait
 			`	等待令人痛苦难熬，但几秒钟后，耳机里开始传出白噪音。就在你开始能辨认出几个词语时，一名遗民跳出了舱口，其他四人紧随其后。你能分辨出他们腋下夹着十几个圆柱形管子，周围散发着微光。`
@@ -3077,48 +3077,48 @@ mission "Ka'het: Patir Mystery 20"
 		conversation
 			`你向几个本地人问路后，再次见到了达斯克。在他身后的背景中，你看到一艘半敞开的海燕被几根钢丝吊在离地几米高的半空中。“<first>，你准备好我上次提到的那艘具备跳跃能力的航母了吗？”达斯克问道。“它就在附近吗？”`
 			choice
-				`	"Yes, it is."`
+				`	“是的，就在附近。”`
 					goto good
-				`	"Sorry, but I do not own one."`
+				`	“抱歉，我没有这样的船。”`
 					goto broke
 				`	“不，它在另一个星系里。”`
-			`	"It is best to bring it here then," he asserts. "I will be here when you are ready."`
+			`	“那最好把它带到这里来，”他断言道。“等你准备好了，我会在这里等你。”`
 				defer
 			label broke
-			`	"It is imperative we use one, <first>," he signs, disappointed. "I can request for us to be assigned one, but taking Jump Drive-equipped vehicles is not a quick process for someone at my level. Certainly more time intensive than if you were able to give one to us," he concludes with a low tone.`
+			`	“我们必须得用一艘，<first>，”他失望地打着手语。“我可以申请给我们分配一艘，但对我这个级别的人来说，调用装备跳跃引擎的飞船可不是一个快速的过程。肯定比你直接给我们提供一艘要费时得多，”他低声总结道。`
 				defer
 			label good
 			`	“那太好了！”他兴奋地打着手语，然后你跟着他朝那艘海燕的方向走去。走近后，你发现技术人员正在安装各种装备，从额外的铺位到一个小型的科拉斯反应堆。“这就是你需要运送到我们目的地的货物：一艘救生艇，以备我们在帕提尔周围的实验室哪天有逃生的需要。`
 			`	“你可能知道，斑头鸭是我们的常规救生艇，但这次的要求大不相同。给一架战斗机安装跳跃引擎通常是不切实际的，特别是对于像我们这样的远征任务；相反，我们的策略是将它藏在帕提尔的气态巨行星深处，直到救援飞船抵达。幸运的是，事实证明，只需稍微调整一下装备，‘Calm Sea Afire’就能胜任这项工作。”`
 			choice
-				`	"That still sounds fairly dangerous."`
+				`	“那听起来还是挺危险的。”`
 					goto danger
 				`	“遗民在帕提尔究竟有什么利益，值得如此大费周章？”`
-				`	"Are we ready to go?"`
+				`	“我们准备好出发了吗？”`
 					goto skip
 			`	“嗯，如果你去问十个人，你大概会听到十种不同的答案。对一些人来说，它仅仅是一个潜在的令人兴奋的新技术来源，无论是军事方面还是其他方面；对另一些人来说，它是一个通往新星系的潜在门户，伴随着其自身的危险与机遇。”他坐了下来，神情变得更加深沉。“但除了单纯的探索之外，至少还有几个更宏观的理念在起作用。`
 			`	“其一是关于这些生物似乎对卡塞施加的控制。毕竟，整个墓地星域现在就是一个沉睡的巨人：如果某些卡赫特能够挣脱它的束缚——就像我们所知它们过去曾做过的那样——这就会在科拉斯的威胁之上开辟出第二条战线。”`
 			choice
-				`	"What are the other philosophies?"`
+				`	“其他理念是什么？”`
 					goto philosophies
-				`	"Is that a serious risk?"`
+				`	“那是个严重的风险吗？”`
 					goto risk
 				`	“我比卡赫特更强。”`
-			`	"I hope you are," he signs after a brief pause. He seems unenthused by your remark.`
+			`	“希望你确实如此，”他短暂停顿后打着手语说道。他似乎对你的话不太感冒。`
 				goto skip
 			label philosophies
 			`	“你看，<first>，一个星际物种的灭绝在银河系中是相对罕见的事件。帝国会扩张也会衰退，有时甚至会失去宇航能力；但要完全抹除这样一个文明，需要极其不可思议的情况。其他文明自然想弄清楚究竟是什么导致了这种难以想象的事情发生。`
-			`	"The mistakes done by the Builders, for example, seem trivial from our perspective. This could mean that they made profoundly stupid decisions, or that we have not understood enough of the situation to put all the pieces together and actually comprehend their mistakes. And now we have indications of another, much older extinct species in the space that lies beyond Patir."`
+			`	“比如说，建造者犯下的错误，在我们看来似乎微不足道。这可能意味着他们做出了极其愚蠢的决定，也可能意味着我们对情况的了解还不够，无法把所有碎片拼凑起来，真正理解他们的错误。而现在，我们发现了迹象，表明在帕提尔之外的空间里，还存在过另一个更为古老的灭绝物种。”`
 				goto skip
 			label risk
 			`	他似乎有些迟疑。“回答这个问题……比看起来要复杂得多。我们不确定卡赫特最初是如何获得基石的，也不确定他们中有多少人做到了。我们知道有这种可能性，卡赫特作为一个整体很可能比我们的舰队更强大，而且自从大迁徙以来，没有一个卡赫特越过过墓地。事实是，<first>，风险态势是一个非常复杂的话题；就此而言，我们的任务也是如此。`
 			label danger
-			`	He thoughtfully passes his hand over the hull of Calm Sea Afire. "Only time will tell, but I stand by the decisions we have made. A standard Smew is simple to repair and to keep in storage, but not too useful outside of the Ember Waste. A large, jump-capable starship is complicated to keep in flight-status for months at a time, not to mention the maintenance needs of a cloaking system. And worse of all, it might not even be of much use if Patir was not in the Milky Way when the emergency happens!"`
+			`	他若有所思地用手抚过静海燃火号的船体。“只有时间能证明一切，但我坚持我们做出的决定。标准的斑头秋沙鸭易于维修和存放，但在余烬废土之外用处不大。一艘具备跳跃能力的大型星舰很难一次连续几个月保持在飞行状态，更不用说隐形系统的维护需求了。最糟糕的是，如果紧急情况发生时帕提尔不在银河系里，它可能根本派不上什么用场！”`
 			label skip
 			`	达斯克的通讯器发出的嗡嗡声吸引了他的注意。他笑了起来，语气几乎瞬间就变了。“西尔维达准备切断信号了。一旦他们切断，信号需要六天才能抵达帕提尔；到那时，它会立刻消失，很可能会移动到我们上次访问的那个星团。当这一切发生时，你、我以及四位研究员必须在场。”他站直身子，清了清嗓子。“船长，”他用歌唱般的语调说道，“我可以下令了吗？”`
 			choice
 				`	“下令吧。”`
-			`	He types on his commlink, and a minute passes. When the commlink buzzes again, Dusk makes an uncharacteristic cheer and quickly bids farewell to the people in the hangar. While he gathers a group of people, presumably the researchers that will follow you in the expedition, one of the spaceport workers takes a small crystal out of the now-assembled Petrel and hands it to you. "The Calm Sea Afire is in your hands, Captain," she signs. "Treat her well."`
+			`	他在通讯器上输入了些什么，过了一分钟。当通讯器再次嗡嗡作响时，达斯克一反常态地欢呼了一声，并迅速向机库里的人们道别。在他召集一群人——大概是将随你远征的研究员们——的时候，一名太空港工作人员从已经组装好的海燕中取出一块小水晶递给你。“静海燃火号就交给你了，船长，”她打着手语说。“好好待她。”`
 				accept
 	on accept
 		event "Patir moves" 7
@@ -3260,7 +3260,7 @@ mission "Ka'het: Patir Mystery 22"
 			`	“海燕”号脱离了你的侧翼，像一块石头般坠入云层。船员们发来的不定时通讯让你确信测试仍在进行中，并且他们的飞船状况良好。你在雷达屏幕上追踪着他们的航迹，直到他们驶出你的仪器探测范围。`
 			`	头顶的群星透过 <origin> 的大气层几乎微不可见，起初这似乎很正常。直到它们开始愈发频繁地闪烁，你才意识到帕提尔正在再次移动！在深处的遗民是不可能看到这一幕的，而留在建造者定居点的那两人可能正忙着做实验无暇顾及。这一次，你很有可能是唯一一个能停下来欣赏这场奇观的人。你把座椅往后靠了靠，透过驾驶舱凝视着行星上方的微光之舞，难得地享受着这独属于你一个人的时刻。`
 			`	你已经见过两次的过程现在开始倒退重演：星星的数量不断增加，不规则地旋转或左右移动。在最后几秒钟里，大部分星光凝聚成一团光球，不断缩小，直到看起来就像一颗普通的星星。即便如此，你依然可以确信，现在周围的星星比帕提尔开始移动之前要多得多。`
-			`	Soon enough, the fruitful return of their lifeboat puts an end to your thoughts. Now that you are back in the Milky Way, it's time to pack things up in the Remnant laboratory and make the trip back to the Ember Waste.`
+			`	很快，他们的救生艇顺利返回，打断了你的思绪。既然你已经回到了银河系，是时候在遗民实验室里收拾好东西，启程返回余烬废土了。`
 				accept
 	npc save
 		government "Remnant"
@@ -3511,7 +3511,7 @@ mission "Ka'het: Patir Mystery 26B"
 				`	"就我一个人？如果遇到问题怎么办？"`
 					goto alone
 				`	"如果你们遇到紧急情况需要迅速离开怎么办？"`
-			`	He smiles. "I appreciate your concerns, <first>. You could wait until we have entered the station before going on with your work; I can assure you that after that, it will take longer for us to return here than it will for you. Well," he corrects himself, "I realize that does not sound very reassuring, but it was more to say that it matters little where your ship stays while we are deep inside the station."`
+			`	他微笑着说：“我理解你的担忧，<first>。你可以等我们进入空间站后再继续你的工作；我可以向你保证，在那之后，我们返回这里所需的时间会比你更长。嗯，”他纠正自己，“我意识到这听起来不太让人放心，但我更想说的是，当我们深入空间站内部时，你的飞船停在哪里并不重要。”`
 				goto enter
 			label alone
 			`	他笑了笑。"如果可以的话，我们会在整个过程中保持无线电联系。另外，我们已经亲眼目睹了你最近积累的经验。如果可以的话却不利用你的专长，那我们可就太蠢了。"`
@@ -3685,32 +3685,32 @@ mission "Ka'het: Patir Mystery 28"
 		conversation
 			`你发现达斯克独自一人，正端着一只矮胖的彩色玻璃杯小口啜饮，陷入沉思。“<first>，评审还需要一些时间。考虑到我们收集的大量数据，而且大部分船员都没有共生体，我们同意将分析分散在几天内进行。也许一周。”他看了看时钟，然后检查通讯器是否有消息。“不过别担心：这段时间我不会让你闲着。”`
 			choice
-				`	"What in particular would you like me to do?"`
+				`	“你具体希望我做什么？”`
 					goto someone
-				`	"Are you waiting for someone?"`
+				`	“你在等人吗？”`
 					goto someone
 				`	“其实我现在有别的事要处理。”`
 			`	他看起来有些惊讶，但试图掩饰。“哦。有没有可能推迟一下？我们这里有相当重要的工作，而且你在之前的探险中提供的帮助非常宝贵。”他在心里盘算了一下。“根据我们的计划，大概一个多月后你就能自由行动了。”`
 			choice
-				`	"Alright, they can wait."`
+				`	“好吧，他们可以等。”`
 					goto someone
 				`	“抱歉，我不能再推迟了。”`
-			`	"Alright then," he replies disappointed. "We will be here when you have time for us again, if you do not take too long."`
+			`	“那好吧，”他失望地回答。“等你再有空的时候，我们会在这里等你，只要你别拖太久。”`
 				defer
 			label someone
 			`	你们的谈话被泰莉的到来打断。她一手拿着通讯器，另一手回了一个问候的手势。“我们的舰队几乎准备好了。我们需要一些时间将它们移动到发射台，但就我们而言，没有任何问题。”她示意跟着她去机库，你赶紧跟上她和达斯克的步伐。`
 			`	“你可能不知道，除了所需的能量之外，西尔维达在运作中还需要消耗大量的超空间燃料，”她解释道。“它能够从波斯特维尔塔冲压吸入有限数量的推进剂，但我们必须自行供应更多才能满足需求。我一直在协调用于你们近期探险的燃料补给舰队，我向你保证，随着时间推移，后勤变得越来越难以维持。最终，我们确信我们需要一种专门的交通工具来承担这一角色。”`
 			`	三艘相同的遗民飞船正排队从当地船坞出来，每艘由两排骆驼拖曳，离地仅一米高悬停。你试图穿过聚集观看它们经过的人群，注意到它们的机翼是你见过最大最厚的之一。翼尖有时距离路边建筑仅几厘米，尽管车队在这样的狭窄间隙中移动速度却比你预期的要快。它的结构让你想起一只体型庞大、翅膀超大的重鸟，脖子也很粗。`
 			choice
-				`	"What can I call them?"`
+				`	“我该怎么称呼它们？”`
 					goto name
-				`	"How did you make them this quickly?"`
+				`	“你们怎么这么快就造出它们了？”`
 					goto quickly
 				`	「它们看起来很漂亮。」`
-			`	"I like them more for what they represent," she replies. "The history of the Swan is old, and fairly complicated. They were about ready to enter production several decades ago, however, the design exercise was not able to make a reasonable use case for them. They had to stay in limbo for all this time, watching newer and more innovative designs come out. Their style is considered fairly retro by now, and these first builds are heavier than we would like them to be. But to me, these equate an end of an era for our shipyards." She looks at them nostalgically. "Chances are that the Swan will be the last design we do not produce as a liveship. At least, not a complete one."`
+			`	“我更喜欢它们所代表的意义，”她回答。“天鹅的历史很悠久，也相当复杂。几十年前它们就几乎可以投入生产了，但设计论证却未能为它们找到合理的用途。它们不得不一直悬而未决，眼看着更新、更具创新性的设计问世。它们的风格如今被认为相当复古，而且首批建造的机体比我们期望的要重。但对我来说，它们标志着我们船厂一个时代的终结。”她怀念地望着它们。“天鹅很可能会是我们最后一款不以活体飞船形式生产的设计。至少，不会再有完全非活体的了。”`
 				goto continue
 			label quickly
-			`	"Their design predates liveships, though we have added some of their systems. In fact, chances are that the Swan will be the last design we produce not to be alive." She looks at them nostalgically. "The history of the Swan is old, and fairly complicated. They were about ready to enter production several decades ago, however, the design exercise was not able to make a reasonable use case for them. They had to stay in a limbo for all this time, watching newer and more innovative designs come out. Their style is considered fairly retro by now, and these first builds are heavier than we would like them to be. But to me, these equate an end of an era for our shipyards."`
+			`	“它们的设计早于活体飞船，不过我们加入了一些活体飞船的系统。事实上，天鹅很可能会是我们生产的最后一款非活体设计。”她怀念地望着它们。“天鹅的历史很悠久，也相当复杂。几十年前它们就几乎可以投入生产了，但设计论证却未能为它们找到合理的用途。它们不得不一直悬而未决，眼看着更新、更具创新性的设计问世。它们的风格如今被认为相当复古，而且首批建造的机体比我们期望的要重。但对我来说，它们标志着我们船厂一个时代的终结。”`
 				goto continue
 			label name
 			`	「我们选择叫它们‘天鹅’，」她回答，「这感觉已是万古之前的事了。几十年前它们就几乎可以投入生产了，但设计论证却未能为它们找到合理的用途。它们不得不一直悬而未决，眼看着更新、更创新的设计出现。它们的风格如今被认为相当复古，而且首批建造的机体比我们期望的要重。但对我来说，这标志着我们船坞一个时代的终结。」她怀旧地看着它们。「很可能‘天鹅’将是我们最后一种不作为活体飞船生产的型号。至少，不是完整的活体飞船。」`
@@ -3722,7 +3722,7 @@ mission "Ka'het: Patir Mystery 28"
 				`	「下一次探险呢？」`
 			`	「我会留在这里帮助准备帕提尔的任务，」达斯克说道。「我们的下一次旅行，如果指定的长官批准的话，将是首次长时间停留，也是首次完整的探险。实验室里的五名船员将分析建造者遗存及其周边环境，而留在你船上的五名船员将在现场探索帕提尔以外的空间。」`
 			`	「不过，我们借此机会报答了你的开销，并帮助你为未来做准备。不久后你应该会在账户里看到<payment>。」你们互相鞠躬，然后他消失在人群中。`
-			`	"I will take his bunk on your ship, if it is alright with you," adds Taely. "Make sure to escort the Swans closely to <planet>: they may be armed, but this is still their first proper spaceflight."`
+			`	“如果你不介意的话，我来占他在你船上的铺位，”泰莉补充道。“护送这些天鹅前往<planet>时一定要紧跟着它们：它们虽然有武装，但这毕竟是它们第一次真正的太空飞行。”`
 				accept
 	npc save accompany
 		government "Remnant"
@@ -3746,7 +3746,7 @@ mission "Ka'het: Patir Mystery 28"
 			`当你与<planet>完成硬对接时，三艘「天鹅」号各自朝本地气态巨行星飞去。泰莉解释说，她会留在西尔维达上远程监控它们，因为这里的居民好心为测试搭建了一台控制台。「这次多少算是一次排练，」她告知你。「当西尔维达启动时，那颗星球周围会出现奇怪且难以解释的现象；为避免麻烦，我们打算让‘天鹅’号在投入运行后改为从附近星系采集物质。」`
 			`	她赞赏地望着它们。「这些船的制作过程异常顺利，但它们在我的文件夹里躺了那么多年——最近又耗费了我大量时间，眼看着它们飞走，我不禁百感交集。」`
 			choice
-				`	"It is natural to feel that way."`
+				`	“有这种感觉很正常。”`
 					goto natural
 				`	「那‘游隼’号的工作进展如何？」`
 			`	她微微一笑。「我察觉到你这个问题背后有实际目的。可惜进展不如预期。活体舰船对我们来说仍是个非常新的概念，要达到我们想要的生产和训练速度十分复杂。恐怕至少还要几个月你才能在船坞里看到它们。我们的安全需求必须优先考虑，但一有消息，我会立刻通知你。」`
@@ -3879,7 +3879,7 @@ mission "Ka'het: Patir Mystery 31"
 	on offer
 		event "remnant: inhibitor turret available" 6
 		conversation
-			`Taely has been hard at work on your ship during the trip, assembling a contraption with a few spare parts roughly the size of a fist. At last, she connects it with your console, and a stone atop it lights up in a bright blue color. "Given your continued involvement in the exploration of Patir, I imagined it would be useful for you to know Patir's state whenever you need. Thanks to the stations mounted in Patir and the telemetry sent by Ssil Vida - both of which your ship already receives - all I needed to do was to put them together. This crystal will shine blue if Patir is stable in the Milky Way, yellow if it is about to leave it, and red if it is no longer here."`
+			`旅途中，泰莉一直在你的船上忙个不停，用几个备用零件组装一个大约拳头大小的装置。最后，她把它连接到你的控制台上，装置顶部的一块石头亮起了明亮的蓝光。“鉴于你一直参与对帕提尔的探索，我想，让你随时知道帕提尔的状态应该会有用。多亏了安装在帕提尔的站点，以及西尔维达发送的遥测数据——这两者你的飞船本来就能接收——我只需要把它们整合起来就行了。如果帕提尔稳定地待在银河系中，这块水晶就会发蓝光；如果它即将离开，就会发黄光；如果它已经不在这里了，就会发红光。”`
 			`	你向她道谢，陪她走下舷梯。一群遗民已经在等她到来。「我们的装备商几天后会收到一批抑制炮塔。我已经安排好了，等它们一到，你就可以使用。」`
 			`	你的通讯器响了：Dusk 和他的团队将在 <planet> 的船坞与你汇合，进行下一次探险。看到这条消息，她微微一笑。“如果你愿意，我可以提前透露一下你的下一个任务。”`
 			choice
@@ -4032,7 +4032,7 @@ mission "Ka'het: Patir Mystery 33"
 	on offer
 		conversation
 			`一旦天鹅号完成着陆——勉勉强强挤进遗民前哨站旁边的临时停机坪——燕鸥们便开始部署。你看着它们欢快地脱离母舰，其中一些向着不同方向的未知目的地跃去——显然，它们的任务已经开始了。研究人员们立刻开始从你的船上卸下地表载荷，借助剩下的燕鸥搬运较重的物件。`
-			`	While the new members of the crew stand at the windows to watch the light show, you sit with Dusk at the table. "We have tested our equipment for the flight on the way here, and most of it worked perfectly. A couple instruments have proven strangely unresponsive, but it is all minor; if they start working again during the trip all the better, but we do not have time to repair, let alone replace them. That is to say," he concludes emphatically, "if you are ready to go, so are we."`
+			`	新加入的船员们站在舷窗前观看光影秀，你则和达斯克一起坐在桌旁。“来这里的路上，我们已经测试了飞行所需的设备，大部分都运转完美。有几台仪器出奇地没有反应，但都是小问题；如果它们在旅途中恢复工作自然最好，不过我们没时间修理，更别说更换了。也就是说，”他加重语气总结道，“如果你准备好出发了，我们也一样。”`
 				accept
 	npc
 		government "Magic Asteroid"
@@ -4047,7 +4047,7 @@ mission "Ka'het: Patir Mystery 33"
 		conversation
 			`遗民们很快就锁定了目标小行星，它在空旷星系中的同类中显得格外扎眼。"好了，<first>。如果你准备好关闭隐身，我们有针对这类接触的标准程序。"`
 			choice
-				`	"Okay, done."`
+				`	“好了，完成。”`
 					goto done
 				`	"我的隐身已经关了。"`
 				`	"实际上，我根本没有隐身装置。"`
@@ -4073,7 +4073,7 @@ mission "Ka'het: Patir Mystery 33"
 			`	虽然地形起伏不大，但土壤被一种醒目的粉色晶体构成的细脉所打断，这些脉络在整个小行星上形成了迷宫。在夜半球，当粉色光芒成为唯一的光源时，两者之间的对比强烈到让你在飞行过程中不得不移开视线。`
 			`	当第二圈绕飞接近尾声时，有人拍了拍你的肩膀，将你从思绪中拉回。"我相信这些数据已经足够我们使用了。我们已经飞过了几个可以接受的着陆点，其余地表似乎没有太多我们尚未见过的新鲜事物。如果你准备好了，我们也准备好了。"`
 			choice
-				`	"Alright then, give me the coordinates."`
+				`	“那好，把坐标给我。”`
 					goto landing
 				`	"我更想飞遍整个地表再做选择。"`
 			`	Dusk打着手势表示同意，回到他的控制台前。随着时间的推移，你注意到地形上出现了一些微妙的改变：在小行星的谷地中，粉色晶体变得略微偏红，而少数几座山峰上的色调则更接近紫色。最后，Dusk通知你，根据新收集的数据，他们已经选定了理想的着陆点，并再次为下一阶段做好了准备。`
@@ -4081,12 +4081,12 @@ mission "Ka'het: Patir Mystery 33"
 			choice
 				`	（继续下降。）`
 					goto landing
-				`	(Abort the landing.)`
+				`	（中止着陆。）`
 					goto abort
 				`	"我觉得我看到下面有什么东西。"`
 			`	在Dusk的要求下，你关闭引擎，将船灯照向下方的地形。你们花了十五分钟试图弄清情况，将其与之前的扫描结果对比，但并没有发现任何异常。"也许是光线反射，"Dusk有些不安地比划着，"或者不是。不管怎样，继续转圈飞恐怕不会有更多收获。如果你确定自己看到的东西，返回轨道是最合理的。你觉得呢？"`
 			choice
-				`	"Let's continue."`
+				`	“我们继续吧。”`
 					goto landing
 				`	"我确定。中止降落。"`
 			label abort
@@ -4096,11 +4096,11 @@ mission "Ka'het: Patir Mystery 33"
 				`	（找掩护。）`
 					goto cover
 				`	（以最大功率点燃引擎，试图挣脱。）`
-				`	(Shoot with all your weapons.)`
+				`	（用所有武器开火。）`
 					goto weapons
 					to display
 						"armament deterrence" > 0
-			`	Not without great difficulty, you eventually overcome the vibrations enough to stand up and reach the top of the console. Turning up the throttle has no result, however. Within the chaos, you distinguish the words 'engines obstructed' just before another impact throws you back to the floor.`
+			`	费了好大的劲，你终于克服了震动，站起身够到控制台顶部。然而，推高油门毫无效果。在一片混乱中，你辨认出“引擎受阻”几个字，紧接着又一次冲击将你抛回地板。`
 				goto cover
 			label weapons
 			`	费了九牛二虎之力，你终于克服了震动，站起身够到控制台顶部。然而，一切都徒劳无功。在一片混乱中，你听到了"武器失效"几个字，紧接着又一次冲击将你抛回地板。`
@@ -4110,23 +4110,23 @@ mission "Ka'het: Patir Mystery 33"
 			choice
 				`	（跑出驾驶舱。）`
 					goto door
-				`	(Remain still.)`
+				`	（保持不动。）`
 					goto still
 				`	（尝试使用你的配枪。）`
 			`	你视线不离尘埃，伸手去拿武器，但令你惊讶的是，你的手在枪套里什么也没摸到。在袭击的混乱中，它掉到了控制台下方，你看不到也够不着。随着云雾不断逼近，你发现自己退到了墙边，几乎无计可施。`
 			choice
 				`	（跑出驾驶舱。）`
-				`	(Remain still.)`
+				`	（保持不动。）`
 					goto still
 			label door
-			`	You rush to the cockpit door, but the handle won't turn; something on the other side must be blocking it. No matter how much force you push with, it remains completely stuck. As the dust gets closer and the red glow stronger behind your back, you make a last attempt at kicking down the door to force it open, to no avail. The door can't be opened.`
+			`	你冲向驾驶舱门，但门把手转不动；另一边一定有东西卡住了它。无论你用多大的力气推，门都纹丝不动。尘埃越来越近，背后的红光越来越强，你最后一次试图把门踹开，却无济于事。门打不开。`
 				goto arrived
 			label still
 			`	Dusk冲向门口，但门拒绝打开；另一边一定有东西卡住了它。尘埃发出的光芒随着它靠近你们而增强，最终迫使你移开视线。当Dusk开始试图踹门却毫无效果时，红光已近在一米之内。`
 			label arrived
 			`	云雾同时触及你和Dusk，附着在你的宇航服表面，将你微微向后推。你试图拂掉它，但很快发现它阻塞了你的关节，将你完全锁住无法动弹。紧接着你的脖颈下方传来一声撞击——尘埃正试图侵入你的宇航服；你无法阻止。`
 			`	随后又是三声撞击；第四声时你感到一股强烈冲击击中你的躯干，一阵战栗传遍全身。`
-			`	The suit breach alarm goes off, and everything goes black.`
+			`	宇航服破损警报响起，随后一切陷入黑暗。`
 				accept
 
 			label landing
@@ -4150,22 +4150,22 @@ mission "Ka'het: Patir Mystery 33"
 			`	隧道的地面和墙壁上散落着生长在岩石间的小晶体，颜色和形状都相同。“这些似乎不会发光，”一位遗民评论道，“也许它们还太年轻，或者是由其他材料构成的。”隧道通向一个小洞穴，宽度不比来路大多少。在另一端，一堆松散的岩石挡住了去路。你们四人正在评估这道屏障时，一位遗民终于注意到了。“红光消失了！”`
 			`	当团队试图在墙上安装传感器时，你和Dusk退后几步评估情况。“我对事态的发展感到不安，<first>。有什么东西正在变化，或者移动，就在这下面某处。我们的消耗品还很充足；也许可以回到地表继续探索。你觉得呢？”`
 			choice
-				`	"I agree."`
+				`	“我同意。”`
 					goto return
-				`	"I think it might be more wise to return to the ship and depart."`
+				`	“我觉得回到船上离开或许更明智。”`
 					goto return
 				`	“我们已经走到这一步了，不如一探到底。”`
-			`	"Perhaps. But discoveries are meaningless if you do not live long enough to share them."`
+			`	“也许吧。但如果你活不到与人分享的那一天，发现就毫无意义。”`
 				goto block
 			label return
 			`	“那好吧。等我们把这里的样品打包好，就可以返回地表了。”`
 			label block
 			`	然而，你一转身，就发现不对劲。你和另一位遗民之间升起了一堵岩石墙，你的呼叫没有得到回应。惊愕之余，Dusk冲回背包，拿出一个容器作为临时锤子砸向墙壁。最初几下敲击震动了墙壁，震下了一些尘土，但很快就似乎没有任何效果了。`
 			choice
-				`	(Run away to the surface.)`
+				`	（逃回地表。）`
 					goto away
 				`	（试着帮助Dusk。）`
-			`	You pick up the heaviest tool in your backpack and start trying to make a hole in the wall. You hit, and hit, and hit against the rock with all your strength until the tool breaks apart. The wall, for its part, doesn't seem to be any different from when you started. As you desperately look for another tool to replace it, you hear Dusk's voice calling you in a distressed tone. His boot has been absorbed inside a mass of gray rock of some sort, slowly growing and moving up his suit.`
+			`	你拿起背包里最重的工具，开始尝试在墙上凿出一个洞。你使尽全力一下又一下地砸向岩石，直到工具断裂。而那堵墙看起来和你开始时毫无二致。正当你绝望地寻找另一件工具来替代时，你听到达斯克用痛苦的语气呼唤你。他的靴子已经被一团灰色的岩石状物质吞没，那团物质正缓慢生长，沿着他的宇航服向上蔓延。`
 				goto dusk
 			label away
 			`	你开始尽可能快地跑向你来时的隧道。然而，跑了不到五十米，你又遇到了一堵墙挡住了去路，就在你之前经过的地方。你用背包里的工具试图在路障上开洞，最后甚至用上了配枪，但都无济于事。从洞穴里传来的一声求救尖叫让你放弃了努力，回去找Dusk。当你找到他时，他的靴子已经陷入了一团灰色的岩石状物质中，这团物质正缓慢生长并沿着他的宇航服向上蔓延。`
@@ -4173,7 +4173,7 @@ mission "Ka'het: Patir Mystery 33"
 			`	你使尽全力想把他拉出来，但岩石咬得太死了。石块迅速蔓延到躯干，然后是手臂。你无助地看着他的整个身体被新形成的墙壁吞没。你现在被困在一个只比你身体大一点的洞里。`
 			`	没过多久，岩石也开始在你身上生长。随着你的头盔、躯干和双腿被石头覆盖，你尽最大努力冷静下来并减慢氧气消耗。嘎吱声和震动开始沿着宇航服蔓延；它正在挤压你，你知道过不了多久宇航服就会破裂。`
 			`	几分钟过去了，宇航服濒临破裂，你无计可施，只能等待不可避免的结局。终于，你感到一股强烈的冲击击中你的躯干，一阵战栗传遍全身。`
-			`	The suit breach alarm goes off, and everything goes black.`
+			`	宇航服破损警报响起，随后一切陷入黑暗。`
 				accept
 
 			label ignore
@@ -4190,7 +4190,7 @@ mission "Ka'het: Patir Mystery 33"
 				`	“现在我们该怎么办？”`
 					goto what
 				`	（尝试爬回地表。）`
-			`	You can't even make it a couple meters up before the regolith crumbles under your hands, throwing you back to the ground. Before you can try to do it again, Dusk gestures you to wait. "We have a better way to handle scenarios like this."`
+			`	你还没爬上几米，表岩屑就在你手下崩塌，把你摔回地面。你还没来得及再试一次，达斯克就打手势让你等等。“我们有更好的办法应对这种情况。”`
 				goto rope
 			label what
 			`	“我们针对这种情况有一些应急预案，”他回答道，动作中无法完全掩饰那一丝忧虑。`
@@ -4199,13 +4199,13 @@ mission "Ka'het: Patir Mystery 33"
 			`	绳子断了，将你抛回地面，摔坏了头盔上的灯。你试图站起来，但感觉有什么东西抓住了你的腿；完全的黑暗让你看不见，但感觉像是一种岩石材料。你试图呼叫其他遗民，但没有回应。你不确定是无线电也坏了，还是发生了什么更糟的事情。`
 			choice
 				`	（尝试在生长的岩石上打个缺口。）`
-				`	(Stand still and save your oxygen.)`
+				`	（站着别动，节省氧气。）`
 					goto oxygen
 			`	你尽最大努力试图用背包里的工具解放你的腿，但收效甚微。别无选择之下，你甚至掏出配枪，向黑暗中射出了所有的子弹。但毫无作用。`
 			label oxygen
 			`	腿上的肿块不断生长，包裹住越来越多的宇航服。随着你的头盔、躯干和双腿被覆盖，你尽最大努力冷静下来并减慢氧气消耗。嘎吱声和震动开始沿着宇航服蔓延；你知道过不了多久宇航服就会破裂。`
 			`	几分钟过去了，宇航服濒临破裂，你无计可施，只能等待不可避免的结局。终于，你感到一股强烈的冲击击中你的躯干，一阵战栗传遍全身。`
-			`	The suit breach alarm goes off, and everything goes black.`
+			`	宇航服破损警报响起，随后一切陷入黑暗。`
 				accept
 
 mission "Ka'het: Patir Mystery 34"
@@ -4485,7 +4485,7 @@ mission "Ka'het: Patir Mystery Crew job"
 	job
 	repeat
 	name "前往 <waypoints> 的新远征"
-	description "Travel to <waypoints> with a crew of <bunks> and <tons> of instruments to collect data, then return to <destination>."
+	description "带领<bunks>名船员、携带<tons>的仪器前往<waypoints>收集数据，然后返回<destination>。"
 	source
 		government "Remnant"
 	waypoint
@@ -4669,7 +4669,7 @@ mission "Ka'het: Voice From The Past 2"
 				`	“不太了解。能概括一下吗？”`
 				`	“足够多了。”`
 					goto waaaah
-			`	"After the loss of a number of vehicles to what we now know to be the Ka'het, our ancestors developed and adopted new standards to reduce the risk of such expeditions into the depth of the Ember Waste. Cloaks were to be kept active at all times while inside the Graveyard, limiting the range of our archeological missions to the ever-increasing capacity of our fuel tanks.`
+			`	“在损失了一批飞行器之后——如今我们知道那是卡赫特所为——我们的先辈制定并采用了新的标准，以降低深入余烬废土此类探险的风险。在星冢内部时必须始终保持隐身，这使我们考古任务的范围受限于燃料箱那不断增长的容量。`
 			`	“尽管大多数探险被限制在北部星系，但这些准则仍然开启了建造者考古学的黄金时代，让我们对该地区及其居民的历史有了不可思议的见解。这项努力的巅峰成果是部分翻译了他们的书面语言，并破译了他们的一些程序。然而，问题在于这并未延伸到他们的口语。”`
 				goto continue
 			label waaaah
@@ -4896,8 +4896,8 @@ event "ka'het: alix discoveries"
 
 mission "Ka'het: Cloud Probe 1"
 	minor
-	name "In the Depths"
-	description "Escort a Swan with four modified Terns through a number of gas giants, starting with <destination>."
+	name "深处"
+	description "护送一艘载有四架改装燕鸥的天鹅号穿越数颗气态巨行星，首站为<destination>。"
 	source
 		government "Remnant"
 		attributes "remnant primary"
@@ -4907,27 +4907,27 @@ mission "Ka'het: Cloud Probe 1"
 		random < 30
 	on offer
 		conversation
-			`Glancing around the landing zone, you spot two Remnant walking at a fast pace toward your ship; eventually, you recognize them as Taely, still wearing her flight helmet, and Torza. "We have been looking for you, Captain," he begins. He gestures toward the ship they arrived from: a Swan, carrying four Terns below its massive wings. "Have you been in the Graveyard recently?"`
-			`	The three of you take a seat on a starport bench. Torza seems to be concerned about the amount of data that they possess on the inhabitants in the Graveyard. "Our current surveillance methods are limited," he continues, "especially around the Ka'het. One must stay cloaked at all times in order to survive." Taely intervenes with some technical details - of the compromises between ramscoop requirements and designing for optimal cloaking, and how running them continuously will inevitably clog them over time. While you do not recognize every sign she makes, the exploding motion she makes with her hands makes the consequences clear.`
-			`	"But if we cannot make them undetectable, perhaps we can make them unreachable. We have recently learned how to replicate extremely precise trackers," she states, "enough to record orbital vehicles from deep inside an atmosphere. The idea was raised to take a Tern, mount these optics inside of it, and leave it permanently inside a Graveyard gas giant." Torza indicates again, one by one, the four drones clamped beneath the Swan.`
+			`你环顾着陆区，发现两名遗民正快步朝你的飞船走来；最终你认出了他们：仍戴着飞行头盔的泰莉，以及托尔扎。“我们一直在找你，船长，”他开口道，并指了指他们乘坐而来的那艘船：一艘天鹅号，巨大的机翼下挂着四架燕鸥。“你最近去过星冢吗？”`
+			`	你们三人在星港的长椅上坐下。托尔扎似乎在为他们所掌握的星冢居民数据之少而担忧。“我们目前的监视手段很有限，”他继续说，“尤其是针对卡赫特。必须时刻保持隐身才能存活。”泰莉插话补充了一些技术细节——冲压收集器的需求与最佳隐身设计之间的取舍，以及持续运行必然会让它们随着时间推移而堵塞。虽然你并不认得她比划的每一个手势，但她双手做出的爆炸动作让后果一目了然。`
+			`	“但既然我们无法让它们不被察觉，或许可以让它们无法触及。我们最近学会了复制极其精确的追踪器，”她说，“精确到能从大气层深处记录轨道上的飞行器。有人提出了一个想法：拿一架燕鸥，把这些光学设备装进去，然后让它永久留在星冢的一颗气态巨行星里。”托尔扎再次一一指向夹在天鹅号下方的四架无人机。`
 			choice
-				`	"Will that hide them from the Ka'het?"`
-				`	"Why was that not a concern previously?"`
+				`	“这样能让它们躲过卡赫特吗？”`
+				`	“为什么以前没人担心这个？”`
 					goto concern
-				`	"Why the Swan? I could carry them on my own."`
+				`	“为什么要用天鹅号？我自己就能运送它们。”`
 					goto swan
-			`	"In our experience, it will not," Torza replies, sharing a somber glance with the other prefect. "But the Ka'het cannot visit gas planets, as far as we can tell. If they study them, they will learn of the Terns, but the ships should be far beyond their reach."`
+			`	“根据我们的经验，并不能，”托尔扎回答，与另一位长官交换了一个阴郁的眼神。“但就我们所知，卡赫特无法进入气态行星。如果它们研究这些行星，就会发现燕鸥，但这些飞船应该远在它们的触及范围之外。”`
 				goto swan
 			label concern
-			`	"It has been a point of concern for decades now." Torza looks slightly miffed by your question. "If this information gap is still unresolved, it is only because our attempts at filling it have failed."`
+			`	“几十年来，这一直是个令人担忧的问题。”托尔扎似乎对你的问题有些不悦。“如果这一信息空白至今仍未填补，那只是因为我们的尝试都失败了。”`
 			label swan
-			`	Taely continues the conversation. "We could call it a trial-by-fire, I guess. You might have noticed that neither of our carriers are capable of cloaking. Even if filled with propellant, an Ibis would have to stop, vulnerable, to refuel in the middle of the Graveyard; the Swan is inherently capable of doing the round trip without a ramscoop, using a Scram drive and leaving some fuel for an escort. Which would be you, in this case."`
+			`	泰莉接过话头。“我想，可以称之为一次火的考验。你可能已经注意到，我们的两种载舰都不具备隐身能力。朱鹭号即便装满推进剂，也得在星冢中途停下来补充燃料，毫无防备；而天鹅号天生就能不依靠冲压收集器完成往返，只需使用急冲引擎，还能为护航舰留出一些燃料。而在这次任务里，护航的就是你。”`
 			choice
 				`	“我很乐意。”`
-				`	"Sorry, but I am too busy right now."`
+				`	“抱歉，我现在太忙了。”`
 					decline
-			`	"Make sure to use a gaslined ship," she reminds you. "Your first target will be in <system>, on the opposite edge of the Ember Waste. The Graveyard is host to gas giants strangely different from the ones here; only <planet> is similar enough for us to trial it before entering the battlefield."`
-			`	"Be careful with our Swan," adds Torza. "It is meant to support a fleet in combat, not win a one-on-one fight. If you encounter trouble, better use some of its fuel reserves to jump somewhere else."`
+			`	“记得用一艘有气态行星防护涂层的飞船，”她提醒你。“你的第一个目标在<system>，位于余烬废土的另一端。星冢里的气态巨行星和这里的大不相同；只有<planet>足够相似，能让我们在进入战场前先进行试验。”`
+			`	“小心对待我们的天鹅号，”托尔扎补充道。“它是用来在战斗中支援舰队的，而不是用来赢得一对一较量的。如果遇到麻烦，最好用掉它的一部分燃料储备跃迁到别处。”`
 				accept
 	npc accompany save
 		government "Remnant"
@@ -4938,12 +4938,12 @@ mission "Ka'het: Cloud Probe 1"
 		ship "Tern" "Starlit Spire Renewed"
 		ship "Tern" "Shadow Storm Reborn"
 	on complete
-		dialog "Once the Swan reaches the outskirts of the atmosphere, a Tern drops from its wing and plunges into the depth of the gas giant. The captain of the Swan shares updates through the radio, and once it reaches an equilibrium, your map updates with your next stop. It is time to enter the Graveyard: the destination is Antamesa in the Polerius system."
+		dialog "天鹅号抵达大气层外缘后，一架燕鸥从它的机翼下脱落，坠入气态巨行星的深处。天鹅号的舰长通过无线电通报最新情况，待燕鸥达到平衡状态后，你的星图更新了下一站。是时候进入星冢了：目的地是波莱里乌斯星系的安塔梅萨。"
 
 mission "Ka'het: Cloud Probe 2"
 	landing
-	name "In the deep"
-	description "Enter the Graveyard to leave a second Tern in <destination>."
+	name "深处"
+	description "进入星冢，将第二架燕鸥留在<destination>。"
 	source "Crataegusa"
 	destination "Antamesa"
 	to offer
@@ -4956,12 +4956,12 @@ mission "Ka'het: Cloud Probe 2"
 		ship "Tern" "Sharp Sky Restored"
 		ship "Tern" "Starlit Spire Renewed"
 	on complete
-		dialog "The second Tern detaches from the Swan. You follow it as it falls: slowly, you see it turn upside down as a number of barrel-shaped instruments emerge from its belly. Once a set of what you presume to be antennae pop out of its aft, the map places the next target on Baliesa in the Gerenus system."
+		dialog "第二架燕鸥从天鹅号上脱离。你目送它坠落：慢慢地，它翻转过来，腹部伸出若干桶状仪器。在一组你推测是天线的装置从它的尾部弹出后，星图将下一个目标标记在格雷努斯星系的巴列萨。"
 
 mission "Ka'het: Cloud Probe 3"
 	landing
-	name "In the deep"
-	description "Reach <destination> with the Swan to deploy the third Tern."
+	name "深处"
+	description "与天鹅号一同抵达<destination>，部署第三架燕鸥。"
 	source "Antamesa"
 	destination "Baliesa"
 	to offer
@@ -4981,12 +4981,12 @@ mission "Ka'het: Cloud Probe 3"
 			variant
 				"Maeri'het (Disable-able)"
 	on complete
-		dialog "Another Tern drops from its mothership, falling through the bright clouds. Some of the orbiting debris enters the atmosphere around the same time, leaving streaks of plasma around the trail of the Tern. While you gaze at the spectacle, the map signals you the next stop - Meligara, part of the Ritilas system."
+		dialog "又一架燕鸥从母舰上落下，坠入明亮的云层。与此同时，一些轨道碎片也进入了大气层，在燕鸥的航迹周围留下道道等离子体条纹。当你凝望着这一奇景时，星图向你标示了下一站——里提拉斯星系的梅利加拉。"
 
 mission "Ka'het: Cloud Probe 4"
 	landing
-	name "In the deep"
-	description "Bring the Swan with the final Tern to <destination>."
+	name "深处"
+	description "将载着最后一架燕鸥的天鹅号带到<destination>。"
 	source "Baliesa"
 	destination "Meligara"
 	to offer
@@ -4997,12 +4997,12 @@ mission "Ka'het: Cloud Probe 4"
 		ship "Swan" "Serene Pillar Lost"
 		ship "Tern" "Sunlit Song Remade"
 	on complete
-		dialog "While the final Tern disappears beyond your sight, you receive a message from the Swan captain. With this task complete, she asks you to escort them to Seraglio - a small planet of the Arculus system - before you part ways. When you inquire further, she simply states that they have been assigned there next."
+		dialog "当最后一架燕鸥消失在你的视野之外时，你收到了天鹅号舰长的消息。这项任务完成后，她请你在分道扬镳前护送他们前往塞拉格里奥——阿库卢斯星系中的一颗小型行星。当你进一步询问时，她只是说他们接下来被派驻到那里。"
 
 mission "Ka'het: Cloud Probe 5"
 	landing
-	name "In the deep"
-	description "Escort the Swan and its crew to <destination> to conclude the mission."
+	name "深处"
+	description "护送天鹅号及其船员前往<destination>，以完成任务。"
 	source "Meligara"
 	destination "Seraglio"
 	to offer
@@ -5015,29 +5015,29 @@ mission "Ka'het: Cloud Probe 5"
 		payment 350000
 		event "ka'het: gaslining probe storm" 3
 		conversation
-			`Despite having entered the relative safety of the Remnant cluster, the now-empty Swan silently stays on your wing during the descent. As you fly in the direction of the equator, the ice fields below you leave space for some patches of peculiar, deep red terrain. Occasionally, a dark Remnant outpost adorns the scene, surrounded by a perfect circle of melted ice. Far too small, and moving far too fast below you, to make out any detail.`
-			`	You start to decelerate near your destination, but the Swan passes in front of you without appearing to slow down. Only when it is right above the target - another outpost, seemingly identical to every other one around here - it finally pitches up its nose, flexing its wings to maintain the balance and rotating its nose at the same time. If it is really less "alive" than other recent Remnant vehicles, you are having a hard time finding differences.`
-			`	"Thanks for the company, Captain," buzzes your radio. "We can handle this from here; logistics should authorize a payment shortly. May the Embers guide your efforts."`
+			`尽管已进入相对安全的遗民星团，如今空载的天鹅号在下降过程中仍默默地跟在你的侧翼。你朝赤道方向飞去，下方的冰原逐渐让位于一片片奇特的深红色地带。偶尔有一座暗色的遗民前哨站点缀其间，四周环绕着一圈完美的融冰。它们太小了，从你下方掠过得又太快，根本看不清任何细节。`
+			`	你在接近目的地时开始减速，但天鹅号却似乎毫不减速地从你前方掠过。直到它正好位于目标上方——又一座前哨站，看起来与周围其他所有前哨站一模一样——它才终于抬起机头，弯曲机翼以保持平衡，同时转动机头。如果它真的不如其他新近的遗民飞行器那样“有生命”，你也很难找出两者的区别。`
+			`	“感谢你一路相伴，船长，”你的无线电嗡嗡作响。“接下来的事我们可以处理；后勤部门应该很快就会批准一笔付款。愿余烬指引你的努力。”`
 			choice
-				`	"What is your mission here?"`
+				`	“你们在这里的任务是什么？”`
 					goto mission
-				`	(Return the farewell.)`
+				`	（回以道别。）`
 					decline
 				`	“我现在该做什么？”`
-			`	A cheerful chant comes out of your radio. It speaks of the unpredictability of life, of the endless paths one may find, and of a hidden purpose unknown to us all. At least three or four voices complement each other, increasing further when the subject changes to the need to take action and not let life slide off you.`
-			`	After a few minutes, you infer that they do not know about your mission, and you go your own way. Soon enough, the screen informs you of a transfer of <payment> from Remnant Logistics coupled with a short message of appreciation.`
+			`	你的无线电里传出一段欢快的吟唱。它讲述着生命的无常、人们可能找到的无尽道路，以及一个我们所有人都不知晓的隐秘目的。至少有三四个声音彼此应和，当主题转向必须采取行动、不让生命从身边溜走时，歌声愈发高昂。`
+			`	几分钟后，你推断出他们并不知道你的任务，于是你们各奔东西。不久，屏幕通知你收到来自遗民后勤部的<payment>转账，附有一条简短的感谢信息。`
 				decline
 			label mission
-			`	You are surprised to hear a loud, triumphant chant come out of your radio. It describes the bliss of finding life in unexpected places, beyond what one would consider possible. While the chorus has a very pleasing rhythm, you are oblivious to most of the events described in the song, excluding the discovery of past life in the Sol system.`
-			`	By the time the song comes to an end, the Swan has completed the landing, and a flexible, puffy-looking tube is injecting a colorless liquid into its wings. You bid the crew farewell and go your own way. Soon enough, the screen in front of you informs you of the transfer of <payment> from Remnant Logistics, coupled with a short message of appreciation.`
+			`	你惊讶地听到无线电中传出一段响亮而昂扬的吟唱。它描述了在意想不到的地方——超出人们想象的地方——发现生命的喜悦。虽然合唱的节奏十分悦耳，但歌中描述的大部分事件你都一无所知，只有在太阳星系中发现远古生命一事除外。`
+			`	歌声结束时，天鹅号已经完成着陆，一根柔软、看起来蓬松的管子正往它的机翼里注入无色液体。你向船员们道别，各自离去。不久，你面前的屏幕通知你收到来自遗民后勤部的<payment>转账，并附有一条简短的感谢信息。`
 
 
 event "ka'het: gaslining probe storm"
 
 mission "Ka'het: Lightning in a Bottle 1"
 	transition
-	name "Hear from Taely on <planet>"
-	description "Taely has asked you to meet with her on <destination>. There appears to be some trouble with their gaslining probes."
+	name "在<planet>听取泰莉的消息"
+	description "泰莉请你到<destination>与她会面。他们的气态巨行星探测器似乎出了些问题。"
 	deadline
 	deadline 2
 	source
@@ -5046,38 +5046,38 @@ mission "Ka'het: Lightning in a Bottle 1"
 	to offer
 		has "event: ka'het: gaslining probe storm"
 	on enter
-		dialog `To your surprise, you hear your commlink chirping once again. It is a message from Taely, asking you to meet up with her in <planet>'s starport as soon as you can. Though she does not specify the reason, the subject of the communication reads "Gas probe trouble."`
+		dialog `令你意外的是，你的通讯器再次响起。这是泰莉发来的消息，请你尽快到<planet>的星港与她会面。虽然她没有说明原因，但通讯的主题写着“气体探测器故障”。`
 	on complete
 		conversation
-			`"We have made a grave mistake," Taely begins, stepping into the <ship>'s hatch. When she turns around, you notice a large, swollen leathery mass peeking from behind her neck, almost like an unworn hood. You realize that her movements are slightly jittery, though barely enough to be perceivable. "I am glad you were in this region already, <first>, because we need to act. Evidently, somewhere in our construction process - or even in the design - something slipped beyond our watch."`
+			`“我们犯了一个严重的错误，”泰莉一边说一边踏入<ship>的舱门。她转过身时，你注意到她脖子后面露出一团巨大、肿胀的皮革状肉块，几乎像一顶没戴上的兜帽。你意识到她的动作有些微颤，尽管几乎难以察觉。“很高兴你已经在这片区域了，<first>，因为我们需要行动。显然，在我们的建造过程中——甚至是在设计中——有什么东西逃过了我们的监督。”`
 			choice
 				`	“什么意思？”`
 					goto meaning
-				`	"Did the Ka'het notice the Tern probes?"`
-				`	"Are you okay?"`
+				`	“卡赫特发现燕鸥探测器了吗？”`
+				`	“你还好吗？”`
 					goto okay
-			`	"If they have, it is not a problem right now. I fear the only damage our vessels have incurred was caused by us, rather than the Ka'het."`
+			`	“就算发现了，现在也不是问题。恐怕我们的飞行器所受的唯一损伤是我们自己造成的，而不是卡赫特。”`
 				goto meaning
 			label okay
-			`	"Ah, fairly well," she replies with a hint of perplexity. "Given the issues with the mission, we are all making best use of our flexible hours. More than usual, I admit, but it is a necessity right now."`
-			`	"What do you mean by flexible hours?" you ask.`
-			`	"Sleeping hours." She puts her hand on the back of her head, almost instinctively, before explaining. "One of the more common benefits of our symbionts is the capacity to control better our sleep cycle. Once one stays awake for longer than expected by the circadian rhythm, their body starts having an excess of a number of chemicals, and a deficit of others. Our symbionts are capable of storing the former and administering the latter, at least for a time; then, at the right moment, the process is reversed and we go through the entire sleep we had put off for the previous days.`
-			`	"This has multiple uses. As in this case, we can stay awake for as long as it takes for an emergency to get under control without excess fatigue. Alternatively, we can use it to adapt to different planets, where the length of the day-night cycle is sometimes wildly different. I recall from your records that there are medicines used for similar purpose, but we prefer this approach. Though," she smiles, "I have been told that it can give a tendency to digress."`
+			`	“啊，还算不错，”她带着一丝困惑回答。“鉴于任务出了问题，我们都在充分利用各自的弹性时间。我承认比平时多，但眼下这是必要的。”`
+			`	“弹性时间是什么意思？”你问。`
+			`	“睡眠时间。”她几乎是本能地把手放在后脑勺上，然后解释道。“我们的共生体较常见的好处之一，就是能更好地控制睡眠周期。当一个人保持清醒的时间超出昼夜节律的预期时，身体就会开始出现某些化学物质过剩，而另一些不足。我们的共生体能够储存前者并补充后者，至少能维持一段时间；然后，在适当的时候，这个过程会逆转，我们会把前几天推迟的睡眠一次补完。`
+			`	“这有多种用途。就像现在这样，我们可以一直保持清醒，直到紧急情况得到控制，而不会过度疲劳。另外，我们也可以用它来适应不同的行星，那些地方的昼夜周期长度有时相差极大。我记得你们的记录里有用于类似目的的药物，但我们更喜欢这种方式。不过，”她笑了笑，“有人告诉我，这会让人容易跑题。”`
 			label meaning
-			`	Taely walks toward one of your screens, eventually making it show the data of one of the Terns you recently deployed. "Ever since the first ion storm, the probe stationed in Meligara has become useless. Every tracker returns vast amounts of noise, so much that it is impossible to distinguish a Ka'het in that mess. If, as we suspect, there is a gap in its ion shielding, it is only a matter of time until we lose it. Today marks the fifth day we have spent trying to identify the issue."`
-			`	She starts tracing lines by hand around a few sections of the Tern. "Each of these areas could be the cause of the problem. If you dissect these parts with your equipment, we should, at least, prevent the other probes from falling to the same issue."`
+			`	泰莉走向你的一块屏幕，最终让它显示出你最近部署的一架燕鸥的数据。“自从第一次离子风暴以来，驻扎在梅利加拉的探测器就变得毫无用处了。每个追踪器都返回大量噪声，多到根本无法在那团乱麻中分辨出卡赫特。如果正如我们怀疑的那样，它的离子屏蔽存在缺口，那么失去它只是时间问题。今天已经是我们试图找出问题的第五天了。”`
+			`	她开始用手在燕鸥的几个部位周围画线。“这些区域中的每一处都可能是问题的根源。如果你用你的设备剖析这些部件，我们至少应该能防止其他探测器出现同样的问题。”`
 			choice
-				`	"Is there any chance of saving this Tern?"`
-				`	"How do I do that?"`
+				`	“这架燕鸥还有救吗？”`
+				`	“我该怎么做？”`
 					goto how
-			`	"Maybe. If it is still able to float in the atmosphere after you are done with it, it might be able to survive through a few more storms before its avionics arc and short-circuit."`
+			`	“也许吧。如果你处理完之后它还能在大气层中漂浮，它或许能再撑过几场风暴，直到航电系统电弧放电、短路为止。”`
 			label how
-			`	She hands you a checklist. "I have written down a simple enough sampling procedure for the ion shielding. Still, you will have to send it a command to climb once you are in the system - at the altitude it is staying now, the winds would leave you no chance of rendezvous. And be quick: we cannot know for how long that poor Tern can keep it together in this state."`
+			`	她递给你一份检查清单。“我写下了一套足够简单的离子屏蔽采样流程。不过，你进入星系后得向它发送爬升指令——在它目前停留的高度，风会让你毫无会合的机会。还有，动作要快：我们不知道那架可怜的燕鸥在这种状态下还能撑多久。”`
 
 mission "Ka'het: Lightning in a Bottle 2"
 	landing
-	name "Check out the probe in <system>"
-	description "Return to <destination> to take samples from the Tern stationed there."
+	name "检查<system>的探测器"
+	description "返回<destination>，从驻扎在那里的燕鸥上采集样本。"
 	source "Aventine"
 	destination "Meligara"
 	to offer
@@ -5092,64 +5092,64 @@ mission "Ka'het: Lightning in a Bottle 2"
 				"Telis'het (Guns, Disable-able)"
 	on complete
 		conversation
-			`Sitting atop the cloud layer, it takes you a dozen attempts before your signal finally reaches the Tern through the chaotic atmosphere. Far above, the violet swirl of the wormhole peeks just above the horizon. You wait for the probe to rise through the darkness.`
-			`	The vehicle appears upside down, its barrels independently pointing somewhere in the sky. Just as you try an approach, an impressive gust nearly smashes you against the Tern. At the last second its systems take over, swooshing it away from the impact trajectory. Eventually, you can start going through the tasks Taely gave you.`
+			`你停在云层之上，尝试了十几次，信号才终于穿过混乱的大气层抵达燕鸥。在遥远的高处，虫洞的紫色漩涡刚刚从地平线上探出头来。你等待着探测器从黑暗中升起。`
+			`	那架飞行器倒悬着出现，它的桶状仪器各自指向天空的某处。就在你试图靠近时，一阵猛烈的阵风差点把你撞向燕鸥。在最后一刻，它的系统接管了控制，嗖地将它带离了撞击轨迹。终于，你可以开始执行泰莉交给你的任务了。`
 			choice
-				`	(Use the opportunity to take a closer look at its sensor array.)`
-				`	(Go through the checklist and leave.)`
+				`	（趁机仔细观察它的传感器阵列。）`
+				`	（按检查清单完成任务后离开。）`
 					goto leave
-			`	The belly of the Tern is adorned with hundreds of small electronic boxes, slightly different from one another but all showing a clear Remnant origin. The dozen or so larger instruments are more interesting. It takes you a while to find an appropriate descriptor of their design language; eventually, you have to settle on "suspiciously Korath-like."`
+			`	燕鸥的腹部布满了数百个小型电子盒，彼此略有不同，但都明显出自遗民之手。那十几台较大的仪器则更有意思。你花了好一会儿才找到一个恰当的词来形容它们的设计语言；最终，你只能将其定为“可疑地像科拉斯风格”。`
 			label leave
-			`	Though Taely's handwriting turns out to be uniquely hard to understand, you make it to the end, eventually. A cracking sound from the hull signals to you that an ion storm is starting. After a brief moment, you decide to leave the Tern to its fate and watch what happens. You spot tiny blue sparkles all around the atmosphere, briefly illuminating the dark scene. Deep below you, far brighter bolts are barely visible through the clouds. Among them a dark, solid outline suddenly becomes visible.`
-			`	Your ship's tracker starts whining a desperate whistle. Thousands of signals appear in a matter of seconds, beyond the range of your radar. Their communication is garbled, but your ship tentatively classifies it as "Builder." As the storm rages on, you notice on one of your screens the tracking data from the Tern: the pattern of what the Remnant classified as noise is remarkably similar to that of the signals now reaching you.`
+			`	虽然泰莉的笔迹格外难认，但你最终还是完成了全部流程。船体传来的噼啪声提示你，一场离子风暴开始了。片刻之后，你决定任由燕鸥听天由命，留下来看看会发生什么。你看到大气中到处都是细小的蓝色火花，短暂地照亮了黑暗的景象。在你下方深处，亮得多的闪电在云层中隐约可见。其中，一个黑色的实体轮廓突然显现出来。`
+			`	你飞船的追踪器开始发出绝望般的尖啸。几秒钟内就出现了成千上万个信号，超出了你的雷达范围。它们的通讯含混不清，但你的飞船暂时将其归类为“建造者”。随着风暴肆虐，你注意到一块屏幕上显示着来自燕鸥的追踪数据：被遗民归类为噪声的图样，与此刻传到你这里的信号惊人地相似。`
 			choice
-				`	(Staying was a bad idea. Move out and return to Remnant space.)`
+				`	（留下来是个坏主意。撤离并返回遗民星域。）`
 					goto end
-				`	(Wait for the storm to end, then leave.)`
+				`	（等风暴结束后再离开。）`
 					goto end
-				`	(Investigate further.)`
-			`	A chaotic mix of winds hits the <ship> on the way down, forcing continuous corrections to the descent trajectory. You count three distinct lightning bolts hitting you during these maneuvers, seemingly without ill effects. By the time you are within visual range of one of the mysterious craft, the air is changing so rapidly that the maneuvering engines are essentially always active.`
-			`	The incessant lightning flashes allow you to snap a few low-quality pictures of the strange machine. What appears to be a large balloon sits at the top, its surface often broken up by smaller spikes. A number of tethers hang below it, each holding up machinery of unclear design.`
+				`	（进一步调查。）`
+			`	下降途中，一股股混乱的气流冲击着<ship>，迫使你不断修正下降轨迹。在这些机动过程中，你数到有三道闪电击中了你，但似乎没有造成什么不良影响。当你进入其中一架神秘飞行器的目视范围时，气流变化得如此之快，以至于机动引擎几乎一直处于工作状态。`
+			`	连绵不断的闪电让你拍下了几张这台奇怪机器的低质量照片。顶部似乎是一个巨大的气球，表面不时被一些较小的尖刺打断。下方悬挂着若干系绳，每根都吊着一台设计不明的机械。`
 			choice
-				`	(Wait for the storm to end, then leave.)`
+				`	（等风暴结束后再离开。）`
 					goto end
-				`	(Try to snatch some parts of it.)`
-			`	Tremendous gusts move you and your target in every direction, more than once almost sending you into a spin. The first time you get close to it, another current arrives to split you apart. The same happens a second, and a third time. At last, on the fourth attempted approach, the air throws the vessel right into the nose of your ship, crashing before you get the chance to react. Instantly, the balloon pops, and what is left of the machine plunges into the depths of the gas giant.`
+				`	（试着从它上面抢下一些零件。）`
+			`	猛烈的阵风将你和目标吹向四面八方，不止一次差点让你陷入旋转。你第一次接近它时，另一股气流袭来，将你们分开。第二次、第三次也是如此。终于，在第四次尝试接近时，气流把那架飞行器直接甩向你的船头，你还没来得及反应就撞上了。气球瞬间爆裂，机器的残骸坠入了气态巨行星的深处。`
 			label end
-			`	While your ship climbs back toward orbit, you detect a Ka'het attempting to make some runs into the high atmosphere of the gas giant. Though it never descends below the upper layers, it seems to be trying to find a way to reach the Tern.`
+			`	当你的飞船爬升返回轨道时，你探测到一个卡赫特正试图几次冲入这颗气态巨行星的高层大气。虽然它从未下降到上层大气以下，但它似乎在设法找到接近燕鸥的途径。`
 
 mission "Ka'het: Lightning in a Bottle 3"
 	landing
 	name "返回<planet>"
-	description "Bring your discoveries back to the Remnant on <destination>."
+	description "将你的发现带回<destination>交给遗民。"
 	source "Meligara"
 	destination "Aventine"
 	to offer
 		has "Ka'het: Lightning in a Bottle 2: done"
 	on complete
 		conversation
-			`Just as you begin to go through the post-landing checks, a light on the console informs you that Taely has already climbed into the cargo bay. Another light soon indicates that she has opened the mission storage; she seems to have finished going through what you have gathered by the time you reach her.`
-			`	"This is odd," she signs. "We were sure one or more of these samples would show signs of damage, but, as far as I can tell, the shielding is applied correctly enough. Right now, I have a hard time theorizing what is actually happening."`
+			`就在你开始进行着陆后检查时，控制台上的一盏灯告诉你，泰莉已经爬进了货舱。很快，另一盏灯显示她打开了任务储物柜；等你赶到她身边时，她似乎已经看完了你收集到的东西。`
+			`	“这很奇怪，”她比划道。“我们确信这些样本中会有一个或多个显示出损坏迹象，但就我所见，屏蔽层的涂装足够正确。现在，我很难推测到底发生了什么。”`
 			choice
-				`	(Tell her about your encounter.)`
-			`	As you go on recounting your mission, she looks happy to learn that there is nothing wrong with the probes themselves. Once your tale is almost over, however, her eyes light up. "Are you sure that these vehicles only showed up in the tracker during the ion storm? No sign at all of their presence before then?" You nod, after thinking for a couple seconds. "Very curious."`
-			`	She takes out her commlink to type something down. "I am going to need the tracking data your ship recorded in Meligara, <first>. Perhaps your flight logs, too."`
+				`	（告诉她你的遭遇。）`
+			`	当你讲述你的任务时，她得知探测器本身没有任何问题，显得很高兴。然而，当你的故事快讲完时，她的眼睛一亮。“你确定这些飞行器只在离子风暴期间出现在追踪器上吗？在那之前完全没有它们存在的迹象？”你想了几秒，点了点头。“非常奇妙。”`
+			`	她拿出通讯器输入了些什么。“我需要你的飞船在梅利加拉记录的追踪数据，<first>。或许还有你的飞行日志。”`
 			choice
-				`	"What is so special about appearing during the ion storm?"`
-				`	"What are you planning?"`
-			`	"There are two reasons I can think of that would make a probe start talking during a storm," she replies. "One is that it is about to run out of energy and wants to call home, which is possible. But there is also a particular piece of technology which could cause this - a generator that captures useful energy from the ion storm. We believe the Builders possessed it, though we have found no hard evidence yet." She steps down into the spaceport, seemingly looking for someone.`
-			`	"Why do you believe that?" you ask, following her.`
-			`	"Hundreds of sizable military hold points were once stationed in every Builder system. Though they have long become worthless debris, if that, we found and translated some of their inventory. Understanding an extinct, alien language is only reliable up to a point, of course. All the more reason to capture one of those Builder crafts."`
-			`	She calls the attention of a spaceport worker to ask for a list of expected traffic. She quickly scrolls through the datapad, then turns to you again. "I can ready two Peregrines in the spaceport in a few hours with a soft capture kit. Offhand, I do not believe we can outfit them with quite enough propellant for a round trip to Meligara - at least, not without stopping to ramscoop in the Graveyard. A Swan tanker should solve this, however." After some more napkin math, she signs that she has to go now to be ready in time.`
+				`	“在离子风暴期间出现有什么特别的？”`
+				`	“你在计划什么？”`
+			`	“我能想到两个原因，会让探测器在风暴期间开始通讯，”她回答。“一是它即将耗尽能量，想要呼叫基地，这是有可能的。但还有一种特殊的技术也可能导致这种情况——一种能从离子风暴中捕获有用能量的发电机。我们相信建造者拥有这种技术，尽管我们尚未找到确凿的证据。”她走下飞船来到太空港，似乎在找什么人。`
+			`	“你为什么这么认为？”你跟在她身后问道。`
+			`	“每个建造者星系都曾驻扎着数百个规模可观的军事据点。尽管它们早已沦为毫无价值的残骸——如果还算得上残骸的话——我们还是找到并翻译了它们的一些库存清单。当然，理解一种已经灭绝的外星语言只在一定程度上可靠。这就更有理由捕获一架建造者的飞行器了。”`
+			`	她叫住一名太空港工作人员，要来一份预计的交通清单。她快速翻阅着数据板，然后再次转向你。“我可以在几小时内在太空港准备好两艘配备软捕获套件的游隼。粗略估计，我不认为我们能给它们配足往返梅利加拉的推进剂——至少，不中途在星冢进行冲压收集是不行的。不过，一艘天鹅号加油船应该能解决这个问题。”又草草演算了一番后，她比划着说她现在得走了，以便及时做好准备。`
 			choice
-				`	"See you in a few hours then."`
+				`	“那就几小时后见。”`
 					decline
-				`	"What about your own probes?"`
-			`	"Well," she replies with some trepidation, "they seem to be fine, after all. If nothing new comes up, we can just leave them be on their own mission."`
+				`	“那你们自己的探测器呢？”`
+			`	“嗯，”她有些忐忑地回答，“它们毕竟看起来没问题。如果没有新情况，我们可以让它们继续执行自己的任务。”`
 
 mission "Ka'het: Lightning in a Bottle 4A"
-	name "Builder balloon"
-	description "Escort the Remnant to <destination> to try to capture at least one of the Builder probes deep inside the gas giant."
+	name "建造者气球"
+	description "护送遗民前往<destination>，尝试在气态巨行星深处捕获至少一个建造者探测器。"
 	source "Aventine"
 	destination "Meligara"
 	to offer
@@ -5157,13 +5157,13 @@ mission "Ka'het: Lightning in a Bottle 4A"
 	on offer
 		event "Ka'het don't spawn in Ritilas"
 		conversation
-			`At the time you arrive, the fleet appears to be made only of two ships - a Peregrine, the back of which is encased in a confusingly high amount of scaffolding, and a Swan. You are almost hit by a Remnant descending on a rope; once you take a few steps back and glance around, you notice the temporary structure has an extensive pulley system, letting them move easily between different floors. You find Taely busy managing the rest of the Peregrine team.`
-			`	"<first>, we are almost ready to go," she signs at last. "After searching through the thousands of Builder probes in your data, we found a few which have drifted into a calmer part of <planet>'s atmosphere. 'Calmer' is relative, but it should be enough for our tools to capture it." Another Remnant calls for her attention, and you gather she has to return to the preparations. "The other Peregrine will return from her previous mission in a matter of seconds now, already equipped for the job. Are you ready, <first>?"`
+			`你到达时，舰队似乎只由两艘船组成——一艘游隼，它的后部被多得令人费解的脚手架包裹着，还有一艘天鹅号。一名顺着绳索滑下的遗民差点撞到你；你后退几步环顾四周，注意到这座临时结构有一套庞大的滑轮系统，让他们能在不同楼层间轻松移动。你发现泰莉正忙着指挥游隼团队的其他成员。`
+			`	“<first>，我们差不多准备出发了，”她终于比划道。“在你的数据中搜索了成千上万个建造者探测器后，我们发现有几个漂移到了<planet>大气层中较平静的区域。‘较平静’只是相对而言，但应该足够让我们的工具捕获它了。”另一名遗民唤起了她的注意，你明白她得回去继续准备工作了。“另一艘游隼再过几秒钟就会从之前的任务返回，已经为这项工作做好了装备。你准备好了吗，<first>？”`
 			choice
 				`	“当然可以。”`
 					accept
-				`	"What kind of job was the Peregrine on to require such equipment?"`
-			`	"Just some scouting in a few nearby systems," she replies, appearing a bit amused. "Best to focus on our own mission for now. Give us just a few more minutes, and then we can begin."`
+				`	“那艘游隼之前执行的是什么任务，需要这样的装备？”`
+			`	“只是在附近几个星系做些侦察，”她回答，看起来有点被逗乐了。“现在最好专注于我们自己的任务。再给我们几分钟，然后就可以开始了。”`
 				accept
 	npc accompany save
 		government "Remnant"
@@ -5200,8 +5200,8 @@ mission "Ka'het: Lightning in a Bottle 4B"
 
 mission "Ka'het: Lightning in a Bottle 5"
 	landing
-	name "Builder technology to <planet>"
-	description "Escort the Remnant ships back to <destination> with the hardware taken from the Builder gas probe."
+	name "将建造者技术运往<planet>"
+	description "护送遗民飞船带着从建造者气体探测器上取得的硬件返回<destination>。"
 	source "Meligara"
 	destination "Aventine"
 	to offer
@@ -5216,40 +5216,40 @@ mission "Ka'het: Lightning in a Bottle 5"
 				has "Ka'het: Lightning in a Bottle 4B: done"
 			branch "ka'het killed early"
 				has "Ka'het: Lightning in a Bottle 4B: done"
-			`The fleet's descent into the upper atmosphere of Meligara is accompanied at a short distance by a raging Ka'het. The pressure eventually forces it to abandon the pursuit, as expected, and the Swan follows suit shortly after.`
-			`	Gusts only somewhat less violent than the ones you encountered previously surround the Builder vehicle. You notice that the chosen probe is still in the same area as the Tern, though higher in the atmosphere.`
+			`舰队下降至梅利加拉的高层大气时，一个狂暴的卡赫特在近处紧随其后。正如预期的那样，压力最终迫使它放弃了追击，天鹅号随后不久也同样撤离。`
+			`	包围着建造者飞行器的阵风只比你之前遇到的稍弱一些。你注意到选中的探测器仍与燕鸥位于同一区域，只是在大气层中的位置更高。`
 			scene "scene/builder cloud probe"
-			`	Before the capture can begin, however, your attention is caught by a dot on your radar screen. A new object is falling at high speed through the atmosphere, showing a cross section far smaller than that of a spacecraft. It appears to be steering roughly in the direction of the Tern.`
+			`	然而，在捕获开始之前，你的注意力被雷达屏幕上的一个光点吸引了。一个新物体正高速坠入大气层，其截面远小于一艘飞船。它似乎大致朝着燕鸥的方向飞去。`
 			choice
-				`	"Is that one of yours?"`
-				`	(Warm up my weapons.)`
-			`	Right as the object disappears, a three-letter message finally reaches you through the radio: "EMP"`
-			`	The electric burst hits you a few seconds later; it seems to have dissipated somewhat, but it is enough to temporarily garble your communicator. A check of the tracking screen shows the Tern unscathed by the strike, but the aft of the Builder probe is now showing a worrying red glow.`
-			`	You try to contact the Remnant, but the arrival of another EMP prevents you from doing so. For their part, one of the Peregrines has taken the initiative to approach the alien spacecraft.`
+				`	“那是你们的吗？”`
+				`	（预热我的武器。）`
+			`	就在那物体消失的那一刻，一条三个字母的消息终于通过无线电传到你这里：“EMP”`
+			`	几秒钟后，电磁脉冲击中了你；它似乎已经有所消散，但仍足以让你的通讯器暂时失灵。查看追踪屏幕，燕鸥在这次打击中毫发无损，但建造者探测器的尾部此刻正泛着令人担忧的红光。`
+			`	你试图联系遗民，但另一波电磁脉冲的到来让你无法做到。至于他们，其中一艘游隼已主动接近那架外星飞行器。`
 			choice
-				`	(Return to orbit to fight the Ka'het.)`
+				`	（返回轨道与卡赫特战斗。）`
 					depart
-				`	(Keep trying to speak with the Remnant.)`
+				`	（继续尝试与遗民通话。）`
 			action
 				set "ka'het: cloud probe electronics burnt"
-			`	The Peregrine pitches up to reveal two enormous claws mounted beneath its body. It closes the distance with the target bit by bit, then makes a swift movement to catch its prey before the wind changes. It succeeds, despite the continuous lightning that now surrounds you.`
-			`	Once the second Peregrine repeats the movement, a group of Remnant in extravehicular suits come out of their payload bays. Half of them work on securing the lower section of the craft, most of which is now a bright yellow hue; at the same time, you see the other few distribute along the balloon's various tethers. You see a flash. The balloon soars upward while its payload remains in the clamps of the Peregrine.`
-			`	"Are you there, <first>?" The radio is working again: you realize the rain of EMPs has ceased. You reply affirmatively to Taely's call. "We have what we needed. The Ka'het seems to have succeeded in bringing our Tern down, but we can worry about that from a safer place."`
-			`	While you prepare to leave, you give a final look to the tracking screen. At the top, the Ka'het is about to go out of your instruments' range. At the bottom, two sets of debris are falling through the atmosphere: one from the burst balloon, and the other from the Tern.`
+			`	游隼抬起机头，露出安装在机身下方的两只巨大爪子。它一点一点地缩短与目标的距离，然后在风向改变前迅速一扑，抓住猎物。尽管此刻你们周围闪电连绵不断，它还是成功了。`
+			`	当第二艘游隼重复这一动作后，一群身穿舱外宇航服的遗民从它们的载荷舱中出来。他们一半人负责固定飞行器的下半部分，那里此刻大部分已呈现出明亮的黄色；与此同时，你看到另外几人分散到气球的各条系绳上。你看到一道闪光。气球腾空而起，而它的载荷仍留在游隼的爪钳中。`
+			`	“你在吗，<first>？”无线电又能用了：你意识到电磁脉冲雨已经停止。你回应了泰莉的呼叫。“我们拿到了需要的东西。卡赫特似乎成功击落了我们的燕鸥，不过这事可以等到了更安全的地方再操心。”`
+			`	在你准备离开时，你最后看了一眼追踪屏幕。上方，卡赫特即将离开你的仪器探测范围。下方，两堆残骸正坠入大气层：一堆来自爆裂的气球，另一堆来自燕鸥。`
 				accept
 
 			label "ka'het killed for the cloud probe"
-			`Like two enormous birds of prey, the Peregrines have captured the Builder probe with a set of claws mounted beneath their bodies. You receive the communications of a group of Remnant in the middle of an extravehicular activity. Half of them work on securing the lower section of the craft, seemingly having cooled down; at the same time, you see the other few distribute along the balloon's various tethers. You see a flash. The balloon soars upward while its payload remains in the clamps of the Peregrine.`
-			`	"Thank you for getting them off our tail, <first>," Taely radios. "We have what we needed. Plus, while I don't know how long our Tern will keep together, it seems to have survived." The Swan makes a reappearance in your tracking screen, holding well above you in the atmosphere.`
-			`	"Oddly enough, we have just recorded the Builder balloon imploding, rather than bursting, once it was free. We were able to catch a few fragments for later study before it fell too deeply into the atmosphere." Soon, the Peregrines signal that they are ready to leave for <planet>.`
+			`就像两只巨大的猛禽，游隼用安装在机身下方的爪子捕获了建造者探测器。你收到一群正在进行舱外活动的遗民的通讯。他们一半人负责固定飞行器的下半部分，那里似乎已经冷却下来；与此同时，你看到另外几人分散到气球的各条系绳上。你看到一道闪光。气球腾空而起，而它的载荷仍留在游隼的爪钳中。`
+			`	“谢谢你帮我们甩掉了它们，<first>，”泰莉通过无线电说。“我们拿到了需要的东西。而且，虽然我不知道我们的燕鸥还能撑多久，但它似乎幸存了下来。”天鹅号重新出现在你的追踪屏幕上，在你上方的大气层中稳稳地保持着高度。`
+			`	“奇怪的是，我们刚刚记录到建造者气球在脱离后是向内坍缩，而不是爆裂。在它坠入大气层太深之前，我们设法捕获了一些碎片，留待以后研究。”不久，游隼们发出信号，表示已准备好前往<planet>。`
 				accept
 
 			label "ka'het killed early"
-			`Gusts only somewhat less violent than the ones you encountered previously surround the Builder vehicle. You notice that the chosen Builder probe is still in the same area as the Remnant one, though higher in the atmosphere.`
+			`包围着建造者飞行器的阵风只比你之前遇到的稍弱一些。你注意到选中的建造者探测器仍与遗民的探测器位于同一区域，只是在大气层中的位置更高。`
 			scene "scene/builder cloud probe"
-			`	Soon enough one of the Peregrines takes the initiative to approach the alien spacecraft. It pitches up to reveal two enormous claws mounted beneath its body. It closes the distance with the target bit by bit, then makes a swift movement to catch its prey before the wind changes. It succeeds.`
-			`	You receive the communications of a group of Remnant in the middle of an extravehicular activity. Half of them work on securing the lower section of the craft, it seemingly having cooled down; at the same time, you see the other few distribute along the balloon's various tethers. You see a flash: the balloon flies away free, while the payload stays in the clamps of the Peregrines.`
-			`	"We have what we needed, <first>," Taely states through the ship's radio. "Oddly enough, we have just recorded the Builder balloon imploding, rather than bursting, once it was free. We were able to catch a few fragments for later study before it fell too deeply into the atmosphere." Soon, the Peregrines signal that they are ready to leave for <planet>.`
+			`	很快，其中一艘游隼主动接近那架外星飞行器。它抬起机头，露出安装在机身下方的两只巨大爪子。它一点一点地缩短与目标的距离，然后在风向改变前迅速一扑，抓住猎物。它成功了。`
+			`	你收到一群正在进行舱外活动的遗民的通讯。他们一半人负责固定飞行器的下半部分，那里似乎已经冷却下来；与此同时，你看到另外几人分散到气球的各条系绳上。你看到一道闪光：气球挣脱飞走，而载荷仍留在游隼的爪钳中。`
+			`	“我们拿到了需要的东西，<first>，”泰莉通过飞船的无线电说。“奇怪的是，我们刚刚记录到建造者气球在脱离后是向内坍缩，而不是爆裂。在它坠入大气层太深之前，我们设法捕获了一些碎片，留待以后研究。”不久，游隼们发出信号，表示已准备好前往<planet>。`
 				accept
 	on defer
 		set "ka'het: fighting for the cloud probe"
@@ -5266,28 +5266,28 @@ mission "Ka'het: Lightning in a Bottle 5"
 		fail "Ka'het: Lightning in a Bottle 4B"
 		payment 600000
 		conversation
-			`Two pairs of camels come out of the Peregrine's payload bay, pulling well-wrapped sections of the Builder craft. Taely and her team follow ceremoniously, staying at the sides of the convoy for the duration of the walk. For its part, the Swan has already taken flight for a new destination.`
-			`	"I think we can classify this as an overall success." Based on the strange devices in her tool belt, Taely looks ready to start working on the alien vehicle. "I have received communication that all Terns are under attack by Ka'het EMPs, and most have already faltered. Though the project was not able to complete its original objective, one might say that this discovery is interesting enough to make up for it."`
+			`两对骆驼从游隼的载荷舱中走出，拖着包裹严实的建造者飞行器部件。泰莉和她的团队郑重其事地跟在后面，一路走在车队两侧。至于天鹅号，它已经起飞前往新的目的地。`
+			`	“我认为这可以算是一次整体上的成功。”从她工具腰带上那些奇怪的设备来看，泰莉似乎已经准备好着手研究这架外星飞行器了。“我收到消息，所有燕鸥都遭到了卡赫特电磁脉冲的攻击，大多数已经失灵。虽然这个项目未能完成最初的目标，但可以说，这一发现的价值足以弥补这一点。”`
 			choice
-				`	"I can agree with that."`
+				`	“我同意这一点。”`
 					goto probe
-				`	"Depends on what you can get out of this, I guess."`
+				`	“我想，这取决于你们能从中得到什么。”`
 					goto probe
-				`	"What is going to happen with the program?"`
-			`	"Evidently, our original premise - that the Ka'het would not be able to reach a gaslining probe - was flawed from the start. If there is one field where the Ka'het show a modicum of inventiveness, it is direct combat. Arming one of these vehicles with a point defense system would have limited benefits, especially compared to starting over with a new idea."`
-			`	"What kind of idea?" you ask.`
-			`	She stops for a bit, then shakes her head. "We will inform you when we get a good one.`
+				`	“这个项目接下来会怎样？”`
+			`	“显然，我们最初的前提——卡赫特无法触及气态巨行星探测器——从一开始就是错误的。如果说卡赫特在哪个领域展现出了些许创造力，那就是直接战斗。给这些飞行器配备点防御系统收效有限，尤其是与从头构思一个新点子相比。”`
+			`	“什么样的点子？”你问。`
+			`	她停顿片刻，然后摇了摇头。“等我们想到好点子时会通知你的。`
 			label probe
 			branch "burnt electronics"
 				has "ka'het: cloud probe electronics burnt"
 			action
 				payment 400000
-			`	"For now, I can tell you that our hopes for this Builder vehicle look promising. We have found minor signs of damage in some of its avionics, but not from discharge: rather, the electronics appear to have been overcharged in the recent past."`
+			`	“目前我可以告诉你，我们对这架建造者飞行器寄予的希望看起来很乐观。我们在它的一些航电设备中发现了轻微的损坏迹象，但并非由放电造成：相反，这些电子设备似乎在不久前被过度充电了。”`
 				goto bye
 			label "burnt electronics"
-			`	"For now, I can tell you that our hopes for this Builder vehicle look promising. Though most of its avionics show extensive damage, it was not caused by discharge: rather, the electronics appear to have been overcharged in the recent past."`
+			`	“目前我可以告诉你，我们对这架建造者飞行器寄予的希望看起来很乐观。虽然它的大部分航电设备都有大面积损坏，但并非由放电造成：相反，这些电子设备似乎在不久前被过度充电了。”`
 			label bye
-			`	Soon enough, the transport stops and Taely's personnel begin unwrapping the cargo. "If you find yourself in the southern Graveyard," she says, taking a few steps toward the rest of the team, "I suggest that you keep your eyes open for anything of interest. Our short-lived project could only afford to reach the northern half, after all!" After a farewell, a promise to keep you updated, and the handover of a credit chip, she returns to her own work once again.`
+			`	很快，运输车停了下来，泰莉的人员开始拆开货物的包装。“如果你到了星冢南部，”她一边说，一边朝团队其他成员走了几步，“我建议你留意任何有趣的东西。毕竟，我们这个短命的项目只负担得起探索北半部！”在道别、承诺随时向你通报进展并递给你一张信用芯片后，她再次回到了自己的工作中。`
 
 mission "Ka'het: Lightning in a Bottle Epilogue 1"
 	landing
@@ -5313,5 +5313,5 @@ mission "Ka'het: Lightning in a Bottle Epilogue 2"
 	on offer
 		outfit "Ka'het Ion Trap" 1
 		conversation
-			`A message from Taely appears on your commlink. "Captain," it begins, "we have successfully identified the mechanisms capable of generating energy from ion storms in both the cloud probe and the Builder satellite you helped recover, and we have since recovered more examples of this technology. In order to thank you for your efforts, we want to gift you the outfit that was once used by the Fereti warning satellite." A few minutes later, a hurried Tern unloads a compact, spiky-looking device and bolts away.`
+			`泰莉的消息出现在你的通讯器上。“船长，”消息开头写道，“我们已经在你帮助回收的云层探测器和建造者卫星中，成功识别出能够从离子风暴中产生能量的机制，此后我们还回收了更多这种技术的样本。为了感谢你的付出，我们想把费雷提预警卫星曾经使用的装备赠送给你。”几分钟后，一架匆忙的燕鸥卸下一个紧凑、满是尖刺的装置，随即飞速离去。`
 				decline

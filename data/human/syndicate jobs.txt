@@ -792,7 +792,7 @@ mission "Syndicate Hovercraft Racer Transport"
 
 mission "Syndicate Hovercraft Large Racer Transport"
 	name "运送车队至<planet>"
-	description "Deliver this <bunks>-member racing team and their set of <cargo> to <destination> to attend a race by <date> for <payment>."
+	description "在<date>前，将这支<bunks>人的赛车队及其<cargo>送达<destination>参加比赛，报酬为<payment>。"
 	passengers 50 100 .9
 	cargo "Syndicate hovercraft" 50
 	job

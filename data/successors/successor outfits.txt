@@ -25,8 +25,8 @@ outfit "High Houses License"
 	series "Licenses"
 	index 11020
 	thumbnail "outfit/high houses license"
-	description "The High Houses produce most of the advanced technology present in Successor space, and restrict its purchase to only those individuals and groups who substantially support their interests."
-	description "	This glittering pin of the Successors' much-beloved red gold is connected to a vast web of thoroughly-argued treaties and complex inter-House laws - some dating back thousands of years. These all serve to ensure that, at least in times of peace and stability, alien vassals such as yourself can expect each of the Houses to furnish them with the equipment that this enables them to buy - not just the House that offered it to them. After all, the security considerations involved in selling weapons to a single vassal of another House are outweighed by the rampant profits that dealing in these very expensive ships and outfits are sure to bring."
+	description "高阶家族生产了继承者空间中的大部分先进技术，并且只允许那些切实支持其利益的个人和团体购买。"
+	description "	这枚别针由继承者们钟爱的红金打造，熠熠生辉，背后关联着一张庞大的网络，由经过反复论证的条约和复杂的家族间法律交织而成——其中一些可追溯至数千年前。这一切都是为了确保：至少在和平稳定时期，像你这样的外星封臣可以指望每个家族都向其提供凭此别针得以购买的装备——而不仅仅是授予别针的那个家族。毕竟，向另一家族的单个封臣出售武器所涉及的安全顾虑，远远比不上经营这些极其昂贵的舰船与装备必然带来的丰厚利润。"
 
 outfit "Harmonic Keystone"
 	"display name" "谐振基石"
@@ -41,8 +41,8 @@ outfit "Harmonic Keystone"
 	"outfit space" -3
 	"quantum keystone" 1
 	"jump sound" "harmonic jump"
-	description "A tiny fragment of a quantum keystone is suspended in a cradle of harmonic magnifiers, each one grown atom-by-atom from exotic metal. Though a little bulkier than an unaltered keystone would be, this device has allowed the New Houses to divide their fifty keystones twenty-fold and has given them a substantial edge in exploration through their unstable wormhole."
-	description "The harmonic elements of this device pinch and twist at unfamiliar parts of the fabric of space. When a jump drive is equipped in tandem, it is made to sing in tune."
+	description "一小块量子拱心石碎片悬浮在由谐振放大器构成的托架中，每个放大器都是用奇异金属逐个原子培育而成。尽管比未经改造的拱心石略显笨重，这种装置却让新派家族得以将他们的五十块拱心石一分为二十，并借此在穿越其不稳定虫洞的探索中获得了显著优势。"
+	description "这一装置的谐振元件会挤压并扭转空间结构中一些陌生的部分。若同时装备跃迁引擎，便能使其与之同调共鸣。"
 
 outfit `"Byiaa" Shield Cortex`
 	"display name" "“比亚”护盾皮层"
@@ -679,9 +679,9 @@ outfit "Radiant Shield Shunt"
 	"starlining" 1
 	"unique"
 	"unremovable"
-	description "On loan from House Kaatrij, this piece of technology is unlike anything you've seen from the Successors. In fact, it's unlike anything you've seen, period."
-	description "	From the way it integrates with shield and fuel systems, one might be forgiven for guessing it is a cloaking device of some sort, and given the way it diverts incoming infrared radiation while active, perhaps that estimate wouldn't be too far off the mark. Whatever mechanism it employs, its effect is clear: a ship equipped with one of these absorbs next to no heat from any source outside the skin of its shields."
-	description "	With wires and connectors that snake through the entire interior of a ship, this outfit cannot be installed by non-specialists."
+	description "这件技术装置由卡特里吉家族出借，与你在继承者那里见过的任何东西都截然不同。事实上，它与你见过的任何东西都截然不同，没有之一。"
+	description "	从它与护盾和燃料系统相整合的方式来看，人们大概会猜测它是某种隐形装置，这也情有可原；而鉴于它在启动时会偏转射入的红外辐射，这个猜测或许也八九不离十。无论它采用何种机制，其效果都显而易见：装备此装置的飞船几乎不会从护盾外层之外的任何来源吸收热量。"
+	description "	这件装备的线缆和接头蜿蜒贯穿飞船的整个内部，非专业人员无法安装。"
 
 effect "tiny successor afterburner"
 	sprite "effect/successor flare/afterburner/afterburner"

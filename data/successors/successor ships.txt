@@ -282,8 +282,8 @@ ship "Ejniisde-Khora"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Only very few figures within the largely destitute People's Houses have the resources to assemble such an extensively-modified vessel. The comfortable passenger quarters of the stock Ejniisde have been replaced with barracks and the star liner's lightweight hull has been laid over with heavy, multi-layered armor that shields a substantially expanded weapons suite.`
-	description `	The construction of illegal warships such as these by the People's Houses has been a noted concern in many recent councils between the High Houses, prompting an increase in the size and prominence of their own military fleets.`
+	description `在大多穷困潦倒的民舍之中，只有极少数人物拥有足够资源来组装这样一艘经过大幅改装的舰船。原版埃杰尼兹德舒适的客舱已被改成兵营，这艘星际客轮轻薄的船体也覆上了厚重的多层装甲，保护着大幅扩充的武器系统。`
+	description `	民舍建造此类非法战舰一事，已成为近期高阶家族之间多次议会中备受关注的问题，促使他们扩充了自身军事舰队的规模，并提升其显要地位。`
 
 
 
@@ -1348,5 +1348,5 @@ ship "Vujlet-Usaqri"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The first prototype cloaks produced by the old House Kaatrij nearly eighteen hundred years ago were far from the adaptable and reliable technology they are today, each one consuming the power output of a large fusion reactor. Only once the House's engineers started to incorporate a ship's shielding into the cloak's operation was it made truly practical; hence, even today, the efficient cloak of the Vujlet-Usaqri relies on a steady stream of shield energy to operate. As a result, this modified variant of the Vujlet features a higher-capacity shield grid and more crew to maintain it.`
-	description `	The Vujlet-Usaqri's cloaking technology is integrated with its hull and cannot be removed. Optimized for general use, it draws a moderate amount of fuel and shields while active.`
+	description `将近一千八百年前，古老的卡特里吉家族生产的第一批原型隐形装置远不如今天这般适应性强且可靠，每一台都要消耗一座大型聚变反应堆的全部输出功率。直到该家族的工程师开始将舰船的护盾纳入隐形装置的运作，它才真正变得实用；因此，即使在今天，武杰莱特-乌萨克里高效的隐形装置仍需要稳定的护盾能量供给才能运作。正因如此，这一武杰莱特改型配备了容量更高的护盾网格，以及更多负责维护的船员。`
+	description `	武杰莱特-乌萨克里的隐形技术与船体融为一体，无法拆除。该装置针对通用用途进行了优化，启动时会消耗适量的燃料和护盾。`

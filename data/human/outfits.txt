@@ -221,7 +221,7 @@ outfit "Hyperdrive"
 	"jump duration" 100
 	"hyperdrive"
 	description "这个神秘的盒子安静地置于飞船核心，沉浸于自身难解的思绪中。当需要星际航行时，它会引发足以夷平整座城市的核聚变反应，然后像黄蜂刺穿橡树叶并在其中产卵一般，将产生的爆炸悄然收束于常规时空的褶皱之间。你的飞船便乘着时空结构上激起的涟漪前行。"
-	description "	据说如今在世的人类中，理解超空间驱动器内部工作原理的不足十二人。"
+	description "	据说如今在世的人类中，理解超空间引擎内部工作原理的不足十二人。"
 
 outfit "Scram Drive"
 	"display name" "急冲引擎"
@@ -236,7 +236,7 @@ outfit "Scram Drive"
 	"jump fuel" 150
 	"jump duration" 100
 	"hyperdrive"
-	description "急冲驱动器是一种特殊设计的超空间驱动器，即便飞船以极高速度航行也能工作，代价是消耗更多燃料。若你正被海盗追击（或只是急于赶路），这额外的速度能带来巨大改变。"
+	description "急冲驱动器是一种特殊设计的超空间引擎，即便飞船以极高速度航行也能工作，代价是消耗更多燃料。若你正被海盗追击（或只是急于赶路），这额外的速度能带来巨大改变。"
 
 outfit "Jump Drive"
 	"display name" "跳跃引擎"

@@ -45,23 +45,23 @@ mission "First Contact: Remnant"
 			`	有几个人走近你的飞船，其中一人大声向你打招呼，但他不是说话，而是用高亢单调的吟唱唱出话语：“你懂祖先的语言吗？”`
 			choice
 				`	（说：“是的，我懂。”）`
-				`	(Try to chant, "Yes, I do.")`
+				`	（试着吟唱：“是的，我懂。”）`
 					goto chant
 
-			`	Their expressions are inscrutable; you aren't sure if they even understood you or not. They turn away from you for a second and converse in sign language.`
+			`	他们的表情难以捉摸；你不确定他们到底有没有听懂你的话。他们转过身去片刻，用手语交谈起来。`
 				goto blood
 			label chant
 			`	你唱出“是的，我懂”，努力跟上领头的音高。这时，有几个人哼起了与你合拍的音符。`
 			label blood
 			`	两人走向你。一人拿着一个看起来像手持扫描仪的小设备。另一人打开一个小箔包，取出一枚柳叶刀，扎向自己的手指。一滴暗红色的血珠涌出。他把手指按在扫描仪的一个端口上，然后递给你另一个小包。“我们恳请你表明身份，”他吟唱道。其他人中有几个也跟着哼唱。`
 			choice
-				`	(Give them a blood sample.)`
+				`	（给他们一份血样。）`
 					goto yes
-				`	(Refuse to give them a sample.)`
+				`	（拒绝给他们血样。）`
 					goto no
 				`	（跑回我的飞船离开这里。）`
 
-			`	You run into your airlock, slam the door shut, and blast off from the planet. Already, several of their ships are moving to intercept you. It seems that you are no longer welcome in this region of space...`
+			`	你冲进气闸，砰地关上舱门，从这颗星球上起飞。他们已经有好几艘飞船在赶来拦截你了。看来这片星域已经不再欢迎你了……`
 				launch
 
 			label no
@@ -86,13 +86,13 @@ mission "First Contact: Remnant"
 			`	“我的同胞们似乎一开始就走错了路。我是遗民的行政官奇莉亚。我们在此建立人类堡垒以求生存，当时人类空间的其他地方正遭受阿尔法人的威胁。`
 			`	“我们要求进行的血检对所有来到我们世界的人都是强制性的。我们不容忍任何带有阿尔法血统者的存在。如果你同意血检并通过，我们将允许你和平访问我们的世界。”`
 			choice
-				`	"Okay, I'll take the blood test."`
+				`	“好吧，我接受血检。”`
 					goto accept
 				`	“我不做任何血检。”`
 			action
 				set "remnant: declined second chance"
 				"reputation: Remnant" <?= -10
-			`	"Then leave immediately or be eliminated. You will not be welcomed here again."`
+			`	“那就立刻离开，否则将被消灭。你再也不会受到这里的欢迎。”`
 				decline
 			
 			label accept
@@ -129,11 +129,11 @@ mission "First Contact: Remnant"
 		conversation
 			`返程的路让你更加提心吊胆。与上次不同，你的飞行电脑不断发出刺耳警告，告知护航的舰船已经武器预热并锁定目标。你刚一降落，飞船就被手持各式武器的士兵团团围住，那个男人也出现在他们中间。和先前一样，他刺破手指，将血滴按在设备上的某个位置，然后递给你一支仍然密封的采血针。他语气严厉地吟诵起来：“第一次可以说是误会，但如今你已知晓我们的律法。你是否愿意接受血检，还是就此被裁定为有罪、再无翻案余地？”`
 			choice
-				`	(Provide the blood sample.)`
+				`	（提供血样。）`
 					goto comply
 				`	（拒绝并跑回飞船。）`
 				
-			`	As you turn to start running back to your ship, the soldiers nearby begin raising their weapons and firing at you. As you feel your body begin to liquefy under the assault of the strange energy bolts, the last thing you see is the look of pity, resignation, and confusion on the face of the man with the scanner. Probably wondering why you would decide to return if you were just going to run again. You suppose they'll never know...`
+			`	你刚转身准备跑回飞船，附近的士兵便纷纷举起武器向你开火。在那些奇异能量弹的轰击下，你感到身体开始液化，你看到的最后一幕，是那个拿着扫描仪的男人脸上怜悯、无奈与困惑交织的神情。他大概在纳闷，既然你还是要逃，当初又何必回来。你想，他们永远也不会知道答案了……`
 				die
 			
 			label comply
@@ -314,10 +314,10 @@ mission "Remnant: Defense 2"
 			`当地居民感谢你帮助他们击退了科拉斯的袭击，并向你支付了<payment>的报酬。他们用歌声向你解释（当然，这段解释的形式是一首史诗般的叙事曲）——这样的袭击已经持续了近一个世纪。`
 			choice
 				`	"你们有没有采取过什么措施来阻止科拉斯袭击你们？"`
-				`	"What do you think the Korath are hoping to accomplish?"`
+				`	“你觉得科拉斯人想达成什么目的？”`
 					goto motives
 	
-			`	"Of course not," chants one of them. "Why would we give up a good opportunity to plunder new technology?" His voice is such a perfect monotone that you can't tell whether the comment was meant facetiously or not.`
+			`	“当然没有，”其中一人吟诵道，“我们为什么要放弃掠夺新技术的好机会？”他的声音单调得毫无起伏，你根本分辨不出这句话是不是在开玩笑。`
 				goto next
 	
 			label motives
@@ -329,10 +329,10 @@ mission "Remnant: Defense 2"
 			`	当你和这群人交谈时，一位穿制服的女人走过来用手语对他们说了些什么。他们用手语回复，然后指向你。她对你说："感谢你的帮助。有一艘跟随袭击者来、但在战斗中逃走的科拉斯飞船仍然在我们的领地里游荡。你愿意去追捕它吗？"`
 			choice
 				`	“当然。”`
-				`	"Sorry, I don't have time to help you out."`
+				`	“抱歉，我没时间帮你们。”`
 					decline
 
-			`	"Thank you," she sings. "It keeps jumping between systems in our territory. Maybe its jump drive was damaged or something, and it cannot escape. I will spread the information that you've taken on the bounty for hunting it, so others will not risk their lives fighting it."`
+			`	“谢谢你，”她唱道，“它一直在我们领地内的星系之间来回跳跃。也许是跃迁引擎受损之类的，逃不出去。我会把你接下这份追捕赏金的消息传出去，这样其他人就不必冒着生命危险与它交战了。”`
 				accept
 	npc kill
 		government "Korath"
@@ -371,11 +371,11 @@ mission "Remnant: Defense 3"
 			`当你领取了最近的赏金后不久，一个男人走向你的飞船，吟唱道："你在对抗科拉斯的战斗中帮了大忙。你愿意以另一种方式协助我们吗？"`
 			choice
 				`	"当然，请细说。"`
-				`	"Sorry, I'm not interested in helping you out anymore."`
+				`	“抱歉，我已经没兴趣再帮你们了。”`
 					decline
 
 			`	他解释道，他们希望在余烬废土中距离科拉斯空域最近的星系部署远程监控设备，以便在未来遇到袭击时能提前预警。该设备将通过一种名为"纠缠粒子对"的东西与遗民通信，无需依赖超空间中继网络。讽刺的是，这是遗民在几十年前通过袭击科拉斯获得的科技。`
-			`	"I will mark the target system on your map," he says, "and give you the equipment necessary to deploy the surveillance satellite. Please do not deploy it while any Korath ships are watching. Our scouts encountered Palavrets, but they have crippled them enough to where they should not be a problem."`
+			`	“我会在你的地图上标出目标星系，”他说，“并给你部署监视卫星所需的设备。请不要在任何科拉斯飞船的注视下部署它。我们的侦察兵遭遇过帕拉夫雷特，不过已经把它们打得半残，应该不会构成什么威胁了。”`
 				accept
 	on accept
 		event "remnant: surveillance begin"
@@ -398,7 +398,7 @@ mission "Remnant: Defense 3"
 		conversation
 			`当你回到<planet>时，那位遗民男子前来迎接你，并表示他们已经开始接收你部署的监视卫星传回的数据。"感谢你的协助，"他吟唱道。他向你支付了<payment>的报酬。`
 			choice
-				`	"You're welcome."`
+				`	“不客气。”`
 					decline
 				`	"你知道吗，说'谢谢'的最好方式就是提供给我购买你们科技的许可。"`
 
@@ -432,7 +432,7 @@ conversation "remnant key stones"
 			has "First Contact: Hai: offered"
 			has "First Contact: Unfettered: offered"
 	
-	`	"We have explored all of the Ember Waste, but have been unable to find any large concentrations of these stones.`
+	`	“我们已经探索了整个余烬废土，但一直没能找到这种石头的大规模富集地。`
 	label explore
 	`	“看来你能轻松探索这片区域之外的地方。如果你能在余烬废土之外找到钥石的来源，能否请你通知我？”`
 	choice
@@ -471,20 +471,20 @@ conversation "remnant key stones"
 	
 	label "don't know"
 	choice
-		`	"No. I plundered my stone off of a pirate, but I don't know where they got it from."`
+		`	“没有。我的石头是从一个海盗那里抢来的，但我不知道他们是从哪儿弄到的。”`
 			goto pirate
 			to display
 				has "Deep: Scientist Rescue 2: Pirate Bactrian: offered"
-		`	"No. The stone I have is one of a kind. I have not been able to find another like it."`
+		`	“没有。我这块石头是独一无二的，我再也没找到过第二块。”`
 			to display
 				"outfit (all): Quantum Keystone" == 1
-		`	"Sorry, but I don't know where to find more of them."`
+		`	“抱歉，我不知道该去哪里找更多这种石头。”`
 	
-	`	The man raises an eyebrow. "Ah. Well, we have explored all of the Ember Waste, but have been unable to find any large concentrations of these stones, especially none that look like yours.`
+	`	那人扬起眉毛。“啊。好吧，我们已经探索了整个余烬废土，但一直没能找到这种石头的大规模富集地，更别说像你这块一样的了。`
 		goto explore
 	
 	label pirate
-	`	The man raises an eyebrow. "I have heard nothing of pirates entering the Ember Waste, so they must have found it elsewhere. We have explored all of the Ember Waste, but have been unable to find any large concentrations of these stones.`
+	`	那人扬起眉毛。“我从没听说过有海盗进入余烬废土，所以他们一定是在别处找到的。我们已经探索了整个余烬废土，但一直没能找到这种石头的大规模富集地。`
 		goto explore
 	
 	label hai2
@@ -617,20 +617,20 @@ mission "Remnant: Void Sprites 1"
 					decline
 			`	“太好了，”他吟唱道。“几个世纪前，我们在废土的另一处发现了一些居住在太空的生物，并着手研究它们。我们犯了一些错误，有些低估了它们，如今已无法再安全地接近这些生物。你愿意前往它们的母星星系收集一些传感器数据吗？我称之为投资，因为只有在我发表研究成果后才能付你报酬。”`
 			choice
-				`	"Yes, I'd be glad to."`
+				`	“好的，我很乐意。”`
 					goto end
 				`	“等等，这听起来超级可疑。你能解释一下为什么你觉得我进入那个星系是安全的，而你却不行？”`
 			action
 				set "remnant: void sprites 1: asked for more details"
 			`	他说：“我们研究了那些生物，断定它们不可能具有心智。所以我们觉得收集，嗯，啊……一个样本，不存在道德问题。结果发生了一些意料之外的事，导致几个世纪以来它们对遗民飞船一直，啊……怀恨在心。”`
 			choice
-				`	"Well, as long as you don't ask me to do something that will get me in similar trouble, I'll help you out."`
+				`	“好吧，只要你别让我去做会给我惹上类似麻烦的事，我就帮你。”`
 					goto end
 				`	“抱歉，我没兴趣帮你。”`
 
 			`	“你确定吗？”他吟唱道。“我们可能会了解到一些不可思议的事情。”`
 			choice
-				`	"No, I'm really not interested."`
+				`	“不，我真的没兴趣。”`
 					decline
 				`	“行吧，告诉我你想让我做什么。”`
 
@@ -638,14 +638,14 @@ mission "Remnant: Void Sprites 1"
 			`	他吟唱道：“谢谢你。首先，我只要求你前往这个星系，用我提供的某些特殊设备扫描那些生物。完成后向我报告。”`
 			choice
 				`	“我该怎么找到你？”`
-				`	"What is your name?"`
+				`	“你叫什么名字？”`
 					goto name
 
-			`	"Don't worry," he says, "I will find you. You are our only visitor from the outside in many decades; when you land here, it quickly becomes known."`
+			`	“别担心，”他说，“我会找到你的。你是我们几十年来唯一一位来自外界的访客；你一在这里降落，消息很快就会传开。”`
 				accept
 	
 			label name
-			`	He says, "My name is..." and then performs an elaborate gesture with his hands. "Do not worry if you can not perform my name," he says, "I will seek you out when you land. You will not need to ask around for me."`
+			`	他说：“我的名字是……”接着用双手做了一个复杂的手势。“如果你做不出我的名字，也不必担心，”他说，“你降落时我会去找你。你不需要四处打听我。”`
 				accept
 	
 	npc
@@ -676,21 +676,21 @@ mission "Remnant: Void Sprites 2"
 		conversation
 			`果然，你刚降落，那位戴着光学义眼的遗民研究员就来到了你的飞船。他看了你用他的特殊扫描仪收集的数据后，显得很失望。他叹道：“我本以为这些扫描仪能展示那些生物如何产生足够的力量飞出它们星球的引力阱，但这数据什么也没告诉我。也许你更近距离地扫描它们会有帮助。你能在飞船上安装一台用于检查飞船携带装备的扫描仪，看看它是否能提供更多信息吗？”`
 			choice
-				`	"Okay, I'll install an outfit scanner and see what it can tell me."`
+				`	“好的，我会装一台装备扫描仪，看看能发现些什么。”`
 					accept
 				`	“你确定它们不会把扫描光束当成攻击吗？”`
 
 			`	“我觉得不会，”他说，“那是功率很低的扫描束。而且，刚才你用我的设备扫描它们时不是也没被攻击吗？”`
 			choice
-				`	"Okay, I'll install an outfit scanner and see what it can tell me."`
+				`	“好的，我会装一台装备扫描仪，看看能发现些什么。”`
 					accept
 				`	“等等，你的意思是上次我就可能被攻击，而你没告诉我？”`
 
 			`	他说：“概率非常小，我觉得没必要让你担心。”`
 			choice
-				`	"Sorry, I don't want to help with this project anymore."`
+				`	“抱歉，我不想再参与这个项目了。”`
 					decline
-				`	"Okay, I'll install an outfit scanner and see what it can tell me."`
+				`	“好的，我会装一台装备扫描仪，看看能发现些什么。”`
 					accept
 	npc "scan outfits"
 		government "Indigenous Lifeform"
@@ -1019,12 +1019,12 @@ mission "Remnant: Deep Surveillance"
 				not "Deep: Remnant 0: done"
 			has "Deep: Remnant Research: offered"
 	substitutions
-		"<compared>" "Compared"
+		"<compared>" "单论外观，"
 		"<compared>" "以<region>的标准来看，这座建筑群显得整洁如新，但若"
 			or
 				has "start: default"
 				has "start: syndicate"
-		"<region>" "Dirt Belt"
+		"<region>" "泥壤带"
 			has "start: default"
 		"<region>" "地球、乃至辛迪加"
 			has "start: syndicate"
@@ -2419,20 +2419,20 @@ mission "Remnant: Salvage 4"
 			`	塔艾莉坐在角落的一个卡座里，和在码头迎接你的那位长官以及另外几个机械师在一起，她朝你挥了挥手。"<last>船长！那么，你觉得和我们的舰队一起并肩作战感觉如何？"其中一位机械师问道。`
 			choice
 				`	"一支行星防御舰队居然还要去掠夺，这似乎有些奇怪。"`
-				`	"It was a tough battle."`
+				`	“那是一场苦战。”`
 					goto next
 	
-			`	"I suppose it would," chants one of them. "We need access to their tech, though. Otherwise we'll fall behind." Judging by the finality of his statement, this is held to be common knowledge among the Remnant.`
+			`	“我想也是，”其中一人吟诵道，“但我们需要获取他们的技术，否则就会落后。”从他斩钉截铁的语气来看，这在遗民中是人尽皆知的常识。`
 				goto next
 	
 			label next
 			`	当你和这群人交谈时，长官突然低头看了一眼通讯器，读了一条消息，然后抬头看着你。“看来有一艘科拉斯飞船在突袭中幸存了下来，并且摧毁了几艘飞船却没有劫掠货物。你能处理一下吗？”`
 			choice
 				`	“当然。”`
-				`	"Sorry, I don't have time to help you out."`
+				`	“抱歉，我没时间帮你们。”`
 					decline
 
-			`	"Thank you," he signs. "It is acting oddly, jumping around destroying ships instead of looting and running. If it simply looted and left we would be pleased, but now it is learning about us instead, so it has reached the end of its usefulness. Please disable it so that we can salvage parts from it." He pauses, then continues, "I doubt we'll be able to salvage the ship itself - they pack those things with soldiers - and we do not want it to be captured, even if that is possible for you. The ship and crew should remain intact, and we will salvage what we can after you have it disabled. If you salvage anything we will happily compensate you for it in the outfitter, but do not feel obliged to do so. Destroying the ship should be a last resort."`
+			`	“谢谢你，”他用手语说道，“它的行为很反常，四处跳跃、摧毁飞船，而不是抢完就跑。如果它只是抢了东西就走，我们倒乐见其成，但现在它反而在摸清我们的底细，所以它已经没有利用价值了。请瘫痪它，好让我们从上面拆解零件。”他顿了顿，接着说：“我看我们恐怕没法回收那艘船本身——他们会在那种船上塞满士兵——而且就算你有能力俘获它，我们也不希望它被俘获。船和船员都应保持原样，等你瘫痪它之后，我们会尽可能拆解回收。如果你拆下了什么，我们很乐意在装备店给你补偿，但你也不必勉强。摧毁这艘船应当是最后的手段。”`
 				accept
 	npc save disable
 		government "Korath"
@@ -2813,7 +2813,7 @@ mission "Remnant: Broken Jump Drive 2"
 
 mission "Remnant: Broken Jump Drive 3"
 	name "损坏的跳跃引擎运送"
-	description "<planet>上的研究人员需要一个损坏的跳跃驱动器进行测试。"
+	description "<planet>上的研究人员需要一个损坏的跳跃引擎进行测试。"
 	to offer
 		has "Remnant: Broken Jump Drive 2: done"
 	source
@@ -2832,9 +2832,9 @@ mission "Remnant: Broken Jump Drive 3"
 				`	（以后再说。）`
 					defer
 				`	（是的。）`
-			`	当你走向太空港大厅里的主管时，他抬头向你挥手。“来得正好，<first>船长，”他吟唱道，“我们在<planet>上有一组研究员需要一台破损的跳跃驱动器。你能送一台过去吗？”`
+			`	当你走向太空港大厅里的主管时，他抬头向你挥手。“来得正好，<first>船长，”他吟唱道，“我们在<planet>上有一组研究员需要一台破损的跳跃引擎。你能送一台过去吗？”`
 			`	“没问题，”你答道。`
-			`	“太好了。最近这些破损驱动器的发现在各个领域都引发了讨论和兴奋。我们有团队研究跳跃驱动器至少一个世纪了，但收效甚微。我听说它们相当复杂，但你的发现正在开辟新的研究方向。话虽如此，我会通知<planet>上的团队准备迎接你。”`
+			`	“太好了。最近这些破损驱动器的发现在各个领域都引发了讨论和兴奋。我们有团队研究跳跃引擎至少一个世纪了，但收效甚微。我听说它们相当复杂，但你的发现正在开辟新的研究方向。话虽如此，我会通知<planet>上的团队准备迎接你。”`
 				accept
 	on visit
 		dialog phrase "broken jump drive on visit"
@@ -2844,13 +2844,13 @@ mission "Remnant: Broken Jump Drive 3"
 		payment 300000
 		"reputation: Remnant" ++
 		conversation
-			`在<planet>上等候你的团队明显迫不及待。你刚打开舱门，他们就赶着骆驼拉的车冲上舷梯。尽管动作小心翼翼，他们却出奇迅速地装载了那台破损的跳跃驱动器。`
+			`在<planet>上等候你的团队明显迫不及待。你刚打开舱门，他们就赶着骆驼拉的车冲上舷梯。尽管动作小心翼翼，他们却出奇迅速地装载了那台破损的跳跃引擎。`
 			`	“这真是令人兴奋的一天，<first>船长！凭借我们能用它做的测试，无数理论可能得到证实，也可能被打回改良的熔炉中！”`
 			choice
 				`	“太好了！我会再找到的。”`
 					goto end
 				`	“有什么值得注意的理论吗？”`
-			`	他沉思片刻，然后婉转地说道：“如你所知，标准超光速驱动器通过产生核聚变反应并将其折叠进时空结构中工作，这些折叠自然沿着已知的超空间航线产生。我认为可以将这些航线视为宇宙的‘折痕线’。我最喜欢的理论是，跳跃驱动器有额外的机械装置来引导折叠。这样它们就能决定折叠发生的位置，而不是仅仅对齐最近的折痕。考虑到它们更高的燃料消耗，生成一个全新的折叠比重复使用现有的折痕需要更多燃料，这是合理的。”`
+			`	他沉思片刻，然后婉转地说道：“如你所知，标准超光速驱动器通过产生核聚变反应并将其折叠进时空结构中工作，这些折叠自然沿着已知的超空间航线产生。我认为可以将这些航线视为宇宙的‘折痕线’。我最喜欢的理论是，跳跃引擎有额外的机械装置来引导折叠。这样它们就能决定折叠发生的位置，而不是仅仅对齐最近的折痕。考虑到它们更高的燃料消耗，生成一个全新的折叠比重复使用现有的折痕需要更多燃料，这是合理的。”`
 			label end
 			`	“哦，差点忘了……”他递给你<payment>。“该去准备测试了。”他一边喃喃自语地哼着歌，一边跟着马车蹒跚离去。`
 
@@ -3695,7 +3695,7 @@ mission "Remnant: Expanded Horizons Astral 1"
 					goto "lab next"
 			`	“如果你想获得好的数据，就需要花时间去获取。特别是当我们追踪恒星现象时，你需要进行长期的观测。星空的快照固然很好——这也是我们这次旅行要收集的。但如果要观察整个银河系、其他文明以及诸如此类的事物……没有什么比长期观测更好的了。”她似乎陷入了沉思。“不过，这都扯远了。`
 			label "lab next"
-			`	“既然你有了研究实验室，就需要找一个跳跃驱动器才能到达人马座A*。”她停顿了一下，看了看通讯器。“如果你还没有的话，可以从科拉斯掠夺者上打捞一个。我们的预警系统显示，有几支科拉斯舰队正朝这边飞来，应该在一两天内就会到达。他们任何一艘船上都应该有你可以拿走的跳跃驱动器。拿到跳跃驱动器后，到星港来找我。”`
+			`	“既然你有了研究实验室，就需要找一个跳跃引擎才能到达人马座A*。”她停顿了一下，看了看通讯器。“如果你还没有的话，可以从科拉斯掠夺者上打捞一个。我们的预警系统显示，有几支科拉斯舰队正朝这边飞来，应该在一两天内就会到达。他们任何一艘船上都应该有你可以拿走的跳跃引擎。拿到跳跃引擎后，到星港来找我。”`
 
 
 
@@ -3888,7 +3888,7 @@ mission "Remnant: Expanded Horizons Storms 1"
 					goto "temperature units"
 				`	"我想这些技术细节已经是我能接受的极限了。"`
 					goto "storm end"
-			`	She looks mischievous. "I cannot tell you where or how we got it, but look at this." Her display shifts again with the hazes vanishing, and shows the galaxy map with one key difference. "Yes, the Ember Waste is violet. Actually, it is off the visual spectrum into the ultraviolets, but this downshifts it so we can see it. This is what the Ember Waste looked like a very long time ago."`
+			`	她露出一副恶作剧般的神情。“我不能告诉你我们是在哪儿、怎么弄到它的，但你看这个。”她的显示屏再次切换，薄雾消失，显示出一张星系图，只有一处关键的不同。“没错，余烬废土是紫色的。实际上，它已经超出可见光谱、进入了紫外波段，不过这里做了降频处理，好让我们能看到。这就是很久很久以前余烬废土的样子。”`
 			`	她换上了一副严肃的语气。“这些数据表明，该区域存在着足够的能量，能够将氢气的温度维持在61A8度以上。这并没有告诉我们那股能量的来源，但根据我们收集到的规律以及其他一些数据，这两者似乎是交织在一起的。至少，离子风暴是能量被传输进云层的方式之一。”她的显示屏暗了下去，随后她将背包甩到了肩上。`
 				goto "storm end"
 			label "numeric system"

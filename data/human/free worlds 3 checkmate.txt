@@ -29,12 +29,12 @@ mission "FWC Scouting 1"
 			`那是一场激烈的战斗，要不是在你到达之前狼群发动的突袭瘫痪或摧毁了海军舰队的大部分力量，结果可能会截然不同。你不禁好奇，狼群是如何集结起一支足够庞大的舰队来造成如此大的破坏的。`
 			`	“嗯，”JJ说道，“大局已定。现在再去想辛迪加那档子事已经太晚了；我们正与共和国进行一场你死我活的战斗。这意味着我们必须尽快出击，趁他们还没来得及调集更多援军。<last>船长，我希望在我集结新舰队的同时，你执行一次侦察任务。我们的下一个目标必须是新冰岛上的海军基地。如果能将他们赶出那个星系，我们的处境就会好得多。所以，我希望你飞越斗宿二，然后返回这里报告他们的舰队实力。明白了吗？”`
 			choice
-				`	"No problem."`
+				`	“没问题。”`
 					goto freya
 				`	“当然，但首先，你能告诉我狼群是如何对海军造成如此大破坏的吗？”`
 			`	“正如我所说，”JJ说道，“他们集结了数量惊人的赏金猎人和那些在社会边缘活动的人，他们同情我们的事业。”`
 			label freya
-			`	"One more thing," says Freya, "while you're traveling up North, I wonder if you could help to escort a convoy from the Zeta Aquilae system. There's no huge rush, but they're carrying supplies we need for a new reactor core for the Dreadnoughts, so the sooner you can meet up with them, the sooner the new reactors will be available."`
+			`	“还有一件事，”芙蕾雅说，“你北上的时候，不知能否帮忙护送一支来自天市左垣六星系的船队。倒不是特别急，但他们运送的物资是我们为无畏舰制造新反应堆核心所需的，所以你越早与他们会合，新反应堆就能越早投入使用。”`
 				accept
 	
 	npc
@@ -76,31 +76,31 @@ mission "FWC Attack Kaus Borealis"
 		conversation
 			`当你返回新波特兰时，一支规模不小的自由世界舰队已经停泊在太空港周围的降落场上。JJ向你解释道：“海军发动突袭，把我们的领地一分为二后，许多舰船与指挥链失联，只能就近找地方躲避。所以把他们重新集结起来费了不少功夫。现在我们需要的是一场振奋人心的胜利，否则他们又会开始散伙。”`
 			choice
-				`	"Are you saying we risk having members of our militia desert?"`
+				`	“你是说我们的民兵有开小差的风险？”`
 					goto desert
-				`	"Well, the fact that they all returned to fight is a good sign."`
+				`	“嗯，他们全都回来参战了，这是个好兆头。”`
 					goto fight
 			label desert
-			`	"Yes," says JJ, "some of them already have. Think of it from the perspective of a militia member: you signed up to defend one planet against occasional pirates, not to spend years traveling from system to system battling the Navy. Some people have just had enough. This war needs to end, and end soon."`
+			`	“没错，”JJ说，“有些人已经开小差了。站在民兵的角度想想：你报名入伍是为了保卫一颗星球、偶尔对付一下海盗，而不是年复一年地辗转于各个星系与海军作战。有些人已经受够了。这场战争必须结束，而且要尽快结束。”`
 				goto battle
 			label fight
-			`	"Well," says JJ, "at least some of them returned to fight. But many of them didn't. Think of it from the perspective of a militia member: you signed up to defend one planet against occasional pirates, not to spend years traveling from system to system battling the Navy. Some people have just had enough. This war needs to end, and end soon."`
+			`	“嗯，”JJ说，“至少有一部分人回来参战了。但还有很多人没有回来。站在民兵的角度想想：你报名入伍是为了保卫一颗星球、偶尔对付一下海盗，而不是年复一年地辗转于各个星系与海军作战。有些人已经受够了。这场战争必须结束，而且要尽快结束。”`
 				goto battle
 			label battle
 			choice
-				`	"Well, we can't exactly conquer the Republic. Shouldn't we try diplomacy?"`
+				`	“可我们总不可能征服共和国吧。难道不该试试外交途径吗？”`
 					goto diplomacy
-				`	"It sounds to me like we need to make a convincing enough show of strength that Parliament will agree to a ceasefire."`
+				`	“在我看来，我们需要充分展示实力，足以让议会同意停火。”`
 					goto strength
 			label diplomacy
-			`	"Yes," says JJ, "it will have to be a diplomatic solution in the end. But we must negotiate that solution from a position of strength, not weakness. And that means driving the Navy out of our territory."`
+			`	“没错，”JJ说，“最终必须通过外交解决。但我们必须从实力而非弱势的立场去谈判。而这就意味着要把海军赶出我们的领地。”`
 				goto plan
 			label strength
-			`	"Precisely," says JJ, "and the only way to do that is to drive the Navy out of our territory. And if that isn't enough... we have plans for that contingency as well."`
+			`	“正是，”JJ说，“而做到这一点的唯一办法，就是把海军赶出我们的领地。如果这还不够……我们对那种情况也早有预案。”`
 				goto plan
 			label plan
 			`	“那么，我们现在要进攻斗宿二吗？”你问道。`
-			`	"That's right," he says. "Once again, the Wolf Pack will go in first and soften them up, then you and your ships will clean up. I've already given the Wolf Pack orders to attack, so please head straight to Kaus Borealis so you can join the fray before they have time to recover."`
+			`	“没错，”他说，“和上次一样，狼群会先进攻削弱敌人，然后由你和你的舰队收拾残局。我已经命令狼群发动攻击了，所以请直接前往斗宿二，好在敌人重整旗鼓之前加入战斗。”`
 				accept
 	
 	on visit
@@ -194,15 +194,15 @@ mission "FWC Cebalrai 1"
 			`当你把飞船降落时，你意识到这是你第一次为一个并非自愿加入自由世界的共和国星系战斗，你不太清楚接下来该怎么做。幸运的是，很快更多自由世界的飞船开始抵达，其中一艘载着阿隆多。托梅克和他在一起。“嘿，<first>，”托梅克说，“我打赌你没想到会再见到我，对吧？”`
 			`	阿隆多说：“<first>，你们两位先聊吧。我得马上去找总督谈谈。当地人肯定注意到头顶发生的核爆了。”`
 			choice
-				`	"What? We weren't using nukes, just conventional weapons."`
+				`	“什么？我们没用核弹，只用了常规武器。”`
 					goto conventional
-				`	"Wait, is that what the Wolf Pack was using?"`
+				`	“等等，狼群用的就是这个？”`
 					goto wolf
 			label conventional
-			`	"Yes," says Tomek, "but the Wolf Pack was using nukes." Seeing the incredulous look on your face, he says, "Well, how did you think they were doing all that damage? You thought they had some massive battle fleet hidden somewhere that no one knows about?"`
+			`	“是的，”托梅克说，“但狼群用的是核弹。”看到你满脸难以置信，他又说：“不然你以为他们怎么造成那么大破坏的？你以为他们在什么没人知道的地方藏了一支庞大的战斗舰队吗？”`
 				goto next
 			label wolf
-			`	"That's right," says Tomek. He doesn't seem terribly happy about it. "How else would they be doing so much damage to the Navy? It's not like they've got a massive battle fleet stashed away somewhere."`
+			`	“没错，”托梅克说。他看上去对此并不怎么高兴。“不然他们怎么能对海军造成那么大的破坏？他们又没在哪儿藏着一支庞大的战斗舰队。”`
 				goto next
 			label next
 			`	阿隆多匆匆赶往市政厅试图会见总督，托梅克解释道：“狼群只有几艘非常快速的飞船，装备着核弹。他们跳进星系，朝能找到的任何目标发射导弹，然后在海军来得及反应之前迅速撤离。顺便说一句，我不在的时候你们搞出了一个大烂摊子。”`
@@ -211,13 +211,13 @@ mission "FWC Cebalrai 1"
 				`	“那么，你出现在这里，是不是意味着元老院赦免了你？”`
 			`	“是的，”他说，“在毒木星经历与阿尔法族的冲突后，元老院有些人开始认为我把海盗视为威胁是对的。当海军发动进攻时，他们决定我需要参与到战争中来。所以我被复职了。很高兴听说你现在也进了议会。”`
 			choice
-				`	"So, what's our next step?"`
+				`	“那么，我们下一步怎么做？”`
 					goto end
 				`	“我仍然很困惑为什么要用核弹，或者我们从哪里搞到的核弹。”`
 			`	托梅克皱起眉头。“我自己也不太满意。狼群是从绿岩星的一个军阀那里买的核弹。他们用铀支付，所以每卖给我们一颗核弹，军阀就能多造一两颗。要我说，这不是什么好局面，但狼群认为这是扭转战争局势的唯一办法。”`
 			`	“那我们接下来做什么？”你问道。`
 			label end
-			`	"Well," he says, "if we can take Cebalrai, our entire territory will be behind just two choke points, which will allow us to defend ourselves against the Navy without spreading the fleet too thin. So next, I'd like you to go scout out the Cebalrai system and report on the Navy's position there."`
+			`	“嗯，”他说，“如果我们能拿下宗正一，我们的整个领地就只剩两个咽喉要道需要把守，这样我们就能抵御海军，而不必把舰队摊得太薄。所以接下来，我希望你去侦察宗正一星系，汇报海军在那里的部署情况。”`
 				accept
 	on visit
 		dialog phrase "generic waypoint on visit"
@@ -262,7 +262,7 @@ mission "FWC Cebalrai 1B"
 			`你与托梅克和阿隆多会合，告诉他们宗正一星系的防御似乎并不特别强。“他们一定看到了败局已定，把其余舰队撤走了。”阿隆多说。`
 			`	“要么就是，”托梅克说，“他们知道我们愿意使用核武器后，不敢再与我们交战了。顺便说一句，我对此仍感不安。他们以牙还牙只是时间问题。但无论如何，我们下一步很明确：带一支舰队去宗正一，占领那个星系。<first>，你将指挥那支舰队。阿隆多可以跟你一起去处理外交善后。”`
 			`	“在继续之前，”阿隆多说，“你们俩应该知道，我刚收到消息，河鼓三已决定正式与我们断绝关系。”`
-			`	Tomek looks rather somber before saying, "Bold move for a system we have completely surrounded. They're none of our concern right now. Let's make our way to Cebalrai."`
+			`	托梅克神色颇为凝重，然后说道：“对一个已被我们完全包围的星系来说，这一步可真够大胆的。不过眼下他们不是我们要操心的。我们前往宗正一吧。”`
 				accept
 	
 	on visit
@@ -571,7 +571,7 @@ mission "FWC Diplomacy 1C"
 			`	当你试图抗议时，阿隆多开口了。他没有喊叫，但声音盖过了其他人的低语。“我们在轨道上有一艘飞船。如果我们回不去——”`
 			`	肖打断了他：“你们的飞船对我们构不成威胁。我们已经核实过，它没有携带核武器，而且这座建筑的护盾和反导系统足以抵御常规武器。它的货舱里也只有普通的、无放射性的金属。”`
 			`	阿隆多说道：“没错。确切地说，是钨。流线型的钨棒，每一根都有树干那么粗，一端配备了简单的制导系统。我们的飞船正处于近地轨道，以大约每秒八公里的速度飞行。”在他说话时，议会大厅逐渐安静下来。“所以我们要回到我们的飞船上，”阿隆多说，“带着雷诺兹小姐一起。如果轨道上的飞船每两分钟没有收到我的消息，它就会抛下货物，这座建筑除了一个陨石坑之外，将什么也不会留下。”他指了指自己戴的手表，你意识到那一定是某种通讯器。`
-			`	After a brief whispered consultation with a few of the other members of Parliament, Xao says, "You will lose this war, and you will pay dearly for it. Guards, let them return to their ship." You hurry back to your ship and take off immediately, aware that as soon as you are out of range of Earth, the Navy will probably be more than willing to attack you.`
+			`	与几位议会成员简短地低声商议后，肖说：“你们会输掉这场战争，并为此付出惨重代价。卫兵，让他们回自己的船上去。”你匆忙赶回飞船，立刻起飞，心里清楚一旦离开地球的射程，海军多半会毫不犹豫地向你开火。`
 				launch
 	on visit
 		dialog `你降落在<planet>，却发现阿隆多和卡蒂亚还在你的一艘尚未进入星系的护航舰上。最好先起飞，等它抵达。`
@@ -644,7 +644,7 @@ mission "FWC Checkmate 1"
 			`	“我明白了，”她说。“你们对接下来有何打算，还是说现在只能走一步看一步了？”`
 			`	阿隆多说道：“不幸的是，我们确实有一个计划。这是我们最后的应急预案，我们称之为‘将死’方案。我们的舰队将向北推进——”`
 			`	他被托梅克手下一名冲进房间的士兵打断了。“长官，有一支海军主力舰队正在逼近。我们需要所有飞船立即升空击退他们。增援正在路上，但可能还要过一段时间才能抵达。”`
-			`	Tomek says, "So, it begins. Captain <last>, get back to your ship and aid in the defense."`
+			`	托梅克说：“那么，开始了。<last>船长，回到你的飞船上协助防御。”`
 				launch
 	
 	npc
@@ -866,12 +866,12 @@ mission "FWC Checkmate 1B"
 		conversation
 			`你在太空港遇到了托梅克。他正与一组四艘“快帆”级飞船中的一位船长交谈，这四艘船并排停靠在一起，与自由世界舰队的其他飞船拉开了一段距离。这些“快帆”似乎配备了异常巨大的引擎和加力燃烧器，并且没有安装火炮，而是每艘都携带了四枚导弹。托梅克看到你走近，说道：“<last>舰长来了。舰长，你准备好领导这次进攻了吗？”`
 			choice
-				`	"Yes, I'm ready."`
+				`	“是的，我准备好了。”`
 					goto ready
 				`	“这些就是‘狼群’的飞船吗？”`
 			`	“确实如此，”托梅克说道，“我知道，你对此可能心情复杂，但他们确实是我们赢得这场战争的最快方式。”`
 			label ready
-			`	Tomek tells the Wolf Pack captain, "Okay, we're ready to go. Launch immediately, and Captain <last> will follow behind you. <first>, Katya has asked to travel with you; she wants to get back into the action, and I thought she might have the best chance of anyone at dealing with the folks on the ground on <planet>. Once again, you'll need to drive off any Navy ships before landing there. Good luck."`
+			`	托梅克对狼群的船长说：“好了，我们准备出发了。立即起飞，<last>船长会跟在你们后面。<first>，卡蒂娅请求与你同行；她想重返战场，而且我觉得在与<planet>地面上的人打交道这件事上，她或许是最有把握的人选。和上次一样，你需要在降落之前赶走那里所有的海军舰船。祝你好运。”`
 				accept
 	
 	on visit
@@ -972,7 +972,7 @@ mission "FWC Checkmate 1C"
 		conversation
 			`你们一降落，你和卡蒂亚就联系了托梅克，向他报告该星系已尽在掌握。“太棒了，”他说道，“率领你的舰队继续推进，趁他们还没时间重新集结，一举拿下织女一。另一支狼群舰队会在那里与你会合，准备对太阳系发动最终的总攻。”`
 			choice
-				`	"Understood. We will depart immediately."`
+				`	“明白。我们立即出发。”`
 					accept
 				`	“我们真的确定要攻击地球吗？”`
 			`	“他们有给我们留过其他退路吗？”托梅克反问，“我们尝试过外交手段。我们也别指望能打败整个海军。所以，除非我们想投降并全被当作战犯送上法庭，否则我们只能继续推进，用我们唯一能做到的方式占据上风。参议院和议会都已经就此达成了共识。”你别无选择，只能服从他的命令，开始为下一次进攻整备舰队。`
@@ -1049,33 +1049,33 @@ mission "FWC Pug 1"
 			`	突然，他的声音在一阵静电噪音中中断了。“搞什么鬼？”卡蒂亚说。她试图重新与托梅克建立连接，却无济于事。她困惑地说道：“发生什么事了？海军现在在摧毁超空间通信中继器吗？或者用某种方式干扰了它们？”`
 			`	一名通信技术员说：“他们一定是摧毁了中继器。我收不到来自地球、苔原星、伯恩，或者是……好吧，事实上除了就在隔壁的河鼓二星系，其他任何地方的信号都收不到。”`
 			choice
-				`	"How do the hyperspace relays work? Is there any way around them?"`
+				`	“超空间中继站是如何运作的？有没有什么办法绕过它们？”`
 					goto around
-				`	"Are you sure the signal has been cut, and not just jammed?"`
+				`	“你确定信号是被切断了，而不只是受到干扰？”`
 					goto jam
 			
 			label around
-			`	"Only if you want to communicate at the speed of light," says the technician, "and in that case you'd need to wait a few years to get a message out to Tomek. So no, there is not any way around the relays. They're essential to the galactic communications network, which is why even at the worst parts of this war we've never seriously considered destroying them."`
+			`	“除非你想以光速通讯，”技术员说，“那样的话，你得等上好几年才能把消息送到托梅克那里。所以不，没有任何办法绕过中继站。它们是银河通讯网络必不可少的一环，这也是为什么即便在这场战争最糟糕的时候，我们也从没认真考虑过摧毁它们。”`
 				goto attack
 			
 			label jam
-			`	"I don't know of any technology that could jam them," says the technician. "It's possible, but I think the more likely explanation is that they've been destroyed. Which is crazy, because the entire galactic communications network depends on them. Even at the worst parts of this war we've never seriously considered destroying them."`
+			`	“我不知道有什么技术能干扰它们，”技术员说，“这也不是没可能，但我觉得更有可能的解释是它们已经被摧毁了。这简直疯了，因为整个银河通讯网络都依赖它们。即便在这场战争最糟糕的时候，我们也从没认真考虑过摧毁它们。”`
 				goto attack
 			
 			label attack
 			`	就在这时，另一名民兵军官跑进房间。“我们遭到攻击了！”他说，“我们需要舰队中的每一艘船立刻升空进入轨道！”`
 			choice
 				`	“谁在攻击我们？海军吗？”`
-				`	"Have the Wolf Pack reinforcements arrived yet?"`
+				`	“狼群的援军到了吗？”`
 					goto reinforcements
 			
-			`	"No," he says. "I've never seen ships like these before in my life. The Wolf Pack reinforcements just arrived in orbit, and a second later, these ships appeared and started slicing them to ribbons. If you don't get your fleet up there, there won't be anything left of them."`
+			`	“没有，”他说，“我这辈子从没见过这样的船。狼群的援军刚抵达轨道，下一秒这些船就出现了，开始把他们撕成碎片。如果你不赶紧把舰队开上去，他们就要全军覆没了。”`
 				goto end
 			
 			label reinforcements
 			`	“是的，”他说，“就在他们抵达的一秒钟后，另一支舰队出现了，那些飞船我见所未见。他们正在把狼群的舰队撕成碎片。如果你不立即上去，他们一个都活不下来。”`
 			label end
-			`	You hurry to your ship and fire it up for a hasty launch...`
+			`	你赶回飞船，匆忙启动准备起飞……`
 				launch
 	on visit
 		dialog `你已降落在<planet>，但仍有外星飞船在上空盘旋。你应该起飞，协助消灭它们。`
@@ -1566,7 +1566,7 @@ mission "FWC Pug 3B"
 			`你低空飞掠<planet>上空，希望帕格没有追踪到你，随即联系了之前遇到的那个抵抗组织。与此同时，弗雷亚说：“我探测到一个能量信号。看起来就是那些扰乱超空间链接的引力子脉冲。”她把坐标发给你，你转发给了抵抗组织。借助你飞船武器的帮助，他们消灭了附近的帕格守卫。`
 			`	你降下飞船，与抵抗组织战士会合，小心翼翼地靠近那座设施。“这也太轻松了吧，”弗雷亚说。“也许他们根本没想到会有人反抗他们？”那栋建筑隐约像个无线电发射塔，随着你靠近，脚下的地面如同船甲板般起伏摇晃。“引力子波，”弗雷亚说。“就是它，错不了。船长，你能拖住帕格足够久，让我搞明白这东西是怎么运作的吗？”`
 			choice
-				`	"I'll do my best."`
+				`	“我会尽力而为。”`
 					goto end
 				`	“你不怕他们的地面部队攻击你吗？”`
 		
@@ -1574,10 +1574,10 @@ mission "FWC Pug 3B"
 			label end
 			branch alone
 				has "FWC Checkmate Escorts: done"
-			`	The resistance fighters tell you their own fleet will be launching shortly. You return to your ship and fire up the engines. Hopefully the ships that are left over from your attack fleet will be enough to hold off the Pug until Freya finishes her work down here...`
+			`	抵抗战士们告诉你，他们自己的舰队很快就会起飞。你回到飞船，启动引擎。但愿你的进攻舰队剩下的那些飞船足以拖住帕格，直到芙蕾雅在下面完成她的工作……`
 				launch
 			label alone
-			`	The resistance fighters tell you their own fleet will be launching shortly. You return to your ship and fire up the engines, wishing that you had managed to keep some of the ships from your attack fleet alive, and hoping you will be able to hold off the Pug until Freya finishes her work down here...`
+			`	抵抗战士们告诉你，他们自己的舰队很快就会起飞。你回到飞船，启动引擎，懊悔没能保住进攻舰队中的一些飞船，只能盼望自己能拖住帕格，直到芙蕾雅在下面完成她的工作……`
 				launch
 	on visit
 		dialog `你已经降落在<planet>，但仍有帕格飞船在上空盘旋。你应该起飞并协助消灭它们。`
@@ -1669,7 +1669,7 @@ mission "FWC Pug 3D"
 		conversation
 			`尽管<origin>现已重新回到海军的控制之下，但他们很乐意让你的飞船着陆。你帮助弗蕾亚架设好外星设备并启动电源。你再次感到头晕目眩，随着弗蕾亚调整控制装置，这种感觉逐渐增强。“起作用了，”她说，“我建立了一个正反馈回路。试试看能不能联系上湮灭星。”`
 			`	你试图与抵抗组织的战士建立通讯联系，断断续续的对话片段夹杂着静电噪音传来。几分钟后，静电噪音开始减弱，你可以更清晰地听到他们的声音。“成功了！”弗蕾亚说道。`
-			`	Meanwhile, Navy and Free Worlds ships have begun pouring into the system. You suspect that the battle ahead will be a fierce one, but with a Navy war fleet on your side, it no longer feels like a hopeless cause. "The link should be strong enough for us to travel through it soon," says Freya. "Time to get back to <system>."`
+			`	与此同时，海军和自由世界的舰船已开始涌入星系。你料想前方将是一场恶战，但有一支海军战斗舰队站在你这边，这已不再像是一场毫无希望的斗争。“链路应该很快就能稳定到足以让我们穿越了，”芙蕾雅说，“是时候回<system>了。”`
 				accept
 	on visit
 		dialog `你已经降落在<planet>，但仍有帕格飞船在上空盘旋。你应该起飞并协助消灭它们。`
@@ -2103,15 +2103,15 @@ mission "FWC Pug 5"
 			`	“听起来不错，”弗蕾亚说，“我真希望我们自己的飞船也有更多的跳跃引擎，这样我们就能协助你们了。”`
 			`	“确实，”丹福思说，“这就是为什么让 <last> 船长的飞船参与这场战斗如此重要。等一切结束后，我希望能告诉议会，这场战争是自由世界和海军在每一步都并肩作战才赢得的。我也希望你能对你们的参议院说同样的话，这样他们就会更愿意接受我们之间的妥协。”`
 			choice
-				`	"I'm glad to hear you say that. Your fleet is so much stronger than ours that you could easily take all the credit."`
+				`	“很高兴听你这么说。你们的舰队比我们强大得多，完全可以把功劳全揽过去。”`
 					goto navy
-				`	"We were the ones who discovered the aliens and the way to restore the hyperspace links. The Free Worlds deserve the real credit here."`
+				`	“是我们发现了外星人，也是我们找到了恢复超空间链路的办法。真正的功劳应该归于自由世界。”`
 					goto free
 			label navy
-			`	"I don't want the credit," he says, "I want peace." He wishes you the best of luck in your attack on Vega, and says to contact him as soon as the link is restored and the reinforcements are ready.`
+			`	“我不要功劳，”他说，“我要的是和平。”他祝你进攻织女一时一切顺利，并说等链路一恢复、援军准备就绪，就立刻联系他。`
 				accept
 			label free
-			`	"Captain," he says, "the point isn't who deserves more credit. The point is, how do we tell this story in a way that makes people on my side and on yours more willing to make peace with each other? That's all I care about." He wishes you the best of luck in your attack on Vega, and says to contact him as soon as the link is restored and the reinforcements are ready.`
+			`	“船长，”他说，“重点不在于谁更配得上功劳。重点是，我们要如何讲述这个故事，才能让我这边和你们那边的人都更愿意彼此和解？我只在乎这个。”他祝你进攻织女一时一切顺利，并说等链路一恢复、援军准备就绪，就立刻联系他。`
 				accept
 	
 	on visit
@@ -2168,15 +2168,15 @@ mission "FWC Pug 5B"
 		conversation
 			`帕格似乎又一次预料到了你的进攻，并在你们抵达前从这颗行星上撤离了所有人员。他们似乎早就计划好让事情如此发展，这让人有点不安。你再一次在 <origin> 上发现了一座被遗弃但仍能正常运作的发射站，而在发射站内，弗蕾亚找到了另一个她完成连接所需的“反射器”。“我不明白，”她说，“他们本该在离开前销毁这些东西的。”`
 			choice
-				`	"Yes, I hope we're not playing into some sort of trap."`
+				`	“是的，我希望我们不是在落入什么圈套。”`
 					goto trap
 				`	“那就庆幸他们没这么做吧。”`
-			`	"I suppose," she says. "I just don't like not understanding things, and I do not understand these aliens at all."`
+			`	“我想是吧，”她说，“我只是不喜欢有搞不懂的事情，而这些外星人我是完全搞不懂。”`
 				goto next
 			label trap
 			`	“确实，”她说，“很难想象一个如此先进的种族会犯这么多战术错误。”`
 			label next
-			`	You load the equipment onto your ship, and Freya says, "Let's set it up on <planet>, rather than Earth. I don't think the graviton radiation is harmful to human beings, but there's no point in placing it on such a densely populated planet."`
+			`	你把设备装上飞船，芙蕾雅说：“我们把它安装在<planet>上吧，而不是地球。我觉得引力子辐射对人体无害，但没必要把它放在人口这么稠密的星球上。”`
 				accept
 	on visit
 		dialog `你降落在<planet>上，但发现载有弗蕾亚和引力子反射器的护航舰还未进入星系。最好起飞等待它到达。`
@@ -2219,7 +2219,7 @@ mission "FWC Pug 5C"
 		conversation
 			`弗蕾亚一架设好设备并确认其工作正常，你就联系了丹福思上将。“我们在火星上，”你告诉他，“我们应该很快就能恢复通往织女一的超空间连接了。”`
 			`	“太好了，”他说，“请联系你们的议会，安排你们的舰队从南面发起攻击，与此同时，来自织女一的舰队将从北面跃迁进入。”`
-			`	You contact Tomek and tell him the Navy is ready for a final assault, and he agrees to send as many ships as he can spare to join you. Now it's time to return to <planet> and await the attack signal.`
+			`	你联系托梅克，告诉他海军已准备好发起最后的总攻，他同意尽可能多地派出舰船与你会合。现在是时候返回<planet>等待进攻信号了。`
 				accept
 	on visit
 		dialog `你降落在<planet>，但发现搭载着弗蕾娅的护卫舰尚未进入该星系。最好先离港，等待它抵达。`
@@ -2274,7 +2274,7 @@ mission "FWC Pug 6"
 				`	“我想我已经尽其所能地准备好了。”`
 			`	她笑了。“我想这就是我们能期望的最好情况了。明天我能乘你的船，而不是别人的船吗？如果这真的是终结，我更愿意和认识的人一起面对。”你同意了。她转身继续望向窗外。`
 			`	既然芙蕾雅似乎想独处，你便下楼，发现一支规模不小的守誓者舰队已经抵达。在太空港的主门厅里，一名守誓者军官正带领一群人进行气功冥想。令人惊讶的是，你看到丹佛斯上将正和穆斯林祈祷小组坐在一起，用流利的阿拉伯语吟诵着。与此同时，酒吧外的派对仍在继续。`
-			`	Eventually morning comes, and you prepare your ship for the assault on the Pug homeworld...`
+			`	终于，清晨到来，你为进攻帕格母星做好了飞船的准备……`
 				accept
 	
 	npc
@@ -2361,21 +2361,21 @@ mission "FWC Pug 6"
 			`当你带领舰队降落时，发现帕格的主要太空港出奇地空旷。然而，一群帕格小孩聚集在其中一个停机坪上，松散地围成一圈。他们似乎在玩某种游戏，完全无视了头顶上的舰队。`
 			choice
 				`	（攻击他们。）`
-				`	(Avoid harming them and land.)`
+				`	（避免伤害他们，直接降落。）`
 					goto avoid
 			
 			`	你朝圆圈中央开了一枪，在停机坪上留下一道焦黑的痕迹，扬起一柱灰尘和烟雾。孩子们继续玩着游戏，仿佛什么都没发生过。`
 			label avoid
 			`	你将飞船降落在帕格小孩的圆圈附近。他们正在互相传球，刻意无视你的存在。除了球撞击地面的声音，整座城市寂静得诡异。“这真奇怪，”芙蕾雅说。`
 			choice
-				`	(Explore the city.)`
+				`	（探索城市。）`
 					goto city
-				`	(Join the game.)`
+				`	（加入游戏。）`
 					goto join
 			
 			label join
 			`	你走进圆圈，伸手去抓球，但球径直穿过了你的手指。芙蕾雅伸手去碰一个小孩，她的手也穿了过去。“某种全息投影，”她说。`
-			`	The Navy ships are beginning to land and send crew out to explore. You and Freya walk into the city, passing by a pair of adult Pug who sit at a table outside what looks like some sort of cafe, playing a board game with black and white stones on a hexagonal grid. You check and find that they, too, are a holographic illusion.`
+			`	海军飞船开始降落并派出船员探索。你和芙蕾雅走进城市，经过两个成年帕格，他们坐在一处看似咖啡馆外的桌旁，在六边形棋盘上用黑白两色的棋子下着棋。你检查后发现，他们同样是全息幻象。`
 				goto house
 			
 			label city
@@ -2383,15 +2383,15 @@ mission "FWC Pug 6"
 			choice
 				`	（攻击他们。）`
 					goto attack
-				`	(Try to talk to them.)`
+				`	（试着和他们交谈。）`
 					goto talk
 			
 			label attack
-			`	You throw a punch at one of the Pug at the table, but your fist passes right through its head as if nothing is there. Surprised, Freya reaches out to touch the other one, and again her hand passes through them. "Some sort of holographic projection," she says. You continue exploring.`
+			`	你朝桌边的一个帕格挥了一拳，但拳头径直穿过了它的脑袋，仿佛那里什么都没有。芙蕾雅吃了一惊，伸手去碰另一个，她的手同样穿了过去。“某种全息投影，”她说。你继续探索。`
 				goto house
 			
 			label talk
-			`	You try to talk to the Pug, but they, like the children, are ignoring you completely; they do not even seem to be aware of your existence. Finally, Freya reaches out to shake one of them by the shoulder, and her hand passes straight through it. Surprised, she waves her hands back and forth through both of them. "Some sort of holographic projection," she says.`
+			`	你试着和这两个帕格说话，但他们和那些孩子一样，完全无视你；他们甚至似乎根本没意识到你的存在。最后，芙蕾雅伸手想摇一摇其中一个的肩膀，她的手却直接穿了过去。她吃了一惊，在两人身上来回挥手。“某种全息投影，”她说。`
 				goto house
 			
 			label house

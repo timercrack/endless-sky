@@ -17,9 +17,9 @@ news "kor efret merchant"
 		not attributes "station"
 	name
 		word
-			"Korath merchant"
+			"科拉斯商人"
 			"科埃弗雷特商人"
-			"Korath vendor"
+			"科拉斯小贩"
 			"科埃弗雷特摊贩"
 	message
 		word
@@ -35,7 +35,7 @@ news "kor efret worker"
 		not attributes "station"
 	name
 		word
-			"Korath worker"
+			"科拉斯工人"
 			"科埃弗雷特工人"
 	message
 		word
@@ -50,7 +50,7 @@ news "kor efret local"
 		not attributes "station"
 	name
 		word
-			"Korath local"
+			"科拉斯本地人"
 			"科埃弗雷特居民"
 			"科拉斯人"
 			"Kor Efret"
@@ -66,9 +66,9 @@ news "kor efret scientist"
 		not attributes "station"
 	name
 		word
-			"Korath scientist"
+			"科拉斯科学家"
 			"科埃弗雷特科学家"
-			"Korath technologist"
+			"科拉斯技术专家"
 			"科埃弗雷特工程技师"
 	message
 		word
@@ -80,7 +80,7 @@ news "kor efret station friendly"
 		government "Kor Efret"
 	name
 		word
-			"Korath local"
+			"科拉斯本地人"
 			"科埃弗雷特居民"
 			"科拉斯人"
 			"Kor Efret"
@@ -100,8 +100,8 @@ news "wanderer at kor efret spaceport"
 	name
 		word
 			"Wanderer"
-			"Wanderer captain"
-			"Wanderer trader"
+			"流浪者船长"
+			"流浪者商人"
 	message
 		word
 			`"`

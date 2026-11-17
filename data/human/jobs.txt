@@ -2958,10 +2958,10 @@ mission "FW Wildfire Aid [1]"
 	repeat
 	name "野火救援：<planet>"
 	substitutions
-		"<problem>" "forest fire"
-		"<problem>" "brush fire"
+		"<problem>" "森林火灾"
+		"<problem>" "灌木火灾"
 			"random" < 60
-		"<problem>" "wildfire"
+		"<problem>" "野火"
 			"random" < 30
 	description "在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。请在<date>之前将<cargo>运送至<planet>，以协助灭火工作。报酬为<payment>。"
 	cargo "flames aid" 25 2 .05
@@ -2985,10 +2985,10 @@ mission "FW Wildfire Aid [2]"
 	repeat
 	name "消防驰援<planet>"
 	substitutions
-		"<problem>" "forest fire"
-		"<problem>" "brush fire"
+		"<problem>" "森林火灾"
+		"<problem>" "灌木火灾"
 			"random" < 60
-		"<problem>" "wildfire"
+		"<problem>" "野火"
 			"random" < 30
 	description "在<destination>上发生了一场严重的<problem>，星球上的多个定居点受到影响。请在<date>前运送一组<bunks>名消防员到<planet>，协助灭火工作。报酬为<payment>。"
 	passengers 5 10
@@ -3020,12 +3020,12 @@ mission "FW Cold Aid [1]"
 		distance 2 8
 		attributes "frozen"
 	substitutions
-		"<problem>" "cold snap"
-		"<problem>" "freeze"
+		"<problem>" "寒潮"
+		"<problem>" "冰冻灾害"
 			"random" < 60
-		"<problem>" "snowstorm"
+		"<problem>" "暴雪"
 			"random" < 30
-		"<problem>" "blizzard"
+		"<problem>" "暴风雪"
 			"random" < 10
 	cargo "cold aid" 10 15 0.5
 	to offer
@@ -3047,12 +3047,12 @@ mission "FW Cold Aid [2]"
 		distance 2 8
 		attributes "frozen"
 	substitutions
-		"<problem>" "cold snap"
-		"<problem>" "freeze"
+		"<problem>" "寒潮"
+		"<problem>" "冰冻灾害"
 			"random" < 60
-		"<problem>" "snowstorm"
+		"<problem>" "暴雪"
 			"random" < 30
-		"<problem>" "blizzard"
+		"<problem>" "暴风雪"
 			"random" < 10
 	cargo "cold aid" 10 15 0.5
 	to offer
@@ -4005,12 +4005,12 @@ mission "Republic Navy Advisory System [frozen]"
 		distance 1 8
 		attributes "frozen"
 	substitutions
-		"<problem>" "cold snap"
-		"<problem>" "freeze"
+		"<problem>" "寒潮"
+		"<problem>" "冰冻灾害"
 			"random" < 60
-		"<problem>" "snowstorm"
+		"<problem>" "暴雪"
 			"random" < 30
-		"<problem>" "blizzard"
+		"<problem>" "暴风雪"
 			"random" < 10
 	cargo "cold aid" 10 15 0.5
 	to offer
@@ -4034,10 +4034,10 @@ mission "Republic Navy Advisory System [volcanic]"
 		distance 1 8
 		attributes "volcanic" "lava"
 	substitutions
-		"<problem>" "volcanic event"
-		"<problem>" "volcanic eruption"
+		"<problem>" "火山活动"
+		"<problem>" "火山喷发"
 			"random" < 60
-		"<problem>" "gas eruption"
+		"<problem>" "气体喷发"
 			"random" < 30
 	cargo "flames aid" 10 15 0.5
 	to offer
@@ -4061,10 +4061,10 @@ mission "Republic Navy Advisory System [wildfire cargo]"
 		distance 1 8
 		attributes "forest"
 	substitutions
-		"<problem>" "forest fire"
-		"<problem>" "brush fire"
+		"<problem>" "森林火灾"
+		"<problem>" "灌木火灾"
 			"random" < 60
-		"<problem>" "wildfire"
+		"<problem>" "野火"
 			"random" < 30
 	cargo "flames aid" 10 15 0.5
 	to offer
@@ -4088,10 +4088,10 @@ mission "Republic Navy Advisory System [wildfire firefighters]"
 		distance 1 8
 		attributes "forest"
 	substitutions
-		"<problem>" "forest fire"
-		"<problem>" "brush fire"
+		"<problem>" "森林火灾"
+		"<problem>" "灌木火灾"
 			"random" < 60
-		"<problem>" "wildfire"
+		"<problem>" "野火"
 			"random" < 30
 	passengers 5 15
 	to offer
@@ -4446,12 +4446,12 @@ mission "Student field research (farming)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "farms of"
-		"<student research>" "soil quality of"
+		"<student research>" "农场"
+		"<student research>" "土壤质量"
 			random < 80
 		"<student research>" "河流水质"
 			random < 60
-		"<student research>" "agricultural industry of"
+		"<student research>" "农业"
 			random < 40
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
@@ -4476,14 +4476,14 @@ mission "Student field research (mining / oil)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "geology of"
-		"<student research>" "working conditions of"
+		"<student research>" "地质"
+		"<student research>" "工作条件"
 			random < 80
-		"<student research>" "tectonic activity of"
+		"<student research>" "地壳构造活动"
 			random < 60
-		"<student research>" "mining industry of"
+		"<student research>" "采矿业"
 			random < 40
-		"<student research>" "petroleum industry of"
+		"<student research>" "石油工业"
 			random < 20
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
@@ -4508,16 +4508,16 @@ mission "Student field research (forest)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "biosphere of"
-		"<student research>" "soil quality of"
+		"<student research>" "生物圈"
+		"<student research>" "土壤质量"
 			random < 83
-		"<student research>" "tree species of"
+		"<student research>" "树种"
 			random < 67
-		"<student research>" "forests of"
+		"<student research>" "森林"
 			random < 50
-		"<student research>" "forestry industry of"
+		"<student research>" "林业"
 			random < 33
-		"<student research>" "indigenous wildlife of"
+		"<student research>" "本土野生动物"
 			random < 17
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
@@ -4543,13 +4543,13 @@ mission "Student field research (urban / factory)"
 	passengers 1
 	substitutions
 		"<student research>" "居民生活质量"
-		"<student research>" "cities of"
+		"<student research>" "城市"
 			random < 80
-		"<student research>" "manufacturing industry of"
+		"<student research>" "制造业"
 			random < 60
-		"<student research>" "air quality of"
+		"<student research>" "空气质量"
 			random < 40
-		"<student research>" "working conditions on"
+		"<student research>" "工作条件"
 			random < 20
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
@@ -4575,16 +4575,16 @@ mission "Student field research (fishing)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "biosphere of"
-		"<student research>" "oceans of"
+		"<student research>" "生物圈"
+		"<student research>" "海洋"
 			random < 83
-		"<student research>" "indigenous fish of"
+		"<student research>" "本土鱼类"
 			random < 67
-		"<student research>" "water quality of"
+		"<student research>" "水质"
 			random < 50
-		"<student research>" "fishing industry of"
+		"<student research>" "渔业"
 			random < 33
-		"<student research>" "aquacultural industry of"
+		"<student research>" "水产养殖业"
 			random < 17
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
@@ -4609,12 +4609,12 @@ mission "Student field research (volcanic)"
 		attributes "education"
 	passengers 1
 	substitutions
-		"<student research>" "tectonic activity on"
-		"<student research>" "volcanic activity on"
+		"<student research>" "地壳构造活动"
+		"<student research>" "火山活动"
 			random < 75
-		"<student research>" "volcanoes of"
+		"<student research>" "火山"
 			random < 50
-		"<student research>" "atmosphere of"
+		"<student research>" "大气"
 			random < 25
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"

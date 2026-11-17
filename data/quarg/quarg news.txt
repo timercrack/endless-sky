@@ -80,7 +80,7 @@ news "linguist on quarg planets in human and hai space"
 		word
 			" "
 		word
-			"that"
+			"，以至于"
 		word
 			" "
 		word
@@ -230,7 +230,7 @@ news "engineer on quarg planets in human space"
 	name
 		word
 			"Engineer"
-			"Tarazed engineer"
+			"河鼓三工程师"
 	message
 		word
 			`"`
@@ -248,17 +248,17 @@ news "merchant on quarg planets in human and hai space"
 		word
 			"商人"
 			"Captain"
-			"Ship captain"
-			"Merchant captain"
-			"Starship captain"
-			"Spacecraft captain"
-			"Spaceship captain"
-			"Freelance captain"
-			"Merchant pilot"
-			"Starship pilot"
-			"Spacecraft pilot"
-			"Spaceship pilot"
-			"Freelance pilot"
+			"飞船船长"
+			"商船船长"
+			"星舰船长"
+			"航天器船长"
+			"宇宙飞船船长"
+			"自由船长"
+			"商船驾驶员"
+			"星舰驾驶员"
+			"航天器驾驶员"
+			"宇宙飞船驾驶员"
+			"自由驾驶员"
 	message
 		word
 			`"`
@@ -299,17 +299,17 @@ news "merchant on quarg planets in human space"
 		word
 			"商人"
 			"Captain"
-			"Ship captain"
-			"Merchant captain"
-			"Starship captain"
-			"Spacecraft captain"
-			"Spaceship captain"
-			"Freelance captain"
-			"Merchant pilot"
-			"Starship pilot"
-			"Spacecraft pilot"
-			"Spaceship pilot"
-			"Freelance pilot"
+			"飞船船长"
+			"商船船长"
+			"星舰船长"
+			"航天器船长"
+			"宇宙飞船船长"
+			"自由船长"
+			"商船驾驶员"
+			"星舰驾驶员"
+			"航天器驾驶员"
+			"宇宙飞船驾驶员"
+			"自由驾驶员"
 	message
 		word
 			`"`
@@ -398,7 +398,7 @@ news "student on quarg planets"
 		word
 			"学员"
 			"Scholar"
-			"University student"
+			"大学生"
 	message
 		word
 			`"`

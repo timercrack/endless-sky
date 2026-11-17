@@ -20,74 +20,74 @@ mission "Successors: Ghosts Aqrabe 1"
 		has "Successors: Ghosts 4: offered"
 	on offer
 		conversation
-			`Shortly after landing here, you are approached by a tall Successor in unusual dress; though dark, it shimmers in the light with many little golden flecks. It is unlike any other Successor outfit you've seen. "Greetings, Captain," they say, curiously sonorous. "Noble House Aqrabe kindly requests thy presence in the eastern spaceport reliquary. I've been instructed to take thee there, at thy own discretion, of course."`
+			`刚降落不久，一位身着奇特服饰的高个子继承者便向你走来；那服饰虽是深色，却在光下闪烁着许多细小的金色斑点，与你见过的任何继承者服装都不相同。“问候汝，船长，”对方说道，声音出奇地洪亮悦耳，“尊贵的阿克拉贝家族诚邀汝移步东区太空港圣物堂。吾受命带汝前往——当然，去与不去，全凭汝意。”`
 			choice
-				`	"Very well."`
+				`	“很好。”`
 					goto reliquary
-				`	"No, thank you."`
+				`	“不了，谢谢。”`
 					decline
 			label reliquary
-			`	They lead you through several restricted areas of the spaceport to a thin tower on its periphery. The room you enter into is tremendous and circular; an enormous hemispherical tank is suspended above a shallow depression in the center, almost touching the wet floor as it swoops towards downward. The contents of the tank prove even more striking, however: Slowly, what look like the severed limbs of Successors begin to descend, each connected to several glittering golden threads that snake up into the dark abyss of the overhead water. You look around to ask your guide what's happening, but they have already left. At the edge of your vision, an arm rubs up against the glass, its undead suckers making faint popping sounds as they pass over it.`
+			`	对方领着你穿过太空港的数处禁区，来到其边缘的一座细长高塔。你走进的房间极为宏大，呈圆形；一个巨大的半球形水槽悬在中央一处浅坑上方，向下弯垂，几乎触及湿漉漉的地面。然而，水槽里的东西更加惊人：一些看似继承者断肢的东西正缓缓下沉，每一截都连着几根闪闪发光的金线，金线蜿蜒向上，没入头顶水体幽暗的深渊之中。你环顾四周，想问向导这是怎么回事，对方却已离开。在你的视野边缘，一条手臂贴着玻璃蹭过，那不死的吸盘划过玻璃时发出轻微的啵啵声。`
 			choice
-				`	(Reach out to touch it.)`
-				`	(Leave it alone.)`
+				`	（伸手去触碰它。）`
+				`	（别去管它。）`
 					goto interrupt
-			`	As you graze the glass with your fingertips, the bodiless arms wiggle and squirm. From beneath you, a chorus of artificial voices speak.`
-			`	"four-leg? foreign?"`
-			`		"foreign."`
-			`	"curious foreigner. alien."`
-			`			"curiosity, the fortieth virtue."`
-			`		"may an alien be virtuous? discuss."`
-			`	"no, think I, for..."`
-			`	The voices are interrupted by another, this one startlingly close and real.`
+			`	你的指尖轻轻擦过玻璃，那些没有躯体的手臂便扭动蠕缩起来。一阵人造的合声从你脚下传来。`
+			`	“四条腿？外来者？”`
+			`		“外来者。”`
+			`	“好奇的外来者。异类。”`
+			`			“好奇心，第四十种美德。”`
+			`		“异类可有美德？议之。”`
+			`	“否，吾以为，因为……”`
+			`	这些声音被另一个声音打断了，这个声音近得惊人，也真实得惊人。`
 			label interrupt
-			`	"I see thou hast met our saints, Captain." Another Successor emerges from behind you. They wear a similar outfit as the one before, with the only difference seeming to be a slightly redder-hued glint. The "saints" now follow them around, probing and slapping at the glass.`
+			`	“看来汝已见过吾等的圣者了，船长。”又一位继承者从你身后现身。其服饰与先前那位相似，唯一的不同似乎只是光泽略偏红。那些“圣者”此刻正跟着对方游动，在玻璃上探触、拍打。`
 			choice
-				`	"Saints?"`
+				`	“圣者？”`
 					goto saints
-				`	"Are they alive?"`
+				`	“它们还活着吗？”`
 				`	“你是谁？”`
 					goto identity
-			`	"No, nor has the cloak of death enveloped them either. They're between things. Like infants that never fear growing; like half-sleepers that never fear to wake."`
+			`	“非也，但死亡之幕亦未笼罩它们。它们介于两者之间。如同永不畏惧长大的婴孩；如同永不畏惧醒来的半眠者。”`
 			label saints
-			`	"They're saints, or relics," they say. "Fragments of unliving minds, free of pain and death, surviving in parts. Each one was once a mind of renown, one worth preserving even as a memory. They're intrigued by thee. Only one of them ever saw something of your kind, and it did not expect to ever see one of you again - not even in eternity."`
-			`	"And who are you?" you ask.`
+			`	“它们是圣者，或者说圣物，”对方说道，“是非生之心智的碎片，免于痛苦与死亡，以残片的形式存续。每一位都曾是声名卓著的心智，哪怕只作为记忆也值得保存。它们对汝颇感兴趣。它们之中只有一位曾见过汝之同类，而它从未料到还能再见到——哪怕在永恒之中。”`
+			`	“那你又是谁？”你问道。`
 			label identity
-			`	They splay their arms, a little more subtly than most of the Successors you've seen. "Aqrabe I- Sola. And you are Captain <first> <last>. How queer an introduction is to thee, for thou art the only one here for whom 'twould be needed." They make a noise you're sure is chuckling. "A scion of Aqrabe's House - by marriage, not by blood. But only just. But now, tell me, how is it that our wormhole grants thee passage without a well-equipped ship of ours?"`
+			`	对方摊开双臂，动作比你见过的大多数继承者都要含蓄一些。“阿克拉贝 I- 索拉。而汝乃<first> <last>船长。自我介绍于汝而言何其古怪，因为在此处唯有汝才需要它。”对方发出一阵声响，你确信那是在轻笑。“吾乃阿克拉贝家族的子嗣——凭婚姻，而非血缘。不过也只是刚刚够格罢了。好了，告诉吾，汝并未乘坐吾等装备精良的舰船，吾等的虫洞何以容汝通行？”`
 			choice
-				`	"I carry a quantum keystone on my ship that lets me pass through all sorts of unstable wormholes."`
+				`	“我的飞船上装有一块量子基石，能让我穿过各种不稳定的虫洞。”`
 					goto keystone
-				`	"That's not something I'm comfortable sharing."`
+				`	“这件事我不太方便透露。”`
 			action
 				"successors: ghosts suspicion" ++
-			`	"Oh, don't think we haven't scanned thy craft, Captain! Amateur secrecy shall get thee nowhere." A slow ripple of pale blue cascades over their face.`
+			`	“噢，别以为吾等未曾扫描过汝的飞船，船长！拙劣的保密于汝毫无益处。”一阵淡蓝色的涟漪缓缓流过对方的面庞。`
 			label keystone
-			`	Sola nods. "In short, we wish to better know these stones of thine. Their structure, their function, their nature. And by this understanding of one more great mystery, to one day produce our own, less intensive and demanding than the forming of our armors. Aqrabe is willing to pay thee to deliver fifty of these to us, more than enough to offset whatever it costs thee for their acquisition."`
+			`	索拉点点头。“简而言之，吾等希望更深入地了解汝的这些石头。它们的结构、功能与本质。借由理解又一个伟大的谜团，终有一日造出吾等自己的石头，比锻造吾等的装甲更省力、更不苛刻。阿克拉贝愿付酬请汝为吾等送来五十块，酬劳足以抵消汝购置它们的一切花费而有余。”`
 			choice
-				`	"Very well, I accept."`
-				`	"I'd rather not work with Aqrabe."`
+				`	“很好，我接受。”`
+				`	“我宁可不和阿克拉贝合作。”`
 					decline
-			`	The scion shimmers with pleasure, and bow to you slightly. "What joy 'tis to hear that, Captain. Return when thou canst, then. We shall see thee rewarded."`
+			`	这位子嗣愉悦地闪着微光，向你微微鞠了一躬。“闻此言何其欣喜，船长。那么，待汝方便时归来吧。吾等定当酬谢汝。”`
 				accept
 	to complete
 		or
 			has "Successors: Ghosts Aqrabe Remnant: done"
 			has "Successors: Ghosts Aqrabe Hai: done"
 	on complete
-		log "Delivered a shipment of quantum keystones to House Aqrabe for study and installation on their ships."
+		log "向阿克拉贝家族交付了一批量子基石，供其研究并安装在他们的舰船上。"
 
 conversation "successor keystone delivery"
-	`	As soon as you inform traffic control that you are returning with the fifty keystones that House Aqrabe requested, your ship is directed to a side hangar surrounded by multiple small outfitting bays. Most are shuttered, but one is brightly lit and full of activity. It seems to be the domain of some of House Aqrabe's more unorthodox research efforts - the walls are draped with strange-looking fabrics, and a couple of unusual, abstract statues dot its interior. In the center, a ship-mounted scanner is in the midst of being deconstructed; as you walk in, a Successor pops their head around from behind it.`
-	`	"Captain <last>?" they ask.`
-	`	"Yes?"`
-	`	They slither forward towards you and splay their arms in the traditional gesture. "Tiliia," they offer as an introduction. "I was told to expect thine arrival. Thou hast brought," and they pause to pronounce the word, "keystones, yes?"`
-	`	"I have," you say. "Fifty keystones, as was requested." Tiliia joins you in walking back to the <ship> to examine the cargo; when they're sufficiently satisfied that you've brought the proper amount, they pull out a data-pad and enter a couple of values. Though their eyes widen when you provide them with your receipts, they nonetheless confirm a few moments later that House Aqrabe has credited you to offset the purchase price of the keystones, plus a three hundred thousand-credit bonus.`
-	`	As they begin directing ground crews to offload the keystones, Tiliia turns to you for a moment and requests that you meet them back at the spaceport by the end of the day: "thine assistance might be a boon to us in the next part of this journey," they say.`
+	`	你刚通知航管自己带着阿克拉贝家族索要的五十块基石归来，你的飞船便被引导至一座侧机库，四周环绕着多个小型改装间。大多数改装间都关着门，但有一间灯火通明、忙碌非常。这里似乎是阿克拉贝家族某些较为非正统的研究项目的地盘——墙上挂着样式奇特的织物，室内还点缀着几座不同寻常的抽象雕塑。正中央，一台舰载扫描仪正被拆解；你走进去时，一位继承者从扫描仪后面探出头来。`
+	`	“<last>船长？”对方问道。`
+	`	“是我，有事吗？”`
+	`	对方朝你滑行过来，以传统姿势摊开双臂。“蒂利亚，”对方自我介绍道，“吾已获告知汝将到来。汝带来了，”说到这里对方顿了一下，好念出这个词，“基石，是吗？”`
+	`	“带来了，”你说，“按要求，五十块基石。”蒂利亚随你一起走回<ship>查看货物；确认你带来的数量无误后，对方掏出一块数据板，输入了几个数值。你出示收据时，对方的眼睛瞪大了，但片刻之后仍确认阿克拉贝家族已向你支付了抵消基石购入价格的款项，外加三十万信用点的奖金。`
+	`	蒂利亚开始指挥地勤人员卸下基石，同时转过身来，请你在今天结束前到太空港与其会面：“汝之协助，或许对吾等这段旅程的下一程大有裨益。”对方说道。`
 
 mission "Successors: Ghosts Aqrabe Remnant"
 	landing
-	name "Source keystones from the Remnant"
-	description "House Aqrabe wants a total of 50 Quantum Key Stones at <destination>, which can be obtained in bulk from the Remnant."
+	name "从遗民处采购基石"
+	description "阿克拉贝家族希望在<destination>收到共计50块量子基石，可从遗民处批量获得。"
 	source "Kasii-Cavasaa-Oa"
 	mark "Pantica"
 	to fail
@@ -104,8 +104,8 @@ mission "Successors: Ghosts Aqrabe Remnant"
 
 mission "Successors: Ghosts Aqrabe Hai"
 	landing
-	name "Source keystones from the Hai"
-	description "House Aqrabe wants a total of 50 Quantum Keystones at <destination>, which can be obtained in bulk from the Hai."
+	name "从亥族处采购基石"
+	description "阿克拉贝家族希望在<destination>收到共计50块量子拱心石，可从亥族处批量获得。"
 	source "Kasii-Cavasaa-Oa"
 	mark "Ya Hai"
 	to fail
@@ -122,8 +122,8 @@ mission "Successors: Ghosts Aqrabe Hai"
 
 
 mission "Successors: Ghosts Aqrabe 2"
-	name "Keystone testing"
-	description "Escort two of House Aqrabe's ships through the wormhole and convene with them at <stopovers> before returning to <planet>."
+	name "基石测试"
+	description "护送阿克拉贝家族的两艘飞船穿过虫洞，在<stopovers>与它们会合，然后返回<planet>。"
 	source "Kasii-Cavasaa-Oa"
 	stopover "Myiara-Aret-Iir"
 	destination "Kasii-Cavasaa-Oa"
@@ -133,17 +133,17 @@ mission "Successors: Ghosts Aqrabe 2"
 			has "Successors: Ghosts Aqrabe Remnant: done"
 			has "Successors: Ghosts Aqrabe Hai: done"
 	on offer
-		log "People" "Tiliia" "Tiliia is an engineer belonging to the Successor House Aqrabe."
+		log "People" "Tiliia" "蒂利亚是继承者阿克拉贝家族的一名工程师。"
 		conversation
-			`Tiliia meets you in another tucked-away part of the spaceport that's filled with strange statuary, where they stand in conversation with a small group of Successors. They brighten as they see you approach and offer a perfunctory splay of the arms. "Captain, captain," they say. "Thou returnest with no time to squander. We mean to ply a journey of understanding cross the wormhole; one fellow captain here means to use one of thy keystones, the other, our weft-weaving armor. Thy own craft would be valuable as a place to gather data from the other two, to see how they perform across the rift."`
+			`蒂利亚在太空港另一处偏僻角落与你会面，那里摆满了奇异的雕像，对方正与一小群继承者交谈。看到你走近，对方神色一亮，敷衍地摊了摊双臂。“船长，船长，”对方说，“汝归来得正是时候，一刻也不容虚掷。吾等打算穿越虫洞，进行一次求知之旅；这里的一位船长同僚打算使用汝的一块基石，另一位则使用吾等的经纬编织装甲。汝自己的飞船可用来收集另外两艘的数据，观察它们跨越裂隙时的表现，此事颇有价值。”`
 			choice
-				`	"Couldn't you do that without me?"`
-				`	"Where exactly are we going?"`
+				`	“没有我你们不也能做到吗？”`
+				`	“我们究竟要去哪儿？”`
 					goto destination
-			`	Tiliia shimmers with mirth. "Of course," they say. "But were we to find ourselves with questions, needing knowledge that though might'st provide, 'twould be val'ble to have thee at our sides then. We plan to convene upon the dusty world just the other side of the gate; I shall hope to see thee there."`
+			`	蒂利亚欢快地闪着微光。“当然，”对方说，“但若吾等遇到疑问，需要汝或许能提供的知识，那时有汝在身旁便弥足珍贵。吾等计划在星门另一侧那颗尘土飞扬的世界上会合；盼在那里见到汝。”`
 				accept
 			label destination
-			`	Ripples of blue envelop Tiliia's body. "As short a distance as we might. We may convene upon the burned world the other side of the wormhole."`
+			`	一圈圈蓝色波纹笼罩了蒂利亚的身体。“距离越短越好。吾等可在虫洞另一侧那颗焦土世界上会合。”`
 				accept
 	npc save
 		government "House Aqrabe"
@@ -152,14 +152,14 @@ mission "Successors: Ghosts Aqrabe 2"
 		ship "Seiitej (Armor Keystone)" "Airi-o-Ijta"
 	on stopover
 		conversation
-			`The two Seiitejen set down along with the <ship> along the edge of a dried lake, and Tiliia immediately goes to communicate with their captains over comms. After a couple of minutes, they join you on your bridge, noting down some data on a metallic pad. "The other craft report little issue with their journeys," they say. "And a minor quiver'f differences 'tween thy stones and our armor. But 'twill require us t'return t'make sense of them - I dare not do so here."`
+			`两艘塞特吉与<ship>一同降落在一座干涸湖泊的边缘，蒂利亚立即通过通讯与它们的船长联络。几分钟后，对方来到你的舰桥与你会合，一边在一块金属板上记录数据。“另两艘飞船报告旅途中并无大碍，”对方说，“汝之石头与吾等装甲之间略有些微差异。但须回去之后方能理清——吾不敢在此处行事。”`
 	on complete
-		dialog `Tiliia offers a quick goodbye and asks you to meet them back in the spaceport later, once they've had time to process their data.`
-		log "Escorted a keystone-equipped and multimodal armor ship through the Successors' wormhole."
+		dialog `蒂利亚匆匆道别，请你待其处理完数据后，稍后再到太空港与其会面。`
+		log "护送一艘装备基石的飞船和一艘装备多模态装甲的飞船穿过了继承者的虫洞。"
 
 mission "Successors: Ghosts Aqrabe 3"
-	name "Visit stellar garden"
-	description "Attempt to land on the stellar metal garden orbiting the Kasii-Cavaasa star."
+	name "造访恒星花园"
+	description "尝试在环绕卡西-卡瓦萨恒星运行的恒星金属花园上降落。"
 	source "Kasii-Cavasaa-Oa"
 	stopover "Exotic Metal Garden"
 	destination "Kasii-Cavasaa-Oa"
@@ -169,56 +169,56 @@ mission "Successors: Ghosts Aqrabe 3"
 	on offer
 		event "successors: ghosts star unrestrict"
 		conversation
-			`You meet Tiliia at their workshop, where they wave you inside. The scanner on their table has now been replaced by a collection of quantum keystones suspended in a variety of machines that prod and scan the stones incessantly. "Good news for thee, Captain, for all of us," Tiliia says. "The data from our expedition hath revealed some measure of the mystery of thy stones. They're oscillators of a sort, ones that sing in tune with the wavers of the wormhole..." Tiliia stops for a moment. "But we will have time to discuss that later. For now, what thou needest know is this: with the right materials, we may be able to magnify their effect. Hast thou visited the system Kasii-Cavaasa before, within the Tangles?"`
+			`你在蒂利亚的工作间与对方会面，对方招手让你进去。桌上的扫描仪如今已换成一批量子基石，悬挂在各式各样的机器中，被不停地戳探扫描。“好消息，船长，于汝、于吾等皆是，”蒂利亚说，“吾等远征所得的数据已揭开了汝之石头的部分谜团。它们是某种振荡器，与虫洞的波动同调共鸣……”蒂利亚停顿了一下。“不过这些稍后再谈。眼下汝须知晓的是：若有合适的材料，吾等或许能放大它们的效果。汝可曾到过缠结区内的卡西-卡瓦萨星系？”`
 			choice
-				`	"I have."`
-				`	"Where are you going with this?"`
-			`	Tiliia continues. "The star of that system is borne upon by a number of stellar metal gardens, vast stations to grow in the star's harsh radiation the rare metals necessary to our works. Their bounty is the key to our success. Forty tons or so would be enough to subdivide those keystones to supply all of the New Houses. We could render our wormhole-crossing armor obsolete - improve our probes, perform more archaeology." They pause, and a wave of color bounds down their limbs. "It could even help solve this present mystery of ours. So what thinks thou?"`
+				`	“去过。”`
+				`	“你到底想说什么？”`
+			`	蒂利亚继续说道：“那个星系的恒星周围环绕着若干恒星金属花园，那是一座座庞大的空间站，借恒星的强烈辐射培育吾等工艺所需的稀有金属。其出产是吾等成功的关键。约四十吨便足以将那些基石细分，供给所有新派家族。吾等便可淘汰穿越虫洞的装甲——改进探测器，开展更多考古。”对方停顿片刻，一道色彩顺着其肢体奔涌而下。“它甚至可能帮助解开吾等眼下的这个谜团。汝意下如何？”`
 			choice
-				`	"You want me to fly into a star? Are you crazy?"`
+				`	“你要我飞进恒星里？你疯了吗？”`
 					goto shocked
-				`	"And how do you plan for us to get close enough to collect that?"`
-			`	"The shields of thy craft may be sufficient to the task," Tiliia says, purple dotting their face. "And if not, we will have warning before they fail. We shall have to act with care and see for ourselves what is possible."`
+				`	“那你打算让我们怎么靠得够近去收集它？”`
+			`	“汝之飞船的护盾或许足以胜任，”蒂利亚说，脸上泛起紫色斑点，“若不足，护盾失效前吾等也会得到警示。吾等须谨慎行事，亲眼看看何事可为。”`
 				accept
 
 			label shocked
-			`	Purple dots spot Tiliia's face. "Not 'into,' not strictly. But yes, I do not know if thy craft is worthy to the task. We shall have to see for ourselves what is possible."`
+			`	紫色斑点布满了蒂利亚的脸。“不是‘飞进’，严格来说不是。但确实，吾不知汝之飞船是否胜任此事。吾等须亲眼看看何事可为。”`
 				accept
 	on stopover
 		event "successors: ghosts star restrict"
 		conversation
 			branch "no shields"
 				"flagship shields" <= 0
-			`Your ship protests even as you near Kasii-Cavaasa, alarms ringing incessantly and heat meters spiking. The stellar metal garden is still little more than a dot against the roiling mass of the star. As you descend upon it, the cockpit grows uncomfortably hot and is thick with the scent of ozone; Tiliia looks even more miserable than you in the heat. Suddenly, something happens with the shields, and the intense heat of the star begins scouring bits of the <ship>'s hull. Tiliia finally speaks: "Enough, captain. We shall have to regroup and find a different strategy."`
+			`你的飞船才刚接近卡西-卡瓦萨就开始抗议，警报响个不停，热度表读数飙升。在翻滚的恒星表面映衬下，恒星金属花园仍只是一个小点。你向它降下时，驾驶舱热得令人难受，弥漫着浓重的臭氧气味；蒂利亚在热浪中看起来比你还要难受。突然，护盾出了状况，恒星的强烈热量开始剥蚀<ship>的船体。蒂利亚终于开口：“够了，船长。吾等须重整旗鼓，另寻他策。”`
 			choice
-				`	(Retreat.)`
-				`	(Press on.)`
+				`	（撤退。）`
+				`	（继续前进。）`
 					goto onward
 			label retreat
-			`	You order the <ship> upward from the star, and the alarms eventually quiet. "Take us back to <origin>," says Tiliia, looking a little dejected. "We must decide what is to be done there."`
+			`	你命令<ship>从恒星附近上升，警报最终平息下来。“带吾等回<origin>吧，”蒂利亚说，看上去有些沮丧，“吾等须在那里决定下一步该如何。”`
 				flee
 
 			label onward
-			`	"Art thou mad?" shouts Tiliia, terror evident on their skin. "We must retreat!"`
+			`	“汝疯了吗？”蒂利亚大喊，皮肤上的恐惧显而易见，“吾等必须撤退！”`
 			choice
-				`	(Retreat.)`
+				`	（撤退。）`
 					goto retreat
-				`	(Keep going.)`
-			`	The <ship> braves the heat a minute or so longer, despite Tiliia's protests. The shields don't give out completely until a solar flare suddenly engulfs the ship, instantly vaporizing it, you, and Tiliia and scattering your atoms among the cold and indifferent stars.`
+				`	（继续前进。）`
+			`	不顾蒂利亚的抗议，<ship>又在高温中硬撑了一分钟左右。护盾一直没有完全失效，直到一道太阳耀斑突然吞没了飞船，瞬间将它、你和蒂利亚汽化，把你们的原子撒落在冰冷而漠然的群星之间。`
 				die
 
 			label "no shields"
-			`	Even approaching the Kasii-Cavaasa star is enough to bring the inside of the <ship> to an uncomfortably sweltering temperature. Without shielding of any sort, its hull rapidly approaches the point of thermal failure and, at Tiliia's insistence, you are forced to return to a higher orbit.`
+			`	仅仅是接近卡西-卡瓦萨恒星，就足以让<ship>内部闷热得令人难受。没有任何护盾，船体迅速逼近热失效的临界点，在蒂利亚的坚持下，你不得不返回更高的轨道。`
 				flee
 	on complete
-		log "Attempted to retrieve stellar metal from Predecessor space for House Aqrabe, but was driven back by the intense heat."
+		log "试图为阿克拉贝家族从先民星域取回恒星金属，但被强烈的高温逼退。"
 		conversation
-			`Tiliia spent most of the journey holed away, poring over data gathered from your star-diving expedition, but it didn't take long after the <ship>'s landing gear touch the ground of the <planet> spaceport that they are out and about, stretching their arms in the air. They remain nearby until you've finished post-flight checks and thank you for transporting them, now surrounded by several scholarly-dressed Successors. Before they head off, they ask you to return to the spaceport by sundown.`
-			`	Shortly before you depart into the port yourself, you overhear some of the ground crew remarking on the <ship>'s scorched hull.`
+			`返程途中，蒂利亚大部分时间都闭门不出，埋头研究你这次“恒星潜航”收集到的数据；但<ship>的起落架刚触及<planet>太空港的地面没多久，对方就出来四处走动，在空中舒展双臂。对方一直待在附近，直到你完成飞行后检查，此时其身边已围了几位学者装扮的继承者，对方便向你道谢，感谢你载其一程。临走前，对方请你在日落前回到太空港。`
+			`	就在你自己动身前往港区前不久，你无意中听到几名地勤人员在议论<ship>被烧焦的船体。`
 
 mission "Successors: Ghosts Aqrabe 4"
-	name "Pick up ship from Kaatrij"
-	description "Pick up a modified Vujlet from House Kaatrij at <destination>."
+	name "从卡特里吉家族处接收飞船"
+	description "在<destination>从卡特里吉家族处接收一艘改装过的武杰莱特。"
 	clearance
 	source "Kasii-Cavasaa-Oa"
 	destination "Raaqa-Puan-Uuoru"
@@ -226,38 +226,38 @@ mission "Successors: Ghosts Aqrabe 4"
 		has	"Successors: Ghosts Aqrabe 3: done"
 	on offer
 		conversation
-			`Tiliia stands waiting for you in the same statue garden where they met you earlier, though this time they are alone, tapping at a metallic pad under an overhanging light. They offer a curt greeting of colors when they see you. "I've news both foul and fair for thee," they say. "Thy craft shall not suit for our task. Perhaps with a year of study it could be adapted to our aims, but Aqrabe and I agree that would not do."`
+			`蒂利亚正在先前与你会面的那座雕像花园里等你，不过这次只有对方一人，正站在一盏悬垂的灯下敲击一块金属板。看到你时，对方以色彩简短地打了个招呼。“吾有好坏两个消息要告诉汝，”对方说，“汝之飞船不适合吾等的任务。或许花上一年研究，可以将其改造以合吾等所需，但阿克拉贝与吾都认为那样不行。”`
 			choice
-				`	"So what is the good news?"`
-				`	"So is that it for this?"`
-			`	"Fortunately," they continue, "we may be able to outfit one of our own craft for this purpose. Or rather, one of House Kaatrij's."`
-			`	They offer the pad to you. It displays a schematic that you struggle to make any sense of; some small device is shown implanted in a Vujlet, its long tendrils snaking into various ship systems like some sort of infection. If you were to make a guess at its function, you might describe it as some sort of cloaking device - it's clearly shown reflecting and refracting light somehow, but the details of what exactly it is achieving escape your reckoning.`
-			`	"I've conferred with our fleet liaison," says Tiliia, "who conferred with Kaatrij's, and they've agreed to bestow upon thee a modified Vujlet." They pause before adding, in a softer and more cynical tone, "no doubt extracting some favor from Aqrabe along the way. We need thee to retrieve it from <planet> and bring it back here for outfitting. Once prepared with our armor and thy jump drive, we may return to Kasii-Cavaasa."`
+				`	“那好消息是什么？”`
+				`	“所以这事就这么算了？”`
+			`	“幸运的是，”对方继续说道，“吾等或许能将吾等自己的一艘飞船改装来达成此目的。确切地说，是卡特里吉家族的一艘。”`
+			`	对方把数据板递给你。上面显示着一张你很难看懂的示意图；图中某个小型装置被植入一艘武杰莱特中，长长的触须如某种感染一般蜿蜒伸入飞船的各个系统。如果要你猜它的功能，你或许会说它是某种隐形装置——图中清楚显示它以某种方式反射和折射光线，但它究竟实现了什么，细节超出了你的理解。`
+			`	“吾已与吾等的舰队联络官商议过，”蒂利亚说，“联络官又与卡特里吉的联络官商议，他们已同意赠予汝一艘改装过的武杰莱特。”对方停了一下，又用更柔和、更带讥讽的语气补充道：“无疑顺带从阿克拉贝那里讨了些人情。吾等需要汝从<planet>取回它，带回此处改装。一旦装上吾等的装甲和汝的跳跃引擎，吾等便可重返卡西-卡瓦萨。”`
 			choice
-				`	"These look like some complex modifications."`
+				`	“这些改装看起来相当复杂。”`
 					goto suspicious
-				`	"Last I checked, I wasn't on the best terms with Kaatrij."`
+				`	“据我所知，我和卡特里吉的关系可不怎么样。”`
 					to display
 						has "successors sioeora patron"
 					goto tense
-				`	"Let's go, then."`
+				`	“那就走吧。”`
 					goto end
 			label suspicious
 			action
 				"successors: ghosts suspicion" ++
-			`	A gentle ripple of orange passes over Tiliia. "They are, Captain. I am told Kaatrij keep some Vujleten for research - no, 'tis not for me to say."`
-			`	Though you try to push them further, Tiliia offers no more information on Kaatrij's modifications.`
+			`	一道柔和的橙色涟漪掠过蒂利亚。“确实如此，船长。吾听闻卡特里吉保留了一些武杰莱特用于研究——不，此事不该由吾来说。”`
+			`	尽管你试图追问，蒂利亚却不肯再透露任何关于卡特里吉改装的信息。`
 				goto end
 			label tense
-			`	Tiliia burbles in a gentle display of laughter, pink spots breaking out on the tips of their arms. "Who is?" they say. "Now most of all."`
+			`	蒂利亚咕噜咕噜地轻声笑起来，手臂末端冒出粉色斑点。“谁又不是呢？”对方说，“尤其是现在。”`
 				goto end
 			label end
-			`	"Oh," Tiliia says just before you leave, "and also, Kaatrij wishes to send along an observer. Perhaps they have cause to be suspicious. Ugh, perhaps they're just suspicious by nature."`
+			`	“噢，”就在你要离开时，蒂利亚说，“还有，卡特里吉希望派一名观察员同行。或许他们有理由起疑。唉，或许他们只是天性多疑。”`
 				accept
 
 mission "Successors: Ghosts Aqrabe 5"
-	name "Return to Kasii-Cavasaa-Oa"
-	description "Escort the Nnesa ti-a-Oj back to <destination>."
+	name "返回卡西-卡瓦萨-欧阿"
+	description "护送“Nnesa ti-a-Oj”号返回<destination>。"
 	landing
 	source "Raaqa-Puan-Uuoru"
 	destination "Kasii-Cavasaa-Oa"
@@ -269,39 +269,39 @@ mission "Successors: Ghosts Aqrabe 5"
 		has	"Successors: Ghosts Aqrabe 4: done"
 	on offer
 		conversation
-			`The <origin> spaceport is drenched when you arrive, deep in the throes of a massive rainstorm, its sail-like projections flapping in the wind and streaming with water. From your landing pad, a series of automated guides direct you to a hangar built into a circular depression in the ground; the top of it closes over like a bubble, translucent and disconcertingly springy against the elements. You can see the blurry silhouette of a Vujlet parked inside as you enter through the side door.`
-			`	Near the entrance to the hangar, a data-sphere gently warbles, waiting for your touch. As you pick it up, it regurgitates its message:`
+			`你抵达时，<origin>的太空港正被一场大暴雨浇透，帆状的伸出结构在风中拍打，水流如注。一系列自动引导装置将你从着陆台指引到一座建在地面圆形凹坑中的机库；机库顶部如气泡般合拢，半透明，在风雨中弹性十足，令人不安。你从侧门进入时，能看到一艘武杰莱特模糊的轮廓停在里面。`
+			`	机库入口附近，一个数据球轻柔地颤鸣着，等待你的触碰。你拿起它，它便吐出了其中的消息：`
 			branch friendly
 				has "successors kaatrij patron"
-			`	"Please bear well this craft, captain. Thou hast been an ally to us, and our own allies, this far, so Kaatrij offers thee this gift in amity. Use it well.`
-			`	This I myself attest as K- I- Saajret, of Somber Sejra."`
+			`	“请善待这艘飞船，船长。迄今为止，汝一直是吾等及吾等盟友的盟友，故卡特里吉以此礼相赠，以示友好。望善用之。`
+			`	吾，黯淡塞杰拉家族之K- I- 萨杰雷特，亲自为此作证。”`
 				goto introduction
 			label friendly
-			`	"Apologies, dear captain, that I have not come to see thee in the flesh. Would that our allies in the New have been treating thee kindly, with all due openness and clarity. We offer this to thee, in amity. Use it well.`
-			`	This I myself attest as K- I- Saajret, of Somber Sejra."`
+			`	“抱歉，亲爱的船长，吾未能亲身前来见汝。但愿吾等在新派中的盟友一直待汝亲善，一切开诚布公、清楚明白。吾等以此相赠，以示友好。望善用之。`
+			`	吾，黯淡塞杰拉家族之K- I- 萨杰雷特，亲自为此作证。”`
 			label introduction
-			`	A single Successor emerges from the side of the craft; their outfit does not resemble that of an archivist so much as that of a soldier, with armor-woven fabrics and a kinetic rifle held at their side. "Captain <first> <last>?" they say, and when you confirm, continue, "I shall accompany thee as an observer."`
+			`	一位继承者从飞船侧面现身；其服饰与其说像档案员，不如说像士兵，身着装甲编织的织物，身侧握着一把动能步枪。“<first> <last>船长？”对方问道，在你确认后又继续说，“吾将作为观察员与汝同行。”`
 			choice
-				`	"I was told to expect an archivist."`
-				`	"Very well."`
+				`	“我听说来的会是一位档案员。”`
+				`	“很好。”`
 					goto end
-			`	"Thine expectation is no longer accurate," they reply, not belying any emotion.`
+			`	“汝之预期已不再准确，”对方答道，没有流露出任何情绪。`
 			label end
-			`	They show you onboard. The interior of Successor military ships looks much different from their civilian craft - the bridge is buried deep in the center of the craft under layers of armor, a small, circular room with a water-filled pool in the center and liquid-metal displays ringing the edges. Similarly compact living quarters and operational spaces fan out from it, each one well-equipped.`
-			`	After you've had a look around, Kaatrij's observer escorts you off the vessel. "I and a Kaatrij crew shall pilot the vessel to Aqrabe. Once there, thou shouldst install thy jump drive aboard."`
+			`	对方领你登船。继承者军舰的内部与他们的民用船大不相同——舰桥深埋在飞船中央的层层装甲之下，是一间小小的圆形舱室，中央有一个注满水的水池，四周环绕着液态金属显示屏。同样紧凑的生活舱和作业空间以舰桥为中心呈扇形展开，每一处都装备精良。`
+			`	你四处看过之后，卡特里吉的观察员护送你下船。“吾与一队卡特里吉船员将驾驶此舰前往阿克拉贝。抵达之后，汝须在舰上安装汝的跳跃引擎。”`
 				accept
 	on visit
-		dialog "You have returned to Kasii-Cavasaa-Oa, but the Vujlet you are escorting has not yet arrived."
+		dialog "你已返回卡西-卡瓦萨-欧阿，但你护送的武杰莱特尚未抵达。"
 	on complete
 		give ship "Vujlet (Stellar)" "Nnesa ti-a-Oj"
 		conversation
-			`Both your ship and the Vujlet are directed to an enormous outfitting bay at <planet>'s spaceport, easily large enough for both craft ten times over. As you disembark, you notice several Successors are entering the landed Vujlet with large carts of equipment in tow, much of which is locked away in unmarked metallic cases. Notably, Kaatrij's representative remains onboard, keeping their distance from the Aqrabe ground crews. Tiliia spots you from an overhanging balcony and waves you over.`
-			`	"A lovely craft, is it not, Captain? Thou hast not flown one of our martial craft before, hast thou?."`
+			`你的飞船和那艘武杰莱特都被引导至<planet>太空港的一座巨型改装间，其大小足以容纳两艘飞船十倍有余。你下船时，注意到几位继承者正拖着满载设备的大推车进入已着陆的武杰莱特，其中大部分设备都锁在没有标记的金属箱里。值得注意的是，卡特里吉的代表仍留在船上，与阿克拉贝的地勤人员保持距离。蒂利亚在一处悬空的阳台上发现了你，招手示意你过去。`
+			`	“好一艘可爱的飞船，不是吗，船长？汝以前从未驾驶过吾等的军舰吧？”`
 			choice
-				`	"It was fascinating. It must be very efficient to command."`
-				`	"A ship is a ship, really."`
+				`	“很迷人。指挥起来一定非常高效。”`
+				`	“船就是船，说到底都一样。”`
 					goto unimpressed
-				`	"It's not my first Successor craft, you know."`
+				`	“你知道吗，这可不是我驾驶的第一艘继承者飞船。”`
 					to display
 						or
 							has "ship model (all): Ejniisde"
@@ -313,96 +313,96 @@ mission "Successors: Ghosts Aqrabe 5"
 							has "ship model (all): Ojde"
 							has "ship model (all): Stolsaqra"
 					goto experienced
-			`	Tiliia hums briefly. "Such is the intention for all our warships," they say. "They are perhaps not as artful as they should be, but I suspect thou shalt find this craft as efficient as thou imaginest."`
+			`	蒂利亚短促地哼了一声。“吾等所有战舰皆以此为宗旨，”对方说，“它们或许不如应有的那般富于艺术性，但吾料汝会发现此舰正如汝所想的那般高效。”`
 				goto next
 			label unimpressed
-			`	Tiliia makes a short humming sound. "Perhaps," they say. "Thou shalt have the opportunity to decide for thyself soon enough."`
+			`	蒂利亚发出一声短短的哼声。“或许吧，”对方说，“汝很快便有机会亲自判断。”`
 				goto next
 			label experienced
-			`	Tiliia ripples with an emotion that's difficult to place; its colors seem to hint of pride and satisfaction.`
+			`	蒂利亚身上泛起一阵难以辨明的情绪波纹；其色彩似乎透出几分自豪与满足。`
 			label next
-			`	The re-armoring process begins soon after, massive metallic arms folding down from the top of the bay to scan over the surface of the ship. At certain points, flying drones emerge from the sides of the hangar to dispense some additional material onto the vessel or to perform scans, projecting shape after shape onto the warbling hull in many-colored laser light. After a while of watching, Tiliia leans over to you. "The process will take some more hours," they say. "The armor to cross the wormhole is a more complicated kind than the others. I'll leave thee to thine own pursuits for now - though, I plan to go among the statue garden for a while, and if it pleases thee, thou mayst join me there."`
+			`	重新装甲的工序很快开始，巨大的金属臂从改装间顶部折叠而下，扫描着飞船表面。在某些时刻，飞行无人机从机库两侧飞出，往舰体上喷涂一些额外的材料或进行扫描，用五颜六色的激光在颤动的船体上投射出一个又一个形状。看了一会儿后，蒂利亚俯身凑近你。“这道工序还要再花几个小时，”对方说，“穿越虫洞所需的装甲比其他种类更为复杂。眼下吾就不打扰汝自行其事了——不过，吾打算去雕像花园待一会儿，若汝愿意，可来那里与吾同游。”`
 			choice
-				`	"I'd be happy to."`
-				`	"Thanks, but I have my own preparations to make."`
+				`	“我很乐意。”`
+				`	“谢谢，不过我还有自己的准备工作要做。”`
 					goto alone
 			action
-				log "People" "Tiliia" "Tiliia sees their role in current events as offering them the opportunity to make their mark on future generations."
-			`	The statue garden isn't very far from the outfitting bay where the Vujlet is parked. It's a circular area, cut out of the structure of the spaceport and exposed to the elements - the early-morning light shines through the light snowfall and glitters on the eerie metallic forms of the statues. Most of them are purely abstract, but one in every ten or so has some organic form emerging from the smooth metal as if it were trapped behind a sheet: leaves of plants, faces of animals, or even what look like Successor body parts.`
-			`	"I'm curious, captain," Tiliia says. "What motivates thee to do this? Flying into a star, I mean to say. Last we visited, 'twas on thine own ship that thou knowest well - now, thou placest thy life in alien engineering thou hast never seen perform. Why consider it?"`
+				log "People" "Tiliia" "蒂利亚认为，自己在当前事件中的角色，为其提供了在后世留下印记的机会。"
+			`	雕像花园离停放武杰莱特的改装间不远。那是一片圆形区域，从太空港的结构中切割出来，暴露在风雪之中——清晨的阳光穿过细雪洒落，在雕像那诡异的金属形体上闪烁。大多数雕像纯属抽象，但大约每十座中就有一座有某种有机形态从光滑的金属中浮现，仿佛被困在一层薄膜之后：植物的叶子、动物的面孔，甚至还有看似继承者身体部位的东西。`
+			`	“吾很好奇，船长，”蒂利亚说，“是什么驱使汝做这件事？吾是说，飞进恒星里。上一次，汝驾驶的是汝所熟知的自家飞船——如今，汝却将性命托付给从未见其运作过的异族工程。为何愿意考虑此事？”`
 			choice
-				`	"I've done other dangerous things before and they've always worked out."`
+				`	“我以前也做过别的危险的事，每次都平安无事。”`
 					goto lucky
-				`	"I've seen enough of Successor engineering to be confident in it."`
+				`	“我见识过足够多的继承者工程，对它有信心。”`
 					goto confident
-				`	"Maybe I like the danger."`
-			`	"Danger, danger," Tiliia says, rolling the word around in their mouth. "Our youths will dream of being valiant pilots, proving their valor in strings of peril, and then in adulthood instead awake to find themselves at the helm of a cargo ship disguised as something diff'rent by House armor. Perhaps I understand that for thee, captain."`
+				`	“也许我就是喜欢危险。”`
+			`	“危险，危险，”蒂利亚说，把这个词在嘴里来回咀嚼，“吾等的年轻人梦想成为英勇的飞行员，在一连串险境中证明自己的勇气，然而成年之后却一觉醒来，发现自己掌舵的是一艘靠家族装甲伪装成别的什么的货船。或许吾能理解汝的这份心情，船长。”`
 				goto hbu
 			label lucky
-			`	A mirthful blush passes over Tiliia. "No doubt thou hast," they say. "To've traveled as far as thou hast, through such perilous voids... let us hope thy luck holds, then, captain."`
+			`	一抹欢快的红晕掠过蒂利亚。“汝定然做过，”对方说，“汝已穿越如此遥远、如此凶险的虚空……那就但愿汝的好运持续下去吧，船长。”`
 				goto hbu
 			label confident
-			`	"Truly?" Tiliia says. They look around at the sculptures, taking them in. "That's fair for thee. We may not be what we were long ago, but we do retain some subtle arts. Thou'rt right, if it matters, to trust us in this. Nothing endures as long as we have by being fickle."`
+			`	“当真？”蒂利亚说。对方环顾四周的雕塑，细细端详。“于汝而言，这倒也说得通。吾等或许已不复往昔，但仍保有一些精妙的技艺。若此事要紧，那么汝在此事上信任吾等是对的。反复无常之辈，绝不可能像吾等这般长久存续。”`
 			label hbu
-			`	"And you," you ask, "why are you doing this?"`
-			`	Tiliia hums a long drone as they contemplate. "We've a tradition here - at least at Aqrabe, but I know others've sim'lar ones, too. In the late hour of their life, a parent's children will decide for them a task they are t'accomplish: a work of art to make, a journey to travel, a change of the self to effect, or another of that sort. Much of our lives are formed already by the acts and station of our ancestors, so 'tis fair t'offer some shaping to our progeny in return."`
-			`	"So your children are asking you to fly into a star?"`
-			`	An explosion of humor consumes Tiliia, and they lean against one of the statues for support. "No, no," they say, "I'm far too young, and 'twouldn't be the right thing to ask, besides. No, I mention it because the task I decided for my eldest parent is this around us." They gesture to the sculptures. "For ten years they formed the pillars standing here and now, even dead, a bit of their existence lingers 'tween those, and in the air. If we succeed, then likewise parts of us shall live in the future of this House."`
+			`	“那你呢，”你问道，“你又为什么要做这件事？”`
+			`	蒂利亚沉思着，发出一声悠长的嗡鸣。“吾等这里有一项传统——至少在阿克拉贝如此，但吾知道其他家族也有相似的传统。在父母生命的晚年，其子女会为其决定一项须完成的任务：创作一件艺术品，踏上一段旅程，实现一次自我的改变，或其他诸如此类之事。吾等的人生大多早已由祖先的作为与地位所塑造，因此反过来为后代提供一些塑造，也算公平。”`
+			`	“所以是你的孩子要你飞进恒星里？”`
+			`	蒂利亚笑得前仰后合，靠在一座雕像上才站稳。“不，不，”对方说，“吾还太年轻了，况且那也不是该提的要求。不，吾提起此事，是因为吾为吾年纪最长的那位亲长所定的任务，就是吾等周围的这些。”对方指了指那些雕塑。“十年间，其塑造了矗立于此的这些柱子，如今即便其已逝去，其存在的些许痕迹仍萦绕在这些柱子之间、萦绕在空气里。若吾等成功，那么同样，吾等的一部分也将活在这个家族的未来里。”`
 			choice
-				`	"I can understand wanting to make a difference."`
+				`	“我能理解想要有所作为的心情。”`
 					goto difference
-				`	"Do you really think the scions of the House will be that grateful?"`
-			`	"'Tisn't about gratitude, nor about the scions. 'Tis a matter of... continuity. Our lives are waves upon the bright shore, shaped by predecessors, shaping consequents. Over the eons, names become words in the common language, and are then chosen again as names as new children become adults. In a thousand years, thy name may become the word for those 'keystones' of thine, and in a thousand more, it could be invoked by a new cohort in a new world."`
+				`	“你真觉得家族的子嗣们会那么感激吗？”`
+			`	“无关感激，也无关子嗣。乃是关乎……延续。吾等的生命是明亮海岸上的波浪，由前人塑造，又塑造后人。万古流转，名字会变成通用语中的词汇，而当新的孩子长大成人，这些词又会再次被选作名字。千年之后，汝之名或许会成为汝那些‘基石’的称呼；再过千年，它或许会在一个新世界里被新的一代人所传颂。”`
 			choice
-				`	"That seems a little far-fetched."`
+				`	“这听起来有点牵强。”`
 					goto far-fetched
-				`	"I wouldn't mind that."`
+				`	“我倒不介意。”`
 					goto egoist
-				`	"Sometimes I worry they'll be invoking it as a curse. The Successors haven't done right by everyone, after all."`
+				`	“有时候我担心他们会把它当成诅咒来念叨。毕竟，继承者并没有善待每一个人。”`
 					to display
 						has "Successors: People's Houses: First Contact: offered"
 			action
 				set "successors confronted tiliia"
-			`	Tiliia looks down at you with interest. "Perhaps I guess what thou mean'st, but tell me more, if it pleases thee."`
-			`	"Well," you say, "the People's Houses don't seem happy with their lot, and the Predecessor planets that I've seen don't look very comfortable. Not that humans don't have our own problems, but it seems like even thousands of years of 'waves upon the bright shore' haven't made the Successors totally enlightened. Supplying you with keystones might help us both right now, but who knows what'll come of it in the future?"`
-			`	A spark of anger flashes over Tiliia's face, but only briefly, and they seem to push their skin back to its most neutral color. "There's no undoing what's already wrought," they say. "Sad as it might be." They pause for a moment. "I'll hope to see thee in the spaceport nonetheless, captain."`
+			`	蒂利亚饶有兴致地低头看着你。“吾或许猜得到汝的意思，但若汝愿意，请再多说一些。”`
+			`	“这个嘛，”你说，“民舍似乎对他们的处境并不满意，而我见过的那些先民行星看起来也不怎么宜居。倒不是说人类就没有自己的问题，但看来即便经过了几千年‘明亮海岸上的波浪’，继承者也没有变得完全开明。为你们提供基石或许眼下对我们双方都有好处，但谁知道将来会带来什么后果呢？”`
+			`	一丝怒火闪过蒂利亚的面庞，但只是一瞬，对方似乎强行将皮肤压回最中性的颜色。“已然铸成之事无可挽回，”对方说，“纵然令人悲伤。”对方停顿片刻。“尽管如此，吾仍盼在太空港见到汝，船长。”`
 				goto end
 			label far-fetched
-			`	Mirth once again sparkles Tiliia's skin. "Probably so," they say, and after a pause, "my thanks to thee for joining me, captain. Thou shouldst prepare now - join us back at the spaceport when thou'rt ready."`
+			`	欢快之色再次在蒂利亚的皮肤上闪烁。“大概如此吧，”对方说，停顿片刻后又道，“感谢汝陪吾同来，船长。汝现在该去做准备了——准备好之后，到太空港与吾等会合。”`
 				goto end
 			label egoist
-			`	Tiliia keeps a contemplative look on their face. "Somehow I suspected that," they say, and after a pause, "my thanks to thee for joining me, captain. Thou shouldst prepare now - join us back at the spaceport when thou'rt ready."`
+			`	蒂利亚脸上保持着沉思的神情。“不知怎的，吾早有此料，”对方说，停顿片刻后又道，“感谢汝陪吾同来，船长。汝现在该去做准备了——准备好之后，到太空港与吾等会合。”`
 				goto end
 			label difference
-			`	"It's quite a feeling," they say, "isn't it?" They pause for a short while, looking up at the sky. The clouds overhead are starting to part and the snowfall is thinning. You notice for the first time that the ground is slightly heated - none of the snow that's falling has accumulated, instead just melting away into tiny channels in the rock. "My thanks to thee for joining me, captain," says Tiliia. "Thou shouldst prepare now - join us back at the spaceport when thou'rt ready."`
+			`	“那是一种很奇妙的感觉，”对方说，“不是吗？”对方停顿了一小会儿，抬头望向天空。头顶的云层开始散开，雪也渐渐稀薄。你第一次注意到地面略带温热——落下的雪一点也没有积起来，而是融化后流进岩石中细小的沟槽里。“感谢汝陪吾同来，船长，”蒂利亚说，“汝现在该去做准备了——准备好之后，到太空港与吾等会合。”`
 				goto end
 			label alone
-			`	"Of course. Join me back here in the spaceport, then, four hours hence."`
+			`	“当然。那么，四个小时后到太空港这里与吾会合吧。”`
 			label end
-			`	With that, Tiliia heads off. You should make sure that the Vujlet you have been loaned is equipped for the upcoming voyage.`
+			`	说完，蒂利亚便离开了。你应当确保借给你的那艘武杰莱特已为即将到来的航程做好了装备。`
 
 mission "Successors: Ghosts Aqrabe 6"
-	name "Visit exotic metal garden again"
-	description "Attempt a landing on the <system> stellar metal garden using the modified Vujlet."
+	name "再次造访奇异金属花园"
+	description "驾驶改装过的武杰莱特，尝试在<system>的恒星金属花园上降落。"
 	source "Kasii-Cavasaa-Oa"
 	destination "Exotic Metal Garden"
 	cargo "Reserved space" 40
 	passengers 2
 	to offer
 		has	"Successors: Ghosts Aqrabe 5: done"
-	blocked "You will need <capacity> to bring back enough stellar metal from <destination>."
+	blocked "你需要<capacity>，才能从<destination>运回足够的恒星金属。"
 	on offer
 		conversation
-			`You meet Tiliia and House Kaatrij's observer back in the hangar bay with the specially-equipped Vujlet, which now gleams all over with an oily, iridescent sheen. Tiliia and the observer are in the middle of a heated conversation; you catch a bit of something ending "...foolish to trust an alien," from the observer.`
-			`	Tiliia waves you over. "Good, captain. Our ally was just expressing the importance of thy promptness in this task. Kaatrij longs not to be parted from their trinket for long."`
-			`	"Fine," you say. "Anything else I need to know?"`
-			`	The observer looks you over with an emotionless gaze. "Our efforts shall protect the craft from the star's heat, but little else. 'T'would be wise not to linger in the Tangles."`
-			`	Tiliia rubs their arms together and a pulse of electric blue passes over them. "Time to go, then, captain!"`
+			`你在机库中与蒂利亚和卡特里吉家族的观察员会合，那艘经过特殊装备的武杰莱特如今通体闪耀着一层油亮的虹彩光泽。蒂利亚和观察员正在激烈争论；你听到观察员一句话的结尾：“……信任一个异族实属愚蠢。”`
+			`	蒂利亚招手让你过来。“很好，船长。吾等的盟友方才正强调汝须及时完成此任务。卡特里吉不愿与其宝贝分开太久。”`
+			`	“好吧，”你说，“还有什么我需要知道的吗？”`
+			`	观察员面无表情地打量着你。“吾等的努力将保护飞船免受恒星高温，但仅此而已。明智的做法是不要在缠结区逗留。”`
+			`	蒂利亚把双臂互相搓了搓，一道电光蓝的脉冲掠过其双臂。“该出发了，船长！”`
 				accept
 
 mission "Successors: Ghosts Aqrabe 7"
-	name "Return to Kasii-Cavasaa-Oa"
-	description "Escape the drone ship and return to <destination> with the stellar metal."
+	name "返回卡西-卡瓦萨-欧阿"
+	description "摆脱那艘无人舰，带着恒星金属返回<destination>。"
 	landing
 	source "Exotic Metal Garden"
 	destination "Kasii-Cavasaa-Oa"
@@ -410,29 +410,29 @@ mission "Successors: Ghosts Aqrabe 7"
 	passengers 2
 	to offer
 		has	"Successors: Ghosts Aqrabe 6: done"
-	blocked "You will need <capacity> to collect the stellar metal. Return in the modified Vujlet when you have the space free."
+	blocked "你需要<capacity>来收集恒星金属。腾出空间后，驾驶改装过的武杰莱特返回。"
 	on offer
 		conversation
-			`Several minutes pass after landing before the hull of the <ship> has cooled enough to make it safe for exit - despite Kaatrij's loaned technology, the ship's armor still glows red-hot. The interior of the garden's loading bay is cavernous, the tangled metal strands drawn inside onto giant spools each many meters in diameter.`
-			`	Your crew gets to work under the supervision of Tiliia and Kaatrij's observer, removing small bits of metal from the rolls and carting them, one by one, onto the ship. Soon, Tiliia calls you over to a side section of the facility, and points out one of the spools - unlike the others, this one is entirely empty.`
-			`	"It would seem to me that our visit here is not the first, Captain," they say.`
+			`着陆后过了好几分钟，<ship>的船体才冷却到可以安全出舱——尽管有卡特里吉借出的技术，飞船的装甲仍然烧得通红。花园的装载舱内部宛如洞穴般空阔，缠结的金属丝被拉进来，缠绕在一个个直径达数米的巨型线轴上。`
+			`	在蒂利亚和卡特里吉观察员的监督下，你的船员开始干活，从卷轴上取下一小块一小块金属，一块接一块地运上飞船。不久，蒂利亚把你叫到设施的一处侧区，指给你看其中一个线轴——与其他线轴不同，这个是完全空的。`
+			`	“在吾看来，吾等并非第一批到访此地的，船长。”对方说道。`
 			choice
-				`	"Who might have done this?"`
+				`	“可能是谁干的？”`
 					goto who
-				`	"How could they have landed here?"`
+				`	“他们怎么可能在这里降落？”`
 			label how
-			`	"'Tis impossible to know. Perhaps they had some shield as we had, or perhaps their craft was sturdy enough itself to bear the star's ire. Either one bodes poorly."`
+			`	“无从得知。或许他们也有和吾等一样的护盾，或许他们的飞船本身就足够坚固，能承受恒星之怒。无论哪种，都非吉兆。”`
 				goto asked
 			label who
-			`	Tiliia shudders with color. "Were we fortunate, 'twas the Quarg or some of their nature, inspecting here in solitude. But lacking fortune, it may be that Kaatrij's aggressor seeks this bounty too - and has beaten us to it."`
+			`	蒂利亚浑身颤动着色彩。“若吾等走运，那是夸格或其同类，独自来此查探。但若时运不济，那么或许是卡特里吉的那个敌手也在觊觎这份宝藏——而且抢先了一步。”`
 			label asked
-			`	"Either way," they say, "we must hasten back t'bring this news to Aqrabe."`
+			`	“无论如何，”对方说，“吾等须速速返回，将此消息带给阿克拉贝。”`
 				accept
 
 	on enter "Kasii-Cavaasa"
 		"successors: ghosts suspicion" ++
 		"successors: ghosts met solitude enforcers" ++
-		dialog `As you take off from the stellar metal garden, your ship's proximity alarms begin to sound. Another ship is taking off too - and its weapons are aimed right at you!`
+		dialog `你从恒星金属花园起飞时，飞船的近距警报开始鸣响。另一艘飞船也在起飞——它的武器正瞄准着你！`
 
 	npc evade
 		ship "Hasur, Vowsworn" "Hasur-riita 4-1"
@@ -440,7 +440,7 @@ mission "Successors: Ghosts Aqrabe 7"
 		personality launching heroic nemesis ramming unconstrained
 		on kill
 			set "Successors: Ghosts Hasur transmission"
-			dialog "As the drone ship explodes it transmits some data to your own vessel. It cannot be deciphered at this time."
+			dialog "那艘无人舰爆炸时向你的飞船传输了一些数据。目前无法破译。"
 
 	on complete
 		outfit "Radiant Shield Shunt" -1
@@ -449,30 +449,30 @@ mission "Successors: Ghosts Aqrabe 7"
 		payment 400000
 		"successors: ghosts houses dealt with" ++
 		set "successors: ghosts dealt with aqrabe"
-		log "Retrieved stellar metal for House Kaatrij using a specially-equipped vessel, narrowly escaping pursuing warships."
+		log "使用一艘经过特殊装备的飞船为卡特里吉家族取回了恒星金属，千钧一发地摆脱了追击的战舰。"
 		conversation
-			`You set the ship down on <planet> in the midst of a sea of dockworkers, who begin removing the precious stellar metal from the <ship>'s cargo hold almost immediately, under the watchful gaze of the Kaatrij observer. Tiliia, after entering a bit of data on their pad, finally relaxes, quietly reciting a series of harsh-sounding and apparently untranslatable words.`
-			`	"Do you know something about those ships?" you ask them, eliciting a long groan and a wave of oily black over their skin.`
-			`	"This is what we earn for tearing up a nest; going where we shouldn't," they say. "'Twas a drone, an automated guardian from the days that garden was new. No doubt meant to chase off interlopers, as ourselves. But-"`
+			`你将飞船降落在<planet>上，四周是如海般的码头工人，在卡特里吉观察员的注视下，他们几乎立刻开始从<ship>的货舱中卸下珍贵的恒星金属。蒂利亚在数据板上输入了一些数据后，终于放松下来，低声念诵着一串听起来刺耳、显然无法翻译的词语。`
+			`	“你知道那些飞船的来历吗？”你问道，对方发出一声长长的呻吟，一阵油黑色的波浪涌过其皮肤。`
+			`	“这就是吾等捅了马蜂窝、去了不该去之处的报应，”对方说，“那是一艘无人舰，一个自那座花园初建之时便已存在的自动守卫。无疑是用来驱赶像吾等这样的闯入者。但是——”`
 			choice
 				`	“那是什么？”`
-				`	"Spit it out!"`
-			`	"Such a thing should not be. No House would've left a craft like that behind to molder, not for the sake of some petty metal. Heirlooms of that age are precious - I cannot see why such a thing should be so eas'ly discarded." They finally relax a bit, and the black wave subsides.`
-			`	"Thou hast done us a duty, nonetheless. Thou shalt see thine account flusher soon."`
+				`	“有话快说！”`
+			`	“这种东西本不该存在。没有哪个家族会把那样一艘飞船丢在那里任其腐朽，更不会只为了些微不足道的金属。那个年代的传家宝弥足珍贵——吾实在想不通，这样的东西为何会被如此轻易地抛弃。”对方终于稍稍放松，黑色的波浪也随之消退。`
+			`	“无论如何，汝为吾等尽了一份力。汝很快便会看到账户充盈起来。”`
 			choice
-				`	"What happens now?"`
-				`	"What about this ship? Do I get to keep it?"`
+				`	“接下来会怎样？”`
+				`	“那这艘船呢？我能留着它吗？”`
 					goto ship
 			label now
-			`	"Now we put this bounty to work, captain. I and the others here have a long task before us: I believe we shall be able to split up the keystones and amplify their effects with the stellar metal - 'tis only a matter of how much and how well. There's little thou canst do to assist now, though I'll be sure to note thy helpfulness to Aqrabe in this task."`
+			`	“现在吾等要让这批宝藏派上用场了，船长。吾与这里的其他人面前还有一项漫长的工作：吾相信吾等能用恒星金属分割基石并放大其效果——只是多少与多好的问题。眼下汝能帮上的已经不多了，但吾定会向阿克拉贝说明汝在此事上的帮助。”`
 			choice
-				`	"What about this ship? Do I get to keep it?`
+				`	“那这艘船呢？我能留着它吗？”`
 			label ship
-			`	Tiliia nods. "Before we left, I heard from our fleet liaison with Kaatrij. The ship lacks weapons or anything too perilous for thee to keep, and Kaatrij has no doubt already started removing their device. Thou mightst consider it a bonus to thy fee, a favor from the House to thee."`
+			`	蒂利亚点点头。“出发之前，吾从吾等派驻卡特里吉的舰队联络官那里听说了。这艘飞船没有武器，也没有什么危险到不能让汝保留之物，而卡特里吉无疑已开始拆除其装置。汝不妨将其视为酬金之外的奖赏，是家族对汝的一份人情。”`
 			branch "not confronted"
 				not "successors confronted tiliia"
 			label confronted
-			`	Tiliia turns to go away but stops themself. "I've an apology to offer thee 'fore we part, captain," they say. "I showed thee some disrespect when we spoke before leaving. 'Tis strange to be accused by one so foreign to our ways. But we've been cut off a long time now, I think, hearing only from ourselves and the ghosts of others. Greater things are moving than either of us now, but thou mayst trust that I'll be careful with our treasure. I can promise thee nothing more, but thou'rt right to remind me of that, at least."`
+			`	蒂利亚转身要走，却又停了下来。“分别之前，吾有一个歉意要向汝表达，船长，”对方说，“出发前交谈时，吾对汝有所不敬。被一个对吾等之道如此陌生的人指责，感觉很是奇怪。但吾想，吾等已与外界隔绝太久，只听得见自己和他人幽魂的声音。如今有比吾等二者都更宏大的事物正在运转，但汝可以相信，吾会谨慎对待吾等的宝藏。吾无法向汝许诺更多，但至少，汝提醒吾这一点是对的。”`
 			label "not confronted"
-			`	The two of you are interrupted by Kaatrij's observer, who informs the two of you that the metal offloading is complete. Tiliia, ready to get started on the next phase of their project, leaves with them, offering you a quick bow and courteous "goodbye."`
-			`	A few minutes later, you are notified that you have received a payment of <payment> credits from House Aqrabe.`
+			`	你们俩的谈话被卡特里吉的观察员打断，对方告知你们金属已卸载完毕。蒂利亚已准备好着手项目的下一阶段，便随观察员一同离开，临走前向你匆匆鞠了一躬，礼貌地道了声“再见”。`
+			`	几分钟后，你收到通知，阿克拉贝家族已向你支付了<payment>信用点。`

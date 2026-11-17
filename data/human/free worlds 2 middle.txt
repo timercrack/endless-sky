@@ -215,7 +215,7 @@ mission "FW Southern Recon 1B"
 			`芙蕾雅感谢你执行侦察任务，你将飞船日志副本交给她分析。她翻阅时，几乎立刻就被某样东西吸引了注意。“看起来海军正在部署一些新武器，”她说，“一些威力更强的鱼雷，还有一种比重型激光更强大的光束武器。那些光束武器尤其让我担心。”`
 			choice
 				`	“是的，那等于是抵消了我原本指望靠新等离子炮塔获得的优势。”`
-				`	"Does that mean we're not going to attack them after all?"`
+				`	“这是否意味着我们终究不去攻击他们了？”`
 					goto attack
 			`	“嗯，”她说，“等离子炮塔并不是我们唯一的王牌，但尽管如此，海军在技术上仍然对我们有如此大的优势，这很令人沮丧。”`
 			`	“那我们该怎么办？”你问。`
@@ -223,22 +223,22 @@ mission "FW Southern Recon 1B"
 			`	“我们迟早得和他们打，但首先我们需要尽可能多地获取关于他们新武器系统的情报。我希望你去找一艘安装了新型电子束的炮艇，偷一个回来，带到这里。我猜一个应该不会超过二三十吨，所以你应该有地方放。能做到吗？”`
 			choice
 				`	“我怎么才能找到落单的炮艇？它们通常是大舰队的一部分。”`
-				`	"I already plundered one of these new guns previously. I can give it to you now."`
+				`	“我之前已经缴获过一门这种新炮。现在就可以交给你。”`
 					goto gun
 					to display
 						has "outfit (removable): Electron Beam"
-				`	"I already plundered one of these new turrets previously. I can give it to you now."`
+				`	“我之前已经缴获过一座这种新炮塔。现在就可以交给你。”`
 					goto turret
 					to display
 						has "outfit (removable): Electron Turret"
-				`	"I know how to get one. I'll get you a spare."`
+				`	“我知道怎么弄到一个。我会给你弄一个备用的来。”`
 					to display
 						or
 							has "outfit (all): Electron Beam"
 							has "outfit (all): Electron Turret"
 					accept
 			
-			`	She thinks about that for a moment, then says, "The Navy has shifted most of their capital ships to the defecting systems in the south. That means that some of the systems up north will have lighter defenses. You might try Wei or Alnasl. Good luck, Captain."`
+			`	她想了一会儿，然后说：“海军已经把大部分主力舰调往南部的叛逃星系。这意味着北部的一些星系防御会比较薄弱。你可以试试尾宿二或箕宿一。祝你好运，船长。”`
 				accept
 			
 			label gun
@@ -254,7 +254,7 @@ mission "FW Southern Recon 1B"
 			
 			label end
 			`	“哦！那太好了。我马上叫我的团队来接收。”`
-			`	You hand off the weapon to Freya's science team once they arrive. Freya tells you that she'll be waiting for you in a cafe in the spaceport after she's had a chance to look at it more closely.`
+			`	他们的人一到，你就把武器交给了弗雷娅的科研团队。弗雷娅告诉你，在她有机会更仔细地研究它之后，会在太空港的一家咖啡馆里等你。`
 				decline
 	on accept
 		event "gunboats in Alnasl"
@@ -461,7 +461,7 @@ mission "FW Southern Battle 2"
 				`	“是啊，他们的荣誉感有时很鼓舞人心，但现在真让人烦。”`
 			`	“确实，”她说，“不过，根据阿隆多的说法，海军暗示过，如果我们展示出压倒性的武力，让他们毫无胜算，他们就能体面地选择撤退。所以，如果他们开始试图撤退，就放他们走。但这场仗恐怕不好打。”`
 			`	“作战计划是什么？”你问。`
-			`	"The fleet from Southbound Shipyards will be traveling with you," she says. "Other fleets with other commanders will be converging on Rastaban separately, at approximately the same time. So, you have no time to lose. You must travel directly to Rastaban from here, or else you will arrive too late to join in the fight. Good luck, captain."`
+			`	“南方造船厂的舰队将与你同行，”她说，“由其他指挥官率领的其他舰队会在大致相同的时间分头向天棓三集结。所以，你没有时间可浪费了。你必须从这里直接前往天棓三，否则就会赶不上这场战斗。祝你好运，船长。”`
 				accept
 	
 	npc
@@ -1665,7 +1665,7 @@ mission "FW Bloodsea 1.2A"
 				`	“我觉得海盗们除了压倒性的武力之外，听不懂任何语言。”`
 			`	“你说话的语气越来越像托梅克了，”JJ评论道。`
 			`	“我在来这里的路上也联系了议会，”阿隆多说，“他们批准了入侵。我们现在比以前强大得多，入侵已经是可行的选项了。”`
-			`	"Perhaps," says JJ. "I'll provide you with some ships, but I'm not happy about this. I need to keep most of my fleet here, to defend against the Navy, but I'll select a few of the strongest ships to accompany you to Bloodsea. Make sure they make it home safe, though. We'll need every ship we can get for when the Navy attacks. Good luck, Captain."`
+			`	“也许吧，”JJ说，“我会给你提供一些飞船，但我对此并不高兴。我需要把大部分舰队留在这里抵御海军，但我会挑选几艘最强的飞船陪你去血海星。不过，一定要让它们安全回家。等海军发动进攻时，我们需要每一艘能用的飞船。祝你好运，船长。”`
 				accept
 	
 	npc
@@ -1701,7 +1701,7 @@ mission "FW Bloodsea 1.2A"
 		event "bloodsea independent"
 		conversation
 			`你在血海星的主太空港降落，头顶盘旋着自由世界的飞船，一旦当地人表现出任何抵抗迹象，便会立即实施轰炸。气氛紧张，领袖们阴沉着脸同意让自由世界进入他们的星球，并承诺不再明知故犯地支持海盗或其他犯罪活动。你赢得了这个世界，但显然没有赢得当地人的心。`
-			`	A while later, you receive new orders from Alondo. "I've got some good news for you," he says. "Freya just contacted me, to say that they're now ready to start selling Dreadnoughts to certain select members of the Free Worlds, including you. That also means she's done with her work on Zug, so she'll need you to give her a lift from there."`
+			`	过了一会儿，你收到了阿隆多的新命令。“我有好消息要告诉你，”他说，“弗雷娅刚刚联系我，说他们现在已经准备好向自由世界的某些特定成员出售无畏舰了，其中也包括你。这也意味着她在苏格的工作已经完成，所以她需要你从那里把她接回来。”`
 				accept
 
 
@@ -1850,28 +1850,28 @@ mission "FW Albatross 2A"
 			`JJ在离开飞船前拍了拍你的肩膀。“弗雷娅告诉我了。当然，这只是为了安全起见。如果你觉得不自在，可以留在这里。”`
 			choice
 				`	“不，我跟你一起去。”`
-				`	"Thank you. I'll stay."`
+				`	“谢谢。我就留在这里。”`
 					goto alt
 			label meeting
 			`你与信天翁星长老们的会面在夜间秘密进行。他们担心如果现任海盗霸主瑞克·巴特利特知道他们见过你，就会遭到报复。JJ开始描述自由世界的条件：提供共同防御条约的所有好处，作为交换，他们要同意维护人权和法治，同时为自由世界提供财政支持。`
 			`	“恕我直言，”一位长老说，“你们和那些到这里来收钱以换取‘保护’的海盗组织有什么不同？”`
 			choice
-				`	(Let JJ answer that.)`
+				`	（让JJ来回答。）`
 					goto jj
 				`	（试着亲自解释。）`
-			`	"We're a representative government," you say, "with open financial records and clear human rights guidelines that we uphold."`
+			`	“我们是一个代议制政府，”你说，“我们拥有公开的财务记录和明确的人权准则，并且一直在遵守。”`
 				goto unconvinced
 			label jj
 			`	JJ解释了参议院的制度，每个世界在自由世界的收入分配上都有发言权。“而且，”他说，“我们不会把你们的孩子当奴隶，也不会强迫你们去工厂生产违禁药物。”`
 			label unconvinced
 			`	刚才说话的长老似乎并不信服。“在我看来，你们这些‘委员会’的人才是真正的统治者，你们的‘参议院’只是个傀儡，”他说，“所以我不会把那叫作真正的民主。”`
 			`	“也许吧，”另一位长老说，“但他们至少比巴特利特强。依我看，如果自由世界能让我们摆脱他，我们至少可以试试他们的新政府。”其他几位长老点头同意。`
-			`	They explain that to the best of their knowledge, Bartlett is spending most of his time near the Zeta Aquilae system, plundering merchant convoys of heavy metals coming out of Rand and Oblivion. If you can destroy Bartlett and his flagship, the Dread, his followers will probably disperse.`
+			`	他们解释说，据他们所知，巴特利特大部分时间都待在天市左垣六星系附近，劫掠从兰德和湮灭星运出重金属的商船队。如果你能摧毁巴特利特和他的旗舰“恐惧号”，他的追随者很可能就会作鸟兽散。`
 				accept
 			label alt
 			`	与信天翁星长老们的会面在夜间秘密进行。他们担心如果现任海盗霸主瑞克·巴特利特知道他们与你们会面，就会遭到报复。你留在飞船里，由JJ去试图说服长老们加入自由世界。几小时后，JJ回来了。`
 			`	“他们很感兴趣，”JJ对你说，“但他们希望现任军阀死掉。”`
-			`	They explained that to the best of their knowledge, Bartlett is spending most of his time near the Zeta Aquilae system, plundering merchant convoys of heavy metals coming out of Rand and Oblivion. If you can destroy Bartlett and his flagship, the Dread, his followers will probably disperse.`
+			`	他们解释说，据他们所知，巴特利特大部分时间都待在天市左垣六星系附近，劫掠从兰德和湮灭星运出重金属的商船队。如果你能摧毁巴特利特和他的旗舰“恐惧号”，他的追随者很可能就会作鸟兽散。`
 				accept
 	on visit
 		dialog `你降落在<planet>，但意识到你尚未摧毁瑞克·巴特利特的飞船“无畏号”，或者搭载JJ的护航舰还未进入该星系。最好离开并确保你已完成所有必要的步骤来完成此任务。`
@@ -1966,11 +1966,11 @@ mission "FW Rand 1"
 			`	“有几艘航母在兰德轨道上，”她说，“所以他们一定有所怀疑。但海军主力舰队仍然在这一带的北部和东部。”`
 			`	JJ说：“好的，船长，我提议这样。我们把主力舰队留在这里保卫舞者星和新波特兰，但带上我们最好的几艘飞船去天市左垣六，把海军赶走。弗雷娅和我会与你同行，这样如果需要做任何决定，我们的大部分议会成员都能亲自到场。你觉得怎么样？”`
 			choice
-				`	"It sounds like a good plan. Let's do it!"`
+				`	“听起来是个好计划。就这么干！”`
 					accept
 				`	“我仍然担心我们战线拉得太长了。”`
 			`	“你也许是对的，”他说，“弗雷娅，你怎么看？”`
-			`	"I think we need to take this opportunity while it's available," she says. "Sorry, Captain, but I'm with JJ on this one." They both board your ship, and you get ready to travel to Zeta Aquilae.`
+			`	“我认为我们需要趁机会还在的时候抓住它，”她说，“抱歉，船长，但这次我站在JJ这边。”他们两人都登上了你的飞船，你准备好前往天市左垣六。`
 				accept
 	
 	npc
@@ -2315,21 +2315,21 @@ mission "FW Liberate Delta Sagittarii"
 				has "FW Wolf Pack 2: offered"
 			choice
 				`	“不，没听说过。”`
-			`	"Too bad," says JJ, "they've managed to get their hands on some technology I'd love to have access to. But anyway, they've agreed to make an initial strike and fade attack on the Navy fleet to soften them up, before our own fleet gets there."`
+			`	“太可惜了，”JJ说，“他们弄到了一些我很想得到的技术。不过话说回来，他们同意发起一次奇袭并持续袭扰海军舰队，先削弱他们，等我们的主力舰队赶到。”`
 				goto plan
 			label know
 			choice
-				`	"Yes, I helped them get access to some better ramscoop technology from the Deep."`
+				`	“是的，我帮他们从幽海星弄到了一些更好的冲压收集器技术。”`
 					goto yes
 				`	“不，我没和他们打过交道。”`
-			`	"That's odd," says JJ, "I thought they said you helped them to get their hands on the Catalytic Ramscoop. But anyway, they've agreed to make an initial strike and fade attack on the Navy fleet to soften them up, before our own fleet gets there."`
+			`	“奇怪了，”JJ说，“我还以为他们说是你帮他们弄到了催化冲压收集器。不过话说回来，他们同意发起一次奇袭并持续袭扰海军舰队，先削弱他们，等我们的主力舰队赶到。”`
 				goto plan
 			label yes
 			`	“啊对，”JJ说，“一桩漂亮的商业间谍行动。当然啦，有点见不得光，所以我们才让狼群去处理这种事，而不是走官方渠道。不过话说回来，他们同意发起一次奇袭并持续袭扰海军舰队，先削弱他们，等我们的主力舰队赶到。”`
 			
 			label plan
 			`	“那得是相当猛烈的一击才能管用啊，”芙蕾雅说。`
-			`	"Don't worry," says JJ, "it will be. They've been itching to get into the fray for months now. Captain <last>, we'd like you to fly along with the fleet and help to mop up whatever the Wolf Pack leaves behind in the Delta Sagittarii system. Then we'll land on New Portland and figure out what our next steps are. Freya and I will ride on your ship."`
+			`	“别担心，”JJ说，“会的。他们几个月来一直跃跃欲试，想要参战。<last>船长，我们希望你随舰队一起出发，帮助扫清狼群在箕宿二星系留下的残敌。然后我们将降落在新波特兰，商量下一步该怎么做。弗雷娅和我会搭乘你的飞船。”`
 				accept
 	
 	on visit

@@ -172,7 +172,7 @@ phrase "friendly ka'het"
 		"当前目标："
 	word
 		"铝"
-		"copper"
+		"铜"
 		"金"
 		"铁"
 		"铅"
@@ -180,7 +180,7 @@ phrase "friendly ka'het"
 		"铂"
 		"硅"
 		"银"
-		"titanium"
+		"钛"
 		"钨"
 		"铀"
 	word
@@ -191,12 +191,12 @@ phrase "friendly ka'het"
 
 phrase "ka'het mining"
 	word
-		"gathering"
-		"mining"
-		"acquisition"
-		"obtainment"
-		"attainment"
-		"recovery"
+		"采集"
+		"开采"
+		"获取"
+		"取得"
+		"获得"
+		"回收"
 	word
 		". "
 	word
@@ -205,17 +205,17 @@ phrase "ka'het mining"
 phrase "ka'het hauling"
 	word
 		"拉运"
-		"freighting"
-		"transfer"
-		"relocation"
-		"allocation"
+		"货运"
+		"转运"
+		"迁移"
+		"调配"
 	word
 		"。资源目的地：空间站 "
 	word
 		"Seli"
 		"Parii"
 	word
-		", area "
+		"，区域 "
 	phrase
 		"digit"
 	phrase
@@ -227,17 +227,17 @@ phrase "friendly ka'het"
 	word
 		"主系统自检："
 	word
-		"shield matrices"
-		"hyperdrive"
+		"护盾矩阵"
+		"超空间引擎"
 		"生命维持系统"
-		"energy generator"
-		"weapon systems"
-		"main thrusters"
-		"main steering"
-		"main coolers"
-		"Ravager emitters"
+		"能量发生器"
+		"武器系统"
+		"主推进器"
+		"主转向器"
+		"主冷却器"
+		"“劫掠者”发射器"
 		"“歼灭者”装填系统"
-		"tracking systems"
+		"追踪系统"
 	word
 		"：在线。次级系统自检："
 	word
@@ -253,9 +253,9 @@ phrase "friendly ka'het"
 	word
 		"当前目标：星系"
 	word
-		"patrol"
-		"garrison"
-		"vigilance"
+		"巡逻"
+		"驻防"
+		"警戒"
 	word
 		"。识别到威胁：无。预计进度："
 	phrase
@@ -269,11 +269,11 @@ phrase "friendly ka'het"
 	word
 		"赫特状态："
 	word
-		"operational"
-		"active"
-		"alive"
-		"functioning"
-		"awake"
+		"运作中"
+		"活跃"
+		"存活"
+		"正常运转"
+		"清醒"
 	word
 		"。预期寿命："
 	word
@@ -299,21 +299,21 @@ phrase "friendly ka'het"
 	word
 		"目标：<ship>。所属政权："
 	word
-		"unknown"
-		"unrecognized"
-		"no data"
-		"unidentified"
+		"未知"
+		"无法识别"
+		"无数据"
+		"未识别"
 	word
 		"。态度："
 	word
 		"很友好"
-		"neutral"
+		"中立"
 		"和平的"
-		"positive"
-		"acceptable"
+		"正面"
+		"可接受"
 		"平安"
-		"tolerable"
-		"adequate"
+		"可容忍"
+		"尚可"
 	word
 		"。无需采取行动。"
 
@@ -321,9 +321,9 @@ phrase "friendly ka'het"
 	word
 		"与舰船 <ship> 的连接："
 	word
-		"established"
-		"stable"
-		"reliable"
+		"已建立"
+		"稳定"
+		"可靠"
 		"强大的"
 	word
 		"。预计信号强度："
@@ -339,31 +339,31 @@ phrase "friendly ka'het"
 	word
 		"与以下目标的连接失败："
 	word
-		"planet Osaeli"
-		"planet Alix"
-		"planet Retilie"
-		"planet Veliante"
-		"planet Eavine"
-		"planet Celeatis"
-		"planet Nona"
-		"planet Palarei"
+		"行星“欧萨埃里”"
+		"行星“艾莉克丝”"
+		"行星“雷蒂莉”"
+		"行星“维里安特”"
+		"行星“伊瓦恩”"
+		"行星“塞莱蒂斯”"
+		"行星“诺娜”"
+		"行星“帕拉雷”"
 
 		# Most of the stations mentioned here don't exist anymore at the time of the player, they were destroyed by the Ka'het during the last 200,000 years
-		"station Ceilia"
-		"station Aerite"
-		"station Letis"
-		"station Maiar"
-		"station Lateria"
-		"station Gertima"
-		"station Santari"
-		"station Antamesa"
+		"空间站“塞利亚”"
+		"空间站“埃里特”"
+		"空间站“莱蒂斯”"
+		"空间站“迈亚尔”"
+		"空间站“拉特里亚”"
+		"空间站“格蒂玛”"
+		"空间站“桑塔里”"
+		"空间站“安塔梅萨”"
 		"建造工地“德利亚”"
 	word
 		"。原因："
 	word
-		"no response"
-		"unknown"
-		"missing response"
+		"无响应"
+		"未知"
+		"响应缺失"
 	word
 		"。正在向空间站发送报告："
 	word
@@ -401,15 +401,15 @@ phrase "friendly ka'het"
 	phrase
 		"digit"
 	word
-		" years, "
+		" 年，"
 	word
 		""
-		"1 season"
-		"2 seasons"
-		"3 seasons"
-		"4 seasons"
-		"5 seasons"
-		"6 seasons"
+		"1 季"
+		"2 季"
+		"3 季"
+		"4 季"
+		"5 季"
+		"6 季"
 	word
 		"里，"
 	word
@@ -429,9 +429,9 @@ phrase "friendly ka'het"
 	word
 		"当前目标：星系"
 	word
-		"patrol"
-		"garrison"
-		"vigilance"
+		"巡逻"
+		"驻防"
+		"警戒"
 	word
 		"。正在分析星系 <system>。"
 	word
@@ -473,16 +473,16 @@ phrase "hostile ka'het"
 	word
 		"当前目标：威胁"
 	word
-		"identification"
-		"recognition"
-		"elimination"
-		"eradication"
+		"识别"
+		"辨识"
+		"消除"
+		"根除"
 		"毁灭"
 	word
 		"。次要目标："
 	word
 		"铝"
-		"copper"
+		"铜"
 		"金"
 		"铁"
 		"铅"
@@ -490,15 +490,15 @@ phrase "hostile ka'het"
 		"铂"
 		"硅"
 		"银"
-		"titanium"
+		"钛"
 		"钨"
 		"铀"
 	word
 		" "
 	word
-		"salvage"
-		"recovery"
-		"plundering"
+		"打捞"
+		"回收"
+		"掠夺"
 	word
 		"。"
 
@@ -506,20 +506,20 @@ phrase "hostile ka'het"
 	word
 		"威胁："
 	word
-		"identified"
+		"已识别"
 		"发现"
-		"recognized"
-		"analyzed"
-		"determined"
-		"spotted"
+		"已辨识"
+		"已分析"
+		"已确定"
+		"已发现"
 	word
 		"。威胁等级："
 	word
-		"very low"
+		"极低"
 		"低"
-		"average"
+		"中等"
 		"高"
-		"very high"
+		"极高"
 	word
 		"。正在采取应对措施。"
 
@@ -533,18 +533,18 @@ phrase "hostile ka'het"
 	word
 		"目标：<ship>。所属政权："
 	word
-		"unknown"
-		"unrecognized"
-		"no data"
-		"unidentified"
+		"未知"
+		"无法识别"
+		"无数据"
+		"未识别"
 	word
 		"。态度："
 	word
-		"rival"
+		"敌对"
 		"怀有敌意"
-		"unfriendly"
-		"negative"
-		"inacceptable"
+		"不友好"
+		"负面"
+		"不可接受"
 		"危险"
 	word
 		". "
@@ -579,24 +579,24 @@ phrase "hostile disabled ka'het"
 	word
 		"威胁："
 	word
-		"identified"
+		"已识别"
 		"发现"
-		"recognized"
-		"analyzed"
-		"determined"
-		"spotted"
+		"已辨识"
+		"已分析"
+		"已确定"
+		"已发现"
 	word
 		"。应对措施："
 	word
-		"unavailable"
-		"offline"
+		"不可用"
+		"离线"
 	word
 		"。支援请求："
 	word
-		"denied"
-		"refused"
-		"rejected"
-		"unanswered"
+		"被拒绝"
+		"遭拒"
+		"被驳回"
+		"无应答"
 	word
 		"。正在请求来自空间站的增援："
 	word

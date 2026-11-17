@@ -252,7 +252,7 @@ mission "Battle over Zydee"
 		"gegno: encounters" ++
 		conversation
 			`虽然这颗行星无人居住，但地表上停泊着不少格诺辛飞船。看来这里正进行着某项工程，以继续扩建先前已建成的部分基础设施，而那些忙于工作的辛族人几乎完全没有理会你的到访。`
-			`	However, a few moments later, the Scin suddenly start scurrying to their ships. Based on your experiences so far, you haven't gotten close enough to alarm them. They begin taking off one by one in a hurried fashion, but not toward you - the <ship>'s sensors suddenly begin picking up a large Gegno Vi fleet entering the system. It appears that this place is turning into a battlefield, and getting caught up in the middle of it is likely something you should avoid.`
+			`	然而片刻之后，辛族人突然慌忙奔向他们的飞船。根据你此前的经验，你并没有靠得近到足以惊动他们。他们一艘接一艘地匆忙起飞，但并不是冲你而来——<ship>的传感器突然探测到一支庞大的格诺维舰队正在进入星系。看来这里即将沦为战场，你最好避免被卷入其中。`
 				accept
 	on enter "Kneirc"
 		event "gegno: vi occupy zydee" 1 3
@@ -611,9 +611,9 @@ mission "Gegno Anticipation"
 			`	当你跟在他们身后时，阿德劳尼伸出一只手臂，开口说道：“如果你愿意——用你们人类的话来说，迁就我一下——你猜我与格诺人的谈判结果如何？”`
 			choice
 				`	“他们会接纳我吗？”`
-				`	"That they want nothing to do with me?"`
+				`	“他们不想和我有任何瓜葛？”`
 					goto "deny me"
-				`	"I don't know."`
+				`	“我不知道。”`
 					goto unsure
 
 			action
@@ -621,24 +621,24 @@ mission "Gegno Anticipation"
 			`	短暂停顿后，阿德劳尼转向格诺，用他们的语言咕哝了几句，然后回应你。“我明白了。那你认为理由是什么？”`
 			choice
 				`	“我以前帮过他们，现在也能帮他们。”`
-				`	"I figured you could convince them."`
+				`	“我以为你能说服他们。”`
 					goto convince
-				`	"I don't know."`
+				`	“我不知道。”`
 					goto unsure
 
 			`	当你继续在环世界完美无瑕的内部穿行时，阿德劳尼沉思了片刻。“这是非常典型的人类回答。然而，不要将你协助的价值与他们的价值混为一谈。即便你给格诺提供了有益的帮助，他们也未必要以善意作为回报。目前你听从了我的警告，但你不过是在做格诺从一开始就渴望的事——那就是不要打扰他们。”`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	“也许我还是别去打扰他们为好。”`
 					goto better
-				`	"There must be something I can do."`
+				`	“我一定能做些什么。”`
 					goto understand
 
 			label "convince"
 			`	阿德劳尼一边继续穿行于环世界，一边微微瞪了你一眼。“你不记得我之前提过，我们夸格也曾尝试过你所渴望的这种劝说吗？我们根本没有能力说服格诺接受任何事情。他们极度忠于自己的族群，甚至会打破一切界限来反对劝告，即便那劝告来自我们夸格。”`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	“也许我还是别去打扰他们为好。”`
 					goto better
-				`	"There must be something I can do."`
+				`	“我一定能做些什么。”`
 					goto understand
 
 			label "deny me"
@@ -647,24 +647,24 @@ mission "Gegno Anticipation"
 			`	短暂停顿后，阿德劳尼转向格诺，用他们的语言咕哝了几句，然后回应你。“我明白了。那你认为理由是什么？”`
 			choice
 				`	“他们在我身边时的表现。”`
-				`	"From what you've told me before."`
+				`	“根据你之前告诉我的。”`
 					goto before
-				`	"I don't know."`
+				`	“我不知道。”`
 					goto unsure
 
 			`	“确实，格诺对缺乏谨慎的你十分警惕。”几秒钟过去了，阿德劳尼向那名格诺投去一个奇怪的眼神。你拿不准它在想什么。那名格诺似乎用他们的语言问了个问题，但没得到回应。阿德劳尼又停顿了片刻才再次开口。“尽管如此，你却置身于我们未曾经历的险境之中。我们作为一个物种，主动接纳了与格诺的接触；然而，你却仍是这里唯一的人类。也许这其中蕴含着某种值得注意的特殊意味。”`
 			choice
-				`	"Are you saying there's something I can do?"`
+				`	“你是说我能做些什么？”`
 					goto understand
-				`	"I'm not sure I understand."`
+				`	“我不太明白。”`
 					goto interest
 
 			label "before"
 			`	“我明白了。”阿德劳尼慢慢地眨了眨眼，凝视着你。那神情仿佛有些惊讶，或者至少是没料到会得到这样的回答。“听从我幸运的指示，确是你的明智之举。若非如此，此时此刻与你交谈的，恐怕就不会是我了。或者说，根本就不会有任何人。”接着，随着你们继续漫步，它又将视线移向前方，留下你独自回味这番话。“遗憾的是，夸格无法在这个微妙的事务上为你提供更多帮助。如果你还记得，我们此前曾尝试与格诺进行沟通，但他们固守己见，即便是要不可思议地反对我们夸格，也绝不妥协。”`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	“也许我还是别去打扰他们为好。”`
 					goto better
-				`	"There must be something I can do."`
+				`	“我一定能做些什么。”`
 					goto understand
 
 			label "unsure"
@@ -672,7 +672,7 @@ mission "Gegno Anticipation"
 				set "gegno word: unsure"
 			`	阿德劳尼短暂地转过头来，面无表情地看着你，随后转向那名格诺用他们的语言咕哝了几句，这才回应你。“那你为何会感到不确定？”`
 			choice
-				`	"I wasn't sure you could convince them."`
+				`	“我不确定你能否说服他们。”`
 					goto convince
 				`	“我对他们一无所知。”`
 
@@ -680,21 +680,21 @@ mission "Gegno Anticipation"
 				set "gegno word: friend"
 			`	停顿片刻后，阿德劳尼转向你，短暂地瞪了你一眼，随后重新目视前方，你们三人继续穿过环世界。“这倒是个相当重要的结论，不是吗？我已说过多次，格诺并非我认为人类有能力去了解的族群。即便你了解得更多，恐怕格诺也并不会反过来渴望——那个人类词汇是怎么说的——友谊？”那名格诺随后用其语言询问了句什么，阿德劳尼便与他展开了颇为冗长的谈话。`
 			choice
-				`	"Maybe it's better I do leave them alone."`
+				`	“也许我还是别去打扰他们为好。”`
 					goto better
-				`	"There must be something I can do."`
+				`	“我一定能做些什么。”`
 					goto understand
 
 			label "interest"
-			`	The Quarg turns back to you. "You are here not at the whim of your fanatic species, but at your own behest. Actions you take may be that of a human, but are not willed by that of humanity." Blinking slowly, Adrauni then turns to the Gegno walking besides it and begins a somewhat lengthy conversation with them.`
+			`	那名夸格转回身来面向你。“你来到这里，并非出于你那狂热物种的一时兴起，而是出于你自己的意愿。你所采取的行动或许是一个人类的行动，却并非人类整体意志的体现。”阿德劳尼缓缓眨了眨眼，随后转向走在它身旁的那名格诺，同对方展开了一段颇为冗长的交谈。`
 				goto "visit a"
 
 			label "understand"
-			`	You walk in silence for an awkward period of time. The strange architecture of the ringworld does little to comfort you; it feels like you've walked down the same path several times now. A few moments later, you eventually begin following Adrauni and the Gegno down what appears to be a different section, though it is strangely wider than previous ones. Before you begin asking more questions, Adrauni finally replies. "It is apparent that you may understand something of your fragile circumstance. It is no longer what I, rather, the Quarg, can do for you. It is what you can do for yourself."`
+			`	你们在尴尬的沉默中走了好一阵子。环世界奇特的建筑结构丝毫没能让你安心；你感觉自己已经在同一条路上来回走了好几遍。片刻之后，你终于跟着阿德劳尼和那名格诺走进了一个看似不同的区段，不过这里比之前的区段宽阔得出奇。还没等你开口发问，阿德劳尼终于回答了。“显而易见，你或许已经对自己脆弱的处境有所领悟。问题已不再是我——或者说，夸格——能为你做些什么，而是你能为自己做些什么。”`
 				goto "visit a"
 
 			label "better"
-			`	Adrauni speaks to the Gegno once more for an extended period of time. The strange architecture of the ringworld does little to comfort you; it feels like you've walked down the same path several times now. A few moments later, you eventually begin following Adrauni and the Gegno down what appears to be a different section, though it is strangely wider than previous ones. "Yes, it may be that your timely departure is the most favorable outcome in this affair." A long, awkward silence ensues, at the end of which Adrauni briefly comes to a halt, still facing forward, now crossing its arms behind its back. "Though you and I figure that is... unlikely."`
+			`	阿德劳尼又同那名格诺交谈了很长一段时间。环世界奇特的建筑结构丝毫没能让你安心；你感觉自己已经在同一条路上来回走了好几遍。片刻之后，你终于跟着阿德劳尼和那名格诺走进了一个看似不同的区段，不过这里比之前的区段宽阔得出奇。“是的，或许你及时离开，才是此事最理想的结局。”随之而来的是一段漫长而尴尬的沉默，末了，阿德劳尼短暂地停下脚步，依旧面朝前方，将双臂交叠在背后。“尽管你我都认为，那……不太可能。”`
 				goto "visit a"
 
 			label "visit a"
@@ -702,34 +702,34 @@ mission "Gegno Anticipation"
 			
 			label "epilogue a"
 			choice
-				`	"Won't they prevent me from landing?"`
+				`	“他们不会阻止我降落吗？”`
 					to display
 						not "gegno: landing dialog"
 
-				`	"Couldn't we have just asked the Gegno from earlier?"`
+				`	“我们难道不能直接问问刚才那名格诺吗？”`
 					to display
 						not "gegno: asked dialog"
 					goto ask
 
-				`	"I'm not sure that's safe. Could you escort me there?"`
+				`	“我不确定那样是否安全。你能护送我过去吗？”`
 					to display
 						not "gegno: escort dialog"
 					goto escort
 			
-				`	"Thank you. I will leave now."`
+				`	“谢谢你。我这就离开。”`
 					to display
 						has "gegno: landing dialog"
 					goto "end a"
 
 			action
 				set "gegno: landing dialog"
-			`	"Contrarily, I rather believe them to be expecting of you. Do remember you must hail the planet for clearance."`
+			`	“恰恰相反，我更相信他们正期待着你的到来。请记住，你必须呼叫该星球以获取着陆许可。”`
 				goto "epilogue a"
 
 			label "ask"
 			action
 				set "gegno: asked dialog"
-			`	Adrauni ponders your question for a few moments before answering. "Ah, yes, your naivety to Gegno culture had but briefly passed me. Tradition amongst female Scin is to allocate time of research just short of a lifespan. The one whom you speak of is very much devoted to us here, nothing more. For any official matters with the Gegno to pass, they must go through the great heart of the colony."`
+			`	阿德劳尼对你的问题思索了片刻才作答。“啊，是的，我竟一时忘了你对格诺文化一无所知。辛族女性的传统，是将几乎毕生的时光都投入研究之中。你所说的那位，只是全心致力于在我们这里的研究，仅此而已。任何与格诺相关的正式事务，都必须经由其族群的伟大核心来处理。”`
 				goto "epilogue a"
 
 			label "escort"
@@ -737,26 +737,26 @@ mission "Gegno Anticipation"
 				set "gegno: escort dialog"
 			`	阿德劳尼朝你眨了眨眼。“我本希望你已明白，你先前的感悟意味着什么。”它转头望向一旁陷入沉思，随后又看向你。“通常情况下，我们夸格极少会因为琐碎的缘由去拜访格诺。若是此时你有人陪同，格诺对你本就不稳定的看法只怕会再生变数。想象一下，如果夸格带着某些来路不明的旁人，去访问你们那颗名叫地球的星球，会是何种情景。”你猜测，阿德劳尼随后做出了相当于夸格人叹气的举动。“不过，是的，我可以派人护送你。请务必对这个决定深思熟虑。”`
 			choice
-				`	"Yes, I would like an escort."`
+				`	“好的，我希望有人护送。”`
 					goto "quarg escort"
-				`	"Actually, I should be fine."`
+				`	“其实，我自己应该没问题。”`
 					goto "no escort"
 
 			label "quarg escort"
 			action
 				set "gegno: escort dialog"
 				set "gegno anticipation: quarg escort"
-			`	Adrauni hesitantly responds. "I shall send for one upon your departure."`
+			`	阿德劳尼迟疑地答道：“在你启程时，我会派人随行。”`
 				goto "epilogue a"
 
 			label "no escort"
 			action
 				set "gegno: escort dialog"
-			`	"I see. May it be for the best, then."`
+			`	“我明白了。那么，但愿这是最好的选择。”`
 				goto "epilogue a"
 
 			label "end a"
-			`	"Safe travels, <first> <last>. I aspire for your daring decisions to befit the wise on your journey ahead." Adrauni gives you a lengthy bow, then leaves the hangar. You get the feeling that this might have been the last time you meet with it. As you return to your ship, a few other Quarg, who have been watching the conversation from afar, also return to their normal routine as if nothing had happened. Now, it is up to you to see for yourself whether or not the Gegno will accept you.`
+			`	“一路平安，<first> <last>。愿你那些大胆的决定，在前方的旅途中能配得上智者之名。”阿德劳尼向你深深鞠了一躬，随后离开了机库。你有种感觉，这也许是你最后一次见到它了。当你返回飞船时，另外几名一直在远处观望这场谈话的夸格也恢复了日常事务，仿佛什么都没发生过。现在，格诺是否会接纳你，就要靠你亲自去见分晓了。`
 				accept
 
 			label "negative rep"
@@ -764,68 +764,68 @@ mission "Gegno Anticipation"
 			`一旦降落在环世界上，你便注意到在你停靠的机库一侧站着一群格诺。他们有着‘维’战士那庞大的身躯，虽然没有离开原来的位置，但当你步出飞船时，他们始终目不转睛地盯着你。随后，一小群夸格朝你走来，迅速示意你跟上他们，护送你穿过环世界的条条通道。最终，你被引到了以前见过阿德劳尼的房间，或者是与那间完全相同的一个地方。“请坐。”`
 			`	你同另外两名夸格一同坐下，其余的夸格随之退出，门在他们身后滑上。阿德劳尼面无表情地凝视了你一会儿，随后开口道。“我猜你已经知晓，我同那些难缠的格诺谈判的结果是什么了。”`
 			choice
-				`	"That they are upset with me?"`
+				`	“他们对我很不满？”`
 					goto upset
 				`	“他们会容忍我？”`
-				`	"No, I do not."`
+				`	“不，我不知道。”`
 					goto "no idea"
 
 			`	阿德劳尼继续盯着你，然后慢慢眨眼。“我明白了。你对‘容忍’这个词在这种语境下有什么奇怪的理解？”`
 			choice
 				`	“允许我在他们的星球上降落。”`
-				`	"Allow me access to their technology."`
+				`	“允许我获取他们的技术。”`
 					goto tech
-				`	"I don't know."`
+				`	“我不知道。”`
 					goto "dont know"
 
 			`	阿德劳尼沉思了片刻。“这是非常典型的人类回答。即便照你们的定义，我们夸格对人类只有最低限度的容忍，我们也仅是向你们开放了少数奇妙世界的访问权。然而，人类又是如何对待他者的？格诺，或者其他有着古怪脾性的种族，难道就会被获准在你们的地球上自由活动吗？对你个人而言或许可以，但对焦虑重重的人类整体来说，显然是不可能的。”房间里的另一名夸格对阿德劳尼说了些什么，它用自己的语言同其交谈了几句。`
 			choice
-				`	"Is there no way I can work with the Gegno?"`
+				`	“难道我就没有办法与格诺合作吗？”`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	“我想我应该别去打扰他们。”`
 					goto alone
 
 			label "tech"
 			`	阿德劳尼嗒嗒地叩击着牙齿，似乎是在发笑，你以前还从未见它有过这种反应。“而我们这许多生活在野心勃勃的人类身边的夸格，又何曾给予了你们获取我们技术的许可？在虚伪的容忍之下，没有人有权理所当然地获得他人的发明成果。”房间里的其他夸格有些诧异地看着阿德劳尼，随后它开始用自己的语言与他们交谈。过了一会儿，他们也用异样的眼神打量着你，气氛陷入了一阵尴尬的沉默，最终由阿德劳尼再次对你开口所打破。“即便对我们而言，格诺也几乎没有分享过任何有价值的事物。”`
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	“那难道我就没有办法与格诺合作吗？”`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	“我想我应该别去打扰他们。”`
 					goto alone
 
 			label "dont know"
 			`	阿德劳尼继续盯着你，接着慢慢眨了眨眼。“确实，你并不懂得。所谓的容忍，是指尽管有着不尽人意的前提，却依然默许不受约束的事态发生。正如我之前所言，这可不是格诺的行事风格。”它抬头思索了片刻。“也许是我对你那天真看法的评判有误。人类确实在容忍自己群体里那些不受待见的人——也就是被称为海盗的那些家伙。你们这一物种里，有些势力纵容着他们令人厌恶的行为，有些则不然。话虽如此，若是一个非人类的种族也搞起类似的挑衅……我猜结果就会截然不同。”接着，阿德劳尼开始与房间里的其他夸格交谈。`
 			choice
-				`	"Are you saying there's no way I can work with the Gegno?"`
+				`	“你是说我没有任何办法与格诺合作？”`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	“我想我应该别去打扰他们。”`
 					goto alone
 
 
 			label "upset"
 			`	“显然如此，毕竟维派自己已经悍然进入了我们的环世界。这种武力示威实属空前，比起其他那些不那么放肆的沟通方式，这更令人难以容忍。我本曾抱有一丝微茫的希望，以为你理解了我对非暴力的宣扬，因为我相信年轻物种心怀乐观期许是有益的，但最终，事实证明我的希望毫无根据。”房间里的其他几位夸格突然对阿德劳尼说起话来，就好像你根本不在场一样，并开始了一场漫长的辩论，其间不时朝你的方向怒目而视。`
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	“那难道我就没有办法与格诺合作吗？”`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	“我想我应该别去打扰他们。”`
 					goto alone
 
 
 			label "no idea"
 			`	“是的，我相信这是这起节外生枝的局势中的一个共同主题。在了解清楚情况之前就盲目行动是极其危险的做法，正如我们夸格多年来一直在劝诫你们这些冲动的人类那样。在我们与你的探讨中，这一点显然已被证实。然而，这里所跨越的巨大界限，已经超出了我们所能容纳的范围。”阿德劳尼的表情随后微微一变，再次向你怒目而视。“尤其是在此前已发出过接连警告的情况下。”房间里的另一个夸格对阿德劳尼说了些什么，它便开始用自己的语言与对方交谈起来。`
 			choice
-				`	"Then is there no way I can work with the Gegno?"`
+				`	“那难道我就没有办法与格诺合作吗？”`
 					goto work
-				`	"I guess I should leave them alone."`
+				`	“我想我应该别去打扰他们。”`
 					goto alone
 
 			
 			label "work"
-			`	You sit in silence for an uncomfortable amount of time, during which even the Quarg don't speak to one another. The strange structure and bright lights of the room do little to reassure you as the Quarg ponder to themselves. A few moments later, they begin talking amongst themselves once more, but you don't have a chance to get a word in. After several more minutes of deliberation and strange looks, the other Quarg stand up and flank you from both sides, while Adrauni finally addresses you once more. "Unfortunately, at this stage of events, not I, nor the Quarg, can give you an answer to your inquiry. We are of agreement in our strong opposition to further interaction between yourself and the Gegno." It then does what you think would be the Quarg equivalent of a sigh.`
+			`	你在令人不安的沉默中坐了许久，期间就连夸格们彼此之间也一言不发。房间里奇特的结构和明亮的灯光丝毫无法让你安心，夸格们则各自陷入了沉思。片刻之后，他们又开始相互交谈起来，但你根本插不上话。又经过几分钟的商议和一道道异样的目光后，其他夸格站起身来，从两侧将你围住，阿德劳尼终于再次对你开口。“很遗憾，在事态发展到这一步时，无论是我还是夸格，都无法回答你的问题。我们一致强烈反对你与格诺之间再有任何进一步的接触。”随后，它做出了一个你认为相当于夸格人叹气的举动。`
 				goto "visit b"
 
 			label "alone"
-			`	You sit in silence for an uncomfortable period of time, during which even the Quarg don't speak to one another. The strange structure and bright lights of the room do little to reassure you as the Quarg ponder to themselves. A few moments later, they begin talking amongst themselves once more, but you don't have a chance to get a word in. After several more minutes of deliberation and strange looks, the other Quarg stand up and flank you from both sides, while Adrauni finally addresses you once more. "Indeed, that statement is in our strongest of preferences for this matter." It stands up and crosses its arms behind its back. "Though I would suppose you and I figure that to be... unlikely."`
+			`	你在令人不安的沉默中坐了许久，期间就连夸格们彼此之间也一言不发。房间里奇特的结构和明亮的灯光丝毫无法让你安心，夸格们则各自陷入了沉思。片刻之后，他们又开始相互交谈起来，但你根本插不上话。又经过几分钟的商议和一道道异样的目光后，其他夸格站起身来，从两侧将你围住，阿德劳尼终于再次对你开口。“的确，这番话正合我们在此事上最强烈的意愿。”它站起身来，将双臂交叠在背后。“不过我想，你我都认为那……不太可能。”`
 				goto "visit b"
 
 			label "visit b"
@@ -833,33 +833,33 @@ mission "Gegno Anticipation"
 
 			label "epilogue b"
 			choice
-				`	"Won't they deny me from landing?"`
+				`	“他们不会拒绝让我降落吗？”`
 					to display
 						not "gegno: deny dialog"
 
-				`	"Couldn't we just ask the Gegno over there?"`
+				`	“我们难道不能直接问问那边的格诺吗？”`
 					to display
 						not "gegno: there dialog"
 					goto there
 			
-				`	"I will be leaving now."`
+				`	“我这就离开了。”`
 					to display
 						has "gegno: deny dialog"
 					goto "end b"
 
 			action
 				set "gegno: deny dialog"
-			`	After a pause, Adrauni responds. "Contrarily, I rather believe them to be expecting of you, accounting for their exclamations of the situation."`
+			`	停顿片刻后，阿德劳尼回答道：“恰恰相反，从他们对这一局势的强烈反应来看，我更相信他们正期待着你的到来。”`
 				goto "epilogue b"
 
 			label "there"
 			action
 				set "gegno: there dialog"
-			`	"Those of the Vi do not represent those of the Gegno, that is, of a whole species. The Vi present with us are merely of one family, to which there are many such groups." Adrauni considers your question for a few moments, almost appearing to have a slight interest in it. "It is unlike that of which you humans are familiar to. Vi culture does not denote a family merely by ancestry nor familiarity."`
+			`	“维族并不代表格诺——也就是说，并不代表整个物种。与我们同在此处的维族只不过属于一个家族，而这样的群体还有许多。”阿德劳尼对你的问题考虑了片刻，几乎显得对此有了些许兴趣。“这与你们人类所熟悉的情形不同。维族文化中的家族，既不单纯依据血缘，也不单纯依据亲疏来划分。”`
 				goto "epilogue b"
 
 			label "end b"
-			`	"Although your actions thus far are in dissatisfaction, I aspire for future decisions being made to befit the wise on your journey ahead. I wish you an educational journey, <first> <last>." Adrauni gives you a lengthy bow, then leaves the hangar. You get the feeling that this might have been the last time you meet with it. As you return to your ship, the Vi warriors continue watching from afar, but the Quarg steadfastly block them off. It is up to you to figure out yourself whether or not the Gegno will tolerate you any further.`
+			`	“尽管你迄今为止的行为令人不满，我仍希望你在前方旅途中所作的决定能配得上智者之名。祝你此行能有所收获，<first> <last>。”阿德劳尼向你深深鞠了一躬，随后离开了机库。你有种感觉，这也许是你最后一次见到它了。当你返回飞船时，那些维族战士依旧在远处注视着你，但夸格们坚定地将他们挡在外面。格诺是否还会继续容忍你，就要靠你自己去弄清楚了。`
 				accept
 
 	on accept

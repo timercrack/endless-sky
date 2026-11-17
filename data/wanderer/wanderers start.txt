@@ -436,11 +436,11 @@ mission "Wanderers Conversation"
 			`借助新翻译设备，你成功联系上了流浪者政府。他们欢迎你回来，并告诉你一位名叫“伊克塔特·雷克”的流浪者已被任命为负责接待人类访客的正式使节，他很快就会到达你的降落平台。`
 			`	雷克比你见过的多数流浪者体型略大，羽毛呈暗哑的白色和棕色，举止沉稳庄重。“在我们历史上，需要[应对，处理]其他物种的情况极为[罕见，特殊]，”他说，“而现在我们发现自己同时要应对两个物种。”他说的是亥族语言，翻译设备尽力将他的话转译成你的语言。`
 			choice
-				`	"How did you learn the Hai language?"`
+				`	“你们是怎么学会亥族语言的？”`
 					goto language
 				`	“你们与无羁亥族作战多久了？”`
 			
-			`	"It has been nearly twenty [years, cycles] now," he says. "At first only a single Hai ship [visited, invaded] us, but back then we had no defenses in place to stop it. For years the ship only [harvested, stole] food from our frontier worlds, and avoided combat. In our culture it is an [obligation, duty] to share our food with one who [asks for, demands] it, so we did not oppose the Hai ship. But then more Hai ships came, attacked one of our worlds and took it for themselves, and killed many of our people. We built warships and drove them back, and yet their [raids, attacks] still continue."`
+			`	“到现在已经将近二十[年，周期]了，”他说。“起初只有一艘亥族飞船[造访，入侵]我们，但那时我们还没有任何防御手段来阻止它。多年来，那艘飞船只是从我们的边境世界[采集，偷取]食物，并避免交战。在我们的文化中，与[请求，索要]食物的人分享食物是一种[义务，责任]，所以我们没有阻拦那艘亥族飞船。但后来更多亥族飞船来了，攻击了我们的一个世界并据为己有，还杀死了我们许多同胞。我们建造战舰将他们击退，然而他们的[劫掠，攻击]仍在继续。”`
 				goto food
 			
 			label language
@@ -449,10 +449,10 @@ mission "Wanderers Conversation"
 			`	“你知道无羁者想要什么吗？”你问。`
 			`	“他们想要食物和[土地，活动空间]，”雷克说。“这一点在他们第一次袭击我们时我们就猜到了，而名叫萨雅丽的亥族已向我证实，无羁者已经[挥霍，消耗]了他们自己的世界，现在通过发动战争来夺取其他世界。”`
 			choice
-				`	"What is the history of your species?"`
+				`	“你们物种的历史是怎样的？”`
 					goto history
 				`	“流浪者在这片星域存在多久了？”`
-			`	"It is now nearly ten thousand [years, cycles] since we passed through the Eye and entered this [region, territory]," he says.`
+			`	“自从我们穿过天眼、进入这片[区域，领土]，至今已近一万[年，周期]了，”他说。`
 				goto eye
 			label history
 			`	“我们是一个古老的民族，”他说。“这片[区域，领地]并非我们的故乡。我们大约一万[年，周期]前通过天眼来到这里。”`
@@ -460,10 +460,10 @@ mission "Wanderers Conversation"
 			`	“天眼？”你问。`
 			`	“一个虫洞，”他说。“每隔一个[纪元，时代]天眼就会开启，流浪者穿越它前往新家园。自我们最古老的[历史，传说]以来就是如此。上百次，也许上千次，我们离开一个家园前往另一个。每个天眼带我们去的新家园都充满[浩劫，毁灭]，需要许多代人来修复。然后天眼再次召唤，我们继续前行。而每次穿过天眼，我们都会变成新的存在。”`
 			choice
-				`	"Why would you travel through the wormhole, if you are leaving fruitful worlds you have worked hard to develop, and only ruined worlds await you on the other side?"`
+				`	“既然你们要离开辛勤开发的富饶世界，而另一边等待你们的只有满目疮痍的世界，为什么还要穿越虫洞呢？”`
 					goto reason
 				`	“你说‘变成新的存在’是什么意思？”`
-			`	"The first generation of Wanderers that passes through the wormhole [receive, undergo] the Molt," says Iktat Rek. "They are altered in their [being, essence] and become [giants, people of renown]. Those who stay behind in the safety of the old worlds remain only themselves, and slowly diminish. So all Wanderers who have [courage, ambition] yearn for the Eye to open so our species may once again [grow, evolve]."`
+			`	“穿过虫洞的第一代流浪者会[接受，经历]蜕变，”伊克塔特·雷克说。“他们的[存在，本质]会被改变，成为[巨人，声名显赫者]。那些留在旧世界安全之处的人只能维持原样，慢慢衰微。所以，所有怀有[勇气，抱负]的流浪者都渴望天眼开启，好让我们的物种再次[成长，进化]。”`
 				goto molt
 			label reason
 			`	“我们穿越天眼的原因是，那些[留在，定居]在无需进一步[疗愈，修复]的世界上、享受安逸生活的人会衰败。但穿越天眼、面对新世界挑战的人会经历蜕化。他们在[存在，本质]上被改变，成为[巨人，卓著之民]。所以所有有[勇气，雄心]的流浪者都渴望天眼开启，这样我们的物种才能再次[成长，进化]。”`
@@ -472,7 +472,7 @@ mission "Wanderers Conversation"
 				`	“是什么让虫洞开启？谁或什么控制了它？”`
 				`	“为什么蜕化会发生？它是如何运作的？”`
 			`	“那些是我们不会问的问题，”他说。“这在我们看来是一种[禁忌？信仰？奥秘？]。”`
-			`	You ask a few other questions, but do not gain much more information. He does mention that the other Wanderer worlds have agreed to sell you some of their technology, and that you will be allowed to "[view, admire, envy]" their ships, but not to purchase them. You thank him for his time and his willingness to trust a member of an entirely unknown species, and return to your ship.`
+			`	你又问了几个问题，但没能得到更多信息。他确实提到，其他流浪者世界已同意向你出售部分技术，你也将被允许“[观看，欣赏，羡慕]”他们的飞船，但不能购买。你感谢他抽出时间，也感谢他愿意信任一个完全陌生物种的成员，然后返回了你的飞船。`
 				decline
 
 
@@ -619,26 +619,26 @@ mission "Wanderers: Defend Vara Ke'sok"
 			branch hint
 				has "Wanderers: Defend Vara Ke'sok Hint: done"
 			`你刚在太空港降落，周围就突然忙碌起来：许多流浪者飞向自己的飞船，飞船开始从星球升空。天空中，你看到远处闪烁的亮光，可能是武器开火或爆炸。`
-			`	You are buffeted by wind as one of the Wanderers lands next to your ship and says, in the Hai language, "Unfettered [raider, pirate] fleet comes. We have put food on freighter, hope they take [offering, gift] and leave. If not [appeased, satisfied] you help convince them to leave. Yes?"`
+			`	一名流浪者降落在你的飞船旁，掀起的风吹得你身形摇晃。他用亥族语言说：“无羁[劫掠者，海盗]舰队来了。我们把食物放上货船，希望他们拿走[供品，礼物]就离开。如果[安抚，满足]不了，你帮忙说服他们离开。好吗？”`
 				goto choice
 			label hint
 			`降落在星球上，几名流浪者围住你的飞船，准备搬出货物。你运送到<planet>的流浪者还没来得及开口，一声尖锐的鸟鸣划破天空。`
 			`	环顾四周，你突然看到一阵骚动：许多流浪者飞向自己的飞船，飞船开始从星球升空。天空中，你看到远处闪烁的亮光，可能是武器开火或爆炸。`
 			`	委托你运送建筑材料的流浪者开口了：“无羁者[劫掠者，海盗]舰队来了。我们把食物装上货船，希望他们收下[供品，礼物]后离开。如果还不[平息，满足]，你帮我们说服他们离开。[明白，理解]吗？”`
 			choice
-				`	"I will help drive the Unfettered away."`
+				`	“我会帮忙赶走无羁者。”`
 					goto yes
 				`	“我为什么需要帮忙？我只是接了个运输任务。”`
 			`	流浪者似乎对你的回答有些意外。“迫在眉睫的[危险，侵略]。无羁者带来[毁灭，破坏]。如果不帮忙，损失[惨重，歉收]。现在愿意帮助我们吗？”`
 			label choice
 			choice
-				`	"Yes, I will help drive the Unfettered away."`
+				`	“好的，我会帮忙赶走无羁者。”`
 					goto yes
 				`	“不，我不会帮你们对抗他们。”`
-			`	The Wanderer flies off to join the defense effort. A few hours later, the flashes in the sky end; the Unfettered have either been destroyed, or have gotten what they wanted and left.`
+			`	那名流浪者飞走，加入了防御行动。几个小时后，天空中的闪光停止了；无羁者要么已被消灭，要么已经拿到想要的东西离开了。`
 				defer
 			label yes
-			`	The Wanderer leaves to join one of the ships that is taking off, and you quickly ready your own ship to follow...`
+			`	那名流浪者离开，去登上一艘正在起飞的飞船，你也迅速做好准备，驾驶自己的飞船跟上……`
 				launch
 	on accept
 		"reputation: Hai (Unfettered)" <?= -1
@@ -774,7 +774,7 @@ mission "Wanderers: Unfettered Diplomacy 1A"
 				`	“也就是说，我也不应该向他们开火？”`
 				`	“那如果他们攻击我们，我们该怎么办？”`
 			`	“我希望你避免战斗，”他说。“据说‘无羁者’很[贪婪、渴望]贿赂，只要你愿意花钱买和平。或者干脆不还手；那艘货船的护盾很坚固。”`
-			`	It takes several hours for the massive Wanderer freighter to be loaded. Rek explains that they have kept track of which kinds of food the Unfettered prefer to steal, so they know what will be edible for them. He says, "Our destination is called <planet>. Sayari tells me that all Hai share a [custom, taboo] concerning guests, so once we land on their planet we will be able to [speak, parley] with them in safety."`
+			`	巨大的流浪者货船花了好几个小时才装载完毕。雷克解释说，他们一直在记录无羁者偏好偷取哪些种类的食物，因此知道哪些对他们来说是可以食用的。他说：“我们的目的地叫<planet>。萨亚里告诉我，所有亥族都有一种关于客人的[习俗，禁忌]，所以一旦我们降落在他们的星球上，就能安全地与他们[交谈，谈判]。”`
 				accept
 	on visit
 		dialog `你已降落于<planet>，但还缺少了什么东西！要么是<npc>尚未进入星系，要么伊克塔特·雷克在你的一艘尚未进入星系的护航舰上。最好先离开等待它到来。`
@@ -1295,12 +1295,12 @@ mission "Wanderers: Alpha Surveillance D"
 			`	夸格说：“埃利亚斯是我们信任的朋友。我们给了他一个追踪跳跃引擎飞船的设备，并输入了人类航母的参数。不要试图从他那里拿走设备。他会带你找到目标，之后你必须立刻将设备归还给我们。”`
 			`	埃利亚斯问道：“如果找到了他们，你准备好独自对付一艘航母了吗？”`
 			choice
-				`	"Yes, my ship is stronger than anything in human space."`
+				`	“是的，我的飞船比人类空间里的任何东西都强大。”`
 					goto end
 				`	“我不这么认为。你确定有必要吗？”`
 			`	他问：“你觉得阿尔法很可能不战而降？也许你该先买一艘亥族战舰，再开始追捕他们。”`
 			label end
-			`	You thank the Quarg for being willing to help you, and you and Elias return to your ship.`
+			`	你感谢夸格愿意帮助你，随后你和埃利亚斯返回了你的飞船。`
 				accept
 	
 	mark "Hi Yahr"
@@ -1476,7 +1476,7 @@ mission "Wanderers: Alpha Surveillance G"
 				`	“所以这一切都白费了？”`
 				`	“真希望我们能抓住他们。”`
 			`	“别太难过了，”丹福斯说，“至少你干掉了他们的航母。如果你来我这边之前没有和他们交手，他们很可能也会意识到身份暴露然后逃跑。而现在他们正在逃亡，这限制了他们的破坏能力。”`
-			`	Danforth's ship collects his troops and takes off. A few seconds later he hails you. "Captain, we have incoming ships from the far side of the planet," he says. "My ship is no match for them. Let's get out of here." It looks like this world is not completely uninhabited, after all...`
+			`	丹佛斯的飞船接回了他的部队并起飞。几秒钟后，他向你发来通讯。“船长，有飞船从行星另一侧向我们逼近，”他说。“我的飞船不是它们的对手。我们离开这里吧。”看来这个世界终究不是完全无人居住……`
 				launch
 	
 	npc accompany save
@@ -1515,10 +1515,10 @@ mission "Wanderers: Alpha Surveillance G"
 					goto stay
 				`	（试图战斗。）`
 				`	（试图逃跑。）`
-			`	You jump up from your seat. The guards fire, and everything goes black.`
+			`	你从座位上一跃而起。警卫开火，眼前顿时一片漆黑。`
 				accept
 			label stay
-			`	You raise your hands in surrender. The guards fire, and everything goes black.`
+			`	你举起双手投降。警卫开火，眼前顿时一片漆黑。`
 				accept
 
 
@@ -1755,11 +1755,11 @@ mission "Wanderers Invaded 1B"
 		conversation
 			`当你跟随货船舰队降落时，一位名叫艾梅卡·伊赛的女性流浪者接待了你。从其他人服从她命令的态度来看，你猜测她是当地的总督或地位类似的人物。“伊克塔特·雷克跟我说过你会来，”她说。“我们将首先撤离平民，然后是[防御者，战士]，如果时间允许的话，最后才是我们的[货物，财产]。一个[队列，群体]的平民已经准备好出发了。请护送他们前往<planet>。”她转过身去和别人说话。显然，她太忙了，无法给你提供更多细节。`
 			choice
-				`	(Leave her to her work, and prepare to escort the freighters.)`
+				`	（让她继续工作，准备护送货船。）`
 					accept
 				`	“我能改为协助你们战斗吗？”`
 			`	她惊讶地中断了与其他人的交谈，转过头来看向你。“现在还不是[合适，战略性]的战斗时机，”她说。“他们如潮水般涌来；我们必须退守到更高的地方，让他们的波涛在奋力触及我们时被[拉扯，耗尽]。”`
-			`	You apologize for the interruption and agree to help escort the refugees to safety.`
+			`	你为打扰她而道歉，并同意帮助护送难民前往安全地带。`
 				accept
 	
 	npc evade
@@ -1816,9 +1816,9 @@ mission "Wanderers Invaded 2"
 			`	正当你们交谈时，他的通讯设备发出哔哔声，一个焦急的声音用流浪者语对他说话。特莱克转向你说道：“<planet>正在受到攻击。我们必须[驱离，击退]亥族足够长的时间，以便让我们更多的人民准备撤离。你愿意帮助我们[对抗，抵御]他们吗？”`
 			choice
 				`	“乐意之至。”`
-				`	"Sorry, I don't want to assist the Wanderers anymore."`
+				`	“抱歉，我不想再协助流浪者了。”`
 					decline
-			`	"I am glad of your [help, company]," he says, "though not of our circumstances. My ships will follow you to the <system> system. There we must fight off the Hai until the next [convoy, fleet] is ready."`
+			`	“我很高兴有你的[帮助，陪伴]，”他说，“尽管对眼下的处境并不高兴。我的舰船会跟随你前往<system>星系。在那里，我们必须抵御亥族，直到下一支[车队，舰队]准备就绪。”`
 				accept
 	on accept
 		event "battle for ik'kara'ka"
@@ -2234,7 +2234,7 @@ mission "Wanderers Solifuge Recon 2"
 			`你降落时，之前见过的军事指挥官索巴里·特勒埃克向你和萨雅里打招呼。“喜欢打架的人类！”他说。“还有亥族大使。很高兴你们来了。人类，我们有两个好消息要告诉你。第一个是，我们决定允许你购买我们的战舰。其中包括那艘新造的丑陋大家伙——暴风级。”`
 			`	“多谢。”你说道。`
 			`	“另一个消息更好！”他说。“我们给你留了一场仗打。在普拉卡查星系发现了未知设计的无羁者飞船。我要求你摧毁所有这些飞船，然后向我报告它们的能力。你不在的时候，我会和萨雅里讨论无羁者的麻烦事。”`
-			`	You tell him that you will do your best. Now that you are able to purchase Wanderer warships, you should be able to match anything the Unfettered throw at you.`
+			`	你告诉他你会尽力而为。既然你现在能够购买流浪者战舰了，应该足以应对无羁者派来的任何对手。`
 				accept
 	npc kill
 		personality staying heroic target
@@ -2507,7 +2507,7 @@ mission "Wanderers Defend Sich'ka'ara"
 		event "battle for sich'ka'ara begins"
 		conversation
 			`运输船刚着陆不久，警报就响了起来。你看到许多流浪者，尤其是战士们，正匆忙登上飞船。索巴里·泰莱克俯冲下来，降落在你的飞船旁边，快速解释道：“我们探测到一支庞大的无羁舰队[正在逼近，正在靠近]。你会加入防御吗？”`
-			`	You agree to help them, and begin preparing your ship for takeoff...`
+			`	你同意帮助他们，并开始为起飞做准备……`
 				launch
 	on visit
 		dialog "上空仍有无羁者的战舰。你应该再次起飞，协助战斗。"
@@ -2925,7 +2925,7 @@ mission "Wanderers Ap'arak 2"
 	on offer
 		conversation
 			`当你准备在此着陆时，似乎瞥见了几艘流浪者飞船，它们采用了另一种陌生设计，甚至比暴风级还要庞大。自从无羁者入侵开始以来，他们的军事科技水平就以惊人的速度提升——即便他们真的只是在重启古代飞船与武器的设计图纸，而非重新发明它们。`
-			`	But the new technology cannot completely offset the fact that no living Wanderer has any real military experience. So, several of their leaders here are eager to talk with you, and you spend hours telling them stories from your recent experience in the war in human space. Sobari Tele'ek, the military commander, is among them. Your conversation is interrupted when sirens begin to sound in the spaceport. "The Hai are approaching!" says Tele'ek. "Please join us in battle, one more time."`
+			`	但新技术无法完全弥补一个事实：在世的流浪者中没有一个拥有真正的军事经验。因此，这里有几位领袖急于与你交谈，你花了几个小时向他们讲述你最近在人类空间战争中的经历。军事指挥官索巴里·特莱克也在其中。太空港里突然响起警报，打断了你们的谈话。“亥族来了！”特莱克说。“请再与我们并肩作战一次。”`
 				launch
 	on accept
 		event "battle for ap'arak"

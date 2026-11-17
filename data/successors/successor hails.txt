@@ -978,7 +978,7 @@ phrase "kaatrij friendly hail"
 		"注视并记录着您"
 		"向您致敬"
 	word
-		" thee, "
+		"，"
 	word
 		"旅人"
 		"船长"

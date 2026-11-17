@@ -345,7 +345,7 @@ mission "Remnant: Rescue"
 	job
 	repeat
 	name "搜救：侦察舰"
-	description "The <npc> has gone missing during a scouting mission in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行侦察任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -415,7 +415,7 @@ mission "Remnant: Rescue 1B"
 	job
 	repeat
 	name "搜救：侦察舰"
-	description "The <npc> has gone missing during a scouting mission in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行侦察任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -453,7 +453,7 @@ mission "Remnant: Rescue 2"
 	job
 	repeat
 	name "搜救：回收"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行技术回收任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -493,7 +493,7 @@ mission "Remnant: Rescue 2B"
 	job
 	repeat
 	name "搜救：回收"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行技术回收任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -531,7 +531,7 @@ mission "Remnant: Rescue 3"
 	job
 	repeat
 	name "搜救：补给船"
-	description "The <npc> has gone missing during a supply run in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行补给运输任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -569,7 +569,7 @@ mission "Remnant: Rescue 3B"
 	job
 	repeat
 	name "搜救：补给船"
-	description "The <npc> has gone missing during a supply run in the Ember Waste. Find them and help them return to <destination>."
+	description "<npc>在余烬废土执行补给运输任务时失踪了。找到他们，并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer

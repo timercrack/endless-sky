@@ -119,9 +119,9 @@ news "conspiracy theorist on post-fw Deneb"
 		system "Deneb"
 	name
 		word
-			"Conspiracy theorist"
-			"Critical thinker"
-			"Truth seeker"
+			"阴谋论者"
+			"批判性思考者"
+			"真相追寻者"
 	message
 		word
 			"你真的"
@@ -302,7 +302,7 @@ news "worker on pug-occupied planet after fw"
 		not government "Pug"
 	name
 		word
-			"Dock worker"
+			"码头工人"
 			"Worker"
 	message
 		word

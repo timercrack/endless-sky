@@ -12,11 +12,11 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 conversation "assisting merchant"
-	`${assist merchant 1} <origin>${assist merchant 2} ${assist merchant 3} <payment>${assist merchant 4}`
+	`${assist merchant 1}<origin>${assist merchant 2}${assist merchant 3}<payment>${assist merchant 4}`
 		decline
 
 conversation "assisting merchant hazardous"
-	`${assist merchant 1 hazardous} <origin>${assist merchant 2} ${assist merchant 3} <payment>${assist merchant 4}`
+	`${assist merchant 1 hazardous}<origin>${assist merchant 2}${assist merchant 3}<payment>${assist merchant 4}`
 		decline
 
 mission "Assisting Merchant (Small)"

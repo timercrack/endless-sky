@@ -565,9 +565,9 @@ mission "Scientists at the Pub after a Conference"
 		conversation
 			`在经历了一段漫长的旅途和感觉更加漫长的降落程序后，你正坐下来歇息，这时注意到一群人走进了你所在的酒吧，他们是从街对面的会议中心涌进来的。他们年龄不同，衣着和口音也各异，但大多数人脖子上都挂着带挂绳的相同徽章。你注意到地上掉了一个徽章，上面写着“参会者——第35届泛银河星际微生物基因组学与种群动力学年会”。这群人在你附近的一张长桌旁坐了下来。`
 			choice
-				`	(Order a meal and listen in to their conversation.)`
+				`	（点一份餐，偷听他们的谈话。）`
 					goto "overheard scientists 1"
-				`	(Find somewhere quieter to relax.)`
+				`	（找个更安静的地方放松一下。）`
 					decline
 			label "overheard scientists 1"
 			`	谈话的片段透过酒吧的嘈杂声传到你耳中。`
@@ -582,9 +582,9 @@ mission "Scientists at the Pub after a Conference"
 			``
 			`	一位气恼的学者正激动地向她的朋友谈论你推断她们都听过的一场演讲。“我完全不认为核苷酸证据能支持他们的假设！我知道蛋白质组学数据可以用来支持他们的结论，但他们忽略了同义突变！”`
 			choice
-				`	(Order another beverage and continue listening.)`
+				`	（再点一杯饮料，继续听下去。）`
 					goto "overheard scientists 2"
-				`	(Finish my meal and leave.)`
+				`	（吃完饭离开。）`
 					decline
 			label "overheard scientists 2"
 			`	这群人的谈话声越来越大，既是因为对话题的热情，也受了几杯酒的影响。`
@@ -599,16 +599,16 @@ mission "Scientists at the Pub after a Conference"
 			`	“这还真是个两难境地。也许你可以去工业界找些资金？辛迪加可能会对你的工作感兴趣。”`
 			`	“是啊，但我还不确定是否愿意放弃学术自由。”`
 			choice
-				`	(Finish up at my own pace.)`
+				`	（按自己的节奏慢慢吃完。）`
 					goto "overheard scientists 3"
-				`	(Settle my bill as quickly as possible and leave.)`
+				`	（尽快结账离开。）`
 					decline
 			label "overheard scientists 3"
 			`	两位与会者互相倾诉着对工作的抱怨。“教学真是糟透了。上课、答疑和备课占用了太多时间，几乎没剩下多少时间做科研。”`
 			`	“真逗！给本科生上课是我写经费申请时唯一的喘息机会！”`
 			``
 			`	一位友善但满脸疲惫的男人靠在椅背上。“这种会议只持续三四天，但总感觉让人老了一岁。”`
-			`	You leave after finishing your meal, reflecting on having overheard a slice of a life very different from your own.`
+			`	吃完饭后你离开了，回想着自己偶然听到的那段与你截然不同的人生片段。`
 				decline
 
 
@@ -888,7 +888,7 @@ mission "Exotic Life: Buccaneer Bay"
 			`	一个身材瘦长、留着编成辫子的银白胡须、装有电子左眼的侍者极力招揽你进去，并熟练地吆喝道：“镇上最好的盘鱼！一生仅有一次的体验，还附赠名扬星际的纪念品！快来尝尝盘鱼——既能当菜吃，又能当盘子使的鱼！”`
 			choice
 				`	“什么？”`
-				`	"How much?"`
+				`	“多少钱？”`
 					goto price
 				`	“不了，谢谢。”`
 					decline
@@ -913,11 +913,11 @@ mission "Exotic Life: Buccaneer Bay"
 			`	侍者回来了，端上的餐盘确实很特别。他端出一块相当大的象牙色圆盘，骨头光滑锃亮，由桌上的三根渐细角支撑平衡。盘子里放着一根被串起来烤焦的尾巴，表皮烤得噼啪作响。看起来既引人注目又令人胃口大开。`
 			choice
 				`	（咬一口。）`
-				`	(Thank the waiter and leave.)`
+				`	（谢过侍者后离开。）`
 					goto thanks
 			`	你咬了一口。这肉……简直是对食物的恶劣作践。刚入口是一股类似湿堆肥的霉烂与硫磺味，紧接着下面便透出一种近乎腐烂的腥酸，与其看似新鲜的外表完全不符。唯一能算得上挽救其风味的，是最后留在嘴里的一丝咸泥巴般的淡淡土腥味。`
 			label thanks
-			`	The waiter comes to flick the Dish Fish clean with a rag, thanks you for patronizing the establishment, and jerks a thumb towards the door - a punctuated close to your 'meal of a lifetime.'`
+			`	侍者过来用抹布把盘鱼擦干净，感谢你的光临，然后用大拇指朝门口一指——为你这顿“一生仅有一次的大餐”画上了一个干脆利落的句号。`
 				decline
 
 mission "Exotic Life: New Greenland"
@@ -1085,7 +1085,7 @@ mission "Exotic Life: Delve"
 			label whatisshipworm
 			`	“它们是一种极其微小的生物，大概只有针尖那么大，稍不留神就会钻得到处都是。它们能啃食各种各样的金属，把那帮科研怪人逼得直抓狂。到目前为止，他们还没发现任何这些小家伙消化不了的合金。”`
 			label coverup
-				`	"As a model Syndicate employee," he says sardonically, "I can tell you that the rumors that the shipworm is indigenous to this planet are untrue, and that the miners are categorically not hauling them out of the ground along with the ore. In fact, if you even use the term 'Delvan shipworm' there is a good chance that you'll have Syndicate lawyers suing you for defamation."`
+				`	“作为一名模范辛迪加员工，”他讥讽地说，“我可以告诉你，关于船蛆原产于这颗星球的传言纯属谣言，矿工们也绝对没有在开采矿石的同时把它们从地底下挖出来。事实上，你要是敢用‘德尔夫船蛆’这个词，辛迪加的律师很可能会以诽谤罪起诉你。”`
 			`	你感谢了技术人员抽空解答，转身朝<ship>走去，心里琢磨着是不是该把船停得稍微远一点。`
 				decline
 

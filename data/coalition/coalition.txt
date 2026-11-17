@@ -1306,22 +1306,22 @@ phrase "friendly coalition"
 
 phrase "friendly coalition"
 	word
-		"In a longcow ranch"
-		"On ringworld construction"
-		"On station maintenance"
-		"In a Kimek farm"
-		"In an Arach mine"
-		"In a Saryd laboratory"
+		"在一座长角牛牧场里"
+		"在环形世界的建设工地上"
+		"在空间站的维护岗位上"
+		"在一座基梅克农场里"
+		"在一座阿拉奇矿井里"
+		"在一间萨里德实验室里"
 		"在一座基梅克饥荒塔里"
 		"在一座萨里德养老院里"
-		"In an Arach resort"
+		"在一座阿拉奇度假村里"
 	word
 		"里，"
 	word
-		"I used to work"
-		"my family works"
-		"my parents worked"
-		"my co-pilot worked"
+		"我以前在那里工作"
+		"我的家人在那里工作"
+		"我的父母曾在那里工作"
+		"我的副驾驶曾在那里工作"
 	word
 		"。"
 

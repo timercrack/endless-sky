@@ -35,11 +35,11 @@ mission "Deep: Syndicate Convoy"
 			`一名身穿深渊安保制服的男子朝你走来，询问你是否愿意在<day>前护送几艘货船前往<stopovers>并返回。“通常我们会让自己的舰队来执行，”他说，“但鉴于某些特殊情况，我们目前缺乏可用的飞船。”`
 			choice
 				`	“当然，我能办到。”`
-				`	"Sorry, but I won't be traveling in that direction any time soon."`
+				`	“抱歉，我近期不会往那个方向走。”`
 					decline
 			
 			`	“很好。出发之前，你得知道星宿一、天狼星和河鼓二可能会有海盗势力在伏击。你可以尝试避开他们，但一定要准时将货船队带回来。”`
-			`	The Deep Security officer wishes you good luck and walks off, leaving you to wonder how he knows where pirate fleets might be waiting for you.`
+			`	深渊安保的军官祝你好运后便走开了，留下你独自纳闷他是怎么知道海盗舰队可能会在哪里等着你的。`
 				accept
 	
 	npc accompany save
@@ -127,11 +127,11 @@ mission "Deep: Tarazed Convoy"
 			`当你正穿过太空港时，一名身穿深渊安保制服的女子叫住了你。“你是<last>船长，对吧？”你点点头。“你是否愿意护送几艘货船前往<stopovers>装载一些货物？我们需要它们在<day>前返回这里。正常情况下这种差事该由深渊安保来办，但我们目前抽不出多余的飞船。”`
 			choice
 				`	“当然，我能办到。”`
-				`	"Sorry, but I won't be traveling in that direction any time soon."`
+				`	“抱歉，我近期不会往那个方向走。”`
 					decline
 			
 			`	“多谢，船长。在出发之前，我需要提醒你，你可能会在三台五、右摄提一和斗宿六附近遇到海盗舰队，而且你可能没有富余的时间绕开这些星系。”`
-			`	The Deep Security officer wishes you good luck and walks off, leaving you to wonder how she knows where pirate fleets might be waiting for you.`
+			`	深渊安保的军官祝你好运后便走开了，留下你独自纳闷她是怎么知道海盗舰队可能会在哪里等着你的。`
 				accept
 	
 	npc accompany save
@@ -434,17 +434,17 @@ mission "Deep: Mystery Cubes 2"
 			`	“别西卜大概是自28世纪以来被通缉级别最高的海盗军阀。由于海军和幽海星的科技现在都落入了这个罪犯之手，我们需要动用所有能动用的船只来拿下他。有鉴于此，我们目前希望你们能协助我们围捕别西卜。你们六位的舰队合在一起，绝对可以弥补海军在袭击中所遭受的损失。”`
 			`	“我们能拿到多少报酬？”另一位商船船长问道。“最少一百万信用点，”上将回答。提问的船长立刻同意帮忙，另外两人也表示赞同。`
 			choice
-				`	"I'll help as well."`
+				`	“我也来帮忙。”`
 					goto accept
 				`	“抱歉，但我没兴趣帮忙。”`
 			
-			`	One other merchant captain also declines, and you both are escorted out of the room, into the waiting elevator. The trip back to the surface is silent, and your escort dismisses you both with a simple "Goodbye."`
+			`	另一位商船船长也拒绝了，你们俩被护送出房间，进入等候着的电梯。返回地面的途中一片沉默，护送人员只简单地说了一句“再见”，便打发你们离开了。`
 				decline
 			
 			label accept
 			`	最终，只有一位商船船长表示拒绝。在她被护送离开房间后，上将开始向其余的商船船长阐明各自的新任务。`
 			`	“我们假设别西卜知道我们的行踪，但我们也掌握了他的去向——被窃的巡洋舰以及袭击我们基地的海盗舰队正朝核心星域移动。鉴于别西卜刚刚所犯下罪行的严重性，他无疑会试图尽可能地逃离法网。这就只剩下两个可能的目的地：海盗湾，或是极北的无政府主义殖民地。我们推测，对于一名军阀而言，那些殖民地会是更具吸引力的选择。”`
-			`	"We'll be setting up multiple blockades in hopes of boxing Beelzebub in as a number of fleets sweep the galaxy. Captain <last>, you will be stationed on <destination> with Lieutenant Paris and a small Navy fleet. Please gather your things and travel there immediately."`
+			`	“我们将设立多道封锁线，希望在多支舰队扫荡银河系的同时把别西卜围困住。<last>船长，你将与帕里斯中尉以及一支小型海军舰队一起驻守<destination>。请收拾好你的东西，立即前往那里。”`
 				accept
 			
 	on visit
@@ -524,9 +524,9 @@ mission "Deep: Mystery Cubes 3"
 			`	“目前，你可以在太空港里四处走走，看能做点什么，但别走太远，否则你可能根本无法及时赶回飞船。”帕里斯递给你一个通讯器。“这样一来，无论你在哪里，一旦发生情况都能收到通知。我会留在我的飞船上监控传进来的通讯。”`
 			choice
 				`	（在太空港里闲逛。）`
-				`	(Stay near my ship.)`
+				`	（待在我的飞船附近。）`
 					goto ship
-			`	Other than the occasional blaring of a train whistle, the spaceport of <planet> is rather tranquil. You pass the time by talking to a few tourists, most of whom are getting ready to go rock climbing. While walking through the restaurant district, the ground begins to shake slightly. Many of the locals don't even react to the earthquake, and eventually it subsides. Once you have walked through the entire spaceport and seen all that it has to offer, you begin to make your way back to your ship.`
+			`	除了偶尔响起的火车汽笛声，<planet>的太空港相当宁静。你和几位游客聊天打发时间，他们大多正准备去攀岩。当你穿过餐饮区时，地面开始轻微晃动。许多当地人对这场地震甚至毫无反应，过了一会儿，震动便平息了。在逛遍整个太空港、见识了这里的一切之后，你开始往自己的飞船走去。`
 				goto mirfak
 				
 			label ship
@@ -536,7 +536,7 @@ mission "Deep: Mystery Cubes 3"
 			`	突然，你的通讯器哔哔作响，传来帕里斯中尉的声音：“天船三的封锁线刚刚遭到袭击。重复，天船三的封锁线刚刚遭到袭击。报告显示封锁舰队损失惨重，因为海盗舰队中包含了一艘被盗的巡洋舰。”`
 			`	一名相当年轻的新兵问道：“我们应该去帮忙吗？”对此，一位资深军官回应道：“我们接到了命令，除非另有指示，否则我们必须遵守。”通讯归于沉寂，等待继续。`
 			``
-			`	A few anxious hours pass with no new information. Suddenly, without warning, one of the Ravens takes off and your communications device begins blaring. "A pirate fleet just jumped into the system, alongside two Navy Cruisers painted in pirate colors!" All the captains and their crew scatter for their ships, ready to fight.`
+			`	焦急的几个小时过去了，没有任何新消息。突然，毫无预警地，其中一艘渡鸦起飞了，你的通讯器也开始大声作响。“一支海盗舰队刚刚跃入星系，同行的还有两艘涂着海盗涂装的海军巡洋舰！”所有船长和船员都四散奔向各自的飞船，准备战斗。`
 				launch
 	
 	npc kill
@@ -564,7 +564,7 @@ mission "Deep: Mystery Cubes 4"
 			`尽管海盗驾驶着征用的海军巡洋舰，但他们依然未能突破封锁。在你们一行人全部着陆后，帕里斯邀请各位船长进入他的飞船，并与任务控制中心取得联系。他转达了战况报告，你得知离宫四的封锁线也遭到了袭击，但并未发现被盗巡洋舰的踪迹。`
 			`	“上将，您的命令是什么？”帕里斯在通讯中问道。`
 			`	“中尉，根据你的报告，已确认了三艘巡洋舰的下落，但依然没有别西卜的踪迹。我们的侦察舰队已经接近封锁线，这意味着我们很快就能抓住这个军阀。在向你们驻地扫荡的海军舰队进入尼哈尔之后，我希望你带领所有人前往<destination>。别西卜可能正计划用剩下的三艘巡洋舰攻击那里的封锁线。”`
-			`	"Understood sir." After contacting the captain of the Navy fleet approaching <origin>, Paris holds a short all-hands briefing to inform the crew that they should be ready to leave for <destination> in a few hours.`
+			`	“明白，长官。”在联系了正接近<origin>的海军舰队舰长后，帕里斯召开了一次简短的全体简报会，通知船员们做好准备，几个小时后出发前往<destination>。`
 				accept
 	
 	npc
@@ -671,7 +671,7 @@ event "assisted the deep"
 mission "Deep: TMBR 0"
 	minor
 	name `寻找“或有暴动”乐队`
-	description `Find "There Might Be Riots" by <date> and convince them to throw a concert on <destination>.`
+	description `在<date>之前找到“或有暴动”乐队，并说服他们在<destination>举办一场演唱会。`
 	source
 		not system "Aludra"
 		attributes "deep"
@@ -844,17 +844,17 @@ conversation "deep: questioning"
 		`	（服从命令。）`
 			goto orders
 		`	“你们为什么要盘问我？”`
-		`	(Close the hatch and flee.)`
+		`	（关上舱门逃跑。）`
 			goto flee
 	
 	`	“因为我们想向你了解你为阿尔伯特·福斯特工作的情况。现在，请下船并跟我们走。”`
 	choice
 		`	（服从命令。）`
-		`	(Close the hatch and flee.)`
+		`	（关上舱门逃跑。）`
 			goto flee
 	
 	label orders
-	`	You follow the officers to a building located on the eastern edge of the spaceport. You are led to a small, dimly lit room on the second floor that contains nothing but two chairs and a table. You are told to sit in one of the chairs and wait.`
+	`	你跟着警官们来到太空港东边的一栋建筑。你被带到二楼一个狭小昏暗的房间，里面除了两把椅子和一张桌子什么都没有。他们让你坐在其中一把椅子上等着。`
 		goto questioning
 	
 	label flee
@@ -874,11 +874,11 @@ conversation "deep: questioning"
 	
 	`	女人微微一笑。“不用跟我冷嘲热讽。好了，你应该很清楚自己为什么在这儿。”`
 	choice
-		`	"I do?"`
+		`	“我知道？”`
 			goto clueless
 		`	“我没犯任何罪，你们无权拘留我。”`
 	
-	`	"Indeed, no crimes were committed during your work for Albert Foster, but we still have the right to detain you to keep the Deep safe. Cause us no trouble during this little meeting, answer my questions, and you will be on your way in a few minutes' time.`
+	`	“确实，你在为阿尔伯特·福斯特工作期间并没有犯罪，但为了保障幽海星的安全，我们仍然有权拘留你。在这次小小的会面中别给我们添麻烦，回答我的问题，几分钟后你就可以走了。`
 		goto foster
 	
 	label clueless
@@ -888,29 +888,29 @@ conversation "deep: questioning"
 	`	“我的第一个问题：你到底和阿尔伯特·福斯特在做什么？”`
 	label first
 	choice
-		`	"You can't interrogate me. I'm a citizen of the Deep."`
+		`	“你们不能审问我。我是幽海星的公民。”`
 			to display
 				has "start: deep"
 				not "questioning: citizen"
-		`	"We were scanning Midgard with gravitational field mapping equipment and spotted an artificial singularity before we fled."`
+		`	“我们当时用引力场测绘设备扫描米德加德，在逃离之前发现了一个人造奇点。”`
 			goto honest
-		`	"He told me he was researching the Deep and he needed help conducting his research."`
+		`	“他告诉我他在研究幽海星，需要有人帮他开展研究。”`
 			goto work
 	
 	action
 		set "questioning: citizen"
 	`	她皱起眉头。“但这并不能让你免于我们的调查。`
-	`	"Now again: what exactly were you doing with Albert Foster?"`
+	`	“那么再问一遍：你到底和阿尔伯特·福斯特在做什么？”`
 		goto first
 	
 	label work
 	`	“那你认为他为什么需要别人替他来做这些工作呢？”`
 	choice
 		`	“因为他想做违法的事。”`
-		`	"Because he isn't allowed in the Deep."`
+		`	“因为他不被允许进入幽海星。”`
 			goto allowed
 	
-	`	"I already told you that you didn't commit a crime. The reason is that Foster has caused the Deep plenty of trouble in the past, so we don't particularly enjoy his presence. Now, did Albert make any discoveries due to your assistance?"`
+	`	“我已经告诉过你，你没有犯罪。原因在于福斯特过去给幽海星惹了不少麻烦，所以我们并不怎么欢迎他。那么，在你的协助下，阿尔伯特有什么发现吗？”`
 		goto choice
 	
 	label allowed
@@ -919,13 +919,13 @@ conversation "deep: questioning"
 	label choice
 	choice
 		`	“他发现米德加德的那座教堂古老得有些不合常理，历史至少可以追溯到18世纪初。”`
-		`	"We spotted something on Midgard that he called an 'artificial singularity.'"`
+		`	“我们在米德加德发现了某样东西，他称之为‘人造奇点’。”`
 			goto honest
 		
 	`	“很有意思的发现，船长。他还有其他发现吗？”`
 	choice
 		`	“不知道。”`
-		`	"Yes. We used gravitational mapping equipment on Midgard and we found what looked like an artificial singularity."`
+		`	“有的。我们在米德加德使用了引力测绘设备，发现了一个看起来像是人造奇点的东西。”`
 			goto honest
 	
 	`	女人沉默了片刻。当她终于开口时，你不得不凑上前去才能听清。“别对我撒谎。我能让你的这段经历变得非常不好受。”`
@@ -940,14 +940,14 @@ conversation "deep: questioning"
 	branch helped
 		has "Deep: Mystery Cubes 4: done"
 	
-	`	The woman's mouth turns into a sly smile as she leans back in her chair. "Thank you for the information. That is all we needed you for. You will be escorted back outside momentarily. Enjoy the rest of your day, <first> <last>."`
+	`	女人靠回椅背，嘴角浮现出一抹狡黠的微笑。“感谢你提供的信息。我们需要你的就这些了。稍后会有人护送你出去。祝你今天余下的时光愉快，<first> <last>。”`
 		goto next
 	
 	label helped
 	action
 		set "deep: helped before archaeology"
 	`	女人靠回椅背，嘴角勾起一抹狡黠的微笑。“谢谢你提供的信息，船长。在放你走之前，我想感谢你为幽海星所做的工作。我很感兴趣地听说，那位帮我们追捕别西卜的船长也帮了阿尔伯特·福斯特。别担心，我们都会犯愚蠢的错误。我们会把这一笔从你的记录中抹去。`
-	`	"You clearly mean no harm to the Deep, so I'll give you the privilege of asking me any questions you might have after this encounter."`
+	`	“你显然对幽海星没有恶意，所以我会给你一个特权：在这次会面之后，你可以向我提出任何你想问的问题。”`
 		goto questions
 	
 	label question1
@@ -966,7 +966,7 @@ conversation "deep: questioning"
 	
 	label ask
 	`	女人关上护航艇的舱门，将你留在了昏暗的荧光灯光线中。这艘船想必相当老旧了，内部居然还在使用荧光灯，而不是大多数现代飞船所使用的LED灯。`
-	`	"I've asked you onto my ship so that we may have some privacy. You clearly mean no harm to the Deep. For starters, I'm sure you'll be happy to hear that we've scratched your incident with Albert Foster from your record. Additionally, I'm extending you the privilege of asking me any questions you might have relating to our last encounter."`
+	`	“我请你上我的船，是为了让我们能有些私密的空间。你显然对幽海星没有恶意。首先，我相信你会很高兴听到，我们已经把你和阿尔伯特·福斯特的那次事件从你的记录中抹去了。此外，我还给你一个特权：你可以问我任何与我们上次会面有关的问题。”`
 		goto questions
 	
 	label questions
@@ -974,19 +974,19 @@ conversation "deep: questioning"
 		`	“幽海星到底是什么时候定居的？”`
 		`	“米德加德真的有人造奇点吗？”`
 			goto singularity?
-		`	"I don't have any questions."`
+		`	“我没有任何问题。”`
 			goto none
 		
 	`	“确切的日期早已湮没在历史中，但民间传说称，第一批人类在14世纪中期就已经来到了这里，那是在古地球的‘黑死病’瘟疫爆发之前。不过，轻信这些奇幻传说可并不明智。”`
 	choice
 		`	“幽海星最初的那批人类真的是被外星人带到这里的吗？”`
-		`	"I don't have any more questions."`
+		`	“我没有其他问题了。”`
 			goto none
 		
 	`	“这个问题你得去问那些最初被带到这里的人了。”女人再次露出一抹狡黠的微笑。`
 	choice
 		`	“米德加德真的有人造奇点吗？”`
-		`	"I don't have any more questions."`
+		`	“我没有其他问题了。”`
 			goto none
 		
 	`	“那些引力测绘设备有时候娇贵得很。我相信那什么也不是。”`
@@ -996,13 +996,13 @@ conversation "deep: questioning"
 	`	“那些引力测绘设备有时候娇贵得很。我相信那什么也不是。”`
 	choice
 		`	“幽海星到底是什么时候定居的？”`
-		`	"I don't have any questions."`
+		`	“我没有任何问题。”`
 			goto none
 		
 	`	“确切的日期早已湮没在历史中，但民间传说称，第一批人类在14世纪中期就已经来到了这里，那是在古地球的‘黑死病’瘟疫爆发之前。不过，轻信这些奇幻传说可并不明智。”`
 	choice
 		`	“幽海星最初的那批人类真的是被外星人带到这里的吗？”`
-		`	"I don't have any more questions."`
+		`	“我没有其他问题了。”`
 			goto none
 		
 	`	“这个问题你得去问那些最初被带到这里的人了。”女人再次露出一抹狡黠的微笑。`
@@ -1011,33 +1011,33 @@ conversation "deep: questioning"
 	branch question2
 		has "Deep: Interrogation: offered"
 	
-	`	"That will be enough questions for now. You will be escorted back outside momentarily. Enjoy the rest of your day, Captain."`
+	`	“今天的问题就到此为止吧。稍后会有人护送你出去。祝你今天余下的时光愉快，船长。”`
 		goto next
 	
 	label question2
-	`	"That will be enough questions for now."`
+	`	“今天的问题就到此为止吧。”`
 		goto next
 	
 	label none
 	branch question3
 		has "Deep: Interrogation: offered"
 	
-	`	"If that is all, then this meeting is over. You will be escorted back outside momentarily. Enjoy the rest of your day, Captain."`
+	`	“如果没有别的问题，那么这次会面就结束了。稍后会有人护送你出去。祝你今天余下的时光愉快，船长。”`
 		goto next
 		
 	label question3
-	`	"Very well."`
+	`	“很好。”`
 		goto next
 	
 	label next
 	branch question4
 		has "Deep: Interrogation: offered"
 	
-	`	The woman gets up from her chair and stops in the doorway. She turns her head slightly and says in a low voice, "I'll be watching," then leaves. Moments later, the same two men that brought you here step into the room and ask you to follow them. They lead you to an entryway and lock the door as you step out into the spaceport.`
+	`	女人从椅子上站起身，在门口停下。她微微侧过头，低声说道：“我会盯着你的。”然后便离开了。片刻之后，带你来这里的那两个男人走进房间，让你跟他们走。他们把你带到一个出口，在你踏进太空港后锁上了门。`
 		decline
 
 	label question4
-	`	The woman opens the hatch to the ship. "We might meet again in the future. Stay on your best behavior and our next meeting will surely be on good terms. Goodbye, Captain."`
+	`	女人打开了飞船的舱门。“将来我们或许还会再见。规规矩矩的，我们下次见面时肯定会是愉快的。再见，船长。”`
 		decline
 	
 
@@ -1175,10 +1175,10 @@ mission "Deep: Project Hawking: Carbuncle"
 			`	经过一番简短讨论，加里森同意留下来陪你。皮埃尔、汉娜和劳拉穿过隔离舱门上一个窄得尴尬的开口，被带进了禁区。你不想在那些警卫面前干等着，便与加里森一起回到了自己舒适的飞船上。`
 			choice
 				`	“等待的这段时间，我们该怎么打发时间呢？”`
-				`	"How long will it be before they come back?"`
+				`	“他们还要多久才能回来？”`
 					goto wait
 			
-			`	"It shouldn't take long for them to come back, so we could have a short chat if you want."`
+			`	“他们应该不会太久就回来，所以如果你愿意，我们可以简单聊聊。”`
 				goto questions
 			
 			label wait
@@ -1187,7 +1187,7 @@ mission "Deep: Project Hawking: Carbuncle"
 			label questions
 			choice
 				`	“你知道洛夫莱斯实验室在这座空间站里藏了些什么吗？”`
-				`	"What is 'Project Hawking'?"`
+				`	“‘霍金计划’是什么？”`
 					goto project
 			
 			`	“我完全不清楚他们在这里存放了些什么。即便我知道，我也确信自己是不被允许透露给你的。我唯一能够肯定的是，这里有我们当前进行的项目所需要的组件。”`
@@ -1199,16 +1199,16 @@ mission "Deep: Project Hawking: Carbuncle"
 			`	“总之，由于我过去的工作经验，幽海星官方找到我并邀请我加入这个项目。这里的薪酬待遇比我以前要好，所以我就答应了。能结识我的搭档们也是个惊喜。汉娜和我本科是同届，她居然辅修了量子力学和古代史的双学位，真是个不可思议的专业组合。”`
 			choice
 				`	“你们需要从炽榴空间站获取什么机密物品吗？”`
-				`	"What about Pierre and Laura?"`
+				`	“那皮埃尔和劳拉呢？”`
 					goto partners
 			
-			`	"Like I said already, the project is classified. It's not something I would understand, though. It's in Laura's field of expertise. You see, she has a PHD in--"`
+			`	“就像我说过的，这个项目是机密。不过那也不是我能搞懂的东西，那是劳拉的专业领域。你知道，她拥有的博士学位是——”`
 				goto end
 			
 			label partners
 			branch electron
 				has "event: navy using mark ii ships"
-			`	"Pierre is an older guy, he's been working on laser weaponry for the better part of three decades now. Before this he was working on a separate project, but the Deep asked that he take time away from that to work on Project Hawking while they try to find a replacement for him, since the project needed someone with better knowledge in laser weaponry than the rest of us.`
+			`	“皮埃尔年纪比较大，他从事激光武器研究已经快三十年了。在此之前，他在做另一个项目，但幽海星要求他暂时放下那边的工作来参与霍金计划，同时他们设法给他找个接替者，因为这个项目需要一个比我们其他人更懂激光武器的人。`
 				goto laura
 			
 			label electron
@@ -1224,7 +1224,7 @@ mission "Deep: Project Hawking: Carbuncle"
 			`		要求您立即起飞离港。`
 			`					炽榴空间站停泊管理局`
 			``
-			`	You signal to your crew and passengers that takeoff is imminent, and obey the wishes of Lovelace Labs' research station.`
+			`	你向船员和乘客示意即将起飞，并遵从洛夫莱斯实验室研究站的要求。`
 				launch
 
 
@@ -3355,12 +3355,12 @@ mission "Home for Skadenga 3"
 			`	“城镇边缘有三个大型预制装配式住宅小区刚刚完工。如果你感兴趣，我今天就能帮你安排一次看房预约。”她递给你一张名片。“我叫卡拉·冯·豪森，我很乐意为您提供房产经纪服务。”她露出了一个干练而职业的微笑，但笑意并未到达眼底。`
 			choice
 				`	“走开，女士。”`
-				`	"Thanks, but I am just passing through."`
+				`	“谢谢，不过我只是路过。”`
 					goto stars
-				`	"My home is among the stars."`
+				`	“我的家在群星之间。”`
 					goto stars
 			`	卡拉的眉头微微皱了一下，但很快又恢复了职业性的微笑。“相信我，能买下为什么要租呢？既然能把他们安顿在这里，又何必把一大家子人搬去一个荒凉、甚至连餐馆都没几家可选的荒芜世界呢？”`
-			`	She stands and smooths her suit jacket. "When you change your mind, I'll be here." With that, she's gone, and you are free to turn your attention back to the God-Stone.`
+			`	她站起身，抚平西装外套。“等你改变主意，我会在这里。”说完她便走了，你又可以把注意力转回神石上了。`
 				goto "elf stone"
 			label stars
 			`	卡拉报以居高临下的微笑。“啊，亲爱的。你可能是在太空中讨生活，但终归，你还是需要一个能称之为家的世界的。”`
@@ -3369,7 +3369,7 @@ mission "Home for Skadenga 3"
 			`	在这一层暴露出来的神石部分显得暗淡无光。你试图寻找某种图案，但由于可见的墙面实在太少，根本什么也分辨不出来。它被分割成了一小块一小块，每一家店铺和餐馆都占有了属于自己的一块。当你凝视着它时，内心什么感觉也没有，只感到一片虚无。不过，你确实注意到在一大段未被遮挡的墙面旁有一块铭牌。`
 			choice
 				`	（阅读铭牌。）`
-				`	(Return to my ship.)`
+				`	（返回我的飞船。）`
 					goto ship
 			`	铭牌上将神石标注为“殖民时期涂鸦”，上面写着：`
 			``
@@ -3381,7 +3381,7 @@ mission "Home for Skadenga 3"
 			``
 			`	你读完铭牌，望向这堵暗淡无光的灰色金属墙，以及其上雕刻着的怪异图案。这看起来根本就不像是任何飞船的船体。`
 			label ship
-			`	These people seem disconnected from their past. You wonder if the Skadenga could help them reconnect with it, but worry that the place would change the Skadenga more than they could change it. There is nothing more you can do here. You head back to your ship.`
+			`	这些人似乎与自己的过去脱节了。你想知道斯卡登加人能否帮助他们重新与过去建立联系，但又担心这个地方对斯卡登加人的改变，会比他们对这里的改变更大。你在这里已经无能为力了。你返回了自己的飞船。`
 				accept
 	to complete
 		has "Home for Skadenga 2: offered"
@@ -3509,7 +3509,7 @@ mission "Mani Refit"
 			`您的收件箱闪烁着一封来自运输联盟的新消息：`
 			``
 			`	舰队已为这趟鼓舞人心的旅程准备就绪。请返回玛尼。`
-			`				Jayden, Mani Administrator, Transport Union`
+			`				杰登，运输联盟玛尼行政长官`
 				accept
 
 
@@ -3859,7 +3859,7 @@ mission "Home for Skadenga 10"
 			`	一切就绪。快回来。`
 			`				赫罗阿尔`
 			`			“悍吼”货运公司CEO`
-			`			We're an unstoppable force that has never met an immovable object!`
+			`			我们是势不可挡的力量，从未遇到过撼动不了的东西！`
 				accept
 
 

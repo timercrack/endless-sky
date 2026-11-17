@@ -67,7 +67,7 @@ mission "First Contact: Rulei"
 				`	“你是什么意思？”`
 			`	声音再次响起，但你感觉到它们的语气中多了一种新的阴郁。你再次尝试与那艘飞船沟通，尽管背景中仍有持续的耳语，但它不再回应。`
 			`	再次打量那艘飞船，它似乎出自某种先进文明之手。船体表面流动着诡异的星状图案，而且从外观上看没有任何标准的推进装置。尾部有一圈悬浮的物体，正以一种奇特的方式旋转着。`
-			`	The planets in this system seem to have an abnormal appearance similar to that of the starship, but for some reason even looking at them gives you a headache. Something unusual must have happened here a long time ago.`
+			`	这个星系中的行星似乎也呈现出与那艘飞船相似的异常外观，但不知为何，光是看着它们就让你头痛。很久以前，这里一定发生过什么不同寻常的事。`
 				decline
 
 # Fail the old versions of the above two missions.
@@ -100,7 +100,7 @@ mission "Rulei Planet"
 			``
 			``
 			``
-			`	It's best you don't remain here for too long.`
+			`	你最好不要在这里停留太久。`
 				decline
 
 mission "Rulei: You Are (Not) Alone: L-118"

@@ -116,9 +116,9 @@ mission "Han Sizer Month [0]"
 	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 2 10 .9
 	substitutions
-		"<on Longjump>" "somewhere nearby"
+		"<on Longjump>" "附近某处"
 			has "flagship planet: Longjump"
-		"<on Longjump>" "on Longjump"
+		"<on Longjump>" "长跃星上"
 			not "flagship planet: Longjump"
 	to offer
 		random < 30
@@ -145,9 +145,9 @@ mission "Han Sizer Month [1]"
 	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 2 10 .8
 	substitutions
-		"<on Longjump>" "near here"
+		"<on Longjump>" "（对方就在附近）"
 			has "flagship planet: Longjump"
-		"<on Longjump>" "on Longjump"
+		"<on Longjump>" "（对方在长跃星上）"
 			not "flagship planet: Longjump"
 	to offer
 		random < 20
@@ -210,9 +210,9 @@ mission "Han Sizer Month [3]"
 	description `为庆祝天市右垣十一·塞泽月，将<fare>运送至所有标记星系，然后返回<destination>领取<payment>。`
 	passengers 25 4 .1
 	substitutions
-		"<on Longjump>" "near here"
+		"<on Longjump>" "（对方就在附近）"
 			has "flagship planet: Longjump"
-		"<on Longjump>" "on Longjump"
+		"<on Longjump>" "（对方在长跃星上）"
 			not "flagship planet: Longjump"
 	to offer
 		random < "passenger space" - 30
@@ -258,7 +258,7 @@ mission "Delta V Hovercraft Racer Transport"
 
 mission "Delta V Hovercraft Large Racer Transport"
 	name "运送车队至<planet>"
-	description "Deliver this <bunks>-member racing team and their set of <cargo> to <destination> to attend a race by <date>."
+	description "在<date>前，将这支<bunks>人的赛车队及其<cargo>送达<destination>参加比赛。"
 	passengers 50 100 .9
 	cargo "Delta V hovercraft" 50
 	job

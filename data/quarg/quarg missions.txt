@@ -397,7 +397,7 @@ mission "Ask Quarg About Coalition Late"
 				`	“你好，我是<first> <last>。关于联盟，你能告诉我些什么？”`
 				`	“你好。赫利亚克打败了你们并偷走了你们的环世界，这是真的吗？”`
 			`	它继续凝视了你一会儿，连眼睛都没眨一下。它看向太空港较安静区域的一条长凳，示意你跟上。你们坐下后，你注意到它在呼吸中停顿了一下。几秒钟后，它在座位上调整了一下，终于开口了。`
-			`	"Those three species arose in relative rapid succession, all in close proximity, compared to how other species tend to be separated by long periods of time, and longer still their distances." Its voice, while still sharing the buzzing, deep hums you've grown to expect from the Quarg, is broken up every other word by something like a crack - or a creak - as if certain vocal cords have grown sore, with an uncomfortable sound akin to an out-of-tune cello mixing its way into the Quarg's words. "So large are the gaps, that one might never learn of those that came before. But, that was not the case for the three. The first of them, the Saryds, were in many ways much like us Quarg in our younger days, and we perhaps were much too lenient because of that..." It stops, and brings one hand over its head, and then the other, closing its eye as if in a sudden headache. Your eyes almost instinctively go to its scales, expecting them to change like other Quarg you've seen. But, their colors remain unaltered, the same pale gray and silver shades. A few seconds pass, and it brings down its hands back to its lap, opening its eye as it continues. "The Kimek, traumatized by the billions fallen in their famines, sought help to make sure they would never face such a crisis again, and were eager to establish friendly relations with the Saryds. The Arachi, in a way, parallel humanity's development, though they were less keen on letting their inner conflicts be made public. They were the last of the three, and upon meeting their two seniors, invested heavily in research to catch up."`
+			`	“这三个种族相继崛起，间隔相对短暂，彼此位置也十分接近——要知道，其他种族之间往往相隔漫长的岁月，彼此的距离更是遥远。”它的声音虽然仍带着你早已熟悉的夸格那种嗡嗡的低沉鸣响，却每隔一个词就被某种类似破裂——或者说嘎吱——的声音打断，仿佛某些声带已经酸痛不堪，一种如同走调大提琴般刺耳的声音混进了这位夸格的话语中。“间隔如此之大，以至于后来者可能永远无从得知先于自己出现的种族。但那三个种族并非如此。它们中的第一个，萨里德人，在许多方面都很像年轻时的我们夸格，或许也正因如此，我们对他们太过宽容了……”它停了下来，先将一只手举过头顶，接着是另一只，闭上眼睛，仿佛突然头痛发作。你的目光几乎本能地落到它的鳞片上，以为它们会像你见过的其他夸格那样变色。但它们的颜色没有任何变化，依旧是那种淡灰与银白。几秒钟过去，它把双手放回膝上，睁开眼睛继续说道：“基梅克人曾在饥荒中失去数十亿同胞，饱受创伤，他们寻求帮助，以确保再也不会面临那样的危机，并渴望与萨里德人建立友好关系。阿拉奇人在某种程度上与人类的发展历程相似，只是他们不太愿意让内部冲突公之于众。他们是三者中最后出现的，在与两位前辈相遇后，便在研究上投入巨资，奋起直追。”`
 			`	它又停顿了一下，环顾太空港。它注视了你一会儿，然后看向这里起飞降落的飞船。“在他们领土的交汇点，我们建造了环世界。七千地球年前，联盟的三个种族试图夺取这些环带。经过几个世纪……不，一千年的战斗，我们离开了那片星域。”`
 			choice
 				`	“他们为什么决定攻击你和你的环带？”`
@@ -498,7 +498,7 @@ mission "Ask Quarg About Coalition Late"
 					goto homeworld
 					to display
 						has "start: syndicate"
-				`	"I come from <start planet>, in the <start system> system."`
+				`	“我来自<start system>星系的<start planet>。”`
 					to display
 						not "start: vanilla"
 				`	“我的飞船就是我的家。”`
@@ -523,5 +523,5 @@ mission "Ask Quarg About Coalition Late"
 				log "People" "Gohl" `全名戈尔·萨里·梅姆特-里克·拉兹。它是一只古老而古怪的夸格，在回答一些相当敏感的话题时，它比其同类更表现得更加开放。`
 			`	“我叫戈尔·萨利·梅姆特-里克·拉兹。一个老夸格。老得都不中用了。”`
 			`	你感谢它抽出时间，看着它起身离开。它刚离开长凳，你就注意到十几名重甲夸格开始跟随它，有的从长凳两侧出现，有的似乎从墙壁和地板里凭空显现。它们以机器般的队形跟随戈尔，甚至连看都没看你一眼。`
-			`	When you last glance back at it before entering your ship again, you see the distinct reflection of Gohl's eye glancing at you from a distance, before being followed by the armor-clad Quarg deeper into the station.`
+			`	在重新登上飞船之前，你最后回头望了一眼，清楚地看到戈尔的眼睛从远处瞥向你时映出的反光，随后它便在身披重甲的夸格护卫跟随下，走进了空间站深处。`
 				decline

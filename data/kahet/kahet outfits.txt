@@ -451,7 +451,7 @@ outfit "Ka'het Ion Trap"
 	"ion resistance energy" -3
 	"heat generation" 0.8
 	"energy capacity" 600
-	description "The unique function of this generator is that of deflecting and slowing incoming ions, creating a significant amount of energy in the process. A powerful, correctly shaped magnetic field appears to be the key, as long as a powerful enough ion storm (or an equivalent phenomenon) is nearby. The practical result is that it converts hazardous storms into useful power."
+	description "这台发生器的独特之处在于能偏转并减缓射入的离子，并在此过程中产生大量能量。关键似乎在于一个强大且形状恰当的磁场——前提是附近有足够强的离子风暴（或类似现象）。实际效果就是把危险的风暴转化为可用的电力。"
 
 # Engines:
 
