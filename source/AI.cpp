@@ -31,6 +31,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Hardpoint.h"
 #include "Hasher.h"
 #include "JumpType.h"
+#include "text/Localization.h"
 #include "image/Mask.h"
 #include "Messages.h"
 #include "Minable.h"
@@ -263,19 +264,17 @@ namespace {
 			int now = toDeploy.size();
 			if(canRetreat && !shift)
 				now -= badlyDamaged;
-			string message = "Deployed " + to_string(now) + " carried " + (now == 1 ? "ship" : "ships") + ".";
+			string message = "已部署 " + to_string(now) + " 艘载机。";
 			if(canRetreat)
 			{
 				if(shift)
 				{
 					if(badlyDamaged)
-						message += " " + to_string(badlyDamaged) + " badly damaged "
-							+ (badlyDamaged == 1 ? "ship has" : "ships have") + " been forced to deploy.";
-					message += " Deployed ships will remain in combat until manually recalled.";
+						message += to_string(badlyDamaged) + " 艘严重受损的载机被强制部署。";
+					message += "已部署的载机将持续作战，直到被手动召回。";
 				}
 				else if(badlyDamaged)
-					message += " " + to_string(badlyDamaged) + " badly damaged "
-						+ (badlyDamaged == 1 ? "ship" : "ships") + " will remain docked until repaired.";
+					message += to_string(badlyDamaged) + " 艘严重受损的载机将留在机库中，直到修复完毕。";
 			}
 			Messages::Add({message, GameData::MessageCategories().Get("normal")});
 		}
@@ -287,8 +286,7 @@ namespace {
 				ship->SetDeployOrder(false);
 				ship->SetForceDeploy(false);
 			}
-			string ship = (toRecall.size() == 1 ? "ship" : "ships");
-			Messages::Add({"Recalled " + to_string(toRecall.size()) + " carried " + ship + ".",
+			Messages::Add({"已召回 " + to_string(toRecall.size()) + " 艘载机。",
 				GameData::MessageCategories().Get("normal")});
 		}
 	}
@@ -505,8 +503,8 @@ void AI::IssueFormationChange(PlayerInfo &player)
 	}
 
 	unsigned int count = targetShips.size();
-	string message = to_string(count) + (count == 1 ? " ship" : " ships") + " will ";
-	message += toSet ? ("assume \"" + toSet->TrueName() + "\" formation.") : "no longer fly in formation.";
+	string message = to_string(count) + " 艘飞船将";
+	message += toSet ? ("采用“" + toSet->TrueName() + "”编队。") : "不再编队飞行。";
 	Messages::Add({message, GameData::MessageCategories().Get("low")});
 }
 
@@ -521,7 +519,7 @@ void AI::IssueShipTarget(const shared_ptr<Ship> &target)
 		: Orders::Types::KEEP_STATION);
 	newOrder.SetTargetShip(target);
 	IssueOrder(newOrder,
-		(isEnemy ? "focusing fire on" : "following") + (" \"" + target->GivenName() + "\"."));
+		(isEnemy ? "集火" : "跟随") + ("“" + target->GivenName() + "”。"));
 }
 
 
@@ -531,7 +529,7 @@ void AI::IssueAsteroidTarget(const shared_ptr<Minable> &targetAsteroid)
 	OrderSingle newOrder{Orders::Types::MINE};
 	newOrder.SetTargetAsteroid(targetAsteroid);
 	IssueOrder(newOrder,
-		"focusing fire on " + targetAsteroid->DisplayName() + " " + targetAsteroid->Noun() + ".");
+		"集火" + targetAsteroid->DisplayName() + Localization::Translate(targetAsteroid->Noun()) + "。");
 }
 
 
@@ -541,8 +539,8 @@ void AI::IssueMoveTarget(const Point &target, const System *moveToSystem)
 	OrderSingle newOrder{Orders::Types::MOVE_TO};
 	newOrder.SetTargetPoint(target);
 	newOrder.SetTargetSystem(moveToSystem);
-	string description = "moving to the given location";
-	description += player.GetSystem() == moveToSystem ? "." : (" in the " + moveToSystem->DisplayName() + " system.");
+	string description = player.GetSystem() == moveToSystem ? "前往指定位置。"
+		: ("前往" + moveToSystem->DisplayName() + "星系的指定位置。");
 	IssueOrder(newOrder, description);
 }
 
@@ -625,7 +623,7 @@ void AI::UpdateKeys(PlayerInfo &player, const Command &activeCommands)
 	{
 		OrderSingle newOrder{target->IsDisabled() ? Orders::Types::FINISH_OFF : Orders::Types::ATTACK};
 		newOrder.SetTargetShip(target);
-		IssueOrder(newOrder, "focusing fire on \"" + target->GivenName() + "\".");
+		IssueOrder(newOrder, "集火“" + target->GivenName() + "”。");
 	}
 	else if(activeCommands.Has(Command::FIGHT) && !shift && targetAsteroid)
 		IssueAsteroidTarget(targetAsteroid);
@@ -634,23 +632,23 @@ void AI::UpdateKeys(PlayerInfo &player, const Command &activeCommands)
 	{
 		OrderSingle newOrder{Orders::Types::SCAN};
 		newOrder.SetTargetShip(target);
-		IssueOrder(newOrder, "scanning \"" + target->GivenName() + "\".");
+		IssueOrder(newOrder, "扫描“" + target->GivenName() + "”。");
 	}
 	if(activeCommands.Has(Command::HOLD_FIRE) && !shift)
 	{
 		OrderSingle newOrder{Orders::Types::HOLD_FIRE};
-		IssueOrder(newOrder, "holding fire.");
+		IssueOrder(newOrder, "停火。");
 	}
 	if(activeCommands.Has(Command::HOLD_POSITION) && !shift)
 	{
 		OrderSingle newOrder{Orders::Types::HOLD_POSITION};
-		IssueOrder(newOrder, "holding position.");
+		IssueOrder(newOrder, "保持位置。");
 	}
 	if(activeCommands.Has(Command::GATHER) && !shift)
 	{
 		OrderSingle newOrder{Orders::Types::GATHER};
 		newOrder.SetTargetShip(player.FlagshipPtr());
-		IssueOrder(newOrder, "gathering around your flagship.");
+		IssueOrder(newOrder, "向你的旗舰集结。");
 	}
 
 	// Get rid of any invalid orders. Carried ships will retain orders in case they are deployed.
@@ -3130,8 +3128,8 @@ void AI::DoAppeasing(const shared_ptr<Ship> &ship, double *threshold) const
 	const Government *government = ship->GetGovernment();
 	const string &language = government->Language();
 	if(language.empty() || player.Conditions().Get("language: " + language))
-		Messages::Add({government->DisplayName() + " " + ship->Noun() + " \"" + ship->GivenName()
-			+ "\": Please, just take my cargo and leave me alone.",
+		Messages::Add({government->DisplayName() + Localization::Translate(ship->Noun()) + "“" + ship->GivenName()
+			+ "”：求求你，拿走我的货物，放过我吧。",
 			GameData::MessageCategories().Get("low")});
 
 }
@@ -4616,18 +4614,18 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 		// Inform the player of any destinations in the system they are jumping to.
 		if(!destinations.empty() && Preferences::GetNotificationSetting() != Preferences::NotificationSetting::OFF)
 		{
-			string message = "Note: you have ";
-			message += (missions == 1 ? "a mission that requires" : "missions that require");
-			message += " landing on ";
+			string message = "提示：你有";
+			message += (missions == 1 ? "一个任务" : "多个任务");
+			message += "需要降落于";
 			message += Format::List<set, const Planet *>(destinations,
 				[](const Planet *const &planet)
 				{
 					return planet->DisplayName();
 				});
 			if(isJumping)
-				message += " in the system you are jumping to.";
+				message += "，位于你即将跳跃前往的星系。";
 			else
-				message += " in this system.";
+				message += "，位于本星系。";
 			Messages::Add({message, GameData::MessageCategories().Get("info")});
 
 			if(Preferences::GetNotificationSetting() == Preferences::NotificationSetting::BOTH)
@@ -4878,13 +4876,13 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 
 			if(!next->GetPlanet()->CanLand())
 			{
-				message = "The authorities on this " + next->GetPlanet()->Noun() +
-					" refuse to clear you to land here.";
+				message = "此" + Localization::Translate(next->GetPlanet()->Noun()) +
+					"的当局拒绝批准你在此降落。";
 				messageCategory = GameData::MessageCategories().Get("high");
 				UI::PlaySound(UI::UISound::FAILURE);
 			}
 			else if(next != target)
-				message = "Switching landing targets. Now landing on " + next->DisplayName() + ".";
+				message = "切换降落目标。正在降落于" + next->DisplayName() + "。";
 		}
 		else if(message.empty())
 		{
@@ -4926,29 +4924,27 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 			}
 			else if(!target->GetPlanet()->CanLand())
 			{
-				message = "The authorities on this " + target->GetPlanet()->Noun() +
-					" refuse to clear you to land here.";
+				message = "此" + Localization::Translate(target->GetPlanet()->Noun()) +
+					"的当局拒绝批准你在此降落。";
 				messageCategory = GameData::MessageCategories().Get("high");
 				UI::PlaySound(UI::UISound::FAILURE);
 			}
 			else if(!types.empty())
 			{
-				message = "You can land on more than one ";
+				message = "本星系中有多个可降落的";
 				set<string>::const_iterator it = types.begin();
-				message += *it++;
+				message += Localization::Translate(*it++);
 				if(it != types.end())
 				{
 					set<string>::const_iterator last = --types.end();
-					if(it != last)
-						message += ',';
 					while(it != last)
-						message += ' ' + *it++ + ',';
-					message += " or " + *it;
+						message += "、" + Localization::Translate(*it++);
+					message += "或" + Localization::Translate(*it);
 				}
-				message += " in this system. Landing on " + target->DisplayName() + ".";
+				message += "。正在降落于" + target->DisplayName() + "。";
 			}
 			else
-				message = "Landing on " + target->DisplayName() + ".";
+				message = "正在降落于" + target->DisplayName() + "。";
 		}
 		if(!message.empty())
 			Messages::Add({message, messageCategory});
@@ -4979,13 +4975,13 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 		else if(isWormhole)
 		{
 			// The player is guaranteed to have a travel plan for isWormhole to be true.
-			Messages::Add({"Landing on a local wormhole to navigate to the "
-					+ player.TravelPlan().back()->DisplayName() + " system.",
+			Messages::Add({"降落于本地虫洞以导航至"
+					+ player.TravelPlan().back()->DisplayName() + "星系。",
 					GameData::MessageCategories().Get("normal")});
 		}
 		if(ship.GetTargetSystem() && !isWormhole)
 		{
-			string name = "selected star";
+			string name = "所选";
 			if(player.KnowsName(*ship.GetTargetSystem()))
 				name = ship.GetTargetSystem()->DisplayName();
 
@@ -4993,12 +4989,12 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 			{
 				// Note: also has command JUMP on only the first call.
 				if(activeCommands.Has(Command::JUMP))
-					Messages::Add({"Engaging fleet autopilot to jump to the " + name + " system."
-						" Your fleet will jump when ready.",
+					Messages::Add({"启用舰队自动导航，跳跃至" + name + "星系。"
+						"你的舰队将在准备就绪后跳跃。",
 						GameData::MessageCategories().Get("normal")});
 			}
 			else
-				Messages::Add({"Engaging autopilot to jump to the " + name + " system.",
+				Messages::Add({"启用自动导航，跳跃至" + name + "星系。",
 					GameData::MessageCategories().Get("normal")});
 		}
 	}
@@ -5007,7 +5003,7 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 	else if(activeCommands.Has(Command::HARVEST))
 	{
 		OrderSingle newOrder{Orders::Types::HARVEST};
-		IssueOrder(newOrder, "preparing to harvest.");
+		IssueOrder(newOrder, "准备采集。");
 	}
 	else if(activeCommands.Has(Command::NEAREST_ASTEROID))
 		PlayerTargetMinable(ship);
@@ -5107,7 +5103,7 @@ void AI::MovePlayer(Ship &ship, Command &activeCommands)
 		const Planet *planet = player.TravelDestination();
 		if(planet && planet->IsInSystem(ship.GetSystem()) && planet->IsAccessible(&ship))
 		{
-			Messages::Add({"Autopilot: landing on " + planet->DisplayName() + ".",
+			Messages::Add({"自动导航：降落于" + planet->DisplayName() + "。",
 				GameData::MessageCategories().Get("normal")});
 			autoPilot |= Command::LAND;
 			ship.SetTargetStellar(ship.GetSystem()->FindStellar(planet));
@@ -5392,7 +5388,7 @@ void AI::IssueOrder(const OrderSingle &newOrder, const string &description)
 					ships.push_back(it.get());
 			}
 		who = (ships.empty() ? destroyedCount : ships.size()) > 1
-			? "Your fleet is " : includeFlagship ? "Your flagship is " : "Your escort is ";
+			? "你的舰队" : includeFlagship ? "你的旗舰" : "你的护航舰";
 	}
 	else
 	{
@@ -5406,13 +5402,12 @@ void AI::IssueOrder(const OrderSingle &newOrder, const string &description)
 			else
 				ships.push_back(ship.get());
 		}
-		who = (ships.empty() ? destroyedCount : ships.size()) > 1
-			? "The selected escorts are " : "The selected escort is ";
+		who = "选中的护航舰";
 	}
 	if(ships.empty())
 	{
 		if(destroyedCount)
-			Messages::Add({who + "destroyed and unable to execute your orders.",
+			Messages::Add({who + "已被摧毁，无法执行你的命令。",
 				GameData::MessageCategories().Get("normal")});
 		return;
 	}
@@ -5488,14 +5483,14 @@ void AI::IssueOrder(const OrderSingle &newOrder, const string &description)
 	if(alreadyHarvesting)
 		return;
 	else if(hasMismatch)
-		Messages::Add({who + description, GameData::MessageCategories().Get("normal")});
+		Messages::Add({who + "正在" + description, GameData::MessageCategories().Get("normal")});
 	else
 	{
 		if(!isValidTarget)
-			Messages::Add({who + "unable to and no longer " + description,
+			Messages::Add({who + "无法执行命令，不再" + description,
 				GameData::MessageCategories().Get("normal")});
 		else
-			Messages::Add({who + "no longer " + description, GameData::MessageCategories().Get("normal")});
+			Messages::Add({who + "不再" + description, GameData::MessageCategories().Get("normal")});
 
 		// Clear any orders that are now empty.
 		for(const Ship *ship : ships)

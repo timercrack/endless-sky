@@ -106,10 +106,10 @@ string Plugin::CreateDescription() const
 {
 	string text;
 	if(!version.empty())
-		text += "Version: " + version + '\n';
+		text += "版本：" + version + '\n';
 	if(!authors.empty())
 	{
-		text += "Authors: ";
+		text += "作者：";
 		for(const string &author : authors)
 			text += author + ", ";
 		text.pop_back();
@@ -118,7 +118,7 @@ string Plugin::CreateDescription() const
 	}
 	if(!tags.empty())
 	{
-		text += "Tags: ";
+		text += "标签：";
 		for(const string &tag : tags)
 			text += tag + ", ";
 		text.pop_back();
@@ -127,24 +127,24 @@ string Plugin::CreateDescription() const
 	}
 	if(!dependencies.IsEmpty())
 	{
-		text += "Dependencies:\n";
+		text += "依赖：\n";
 		if(!dependencies.gameVersion.empty())
-			text += "  Game Version: " + dependencies.gameVersion + '\n';
+			text += "  游戏版本：" + dependencies.gameVersion + '\n';
 		if(!dependencies.required.empty())
 		{
-			text += "  Requires:\n";
+			text += "  必需：\n";
 			for(const string &dependency : dependencies.required)
 				text += "  - " + dependency + '\n';
 		}
 		if(!dependencies.optional.empty())
 		{
-			text += "  Optional:\n";
+			text += "  可选：\n";
 			for(const string &dependency : dependencies.optional)
 				text += "  - " + dependency + '\n';
 		}
 		if(!dependencies.conflicted.empty())
 		{
-			text += "  Conflicts:\n";
+			text += "  冲突：\n";
 			for(const string &dependency : dependencies.conflicted)
 				text += "  - " + dependency + '\n';
 		}

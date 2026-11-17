@@ -234,7 +234,7 @@ const string &Command::Description() const
 // a combination of more than one command, an empty string is returned.
 const string &Command::KeyName() const
 {
-	static const string empty = "(none)";
+	static const string empty = "（无）";
 	auto it = keyName.find(*this);
 
 	return (!HasBinding() ? empty : it->second);

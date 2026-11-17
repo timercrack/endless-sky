@@ -341,7 +341,7 @@ bool MissionPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, 
 	{
 		if(acceptedIt != accepted.end() && acceptedIt->IsVisible())
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &MissionPanel::AbortMission,
-				"Abort mission \"" + acceptedIt->DisplayName() + "\"?"));
+				"放弃任务「" + acceptedIt->DisplayName() + "」？"));
 		return true;
 	}
 	else if(key == SDLK_LEFT && availableIt == available.end())
@@ -949,8 +949,8 @@ void MissionPanel::DrawMissionInfo()
 	if(availableIt != available.end() || acceptedIt != accepted.end())
 		info.SetCondition("has description");
 
-	info.SetString("cargo free", Format::SimplePluralization(player.Cargo().Free(), "ton"));
-	info.SetString("bunks free", Format::SimplePluralization(player.Cargo().BunksFree(), "bunk"));
+	info.SetString("cargo free", to_string(player.Cargo().Free()) + " 吨");
+	info.SetString("bunks free", to_string(player.Cargo().BunksFree()) + " 个床位");
 
 	info.SetString("today", player.GetDate().ToString());
 
@@ -994,30 +994,30 @@ void MissionPanel::DrawTooltips()
 	{
 		string text;
 		if(hoverSort == 0)
-			text = "Filter out missions with a deadline";
+			text = "过滤有截止日期的任务";
 		else if(hoverSort == 1)
-			text = "Filter out missions that you can't accept";
+			text = "过滤无法接受的任务";
 		else if(hoverSort == 2)
 		{
 			switch(player.GetAvailableSortType())
 			{
 				case 0:
-					text = "Sort alphabetically";
+					text = "按字母排序";
 					break;
 				case 1:
-					text = "Sort by payment";
+					text = "按报酬排序";
 					break;
 				case 2:
-					text = "Sort by distance";
+					text = "按距离排序";
 					break;
 				case 3:
-					text = "Sort by convenience: "
-							"Prioritize missions going to a planet or system that is already a destination of one of your missions";
+					text = "按便利性排序："
+							"优先显示去往已有任务目的地的星球或星系的任务";
 					break;
 			}
 		}
 		else if(hoverSort == 3)
-			text = "Sort direction";
+			text = "排序方向";
 		tooltip.SetText(text);
 	}
 
@@ -1054,14 +1054,14 @@ void MissionPanel::Accept(bool force)
 		}
 		ostringstream out;
 		if(cargoToSell > 0 && crewToFire > 0)
-			out << "You must fire " << crewToFire << " of your flagship's non-essential crew members and sell "
-				<< Format::CargoString(cargoToSell, "ordinary commodities") << " to make room for this mission. Continue?";
+			out << "你必须解雇 " << crewToFire << " 名旗舰非必要船员并出售 "
+				<< Format::CargoString(cargoToSell, "普通货物") << "，以便为此任务腾出空间。是否继续？";
 		else if(crewToFire > 0)
-			out << "You must fire " << crewToFire
-				<< " of your flagship's non-essential crew members to make room for this mission. Continue?";
+			out << "你必须解雇 " << crewToFire
+				<< " 名旗舰非必要船员，以便为此任务腾出空间。是否继续？";
 		else
-			out << "You must sell " << Format::CargoString(cargoToSell, "ordinary commodities")
-				<< " to make room for this mission. Continue?";
+			out << "你必须出售 " << Format::CargoString(cargoToSell, "普通货物")
+				<< "，以便为此任务腾出空间。是否继续？";
 		GetUI().Push(DialogPanel::CallFunctionIfOk(this, &MissionPanel::MakeSpaceAndAccept, out.str()));
 		return;
 	}

@@ -573,7 +573,7 @@ bool ShopPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 	else if(key == SDLK_TAB)
 		activePane = (activePane == ShopPane::Main ? ShopPane::Sidebar : ShopPane::Main);
 	else if(key == 'f')
-		GetUI().Push(DialogPanel::RequestString(this, &ShopPanel::DoFind, "Search for:"));
+		GetUI().Push(DialogPanel::RequestString(this, &ShopPanel::DoFind, "搜索："));
 	else
 	{
 		TransactionResult result = HandleShortcuts(key);

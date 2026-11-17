@@ -59,48 +59,48 @@ namespace { // test namespace
 SCENARIO("A unit of playing time is to be made human-readable", "[Format][PlayTime]") {
 	GIVEN( "A time of 0" ) {
 		THEN( "0s is returned" ) {
-			CHECK( Format::PlayTime(0) == "0s");
+			CHECK( Format::PlayTime(0) == "0秒");
 		}
 	}
 
 	GIVEN( "A time of a half second" ) {
 		THEN( "0s is returned" ) {
-			CHECK( Format::PlayTime(.5) == "0s");
+			CHECK( Format::PlayTime(.5) == "0秒");
 		}
 	}
 
 	GIVEN( "A time under a minute" ) {
 		THEN( "A time in only seconds is returned" ) {
-			CHECK( Format::PlayTime(47) == "47s");
+			CHECK( Format::PlayTime(47) == "47秒");
 		}
 	}
 
 	GIVEN( "A time over a minute but under an hour " ) {
 		THEN( "A time in only minutes and seconds is returned" ) {
-			CHECK( Format::PlayTime(567) == "9m 27s");
+			CHECK( Format::PlayTime(567) == "9分 27秒");
 		}
 	}
 
 	GIVEN( "A time over an hour but under a day" ) {
 		THEN( "A time in only hours, minutes, and seconds is returned" ) {
-			CHECK( Format::PlayTime(8492) == "2h 21m 32s");
+			CHECK( Format::PlayTime(8492) == "2小时 21分 32秒");
 		}
 	}
 
 	GIVEN( "A time over a day but under a year" ) {
 		THEN( "A time in only days, hours, minutes, and seconds is returned" ) {
-			CHECK( Format::PlayTime(5669274) == "65d 14h 47m 54s");
+			CHECK( Format::PlayTime(5669274) == "65天 14小时 47分 54秒");
 		}
 	}
 
 	GIVEN( "A time over a year" ) {
 		THEN( "A time using all units is returned" ) {
-			CHECK( Format::PlayTime(98957582) == "3y 50d 8h 13m 2s");
+			CHECK( Format::PlayTime(98957582) == "3年 50天 8小时 13分 2秒");
 		}
 	}
 	GIVEN( "A negative time" ) {
 		THEN( "0s is returned " ) {
-			CHECK( Format::PlayTime(-300) == "0s");
+			CHECK( Format::PlayTime(-300) == "0秒");
 		}
 	}
 }
@@ -395,71 +395,71 @@ TEST_CASE( "Format::AbbreviatedNumber", "[Format][AbbreviatedNumber]") {
 
 TEST_CASE( "Format::CreditString", "[Format][CreditString]") {
 	SECTION( "1 credit" ) {
-		CHECK( Format::CreditString(1) == "1 credit" );
+		CHECK( Format::CreditString(1) == "1 信用点" );
 	}
 	SECTION( "0 credits" ) {
-		CHECK( Format::CreditString(0) == "0 credits" );
+		CHECK( Format::CreditString(0) == "0 信用点" );
 	}
 	SECTION( "Positive credits" ) {
-		CHECK( Format::CreditString(2) == "2 credits" );
-		CHECK( Format::CreditString(1000) == "1,000 credits" );
-		CHECK( Format::CreditString(4361000) == "4.361M credits" );
+		CHECK( Format::CreditString(2) == "2 信用点" );
+		CHECK( Format::CreditString(1000) == "1,000 信用点" );
+		CHECK( Format::CreditString(4361000) == "4.361M 信用点" );
 	}
 	SECTION( "Negative credits" ) {
-		CHECK( Format::CreditString(-1) == "-1 credits" );
-		CHECK( Format::CreditString(-2) == "-2 credits" );
-		CHECK( Format::CreditString(-1000) == "-1,000 credits" );
-		CHECK( Format::CreditString(-4361000) == "-4.361M credits" );
+		CHECK( Format::CreditString(-1) == "-1 信用点" );
+		CHECK( Format::CreditString(-2) == "-2 信用点" );
+		CHECK( Format::CreditString(-1000) == "-1,000 信用点" );
+		CHECK( Format::CreditString(-4361000) == "-4.361M 信用点" );
 	}
 }
 
 TEST_CASE( "Format::MassString", "[Format][MassString]") {
 	SECTION( "1 ton" ) {
-		CHECK( Format::MassString(1) == "1 ton" );
-		CHECK( Format::MassString(1.) == "1 ton" );
+		CHECK( Format::MassString(1) == "1 吨" );
+		CHECK( Format::MassString(1.) == "1 吨" );
 	}
 	SECTION( "0 tons" ) {
-		CHECK( Format::MassString(0) == "0 tons" );
+		CHECK( Format::MassString(0) == "0 吨" );
 	}
 	SECTION( "Positive mass" ) {
-		CHECK( Format::MassString(2) == "2 tons" );
-		CHECK( Format::MassString(1000) == "1,000 tons" );
-		CHECK( Format::MassString(4361000) == "4,361,000 tons" );
+		CHECK( Format::MassString(2) == "2 吨" );
+		CHECK( Format::MassString(1000) == "1,000 吨" );
+		CHECK( Format::MassString(4361000) == "4,361,000 吨" );
 	}
 	SECTION( "Negative mass" ) {
-		CHECK( Format::MassString(-1) == "-1 tons" );
-		CHECK( Format::MassString(-2) == "-2 tons" );
-		CHECK( Format::MassString(-1000) == "-1,000 tons" );
-		CHECK( Format::MassString(-4361000) == "-4,361,000 tons" );
+		CHECK( Format::MassString(-1) == "-1 吨" );
+		CHECK( Format::MassString(-2) == "-2 吨" );
+		CHECK( Format::MassString(-1000) == "-1,000 吨" );
+		CHECK( Format::MassString(-4361000) == "-4,361,000 吨" );
 	}
 	SECTION( "Fractional mass" ) {
-		CHECK( Format::MassString(2.5) == "2.5 tons" );
-		CHECK( Format::MassString(0.1) == "0.1 tons" );
+		CHECK( Format::MassString(2.5) == "2.5 吨" );
+		CHECK( Format::MassString(0.1) == "0.1 吨" );
 	}
 }
 
 TEST_CASE( "Format::CargoString", "[Format][CargoString]") {
 	SECTION( "1 ton" ) {
-		CHECK( Format::CargoString(1, "cargo") == "1 ton of cargo" );
-		CHECK( Format::CargoString(1., "cargo") == "1 ton of cargo" );
+		CHECK( Format::CargoString(1, "货物") == "1 吨货物" );
+		CHECK( Format::CargoString(1., "货物") == "1 吨货物" );
 	}
 	SECTION( "0 tons" ) {
-		CHECK( Format::CargoString(0, "cargo") == "0 tons of cargo" );
+		CHECK( Format::CargoString(0, "货物") == "0 吨货物" );
 	}
 	SECTION( "Positive mass" ) {
-		CHECK( Format::CargoString(2, "cargo") == "2 tons of cargo" );
-		CHECK( Format::CargoString(1000, "cargo") == "1,000 tons of cargo" );
-		CHECK( Format::CargoString(4361000, "cargo") == "4,361,000 tons of cargo" );
+		CHECK( Format::CargoString(2, "货物") == "2 吨货物" );
+		CHECK( Format::CargoString(1000, "货物") == "1,000 吨货物" );
+		CHECK( Format::CargoString(4361000, "货物") == "4,361,000 吨货物" );
 	}
 	SECTION( "Negative mass" ) {
-		CHECK( Format::CargoString(-1, "cargo") == "-1 tons of cargo" );
-		CHECK( Format::CargoString(-2, "cargo") == "-2 tons of cargo" );
-		CHECK( Format::CargoString(-1000, "cargo") == "-1,000 tons of cargo" );
-		CHECK( Format::CargoString(-4361000, "cargo") == "-4,361,000 tons of cargo" );
+		CHECK( Format::CargoString(-1, "货物") == "-1 吨货物" );
+		CHECK( Format::CargoString(-2, "货物") == "-2 吨货物" );
+		CHECK( Format::CargoString(-1000, "货物") == "-1,000 吨货物" );
+		CHECK( Format::CargoString(-4361000, "货物") == "-4,361,000 吨货物" );
 	}
 	SECTION( "Fractional mass" ) {
-		CHECK( Format::CargoString(2.5, "cargo") == "2.5 tons of cargo" );
-		CHECK( Format::CargoString(0.1, "cargo") == "0.1 tons of cargo" );
+		CHECK( Format::CargoString(2.5, "货物") == "2.5 吨货物" );
+		CHECK( Format::CargoString(0.1, "货物") == "0.1 吨货物" );
 	}
 }
 
@@ -877,19 +877,19 @@ TEST_CASE( "Format::ExpandConditions", "[Format][ExpandConditions]") {
 		CHECK( Format::ExpandConditions("__&[number@negative]__", getter) == "__-5__" );
 		CHECK( Format::ExpandConditions("__&[number@big test]__", getter) == "__30,103,010,301__" );
 		CHECK( Format::ExpandConditions("__&[raw@raw test]__", getter) == "__1810244__" );
-		CHECK( Format::ExpandConditions("__&[tons@mass test]__", getter) == "__4,361,000 tons__" );
+		CHECK( Format::ExpandConditions("__&[tons@mass test]__", getter) == "__4,361,000 吨__" );
 		CHECK( Format::ExpandConditions("__&[scaled@scaled test]__", getter) == "__3.361B__" );
-		CHECK( Format::ExpandConditions("__&[credits@credits test]__", getter) == "__-2.361M credits__" );
-		CHECK( Format::ExpandConditions("__&[playtime@playtime test]__", getter) == "__57d 20h 53m 20s__" );
+		CHECK( Format::ExpandConditions("__&[credits@credits test]__", getter) == "__-2.361M 信用点__" );
+		CHECK( Format::ExpandConditions("__&[playtime@playtime test]__", getter) == "__57天 20小时 53分 20秒__" );
 	}
 	SECTION( "balanced []" ) {
 		CHECK( Format::ExpandConditions("__&[balanced[][[]][]]__", getter) == "__4,361,000__" );
 		CHECK( Format::ExpandConditions("__&[raw@balanced[][[]][]]__", getter) == "__4361000__" );
 		CHECK( Format::ExpandConditions("__&[number@balanced[][[]][]]__", getter) == "__4,361,000__" );
 		CHECK( Format::ExpandConditions("__&[scaled@balanced[][[]][]]__", getter) == "__4.361M__" );
-		CHECK( Format::ExpandConditions("__&[credits@balanced[][[]][]]__", getter) == "__4.361M credits__" );
-		CHECK( Format::ExpandConditions("__&[tons@balanced[][[]][]]__", getter) == "__4,361,000 tons__" );
-		CHECK( Format::ExpandConditions("__&[playtime@balanced[][[]][]]__", getter) == "__50d 11h 23m 20s__" );
+		CHECK( Format::ExpandConditions("__&[credits@balanced[][[]][]]__", getter) == "__4.361M 信用点__" );
+		CHECK( Format::ExpandConditions("__&[tons@balanced[][[]][]]__", getter) == "__4,361,000 吨__" );
+		CHECK( Format::ExpandConditions("__&[playtime@balanced[][[]][]]__", getter) == "__50天 11小时 23分 20秒__" );
 	}
 	SECTION( "corner cases" ) {
 		CHECK( Format::ExpandConditions("&[]", getter) == "0" );

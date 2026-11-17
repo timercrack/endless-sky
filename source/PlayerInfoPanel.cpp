@@ -628,7 +628,7 @@ void PlayerInfoPanel::DrawPlayer(const Rectangle &bounds)
 		bright, Truncate::MIDDLE, true);
 	CheckHover(table.GetRowBounds(), "fleet cargo:");
 	table.DrawTruncatedPair("fleet cargo:", dim, Format::AbbreviatedNumber(usedCargo, std::nullopt) + "/"
-		+ Format::AbbreviatedNumber(totalCargo) + " tons", bright, Truncate::MIDDLE, true);
+		+ Format::AbbreviatedNumber(totalCargo) + " 吨", bright, Truncate::MIDDLE, true);
 	CheckHover(table.GetRowBounds(), "time played:");
 	table.DrawTruncatedPair("time played:", dim, Format::PlayTime(player.GetPlayTime()),
 		bright, Truncate::MIDDLE, true);
@@ -656,7 +656,7 @@ void PlayerInfoPanel::DrawPlayer(const Rectangle &bounds)
 		CheckHover(table.GetRowBounds(), "for next rank:");
 		bool maxRank = (combatRating == GameData::Rating("combat", combatLevel + 1));
 		table.DrawTruncatedPair("    for next rank:", dim,
-				maxRank ? "MAX" : Format::Number(ceil(exp(combatLevel + 1))),
+				maxRank ? "已满" : Format::Number(ceil(exp(combatLevel + 1))),
 				dim, Truncate::MIDDLE, false);
 	}
 
@@ -686,10 +686,10 @@ void PlayerInfoPanel::DrawPlayer(const Rectangle &bounds)
 			// Format the attraction and deterrence levels with tens places, so it
 			// is clear which is higher even if they round to the same level.
 			CheckHover(table.GetRowBounds(), "cargo:");
-			table.DrawTruncatedPair("cargo: " + attractionRating, dim,
+			table.DrawTruncatedPair("货物: " + attractionRating, dim,
 				"(+" + Format::Number(attractionLevel, 1, false) + ")", dim, Truncate::MIDDLE, false);
 			CheckHover(table.GetRowBounds(), "fleet:");
-			table.DrawTruncatedPair("fleet: " + deterrenceRating, dim,
+			table.DrawTruncatedPair("舰队: " + deterrenceRating, dim,
 				"(-" + Format::Number(deterrenceLevel, 1, false) + ")", dim, Truncate::MIDDLE, false);
 		}
 	}
@@ -823,7 +823,7 @@ void PlayerInfoPanel::DrawFleet(const Rectangle &bounds)
 		int crewCount = ship.Crew();
 		if(!isFlagship)
 			crewCount = min(crewCount, ship.RequiredCrew());
-		string crew = (ship.IsParked() ? "Parked" : to_string(crewCount));
+		string crew = (ship.IsParked() ? "停泊" : to_string(crewCount));
 		table.Draw(crew);
 
 		++index;

@@ -125,8 +125,8 @@ bool GamerulesPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command
 	{
 		if(existingPilot && gamerules.LockGamerules())
 			GetUI().Push(DialogPanel::CallFunctionIfOk([this]() -> void { GetUI().Pop(this); },
-				"You have set \"Lock Gamerules\" to true, which means that you will not be able "
-				"to return to this panel to make further edits after leaving. Continue anyway?", false));
+				"你已将“锁定游戏规则”设为“是”，这意味着离开后将无法再回到此面板"
+				"进行更多修改。确定要继续吗？", false));
 		else
 			GetUI().Pop(this);
 	}
@@ -626,7 +626,7 @@ void GamerulesPanel::RenderPresetDescription(const Gamerules &preset)
 
 	WrappedText wrap(font);
 	wrap.SetWrapWidth(box.Width());
-	static const string EMPTY = "(No description given.)";
+	static const string EMPTY = "（暂无说明。）";
 	wrap.Wrap(preset.Description().empty() ? EMPTY : preset.Description());
 
 	descriptionHeight += wrap.Height();

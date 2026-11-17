@@ -25,6 +25,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Government.h"
 #include "HailPanel.h"
 #include "shader/LineShader.h"
+#include "text/Localization.h"
 #include "MapDetailPanel.h"
 #include "MessageLogPanel.h"
 #include "Messages.h"
@@ -338,7 +339,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 	const shared_ptr<Ship> &target = event.Target();
 	string name = target->DisplayModelName();
 	if(!target->GivenName().empty())
-		name += " \"" + target->GivenName() + "\"";
+		name += "“" + target->GivenName() + "”";
 
 	ostringstream out;
 	if(event.Type() & ShipEvent::SCAN_CARGO)
@@ -348,16 +349,16 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			if(count)
 			{
 				if(first)
-					out << "This " + name + " is carrying:\n";
+					out << "这艘" + name + "携带了：\n";
 				first = false;
 
-				out << "\t" << Format::CargoString(count, commodity) << "\n";
+				out << "\t" << Format::CargoString(count, Localization::Translate(commodity)) << "\n";
 			}
 		for(const auto &[outfit, count] : target->Cargo().Outfits())
 			if(count)
 			{
 				if(first)
-					out << "This " + name + " is carrying:\n";
+					out << "这艘" + name + "携带了：\n";
 				first = false;
 
 				out << "\t";
@@ -370,16 +371,16 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 					out << count << " " << (count == 1 ? outfit->DisplayName() : outfit->PluralName()) << "\n";
 			}
 		if(first)
-			out << "This " + name + " is not carrying any cargo.\n";
+			out << "这艘" + name + "未携带任何货物。\n";
 	}
 	if((event.Type() & ShipEvent::SCAN_OUTFITS) && target->Inscrutable())
-		out << "Your scanners cannot make any sense of the interior of the " + name + ".";
+		out << "你的扫描器无法解析" + name + "的内部结构。";
 	else if(event.Type() & ShipEvent::SCAN_OUTFITS)
 	{
 		if(!target->Outfits().empty())
-			out << "This " + name + " is equipped with:\n";
+			out << "这艘" + name + "装备了：\n";
 		else
-			out << "This " + name + " is not equipped with any outfits.\n";
+			out << "这艘" + name + "未安装任何装备。\n";
 
 		// Split target->Outfits() into categories, then iterate over them in order.
 		vector<string> categories;
@@ -399,7 +400,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 				continue;
 
 			// Print the category's name and outfits in it.
-			out << "\t" << (category.empty() ? "Unknown" : category) << "\n";
+			out << "\t" << (category.empty() ? "未知" : Localization::Translate(category)) << "\n";
 			for(const auto &[outfit, count] : outfits)
 				if(!outfit.empty() && count > 0)
 					out << "\t\t" << count << " " << outfit << "\n";
@@ -428,7 +429,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			}
 		if(!count.empty())
 		{
-			out << "This " + name + " is carrying:\n";
+			out << "这艘" + name + "携带了：\n";
 			for(const auto &[shipName, count] : count)
 				if(count > 0)
 					out << "\t" << count << " " << shipName << "\n";
@@ -465,9 +466,10 @@ bool MainPanel::ShowHailPanel()
 		// not. If it's in system and jumping, report that.
 		if(target->Zoom() < 1. || target->IsDestroyed() || target->GetSystem() != player.GetSystem()
 				|| target->IsCloaked())
-			Messages::Add({"Unable to hail target " + target->Noun() + ".", GameData::MessageCategories().Get("high")});
+			Messages::Add({"无法呼叫目标" + Localization::Translate(target->Noun()) + "。",
+				GameData::MessageCategories().Get("high")});
 		else if(target->IsEnteringHyperspace())
-			Messages::Add({"Unable to send hail: " + target->Noun() + " is entering hyperspace.",
+			Messages::Add({"无法发送呼叫：" + Localization::Translate(target->Noun()) + "正在进入超空间。",
 				GameData::MessageCategories().Get("high")});
 		else
 		{
@@ -489,7 +491,7 @@ bool MainPanel::ShowHailPanel()
 			return true;
 		}
 		else
-			Messages::Add({"Unable to send hail: " + planet->Noun() + " is not inhabited.",
+			Messages::Add({"无法发送呼叫：" + Localization::Translate(planet->Noun()) + "无人居住。",
 				GameData::MessageCategories().Get("high")});
 	}
 	else

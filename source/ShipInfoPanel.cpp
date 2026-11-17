@@ -180,8 +180,8 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 	}
 	else if(key == 'r')
 		GetUI().Push(ShipNameDialogPanel::Create(
-			DialogPanel::FunctionButton(this, "Rename", 'r', &ShipInfoPanel::Rename),
-			"Change this ship's name?", (*shipIt)->GivenName()));
+			DialogPanel::FunctionButton(this, "重命名", 'r', &ShipInfoPanel::Rename),
+			"修改这艘飞船的名称？", (*shipIt)->GivenName()));
 	else if(panelState.CanEdit() && (key == 'P' || (key == 'p' && shift) || key == 'k'))
 	{
 		if(shipIt->get() != player.Flagship() || (*shipIt)->IsParked())
@@ -201,18 +201,18 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 			AddToUniques(shipIt->get()->Outfits());
 			AddToUniques(shipIt->get()->Cargo().Outfits());
 
-			string message = "Are you sure you want to disown \""
+			string message = "确定要放弃「"
 				+ shipIt->get()->GivenName()
-				+ "\"? Disowning a ship rather than selling it means you will not get any money for it.";
+				+ "」吗？放弃飞船而非出售，将不会获得任何资金。";
 			if(!uniqueOutfits.empty())
 			{
 				const int uniquesSize = uniqueOutfits.size();
 				const int detailedOutfitSize = (uniquesSize > 20 ? 19 : uniquesSize);
-				message += "\nThe following unique items carried by the ship will be lost:";
+				message += "\n飞船携带的以下独特物品将永久丢失：";
 				auto it = uniqueOutfits.begin();
 				for(int i = 0; i < detailedOutfitSize; ++i)
 				{
-					message += "\n" + to_string(it->second) + " "
+					message += "\n" + to_string(it->second) + " 件 "
 						+ (it->second == 1 ? it->first->DisplayName() : it->first->PluralName());
 					++it;
 				}
@@ -221,7 +221,7 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 					int otherUniquesCount = 0;
 					for( ; it != uniqueOutfits.end(); ++it)
 						otherUniquesCount += it->second;
-					message += "\nand " + to_string(otherUniquesCount) + " other unique outfits";
+					message += "\n以及另外 " + to_string(otherUniquesCount) + " 件独特装备";
 				}
 			}
 
@@ -237,59 +237,59 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 
 		auto AddUniqueMessage = [](const string &initial, const Outfit *outfit) -> string {
 			if(outfit->GetPrecise("unique"))
-				return initial + " This outfit is unique and you may not be able to regain it after jettisoning it.";
+				return initial + "此装备为独特物品，丢弃后可能无法再次获得。";
 			return initial;
 		};
 
 		if(amount)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpCommodities,
-				"How many tons of " + Format::LowerCase(selectedCommodity)
-					+ " do you want to jettison?", amount));
+				"要丢弃多少吨" + Format::LowerCase(selectedCommodity)
+					+ "？", amount));
 		}
 		else if(plunderAmount > 0 && selectedPlunder->Get("uninstallable"))
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpPlunder,
-				"How many tons of " + Format::LowerCase(selectedPlunder->DisplayName())
-					+ " do you want to jettison?", plunderAmount));
+				"要丢弃多少吨" + Format::LowerCase(selectedPlunder->DisplayName())
+					+ "？", plunderAmount));
 		}
 		else if(plunderAmount == 1)
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				AddUniqueMessage("Are you sure you want to jettison a " + selectedPlunder->DisplayName() + "?",
+				AddUniqueMessage("确定要丢弃一件" + selectedPlunder->DisplayName() + "吗？",
 				selectedPlunder)));
 		}
 		else if(plunderAmount > 1)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpPlunder,
-				AddUniqueMessage("How many " + selectedPlunder->PluralName() + " do you want to jettison?",
+				AddUniqueMessage("要丢弃多少件" + selectedPlunder->PluralName() + "？",
 				selectedPlunder), plunderAmount));
 		}
 		else if(outfitAmount == 1)
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				AddUniqueMessage("Are you sure you want to jettison a " + selectedOutfit->DisplayName() + "?",
+				AddUniqueMessage("确定要丢弃一件" + selectedOutfit->DisplayName() + "吗？",
 				selectedOutfit)));
 		}
 		else if(outfitAmount > 1)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpInstalled,
-				AddUniqueMessage("How many " + selectedOutfit->PluralName() + " do you want to jettison?",
+				AddUniqueMessage("要丢弃多少件" + selectedOutfit->PluralName() + "？",
 				selectedOutfit), plunderAmount));
 		}
 		else if(commodities)
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				"Are you sure you want to jettison all of this ship's regular cargo?"));
+				"确定要丢弃这艘飞船上的所有普通货物吗？"));
 		}
 		else
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				"Are you sure you want to jettison all of this ship's cargo?"));
+				"确定要丢弃这艘飞船上的所有货物吗？"));
 		}
 	}
 	else if(!panelState.CanEdit() && (key == 'c' || key == 'j') && selectedOutfit && !selectedOutfit->Get("can jettison"))
-		GetUI().Push(DialogPanel::Info("This outfit cannot be jettisoned while it is installed."));
+		GetUI().Push(DialogPanel::Info("此装备安装在飞船上时无法丢弃。"));
 	else if(command.Has(Command::MAP) || key == 'm')
 		GetUI().Push(new MissionPanel(player));
 	else if(key == 'l' && player.HasLogs())
@@ -830,7 +830,7 @@ void ShipInfoPanel::Dump()
 	else if(outfitAmount > 0)
 	{
 		(*shipIt)->JettisonInstalled(selectedOutfit, outfitAmount, false, &player);
-		Messages::Add({"You jettisoned " + to_string(outfitAmount) + " "
+		Messages::Add({"你丢弃了 " + to_string(outfitAmount) + " 件 "
 				+ (outfitAmount == 1 ? selectedOutfit->DisplayName() : selectedOutfit->PluralName()),
 			GameData::MessageCategories().Get("normal")});
 	}
@@ -858,7 +858,7 @@ void ShipInfoPanel::Dump()
 
 	UpdateInfo();
 	if(loss)
-		Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
+		Messages::Add({"你丢弃了价值 " + Format::CreditString(loss) + " 的货物。",
 			GameData::MessageCategories().Get("normal")});
 }
 
@@ -875,7 +875,7 @@ void ShipInfoPanel::DumpPlunder(int count)
 		UpdateInfo();
 
 		if(loss)
-			Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
+			Messages::Add({"你丢弃了价值 " + Format::CreditString(loss) + " 的货物。",
 				GameData::MessageCategories().Get("normal")});
 	}
 }
@@ -895,7 +895,7 @@ void ShipInfoPanel::DumpCommodities(int count)
 		UpdateInfo();
 
 		if(loss)
-			Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
+			Messages::Add({"你丢弃了价值 " + Format::CreditString(loss) + " 的货物。",
 				GameData::MessageCategories().Get("normal")});
 	}
 }
@@ -910,7 +910,7 @@ void ShipInfoPanel::DumpInstalled(int count)
 		(*shipIt)->JettisonInstalled(selectedOutfit, count);
 		UpdateInfo();
 
-		Messages::Add({"You jettisoned " + to_string(count) + " "
+		Messages::Add({"你丢弃了 " + to_string(count) + " 件 "
 				+ (count == 1 ? selectedOutfit->DisplayName() : selectedOutfit->PluralName()),
 			GameData::MessageCategories().Get("normal")});
 	}

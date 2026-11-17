@@ -233,7 +233,7 @@ void BankPanel::Draw()
 
 	// Draw the credit score.
 	table.DrawAt(Point(0., FIRST_Y + 210.));
-	string credit = "Your credit score is " + to_string(player.Accounts().CreditScore()) + ".";
+	string credit = "你的信用评分为 " + to_string(player.Accounts().CreditScore()) + "。";
 	const auto scoreLayout = Layout(460, Truncate::MIDDLE);
 	table.DrawCustom({credit, scoreLayout});
 	table.Advance(5);
@@ -241,9 +241,9 @@ void BankPanel::Draw()
 	// Report whether the player qualifies for a new loan.
 	string amount;
 	if(!qualify)
-		amount = "You do not qualify for further loans at this time.";
+		amount = "你目前不符合进一步贷款的条件。";
 	else
-		amount = "You qualify for a new loan of up to " + Format::CreditString(qualify) + ".";
+		amount = "你有资格获得最高 " + Format::CreditString(qualify) + " 的新贷款。";
 	if(qualify && selectedRow >= mortgageRows)
 		table.DrawHighlight(back);
 	const auto amountLayout = Layout(380, Truncate::MIDDLE);
@@ -281,14 +281,14 @@ bool BankPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 	else if(key == SDLK_RETURN && selectedRow < mortgageRows)
 	{
 		GetUI().Push(DialogPanel::RequestString(this, &BankPanel::PayExtra,
-			"Paying off part of this debt will reduce your daily payments and the "
-			"interest that it costs you. How many extra credits will you pay?"));
+			"偿还部分债务将减少你的每日还款额和"
+			"利息支出。你要额外偿还多少信用点？"));
 		DoHelp("bank advanced");
 	}
 	else if(key == SDLK_RETURN && qualify)
 	{
 		GetUI().Push(DialogPanel::RequestString(this, &BankPanel::NewMortgage,
-			"Borrow how many credits?"));
+			"你要借多少信用点？"));
 		DoHelp("bank advanced");
 	}
 	else if(key == 'a')

@@ -112,7 +112,7 @@ void LoadPanel::Draw()
 	else if(selectedPilot && selectedPilot->Files().empty())
 		selectedPilot->MomentOfDeath().PopulateInfo(info);
 	else
-		info.SetString("pilot", "No Pilot Loaded");
+		info.SetString("pilot", "未加载驾驶员");
 
 	if(selectedPilot)
 	{
@@ -267,9 +267,9 @@ bool LoadPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 		sound = UI::UISound::NONE;
 		GetUI().Push(DialogPanel::RequestStringWithValidation(this, &LoadPanel::DeletePilot,
 			[this](const string &pilot) { return pilot == loadedInfo.Name(); },
-			"Are you sure you want to delete the selected pilot, \"" + loadedInfo.Name()
-				+ "\", and all their saved games?\n\n(This will permanently delete the pilot data.)\n"
-				+ "Confirm the name of the pilot you want to delete."));
+			"确定要删除选中的驾驶员「" + loadedInfo.Name()
+				+ "」及其所有存档吗？\n\n（这将永久删除驾驶员数据。）\n"
+				+ "请输入你要删除的驾驶员名称以确认。"));
 	}
 	else if(key == 'a' && !player.IsDead() && player.IsLoaded())
 	{
@@ -282,7 +282,7 @@ bool LoadPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 		filesystem::path lastSave = Files::Saves() / selectedPilot->Files().front().first;
 		GetUI().Push(DialogPanel::RequestStringWithCharFilter(this, &LoadPanel::SnapshotCallback,
 			[this](const string &input, char ch) { return LoadPanel::SnapshotNameFilter(input, ch); },
-			"Enter a name for this snapshot, or use the most recent save's date:",
+			"为此快照命名，或使用最近存档的日期：",
 			FileDate(lastSave)));
 	}
 	else if(key == 'R' && !selectedFile.empty() && !selectedPilot->IsLocked())
@@ -291,8 +291,8 @@ bool LoadPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 		string fileName = selectedFile.substr(selectedFile.rfind('/') + 1);
 		if(fileName != selectedPilot->Identifier() + ".txt")
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &LoadPanel::DeleteSave,
-				"Are you sure you want to delete the selected saved game file, \""
-					+ selectedFile + "\"?"));
+				"确定要删除选中的存档文件「"
+					+ selectedFile + "」吗？"));
 	}
 	else if((key == 'l' || key == 'e') && selectedPilot && !selectedPilot->IsLocked())
 	{
@@ -300,8 +300,8 @@ bool LoadPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 			&& GameData::GetGamerules().RestrictedSaveLoading())
 		{
 			sound = UI::UISound::NONE;
-			GetUI().Push(DialogPanel::Info("The pilot you currently have loaded is playing with restricted save "
-				"loading. You cannot load another save unless you are landed."));
+			GetUI().Push(DialogPanel::Info("你当前加载的驾驶员启用了“限制存档加载”。"
+				"除非处于降落状态，否则无法加载其他存档。"));
 		}
 		else if(selectedFile.substr(selectedFile.rfind('/') + 1) == selectedPilot->Identifier() + ".txt")
 			LoadCallback();
@@ -309,9 +309,9 @@ bool LoadPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 		{
 			sound = UI::UISound::NONE;
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &LoadPanel::LoadCallback,
-				"If you load this snapshot, it will overwrite your current game. "
-				"Any progress will be lost, unless you have saved other snapshots. "
-				"Are you sure you want to do that?"));
+				"加载此快照将覆盖当前的游戏进度。"
+				"当前进度将丢失，除非你已经保存了其他快照。"
+				"确定要这样做吗？"));
 		}
 	}
 	else if(key == 'g' && selectedPilot && !selectedPilot->GetGamerules().LockGamerules())
@@ -581,8 +581,8 @@ void LoadPanel::SnapshotCallback(const string &name)
 	if(Files::Exists(to) && suffix != nameToConfirm)
 	{
 		nameToConfirm = suffix;
-		GetUI().Push(DialogPanel::RequestString(this, &LoadPanel::SnapshotCallback, "Warning: \"" + suffix
-			+ "\" is being used for an existing snapshot.\nOverwrite it?", suffix));
+		GetUI().Push(DialogPanel::RequestString(this, &LoadPanel::SnapshotCallback, "警告：“" + suffix
+			+ "”已被现有快照占用。\n要覆盖它吗？", suffix));
 	}
 	else
 		WriteSnapshot(from, to);
@@ -601,7 +601,7 @@ void LoadPanel::WriteSnapshot(const filesystem::path &sourceFile, const filesyst
 		loadedInfo.Load(Files::Saves() / selectedFile);
 	}
 	else
-		GetUI().Push(DialogPanel::Info("Error: unable to create the file \"" + snapshotName.string() + "\"."));
+		GetUI().Push(DialogPanel::Info("错误：无法创建文件“" + snapshotName.string() + "”。"));
 }
 
 
@@ -651,7 +651,7 @@ void LoadPanel::DeleteSave()
 	filesystem::path path = Files::Saves() / selectedFile;
 	Files::Delete(path);
 	if(Files::Exists(path))
-		GetUI().Push(DialogPanel::Info("Deleting snapshot file failed."));
+		GetUI().Push(DialogPanel::Info("删除快照文件失败。"));
 
 	selectedFile.clear();
 	UpdateLists();

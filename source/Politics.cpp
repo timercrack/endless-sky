@@ -277,7 +277,7 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 			if((fine > maxFine && maxFine >= 0) || fine < 0)
 			{
 				maxFine = fine;
-				reason = " for carrying illegal passengers on the " + ship->GivenName() + ".";
+				reason = "，因为你在「" + ship->GivenName() + "」上搭载了非法乘客。";
 
 				for(const Mission &mission : player.Missions())
 				{
@@ -287,7 +287,7 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 					string fineMessage = mission.FineMessage();
 					if(!fineMessage.empty())
 					{
-						reason = ".\n\t";
+						reason = "。\n\t";
 						reason.append(fineMessage);
 					}
 					// Fail any missions with illegal passengers and "stealth" set.
@@ -307,7 +307,7 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 			if((fine.first > maxFine && maxFine >= 0) || fine.first < 0)
 			{
 				maxFine = fine.first;
-				reason = " for carrying illegal cargo on the " + ship->GivenName() + ".";
+				reason = "，因为你在「" + ship->GivenName() + "」上运载了非法货物。";
 
 				for(const Mission &mission : player.Missions())
 				{
@@ -318,7 +318,7 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 					string fineMessage = mission.FineMessage();
 					if(!fineMessage.empty())
 					{
-						reason = ".\n\t";
+						reason = "。\n\t";
 						reason.append(fineMessage);
 					}
 					// Fail any missions with illegal cargo and "stealth" set.
@@ -345,7 +345,7 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 					}
 					if(fine)
 					{
-						reason = " for having illegal outfits installed on the " + ship->GivenName() + ":";
+						reason = "，因为你的「" + ship->GivenName() + "」上安装了非法装备：";
 						illegalOutfits.push_back(outfit);
 						if((fine > maxFine && maxFine >= 0) || fine < 0)
 							maxFine = fine;
@@ -366,14 +366,13 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 			if((shipFine > maxFine && maxFine >= 0) || shipFine < 0)
 			{
 				maxFine = shipFine;
-				reason = " for flying an illegal ship, the " + ship->GivenName() + ".";
+				reason = "，因为你驾驶的「" + ship->GivenName() + "」是一艘非法飞船。";
 			}
 		}
 		if(failedMissions && maxFine > 0)
 		{
-			reason += "\n\tYou failed " + Format::Number(failedMissions)
-				+ ((failedMissions > 1) ? " missions" : " mission")
-				+ " after your illegal cargo was discovered.";
+			reason += "\n\t由于你的非法货物被发现，你有 " + Format::Number(failedMissions)
+				+ " 项任务失败了。";
 		}
 	}
 
@@ -387,16 +386,16 @@ pair<const Conversation *, string> Politics::Fine(PlayerInfo &player,
 				deathSentence = gov->DeathSentence();
 		}
 		else
-			reason = "After scanning your ship, the " + gov->DisplayName()
-				+ " captain hails you with a grim expression on his face. He says, "
-				"\"I'm afraid we're going to have to put you to death " + reason + " Goodbye.\"";
+			reason = "扫描了你的飞船后，" + gov->DisplayName()
+				+ "舰长面色阴沉地呼叫你。他说："
+				"“恐怕我们不得不判处你死刑" + reason + "再见。”";
 	}
 	else if(maxFine > 0)
 	{
 		// Scale the fine based on how lenient this government is.
 		maxFine = lround(maxFine * gov->GetFineFraction());
-		reason = "The " + gov->DisplayName() + " authorities fine you "
-			+ Format::CreditString(maxFine) + reason;
+		reason = gov->DisplayName() + "当局对你处以"
+			+ Format::CreditString(maxFine) + "的罚款" + reason;
 		player.Accounts().AddFine(maxFine);
 		fined.insert(gov);
 	}

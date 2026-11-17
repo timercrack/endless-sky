@@ -63,17 +63,14 @@ const string &Date::ToString() const
 		int month = Month();
 		int year = Year();
 
-		static const string MONTH[] = {
-				"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
-
-		const string &monthStr = MONTH[month - 1];
+		const string chineseDate = to_string(year) + "年" + to_string(month) + "月" + to_string(day) + "日";
 
 		if(dateFormat == Preferences::DateFormat::YMD)
 			str = to_string(year) + "-" + ZeroPad(month) + "-" + ZeroPad(day);
 		else if(dateFormat == Preferences::DateFormat::MDY)
-			str = Weekday() + " " + monthStr + " " + to_string(day) + ", " + to_string(year);
+			str = Weekday() + " " + chineseDate;
 		else if(dateFormat == Preferences::DateFormat::DMY)
-			str = Weekday() + ", " + to_string(day) + " " + monthStr + " " + to_string(year);
+			str = chineseDate + " " + Weekday();
 	}
 
 	return str;
@@ -87,44 +84,7 @@ string Date::LongString() const
 	if(!date)
 		return string();
 
-	int day = Day();
-	string dayString = to_string(day);
-	// All numbers in the teens add in "th", as do any numbers ending in 0 or in
-	// 4 through 9. Special endings are used for "1st", "2nd", and "3rd."
-	if(day / 10 == 1 || day % 10 == 0 || day % 10 > 3)
-		dayString += "th";
-	else if(day % 10 == 1)
-		dayString += "st";
-	else if(day % 10 == 2)
-		dayString += "nd";
-	else
-		dayString += "rd";
-
-	// Write out the month name instead of abbreviating it.
-	static const string MONTH[] = {
-		"January",
-		"February",
-		"March",
-		"April",
-		"May",
-		"June",
-		"July",
-		"August",
-		"September",
-		"October",
-		"November",
-		"December"
-	};
-	const string &month = MONTH[Month() - 1];
-
-	Preferences::DateFormat dateFormat = Preferences::GetDateFormat();
-	string result;
-	if(dateFormat == Preferences::DateFormat::YMD || dateFormat == Preferences::DateFormat::MDY)
-		result = month + " " + dayString;
-	else if(dateFormat == Preferences::DateFormat::DMY)
-		result = "the " + dayString + " of " + month;
-
-	return result;
+	return to_string(Month()) + "月" + to_string(Day()) + "日";
 }
 
 
@@ -362,6 +322,6 @@ int Date::WeekdayNumberOffset() const
 
 const string &Date::Weekday() const
 {
-	static const string DAY[] = {"Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"};
+	static const string DAY[] = {"星期六", "星期日", "星期一", "星期二", "星期三", "星期四", "星期五"};
 	return DAY[WeekdayNumberOffset()];
 }

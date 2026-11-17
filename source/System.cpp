@@ -477,14 +477,14 @@ void System::Load(const DataNode &node, Set<Planet> &planets, const ConditionsSt
 		while(root->parent >= 0)
 			root = &objects[root->parent];
 
-		static const string STAR = "You cannot land on a star!";
-		static const string HOTPLANET = "This planet is too hot to land on.";
-		static const string COLDPLANET = "This planet is too cold to land on.";
-		static const string UNINHABITEDPLANET = "This planet doesn't have anywhere you can land.";
-		static const string HOTMOON = "This moon is too hot to land on.";
-		static const string COLDMOON = "This moon is too cold to land on.";
-		static const string UNINHABITEDMOON = "This moon doesn't have anywhere you can land.";
-		static const string STATION = "This station cannot be docked with.";
+		static const string STAR = "你不能降落在恒星上！";
+		static const string HOTPLANET = "这颗星球太热，无法降落。";
+		static const string COLDPLANET = "这颗星球太冷，无法降落。";
+		static const string UNINHABITEDPLANET = "这颗星球上没有任何可供降落的地方。";
+		static const string HOTMOON = "这颗卫星太热，无法降落。";
+		static const string COLDMOON = "这颗卫星太冷，无法降落。";
+		static const string UNINHABITEDMOON = "这颗卫星上没有任何可供降落的地方。";
+		static const string STATION = "无法与这座空间站对接。";
 
 		double fraction = root->orbit.distance / habitable;
 		if(object.IsStar())

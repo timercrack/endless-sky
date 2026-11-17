@@ -126,9 +126,9 @@ void ShipManager::Do(PlayerInfo &player) const
 		for(const auto &ship : toTake)
 			player.TakeShip(ship.get(), model, takeOutfits);
 	}
-	Messages::Add({(count == 1 ? "The " + model->DisplayModelName() + " \"" + shipName + "\" was " :
-		to_string(count) + " " + model->PluralModelName() + " were ") +
-		(Giving() ? "added to" : "removed from") + " your fleet.",
+	Messages::Add({(count == 1 ? model->DisplayModelName() + "「" + shipName + "」已" :
+		to_string(count) + " 艘" + model->PluralModelName() + "已") +
+		(Giving() ? "加入" : "移出") + "你的舰队。",
 		GameData::MessageCategories().Get("normal")});
 }
 

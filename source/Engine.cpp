@@ -37,6 +37,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Government.h"
 #include "Hazard.h"
 #include "Interface.h"
+#include "text/Localization.h"
 #include "Logger.h"
 #include "MapPanel.h"
 #include "image/Mask.h"
@@ -126,9 +127,9 @@ namespace {
 		string tag;
 		const string &gov = ship->GetGovernment()->DisplayName();
 		if(!ship->GivenName().empty())
-			tag = gov + " " + ship->Noun() + " \"" + ship->GivenName() + "\": ";
+			tag = gov + Localization::Translate(ship->Noun()) + "“" + ship->GivenName() + "”：";
 		else
-			tag = ship->DisplayModelName() + " (" + gov + "): ";
+			tag = ship->DisplayModelName() + "（" + gov + "）：";
 
 		Messages::Add({tag + message, GameData::MessageCategories().Get("normal")});
 	}
@@ -862,7 +863,7 @@ void Engine::Step(bool isActive)
 			targetAsteroid->Facing().Unit(),
 			targetAsteroid->GetFrame(step),
 			nullptr);
-		info.SetString("target name", targetAsteroid->DisplayName() + " " + targetAsteroid->Noun());
+		info.SetString("target name", targetAsteroid->DisplayName() + Localization::Translate(targetAsteroid->Noun()));
 
 		targetVector = targetAsteroid->Position() - camera.Center();
 
@@ -1509,9 +1510,9 @@ void Engine::EnterSystem()
 	Audio::PlayMusic(system->MusicName());
 	GameData::SetHaze(system->Haze(), false);
 
-	Messages::Add({"Entering the " + system->DisplayName() + " system on "
+	Messages::Add({"进入" + system->DisplayName() + "星系，日期："
 		+ today.ToString() + (system->IsInhabited(flagship) ?
-		"." : ". No inhabited planets detected."),
+		"。" : "。未检测到有人居住的星球。"),
 		GameData::MessageCategories().Get("daily")});
 
 	// Preload landscapes and determine if the player used a wormhole.
@@ -1619,8 +1620,8 @@ void Engine::EnterSystem()
 					if(Random::Real() < attraction)
 					{
 						raidFleet.GetFleet()->Place(*system, newShips);
-						Messages::Add({"Your fleet has attracted the interest of a "
-							+ raidFleet.GetFleet()->GetGovernment()->DisplayName() + " raiding party.",
+						Messages::Add({"你的舰队引起了"
+							+ raidFleet.GetFleet()->GetGovernment()->DisplayName() + "掠夺队的注意。",
 							GameData::MessageCategories().Get("high")});
 					}
 		}
@@ -2344,8 +2345,8 @@ void Engine::HandleMouseClicks()
 					if(&object == flagship->GetTargetStellar())
 					{
 						if(!planet->CanLand(*flagship))
-							Messages::Add({"The authorities on " + planet->DisplayName()
-								+ " refuse to let you land.", GameData::MessageCategories().Get("high")});
+							Messages::Add({planet->DisplayName()
+								+ "的当局拒绝让你降落。", GameData::MessageCategories().Get("high")});
 						else if(!flagship->IsDestroyed() && !flagship->Commands().Has(Command::LAND))
 							activeCommands |= Command::LAND;
 					}
@@ -2820,8 +2821,8 @@ void Engine::DoCollection(Flotsam &flotsam)
 		return;
 
 	// One of your ships picked up this flotsam. Describe who it was.
-	string name = (collectorIsFlagship ? "You" :
-			"Your " + collector->Noun() + " \"" + collector->GivenName() + "\"") + " picked up ";
+	string name = (collectorIsFlagship ? "你" :
+			"你的" + Localization::Translate(collector->Noun()) + "“" + collector->GivenName() + "”") + "拾取了 ";
 	// Describe what they collected from this flotsam.
 	string commodity;
 	string message;
@@ -2834,8 +2835,7 @@ void Engine::DoCollection(Flotsam &flotsam)
 			player.Harvest(outfit);
 		}
 		else
-			message = name + to_string(amount) + " "
-				+ (amount == 1 ? outfit->DisplayName() : outfit->PluralName()) + ".";
+			message = name + to_string(amount) + " 件" + outfit->DisplayName() + "。";
 	}
 	else
 		commodity = flotsam.CommodityType();
@@ -2845,7 +2845,7 @@ void Engine::DoCollection(Flotsam &flotsam)
 	if(!commodity.empty())
 	{
 		double amountInTons = amount * flotsam.UnitSize();
-		message = name + Format::CargoString(amountInTons, Format::LowerCase(commodity)) + ".";
+		message = name + Format::CargoString(amountInTons, Format::LowerCase(Localization::Translate(commodity))) + "。";
 	}
 
 	// Unless something went wrong while forming the message, display it.
@@ -2858,11 +2858,11 @@ void Engine::DoCollection(Flotsam &flotsam)
 		if(!ship->IsDestroyed() && !ship->IsParked() && ship->GetSystem() == player.GetSystem())
 			total += ship->Cargo().Free();
 
-	message += " (" + Format::CargoString(free, "free space") + " remaining";
+	message += "（剩余空间 " + Format::MassString(free);
 	if(free == total)
-		message += ".)";
+		message += "）";
 	else
-		message += ", " + Format::MassString(total) + " in fleet.)";
+		message += "，舰队共 " + Format::MassString(total) + "）";
 	Messages::Add({message, GameData::MessageCategories().Get("normal")});
 }
 
@@ -2980,8 +2980,8 @@ void Engine::DoGrudge(const shared_ptr<Ship> &target, const Government *attacker
 		if(previous && previous->CanSendHail(player))
 		{
 			grudge[target->GetGovernment()].reset();
-			SendMessage(previous, "Thank you for your assistance, Captain "
-				+ player.LastName() + "!");
+			SendMessage(previous, "感谢你的援助，"
+				+ player.LastName() + "船长！");
 		}
 		return;
 	}
@@ -3034,20 +3034,19 @@ void Engine::DoGrudge(const shared_ptr<Ship> &target, const Government *attacker
 	string message;
 	if(target->GetPersonality().IsDaring())
 	{
-		message = "Please assist us in ";
-		message += (target->GetPersonality().Disables() ? "disabling " : "destroying ");
-		message += (attackerCount == 1 ? "this " : "these ");
+		message = "请协助我们";
+		message += (target->GetPersonality().Disables() ? "瘫痪" : "摧毁");
+		message += (attackerCount == 1 ? "这艘" : "这些");
 		message += attacker->DisplayName();
-		message += (attackerCount == 1 ? " ship." : " ships.");
+		message += "飞船。";
 	}
 	else
 	{
-		message = "We are under attack by ";
+		message = "我们正遭到";
 		if(attackerCount == 1)
-			message += "a ";
+			message += "一艘";
 		message += attacker->DisplayName();
-		message += (attackerCount == 1 ? " ship" : " ships");
-		message += ". Please assist us!";
+		message += "飞船的攻击。请协助我们！";
 	}
 	SendMessage(target, message);
 }

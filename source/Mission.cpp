@@ -80,6 +80,19 @@ namespace {
 			node.PrintTrace("Location filter ignored due to use of explicit " + kind + ":");
 	}
 
+	// Join the names with "、" and a final "和".
+	string JoinNames(const vector<string> &names)
+	{
+		string result;
+		for(size_t i = 0; i < names.size(); ++i)
+		{
+			if(i)
+				result += (i + 1 == names.size() ? "和" : "、");
+			result += names[i];
+		}
+		return result;
+	}
+
 	string TriggerToText(Mission::Trigger trigger)
 	{
 		switch(trigger)
@@ -1213,17 +1226,17 @@ string Mission::BlockedMessage(const PlayerInfo &player)
 	substitutions.Substitutions(subs);
 	player.AddPlayerSubstitutions(subs);
 
-	subs["<conditions>"] = toAccept.Test() ? "meet" : "do not meet";
+	subs["<conditions>"] = toAccept.Test() ? "满足" : "不满足";
 
 	ostringstream out;
 	if(bunksNeeded > 0)
-		out << (bunksNeeded == 1 ? "another bunk" : to_string(bunksNeeded) + " more bunks");
+		out << bunksNeeded << "个额外床位";
 	if(bunksNeeded > 0 && cargoNeeded > 0)
-		out << " and ";
+		out << "和";
 	if(cargoNeeded > 0)
-		out << (cargoNeeded == 1 ? "another ton" : to_string(cargoNeeded) + " more tons") << " of cargo space";
+		out << cargoNeeded << "吨额外货舱空间";
 	if(bunksNeeded <= 0 && cargoNeeded <= 0)
-		out << "no additional space";
+		out << "无需额外空间";
 	subs["<capacity>"] = out.str();
 
 	for(const auto &keyValue : subs)
@@ -1272,7 +1285,7 @@ bool Mission::Do(Trigger trigger, PlayerInfo &player, UI *ui, const shared_ptr<S
 		for(const NPC &npc : npcs)
 			if(npc.IsLeftBehind(player.GetSystem()))
 			{
-				ui->Push(DialogPanel::Info("This is a stop for one of your missions, but you have left a ship behind."));
+				ui->Push(DialogPanel::Info("这是你某个任务的中途停靠点，但你有飞船被落下了。"));
 				return false;
 			}
 
@@ -1445,15 +1458,15 @@ void Mission::Do(const ShipEvent &event, PlayerInfo &player, UI &ui)
 			for(const auto &it : event.Actor()->Cargo().MissionCargo())
 				failed |= (it.first == this);
 			if(failed)
-				message = "Your " + event.Target()->DisplayModelName() +
-					" \"" + event.Target()->GivenName() + "\" has been plundered. ";
+				message = "你的" + event.Target()->DisplayModelName() +
+					"「" + event.Target()->GivenName() + "」已被掠夺。";
 		}
 
 		if(failed)
 		{
 			hasFailed = true;
 			if(isVisible)
-				Messages::Add({message + "Mission failed: \"" + displayName + "\".",
+				Messages::Add({message + "任务失败：「" + displayName + "」。",
 					GameData::MessageCategories().Get("high")});
 		}
 	}
@@ -1654,8 +1667,8 @@ Mission Mission::Instantiate(const PlayerInfo &player, const shared_ptr<Ship> &b
 	subs["<tons>"] = Format::MassString(result.cargoSize);
 	subs["<cargo>"] = Format::CargoString(result.cargoSize, subs["<commodity>"]);
 	subs["<bunks>"] = to_string(result.passengers);
-	subs["<passengers>"] = (result.passengers == 1) ? "passenger" : "passengers";
-	subs["<fare>"] = (result.passengers == 1) ? "a passenger" : (subs["<bunks>"] + " passengers");
+	subs["<passengers>"] = "乘客";
+	subs["<fare>"] = subs["<bunks>"] + "名乘客";
 	if(player.GetPlanet())
 		subs["<origin>"] = player.GetPlanet()->DisplayName();
 	else if(boardingShip)
@@ -1664,30 +1677,36 @@ Mission Mission::Instantiate(const PlayerInfo &player, const shared_ptr<Ship> &b
 		subs["<origin>"] = player.GetSystem()->DisplayName();
 	subs["<planet>"] = result.destination ? result.destination->DisplayName() : "";
 	subs["<system>"] = result.destination ? result.destination->GetSystem()->DisplayName() : "";
-	subs["<destination>"] = subs["<planet>"] + " in the " + subs["<system>"] + " system";
+	subs["<destination>"] = subs["<system>"] + "星系的" + subs["<planet>"];
 	subs["<date>"] = result.deadline.ToString();
 	subs["<day>"] = result.deadline.LongString();
 	if(result.paymentApparent)
 		subs["<payment>"] = Format::CreditString(abs(result.paymentApparent));
-	// Stopovers: "<name> in the <system name> system" with "," and "and".
-	auto getDisplayName = [](const auto *const &item)
-	{
-		return item->DisplayName();
-	};
+	// Stopovers: "<system name>星系的<name>" joined with "、" and "和".
 	if(!result.stopovers.empty())
 	{
-		subs["<stopovers>"] = Format::List<set, const Planet *>(result.stopovers,
-			[](const Planet *const &planet)
-			{
-				return planet->DisplayName() + " in the " + planet->GetSystem()->DisplayName() + " system";
-			});
-		subs["<planet stopovers>"] = Format::List<set, const Planet *>(result.stopovers, getDisplayName);
+		vector<string> stopoverNames;
+		vector<string> planetNames;
+		for(const Planet *planet : result.stopovers)
+		{
+			stopoverNames.push_back(planet->GetSystem()->DisplayName() + "星系的" + planet->DisplayName());
+			planetNames.push_back(planet->DisplayName());
+		}
+		subs["<stopovers>"] = JoinNames(stopoverNames);
+		subs["<planet stopovers>"] = JoinNames(planetNames);
 	}
-	// Waypoints and marks: "<system name>" with "," and "and".
+	// Waypoints and marks: "<system name>" joined with "、" and "和".
+	auto systemNames = [](const set<const System *> &systems)
+	{
+		vector<string> names;
+		for(const System *system : systems)
+			names.push_back(system->DisplayName());
+		return JoinNames(names);
+	};
 	if(!result.waypoints.empty())
-		subs["<waypoints>"] = Format::List<set, const System *>(result.waypoints, getDisplayName);
+		subs["<waypoints>"] = systemNames(result.waypoints);
 	if(!result.markedSystems.empty())
-		subs["<marks>"] = Format::List<set, const System *>(result.markedSystems, getDisplayName);
+		subs["<marks>"] = systemNames(result.markedSystems);
 
 	// Done making subs, so expand the phrases and recursively substitute.
 	for(const auto &keyValue : subs)

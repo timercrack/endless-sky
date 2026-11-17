@@ -69,12 +69,12 @@ TradingPanel::~TradingPanel()
 {
 	if(profit)
 	{
-		string message = "You sold " + Format::CargoString(tonsSold, "cargo ");
+		string message = "你出售了 " + Format::CargoString(tonsSold, "货物");
 
 		if(profit < 0)
-			message += "at a loss of " + Format::CreditString(-profit) + ".";
+			message += "，亏损 " + Format::CreditString(-profit) + "。";
 		else
-			message += "for a total profit of " + Format::CreditString(profit) + ".";
+			message += "，总利润 " + Format::CreditString(profit) + "。";
 
 		Messages::Add({message, GameData::MessageCategories().Get("normal")});
 	}
@@ -131,19 +131,19 @@ void TradingPanel::Draw()
 	double outfitCargo = max(0., player.Cargo().OutfitsSizePrecise() - minableCargo);
 	if(minableCargo || outfitCargo || missionCargo)
 	{
-		string str = Format::MassString(ceil(minableCargo + outfitCargo + missionCargo)) + " of ";
+		string str = Format::MassString(ceil(minableCargo + outfitCargo + missionCargo));
 		if(minableCargo && missionCargo)
-			str += "mission cargo and other items.";
+			str += "任务货物及其他物品。";
 		else if(outfitCargo && missionCargo)
-			str += "outfits and mission cargo.";
+			str += "装备和任务货物。";
 		else if(outfitCargo && minableCargo)
-			str += "outfits and minables.";
+			str += "装备和矿物。";
 		else if(outfitCargo)
-			str += "outfits.";
+			str += "装备。";
 		else if(minableCargo)
-			str += "minables.";
+			str += "矿物。";
 		else
-			str += "mission cargo.";
+			str += "任务货物。";
 		info.SetString("other cargo", str);
 	}
 
@@ -406,18 +406,18 @@ string TradingPanel::OutfitSalesMessage(bool sellMinables) const
 		// Store a description of the count & item, followed by its value.
 		outfitValue.push_back({{}, count, value});
 		if(sellMinables)
-			outfitValue.back().name = Format::SimplePluralization(count, "unit") + " of " + outfit->DisplayName();
+			outfitValue.back().name = to_string(count) + " 单位" + outfit->DisplayName();
 		else if(count == 1)
 			outfitValue.back().name = outfit->DisplayName();
 		else
-			outfitValue.back().name = Format::Number(count) + " " + outfit->PluralName();
+			outfitValue.back().name = Format::Number(count) + " 件" + outfit->PluralName();
 	}
 	if(outfitValue.size() == 1)
-		return "Sell " + outfitValue[0].name + " for " + Format::CreditString(profit) + "?";
+		return "以 " + Format::CreditString(profit) + "出售" + outfitValue[0].name + "？";
 	std::ostringstream out;
-	out << "Sell ";
-	out << Format::CargoString(tonsSold, sellMinables ? "special commodities" : "outfits");
-	out << " for " << Format::CreditString(profit) << '?' << endl;
+	out << "以 " << Format::CreditString(profit) << "出售 ";
+	out << Format::CargoString(tonsSold, sellMinables ? "特殊商品" : "装备");
+	out << "？" << endl;
 
 	// Sort by decreasing value.
 	sort(outfitValue.begin(), outfitValue.end(), [](const OutfitInfo &left, const OutfitInfo &right)
@@ -433,9 +433,9 @@ string TradingPanel::OutfitSalesMessage(bool sellMinables) const
 		for(size_t i = SELL_OUTFITS_DISPLAY_LIMIT; i < outfitValue.size(); ++i)
 			count += outfitValue[i].count;
 		if(sellMinables)
-			out << "and " << Format::MassString(count) << " more.";
+			out << "以及另外 " << Format::MassString(count) << "。";
 		else
-			out << "and " << Format::Number(count) << " more.";
+			out << "以及另外 " << Format::Number(count) << " 件。";
 	}
 	return out.str();
 }

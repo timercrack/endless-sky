@@ -79,10 +79,10 @@ void ShipyardPanel::Step()
 	{
 		hasDoneFleetCapacityWarning = true;
 		bool shipCap = GameData::GetGamerules().GetFleetSizeLimitation() == Gamerules::FleetSizeLimitation::SHIP_CAP;
-		GetUI().Push(DialogPanel::Info("The escorts that you currently have active put you over your fleet capacity. "
-			"You will not be able to depart from this planet unless you park or sell your escorts to make room"s +
-			(shipCap ? "." : ", or change your flagship to a ship with a higher cost toward your limit, as "
-			"your flagship does not count toward the fleet capacity.")));
+		GetUI().Push(DialogPanel::Info("你当前出动的护航舰已超出舰队容量上限。"
+			"除非停泊或出售部分护航舰以腾出空间"s +
+			(shipCap ? "" : "，或将旗舰更换为占用上限更多的飞船（旗舰本身不计入舰队容量）")
+			+ "，否则你将无法从这颗星球起飞。"));
 	}
 }
 
@@ -261,8 +261,8 @@ void ShipyardPanel::DrawButtons()
 			creditsTooltip.SetZone(creditsBox);
 			string tooltipText = Format::CreditString(player.Accounts().Credits(), false);
 			if(hasFleetCapacity)
-				tooltipText += '\n' + Format::Number(player.FleetCost()) + " out of "
-					+ Format::Number(player.FleetCapacity()) + " fleet capacity utilized";
+				tooltipText += "\n已用舰队容量：" + Format::Number(player.FleetCost()) + " / "
+					+ Format::Number(player.FleetCapacity());
 			creditsTooltip.SetText(tooltipText);
 			creditsTooltip.Draw();
 		}
@@ -318,8 +318,8 @@ ShopPanel::TransactionResult ShipyardPanel::CanDoBuyButton() const
 	// Check that the player has any necessary licenses.
 	int64_t licenseCost = LicenseCost(&selectedShip->Attributes());
 	if(licenseCost < 0)
-		return "Buying this ship requires a special license. "
-			"You will probably need to complete some sort of mission to get one.";
+		return "购买这艘飞船需要特殊许可证。"
+			"你可能需要完成某些任务才能获得。";
 
 	// Check if the player can't pay.
 	cost += licenseCost;
@@ -331,20 +331,20 @@ ShopPanel::TransactionResult ShipyardPanel::CanDoBuyButton() const
 
 		if(player.Accounts().Credits() >= cost)
 		{
-			string ship = (player.Ships().size() == 1) ? "your current ship" : "some of your ships";
-			return "You do not have enough credits to buy this ship. "
-				"If you want to buy it, you must sell " + ship + " first.";
+			string ship = (player.Ships().size() == 1) ? "你当前的飞船" : "你的部分飞船";
+			return "你没有足够的信用点购买这艘飞船。"
+				"如果想买下它，必须先出售" + ship + "。";
 		}
 
 		// Check if the license cost is the tipping point.
 		if(player.Accounts().Credits() >= cost - licenseCost)
-			return "You do not have enough credits to buy this ship, "
-				"because it will cost you an extra " + Format::AbbreviatedNumber(licenseCost) +
-				" credits to buy the necessary licenses. "
-				"Consider checking if the bank will offer you a loan.";
+			return "你没有足够的信用点购买这艘飞船，"
+				"因为购买必需的许可证还需额外花费 " + Format::AbbreviatedNumber(licenseCost) +
+				" 信用点。"
+				"不妨看看银行是否愿意给你贷款。";
 
-		return "You do not have enough credits to buy this ship. "
-				"Consider checking if the bank will offer you a loan.";
+		return "你没有足够的信用点购买这艘飞船。"
+				"不妨看看银行是否愿意给你贷款。";
 	}
 	return true;
 }
@@ -361,19 +361,19 @@ void ShipyardPanel::DoBuyButton()
 	modifier = quantity.empty() ? 1 : stoi(quantity);
 	string message;
 	if(licenseCost)
-		message = "Note: you will need to pay " + Format::CreditString(licenseCost)
-			+ " for the licenses required to operate this ship, in addition to its cost."
-			" If that is okay with you, go ahead and enter a name for your brand new ";
+		message = "注意：除飞船本身的价格外，你还需支付 " + Format::CreditString(licenseCost)
+			+ " 购买驾驶这艘飞船所需的许可证。"
+			"如果没有问题，请为你全新的";
 	else
-		message = "Enter a name for your brand new ";
+		message = "请为你全新的";
 
 	if(modifier == 1)
-		message += selectedShip->DisplayModelName() + "! (Or leave it blank to use a randomly chosen name.)";
+		message += selectedShip->DisplayModelName() + "命名！（留空则随机选取名称。）";
 	else
-		message += selectedShip->PluralModelName() + "! (Or leave it blank to use randomly chosen names.)";
+		message += selectedShip->PluralModelName() + "命名！（留空则随机选取名称。）";
 
 	GetUI().Push(ShipNameDialogPanel::Create(
-			DialogPanel::FunctionButton(this, "Buy", 'b', &ShipyardPanel::BuyShip),
+			DialogPanel::FunctionButton(this, "购买", 'b', &ShipyardPanel::BuyShip),
 			message));
 }
 
@@ -387,19 +387,17 @@ void ShipyardPanel::Sell(bool storeOutfits)
 
 	if(storeOutfits && !planet->HasOutfitter())
 	{
-		message = "WARNING: This planet has no Outfitter. "
-			"There is no way to retain the outfits in storage.\n";
+		message = "警告：这颗星球没有装备商，"
+			"无法将装备保留在存储中。\n";
 		storeOutfits = false;
 	}
 	// Never allow keeping outfits where they cannot be retrieved.
 	// TODO: Consider how to keep outfits in Cargo in the future.
 
 	if(!storeOutfits)
-		message += "Sell the ";
-	else if(count == 1)
-		message = "Sell the hull of the ";
+		message += "出售 ";
 	else
-		message = "Sell the hulls of the ";
+		message = "仅出售船体：";
 	if(count == 1)
 		message += playerShip->GivenName();
 	else if(count <= MAX_LIST)
@@ -409,23 +407,23 @@ void ShipyardPanel::Sell(bool storeOutfits)
 		--count;
 
 		if(count == 1)
-			message += " and ";
+			message += " 和 ";
 		else
 		{
 			while(count-- > 1)
-				message += ",\n" + (*it++)->GivenName();
-			message += ",\nand ";
+				message += "，\n" + (*it++)->GivenName();
+			message += "，\n以及 ";
 		}
 		message += (*it)->GivenName();
 	}
 	else
 	{
 		auto it = playerShips.begin();
-		message += (*it++)->GivenName() + ",\n";
+		message += (*it++)->GivenName() + "，\n";
 		for(int i = 1; i < MAX_LIST - 1; ++i)
-			message += (*it++)->GivenName() + ",\n";
+			message += (*it++)->GivenName() + "，\n";
 
-		message += "and " + to_string(count - (MAX_LIST - 1)) + " other ships";
+		message += "以及其他 " + to_string(count - (MAX_LIST - 1)) + " 艘飞船";
 	}
 	// To allow calculating the sale price of all the ships in the list,
 	// temporarily copy into a shared_ptr vector:
@@ -434,11 +432,11 @@ void ShipyardPanel::Sell(bool storeOutfits)
 		toSell.push_back(it->shared_from_this());
 	int64_t total = player.FleetDepreciation().Value(toSell, day, storeOutfits);
 
-	message += ((initialCount > 2) ? "\nfor " : " for ") + Format::CreditString(total) + "?";
+	message += ((initialCount > 2) ? "\n售价 " : "，售价 ") + Format::CreditString(total) + "？";
 
 	if(storeOutfits)
 	{
-		message += " Any outfits will be placed in storage.";
+		message += "所有装备将被放入存储。";
 		GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipyardPanel::SellShipChassis, message, Truncate::MIDDLE));
 	}
 	else
@@ -452,7 +450,7 @@ ShopPanel::TransactionResult ShipyardPanel::CanRewire()
 	shipsToRewire.clear();
 
 	if(!playerShip)
-		return "No ship selected.";
+		return "未选择飞船。";
 
 	bool cannotUnlock = false;
 	for(Ship *selected : playerShips)
@@ -471,9 +469,8 @@ ShopPanel::TransactionResult ShipyardPanel::CanRewire()
 	{
 		bool singleSelection = playerShips.size() == 1;
 		if(cannotUnlock)
-			return (singleSelection ? "The selected ship" : "At least one of the selected ships")
-				+ " cannot be rewired."s;
-		return "The selected ship"s + (singleSelection ? " does" : "s do") + " not need rewired";
+			return singleSelection ? "选中的飞船无法重新布线。" : "至少有一艘选中的飞船无法重新布线。";
+		return singleSelection ? "选中的飞船无需重新布线。" : "选中的飞船均无需重新布线。";
 	}
 
 	int64_t cost = 0;
@@ -488,18 +485,18 @@ ShopPanel::TransactionResult ShipyardPanel::CanRewire()
 	if(credits < cost)
 	{
 		if(shipsToRewire.size() == 1)
-			return "You do not have enough credits to rewire this ship. "
-					"Consider checking if the bank will offer you a loan.";
+			return "你没有足够的信用点为这艘飞船重新布线。"
+					"不妨看看银行是否愿意给你贷款。";
 
 		// Alert the player if any of the selected ships could be rewired individually.
 		if(credits >= minimum)
 		{
-			return "You do not have enough credits to rewire all the selected ships at once. "
-					"Select fewer ships if you want to rewire some of them.";
+			return "你没有足够的信用点同时为所有选中的飞船重新布线。"
+					"如果想为其中部分飞船重新布线，请少选几艘。";
 		}
 
-		return "You do not have enough credits to rewire the selected ships. "
-				"Consider checking if the bank will offer you a loan.";
+		return "你没有足够的信用点为选中的飞船重新布线。"
+				"不妨看看银行是否愿意给你贷款。";
 	}
 
 	return true;
@@ -510,12 +507,12 @@ ShopPanel::TransactionResult ShipyardPanel::CanRewire()
 void ShipyardPanel::Rewire()
 {
 	int count = shipsToRewire.size();
-	string message = "Rewire the ";
+	string message = "要为";
 
 	if(count == 1)
-		message += (*shipsToRewire.begin())->GivenName() + "?";
+		message += (*shipsToRewire.begin())->GivenName() + "重新布线吗？";
 	else
-		message += "following ships?\n" + Format::IndentedList(shipsToRewire,
+		message += "以下飞船重新布线吗？\n" + Format::IndentedList(shipsToRewire,
 			[](const Ship *ship) -> string { return ship->GivenName(); },
 			MAX_LIST);
 
@@ -524,7 +521,7 @@ void ShipyardPanel::Rewire()
 		total += it->RewiringCost();
 
 	if(total)
-		message += (count > 1 ? "\n" : " ") + "It will cost "s + Format::CreditString(total) + ".";
+		message += (count > 1 ? "\n" : "") + "费用为 "s + Format::CreditString(total) + "。";
 	GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipyardPanel::RewireShips, message, Truncate::MIDDLE));
 }
 

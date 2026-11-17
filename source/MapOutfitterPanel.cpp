@@ -226,18 +226,18 @@ void MapOutfitterPanel::DrawItems()
 			else if(outfit->Get("uninstallable"))
 			{
 				double space = outfit->Mass();
-				info = Format::CargoString(space, "space");
+				info = Format::MassString(space) + "空间";
 			}
 			else
 			{
 				double space = -outfit->Get("outfit space");
 				info = Format::MassString(space);
 				if(space && -outfit->Get("weapon capacity") == space)
-					info += " of weapon space";
+					info += "武器空间";
 				else if(space && -outfit->Get("engine capacity") == space)
-					info += " of engine space";
+					info += "引擎空间";
 				else
-					info += " of outfit space";
+					info += "装备空间";
 			}
 
 			bool isForSale = true;
@@ -274,9 +274,7 @@ void MapOutfitterPanel::DrawItems()
 			const string storage_details =
 				onlyShowSoldHere || storedInSystem == 0
 				? ""
-				: storedInSystem == 1
-				? "1 unit in storage"
-				: Format::Number(storedInSystem) + " units in storage";
+				: "存储中有 " + Format::Number(storedInSystem) + " 件";
 			Draw(corner, outfit->Thumbnail(), Swizzle::None(), isForSale, outfit == selected, outfit == hovering,
 				outfit->DisplayName(), "", price, info, storage_details);
 			list.push_back(outfit);

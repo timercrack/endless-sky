@@ -1630,7 +1630,7 @@ const string &Ship::VariantMapShopName() const
 // Get the generic noun (e.g. "ship") to be used when describing this ship.
 const string &Ship::Noun() const
 {
-	static const string SHIP = "ship";
+	static const string SHIP = "飞船";
 	return noun.empty() ? SHIP : noun;
 }
 
@@ -2568,12 +2568,12 @@ shared_ptr<Ship> Ship::Board(bool autoPlunder, bool nonDocking)
 			if(fuelTransferred >= 1.)
 			{
 				if(isYours)
-					Messages::Add({Format::Number(fuelTransferred, 0) + " fuel transferred from your "
-						+ GivenName() + " to the " + victim->GivenName() + ".",
+					Messages::Add({Format::Number(fuelTransferred, 0) + " 燃料从你的 "
+						+ GivenName() + " 转移到 " + victim->GivenName() + "。",
 						GameData::MessageCategories().Get("normal")});
 				else if(victim->IsYours())
-					Messages::Add({Format::Number(fuelTransferred, 0) + " fuel transferred from the "
-						+ GivenName() + " to your " + victim->GivenName() + ".",
+					Messages::Add({Format::Number(fuelTransferred, 0) + " 燃料从 "
+						+ GivenName() + " 转移到你的 " + victim->GivenName() + "。",
 						GameData::MessageCategories().Get("normal")});
 			}
 		}
@@ -2586,12 +2586,12 @@ shared_ptr<Ship> Ship::Board(bool autoPlunder, bool nonDocking)
 			if(energyTransferred >= 1.)
 			{
 				if(isYours)
-					Messages::Add({Format::Number(energyTransferred, 0) + " energy transferred from your "
-						+ GivenName() + " to the " + victim->GivenName() + ".",
+					Messages::Add({Format::Number(energyTransferred, 0) + " 能量从你的 "
+						+ GivenName() + " 转移到 " + victim->GivenName() + "。",
 						GameData::MessageCategories().Get("normal")});
 				else if(victim->IsYours())
-					Messages::Add({Format::Number(energyTransferred, 0) + " energy transferred from the "
-						+ GivenName() + " to your " + victim->GivenName() + ".",
+					Messages::Add({Format::Number(energyTransferred, 0) + " 能量从 "
+						+ GivenName() + " 转移到你的 " + victim->GivenName() + "。",
 						GameData::MessageCategories().Get("normal")});
 			}
 		}
@@ -2611,24 +2611,24 @@ shared_ptr<Ship> Ship::Board(bool autoPlunder, bool nonDocking)
 	if(fuelTransferred >= 1.)
 	{
 		if(isYours)
-			Messages::Add({Format::Number(fuelTransferred, 0) + " fuel siphoned from the "
-				+ victim->GivenName() + " to your " + GivenName() + ".",
+			Messages::Add({Format::Number(fuelTransferred, 0) + " 燃料从 "
+				+ victim->GivenName() + " 抽取到你的 " + GivenName() + "。",
 				GameData::MessageCategories().Get("normal")});
 		else if(victim->IsYours())
-			Messages::Add({Format::Number(fuelTransferred, 0) + " fuel siphoned from your "
-				+ victim->GivenName() + " to the " + GivenName() + ".",
+			Messages::Add({Format::Number(fuelTransferred, 0) + " 燃料从你的 "
+				+ victim->GivenName() + " 被抽取到 " + GivenName() + "。",
 				GameData::MessageCategories().Get("normal")});
 	}
 	double energyTransferred = victim->TransferEnergy(victim->levels.energy, this);
 	if(energyTransferred >= 1.)
 	{
 		if(isYours)
-			Messages::Add({Format::Number(energyTransferred, 0) + " energy siphoned from the "
-				+ victim->GivenName() + " to your " + GivenName() + ".",
+			Messages::Add({Format::Number(energyTransferred, 0) + " 能量从 "
+				+ victim->GivenName() + " 抽取到你的 " + GivenName() + "。",
 				GameData::MessageCategories().Get("normal")});
 		else if(victim->IsYours())
-			Messages::Add({Format::Number(energyTransferred, 0) + " energy siphoned from your "
-				+ victim->GivenName() + " to the " + GivenName() + ".",
+			Messages::Add({Format::Number(energyTransferred, 0) + " 能量从你的 "
+				+ victim->GivenName() + " 被抽取到 " + GivenName() + "。",
 				GameData::MessageCategories().Get("normal")});
 	}
 	if(autoPlunder)
@@ -2772,10 +2772,10 @@ int Ship::Scan(const PlayerInfo &player)
 	if(startedScanning && isYours)
 	{
 		if(!target->GivenName().empty())
-			Messages::Add({"Attempting to scan the " + target->Noun() + " \"" + target->GivenName() + "\".",
+			Messages::Add({"正在尝试扫描" + target->Noun() + "「" + target->GivenName() + "」。",
 				GameData::MessageCategories().Get("low")});
 		else
-			Messages::Add({"Attempting to scan the selected " + target->Noun() + ".",
+			Messages::Add({"正在尝试扫描选定的" + target->Noun() + "。",
 				GameData::MessageCategories().Get("low")});
 
 		if(target->GetGovernment()->IsProvokedOnScan() && target->CanSendHail(player))
@@ -2784,28 +2784,28 @@ int Ship::Scan(const PlayerInfo &player)
 			string tag;
 			const string &gov = target->GetGovernment()->DisplayName();
 			if(!target->GivenName().empty())
-				tag = gov + " " + target->Noun() + " \"" + target->GivenName() + "\": ";
+				tag = gov + " " + target->Noun() + "「" + target->GivenName() + "」：";
 			else
-				tag = target->DisplayModelName() + " (" + gov + "): ";
-			Messages::Add({tag + "Please refrain from scanning us or we will be forced to take action.",
+				tag = target->DisplayModelName() + "（" + gov + "）：";
+			Messages::Add({tag + "请停止扫描我们，否则我们将被迫采取行动。",
 				GameData::MessageCategories().Get("high")});
 		}
 	}
 	else if(startedScanning && target->isYours && isImportant)
-		Messages::Add({"The " + government->DisplayName() + " " + Noun() + " \""
-			+ GivenName() + "\" is attempting to scan your ship \"" + target->GivenName() + "\".",
+		Messages::Add({government->DisplayName() + " " + Noun() + "「"
+			+ GivenName() + "」正在尝试扫描你的飞船「" + target->GivenName() + "」。",
 			GameData::MessageCategories().Get("low")});
 
 	if(target->isYours && !isYours && isImportant)
 	{
 		if(result & ShipEvent::SCAN_CARGO)
-			Messages::Add({"The " + government->DisplayName() + " " + Noun() + " \""
-				+ GivenName() + "\" completed its cargo scan of your ship \"" + target->GivenName() + "\".",
+			Messages::Add({government->DisplayName() + " " + Noun() + "「"
+				+ GivenName() + "」已完成对你的飞船「" + target->GivenName() + "」的货物扫描。",
 				GameData::MessageCategories().Get("normal")});
 		if(result & ShipEvent::SCAN_OUTFITS)
-			Messages::Add({"The " + government->DisplayName() + " " + Noun() + " \""
-				+ GivenName() + "\" completed its outfit scan of your ship \"" + target->GivenName()
-				+ (target->cache.inscrutable ? "\" with no useful results." : "\"."),
+			Messages::Add({government->DisplayName() + " " + Noun() + "「"
+				+ GivenName() + "」已完成对你的飞船「" + target->GivenName()
+				+ (target->cache.inscrutable ? "」的装备扫描，但没有获得有用结果。" : "」的装备扫描。"),
 				GameData::MessageCategories().Get("normal")});
 	}
 
@@ -4880,8 +4880,8 @@ int Ship::DoTakeDamage(const DamageDealt &damage, const Government *hitBy, bool 
 		type |= ShipEvent::DESTROY;
 
 		if(IsYours())
-			Messages::Add({"Your " + DisplayModelName()
-				+ " \"" + GivenName() + "\" has been destroyed.",
+			Messages::Add({"你的 " + DisplayModelName()
+				+ "「" + GivenName() + "」已被摧毁。",
 				GameData::MessageCategories().Get("high duplicating")});
 	}
 
@@ -5744,7 +5744,7 @@ void Ship::StepPilot()
 			if(!parent.lock())
 				Messages::Add(*GameData::Messages().Get("undercrewed flagship"));
 			else if(Preferences::Has(Preferences::HUD_EXTRA_STATUS_MSGS))
-				Messages::Add({"The " + givenName + " is moving erratically because there are not enough crew to pilot it.",
+				Messages::Add({"「" + givenName + "」正在不规则移动，因为没有足够的船员来驾驶它。",
 					GameData::MessageCategories().Get("low")});
 		}
 	}
@@ -6009,8 +6009,8 @@ void Ship::StepTargeting()
 					bool isEnemy = government->IsEnemy(target->government);
 					if(isEnemy && Random::Real() < target->cache.selfDestruct)
 					{
-						Messages::Add({"The " + target->DisplayModelName() + " \"" + target->GivenName()
-							+ "\" has activated its self-destruct mechanism.",
+						Messages::Add({target->DisplayModelName() + "「" + target->GivenName()
+							+ "」已启动自毁机制。",
 							GameData::MessageCategories().Get("high")});
 						GetTargetShip()->SelfDestruct();
 					}

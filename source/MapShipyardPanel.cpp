@@ -234,8 +234,8 @@ void MapShipyardPanel::DrawItems()
 			const Ship *ship = GameData::Ships().Get(name);
 			string price = Format::CreditString(ship->Cost());
 
-			string info = Format::Number(ship->MaxShields()) + " shields / ";
-			info += Format::Number(ship->MaxHull()) + " hull";
+			string info = "护盾 " + Format::Number(ship->MaxShields()) + " / ";
+			info += "船体 " + Format::Number(ship->MaxHull());
 
 			bool isForSale = true;
 			unsigned parkedInSystem = 0;
@@ -266,9 +266,7 @@ void MapShipyardPanel::DrawItems()
 			const string parking_details =
 				onlyShowSoldHere || parkedInSystem == 0
 				? ""
-				: parkedInSystem == 1
-				? "1 ship parked"
-				: Format::Number(parkedInSystem) + " ships parked";
+				: "已停泊 " + Format::Number(parkedInSystem) + " 艘";
 			Draw(corner, ship->Thumbnail(), ship->CustomSwizzle(), isForSale, ship == selected, ship == hovering,
 					ship->DisplayModelName(), ship->VariantMapShopName(), price, info, parking_details);
 			list.push_back(ship);

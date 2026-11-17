@@ -328,7 +328,7 @@ void Preferences::Init()
 
 		if(shown)
 			return make_pair(to_string(shown) + " / " + to_string(total), false);
-		return make_pair("done", true);
+		return make_pair("已完成", true);
 	});
 	settings[REACTIVATE_HELP].SetOnToggleFunc([](UI *) -> void {
 		for(const auto &it : GameData::HelpTemplates())
@@ -465,8 +465,8 @@ void Preferences::Init()
 				GameWindow::SetVSync(static_cast<VSync>(originalIndex));
 				vsyncSetting.SetIndex(originalIndex);
 				if(ui)
-					ui->Push(DialogPanel::Info("Unable to change VSync state. (Your system's graphics settings may "
-						"be controlling it instead.)"));
+					ui->Push(DialogPanel::Info("无法更改垂直同步状态。（你的系统图形设置可能"
+						"正在控制它。）"));
 				return originalIndex;
 			}
 		}
@@ -491,7 +491,7 @@ void Preferences::Init()
 			// Only show this if it's not possible to zoom the view at all, as
 			// otherwise the dialog will show every time, which is annoying.
 			if(newZoom == ZOOM_FACTOR_MIN + ZOOM_FACTOR_INCREMENT && ui)
-				ui->Push(DialogPanel::Info("Your screen resolution is too low to support a zoom level above 100%."));
+				ui->Push(DialogPanel::Info("你的屏幕分辨率太低，不支持超过 100% 的缩放级别。"));
 			Screen::SetZoom(ZOOM_FACTOR_MIN);
 		}
 
@@ -541,14 +541,14 @@ void Preferences::Init()
 	settings[TITLE_BAR_THEME] = Setting::List("Title bar theme", {"system default", "light", "dark"}, 0);
 	settings[TITLE_BAR_THEME].SetDisplayFunc([]() -> pair<string, bool> {
 		bool isOn = WinVersion::SupportsDarkTheme();
-		return make_pair(isOn ? settings[TITLE_BAR_THEME].Option() : "N/A", isOn);
+		return make_pair(isOn ? settings[TITLE_BAR_THEME].Option() : "不可用", isOn);
 	});
 	settings[TITLE_BAR_THEME].SetOnToggleFunc([](UI *) -> void { GameWindow::UpdateTitleBarTheme(); });
 
 	settings[WINDOW_ROUNDING] = Setting::List("Window rounding", {"system default", "off", "large", "small"}, 0);
 	settings[WINDOW_ROUNDING].SetDisplayFunc([]() -> pair<string, bool> {
 		bool isOn = WinVersion::SupportsWindowRounding();
-		return make_pair(isOn ? settings[TITLE_BAR_THEME].Option() : "N/A", isOn);
+		return make_pair(isOn ? settings[TITLE_BAR_THEME].Option() : "不可用", isOn);
 	});
 	settings[WINDOW_ROUNDING].SetOnToggleFunc([](UI *) -> void { GameWindow::UpdateWindowRounding(); });
 #endif

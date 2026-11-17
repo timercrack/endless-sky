@@ -942,7 +942,7 @@ void PlayerInfo::AdvanceDate(int amount)
 		for(Mission &mission : missions)
 		{
 			if(mission.CheckDeadline(date) && mission.IsVisible())
-				Messages::Add({"You failed to meet the deadline for the mission \"" + mission.DisplayName() + "\".",
+				Messages::Add({"你未能在截止日期前完成任务「" + mission.DisplayName() + "」。",
 					GameData::MessageCategories().Get("high")});
 			if(!mission.IsFailed())
 				mission.Do(Mission::DAILY, *this);
@@ -1849,20 +1849,20 @@ void PlayerInfo::Land(UI &ui)
 	{
 		if(!inactiveMissions.empty())
 		{
-			string message = "These active missions or jobs were deactivated due to a missing definition"
-				" - perhaps you recently removed a plugin?\n";
+			string message = "以下进行中的任务或工作因缺少定义已被停用"
+				"——也许你最近移除了某个插件？\n";
 			message += Format::IndentedList(inactiveMissions,
-				[](const Mission &mission) -> string { return '"' + mission.DisplayName() + '"'; }, 10) + "\n";
-			message += "They will be reactivated when the necessary plugin is reinstalled.";
+				[](const Mission &mission) -> string { return "「" + mission.DisplayName() + "」"; }, 10) + "\n";
+			message += "重新安装所需插件后，它们将被重新激活。";
 			ui.Push(DialogPanel::Info(message));
 		}
 		if(!invalidEvents.empty())
 		{
-			string message = "These scheduled or past events are undefined or contain undefined data"
-				" - perhaps you recently removed a plugin?\n";
+			string message = "以下已计划或已发生的事件未定义或包含未定义的数据"
+				"——也许你最近移除了某个插件？\n";
 			message += Format::IndentedList(invalidEvents,
-				[](const string &name) -> string { return '"' + name + '"'; }, 10) + "\n";
-			message += "The universe may not be in the proper state until the necessary plugin is reinstalled.";
+				[](const string &name) -> string { return "「" + name + "」"; }, 10) + "\n";
+			message += "在重新安装所需插件之前，宇宙可能不会处于正确的状态。";
 			ui.Push(DialogPanel::Info(message));
 		}
 	}
@@ -1876,9 +1876,7 @@ void PlayerInfo::Land(UI &ui)
 		if(added > 0)
 		{
 			flagship->AddCrew(added);
-			Messages::Add({"You hire " + to_string(added) + (added == 1
-				? " extra crew member to fill your now-empty bunk."
-				: " extra crew members to fill your now-empty bunks."),
+			Messages::Add({"你雇佣了 " + to_string(added) + " 名额外船员来填补空出的床位。",
 				GameData::MessageCategories().Get("normal")});
 		}
 	}
@@ -1954,10 +1952,10 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 		{
 			flagship->AddCrew(-extra);
 			if(extra == 1)
-				Messages::Add({"You fired a crew member to free up a bunk for a passenger.",
+				Messages::Add({"你解雇了一名船员以为乘客腾出床位。",
 					GameData::MessageCategories().Get("normal")});
 			else
-				Messages::Add({"You fired " + to_string(extra) + " crew members to free up bunks for passengers.",
+				Messages::Add({"你解雇了 " + to_string(extra) + " 名船员以为乘客腾出床位。",
 					GameData::MessageCategories().Get("normal")});
 			flagship->Cargo().SetBunks(flagship->Attributes().Get("bunks") - flagship->Crew());
 			cargo.TransferAll(flagship->Cargo());
@@ -1969,10 +1967,10 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 	{
 		flagship->AddCrew(-extra);
 		if(extra == 1)
-			Messages::Add({"You fired a crew member because you have no bunk for them.",
+			Messages::Add({"你解雇了一名船员，因为你没有空床位。",
 				GameData::MessageCategories().Get("normal")});
 		else
-			Messages::Add({"You fired " + to_string(extra) + " crew members because you have no bunks for them.",
+			Messages::Add({"你解雇了 " + to_string(extra) + " 名船员，因为你没有空床位。",
 				GameData::MessageCategories().Get("normal")});
 		flagship->Cargo().SetBunks(flagship->Attributes().Get("bunks") - flagship->Crew());
 	}
@@ -2014,8 +2012,8 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 		if(uncarried)
 		{
 			// The remaining uncarried ships are launched alongside the player.
-			string message = (uncarried > 1) ? "Some escorts were" : "One escort was";
-			Messages::Add({message + " unable to dock with a carrier.", GameData::MessageCategories().Get("normal")});
+			string message = (uncarried > 1) ? "部分护航舰" : "一艘护航舰";
+			Messages::Add({message + "无法停靠航母。", GameData::MessageCategories().Get("normal")});
 		}
 	}
 
@@ -2027,8 +2025,8 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 		if(it.second)
 		{
 			if(it.first->IsVisible())
-				Messages::Add({"Mission \"" + it.first->DisplayName()
-					+ "\" aborted because you do not have space for the cargo.",
+				Messages::Add({"任务「" + it.first->DisplayName()
+					+ "」中止，因为你没有足够的货舱空间。",
 					GameData::MessageCategories().Get("high")});
 			missionsToRemove.push_back(it.first);
 		}
@@ -2036,8 +2034,8 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 		if(it.second)
 		{
 			if(it.first->IsVisible())
-				Messages::Add({"Mission \"" + it.first->DisplayName()
-					+ "\" aborted because you do not have enough passenger bunks free.",
+				Messages::Add({"任务「" + it.first->DisplayName()
+					+ "」中止，因为你没有足够的空闲客舱。",
 					GameData::MessageCategories().Get("high")});
 			missionsToRemove.push_back(it.first);
 
@@ -2104,20 +2102,20 @@ bool PlayerInfo::TakeOff(UI &ui, const bool distributeCargo)
 		// Report how much excess cargo was sold (and what profit you earned),
 		// and how many tons of outfits were stored.
 		ostringstream out;
-		out << "You ";
+		out << "你";
 		if(sold)
 		{
-			out << "sold " << Format::CargoString(sold, "excess cargo") << " for " << Format::CreditString(income);
+			out << "以 " << Format::CreditString(income) << "出售了 " << Format::CargoString(sold, "多余货物");
 			if(totalBasis && totalBasis != income)
-				out << " (for a profit of " << Format::CreditString(income - totalBasis) << ")";
+				out << "（利润 " << Format::CreditString(income - totalBasis) << "）";
 			if(stored)
-				out << ", and ";
+				out << "，并";
 		}
 		if(stored)
 		{
-			out << "stored " << Format::CargoString(stored, "outfits") << " you could not carry";
+			out << "存储了 " << Format::CargoString(stored, "无法携带的装备");
 		}
-		out << ".";
+		out << "。";
 		Messages::Add({out.str(), GameData::MessageCategories().Get("normal")});
 	}
 
@@ -4988,8 +4986,7 @@ void PlayerInfo::StepMissions(UI &ui)
 	if(!visitText.empty())
 	{
 		if(missionVisits > 1)
-			visitText += "\n\t(You have " + Format::Number(missionVisits - 1) + " other unfinished "
-				+ ((missionVisits > 2) ? "missions" : "mission") + " at this location.)";
+			visitText += "\n\t（你在此处还有 " + Format::Number(missionVisits - 1) + " 个其他未完成的任务。）";
 		ui.Push(DialogPanel::Info(visitText));
 	}
 	// One mission's actions may influence another mission, so loop through one
@@ -5482,11 +5479,11 @@ void PlayerInfo::Fine(UI &ui)
 				ui.Push(new ConversationPanel(*this, *message.first));
 			else
 			{
-				message.second = "Before you can leave your ship, the " + gov->DisplayName()
-					+ " authorities of " + planet->DisplayName() + " show up and begin scanning it. "
-					"They say, \"Captain " + LastName() + ", we detect highly illegal material on your ship.\""
-					"\n\tYou are sentenced to lifetime imprisonment on a penal colony."
-					" Your days of traveling the stars have come to an end.";
+				message.second = "你还没来得及离开飞船，" + planet->DisplayName() + "的" + gov->DisplayName()
+					+ "当局人员就出现了，并开始扫描你的飞船。"
+					"他们说：“" + LastName() + "船长，我们在你的飞船上检测到了高度违禁的物品。”"
+					"\n\t你被判处在流放殖民地终身监禁。"
+					"你在星海间旅行的日子就此结束了。";
 				ui.Push(DialogPanel::Info(message.second));
 			}
 			// All ships belonging to the player should be removed.
@@ -5686,20 +5683,25 @@ void PlayerInfo::DoAccounting()
 	map<string, int64_t> income;
 	int64_t salariesIncome = accounts.SalariesIncomeTotal();
 	if(salariesIncome)
-		income["salary"] = salariesIncome;
+		income["薪资"] = salariesIncome;
 	int64_t tributeIncome = GetTributeTotal();
 	if(tributeIncome)
-		income["in tribute"] = tributeIncome;
+		income["贡品"] = tributeIncome;
 	FleetBalance balance = MaintenanceAndReturns();
 	if(balance.assetsReturns)
-		income["based on outfits and ships"] = balance.assetsReturns;
+		income["装备与飞船回报"] = balance.assetsReturns;
 	if(!income.empty())
 	{
-		string message = "You receive " + Format::List<map, string, int64_t>(income,
-			[](const pair<string, int64_t> &it)
-			{
-				return Format::CreditString(it.second) + ' ' + it.first;
-			}) + '.';
+		string message = "你获得了";
+		size_t index = 0;
+		for(const auto &[label, amount] : income)
+		{
+			if(index)
+				message += (index + 1 == income.size()) ? "以及" : "、";
+			message += label + " " + Format::CreditString(amount);
+			++index;
+		}
+		message += "。";
 		Messages::Add({message, GameData::MessageCategories().Get("force log")});
 		accounts.AddCredits(salariesIncome + tributeIncome + balance.assetsReturns);
 
@@ -5720,9 +5722,10 @@ void PlayerInfo::DoAccounting()
 			}
 			if(!governments.empty())
 			{
-				message = "You have lost reputation with "
-					+ Format::List(governments, [](const Government *gov){ return "the " + gov->DisplayName(); })
-					+ " due to active tributes.";
+				message = "由于持续收取贡品，你在";
+				for(auto it = governments.begin(); it != governments.end(); ++it)
+					message += (it == governments.begin() ? "" : "、") + (*it)->DisplayName();
+				message += "的声望下降了。";
 				Messages::Add({message, GameData::MessageCategories().Get("normal")});
 			}
 		}

@@ -15,6 +15,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include "Format.h"
 
+#include "Localization.h"
 #include "../Preferences.h"
 
 #include <algorithm>
@@ -333,16 +334,16 @@ namespace {
 				return DEFAULT_TIMESTAMP_FORMAT;
 			case Preferences::DateFormat::MDY:
 #ifdef _WIN32
-				return "%#I:%M:%S %p on %b %#d, %Y";
+				return "%b %#d, %Y %#I:%M:%S %p";
 #else
-				return "%-I:%M:%S %p on %b %-d, %Y";
+				return "%b %-d, %Y %-I:%M:%S %p";
 #endif
 			case Preferences::DateFormat::DMY:
 			default:
 #ifdef _WIN32
-				return "%#I:%M:%S %p on %#d %b %Y";
+				return "%#d %b %Y %#I:%M:%S %p";
 #else
-				return "%-I:%M:%S %p on %-d %b %Y";
+				return "%-d %b %Y %-I:%M:%S %p";
 #endif
 		}
 	}
@@ -413,10 +414,7 @@ string Format::AbbreviatedNumber(double value, optional<int> decimalPlaces, bool
 // then attach the ' credit' or ' credits' suffix to it.
 string Format::CreditString(int64_t value, bool abbreviated)
 {
-	if(value == 1)
-		return "1 credit";
-
-	return (abbreviated ? AbbreviatedNumber(value) : Number(value)) + " credits";
+	return (abbreviated ? AbbreviatedNumber(value) : Number(value)) + " 信用点";
 }
 
 
@@ -426,8 +424,8 @@ string Format::CreditString(int64_t value, bool abbreviated)
 string Format::MassString(double amount)
 {
 	if(amount == 1)
-		return "1 ton";
-	return Format::Number(amount) + " tons";
+		return "1 吨";
+	return Format::Number(amount) + " 吨";
 }
 
 
@@ -435,7 +433,7 @@ string Format::MassString(double amount)
 // Creates a string similar to '<amount> tons of <cargo>'.
 string Format::CargoString(double amount, const string &cargo)
 {
-	return MassString(amount) + " of " + cargo;
+	return MassString(amount) + Localization::Translate(cargo);
 }
 
 
@@ -453,7 +451,7 @@ string Format::SimplePluralization(int amount, const string &noun)
 
 string Format::StepsToSeconds(size_t steps)
 {
-	return Number(steps / 60.) + " s";
+	return Number(steps / 60.) + " 秒";
 }
 
 
@@ -463,7 +461,7 @@ string Format::PlayTime(double timeVal)
 {
 	string result;
 	int timeValFormat = 0;
-	static const array<char, 5> SUFFIX = {'s', 'm', 'h', 'd', 'y'};
+	static const array<const char *, 5> SUFFIX = {"秒", "分", "小时", "天", "年"};
 	static const array<int, 4> PERIOD = {60, 60, 24, 365};
 
 	timeValFormat = max(0., timeVal);
@@ -471,17 +469,13 @@ string Format::PlayTime(double timeVal)
 	size_t i = 0;
 	do {
 		int period = (i < SUFFIX.size() - 1 ? timeValFormat % PERIOD[i] : timeValFormat);
-		result = (i == 0 ? result + SUFFIX[i] : result + ' ' + SUFFIX[i]);
-		do {
-			result += static_cast<char>('0' + period % 10);
-			period /= 10;
-		} while(period);
+		string part = to_string(period) + SUFFIX[i];
+		result = (i == 0 ? part : part + ' ' + result);
 		if(i < PERIOD.size())
 			timeValFormat /= PERIOD[i];
 		i++;
 	} while (timeValFormat && i < SUFFIX.size());
 
-	reverse(result.begin(), result.end());
 	return result;
 }
 

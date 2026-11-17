@@ -37,7 +37,7 @@ namespace {
 		make_pair(60. * 100., ""),
 		make_pair(100., "%"),
 		make_pair(100., ""),
-		make_pair(1. / 60., "s")
+		make_pair(1. / 60., "秒")
 	};
 
 	const map<string, int> SCALE = {
@@ -325,7 +325,7 @@ void OutfitInfoDisplay::UpdateRequirements(const Outfit &outfit, const PlayerInf
 		if(descriptionCollapsed || (licenseOutfit && licenseOutfit->Cost()))
 		{
 			requirementLabels.push_back("license:");
-			requirementValues.push_back(license);
+			requirementValues.push_back(licenseOutfit ? licenseOutfit->DisplayName() : license);
 			requirementsHeight += 20;
 		}
 	}
@@ -335,7 +335,7 @@ void OutfitInfoDisplay::UpdateRequirements(const Outfit &outfit, const PlayerInf
 	else
 	{
 		ostringstream out;
-		out << "cost (" << (100 * buyValue) / cost << "%):";
+		out << "价格（" << (100 * buyValue) / cost << "%）:";
 		requirementLabels.push_back(out.str());
 	}
 	requirementValues.push_back(buyValue ? Format::AbbreviatedNumber(buyValue) : "free");
@@ -348,7 +348,7 @@ void OutfitInfoDisplay::UpdateRequirements(const Outfit &outfit, const PlayerInf
 		else
 		{
 			ostringstream out;
-			out << "sells for (" << (100 * sellValue) / cost << "%):";
+			out << "出售价格（" << (100 * sellValue) / cost << "%）:";
 			requirementLabels.push_back(out.str());
 		}
 		requirementValues.push_back(Format::AbbreviatedNumber(sellValue));
@@ -657,7 +657,7 @@ void OutfitInfoDisplay::UpdateAttributes(const Outfit &outfit)
 	else if(isContinuousBurst)
 	{
 		int value = static_cast<int>(lround(weapon->BurstReload() * 100. / reload));
-		attributeValues.emplace_back("continuous (" + Format::Number(value) + "%)");
+		attributeValues.emplace_back("持续（" + Format::Number(value) + "%）");
 	}
 	else
 		attributeValues.emplace_back(Format::Number(60. / reload));

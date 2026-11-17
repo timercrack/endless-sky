@@ -147,9 +147,9 @@ void StartConditions::Load(const DataNode &node, const ConditionsStore *globalCo
 
 	// The unlocked state must have at least some information.
 	if(unlocked.description.empty())
-		unlocked.description = "(No description provided.)";
+		unlocked.description = "（未提供说明。）";
 	if(unlocked.displayName.empty())
-		unlocked.displayName = "(Unnamed start)";
+		unlocked.displayName = "（未命名开局）";
 
 	// If the REVEALED or DISPLAYED states are missing information, fill them in with "???".
 	// Also use the UNLOCKED state thumbnail if the other states are missing one.

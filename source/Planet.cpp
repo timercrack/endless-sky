@@ -833,7 +833,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 {
 	const Government *government = GetGovernment();
 	if(!government)
-		return "Somehow, this planet does not have a government.";
+		return "不知为何，这颗星球没有政府。";
 	const auto &playerTribute = player.GetTribute();
 	if(playerTribute.find(this) != playerTribute.end())
 	{
@@ -841,7 +841,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 			return tributeAlreadyPaying->Get();
 		else if(government->TributeAlreadyPaying())
 			return government->TributeAlreadyPaying()->Get();
-		return "We are already paying you as much as we can afford.";
+		return "我们已经在尽力向你支付我们负担得起的最高金额了。";
 	}
 	if(!tribute || defenseFleets.empty())
 	{
@@ -849,7 +849,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 			return tributeUndefined->Get();
 		else if(government->TributeUndefined())
 			return government->TributeUndefined()->Get();
-		return "Please don't joke about that sort of thing.";
+		return "请不要拿这种事开玩笑。";
 	}
 	if(player.Conditions().Get("combat rating") < defenseThreshold)
 	{
@@ -857,7 +857,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 			return tributeUnworthy->Get();
 		else if(government->TributeUnworthy())
 			return government->TributeUnworthy()->Get();
-		return "You're not worthy of our time.";
+		return "你还不值得我们花时间理会。";
 	}
 
 	// The player is scary enough for this planet to take notice. Check whether
@@ -880,7 +880,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 			return tributeFleetLaunching->Get();
 		else if(government->TributeFleetLaunching())
 			return government->TributeFleetLaunching()->Get();
-		return "Our defense fleet will make short work of you.";
+		return "我们的防御舰队会轻松解决掉你。";
 	}
 
 	// The player has already demanded tribute. Have they defeated the entire defense fleet?
@@ -898,7 +898,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 			return tributeFleetUndefeated->Get();
 		else if(government->TributeFleetUndefeated())
 			return government->TributeFleetUndefeated()->Get();
-		return "We're not ready to surrender yet.";
+		return "我们还没打算投降。";
 	}
 
 	player.SetTribute(this, tribute);
@@ -908,7 +908,7 @@ string Planet::DemandTribute(PlayerInfo &player) const
 	else if(government->TributeSurrendered())
 		surrenderMessage = government->TributeSurrendered()->Get();
 	else
-		surrenderMessage = "We surrender. We will pay you <credits> per day to leave us alone.";
+		surrenderMessage = "我们投降。我们每天会付给你<credits>，只求你别再来骚扰我们。";
 	return Format::Replace(surrenderMessage, {{"<credits>", Format::CreditString(tribute)}});
 }
 

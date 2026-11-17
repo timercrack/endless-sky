@@ -401,9 +401,9 @@ bool MapDetailPanel::Click(int x, int y, MouseButton button, int clicks)
 
 			// Only issue movement orders if the player is in-flight.
 			if(player.GetPlanet())
-				GetUI().Push(DialogPanel::Info("You cannot issue fleet movement orders while docked."));
+				GetUI().Push(DialogPanel::Info("停靠时无法下达舰队移动命令。"));
 			else if(!player.CanView(*selectedSystem))
-				GetUI().Push(DialogPanel::Info("You must visit this system before you can send your fleet there."));
+				GetUI().Push(DialogPanel::Info("你必须先访问此星系才能派遣舰队前往。"));
 			else
 				player.SetEscortDestination(selectedSystem, uiClick / scale);
 		}

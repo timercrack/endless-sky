@@ -690,18 +690,18 @@ void MapPanel::FinishDrawing(const string &buttonCondition)
 				if(player.Flagship())
 					--t.activeShips;
 				if(t.activeShips || t.parkedShips || !t.outfits.empty())
-					text = "You are here, with:\n";
+					text = "你在这里，随行有：\n";
 				else
-					text = "You are here.";
+					text = "你在这里。";
 			}
 			// If you have both active and parked escorts, call the active ones
 			// "active escorts." Otherwise, just call them "escorts."
 			if(t.activeShips && t.parkedShips)
-				text += to_string(t.activeShips) + (t.activeShips == 1 ? " active escort\n" : " active escorts\n");
+				text += to_string(t.activeShips) + " 艘活跃护卫舰\n";
 			else if(t.activeShips)
-				text += to_string(t.activeShips) + (t.activeShips == 1 ? " escort" : " escorts");
+				text += to_string(t.activeShips) + " 艘护卫舰";
 			if(t.parkedShips)
-				text += to_string(t.parkedShips) + (t.parkedShips == 1 ? " parked escort" : " parked escorts");
+				text += to_string(t.parkedShips) + " 艘已停泊护卫舰";
 			if(!t.outfits.empty())
 			{
 				if(t.activeShips || t.parkedShips)
@@ -711,11 +711,11 @@ void MapPanel::FinishDrawing(const string &buttonCondition)
 				for(const auto &it : t.outfits)
 					sum += it.second;
 
-				text += to_string(sum) + (sum == 1 ? " stored outfit" : " stored outfits");
+				text += to_string(sum) + " 件存储装备";
 
 				if(HasMultipleLandablePlanets(*hoverSystem) || t.outfits.size() > 1)
 					for(const auto &it : t.outfits)
-						text += "\n - " + to_string(it.second) + " on " + it.first->DisplayName();
+						text += "\n - " + it.first->DisplayName() + "：" + to_string(it.second) + " 件";
 			}
 
 			tooltip.SetText(text);
@@ -805,7 +805,7 @@ bool MapPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, bool
 	}
 	else if(key == 'f')
 	{
-		GetUI().Push(DialogPanel::RequestString(this, &MapPanel::Find, "Search for:", "", Truncate::NONE, true));
+		GetUI().Push(DialogPanel::RequestString(this, &MapPanel::Find, "搜索：", "", Truncate::NONE, true));
 		return true;
 	}
 	else if(key == SDLK_PLUS || key == SDLK_KP_PLUS || key == SDLK_EQUALS)
@@ -1483,9 +1483,9 @@ void MapPanel::DrawSelectedSystem()
 
 	string text;
 	if(!player.KnowsName(*selectedSystem, isSimplified))
-		text = "Selected system: unexplored system";
+		text = "选中星系：未探索星系";
 	else
-		text = "Selected system: " + selectedSystem->DisplayName();
+		text = "选中星系：" + selectedSystem->DisplayName();
 
 	int jumps = 0;
 	const vector<const System *> &plan = player.TravelPlan();
@@ -1495,10 +1495,8 @@ void MapPanel::DrawSelectedSystem()
 	else if(distance.HasRoute(*selectedSystem))
 		jumps = distance.Days(*selectedSystem);
 
-	if(jumps == 1)
-		text += " (1 jump away)";
-	else if(jumps > 0)
-		text += " (" + to_string(jumps) + " jumps away)";
+	if(jumps > 0)
+		text += "（距离 " + to_string(jumps) + " 次跳跃）";
 
 	const Font &font = FontSet::Get(14);
 	Point pos(-175., Screen::Top() + .5 * (30. - font.Height()));
@@ -1672,7 +1670,7 @@ void MapPanel::DrawSystems()
 			}
 		}
 
-		if(commodity == SHOW_GOVERNMENT && node.government && node.government->DisplayName() != "Uninhabited")
+		if(commodity == SHOW_GOVERNMENT && node.government && node.government->TrueName() != "Uninhabited")
 		{
 			// For every government that is drawn, keep track of how close it
 			// is to the center of the view. The four closest governments

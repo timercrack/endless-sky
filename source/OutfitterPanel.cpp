@@ -99,13 +99,13 @@ namespace {
 		switch(location)
 		{
 			case OutfitterPanel::OutfitLocation::Ship:
-				return "ship";
+				return "飞船";
 			case OutfitterPanel::OutfitLocation::Shop:
-				return "shop";
+				return "商店";
 			case OutfitterPanel::OutfitLocation::Cargo:
-				return "cargo";
+				return "货舱";
 			case OutfitterPanel::OutfitLocation::Storage:
-				return "storage";
+				return "存储";
 			default:
 				throw runtime_error("unreachable");
 		}
@@ -237,7 +237,7 @@ void OutfitterPanel::DrawItem(const string &name, const Point &point)
 
 		if(maxCount)
 		{
-			string label = "installed: " + to_string(minCount);
+			string label = "已安装：" + to_string(minCount);
 			Color color = bright;
 			if(maxCount > minCount)
 			{
@@ -260,19 +260,19 @@ void OutfitterPanel::DrawItem(const string &name, const Point &point)
 
 	string message;
 	if(cargo && storage && stock)
-		message = "cargo+stored: " + to_string(cargo + storage) + ", in stock: " + to_string(stock);
+		message = "货舱+存储：" + to_string(cargo + storage) + "，库存：" + to_string(stock);
 	else if(cargo && storage)
-		message = "in cargo: " + to_string(cargo) + ", in storage: " + to_string(storage);
+		message = "货舱：" + to_string(cargo) + "，存储：" + to_string(storage);
 	else if(cargo && stock)
-		message = "in cargo: " + to_string(cargo) + ", in stock: " + to_string(stock);
+		message = "货舱：" + to_string(cargo) + "，库存：" + to_string(stock);
 	else if(storage && stock)
-		message = "in storage: " + to_string(storage) + ", in stock: " + to_string(stock);
+		message = "存储：" + to_string(storage) + "，库存：" + to_string(stock);
 	else if(cargo)
-		message = "in cargo: " + to_string(cargo);
+		message = "货舱：" + to_string(cargo);
 	else if(storage)
-		message = "in storage: " + to_string(storage);
+		message = "存储：" + to_string(storage);
 	else if(stock)
-		message = "in stock: " + to_string(stock);
+		message = "库存：" + to_string(stock);
 	else if(!outfitter.Has(outfit))
 		message = "(not sold here)";
 	if(!message.empty())
@@ -364,7 +364,7 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 	const string &actionName) const
 {
 	if(!planet || !selectedOutfit)
-		return "No outfit selected.";
+		return "未选择装备。";
 
 	// Prevent coding up bad combinations.
 	if(fromLocation == toLocation)
@@ -375,12 +375,12 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 	if(mapSize)
 	{
 		if(fromLocation != OutfitLocation::Shop)
-			return "You cannot " + actionName + " maps. Once you buy one, it is yours permanently.";
+			return "你无法" + actionName + "星图。星图一经购买便永久归你所有。";
 		if(toLocation == OutfitLocation::Cargo || toLocation == OutfitLocation::Storage)
-			return "You cannot place maps into " + LocationName(toLocation) + ".";
+			return "你无法将星图放入" + LocationName(toLocation) + "。";
 		bool mapMinables = selectedOutfit->Get("map minables");
 		if(mapSize > 0 && player.HasMapped(mapSize, mapMinables))
-			return "You have already mapped all the systems shown by this map, so there is no reason to buy another.";
+			return "此星图所示的星系你都已绘入星图，无需再买一份。";
 		return true;
 	}
 
@@ -389,15 +389,15 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 		if(HasLicense(selectedOutfit->TrueName()))
 		{
 			if(fromLocation != OutfitLocation::Shop)
-				return "You cannot " + actionName + " licenses. Once you obtain one, it is yours permanently.";
+				return "你无法" + actionName + "许可证。许可证一经获得便永久归你所有。";
 			if(toLocation == OutfitLocation::Cargo || toLocation == OutfitLocation::Storage)
-				return "You cannot place licenses into " + LocationName(toLocation) + ".";
-			return "You already have one of these licenses, so there is no reason to buy another.";
+				return "你无法将许可证放入" + LocationName(toLocation) + "。";
+			return "你已拥有此许可证，无需重复购买。";
 		}
 		if(fromLocation != OutfitLocation::Shop)
-			return "You cannot " + actionName + " licenses.";
+			return "你无法" + actionName + "许可证。";
 		if(toLocation != OutfitLocation::Ship)
-			return "You cannot place licenses into " + LocationName(toLocation) + ".";
+			return "你无法将许可证放入" + LocationName(toLocation) + "。";
 		return true;
 	}
 
@@ -410,9 +410,9 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 		case OutfitLocation::Ship:
 		{
 			if(!playerShip)
-				return "No ship selected.";
+				return "未选择飞船。";
 			if(selectedOutfit->GetPrecise("unremovable"))
-				return "This outfit can't be removed after it has been installed.";
+				return "此装备一经安装便无法拆除。";
 
 			vector<pair<string, vector<string>>> dependentOutfitErrors;
 			vector<string> errorDetails;
@@ -445,32 +445,30 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 						for(const string &reason : failureReasons)
 							if(outfit->GetPrecise(reason) < 0)
 							{
-								offendingOutfits.push_back('"' + outfit->DisplayName() + '"');
+								offendingOutfits.push_back("“" + outfit->DisplayName() + "”");
 								break;
 							}
 					if(offendingOutfits.size() == 1)
 					{
-						errorDetails.emplace_back("the " + offendingOutfits.back() + " depends on this outfit and "
-							"must be uninstalled first");
+						errorDetails.emplace_back(offendingOutfits.back() + "依赖此装备，必须先将其卸载");
 					}
 					else if(offendingOutfits.size() > 1)
 					{
-						errorDetails.emplace_back(Format::List(offendingOutfits) + " depend on this outfit and at "
-							"least one of them must be uninstalled first");
+						errorDetails.emplace_back(Format::List(offendingOutfits) + "依赖此装备，"
+							"必须先卸载其中至少一件");
 					}
 					// If there is no offending outfit, then the attribute is directly on the ship.
 					else if(failureReasons.size() == 1)
 					{
-						errorDetails.emplace_back("the value of \"" + failureReasons.back() + "\" would "
-							"be reduced to less than its minimum allowed amount");
+						errorDetails.emplace_back("属性“" + failureReasons.back() + "”的数值将低于其允许的最小值");
 					}
 					else
 					{
 						auto ListFunc = [](const string &reason) -> string {
-							return '"' + reason + "'";
+							return "“" + reason + "”";
 						};
-						errorDetails.emplace_back("the values of " + Format::List(failureReasons, ListFunc)
-							+ " would be reduced to less than its minimum allowed amount");
+						errorDetails.emplace_back("属性" + Format::List(failureReasons, ListFunc)
+							+ "的数值将低于其允许的最小值");
 					}
 
 					dependentOutfitErrors.emplace_back(ship->GivenName(), std::move(errorDetails));
@@ -483,20 +481,21 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			// The outfit cannot be installed from any ship.
 			if(!foundOutfit)
 				return {canSource, canPlace,
-					"You don't have any " + selectedOutfit->PluralName() + " to " + actionName + "."};
+					"你没有可" + actionName + "的" + selectedOutfit->PluralName() + "。"};
 
 			// Return the errors in the appropriate format.
 			if(!dependentOutfitErrors.empty())
 			{
-				string errorMessage = "You cannot " + actionName + " this from " +
-					(playerShips.size() > 1 ? "any of the selected ships" : "your ship") + ", because:\n";
+				string errorMessage = "你无法从"s +
+					(playerShips.size() > 1 ? "任何一艘选中的飞船" : "你的飞船") + "上" + actionName
+					+ "此装备，原因如下：\n";
 				int i = 0;
 				for(const auto &[shipName, errors] : dependentOutfitErrors)
 				{
 					if(playerShips.size() > 1)
 					{
-						errorMessage += to_string(++i) + ". You cannot " + actionName + " this outfit from \""
-							+ shipName + "\", because:\n";
+						errorMessage += to_string(++i) + ". 你无法从“" + shipName + "”上" + actionName
+							+ "此装备，原因如下：\n";
 					}
 					for(const string &error : errors)
 						errorMessage += "- " + error + '\n';
@@ -512,8 +511,8 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			if(!(outfitter.Has(selectedOutfit) || player.Stock(selectedOutfit) > 0))
 			{
 				return {canSource, canPlace,
-					"You cannot buy this outfit here. It is only being shown in the list because you already "
-					"have one, but this " + planet->Noun() + " does not sell them."};
+					"你无法在此购买此装备。它之所以出现在列表中，只是因为你已拥有此装备，"
+					"但这里并不出售。"};
 			}
 
 			// Check special unique outfits, if you already have them.
@@ -523,12 +522,11 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 				bool mapMinables = selectedOutfit->Get("map minables");
 				if(mapSize > 0 && player.HasMapped(mapSize, mapMinables))
 					return {canSource, canPlace,
-						"You have already mapped all the systems shown by this map, "
-						"so there is no reason to buy another."};
+						"此星图所示的星系你都已绘入星图，无需再买一份。"};
 
 				if(HasLicense(selectedOutfit->TrueName()))
 					return {canSource, canPlace,
-						"You already have one of these licenses, so there is no reason to buy another."};
+						"你已拥有此许可证，无需重复购买。"};
 			}
 
 			// Determine what you will have to pay to buy this outfit.
@@ -536,21 +534,20 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			int64_t credits = player.Accounts().Credits();
 			if(cost > credits)
 				return {canSource, canPlace,
-					"You don't have enough money to buy this outfit. You need a further " +
-					Format::CreditString(cost - credits)};
+					"你的资金不足以购买此装备，还差 " +
+					Format::CreditString(cost - credits) + "。"};
 
 			// Add the cost to buy the required license.
 			int64_t licenseCost = LicenseCost(selectedOutfit, false);
 			if(cost + licenseCost > credits)
 				return {canSource, canPlace,
-					"You don't have enough money to buy this outfit because you also need to buy a "
-					"license for it. You need a further " +
-					Format::CreditString(cost + licenseCost - credits)};
+					"你的资金不足以购买此装备，因为你还需要购买它所需的许可证。还差 " +
+					Format::CreditString(cost + licenseCost - credits) + "。"};
 
 			// Check that the player has any necessary licenses.
 			if(licenseCost < 0)
 				return {canSource, canPlace,
-					"You cannot buy this outfit, because it requires a license that you don't have."};
+					"你无法购买此装备，因为它需要你尚未拥有的许可证。"};
 
 			// The outfit can be purchased (available in the outfitter, licensed and affordable).
 			canSource = true;
@@ -561,7 +558,7 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			// Do we have any in cargo?
 			if(!player.Cargo().Get(selectedOutfit))
 				return {canSource, canPlace,
-					"You don't have any " + selectedOutfit->PluralName() + " in cargo to " + actionName + "."};
+					"你的货舱中没有可" + actionName + "的" + selectedOutfit->PluralName() + "。"};
 			canSource = true;
 			break;
 		}
@@ -570,7 +567,7 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			// Do we have any in storage?
 			if(!player.Storage().Get(selectedOutfit))
 				return {canSource, canPlace,
-					"You don't have any " + selectedOutfit->PluralName() + " in storage to " + actionName + "."};
+					"你的存储中没有可" + actionName + "的" + selectedOutfit->PluralName() + "。"};
 			canSource = true;
 			break;
 		}
@@ -587,10 +584,10 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 		case OutfitLocation::Ship:
 		{
 			if(!playerShip)
-				return "No ship selected.";
+				return "未选择飞船。";
 
 			if(selectedOutfit->GetPrecise("uninstallable"))
-				return "This item is not an outfit that can be installed in a ship.";
+				return "此物品不是可安装在飞船上的装备。";
 
 			// Find if any ship can install the outfit.
 			for(const Ship *ship : playerShips)
@@ -603,45 +600,45 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 			if(!canPlace)
 			{
 				auto TonsFree = [](double needed, double space, const string &name) -> string {
-					return "You cannot install this outfit, because it takes up "
-						+ Format::CargoString(needed, name) + ", and this ship has "
-						+ Format::MassString(space) + " free.";
+					return "你无法安装此装备，因为它需要占用 "
+						+ Format::MassString(needed) + name + "，而这艘飞船只剩 "
+						+ Format::MassString(space) + "。";
 				};
 
 				// If no selected ship can install the outfit, report error based on playerShip.
 				double outfitNeeded = -selectedOutfit->Get("outfit space");
 				double outfitSpace = playerShip->Attributes().Get("outfit space");
 				if(outfitNeeded > outfitSpace)
-					errors.push_back(TonsFree(outfitNeeded, outfitSpace, "outfit space"));
+					errors.push_back(TonsFree(outfitNeeded, outfitSpace, "装备空间"));
 
 				double weaponNeeded = -selectedOutfit->Get("weapon capacity");
 				double weaponSpace = playerShip->Attributes().Get("weapon capacity");
 				if(weaponNeeded > weaponSpace)
-					errors.push_back("Only part of your ship's outfit capacity is usable for weapons. "
-						+ TonsFree(weaponNeeded, weaponSpace, "weapon space"));
+					errors.push_back("你飞船的装备容量中只有一部分可用于武器。"
+						+ TonsFree(weaponNeeded, weaponSpace, "武器空间"));
 
 				double engineNeeded = -selectedOutfit->Get("engine capacity");
 				double engineSpace = playerShip->Attributes().Get("engine capacity");
 				if(engineNeeded > engineSpace)
-					errors.push_back("Only part of your ship's outfit capacity is usable for engines. "
-						+ TonsFree(engineNeeded, engineSpace, "engine space"));
+					errors.push_back("你飞船的装备容量中只有一部分可用于引擎。"
+						+ TonsFree(engineNeeded, engineSpace, "引擎空间"));
 
 				double cargoNeeded = -selectedOutfit->Get("cargo space");
 				double cargoSpace = playerShip->Attributes().Get("cargo space");
 				if(cargoNeeded > cargoSpace)
-					errors.push_back(TonsFree(cargoNeeded, cargoSpace, "cargo space"));
+					errors.push_back(TonsFree(cargoNeeded, cargoSpace, "货舱空间"));
 
 				int mountsNeeded = -selectedOutfit->Get("turret mounts");
 				int mountsFree = playerShip->Attributes().Get("turret mounts");
 				if(mountsNeeded > mountsFree)
-					errors.emplace_back("This weapon is designed to be installed on a turret mount, "
-						"but your ship does not have any unused turret mounts available.");
+					errors.emplace_back("此武器需要安装在炮塔座上，"
+						"但你的飞船没有空闲的炮塔座。");
 
 				int gunsNeeded = -selectedOutfit->Get("gun ports");
 				int gunsFree = playerShip->Attributes().Get("gun ports");
 				if(gunsNeeded > gunsFree)
-					errors.emplace_back("This weapon is designed to be installed in a gun port, "
-						"but your ship does not have any unused gun ports available.");
+					errors.emplace_back("此武器需要安装在炮位上，"
+						"但你的飞船没有空闲的炮位。");
 
 				// If the outfit category is ammo, the problem wasn't one of the above attributes, and this outfit
 				// could never have its installation limited by usual means, then assume that the issue is a lack
@@ -649,11 +646,11 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 				if(errors.empty() && selectedOutfit->Category() == "Ammunition" && !outfitNeeded && !weaponNeeded
 						&& !engineNeeded && !cargoNeeded && !mountsNeeded && !gunsNeeded)
 					errors.emplace_back(!playerShip->OutfitCount(selectedOutfit) ?
-						"This outfit is ammunition for a weapon. "
-						"You cannot install it without first installing the appropriate weapon."
-						: "You already have the maximum amount of ammunition for this weapon. "
-						"If you want to install more ammunition, you must first install more ammunition storage "
-						"or another of these weapons.");
+						"此装备是武器弹药。"
+						"你必须先安装相应的武器才能安装它。"
+						: "你已拥有此武器的最大弹药量。"
+						"如需安装更多弹药，必须先安装更多弹药存储装置"
+						"或另一件此类武器。");
 
 				// Handle other attributes more generically, if none of the above are the problem.
 				if(errors.empty())
@@ -661,7 +658,7 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 					vector<string> reasons = playerShip->Attributes().CanAddWithReasons(*selectedOutfit, 1).second;
 					bool isAutomaton = playerShip->Attributes().GetPrecise("automaton")
 						|| selectedOutfit->GetPrecise("automaton");
-					string error = "You cannot install this outfit, because it requires:\n";
+					string error = "你无法安装此装备，因为它需要：\n";
 					for(const string &reason : reasons)
 					{
 						// This attribute will have a lower limit, as otherwise it couldn't have been the reason
@@ -669,21 +666,20 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 						optional<double> minimum = Outfit::LowerLimit(reason, isAutomaton);
 						double shipAvailable = playerShip->Attributes().Get(reason) - minimum.value();
 						double outfitRequires = -selectedOutfit->Get(reason);
-						error += "\t- " + OutfitInfoDisplay::FormatAttribute(reason, outfitRequires) + " \"" + reason
-							+ "\" and this ship only has " + OutfitInfoDisplay::FormatAttribute(reason, shipAvailable)
-							+ " free";
+						error += "\t- " + OutfitInfoDisplay::FormatAttribute(reason, outfitRequires) + " “" + reason
+							+ "”，而这艘飞船只剩 " + OutfitInfoDisplay::FormatAttribute(reason, shipAvailable);
 					}
 					errors.push_back(error);
 				}
 
 				// For unhandled outfit requirements, show a catch-all error message.
 				if(errors.empty())
-					errors.push_back("You cannot install this outfit in your ship.");
+					errors.push_back("你无法在你的飞船上安装此装备。");
 
 				// Return the errors in the appropriate format.
 				if(errors.size() == 1)
 					return {canSource, canPlace, errors[0]};
-				string errorMessage = "There are several reasons why you cannot " + actionName + " this outfit:\n";
+				string errorMessage = "你无法" + actionName + "此装备，原因如下：\n";
 				for(const string &error : errors)
 					errorMessage += "- " + error + '\n';
 				return {canSource, canPlace, errorMessage};
@@ -707,12 +703,12 @@ ShopPanel::TransactionResult OutfitterPanel::CanMoveOutfit(OutfitLocation fromLo
 				canPlace = true;
 			else
 			{
-				string message = "You cannot load this outfit into cargo, because it takes up "
-					+ Format::CargoString(mass, "mass") + " and your fleet";
+				string message = "你无法将此装备装入货舱，因为它的质量为 "
+					+ Format::MassString(mass) + "，而你的舰队";
 				if(couldFit)
-					message += " only has " + Format::CargoString(freeCargo, "cargo space") + " free.";
+					message += "只剩 " + Format::MassString(freeCargo) + "货舱空间。";
 				else
-					message += "'s largest cargo hold only has " + Format::CargoString(largestHold, "cargo space") + ".";
+					message += "中最大的货舱也只有 " + Format::MassString(largestHold) + "。";
 				return {canSource, canPlace, message};
 			}
 			break;
@@ -837,7 +833,7 @@ ShopPanel::TransactionResult OutfitterPanel::MoveOutfit(OutfitLocation fromLocat
 				// The current cost is more than the amount of money the player has, so try a smaller amount.
 				if(!--howManyPer)
 					// If the smaller amount becomes zero, we're not able to do anything with cargo.
-					return "Cannot afford to buy this item and load into cargo.";
+					return "资金不足，无法购买此物品并装入货舱。";
 				price = player.StockDepreciation().Value(selectedOutfit, day, howManyPer);
 			}
 
@@ -1248,10 +1244,10 @@ void OutfitterPanel::CheckRefill()
 	{
 		if(refillPref == Preferences::AmmoRefill::ASK || (cost && refillPref == Preferences::AmmoRefill::WHEN_FREE))
 		{
-			string message = "Do you want to reload all the ammunition for your ship";
-			message += (count == 1) ? "?" : "s?";
+			string message = "要为你的";
+			message += (count == 1) ? "飞船补充全部弹药吗？" : "各艘飞船补充全部弹药吗？";
 			if(cost)
-				message += " It will cost " + Format::CreditString(cost) + ".";
+				message += "费用为 " + Format::CreditString(cost) + "。";
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &OutfitterPanel::Refill, message));
 		}
 		else
@@ -1448,8 +1444,8 @@ void OutfitterPanel::DrawButtons()
 		{
 			creditsTooltip.SetZone(creditsBox);
 			creditsTooltip.SetText(Format::CreditString(player.Accounts().Credits(), false) + '\n' +
-				Format::MassString(player.Cargo().Free()) + " free out of " +
-				Format::MassString(player.Cargo().Size()) + " total capacity");
+				"空闲 " + Format::MassString(player.Cargo().Free()) + "，总容量 " +
+				Format::MassString(player.Cargo().Size()));
 			creditsTooltip.Draw();
 		}
 	}
@@ -1465,7 +1461,7 @@ ShopPanel::TransactionResult OutfitterPanel::HandleShortcuts(SDL_Keycode key)
 	if(key == 'b')
 	{
 		// Buy and install up to <modifier> outfits for each selected ship.
-		result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Ship, "buy and install");
+		result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Ship, "购买并安装");
 	}
 	else if(key == 's')
 	{
@@ -1473,14 +1469,14 @@ ShopPanel::TransactionResult OutfitterPanel::HandleShortcuts(SDL_Keycode key)
 		// Return a result based on the reason that none can be sold from the selected ships.
 		if(!MoveOutfit(OutfitLocation::Cargo, OutfitLocation::Shop)
 				&& !MoveOutfit(OutfitLocation::Storage, OutfitLocation::Shop))
-			result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Shop, "sell");
+			result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Shop, "出售");
 	}
 	else if(key == 'r')
 	{
 		// Move <modifier> of the selected outfit to storage from either cargo, the selected ships, or from the shop.
 		if(!MoveOutfit(OutfitLocation::Cargo, OutfitLocation::Storage)
 				&& !MoveOutfit(OutfitLocation::Ship, OutfitLocation::Storage))
-			result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Storage, "store");
+			result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Storage, "存储");
 	}
 	else if(key == 'c')
 	{
@@ -1489,22 +1485,22 @@ ShopPanel::TransactionResult OutfitterPanel::HandleShortcuts(SDL_Keycode key)
 		// Note: If the outfit cannot be moved from storage or bought into cargo, give an error based on the buy
 		// condition.
 		if(!MoveOutfit(OutfitLocation::Storage, OutfitLocation::Cargo))
-			result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Cargo, "buy and load");
+			result = MoveOutfit(OutfitLocation::Shop, OutfitLocation::Cargo, "购买并装入货舱");
 	}
 	else if(key == 'i')
 	{
 		// Install up to <modifier> outfits from already owned equipment into each selected ship.
-		result = MoveOutfit(OutfitLocation::Cargo, OutfitLocation::Ship, "install");
+		result = MoveOutfit(OutfitLocation::Cargo, OutfitLocation::Ship, "安装");
 		if(!result && !result.canSource)
-			result = MoveOutfit(OutfitLocation::Storage, OutfitLocation::Ship, "install");
+			result = MoveOutfit(OutfitLocation::Storage, OutfitLocation::Ship, "安装");
 	}
 	else if(key == 'u')
 	{
 		// Uninstall up to <modifier> outfits from each of the selected ships if any are available to uninstall,
 		// moving the outfits into cargo if there is space, or to storage if there isn't.
-		result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Cargo, "uninstall");
+		result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Cargo, "卸载");
 		if(!result && !result.canPlace)
-			result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Storage, "uninstall");
+			result = MoveOutfit(OutfitLocation::Ship, OutfitLocation::Storage, "卸载");
 	}
 
 	return result;

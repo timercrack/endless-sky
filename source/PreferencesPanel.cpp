@@ -276,8 +276,8 @@ bool PreferencesPanel::Click(int x, int y, MouseButton button, int clicks)
 					{
 						this->editing = this->selected = index;
 					},
-					"Rebinding this key will change the keypress you need to access this menu. "
-					"You really shouldn't rebind this unless needed.", true));
+					"重新绑定将改变你访问此菜单的按键。"
+					"如无必要，不建议重新绑定此按键。", true));
 			else
 				editing = selected = index;
 		}
@@ -487,13 +487,13 @@ void PreferencesPanel::DrawControls()
 	// * The namespace variable CONTROLS_PAGE_COUNT should be updated to the max
 	//   page count (count of '\n' characters plus one).
 	static const string CATEGORIES[] = {
-		"Keyboard Navigation",
-		"Fleet",
+		"键盘导航",
+		"舰队",
 		"\t",
-		"Targeting",
-		"Weapons",
+		"目标选择",
+		"武器",
 		"\n",
-		"Interface"
+		"界面"
 	};
 	const string *category = CATEGORIES;
 	static const Command COMMANDS[] = {
@@ -581,7 +581,7 @@ void PreferencesPanel::DrawControls()
 			table.DrawGap(10);
 			table.DrawUnderline(medium);
 			table.Draw(categoryString, bright);
-			table.Draw("Key", bright);
+			table.Draw("按键", bright);
 			table.DrawGap(5);
 		}
 		else
@@ -656,7 +656,7 @@ void PreferencesPanel::DrawSettings()
 	// * The namespace variable SETTINGS_PAGE_COUNT should be updated to the max
 	//   page count (count of '\n' characters plus one).
 	static const string SETTINGS[] = {
-		"Display",
+		"显示",
 		Preferences::ZOOM_FACTOR_MAIN,
 		Preferences::ZOOM_FACTOR_VIEW,
 		Preferences::FONT_SIZE,
@@ -665,7 +665,7 @@ void PreferencesPanel::DrawSettings()
 		Preferences::BLOCK_SCREEN_SAVER,
 		Preferences::VSYNC,
 		"",
-		"Graphics",
+		"图形",
 		Preferences::CAMERA_ACCELERATION,
 		Preferences::MOTION_BLUR,
 		Preferences::DRAW_BACKGROUND_HAZE,
@@ -678,29 +678,29 @@ void PreferencesPanel::DrawSettings()
 		Preferences::SHIP_OUTLINES_CLOAKED,
 		Preferences::TEXTURE_FILTERING,
 		"\t",
-		"Performance",
+		"性能",
 		Preferences::SHOW_PERFORMANCE_METRICS,
 		Preferences::REDUCE_LARGE_GRAPHICS,
 		Preferences::DEFER_LOADING_IMAGES,
 		Preferences::SHIP_OUTLINES_SHOP,
 		Preferences::SHIP_OUTLINES_HUD,
 		"",
-		"Map",
+		"星图",
 		Preferences::MAP_DEADLINE_BLINK_BY_DISTANCE,
 		Preferences::MAP_HIDE_UNEXPLORED,
 		Preferences::MAP_SHOW_ESCORTS,
 		Preferences::MAP_SHOW_OUTFITS,
 		Preferences::MAP_PARENTHESIZE_PROFIT,
 		"",
-		"Trading",
+		"交易",
 		Preferences::TRADE_SELL_OUTFITS_WITHOUT_SHOP,
 		Preferences::TRADE_CONFIRM_OUTFITS,
 		Preferences::TRADE_CONFIRM_MINABLES,
 		"",
-		"Gameplay",
+		"游戏性",
 		Preferences::TRIBUTE_CONFIRMATION,
 		"\n",
-		"Flagship Behavior",
+		"旗舰行为",
 		Preferences::MOUSE_CONTROL_FLAGSHIP,
 		Preferences::MOUSE_CONTROL_TURRETS,
 		Preferences::AUTO_AIM,
@@ -711,7 +711,7 @@ void PreferencesPanel::DrawSettings()
 		Preferences::AUTO_UNPARK_FLAGSHIP,
 		Preferences::FLAGSHIP_SPACE_PRIORITY,
 		"",
-		"Fleet Behavior",
+		"舰队行为",
 		Preferences::TURRETS_FOCUS_FIRE,
 		Preferences::ESCORT_AMMO_USAGE,
 		Preferences::FLOTSAM_COLLECTION,
@@ -737,7 +737,7 @@ void PreferencesPanel::DrawSettings()
 		Preferences::ALERT_INDICATOR,
 		Preferences::HUD_EXTRA_STATUS_MSGS,
 		"\n",
-		"Other",
+		"其他",
 		Preferences::UNDERLINE_SHORTCUTS,
 		Preferences::REACTIVATE_HELP,
 		Preferences::INTERRUPT_FAST_FORWARD,
@@ -750,7 +750,7 @@ void PreferencesPanel::DrawSettings()
 		Preferences::SAVE_MSG_LOGS,
 #ifdef _WIN32
 		"\t",
-		"Windows Options",
+		"Windows 选项",
 		Preferences::TITLE_BAR_THEME,
 		Preferences::WINDOW_ROUNDING
 #endif
@@ -981,7 +981,7 @@ void PreferencesPanel::RenderPluginDescription(const Plugin &plugin)
 
 	WrappedText wrap(font);
 	wrap.SetWrapWidth(box.Width());
-	static const string EMPTY = "(No description given.)";
+	static const string EMPTY = "（无描述。）";
 	wrap.Wrap(plugin.aboutText.empty() ? EMPTY : plugin.CreateDescription());
 
 	descriptionHeight += wrap.Height();
@@ -1032,7 +1032,7 @@ void PreferencesPanel::Exit()
 {
 	if(Command::MENU.HasConflict() || !Command::MENU.HasBinding())
 	{
-		GetUI().Push(DialogPanel::Info("Menu keybind is not bound or has conflicts."));
+		GetUI().Push(DialogPanel::Info("菜单按键未绑定或有冲突。"));
 		return;
 	}
 

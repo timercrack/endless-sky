@@ -56,22 +56,8 @@ namespace {
 		if(!flagship || !count || nameWas.empty())
 			return;
 
-		nameWas += (isSingle ? " was" : " were");
-		string message;
-		if(isSingle)
-		{
-			char c = tolower(static_cast<unsigned char>(nameWas.front()));
-			bool isVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-			message = (isVowel ? "An " : "A ");
-		}
-		else
-			message = to_string(abs(count)) + " ";
-
-		message += nameWas;
-		if(count > 0)
-			message += " added to your ";
-		else
-			message += " removed from your ";
+		string message = to_string(abs(count)) + " 件" + nameWas;
+		bool isAdded = (count > 0);
 
 		bool didCargo = false;
 		bool didShip = false;
@@ -103,20 +89,16 @@ namespace {
 			cargo.SetSize(size);
 			didCargo = true;
 			if(ui)
-			{
-				string special = "The " + nameWas;
-				special += " put in your cargo hold because there is not enough space to install ";
-				special += (isSingle ? "it" : "them");
-				special += " in your ship.";
-				ui->Push(DialogPanel::Info(special));
-			}
+				ui->Push(DialogPanel::Info("由于你的飞船上没有足够的空间安装，" + nameWas + "已被放入你的货舱。"));
 		}
+		string where;
 		if(didCargo && didShip)
-			message += "cargo hold and your flagship.";
+			where = "货舱和旗舰";
 		else if(didCargo)
-			message += "cargo hold.";
+			where = "货舱";
 		else
-			message += "flagship.";
+			where = "旗舰";
+		message += isAdded ? "已添加到你的" + where + "。" : "已从你的" + where + "中移除。";
 		Messages::Add({message, GameData::MessageCategories().Get("normal")});
 	}
 }

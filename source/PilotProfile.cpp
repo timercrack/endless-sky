@@ -184,7 +184,7 @@ void PilotProfile::DeleteProfile(const std::shared_ptr<PilotProfile> &pilot, UI 
 			pilots.erase(it);
 	}
 	else if(failed && ui)
-		ui->Push(DialogPanel::Info("Deleting pilot files failed."));
+		ui->Push(DialogPanel::Info("删除驾驶员文件失败。"));
 }
 
 

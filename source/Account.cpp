@@ -183,7 +183,7 @@ string Account::Step(int64_t assets, int64_t salaries, int64_t maintenance)
 			crewSalariesOwed -= salariesPaid;
 			credits -= salariesPaid;
 			missedPayment = true;
-			out << "You could not pay all your crew salaries.";
+			out << "你无法支付全部船员薪资。";
 		}
 		else
 		{
@@ -204,7 +204,7 @@ string Account::Step(int64_t assets, int64_t salaries, int64_t maintenance)
 			maintenanceDue -= maintenancePaid;
 			credits -= maintenancePaid;
 			if(!missedPayment)
-				out << "You could not pay all your maintenance costs.";
+				out << "你无法支付全部维护费用。";
 			missedPayment = true;
 		}
 		else
@@ -228,7 +228,7 @@ string Account::Step(int64_t assets, int64_t salaries, int64_t maintenance)
 		{
 			mortgage.MissPayment();
 			if(!missedPayment)
-				out << "You missed a mortgage payment.";
+				out << "你错过了一笔抵押贷款还款。";
 			missedPayment = true;
 		}
 		else
@@ -271,33 +271,34 @@ string Account::Step(int64_t assets, int64_t salaries, int64_t maintenance)
 	// If you didn't make any payments, no need to continue further.
 	if(!(salariesPaid + maintenancePaid + mortgagesPaid + finesPaid + debtPaid + deathBenefitsPaid + crewBonusesPaid))
 		return out.str();
-	else if(missedPayment)
-		out << " ";
 
-	out << "You paid ";
+	out << "你支付了";
 
 	map<string, int64_t> typesPaid;
 	if(salariesPaid)
-		typesPaid["crew salaries"] = salariesPaid;
+		typesPaid["船员薪资"] = salariesPaid;
 	if(maintenancePaid)
-		typesPaid["maintenance"] = maintenancePaid;
+		typesPaid["维护费"] = maintenancePaid;
 	if(mortgagesPaid)
-		typesPaid["mortgages"] = mortgagesPaid;
+		typesPaid["抵押贷款"] = mortgagesPaid;
 	if(finesPaid)
-		typesPaid["fines"] = finesPaid;
+		typesPaid["罚款"] = finesPaid;
 	if(debtPaid)
-		typesPaid["debt"] = debtPaid;
+		typesPaid["债务"] = debtPaid;
 	if(deathBenefitsPaid)
-		typesPaid["death benefits"] = deathBenefitsPaid;
+		typesPaid["抚恤金"] = deathBenefitsPaid;
 	if(crewBonusesPaid)
-		typesPaid["crew bonuses"] = crewBonusesPaid;
+		typesPaid["船员奖金"] = crewBonusesPaid;
 
-	out << Format::List<map, string, int64_t>(typesPaid,
-		[](const pair<string, int64_t> &it)
-		{
-			return Format::CreditString(it.second) + " in " + it.first;
-		});
-	out << '.';
+	size_t index = 0;
+	for(const auto &[type, amount] : typesPaid)
+	{
+		if(index)
+			out << ((index + 1 == typesPaid.size()) ? "以及" : "、");
+		out << type << " " << Format::CreditString(amount);
+		++index;
+	}
+	out << "。";
 	return out.str();
 }
 

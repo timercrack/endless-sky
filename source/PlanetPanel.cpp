@@ -419,17 +419,17 @@ void PlanetPanel::TakeOffIfReady()
 			shipNames.pop_back();
 			shipNames.pop_back();
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &PlanetPanel::CheckWarningsAndTakeOff,
-				"Some of your ships in other systems are not able to fly:\n" + shipNames +
-				"\nDo you want to park those ships and depart?", Truncate::MIDDLE));
+				"你在其他星系的部分飞船无法飞行：\n" + shipNames +
+				"\n要停泊这些飞船并起飞吗？", Truncate::MIDDLE));
 			return;
 		}
 	}
 	if(player.FleetCost() > player.FleetCapacity())
 	{
 		bool shipCap = GameData::GetGamerules().GetFleetSizeLimitation() == Gamerules::FleetSizeLimitation::SHIP_CAP;
-		GetUI().Push(DialogPanel::Info("The escorts that you currently have active put you over your fleet capacity. "
-			"Park or sell your escorts to make room"s + (shipCap ? "." : ", or change your flagship to a ship with a "
-			"higher cost toward your limit, as your flagship does not count toward the fleet capacity.")));
+		GetUI().Push(DialogPanel::Info("你当前出动的护航舰已超出舰队容量上限。"
+			"请停泊或出售护航舰以腾出空间"s + (shipCap ? "。" : "，或将旗舰更换为一艘对容量占用"
+			"更高的飞船，因为旗舰不计入舰队容量。")));
 		return;
 	}
 
@@ -499,7 +499,7 @@ void PlanetPanel::CheckWarningsAndTakeOff()
 			auto it = uniques.begin();
 			for(int i = 0; i < detailedSize; ++i)
 			{
-				out << "\n" + to_string(it->second) + " "
+				out << "\n" + to_string(it->second) + " 件"
 					+ (it->second == 1 ? it->first->DisplayName() : it->first->PluralName());
 				++it;
 			}
@@ -508,74 +508,74 @@ void PlanetPanel::CheckWarningsAndTakeOff()
 			{
 				for( ; it != uniques.end(); ++it)
 					otherUniquesCount += it->second;
-				out << "\nand " + to_string(otherUniquesCount) + " other unique outfits.";
+				out << "\n以及 " + to_string(otherUniquesCount) + " 件其他独特装备。";
 			}
 			else
-				out << ".";
+				out << "。";
 		};
 		if(missionCargoToSell > 0 || outfitsToSell > 0 || commoditiesToSell > 0)
 		{
 			if(hasCargoOverflow)
-				out << "Your fleet's cargo is overbooked.\n";
+				out << "你的舰队货物超载了。\n";
 			else
 			{
-				out << "Some cargo could not be distributed to your escorts due to their individual cargo hold sizes. "
-					"(For example, two ships with 20 ton cargo holds can't carry three 12 ton outfits.)\n";
+				out << "由于各护航舰的货舱大小限制，部分货物无法分配到护航舰上。"
+					"（例如，两艘货舱为 20 吨的飞船无法装载三件 12 吨的装备。）\n";
 			}
 		}
-		out << "If you take off now, you will:";
+		out << "如果现在起飞，你将：";
 
 		// Warn about missions that will fail on takeoff.
 		if(missionCargoToSell > 0 || overbooked > 0)
 		{
-			out << "\n- abort a mission due to not having enough ";
+			out << "\n- 因缺少足够的";
 
 			if(overbooked > 0)
 			{
-				out << "bunks available for " << overbooked;
-				out << (overbooked > 1 ? " of the passengers" : " passenger");
-				out << (missionCargoToSell > 0 ? " and not having enough " : ".");
+				out << "床位来安置 " << overbooked << " 名乘客";
+				if(missionCargoToSell > 0)
+					out << "，且缺少足够的";
 			}
 
 			if(missionCargoToSell > 0)
-				out << "cargo space to hold " << Format::CargoString(missionCargoToSell, "mission cargo.");
+				out << "货舱空间来装载 " << Format::CargoString(missionCargoToSell, "任务货物");
+			out << "而中止任务。";
 		}
 		// Warn about outfits that can't be carried.
 		if(outfitsToSell > 0)
 		{
 			out << "\n- ";
-			out << (hasOutfitter ? "store " : "sell ") << outfitsToSell << " outfit";
-			out << (outfitsToSell > 1 ? "s" : "");
-			out << " that none of your ships can hold.";
+			out << (hasOutfitter ? "存储 " : "出售 ") << outfitsToSell << " 件";
+			out << "你的飞船都无法容纳的装备。";
 			if(!uniquesToSell.empty())
 			{
-				out << " Some of the outfits are unique:";
+				out << "其中一些是独特装备：";
 				ListUniques(uniquesToSell);
 			}
 		}
 		// Warn about unique items you sold.
 		if(!leftUniques.empty())
 		{
-			out << "\n- not be able to re-purchase unique outfits you sold at the outfitter:";
+			out << "\n- 无法回购你在装备商处出售的独特装备：";
 			ListUniques(leftUniques);
 		}
 		// Warn about ships that won't travel with you.
 		if(nonJumpCount > 0)
 		{
-			out << "\n- launch with ";
+			out << "\n- 带着";
 			if(nonJumpCount == 1)
-				out << "a ship";
+				out << "一艘";
 			else
-				out << nonJumpCount << " ships";
-			out << " that will not be able to leave the system.";
+				out << " " << nonJumpCount << " 艘";
+			out << "无法离开本星系的飞船起飞。";
 		}
 		// Warn about commodities you will have to sell.
 		if(commoditiesToSell > 0)
 		{
-			out << "\n- sell " << Format::CargoString(commoditiesToSell, "cargo");
-			out << " that you do not have space for.";
+			out << "\n- 出售 " << Format::CargoString(commoditiesToSell, "你没有空间存放的货物");
+			out << "。";
 		}
-		out << "\nAre you sure you want to continue?";
+		out << "\n确定要继续吗？";
 		// Pool cargo together, so that the cargo number on the trading panel
 		// is still accurate while the popup is active.
 		player.PoolCargo();

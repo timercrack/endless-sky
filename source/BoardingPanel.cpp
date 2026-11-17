@@ -98,12 +98,12 @@ BoardingPanel::BoardingPanel(PlayerInfo &player, const shared_ptr<Ship> &victim)
 	canCapture = victim->IsCapturable() || player.CaptureOverriden(victim);
 	// Some "ships" do not represent something the player could actually pilot.
 	if(!canCapture)
-		AddMessage("This is not a ship that you can capture.");
+		AddMessage("这不是你能俘获的飞船。");
 	else if(player.FleetCost() + victim->FleetCost() > player.FleetCapacity())
 	{
 		canCapture = false;
-		AddMessage("You cannot capture this ship as doing so");
-		AddMessage("would put you over your fleet capacity.");
+		AddMessage("你无法俘获此飞船，因为这样做");
+		AddMessage("会使你超出舰队容量。");
 	}
 	else
 	{
@@ -341,20 +341,18 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 			}
 			if(deathBenefits || crewBonuses)
 			{
-				string message = "You must pay ";
+				string message = "你必须支付";
 				if(deathBenefits)
 				{
-					message += Format::Number(deathBenefits) + " credits in death benefits for the "
-						+ ((casualties > 1) ? "families of your dead crew members" : "family of your dead crew member");
+					message += " " + Format::Number(deathBenefits) + " 信用点，作为阵亡船员家属的抚恤金";
 					if(crewBonuses)
-						message += " and ";
+						message += "；以及";
 				}
 				if(crewBonuses)
 				{
-					message += Format::Number(crewBonuses) + " credits in crew bonuses for the surviving crew member"
-						+ ((remainingCrew > 1) ? "s" : "");
+					message += " " + Format::Number(crewBonuses) + " 信用点，作为幸存船员的奖金";
 				}
-				Messages::Add({message + ".", GameData::MessageCategories().Get("normal")});
+				Messages::Add({message + "。", GameData::MessageCategories().Get("normal")});
 				if(deathBenefits)
 					player.Accounts().AddDeathBenefits(deathBenefits);
 				if(crewBonuses)
@@ -372,13 +370,13 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 		{
 			string message;
 			if(canTake == CanTakeResult::TARGET_YOURS)
-				message = "You cannot plunder your own ship.";
+				message = "你不能掠夺自己的飞船。";
 			else if(canTake == CanTakeResult::NO_SELECTION)
-				message = "No item selected.";
+				message = "未选择物品。";
 			else if(canTake == CanTakeResult::NO_CARGO_SPACE)
-				message = "You do not have enough cargo space to take this item, and you cannot install it as ammo.";
+				message = "你没有足够的货舱空间来拿取此物品，也无法将其安装为弹药。";
 			else
-				message = "You cannot plunder now.";
+				message = "你现在无法掠夺。";
 
 			GetUI().Push(DialogPanel::Info(message));
 			return true;
@@ -447,13 +445,13 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 		{
 			victim->SelfDestruct();
 			GetUI().Pop(this);
-			GetUI().Push(DialogPanel::Info("The moment you blast through the airlock, a series of explosions "
-				"rocks the enemy ship. They appear to have set off their self-destruct sequence..."));
+			GetUI().Push(DialogPanel::Info("就在你炸开气闸的瞬间，一连串的爆炸"
+				"震动了敌舰。他们似乎启动了自毁程序……"));
 			return true;
 		}
 		isCapturing = true;
-		AddMessage("The airlock blasts open. Combat has begun!");
-		AddMessage("(It will end if you both choose to \"defend.\")");
+		AddMessage("气闸被炸开。战斗开始了！");
+		AddMessage("（如果双方都选择“防守”，战斗将结束。）");
 	}
 	else if((key == 'a' || key == 'd' || key == 'D') && CanAttack())
 	{
@@ -475,7 +473,7 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 		// If neither side attacks, combat ends.
 		if(!youAttack && !enemyAttacks)
 		{
-			AddMessage("You retreat to your ships. Combat ends.");
+			AddMessage("你撤回自己的飞船。战斗结束。");
 			isCapturing = false;
 		}
 		else
@@ -546,26 +544,26 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 			// Report what happened and how many casualties each side suffered.
 			string message;
 			if(youAttack && enemyAttacks)
-				message = "You both attack. ";
+				message = "你们同时进攻。";
 			else if(youAttack)
-				message = "You attack. ";
+				message = "你发起攻击。";
 			else if(enemyAttacks)
-				message = "They attack. ";
+				message = "对方发起攻击。";
 
 			if(yourCasualties && enemyCasualties)
-				message += "You lose " + to_string(yourCasualties)
-					+ " crew; they lose " + to_string(enemyCasualties) + ".";
+				message += "你损失了 " + to_string(yourCasualties)
+					+ " 名船员；对方损失了 " + to_string(enemyCasualties) + " 名船员。";
 			else if(yourCasualties)
-				message += "You lose " + to_string(yourCasualties) + " crew.";
+				message += "你损失了 " + to_string(yourCasualties) + " 名船员。";
 			else if(enemyCasualties)
-				message += "They lose " + to_string(enemyCasualties) + " crew.";
+				message += "对方损失了 " + to_string(enemyCasualties) + " 名船员。";
 			AddMessage(message);
 			player.AddBoardingCasualties(victim, yourCasualties);
 
 			// Check if either ship has been captured.
 			if(!you->Crew())
 			{
-				AddMessage("You have been killed. Your ship is lost.");
+				AddMessage("你被杀死了。你的飞船已落入敌手。");
 				you->WasCaptured(victim);
 				playerDied = true;
 				isCapturing = false;
@@ -575,42 +573,35 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 				// Record how many crew, aside from the captain, are left alive after capturing this ship.
 				remainingCrew = you->Crew() - 1;
 				successfulCapture = true;
-				AddMessage("You have succeeded in capturing this ship.");
+				AddMessage("你成功俘获了这艘飞船。");
 				if(!victim->NeverLocked() && GameData::GetGamerules().LockOnCapture())
-					AddMessage("Its computer systems are locked.");
+					AddMessage("它的计算机系统已被锁定。");
 				victim->GetGovernment()->Offend(ShipEvent::CAPTURE, victim->CrewValue());
 				int crewTransferred = victim->WasCaptured(you);
 				if(crewTransferred > 0)
 				{
-					string transferMessage = Format::Number(crewTransferred) + " crew member";
-					if(crewTransferred == 1)
-						transferMessage += " has";
-					else
-						transferMessage += "s have";
-					transferMessage += " been transferred.";
-					AddMessage(transferMessage);
+					AddMessage(Format::Number(crewTransferred) + " 名船员已转移过来。");
 				}
 				// Warn the player if outfits exist that are widely illegal.
 				bool foundIllegal = false;
 				for(const auto &it : victim->Outfits())
 					if(it.first->Get("illegal") > 0. || it.first->Get("atrocity") > 0.)
 					{
-						AddMessage("Found " + to_string(it.second) + " "
-							+ (it.second == 1 ? it.first->DisplayName() : it.first->PluralName())
-							+ "!");
+						AddMessage("发现了 " + to_string(it.second) + " 件"
+							+ it.first->DisplayName() + "！");
 						foundIllegal = true;
 					}
 				if(foundIllegal)
 				{
-					AddMessage("Illegal outfits can attract heavy penalties.");
-					AddMessage("You may wish to avoid law enforcement!");
+					AddMessage("非法装备会招致严厉处罚。");
+					AddMessage("你最好避开执法船只！");
 				}
 
 				if(!victim->JumpsRemaining() && you->CanRefuel(*victim))
 				{
 					double fuelTransferred = you->TransferFuel(victim->JumpFuelMissing(), &*victim);
 					if(fuelTransferred >= 1.)
-						AddMessage(Format::Number(fuelTransferred, 0) + " fuel has been transferred.");
+						AddMessage(Format::Number(fuelTransferred, 0) + " 单位燃料已转移。");
 				}
 				player.CaptureShip(victim);
 				for(const Ship::Bay &bay : victim->Bays())

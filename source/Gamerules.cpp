@@ -107,7 +107,7 @@ Gamerules::Gamerules()
 	settings[PERSON_SPAWN_PERIOD].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the person ship spawn attempt period. (Integer value greater than or equal to 1.)";
+		string message = "设置人物飞船生成尝试间隔。（大于等于 1 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 1; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.personSpawnPeriod = value; },
@@ -128,7 +128,7 @@ Gamerules::Gamerules()
 	settings[NO_PERSON_SPAWN_WEIGHT].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the no person ship spawn weight. (Integer value greater than or equal to 0.)";
+		string message = "设置人物飞船不生成权重。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.noPersonSpawnWeight = value; },
@@ -149,7 +149,7 @@ Gamerules::Gamerules()
 	settings[NPC_MAX_MINING_TIME].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the NPC max mining time. (Integer value greater than or equal to 0.)";
+		string message = "设置 NPC 最长采矿时间。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.npcMaxMiningTime = value; },
@@ -170,7 +170,7 @@ Gamerules::Gamerules()
 	settings[UNIVERSAL_FRUGAL_THRESHOLD].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the universal frugal threshold. (Decimal value between 0 and 1.)";
+		string message = "设置全局节俭阈值。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.universalFrugalThreshold = value; },
@@ -200,7 +200,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_MIN].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the minimum deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置最低折旧价值。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void {
@@ -224,7 +224,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_CAPTURED].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the captured deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置俘获物品的折旧价值。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0 && value <= 1.0; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.depreciationCaptured = value; },
@@ -245,7 +245,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_PLUNDERED].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the plundered deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置掠夺物品的折旧价值。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0 && value <= 1.0; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.depreciationPlundered = value; },
@@ -275,7 +275,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_DAILY].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the daily deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置每日折旧比例。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void {
@@ -299,7 +299,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_GRACE_PERIOD].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the depreciation grace period. (Integer value greater than or equal to 0.)";
+		string message = "设置折旧宽限期。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void {
@@ -323,7 +323,7 @@ Gamerules::Gamerules()
 	settings[DEPRECIATION_MAX_AGE].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the depreciation maximum age. (Integer value greater than or equal to 0.)";
+		string message = "设置最长折旧年限。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void {
@@ -356,7 +356,7 @@ Gamerules::Gamerules()
 	settings[SYSTEM_DEPARTURE_MIN].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the minimum system departure distance. (Decimal value greater than or equal to 0.)";
+		string message = "设置最小星系出发距离。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.systemDepartureMin = value; },
@@ -382,7 +382,7 @@ Gamerules::Gamerules()
 	settings[SYSTEM_ARRIVAL_MIN].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the minimum system arrival distance. (Any decimal value.)";
+		string message = "设置最小星系抵达距离。（任意小数。）";
 		ui->Push(OptionalInputDialogPanel::RequestDouble(
 			[this](optional<double> value) -> void { storage.systemArrivalMin = value; },
 			message, SystemArrivalMin()));
@@ -416,8 +416,8 @@ Gamerules::Gamerules()
 	settings[HABITABLE_ARRIVAL_MIN].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the minimum system arrival distance when the arrival distance is based on the "
-			"habitable distance of the system. (Decimal value greater than or equal to 0.)";
+		string message = "设置抵达距离基于星系宜居距离时的"
+			"最小星系抵达距离。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(OptionalInputDialogPanel::RequestDoubleWithValidation(
 			[this](optional<double> value) -> void { storage.habitableArrivalMin = value; },
@@ -443,8 +443,8 @@ Gamerules::Gamerules()
 	settings[HABITABLE_ARRIVAL_MAX].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the maximum system arrival distance when the arrival distance is based on the "
-			"habitable distance of the system. (Decimal value greater than or equal to 0.)";
+		string message = "设置抵达距离基于星系宜居距离时的"
+			"最大星系抵达距离。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(OptionalInputDialogPanel::RequestDoubleWithValidation(
 			[this](optional<double> value) -> void { storage.habitableArrivalMax = value; },
@@ -465,7 +465,7 @@ Gamerules::Gamerules()
 	settings[FLEET_MULTIPLIER].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the fleet spawn multiplier. (Decimal value greater than or equal to 0.)";
+		string message = "设置舰队生成倍率。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.fleetMultiplier = value; },
@@ -486,7 +486,7 @@ Gamerules::Gamerules()
 	settings[RAID_FLEET_ROLL_CHANCE].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the raid fleet roll chance. (Decimal value between 0 and 1.)";
+		string message = "设置袭击舰队判定几率。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.raidFleetRollChance = value; },
@@ -507,7 +507,7 @@ Gamerules::Gamerules()
 	settings[RAID_ATTRACTION_MULTIPLIER].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the raid fleet attraction multiplier. (Decimal value greater than or equal to 0.)";
+		string message = "设置袭击舰队吸引力倍率。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.raidAttractionMultiplier = value; },
@@ -528,7 +528,7 @@ Gamerules::Gamerules()
 	settings[RAID_DETERRENCE_MULTIPLIER].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the raid fleet deterrence multiplier. (Decimal value greater than or equal to 0.)";
+		string message = "设置袭击舰队威慑力倍率。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.raidDeterrenceMultiplier = value; },
@@ -549,7 +549,7 @@ Gamerules::Gamerules()
 	settings[RAID_FLEET_SPAWN_ATTEMPTS].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the number of raid fleet spawn attempts. (Integer value greater than or equal to 1.)";
+		string message = "设置袭击舰队生成尝试次数。（大于等于 1 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 1; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.raidFleetSpawnAttempts = value; },
@@ -582,7 +582,7 @@ Gamerules::Gamerules()
 	settings[DEFAULT_MAX_ESCORT_COUNT].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the default max escort count. (Integer value greater than or equal to 0.)";
+		string message = "设置默认最大护航舰数量。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.defaultMaxEscortCount = value; },
@@ -605,7 +605,7 @@ Gamerules::Gamerules()
 	settings[DEFAULT_MAX_ESCORT_CREW].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the default max escort crew. (Integer value greater than or equal to 0.)";
+		string message = "设置默认最大护航舰船员数。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.defaultMaxEscortCrew = value; },
@@ -628,7 +628,7 @@ Gamerules::Gamerules()
 	settings[DEFAULT_ADMIN_CAP].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the default administrative capacity. (Integer value greater than or equal to 0.)";
+		string message = "设置默认管理容量。（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.defaultAdminCap = value; },
@@ -657,8 +657,8 @@ Gamerules::Gamerules()
 		if(!ui)
 			return storage.singleSaveFile;
 		if(GetPermadeathMode() == PermadeathMode::DELETE_ON_TAKEOFF)
-			ui->Push(DialogPanel::Info("This gamerule is locked to true because \"Permadeath\" is set "
-				"to \"delete on takeoff\". Change the permadeath rule to a different value to toggle this rule."));
+			ui->Push(DialogPanel::Info("此游戏规则已被锁定为“是”，因为“永久死亡”被设为“起飞时删除”。"
+				"将永久死亡规则改为其他值后才能切换此规则。"));
 		else
 			storage.singleSaveFile = !storage.singleSaveFile;
 		return storage.singleSaveFile;
@@ -674,9 +674,8 @@ Gamerules::Gamerules()
 			return storage.restrictedSaveLoading;
 		PermadeathMode mode = GetPermadeathMode();
 		if(mode == PermadeathMode::LOCK_ON_TAKEOFF || mode == PermadeathMode::DELETE_ON_TAKEOFF)
-			ui->Push(DialogPanel::Info("This gamerule is locked to true because \"Permadeath\" is set "
-				"to \"lock on takeoff\" or \"delete on takeoff\". Change the permadeath rule to a different "
-				"value to toggle this rule."));
+			ui->Push(DialogPanel::Info("此游戏规则已被锁定为“是”，因为“永久死亡”被设为“起飞时锁定”或“起飞时删除”。"
+				"将永久死亡规则改为其他值后才能切换此规则。"));
 		else
 			storage.restrictedSaveLoading = !storage.restrictedSaveLoading;
 		return storage.restrictedSaveLoading;
@@ -715,8 +714,8 @@ Gamerules::Gamerules()
 	settings[CAPTURE_CAPTAIN_SHARES].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the number of shares the captain gets when capturing a ship. "
-			"(Decimal value greater than or equal to 0.)";
+		string message = "设置俘获飞船时船长获得的份额数。"
+			"（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.captureCaptainShares = value; },
@@ -740,8 +739,8 @@ Gamerules::Gamerules()
 	settings[CAPTURE_DEAD_CREW_SHARES].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the number of shares that the families of dead crew members get when capturing a ship. "
-			"(Decimal value greater than or equal to 0.)";
+		string message = "设置俘获飞船时每位阵亡船员家属获得的份额数。"
+			"（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.captureDeadCrewShares = value; },
@@ -765,8 +764,8 @@ Gamerules::Gamerules()
 	settings[CAPTURE_SURVIVING_CREW_SHARES].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the number of shares that surviving crew members get when capturing a ship. "
-			"(Decimal value greater than or equal to 0.)";
+		string message = "设置俘获飞船时每名幸存船员获得的份额数。"
+			"（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.captureSurvivingCrewShares = value; },
@@ -790,8 +789,8 @@ Gamerules::Gamerules()
 	settings[CAPTURE_MIN_DEATH_BENEFIT].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the minimum death benefit payment per casualty when capturing a ship. "
-			"(Integer value greater than or equal to 0.)";
+		string message = "设置俘获飞船时每名伤亡船员的最低抚恤金。"
+			"（大于等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		ui->Push(DialogPanel::RequestIntegerWithValidation(
 			[this](int value) -> void { storage.captureMinimumDeathBenefit = value; },
@@ -818,9 +817,9 @@ Gamerules::Gamerules()
 	settings[CAPTURE_VALUE_BASIS].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the percentage of the full value of a captured ship that is used to determine "
-			"share sizes. Leave unset to use the same percentage that captured ships start at due to depreciation. "
-			"(Decimal value greater than or equal to 0.)";
+		string message = "设置以俘获飞船全价的多少百分比来确定份额大小。"
+			"留空则使用俘获飞船因折旧而具有的初始百分比。"
+			"（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(OptionalInputDialogPanel::RequestDoubleWithValidation(
 			[this](optional<double> value) -> void { storage.captureValueBasis = value; },
@@ -850,7 +849,7 @@ Gamerules::Gamerules()
 	settings[REWIRING_COST_MULTIPLIER].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the rewiring cost multiplier. (Decimal value greater than or equal to 0.)";
+		string message = "设置重新布线费用倍率。（大于等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.rewiringCostMultiplier = value; },
@@ -871,7 +870,7 @@ Gamerules::Gamerules()
 	settings[LOCKED_HULL_VALUE_MULTIPLIER].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the locked hull value multiplier. (Decimal value between 0 and 1.)";
+		string message = "设置锁定船体价值倍率。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.lockedHullValueMultiplier = value; },
@@ -893,8 +892,8 @@ Gamerules::Gamerules()
 	settings[FRIENDLY_FIRE_SAME_PROB].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the probability that projectiles can deal friendly fire damage to the government "
-			"matching the one that fired the projectile. (Decimal value between 0 and 1.)";
+		string message = "设置弹体对与发射方相同的政府造成友军误伤的概率。"
+			"（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.friendlyFireSameGovProb = value; },
@@ -916,8 +915,8 @@ Gamerules::Gamerules()
 	settings[FRIENDLY_FIRE_ALLY_PROB].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the probability that projectiles can deal friendly fire damage to governments "
-			"that are allied to the one that fired the projectile. (Decimal value between 0 and 1.)";
+		string message = "设置弹体对与发射方结盟的政府造成友军误伤的概率。"
+			"（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.friendlyFireAlliedGovProb = value; },
@@ -938,8 +937,8 @@ Gamerules::Gamerules()
 	settings[FRIENDLY_FIRE_FIGHTER_PROB_MULT].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the probability that fighters will be impacted by friendly fire. Multiplies against "
-			"the base chance for friendly fire to occur. (Decimal value between 0 and 1.)";
+		string message = "设置载机受到友军误伤影响的概率。该值与友军误伤的基础几率相乘。"
+			"（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.friendlyFireFighterMultiplier = value; },
@@ -973,8 +972,8 @@ Gamerules::Gamerules()
 	settings[FRIENDLY_FIRE_DMG_MULT].SetOnToggleFunc([this](UI *ui) -> void {
 		if(!ui)
 			return;
-		string message = "Set the probability that projectiles can deal friendly fire damage to governments "
-			"that are allied to the one that fired the projectile. (Decimal value between 0 and 1.)";
+		string message = "设置弹体对与发射方结盟的政府造成友军误伤的概率。"
+			"（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0. && value <= 1.; };
 		ui->Push(DialogPanel::RequestDoubleWithValidation(
 			[this](double value) -> void { storage.friendlyFireDamageMultiplier = value; },

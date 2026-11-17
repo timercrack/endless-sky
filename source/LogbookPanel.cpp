@@ -51,8 +51,8 @@ namespace {
 
 	const double GAP = 30.;
 	const string MONTH[] = {
-		"  January", "  February", "  March", "  April", "  May", "  June",
-		"  July", "  August", "  September", "  October", "  November", "  December"};
+		"  一月", "  二月", "  三月", "  四月", "  五月", "  六月",
+		"  七月", "  八月", "  九月", "  十月", "  十一月", "  十二月"};
 }
 
 
@@ -269,7 +269,7 @@ void LogbookPanel::CreateSections()
 	// For the rest of the logbook, the category is the year, the subcategory is the month.
 	for(const auto &[date, entry] : player.Logbook())
 	{
-		Section &section = sections[to_string(date.Year())];
+		Section &section = sections[to_string(date.Year()) + "年"];
 		Page &page = section.insert({MONTH[date.Month() - 1], Page(PageType::DATE)}).first->second;
 		page.entries.emplace_back(date.ToString(), entry);
 	}

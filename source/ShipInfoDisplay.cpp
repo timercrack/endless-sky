@@ -193,7 +193,7 @@ void ShipInfoDisplay::UpdateAttributes(const Ship &ship, const PlayerInfo &playe
 	else
 	{
 		ostringstream out;
-		out << "cost (" << (100 * depreciated) / fullCost << "%):";
+		out << "价格（" << (100 * depreciated) / fullCost << "%）：";
 		attributeLabels.push_back(out.str());
 	}
 	attributeValues.push_back(Format::AbbreviatedNumber(depreciated));
@@ -211,7 +211,7 @@ void ShipInfoDisplay::UpdateAttributes(const Ship &ship, const PlayerInfo &playe
 	{
 		attributeLabels.push_back("rewiring cost:");
 		if(ship.CannotUnlock())
-			attributeValues.push_back("cannot be rewired");
+			attributeValues.push_back("无法重新布线");
 		else
 			attributeValues.push_back(Format::AbbreviatedNumber(ship.RewiringCost()));
 		attributesHeight += 20;
@@ -261,14 +261,14 @@ void ShipInfoDisplay::UpdateAttributes(const Ship &ship, const PlayerInfo &playe
 	double emptyMass = attributes.Mass();
 	double currentMass = ship.Mass();
 	attributeLabels.push_back(isGeneric ? "mass with no cargo:" : "mass:");
-	attributeValues.push_back(Format::Number(isGeneric ? emptyMass : currentMass) + " tons");
+	attributeValues.push_back(Format::Number(isGeneric ? emptyMass : currentMass) + " 吨");
 	attributesHeight += 20;
 	attributeLabels.push_back(isGeneric ? "cargo space:" : "cargo:");
 	if(isGeneric)
-		attributeValues.push_back(Format::Number(attributes.Get("cargo space")) + " tons");
+		attributeValues.push_back(Format::Number(attributes.Get("cargo space")) + " 吨");
 	else
 		attributeValues.push_back(Format::Number(ship.Cargo().Used())
-			+ " / " + Format::Number(attributes.Get("cargo space")) + " tons");
+			+ " / " + Format::Number(attributes.Get("cargo space")) + " 吨");
 	attributesHeight += 20;
 	attributeLabels.push_back("required crew / bunks:");
 	attributeValues.push_back(Format::Number(ship.RequiredCrew())
@@ -567,7 +567,7 @@ void ShipInfoDisplay::UpdateAttributes(const Ship &ship, const PlayerInfo &playe
 		attributesHeight += 20;
 		tableLabels.push_back("surge:");
 		energyTable.push_back(Format::Number(max(0., idleEnergyPerFrame)));
-		heatTable.push_back("N/A");
+		heatTable.push_back("无");
 	}
 	// Pad by 10 pixels on the top and bottom.
 	attributesHeight += 30;
@@ -632,7 +632,7 @@ void ShipInfoDisplay::UpdateOutfits(const Ship &ship, const PlayerInfo &player, 
 	else
 	{
 		ostringstream out;
-		out << "empty hull (" << (100 * chassisCost) / fullChassis << "%):";
+		out << "空船体（" << (100 * chassisCost) / fullChassis << "%）：";
 		saleLabels.push_back(out.str());
 	}
 	saleValues.push_back(Format::AbbreviatedNumber(chassisCost));

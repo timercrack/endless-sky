@@ -18,8 +18,8 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "text/Alignment.h"
 #include "Color.h"
 #include "text/FontSet.h"
-#include "text/Format.h"
 #include "GameData.h"
+#include "Outfit.h"
 #include "Preferences.h"
 #include "Rectangle.h"
 #include "Screen.h"
@@ -121,21 +121,16 @@ void ItemInfoDisplay::UpdateDescription(const string &text, const vector<string>
 		description.Wrap(text);
 	else
 	{
-		static const string NOUN[2] = {"outfit", "ship"};
-		string fullText = text + "\tTo purchase this " + NOUN[isShip] + " you must have ";
-		fullText += Format::List<vector, string>(licenses,
-			[](const string &name)
-			{
-				bool isVoweled = false;
-				for(const char &c : "aeiou")
-					if(name.starts_with(c) || name.starts_with(toupper(c)))
-					{
-						isVoweled = true;
-						break;
-					}
-				return (isVoweled ? "an " : "a ") + name + " License";
-			});
-		fullText += ".\n";
+		static const string NOUN[2] = {"装备", "飞船"};
+		string fullText = text + "\t要购买此" + NOUN[isShip] + "，你必须拥有";
+		for(auto it = licenses.begin(); it != licenses.end(); ++it)
+		{
+			if(it != licenses.begin())
+				fullText += "、";
+			const Outfit *license = GameData::Outfits().Find(*it + " License");
+			fullText += license ? license->DisplayName() : *it + " License";
+		}
+		fullText += "。\n";
 		description.Wrap(fullText);
 	}
 

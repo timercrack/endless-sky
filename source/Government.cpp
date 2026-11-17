@@ -720,28 +720,28 @@ string Government::GetHail(bool isDisabled) const
 
 string Government::GetShipBribeAcceptanceHail() const
 {
-	return shipBribeAcceptanceHail ? shipBribeAcceptanceHail->Get() : "It's a pleasure doing business with you.";
+	return shipBribeAcceptanceHail ? shipBribeAcceptanceHail->Get() : "很高兴与你做生意。";
 }
 
 
 
 string Government::GetShipBribeRejectionHail() const
 {
-	return shipBribeRejectionHail ? shipBribeRejectionHail->Get() : "I do not want your money.";
+	return shipBribeRejectionHail ? shipBribeRejectionHail->Get() : "我不要你的钱。";
 }
 
 
 
 string Government::GetPlanetBribeAcceptanceHail() const
 {
-	return planetBribeAcceptanceHail ? planetBribeAcceptanceHail->Get() : "It's a pleasure doing business with you.";
+	return planetBribeAcceptanceHail ? planetBribeAcceptanceHail->Get() : "很高兴与你做生意。";
 }
 
 
 
 string Government::GetPlanetBribeRejectionHail() const
 {
-	return planetBribeRejectionHail ? planetBribeRejectionHail->Get() : "I do not want your money.";
+	return planetBribeRejectionHail ? planetBribeRejectionHail->Get() : "我不要你的钱。";
 }
 
 
