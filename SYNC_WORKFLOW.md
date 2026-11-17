@@ -1,188 +1,44 @@
-# Endless Sky 中文 Fork 同步工作流
+# Endless Sky 中文分支同步工作流
 
-## 分支模型
+## 分支
 
-```
-master                    ← 本地 upstream 镜像（纯上游代码）
-feature/cjk-localization  ← 汉化功能分支（基于 master，定期 rebase）
-```
+- `master`：上游 `endless-sky/endless-sky` 的镜像，只做 fast-forward。
+- `zh-cn`：汉化分支，基于 `master`，用 merge 或 rebase 跟进上游。
 
-- `master`：只包含上游代码，通过 fast-forward 保持与 upstream 一致
-- `feature/cjk-localization`：所有汉化改动在此分支，定期 rebase 到最新 master
+## 汉化分层
 
-## 同步流程（Agent 驱动）
+| 层 | 位置 | 说明 |
+|---|---|---|
+| 引擎 | `source/text/`（Font、TextureAtlas、GlyphCache、WrappedText、Utf8、Clipboard、Localization）、`shaders/font.*`、`source/Edit.cpp`、`DialogPanel`、`ConversationPanel` | FreeType 字体栈、UTF-8 安全的换行/截断/编辑、中文标点禁则、IME 输入 |
+| 字体 | `data/Ubuntu-Regular.ttf`、`data/SourceHanSansCN-Regular.otf` | 拉丁字体在前，CJK 回退在后 |
+| 数据正文 | `data/**/*.txt` | 对白、任务、新闻、描述等直接译在数据里；根节点 ID、条件、label/goto、phrase 引用名保持英文 |
+| 专名 | 各定义块中的 `"display name"` / `"plural"` | 装备、舰船、星球、星系、政府、矿物、虫洞 |
+| 兼作标识符的界面文本 | `data/_ui/translations.txt`（`translation` 根节点） | 属性名、分类、货物、设置项与选项值、命令描述、游戏规则、日志分类与标题、悬停提示键等；绘制时由 `Localization::Translate` 整串替换，代码与数据里的键保持英文 |
+| 仅用于显示的 C++ 文本 | `source/*.cpp` | 对话框、消息、拼接句子直接改为中文；`Format` 的信用点/吨/时长与 `Date` 使用中文格式 |
 
-**触发指令**：`同步上游` 或 `sync upstream`等类似指令
+显示期词典只对 `Font::Draw`/`Width`/`FormattedWidth` 绘制的**整串**生效，对 `WrappedText`/`TextArea`/对话框正文/`Messages` 无效。
 
-Agent 自动执行：
+## 跟进上游
 
-1. 预检工作树、当前分支、未完成的 rebase 和遗留注入状态
-2. `git fetch upstream --tags` 与 `git fetch origin`
-3. 记录同步前的 master 和 origin 汉化分支 SHA，供摘要与 force-with-lease 使用
-4. `git switch master && git merge upstream/master --ff-only`
-5. `git switch feature/cjk-localization && git rebase master`
-6. 无冲突时由脚本继续；发生冲突时保持 rebase 现场并交给 Agent
-7. Agent 逐项解决冲突、执行 `git rebase --continue`，直到 rebase 完成
-8. 构建验证 + 安装资源；无论成功或失败都安全恢复临时注入的中文源码
-9. 验证通过后，原子推送 master 和汉化分支
-10. 向用户报告上游更新摘要、冲突处理和验证结果
+1. `git fetch upstream`，`master` 执行 `git merge --ff-only upstream/master`。
+2. 在 `zh-cn` 上合并或 rebase `master`，逐项解决冲突，禁止整文件取 ours/theirs。
+3. 数据冲突：保留上游的结构与逻辑改动，再把显示文本译回中文；新增英文文本与新专名补译，专名追加 `"display name"`。
+4. C++ 冲突：上游改动的显示句子重新汉化；新增的标识符型界面字符串加入 `data/_ui/translations.txt`。
+5. 若上游修改了 `Font`、`WrappedText`、`Edit` 或数据加载接口，按语义适配，重点复查 UTF-8 码点边界、CJK 换行与字体着色器匹配。
 
-> 同步前必须保证已跟踪文件没有未提交修改。脚本不会自动 stash、checkout 或删除用户修改；未跟踪文件会被列出并保留，如果它们会被目标分支覆盖，`git switch` 将安全停止。
-
-### 冲突处理
-
-| 场景 | 处理方式 |
-|------|----------|
-| 上游改动与汉化代码无交集 | 自动保留两边 |
-| 上游修改了汉化未触及的区域 | 自动保留上游改动 |
-| 上游重构了汉化依赖的接口 | 脚本暂停，Agent 理解语义后适配到新接口 |
-| 上游删除了汉化依赖的功能 | 暂停，询问用户 |
-
-Agent 解决冲突时必须对照 `汉化改动复现文档.md` 中的警告项，尤其检查 UTF-8 字符边界、CJK 换行宽度、字体着色器匹配、200% 缩放限制和纹理图集容量。禁止仅按 ours/theirs 整文件覆盖。
-
-## 手动同步脚本
-
-如需手动操作，使用原生 PowerShell 脚本 `scripts/sync-upstream.ps1`：
+## 验证
 
 ```powershell
-./scripts/sync-upstream.ps1
+cmake --build --preset <preset>-debug --target EndlessSky EndlessSkyTests
+ctest --preset <preset>-test
+"Endless Sky.exe" --resources <仓库根目录> --config <临时空目录> --parse-assets
+ctest --test-dir build/<preset> -C Debug -L "integration$"
 ```
 
-脚本只自动完成无冲突项。遇到冲突时退出码为 2，并保留 rebase 状态。Agent 完成所有 `git rebase --continue` 后执行：
+- `--parse-assets` 必须用独立的临时 `--config`，避免加载真实存档；结果应为 “Parse completed with no error(s).”
+- 集成测试并行运行时可能因共用配置目录而偶发失败，失败项需串行重跑确认。
+- 手动检查：中英混排换行、标点不出现在行首、输入框中文输入与退格、装备/船坞/地图/任务/设置面板文本不溢出。
 
-```powershell
-./scripts/sync-upstream.ps1 -Finish
-```
+## 提交规范
 
-`-Finish` 使用同步开始时记录的 origin SHA 执行 `--force-with-lease`，避免在冲突处理期间覆盖其他人推送的新提交。构建验证成功后，master 与汉化分支通过 `git push --atomic` 一起发布；任一引用推送失败时两者都不更新。
-
-## Release Tag 同步
-
-上游 tag 通过 `git fetch upstream --tags` 同步到本地，但不会自动推送到 origin。需要发布到 origin 的 tag 必须由 Agent 核对目标提交后显式推送：
-
-```bash
-git push origin <tag>
-```
-
-汉化版本 tag 命名规则：`v<上游版本号>-cn`
-
-```bash
-git checkout feature/cjk-localization
-git tag v0.10.16-cn
-git push origin v0.10.16-cn
-```
-
-## 汉化 Commit 规范
-
-遵循 Conventional Commits 风格：
-
-| 类型 | 用途 |
-|------|------|
-| `build` | 构建系统/依赖变更 |
-| `feat` | 新功能 |
-| `fix` | Bug 修复 |
-| `content` | 内容/资源文件 |
-| `docs` | 文档 |
-
-示例：`feat(text): Implement FreeType CJK glyph rendering with texture atlas`
-
-## 汉化文件清单
-
-| Commit | 文件 |
-|--------|------|
-| 构建依赖 | `CMakeLists.txt`, `source/CMakeLists.txt`, `vcpkg.json` |
-| 渲染核心 | `source/text/Font.cpp`, `Font.h`, `GlyphCache.h`, `TextureAtlas.cpp`, `TextureAtlas.h`, `FontSet.cpp`, `FontSet.h` |
-| 文本管线 | `source/text/Utf8.cpp`, `Utf8.h`, `WrappedText.cpp`, `WrappedText.h` |
-| 着色器 | `shaders/font.vert`, `shaders/font.frag` |
-| 数据加载 | `source/GameData.cpp`, `source/Screen.cpp` |
-| 字体资源 | `data/SourceHanSansCN-Regular.otf`, `data/Ubuntu-Regular.ttf` |
-
-## 编译与测试
-
-### 环境要求
-
-- MSYS2 ucrt64 工具链（`D:\DevEnvs\msys64\ucrt64\bin`），需包含 `g++`、`windres`、`objdump`
-- Python 3（`scripts/inject_hardcoded.py` 依赖，仅用标准库）。`sync-upstream.ps1` 会在
-  `D:\DevEnvs\miniconda3\python.exe` 与 PATH 上的 `python`/`python3`/`py` 中逐个自检，
-  取第一个真正能运行的解释器 —— Windows 应用商店的 `python` 占位符在未装解释器时
-  退出码为 9009，会被自动跳过
-- 每次构建前确保 PATH 包含 ucrt64：`$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"`
-
-### 首次配置（仅需一次）
-
-```powershell
-$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
-cmake --preset mingw
-```
-
-### 编译
-
-```powershell
-$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
-
-# 1. 临时注入中文，并保存注入前的精确文件快照
-python scripts/inject_hardcoded.py
-
-# 2. 编译
-cmake --build build/mingw --config Release
-
-# 3. 还原注入前的文件内容
-python scripts/inject_hardcoded.py --restore
-```
-
-> 临时硬编码中文是发布构建的一部分，但不得提交到 Git。注入器将原始内容和注入后内容记录到 `.injected_state.json`：恢复时仅处理仍与注入版本完全一致的文件，因此能够保留注入前已有的修改；如果构建期间文件再次变化，恢复会停止且不覆盖文件，交由 Agent 合并。同步脚本通过退出 trap 保证构建失败时也会执行恢复。
-
-### 汉化映射表格式
-
-映射表位于仓库之外：`../es_translation/hardcoded_zh.json`，**不受 git 管理**，需手工维护。
-它按**整行**匹配，每条的 `line` 与 `zh` 都是完整源码行，注入时整行替换：
-
-```json
-{
-  "file": "source/BankPanel.cpp",
-  "line": "\t\t\ttable.Draw(\"Other\");",
-  "zh":   "\t\t\ttable.Draw(\"其他\");"
-}
-```
-
-`count` 字段表示该行在文件中出现的次数（默认 1，用于合并内容完全相同的重复行）。
-
-这样设计的原因：同一个字符串常常**既是显示文本、又是查找键**，例如
-
-```cpp
-font.Draw("Uninhabited", pos + textOff, dim);                          // 显示，需翻译
-return GovernmentColor(GameData::Governments().Get("Uninhabited"));     // 查找键，不能翻译
-```
-
-按字面量替换会无差别改写两处，导致游戏找不到名为「无人居住」的政府，甚至把错误名字写进玩家存档。
-改为整行匹配后，**查找键所在的那一行只要不入表就绝不会被改动**，歧义在数据结构层面被消除。
-
-维护规则：
-
-- 只把**显示行**列入表中；`Get(` / `Has(` / `==` / `out.Write(` / `[` 所在的查找与持久化行一律不列
-- `//` 开头的注释不翻译，保持与上游一致，便于阅读与 diff
-- 上游改动某一行后，`--check` 会报「匹配数不符」并指出该行，只需照新行更新 `line` 字段
-- 提交前务必确认 `git diff` 为空——注入内容不得留在工作树
-
-### 打包安装
-
-```powershell
-$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
-cmake --install build/mingw --config Release
-```
-
-产物输出到 `install/mingw/`，包含：exe、DLLs、data、images、shaders、sounds 及根目录文本文件。可直接打包分发。
-
-> `sync-upstream.ps1` 的 `-Finish` 阶段会在编译之后自动执行这一步，产出资源齐全的可分发版本。安装失败会直接抛错并跳过原子推送，因此“同步完成”意味着 `install/mingw/` 一定是完整可分发的。安装步骤位于注入还原的 `try/finally` 之内，构建或安装中途失败时临时中文仍会被安全还原。
-
-### 验证清单
-
-每次同步后：
-
-- [ ] Agent 自动验证：`cmake --build build/mingw --config Release` 编译通过
-- [ ] Agent 自动验证：`cmake --install build/mingw --config Release` 通过，`install/mingw/` 资源齐全
-- [ ] Agent 自动验证：临时中文注入已恢复，工作树重新保持干净
-- [ ] Agent 自动验证：同步报告中列出上游本次更新内容摘要
-- [ ] 用户手动验证：启动游戏，确认中文 UI 显示正常
-- [ ] 用户手动验证：CJK 换行无溢出/截断
-- [ ] 用户手动验证：Latin + CJK 字体 fallback 正常
+Conventional Commits，例如 `feat(l10n): ...`、`fix(text): ...`。发布 tag：`v<上游版本>-cn`。
