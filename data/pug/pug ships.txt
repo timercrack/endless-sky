@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Pug Zibruka"
+	"display name" "帕格齐布鲁卡"
 	sprite "ship/pug zibruka"
 	thumbnail "thumbnail/pug zibruka"
 	"administrative cost" 1
@@ -63,6 +64,7 @@ ship "Pug Zibruka"
 
 
 ship "Pug Enfolta"
+	"display name" "帕格恩弗尔塔"
 	sprite "ship/pug enfolta"
 	thumbnail "thumbnail/pug enfolta"
 	"administrative cost" 3
@@ -119,6 +121,7 @@ ship "Pug Enfolta"
 
 
 ship "Pug Maboro"
+	"display name" "帕格马博罗"
 	sprite "ship/pug maboro"
 	thumbnail "thumbnail/pug maboro"
 	"administrative cost" 6
@@ -177,6 +180,7 @@ ship "Pug Maboro"
 
 
 ship "Pug Arfecta"
+	"display name" "帕格阿费克塔"
 	sprite "ship/pug arfecta"
 	thumbnail "thumbnail/pug arfecta"
 	"administrative cost" 10

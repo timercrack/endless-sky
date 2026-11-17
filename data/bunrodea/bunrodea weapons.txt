@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Locust Blaster"
+	"display name" "蝗虫冲击炮"
 	category "Guns"
 	series "Guns"
 	index 10010
@@ -38,6 +39,7 @@ outfit "Locust Blaster"
 	description "蝗虫冲击炮看似小巧，但其与其尺寸相称的破坏潜力绝不容小觑。单门冲击炮能够维持每分钟1200发的射速。虽然每枚弹丸造成的伤害微不足道，但这铺天盖地的弹幕只要有足够的时间，就能将最庞大的飞船撕成碎片。"
 
 outfit "Locust Turret"
+	"display name" "蝗虫炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 10010
@@ -68,6 +70,7 @@ outfit "Locust Turret"
 
 
 outfit "Mandible Cannon"
+	"display name" "颚部炮"
 	category "Guns"
 	series "Guns"
 	index 10020
@@ -100,6 +103,7 @@ outfit "Mandible Cannon"
 
 
 outfit "Thorax Cannon"
+	"display name" "胸甲炮"
 	category "Guns"
 	series "Guns"
 	index 10030
@@ -178,6 +182,7 @@ effect "yellow spark fragment"
 
 
 outfit "Swarm Clip"
+	"display name" "蜂群弹夹"
 	category "Ammunition"
 	series "Ammunition"
 	index 10011
@@ -190,6 +195,7 @@ outfit "Swarm Clip"
 	description "蜂群弹夹可大幅提升蜂群荚舱的弹药容量，内含可观的200枚导弹，能在当前弹夹打空后迅速装填至发射器中。"
 
 outfit "Swarm Missile"
+	"display name" "蜂群导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 10010
@@ -200,6 +206,7 @@ outfit "Swarm Missile"
 	description "蜂群导弹是专为蜂群荚舱设计的小型高速弹药。"
 
 outfit "Swarm Pod"
+	"display name" "蜂群荚舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 10010
@@ -270,6 +277,7 @@ outfitter "Swarm Missile Restock"
 
 
 outfit "Buzzer Anti-Missile"
+	"display name" "嗡鸣反导炮"
 	category "Turrets"
 	series "Anti-Missile"
 	index 10010

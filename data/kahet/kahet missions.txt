@@ -1343,6 +1343,7 @@ ship "Cloak Check"
 	turret 0 0
 
 outfit "Cloak Checker"
+	"display name" "隐形检测器"
 	category "Turrets"
 	thumbnail "outfit/unknown"
 	"turret mounts" -1
@@ -1676,6 +1677,7 @@ mission "Asteroid guarding Lathia"
 		ship "Asteroid Planet" "Queen Asteroid"
 
 ship "Asteroid Planet"
+	"display name" "小行星星球"
 	attributes
 		category "Heavy Warship"
 		"uncapturable" 1
@@ -1731,6 +1733,7 @@ outfit "Asteroid Weapon Super"
 		"blast radius" 400
 
 outfit "asteroid fragment"
+	"display name" "小行星碎片"
 	weapon
 		"submunition" "spin1 print right"
 		"submunition" "spin1 print left"
@@ -1917,6 +1920,7 @@ mission "Ka'het: Patir Mystery 10"
 
 
 ship "Remnant Satellite"
+	"display name" "遗民卫星"
 	sprite "ship/remnant satellite"
 	"administrative cost" 0
 	attributes
@@ -2211,6 +2215,7 @@ ship "Asteroid Blocker"
 	turret 0 0
 
 outfit "Fuel Removal"
+	"display name" "燃料抽除"
 	category "Turret"
 	thumbnail "outfit/unknown"
 	"turret mounts" -1
@@ -2372,6 +2377,7 @@ mission "Ka'het: Patir Mystery 12.2C"
 
 
 outfit "Ka'het Machinery"
+	"display name" "卡赫特机械"
 	category "Turrets"
 	thumbnail "outfit/unknown"
 	"turret mounts" -1
@@ -4504,6 +4510,7 @@ mission "Ka'het: Patir Mystery Crew job"
 
 
 ship "Builder Satellite"
+	"display name" "建造者卫星"
 	sprite "ship/builder satellite"
 	"administrative cost" 0
 	attributes

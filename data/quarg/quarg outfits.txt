@@ -15,6 +15,7 @@
 # Engines
 
 outfit "Small Graviton Thruster"
+	"display name" "小型引力子推进器"
 	category "Engines"
 	series "Engines"
 	index 91011
@@ -38,6 +39,7 @@ outfit "Small Graviton Thruster"
 	description "	这些引擎还具有奇特的能力，似乎违反了人类所理解的物理定律。装备它们的飞船在自身动力下加速比预期更快，同时受到外部力量的冲击也更小。"
 
 outfit "Small Graviton Steering"
+	"display name" "小型引力子转向器"
 	category "Engines"
 	series "Engines"
 	index 91010
@@ -56,6 +58,7 @@ outfit "Small Graviton Steering"
 
 
 outfit "Medium Graviton Thruster"
+	"display name" "中型引力子推进器"
 	category "Engines"
 	series "Engines"
 	index 91021
@@ -79,6 +82,7 @@ outfit "Medium Graviton Thruster"
 
 
 outfit "Medium Graviton Steering"
+	"display name" "中型引力子转向器"
 	category "Engines"
 	series "Engines"
 	index 91020
@@ -97,6 +101,7 @@ outfit "Medium Graviton Steering"
 
 
 outfit "Large Graviton Thruster"
+	"display name" "大型引力子推进器"
 	category "Engines"
 	series "Engines"
 	index 91031
@@ -121,6 +126,7 @@ outfit "Large Graviton Thruster"
 
 
 outfit "Large Graviton Steering"
+	"display name" "大型引力子转向器"
 	category "Engines"
 	series "Engines"
 	index 91030
@@ -140,6 +146,7 @@ outfit "Large Graviton Steering"
 # Power
 
 outfit "Quantum Vacuum Battery"
+	"display name" "量子真空电池"
 	category "Power"
 	series "Batteries"
 	index 91010
@@ -154,6 +161,7 @@ outfit "Quantum Vacuum Battery"
 
 
 outfit "Antimatter Core"
+	"display name" "反物质核心"
 	category "Power"
 	series "Generators"
 	index 91010
@@ -167,6 +175,7 @@ outfit "Antimatter Core"
 
 
 outfit "Singularity Core"
+	"display name" "奇点核心"
 	category "Power"
 	series "Generators"
 	index 91020
@@ -182,6 +191,7 @@ outfit "Singularity Core"
 
 
 outfit "Quasar Core"
+	"display name" "类星体核心"
 	category "Power"
 	series "Generators"
 	index 91030
@@ -199,6 +209,7 @@ outfit "Quasar Core"
 # Systems
 
 outfit "Aspis Shield Generator"
+	"display name" "阿斯皮斯护盾发生器"
 	category "Systems"
 	series "Shields"
 	index 91010
@@ -214,6 +225,7 @@ outfit "Aspis Shield Generator"
 
 
 outfit "Ancile Shield Generator"
+	"display name" "安锡勒护盾发生器"
 	category "Systems"
 	series "Shields"
 	index 91020
@@ -229,6 +241,7 @@ outfit "Ancile Shield Generator"
 
 
 outfit "Aegis Shield Generator"
+	"display name" "埃癸斯护盾发生器"
 	category "Systems"
 	series "Shields"
 	index 91030
@@ -244,6 +257,7 @@ outfit "Aegis Shield Generator"
 
 
 outfit "Peripheral Repair Hub"
+	"display name" "外围维修枢纽"
 	category "Systems"
 	series "Repair"
 	index 91010
@@ -258,6 +272,7 @@ outfit "Peripheral Repair Hub"
 
 
 outfit "Central Repair Hub"
+	"display name" "中央维修枢纽"
 	category "Systems"
 	series "Repair"
 	index 91020
@@ -274,6 +289,7 @@ outfit "Central Repair Hub"
 # Weapons
 
 outfit "Skydagger"
+	"display name" "天匕"
 	category "Turrets"
 	series "Turrets"
 	index 91010
@@ -305,6 +321,7 @@ outfit "Skydagger"
 	description "在不需要压倒性火力的情况下，这些光束武器被用来替代更强力的武器，仅为非战斗人员提供防御。不过，它们仍然是不可轻视的威胁。"
 
 outfit "Skylance"
+	"display name" "天矛"
 	category "Turrets"
 	series "Turrets"
 	index 91020
@@ -345,6 +362,7 @@ effect "skylance impact"
 
 
 outfit "Stratospear"
+	"display name" "霄矛"
 	category "Turrets"
 	series "Anti-Missile"
 	index 91010
@@ -376,6 +394,7 @@ effect "quarg anti-missile"
 
 
 outfit "Elysian Ranseur"
+	"display name" "极乐长戟"
 	category Guns
 	series "Guns"
 	index 91010
@@ -410,6 +429,7 @@ effect "ranseur"
 
 
 outfit "Celestial Culverin"
+	"display name" "天界长炮"
 	category Guns
 	series "Guns"
 	index 91020
@@ -467,6 +487,7 @@ effect "culverin die"
 
 
 outfit "Astral Ribault"
+	"display name" "星界排炮"
 	category "Turrets"
 	series "Turrets"
 	index 91030
@@ -496,6 +517,7 @@ outfit "Astral Ribault"
 	description "该炮塔快速发射的弹幕覆盖范围广阔、射程遥远，释放出一阵负能量粒子风暴。吸引力将这些粒子导向目标，对紧邻范围内的敌人造成极高伤害，同时让试图逃离的敌人仍处于夸格的可及范围之内。"
 
 outfit "ribault unguided"
+	"display name" "排炮弹（无制导）"
 	weapon
 		sprite "projectile/ribault"
 		"hit effect" "ribault impact"
@@ -504,6 +526,7 @@ outfit "ribault unguided"
 		"submunition" "ribault guided"
 
 outfit "ribault guided"
+	"display name" "排炮弹（制导）"
 	weapon
 		sprite "projectile/ribault"
 			"frame rate" 10
@@ -540,6 +563,7 @@ effect "ribault impact"
 
 
 outfit "Slipstream Projector"
+	"display name" "滑流投射器"
 	category "Guns"
 	series "Guns"
 	index 91030
@@ -569,6 +593,7 @@ outfit "Slipstream Projector"
 # Special
 
 outfit "Phalanx System"
+	"display name" "方阵系统"
 	category "Hand to Hand"
 	series "Fortifications"
 	index 91010

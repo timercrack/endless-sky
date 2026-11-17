@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Earth Shaper"
+	"display name" "塑地者"
 	sprite "ship/earth shaper"
 	thumbnail "thumbnail/earth shaper"
 	"administrative cost" 1
@@ -51,6 +52,7 @@ ship "Earth Shaper"
 
 
 ship "Flycatcher"
+	"display name" "捕蝇者"
 	sprite "ship/flycatcher"
 	thumbnail "thumbnail/flycatcher"
 	"administrative cost" 0
@@ -91,7 +93,8 @@ ship "Flycatcher"
 
 
 ship "Summer Leaf"
-	plural "夏叶"
+	"display name" "夏叶"
+	"plural" "夏叶"
 	sprite "ship/summer leaf"
 	thumbnail "thumbnail/summer leaf"
 	"administrative cost" 3
@@ -142,7 +145,8 @@ ship "Summer Leaf"
 
 
 ship "Autumn Leaf"
-	plural "秋叶"
+	"display name" "秋叶"
+	"plural" "秋叶"
 	sprite "ship/autumn leaf"
 	thumbnail "thumbnail/autumn leaf"
 	"administrative cost" 4
@@ -206,6 +210,7 @@ ship "Autumn Leaf" "Autumn Leaf (Heavy)"
 
 
 ship "Strong Wind"
+	"display name" "强风"
 	sprite "ship/strong wind"
 	thumbnail "thumbnail/strong wind"
 	"administrative cost" 5
@@ -265,6 +270,7 @@ ship "Strong Wind"
 
 
 ship "Heavy Gust"
+	"display name" "强阵风"
 	sprite "ship/heavy gust"
 	thumbnail "thumbnail/heavy gust"
 	"administrative cost" 6
@@ -336,6 +342,7 @@ ship "Heavy Gust" "Heavy Gust (Moonbeam)"
 		
 
 ship "Tempest"
+	"display name" "暴风"
 	sprite "ship/tempest"
 	thumbnail "thumbnail/tempest"
 	"administrative cost" 7
@@ -460,6 +467,7 @@ ship "Tempest" "Tempest (Moonbeam)"
 
 
 ship "Derecho"
+	"display name" "直线风暴"
 	sprite "ship/derecho"
 	thumbnail "thumbnail/derecho"
 	"administrative cost" 8
@@ -591,6 +599,7 @@ ship "Derecho" "Derecho (Moonbeam)"
 
 
 ship "Hurricane"
+	"display name" "飓风"
 	sprite "ship/hurricane"
 	thumbnail "thumbnail/hurricane"
 	"administrative cost" 10
@@ -732,6 +741,7 @@ ship "Hurricane" "Hurricane (Moonbeam)"
 
 
 ship "Cool Breeze"
+	"display name" "凉风"
 	sprite "ship/cool breeze"
 	thumbnail "thumbnail/cool breeze"
 	"administrative cost" 1
@@ -790,6 +800,7 @@ ship "Cool Breeze" "Cool Breeze (Sunbeam)"
 
 
 ship "Winter Gale"
+	"display name" "冬风"
 	sprite "ship/winter gale"
 	thumbnail "thumbnail/winter gale"
 	"administrative cost" 5
@@ -894,6 +905,7 @@ ship "Winter Gale" "Winter Gale (Missile)"
 
 
 ship "Deep River"
+	"display name" "深河"
 	sprite "ship/deep river"
 	thumbnail "thumbnail/deep river"
 	"administrative cost" 7
@@ -984,6 +996,7 @@ ship "Deep River" "Deep River 4"
 		"cargo space" -228
 
 ship "Deep River Transport"
+	"display name" "深河运输船"
 	sprite "ship/deep river"
 	thumbnail "thumbnail/deep river"
 	"administrative cost" 7
@@ -1037,6 +1050,7 @@ ship "Deep River Transport"
 
 
 ship "Riptide"
+	"display name" "激流"
 	sprite "ship/riptide"
 	thumbnail "thumbnail/riptide"
 	"administrative cost" 7

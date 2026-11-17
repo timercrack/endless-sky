@@ -15,7 +15,8 @@
 # Systems:
 
 outfit "Radiative Lamina"
-	plural "辐射薄层板"
+	"display name" "辐射薄层"
+	"plural" "辐射薄层"
 	category "Systems"
 	series "Special Systems"
 	index 07010
@@ -30,7 +31,8 @@ outfit "Radiative Lamina"
 
 
 outfit "Concealment Lamina"
-	plural "隐匿薄片"
+	"display name" "隐匿薄层"
+	"plural" "隐匿薄层"
 	category "Systems"
 	series "Special Systems"
 	index 07020
@@ -49,6 +51,7 @@ outfit "Concealment Lamina"
 
 
 outfit "Magnetic Scoop"
+	"display name" "磁力收集器"
 	category "Systems"
 	series "Ramscoops"
 	index 07010
@@ -65,6 +68,7 @@ outfit "Magnetic Scoop"
 
 
 outfit "Plasmadyne Scoop"
+	"display name" "等离子动力收集器"
 	category "Systems"
 	series "Ramscoops"
 	index 07020
@@ -87,6 +91,7 @@ outfit "Plasmadyne Scoop"
 
 
 outfit "Deuterium Slush Tank"
+	"display name" "氘浆燃料箱"
 	category "Systems"
 	series "Fuel"
 	index 07010
@@ -101,6 +106,7 @@ outfit "Deuterium Slush Tank"
 
 
 outfit "Cryogenic Deuterium Tank"
+	"display name" "低温氘燃料箱"
 	category "Systems"
 	series "Fuel"
 	index 07020
@@ -114,6 +120,7 @@ outfit "Cryogenic Deuterium Tank"
 
 
 outfit "Heatsink Partition"
+	"display name" "散热隔舱"
 	category "Systems"
 	series "Fuel"
 	index 07030
@@ -127,6 +134,7 @@ outfit "Heatsink Partition"
 
 
 outfit "Multispectral Scanner"
+	"display name" "多光谱扫描仪"
 	category "Systems"
 	series "Scanners"
 	index 07010
@@ -142,6 +150,7 @@ outfit "Multispectral Scanner"
 
 
 outfit "Spectrometer Array"
+	"display name" "光谱仪阵列"
 	category "Systems"
 	series "Scanners"
 	index 07020
@@ -161,6 +170,7 @@ outfit "Spectrometer Array"
 
 
 outfit "Diffuse Deflector"
+	"display name" "漫射偏导器"
 	category "Systems"
 	series "Shields"
 	index 07010
@@ -178,6 +188,7 @@ outfit "Diffuse Deflector"
 
 
 outfit "Specular Deflector"
+	"display name" "镜面偏导器"
 	category "Systems"
 	series "Shields"
 	index 07020
@@ -198,6 +209,7 @@ outfit "Specular Deflector"
 
 
 outfit "Concentrating Solar Cell"
+	"display name" "聚光太阳能电池"
 	category "Power"
 	series "Solar"
 	index 07010
@@ -211,6 +223,7 @@ outfit "Concentrating Solar Cell"
 
 
 outfit "Concentrating Solar Array"
+	"display name" "聚光太阳能阵列"
 	category "Power"
 	series "Solar"
 	index 07020
@@ -225,7 +238,8 @@ outfit "Concentrating Solar Array"
 
 
 outfit "Photoelectric Lamina"
-	plural "光电薄层"
+	"display name" "光电薄层"
+	"plural" "光电薄层"
 	category "Power"
 	series "Solar"
 	index 07030
@@ -240,6 +254,7 @@ outfit "Photoelectric Lamina"
 
 
 outfit "Lantern Fission Core"
+	"display name" "灯笼裂变核心"
 	category "Power"
 	series "Generators"
 	index 07010
@@ -255,6 +270,7 @@ outfit "Lantern Fission Core"
 
 
 outfit "Ultracapacitor Cell"
+	"display name" "极限电容单元"
 	category "Power"
 	series "Batteries"
 	index 07010
@@ -269,6 +285,7 @@ outfit "Ultracapacitor Cell"
 	
 	
 outfit "Ultracapacitor Bank"
+	"display name" "极限电容组"
 	category "Power"
 	series "Batteries"
 	index 07020
@@ -285,6 +302,7 @@ outfit "Ultracapacitor Bank"
 # Engines:
 
 outfit "Magnetoplasma Drive"
+	"display name" "磁等离子驱动器"
 	category "Engines"
 	series "Engines"
 	index 07010
@@ -317,6 +335,7 @@ outfit "Magnetoplasma Drive"
 
 
 outfit "Vapor Nuclear Rocket"
+	"display name" "蒸汽核火箭"
 	category "Engines"
 	series "Engines"
 	index 07010
@@ -340,6 +359,7 @@ outfit "Vapor Nuclear Rocket"
 
 
 outfit `A-3600 "Beam" Amat Drive`
+	"display name" "A-3600“光束”反物质驱动器"
 	category "Engines"
 	series "Engines"
 	index 07080
@@ -370,7 +390,8 @@ outfit `A-3600 "Beam" Amat Drive`
 
 
 outfit `Z-333 "Spark" Fusion Torch`
-	plural `Z-333“火花”聚变火炬组`
+	"display name" "Z-333“火花”聚变火炬"
+	"plural" "Z-333“火花”聚变火炬"
 	category "Engines"
 	series "Engines"
 	index 07050
@@ -399,7 +420,8 @@ outfit `Z-333 "Spark" Fusion Torch`
 
 
 outfit `Z-666 "Zap" Fusion Torch`
-	plural `Z-666“电击”聚变火炬组`
+	"display name" "Z-666“电击”聚变火炬"
+	"plural" "Z-666“电击”聚变火炬"
 	category "Engines"
 	series "Engines"
 	index 07060
@@ -427,7 +449,8 @@ outfit `Z-666 "Zap" Fusion Torch`
 
 
 outfit `Z-999 "Arc" Fusion Torch`
-	plural `Z-999“电弧”聚变火炬组`
+	"display name" "Z-999“电弧”聚变火炬"
+	"plural" "Z-999“电弧”聚变火炬"
 	category "Engines"
 	series "Engines"
 	index 07070
@@ -480,6 +503,7 @@ effect "large remass injection"
 
 
 outfit "Remass Injector"
+	"display name" "反应质量注入器"
 	category "Engines"
 	series "Engines"
 	index 07099
@@ -500,6 +524,7 @@ outfit "Remass Injector"
 
 
 outfit "Inductive Extractor"
+	"display name" "感应萃取器"
 	category "Engines"
 	series "Engines"
 	index 07098
@@ -521,7 +546,8 @@ outfit "Inductive Extractor"
 
 
 outfit "R-180 RCS Thrusters"
-	plural "R-180 姿控推进器"
+	"display name" "R-180 姿控推进器"
+	"plural" "R-180 姿控推进器"
 	category "Engines"
 	series "Engines"
 	index 07020
@@ -548,7 +574,8 @@ outfit "R-180 RCS Thrusters"
 
 
 outfit "R-360 RCS Thrusters"
-	plural "R-360 姿控推进器"
+	"display name" "R-360 姿控推进器"
+	"plural" "R-360 姿控推进器"
 	category "Engines"
 	series "Engines"
 	index 07030
@@ -575,7 +602,8 @@ outfit "R-360 RCS Thrusters"
 
 
 outfit "R-720 RCS Thrusters"
-	plural "R-720 姿控推进器"
+	"display name" "R-720 姿控推进器"
+	"plural" "R-720 姿控推进器"
 	category "Engines"
 	series "Engines"
 	index 07040
@@ -605,6 +633,7 @@ outfit "R-720 RCS Thrusters"
 
 
 outfit "Optical Laser Rifle"
+	"display name" "光学激光步枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 07010
@@ -619,6 +648,7 @@ outfit "Optical Laser Rifle"
 
 
 outfit "Trefoil Board"
+	"display name" "三叶棋盘"
 	category "Unique"
 	series "Functional Unique"
 	index 07010
@@ -634,6 +664,7 @@ outfit "Trefoil Board"
 
 
 outfit "Damselflyman"
+	"display name" "豆娘侠"
 	thumbnail "outfit/void sprite parts"
 	"capture attack" 30
 	"capture defense" 60
@@ -643,6 +674,7 @@ outfit "Damselflyman"
 
 
 outfit "Lancet Adamant"
+	"display name" "精金短矛"
 	category "Unique"
 	series "Functional Unique"
 	index 07020
@@ -656,18 +688,21 @@ outfit "Lancet Adamant"
 
 
 outfit "Twilight Guard License"
+	"display name" "暮光卫队许可证"
 	category "Licenses"
 	series "Licenses"
 	index 07010
 	thumbnail "outfit/unknown"
 
 outfit "Avgi Torch License"
+	"display name" "阿夫吉火炬许可证"
 	category "Licenses"
 	series "Licenses"
 	index 07020
 	thumbnail "outfit/unknown"
 
 outfit "Avgi Atomics License"
+	"display name" "阿夫吉原子能许可证"
 	category "Licenses"
 	series "Licenses"
 	index 07020

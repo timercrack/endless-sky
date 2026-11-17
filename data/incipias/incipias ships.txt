@@ -12,7 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Venta"
-	"plural" "文塔级"
+	"display name" "文塔"
+	"plural" "文塔"
 	"sprite" ship/venta
 	"thumbnail" thumbnail/venta
 	"administrative cost" 6
@@ -70,7 +71,8 @@ ship "Venta"
 	description "希塞穆斯掌权后，需要一艘能象征其力量的飞船。装备六门炮的文塔是因西皮亚斯历史上最强大的飞船。凭借其流线型气动设计，无论是在太空追捕亡命徒，还是在气态巨行星的云层中作战，都同样得心应手。"
 
 ship "Nimbus"
-	"plural" "骤雨星级"
+	"display name" "雨云"
+	"plural" "雨云"
 	"sprite" ship/nimbus
 	"thumbnail" thumbnail/nimbus
 	"administrative cost" 4
@@ -144,7 +146,8 @@ ship "Nimbus" "Nimbus (Mining)"
 		"MH Red-Class Steering"
 
 ship "Nimbo Stratus"
-	"plural" "雨层云级"
+	"display name" "雨层云"
+	"plural" "雨层云"
 	"sprite" ship/stratus
 	"thumbnail" thumbnail/stratus
 	"administrative cost" 2
@@ -187,7 +190,8 @@ ship "Nimbo Stratus"
 	description "在因西皮亚斯社会中，采矿一直是一项大生意，这就是为何雨层云号是起始船长们最常见的飞船。它低廉的价格和快速赚钱的能力确保了它持续受欢迎。虽然雨层云号理论上可用于战斗，但它完全不是骤雨星的对手，因此从未被希塞穆斯军方使用过。"
 
 ship "Nimbo Cirrus"
-	"plural" "雨卷云级"
+	"display name" "雨卷云"
+	"plural" "雨卷云"
 	"sprite" ship/cirrus
 	"thumbnail" thumbnail/cirrus
 	"administrative cost" 2
@@ -228,6 +232,7 @@ ship "Nimbo Cirrus"
 	description "当庞特斯空间站建成后，需要一种能将大量物资和补给运入轨道的飞船。当骤雨星被证明无法胜任此任务时，雨卷云号——一种专用货船——被建造出来。庞特斯空间站的居民依赖其定期运送来获取基本商品和设备。"
 
 ship "Gero"
+	"display name" "杰罗"
 	"sprite" ship/gero
 	"thumbnail" thumbnail/gero
 	"administrative cost" 2

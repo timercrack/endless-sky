@@ -13,8 +13,8 @@
 
 
 ship "Aberrant Latte"
-	"display name" `K-IA“拿铁”`
-	plural `拿铁`
+	"display name" "K-IA“拿铁”"
+	"plural" "K-IA“拿铁”"
 	sprite "ship/aberrant latte"
 	thumbnail "thumbnail/aberrant latte"
 	"never disabled"
@@ -84,8 +84,8 @@ ship "Aberrant Latte" "Aberrant Latte (Disable-able)"
 
 
 ship "Aberrant Chomper"
-	"display name" `K-IB “吞噬者”`
-	plural "吞噬者"
+	"display name" "K-IB“吞噬者”"
+	"plural" "K-IB“吞噬者”"
 	sprite "ship/aberrant chomper"
 	thumbnail "thumbnail/aberrant chomper"
 	"never disabled"
@@ -162,8 +162,8 @@ ship "Aberrant Chomper" "Aberrant Chomper (Disable-able)"
 
 
 ship "Aberrant Pileup"
-	"display name" `K-IC“堆积者”`
-	plural "堆积者"
+	"display name" "K-IC“堆积者”"
+	"plural" "K-IC“堆积者”"
 	sprite "ship/aberrant pileup"
 	thumbnail "thumbnail/aberrant pileup"
 	"never disabled"
@@ -234,8 +234,8 @@ ship "Aberrant Pileup" "Aberrant Pileup (Disable-able)"
 
 
 ship "Aberrant Hugger"
-	"display name" `K-IE“拥抱者”`
-	plural "拥抱者"
+	"display name" "K-IE“拥抱者”"
+	"plural" "K-IE“拥抱者”"
 	sprite "ship/aberrant hugger"
 	thumbnail "thumbnail/aberrant hugger"
 	"never disabled"
@@ -308,8 +308,8 @@ ship "Aberrant Hugger" "Aberrant Hugger (Disable-able)"
 
 
 ship "Aberrant Longfellow"
-	"display name" `K-IF “朗费罗”`
-	plural "朗费罗"
+	"display name" "K-IF“朗费罗”"
+	"plural" "K-IF“朗费罗”"
 	sprite "ship/aberrant longfellow"
 	thumbnail "thumbnail/aberrant longfellow"
 	"never disabled"
@@ -388,8 +388,8 @@ ship "Aberrant Longfellow" "Aberrant Longfellow (Disable-able)"
 
 
 ship "Aberrant Dancer"
-	"display name" `K-IG "舞者星"`
-	plural "舞者星"
+	"display name" "K-IG“舞者”"
+	"plural" "K-IG“舞者”"
 	sprite "ship/aberrant dancer"
 	thumbnail "thumbnail/aberrant dancer"
 	"never disabled"
@@ -466,8 +466,8 @@ ship "Aberrant Dancer" "Aberrant Dancer (Disable-able)"
 
 
 ship "Aberrant Junior"
-	"display name" `K-IIA “小型”`
-	plural "小型"
+	"display name" "K-IIA“幼体”"
+	"plural" "K-IIA“幼体”"
 	sprite "ship/aberrant junior"
 	thumbnail "thumbnail/aberrant junior"
 	"never disabled"
@@ -541,8 +541,8 @@ ship "Aberrant Junior" "Aberrant Junior (Disable-able)"
 
 
 ship "Aberrant Icebreaker"
-	"display name" `K-IIB“破冰船”`
-	plural "破冰船"
+	"display name" "K-IIB“破冰船”"
+	"plural" "K-IIB“破冰船”"
 	sprite "ship/aberrant icebreaker"
 	thumbnail "thumbnail/aberrant icebreaker"
 	"never disabled"
@@ -617,8 +617,8 @@ ship "Aberrant Icebreaker" "Aberrant Icebreaker (Disable-able)"
 
 
 ship "Aberrant Pike"
-	"display name" `K-IIC “派克”`
-	plural "派克"
+	"display name" "K-IIC“狗鱼”"
+	"plural" "K-IIC“狗鱼”"
 	sprite "ship/aberrant pike"
 	thumbnail "thumbnail/aberrant pike"
 	"never disabled"
@@ -692,8 +692,8 @@ ship "Aberrant Pike" "Aberrant Pike (Disable-able)"
 
 
 ship "Aberrant Mole"
-	"display name" `K-IID "鼹鼠"`
-	plural "鼹鼠"
+	"display name" "K-IID“鼹鼠”"
+	"plural" "K-IID“鼹鼠”"
 	sprite "ship/aberrant mole"
 	thumbnail "thumbnail/aberrant mole"
 	"never disabled"
@@ -769,8 +769,8 @@ ship "Aberrant Mole" "Aberrant Mole (Disable-able)"
 
 
 ship "Aberrant Whiskers"
-	"display name" `K-IIE“胡须者”`
-	plural "触须"
+	"display name" "K-IIE“胡须”"
+	"plural" "K-IIE“胡须”"
 	sprite "ship/aberrant whiskers"
 	thumbnail "thumbnail/aberrant whiskers"
 	"never disabled"
@@ -839,8 +839,8 @@ ship "Aberrant Whiskers" "Aberrant Whiskers (Disable-able)"
 
 
 ship "Aberrant Trip"
-	"display name" `K-IIF“特里普”`
-	plural "特里普"
+	"display name" "K-IIF“趔趄”"
+	"plural" "K-IIF“趔趄”"
 	sprite "ship/aberrant trip"
 	thumbnail "thumbnail/aberrant trip"
 	"never disabled"
@@ -921,8 +921,8 @@ ship "Aberrant Trip" "Aberrant Trip (Disable-able)"
 
 
 ship "Aberrant Triplet"
-	"display name" `K-IIG “三联”`
-	plural "三联"
+	"display name" "K-IIG“三胞胎”"
+	"plural" "K-IIG“三胞胎”"
 	sprite "ship/aberrant triplet"
 	thumbnail "thumbnail/aberrant triplet"
 	"never disabled"

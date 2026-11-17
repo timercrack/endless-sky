@@ -314,6 +314,7 @@ ship "Timer Ship"
 	gun 0 0
 
 outfit "Timer Weapon"
+	"display name" "计时武器"
 	category "Guns"
 	thumbnail "outfit/unknown"
 	"gun ports" -1
@@ -326,6 +327,7 @@ outfit "Timer Weapon"
 		"submunition" "Timer Submunition"
 
 outfit "Timer Submunition"
+	"display name" "计时子弹药"
 	weapon
 		"lifetime" 20
 		"trigger radius" 200

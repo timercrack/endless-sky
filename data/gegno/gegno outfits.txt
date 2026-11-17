@@ -14,7 +14,8 @@
 # Power:
 
 outfit "R01 Skirmish Battery"
-	plural "R01 小型战斗电池组"
+	"display name" "R01 小型战斗电池"
+	"plural" "R01 小型战斗电池"
 	category "Power"
 	series "Batteries"
 	index 06010
@@ -29,7 +30,8 @@ outfit "R01 Skirmish Battery"
 
 
 outfit "R02 Battlezone Battery"
-	plural "R02 战区电池组"
+	"display name" "R02 战区电池"
+	"plural" "R02 战区电池"
 	category "Power"
 	series "Batteries"
 	index 06020
@@ -44,7 +46,8 @@ outfit "R02 Battlezone Battery"
 
 
 outfit "R03 Warforge Battery"
-	plural "R03 战铸电池组"
+	"display name" "R03 战铸电池"
+	"plural" "R03 战铸电池"
 	category "Power"
 	series "Batteries"
 	index 06030
@@ -59,7 +62,8 @@ outfit "R03 Warforge Battery"
 
 
 outfit "R04 Crusade Battery"
-	plural "R04 远征电池组"
+	"display name" "R04 十字军电池"
+	"plural" "R04 十字军电池"
 	category "Power"
 	series "Batteries"
 	index 06040
@@ -77,6 +81,7 @@ outfit "R04 Crusade Battery"
 
 
 outfit "C3 Scrap Cell"
+	"display name" "C3 废料电池"
 	category "Power"
 	series "Generators"
 	index 06010
@@ -92,6 +97,7 @@ outfit "C3 Scrap Cell"
 
 
 outfit "C7 Brawl Cell"
+	"display name" "C7 格斗电池"
 	category "Power"
 	series "Generators"
 	index 06020
@@ -107,6 +113,7 @@ outfit "C7 Brawl Cell"
 
 
 outfit "C17 Warzone Core"
+	"display name" "C17 战争核心"
 	category "Power"
 	series "Generators"
 	index 06030
@@ -122,6 +129,7 @@ outfit "C17 Warzone Core"
 
 
 outfit "C27 Campaign Core"
+	"display name" "C27 战役核心"
 	category "Power"
 	series "Generators"
 	index 06040
@@ -140,6 +148,7 @@ outfit "C27 Campaign Core"
 
 
 outfit "I70 Ameliorate Cell"
+	"display name" "I70 改良电池"
 	category "Power"
 	series "Generators"
 	index 06050
@@ -160,6 +169,7 @@ outfit "I70 Ameliorate Cell"
 # Engines:
 
 outfit "RG15 Torch Thruster"
+	"display name" "RG15 火炬推进器"
 	category "Engines"
 	series "Engines"
 	index 06011
@@ -180,6 +190,7 @@ outfit "RG15 Torch Thruster"
 
 
 outfit "RG15 Torch Steering"
+	"display name" "RG15 火炬转向器"
 	category "Engines"
 	series "Engines"
 	index 06010
@@ -200,6 +211,7 @@ outfit "RG15 Torch Steering"
 
 
 outfit "RG18 Torch Thruster"
+	"display name" "RG18 火炬推进器"
 	category "Engines"
 	series "Engines"
 	index 06021
@@ -220,6 +232,7 @@ outfit "RG18 Torch Thruster"
 
 
 outfit "RG18 Torch Steering"
+	"display name" "RG18 火炬转向器"
 	category "Engines"
 	series "Engines"
 	index 06020
@@ -240,6 +253,7 @@ outfit "RG18 Torch Steering"
 
 
 outfit "RG3 Torch Thruster"
+	"display name" "RG3 火炬推进器"
 	category "Engines"
 	series "Engines"
 	index 06031
@@ -263,6 +277,7 @@ outfit "RG3 Torch Thruster"
 
 
 outfit "RG3 Torch Steering"
+	"display name" "RG3 火炬转向器"
 	category "Engines"
 	series "Engines"
 	index 06030
@@ -286,7 +301,8 @@ outfit "RG3 Torch Steering"
 
 
 outfit "SC-1 Plasma Engines"
-	plural "SC-1 等离子引擎"
+	"display name" "SC-1 等离子引擎"
+	"plural" "SC-1 等离子引擎"
 	category "Engines"
 	series "Engines"
 	index 06040
@@ -315,6 +331,7 @@ outfit "SC-1 Plasma Engines"
 
 
 outfit "SC-12 Plasma Thruster"
+	"display name" "SC-12 等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 06051
@@ -336,6 +353,7 @@ outfit "SC-12 Plasma Thruster"
 
 
 outfit "SC-12 Plasma Steering"
+	"display name" "SC-12 等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 06050
@@ -357,6 +375,7 @@ outfit "SC-12 Plasma Steering"
 
 
 outfit "SC-14 Plasma Thruster"
+	"display name" "SC-14 等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 06061
@@ -378,6 +397,7 @@ outfit "SC-14 Plasma Thruster"
 
 
 outfit "SC-14 Plasma Steering"
+	"display name" "SC-14 等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 06060
@@ -399,7 +419,8 @@ outfit "SC-14 Plasma Steering"
 
 
 outfit "SC-15 Plasma Thrusters"
-	plural "SC-15 等离子推进器"
+	"display name" "SC-15 等离子推进器"
+	"plural" "SC-15 等离子推进器"
 	series "Engines"
 	index 06070
 	category "Engines"
@@ -429,6 +450,7 @@ outfit "SC-15 Plasma Thrusters"
 # Weapons:
 
 outfit "Irate Cannon"
+	"display name" "愤怒加农炮"
 	category "Guns"
 	series "Guns"
 	index 06010
@@ -460,6 +482,7 @@ outfit "Irate Cannon"
 
 
 outfit "Irate Cannon Turret"
+	"display name" "愤怒加农炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 06010
@@ -512,6 +535,7 @@ effect "irate smoke"
 
 
 outfit "Choleric Cannon"
+	"display name" "暴怒加农炮"
 	category "Guns"
 	series "Guns"
 	index 06020
@@ -544,6 +568,7 @@ outfit "Choleric Cannon"
 
 
 outfit "Choleric Cannon Turret"
+	"display name" "暴怒加农炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 06020
@@ -597,6 +622,7 @@ effect "choleric smoke"
 	
 
 outfit "Ballistic Cannon"
+	"display name" "弹道加农炮"
 	category "Guns"
 	series "Guns"
 	index 06030
@@ -632,6 +658,7 @@ outfit "Ballistic Cannon"
 
 
 outfit "Ballistic Cannon Turret"
+	"display name" "弹道加农炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 06030
@@ -698,6 +725,7 @@ effect "ballistic smoke"
 	"velocity scale" 0.01
 
 outfit "Astuit Battery"
+	"display name" "阿斯图特炮组"
 	category "Turrets"
 	series "Turrets"
 	index 06040
@@ -736,7 +764,8 @@ effect "astuit hit"
 
 
 outfit "Acuit Artillery"
-	plural "精准火炮"
+	"display name" "精准火炮"
+	"plural" "精准火炮"
 	category "Turrets"
 	series "Turrets"
 	index 06050
@@ -778,6 +807,7 @@ effect "acuit hit"
 
 
 outfit "Acumen Bolt Cannon"
+	"display name" "洞察光弹炮"
 	category "Guns"
 	series "Guns"
 	index 06040
@@ -822,6 +852,7 @@ effect "neutron explosion"
 
 
 outfit "Guile Pulse Laser"
+	"display name" "诡诈脉冲激光"
 	category "Guns"
 	series "Guns"
 	index 06050
@@ -855,6 +886,7 @@ outfit "Guile Pulse Laser"
 
 
 outfit "Excavator"
+	"display name" "挖掘钻"
 	category "Guns"
 	series "Guns"
 	index 06060
@@ -898,6 +930,7 @@ effect "excavate"
 
 
 outfit "Burrower"
+	"display name" "钻探器"
 	category "Guns"
 	series "Guns"
 	index 06070
@@ -946,7 +979,8 @@ effect "burrow"
 
 
 outfit "Ion Torch"
-	plural "离子火炬"
+	"display name" "离子火炬"
+	"plural" "离子火炬"
 	category "Guns"
 	series "Guns"
 	index 06080
@@ -988,6 +1022,7 @@ outfit "Ion Torch"
 
 
 outfit "Savagery Bludgeon"
+	"display name" "野蛮钉锤"
 	category "Guns"
 	series "Guns"
 	index 06090
@@ -1019,6 +1054,7 @@ effect "bludgeon impact"
 # Hand to Hand Weapons
 
 outfit "Savagery Pike"
+	"display name" "野蛮长矛"
 	category "Hand to Hand"
 	series "H2H"
 	index 06010
@@ -1034,6 +1070,7 @@ outfit "Savagery Pike"
 	description `这是一种仪式性的长矛状武器，在维族战士正式加入军队时授予。其前端有多根锋利的长刺，能轻易刺穿敌人；后端则内置一门火炮，可发射多达两发爆炸弹丸。维族人很少使用火炮弹药，除非他们认为必须以此击败对手，或应对预料之外的外部因素。`
 
 outfit "Irate Carronade"
+	"display name" "愤怒卡隆炮"
 	category "Hand to Hand"
 	series "Fortifications"
 	index 06010
@@ -1048,6 +1085,7 @@ outfit "Irate Carronade"
 	description `将舰对舰火炮小型化并草率地塞进小型临时掩体，绝非安装登舰防御设施最安全的方式。尽管如此，大型格诺战舰的硬装甲船体仍足够坚固，得以搭载愤怒卡隆炮。任何不知情接近其安装走廊的人或物，都极可能化为附近墙面上的一层新涂料。`
 	
 outfit "Plasmasickle"
+	"display name" "等离子镰刀"
 	category "Hand to Hand"
 	series "H2H"
 	index 06020
@@ -1062,7 +1100,8 @@ outfit "Plasmasickle"
 	description `等离子镰刀是专为近身格斗而设计的武器。它融合了辛族最近开发的等离子技术，刀刃被加热至高温，能够切开坚韧的目标。只有少数精选的辛族船员装备了这种武器，但他们经过了充分的训练，能够有效地使用它们。`
 
 outfit "Plasma Grenades"
-	plural "等离子手雷"
+	"display name" "等离子手雷"
+	"plural" "等离子手雷"
 	category "Hand to Hand"
 	series "H2H"
 	index 06030
@@ -1081,6 +1120,7 @@ outfit "Plasma Grenades"
 # Special Outfits
 
 outfit "Gegno Civilian License"
+	"display name" "格诺平民许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06010
@@ -1088,6 +1128,7 @@ outfit "Gegno Civilian License"
 	description "你已被接纳为名义上的格诺公民，被认为能为格诺族群带来福祉，并被授予了使用其民用科技的权限。"
 
 outfit "Gegno Driller License"
+	"display name" "格诺钻探者许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06020
@@ -1095,6 +1136,7 @@ outfit "Gegno Driller License"
 	description "格诺现在认可你的足智多谋以及能交付远超合格标准工作成果的能力。你已被授予获取其采矿技术的权限。"
 
 outfit "Vi Lord License"
+	"display name" "维族领主许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06050
@@ -1102,6 +1144,7 @@ outfit "Vi Lord License"
 	description "维族军事高层中的大多数人都视你为一位可敬的对手，以及实现其野心不可或缺的助力。现在，维护维族最大型舰船的重任已尽在你的掌控之中。"
 	
 outfit "Vi Centurion License"
+	"display name" "维族百夫长许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06040
@@ -1109,6 +1152,7 @@ outfit "Vi Centurion License"
 	description "在维族的精英卫队中，你已证明自己是战斗中的强大领袖与明智的决策者。现在，维族的部分军事武库已对你开放，随时静候你的挑选。"
 
 outfit "Vi Evocati License"
+	"display name" "维族精英卫队许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06030
@@ -1116,6 +1160,7 @@ outfit "Vi Evocati License"
 	description "格诺维已经认可你为他们事业奋斗的坚定战士，并看到了你的价值。现在你已获准随意使用低阶的维族科技。"
 
 outfit "Scin Hoplologist License"
+	"display name" "辛族兵器学家许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06070
@@ -1123,6 +1168,7 @@ outfit "Scin Hoplologist License"
 	description "在格诺辛眼中，你的智慧最为可贵，而你的奖赏是能够使用先进的辛族武器。"
 
 outfit "Scin Architect License"
+	"display name" "辛族建筑师许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06080
@@ -1130,6 +1176,7 @@ outfit "Scin Architect License"
 	description "证明你对斯钦的建设性工作有所助益，你现在已获得驾驶其最先进飞船的许可。"
 
 outfit "Scin Adjutant License"
+	"display name" "辛族副官许可证"
 	category "Licenses"
 	series "Licenses"
 	index 06060

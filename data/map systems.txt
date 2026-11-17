@@ -97,6 +97,7 @@ galaxy "pug empty galaxy"
 	sprite ui/pleiades
 
 system "1 Axis"
+	"display name" "轴一"
 	pos -1274.63 267.214
 	government Coalition
 	attributes "kimek"
@@ -167,6 +168,7 @@ system "1 Axis"
 			distance 684
 
 system "10 Pole"
+	"display name" "极十"
 	pos -1356.63 19.2137
 	government Coalition
 	attributes "kimek"
@@ -231,6 +233,7 @@ system "10 Pole"
 			distance 490
 
 system "11 Autumn Above"
+	"display name" "秋上十一"
 	pos -1278.63 148.214
 	government Coalition
 	attributes "kimek"
@@ -304,6 +307,7 @@ system "11 Autumn Above"
 			distance 536
 
 system "11 Spring Below"
+	"display name" "春下十一"
 	pos -1272.63 380.214
 	government Coalition
 	attributes "kimek"
@@ -375,6 +379,7 @@ system "11 Spring Below"
 			distance 540
 
 system "12 Autumn Above"
+	"display name" "秋上十二"
 	pos -1276.63 -19.7863
 	government Coalition
 	attributes "kimek"
@@ -456,6 +461,7 @@ system "12 Autumn Above"
 			distance 492
 
 system "14 Pole"
+	"display name" "极十四"
 	pos -1343.63 -119.786
 	government Coalition
 	attributes "kimek"
@@ -512,6 +518,7 @@ system "14 Pole"
 		distance 2169.47
 
 system "14 Summer Above"
+	"display name" "夏上十四"
 	pos -1436.63 182.214
 	government Coalition
 	attributes "kimek"
@@ -569,6 +576,7 @@ system "14 Summer Above"
 		distance 2256.26
 
 system "14 Winter Below"
+	"display name" "冬下十四"
 	pos -1143.63 341.214
 	government Coalition
 	attributes "kimek"
@@ -637,6 +645,7 @@ system "14 Winter Below"
 			distance 346
 
 system "16 Autumn Rising"
+	"display name" "秋升十六"
 	pos -1305.63 74.2137
 	government Coalition
 	attributes "kimek"
@@ -700,6 +709,7 @@ system "16 Autumn Rising"
 			distance 587
 
 system "3 Axis"
+	"display name" "轴三"
 	pos -1235.63 299.214
 	government Coalition
 	attributes "kimek"
@@ -762,6 +772,7 @@ system "3 Axis"
 			distance 410
 
 system "3 Pole"
+	"display name" "极三"
 	pos -1344.63 162.214
 	government Coalition
 	attributes "kimek"
@@ -818,6 +829,7 @@ system "3 Pole"
 		distance 2014.75
 
 system "3 Spring Rising"
+	"display name" "春升三"
 	pos -1414.63 356.214
 	government Coalition
 	attributes "kimek"
@@ -883,6 +895,7 @@ system "3 Spring Rising"
 			distance 571
 
 system "4 Axis"
+	"display name" "轴四"
 	pos -1169.63 365.214
 	government Coalition
 	attributes "kimek"
@@ -941,6 +954,7 @@ system "4 Axis"
 			distance 221
 
 system "4 Spring Rising"
+	"display name" "春升四"
 	pos -1309.63 321.214
 	government Coalition
 	attributes "kimek"
@@ -1000,6 +1014,7 @@ system "4 Spring Rising"
 			distance 344
 
 system "4 Summer Rising"
+	"display name" "夏升四"
 	pos -1377.63 207.214
 	government Coalition
 	attributes "kimek"
@@ -1055,6 +1070,7 @@ system "4 Summer Rising"
 		distance 3944.64
 
 system "4 Winter Rising"
+	"display name" "冬升四"
 	pos -1259.63 248.214
 	government Coalition
 	attributes "kimek"
@@ -1122,6 +1138,7 @@ system "4 Winter Rising"
 			distance 522
 
 system "5 Axis"
+	"display name" "轴五"
 	pos -1142.63 394.214
 	government Coalition
 	attributes "kimek"
@@ -1187,6 +1204,7 @@ system "5 Axis"
 			distance 536
 
 system "5 Spring Below"
+	"display name" "春下五"
 	pos -1213.63 415.214
 	government Coalition
 	attributes "kimek"
@@ -1252,6 +1270,7 @@ system "5 Spring Below"
 			distance 332
 
 system "5 Summer Above"
+	"display name" "夏上五"
 	pos -1387.63 118.214
 	government Coalition
 	attributes "kimek"
@@ -1313,6 +1332,7 @@ system "5 Summer Above"
 		distance 2585.48
 
 system "5 Winter Above"
+	"display name" "冬上五"
 	pos -1216.63 208.214
 	government Coalition
 	attributes "kimek"
@@ -1371,6 +1391,7 @@ system "5 Winter Above"
 			distance 183
 
 system "7 Autumn Rising"
+	"display name" "秋升七"
 	pos -1235.63 177.214
 	government Coalition
 	attributes "kimek"
@@ -1430,6 +1451,7 @@ system "7 Autumn Rising"
 			distance 453
 
 system "8 Winter Below"
+	"display name" "冬下八"
 	pos -1179.63 284.214
 	government Coalition
 	attributes "kimek"
@@ -1489,6 +1511,7 @@ system "8 Winter Below"
 			distance 334
 
 system "9 Spring Above"
+	"display name" "春上九"
 	pos -1377.63 281.214
 	government Coalition
 	attributes "kimek"
@@ -1557,6 +1580,7 @@ system "9 Spring Above"
 			distance 415
 
 system Aaura-Kaska
+	"display name" "奥拉-卡斯卡"
 	pos -86 1298
 	government Successor
 	attributes "successor"
@@ -1616,6 +1640,7 @@ system Aaura-Kaska
 		distance 3071.33
 
 system Ablodab
+	"display name" "阿布洛达布"
 	pos -854.587 592.051
 	government Coalition
 	attributes "arachi"
@@ -1691,6 +1716,7 @@ system Ablodab
 			distance 755
 
 system Ablub
+	"display name" "阿布卢布"
 	pos -581.587 637.051
 	government Coalition
 	attributes "arachi"
@@ -1742,6 +1768,7 @@ system Ablub
 		distance 1929.89
 
 system Acamar
+	"display name" "天园六"
 	pos -284 -3
 	government Syndicate
 	attributes "core"
@@ -1794,6 +1821,7 @@ system Acamar
 		distance 4090.18
 
 system Acapella
+	"display name" "无伴奏"
 	pos -348 1253
 	government Uninhabited
 	attributes "outer limits"
@@ -1844,6 +1872,7 @@ system Acapella
 		distance 12602
 
 system Achernar
+	"display name" "水委一"
 	pos -93 154
 	government Syndicate
 	attributes "core"
@@ -1905,6 +1934,7 @@ system Achernar
 			distance 307
 
 system Acnanjo
+	"display name" "阿克南乔"
 	pos 516.8 -544.7
 	government Uninhabited
 	attributes "giant star" "notable star"
@@ -1936,6 +1966,7 @@ system Acnanjo
 		distance 3314.9
 
 system Acrux
+	"display name" "十字架二"
 	pos -808 192
 	government Republic
 	attributes "rim"
@@ -2004,6 +2035,7 @@ system Acrux
 			distance 730
 
 system Actannka
+	"display name" "阿克坦卡"
 	pos 1016.73 -706.867
 	government "Quarg (Gegno)"
 	attributes "bright star" "notable star" "quarg"
@@ -2067,6 +2099,7 @@ system Actannka
 			distance 347
 
 system Adhara
+	"display name" "弧矢七"
 	pos -669 -200
 	government Republic
 	attributes "deep"
@@ -2490,6 +2523,7 @@ system "Ae Il O-96"
 		distance 3603
 
 system Aescolanus
+	"display name" "埃斯科拉努斯"
 	pos -15 340
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -2530,6 +2564,7 @@ system Aescolanus
 		distance 2279.29
 
 system Aierena
+	"display name" "艾耶雷娜"
 	pos 1045.83 -347.623
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -2558,6 +2593,7 @@ system Aierena
 		distance 1820
 
 system "Aik Kamgatake"
+	"display name" "艾克·坎加塔克"
 	pos 487.63 -365.37
 	government Uninhabited
 	attributes "notable star" "nova"
@@ -2596,6 +2632,7 @@ system "Aik Kamgatake"
 		distance 10053
 
 system Aileron
+	"display name" "副翼"
 	pos -581 768
 	government Uninhabited
 	attributes "twilight"
@@ -2642,6 +2679,7 @@ system Aileron
 			distance 252
 
 system Aki'il
+	"display name" "阿基伊尔"
 	pos -83 722
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -2690,6 +2728,7 @@ system Aki'il
 		distance 2740.76
 
 system Aksek
+	"display name" "阿克塞克"
 	pos 477.944 -401.011
 	government Uninhabited
 	attributes "giant star" "notable star"
@@ -2714,6 +2753,7 @@ system Aksek
 		distance 4567.34
 
 system "Al Dhanab"
+	"display name" "败臼一"
 	pos -177 207
 	government Syndicate
 	attributes "core"
@@ -2775,6 +2815,7 @@ system "Al Dhanab"
 		distance 2298.15
 
 system Albaldah
+	"display name" "建三"
 	pos -350 484
 	government Republic
 	attributes "south"
@@ -2840,6 +2881,7 @@ system Albaldah
 			distance 235
 
 system Albireo
+	"display name" "辇道增七"
 	pos -270 503
 	government Republic
 	attributes "south"
@@ -2891,6 +2933,7 @@ system Albireo
 		distance 2211.99
 
 system Alcyone
+	"display name" "昴宿六"
 	pos -80 -144
 	government Pirate
 	attributes "core"
@@ -2949,6 +2992,7 @@ system Alcyone
 			distance 315
 
 system Aldebaran
+	"display name" "毕宿五"
 	pos -356 -26
 	government Republic
 	attributes "paradise"
@@ -2989,6 +3033,7 @@ system Aldebaran
 		distance 2128.22
 
 system Alderamin
+	"display name" "天钩五"
 	pos -272 258
 	government Syndicate
 	attributes "core"
@@ -3045,6 +3090,7 @@ system Alderamin
 		distance 2301.76
 
 system Aldhibain
+	"display name" "少宰"
 	pos -659 451
 	government Republic
 	attributes "south"
@@ -3099,6 +3145,7 @@ system Aldhibain
 			distance 211
 
 system Aleit
+	"display name" "阿莱特"
 	pos 967.604 -690.722
 	government "Quarg (Gegno)"
 	attributes "quarg" "ringworld"
@@ -3235,6 +3282,7 @@ system Aleit
 		offset 340
 
 system Algenib
+	"display name" "壁宿一"
 	pos -118 341
 	government Pirate
 	attributes "core"
@@ -3282,6 +3330,7 @@ system Algenib
 			distance 497
 
 system Algieba
+	"display name" "轩辕十二"
 	pos -691 -52
 	government Republic
 	attributes "deep"
@@ -3342,6 +3391,7 @@ system Algieba
 			distance 353
 
 system Algol
+	"display name" "大陵五"
 	pos -210 17
 	government Syndicate
 	attributes "bright star" "core" "notable star"
@@ -3394,6 +3444,7 @@ system Algol
 		distance 2899.17
 
 system Algorel
+	"display name" "阿尔戈雷尔"
 	pos -631 145
 	government Republic
 	attributes "dirt belt"
@@ -3451,6 +3502,7 @@ system Algorel
 			distance 277
 
 system Alheka
+	"display name" "天关"
 	pos -350 -271
 	government Republic
 	attributes "north"
@@ -3504,6 +3556,7 @@ system Alheka
 			distance 261
 
 system Alhena
+	"display name" "井宿三"
 	pos -430 -80
 	government Republic
 	attributes "paradise"
@@ -3564,6 +3617,7 @@ system Alhena
 			distance 275
 
 system Alioth
+	"display name" "玉衡"
 	pos -620 315
 	government Republic
 	attributes "dirt belt"
@@ -3610,6 +3664,7 @@ system Alioth
 		distance 2197.72
 
 system Alkaid
+	"display name" "摇光"
 	pos -825 318
 	government Republic
 	attributes "rim"
@@ -3667,6 +3722,7 @@ system Alkaid
 			distance 611
 
 system Almaaz
+	"display name" "柱一"
 	pos -349 -538
 	government Pirate
 	attributes "giant star" "north" "notable star"
@@ -3710,6 +3766,7 @@ system Almaaz
 		distance 4530.93
 
 system Almach
+	"display name" "天大将军一"
 	pos -7 232
 	government Pirate
 	attributes "core"
@@ -3765,6 +3822,7 @@ system Almach
 			distance 442
 
 system Alnair
+	"display name" "鹤一"
 	pos -272 314
 	government Syndicate
 	attributes "core"
@@ -3824,6 +3882,7 @@ system Alnair
 			distance 274
 
 system Alnasl
+	"display name" "箕宿一"
 	pos -553 380
 	government Republic
 	attributes "dirt belt"
@@ -3880,6 +3939,7 @@ system Alnasl
 		distance 2345.64
 
 system Alnilam
+	"display name" "参宿二"
 	pos -487 -513
 	government Pirate
 	attributes "north"
@@ -3946,6 +4006,7 @@ system Alnilam
 			distance 575
 
 system Alnitak
+	"display name" "参宿一"
 	pos -331 -412
 	government Republic
 	attributes "north"
@@ -3991,6 +4052,7 @@ system Alnitak
 		distance 3144.82
 
 system Alniyat
+	"display name" "心宿一"
 	pos -691 501
 	government Republic
 	attributes "south"
@@ -4054,6 +4116,7 @@ system Alniyat
 			distance 432
 
 system "Alpha Arae"
+	"display name" "杵二"
 	pos -481 394
 	government Republic
 	attributes "dirt belt"
@@ -4116,6 +4179,7 @@ system "Alpha Arae"
 		distance 2940.4
 
 system "Alpha Centauri"
+	"display name" "南门二"
 	pos -429 125
 	government Republic
 	attributes "near earth"
@@ -4170,6 +4234,7 @@ system "Alpha Centauri"
 		distance 4080.61
 
 system "Alpha Hydri"
+	"display name" "蛇首二"
 	pos -97 98
 	government Syndicate
 	attributes "core"
@@ -4217,6 +4282,7 @@ system "Alpha Hydri"
 		distance 2334.93
 
 system Alphard
+	"display name" "星宿一"
 	pos -588 -47
 	government Republic
 	attributes "paradise"
@@ -4276,6 +4342,7 @@ system Alphard
 		distance 2496.56
 
 system Alphecca
+	"display name" "贯索四"
 	pos -546 308
 	government Republic
 	attributes "dirt belt"
@@ -4319,6 +4386,7 @@ system Alphecca
 		distance 2097.32
 
 system Alpheratz
+	"display name" "壁宿二"
 	pos -176 125
 	government Syndicate
 	attributes "core"
@@ -4378,6 +4446,7 @@ system Alpheratz
 			distance 285
 
 system Alpherg
+	"display name" "右更二"
 	pos -1009.44 272.194
 	government Pirate
 	attributes "ccor" "giant star" "notable star" "south"
@@ -4432,6 +4501,7 @@ system Alpherg
 			distance 535.683
 
 system Altair
+	"display name" "河鼓二"
 	pos -357 161
 	government Republic
 	attributes "near earth"
@@ -4486,6 +4556,7 @@ system Altair
 		distance 2223.95
 
 system Aludra
+	"display name" "弧矢二"
 	pos -606 -374
 	government Republic
 	attributes "deep"
@@ -4541,6 +4612,7 @@ system Aludra
 			distance 375
 
 system Anax
+	"display name" "阿纳克斯"
 	pos -463 699
 	government Avgi
 	attributes "avgi" "avgi core" "twilight"
@@ -4979,6 +5051,7 @@ system Anax
 			distance 423.741
 
 system Anbrim
+	"display name" "安布里姆"
 	pos 725.7 -376.2
 	government Uninhabited
 	attributes "notable star" "nova"
@@ -5014,6 +5087,7 @@ system Anbrim
 		distance 13205
 
 system "Ancient Hope"
+	"display name" "远古希望"
 	pos -1159.59 702.051
 	government Coalition
 	attributes "saryd"
@@ -5077,6 +5151,7 @@ system "Ancient Hope"
 			distance 255
 
 system Ankaa
+	"display name" "火鸟六"
 	pos -230 100
 	government Syndicate
 	attributes "core"
@@ -5125,6 +5200,7 @@ system Ankaa
 		distance 2059.68
 
 system Answer
+	"display name" "解答"
 	pos -1086.59 631.051
 	government Coalition
 	attributes "saryd"
@@ -5181,6 +5257,7 @@ system Answer
 		distance 2097.09
 
 system Antares
+	"display name" "心宿二"
 	pos -711 541
 	government Pirate
 	attributes "south"
@@ -5234,6 +5311,7 @@ system Antares
 		distance 2778.76
 
 system Antevorta
+	"display name" "安特沃尔塔"
 	pos -36.1297 446.242
 	government Uninhabited
 	attributes "carbon" "ember waste" "notable star"
@@ -5296,6 +5374,7 @@ system Antevorta
 			distance 391
 
 system Anthem
+	"display name" "颂歌"
 	pos -584 1227
 	government "Avgi (Consonance)"
 	attributes "avgi" "avgi diaspora" "outer limits"
@@ -5359,6 +5438,7 @@ system Anthem
 		distance 4964
 
 system Ap'arak
+	"display name" "阿帕拉克"
 	pos -164.62 -781.858
 	government Wanderer
 	belt 1385
@@ -5406,6 +5486,7 @@ system Ap'arak
 			distance 464
 
 system Apeiron
+	"display name" "阿派朗"
 	pos -420 869
 	government Uninhabited
 	attributes "twilight"
@@ -5516,6 +5597,7 @@ system Ar-40
 			distance 241
 
 system Arche
+	"display name" "阿尔克"
 	pos -315 924
 	government "Avgi (Twilight Guard)"
 	attributes "avgi" "avgi diaspora" "bright star" "multi-star" "notable star" "twilight"
@@ -5593,6 +5675,7 @@ system Arche
 			distance 246
 
 system Arcturus
+	"display name" "大角星"
 	pos -589 226
 	government Republic
 	attributes "dirt belt"
@@ -5648,6 +5731,7 @@ system Arcturus
 		distance 3311.92
 
 system Arculus
+	"display name" "阿库卢斯"
 	pos 308.87 393.242
 	government Remnant
 	attributes "ember waste"
@@ -5714,6 +5798,7 @@ system Arculus
 		distance 3358
 
 system Arneb
+	"display name" "厕一"
 	pos -523 -580
 	government Pirate
 	attributes "north"
@@ -5798,6 +5883,7 @@ system As-75
 		distance 17618
 
 system Ascella
+	"display name" "斗宿六"
 	pos -376 328
 	government Republic
 	attributes "dirt belt"
@@ -5856,6 +5942,7 @@ system Ascella
 			distance 273
 
 system Asikafarnut
+	"display name" "阿西卡法努特"
 	pos 253.431 -584.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -5911,6 +5998,7 @@ system Asikafarnut
 			distance 508
 
 system Asio
+	"display name" "阿西奥"
 	pos 807 -629.8
 	government Gegno
 	attributes "gegno"
@@ -5953,6 +6041,7 @@ system Asio
 		distance 3413
 
 system Aspidiske
+	"display name" "海石二"
 	pos -690 -282
 	government Republic
 	attributes "bright star" "deep" "notable star" "supergiant star"
@@ -6001,6 +6090,7 @@ system Aspidiske
 		distance 2771.8
 
 system Atik
+	"display name" "卷舌五"
 	pos -66 -52
 	government Uninhabited
 	attributes "bright star" "core" "giant star" "multi-star" "notable star"
@@ -6055,6 +6145,7 @@ system Atik
 		distance 1905.05
 
 system Atria
+	"display name" "三角形三"
 	pos -551 532
 	government Republic
 	attributes "south"
@@ -6112,6 +6203,7 @@ system Atria
 		distance 2505.05
 
 system Auhru
+	"display name" "奥赫鲁"
 	pos 1007.41 -524.011
 	government "Gegno Scin"
 	attributes "bright star" "gegno" "notable star" "scin"
@@ -6154,6 +6246,7 @@ system Auhru
 		distance 5000
 
 system Avasaa-Novaa
+	"display name" "阿瓦萨-诺瓦"
 	shrouded
 	pos 71 917.52
 	government Uninhabited
@@ -6174,6 +6267,7 @@ system Avasaa-Novaa
 		distance 3502
 
 system Avior
+	"display name" "海石一"
 	pos -658 -317
 	government Republic
 	attributes "deep"
@@ -6235,6 +6329,7 @@ system Avior
 			distance 212
 
 system "Avo Chigo"
+	"display name" "阿沃·奇戈"
 	pos 242.817 -205.83
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -6289,6 +6384,7 @@ system "Avo Chigo"
 			distance 547
 
 system Axiom
+	"display name" "公理"
 	pos -306 864
 	government Uninhabited
 	attributes "bright star" "multi-star" "notable star" "twilight"
@@ -6321,6 +6417,7 @@ system Axiom
 			distance 299
 
 system Aya'k'k
+	"display name" "阿亚克克"
 	pos -434.245 -616.57
 	government Wanderer
 	belt 1586
@@ -6408,6 +6505,7 @@ system B-11
 		distance 3246
 
 system Ballad
+	"display name" "叙事曲"
 	pos -548 1125
 	government Uninhabited
 	attributes "outer limits"
@@ -6509,6 +6607,7 @@ system Be-9
 			distance 244
 
 system Beginning
+	"display name" "开端"
 	pos -912.587 694.051
 	government Coalition
 	attributes "saryd"
@@ -6567,6 +6666,7 @@ system Beginning
 			distance 256
 
 system Belenos
+	"display name" "贝莱诺斯"
 	pos -901.111 279.139
 	government Pirate
 	attributes "ccor" "south"
@@ -6615,6 +6715,7 @@ system Belenos
 			distance 271.352
 
 system Bellatrix
+	"display name" "参宿五"
 	pos -225 -82
 	government Syndicate
 	attributes "core"
@@ -6667,6 +6768,7 @@ system Bellatrix
 		distance 2687.64
 
 system Belonging
+	"display name" "归属"
 	pos -1007.59 658.051
 	government Coalition
 	attributes "saryd"
@@ -6718,6 +6820,7 @@ system Belonging
 			distance 294
 
 system Belug
+	"display name" "贝鲁格"
 	pos -1024.59 388.051
 	government Coalition
 	attributes "arachi"
@@ -6781,6 +6884,7 @@ system Belug
 			distance 405
 
 system Belugt
+	"display name" "贝鲁格特"
 	pos -838.587 668.051
 	government Coalition
 	attributes "arachi"
@@ -6847,6 +6951,7 @@ system Belugt
 			distance 694
 
 system "Beta Lupi"
+	"display name" "骑官四"
 	pos -851 417
 	government Republic
 	attributes "south"
@@ -6900,6 +7005,7 @@ system "Beta Lupi"
 		distance 1976.61
 
 system Betelgeuse
+	"display name" "参宿四"
 	pos -384 -322
 	government Republic
 	attributes "north" "notable star" "supergiant star"
@@ -6967,6 +7073,7 @@ system Betelgeuse
 			distance 516
 
 system Billow
+	"display name" "翻涌"
 	pos -419 615
 	government Uninhabited
 	attributes "twilight"
@@ -7008,6 +7115,7 @@ system Billow
 			distance 582
 
 system Bloptab
+	"display name" "布洛普塔布"
 	pos -813.587 727.051
 	government Coalition
 	attributes "arachi"
@@ -7064,6 +7172,7 @@ system Bloptab
 			distance 240
 
 system Blubipad
+	"display name" "布卢比帕德"
 	pos -650.587 594.051
 	government Coalition
 	attributes "arachi"
@@ -7117,6 +7226,7 @@ system Blubipad
 		distance 3003.77
 
 system Blugtad
+	"display name" "布卢格塔德"
 	pos -771.587 680.051
 	government Coalition
 	attributes "arachi"
@@ -7183,6 +7293,7 @@ system Blugtad
 			distance 650
 
 system Boral
+	"display name" "博拉尔"
 	pos -502 331
 	government Republic
 	attributes "dirt belt"
@@ -7239,6 +7350,7 @@ system Boral
 			distance 544
 
 system "Bore Fah"
+	"display name" "博雷·法"
 	pos 71.7761 -592.536
 	government Hai
 	raid "Unfettered Hai Space Raid" 20
@@ -7298,6 +7410,7 @@ system "Bore Fah"
 			distance 388
 
 system "Bosuno Le"
+	"display name" "博苏诺·勒"
 	pos 335.9 -152.3
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -7346,6 +7459,7 @@ system "Bosuno Le"
 			distance 275
 
 system "Bote Asu"
+	"display name" "博特·阿苏"
 	pos 8.87418 -572.768
 	government Hai
 	raid "Unfettered Hai Space Raid" 20
@@ -7484,6 +7598,7 @@ system Br-80
 		distance 5220.07
 
 system "Bright Void"
+	"display name" "明亮虚空"
 	pos -1059.59 605.051
 	government Coalition
 	attributes "saryd"
@@ -7553,6 +7668,7 @@ system "Bright Void"
 			distance 369
 
 system "Broken Bowl"
+	"display name" "破碗"
 	pos -956.587 566.051
 	government Coalition
 	attributes "saryd"
@@ -7608,6 +7724,7 @@ system "Broken Bowl"
 			distance 297
 
 system "Bunri Lemeta"
+	"display name" "邦里·勒梅塔"
 	pos 317.9 -94.3
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -7739,6 +7856,7 @@ system Ca-40
 			distance 364
 
 system Caeculus
+	"display name" "凯库卢斯"
 	pos 162.87 343.242
 	government Uninhabited
 	attributes "ember waste" "notable star" "wolf-rayet"
@@ -7804,6 +7922,7 @@ system Caeculus
 			distance 380
 
 system Caesura
+	"display name" "休止"
 	pos -730 903
 	government Uninhabited
 	attributes "black hole" "notable star" "twilight"
@@ -7819,6 +7938,7 @@ system Caesura
 		period 1
 
 system Canopus
+	"display name" "老人星"
 	pos -421 -225
 	government Republic
 	attributes "north"
@@ -7860,6 +7980,7 @@ system Canopus
 		distance 1975.56
 
 system Cantata
+	"display name" "康塔塔"
 	pos -507 1276
 	government Uninhabited
 	attributes "outer limits"
@@ -7909,6 +8030,7 @@ system Cantata
 			distance 622
 
 system Capella
+	"display name" "五车二"
 	pos -378 -13
 	government Republic
 	attributes "paradise"
@@ -7970,6 +8092,7 @@ system Capella
 			distance 470
 
 system Caph
+	"display name" "王良一"
 	pos -295 77
 	government Syndicate
 	attributes "near earth"
@@ -8026,6 +8149,7 @@ system Caph
 		distance 2434.98
 
 system Cardax
+	"display name" "卡达克斯"
 	pos -211 -215
 	government Republic
 	attributes "north"
@@ -8082,6 +8206,7 @@ system Cardax
 			distance 244
 
 system Cardea
+	"display name" "卡尔迪亚"
 	pos -89.1297 417.242
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -8143,6 +8268,7 @@ system Cardea
 		distance 3302.92
 
 system Castor
+	"display name" "北河二"
 	pos -452 -17
 	government Republic
 	attributes "paradise"
@@ -8215,6 +8341,7 @@ system Castor
 			distance 517
 
 system Cebalrai
+	"display name" "宗正一"
 	pos -461 282
 	government Republic
 	attributes "dirt belt"
@@ -8268,6 +8395,7 @@ system Cebalrai
 		distance 2206.54
 
 system Celeborim
+	"display name" "塞莱博里姆"
 	pos 181.431 -633.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -8318,6 +8446,7 @@ system Celeborim
 			distance 373
 
 system Chikatip
+	"display name" "奇卡蒂普"
 	pos -77.5695 -307.812
 	government Uninhabited
 	attributes "korath"
@@ -8368,6 +8497,7 @@ system Chikatip
 		distance 3728.22
 
 system Chimitarp
+	"display name" "奇米塔普"
 	pos 150.431 -287.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -8431,6 +8561,7 @@ system Chimitarp
 			distance 192
 
 system Chirr'ay'akai
+	"display name" "奇雷阿卡伊"
 	pos -102.761 -749.614
 	government Wanderer
 	belt 1425
@@ -8473,6 +8604,7 @@ system Chirr'ay'akai
 			distance 266
 
 system Chorale
+	"display name" "众赞歌"
 	pos -716 1234
 	government Uninhabited
 	attributes "outer limits"
@@ -8508,6 +8640,7 @@ system Chorale
 			distance 550
 
 system Chornifath
+	"display name" "乔尼法斯"
 	pos 40.4305 -214.812
 	government Uninhabited
 	attributes "korath"
@@ -8560,6 +8693,7 @@ system Chornifath
 			distance 450
 
 system Chy'chra
+	"display name" "奇赫拉"
 	pos 85.5308 -829.667
 	government Wanderer
 	belt 1120
@@ -8614,6 +8748,7 @@ system Chy'chra
 			distance 614
 
 system Chyyra-Osolaa
+	"display name" "基拉-奥索拉"
 	pos -241 1365
 	government Successor
 	attributes "successor"
@@ -8660,6 +8795,7 @@ system Chyyra-Osolaa
 		distance 3688
 
 system Cinxia
+	"display name" "辛克西娅"
 	pos 265.87 415.242
 	government Remnant
 	attributes "ember waste"
@@ -8712,6 +8848,7 @@ system Cinxia
 			distance 270
 
 system Citadelle
+	"display name" "城堡"
 	pos -980.667 225.917
 	government Pirate
 	attributes "ccor" "south"
@@ -8801,6 +8938,7 @@ system Cl-35
 		distance 853
 
 system Clepsydra
+	"display name" "漏壶"
 	pos 264 -874
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -8834,6 +8972,7 @@ system Clepsydra
 		distance 1728.26
 
 system Clip
+	"display name" "疾行"
 	pos -509 712
 	government Avgi
 	attributes "avgi" "avgi core" "twilight"
@@ -8937,6 +9076,7 @@ system Clip
 
 
 system Coluber
+	"display name" "蛇行"
 	pos 149.504 197.389
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -8996,6 +9136,7 @@ system Coluber
 		distance 2354.54
 
 system Companion
+	"display name" "伴侣"
 	pos -1032.59 709.051
 	government Coalition
 	attributes "saryd"
@@ -9050,6 +9191,7 @@ system Companion
 			distance 283
 
 system Concerto
+	"display name" "协奏曲"
 	pos -463 1351
 	government "Avgi (Consonance)"
 	attributes "avgi" "avgi diaspora" "bright star" "notable star" "outer limits"
@@ -9139,6 +9281,7 @@ system Concerto
 			distance 412
 
 system Convector
+	"display name" "对流"
 	pos -14.1297 379.242
 	government Uninhabited
 	attributes "ember waste" "giant star" "notable star"
@@ -9197,6 +9340,7 @@ system Convector
 		distance 6592.96
 
 system "Cor Caroli"
+	"display name" "常陈一"
 	pos -682 201
 	government Republic
 	attributes "dirt belt"
@@ -9249,6 +9393,7 @@ system "Cor Caroli"
 		distance 2019.86
 
 system Corporeal
+	"display name" "有形"
 	pos -402 773
 	government Uninhabited
 	attributes "ringworld" "twilight"
@@ -9313,6 +9458,7 @@ system Corporeal
 			distance 258
 
 system Cotpoxi
+	"display name" "科特波克西"
 	pos 843.1 -372.6
 	government Uninhabited
 	belt 1607
@@ -9349,6 +9495,7 @@ system Cotpoxi
 		distance 6577
 
 system Cshudlye
+	"display name" "舒德利耶"
 	pos 595.14 -477.911
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -9398,6 +9545,7 @@ system Cshudlye
 			distance 248
 
 system "Cura Dic"
+	"display name" "库拉·迪克"
 	pos 340.667 -859.667
 	government "Quarg (Incipias)"
 	attributes "quarg"
@@ -9446,6 +9594,7 @@ system "Cura Dic"
 			distance 200
 
 system Current
+	"display name" "气流"
 	pos -651 821
 	government Uninhabited
 	attributes "twilight"
@@ -9493,6 +9642,7 @@ system Current
 			distance 397
 
 system Currus
+	"display name" "库鲁斯"
 	pos 260.583 -987.75
 	government Uninhabited
 	belt 1198 4
@@ -9522,6 +9672,7 @@ system Currus
 		distance 999
 
 system Cusp
+	"display name" "尖点"
 	pos -523 589
 	government Uninhabited
 	attributes "twilight"
@@ -9567,6 +9718,7 @@ system Cusp
 			distance 251
 
 system "Da Ent"
+	"display name" "达·恩特"
 	pos -6.22391 -462.536
 	government Hai
 	belt 1161
@@ -9633,6 +9785,7 @@ system "Da Ent"
 			distance 430
 
 system "Da Lest"
+	"display name" "达·莱斯特"
 	pos -23.2239 -413.536
 	government Hai
 	belt 1108
@@ -9691,6 +9844,7 @@ system "Da Lest"
 			distance 235
 
 system Dabih
+	"display name" "牛宿一"
 	pos -253 427
 	government Republic
 	attributes "dirt belt"
@@ -9743,6 +9897,7 @@ system Dabih
 			distance 309
 
 system Danoa
+	"display name" "达诺亚"
 	pos -239 -321
 	government Republic
 	attributes "north"
@@ -9803,6 +9958,7 @@ system Danoa
 			distance 809
 
 system "Dark Hills"
+	"display name" "暗丘"
 	pos -926.587 619.051
 	government Coalition
 	attributes "saryd"
@@ -9864,6 +10020,7 @@ system "Dark Hills"
 		distance 2367.9
 
 system Debrugt
+	"display name" "德布鲁格特"
 	pos -869.587 513.051
 	government Coalition
 	attributes "arachi"
@@ -9923,6 +10080,7 @@ system Debrugt
 			distance 324
 
 system Decet
+	"display name" "德塞特"
 	pos -156 610
 	government Uninhabited
 	attributes "magnetar" "neutron" "twilight"
@@ -9946,6 +10104,7 @@ system Decet
 		period 1
 
 system Delia
+	"display name" "德利亚"
 	pos -41 757
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -10021,6 +10180,7 @@ system Delia
 		distance 4586
 
 system "Delta Capricorni"
+	"display name" "垒壁阵四"
 	pos -285 202
 	government Syndicate
 	attributes "core"
@@ -10076,6 +10236,7 @@ system "Delta Capricorni"
 		distance 3430.88
 
 system "Delta Sagittarii"
+	"display name" "箕宿二"
 	pos -414 416
 	government Republic
 	attributes "dirt belt"
@@ -10134,6 +10295,7 @@ system "Delta Sagittarii"
 			distance 407
 
 system "Delta Velorum"
+	"display name" "天社三"
 	pos -740 90
 	government Republic
 	attributes "dirt belt"
@@ -10186,6 +10348,7 @@ system "Delta Velorum"
 		distance 2244.94
 
 system Demilude
+	"display name" "间插段"
 	hidden
 	shrouded
 	pos -232 1192
@@ -10241,6 +10404,7 @@ system Demilude
 		distance 18387.3
 
 system Deneb
+	"display name" "天津四"
 	pos -348 225
 	government Pug
 	belt 1890
@@ -10288,6 +10452,7 @@ system Deneb
 		distance 1788.4
 
 system Denebola
+	"display name" "五帝座一"
 	pos -478 70
 	government Republic
 	attributes "near earth"
@@ -10345,6 +10510,7 @@ system Denebola
 		distance 2927.23
 
 system Diespiter
+	"display name" "迪斯皮特"
 	pos 332 210
 	government Uninhabited
 	attributes "ember waste"
@@ -10382,6 +10548,7 @@ system Diespiter
 			distance 270
 
 system Diphda
+	"display name" "土司空"
 	pos -262 61
 	government Syndicate
 	attributes "near earth"
@@ -10433,6 +10600,7 @@ system Diphda
 		distance 2262.04
 
 system Dixere
+	"display name" "迪克塞尔"
 	pos 33 708
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -10498,6 +10666,7 @@ system Dixere
 			distance 555
 
 system Dokdobaru
+	"display name" "多克多巴鲁"
 	pos -21.5695 -241.812
 	government "Quarg (Kor Efret)"
 	attributes "korath" "quarg" "ringworld"
@@ -10615,6 +10784,7 @@ system Dokdobaru
 		offset 220
 
 system Dom'us
+	"display name" "多穆斯"
 	pos 180.716 -760.552
 	government Hicemus
 	belt 1259
@@ -10658,6 +10828,7 @@ system Dom'us
 			distance 600
 
 system Dschubba
+	"display name" "房宿三"
 	pos -598 501
 	government Republic
 	attributes "south"
@@ -10722,6 +10893,7 @@ system Dschubba
 			distance 316
 
 system Dubhe
+	"display name" "天枢"
 	pos -577 -103
 	government Republic
 	attributes "deep"
@@ -10772,6 +10944,7 @@ system Dubhe
 		distance 2503.28
 
 system "Due Yoot"
+	"display name" "杜埃·尤特"
 	pos -167.547 -426.683
 	government Hai
 	belt 1854
@@ -10834,6 +11007,7 @@ system "Due Yoot"
 			distance 327
 
 system Duet
+	"display name" "二重奏"
 	pos -266 737
 	government Uninhabited
 	attributes "ember waste" "twilight"
@@ -10878,6 +11052,7 @@ system Duet
 			distance 327
 
 system Durax
+	"display name" "杜拉克斯"
 	pos -59 -90
 	government Pirate
 	attributes "core"
@@ -11017,6 +11192,7 @@ system E-9182
 			distance 225
 
 system Eber
+	"display name" "埃伯"
 	pos -532 406
 	government Republic
 	attributes "dirt belt"
@@ -11073,6 +11249,7 @@ system Eber
 		distance 2398.11
 
 system Eblumab
+	"display name" "埃布鲁马布"
 	pos -767.587 703.051
 	government Coalition
 	attributes "arachi"
@@ -11133,6 +11310,7 @@ system Eblumab
 			distance 228
 
 system Edusa
+	"display name" "埃杜萨"
 	pos 273.87 347.242
 	government Uninhabited
 	attributes "ember waste" "giant star" "notable star" "wormhole"
@@ -11184,6 +11362,7 @@ system Edusa
 		distance 3613.73
 
 system Eebu
+	"display name" "埃布"
 	pos 825.7 -487.48
 	government Uninhabited
 	belt 1384
@@ -11219,6 +11398,7 @@ system Eebu
 		distance 8736
 
 system Egeria
+	"display name" "埃杰里亚"
 	pos 288 146
 	government Uninhabited
 	attributes "ember waste"
@@ -11257,6 +11437,7 @@ system Egeria
 			distance 270
 
 system "Ehma Ti"
+	"display name" "艾玛·提"
 	pos 39.1085 -749.244
 	government "Hai (Unfettered)"
 	belt 1094
@@ -11317,6 +11498,7 @@ system "Ehma Ti"
 			distance 356
 
 system Ek'kek'ru
+	"display name" "埃克凯克鲁"
 	pos -287.517 -727.738
 	government Wanderer
 	belt 1517
@@ -11368,6 +11550,7 @@ system Ek'kek'ru
 		distance 2129.85
 
 system Ekuarik
+	"display name" "埃夸里克"
 	pos -1029.63 426.214
 	government Heliarch
 	attributes "ringworld"
@@ -11578,6 +11761,7 @@ system Ekuarik
 		offset 253
 
 system "Elabi Choati"
+	"display name" "埃拉比·乔阿蒂"
 	pos 205.2 -175.9
 	government Bunrodea
 	attributes "carbon" "notable star"
@@ -11630,6 +11814,7 @@ system "Elabi Choati"
 		distance 2183.75
 
 system Elifennka
+	"display name" "埃利芬卡"
 	pos 990.5 -728.2
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -11664,6 +11849,7 @@ system Elifennka
 		distance 9679
 
 system Elnath
+	"display name" "五车五"
 	pos -288 -77
 	government Republic
 	attributes "north"
@@ -11721,6 +11907,7 @@ system Elnath
 			distance 253
 
 system "Elo Chigo"
+	"display name" "埃洛·奇戈"
 	pos 170.2 -121.8
 	government Bunrodea
 	attributes "bright star" "notable star"
@@ -11769,6 +11956,7 @@ system "Elo Chigo"
 		distance 4754.07
 
 system Eltanin
+	"display name" "天棓四"
 	pos -328 433
 	government Republic
 	attributes "dirt belt"
@@ -11822,6 +12010,7 @@ system Eltanin
 		distance 2165.97
 
 system Empeles
+	"display name" "恩佩莱斯"
 	pos 668.174 -400.789
 	government "Gegno Vi"
 	belt 1416
@@ -11857,6 +12046,7 @@ system Empeles
 		distance 8877
 
 system Empyrean
+	"display name" "最高天"
 	pos -368 815
 	government Uninhabited
 	attributes "bright star" "giant star" "notable star" "twilight"
@@ -11896,6 +12086,7 @@ system Empyrean
 		distance 4773
 
 system Eneremprukt
+	"display name" "埃内伦普鲁特"
 	pos 311.431 -448.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -11944,6 +12135,7 @@ system Eneremprukt
 		distance 2137.8
 
 system "Eneva Katta"
+	"display name" "埃内瓦·卡塔"
 	pos 193 -27
 	government Bunrodea
 	attributes "giant star" "notable star"
@@ -11991,6 +12183,7 @@ system "Eneva Katta"
 			distance 279
 
 system Enif
+	"display name" "危宿三"
 	pos -177 498
 	government Quarg
 	attributes "quarg" "ringworld" "south"
@@ -12090,6 +12283,7 @@ system Enif
 		offset 100
 
 system Ensemble
+	"display name" "合奏"
 	hidden
 	shrouded
 	pos -515 1161
@@ -12152,6 +12346,7 @@ system Ensemble
 			distance 454.091
 
 system Eogho
+	"display name" "埃奥戈"
 	pos 812.579 -541.547
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -12184,6 +12379,7 @@ system Eogho
 		distance 5255
 
 system "Epsilon Leonis"
+	"display name" "轩辕九"
 	pos -619 -229
 	government Republic
 	attributes "deep"
@@ -12248,6 +12444,7 @@ system "Epsilon Leonis"
 			distance 515
 
 system Equus
+	"display name" "埃库斯"
 	pos 313.25 -1051.08
 	government Uninhabited
 	attributes "neutron" "notable star"
@@ -12278,6 +12475,7 @@ system Equus
 		distance 700
 
 system "Era Natta"
+	"display name" "埃拉·纳塔"
 	pos 129.2 -134.8
 	government Bunrodea
 	belt 1500
@@ -12326,6 +12524,7 @@ system "Era Natta"
 			distance 295
 
 system "Erabu Lemeta"
+	"display name" "埃拉布·勒梅塔"
 	pos 284.9 -136.3
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -12385,6 +12584,7 @@ system "Erabu Lemeta"
 			distance 445
 
 system "Eragaru Le"
+	"display name" "埃拉加鲁·勒"
 	pos 302.817 -185.83
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -12445,6 +12645,7 @@ system "Eragaru Le"
 			distance 539.746
 
 system "Erba Yle"
+	"display name" "埃尔巴·伊莱"
 	pos 1001.69 -488.05
 	government "Gegno Scin"
 	attributes "gegno" "scin"
@@ -12496,6 +12697,7 @@ system "Erba Yle"
 		distance 4636
 
 system Es'sprak'ai
+	"display name" "埃斯普拉卡伊"
 	pos -469.044 -733.375
 	government Wanderer
 	belt 1928
@@ -12547,6 +12749,7 @@ system Es'sprak'ai
 			distance 266
 
 system Eshkoshtar
+	"display name" "埃什科什塔"
 	pos 156.431 -381.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -12610,6 +12813,7 @@ system Eshkoshtar
 			distance 367
 
 system Esix
+	"display name" "埃西克斯"
 	pos 142 532
 	government Uninhabited
 	attributes "bright star" "ember waste" "graveyard" "notable star" "wormhole"
@@ -12666,6 +12870,7 @@ system Esix
 		distance 3618.74
 
 system "Eta Carinae"
+	"display name" "海山二"
 	pos -212.62 928.99
 	government Uninhabited
 	attributes "predecessor" "tangled shroud"
@@ -12686,6 +12891,7 @@ system "Eta Carinae"
 		offset 180
 
 system Eteron
+	"display name" "埃特隆"
 	pos -330 33
 	government Republic
 	attributes "near earth"
@@ -12743,6 +12949,7 @@ system Eteron
 		distance 2229.85
 
 system Evanescence
+	"display name" "消逝"
 	pos -458 826
 	government Uninhabited
 	attributes "twilight"
@@ -12798,6 +13005,7 @@ system Evanescence
 		distance 4896.66
 
 system Evrae
+	"display name" "埃夫雷"
 	pos 884.49 -475.35
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -12887,6 +13095,7 @@ system F-19
 			distance 220
 
 system "Fah Root"
+	"display name" "法·鲁特"
 	pos -264.065 -400.135
 	government Hai
 	belt 1057
@@ -12951,6 +13160,7 @@ system "Fah Root"
 			distance 512
 
 system "Fah Soom"
+	"display name" "法·苏姆"
 	pos -179.891 -335.011
 	government Hai
 	belt 1185
@@ -13013,6 +13223,7 @@ system "Fah Soom"
 			distance 423
 
 system Fala
+	"display name" "法拉"
 	pos -690 64
 	government Republic
 	attributes "dirt belt"
@@ -13067,6 +13278,7 @@ system Fala
 			distance 229
 
 system "Fallen Leaf"
+	"display name" "落叶"
 	pos -903.587 717.051
 	government Coalition
 	attributes "saryd"
@@ -13112,6 +13324,7 @@ system "Fallen Leaf"
 			distance 126
 
 system "Far Horizon"
+	"display name" "远方天际"
 	pos -1108.59 726.051
 	government Coalition
 	attributes "saryd"
@@ -13160,6 +13373,7 @@ system "Far Horizon"
 			distance 238
 
 system Farbutero
+	"display name" "法尔布特罗"
 	pos 93.4305 -251.812
 	government Uninhabited
 	attributes "korath"
@@ -13224,6 +13438,7 @@ system Farbutero
 			distance 457
 
 system Farinus
+	"display name" "法里努斯"
 	pos 202.87 440.242
 	government Uninhabited
 	attributes "ember waste"
@@ -13290,6 +13505,7 @@ system Farinus
 			distance 399
 
 system Faronektu
+	"display name" "法罗内克图"
 	pos 292.431 -309.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -13348,6 +13564,7 @@ system Faronektu
 			distance 229
 
 system Fasitopfar
+	"display name" "法西托普法"
 	pos 92.4305 -105.812
 	government Uninhabited
 	attributes "archon" "korath" "notable star" "nova"
@@ -13390,6 +13607,7 @@ system Fasitopfar
 		distance 1927.7
 
 system Fearis
+	"display name" "费亚里斯"
 	pos -16 643
 	government Uninhabited
 	attributes "ember waste" "graveyard" "wormhole"
@@ -13448,6 +13666,7 @@ system Fearis
 		distance 3606.64
 
 system "Fell Omen"
+	"display name" "凶兆"
 	pos -1156.59 475.051
 	government Coalition
 	attributes "saryd"
@@ -13514,6 +13733,7 @@ system "Fell Omen"
 			distance 361
 
 system Feraticus
+	"display name" "费拉蒂库斯"
 	pos 58 630
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -13563,6 +13783,7 @@ system Feraticus
 		visibility 6000 1500
 
 system Fereti
+	"display name" "费雷提"
 	pos -39 600
 	government Uninhabited
 	attributes "bright star" "ember waste" "graveyard" "notable star"
@@ -13617,6 +13838,7 @@ system Fereti
 			distance 203
 
 system Feroteri
+	"display name" "费罗特里"
 	pos 149.431 -205.812
 	government Uninhabited
 	attributes "bright star" "korath" "notable star"
@@ -13688,6 +13910,7 @@ system Feroteri
 			distance 265.206
 
 system Ferukistek
+	"display name" "费鲁基斯特克"
 	pos 307.431 -515.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -13735,6 +13958,7 @@ system Ferukistek
 			distance 258
 
 system Fingol
+	"display name" "芬戈尔"
 	pos -482 113
 	government Republic
 	attributes "near earth"
@@ -13786,6 +14010,7 @@ system Fingol
 		distance 2463.48
 
 system Firmament
+	"display name" "苍穹"
 	pos -304 800
 	government Uninhabited
 	attributes "bright star" "giant star" "multi-star" "notable star" "twilight"
@@ -13829,6 +14054,7 @@ system Firmament
 		distance 18654.5
 
 system Flugbu
+	"display name" "弗鲁格布"
 	pos -903.587 534.051
 	government Coalition
 	attributes "arachi"
@@ -13888,6 +14114,7 @@ system Flugbu
 			distance 596
 
 system Flutter
+	"display name" "振翅"
 	pos -254 637
 	government Uninhabited
 	attributes "notable star" "nova" "twilight"
@@ -13925,6 +14152,7 @@ system Flutter
 			distance 578
 
 system Fomalhaut
+	"display name" "北落师门"
 	pos -314 124
 	government Syndicate
 	attributes "near earth"
@@ -13980,6 +14208,7 @@ system Fomalhaut
 			distance 320
 
 system Fornarep
+	"display name" "福纳雷普"
 	pos 79.4305 -309.812
 	government Uninhabited
 	attributes "korath"
@@ -14036,6 +14265,7 @@ system Fornarep
 			distance 371
 
 system "Four Pillars"
+	"display name" "四柱"
 	pos -1210.59 772.051
 	government Coalition
 	attributes "saryd"
@@ -14093,6 +14323,7 @@ system "Four Pillars"
 			distance 277
 
 system Frenzy
+	"display name" "狂热"
 	pos -398 680
 	government Uninhabited
 	attributes "twilight"
@@ -14145,6 +14376,7 @@ system Frenzy
 		distance 5802.51
 
 system Fscher
+	"display name" "弗舍尔"
 	pos 725.47 -418.2
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -14181,6 +14413,7 @@ system Fscher
 		distance 15894
 
 system Fumalsamakah
+	"display name" "霹雳一"
 	pos -962.334 301.805
 	government Pirate
 	attributes "bright star" "ccor" "notable star" "south"
@@ -14230,6 +14463,7 @@ system Fumalsamakah
 			distance 846.619
 
 system Furmeliki
+	"display name" "富尔梅利基"
 	pos -35.5695 -281.812
 	government Uninhabited
 	attributes "korath"
@@ -14413,6 +14647,7 @@ system G-819
 			distance 218
 
 system Gacrux
+	"display name" "十字架一"
 	pos -713 184
 	government Republic
 	attributes "dirt belt"
@@ -14472,6 +14707,7 @@ system Gacrux
 			distance 499
 
 system Gale
+	"display name" "大风"
 	pos -671 925
 	government Uninhabited
 	attributes "twilight"
@@ -14508,6 +14744,7 @@ system Gale
 		distance 3300.45
 
 system "Gamma Cassiopeiae"
+	"display name" "策星"
 	pos -116 293
 	government Syndicate
 	attributes "bright star" "core" "notable star"
@@ -14560,6 +14797,7 @@ system "Gamma Cassiopeiae"
 			distance 425
 
 system "Gamma Corvi"
+	"display name" "轸宿一"
 	pos -906 64
 	government Republic
 	attributes "rim"
@@ -14617,6 +14855,7 @@ system "Gamma Corvi"
 		distance 3454.86
 
 system Gaungu
+	"display name" "冈古"
 	pos 1096.97 -320.418
 	government Uninhabited
 	belt 1072
@@ -14691,6 +14930,7 @@ system Ge-73
 		distance 3460.45
 
 system "Genta Bo"
+	"display name" "根塔·博"
 	pos 185.2 -65.9
 	government Bunrodea
 	attributes "bright star" "notable star" "supergiant star"
@@ -14740,6 +14980,7 @@ system "Genta Bo"
 		distance 2020.25
 
 system "Gento Ah"
+	"display name" "根托·阿"
 	pos 351.9 -352.3
 	government Bunrodea
 	attributes "bright star" "notable star" "supergiant star"
@@ -14790,6 +15031,7 @@ system "Gento Ah"
 		distance 3995.19
 
 system Gerenus
+	"display name" "格雷努斯"
 	pos 197 514
 	government Uninhabited
 	attributes "ember waste" "giant star" "graveyard" "notable star"
@@ -14846,6 +15088,7 @@ system Gerenus
 			distance 269
 
 system Ghhil
+	"display name" "格希尔"
 	pos 922.4 -714
 	government "Quarg (Gegno)"
 	attributes "bright star" "notable star" "quarg"
@@ -14894,6 +15137,7 @@ system Ghhil
 		distance 6099
 
 system Gienah
+	"display name" "天津九"
 	pos -176 354
 	government Pirate
 	attributes "core"
@@ -14949,6 +15193,7 @@ system Gienah
 		distance 2135
 
 system Giribea
+	"display name" "吉里贝亚"
 	pos -6 674
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -15017,6 +15262,7 @@ system Giribea
 			distance 553
 
 system Girtab
+	"display name" "尾宿七"
 	pos -430 481
 	government Republic
 	attributes "south"
@@ -15072,6 +15318,7 @@ system Girtab
 			distance 501
 
 system Glide
+	"display name" "滑翔"
 	pos -532 888
 	government Uninhabited
 	attributes "twilight"
@@ -15129,6 +15376,7 @@ system Glide
 			distance 458
 
 system Glubatub
+	"display name" "格鲁巴塔布"
 	pos -650.587 693.051
 	government Coalition
 	attributes "arachi"
@@ -15198,6 +15446,7 @@ system Glubatub
 			distance 539
 
 system Gomeisa
+	"display name" "南河二"
 	pos -600 -161
 	government Republic
 	attributes "deep"
@@ -15258,6 +15507,7 @@ system Gomeisa
 			distance 356
 
 system "Good Omen"
+	"display name" "吉兆"
 	pos -941.587 746.051
 	government Coalition
 	attributes "saryd"
@@ -15311,6 +15561,7 @@ system "Good Omen"
 		distance 3837.15
 
 system Gorvi
+	"display name" "戈维"
 	pos -250 -483
 	government Republic
 	attributes "north" "notable star" "wolf-rayet"
@@ -15362,6 +15613,7 @@ system Gorvi
 			distance 349
 
 system Gossamer
+	"display name" "游丝"
 	pos -838 785
 	government Uninhabited
 	attributes "smoke ring" "twilight"
@@ -15395,6 +15647,7 @@ system Gossamer
 		distance 2373.73
 
 system Graffias
+	"display name" "房宿四"
 	pos -784 517
 	government Republic
 	attributes "south"
@@ -15450,6 +15703,7 @@ system Graffias
 			distance 516
 
 system Gualetri
+	"display name" "瓜莱特里"
 	pos 909.9 -529.18
 	government Uninhabited
 	belt 1734
@@ -15475,6 +15729,7 @@ system Gualetri
 		distance 5840
 
 system Gupta
+	"display name" "古普塔"
 	pos -808.587 625.051
 	government Coalition
 	attributes "arachi"
@@ -15529,6 +15784,7 @@ system Gupta
 		distance 1879.03
 
 system Gust
+	"display name" "阵风"
 	pos -690 793
 	government Uninhabited
 	attributes "twilight"
@@ -15687,6 +15943,7 @@ system H-9187
 		distance 6297
 
 system Hadar
+	"display name" "马腹一"
 	pos -788 283
 	government Republic
 	attributes "rim"
@@ -15740,6 +15997,7 @@ system Hadar
 			distance 226
 
 system Hamal
+	"display name" "娄宿三"
 	pos -129 24
 	government Syndicate
 	attributes "core"
@@ -15788,6 +16046,7 @@ system Hamal
 		distance 2570.04
 
 system Han
+	"display name" "天市右垣十一"
 	pos -610 561
 	government Republic
 	attributes "south"
@@ -15838,6 +16097,7 @@ system Han
 		distance 3667.91
 
 system Hassaleh
+	"display name" "五车一"
 	pos -291 -287
 	government Republic
 	attributes "north"
@@ -15892,6 +16152,7 @@ system Hassaleh
 		distance 2183.89
 
 system Hatysa
+	"display name" "伐三"
 	pos -474 -542
 	government Pirate
 	attributes "north"
@@ -15985,6 +16246,7 @@ system He-4
 		distance 2697
 
 system Headwind
+	"display name" "逆风"
 	pos -299 755
 	government Uninhabited
 	attributes "twilight"
@@ -16035,6 +16297,7 @@ system Headwind
 			distance 314
 
 system "Heia Due"
+	"display name" "赫亚·杜埃"
 	pos -146.177 -481.694
 	government Hai
 	belt 1079
@@ -16106,6 +16369,7 @@ system "Heia Due"
 			distance 395
 
 system Hesselpost
+	"display name" "赫塞尔波斯特"
 	pos -30.5695 -187.812
 	government Uninhabited
 	attributes "korath"
@@ -16167,6 +16431,7 @@ system Hesselpost
 			distance 504
 
 system Heutesl
+	"display name" "霍伊特斯尔"
 	pos 871.8 -631.53
 	government Gegno
 	attributes "gegno"
@@ -16218,6 +16483,7 @@ system Heutesl
 		distance 2400
 
 system "Hevru Hai"
+	"display name" "赫夫鲁·海"
 	pos -189 -310
 	government "Quarg (Hai)"
 	attributes "quarg" "ringworld"
@@ -16357,6 +16623,7 @@ system "Hevru Hai"
 		offset 340
 
 system "Hi Yahr"
+	"display name" "海亚尔"
 	pos 82.3672 -641.6
 	government "Hai (Unfettered)"
 	belt 1655
@@ -16406,6 +16673,7 @@ system "Hi Yahr"
 			distance 156
 
 system Hintar
+	"display name" "欣塔尔"
 	pos -422 311
 	government Republic
 	attributes "dirt belt"
@@ -16458,6 +16726,7 @@ system Hintar
 		distance 2054.14
 
 system Holeb
+	"display name" "霍勒布"
 	pos -590 287
 	government Republic
 	attributes "dirt belt"
@@ -16500,6 +16769,7 @@ system Holeb
 		distance 3958.09
 
 system Homeward
+	"display name" "归途"
 	pos -1045.59 477.051
 	government Coalition
 	attributes "saryd"
@@ -16560,6 +16830,7 @@ system Homeward
 			distance 408
 
 system Host
+	"display name" "宿主"
 	pos 384.431 -543.812
 	government Uninhabited
 	belt 1669
@@ -16599,6 +16870,7 @@ system Host
 			distance 360
 
 system Hui'uc
+	"display name" "惠乌克"
 	pos 248.933 -792.506
 	government Uninhabited
 	belt 1246
@@ -16660,6 +16932,7 @@ system Hui'uc
 			distance 526
 
 system Hunter
+	"display name" "猎人"
 	pos -968.587 590.051
 	government Coalition
 	attributes "saryd"
@@ -16717,6 +16990,7 @@ system Hunter
 			distance 415
 
 system Huud
+	"display name" "胡德"
 	pos 767.7 -394.3
 	government Uninhabited
 	belt 1319
@@ -16746,6 +17020,7 @@ system Huud
 		distance 4967
 
 system Ianua
+	"display name" "雅努亚"
 	pos 371.917 -995.75
 	government Uninhabited
 	belt 1472
@@ -16775,6 +17050,7 @@ system Ianua
 		distance 2451
 
 system Iigen
+	"display name" "伊根"
 	pos 928.4 -615.7
 	government Uninhabited
 	belt 1699
@@ -16815,6 +17091,7 @@ system Iigen
 			distance 301
 
 system Iinjma
+	"display name" "伊因玛"
 	pos 986.29 -410.7
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -16857,6 +17134,7 @@ system Iinjma
 		distance 3002
 
 system Iise
+	"display name" "伊塞"
 	pos 468.376 -446.156
 	government Uninhabited
 	belt 1734
@@ -16888,6 +17166,7 @@ system Iise
 		distance 6100
 
 system Ik'kara'ka
+	"display name" "伊卡拉卡"
 	pos 56.2159 -888.296
 	government Wanderer
 	belt 1497
@@ -16940,6 +17219,7 @@ system Ik'kara'ka
 			distance 369
 
 system Il'le
+	"display name" "伊勒"
 	pos 255.933 -716.506
 	government Uninhabited
 	belt 1165
@@ -16986,6 +17266,7 @@ system Il'le
 		distance 2030.4
 
 system Ildaria
+	"display name" "伊尔达里亚"
 	pos -702 317
 	government Republic
 	attributes "notable star" "nova" "rim"
@@ -17032,6 +17313,7 @@ system Ildaria
 		distance 2712.92
 
 system Iliniza
+	"display name" "伊利尼萨"
 	pos 931.904 -441.026
 	government "Gegno Scin"
 	attributes "gegno" "scin"
@@ -17087,6 +17369,7 @@ system Iliniza
 			distance 575
 
 system Ilirco
+	"display name" "伊利尔科"
 	pos 894.124 -395.267
 	government Uninhabited
 	belt 1655
@@ -17126,6 +17409,7 @@ system Ilirco
 		distance 6154
 
 system "Imo Dep"
+	"display name" "伊莫·德普"
 	pos -56.2764 -600.1
 	government Hai
 	raid "Unfettered Hai Space Raid" 20
@@ -17194,6 +17478,7 @@ system "Imo Dep"
 			distance 399
 
 system Insitor
+	"display name" "因西托"
 	pos -28.1296 400.242
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -17244,6 +17529,7 @@ system Insitor
 		distance 4713.14
 
 system Interlude
+	"display name" "间奏"
 	hidden
 	shrouded
 	pos -596 1043
@@ -17315,6 +17601,7 @@ system Interlude
 			distance 597
 
 system "Io Lowe"
+	"display name" "伊奥·洛韦"
 	pos -94.7566 -527.728
 	government Hai
 	belt 1552
@@ -17379,6 +17666,7 @@ system "Io Lowe"
 			distance 559
 
 system "Io Mann"
+	"display name" "伊奥·曼"
 	pos -192.955 -447.669
 	government Hai
 	belt 1132
@@ -17451,6 +17739,7 @@ system "Io Mann"
 			distance 446
 
 system Ipsing
+	"display name" "伊普辛"
 	pos -549 160
 	government Republic
 	attributes "dirt belt"
@@ -17908,6 +18197,7 @@ system "Is Il Z-814"
 		distance 2445.2
 
 system Iyech'yek
+	"display name" "伊耶赫耶克"
 	pos -277.37 -693.913
 	government Wanderer
 	belt 1613
@@ -17954,6 +18244,7 @@ system Iyech'yek
 		distance 2050.85
 
 system Izar
+	"display name" "梗河一"
 	pos -784 231
 	government Republic
 	attributes "rim"
@@ -18011,6 +18302,7 @@ system Izar
 			distance 201
 
 system "Jentu Centi"
+	"display name" "詹图·森蒂"
 	pos 390.9 -291.3
 	government Bunrodea
 	attributes "giant star" "notable star"
@@ -18057,6 +18349,7 @@ system "Jentu Centi"
 			distance 221
 
 system "Jentu Le"
+	"display name" "詹图·勒"
 	pos 243.817 -162.83
 	government "Bunrodea (Guard)"
 	belt 1500
@@ -18104,6 +18397,7 @@ system "Jentu Le"
 			distance 195
 
 system Jied
+	"display name" "杰德"
 	pos 720.68 -541.24
 	government Uninhabited
 	belt 1377
@@ -18135,6 +18429,7 @@ system Jied
 		distance 2836
 
 system "Jyeg Pvu"
+	"display name" "杰格·普武"
 	pos 904.75 -426.028
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -18176,6 +18471,7 @@ system "Jyeg Pvu"
 			distance 376
 
 system Jyelio
+	"display name" "杰利奥"
 	pos 772.8 -465.9
 	government Uninhabited
 	belt 1779
@@ -18252,6 +18548,7 @@ system K-39
 		sprite star/k0-old
 
 system Ka'ch'chrai
+	"display name" "卡赫奇莱"
 	pos -240.163 -822.448
 	government Wanderer
 	belt 1745
@@ -18301,6 +18598,7 @@ system Ka'ch'chrai
 		distance 3482.61
 
 system Ka'pru
+	"display name" "卡普鲁"
 	pos -76.6756 -994.955
 	government Wanderer
 	belt 1808
@@ -18360,6 +18658,7 @@ system Ka'pru
 			distance 508
 
 system Kaliptari
+	"display name" "卡利普塔里"
 	pos 85.4305 -402.812
 	government Uninhabited
 	attributes "korath"
@@ -18423,6 +18722,7 @@ system Kaliptari
 			distance 316
 
 system Kanguwa
+	"display name" "坎古瓦"
 	pos 995.47 -329.975
 	government Uninhabited
 	attributes "neutron" "notable star" "rulei"
@@ -18463,6 +18763,7 @@ system Kanguwa
 			distance 299
 
 system "Kappa Centauri"
+	"display name" "半人马座κ"
 	pos -867 480
 	government Republic
 	attributes "south"
@@ -18514,6 +18815,7 @@ system "Kappa Centauri"
 			distance 365
 
 system Karhio
+	"display name" "卡尔希奥"
 	pos 535.278 -421.4
 	government Uninhabited
 	belt 1163
@@ -18542,6 +18844,7 @@ system Karhio
 		distance 983
 
 system Kashikt
+	"display name" "卡希克特"
 	pos -73.5695 -219.812
 	government "Kor Efret"
 	attributes "korath"
@@ -18602,6 +18905,7 @@ system Kashikt
 			distance 297
 
 system Kasi-Vasa-Novaa
+	"display name" "卡西-瓦萨-诺瓦"
 	shrouded
 	pos -149.44 989.64
 	government Uninhabited
@@ -18623,6 +18927,7 @@ system Kasi-Vasa-Novaa
 		period -8000
 
 system Kasii-Cavaasa
+	"display name" "卡西-卡瓦萨"
 	shrouded
 	pos -21.76 909.31
 	government Uninhabited
@@ -18645,6 +18950,7 @@ system Kasii-Cavaasa
 		distance 3890
 
 system Kasii-Sola
+	"display name" "卡西-索拉"
 	shrouded
 	pos -23 1089.98
 	government Uninhabited
@@ -18685,6 +18991,7 @@ system Kasii-Sola
 		distance 5600
 
 system Kasikfar
+	"display name" "卡西克法"
 	pos 10.4305 -127.812
 	government Uninhabited
 	attributes "archon" "korath" "notable star" "nova"
@@ -18723,6 +19030,7 @@ system Kasikfar
 		distance 1339.26
 
 system "Kaus Australis"
+	"display name" "箕宿三"
 	pos -284 395
 	government Republic
 	attributes "dirt belt"
@@ -18769,6 +19077,7 @@ system "Kaus Australis"
 		distance 2530.4
 
 system "Kaus Borealis"
+	"display name" "斗宿二"
 	pos -456 350
 	government Republic
 	attributes "dirt belt"
@@ -18823,6 +19132,7 @@ system "Kaus Borealis"
 			distance 371
 
 system Kella-Uoasa
+	"display name" "凯拉-乌奥萨"
 	pos -359 1511
 	government "People's Houses"
 	attributes "successor"
@@ -18870,6 +19180,7 @@ system Kella-Uoasa
 		distance 9270
 
 system Khasola-Ryuit
+	"display name" "卡索拉-留伊特"
 	shrouded
 	pos -71.87 833.59
 	government Uninhabited
@@ -18892,6 +19203,7 @@ system Khasola-Ryuit
 			distance 520
 
 system Khosa-Kaska
+	"display name" "科萨-卡斯卡"
 	pos 201 1279
 	government Successor
 	attributes "successor"
@@ -18926,6 +19238,7 @@ system Khosa-Kaska
 			distance 182
 
 system "Ki War Ek"
+	"display name" "基瓦尔埃克"
 	pos -1106.63 368.214
 	government Heliarch
 	attributes "ringworld"
@@ -19179,6 +19492,7 @@ system "Ki War Ek"
 		offset 250
 
 system Kiiraj-Luue
+	"display name" "基拉吉-卢埃"
 	shrouded
 	pos -125.52 955.66
 	government Uninhabited
@@ -19204,6 +19518,7 @@ system Kiiraj-Luue
 		distance 2890
 
 system "Kifrana Terberah"
+	"display name" "基弗拉纳·特贝拉"
 	pos 362.817 -200.83
 	government Bunrodea
 	attributes "giant star" "notable star"
@@ -19248,6 +19563,7 @@ system "Kifrana Terberah"
 		distance 5592.93
 
 system Kilema
+	"display name" "基莱马"
 	pos 1039.94 -479.191
 	government Uninhabited
 	belt 612
@@ -19283,6 +19599,7 @@ system Kilema
 		distance 4002
 
 system Kiluit
+	"display name" "基卢伊特"
 	pos 699.45 -562.23
 	government "Gegno Vi"
 	attributes "gegno" "vi"
@@ -19333,6 +19650,7 @@ system Kiluit
 			distance 269
 
 system Kiro'ku
+	"display name" "基罗库"
 	pos -131.923 -884.46
 	government Wanderer
 	belt 1308
@@ -19397,6 +19715,7 @@ system Kiro'ku
 			distance 478
 
 system Kiru'kichi
+	"display name" "基鲁基奇"
 	pos -195.063 -662.343
 	government Wanderer
 	belt 1465
@@ -19448,6 +19767,7 @@ system Kiru'kichi
 		distance 2756.64
 
 system Kneirc
+	"display name" "克内尔克"
 	pos 856.6 -511.36
 	government Uninhabited
 	belt 1163
@@ -19509,6 +19829,7 @@ system Kneirc
 		distance 7230
 
 system Kochab
+	"display name" "帝星"
 	pos -731 279
 	government Republic
 	attributes "rim"
@@ -19547,6 +19868,7 @@ system Kochab
 		distance 2419.01
 
 system "Kor Ak'Mari"
+	"display name" "科·阿克玛里"
 	pos 43 42
 	government Korath
 	attributes "carbon" "korath" "notable star"
@@ -19598,6 +19920,7 @@ system "Kor Ak'Mari"
 		distance 3777.8
 
 system "Kor En'lakfar"
+	"display name" "科·恩拉克法"
 	pos -31 -33
 	government Korath
 	attributes "korath"
@@ -19658,6 +19981,7 @@ system "Kor En'lakfar"
 			distance 468
 
 system "Kor Fel'tar"
+	"display name" "科·费尔塔"
 	pos 29 -66
 	government Korath
 	attributes "korath"
@@ -19720,6 +20044,7 @@ system "Kor Fel'tar"
 			distance 694
 
 system "Kor Men"
+	"display name" "科·门"
 	pos 6 -5
 	government Korath
 	attributes "korath"
@@ -19781,6 +20106,7 @@ system "Kor Men"
 		distance 2981.5
 
 system "Kor Nor'peli"
+	"display name" "科·诺尔佩利"
 	pos 52 160
 	government Korath
 	attributes "korath"
@@ -19843,6 +20169,7 @@ system "Kor Nor'peli"
 			distance 235
 
 system "Kor Tar'bei"
+	"display name" "科·塔尔贝"
 	pos 57 106
 	government Korath
 	attributes "korath"
@@ -19899,6 +20226,7 @@ system "Kor Tar'bei"
 		distance 2565.55
 
 system "Kor Zena'i"
+	"display name" "科·泽奈"
 	pos -2 83
 	government Korath
 	attributes "korath"
@@ -19950,6 +20278,7 @@ system "Kor Zena'i"
 			distance 282.71
 
 system Kornephoros
+	"display name" "河中"
 	pos -612 424
 	government Republic
 	attributes "south"
@@ -20019,6 +20348,7 @@ system Kornephoros
 			distance 602
 
 system Korsmanath
+	"display name" "科尔斯马纳斯"
 	pos 97.4305 -185.812
 	government Uninhabited
 	attributes "korath"
@@ -20110,6 +20440,7 @@ system Kr-84
 			distance 311
 
 system Kraz
+	"display name" "轸宿四"
 	pos -876 204
 	government Republic
 	attributes "rim"
@@ -20167,6 +20498,7 @@ system Kraz
 			distance 351
 
 system Kugel
+	"display name" "库格尔"
 	pos -230 -26
 	government Syndicate
 	attributes "core"
@@ -20226,6 +20558,7 @@ system Kugel
 			distance 620
 
 system Kursa
+	"display name" "玉井三"
 	pos -366 -105
 	government Republic
 	attributes "paradise"
@@ -20337,6 +20670,7 @@ system L-6181
 		distance 6994
 
 system "Last Word"
+	"display name" "终言"
 	pos -1145.59 495.051
 	government Coalition
 	attributes "saryd"
@@ -20392,6 +20726,7 @@ system "Last Word"
 		distance 4922.46
 
 system Lesath
+	"display name" "尾宿九"
 	pos -516 485
 	government Republic
 	attributes "south"
@@ -20449,6 +20784,7 @@ system Lesath
 		distance 2628.29
 
 system Levana
+	"display name" "莱瓦娜"
 	pos 203.504 247.389
 	government Uninhabited
 	attributes "bright star" "ember waste" "giant star" "notable star"
@@ -20574,6 +20910,7 @@ system Li-7
 		distance 7459.16
 
 system Lift
+	"display name" "升力"
 	pos -534 930
 	government Uninhabited
 	attributes "twilight"
@@ -20620,6 +20957,7 @@ system Lift
 			distance 401
 
 system Limen
+	"display name" "利门"
 	pos -791.99 -12.2491
 	government Republic
 	attributes "dirt belt"
@@ -20666,6 +21004,7 @@ system Limen
 			distance 212
 
 system Lire
+	"display name" "利雷"
 	pos -59 676
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -20724,6 +21063,7 @@ system Lire
 			distance 425
 
 system Lloloi
+	"display name" "洛洛伊"
 	pos 907.022 -251.144
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -20758,6 +21098,7 @@ system Lloloi
 		distance 10572
 
 system Lolami
+	"display name" "洛拉米"
 	pos -628 -10
 	government Republic
 	attributes "dirt belt"
@@ -20814,6 +21155,7 @@ system Lolami
 			distance 413
 
 system "Lom Tahr"
+	"display name" "洛姆·塔尔"
 	pos -94.0437 -446.586
 	government Hai
 	belt 1445
@@ -20881,6 +21223,7 @@ system "Lom Tahr"
 			distance 240
 
 system "Lone Cloud"
+	"display name" "孤云"
 	pos -1239.59 747.051
 	government Coalition
 	attributes "saryd"
@@ -20929,6 +21272,7 @@ system "Lone Cloud"
 		distance 2146.74
 
 system Lucina
+	"display name" "卢西娜"
 	pos 175.504 176.389
 	government Uninhabited
 	attributes "ember waste"
@@ -20987,6 +21331,7 @@ system Lucina
 		distance 11189
 
 system Lumine
+	"display name" "卢米恩"
 	pos -348 760
 	government Uninhabited
 	attributes "notable star" "supergiant star" "twilight"
@@ -21035,6 +21380,7 @@ system Lumine
 		distance 21329
 
 system Lurata
+	"display name" "卢拉塔"
 	pos -279 463
 	government Republic
 	attributes "south"
@@ -21090,6 +21436,7 @@ system Lurata
 		distance 2068.68
 
 system Luue-Saqru
+	"display name" "卢埃-萨克鲁"
 	pos -319 1432
 	government Successor
 	attributes "successor"
@@ -21229,6 +21576,7 @@ system MS-219
 			distance 385.29
 
 system Madrigal
+	"display name" "牧歌"
 	pos -866 1203
 	government Uninhabited
 	attributes "outer limits"
@@ -21272,6 +21620,7 @@ system Madrigal
 		distance 8287
 
 system Makferuti
+	"display name" "马克费鲁蒂"
 	pos 288.431 -628.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -21335,6 +21684,7 @@ system Makferuti
 			distance 769
 
 system Maoni
+	"display name" "毛尼"
 	pos 607.46 -389.147
 	government Uninhabited
 	belt 1734
@@ -21359,6 +21709,7 @@ system Maoni
 		distance 974.4
 
 system Markab
+	"display name" "室宿一"
 	pos -241 168
 	government Syndicate
 	attributes "core"
@@ -21429,6 +21780,7 @@ system Markab
 			distance 610
 
 system Markeb
+	"display name" "天社五"
 	pos -602 -305
 	government Republic
 	attributes "deep"
@@ -21486,6 +21838,7 @@ system Markeb
 		distance 2787.49
 
 system Maspa-Cavaasa
+	"display name" "马斯帕-卡瓦萨"
 	pos -534 1426
 	government Successor
 	attributes "successor"
@@ -21531,6 +21884,7 @@ system Maspa-Cavaasa
 			distance 250
 
 system Maspa-Mavra
+	"display name" "马斯帕-马夫拉"
 	pos -514 1571
 	government Uninhabited
 	attributes "successor"
@@ -21549,6 +21903,7 @@ system Maspa-Mavra
 		distance 1000
 
 system Maspa-Raaqa
+	"display name" "马斯帕-拉卡"
 	pos -334 1614
 	government Successor
 	attributes "successor"
@@ -21581,6 +21936,7 @@ system Maspa-Raaqa
 			distance 510
 
 system Matar
+	"display name" "离宫四"
 	pos -218 272
 	government Syndicate
 	attributes "core"
@@ -21630,6 +21986,7 @@ system Matar
 			distance 332
 
 system Mavra-Ijsola
+	"display name" "马夫拉-伊索拉"
 	shrouded
 	pos -68.67 883.61
 	government Uninhabited
@@ -21654,6 +22011,7 @@ system Mavra-Ijsola
 		distance 3430
 
 system Mebla
+	"display name" "梅布拉"
 	pos -814.587 555.051
 	government Coalition
 	attributes "arachi"
@@ -21707,6 +22065,7 @@ system Mebla
 			distance 258
 
 system Meblumem
+	"display name" "梅布鲁门"
 	pos -722.587 616.051
 	government Coalition
 	attributes "arachi"
@@ -21762,6 +22121,7 @@ system Meblumem
 		distance 2986.38
 
 system Mebsuta
+	"display name" "井宿五"
 	pos -482 -394
 	government Republic
 	attributes "north" "notable star" "supergiant star"
@@ -21825,6 +22185,7 @@ system Mebsuta
 			distance 127
 
 system Meftarkata
+	"display name" "梅夫塔卡塔"
 	pos 52.4305 -276.812
 	government Uninhabited
 	attributes "korath"
@@ -21879,6 +22240,7 @@ system Meftarkata
 			distance 315
 
 system "Mego Faro"
+	"display name" "梅戈·法罗"
 	pos 412.9 -347.3
 	government Bunrodea
 	belt 1500
@@ -21933,6 +22295,7 @@ system "Mego Faro"
 			distance 350
 
 system "Mego Inito"
+	"display name" "梅戈·伊尼托"
 	pos 394.9 -230.3
 	government Bunrodea
 	belt 1500
@@ -21978,6 +22341,7 @@ system "Mego Inito"
 		distance 2288.16
 
 system "Mego Seo"
+	"display name" "梅戈·塞奥"
 	pos 354.817 -279.83
 	government Bunrodea
 	belt 1500
@@ -22023,6 +22387,7 @@ system "Mego Seo"
 			distance 391
 
 system "Mei Yohn"
+	"display name" "梅·约恩"
 	pos -106.757 -581.698
 	government Hai
 	belt 1075
@@ -22084,6 +22449,7 @@ system "Mei Yohn"
 			distance 312
 
 system Mekislepti
+	"display name" "梅基斯莱普提"
 	pos 137.431 -335.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -22141,6 +22507,7 @@ system Mekislepti
 			distance 334.445
 
 system Mellow
+	"display name" "柔和"
 	pos -386 644
 	government Avgi
 	attributes "avgi" "twilight"
@@ -22204,6 +22571,7 @@ system Mellow
 		distance 6504.62
 
 system Men
+	"display name" "骑官五"
 	pos -900.2 366.4
 	government Pirate
 	attributes "south"
@@ -22262,6 +22630,7 @@ system Men
 			distance 302
 
 system Menkalinan
+	"display name" "五车三"
 	pos -400 -61
 	government Republic
 	attributes "paradise"
@@ -22321,6 +22690,7 @@ system Menkalinan
 			distance 407
 
 system Menkar
+	"display name" "天囷一"
 	pos -183 -52
 	government Syndicate
 	attributes "core"
@@ -22377,6 +22747,7 @@ system Menkar
 		distance 4390.62
 
 system Menkent
+	"display name" "库楼三"
 	pos -495 218
 	government Republic
 	attributes "dirt belt"
@@ -22438,6 +22809,7 @@ system Menkent
 		distance 3293.05
 
 system Merak
+	"display name" "天璇"
 	pos -553 60
 	government Republic
 	attributes "near earth"
@@ -22495,6 +22867,7 @@ system Merak
 		distance 2504.4
 
 system Mesuket
+	"display name" "梅苏凯特"
 	pos 220.431 -409.812
 	government Uninhabited
 	attributes "korath"
@@ -22599,6 +22972,7 @@ system Mg-24
 		distance 5854.28
 
 system Miaplacidus
+	"display name" "南船五"
 	pos -524 -69
 	government Republic
 	attributes "paradise"
@@ -22662,6 +23036,7 @@ system Miaplacidus
 			distance 704
 
 system Miblulub
+	"display name" "米布鲁鲁布"
 	pos -630.587 670.051
 	government Coalition
 	attributes "arachi"
@@ -22735,6 +23110,7 @@ system Miblulub
 			distance 619
 
 system Mimosa
+	"display name" "十字架三"
 	pos -895 168
 	government Republic
 	attributes "rim"
@@ -22780,6 +23156,7 @@ system Mimosa
 		distance 2070.21
 
 system Minkar
+	"display name" "轸宿三"
 	pos -823 138
 	government Republic
 	attributes "rim"
@@ -22837,6 +23214,7 @@ system Minkar
 		distance 2872.75
 
 system Mintaka
+	"display name" "参宿三"
 	pos -304 -462
 	government Republic
 	attributes "north"
@@ -22894,6 +23272,7 @@ system Mintaka
 		distance 4566.87
 
 system Mirach
+	"display name" "奎宿九"
 	pos -166 250
 	government Syndicate
 	attributes "core"
@@ -22954,6 +23333,7 @@ system Mirach
 			distance 422
 
 system Mirfak
+	"display name" "天船三"
 	pos -187 -128
 	government Syndicate
 	attributes "core"
@@ -23003,6 +23383,7 @@ system Mirfak
 		distance 2077.85
 
 system Mirzam
+	"display name" "军市一"
 	pos -498 -301
 	government Republic
 	attributes "north"
@@ -23057,6 +23438,7 @@ system Mirzam
 			distance 215
 
 system Misam
+	"display name" "大陵一"
 	pos -9 -80
 	government Pirate
 	attributes "core" "multi-star" "notable star"
@@ -23124,6 +23506,7 @@ system Misam
 			distance 498
 
 system Mizar
+	"display name" "开阳"
 	pos -579 184
 	government Republic
 	attributes "dirt belt"
@@ -23170,6 +23553,7 @@ system Mizar
 			distance 284
 
 system Mnashyu
+	"display name" "姆纳舒"
 	pos 824.044 -309.322
 	government Uninhabited
 	belt 1163
@@ -23216,6 +23600,7 @@ system Mnashyu
 		distance 6960
 
 system Mohuwo
+	"display name" "莫胡沃"
 	pos 956.45 -544.26
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -23257,6 +23642,7 @@ system Mohuwo
 			distance 428
 
 system Moktar
+	"display name" "莫克塔"
 	pos -169 -170
 	government Syndicate
 	attributes "core"
@@ -23317,6 +23703,7 @@ system Moktar
 		distance 1988.1
 
 system Mora
+	"display name" "莫拉"
 	pos -755 23
 	government Republic
 	attributes "dirt belt"
@@ -23371,6 +23758,7 @@ system Mora
 			distance 402
 
 system Mosaa-Iyra
+	"display name" "莫萨-伊拉"
 	pos 121 1459
 	government Successor
 	attributes "successor"
@@ -23420,6 +23808,7 @@ system Mosaa-Iyra
 			distance 500
 
 system Mote
+	"display name" "微尘"
 	pos -455 896
 	government Uninhabited
 	attributes "twilight"
@@ -23447,6 +23836,7 @@ system Mote
 			distance 238
 
 system Msalbit
+	"display name" "姆萨尔比特"
 	pos 986.052 -277.73
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -23469,6 +23859,7 @@ system Msalbit
 		distance 1713
 
 system Muhlifain
+	"display name" "库楼七"
 	pos -702 242
 	government Republic
 	attributes "dirt belt"
@@ -23509,6 +23900,7 @@ system Muhlifain
 		distance 2277.33
 
 system Muphrid
+	"display name" "右摄提一"
 	pos -495 152
 	government Republic
 	attributes "near earth"
@@ -23560,6 +23952,7 @@ system Muphrid
 		distance 2405.68
 
 system Myiara-Nnesa
+	"display name" "米亚拉-内萨"
 	pos -247 1273
 	government "New Houses"
 	attributes "successor"
@@ -23627,6 +24020,7 @@ system Myiara-Nnesa
 			distance 398
 
 system Myruet-Kvelq
+	"display name" "米鲁特-克韦尔克"
 	pos -104 1378
 	government Successor
 	attributes "successor"
@@ -23745,6 +24139,7 @@ system Na-23
 			distance 333
 
 system Naos
+	"display name" "纳奥斯"
 	pos -653 -396
 	government Republic
 	attributes "deep"
@@ -23808,6 +24203,7 @@ system Naos
 			distance 511
 
 system Naper
+	"display name" "内帕尔"
 	pos -416 369
 	government Republic
 	attributes "dirt belt"
@@ -23911,6 +24307,7 @@ system Ne-20
 			distance 406
 
 system Nenia
+	"display name" "涅尼亚"
 	pos -39.1297 467.242
 	government Uninhabited
 	attributes "archon" "ember waste" "void sprites"
@@ -23982,6 +24379,7 @@ system Nenia
 			distance 353
 
 system Nihal
+	"display name" "厕二"
 	pos -262 -121
 	government Republic
 	attributes "north"
@@ -24045,6 +24443,7 @@ system Nihal
 			distance 363
 
 system Nnatai
+	"display name" "纳泰"
 	pos 513.2 -470.3
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -24074,6 +24473,7 @@ system Nnatai
 		distance 3413
 
 system Nnaug
+	"display name" "瑙格"
 	pos 718.89 -592.01
 	government "Gegno Vi"
 	attributes "bright star" "gegno" "notable star" "vi"
@@ -24125,6 +24525,7 @@ system Nnaug
 			distance 500
 
 system Nocte
+	"display name" "诺克特"
 	pos -467 172
 	government Republic
 	attributes "near earth"
@@ -24183,6 +24584,7 @@ system Nocte
 		distance 2260.97
 
 system Nona
+	"display name" "诺娜"
 	pos 166 558
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -24235,6 +24637,7 @@ system Nona
 			distance 270
 
 system Nonet
+	"display name" "九重奏"
 	pos -178 672
 	government Uninhabited
 	attributes "ember waste" "twilight"
@@ -24294,6 +24697,7 @@ system Nonet
 			distance 572
 
 system Nssryos
+	"display name" "恩斯里奥斯"
 	pos 770.122 -524.267
 	government Uninhabited
 	attributes "giant star" "notable star"
@@ -24337,6 +24741,7 @@ system Nssryos
 		distance 9151
 
 system Nunki
+	"display name" "斗宿四"
 	pos -393 537
 	government Pirate
 	attributes "south"
@@ -24457,6 +24862,7 @@ system O-3184
 		distance 4306
 
 system Oblate
+	"display name" "扁球"
 	pos -124 -119
 	government Pirate
 	attributes "core" "giant star" "notable star"
@@ -24509,6 +24915,7 @@ system Oblate
 		distance 4418.72
 
 system Octet
+	"display name" "八重奏"
 	pos -106 583
 	government Uninhabited
 	attributes "ember waste" "giant star" "notable star" "twilight"
@@ -24555,6 +24962,7 @@ system Octet
 		distance 8480
 
 system Oihaug
+	"display name" "奥伊豪格"
 	pos 773.5 -573.14
 	government Uninhabited
 	belt 1756
@@ -24595,6 +25003,7 @@ system Oihaug
 		distance 8308
 
 system Ojstaan-Sola
+	"display name" "奥斯坦-索拉"
 	pos 72 1379
 	government Successor
 	attributes "successor"
@@ -24664,6 +25073,7 @@ system Ojstaan-Sola
 			distance 727
 
 system Ookmya
+	"display name" "乌克米亚"
 	pos 633.6 -610.17
 	government "Gegno Vi"
 	attributes "bright star" "gegno" "giant star" "notable star" "vi"
@@ -24716,6 +25126,7 @@ system Ookmya
 			distance 371
 
 system Oosuoro
+	"display name" "乌苏奥罗"
 	pos 839 -592.67
 	government Gegno
 	attributes "gegno"
@@ -24769,6 +25180,7 @@ system Oosuoro
 		distance 9264
 
 system Opera
+	"display name" "歌剧"
 	pos -641 1398
 	government Uninhabited
 	attributes "outer limits"
@@ -24815,6 +25227,7 @@ system Opera
 			distance 512
 
 system Orbona
+	"display name" "奥尔博纳"
 	pos -735.99 -97.2491
 	government Republic
 	attributes "bright star" "dirt belt" "giant star" "notable star"
@@ -24877,6 +25290,7 @@ system Orbona
 			distance 273
 
 system Orvala
+	"display name" "奥尔瓦拉"
 	pos -334 303
 	government Republic
 	attributes "dirt belt"
@@ -24933,6 +25347,7 @@ system Orvala
 			distance 202
 
 system Osolaa-Uuoru
+	"display name" "奥索拉-乌奥鲁"
 	pos -446 1453
 	government Successor
 	attributes "successor"
@@ -24966,6 +25381,7 @@ system Osolaa-Uuoru
 		distance 4500
 
 system Ossipago
+	"display name" "奥西帕戈"
 	pos 6.87033 429.242
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -25028,6 +25444,7 @@ system Ossipago
 		distance 3674.15
 
 system Oublaa-Khora
+	"display name" "乌布拉-科拉"
 	pos 24 1122
 	government Uninhabited
 	attributes "predecessor"
@@ -25054,6 +25471,7 @@ system Oublaa-Khora
 			distance 1200
 
 system "Over the Rainbow"
+	"display name" "彩虹彼端"
 	pos 9904 7176
 	government Uninhabited
 	attributes "pleiades"
@@ -25110,6 +25528,7 @@ system P-31
 		distance 1783
 
 system Paeli
+	"display name" "佩利"
 	pos 129 497
 	government Uninhabited
 	attributes "ember waste" "graveyard" "wormhole"
@@ -25165,6 +25584,7 @@ system Paeli
 			distance 457.81
 
 system Pantica
+	"display name" "潘提卡"
 	pos 303.87 445.242
 	government Remnant
 	attributes "ember waste"
@@ -25219,6 +25639,7 @@ system Pantica
 		distance 1930
 
 system Parca
+	"display name" "帕尔卡"
 	pos 150.504 151.389
 	government Uninhabited
 	attributes "ember waste"
@@ -25287,6 +25708,7 @@ system Parca
 			distance 545
 
 system "Paru Paru"
+	"display name" "帕鲁·帕鲁"
 	pos 275.9 -237.3
 	government Bunrodea
 	attributes "neutron" "notable star"
@@ -25348,6 +25770,7 @@ system "Paru Paru"
 			distance 350
 
 system Patir
+	"display name" "帕提尔"
 	hidden
 	pos -38 553
 	government Uninhabited
@@ -25405,6 +25828,7 @@ system Patir
 			distance 203
 
 system Pbelnep
+	"display name" "普贝尔内普"
 	pos 945.6 -505.7
 	government "Gegno Scin"
 	attributes "gegno" "scin"
@@ -25461,6 +25885,7 @@ system Pbelnep
 		distance 1452
 
 system Peacock
+	"display name" "孔雀十一"
 	pos -307 350
 	government Republic
 	attributes "dirt belt"
@@ -25525,6 +25950,7 @@ system Peacock
 			distance 498
 
 system Peak
+	"display name" "峰顶"
 	pos -295 630
 	government Uninhabited
 	attributes "twilight"
@@ -25565,6 +25991,7 @@ system Peak
 			distance 321
 
 system Pearl
+	"display name" "珍珠"
 	pos -494 841
 	government Uninhabited
 	attributes "twilight"
@@ -25594,6 +26021,7 @@ system Pearl
 		distance 2277.27
 
 system "Pedita Pri"
+	"display name" "佩迪塔一"
 	pos 207.333 -936
 	government Uninhabited
 	belt 1909
@@ -25632,6 +26060,7 @@ system "Pedita Pri"
 			distance 236
 
 system "Pedita Sec"
+	"display name" "佩迪塔二"
 	pos 185.333 -888
 	government Uninhabited
 	belt 1554
@@ -25653,6 +26082,7 @@ system "Pedita Sec"
 		distance 2193
 
 system Pelaa-Muora
+	"display name" "佩拉-穆奥拉"
 	pos -168 1322
 	government Successor
 	attributes "successor"
@@ -25716,6 +26146,7 @@ system Pelaa-Muora
 		distance 6701
 
 system Pelubta
+	"display name" "佩鲁布塔"
 	pos -757.587 575.051
 	government Coalition
 	attributes "arachi" "bright star" "notable star"
@@ -25787,6 +26218,7 @@ system Pelubta
 			distance 338
 
 system Peragenor
+	"display name" "佩拉格诺"
 	pos 86.8703 356.242
 	government Uninhabited
 	attributes "ember waste"
@@ -25847,6 +26279,7 @@ system Peragenor
 		distance 2300
 
 system Peresedersi
+	"display name" "佩雷塞德西"
 	pos 81.4305 -154.812
 	government Uninhabited
 	attributes "archon" "korath" "notable star" "nova"
@@ -25886,6 +26319,7 @@ system Peresedersi
 		distance 2248.08
 
 system Perfica
+	"display name" "佩尔菲卡"
 	pos 185.87 419.242
 	government Uninhabited
 	attributes "ember waste"
@@ -25932,6 +26366,7 @@ system Perfica
 		distance 962
 
 system Persian
+	"display name" "波斯"
 	pos -203 331
 	government Syndicate
 	attributes "core"
@@ -25992,6 +26427,7 @@ system Persian
 		distance 2414.12
 
 system Persitar
+	"display name" "佩尔西塔"
 	pos 297.431 -395.812
 	government Uninhabited
 	attributes "korath" "notable star" "nova"
@@ -26026,6 +26462,7 @@ system Persitar
 		distance 825.017
 
 system Phact
+	"display name" "丈人一"
 	pos -375 -191
 	government Republic
 	attributes "north"
@@ -26089,6 +26526,7 @@ system Phact
 		distance 2711.38
 
 system Phecda
+	"display name" "天玑"
 	pos -607 88
 	government Republic
 	attributes "dirt belt"
@@ -26140,6 +26578,7 @@ system Phecda
 		distance 4139.54
 
 system Pherkad
+	"display name" "太子"
 	pos -798 451
 	government Republic
 	attributes "south"
@@ -26188,6 +26627,7 @@ system Pherkad
 			distance 410
 
 system Phurad
+	"display name" "孙增一"
 	pos -494 -153
 	government Republic
 	attributes "paradise"
@@ -26239,6 +26679,7 @@ system Phurad
 		distance 2639.02
 
 system Piadenli
+	"display name" "皮亚登利"
 	pos 318.817 -338.83
 	government Bunrodea
 	attributes "notable star" "supergiant star"
@@ -26291,6 +26732,7 @@ system Piadenli
 			distance 323
 
 system Pik'ro'iyak
+	"display name" "皮克罗伊亚克"
 	pos -378.845 -677.001
 	government Wanderer
 	belt 1279
@@ -26332,6 +26774,7 @@ system Pik'ro'iyak
 		distance 3272.11
 
 system Pinnacle
+	"display name" "绝顶"
 	pos -248 672
 	government Uninhabited
 	attributes "bright star" "notable star" "twilight"
@@ -26369,6 +26812,7 @@ system Pinnacle
 			distance 560.581
 
 system Plort
+	"display name" "普洛特"
 	pos -708.587 723.051
 	government Coalition
 	attributes "arachi"
@@ -26424,6 +26868,7 @@ system Plort
 			distance 201
 
 system Polaris
+	"display name" "勾陈一"
 	pos -35 126
 	government Syndicate
 	attributes "core"
@@ -26471,6 +26916,7 @@ system Polaris
 			distance 227
 
 system Polerius
+	"display name" "波莱里乌斯"
 	pos 88 482
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -26535,6 +26981,7 @@ system Polerius
 			distance 403
 
 system Pollux
+	"display name" "北河三"
 	pos -465 4
 	government Republic
 	attributes "paradise"
@@ -26583,6 +27030,7 @@ system Pollux
 		distance 4171.54
 
 system Porrima
+	"display name" "东上相"
 	pos -556 123
 	government Republic
 	attributes "near earth"
@@ -26642,6 +27090,7 @@ system Porrima
 			distance 294
 
 system "Porta Terra"
+	"display name" "地之门"
 	pos 202.6 -825.506
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -26664,6 +27113,7 @@ system "Porta Terra"
 			distance 504
 
 system Postlude
+	"display name" "后奏曲"
 	shrouded
 	pos -261 956
 	government Uninhabited
@@ -26692,6 +27142,7 @@ system Postlude
 			distance 239
 
 system Postverta
+	"display name" "波斯特维尔塔"
 	hidden
 	pos 297 269
 	government Uninhabited
@@ -26728,6 +27179,7 @@ system Postverta
 		distance 1408
 
 system Prakacha'a
+	"display name" "普拉卡查"
 	pos -35.1114 -802.607
 	government Wanderer
 	belt 1660
@@ -26794,6 +27246,7 @@ system Prakacha'a
 			distance 723
 
 system Prelude
+	"display name" "序曲"
 	hidden
 	shrouded
 	pos -427 925
@@ -26859,6 +27312,7 @@ system Prelude
 			distance 320
 
 system Procyon
+	"display name" "南河三"
 	pos -411 23
 	government Republic
 	attributes "near earth"
@@ -26910,6 +27364,7 @@ system Procyon
 		distance 3148.97
 
 system Prosa
+	"display name" "普罗萨"
 	pos 303 194
 	government Uninhabited
 	attributes "bright star" "ember waste" "giant star" "notable star"
@@ -26950,6 +27405,7 @@ system Prosa
 			distance 351
 
 system Ptetubo
+	"display name" "普特图博"
 	pos 594 -569.3
 	government "Gegno Vi"
 	attributes "gegno" "vi"
@@ -27004,6 +27460,7 @@ system Ptetubo
 			distance 180.6
 
 system Ptobeh
+	"display name" "普托贝"
 	pos 553.2 -526.3
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -27024,6 +27481,7 @@ system Ptobeh
 		distance 983
 
 system "Pug Iyik"
+	"display name" "帕格·伊伊克"
 	pos -361.149 -883.233
 	government "Pug (Wanderer)"
 	belt 1286
@@ -27072,6 +27530,7 @@ system "Pug Iyik"
 			distance 365
 
 system Pukako
+	"display name" "普卡科"
 	pos 618.64 -440.28
 	government Uninhabited
 	belt 1154
@@ -27101,6 +27560,7 @@ system Pukako
 			distance 532
 
 system Quartet
+	"display name" "四重奏"
 	pos -210 820
 	government Uninhabited
 	attributes "ember waste" "twilight" "notable star" "nova"
@@ -27142,6 +27602,7 @@ system Quartet
 		distance 3890
 
 system Quaru
+	"display name" "夸鲁"
 	pos -1080.63 448.214
 	government Heliarch
 	attributes "ringworld"
@@ -27484,6 +27945,7 @@ system Quaru
 		offset 237
 
 system Queri
+	"display name" "奎里"
 	pos 69 518
 	government Uninhabited
 	attributes "ember waste" "graveyard"
@@ -27561,6 +28023,7 @@ system Queri
 		offset 335
 
 system Quintessence
+	"display name" "精粹"
 	pos -361 851
 	government Uninhabited
 	attributes "bright star" "giant star" "notable star" "twilight"
@@ -27601,6 +28064,7 @@ system Quintessence
 			distance 421
 
 system Quintet
+	"display name" "五重奏"
 	pos -197 735
 	government Uninhabited
 	attributes "ember waste" "twilight"
@@ -27653,6 +28117,7 @@ system Quintet
 		distance 7851
 
 system Raaqa-Ryuit
+	"display name" "拉卡-留伊特"
 	pos -338 1354
 	government Successor
 	attributes "successor"
@@ -27702,6 +28167,7 @@ system Raaqa-Ryuit
 			distance 380
 
 system Rajak
+	"display name" "拉贾克"
 	pos -270 -236
 	government Republic
 	attributes "north"
@@ -27759,6 +28225,7 @@ system Rajak
 			distance 374
 
 system Rasalhague
+	"display name" "候"
 	pos -413 246
 	government Republic
 	attributes "dirt belt"
@@ -27812,6 +28279,7 @@ system Rasalhague
 		distance 2274.48
 
 system Rastaban
+	"display name" "天棓三"
 	pos -463 446
 	government Republic
 	attributes "south"
@@ -27865,6 +28333,7 @@ system Rastaban
 		distance 3881.4
 
 system "Rati Cal"
+	"display name" "拉蒂·卡尔"
 	pos -116.765 -391.123
 	government Hai
 	belt 1538
@@ -27921,6 +28390,7 @@ system "Rati Cal"
 			distance 240
 
 system "Ravu Kon"
+	"display name" "拉武·孔"
 	pos 332.9 -251.3
 	government Bunrodea
 	attributes "bright star" "notable star"
@@ -27979,6 +28449,7 @@ system "Ravu Kon"
 			distance 275
 
 system Regor
+	"display name" "天社一"
 	pos -702 -335
 	government Republic
 	attributes "deep"
@@ -28032,6 +28503,7 @@ system Regor
 			distance 697
 
 system Regulus
+	"display name" "轩辕十四"
 	pos -544 25
 	government Republic
 	attributes "bright star" "near earth" "notable star"
@@ -28093,6 +28565,7 @@ system Regulus
 			distance 346
 
 system Relifer
+	"display name" "雷利弗"
 	pos 19 603
 	government Uninhabited
 	attributes "ember waste" "graveyard" "wormhole"
@@ -28162,6 +28635,7 @@ system Relifer
 		distance 3462.04
 
 system Remembrance
+	"display name" "追忆"
 	pos -884.587 641.051
 	government Coalition
 	attributes "saryd"
@@ -28215,6 +28689,7 @@ system Remembrance
 			distance 273
 
 system Rhapsody
+	"display name" "狂想曲"
 	pos -289 1179
 	government Uninhabited
 	attributes "outer limits"
@@ -28259,6 +28734,7 @@ system Rhapsody
 			distance 366
 
 system Rigel
+	"display name" "参宿七"
 	pos -324 -363
 	government Republic
 	attributes "bright star" "north" "notable star" "supergiant star"
@@ -28326,6 +28802,7 @@ system Rigel
 			distance 380
 
 system Ritilas
+	"display name" "里提拉斯"
 	pos 11 523
 	government Uninhabited
 	attributes "ember waste" "graveyard" "wormhole"
@@ -28391,6 +28868,7 @@ system Ritilas
 			distance 365
 
 system Rivulet
+	"display name" "细流"
 	pos -544 804
 	government Uninhabited
 	attributes "twilight"
@@ -28433,6 +28911,7 @@ system Rivulet
 		distance 8928.20
 
 system Rota
+	"display name" "罗塔"
 	pos 193.25 -1029.75
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -28478,6 +28957,7 @@ system Rota
 			distance 571
 
 system Rouseu
+	"display name" "鲁塞乌"
 	pos 566.7 -404.133
 	government Uninhabited
 	attributes "bright star" "notable star" "wormhole"
@@ -28508,6 +28988,7 @@ system Rouseu
 		distance 10568.3
 
 system Ruchbah
+	"display name" "阁道三"
 	pos -174 69
 	government Syndicate
 	attributes "core"
@@ -28570,6 +29051,7 @@ system Ruchbah
 		distance 7872.6
 
 system Rutilicus
+	"display name" "天纪二"
 	pos -535 273
 	government Republic
 	attributes "dirt belt"
@@ -28666,6 +29148,7 @@ system S-32
 		distance 2461
 
 system Sabik
+	"display name" "天市左垣十一"
 	pos -675 379
 	government Republic
 	attributes "rim"
@@ -28712,6 +29195,7 @@ system Sabik
 		distance 2061.55
 
 system Sabriset
+	"display name" "萨布里塞特"
 	pos 151.724 -426.518
 	government Uninhabited
 	attributes "korath"
@@ -28758,6 +29242,7 @@ system Sabriset
 		distance 1367.84
 
 system Sadalmelik
+	"display name" "危宿一"
 	pos -145 472
 	government Quarg
 	attributes "quarg" "south"
@@ -28806,6 +29291,7 @@ system Sadalmelik
 			distance 253
 
 system Sadalsuud
+	"display name" "虚宿一"
 	pos -134 508
 	government Quarg
 	attributes "quarg" "south"
@@ -28858,6 +29344,7 @@ system Sadalsuud
 		distance 4591.9
 
 system Sadr
+	"display name" "天津一"
 	pos -287 543
 	government Republic
 	attributes "bright star" "notable star" "south"
@@ -28915,6 +29402,7 @@ system Sadr
 		distance 2553.34
 
 system "Sagittarius A*"
+	"display name" "人马座A*"
 	pos 112 22
 	government Uninhabited
 	attributes "black hole" "notable star"
@@ -28931,6 +29419,7 @@ system "Sagittarius A*"
 		period 1
 
 system Sail
+	"display name" "扬帆"
 	pos -544 666
 	government Avgi
 	attributes "avgi" "twilight"
@@ -29020,6 +29509,7 @@ system Sail
 		distance 11911.5
 
 system Saiph
+	"display name" "参宿六"
 	pos -375 -390
 	government Republic
 	attributes "north"
@@ -29067,6 +29557,7 @@ system Saiph
 		distance 3121.39
 
 system Salipastart
+	"display name" "萨利帕斯塔特"
 	pos 250.431 -370.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -29125,6 +29616,7 @@ system Salipastart
 			distance 291
 
 system Saquergen
+	"display name" "萨奎尔根"
 	pos -482 561
 	government Uninhabited
 	attributes "notable star" "nova"
@@ -29153,6 +29645,7 @@ system Saquergen
 		distance 938.342
 
 system Sargas
+	"display name" "尾宿五"
 	pos -542 445
 	government Republic
 	attributes "south"
@@ -29197,6 +29690,7 @@ system Sargas
 		distance 2055.94
 
 system Sarin
+	"display name" "天市左垣一"
 	pos -670 293
 	government Republic
 	attributes "dirt belt"
@@ -29239,6 +29733,7 @@ system Sarin
 		distance 3371.1
 
 system Sayaiban
+	"display name" "萨亚班"
 	pos 250.431 -274.812
 	government Drak
 	attributes "archon" "korath"
@@ -29287,6 +29782,7 @@ system Sayaiban
 		distance 1890.51
 
 system Scheat
+	"display name" "室宿二"
 	pos -205 233
 	government Syndicate
 	attributes "core"
@@ -29338,6 +29834,7 @@ system Scheat
 			distance 281
 
 system Schedar
+	"display name" "王良四"
 	pos -93 229
 	government Syndicate
 	attributes "core"
@@ -29397,6 +29894,7 @@ system Schedar
 			distance 298
 
 system Scija
+	"display name" "斯基亚"
 	pos 651.5 -586
 	government "Gegno Vi"
 	attributes "bright star" "gegno" "notable star" "vi"
@@ -29464,6 +29962,7 @@ system Scija
 			distance 485.167
 
 system Sedes
+	"display name" "塞德斯"
 	pos 301.917 -948.417
 	government Uninhabited
 	attributes "bright star" "giant star" "notable star"
@@ -29497,6 +29996,7 @@ system Sedes
 			distance 478
 
 system Segesta
+	"display name" "塞杰斯塔"
 	pos 111.87 294.242
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -29561,6 +30061,7 @@ system Segesta
 		offset 180
 
 system Seginus
+	"display name" "招摇"
 	pos -557 356
 	government Republic
 	attributes "dirt belt"
@@ -29617,6 +30118,7 @@ system Seginus
 			distance 416
 
 system Seketra
+	"display name" "塞凯特拉"
 	pos -24.5695 -356.812
 	government Uninhabited
 	attributes "korath"
@@ -29660,6 +30162,7 @@ system Seketra
 			distance 538
 
 system Sepetrosk
+	"display name" "塞佩特罗斯克"
 	pos 192.431 -243.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -29713,6 +30216,7 @@ system Sepetrosk
 			distance 254
 
 system Sepriaptu
+	"display name" "塞普里亚普图"
 	pos 139.431 -448.812
 	government Uninhabited
 	attributes "korath"
@@ -29759,6 +30263,7 @@ system Sepriaptu
 		distance 2309.96
 
 system Septet
+	"display name" "七重奏"
 	pos -169 721
 	government Uninhabited
 	attributes "carbon" "ember waste" "notable star" "twilight"
@@ -29805,6 +30310,7 @@ system Septet
 			distance 405.246
 
 system "Sera Natta"
+	"display name" "塞拉·纳塔"
 	pos 344.9 -418.3
 	government Bunrodea
 	attributes "bright star" "notable star"
@@ -29849,6 +30355,7 @@ system "Sera Natta"
 		distance 2631.05
 
 system Serenade
+	"display name" "小夜曲"
 	pos -584 1320
 	government Uninhabited
 	attributes "outer limits"
@@ -29898,6 +30405,7 @@ system Serenade
 		distance 9139
 
 system Sevrelect
+	"display name" "塞夫雷莱克特"
 	pos -114.569 -239.812
 	government "Kor Efret"
 	attributes "korath"
@@ -29943,6 +30451,7 @@ system Sevrelect
 			distance 326
 
 system Sextet
+	"display name" "六重奏"
 	pos -127 663
 	government Uninhabited
 	attributes "ember waste" "twilight"
@@ -29995,6 +30504,7 @@ system Sextet
 		distance 7161
 
 system Shaula
+	"display name" "尾宿八"
 	pos -460 527
 	government Pirate
 	attributes "south"
@@ -30054,6 +30564,7 @@ system Shaula
 			distance 359
 
 system Sheratan
+	"display name" "娄宿一"
 	pos -40 45
 	government Syndicate
 	attributes "core"
@@ -30108,6 +30619,7 @@ system Sheratan
 		distance 4399.99
 
 system "Shini Bori"
+	"display name" "希尼·博里"
 	pos 258.9 -74.3
 	government "Bunrodea (Guard)"
 	belt 1500
@@ -30156,6 +30668,7 @@ system "Shini Bori"
 			distance 333
 
 system Si'yak'ku
+	"display name" "西亚库"
 	pos -329.235 -760.435
 	government Wanderer
 	belt 1985
@@ -30283,6 +30796,7 @@ system Si-28
 			distance 270
 
 system Sich'ka'ara
+	"display name" "西奇卡阿拉"
 	pos -97.1237 -831.921
 	government Wanderer
 	belt 1744
@@ -30326,6 +30840,7 @@ system Sich'ka'ara
 		distance 2370.98
 
 system Silikatakfar
+	"display name" "西利卡塔克法"
 	pos 248.431 -481.812
 	government "Kor Sestor"
 	attributes "korath"
@@ -30371,6 +30886,7 @@ system Silikatakfar
 			distance 293.717
 
 system "Silver Bell"
+	"display name" "银铃"
 	pos -1045.59 541.051
 	government Coalition
 	attributes "saryd"
@@ -30443,6 +30959,7 @@ system "Silver Bell"
 			distance 346
 
 system "Silver String"
+	"display name" "银弦"
 	pos -1022.59 517.051
 	government Coalition
 	attributes "saryd"
@@ -30502,6 +31019,7 @@ system "Silver String"
 			distance 363
 
 system Similisti
+	"display name" "西米利斯蒂"
 	pos 210.431 -313.812
 	government "Kor Mereti"
 	attributes "korath"
@@ -30562,6 +31080,7 @@ system Similisti
 			distance 329.088
 
 system Sirius
+	"display name" "天狼星"
 	pos -378 44
 	government Republic
 	attributes "near earth"
@@ -30618,6 +31137,7 @@ system Sirius
 		distance 2162.3
 
 system Skeruto
+	"display name" "斯凯鲁托"
 	pos 28.4305 -339.812
 	government Uninhabited
 	attributes "korath"
@@ -30662,6 +31182,7 @@ system Skeruto
 			distance 236
 
 system Sko'karak
+	"display name" "斯科卡拉克"
 	pos -304.43 -930.688
 	government Wanderer
 	belt 1805
@@ -30706,6 +31227,7 @@ system Sko'karak
 			distance 406
 
 system Soar
+	"display name" "翱翔"
 	pos -449 655
 	government Avgi
 	attributes "avgi" "avgi core" "twilight"
@@ -30813,6 +31335,7 @@ system Soar
 			offset 180
 
 system Sobarati
+	"display name" "索巴拉蒂"
 	pos 277.431 -557.812
 	government "Kor Sestor"
 	attributes "bright star" "korath" "notable star"
@@ -30865,6 +31388,7 @@ system Sobarati
 			distance 311.851
 
 system Sol
+	"display name" "太阳"
 	pos -400 100
 	government Republic
 	attributes "near earth"
@@ -30976,6 +31500,7 @@ system Sol
 		period 24012.7
 
 system "Sol Arach"
+	"display name" "阿拉奇太阳"
 	pos -711.587 649.051
 	government Coalition
 	attributes "arachi"
@@ -31042,6 +31567,7 @@ system "Sol Arach"
 			distance 346
 
 system "Sol Kimek"
+	"display name" "基梅克太阳"
 	pos -1310.63 227.214
 	government Coalition
 	attributes "kimek"
@@ -31109,6 +31635,7 @@ system "Sol Kimek"
 		distance 2429.06
 
 system "Sol Saryd"
+	"display name" "萨里德太阳"
 	pos -1037.59 675.051
 	government Coalition
 	attributes "saryd"
@@ -31182,6 +31709,7 @@ system "Sol Saryd"
 		distance 2533.21
 
 system Solifar
+	"display name" "索利法"
 	pos 47.4305 -435.812
 	government Uninhabited
 	attributes "korath"
@@ -31230,6 +31758,7 @@ system Solifar
 		distance 2068.97
 
 system Sonata
+	"display name" "奏鸣曲"
 	pos -687 1154
 	government Uninhabited
 	attributes "outer limits"
@@ -31276,6 +31805,7 @@ system Sonata
 		distance 6707
 
 system Sospi
+	"display name" "索斯皮"
 	pos -317 -161
 	government Republic
 	attributes "north" "notable star" "wolf-rayet"
@@ -31334,6 +31864,7 @@ system Sospi
 			distance 457
 
 system Span
+	"display name" "跨度"
 	pos -513 654
 	government Uninhabited
 	attributes "twilight"
@@ -31393,6 +31924,7 @@ system Span
 			distance 417
 
 system Speloog
+	"display name" "斯佩卢格"
 	pos -967.587 445.051
 	government Coalition
 	attributes "arachi"
@@ -31453,6 +31985,7 @@ system Speloog
 			distance 359
 
 system Spica
+	"display name" "角宿一"
 	pos -906 120
 	government Republic
 	attributes "rim"
@@ -31506,6 +32039,7 @@ system Spica
 			distance 402
 
 system Statina
+	"display name" "斯塔蒂娜"
 	pos 385 198
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -31548,6 +32082,7 @@ system Statina
 		distance 2754
 
 system "Steep Roof"
+	"display name" "陡顶"
 	pos -1113.59 570.051
 	government Coalition
 	attributes "saryd"
@@ -31613,6 +32148,7 @@ system "Steep Roof"
 			distance 498
 
 system Stercutus
+	"display name" "斯特尔库图斯"
 	pos 140.87 320.242
 	government Uninhabited
 	attributes "ember waste" "wormhole"
@@ -31674,6 +32210,7 @@ system Stercutus
 		distance 2557.67
 
 system Stiidej-Nnesa
+	"display name" "斯蒂代-内萨"
 	pos -13 1358
 	government Successor
 	attributes "successor"
@@ -31720,6 +32257,7 @@ system Stiidej-Nnesa
 			distance 890
 
 system Stream
+	"display name" "溪流"
 	pos -491 790
 	government Uninhabited
 	attributes "bright star" "notable star" "twilight"
@@ -31777,6 +32315,7 @@ system Stream
 			distance 425
 
 system Suhail
+	"display name" "天记"
 	pos -774 -338
 	government Republic
 	attributes "deep" "giant star" "notable star"
@@ -31831,6 +32370,7 @@ system Suhail
 			distance 166
 
 system Sumar
+	"display name" "苏马尔"
 	pos -236 -273
 	government Republic
 	attributes "north"
@@ -31881,6 +32421,7 @@ system Sumar
 			distance 575
 
 system Sumprast
+	"display name" "森普拉斯特"
 	pos -101.569 -262.812
 	government "Kor Efret"
 	attributes "korath"
@@ -31938,6 +32479,7 @@ system Sumprast
 			distance 464
 
 system Supra
+	"display name" "苏普拉"
 	pos 319 -820
 	government Uninhabited
 	belt 1481
@@ -31976,6 +32518,7 @@ system Supra
 			distance 404
 
 system Symphony
+	"display name" "交响曲"
 	pos -470 1215
 	government "Avgi (Consonance)"
 	attributes "avgi" "avgi diaspora" "outer limits"
@@ -32060,6 +32603,7 @@ system Symphony
 			distance 240
 
 system Tailwind
+	"display name" "顺风"
 	pos -335 724
 	government Uninhabited
 	attributes "twilight"
@@ -32100,6 +32644,7 @@ system Tailwind
 		distance 2014
 
 system Tais
+	"display name" "泰斯"
 	pos -346 381
 	government Republic
 	attributes "bright star" "dirt belt" "notable star"
@@ -32152,6 +32697,7 @@ system Tais
 		distance 2265.3
 
 system Talita
+	"display name" "上台一"
 	pos -519 -26
 	government Republic
 	attributes "paradise"
@@ -32210,6 +32756,7 @@ system Talita
 		distance 2193.3
 
 system "Tania Australis"
+	"display name" "中台二"
 	pos -671 7
 	government Republic
 	attributes "dirt belt"
@@ -32272,6 +32819,7 @@ system "Tania Australis"
 			distance 577
 
 system Tap
+	"display name" "轻叩"
 	pos -348 581
 	government Uninhabited
 	attributes "neutron" "notable star" "twilight"
@@ -32311,6 +32859,7 @@ system Tap
 		distance 9128.05
 
 system Tarazed
+	"display name" "河鼓三"
 	pos -194 448
 	government Republic
 	attributes "south"
@@ -32366,6 +32915,7 @@ system Tarazed
 			distance 228
 
 system Tebuteb
+	"display name" "特布特布"
 	pos -615.587 710.051
 	government Coalition
 	attributes "arachi"
@@ -32423,6 +32973,7 @@ system Tebuteb
 		distance 2511.99
 
 system Tectum
+	"display name" "特克图姆"
 	pos 399.25 -933.083
 	government Uninhabited
 	belt 1350 7
@@ -32457,6 +33008,7 @@ system Tectum
 			distance 300
 
 system Tejat
+	"display name" "井宿一"
 	pos -489 -107
 	government Republic
 	attributes "paradise"
@@ -32523,6 +33075,7 @@ system Tejat
 			distance 438
 
 system Terminus
+	"display name" "终点"
 	pos -727.99 -23.2491
 	government Republic
 	attributes "dirt belt" "wormhole"
@@ -32571,6 +33124,7 @@ system Terminus
 		distance 2077.64
 
 system "Terra Incognita"
+	"display name" "未知之地"
 	pos 9921.5 7086.5
 	government Uninhabited
 	attributes "pleiades"
@@ -32608,6 +33162,7 @@ system "Terra Incognita"
 			distance 543
 
 system Thread
+	"display name" "丝线"
 	pos -417 737
 	government Avgi
 	attributes "avgi" "avgi core" "twilight"
@@ -32696,6 +33251,7 @@ system Thread
 			distance 313
 
 system "Thshybo Le"
+	"display name" "什比博·勒"
 	pos 217.2 -94.9
 	government "Bunrodea (Guard)"
 	attributes "bright star" "notable star"
@@ -32744,6 +33300,7 @@ system "Thshybo Le"
 		distance 4964.03
 
 system Thuban
+	"display name" "右枢"
 	pos -882.629 328.38
 	government Pirate
 	attributes "bright star" "ccor" "notable star" "south"
@@ -32770,6 +33327,7 @@ system Thuban
 		offset 180
 
 system Tide
+	"display name" "潮汐"
 	pos -468 604
 	government Uninhabited
 	attributes "bright star" "giant star" "notable star" "twilight"
@@ -32816,6 +33374,7 @@ system Tide
 			distance 208.383
 
 system Torbab
+	"display name" "托尔巴布"
 	pos -949.587 490.051
 	government Coalition
 	attributes "arachi"
@@ -32885,6 +33444,7 @@ system Torbab
 			distance 237
 
 system Torrent
+	"display name" "激流"
 	pos -619 880
 	government Uninhabited
 	attributes "bright star" "giant star" "multi-star" "notable star" "twilight"
@@ -32926,6 +33486,7 @@ system Torrent
 		distance 3725.26
 
 system Tortor
+	"display name" "托尔托"
 	pos -255 -424
 	government Republic
 	attributes "north"
@@ -32984,6 +33545,7 @@ system Tortor
 			distance 579
 
 system Trio
+	"display name" "三重奏"
 	pos -218 760
 	government Uninhabited
 	attributes "ember waste" "twilight"
@@ -33046,6 +33608,7 @@ system Trio
 			distance 266
 
 system Tscera
+	"display name" "茨塞拉"
 	pos 867 -684.1
 	government Uninhabited
 	haze _menu/haze-brown
@@ -33078,6 +33641,7 @@ system Tscera
 		distance 3413
 
 system Tumble
+	"display name" "翻滚"
 	pos -308 655
 	government Uninhabited
 	attributes "twilight"
@@ -33134,6 +33698,7 @@ system Tumble
 			distance 236
 
 system Turais
+	"display name" "图赖斯"
 	pos -691 134
 	government Republic
 	attributes "dirt belt"
@@ -33184,6 +33749,7 @@ system Turais
 		distance 2424.17
 
 system Tuur-Kella
+	"display name" "图尔-凯拉"
 	pos -5 1269
 	government Successor
 	attributes "successor"
@@ -33227,6 +33793,7 @@ system Tuur-Kella
 		distance 7500
 
 system Twirl
+	"display name" "旋转"
 	pos -602 1003
 	government Uninhabited
 	attributes "neutron" "notable star" "twilight"
@@ -33301,6 +33868,7 @@ system U-5188
 			distance 581
 
 system Uelawan
+	"display name" "乌埃拉万"
 	pos 895.2 -565.75
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -33351,6 +33919,7 @@ system Uelawan
 			distance 602
 
 system Uhebe
+	"display name" "乌赫贝"
 	pos 647.4 -496.3
 	government "Gegno Vi"
 	attributes "bright star" "gegno" "notable star" "vi"
@@ -33395,6 +33964,7 @@ system Uhebe
 			distance 986.893
 
 system "Ula Mon"
+	"display name" "乌拉·蒙"
 	pos -64.1218 -559.868
 	government Hai
 	belt 1574
@@ -33469,6 +34039,7 @@ system "Ula Mon"
 			distance 191
 
 system "Ultima Thule"
+	"display name" "极北之地"
 	pos -336 -211
 	government Republic
 	attributes "north" "wormhole"
@@ -33515,6 +34086,7 @@ system "Ultima Thule"
 		distance 4208.63
 
 system Umbral
+	"display name" "暗影"
 	pos -164 406
 	government Republic
 	attributes "south"
@@ -33580,6 +34152,7 @@ system Umbral
 			distance 679
 
 system Unagi
+	"display name" "鳗鱼"
 	pos -306 -578
 	government Pirate
 	attributes "north"
@@ -33627,6 +34200,7 @@ system Unagi
 			distance 388
 
 system Unukalhai
+	"display name" "天市右垣七"
 	pos -710 405
 	government Republic
 	attributes "rim"
@@ -33680,6 +34254,7 @@ system Unukalhai
 		distance 3243.71
 
 system "Urba Pest"
+	"display name" "乌尔巴·佩斯特"
 	pos 391.9 -394.3
 	government Bunrodea
 	attributes "bright star" "notable star"
@@ -33729,6 +34304,7 @@ system "Urba Pest"
 			distance 257
 
 system Uttna
+	"display name" "乌特纳"
 	pos 946.3 -580.8
 	government Gegno
 	attributes "bright star" "notable star"
@@ -33766,6 +34342,7 @@ system Uttna
 			distance 350
 
 system Uuoru-Kella
+	"display name" "乌奥鲁-凯拉"
 	pos 63 1317
 	government "Old Houses"
 	attributes "successor"
@@ -33817,6 +34394,7 @@ system Uuoru-Kella
 			distance 750
 
 system Uuoru-Sossa
+	"display name" "乌奥鲁-索萨"
 	shrouded
 	pos -58 976.13
 	government Uninhabited
@@ -33853,6 +34431,7 @@ system Uuoru-Sossa
 		distance 8000
 
 system "Uwa Fahn"
+	"display name" "乌瓦·法恩"
 	pos 35.1585 -491.67
 	government Hai
 	belt 1913
@@ -33913,6 +34492,7 @@ system "Uwa Fahn"
 		distance 3713.55
 
 system "Uwo Seija"
+	"display name" "乌沃·塞亚"
 	pos 420.667 -429
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -33992,6 +34572,7 @@ system V-2189
 			distance 508
 
 system Vade-Staja
+	"display name" "瓦德-斯塔亚"
 	pos 152 1341
 	government Successor
 	attributes "successor"
@@ -34051,6 +34632,7 @@ system Vade-Staja
 		distance 4549
 
 system Vaiov
+	"display name" "瓦约夫"
 	pos 631.5 -347
 	government Uninhabited
 	belt 1529
@@ -34080,6 +34662,7 @@ system Vaiov
 		distance 2900
 
 system Valkraa-Uuoru
+	"display name" "瓦尔克拉-乌奥鲁"
 	pos 114 1257
 	government Successor
 	attributes "successor"
@@ -34138,6 +34721,7 @@ system Valkraa-Uuoru
 			distance 286
 
 system Vanguwo
+	"display name" "万古沃"
 	pos 965.152 -237.39
 	government Uninhabited
 	attributes "giant star" "notable star"
@@ -34166,6 +34750,7 @@ system Vanguwo
 		distance 7325
 
 system Vasa-Oorua
+	"display name" "瓦萨-乌鲁阿"
 	shrouded
 	pos 31.3947 1014.88
 	government Uninhabited
@@ -34187,6 +34772,7 @@ system Vasa-Oorua
 		distance 2390
 
 system Vaticanus
+	"display name" "梵蒂冈"
 	pos 324 112
 	government Uninhabited
 	attributes "ember waste"
@@ -34233,6 +34819,7 @@ system Vaticanus
 		distance 2754
 
 system Vega
+	"display name" "织女一"
 	pos -402 182
 	government Republic
 	attributes "near earth"
@@ -34289,6 +34876,7 @@ system Vega
 		distance 2981.84
 
 system Vesvii
+	"display name" "韦斯维"
 	pos 792.58 -432.88
 	government Uninhabited
 	attributes "vesvi"
@@ -34333,6 +34921,7 @@ system Vesvii
 		distance 3838.4
 
 system Vilacira
+	"display name" "维拉奇拉"
 	pos 805.1 -350.2
 	government Uninhabited
 	belt 1157
@@ -34364,6 +34953,7 @@ system Vilacira
 		distance 16267
 
 system Vindemiatrix
+	"display name" "东次将"
 	pos -635 257
 	government Republic
 	attributes "dirt belt"
@@ -34411,6 +35001,7 @@ system Vindemiatrix
 		distance 2091.26
 
 system Vivace
+	"display name" "活泼"
 	pos -540 700
 	government Uninhabited
 	attributes "neutron" "notable star" "twilight"
@@ -34443,6 +35034,7 @@ system Vivace
 		distance 3456.63
 
 system Volax
+	"display name" "沃拉克斯"
 	pos -256 -179
 	government Republic
 	attributes "north"
@@ -34491,6 +35083,7 @@ system Volax
 		distance 4455.87
 
 system Vorpal
+	"display name" "沃帕尔"
 	pos -434 788
 	government Uninhabited
 	attributes "neutron" "notable star" "twilight"
@@ -34525,6 +35118,7 @@ system Vorpal
 			distance 376
 
 system Vorsuke
+	"display name" "沃尔苏克"
 	pos 678.952 -513.115
 	government Uninhabited
 	belt 1177
@@ -34558,6 +35152,7 @@ system Vorsuke
 			distance 500
 
 system Vulcuja
+	"display name" "武尔库亚"
 	pos 1072.04 -264.656
 	government Uninhabited
 	attributes "carbon" "notable star"
@@ -34612,6 +35207,7 @@ system W-3197
 		distance 9113
 
 system "Wah Ki"
+	"display name" "瓦·基"
 	pos 14.9925 -612.792
 	government Hai
 	raid "Unfettered Hai Space Raid" 20
@@ -34677,6 +35273,7 @@ system "Wah Ki"
 			distance 258
 
 system "Wah Oh"
+	"display name" "瓦·奥"
 	pos -205.344 -381.381
 	government Hai
 	attributes "bright star" "notable star"
@@ -34757,6 +35354,7 @@ system "Wah Oh"
 		distance 4021.38
 
 system "Wah Yoot"
+	"display name" "瓦·尤特"
 	pos 40.9382 -685.994
 	government "Hai (Unfettered)"
 	belt 1222
@@ -34814,6 +35412,7 @@ system "Wah Yoot"
 			distance 361
 
 system Wake
+	"display name" "尾流"
 	pos -525 753
 	government Avgi
 	attributes "avgi" "twilight"
@@ -34876,6 +35475,7 @@ system Wake
 			distance 90
 
 system Wave
+	"display name" "波浪"
 	pos -579 843
 	government Uninhabited
 	attributes "twilight"
@@ -34926,6 +35526,7 @@ system Wave
 		distance 5919
 
 system Waypoint
+	"display name" "航点"
 	pos -184 -515
 	government Hai
 	attributes "wormhole"
@@ -34976,6 +35577,7 @@ system Waypoint
 		distance 2079.28
 
 system Wazn
+	"display name" "子二"
 	pos -385 -131
 	government Republic
 	attributes "paradise"
@@ -35033,6 +35635,7 @@ system Wazn
 		distance 2875.76
 
 system Wei
+	"display name" "尾宿二"
 	pos -598 369
 	government Republic
 	attributes "dirt belt"
@@ -35083,6 +35686,7 @@ system Wei
 			distance 492
 
 system Wezen
+	"display name" "弧矢一"
 	pos -664 -433
 	government Republic
 	attributes "deep"
@@ -35153,6 +35757,7 @@ system Wezen
 			distance 496
 
 system Whirlwind
+	"display name" "旋风"
 	pos -740 844
 	government Uninhabited
 	attributes "twilight"
@@ -35209,6 +35814,7 @@ system Whirlwind
 			distance 404
 
 system "World's End"
+	"display name" "世界尽头"
 	pos 9966.5 7017.5
 	government Uninhabited
 	attributes "pleiades"
@@ -35337,6 +35943,7 @@ system "World's End"
 		offset 340
 
 system Wreoul
+	"display name" "雷乌尔"
 	pos 692.34 -464.1
 	government Uninhabited
 	belt 1409
@@ -35375,6 +35982,7 @@ system Wreoul
 		distance 7745.8
 
 system "Xutluno Fali"
+	"display name" "苏特卢诺·法利"
 	pos 399.817 -177.83
 	government Bunrodea
 	attributes "ringworld"
@@ -35421,6 +36029,7 @@ system "Xutluno Fali"
 		distance 3812
 
 system "Xutluno Rees"
+	"display name" "苏特卢诺·里斯"
 	pos 435.817 -281.83
 	government Bunrodea
 	attributes "bright star" "notable star"
@@ -35473,6 +36082,7 @@ system "Xutluno Rees"
 		distance 3516.64
 
 system "Ya Hai"
+	"display name" "亚·海"
 	pos -24.9453 -505.571
 	government Hai
 	belt 1120
@@ -35543,6 +36153,7 @@ system "Ya Hai"
 			distance 184
 
 system "Yed Prior"
+	"display name" "天市右垣九"
 	pos -810 374
 	government Republic
 	attributes "south"
@@ -35593,6 +36204,7 @@ system "Yed Prior"
 			distance 224
 
 system Yerser
+	"display name" "耶尔瑟"
 	pos 827.319 -412.984
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -35627,6 +36239,7 @@ system Yerser
 		distance 3964.75
 
 system Yli
+	"display name" "伊利"
 	pos 737.404 -492.911
 	government Uninhabited
 	belt 1529
@@ -35674,6 +36287,7 @@ system Yli
 		distance 2606
 
 system Yllke
+	"display name" "伊尔克"
 	pos 947.7 -648.2
 	government Uninhabited
 	attributes "bright star" "notable star"
@@ -35720,6 +36334,7 @@ system Yllke
 			distance 297
 
 system Yranjiu
+	"display name" "伊兰久"
 	pos 1056.34 -303.683
 	government Uninhabited
 	attributes "black hole" "notable star"
@@ -35761,6 +36376,7 @@ system Yranjiu
 		distance 3592.2
 
 system Zaurak
+	"display name" "天苑一"
 	pos -109 -34
 	government Syndicate
 	attributes "core"
@@ -35812,6 +36428,7 @@ system Zaurak
 		distance 2871.42
 
 system Zeinar
+	"display name" "泽纳尔"
 	pos 984.87 -452.389
 	government "Gegno Scin"
 	attributes "gegno" "scin"
@@ -35864,6 +36481,7 @@ system Zeinar
 		distance 6400
 
 system "Zeta Aquilae"
+	"display name" "天市左垣六"
 	pos -369 276
 	government Republic
 	attributes "dirt belt"
@@ -35927,6 +36545,7 @@ system "Zeta Aquilae"
 			distance 544
 
 system "Zeta Centauri"
+	"display name" "库楼一"
 	pos -835 257
 	government Republic
 	attributes "rim"
@@ -35975,6 +36594,7 @@ system "Zeta Centauri"
 		distance 7491.3
 
 system Zolpulti
+	"display name" "佐尔普尔蒂"
 	pos 920.989 -294.2
 	government Uninhabited
 	belt 1159
@@ -36005,6 +36625,7 @@ system Zolpulti
 		distance 17034
 
 system Zosma
+	"display name" "西上相"
 	pos -640 -123
 	government Republic
 	attributes "deep"
@@ -36065,6 +36686,7 @@ system Zosma
 			distance 272
 
 system "Zuba Zub"
+	"display name" "祖巴·祖布"
 	pos -48.2661 -647.926
 	government Hai
 	raid "Unfettered Hai Space Raid" 20
@@ -36131,6 +36753,7 @@ system "Zuba Zub"
 			distance 298
 
 system Zubenelgenubi
+	"display name" "氐宿一"
 	pos -710 353
 	government Republic
 	attributes "rim"
@@ -36189,6 +36812,7 @@ system Zubenelgenubi
 		distance 1993.37
 
 system Zubenelhakrabi
+	"display name" "氐宿三"
 	hidden
 	pos -755 365
 	government Uninhabited
@@ -36250,6 +36874,7 @@ system Zubenelhakrabi
 			distance 672.272
 
 system Zubeneschamali
+	"display name" "氐宿四"
 	pos -759 338
 	government Republic
 	attributes "rim"

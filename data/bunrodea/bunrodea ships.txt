@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Kaiken"
+	"display name" "怀剑"
 	sprite "ship/kaiken"
 	thumbnail "thumbnail/kaiken"
 	"administrative cost" 0
@@ -59,6 +60,7 @@ ship "Kaiken"
 
 
 ship "Sasumata"
+	"display name" "刺股"
 	sprite "ship/sasumata"
 	thumbnail "thumbnail/sasumata"
 	"administrative cost" 4
@@ -128,6 +130,7 @@ ship "Sasumata"
 
 
 ship "Tanto"
+	"display name" "短刀"
 	sprite "ship/tanto"
 	thumbnail "thumbnail/tanto"
 	"administrative cost" 3
@@ -182,6 +185,7 @@ ship "Tanto"
 
 
 ship "Ararebo"
+	"display name" "霰棒"
 	sprite "ship/ararebo"
 	thumbnail "thumbnail/ararebo"
 	"administrative cost" 6
@@ -251,6 +255,7 @@ ship "Ararebo"
 
 
 ship "Tekkan"
+	"display name" "泰坎"
 	sprite "ship/tekkan"
 	thumbnail "thumbnail/tekkan"
 	"administrative cost" 4
@@ -309,6 +314,7 @@ ship "Tekkan"
 
 
 ship "Kunai"
+	"display name" "苦无"
 	sprite "ship/kunai"
 	thumbnail "thumbnail/kunai"
 	"administrative cost" 4
@@ -369,6 +375,7 @@ ship "Kunai"
 
 
 ship "Kama"
+	"display name" "镰"
 	sprite "ship/kama"
 	thumbnail "thumbnail/kama"
 	"administrative cost" 7
@@ -438,6 +445,7 @@ ship "Kama"
 
 
 ship "Chigiriki"
+	"display name" "契木"
 	sprite "ship/chigiriki"
 	thumbnail "thumbnail/chigiriki"
 	"administrative cost" 8

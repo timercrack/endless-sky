@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit `"Ojet" Bimodal Coilgun`
+	"display name" "“奥杰特”双模线圈炮"
 	category "Guns"
 	series "Guns"
 	index 11010
@@ -57,6 +58,7 @@ outfit `"Ojet" Bimodal Coilgun`
 	description `	奥杰特发射超致密带电粒子束，粒子束在飞行中逐渐扩散：近距离时，集中的粒子束穿透装甲；远距离时，离子喷雾使护盾失稳。因此，装备这种武器的飞船只需改变交战距离即可调整其伤害特性，使其能高效对抗任何敌人。`
 
 outfit "Bimodal Coilgun Turret"
+	"display name" "双模线圈炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 11010
@@ -105,6 +107,7 @@ effect "bimodal impact"
 	"velocity scale" 0.2
 
 outfit "Bimodal Switch"
+	"display name" "双模切换"
 	weapon
 		sprite "projectile/bimodal switch"
 			"random start frame"
@@ -125,6 +128,7 @@ effect "bimodal switch impact"
 	"velocity scale" 0.02
 
 outfit "Drag Cannon"
+	"display name" "阻力炮"
 	category "Guns"
 	series "Guns"
 	index 11020
@@ -155,6 +159,7 @@ outfit "Drag Cannon"
 	description `	尽管与经过时间考验的奥杰特线圈炮相比，这种设计并不优雅，因此也不太受欢迎，但阻力炮在继承者的快速攻击舰上找到了一席之地，主要作为一种减缓敌舰速度的工具，以便让更大规模的舰队能够与之交战。`
 
 outfit "Drag Projectile"
+	"display name" "阻力炮弹丸"
 	weapon
 		sprite "projectile/drag cannon"
 			"frame rate" 20
@@ -177,6 +182,7 @@ effect "drag cannon impact"
 	"random velocity" 1
 
 outfit "Successor Pulse Laser"
+	"display name" "继承者脉冲激光"
 	category "Guns"
 	series "Guns"
 	index 11030
@@ -208,6 +214,7 @@ outfit "Successor Pulse Laser"
 	description "这种能够穿透护盾的激光是少数在继承者空间独立制造的武器之一，而非在高等家族的赞助与限制下生产。因此，它既不是特别强大，效率也不高，但其低廉的成本和较小的空间需求使它对于那些无法获得高等家族更强力武器的人来说，仍然是一个相对有吸引力的防御选择。"
 
 outfit "Pulse Laser Turret"
+	"display name" "脉冲激光炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 11020
@@ -250,6 +257,7 @@ effect "successor pulse laser impact"
 	"velocity scale" 0
 
 outfit "Overcharged Pulse Laser"
+	"display name" "超载脉冲激光"
 	category "Guns"
 	series "Guns"
 	index 11040
@@ -284,6 +292,7 @@ outfit "Overcharged Pulse Laser"
 	description `Without access to the high-quality weaponry produced by the High Houses, the People's Houses have had to work with what is available to them: mostly the relatively low-powered pulse lasers produced independently in Successor space. Black-market fire controllers and a recalibrated pulse generator enable this upgraded laser to continuously adapt its firing frequencies, improving shield penetration and inducing lingering instabilities in a target's shield matrix that better prevent targets from using their inductive afterburners.`
 
 outfit "Overcharged Laser Turret"
+	"display name" "超载激光炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 11030
@@ -329,6 +338,7 @@ effect "overcharged pulse laser impact"
 	"velocity scale" 0
 
 outfit `"Sjeja" Kinetic Lance`
+	"display name" "“斯杰嘉”动能长矛"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 11010
@@ -371,6 +381,7 @@ outfit `"Sjeja" Kinetic Lance`
 			has "gamerule: universal ammo restocking"
 
 outfit "High-Velocity Spike"
+	"display name" "高速钉弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 11010
@@ -381,6 +392,7 @@ outfit "High-Velocity Spike"
 	description `Sjeja动能长矛发射的弹丸体积过大，无法从飞船储备中即时合成，必须单独携带。`
 
 outfit "High-Velocity Spike Rack"
+	"display name" "高速钉弹架"
 	category "Ammunition"
 	series "Ammunition"
 	index 11020

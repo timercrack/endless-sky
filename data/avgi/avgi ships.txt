@@ -15,6 +15,7 @@
 # Transports
 
 ship "Koryfi"
+	"display name" "波峰"
 	sprite "ship/avgi koryfi/koryfi"
 		"frame rate" 24
 	thumbnail "thumbnail/avgi koryfi"
@@ -123,7 +124,8 @@ ship "Koryfi"
 
 
 ship "Melodikos"
-	plural "梅洛迪科斯级"
+	"display name" "旋律"
+	"plural" "旋律"
 	sprite "ship/avgi melodikos/melodikos"
 		"frame rate" 30
 	thumbnail "thumbnail/avgi melodikos"
@@ -271,6 +273,7 @@ ship "Melodikos"
 # Freighters
 
 ship "Avlaki"
+	"display name" "波谷"
 	sprite "ship/avgi avlaki"
 		"frame rate" 30
 	thumbnail "thumbnail/avgi avlaki"
@@ -378,7 +381,8 @@ ship "Avlaki"
 
 
 ship "Harmonikos"
-	plural "哈莫尼科斯级"
+	"display name" "和声"
+	"plural" "和声"
 	sprite "ship/avgi harmonikos"
 		"frame rate" 30
 	thumbnail "thumbnail/avgi harmonikos"
@@ -523,7 +527,8 @@ ship "Harmonikos"
 
 
 ship "Phononos"
-	plural "福诺诺斯级"
+	"display name" "声子"
+	"plural" "声子"
 	sprite "ship/avgi phononos"
 	thumbnail "thumbnail/avgi phononos"
 	"administrative cost" 1
@@ -587,6 +592,7 @@ ship "Phononos"
 
 
 ship "Frequentia"
+	"display name" "频率"
 	sprite "ship/avgi frequentia"
 	thumbnail "thumbnail/avgi frequentia"
 	"administrative cost" 1
@@ -661,6 +667,7 @@ ship "Frequentia"
 # Utility
 
 ship "Polari"
+	"display name" "偏振"
 	sprite "ship/avgi polari"
 	thumbnail "thumbnail/avgi polari"
 	"administrative cost" 2
@@ -747,6 +754,7 @@ ship "Polari"
 
 
 ship "Entasi"
+	"display name" "强度"
 	sprite "ship/avgi entasi"
 	thumbnail "thumbnail/avgi entasi"
 	"administrative cost" 2
@@ -886,6 +894,7 @@ ship "Entasi"
 
 
 ship "Undsyni"
+	"display name" "恩德西尼"
 	sprite "ship/avgi undsyni"
 	thumbnail "thumbnail/avgi undsyni"
 	"administrative cost" 5
@@ -1055,6 +1064,7 @@ ship "Undsyni" "Undsyni (Plasmadyne)"
 
 
 ship "Modified Tachytia"
+	"display name" "改装疾速"
 	sprite "ship/avgi tachytia/tachytia"
 		"frame rate" 24
 	thumbnail "thumbnail/avgi tachytia"
@@ -1191,7 +1201,8 @@ ship "Modified Tachytia"
 # Interceptors
 
 ship "Tremoros"
-	plural "特雷莫罗斯"
+	"display name" "震颤"
+	"plural" "震颤"
 	sprite "ship/avgi tremoros"
 	thumbnail "thumbnail/avgi tremoros"
 	"administrative cost" 1
@@ -1267,7 +1278,8 @@ ship "Tremoros"
 # Light Warships
 
 ship "Prismaios"
-	plural "棱晶号"
+	"display name" "棱晶"
+	"plural" "棱晶"
 	sprite "ship/avgi prismaios"
 	thumbnail "thumbnail/avgi prismaios"
 	"administrative cost" 2
@@ -1412,7 +1424,8 @@ ship "Prismaios" "Prismaios (Orchid)"
 
 
 ship "Interferos"
-	plural "因特菲罗斯"
+	"display name" "干涉"
+	"plural" "干涉"
 	sprite "ship/avgi interferos"
 	thumbnail "thumbnail/avgi interferos"
 	"administrative cost" 1
@@ -1549,6 +1562,7 @@ ship "Interferos" "Interferos (Orchid)"
 # Medium Warships
 
 ship "Diaspersi"
+	"display name" "色散"
 	sprite "ship/avgi diaspersi"
 	thumbnail "thumbnail/avgi diaspersi"
 	"administrative cost" 4
@@ -1729,7 +1743,8 @@ ship "Diaspersi" "Diaspersi (UREB)"
 
 
 ship "Refraktos"
-	plural "折射号"
+	"display name" "折射"
+	"plural" "折射"
 	sprite "ship/avgi refraktos"
 	thumbnail "thumbnail/avgi refraktos"
 	"administrative cost" 4
@@ -1891,7 +1906,8 @@ ship "Refraktos" "Refraktos (Excimer)"
 
 
 ship "Difraktos"
-	plural "衍射号"
+	"display name" "衍射"
+	"plural" "衍射"
 	sprite "ship/avgi difraktos"
 	thumbnail "thumbnail/avgi difraktos"
 	"administrative cost" 5
@@ -2141,6 +2157,7 @@ ship "Difraktos" "Difraktos (UREB)"
 # Heavy Warships
 
 ship "Atenuatia"
+	"display name" "衰减"
 	sprite "ship/avgi atenuatia"
 	thumbnail "thumbnail/avgi atenuatia"
 	"administrative cost" 8
@@ -2356,6 +2373,7 @@ ship "Atenuatia" "Atenuatia (Orchid)"
 # Fighters
 
 ship "Akoustiki"
+	"display name" "声学"
 	sprite "ship/avgi akoustiki"
 	thumbnail "thumbnail/avgi akoustiki"
 	"administrative cost" 0
@@ -2426,6 +2444,7 @@ ship "Akoustiki"
 
 
 ship "Photikon"
+	"display name" "光子"
 	sprite "ship/avgi photikon"
 	thumbnail "thumbnail/avgi photikon"
 	"administrative cost" 0
@@ -2529,7 +2548,8 @@ ship "Photikon" "Photikon (Ophrys)"
 # Drones
 
 ship "Vibratia"
-	plural "维布拉提亚"
+	"display name" "振动"
+	"plural" "振动"
 	sprite "ship/avgi vibratia"
 	thumbnail "thumbnail/avgi vibratia"
 	"administrative cost" 0
@@ -2596,6 +2616,7 @@ ship "Vibratia"
 
 
 ship "Undulon"
+	"display name" "波动"
 	sprite "ship/avgi undulon"
 	thumbnail "thumbnail/avgi undulon"
 	"administrative cost" 0
@@ -2668,6 +2689,7 @@ ship "Undulon"
 
 
 ship "Optikon"
+	"display name" "光学"
 	sprite "ship/avgi optikon"
 	thumbnail "thumbnail/avgi optikon"
 	"administrative cost" 0
@@ -2718,7 +2740,8 @@ ship "Optikon"
 
 
 ship "Sonikis"
-	plural "索尼基斯"
+	"display name" "声波"
+	"plural" "声波"
 	sprite "ship/avgi sonikis"
 	thumbnail "thumbnail/avgi sonikis"
 	"administrative cost" 0

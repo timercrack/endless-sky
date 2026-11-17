@@ -14,6 +14,7 @@
 
 
 ship "Rano'erek"
+	"display name" "拉诺·埃雷克"
 	sprite "ship/dredger"
 	thumbnail "thumbnail/dredger"
 	"administrative cost" 9
@@ -97,6 +98,7 @@ ship "Rano'erek"
 
 
 ship "Palavret"
+	"display name" "帕拉夫雷特"
 	sprite "ship/raider"
 	thumbnail "thumbnail/raider"
 	"administrative cost" 7
@@ -172,6 +174,7 @@ ship "Palavret"
 
 
 ship "Tubfalet"
+	"display name" "图布法莱特"
 	sprite "ship/tubfalet"
 	thumbnail "thumbnail/tubfalet"
 	"administrative cost" 8
@@ -287,6 +290,7 @@ ship "Tubfalet"
 
 
 ship "'nra'ret"
+	"display name" "恩拉雷特"
 	sprite "ship/-nra-ret"
 	thumbnail "thumbnail/-nra-ret"
 	"administrative cost" 8
@@ -361,7 +365,8 @@ ship "'nra'ret"
 
 
 ship "'olofez"
-	plural "'olofezes"
+	"display name" "奥洛费兹"
+	"plural" "奥洛费兹"
 	sprite "ship/chaser"
 	thumbnail "thumbnail/chaser"
 	"administrative cost" 0
@@ -402,6 +407,7 @@ ship "'olofez"
 
 
 ship "Kas'ik Tek 7"
+	"display name" "卡西克·泰克 7"
 	sprite "ship/kas-ik tek 7"
 	thumbnail "thumbnail/kas-ik tek 7"
 	"administrative cost" 0
@@ -444,6 +450,7 @@ ship "Kas'ik Tek 7"
 
 
 ship "Rai'alorej"
+	"display name" "赖·阿洛雷吉"
 	sprite "ship/rai-alorej"
 	thumbnail "thumbnail/rai-alorej"
 	"administrative cost" 11
@@ -526,6 +533,7 @@ ship "Rai'alorej"
 
 
 ship "Ikatila'ej"
+	"display name" "伊卡提拉·埃吉"
 	sprite "ship/ikatila-ej"
 	thumbnail "thumbnail/ikatila-ej"
 	"administrative cost" 24
@@ -1006,6 +1014,7 @@ ship "Ra'at Ik 621"
 
 
 ship "Kasichara A'awoj"
+	"display name" "卡西查拉·阿瓦沃吉"
 	sprite "ship/world-ship f"
 	thumbnail "thumbnail/world-ship f"
 	"administrative cost" 13
@@ -1075,6 +1084,7 @@ ship "Kasichara A'awoj"
 
 
 ship "Korsmanath A'awoj"
+	"display name" "科尔斯马纳特·阿瓦沃吉"
 	sprite "ship/korsmanath a-awoj"
 	thumbnail "thumbnail/korsmanath a-awoj"
 	"administrative cost" 50
@@ -1313,6 +1323,7 @@ ship "Korsmanath A'awoj"
 
 
 ship "Echo-Galleon"
+	"display name" "回声盖伦船"
 	sprite "ship/echo-galleon"
 	thumbnail "thumbnail/echo-galleon"
 	"administrative cost" 10
@@ -1376,6 +1387,7 @@ ship "Echo-Galleon"
 
 
 ship "Arch-Carrack"
+	"display name" "大卡拉克船"
 	sprite "ship/arch-carrack"
 	thumbnail "thumbnail/arch-carrack"
 	"administrative cost" 7
@@ -1440,6 +1452,7 @@ ship "Arch-Carrack"
 
 
 ship "Charm-Shallop"
+	"display name" "护符轻帆船"
 	sprite "ship/charm-shallop"
 	thumbnail "thumbnail/charm-shallop"
 	"administrative cost" 6
@@ -1500,6 +1513,7 @@ ship "Charm-Shallop"
 
 
 ship "Kar Ik Vot 349"
+	"display name" "卡尔·伊克·沃特 349"
 	sprite "ship/kar ik vot 349"
 	thumbnail "thumbnail/kar ik vot 349"
 	"administrative cost" 10
@@ -1568,6 +1582,7 @@ ship "Kar Ik Vot 349"
 
 
 ship "Tek Far 71 - Lek"
+	"display name" "泰克·法尔 71-雷克"
 	sprite "ship/tek far 71 lek"
 	thumbnail "thumbnail/tek far 71 lek"
 	"administrative cost" 5
@@ -1649,6 +1664,7 @@ ship "Tek Far 71 - Lek"
 
 
 ship "Tek Far 78 - Osk"
+	"display name" "泰克·法尔 78-奥斯克"
 	sprite "ship/tek far 78 osk"
 	thumbnail "thumbnail/tek far 78 osk"
 	"administrative cost" 6
@@ -1730,6 +1746,7 @@ ship "Tek Far 78 - Osk"
 
 
 ship "Tek Far 109"
+	"display name" "泰克·法尔 109"
 	sprite "ship/tek far 109"
 	thumbnail "thumbnail/tek far 109"
 	"administrative cost" 4
@@ -1819,6 +1836,7 @@ ship "Tek Far 109"
 
 
 ship "Met Par Tek 53"
+	"display name" "梅特·帕尔·泰克 53"
 	sprite "ship/met par tek 53"
 	thumbnail "thumbnail/met par tek 53"
 	"administrative cost" 4
@@ -1879,6 +1897,7 @@ ship "Met Par Tek 53"
 
 
 ship "Far Lek 14"
+	"display name" "法尔·雷克 14"
 	sprite "ship/far lek 14"
 	thumbnail "thumbnail/far lek 14"
 	"administrative cost" 0
@@ -1920,6 +1939,7 @@ ship "Far Lek 14"
 
 
 ship "Far Osk 27"
+	"display name" "法尔·奥斯克 27"
 	sprite "ship/far osk 27"
 	thumbnail "thumbnail/far osk 27"
 	"administrative cost" 0
@@ -1963,6 +1983,7 @@ ship "Far Osk 27"
 
 
 ship "Model 8"
+	"display name" "8 型"
 	sprite "ship/model 8"
 	thumbnail "thumbnail/model 8"
 	"administrative cost" 1
@@ -2011,6 +2032,7 @@ ship "Model 8"
 
 
 ship "Model 16"
+	"display name" "16 型"
 	sprite "ship/model 16"
 	thumbnail "thumbnail/model 16"
 	"administrative cost" 3
@@ -2066,6 +2088,7 @@ ship "Model 16"
 
 
 ship "Model 32"
+	"display name" "32 型"
 	sprite "ship/model 32"
 	thumbnail "thumbnail/model 32"
 	"administrative cost" 4
@@ -2122,6 +2145,7 @@ ship "Model 32"
 
 
 ship "Model 64"
+	"display name" "64 型"
 	sprite "ship/model 64"
 	thumbnail "thumbnail/model 64"
 	"administrative cost" 5
@@ -2180,6 +2204,7 @@ ship "Model 64"
 
 
 ship "Model 128"
+	"display name" "128 型"
 	sprite "ship/model 128"
 	thumbnail "thumbnail/model 128"
 	"administrative cost" 6
@@ -2239,6 +2264,7 @@ ship "Model 128"
 
 
 ship "Model 256"
+	"display name" "256 型"
 	sprite "ship/model 256"
 	thumbnail "thumbnail/model 256"
 	"administrative cost" 8
@@ -2300,6 +2326,7 @@ ship "Model 256"
 
 
 ship "Model 512"
+	"display name" "512 型"
 	sprite "ship/model 512"
 	thumbnail "thumbnail/model 512"
 	"administrative cost" 9

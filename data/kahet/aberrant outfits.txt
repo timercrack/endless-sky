@@ -15,6 +15,7 @@
 # Weapons:
 
 outfit "Aberrant Spiker"
+	"display name" "异变体尖刺发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 05020
@@ -82,6 +83,7 @@ effect "spiker impact"
 
 
 outfit "Nucleolysis Beam"
+	"display name" "核解光束"
 	category "Guns"
 	series "Guns"
 	index 05040
@@ -114,6 +116,7 @@ outfit "Nucleolysis Beam"
 	description "实际上，这种光束能够消耗飞船的氘燃料，同时导致其船体物质发生衰变。"
 
 outfit "Telescopic Antimissile"
+	"display name" "望远式反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 05010
@@ -141,6 +144,7 @@ outfit "Telescopic Antimissile"
 # Systems:
 
 outfit "Anomalous Shield Restorer"
+	"display name" "异常护盾修复器"
 	category "Systems"
 	series "Shields"
 	index 05030
@@ -159,6 +163,7 @@ outfit "Anomalous Shield Restorer"
 # Power:
 
 outfit "Antimatter Power Cell"
+	"display name" "反物质电池"
 	category "Power"
 	series "Generators"
 	index 05020
@@ -177,7 +182,8 @@ outfit "Antimatter Power Cell"
 # Special
 
 outfit "Anomalous Mass"
-	plural "异常质量体"
+	"display name" "异常质量体"
+	"plural" "异常质量体"
 	category "Special"
 	cost 800000
 	thumbnail "outfit/anomalous mass"

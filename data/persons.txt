@@ -128,6 +128,7 @@ person "Cap'n Pester"
 	ship "Wardragon"
 
 ship "Wardragon"
+	"display name" "战龙"
 	sprite "ship/wardragon"
 	thumbnail "thumbnail/wardragon"
 	"never disabled"
@@ -271,7 +272,8 @@ phrase "MMK subphrase 2"
 		"凑齐"
 
 ship "Marauder Fury"
-	plural "掠夺者狂怒"
+	"display name" "掠夺者狂怒"
+	"plural" "掠夺者狂怒"
 	sprite "ship/mfury"
 	"administrative cost" 1
 	thumbnail "thumbnail/mfury"
@@ -505,6 +507,7 @@ person "Tranquility"
 	ship "Lampyrid-Class Transport" "Tranquility"
 
 ship "Lampyrid-Class Transport"
+	"display name" "萤科运输船"
 	sprite "ship/lampyrid"
 	thumbnail "thumbnail/lampyrid"
 	"administrative cost" 2
@@ -651,6 +654,7 @@ person "Power of the People"
 	ship "Modified Osprey"
 
 ship "Modified Osprey"
+	"display name" "改装鱼鹰"
 	sprite "ship/mosprey"
 	"never disabled"
 	"administrative cost" 8
@@ -826,7 +830,8 @@ person "Local God"
 	ship "Ursa Polaris"
 
 ship "Ursa Polaris"
-	plural "大熊座勾陈一"
+	"display name" "大熊座勾陈一"
+	"plural" "大熊座勾陈一"
 	sprite "ship/localworldship"
 	"administrative cost" 10
 	"never disabled"
@@ -901,6 +906,7 @@ ship "Ursa Polaris"
 	explode "huge explosion" 50
 
 outfit "LG Gridfire Turret"
+	"display name" "LG 格网火炮塔"
 	category "Turrets"
 	"turret mounts" -1
 	weapon
@@ -1029,6 +1035,7 @@ person "Prototype B3-CC4"
 	ship "Shooting Star"
 
 ship "Shooting Star"
+	"display name" "流星"
 	"administrative cost" 4
 	swizzle 0
 	noun "屠戮狂"
@@ -1087,6 +1094,7 @@ ship "Shooting Star"
 	description "	其先进特性使其能够抵御敌方指挥中心的影响，使其效果失效。"
 
 outfit "Crystal Projector"
+	"display name" "水晶投影器"
 	category "Systems"
 	"cost" 1492
 	thumbnail "outfit/rock 0"
@@ -1101,6 +1109,7 @@ outfit "Crystal Projector"
 	description "永远不要低估一堆水晶放在岩石上的威力。在这个例子中，它们所做的只是在流星号周围投射一些无害的紫色光线，但道理依然成立。"
 
 outfit "Floating Crystal"
+	"display name" "浮空水晶"
 	category "Systems"
 	"cost" 1861
 	thumbnail "outfit/rock 3"
@@ -1120,6 +1129,7 @@ outfit "Floating Crystal"
 	description "	它还会占用一个脊柱安装槽才能安装，尽管你并不清楚原因。"
 
 outfit "Crystalline Formation"
+	"display name" "晶簇"
 	"cost" 1914
 	category "Systems"
 	thumbnail "outfit/rock 2"
@@ -1141,6 +1151,7 @@ outfit "Crystalline Formation"
 	description "关于此装备的运作机制，此前似乎已有数次尝试加以解析，但究竟能否将其视为一件装置，争论仍在持续。"
 
 outfit "Hexagonal Crystal"
+	"display name" "六角水晶"
 	"cost" 1939
 	category "Systems"
 	thumbnail "outfit/rock 4"
@@ -1164,6 +1175,7 @@ outfit "Hexagonal Crystal"
 	description "“任何足够先进的技术都与魔法无异。”阿瑟·C·克拉克如是说。这就是足够先进的技术。"
 
 outfit "Tree Skeleton Key Stone"
+	"display name" "树骨钥石"
 	"cost" 2003
 	category "Systems"
 	thumbnail "outfit/rock 1"
@@ -1259,6 +1271,7 @@ person "Rais Iris XVIII"
 	ship "Marauder Bactrian"
 
 ship "Marauder Bactrian"
+	"display name" "掠夺者双峰驼"
 	sprite ship/mbactriane
 	thumbnail thumbnail/bactrian
 	"never disabled"
@@ -1463,6 +1476,7 @@ person "Brick"
 	ship "Modified Boxwing" "Remnant Block"
 
 ship "Modified Boxwing"
+	"display name" "改装盒翼"
 	sprite "ship/modified boxwing"
 	thumbnail "thumbnail/modified boxwing"
 	"never disabled"
@@ -1570,6 +1584,7 @@ person "Gefullte Taubenbrust"
 	ship "Modified Battleship" "RSS Smoking Dove"
 
 ship "Modified Battleship"
+	"display name" "改装战列舰"
 	sprite "ship/battleship"
 	thumbnail "thumbnail/battleship"
 	"never disabled"
@@ -1653,6 +1668,7 @@ ship "Modified Battleship"
 	description `永远不要低估一个人为了改造自己心爱的飞船愿意走多远——有时甚至是在它诞生之前。`
 
 outfit "Prototype Fusion Cannon"
+	"display name" "原型聚变加农炮"
 	category "Secondary Weapons"
 	cost 160000000
 	thumbnail "outfit/fusion cannon"
@@ -1809,6 +1825,7 @@ person "MasterOfGrey"
 	ship "Modified Ladybug" "Revealer of Hai"
 
 ship "Modified Ladybug"
+	"display name" "改装瓢虫"
 	sprite "ship/modified ladybug"
 	thumbnail "ship/modified ladybug"
 	"never disabled"
@@ -2028,6 +2045,7 @@ person "Patrol Team"
 			"mass" 100
 
 ship "Waverider"
+	"display name" "乘浪者"
 	sprite "ship/waverider"
 	"never disabled"
 	"administrative cost" 2
@@ -2079,6 +2097,7 @@ ship "Waverider"
 	description `	它的失望如此深重，以至于它凭借意志化为了实体。`
 
 outfit "Emotional Baggage"
+	"display name" "情感包袱"
 	category "Unique"
 	thumbnail "outfit/unknown"
 	description `它是成就当今审阅者的一切事物的实体化身。`
@@ -2200,6 +2219,7 @@ person "Danau"
 
 
 ship "Modified Hauler VI"
+	"display name" "改装运输者 VI"
 	sprite "ship/hauler vi"
 	thumbnail "thumbnail/hauler vi"
 	"never disabled"

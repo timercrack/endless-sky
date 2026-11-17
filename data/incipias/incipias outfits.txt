@@ -13,6 +13,7 @@
 
 # Weapons:
 outfit "Plasma Discharger"
+	"display name" "等离子放电器"
 	category "Guns"
 	series "Guns"
 	index 12010
@@ -41,6 +42,7 @@ outfit "Plasma Discharger"
 	description "	放电器本身发射高密度等离子体弹丸，一段时间后会分裂成微小粒子。由于等离子注入器的存在，射速极高，但能量消耗也非常严重。"
 
 outfit "plasma particle"
+	"display name" "等离子粒子"
 	weapon
 		sprite "effect/plasma particle"
 		"hit effect" "blaster impact"
@@ -52,6 +54,7 @@ outfit "plasma particle"
 		"minable damage" 18
 
 outfit "Stagnation Beam"
+	"display name" "停滞光束"
 	category "Turrets"
 	series "Turrets"
 	index 12010
@@ -95,6 +98,7 @@ effect "stagnation beam impact"
 	"velocity scale" -.005
 
 outfit "Star Tail"
+	"display name" "星尾"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 12010
@@ -137,6 +141,7 @@ outfit "Star Tail"
 			has "gamerule: universal ammo restocking"
 
 outfit "Star Tail Projectile"
+	"display name" "星尾弹丸"
 	weapon
 		sprite "projectile/star tail"
 			"frame rate" 12
@@ -169,6 +174,7 @@ effect "star tail live"
 	"velocity scale" 0.
 
 outfit "Star Tail Cell"
+	"display name" "星尾电池"
 	category "Ammunition"
 	cost 1500
 	thumbnail "outfit/star tail cell"
@@ -177,6 +183,7 @@ outfit "Star Tail Cell"
 	description "星尾武器需要极其庞大的能量，因西皮亚斯无法在短时间内生成。为此，星尾电池内含一种能量富集物质，在开火时释放能量。每个电池所储存的能量恰好足够发射一发。"
 
 outfit "Star Tail Storage"
+	"display name" "星尾电池存储器"
 	category "Ammunition"
 	cost 6000
 	thumbnail "outfit/star tail cell storage"
@@ -202,6 +209,7 @@ outfitter "Star Tail Cell Restock"
 
 
 outfit "Horizon Grappler"
+	"display name" "地平线牵引器"
 	category "Turrets"
 	series "Tractor Beams"
 	index 12020
@@ -232,6 +240,7 @@ effect "horizon grappler"
 
 # Shields/Energy:
 outfit "Gas-Class Shield"
+	"display name" "气态级护盾"
 	category "Systems"
 	series "Shields"
 	index 12010
@@ -246,6 +255,7 @@ outfit "Gas-Class Shield"
 	description "护盾技术是因西皮亚斯最新开发的成果之一。虽然这种护盾在外观上与人类的护盾装置相似，但其工作原理完全不同。其核心通过燃烧氢气来提供再生能量。这一技术如此高效，以至于成为了他们所有飞船的主要能源。"
 
 outfit "Liquid-Class Shield"
+	"display name" "液态级护盾"
 	category "Systems"
 	series "Shields"
 	index 12020
@@ -260,6 +270,7 @@ outfit "Liquid-Class Shield"
 	description "这款更先进的护盾发生器使用液态而非气态燃料。虽然效率大幅提升，但占用空间也更大，因此仅适用于大型飞船。"
 
 outfit "Metallic Hydrogen Cell"
+	"display name" "金属氢电池"
 	category "Power"
 	series "Batteries"
 	index 12010
@@ -272,6 +283,7 @@ outfit "Metallic Hydrogen Cell"
 
 # Engines:
 outfit "MH Blue-Class Thruster"
+	"display name" "MH 蓝级推进器"
 	category "Engines"
 	series "Engines"
 	index 12011
@@ -289,6 +301,7 @@ outfit "MH Blue-Class Thruster"
 	description "在因西皮亚斯文化中，蓝色是最弱的颜色。标为蓝色的推进器对使用它的任何飞船的速度来说都不是好兆头。"
 
 outfit "MH Blue-Class Steering"
+	"display name" "MH 蓝级转向器"
 	category "Engines"
 	series "Engines"
 	index 12010
@@ -303,6 +316,7 @@ outfit "MH Blue-Class Steering"
 	description "这个转向装置只能提供转向所需的最小推力，但由于价格低廉，仍然被广泛使用。"
 
 outfit "MH Green-Class Thruster"
+	"display name" "MH 绿级推进器"
 	category "Engines"
 	series "Engines"
 	index 12021
@@ -320,6 +334,7 @@ outfit "MH Green-Class Thruster"
 	description "绿色对于因西皮亚斯而言是平衡之色。这款推进器在空间需求与强劲引擎之间取得了平衡。"
 
 outfit "MH Green-Class Steering"
+	"display name" "MH 绿级转向器"
 	category "Engines"
 	series "Engines"
 	index 12020
@@ -334,6 +349,7 @@ outfit "MH Green-Class Steering"
 	description "因西皮亚斯似乎对给飞船增加转向能力有所抵触。尽管这款转向系统本应是蓝级转向系统的升级版，但它几乎没有改进。"
 
 outfit "MH Red-Class Thruster"
+	"display name" "MH 红级推进器"
 	category "Engines"
 	series "Engines"
 	index 12031
@@ -351,6 +367,7 @@ outfit "MH Red-Class Thruster"
 	description "因西皮亚斯母星上丰富的金属氢催生了利用这种强大能源的发动机，使得推进器效率远超对因西皮亚斯短暂航天历史的预期。"
 
 outfit "MH Red-Class Steering"
+	"display name" "MH 红级转向器"
 	category "Engines"
 	series "Engines"
 	index 12030
@@ -367,6 +384,7 @@ outfit "MH Red-Class Steering"
 
 # Hand to Hand
 outfit "Cloud Piercer"
+	"display name" "穿云刃"
 	category "Hand to Hand"
 	series "H2H"
 	index 12010
@@ -382,6 +400,7 @@ outfit "Cloud Piercer"
 
 # Special
 outfit "Hicemus Conflict License"
+	"display name" "希塞穆斯冲突许可证"
 	category "Licenses"
 	series "Licenses"
 	index 12010

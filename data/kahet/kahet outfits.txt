@@ -14,6 +14,7 @@
 # Weapons:
 
 outfit "Ka'het Nullifier"
+	"display name" "卡赫特无效化器"
 	category "Guns"
 	series "Guns"
 	index 05030
@@ -113,6 +114,7 @@ effect "ionball ring"
 	"velocity scale" 0
 
 outfit "Ka'het Ravager Beam"
+	"display name" "卡赫特劫掠者光束"
 	category "Guns"
 	series "Guns"
 	index 05020
@@ -138,6 +140,7 @@ outfit "Ka'het Ravager Beam"
 	description "这道激光束由建造者创造，用于小行星采矿。不幸的是，当他们意识到它在战斗中的威力时，它已经调转枪口对准了他们。"
 
 outfit "Ka'het Ravager Turret"
+	"display name" "卡赫特劫掠者炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 05020
@@ -173,6 +176,7 @@ effect "ravager impact"
 	"velocity scale" 0
 
 outfit "Ka'het Annihilator"
+	"display name" "卡赫特歼灭者"
 	category "Guns"
 	series "Guns"
 	index 05010
@@ -198,6 +202,7 @@ outfit "Ka'het Annihilator"
 	description "建造者很久以前最初创造了歼灭者，作为应对他们新发现的护盾矩阵的对策。他们持续开发了数个世纪，这是其最终版本。"
 
 outfit "Ka'het Annihilator Turret"
+	"display name" "卡赫特歼灭者炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 05010
@@ -225,6 +230,7 @@ outfit "Ka'het Annihilator Turret"
 	description "建造者在这座炮塔上安装了两台歼灭者，使其对敌方护盾极为高效。"
 
 outfit "Annihilator Projectile"
+	"display name" "歼灭者弹丸"
 	weapon
 		sprite "projectile/annihilator"
 			"frame rate" 7
@@ -237,6 +243,7 @@ outfit "Annihilator Projectile"
 		"hull damage" 12
 
 outfit "Ka'het EMP Deployer"
+	"display name" "卡赫特电磁脉冲部署器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 05010
@@ -287,6 +294,7 @@ outfit "Ka'het EMP Deployer"
 			has "gamerule: universal ammo restocking"
 
 outfit "Ka'het Emergency Deployer"
+	"display name" "卡赫特紧急部署器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 05020
@@ -347,6 +355,7 @@ effect "mhd explosion"
 # Cooling:
 
 outfit "Ka'het Support Cooling"
+	"display name" "卡赫特辅助冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 05010
@@ -360,6 +369,7 @@ outfit "Ka'het Support Cooling"
 
 
 outfit "Ka'het Primary Cooling"
+	"display name" "卡赫特主冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 05020
@@ -374,6 +384,7 @@ outfit "Ka'het Primary Cooling"
 # Shield:
 
 outfit "Ka'het Shield Restorer"
+	"display name" "卡赫特护盾修复者"
 	category "Systems"
 	series "Shields"
 	index 05010
@@ -386,6 +397,7 @@ outfit "Ka'het Shield Restorer"
 	description "建造者们向来不怎么依赖护盾矩阵，而更倾向于强化船体。然而，战争的现实迫使建造者研发出强大的护盾技术，最终一些赫特舰船开始广泛使用此模块。"
 
 outfit "Ka'het Grand Restorer"
+	"display name" "卡赫特大修复者"
 	category "Systems"
 	series "Shields"
 	index 05020
@@ -402,6 +414,7 @@ outfit "Ka'het Grand Restorer"
 # Power:
 
 outfit "Ka'het MHD Generator"
+	"display name" "卡赫特磁流体发电机"
 	category "Power"
 	series "Generators"
 	index 05010
@@ -414,6 +427,7 @@ outfit "Ka'het MHD Generator"
 	description "建造者最初制造了这台磁流体发电机作为卡玛尔的主要动力源。与许多玛尔装置的情况类似，后来它被重新用于赫特飞船的辅助能源发电机，当它们集成的动力系统被证明不令人满意时，补充其能量供应。"
 
 outfit "Ka'het Reserve Accumulator"
+	"display name" "卡赫特备用蓄能器"
 	category "Power"
 	series "Batteries"
 	index 05010
@@ -425,6 +439,7 @@ outfit "Ka'het Reserve Accumulator"
 	description "这块微型电池是为卡玛尔无人机开发的紧急储能设备，以防其发电机不足以满足大多数建造者系统的高功率需求。"
 
 outfit "Ka'het Ion Trap"
+	"display name" "卡赫特离子阱"
 	category "Power"
 	series "Generators"
 	index 05010
@@ -441,7 +456,8 @@ outfit "Ka'het Ion Trap"
 # Engines:
 
 outfit "Maeri Engine Nacelles"
-	plural "梅里引擎舱"
+	"display name" "梅里引擎舱"
+	"plural" "梅里引擎舱"
 	category "Engines"
 	series "Engines"
 	index 05030
@@ -465,7 +481,8 @@ outfit "Maeri Engine Nacelles"
 	description "卡赫特引擎的独特之处在于，它们持续消耗大量能量，但启动时无需额外能量：这意味着其他子系统可用的能量会减少，但比起大多数推进方式也更为高效，且仅产生微量的热量。"
 
 outfit "Ka'het Sustainer Nacelles"
-	plural "卡赫特维持者引擎舱"
+	"display name" "卡赫特维持者引擎舱"
+	"plural" "卡赫特维持者引擎舱"
 	category "Engines"
 	series "Engines"
 	index 05020
@@ -489,7 +506,8 @@ outfit "Ka'het Sustainer Nacelles"
 	description "虽然卡赫特船只已配备标准引擎，但大多数还额外使用维持引擎，为飞船提供足够的机动性以应对战斗。与它的大型同类设计相同，维持引擎无需电力即可运行，但代价是持续消耗能量。"
 
 outfit "Telis Engine Nacelles"
-	plural "泰利斯引擎舱"
+	"display name" "泰利斯引擎舱"
+	"plural" "泰利斯引擎舱"
 	category "Engines"
 	series "Engines"
 	index 05040
@@ -513,6 +531,7 @@ outfit "Telis Engine Nacelles"
 	description "这些吊舱原本构成了整台泰利斯赫特飞船的引擎组。虽与其他引擎相比体积并不惊人，但若与一两台持续推进器配合使用，它们可以成为一种强大的推进形式，将转向与推进引擎合二为一。"
 
 outfit "Vareti Engine Block"
+	"display name" "瓦雷蒂引擎组"
 	category "Engines"
 	series "Engines"
 	index 05050
@@ -536,6 +555,7 @@ outfit "Vareti Engine Block"
 	description "这是建造者建造过的最大单体引擎，专为他们控制的最大型舰船制造。由于其巨大体积，它不像较小版本那样模块化，但因此也更加高效和强大。"
 
 outfit "Ka'het Compact Engine"
+	"display name" "卡赫特紧凑型引擎"
 	category "Engines"
 	series "Engines"
 	index 05010
@@ -563,6 +583,7 @@ outfit "Ka'het Compact Engine"
 # Hand to Hand:
 
 outfit "Ka'het Electric Stunner"
+	"display name" "卡赫特电击器"
 	category "Hand to Hand"
 	cost 103500
 	thumbnail "outfit/ka'het taser"

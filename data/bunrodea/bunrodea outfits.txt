@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Shield Relay Booster"
+	"display name" "护盾中继增强器"
 	category "Systems"
 	series "Shields"
 	index 10098
@@ -25,6 +26,7 @@ outfit "Shield Relay Booster"
 	description "护盾中继增强器是一种可安装到邦罗迪亚护盾中继器中的组件，用以调整其效能。增强器能提升中继器的护盾生成强度，但代价是降低能量效率。"
 
 outfit "Shield Relay Limiter"
+	"display name" "护盾中继限制器"
 	category "Systems"
 	series "Shields"
 	index 10099
@@ -38,6 +40,7 @@ outfit "Shield Relay Limiter"
 	description "护盾中继限制器是一种可安装到邦罗迪亚护盾中继器中以调整其效能的组件。限制器可提高中继器的能量效率，但代价是降低其护盾生成强度。"
 
 outfit "Small Shield Relay"
+	"display name" "小型护盾中继器"
 	category "Systems"
 	series "Shields"
 	index 10010
@@ -54,6 +57,7 @@ outfit "Small Shield Relay"
 	description "	护盾中继器可通过安装护盾增强器或限制器进行升级，从而改变其性能。不过，每个中继器上用于这些升级的插槽数量有限。"
 
 outfit "Large Shield Relay"
+	"display name" "大型护盾中继器"
 	category "Systems"
 	series "Shields"
 	index 10020
@@ -72,6 +76,7 @@ outfit "Large Shield Relay"
 
 
 outfit "Nanite Enhancer"
+	"display name" "纳米增强器"
 	category "Systems"
 	series "Repair"
 	index 10098
@@ -85,6 +90,7 @@ outfit "Nanite Enhancer"
 	description "纳米增强器是一种可安装到邦罗迪亚纳米制造机中的组件，用于调整其效能。增强器能提升制造机的船体修复强度，但代价是降低能源效率。"
 
 outfit "Nanite Limiter"
+	"display name" "纳米限制器"
 	category "Systems"
 	series "Repair"
 	index 10099
@@ -98,6 +104,7 @@ outfit "Nanite Limiter"
 	description "纳米限制器是一种可安装到邦罗迪亚纳米制造机上的组件，用于调整其效能。限制器能提升制造机的能量与散热效率，但代价是降低其船体修复强度。"
 
 outfit "Small Nanite Fabricator"
+	"display name" "小型纳米制造机"
 	category "Systems"
 	series "Repair"
 	index 10010
@@ -114,6 +121,7 @@ outfit "Small Nanite Fabricator"
 	description "	纳米制造机可通过安装纳米增强器或限制器来升级，从而改变制造机的性能。不过，每台制造机用于这些升级的插槽数量有限。"
 
 outfit "Large Nanite Fabricator"
+	"display name" "大型纳米制造机"
 	category "Systems"
 	series "Repair"
 	index 10020
@@ -132,7 +140,8 @@ outfit "Large Nanite Fabricator"
 
 
 outfit "Solar Battery"
-	plural "太阳能蓄电池"
+	"display name" "太阳能蓄电池"
+	"plural" "太阳能蓄电池"
 	category "Power"
 	series "Batteries"
 	index 10010
@@ -146,6 +155,7 @@ outfit "Solar Battery"
 	description "邦罗迪亚太阳能蓄电池是安装太阳能电池板所必需的，但太阳能蓄电池完全可以脱离太阳能电池板独立使用。许多船长会安装蓄电池来储存常规反应堆产生的能量，而根本不安装太阳能电池板。"
 
 outfit "Solar Cell"
+	"display name" "太阳能电池"
 	category "Power"
 	series "Batteries"
 	index 10020
@@ -162,6 +172,7 @@ outfit "Solar Cell"
 
 
 outfit "Reactor Overclocker"
+	"display name" "反应堆超频器"
 	category "Power"
 	series "Generators"
 	index 10098
@@ -175,6 +186,7 @@ outfit "Reactor Overclocker"
 	description "反应堆超频器是一种可安装到邦罗迪亚反应堆上的组件，用于调整其效能。超频器能够增强反应堆的能量生成强度，但代价是降低热效率。"
 
 outfit "Reactor Limiter"
+	"display name" "反应堆限制器"
 	category "Power"
 	series "Generators"
 	index 10099
@@ -188,6 +200,7 @@ outfit "Reactor Limiter"
 	description "反应堆限制器是一种可安装到邦罗迪亚反应堆中以调整其效能的组件。限制器能提升反应堆的热效率，但代价是削弱其能量生成的强度。"
 
 outfit "Quark Reactor"
+	"display name" "夸克反应堆"
 	category "Power"
 	series "Generators"
 	index 10010
@@ -204,6 +217,7 @@ outfit "Quark Reactor"
 	description "	邦罗迪亚反应堆可通过安装反应堆超频器或限制器进行升级，以改变反应堆的性能。不过，每个反应堆用于安装这些升级组件的槽位数量有限。"
 
 outfit "Electroweak Reactor"
+	"display name" "电弱反应堆"
 	category "Power"
 	series "Generators"
 	index 10020
@@ -220,6 +234,7 @@ outfit "Electroweak Reactor"
 	description "	邦罗迪亚反应堆可通过安装反应堆超频器或限制器进行升级，以改变反应堆的性能。不过，每个反应堆用于安装这些升级组件的槽位数量有限。"
 
 outfit "Dark Reactor"
+	"display name" "暗能反应堆"
 	category "Power"
 	series "Generators"
 	index 10030
@@ -238,6 +253,7 @@ outfit "Dark Reactor"
 
 
 outfit "Lasher Pistol"
+	"display name" "鞭击手枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 10010
@@ -252,6 +268,7 @@ outfit "Lasher Pistol"
 
 
 outfit "Chiisana Rift Thruster"
+	"display name" "小型裂隙推进器"
 	category "Engines"
 	series "Engines"
 	index 10011
@@ -271,6 +288,7 @@ outfit "Chiisana Rift Thruster"
 	description "尽管科拉斯人偏好引擎的纯粹功率，邦罗迪亚人则追求效率，他们选择使用推力较小但产生热量显著降低的引擎。"
 
 outfit "Nami Rift Thruster"
+	"display name" "标准裂隙推进器"
 	category "Engines"
 	series "Engines"
 	index 10021
@@ -290,6 +308,7 @@ outfit "Nami Rift Thruster"
 	description "尽管裂隙引擎的热效率极高，但相对于其产生的推力，其能量需求仍然相当高，即便与效率极其低下的科拉斯引擎相比也是如此。"
 
 outfit "Ookii Rift Thruster"
+	"display name" "大型裂隙推进器"
 	category "Engines"
 	series "Engines"
 	index 10031
@@ -309,6 +328,7 @@ outfit "Ookii Rift Thruster"
 	description "虽然裂隙引擎的单位推力能量消耗不如科拉斯引擎，但其总体能量需求仍然远小于后者。"
 
 outfit "Subarashii Rift Thruster"
+	"display name" "卓越裂隙推进器"
 	category "Engines"
 	series "Engines"
 	index 10041
@@ -327,6 +347,7 @@ outfit "Subarashii Rift Thruster"
 	description "由于裂隙引擎的尺寸和推力较小，邦罗迪亚飞船在追击能力方面并不出名。但在部分邦罗迪亚人中流传着一种传闻：存在一批古老的引擎，其威力甚至超越科拉斯所拥有的，足以让任何飞船如彗星般划过星海并追上任何潜在目标。"
 
 outfit "Chiisana Rift Steering"
+	"display name" "小型裂隙转向器"
 	category "Engines"
 	series "Engines"
 	index 10010
@@ -346,6 +367,7 @@ outfit "Chiisana Rift Steering"
 	description "由于邦罗迪亚飞船通常侧重于大量使用前向火炮，邦罗迪亚人比起高航速更偏好高转向率。因此，裂隙转向系统比同尺寸级别的推进系统更大。"
 
 outfit "Nami Rift Steering"
+	"display name" "标准裂隙转向器"
 	category "Engines"
 	series "Engines"
 	index 10020
@@ -365,6 +387,7 @@ outfit "Nami Rift Steering"
 	description "与许多邦罗迪亚系统一样，裂隙引擎产生的热量极少。这使得他们的飞船可以省去大型冷却系统，从而为其他系统（无论是防御型还是攻击型）腾出更多空间。"
 
 outfit "Ookii Rift Steering"
+	"display name" "大型裂隙转向器"
 	category "Engines"
 	series "Engines"
 	index 10030
@@ -384,6 +407,7 @@ outfit "Ookii Rift Steering"
 	description "尽管侧重转向而非推进使得邦罗迪亚飞船容易成为被追踪的目标，但其武器系统的威力，足以让任何把它们当成待宰羔羊的蠢货付出代价。"
 
 outfit "Subarashii Rift Steering"
+	"display name" "卓越裂隙转向器"
 	category "Engines"
 	series "Engines"
 	index 10040

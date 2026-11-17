@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "vyu-Ir"
+	"display name" "维尤-艾尔"
 	noun "实体"
 	sprite "ship/vyuir/vyuir"
 		"frame rate" 4

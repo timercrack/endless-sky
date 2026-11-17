@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Bombardment Cannon"
+	"display name" "轰击炮"
 	category "Guns"
 	series "Guns"
 	index 08010
@@ -41,6 +42,7 @@ outfit "Bombardment Cannon"
 	description `轰击炮是在与夸格最初交战时设计的，旨在让日权会的民用船只能够在安全距离外打击夸格战舰。但如今，正如他们的所有其他武器一样，它仅限装备于日权会的战舰上。`
 
 outfit "Bombardment Turret"
+	"display name" "轰击炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 08010
@@ -85,6 +87,7 @@ effect "bombardment impact"
 
 
 outfit "Finisher Pod"
+	"display name" "终结者荚舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 08010
@@ -127,6 +130,7 @@ outfit "Finisher Pod"
 			has "gamerule: universal ammo restocking"
 
 outfit "Finisher Maegrolain"
+	"display name" "终结者迈格罗兰"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 08020
@@ -171,6 +175,7 @@ outfit "Finisher Maegrolain"
 			has "gamerule: universal ammo restocking"
 
 outfit "Active Finisher"
+	"display name" "激活态终结者"
 	weapon
 		sprite "projectile/finisher"
 			"frame rate" 2.4
@@ -193,6 +198,7 @@ outfit "Active Finisher"
 		"hit force" 1125
 
 outfit "Finisher Storage Tube"
+	"display name" "终结者储存管"
 	category "Ammunition"
 	series "Ammunition"
 	index 08011
@@ -206,7 +212,8 @@ outfit "Finisher Storage Tube"
 	description "为了让日权会的飞船能够安装更多终结者存储管，日权会工程师在每个模块中集成了一个微型电池组。这使得日权会的飞船在拥有不俗的能量容量之余，还能携带数量惊人的终结者鱼雷。"
 
 outfit "Finisher Torpedo"
-	plural "终结者鱼雷"
+	"display name" "终结者鱼雷"
+	"plural" "终结者鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 08010
@@ -270,6 +277,7 @@ outfitter "Finisher Torpedo Restock"
 
 
 outfit "Heliarch Attractor"
+	"display name" "日权会吸引器"
 	category "Turrets"
 	series "Turrets"
 	index 08030
@@ -315,6 +323,7 @@ effect "attractor impact"
 
 
 outfit "Heliarch Repulsor"
+	"display name" "日权会排斥器"
 	category "Turrets"
 	series "Turrets"
 	index 08040
@@ -361,6 +370,7 @@ effect "repulsor impact"
 
 
 outfit "Ion Hail Turret"
+	"display name" "离子冰雹炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 08020
@@ -389,6 +399,7 @@ outfit "Ion Hail Turret"
 	description "日权会并没有简单地将离子雨炮直接安装在炮塔基座上，而是微调了射击循环，使得每次射击的效果都显著增强，整体射程也得以提升，但代价是需要一段重新装填的时间。"
 
 outfit "ion hail"
+	"display name" "离子冰雹"
 	weapon
 		sprite "projectile/ion rain"
 			"frame rate" 7
@@ -406,6 +417,7 @@ outfit "ion hail"
 
 
 outfit "Ion Rain Gun"
+	"display name" "离子雨炮"
 	category "Guns"
 	series "Guns"
 	index 08020
@@ -450,6 +462,7 @@ effect "ion rain impact"
 
 
 outfit "MCS Extractor"
+	"display name" "MCS 提取器"
 	category "Guns"
 	series "Guns"
 	index 08030

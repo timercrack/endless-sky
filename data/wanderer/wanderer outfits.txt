@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Sunbeam"
+	"display name" "日光束"
 	category "Guns"
 	series "Guns"
 	index 09020
@@ -50,6 +51,7 @@ effect "sunbeam impact"
 	"velocity scale" -.0001
 
 outfit "Sunbeam Turret"
+	"display name" "日光束炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 09020
@@ -82,6 +84,7 @@ outfit "Sunbeam Turret"
 	description "随着流浪者逐渐适应从和平时期向与无羁亥族日益加剧的冲突的转变，他们开始建造能够搭载炮塔武器的飞船。由于日光束本身体积庞大，该炮塔仅能携带一门这样的武器。"
 
 outfit "Dual Sunbeam Turret"
+	"display name" "双联日光束炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 09030
@@ -114,6 +117,7 @@ outfit "Dual Sunbeam Turret"
 	description "这座炮塔装备了一对流浪者日光束。对于任何能够满足其能量需求的舰船来说，它都是一件极其强大的武器。"
 
 outfit "Moonbeam"
+	"display name" "月光束"
 	category "Guns"
 	series "Guns"
 	index 09010
@@ -160,6 +164,7 @@ effect "moonbeam impact"
 	"velocity scale" -.002
 
 outfit "Moonbeam Turret"
+	"display name" "月光束炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 09010
@@ -195,6 +200,7 @@ outfit "Moonbeam Turret"
 	description "该炮塔仅搭载一门月光束武器，但提高了工作周期，因此其伤害比非炮塔版高出50%。"
 
 outfit "Wanderer Anti-Missile"
+	"display name" "流浪者反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 09010
@@ -228,6 +234,7 @@ effect "wanderer anti-missile"
 	"velocity scale" 1
 
 outfit "Thunderhead Launcher"
+	"display name" "雷霆发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 09010
@@ -273,6 +280,7 @@ outfit "Thunderhead Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Thunderhead Missile"
+	"display name" "雷霆导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 09010
@@ -283,6 +291,7 @@ outfit "Thunderhead Missile"
 	description "雷霆集束导弹是流浪者研发的远程导弹，接近目标时会分裂成五枚快速而灵活的子弹头。每具发射器可装载多达40枚此类导弹。"
 
 outfit "Thunderhead"
+	"display name" "雷霆子弹头"
 	weapon
 		sprite "projectile/thunderhead fragment"
 			"no repeat"
@@ -306,6 +315,7 @@ outfit "Thunderhead"
 		"missile strength" 3
 
 outfit "Thunderhead Storage Array"
+	"display name" "雷霆存储阵列"
 	category "Ammunition"
 	series "Ammunition"
 	index 09011
@@ -331,6 +341,7 @@ outfitter "Thunderhead Missile Restock"
 		"Thunderhead Missile"
 
 outfit "Small Biochemical Cell"
+	"display name" "小型生化电池"
 	category "Power"
 	series "Generators"
 	index 09010
@@ -346,6 +357,7 @@ outfit "Small Biochemical Cell"
 	description "这个微型发电机从一群微生物的代谢副产物中汲取能量；这些微生物由流浪者专门为此目的设计而成。"
 
 outfit "Large Biochemical Cell"
+	"display name" "大型生化电池"
 	category "Power"
 	series "Generators"
 	index 09020
@@ -361,6 +373,7 @@ outfit "Large Biochemical Cell"
 	description "流浪者掌握着奇特而高效的技术。这种生物反应器通过培养能产生微小电荷的微生物来提供燃料。"
 
 outfit "Red Sun Reactor"
+	"display name" "红日反应堆"
 	category "Power"
 	series "Generators"
 	index 09030
@@ -376,6 +389,7 @@ outfit "Red Sun Reactor"
 	description "流浪者最近开始生产这种小型反应堆，以便在他们的战舰中挤出一点额外的能量输出。"
 
 outfit "Yellow Sun Reactor"
+	"display name" "黄日反应堆"
 	category "Power"
 	series "Generators"
 	index 09040
@@ -391,6 +405,7 @@ outfit "Yellow Sun Reactor"
 	description "这是一个由流浪者设计的紧凑型核反应堆。除了发电外，它还能储存少量能量。"
 
 outfit "White Sun Reactor"
+	"display name" "白日反应堆"
 	category "Power"
 	series "Generators"
 	index 09050
@@ -406,6 +421,7 @@ outfit "White Sun Reactor"
 	description "白阳是一种大型核反应堆，流浪者用它来为他们的强风战舰提供动力。"
 
 outfit "Blue Sun Reactor"
+	"display name" "蓝日反应堆"
 	category "Power"
 	series "Generators"
 	index 09060
@@ -422,6 +438,7 @@ outfit "Blue Sun Reactor"
 
 
 outfit "Bright Cloud Shielding"
+	"display name" "明云护盾"
 	category "Systems"
 	series "Shields"
 	index 09010
@@ -436,6 +453,7 @@ outfit "Bright Cloud Shielding"
 	description "这种小型流浪者护盾发生器能够以相当高的速率为飞船护盾充能，但其耗电量也比其他一些护盾发生器更高。"
 
 outfit "Dark Storm Shielding"
+	"display name" "暗风暴护盾"
 	category "Systems"
 	series "Shields"
 	index 09020
@@ -450,6 +468,7 @@ outfit "Dark Storm Shielding"
 	description "这种流浪者护盾发生器能比人类任何护盾技术更快地恢复飞船的护盾强度，但在充能时也会消耗更大的功率。"
 
 outfit "Wanderer Ramscoop"
+	"display name" "流浪者冲压集气器"
 	category "Systems"
 	series "Ramscoops"
 	index 09010
@@ -464,6 +483,7 @@ outfit "Wanderer Ramscoop"
 
 
 outfit "Wanderer Heat Sink"
+	"display name" "流浪者散热器"
 	category "Systems"
 	series "Cooling"
 	index 09010
@@ -478,6 +498,7 @@ outfit "Wanderer Heat Sink"
 
 
 outfit "Type 1 Radiant Thruster"
+	"display name" "1型辐射推进器"
 	category "Engines"
 	series "Engines"
 	index 09011
@@ -498,6 +519,7 @@ outfit "Type 1 Radiant Thruster"
 	description "这是最小的流浪者引擎。和所有他们的引擎一样，它部分通过辐射多余热量来工作，因此它也能兼作你飞船的冷却器。"
 
 outfit "Type 2 Radiant Thruster"
+	"display name" "2型辐射推进器"
 	category "Engines"
 	series "Engines"
 	index 09021
@@ -518,6 +540,7 @@ outfit "Type 2 Radiant Thruster"
 	description "流浪者引擎通过将飞船的过剩热量转移到排气等离子体中工作。在未提供推力时，引擎仍可充当冷却系统。"
 
 outfit "Type 3 Radiant Thruster"
+	"display name" "3型辐射推进器"
 	category "Engines"
 	series "Engines"
 	index 09031
@@ -538,6 +561,7 @@ outfit "Type 3 Radiant Thruster"
 	description "大多数这种大小的引擎都会产生大量热量，但流浪者研发出了一种方法，利用引擎自身将飞船的额外热量排出，并在此过程中产生额外的推进力。"
 
 outfit "Type 4 Radiant Thruster"
+	"display name" "4型辐射推进器"
 	category "Engines"
 	series "Engines"
 	index 09041
@@ -558,6 +582,7 @@ outfit "Type 4 Radiant Thruster"
 	description "这是流浪者所研发的最大引擎。其极为高效的设计使其即使在运转时也能为你的飞船降温。"
 
 outfit "Type 1 Radiant Steering"
+	"display name" "1型辐射转向器"
 	category "Engines"
 	series "Engines"
 	index 09010
@@ -578,6 +603,7 @@ outfit "Type 1 Radiant Steering"
 	description "这个微小的转向系统被流浪者用于驱动他们的无人驾驶采矿和勘探无人机。"
 
 outfit "Type 2 Radiant Steering"
+	"display name" "2型辐射转向器"
 	category "Engines"
 	series "Engines"
 	index 09020
@@ -598,6 +624,7 @@ outfit "Type 2 Radiant Steering"
 	description "这个小型流浪者转向系统即使在未使用时也能排出飞船的过剩热量，使其兼作冷却系统。"
 
 outfit "Type 3 Radiant Steering"
+	"display name" "3型辐射转向器"
 	category "Engines"
 	series "Engines"
 	index 09030
@@ -618,6 +645,7 @@ outfit "Type 3 Radiant Steering"
 	description "此转向系统用于流浪者的中型舰船。除了转动舰船外，它还能排放大量热量。"
 
 outfit "Type 4 Radiant Steering"
+	"display name" "4型辐射转向器"
 	category "Engines"
 	series "Engines"
 	index 09040
@@ -638,6 +666,7 @@ outfit "Type 4 Radiant Steering"
 	description "这是流浪者出售的最大型转向系统。"
 
 outfit "Wanderer Outfits License"
+	"display name" "流浪者装备许可证"
 	category "Licenses"
 	series "Licenses"
 	index 09010
@@ -645,6 +674,7 @@ outfit "Wanderer Outfits License"
 	description "这个形状奇特的盘子里保存着一批哨兵裙草种子。这是一种敏感而坚韧的物种，流浪者在初期改造行星时用它来检测星球对其方法的响应程度。每颗种子都内置了世代限制，确保这种草在几个生命周期后消失，不会与原生植物竞争。这些种子象征着行星改造的开始和善意的传递，赋予持有者获取流浪者装备的权利。"
 
 outfit "Wanderer License"
+	"display name" "流浪者许可证"
 	category "Licenses"
 	series "Licenses"
 	index 09020
@@ -652,6 +682,7 @@ outfit "Wanderer License"
 	description "这枚琥珀外壳中封存的贵族守望木的枝叶——据传来自流浪者最初的母星——象征着他们的骄傲与喜悦：一颗行星的彻底复兴。这种树虽然体量无匹、令人敬畏，却对气候的丝毫变化都极为脆弱，因此一棵这样的树木能生长至成熟，被视为生态系统恢复的标志。作为和平的象征，如同地球的橄榄枝一般，它赋予持有者购买非军用流浪者飞船的权利。"
 
 outfit "Wanderer Military License"
+	"display name" "流浪者军用许可证"
 	category "Licenses"
 	series "Licenses"
 	index 09030

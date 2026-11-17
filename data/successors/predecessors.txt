@@ -14,7 +14,8 @@
 # Solitude Enforcer Ships
 
 ship "Resja, of the Nine Eyes"
-	plural "Resjan, of the Nine Eyes"
+	"display name" "九眼之雷斯雅"
+	"plural" "九眼之雷斯雅"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
@@ -120,7 +121,8 @@ effect "resja afterburner"
 	lifetime 7
 
 ship "Hasur, Vowsworn"
-	plural "Hasuran, Vowsworn"
+	"display name" "守誓者哈苏尔"
+	"plural" "守誓者哈苏尔"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
@@ -217,7 +219,8 @@ effect "hasur afterburner"
 	lifetime 5
 
 ship "Queru, Luminous Gaze"
-	plural "Querun, Luminous Gazes"
+	"display name" "辉目者奎鲁"
+	"plural" "辉目者奎鲁"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
@@ -317,6 +320,7 @@ effect "queru afterburner"
 # Solitude Enforcer Outfits
 
 outfit `"Iasa," Lethal Word`
+	"display name" "“伊阿萨”致命之言"
 	category "Guns"
 	series "Guns"
 	index 11050
@@ -356,7 +360,8 @@ effect "iasa fire"
 
 
 outfit `"Kis," Lethal Wish`
-	plural `"Kis," Lethal Wishes`
+	"display name" "“基斯”致命之愿"
+	"plural" "“基斯”致命之愿"
 	category "Guns"
 	series "Guns"
 	index 11060
@@ -381,6 +386,7 @@ outfit `"Kis," Lethal Wish`
 	description `Like a cold and ravenous beast, the frightful Kis tears through the defenses of anything that dares stride close enough to its jaws. At long range this weapon loses its high shield penetration but continues to output respectable damage, encouraging enemies to retreat while they still can.`
 
 outfit "kis short range"
+	"display name" "“基斯”短程弹"
 	weapon
 		sprite "projectile/kis"
 			"frame time" 3
@@ -395,6 +401,7 @@ outfit "kis short range"
 		"submunition" "kis long range" 3
 
 outfit "kis long range"
+	"display name" "“基斯”远程弹"
 	weapon
 		sprite "projectile/drag cannon"
 			"start frame" 1
@@ -417,6 +424,7 @@ effect "kis impact"
 
 
 outfit `"Torji," Lethal Sight`
+	"display name" "“托尔吉”致命之视"
 	category "Guns"
 	series "Guns"
 	index 11060
@@ -447,6 +455,7 @@ outfit `"Torji," Lethal Sight`
 
 
 outfit `Crimson Halo`
+	"display name" "绯红光环"
 	category "Systems"
 	series "Shields"
 	index 11050
@@ -462,6 +471,7 @@ outfit `Crimson Halo`
 
 
 outfit `Visions of Rime`
+	"display name" "霜之幻象"
 	category "Systems"
 	series "Cooling"
 	index 11020
@@ -478,9 +488,10 @@ outfit `Visions of Rime`
 # Heirloom Ships
 
 ship "Valkkyiara-Khorasaqra"
+	"display name" "瓦尔基亚拉-科拉萨克拉"
 	sprite "ship/valkkyiara-khorasaqra"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
-	"plural" "Valkkyiara-Khorasaqran"
+	"plural" "瓦尔基亚拉-科拉萨克拉"
 	"never disabled"
 	"administrative cost" 8
 	attributes
@@ -571,6 +582,7 @@ ship "Valkkyiara-Khorasaqra"
 # Heirloom outfits
 
 outfit `"Sarija" Heirloom Coilgun`
+	"display name" "“萨里嘉”传家线圈炮"
 	category "Guns"
 	series "Guns"
 	index 11011
@@ -609,6 +621,7 @@ outfit `"Sarija" Heirloom Coilgun`
 
 
 outfit `"Tijra" Heirloom Lance`
+	"display name" "“蒂吉拉”传家长矛"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 11011
@@ -649,6 +662,7 @@ outfit `"Tijra" Heirloom Lance`
 
 
 outfit `"Ija" Heirloom Reactor`
+	"display name" "“伊嘉”传家反应堆"
 	category "Power"
 	series "Generators"
 	index 11051
@@ -664,6 +678,7 @@ outfit `"Ija" Heirloom Reactor`
 
 
 outfit "Heirloom Power Reserve"
+	"display name" "传家储能器"
 	category "Power"
 	series "Batteries"
 	index 11030
@@ -677,6 +692,7 @@ outfit "Heirloom Power Reserve"
 
 
 outfit "Heirloom Cooling"
+	"display name" "传家冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 11020
@@ -691,6 +707,7 @@ outfit "Heirloom Cooling"
 
 
 outfit `"Jiita" Heirloom Shielding`
+	"display name" "“吉塔”传家护盾"
 	category "Systems"
 	series "Shields"
 	index 11031
@@ -706,6 +723,7 @@ outfit `"Jiita" Heirloom Shielding`
 
 
 outfit "Point Drive"
+	"display name" "点驱动器"
 	category "Systems"
 	series "Drives"
 	index 31
@@ -768,6 +786,7 @@ effect "point drive lightning"
 
 
 outfit "Stolen Cloak (Deactivated)"
+	"display name" "失窃隐形装置（已停用）"
 	category "Unique"
 	series "Functional Unique"
 	index 11

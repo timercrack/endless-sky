@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Nanobot"
+	"display name" "纳米机器人"
 	attributes
 		category "Unclassified"
 		"hull" 100
@@ -36,6 +37,7 @@ ship "Nanobot"
 	gun 0 0
 
 outfit "Nano Strike"
+	"display name" "纳米打击"
 	category "Guns"
 	series "Guns"
 	index 99090

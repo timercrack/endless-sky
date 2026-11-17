@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Subsidurial"
+	"display name" "萨布西杜尔"
 	noun "生物"
 	sprite "ship/subsidurial"
 	thumbnail "thumbnail/subsidurial"
@@ -60,6 +61,7 @@ effect "subsidurial death"
 
 
 ship "Void Sprite"
+	"display name" "虚空精灵"
 	noun "生物"
 	sprite "ship/void sprite/void sprite adult"
 		"frame rate" 14.3
@@ -164,6 +166,7 @@ effect "void sprite infant death"
 
 
 ship "Ember Waste Node"
+	"display name" "余烬废土节点"
 	noun "生物"
 	sprite "ship/ember waste node/ember waste node"
 		"frame rate" 5
@@ -221,6 +224,7 @@ ship "Ember Waste Node"
 
 
 ship "Embershade"
+	"display name" "烬影"
 	noun "生物"
 	sprite "ship/embershade/embershade"
 		"frame rate" 3
@@ -262,6 +266,7 @@ ship "Embershade"
 
 
 ship "Embersylph"
+	"display name" "灰烬精灵"
 	noun "生物"
 	sprite "ship/embersylph/embersylph"
 		"center" 0 -80
@@ -304,6 +309,7 @@ ship "Embersylph"
 
 
 outfit "Absorption Organ"
+	"display name" "吸收器官"
 	category "Turrets"
 	series "Turrets"
 	index 92010
@@ -323,6 +329,7 @@ outfit "Absorption Organ"
 
 
 outfit Mouthparts?
+	"display name" "口器？"
 	category "Guns"
 	series "Guns"
 	index 92020

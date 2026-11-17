@@ -899,10 +899,12 @@ event "wanderers: more systems lost"
 		remove tribute
 
 planet "The Eye"
+	"display name" "天眼"
 	spaceport ""
 	wormhole "The Eye"
 
 wormhole "The Eye"
+	"display name" "天眼"
 	mappable
 	link Sabriset Sko'karak
 	link Sko'karak Sabriset

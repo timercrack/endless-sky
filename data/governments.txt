@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 government "Aberrant"
+	"display name" "异变体"
 	swizzle 0
 	language "Ka'het"
 	color 0.4 0.4 0.7
@@ -38,6 +39,7 @@ government "Aberrant"
 		atrocity 0
 
 government "Alpha"
+	"display name" "阿尔法人"
 	swizzle 1
 	"crew attack" 1.5
 	"crew defense" 2.5
@@ -47,6 +49,7 @@ government "Alpha"
 	"fine" 0
 
 government "Author"
+	"display name" "作者"
 	confusion "perfect"
 	"player reputation" 1
 	"bribe" 0
@@ -57,6 +60,7 @@ government "Author"
 color "governments: Avgi" 0 0.72 0.84
 
 government "Avgi"
+	"display name" "阿夫吉"
 	swizzle 15
 	language "Avgi"
 	color "governments: Avgi"
@@ -242,11 +246,13 @@ government "Avgi (Wandering Fleet)"
 		system "Prelude"
 
 government "Bad Trip"
+	"display name" "噩幻"
 	swizzle 0
 	confusion "perfect"
 	"player reputation" -1000
 
 government "Bounty"
+	"display name" "悬赏目标"
 	swizzle 6
 	confusion "pirate"
 	"player reputation" -1000
@@ -273,6 +279,7 @@ government "Bounty (Disguised)"
 		atrocity 0
 
 government "Bounty Hunter"
+	"display name" "赏金猎人"
 	swizzle 6
 	color "governments: Pirate"
 	confusion "pirate"
@@ -284,6 +291,7 @@ government "Bounty Hunter"
 	"hostile disabled hail" "hostile disabled"
 
 government "Builder"
+	"display name" "建造者"
 	# While when you attack the drones they will try to defend themselves, when you come back
 	# as long as you don't attack them again they will focus on their usual activities
 	color .91 .13 .82
@@ -299,6 +307,7 @@ government "Builder"
 		atrocity 0
 
 government "Bunrodea"
+	"display name" "邦罗迪亚"
 	swizzle 3
 	color .35 .65 .3
 	language "Bunrodea"
@@ -381,6 +390,7 @@ government "Bunrodea (Megasa)"
 		assist 0
 
 government "Coalition"
+	"display name" "联盟"
 	swizzle 5
 	color 1 .6 .7
 	"crew attack" 1.1
@@ -397,6 +407,7 @@ government "Coalition"
 	"hostile disabled hail" "hostile disabled coalition"
 
 government "Conlatio"
+	"display name" "孔拉提奥"
 	swizzle 0
 	color 0.5 0.0 0.9
 	"crew attack" .2
@@ -420,6 +431,7 @@ government "Deep"
 	"hostile disabled hail" "hostile disabled"
 
 government "Deep Security"
+	"display name" "深渊安保"
 	swizzle 0
 	confusion "military"
 	"player reputation" 1
@@ -434,6 +446,7 @@ government "Deep Security"
 	"hostile disabled hail" "hostile disabled"
 
 government "Derelict"
+	"display name" "弃船"
 	"fine" 0
 
 government "Derelict (Boardable)"
@@ -445,6 +458,7 @@ government "Derelict (Boardable)"
 	"crew defense" 0
 
 government "Drak"
+	"display name" "德拉克"
 	swizzle 0
 	color 1 1 1
 	confusion "perfect"
@@ -489,6 +503,7 @@ government "Ember Waste"
 		"Remnant" .01
 
 government "Escort"
+	"display name" "护航队"
 	swizzle 5
 	confusion "player"
 	"fine" 0
@@ -510,6 +525,7 @@ government "Escort (Betraying)"
 color "governments: Free" .06 .68 0.
 
 government "Free Worlds"
+	"display name" "自由世界"
 	swizzle 2
 	color "governments: Free"
 	confusion "military"
@@ -531,6 +547,7 @@ government "Free Worlds"
 	raid "pirate raid"
 
 government "Gegno"
+	"display name" "格诺"
 	swizzle 0
 	language "Gegno"
 	color .75 .59 .27
@@ -551,6 +568,7 @@ government "Gegno"
 color "governments: Gegno Scin" .67 .73 .44
 
 government "Gegno Scin"
+	"display name" "格诺辛"
 	swizzle 18
 	language "Gegno"
 	color "governments: Gegno Scin"
@@ -607,6 +625,7 @@ government "Gegno Scin (Neutral)"
 color "governments: Gegno Vi" .68 .4 .4
 
 government "Gegno Vi"
+	"display name" "格诺维"
 	swizzle 0
 	language "Gegno"
 	color "governments: Gegno Vi"
@@ -707,6 +726,7 @@ government "Gegno Vi (Neutral)"
 color "governments: Hai" .86 .48 .79
 
 government "Hai"
+	"display name" "亥族"
 	swizzle 0
 	color "governments: Hai"
 	confusion "militia"
@@ -815,6 +835,7 @@ government "Hai Merchant (Human)"
 color "governments: Hai (Unfettered)" .55 .27 .76
 
 government "Hai (Unfettered)"
+	"display name" "无羁亥族"
 	swizzle 4
 	color "governments: Hai (Unfettered)"
 	"crew attack" 1.4
@@ -850,7 +871,7 @@ government "Hai (Unfettered)"
 	raid "Large Plundering Unfettered" 8
 
 government "Hai (Unfettered Challenger)"
-	"display name" "亥族（无羁者）"
+	"display name" "无羁亥族"
 	swizzle 5
 	"crew attack" 1.4
 	"crew defense" 2.2
@@ -867,7 +888,7 @@ government "Hai (Unfettered Challenger)"
 government "Hai (Unfettered Civilians)"
 	swizzle 4
 	color "governments: Hai (Unfettered)"
-	"display name" "亥族（无羁者）"
+	"display name" "无羁亥族"
 	confusion "pirate"
 	
 	"player reputation" 10
@@ -882,7 +903,7 @@ government "Hai (Unfettered Civilians)"
 
 government "Hai (Unfettered Wanderer Tribute)"
 	swizzle 4
-	"display name" "亥族（无羁者）"
+	"display name" "无羁亥族"
 	"crew attack" 1.4
 	"crew defense" 2.2
 	confusion "military"
@@ -917,6 +938,7 @@ government "Hai (Wormhole Access)"
 	"hostile disabled hail" "hostile disabled hai"
 
 government "Heliarch"
+	"display name" "日权会"
 	swizzle 22
 	color 1 .8 .5
 	"crew attack" 1.5
@@ -948,6 +970,7 @@ government "Heliarch Test Dummy"
 	"fine" 0
 
 government "Hicemus"
+	"display name" "希塞穆斯"
 	swizzle 0
 	color 0.6 0.0 0.4
 	"crew attack" .2
@@ -963,7 +986,7 @@ government "Hicemus"
 	"hostile disabled hail" "incipias hostile disabled"
 
 government "High Houses (Unknown)"
-	"display name" "Unknown"
+	"display name" "未知"
 	swizzle 0
 	color 0 .8 0
 	language "Successor"
@@ -974,6 +997,7 @@ government "High Houses (Unknown)"
 	"fine" 0
 
 government "House Aqrabe"
+	"display name" "阿克拉贝家族"
 	swizzle 3
 	color "governments: New Houses"
 	confusion "elite"
@@ -993,6 +1017,7 @@ government "House Aqrabe"
 	raid "People's Houses Raiders"
 
 government "House Chydiyi"
+	"display name" "奇迪伊家族"
 	swizzle 5
 	color "governments: Old Houses"
 	confusion "elite"
@@ -1012,6 +1037,7 @@ government "House Chydiyi"
 	raid "People's Houses Raiders"
 
 government "House Kaatrij"
+	"display name" "卡特里吉家族"
 	swizzle 3
 	color "governments: New Houses"
 	confusion "elite"
@@ -1031,6 +1057,7 @@ government "House Kaatrij"
 	raid "People's Houses Raiders"
 
 government "House Myurej"
+	"display name" "缪雷吉家族"
 	swizzle 5
 	color "governments: Old Houses"
 	confusion "elite"
@@ -1050,6 +1077,7 @@ government "House Myurej"
 	raid "People's Houses Raiders"
 
 government "House Seineq"
+	"display name" "塞内克家族"
 	swizzle 3
 	color "governments: New Houses"
 	confusion "elite"
@@ -1069,6 +1097,7 @@ government "House Seineq"
 	raid "People's Houses Raiders"
 
 government "House Sioeora"
+	"display name" "肖尔拉家族"
 	swizzle 5
 	color "governments: Old Houses"
 	confusion "elite"
@@ -1088,6 +1117,7 @@ government "House Sioeora"
 	raid "People's Houses Raiders"
 
 government "Incipias Civilian"
+	"display name" "因西皮亚斯平民"
 	swizzle 0
 	color 0.5 0.0 0.9
 	"crew attack" .2
@@ -1105,6 +1135,7 @@ government "Incipias Civilian"
 color "governments: Independent" .78 .36 .36
 
 government "Independent"
+	"display name" "独立"
 	swizzle 6
 	color "governments: Independent"
 	confusion "pirate"
@@ -1133,6 +1164,7 @@ government "Independent (Killable)"
 	"hostile disabled hail" "hostile disabled"
 
 government "Indigenous Lifeform"
+	"display name" "原生生物"
 	# Nothing you do permanently angers indigenous creatures, because they are
 	# not sentient and do not remember you as an individual.
 	confusion "wild"
@@ -1238,6 +1270,7 @@ government "Indigenous Lifeform (Tree Two)"
 		atrocity 0
 
 government "Ka'het"
+	"display name" "卡赫特"
 	swizzle 0
 	language "Ka'het"
 	confusion "ka'het"
@@ -1269,6 +1302,7 @@ government "Ka'het (Infighting)"
 	"player reputation" -1
 
 government "Ka'sei"
+	"display name" "卡塞"
 	swizzle 0
 	language "Ka'het"
 	confusion "ka'het"
@@ -1313,6 +1347,7 @@ government "Ka'sei (Patir 18)"
 		"Uninhabited" -.01
 
 government "Kor Efret"
+	"display name" "科·埃弗雷提"
 	swizzle 4
 	color .49 .33 .69
 	language "Korath"
@@ -1331,6 +1366,7 @@ government "Kor Efret"
 	"hostile disabled hail" "hostile disabled kor efret untranslated"
 
 government "Kor Mereti"
+	"display name" "科·梅雷提"
 	swizzle 5
 	color .43 .48 .87
 	language "Korath"
@@ -1353,6 +1389,7 @@ government "Kor Mereti (Hostile)"
 	"player reputation" -1000
 
 government "Kor Sestor"
+	"display name" "科·塞斯特"
 	swizzle 0
 	color 1 .36 .49
 	language "Korath"
@@ -1371,6 +1408,7 @@ government "Kor Sestor"
 color "governments: Korath Exiles" .8 .5 .1
 
 government "Korath"
+	"display name" "科拉斯"
 	swizzle 0
 	color "governments: Korath Exiles"
 	"crew attack" 1.4
@@ -1411,12 +1449,14 @@ government "Korath (Civilian)"
 	"hostile disabled hail" "hostile disabled korath untranslated"
 
 government "Korath Nanobots"
+	"display name" "科拉斯纳米机器人"
 	confusion "perfect"
 	"player reputation" -1000
 	"bribe" 0
 	"fine" 0
 
 government "Lunarium"
+	"display name" "月影社"
 	swizzle 2
 	"crew attack" 1.2
 	"crew defense" 2.7
@@ -1487,6 +1527,7 @@ government "Magic Asteroid (Patir 12.2)"
 	"player reputation" 10
 
 government "Marauder"
+	"display name" "掠夺者"
 	swizzle 6
 	confusion "perfect"
 	"player reputation" 1
@@ -1497,6 +1538,7 @@ government "Marauder"
 	"hostile disabled hail" "hostile disabled"
 
 government "Merchant"
+	"display name" "商人"
 	swizzle 5
 	confusion "civilian"
 	
@@ -1523,6 +1565,7 @@ government "Merchant (Hostile)"
 	"hostile hail" "hostile pirate"
 
 government "Militia"
+	"display name" "民兵"
 	swizzle 2
 	color "governments: Free"
 	confusion "military"
@@ -1540,6 +1583,7 @@ government "Militia"
 	"hostile disabled hail" "hostile disabled"
 
 government "Navy Intelligence"
+	"display name" "海军情报局"
 	swizzle 0
 	"crew attack" 1.2
 	"crew defense" 2.2
@@ -1551,6 +1595,7 @@ government "Navy Intelligence"
 	"hostile disabled hail" "hostile disabled"
 
 government "Navy (Oathkeeper)"
+	"display name" "海军守誓者"
 	swizzle 0
 	color "governments: Republic"
 	"crew attack" 1.2
@@ -1577,6 +1622,7 @@ government "Navy (Oathkeeper)"
 color "governments: Neutral" .84 .61 .37
 
 government "Neutral"
+	"display name" "中立"
 	swizzle 0
 	color "governments: Neutral"
 	
@@ -1596,6 +1642,7 @@ government "Neutral"
 color "governments: New Houses" .8 0 0.4
 
 government "New Houses"
+	"display name" "新派"
 	swizzle 3
 	color "governments: New Houses"
 	confusion "military"
@@ -1618,6 +1665,7 @@ government "New Houses"
 color "governments: Old Houses" 0.375 0.316 1
 
 government "Old Houses"
+	"display name" "旧派"
 	swizzle 5
 	color "governments: Old Houses"
 	confusion "military"
@@ -1638,6 +1686,7 @@ government "Old Houses"
 	raid "People's Houses Raiders"
 
 government "Parrot"
+	"display name" "鹦鹉"
 	swizzle 2
 	confusion "wild"
 	"player reputation" 1
@@ -1646,6 +1695,7 @@ government "Parrot"
 	"hostile disabled hail" "hostile disabled"
 
 government "People's Houses"
+	"display name" "民舍"
 	swizzle 6
 	color 0.92 0.29 0.20
 	confusion "militia"
@@ -1681,6 +1731,7 @@ government "People's Houses (Hostile)"
 color "governments: Pirate" .78 0. 0.
 
 government "Pirate"
+	"display name" "海盗"
 	swizzle 6
 	color "governments: Pirate"
 	confusion "pirate"
@@ -1730,11 +1781,13 @@ government "Pirate (Rival)"
 	raid "pirate raid"
 
 government "Predecessor"
+	"display name" "先民"
 	color .7 .7 .7
 
 color "governments: Pug" .99 .89 .70
 
 government "Pug"
+	"display name" "帕格"
 	swizzle 0
 	color "governments: Pug"
 	confusion "pug"
@@ -1772,6 +1825,7 @@ government "Pug (Wanderer)"
 color "governments: Quarg" .88 .77 0
 
 government "Quarg"
+	"display name" "夸格"
 	swizzle 4
 	color "governments: Quarg"
 	confusion "elite"
@@ -2039,6 +2093,7 @@ government "Quarg (Kor Efret)"
 color "governments: Remnant" .89 .38 .62
 
 government "Remnant"
+	"display name" "遗民"
 	swizzle 0
 	color "governments: Remnant"
 	"crew defense" 2.2
@@ -2135,6 +2190,7 @@ government "Remnant (Postverta)"
 color "governments: Republic" .91 .42 .09
 
 government "Republic"
+	"display name" "共和国"
 	swizzle 0
 	color "governments: Republic"
 	"crew attack" 1.2
@@ -2182,6 +2238,7 @@ government "Republic (Friendly)"
 	"ship bribe rejection hail" "ship bribe rejection navy"
 
 government "Rulei"
+	"display name" "鲁莱"
 	swizzle 0
 	confusion "perfect"
 	"player reputation" 0
@@ -2190,6 +2247,7 @@ government "Rulei"
 	"hostile hail" "rulei hostile"
 
 government "Scar's Legion"
+	"display name" "疤军团"
 	swizzle 6
 	color "governments: Pirate"
 	confusion "pirate"
@@ -2215,6 +2273,7 @@ government "Scar's Legion (Killable)"
 	"hostile disabled hail" "hostile disabled"
 
 government "Sheragi"
+	"display name" "谢拉吉"
 	swizzle 3
 	"player reputation" 1
 	"crew attack" 0
@@ -2238,6 +2297,7 @@ government "Silent Ones"
 		atrocity 0
 
 government "Solitude Enforcer"
+	"display name" "孤寂执行者"
 	swizzle 0
 	color 0 .8 0.653
 	language "Successor"
@@ -2248,6 +2308,7 @@ government "Solitude Enforcer"
 	"fine" 0
 
 government "Successor"
+	"display name" "继承者"
 	swizzle 4
 	color 0 .8 0.653
 	language "Successor"
@@ -2260,6 +2321,7 @@ government "Successor"
 color "governments: Syndicate" 0. .41 .71
 
 government "Syndicate"
+	"display name" "辛迪加"
 	swizzle 4
 	color "governments: Syndicate"
 	confusion "military"
@@ -2279,6 +2341,7 @@ government "Syndicate"
 	raid "pirate raid"
 
 government "Syndicate (Extremist)"
+	"display name" "辛迪加极端分子"
 	swizzle 1
 	color "governments: Syndicate"
 	confusion "elite"
@@ -2294,6 +2357,7 @@ government "Syndicate (Extremist)"
 	"hostile disabled hail" "hostile disabled"
 
 government "Team Blue"
+	"display name" "蓝队"
 	swizzle 5
 	confusion "basic automata"
 	"player reputation" -1000
@@ -2301,6 +2365,7 @@ government "Team Blue"
 		"Team Red" -.1
 
 government "Team Red"
+	"display name" "红队"
 	swizzle 0
 	confusion "basic automata"
 	"player reputation" -1000
@@ -2308,6 +2373,7 @@ government "Team Red"
 		"Team Blue" -.1
 
 government "Test Dummy"
+	"display name" "测试靶机"
 	swizzle 3
 	confusion "basic automata"
 	"player reputation" -1000
@@ -2319,11 +2385,13 @@ government "Test Dummy"
 color "governments: Ungoverned" .4 .4 .4
 
 government "Uninhabited"
+	"display name" "无人居住"
 	color "governments: Ungoverned"
 	"bribe" 0
 	"fine" 0
 
 government "Wanderer"
+	"display name" "流浪者"
 	swizzle 2
 	"crew attack" 1.4
 	"crew defense" 1.8
@@ -2341,6 +2409,7 @@ government "Wanderer"
 
 # A dummy government used to prevent Hai from entering the wormhole in Waypoint/Ultima Thule, but allowing human merchants and other governments to enter.
 government "Wormhole Alpha"
+	"display name" "阿尔法虫洞"
 	"bribe" 0
 	"fine" 0
 	"attitude toward"

@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Volcano Afterburner"
+	"display name" "火山加力燃烧室"
 	category "Engines"
 	series "Afterburners"
 	index 01000
@@ -39,6 +40,7 @@ effect "afterburner"
 	"velocity scale" 1.
 
 outfit "Caldera Afterburner"
+	"display name" "火山口加力燃烧室"
 	category "Engines"
 	series "Afterburners"
 	index 01010
@@ -67,6 +69,7 @@ effect "caldera afterburner"
 
 
 outfit "Ionic Afterburner"
+	"display name" "离子加力燃烧室"
 	category "Engines"
 	series "Afterburners"
 	index 01020
@@ -97,7 +100,8 @@ effect "ionic afterburner"
 
 
 outfit "X1050 Ion Engines"
-	plural "X1050 离子引擎"
+	"display name" "X1050 离子引擎"
+	"plural" "X1050 离子引擎"
 	category "Engines"
 	series "Engines"
 	index 01000
@@ -123,6 +127,7 @@ outfit "X1050 Ion Engines"
 
 
 outfit "X1700 Ion Thruster"
+	"display name" "X1700 离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01011
@@ -141,6 +146,7 @@ outfit "X1700 Ion Thruster"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X2700 Ion Thruster"
+	"display name" "X2700 离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01021
@@ -159,6 +165,7 @@ outfit "X2700 Ion Thruster"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X3700 Ion Thruster"
+	"display name" "X3700 离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01031
@@ -177,6 +184,7 @@ outfit "X3700 Ion Thruster"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X4700 Ion Thruster"
+	"display name" "X4700 离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01041
@@ -195,6 +203,7 @@ outfit "X4700 Ion Thruster"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X5700 Ion Thruster"
+	"display name" "X5700 离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01051
@@ -214,6 +223,7 @@ outfit "X5700 Ion Thruster"
 
 
 outfit "X1200 Ion Steering"
+	"display name" "X1200 离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01010
@@ -232,6 +242,7 @@ outfit "X1200 Ion Steering"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X2200 Ion Steering"
+	"display name" "X2200 离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01020
@@ -250,6 +261,7 @@ outfit "X2200 Ion Steering"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X3200 Ion Steering"
+	"display name" "X3200 离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01030
@@ -268,6 +280,7 @@ outfit "X3200 Ion Steering"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X4200 Ion Steering"
+	"display name" "X4200 离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01040
@@ -286,6 +299,7 @@ outfit "X4200 Ion Steering"
 	description "	离子引擎比等离子引擎消耗更少的能量，产生更少的热量，但在同等推力下占用更多空间。"
 
 outfit "X5200 Ion Steering"
+	"display name" "X5200 离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01050
@@ -305,6 +319,7 @@ outfit "X5200 Ion Steering"
 
 
 outfit "X1100 Ion Reverse Thruster"
+	"display name" "X1100 离子反向推进器"
 	category "Engines"
 	series "Engines"
 	index 01012
@@ -325,6 +340,7 @@ outfit "X1100 Ion Reverse Thruster"
 
 
 outfit "Chipmunk Plasma Thruster"
+	"display name" "花栗鼠等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01101
@@ -343,6 +359,7 @@ outfit "Chipmunk Plasma Thruster"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Greyhound Plasma Thruster"
+	"display name" "灵缇等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01111
@@ -361,6 +378,7 @@ outfit "Greyhound Plasma Thruster"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Impala Plasma Thruster"
+	"display name" "黑斑羚等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01121
@@ -379,6 +397,7 @@ outfit "Impala Plasma Thruster"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Orca Plasma Thruster"
+	"display name" "虎鲸等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01131
@@ -397,6 +416,7 @@ outfit "Orca Plasma Thruster"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Tyrant Plasma Thruster"
+	"display name" "暴君等离子推进器"
 	category "Engines"
 	series "Engines"
 	index 01141
@@ -416,6 +436,7 @@ outfit "Tyrant Plasma Thruster"
 
 
 outfit "Chipmunk Plasma Steering"
+	"display name" "花栗鼠等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01100
@@ -434,6 +455,7 @@ outfit "Chipmunk Plasma Steering"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Greyhound Plasma Steering"
+	"display name" "灵缇等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01110
@@ -452,6 +474,7 @@ outfit "Greyhound Plasma Steering"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Impala Plasma Steering"
+	"display name" "黑斑羚等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01120
@@ -470,6 +493,7 @@ outfit "Impala Plasma Steering"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Orca Plasma Steering"
+	"display name" "虎鲸等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01130
@@ -488,6 +512,7 @@ outfit "Orca Plasma Steering"
 	description "	在同等尺寸下，等离子引擎比离子引擎的动力更强一些，但能效较低且发热量更大。"
 
 outfit "Tyrant Plasma Steering"
+	"display name" "暴君等离子转向器"
 	category "Engines"
 	series "Engines"
 	index 01140
@@ -507,6 +532,7 @@ outfit "Tyrant Plasma Steering"
 
 
 outfit "Capybara Reverse Thruster"
+	"display name" "水豚反向推进器"
 	category "Engines"
 	series "Engines"
 	index 01102
@@ -527,6 +553,7 @@ outfit "Capybara Reverse Thruster"
 
 
 outfit "A120 Atomic Thruster"
+	"display name" "A120 原子推进器"
 	category "Engines"
 	series "Engines"
 	index 01201
@@ -544,6 +571,7 @@ outfit "A120 Atomic Thruster"
 	description "如果你在寻找能装入飞船的最强引擎，并且有大把的资金可供挥霍，那么幽海星的原子推进器就是你的不二之选。当然，它们所需的额外能量和冷却很容易抵消其体积小巧带来的优势。"
 
 outfit "A250 Atomic Thruster"
+	"display name" "A250 原子推进器"
 	category "Engines"
 	series "Engines"
 	index 01211
@@ -561,6 +589,7 @@ outfit "A250 Atomic Thruster"
 	description "幽海星的原子推进器已经生产了数个世纪，但由于价格高昂且能耗极高，目前仍属小众产品。"
 
 outfit "A370 Atomic Thruster"
+	"display name" "A370 原子推进器"
 	category "Engines"
 	series "Engines"
 	index 01221
@@ -578,6 +607,7 @@ outfit "A370 Atomic Thruster"
 	description "这款推进器体型小巧，足以安装在轻型战舰或货船上，但动力强大，足以驱动除最大型飞船外的任何飞船。当然，如此优异的性能也伴随着极其高昂的价格。"
 
 outfit "A520 Atomic Thruster"
+	"display name" "A520 原子推进器"
 	category "Engines"
 	series "Engines"
 	index 01231
@@ -595,6 +625,7 @@ outfit "A520 Atomic Thruster"
 	description "如果你的飞船装备了一套幽海星的原子引擎，你将成为银河系中每一位飞行员羡慕的对象。在人类发现的推进方式中，还没有任何其他形式能从如此小巧的引擎中产生如此巨大的推力。"
 
 outfit "A860 Atomic Thruster"
+	"display name" "A860 原子推进器"
 	category "Engines"
 	series "Engines"
 	index 01241
@@ -613,6 +644,7 @@ outfit "A860 Atomic Thruster"
 
 
 outfit "A125 Atomic Steering"
+	"display name" "A125 原子转向器"
 	category "Engines"
 	series "Engines"
 	index 01200
@@ -630,6 +662,7 @@ outfit "A125 Atomic Steering"
 	description "幽海星的原子推进器是高端星舰的热门选择。一套原子引擎的价格超过其所安装飞船的价格，这并不罕见。"
 
 outfit "A255 Atomic Steering"
+	"display name" "A255 原子转向器"
 	category "Engines"
 	series "Engines"
 	index 01210
@@ -647,6 +680,7 @@ outfit "A255 Atomic Steering"
 	description "如果你已经尝试了所有其他提升飞船机动性的手段，那或许是时候投资一套原子引擎了。"
 
 outfit "A375 Atomic Steering"
+	"display name" "A375 原子转向器"
 	category "Engines"
 	series "Engines"
 	index 01220
@@ -664,6 +698,7 @@ outfit "A375 Atomic Steering"
 	description "赏金猎人以及其他需要获得速度优势以追击敌船的船长们，常常梦想能攒够钱买一套原子引擎。"
 
 outfit "A525 Atomic Steering"
+	"display name" "A525 原子转向器"
 	category "Engines"
 	series "Engines"
 	index 01230
@@ -681,6 +716,7 @@ outfit "A525 Atomic Steering"
 	description "这套来自幽海星的机动推进器能让小型战舰拥有与战斗机相当的转向速度。对于大型舰船，将现有引擎替换为原子引擎可以释放出大量空间，用于安装其他装备或武器。"
 
 outfit "A865 Atomic Steering"
+	"display name" "A865 原子转向器"
 	category "Engines"
 	series "Engines"
 	index 01240
@@ -699,6 +735,7 @@ outfit "A865 Atomic Steering"
 
 
 outfit "AR120 Reverse Thruster"
+	"display name" "AR120 反向推进器"
 	category "Engines"
 	series "Engines"
 	index 01202

@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 planet Aava-Aasa-Khora
+	"display name" "阿瓦-阿萨-科拉"
 	attributes successor wealthy
 	landscape land/mountain46
 	description `这颗行星是所谓旧派的共同根据地，旧派是贵族家族，在前代帝国崩溃、所谓新派从他们分崩离析的社会逃难至此之前，一直宣称拥有这片太空区域的领地。`
@@ -28,6 +29,7 @@ planet Aava-Aasa-Khora
 	bribe 0
 
 planet "Ablub's Invention"
+	"display name" "阿布鲁布的发明"
 	attributes arach factory
 	landscape land/sky3
 	description `这颗古老而宁静的世界绕着一颗暗淡的红色太阳运行，是专攻计算机和先进电子技术的阿拉奇公会——伊德里斯家族微芯片铸造厂的所在地。在聚集于赤道附近的城市之外，阿布鲁布的发明除了本土生命外无人居住，这些生命包括长着细长腿的奇特四足动物、长着皮质翅膀的笨拙鸟类，以及长着蹼足与长须长吻的两栖动物。`
@@ -39,6 +41,7 @@ planet "Ablub's Invention"
 	security 0.15
 
 planet Ada
+	"display name" "艾达"
 	attributes factory mining paradise research
 	landscape land/canyon4
 	description `艾达是洛夫莱斯实验室的母星，该实验室是最受尊敬的星舰系统和武器设计者之一。艾达最初是作为采矿行星被殖民的，此地的矿井至今仍源源不断地产出金属，供给实验室及当地众多工业公司。`
@@ -62,17 +65,20 @@ planet Ada
 		fleet "Large Republic" 16
 
 planet Aera
+	"display name" "埃拉"
 	attributes "requires: gaslining"
 	landscape land/aera
 	description `埃拉是一颗靠近其母星的巨大潮汐锁定冰巨星。它的大气以甲烷为主，并被一个巨大的飓风所主宰，这个飓风覆盖了行星的昼半球，是潮汐力将气流和云层拖拽成一个行星级风暴的结果。飓风的风眼出人意料地平静，但永昼带来的热量使温度远超大多数生命宜居的范围。`
 
 planet Aetuah
+	"display name" "埃图阿"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa30
 	description `埃图阿与邻近冰月的近距离导致这颗气态巨行星上的风暴潮汐涨落，同时不断重塑着冰月表面。这颗冰月可能在过去作为一个流浪行星被埃图阿捕获，而气态巨行星距星系中心的距离暗示它本身也可能是一颗流浪行星。假以时日，埃图阿施加的引力将撕裂冰月，使其坠入深渊。`
 	description `	埃图阿最引人注目的特征是栖息在上层大气中的大型椭圆形生物体。这些生命形式与附近星系的某些太空动物相似，并且有一种奇特的行为：一旦达到一定大小，它们会通过某种未知的推进方法将自己弹射出去，远离埃图阿。`
 
 planet Ahr
+	"display name" "阿尔"
 	attributes arach factory folklore shipping tourism urban
 	landscape land/forest4
 	description `作为阿拉奇人的家园，阿尔是一颗拥有近九十亿居民的大都会行星，人口之多，本星产出已无法养活所有人。政府在各大都会中心均设有能维持一个月粮食供应的储备库，并按照基梅克的设计建造了一批生物反应器，可生产一种寡淡无味但富含营养的糊状食品作为应急口粮，以防万一来自外星的食物运输因某种原因长期中断。`
@@ -85,6 +91,7 @@ planet Ahr
 	security 0.6
 
 planet Aksaray
+	"display name" "阿克萨赖"
 	attributes moon uninhabited
 	landscape land/mountain26
 	description `乍看之下，阿克萨赖似乎是一颗相当普通的卫星，由亿万年来在恒定引力挤压下凝聚成致密球体的尘埃与碎屑构成。不寻常的是，这颗星球上散布着近乎完美金字塔形的风化层堆积。向轨道上的一颗遗民卫星查询后得知，据信这些曾是用于矿物加工的远程采矿点。`
@@ -93,6 +100,7 @@ planet Aksaray
 	security 0
 
 planet "Aktina Cylinder"
+	"display name" "阿克提纳圆筒站"
 	attributes avgi "avgi diaspora" station
 	landscape land/station48
 	description `阿克提纳圆筒站是一个尚未完工的巨型空间站。其直径达二十多公里，长度三倍于此，建成后将能在城市环境下容纳数千万阿夫吉人。多年来，阿夫吉核心星系建造了数千个这样的圆筒站，但在纷乱的帷幕星区域，资源有限迫使阿夫吉人在过去十年里仅建造了这一个。`
@@ -105,6 +113,7 @@ planet "Aktina Cylinder"
 		fleet "Avgi Strike Group" 3
 
 planet Alathil
+	"display name" "阿拉希尔"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa29
 	description `亿万年过去，阿拉希尔仍在与重塑轻叩星系的那场超新星爆发产生的冲击波共振。整个大气层依然动荡不安，气层相互翻转。这些暴露的气层是阿拉希尔鲜艳色彩的来源，既美丽又致命。`
@@ -112,6 +121,7 @@ planet Alathil
 	security 0
 
 planet Albatross
+	"display name" "信天翁星"
 	attributes frontier pirate south "south pirate"
 	landscape land/snow6
 	description `信天翁星是一颗环绕寒冷小恒星运行的冰冷海洋世界。信天翁星的首批定居者是无政府主义者，他们深信，在一个没有违背自然的法律与束缚的社会中，人人都会自愿且愉快地为公共利益劳作。随后到来的定居者则是海盗，他们认为这个不受法律与束缚的星球简直就是绝佳的运作基地。`
@@ -130,6 +140,7 @@ planet Albatross
 		fleet "Small Southern Pirates" 20
 
 planet Alexandria
+	"display name" "亚历山大"
 	attributes deep station tourism
 	landscape land/space7
 	description `在阿尔法战争最激烈的时候，星渊的政府建造了亚历山大，作为银河系最大的人类文学、科学著作和技术储藏库。它还容纳了一个庞大的博物馆，收藏着远在太空时代开始之前就存在的文化文物。如今，这个空间站主要居住着前来寻找特别晦涩的文字或信息的访客，以及将一生奉献于保持档案良好索引和最新状态的图书管理员。`
@@ -147,6 +158,7 @@ planet Alexandria
 		fleet "Large Republic" 7
 
 planet Alfheim
+	"display name" "亚尔夫海姆"
 	attributes deep factory oil
 	landscape land/nasa3
 	description `亚尔夫海姆是一个遍布广阔草原、沙漠、几片小型海洋以及零散雨林的世界。这颗行星气候不够宜人，难以支持大型城市的发展，因此主要用作石油钻探与制造业基地。目前仅有极小部分地表得到开发，大多聚集在已探明最大油田的周围区域。`
@@ -162,11 +174,13 @@ planet Alfheim
 		fleet "Small Deep Security" 27
 
 planet Alix
+	"display name" "艾莉克丝"
 	attributes ka'het uninhabited
 	landscape land/canyon13
 	description `艾莉克丝是气态巨行星帕瑟拉的一颗小卫星，缺乏可供呼吸的大气，但矿产丰富。尽管月表的定居点已遭摧毁，仅剩残骸散落各地，一些自动化设施仍在运转，货运无人机往来不息，不时降落于此采集原料，再迅速送往附近空间站的储备库。`
 
 planet Allhome
+	"display name" "众家星"
 	attributes farming hai "hai: human presence" "human tourism" urban
 	landscape land/dmottl0
 	description `这颗与地球相似的行星上，既有人类定居，也有控制此片星域的种族——亥族栖居。人类聚居区相对较小，大多是为逃避人类空间的混乱与动荡而来到这里的移民建立的农耕社群。较为繁华的城市聚落确实存在，尤其在空港附近，但从空中俯瞰，它们似乎都位于严格的边界之内。`
@@ -179,12 +193,14 @@ planet Allhome
 	security 0.6
 
 planet "Alonis Observatory"
+	"display name" "阿洛尼斯天文台"
 	attributes avgi research station telescope uninhabited
 	landscape land/station56
 	description `几十年前，这座巨大的观测站为窥探被称为余烬废土的反常区域而建。在阿夫吉能将飞船硬化以抵御普遍的离子风暴之前，这是他们获取其奥秘的唯一途径。一排覆盖整个电磁波谱的先进望远镜与更奇特的设备并肩而立，从引力波干涉仪到中微子探测器。`
 	description `	当阿夫吉的星舰进步到能可靠抵御离子风暴后，这台望远镜被调向余烬废土更深处，向空间和时间的更远处回望。在因入侵而被迫废弃之前，它收集了海量数据，不过幸运的是这台望远镜似乎毫发未损。`
 
 planet "Alta Hai"
+	"display name" "阿尔塔·亥"
 	attributes "hai quarg" quarg ringworld station
 	landscape land/station19
 	description `这是一个完整的夸格环形世界，历经数千年的建设，为了获取原材料，耗尽了该星系中的其他所有天体。环的内缘布满了太阳能板、水培花园、居住区和阳光普照的公共空间。外缘则设有飞船的机库和泊位，以及货物存储设施。`
@@ -194,6 +210,7 @@ planet "Alta Hai"
 	security 0.9
 
 planet Alvorada
+	"display name" "阿尔沃拉达"
 	attributes ccor frontier military pirate south "south pirate" station
 	landscape land/station46
 	description `阿尔沃拉达原名“阿尔沃拉达堡垒”，在数百年前被凿空，建成了庞大的地堡群，曾容纳CCOR政治局以及他们用来管理中央计划经济的大型计算机系统。有传言说，在地堡群最深、海盗至今无法突破的区域，他们仍在那里，已将系统改造为指挥游击队重建家园的中枢。`
@@ -205,6 +222,7 @@ planet Alvorada
 		fleet "Large CCOR" 8
 
 planet Amathil
+	"display name" "阿马希尔"
 	attributes "aberrant siege" avgi desert
 	landscape land/canyon16
 	description `就沙漠星球而言，阿马希尔不过是干燥多沙，表面温度温和，且因高空风的影响，不同纬度间气温惊人地均匀。尽管缺乏植被而不适宜定居，阿马希尔仍是那些早期亚光速星际飞船乘员后裔的家园，当时人们对这颗行星知之甚少，只知道它拥有含氧大气层。此后，在统一的全球政府领导下，这里孕育出一种独特的文化，强调集体感和慷慨——至少这是当地人希望外界对他们的看法。`
@@ -212,6 +230,7 @@ planet Amathil
 	outfitter "Avgi General"
 
 planet Amazon
+	"display name" "亚马逊星"
 	attributes core fishing forest frontier oil tourism
 	landscape land/forest7
 	description `亚马逊是一颗郁郁葱葱、绿意盎然的热带星球，是这片星域居民心中极受欢迎的旅游目的地。当地原生森林浓密而坚韧，在此种植人类作物无异于一场永无休止的抗争，且没有任何本土植物或果实可供食用。除旅游业外，该行星的大部分收入来源于石油开采。`
@@ -223,12 +242,14 @@ planet Amazon
 		fleet "Small Syndicate" 10
 
 planet Anatrefo
+	"display name" "阿纳特雷福"
 	attributes station uninhabited
 	landscape land/station49
 	description `阿纳特雷福是在阿夫吉发现超空间引擎后仅仅几年就被发现的，很快就被认为是阿夫吉历史上最重大的发现。一座完好无损的外星空间站，尽管被拆除了所有先进技术，一劳永逸地证明了阿夫吉在宇宙中并非孤独。更重要的是，空间站附近有一个细长的巨型结构，看起来才刚刚开始建造。`
 	description `	尽管人们希望对空间站结构的研究能洞悉先进的外星技术，但迄今为止，它顽强地难以理解或逆向工程，一些阿夫吉科学家评论说，就连空间站的材料似乎也能智能地规避对其内部结构的探测尝试。`
 
 planet Angko
+	"display name" "安格科"
 	attributes bunrodea factory manufacturing
 	landscape land/water6
 	description `安格科是一颗庞大的工业世界，其表面多数城市支撑着广阔的制造业集群、工厂和仓储设施。然而，工业进步并非没有付出环境代价。在行星历史的某一时期，冰盖融化，导致全球海平面上升。班罗迪安人此后转而采用对环境负面影响较小的做法，但损害早已造成，这颗行星再未恢复如初。`
@@ -239,6 +260,7 @@ planet Angko
 	security 0
 
 planet Anitlos
+	"display name" "阿尼特洛斯"
 	attributes avgi frozen "ice moon" moon uninhabited
 	landscape land/mars3
 	description `欧拉最大卫星阿尼特洛斯的表面是一片光滑的冰原，其间到处是嶙峋的金属突岩。这些地表金属沉积物来自数亿年前的一次晚期小行星轰击，曾为环绕欧拉、其卫星及拉格朗日点分布的圆筒居住站群提供了最佳材料来源之一。`
@@ -246,6 +268,7 @@ planet Anitlos
 	government Uninhabited
 
 planet Antamesa
+	"display name" "安塔梅萨"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa24
 	description `这颗星球的狂风在绚丽的翠绿与天鹅绒般的极光下呼啸，极光如燃烧的帷幕般闪耀。废弃的空间站散布在它的天空中，每一座的单侧都密布着空荡荡的导弹发射管。有少数几座还大致完好，在翻腾的云层上映出温暖柔和的玫瑰色光晕，发射器仍直指苍穹，对准早已被遗忘的敌人。`
@@ -253,6 +276,7 @@ planet Antamesa
 	security 0
 
 planet Antipode
+	"display name" "对跖星"
 	attributes core frontier frozen mining
 	landscape land/snow17
 	description `对跖星是一个冰川缓慢蔓延、终年积雪的世界，它围绕一颗暗淡的恒星运行，距离之远，即便阳光穿透云层，也几乎无法带来任何暖意。这里仅有的几处定居点建于最近发现的稀土金属地表矿藏附近，这些矿藏被开采出来，供整个星区的电子产品和设备使用。`
@@ -279,6 +303,7 @@ planet Antipode
 		fleet "Small Syndicate" 7
 
 planet "Antivli Station"
+	"display name" "安蒂夫利站"
 	attributes avgi station uninhabited
 	landscape land/station25
 	description `曾经作为众多此类设施之一，这是一个直径数公里的巨大同步粒子加速器，专门用于大规模反物质的工业生产。由阿纳克斯周围数千颗太阳能收集卫星提供定向能量传输，每年生产的反物质足以满足阿夫吉的研究和工业需求。超空间引擎的发现几乎在一夜之间摧毁了反物质经济，如今星际旅行已变得轻而易举。`
@@ -290,6 +315,7 @@ planet "Antivli Station"
 	government Uninhabited
 
 planet Aqra-Kvel-Taaq
+	"display name" "阿克拉-克维尔-塔克"
 	attributes successor uninhabited
 	landscape land/snow20
 	description `尽管这颗行星深处可能是岩石地表，但它被数公里厚的水冰冰川所覆盖。在赤道附近，一圈陨石坑将冰层推起形成环状山脊，在景观上投下长长的阴影。`
@@ -301,6 +327,7 @@ planet Aqra-Kvel-Taaq
 	government Uninhabited
 
 planet Arabia
+	"display name" "阿拉伯"
 	attributes "dirt belt" oil
 	landscape land/nasa0
 	description `阿拉伯是一个令人不适的炎热潮湿世界，遍布沙漠、稀树草原和几小块零散的热带雨林。形似野牛的庞大兽群在平原上游荡，为当地人提供了稳定的食物来源。偶尔发生的、涉及数万头野兽的惊逃，曾将这里的整个城镇夷为平地。`
@@ -317,6 +344,7 @@ planet Arabia
 		fleet "Small Militia" 45
 
 planet "Arachne Station"
+	"display name" "阿拉克涅站"
 	attributes south station
 	landscape land/station10
 	music ambient/machinery
@@ -329,6 +357,7 @@ planet "Arachne Station"
 		fleet "Large Militia" 14
 
 planet Araio
+	"display name" "阿莱奥"
 	attributes "aberrant siege" avgi farming frontier wealthy
 	landscape land/canyon3
 	description `阿莱奥是一颗相对较小的星球，地貌被一块超级大陆主宰。大陆抬升使得大部分土地呈现山地高原地貌，遍布着众多泉水和湖泊。尽管空气稀薄，土壤多石，顽强的植物和乔木依然顽强求生，五彩的草甸与丰饶的森林打破了石山的单调景观。`
@@ -344,12 +373,14 @@ planet Araio
 	security 0
 
 planet "Aresepru Nat"
+	"display name" "阿雷塞普鲁纳特"
 	attributes korath
 	landscape land/sea0
 	description `科拉斯人离去后，这颗行星的海洋再度充满鱼类与其他生灵，溶解氧和二氧化碳的浓度也正缓慢恢复平衡。能够代谢科拉斯遗留塑料与化学物质的藻类和细菌，已遍布各大洋。`
 	security 0
 
 planet Arroharg
+	"display name" "阿罗哈格"
 	attributes "gegno quarg" quarg
 	landscape land/canyon12
 	description `阿罗哈格是一颗低重力卫星，已被夸格改造成某种采集场。那些让飞船都显得渺小的巨型机械似乎正在搬走整片山峦，而较小的机械则在开采过后留下的区域内收集资源。这里的建筑多为夸格风格，并未采用令来访者感到舒适的布局。前哨站的下层似乎深入卫星地表之下，越往下结构便越复杂。无人知晓它们究竟深入了多远，因为那些区域仅限夸格进入。`
@@ -359,6 +390,7 @@ planet Arroharg
 	security 0.9
 
 planet Asgard
+	"display name" "阿斯加德"
 	attributes deep education factory research urban wealthy
 	landscape land/city13-sfiera
 	description `阿斯加德是星渊上首批被殖民的世界之一。如今这里到处是拥挤的城市，高耸的摩天大楼由轻质复合材料建成，而非其他地方常用的钢筋混凝土。`
@@ -389,12 +421,14 @@ planet Asgard
 		fleet "Large Deep Security" 39
 
 planet Ashkelon
+	"display name" "亚实基伦"
 	attributes antecessor uninhabited
 	landscape land/mountain33
 	description `亚实基伦原本只是一个平凡的岩石星球，但数以千计的玄武岩巨碑散落其上。多数碑体已经开裂，更有大量化为碎石，只有极少数保存完好，得以让人辨认刻满其表面的深纹。这些象形文字似乎不难翻译，阿夫吉的研究者很快就完成了破译。当初人们发现巨碑上记载着各种技术的指导与建议，一度兴奋不已，但这份热情很快就化为失望——历时数年的调查表明，没有哪块巨碑包含比蒸汽机更先进的技术信息。`
 	description `	留下这些巨碑的人要么从未记录过更先进的技术，要么就是有人不辞辛苦，把记录那些技术的巨碑尽数毁去了。`
 
 planet "Ashy Reach"
+	"display name" "余烬岬角"
 	attributes kimek moon shipping
 	landscape land/canyon2
 	description `稀薄而无法呼吸的大气与低重力意味着余烬岬角永远不可能成为受欢迎的居住世界，但它作为航运与商业交换的枢纽发挥着重要作用。这里只有一个定居点，环绕着太空港而建，主要由加压的地下洞穴组成。在定居点之外，行星地表一片单调，几乎毫无生机。`
@@ -405,23 +439,27 @@ planet "Ashy Reach"
 	security 0.1
 
 planet Aspar
+	"display name" "阿斯帕"
 	attributes poisonous "tangled shroud" uninhabited
 	landscape land/forest15
 	description `作为乱麻帷幕星中罕见的宜居卫星，阿斯帕气候温和，生态系统繁茂。然而，广泛定居却受到了阻碍，不幸的是，原因在于阿斯帕上的生命使用的蛋白质手性与地球和阿维斯基尔上的生命相反。`
 	description `	因此，本土动植物大多无法食用，有时甚至有毒，土壤成分也导致外来植物即使能存活也往往生长不良。`
 
 planet Asphodel
+	"display name" "阿福德尔"
 	attributes uninhabited
 	landscape land/haze0
 	description `尽管名义上处于宜居带，这颗行星的表面却持续遭到十字架一恒星及其耀斑的灼烧，不断剥离其大气。喀戎三所主要大学的联合项目在阿福德尔轨道上设置了一些小型研究站，虽然它们为研究耀星的性质和行为提供了宝贵数据，但研究人员通常会避免不必要地下降到行星表面。然而，这些站点似乎都没有能为你的飞船提供服务的设施。`
 	government Uninhabited
 
 planet Asterus
+	"display name" "阿斯特鲁斯"
 	attributes moon uninhabited
 	landscape land/snow23
 	description `这颗冰卫星冰冻表面之下的海洋孕育着一个繁荣的生态系统，其中物种与在其他更宜居世界上观察到的任何物种都截然不同。其中最著名的是一种大型类鱼生物，其飘动的生物发光鳍泛着空灵的粉紫光芒，这般美景促使天堂世界的众多公民在2900年代要求议会将整颗卫星划定为自然保护区。`
 
 planet Avalet
+	"display name" "阿瓦莱特"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_01
 	description `阿瓦莱特是一颗炽热的冰巨星，大小与海王星相仿，但轨道远比海王星靠近阿纳克斯。它处于潮汐锁定状态，气态行星的一面被加热到白炽化，而另一面的温度则低到足以从其大部分由氢构成的大气中冻析出水和氨。这驱动了一股环绕整个行星的环形风系，产生巨大的气旋，能够将云层抛掷到太空边缘。`
@@ -429,12 +467,14 @@ planet Avalet
 	government Uninhabited
 
 planet Avalon
+	"display name" "阿瓦隆"
 	landscape land/sea22
 	description `这是一颗原始而完全宜居的世界，拥有温暖的海洋与温温和的气候。陆地上大型爬行动物占据主导，类似远古时期曾在地球大陆上游荡的恐龙。部分陆栖爬行动物体长超过二十米，而海洋中则潜伏着体型两倍于此的巨兽。`
 	description `	赤道附近的丛林深处，小型哺乳动物正竭尽全力躲避巨蜥的捕食，并力求存活足够长久，以期进化为优势生命形态。`
 	security 0
 
 planet Aventine
+	"display name" "阿文丁"
 	attributes remnant "remnant primary"
 	landscape land/mountain17-harro
 	description `这颗行星并不特别温暖，但却是第一批遗民难民探索余烬废土时所能找到的最佳选择。他们在这里建造了首都，坐落于一个几乎终年云雾缭绕的深谷中。在更高山坡上的草甸里，种植着少数特别耐寒的粮食作物，但遗民主要依靠人工温室或培养酵母来补充蛋白质。即使这里的孤立被打破，遗民美食也不太可能成为吸引游客的亮点。`
@@ -449,6 +489,7 @@ planet Aventine
 		fleet "Heavy Remnant Defense" 30
 
 planet Aviskir
+	"display name" "阿维斯基尔"
 	attributes "aberrant siege" avgi "avgi core" urban wealthy
 	landscape land/water32
 	description `阿维斯基尔是一个群山绵延、海洋波光粼粼的世界。它恰好也是阿夫吉的母星，熙熙攘攘地生活着九十亿阿夫吉人。文明主要集中在丰饶的山谷和峡湾，其中许多地方受到温泉与地热的温暖。最大的城市依傍着较小的山峰而建，纤细的桥梁与明亮的摩天大楼交织其间。它们与下方乡村山谷中的聚落形成鲜明对比，据说那里有着更简单、更传统的生活。`
@@ -466,6 +507,7 @@ planet Aviskir
 	outfitter "Avgi Atomics"
 
 planet Babiali
+	"display name" "巴比亚里"
 	attributes frozen "ice giant" uninhabited
 	landscape land/canyon12
 	description `巴比亚里的地表是货真价实的灾变典范。冰与岩石从地平线这头延伸到那头，其间遍布着密密麻麻的裂缝与断层，暗示着它在近期地质史上曾遭受过某种突如其来的力量冲击。`
@@ -474,12 +516,14 @@ planet Babiali
 	security 0
 
 planet Baianus
+	"display name" "拜亚努斯"
 	attributes frozen uninhabited
 	landscape land/snow20
 	description `从远处看，这颗巨大的冰卫星表面上让人想起太阳系的土卫二：它同样暴露在其巨大母行星的辐射带中，扫描结果显示无数诱人的化学痕迹，表明这颗卫星可能比表面看起来更有内涵。`
 	description `	然而，与土卫二不同，拜亚努斯的表面经常受到热浪和能量波的冲击。在地表停留任何时间都可能看到极光波在稀薄到无法呼吸的大气中旋转，伴随着光芒和火花在地表上闪烁。你的环境系统强烈建议在离子风暴活跃时留在飞船内。`
 
 planet Bailey
+	"display name" "贝利"
 	attributes ccor frontier mining pirate south "south pirate"
 	landscape land/mercury1
 	description `贝利是一颗几乎被潮汐锁定的死寂世界，大小和宜居性仅比水星略强。这颗行星相对于主星缓慢自转，其灼热的一面被烤成熔岩废土，寒冷的一面则凝结成富含矿物的地壳，在这一带太空中实属罕见。`
@@ -492,6 +536,7 @@ planet Bailey
 		fleet "Small CCOR" 11
 
 planet Baliesa
+	"display name" "巴列萨"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa33
 	description `作为已知最小的“热木星”之一，巴列萨是一颗宁静、温顺的气态巨星。昼夜半球的晨昏线附近偶尔会形成风暴，但很快就会分裂成越来越小的涡旋直至消散。高层大气那晕染着紫色的天穹下，是一层明艳的粉红色雾霾，虽然会妨碍目视导航，但除此以外并不会带来任何麻烦。`
@@ -499,6 +544,7 @@ planet Baliesa
 	security 0
 
 planet "Bank of Blugtad"
+	"display name" "布鲁格塔德银行"
 	attributes arach urban wealthy
 	landscape land/valley14-harro
 	description `这颗田园诗般的星球上居住的阿拉奇人数量几乎与邻近星系中母星上的不相上下。这里也是掌管银行与金融业的阿拉奇公会——普拉姆塔布家族的所在地。由于阿拉奇经济中几乎所有其他领域都依赖普拉姆塔布家族的贷款，并在其股权交易所进行股票交易，因此该家族在整个阿拉奇空间内拥有相当大的影响力。`
@@ -511,6 +557,7 @@ planet "Bank of Blugtad"
 	security 0.2
 
 planet "Belug's Plunge"
+	"display name" "贝鲁格之坠"
 	attributes arach mining research
 	landscape land/mountain6
 	description `虽然贝鲁格之坠位于阿拉奇人的领地内，但这颗行星极为寒冷，因此大多数原住民是萨里德人而非阿拉奇人。这里的工业主要集中于开采金属与稀有元素，以供建造环带的新延伸段使用。此外，这里还有一座萨里德材料研究实验室，试图弄清如何复制夸格人使用的先进复合材料。但贝鲁格之坠最负盛名的还是那所学院，日权会防卫部队的军校学员们便是全在此接受训练。`
@@ -521,6 +568,7 @@ planet "Belug's Plunge"
 	security 0.5
 
 planet Beryl
+	"display name" "绿柱石星"
 	attributes gegno "requires: scin access" scin uninhabited
 	landscape land/station16
 	description `绿柱石星是一座由格诺辛部署的小型太空望远镜，用于观测邻近天区中那些神秘的暗星云和黑洞。只有特定的辛族科学家获准获取绿柱石星的研究数据，除此之外，这座望远镜不对公众开放。`
@@ -529,6 +577,7 @@ planet Beryl
 	security 0
 
 planet Byigii
+	"display name" "拜伊吉"
 	attributes gegno uninhabited
 	landscape land/haze1
 	description `这颗荒芜干燥的行星上虽无文明存在的证据，却遍布格诺人胡乱开采挖掘的痕迹，想必是为了获取资源，以建造上方轨道上那座大型空间站。在地表多处挖掘点之间，还有堆积如山的废金属、破烂与各种垃圾堆，简直形成了一片片废土。`
@@ -537,6 +586,7 @@ planet Byigii
 	security 0
 
 planet "Big Sky"
+	"display name" "阔天星"
 	attributes "dirt belt" farming forest frontier
 	landscape land/mountain12-sfiera
 	description `阔天星是一颗温暖且富饶的星球，充满了本土物种。若非本土植物如此繁茂，又极好地适应了此地的环境，能在短短数月内占领无人打理的田地，这里本可成为一个理想的农业世界。农民们通常以砍烧那些在冬季扎根田间的植物来开启生长季，即便如此，整个夏季他们仍需时刻警惕杂草。`
@@ -553,6 +603,7 @@ planet "Big Sky"
 		fleet "Small Militia" 50
 
 planet Bivrost
+	"display name" "毕夫罗斯特"
 	attributes deep factory mining urban
 	landscape land/city14-sfiera
 	description `毕夫罗斯特是星渊中重金属资源相对丰富的唯一行星。这里最初是个采矿殖民地，现已发展为该地区最繁荣的世界之一。`
@@ -568,6 +619,7 @@ planet Bivrost
 		fleet "Large Deep Security" 35
 
 planet Bloodsea
+	"display name" "血海星"
 	attributes frontier pirate south "south pirate"
 	landscape land/beach5
 	description `血海星几乎无人居住，只有几处海盗哨站。它得名于这颗行星的海洋，海水分外红艳，皆因红藻所致。尽管气候温和，且有许多洁白的沙滩，但从没有人会怀着游泳的兴致来到这里。`
@@ -586,6 +638,7 @@ planet Bloodsea
 		fleet "Small Southern Pirates" 12
 
 planet "Bloptab's Furnace"
+	"display name" "布洛普塔布的熔炉"
 	attributes arach mining
 	landscape land/badlands7
 	description `布洛普塔布的熔炉地表富含矿藏，但酷热难耐，唯有最顽强的植物和昆虫才能在此存活。当地人居住在由自动化采矿机开凿出的地下洞穴深处——这些机器同样也用于在地表采集矿石。每当需要维修地表机器人时，工程师团队便会等到夜幕降临，从地下钻出，尽力在日出前完成修复。`
@@ -596,6 +649,7 @@ planet "Bloptab's Furnace"
 	security 0.3
 
 planet "Blubipad's Workshop"
+	"display name" "布鲁比帕德的工坊"
 	attributes arach factory tourism urban
 	landscape land/hills11
 	description `数十座小城点缀在这颗温暖宜人的林间星球的山谷与山顶。得益于高科技制造业，这里为来自联盟空间各星球的居民提供了充足的工作岗位。宽阔的街道、宽敞的公园和闪闪发光的摩天大楼，这些城市见证了当三个物种携手合作时联盟社会所能达成的最好面貌。`
@@ -605,6 +659,7 @@ planet "Blubipad's Workshop"
 	security 0.3
 
 planet "Blue Interior"
+	"display name" "蓝色内陆"
 	attributes kimek tourism urban
 	landscape land/water10-harro
 	description `蓝色内陆是一颗美得惊人的类地世界，大部分被海洋覆盖，也有雨林、沙漠、山脉和冰冻苔原分布其中。数十亿基梅克人居住于此，气候最适宜的城市中同样生活着大量萨里德人和阿拉奇人。联盟常以这颗星球为典范，展示其三个物种如何能从共享空间中获益。`
@@ -616,6 +671,7 @@ planet "Blue Interior"
 	security 0.3
 
 planet Bluerun
+	"display name" "湛蓝航迹"
 	attributes hai station uninhabited
 	landscape land/station33
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -625,6 +681,7 @@ planet Bluerun
 	security 0
 
 planet Bluestone
+	"display name" "蓝石星"
 	attributes core frontier oil research
 	landscape land/mountain2
 	description `穿透蓝石星大气层的阳光太过暗淡且偏红，使得普通的地球植物难以繁茂生长。作为应对，当地的原生植物（多为草类和地衣）已经进化出了它们自己独特的类叶绿素分子。`
@@ -637,6 +694,7 @@ planet Bluestone
 		fleet "Small Syndicate" 6
 
 planet Bosunothro
+	"display name" "博苏诺特罗"
 	attributes bunrodea guild manufacturing mining
 	landscape land/canyon5
 	description `博苏诺特罗是一颗主要的矿业星球，也是邦罗迪亚星域中一些最大造船厂的所在地。比这里规模更大的造船厂，唯有在首都星球埃拉布特罗上才能找到。`
@@ -650,6 +708,7 @@ planet Bosunothro
 	security 0
 
 planet Bounty
+	"display name" "丰饶星"
 	attributes "dirt belt" factory farming
 	landscape land/hills2
 	description `丰饶星赤道附近的所有土地都是沙漠，但靠近极地地区的天气温和，有足够的降雨用于农业。北极附近的土地人口稀少，但另一个半球则相当发达，许多居民在工厂中工作，生产精美手表和精密电子元件。`
@@ -665,6 +724,7 @@ planet Bounty
 		fleet "Large Militia" 11
 
 planet Bourne
+	"display name" "伯恩"
 	attributes factory rim urban
 	landscape land/city8
 	description `伯恩是一颗高度发达的工业星球，早在四个世纪前就迎来了第一批定居者。这里的城市既是这片星区最富有之人的家园，也是成千上万无家可归者的容身之所，还有许多靠着工厂微薄薪水勉强糊口的人。`
@@ -681,6 +741,7 @@ planet Bourne
 		fleet "Large Militia" 32
 
 planet "Brass Second"
+	"display name" "黄铜次星"
 	attributes farming folklore kimek shipping urban
 	landscape land/sky9
 	description `这是一个农业星球。在发现太空飞行之前的那个世纪，数十亿基梅克人在一系列日益严重的全球饥荒中挣扎求生。一万四千年后，他们的文化仍被缺粮的恐惧所笼罩，为此他们在自己所在的太空区域开垦了足以养活三倍于现有人口的农场。每年生产的食物大部分要么存入仓库，要么干脆回收制成肥料，供来年耕种使用。`
@@ -690,6 +751,7 @@ planet "Brass Second"
 	security 0.5
 
 planet "Bright Echo"
+	"display name" "明亮回声"
 	attributes folklore saryd tourism urban
 	landscape land/snow21
 	description `这是萨里德人在自己的太阳系之外开拓的首个世界。虽然比他们的母星要冷一些，但它依然发展成了一座繁华的大都市世界。最初的定居者极尽细致地规划了星球上每一寸陆地的用途，以此来满足他们将居住区与公园、农场完美交融的审美理想。此外，还有大片区域被特意保留作为未经开发的荒野。`
@@ -701,6 +763,7 @@ planet "Bright Echo"
 	security 0.4
 
 planet "Buccaneer Bay"
+	"display name" "海盗湾"
 	attributes core "core pirate" fishing frontier pirate
 	landscape land/beach0
 	description `发了财的海盗都梦想着在海盗湾安度余生。这是一颗温暖的海洋行星，许多地方让人联想起古代加勒比海的岛屿——人类史上最庞大的海盗舰队曾在那里驰骋。`
@@ -723,11 +786,13 @@ planet "Buccaneer Bay"
 		fleet "Large Core Pirates" 9
 
 planet "Builder Settlement"
+	"display name" "建造者定居点"
 	attributes ka'het "requires: ka'sei" uninhabited
 	landscape land/asteroid0
 	description `这颗小行星经历了数十万年由成群的卡塞无人机进行的开采。尽管其大小堪比一颗小卫星，但建造者已将其一大部分挖空，填满了铱，推测是作为长期储存设施。由于极低的重力，小行星表面永远笼罩着一层仅悬浮于地表数米之上的尘埃云。`
 
 planet Bunthro
+	"display name" "邦特罗"
 	attributes bunrodea religious
 	landscape land/mountain27
 	description `尽管这是一颗适合殖民的原始星球，但邦特罗似乎几乎完全未被邦罗迪亚人开发过。除了空间港之外，这颗星球上几乎没有任何建筑，你能找到的大多都是建在山丘或山脉等高处的小型神殿。`
@@ -739,6 +804,7 @@ planet Bunthro
 	security 0
 
 planet Burthen
+	"display name" "重负星"
 	attributes core mining
 	landscape land/fields9
 	description `由于重力极高，重负星上人口稀少。当地居民——异常强壮且矮小——对这种苦难以及由此引发的诸多健康问题报以坚忍的自豪。`
@@ -751,6 +817,7 @@ planet Burthen
 		fleet "Small Syndicate" 7
 
 planet Byruca
+	"display name" "拜鲁卡"
 	attributes bunrodea uninhabited
 	landscape land/sea2
 	description `从拜鲁卡与主星的距离判断，你会以为这颗行星适宜居住，只是稍微偏热。但随着你靠近，眼中只剩一片死寂的荒原；行星表面仿佛曾拥有繁茂的生态系统，如今却只有枯树和沙漠。`
@@ -758,6 +825,7 @@ planet Byruca
 	description `	你的飞船传感器检测到强烈的紫外线辐射，而对大气的初步扫描显示，这里明显缺乏臭氧或其他能够阻隔邻近恒星紫外线抵达地面的气体。`
 
 planet Caelian
+	"display name" "凯良"
 	attributes remnant "remnant primary"
 	landscape land/sky7
 	description `当第一批遗民发现这片太空区域时，凯良是他们找到的唯一有足够日射量来运行太阳能工厂和生物反应器的可居世界。最初的定居点分布零散，房屋都藏在地下，以求从太空难以察觉；他们害怕阿尔法人会席卷人类空间，最终摸进荒域。数世纪后，当他们得知阿尔法战争已经结束时，才开始更公开地扩建工厂与定居点。`
@@ -772,6 +840,7 @@ planet Caelian
 		fleet "Heavy Remnant Defense" 25
 
 planet Calda
+	"display name" "考尔达"
 	attributes paradise tourism wealthy
 	landscape land/lava4
 	description `考尔达是一个热带度假世界，在其姐妹行星韦尔滑雪数日后，这里是放松身心的好去处。最受欢迎的旅游目的地是温泉，以及环绕温泉建起的水疗建筑群。持续使用杀虫剂已几乎消灭了害虫。由于夏季闷热潮湿，富豪们更多将考尔达视为旅游胜地而非居住地。`
@@ -785,6 +854,7 @@ planet Calda
 		fleet "Large Republic" 13
 
 planet Calesi
+	"display name" "卡莱西"
 	attributes lava uninhabited volcanic
 	landscape land/lava15
 	description `卡莱西是一颗双行星，与其姐妹星佩莱西围绕共同的质心运行。卡莱西受潮汐力加热，是一个熔融世界，而佩莱西温度低到足以让表面覆盖一层薄冰。`
@@ -792,6 +862,7 @@ planet Calesi
 	government Uninhabited
 
 planet Canyon
+	"display name" "峡谷星"
 	attributes core farming frontier
 	landscape land/canyon1
 	description `峡谷星是一颗巨大的行星，其重力接近人类能够舒适承受的上限。星球表面多为砂岩，科学家因此推测，这颗行星曾拥有辽阔海洋，但在一场天翻地覆的灾变——或许是一颗流浪恒星穿过了这个恒星系——之后，大部分水体沸腾消散。在此定居的少数居民主要在深邃的峡谷中耕作；峡谷上方的高地则干燥荒芜，几乎寸草不生。`
@@ -804,6 +875,7 @@ planet Canyon
 		fleet "Small Syndicate" 5
 
 planet Capitoline
+	"display name" "卡皮托尔"
 	attributes lava uninhabited
 	landscape land/lava8
 	description `卡皮托尔严酷的地表展露着大自然力量的鬼斧神工。熔岩流与火山喷发屡见不鲜，地震活动更是家常便饭，因而地表相对来说比较年轻。即便如此，你依然能在一片古老的熔岩原中央看到一座小型勘测站。回应你着陆计算机的询问后，应答器发来一段关于自动化科学站的简短说明，并警告其防御系统已处于激活状态。`
@@ -812,6 +884,7 @@ planet Capitoline
 	security 0
 
 planet "Carbuncle Station"
+	"display name" "炽榴空间站"
 	attributes north research station
 	landscape land/station3
 	music ambient/machinery
@@ -824,6 +897,7 @@ planet "Carbuncle Station"
 		fleet "Large Republic" 10
 
 planet Cassandra
+	"display name" "卡桑德拉"
 	attributes paradise uninhabited
 	landscape land/mars4
 	description `在24世纪末，卡桑德拉成为当时人类实施的最宏大的地球化改造项目之一；这是一次快速改造其生物圈、加速将该行星打造为远超人类宜居标准的尝试。`
@@ -831,6 +905,7 @@ planet Cassandra
 	description `	当改造项目启动时，这里似乎曾是一颗被海洋覆盖的星球；如今你所到之处皆是干涸死寂的盐滩，举目四望，偶尔可见苍白的分水岭和山脉陡峭耸立，那里曾经是河流与岛屿的所在。`
 
 planet Cavaasa-Vasa-Tej
+	"display name" "卡瓦萨-瓦萨-泰杰"
 	attributes predecessor uninhabited
 	landscape land/lava8
 	description `这颗行星炎热干燥，只维持着稀薄的大气。地表上矗立着数座巨大的外星设施：半圆形的气泡从岩石中光滑地探出，仿佛天然生长而成，上面密布着小孔，每个孔都大到足以容下一艘星舰。气泡内部温度出奇地宜居，你可以看到类似矿井与工业厂房留下的遗迹。`
@@ -842,6 +917,7 @@ planet Cavaasa-Vasa-Tej
 	government Predecessor
 
 planet "Ceaseless Toil"
+	"display name" "不息苦工"
 	attributes factory saryd uninhabited
 	landscape land/canyon01
 	description `萨里德人偏爱将最大的工厂建在阳光酷烈、无法居住的世界上，而将更宜居的行星留给居住和娱乐。只要可行，他们的工厂就会利用太阳能：或是以镜面将阳光聚焦供给太阳能熔炉，或通过大片太阳能电池板收集能量。工厂几乎完全由机器人维护，这些机器人不仅能够修复损伤，还可以按照预设的规划建造全新的工厂。`
@@ -851,16 +927,19 @@ planet "Ceaseless Toil"
 	security 0.5
 
 planet Ceilia'sei
+	"display name" "塞利亚塞"
 	attributes ka'het uninhabited
 	landscape land/station14
 	description `除了一个巨大的坚实模块外，这座空间站的其余部分几乎无一完好：环绕核心的碎片云使得停靠极为困难，空间站的一侧甚至似乎被炸毁了。然而，另一部分受损要轻微得多，表面密布着数十座保养良好的炮塔。`
 
 planet Celeatis
+	"display name" "塞莱蒂斯"
 	attributes ka'het uninhabited
 	landscape land/canyon14
 	description `塞莱蒂斯是一颗贫瘠的行星，山脉覆盖了其大部分表面。即便在寥寥无几的平坦高地上，地形也过于荒芜，无法自然生长任何植被。在一些山坡上，前哨站的轮廓依然可辨，但它们全都无人居住：有些村落已部分损毁，厚厚的尘土遮盖了残骸，以至于原有的颜色再也无从分辨。`
 
 planet "Celestial Third"
+	"display name" "苍穹三星"
 	attributes factory farming folklore kimek urban
 	landscape land/fields4
 	description `苍穹三星是基梅克空间的粮仓。其大部分陆地用于耕作，并辅以海洋中的海藻养殖场和渔场，以及赤道附近的工厂生产酵母和菌种作为营养补充。第一批定居者来到此地已是一万三千多年前，当时他们的母星已耗尽可耕地，粮食极度匮乏。`
@@ -869,6 +948,7 @@ planet "Celestial Third"
 	security 0.5
 
 planet "Charon Station"
+	"display name" "卡戎空间站"
 	attributes south station
 	landscape land/sivael6
 	music ambient/machinery
@@ -883,6 +963,7 @@ planet "Charon Station"
 		fleet "Small Militia" 15
 
 planet "Charybdis Station"
+	"display name" "卡律布狄斯站"
 	attributes core station
 	landscape land/sivael8
 	music ambient/machinery
@@ -895,6 +976,7 @@ planet "Charybdis Station"
 		fleet "Small Syndicate" 4
 
 planet Chiron
+	"display name" "喀戎"
 	attributes education factory "near earth" research urban
 	landscape land/city21
 	description `喀戎是人类在发现超空间引擎之前，唯一在太阳系外殖民的行星。如今，它是共和国人口第二多的星球，城市无度蔓延，污染问题日益严重。`
@@ -916,6 +998,7 @@ planet Chiron
 		fleet "Large Republic" 17
 
 planet "Chosen Nexus"
+	"display name" "天选枢纽"
 	attributes saryd shipping urban
 	landscape land/mountain23-spfld
 	description `萨里德人在太空探索时代早期便在此建立了贸易殖民地，也就是他们初次与夸格接触之时。夸格赠予他们少量跳跃引擎，以便与邻近种族建立联系，天选枢纽由此发展成为规模更大、也更为重要的贸易中心。`
@@ -931,6 +1014,7 @@ planet "Chosen Nexus"
 	security 0.6
 
 planet Chyyra-Raaqa-Tuur
+	"display name" "奇拉-拉卡-图尔"
 	attributes successor uninhabited
 	landscape land/snow7
 	description `这颗冰雪覆盖的行星围绕着一颗昏暗的恒星运转，因此地表黑暗而极度寒冷。靠近北极的地方，有迹象显示曾进行过大规模挖掘，可能是为了获取建造环绕它的空间站所需的材料。`
@@ -942,6 +1026,7 @@ planet Chyyra-Raaqa-Tuur
 	government Uninhabited
 
 planet Cipi
+	"display name" "奇皮"
 	attributes gegno moon scin
 	landscape land/mountain5
 	description `奇皮的森林和山脉是格诺辛族较不活跃群体的适宜之地，也是更为安静产业的家园。该行星人口有限，建筑高建于山脉之中，以避免破坏行星的自然景观。这为辛人提供了健康的作物与狩猎季节，以供养其主要人口，不受污染工业的干扰。`
@@ -951,6 +1036,7 @@ planet Cipi
 	security 0
 
 planet Clark
+	"display name" "克拉克"
 	attributes "dirt belt" factory forest
 	landscape land/valley3
 	description `克拉克是一颗新近定居的星球，大部分地表仍覆盖着茂密的森林和无人居住的山脉。由于开垦新地极其困难，这里的农业始终未能超出维持生计的水平。但温带气候吸引了数千万移民，他们大多在由外星际企业为利用廉价劳动力而设立的工厂中工作。`
@@ -973,6 +1059,7 @@ planet Clark
 		fleet "Small Militia" 30
 
 planet Clink
+	"display name" "铮鸣星"
 	attributes mining moon south
 	landscape land/desert3
 	description `大约十年前，一家来自苏格的矿业公司在铮鸣星上建立了殖民地，以开采这颗卫星地壳中因异常频繁的小行星撞击而富含的某些稀土矿物。这里的大气过于稀薄，不佩戴呼吸器便无法呼吸，而由于低重力环境，采矿作业扬起的灰尘始终悬浮在空气中。`
@@ -982,6 +1069,7 @@ planet Clink
 		fleet "Small Militia" 15
 
 planet Cloudfire
+	"display name" "云火星"
 	attributes hai military
 	landscape land/sea11-sfiera
 	description `云火星的大气异常朦胧，几乎始终被云层笼罩，因此尽管环境温暖潮湿，农业却难以开展。与无束者的冲突导致这里数座大城市在几个世纪前便被废弃。唯一留存的主要城市是亥族最接近军事基地的所在，来自亥族其他星域的新武器弹药持续不断涌入此地。`
@@ -992,6 +1080,7 @@ planet Cloudfire
 	security 0.9
 
 planet "Cold Horizon"
+	"display name" "寒境星"
 	attributes folklore frozen saryd tourism
 	landscape land/snow11-sfiera
 	description `寒境星的清晨，树木常披着一层薄薄的闪亮霜衣，日出后几小时便消散殆尽。短暂的夏季里，成群的候鸟飞抵森林，为这片原本静谧的林地带来喧闹的乐声与斑斓的色彩。`
@@ -1002,6 +1091,7 @@ planet "Cold Horizon"
 	security 0.3
 
 planet "Cool Forest"
+	"display name" "凉爽森林"
 	attributes saryd shipping urban
 	landscape land/myrabella0
 	description `凉爽森林的大部分陆地被萨里德人偏爱建造住宅区的温带林地所覆盖。总人口超过十亿，但都生活在与周围森林浑然一体的小型定居点中，以至于从太空中只能看到少数几座主要城市。`
@@ -1010,6 +1100,7 @@ planet "Cool Forest"
 	security 0.3
 
 planet Cornucopia
+	"display name" "丰饶角"
 	attributes education farming forest frontier research south
 	landscape land/fields0
 	description `丰饶角大体上是一颗农耕星球，和它的几个邻居一样，早在星际航行初期就有人定居了，那时候的殖民者为了尽可能远离古老的地球及其纷扰，来到了这里。`
@@ -1023,6 +1114,7 @@ planet Cornucopia
 		fleet "Large Militia" 12
 
 planet "Corral of Meblumem"
+	"display name" "梅布鲁门畜栏"
 	attributes arach farming longcows mining
 	landscape land/fields13-sfiera
 	description `梅布鲁门畜栏拥有两大支柱产业：铀矿开采和长角牛牧场。长角牛寿命极长，因此如果接触到重金属，体内很容易积累起危险的剂量，为此两大产业之间设有宽达数十公里的保护区加以隔离。一道道幽暗的原始森林带，将红褐色的露天矿坑与浅棕、嫩绿的牧场分隔开，从空中俯瞰，大地宛如一幅彩色玻璃拼贴画。`
@@ -1032,6 +1124,7 @@ planet "Corral of Meblumem"
 	security 0.4
 
 planet Covert
+	"display name" "隐秘星"
 	attributes core "core pirate" frontier mining pirate
 	landscape land/badlands10
 	description `隐秘星是一个强大矿业卡特尔的大本营，其运作完全不受共和国法律或任何外部权威的制约。据传这里是人类星域中少数开采并浓缩武器级铀和钚的行星之一。这里出售的一切货物，几乎都由奴隶劳工生产，而奴隶则往往是遭海盗劫持的船只幸存者。太空港外围停靠着一支庞大的海盗舰队，以此为警告威慑任何胆敢欺骗或对抗该卡特尔的私人领航员。`
@@ -1051,6 +1144,7 @@ planet Covert
 		fleet "Large Core Pirates" 16
 
 planet Crataegusa
+	"display name" "山楂星"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa30
 	description `山楂星从远处看相貌平平，环绕星球的云层呈线状剪切排列。然而在大气之下，却是一片汹涌翻腾的旋风涡流，与表面的平静大相径庭。`
@@ -1058,6 +1152,7 @@ planet Crataegusa
 	security 0
 
 planet Crossroads
+	"display name" "交汇星"
 	attributes core mining
 	landscape land/valley1
 	description `交汇星是一颗彻底缺乏美感的世界。当地稀疏的植被长着蓝紫色的叶片，在你的人类双眼中显得触目惊心，且只是勉为其难地生长，令大地如同饱受摧残的荒原。`
@@ -1072,11 +1167,13 @@ planet Crossroads
 		fleet "Small Syndicate" 11
 
 planet Cyife
+	"display name" "塞菲"
 	attributes frozen moon uninhabited
 	landscape land/snow13
 	description `这颗孤寂的冰冷卫星，是这片相当安静的恒星系里唯一的非气态天体。由于温度极低，表面毫无生命迹象，但某些区域在对比下会诡异地闪烁微光，仿佛在暗示这里曾有什么存在过。`
 
 planet Cyreal
+	"display name" "塞雷尔"
 	attributes "aberrant siege" avgi "avgi core" forest tourism
 	landscape land/hills13
 	description `塞雷尔是阿夫吉人最早殖民的地外世界之一，与其他邻近世界一样，它是由亚光速星船定居的。在广泛散布的定居时期，这颗低重力卫星的陡峭山峰和高耸的森林深受厌倦了狭窄飞船的小行星矿工们的喜爱。当超空间引擎带来了前所未有的其他世界移民时，自然保护者们将这颗卫星的大片区域划为自然保护区，将多数居民集中在几座密集的城市里。`
@@ -1089,12 +1186,14 @@ planet Cyreal
 	outfitter "Avgi Militia Surplus"
 
 planet "Dagon Station"
+	"display name" "大衮空间站"
 	attributes core station uninhabited
 	landscape land/station50
 	description `大衮空间站最初于25世纪作为企业军事前哨建造，其恶名源自曾作为私掠者基地的过去；它那些臭名昭著的雇佣舰队，几乎决定了26、27世纪该地区连绵战争中谁是赢家。随着这些冲突平息，当年的私掠者开始转向海盗行径。他们的势力最终被一支从地球来的舰队终结，该舰队控制了空间站，后来这里成了羽翼未丰的共和国的军事基地。`
 	description `	29世纪时，大衮空间站的控制权移交给了辛迪加，后者最终因空间站年久老旧而将其腾空。地方法律禁止无许可降落大衮空间站，不过辛迪加反正也不太关心有没有人在这儿着陆。`
 
 planet Dancer
+	"display name" "舞者星"
 	attributes research south
 	landscape land/nasa7
 	description `舞者星是一颗资源丰富的星球，但天气异常狂暴，大气对流强烈，由此引发的闪电风暴比任何其他已有人类定居的星球都要凶猛。在户外步行简直是不可想象的事，而且时常能看到被一股特别猛烈的雷击炸出的小坑。`
@@ -1107,6 +1206,7 @@ planet Dancer
 		fleet "Small Militia" 23
 
 planet Darkcloak
+	"display name" "暗幕"
 	attributes unfettered
 	landscape land/water6
 	description `暗幕是一个几乎总是被厚厚云层遮蔽的世界，因此在这里生产食物十分困难。`
@@ -1121,6 +1221,7 @@ planet Darkcloak
 		fleet "Small Unfettered" 15
 
 planet Darkmetal
+	"display name" "暗金属"
 	attributes hai "hai tourism" mining
 	landscape land/canyon02
 	description `暗金属是一颗寒冷干燥的采矿星球，亥族空间所用的大量重金属多产于此。每逢距上一场暴雨过去一周以上，天际便笼罩着微微放射性的尘霾。多数采矿作业由缓慢移动、体如小城般的巨型机械进行，它们吞入土壤和基岩层，粉碎后提取有价元素，再将余料与水混合成类似混凝土的浆液，挤成实心块体，以减少再向大气增添的尘埃量。`
@@ -1128,6 +1229,7 @@ planet Darkmetal
 	security 0.2
 
 planet Darkrest
+	"display name" "幽暗长眠"
 	attributes hai station uninhabited
 	landscape land/station34
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -1137,6 +1239,7 @@ planet Darkrest
 	security 0
 
 planet Darkstone
+	"display name" "暗石星"
 	attributes farming forest frontier south
 	landscape land/valley8
 	description `暗石星是一颗多雨、多山的行星。主要大陆遍布河流与绿色山谷。一些富有开拓精神的定居者在此建立了农耕社区，但由于邻近星系的海盗威胁，人口数量仍然很少。`
@@ -1149,11 +1252,13 @@ planet Darkstone
 		fleet "Small Militia" 18
 
 planet Darkwaste
+	"display name" "暗废星"
 	attributes uninhabited
 	landscape land/canyon10-harro
 	description `这颗行星似乎具备形成生机勃勃、类地球生态环境的全部条件。重力和气温都很适中，虽然海洋相当小，但地表水储量尚可。然而，除了少数发育不良的植物与地衣之外，这里几乎没有任何原生生命。以亥族改造异星世界的娴熟程度来看，这颗行星竟被遗忘在荒芜之中，实在令人费解。`
 
 planet "Deadman's Cove"
+	"display name" "亡者湾"
 	attributes core "core pirate" fishing frontier pirate
 	landscape land/sea1
 	description `亡者湾是一颗海洋行星，陆地面积仅占其表面积的十分之一。传说深海之中有巨型海怪出没：数百米长的海蛇，巨大的海龟，奇特的触手怪物，以及千奇百怪的鱼类。`
@@ -1170,6 +1275,7 @@ planet "Deadman's Cove"
 		fleet "Small Core Pirates" 45
 
 planet Deep
+	"display name" "幽海星"
 	attributes fishing south
 	landscape land/sea3
 	description `幽海星是一个人口稀少的星球，由散布在广阔空旷大洋中的小型群岛组成。由于陆地不足，无法形成任何大城市或像样的工业，因此大多数居民住在小渔村里。气候温和，与地球类似，但阳光比你习惯的要昏暗一些。`
@@ -1181,6 +1287,7 @@ planet Deep
 		fleet "Small Militia" 37
 
 planet "Deep Treasure"
+	"display name" "深藏珍宝"
 	attributes farming oil saryd
 	landscape land/sea10-sfiera
 	description `亿万年来，深藏珍宝的海洋底部积累了厚厚的海藻与浮游生物沉积物，留下了丰饶的石油矿床，萨里德人将其开采以制造塑料和其他碳氢产品。在较浅的海域，鱼群穿梭于联盟星域内种类最丰富、范围最广的珊瑚礁之间。`
@@ -1190,6 +1297,7 @@ planet "Deep Treasure"
 	security 0.2
 
 planet "Deep Water"
+	"display name" "深水星"
 	attributes research saryd
 	landscape land/fog3
 	description `深水星的上地幔层异常炽热，导致火山持续喷发，火山灰和微粒物质笼罩着它的天空。除了一小块大陆外，地表大部分是海洋，但火山活动形成了数百个独立的岛链和群岛，每个都拥有独特的动植物物种。`
@@ -1201,6 +1309,7 @@ planet "Deep Water"
 	security 0.35
 
 planet "Deka Dathnak"
+	"display name" "德卡达斯纳克"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa21
 	description `不知出于何种原因，有人竟费尽心机，向这颗气态巨行星投掷了数千枚核弹头。放射性同位素的漩涡在低层大气中清晰可见，大量漂浮的烟尘暗示着近期有某种物质被大规模焚烧。在科拉斯内战期间，向这颗气态巨行星倾泻数十亿吨当量核武器的，很可能就是科拉斯人，但他们这样做的确切原因仍然不得而知。`
@@ -1208,6 +1317,7 @@ planet "Deka Dathnak"
 	government Uninhabited
 
 planet "Deli Kasi"
+	"display name" "德里卡西"
 	attributes bunrodea farming
 	landscape land/fields3
 	description `德里卡西是一个拥有广阔海洋和多山大陆的世界。在这颗行星的许多地方，高耸的山脉阻挡了来自海洋的潮湿空气，使降雨集中在特定区域。加上高山融雪，大部分可居住的陆地形成了大片肥沃的平原，这使得德里卡西成为一个主要的农业世界。`
@@ -1217,6 +1327,7 @@ planet "Deli Kasi"
 	security 0
 
 planet "Deli Kat"
+	"display name" "德里凯特"
 	attributes bunrodea farming
 	landscape land/fields0
 	description `德里凯特环绕着这一带众定居星系中最暗淡的恒星运行，那恒星与太阳颇为相似。尽管这颗行星的轨道离主星比地球要远，但它稍厚的大气层似乎抵消了这份疏离，造就了与地球极为相近的气候。行星上广袤的平原与密布的河网更使德里凯特成为一个肥沃的农耕世界。`
@@ -1226,11 +1337,13 @@ planet "Deli Kat"
 	security 0
 
 planet Delodir
+	"display name" "德洛迪尔"
 	attributes frozen "ice moon" moon uninhabited
 	landscape land/snow29
 	description `德洛迪尔证明了生命即使在最不可思议的地方也能存在。尽管这颗卫星缺乏阳光——因为微尘星系没有明亮发光的恒星——生命却依然在德洛迪尔厚厚的冰层之下的地下海洋底部繁衍生息。能量通过热液喷口涓涓流入生物圈，而这些喷口又由系统中棕矮星和气态巨行星共同产生的引力作用所引发的潮汐加热驱动。`
 
 planet Delve
+	"display name" "挖掘星"
 	attributes core mining
 	landscape land/snow1
 	description `挖掘星是一个山脉高耸、山谷陡峭的世界，有些山坡终年见不到阳光，最高峰上冰雪常年不化。`
@@ -1250,6 +1363,7 @@ planet Delve
 		fleet "Large Syndicate" 9
 
 planet "Delve of Bloptab"
+	"display name" "布洛普塔布的矿坑"
 	attributes arach mining
 	landscape land/hills0
 	description `这是一个矿业世界，其高温甚至超出了阿拉奇人的偏好，但比起其姊妹星布洛普塔布的熔炉仍宜居得多。这里是掌管采矿与金属加工的艾布洛玛布家族所在地，干燥的气候使得铁、钢及其他金属的库存可以放心存放，无需担心生锈。据说这里的仓库中储存的原料足以在必要时让日权会的战舰数量翻倍；阿拉奇人喜欢确信自己为任何不测做好了准备。`
@@ -1259,12 +1373,14 @@ planet "Delve of Bloptab"
 	security 0.6
 
 planet "Desi Seledrak"
+	"display name" "德西塞勒德拉克"
 	attributes frozen korath
 	landscape land/lava13
 	description `这颗行星主大陆上数十座火山喷出滚滚烟尘，将世界笼罩在厚厚的云层中，遮蔽了阳光。多处科拉斯城市废墟和周围清理出的几何状土地痕迹表明，这里曾是一颗农业星球，而今却鲜有植物能存活，长达数公里的冰川正从两极缓缓蔓延。可能要再过几个世纪，天空才会放晴，世界才会开始解冻。`
 	security 0
 
 planet "Devru Kaska"
+	"display name" "德夫鲁卡斯卡"
 	attributes korath sestor station
 	landscape land/station27
 	music ambient/machinery
@@ -1278,6 +1394,7 @@ planet "Devru Kaska"
 	security 0
 
 planet "Diligent Hand"
+	"display name" "勤奋之手"
 	attributes factory saryd uninhabited
 	landscape land/badlands12
 	description `在这个工厂世界，机器工人自行运作工厂、自我维修，并在几乎不需要萨里德创造者指导或协助的情况下，保持太阳能发电站远离风沙。每座工厂综合体都拥有自己的着陆坪，供货船卸下原材料并接收加工成品。`
@@ -1286,6 +1403,7 @@ planet "Diligent Hand"
 	security 0.5
 
 planet Disara
+	"display name" "迪萨拉"
 	attributes bunrodea military urban
 	landscape land/forest2
 	description `迪萨拉是一个高度发达的世界，行星的每一块大陆上都坐落着多座大型城市。每座城市向外延伸出更像郊区的区域，这些区域又进一步扩展为乡村和荒野地带。与许多其他世界不同，迪萨拉没有单一的主导产业。相反，这颗行星样样都做一点，拥有相当强劲的内部经济。`
@@ -1298,12 +1416,14 @@ planet Disara
 	bribe 0
 
 planet "Dlia Jzaur"
+	"display name" "德利亚扎尔"
 	attributes uninhabited
 	landscape land/mountain2
 	description `德利亚扎尔由于星系中心的双星而拥有比正常更为炎热的数个季节，这里每周都能看到美丽的日食现象。那颗小得多的伴星被认为是一颗被主星捕获的流浪恒星，但它正缓慢漂离。似乎有证据表明格诺人曾在此进行过殖民尝试，但由于附近星系的战争日益激烈，这些努力显然已被放弃。`
 	description `	奇怪的是，德利亚扎尔表面有许多外观不太自然的构造，在日食频发地区，它们似乎直冲天际。这些构造内部中空，但未显示任何格诺人参与的迹象。`
 
 planet "Dokimi Range"
+	"display name" "多基米试验场"
 	attributes military "twilight guard" uninhabited
 	landscape land/dokimi
 	description `这颗偏远的类行星小星体，远离一切重要之地，已被指定为暮光卫队的专用武器试验场。除了一个小小的前哨站里设有一间专事数据收集与分析的实验室外，地表是一片荒芜废土，覆盖着闪烁的氮冰和泛红的索林污迹。`
@@ -1311,6 +1431,7 @@ planet "Dokimi Range"
 	government Uninhabited
 
 planet "Double Haze"
+	"display name" "双重雾霭"
 	attributes factory farming kimek urban
 	landscape land/fields2
 	description `永不停歇地笼罩着这个世界的雾气，其实是一层富含养分与飘浮细菌的有机汤，落下的雨水则形同天然肥料。整颗行星表面，包括城市中每处安静的角落或小巷，都覆满了苔藓、青草、灌木以及其他翠绿蔓生的植物。`
@@ -1322,6 +1443,7 @@ planet "Double Haze"
 	security 0.3
 
 planet "Drekag Firask"
+	"display name" "德雷卡格菲拉斯克"
 	attributes korath sestor
 	landscape land/sea5
 	description `这个世界的表面大部分被水覆盖。如小城市般大小的船只漂浮在海洋上，随潮汐漂移。这些船只被设计用于培育藻类及其他微生物，曾为科拉斯人提供食物，以及类似石油的混合碳氢化合物。随着科拉斯人离去且不再需要食物，许多船只已年久失修，或是漂流至极地区域被冰山撞毁。`
@@ -1334,6 +1456,7 @@ planet "Drekag Firask"
 	security 0
 
 planet "Dueitch Ae"
+	"display name" "杜埃奇艾"
 	attributes gegno scin
 	landscape land/mountain1
 	description `为了推进生物学及其他重要科学研究，这颗郁郁葱葱的绿色世界被定为格诺辛的首都。与格诺核心世界普遍的重工业截然不同，杜埃奇艾的地表仍维持着大量自然生态系统，最突出的，是拥有相当可观的水体。辛族严格限制着自身在这颗行星上的扩张，甚至不惜以人口增长为代价，只为尽可能长久地守护其上繁茂的生命。`
@@ -1346,6 +1469,7 @@ planet "Dueitch Ae"
 	security 0
 
 planet "Dueyu Eitch"
+	"display name" "杜尤埃奇"
 	attributes gegno
 	landscape land/desert4
 	description `作为全体格诺人的历史母星，杜尤埃奇是一颗崎岖多岩的行星，覆盖着巨型都市与超级建筑群。每座城市都建于抬升的平台上，从底部向上，建筑越往天空延伸就越先进。较大的城市被工业熔炉变化不定的红橙色调照亮，城区更密集的地方则点缀着黄与绿。在人口稠密的地表之下，留有巨型空穴的痕迹，表明格诺人的先祖大多始于地下。`
@@ -1360,6 +1484,7 @@ planet "Dueyu Eitch"
 	security 0
 
 planet Dune
+	"display name" "沙丘星"
 	attributes mining rim
 	landscape land/dune2
 	description `沙丘星是一个大部分被沙漠覆盖的世界，直到最近才有人定居，因为地质学家发现沙漠下的基岩蕴藏着大量稀有矿物和宝石。`
@@ -1374,6 +1499,7 @@ planet Dune
 		fleet "Small Militia" 23
 
 planet "Dusk Companion"
+	"display name" "黄昏伴侣"
 	attributes kimek oil
 	landscape land/mountain9
 	description `黄昏伴侣的卫星如此庞大、轨道如此接近行星，以至于潮汐力甚至影响着行星的板块构造。这里的天空时常被火山灰阴霾所笼罩。该星球蕴藏着丰富的石油矿藏，那是往昔生命曾在此繁盛的遗迹，但由于不断位移的地面会损坏钻机或封堵先前高产的钻孔，开采石油成本高昂。这也导致就地提炼困难重重，因此石油被运往异星加工成塑料，而非在当地进行生产。`
@@ -1383,6 +1509,7 @@ planet "Dusk Companion"
 	security 0.15
 
 planet Dustmaker
+	"display name" "造尘星"
 	attributes hai "hai tourism" manufacturing
 	landscape land/badlands0
 	description `在未被尘暴遮蔽时，这颗行星的表面能接收到足够的阳光，不仅能为大型太阳能农场供能，还能驱动太阳能熔炉，亥族利用这些熔炉制造种类繁多的商品。有些太阳能农场的规模极为庞大，从轨道上望去，其反射的光芒几乎会被误认为是湖泊或小片海洋。然而，除了靠近两极的区域，行星表面几乎没有水。`
@@ -1390,6 +1517,7 @@ planet Dustmaker
 	security 0.2
 
 planet "Dwelling of Speloog"
+	"display name" "斯佩卢格居所"
 	attributes arach folklore shipping urban
 	landscape land/fog10
 	description `赤道周围环绕着宽阔的热带雨林带，该行星的气候对阿拉奇人来说非常理想。数十亿阿拉奇人居住于此，许多协助日权会环世界扩建的工人也来自这颗行星。`
@@ -1400,6 +1528,7 @@ planet "Dwelling of Speloog"
 	security 0.4
 
 planet Earth
+	"display name" "地球"
 	attributes education factory "near earth" research tourism urban
 	landscape land/city20
 	description `作为人类的祖居母星，地球的人口是任何其他宜居星球的两倍。不断蔓延的都市覆盖了其表面的大部分区域，其中许多城市拥挤且危险。一些人拼命攒钱渴望逃离，而与此同时，在遥远星球出生的人，则以近乎朝圣的心情前来，想亲眼看看这颗曾孕育全人类的星球。`
@@ -1423,11 +1552,13 @@ planet Earth
 		fleet "Large Republic" 50
 
 planet Eavine
+	"display name" "伊瓦恩"
 	attributes frozen ka'het uninhabited
 	landscape land/snow8
 	description `尽管气候严寒，大部分地表被积雪覆盖，伊瓦恩的地壳却富含别处难以寻觅的稀有金属与矿物。地表上的整片山谷已被彻底剥离资源，这些资源可能用于那座规模宏大的半埋式建筑群，它似乎是这颗卫星上如今仅存的定居点。`
 
 planet Echo
+	"display name" "回响星"
 	attributes "human quarg" moon quarg
 	landscape land/desert2
 	description `这是一座小型的夸格前哨站，你怀疑它主要是为了监视河鼓三集团及其在下方行星上受到异星影响的研究而建。与大多数夸格世界一样，这里重力太低，无法供人类殖民，而且虽然有大气层，但对人类而言过于稀薄，无法呼吸。据说夸格的肺部结构适应持续的单向气流，如同鸟类的肺，而非人类肺部那种普通的进出气流；正是这使他们能在低重力、薄大气的星球上生存。`
@@ -1437,12 +1568,14 @@ planet Echo
 	security 0.9
 
 planet "Eeu Mnai"
+	"display name" "伊乌姆奈"
 	attributes uninhabited
 	landscape land/canyon03
 	description `与繁荣的姆奈星相比，伊乌姆奈是一颗主要由岩石构成的黯淡矮行星。虽然仍处于该星系双星的宜居带内，但这个世界的地表崎岖嶙峋，常年被寒冷的秋冬两季所主导。然而，这样的环境并非不适宜居住，各种生命形式，如地下哺乳动物和昆虫类生物，已经适应了这些条件。`
 	government Uninhabited
 
 planet "Ef Aourtdye"
+	"display name" "埃夫奥特代"
 	attributes gegno mining factory
 	landscape land/desert19
 	description `埃夫奥特代主要是一个工厂世界，大量开采的矿物在这里被精炼、加工并重新分配到格诺空间各处。巨大的工厂和精炼设施结构雕刻在行星的多山表面上，一些城市坐落在不那么拥挤的山谷中。这里曾拥有更大规模的人口，但现在大部分城市已荒废，因为开发重心要么转移到更遥远的行星，要么撤回至不断扩张的格诺母星。`
@@ -1454,6 +1587,7 @@ planet "Ef Aourtdye"
 	security 0
 
 planet "Ef Osch"
+	"display name" "埃夫奥施"
 	attributes gegno scin
 	landscape land/beach11-harro
 	description `埃夫奥施是格诺发现的第一个表面大部分被水覆盖的世界。原始海滩环绕着热带陆块，深处栖息着许多奇异生物。尽管已被格诺辛占据，大陆上的建筑工程相对较少。大多数工业活动都在航行于海洋的大型舰船式综合设施上进行。`
@@ -1465,6 +1599,7 @@ planet "Ef Osch"
 	security 0
 
 planet Eldergrasp
+	"display name" "长者之握"
 	attributes hai retirement station
 	landscape land/station32
 	description `抵达这座空间站的访客会立刻注意到，此处的重力比大多数行星低约三分之一。接待区布置得颇为宽敞，一名值班的护理员会告知你，这里是老年人的休养之所，除非你在此有家人，否则不得在站内随意走动。`
@@ -1477,12 +1612,14 @@ planet Eldergrasp
 	security 0.8
 
 planet "Elek Kartanu"
+	"display name" "埃莱克卡塔努"
 	attributes korath
 	landscape land/lava2
 	description `你全然不知这颗行星经历了什么，也不确定自己是否真的想知道。对于一颗距其恒星如此遥远的行星而言，这里的大气异常炎热潮湿；海洋水位似乎在不久前显著下降，使得藤壶与白化的珊瑚裸露在海岸线四周的空气中。狂风肆虐，裹挟着狂野的能量，雾气则如活物般游移不定。`
 	security 0
 
 planet Elthe
+	"display name" "埃尔斯"
 	attributes avgi frontier mining moon shipping
 	landscape land/mars2
 	description `埃尔斯所围绕的气态巨行星瑟夫拥有一个由环带和卫星组成的富饶系统，富含珍贵矿物。独立矿工所获的丰厚回报吸引了众多不满行星生活的阿莱奥移民，使瑟夫的环带变成了狂野的边疆——轨道绳索抢劫与质量加速器枪战屡见不鲜。`
@@ -1491,62 +1628,74 @@ planet Elthe
 	security 0
 
 planet "Ember Gegno"
+	"display name" "余烬-格诺虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Ember Gegno"
 
 wormhole "Ember Gegno"
+	"display name" "余烬-格诺虫洞"
 	mappable
 	link Lucina Rouseu
 	link Rouseu Lucina
 	color "wormholes: Ember Waste"
 
 planet "Ember Graveyard"
+	"display name" "余烬-星冢虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Ember Graveyard"
 
 wormhole "Ember Graveyard"
+	"display name" "余烬-星冢虫洞"
 	mappable
 	link Polerius Ossipago
 	link Ossipago Polerius
 	color "wormholes: Ember Waste"
 
 planet "Ember Reaches"
+	"display name" "余烬-远域虫洞"
 	attributes "requires: quantum keystone"
 	spaceport ``
 	wormhole "Ember Reaches"
 
 wormhole "Ember Reaches"
+	"display name" "余烬-边疆虫洞"
 	mappable
 	link Coluber Convector
 	link Convector Coluber
 	color "wormholes: Ember Waste"
 
 planet "Ember Threshold"
+	"display name" "余烬-界阈虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Ember Threshold"
 
 wormhole "Ember Threshold"
+	"display name" "余烬-门槛虫洞"
 	mappable
 	link Cardea Terminus
 	link Terminus Cardea
 	color "wormholes: Ember Waste"
 
 planet "Ember Twilight"
+	"display name" "余烬-暮光虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Ember Twilight"
 
 wormhole "Ember Twilight"
+	"display name" "余烬-暮光虫洞"
 	mappable
 	link Quartet Sextet
 	link Sextet Quartet
 	color "wormholes: Ember Waste"
 
 planet "Ember Wormhole"
+	"display name" "余烬虫洞"
 	attributes "requires: quantum keystone"
 	spaceport ``
 	wormhole "Ember Wormhole"
 
 wormhole "Ember Wormhole"
+	"display name" "余烬虫洞"
 	mappable
 	link Aescolanus Cardea
 	link Cardea Insitor
@@ -1555,6 +1704,7 @@ wormhole "Ember Wormhole"
 	color "wormholes: Ember Waste"
 
 planet Eminonu
+	"display name" "艾米诺努"
 	attributes frozen uninhabited
 	landscape land/snow12
 	description `艾米诺努显眼的绿色岩石表明铜含量极高，且历史上曾存在大气水。散落的植被残骸表明，这颗行星直到不久前可能还是某种花园星球，尽管可能是个寒冷的花园。如今绝大多数水分都封冻在冰原中，环境温度甚至低到连耐寒的地衣都无法生存。`
@@ -1562,6 +1712,7 @@ planet Eminonu
 	security 0
 
 planet Enbye
+	"display name" "恩拜"
 	attributes gegno vi
 	landscape land/fog0
 	description `恩拜是一个位于双星系统宜居带边缘的寒冷多山世界，拥有格诺维的大型船坞，利用从附近火山行星收集的原始资源，为战舰源源不断地生产船壳。地表遍布众多大型峡谷，被用作武器试验场，其中最大的峡谷里坐落着一座比其他船坞大数倍且外观更为古老的船坞。`
@@ -1577,6 +1728,7 @@ planet Enbye
 	security 0
 
 planet "Enn Bue"
+	"display name" "恩布埃"
 	attributes gegno scin
 	landscape land/canyon01
 	description `狭长的椭圆形船坞遍布在这颗本不宜居的荒漠星球表面，这里承载了格诺辛大部分的舰船制造。物质财富大多来自邻近气态巨行星的卫星，但强烈的引力拖拽偶尔会引发蹂躏地表的自然灾害。即便如此，辛族在工艺制造上始终警觉而高效。`
@@ -1590,6 +1742,7 @@ planet "Enn Bue"
 	security 0
 
 planet Entantel
+	"display name" "恩坦特尔"
 	attributes avgi frozen "ice moon" moon uninhabited
 	landscape land/snow39
 	description `恩坦特尔引人注目之处在于它几乎完全由水冰构成。由于其岩质核心极小，低平均密度使得它尽管体积可观，却只有非常微弱的引力加速度。`
@@ -1600,6 +1753,7 @@ planet Entantel
 	government Uninhabited
 
 planet Erabuthro
+	"display name" "埃拉布特罗"
 	attributes bunrodea urban
 	landscape land/mountain5
 	description `埃拉布特罗是邦罗迪亚霸权的首都，也是女王御座之所在。唯有获得女王祝福者，方可踏足这颗行星的地表，不过获得祝福未必就能保证受到热情款待。`
@@ -1617,6 +1771,7 @@ planet Erabuthro
 	security 0
 
 planet Eragarthro
+	"display name" "埃拉加特罗"
 	attributes academy bunrodea guild moon
 	landscape land/sea5
 	description `埃拉加特罗是伊拉加鲁·勒星系中一颗中等大小气态巨行星的大型海洋卫星。尽管环绕气态巨行星意味着这颗卫星时常会连续数日笼罩在阴影之中，但它所环绕的行星也牢牢位于附近恒星的宜居带内，使得这里成为一个并不算太糟的居住之地。`
@@ -1630,6 +1785,7 @@ planet Eragarthro
 	security 0
 
 planet "Ergastirio Station"
+	"display name" "实验室空间站"
 	attributes avgi "avgi diaspora" military "twilight guard"
 	landscape land/station59
 	description `当协律研究人员对充足空间和隔离的需求超出了边缘空间站和纳维吉奥所能提供的范围——这两座空间站分别专用于居住和造船——于是建造了这座中型空间站，以容纳一系列最先进的实验设施。这里的工作主要针对武器研究，这是与异变体对抗的必然结果。`
@@ -1648,6 +1804,7 @@ planet "Ergastirio Station"
 		fleet "Avgi Fleetgroup"
 
 planet "Esayaku Fen"
+	"display name" "埃萨亚库芬"
 	attributes korath
 	landscape land/badlands5
 	description `科·梅雷提机器人似乎更倾向于在太空中建造工厂与精炼厂，而非在行星上。它们从小行星上采集原材料，从而不必应对重力、大气、雨水或沙尘暴。它们让这颗荒漠星球空无一人。`
@@ -1655,6 +1812,7 @@ planet "Esayaku Fen"
 	security 0
 
 planet "Esek Stovar"
+	"display name" "埃塞克斯托瓦尔"
 	attributes korath mereti station
 	landscape land/station28
 	description `这座科·梅雷提哨站远离与科·塞斯特交战的前线，因此已有些荒废。最大的停泊舱仍开放供加油与维修，但空间站中曾经作为生活区的区域已被全部封闭。`
@@ -1667,12 +1825,14 @@ planet "Esek Stovar"
 	security 0
 
 planet "Eskar Kortuka"
+	"display name" "埃斯卡尔科图卡"
 	attributes frozen korath
 	landscape land/snow19
 	description `这是一颗勉强可居住的冰冻星球。科拉斯人除了几座现已废弃的小型采矿设施外，什么都没在此建造。没有任何迹象表明居住者是被暴力逼迫离开的，反倒像是某一天他们收拾好行装，便搬走了。他们留下的建筑如今已被风吹积的雪堆覆盖了一半。`
 	security 0
 
 planet "Esperaktu Station"
+	"display name" "埃斯佩拉克图空间站"
 	attributes korath station
 	landscape land/station0
 	description `这座小型空间站的外壳上遍布爆炸痕迹，但均已修补完毕，内部依然保有大气。尽管结构完好，整座空间站已完全废弃。`
@@ -1680,6 +1840,7 @@ planet "Esperaktu Station"
 	security 0
 
 planet Esquiline
+	"display name" "埃斯奎林"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa13
 	description `埃斯奎林稀薄的天幕中狂风怒号，风暴永不停歇。遗民发现其高层大气中含有某些化学物质的可用来源。虽然少有飞船能深入其中，但常可见特制的大气采集无人机定时扎入大气层，为阿文丁运送物资。`
@@ -1687,6 +1848,7 @@ planet Esquiline
 	security 0
 
 planet Essime
+	"display name" "埃西姆"
 	attributes gegno vi
 	landscape land/mountain4
 	description `大多数 Vi 自幼便将毕生奉献给无尽的生存试炼，不是身处冲突前线，就是投身工业大后方。年迈退休后，他们会在像这样绿意盎然的星球上度过余生，猎兽为食，耕种田地。`
@@ -1697,6 +1859,7 @@ planet Essime
 	security 0
 
 planet Esstch
+	"display name" "埃斯特施"
 	attributes gegno uninhabited
 	landscape land/badlands2
 	description `这颗沙漠星球是格诺人在母星之外首个留下印记的世界。埃斯特施四处散布着各式记录昔日时光的仪器，代表着格诺人历史上的一块基石。然而，由于星系恒星的近距，此处过于炎热，无法定居。`
@@ -1705,6 +1868,7 @@ planet Esstch
 	security 0
 
 planet Everhope
+	"display name" "永望"
 	attributes hai station
 	landscape land/station35
 	music ambient/machinery
@@ -1714,11 +1878,13 @@ planet Everhope
 	security 1
 
 planet "Exotic Metal Garden"
+	"display name" "奇异金属花园"
 	attributes predecessor station uninhabited "requires: starlining"
 	landscape land/space6
 	description `Eerily quiet, the small habitable areas of this station are dominated by the view of a tangled nest of enormous metallic ribbons that stretch away from the Kasii-Cavasaa star. Deep in the bowels of the facility, these are spooled into strings of exotic stellar metal which, despite their small size, are improbably heavy and uncomfortably cold to the touch. Having not been harvested in many hundreds of years, the spools are silent and still - apart from a single one, which slowly revolves and holds almost no material.`
 
 planet "Factory of Eblumab"
+	"display name" "埃布鲁马布工厂"
 	attributes arach factory mining
 	landscape land/mountain22-spfld
 	description `埃布鲁马布工厂环绕的那颗小小太阳热度微弱，难以供应足够能源，因此此地的制造厂房大多依赖核反应堆，所用放射性同位素皆在本地开采、精炼。这里炎热干燥，土地大多荒芜，工人多为年轻单身者，期盼攒够财富后迁往更宜人的地方。`
@@ -1728,6 +1894,7 @@ planet "Factory of Eblumab"
 	security 0.2
 
 planet Faliete
+	"display name" "法利埃特"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa36
 	description `在翻滚的暴风雨背后，一个巨大结构的轮廓悬浮在行星上层云层之中。自动化无人机像飞蛾扑火般成群涌向建筑群，携带着原始组件前往神秘的目的。工厂偶尔会吐出大量烟色玻璃与金属合金制成的巨大板片。它们在昏暗光线中闪烁，颤动地向下飘落，下降过程中碎裂成越来越小的废料镶嵌碎片。`
@@ -1736,6 +1903,7 @@ planet Faliete
 	security 0
 
 planet "Far Garden"
+	"display name" "远方花园"
 	attributes farming saryd tourism urban
 	landscape land/mountain15-sfiera
 	description `萨里德文化高度重视与自然世界的联系以及适合静思的环境。这是他们人口最多的星球之一，但即使在城市中，划为公园和荒野的土地也比用于建筑的土地多。`
@@ -1746,6 +1914,7 @@ planet "Far Garden"
 	security 0.4
 
 planet "Far Home"
+	"display name" "远方故乡"
 	attributes saryd tourism urban
 	landscape land/valley10-sfiera
 	description `远方故乡的天气近乎完美地融合了联盟三个成员种族各自最舒适的气候。山区与北方针叶林由萨里德人定居，草原与稀树草原由基梅克人定居，雨林则由阿拉奇人定居，尽管严格意义上这里属于萨里德领土。`
@@ -1761,17 +1930,20 @@ planet "Far Home"
 	security 0.5
 
 planet "Far Monad"
+	"display name" "远孤星"
 	landscape land/hills8
 	description `远孤星的天气实际上相当宜人。如果不是因为它是一颗孤独的行星，围绕着一颗垂死的太阳公转，处于一片鲜有物种涉足、也无任何种族宣称为己有的太空区域，它本可以成为一个丰饶的农业世界，甚至是一个大都会中心。`
 	security 0
 
 planet "Far'en Lai"
+	"display name" "法恩莱"
 	attributes uninhabited
 	landscape land/dune3
 	description `当科拉斯被放逐至核心星区时，他们只剩下一颗生机盎然的星球，他们称其为“法恩莱”，意为“最后的烛焰”。科拉斯人担心这颗星球的生物圈会像他们曾经掌控的所有其他星球一样在他们手中化为尘埃，因此他们让法恩莱完全保持未定居和未开发的状态。据传言，他们的流放条款规定：如果法恩莱枯萎消亡，剩余的科拉斯流亡者将被灭绝；但若他们能学会让这颗星球繁荣兴盛，他们在银河系中的地位便将得以恢复。`
 	government Uninhabited
 
 planet "Fara Skaeruti"
+	"display name" "法拉斯凯鲁蒂"
 	attributes korath mereti station
 	landscape land/station24
 	music ambient/machinery
@@ -1785,6 +1957,7 @@ planet "Fara Skaeruti"
 	security 0
 
 planet Farpoint
+	"display name" "远点星"
 	attributes frontier military north
 	landscape land/desert4
 	description `远点星位于人类空间最北端，是一颗岩石荒漠行星，除了一座共和国海军基地外别无他物。农业只能在温室中进行，且该星系距银河中心过远，对贸易或工业缺乏吸引力。`
@@ -1801,6 +1974,7 @@ planet Farpoint
 		fleet "Large Republic" 6
 
 planet Farseer
+	"display name" "远见星"
 	attributes paradise tourism wealthy
 	landscape land/sea8
 	description `只要资金充裕，晴天也能买来。远见星是一颗海洋度假星球，当地税收的很大一部分都用于运行调节天气的地形改造设备。政局动荡时，房地产价格剧烈波动，因为这里的田园诗般气候全靠政府法令维持。`
@@ -1814,6 +1988,7 @@ planet Farseer
 		fleet "Large Republic" 14
 
 planet Farwater
+	"display name" "远水星"
 	attributes hai "hai tourism" medical
 	landscape land/beach13
 	description `在人类星域，此星系或许会因恒星辐射过强而无人定居——强烈的紫外线使动物难以长期在地表生存。而亥族却将这颗温暖的海洋世界改造成了巨大的光合藻类和细菌培养场。每一种物种都经过基因编辑，以合成可供利用的医用或营养化合物。专门设计的大型驳船缓缓游弋于海洋，滤取这些微生物，继而提炼出其中的化合物。`
@@ -1821,6 +1996,7 @@ planet Farwater
 	security 0.2
 
 planet Featherweight
+	"display name" "轻羽星"
 	attributes frontier north research
 	landscape land/sky6
 	description `轻羽星是一个小世界，重力比正常情况要轻。数个世纪前，由于地处偏远，这个世界曾进行过一些非法的基因实验，传言说现在的居民就是那些实验的产物。因为他们如此适应低重力环境，很少有人选择离开，而极少数外来者选择在此定居，因此这个世界文化依然极为封闭，与银河系其他区域隔绝。`
@@ -1831,17 +2007,20 @@ planet Featherweight
 		fleet "Small Republic" 30
 
 planet "Fek Rembatu"
+	"display name" "费克伦巴图"
 	attributes korath
 	landscape land/beach10-sfiera
 	description `这颗行星上一切金属制品都被厚厚的红褐色地衣或真菌覆盖。城市中，最高的建筑看上去被真菌熔化或消化了一半：高塔歪斜成怪异的角度，较矮的建筑则完全被掩埋，轮廓难辨。空气闻起来有股酸菜混着玫瑰的气味。`
 
 planet Felorap
+	"display name" "费洛拉普"
 	attributes ocean uninhabited
 	landscape land/water30
 	description `费洛拉普是一颗炎热、雾气蒸腾的海洋星球，拥有由二氧化碳和水蒸气构成的浓厚大气层。尽管它已是一颗相当古老的行星，周期性小行星轰击却让它始终无法获得孕育复杂生命所需的喘息之机，因而生物圈仍局限在海底众多热液喷口周围的极端微生物之中。`
 	description `	在距离海面不远的海洋沉积层中，可以找到一些无脊椎多细胞生物的遗骸化石，它们是数百万年前一次灾难性撞击事件中灭绝的演化谱系的最后残存。`
 
 planet "Fenrir Station"
+	"display name" "芬里尔空间站"
 	attributes deep station
 	landscape land/station4
 	music ambient/machinery
@@ -1855,6 +2034,7 @@ planet "Fenrir Station"
 		fleet "Small Deep Security" 14
 
 planet "Feo Platform"
+	"display name" "费奥平台"
 	attributes avgi military station "twilight guard"
 	landscape land/station54
 	description `费奥平台由一台封存已久的星际激光驱动器部件仓促组装而成，是一座巨大的自由电子激光器，旨在为防守缠结帷幕星、抵御异变体入侵的阿夫吉舰队提供火力支援。尽管有时会有少数异变体设法穿过防线，但这束光与平台所支援的舰队群迄今仍成功守住了阵线。`
@@ -1876,6 +2056,7 @@ planet "Feo Platform"
 		fleet "Avgi Fleetgroup" 6
 
 planet Fertriery
+	"display name" "费特里里"
 	attributes "requires: gaslining"
 	landscape land/nasa10
 	description `费特里里是一颗相当典型的行星，大气层格外稠密，其中含有较高浓度的氯和氟。唯一的不同寻常之处在于其温度高于平均水平，这很可能是因为向周围太空散失的能量有所减少。`
@@ -1883,6 +2064,7 @@ planet Fertriery
 	security 0
 
 planet Firefall
+	"display name" "流火之瀑"
 	attributes hai station uninhabited
 	landscape land/station36
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -1892,6 +2074,7 @@ planet Firefall
 	security 0
 
 planet Firelode
+	"display name" "火脉星"
 	attributes unfettered
 	landscape land/mountain25-spfld
 	description `无束者在此经营数座大型露天矿场，采掘铀与钚，为其战舰的发电机提供燃料。较旧、废弃的矿坑遍布行星地表。采矿活动导致此地的地下水遭到严重污染。`
@@ -1902,11 +2085,13 @@ planet Firelode
 		fleet "Small Unfettered" 5
 
 planet "Firka Tesk"
+	"display name" "菲尔卡特斯克"
 	attributes korath
 	landscape land/lava0
 	description `这里似乎曾是一个有人居住的世界，几座城市的废墟至今犹存。但星球的地壳已如蛋壳般破裂，熔岩河四处流淌，留下异常陡峭的山脉与地裂断层。风在裂隙与沟壑间呼啸哀嚎，仿佛这颗星球本身在痛苦尖叫。浓厚的二氧化硫与火山灰雾霾笼罩着一切。`
 
 planet Flood
+	"display name" "洪水星"
 	attributes farming rim tourism
 	landscape land/water8
 	description `风景如画的峡湾与崎岖山脉使洪水星成为热门旅游目的地。星球温带几乎所有的土地都被群山覆盖，这使得传统农业难以开展。`
@@ -1919,6 +2104,7 @@ planet Flood
 		fleet "Large Militia" 11
 
 planet "Flowing Fields"
+	"display name" "流动田野"
 	attributes farming saryd
 	landscape land/dune0
 	description `在雨季，流动田野上的植物生长速度极快，草能长到三米多高。尽管从远处眺望，草原显得青翠而宁静，但这里也栖息着许多危险的掠食者，包括数百种蛇类和凶猛的肉食性啮齿动物群，它们能捕杀体型数倍于己的猎物。旱季时，啮齿动物群会用编织的草和泥巴搭建圆顶小屋，以躲避烈日和沙尘暴。`
@@ -1930,6 +2116,7 @@ planet "Flowing Fields"
 	security 0.1
 
 planet Follower
+	"display name" "追随者星"
 	attributes factory paradise
 	landscape land/city10
 	description `追随者星位于天堂星球区域的边缘：尚不完全属于其中之一，但正以此为志向。它繁荣昌盛，但源于制造业而非法律、金融或风险投资。当地税收的很大一部分被用于地球化改造，以提高全球气温并减少季节波动。这里生产的商品总有现成的市场，因此追随者星的就业经济被认为非常稳定。`
@@ -1948,6 +2135,7 @@ planet Follower
 		fleet "Small Republic" 86
 
 planet Forpelog
+	"display name" "福佩洛格"
 	attributes "human quarg" moon quarg
 	landscape land/canyon03
 	description `福佩洛格是夸格的采矿世界，按他们的标准勉强适宜居住，且因重力较低，不适合人类长期定居。夸格城市是先进科技的奇迹，完全被玻璃和钢铁包裹，内部有着栽种了异星树木与植物的花园和露台。城外景观崎岖而壮美，但大气过于稀薄，无法呼吸，几乎不含氧气。`
@@ -1956,6 +2144,7 @@ planet Forpelog
 	security 0.9
 
 planet Foundry
+	"display name" "铸造星"
 	attributes core factory forest urban
 	landscape land/city1
 	description `铸造星是辛迪加船舶重工的所在地，人类空间中超过半数的商业货船均在此制造。虽然这颗行星的大部分区域笼罩在工厂排出的浓雾之中，但依然保留着原始森林与巍峨山脉的地区。`
@@ -1978,6 +2167,7 @@ planet Foundry
 		fleet "Large Syndicate" 18
 
 planet "Fourth Shadow"
+	"display name" "第四阴影"
 	attributes factory kimek urban
 	landscape land/mountain13-sfiera
 	description `在联盟全境，这是最接近配得上贫民窟世界这个称呼的星球。超过一百亿基梅克人居住在此，大多数挤在城市外围密集而破败的公寓楼里。与更繁荣的联盟星球不同，这里的市中心区域保留给工厂，而不是公园、政府机构或市民中心。`
@@ -1986,6 +2176,7 @@ planet "Fourth Shadow"
 	security 0.1
 
 planet Freedom
+	"display name" "自由星"
 	attributes farming frontier north "north pirate" pirate
 	landscape land/bwerner7
 	description `自由星是人类历史上最古老、规模最大的无政府主义殖民地所在地。首批定居者在超空间引擎发明后的第一个世纪抵达这里，目的只是想尽可能远离文明社会。自那以后，随着不同领导者掌控，这个殖民地经历了无数次重塑，实际上目前它分裂为两个独立的城镇——东台地和西台地。`
@@ -2008,6 +2199,7 @@ planet Freedom
 		fleet "Small Northern Pirates" 15
 
 planet Frostmark
+	"display name" "霜痕星"
 	attributes hai "hai tourism" urban
 	landscape land/dmottl5
 	description `霜痕星的赤道附近坐落着几座大型亥族城市，但行星表面大部分地区寒冷而荒无人烟，只有成群的巨型六足食草动物，以及同样庞大且令人生畏的掠食者出没其间。`
@@ -2015,6 +2207,7 @@ planet Frostmark
 	security 0.2
 
 planet Furnace
+	"display name" "熔炉星"
 	attributes core military moon
 	landscape land/bwerner4
 	description `熔炉星是一个近乎无人的世界，主要用作货运航点以及辛迪加舰队的集结地，这些舰队旨在确保这片星域免受海盗侵扰。大气稀薄得仅够呼吸，生长的植物无一可食。然而，由于它只是一颗大卫星而非完整的行星，从地表往返运送货物与飞船舰队相当便捷且廉价。`
@@ -2030,6 +2223,7 @@ planet Furnace
 		fleet "Large Syndicate" 7
 
 planet Gagarin
+	"display name" "加加林"
 	attributes ccor factory frontier pirate south "south pirate" urban
 	landscape land/city16-sfiera
 	description `加加林曾是外环联合会辖区内人口最为稠密的行星，也是该地区最早建立的殖民地之一。加加林上所有定居点都连入行星交通与基础设施网络……只不过，该网络早已跟不上加加林日益增长的人口。尽管当初设计时便考虑了随需求扩张而同步扩容的能力，但由于持续不断的物资短缺，这项资源密集型的基础设施工程维护起来越来越困难。CCOR的崩溃更是加剧了网络的缺陷。`
@@ -2047,12 +2241,14 @@ planet Gagarin
 		fleet "Large CCOR" 15
 
 planet Gamla
+	"display name" "甘拉"
 	attributes antecessor moon uninhabited
 	landscape land/desert19
 	description `与大多数虚构作品中对先驱物种的描绘不同，这颗干燥、咸涩的卫星上曾经的居民并没有留下任何古老的科技废墟或巨石建筑。相反，他们存在过的证据是被开采过的矿脉、明显属于人造的放射性同位素富集区，以及一圈已降解为金属块和尘埃的轨道碎片带。`
 	description `	在阿夫吉能够深入探索余烬废土之前，甘拉是他们首次找到的先行者存在的证据。先行者被认为是一种数百万年前曾栖息于他们空域东部的物种。尽管这颗卫星上没有留存任何可用的先行者科技，但它却让异星考古学家们着迷了多年。`
 
 planet "Gara Pvu"
+	"display name" "加拉普夫"
 	attributes uninhabited
 	landscape land/sky3
 	description `这颗星球覆盖着瑰丽的地貌，而且与附近的星系不同，这里的气候对人类而言相当宜人。最引人注目的是，地表上零星散布着一些优雅的弧形建筑与天桥。它们的外形虽然如梦似幻，但显然并非本土的产物，必定是很久以前由某个其他物种遗留下来的——而这个物种在离开时，不知为何完好地保留了此地的自然之美，又或者，它们消失的时间实在太久，大自然早已将一切重新吞没。`
@@ -2060,6 +2256,7 @@ planet "Gara Pvu"
 	security 0
 
 planet "Garden Empyreal"
+	"display name" "天穹花园"
 	attributes "coalition station" kimek shipping tourism wealthy
 	landscape land/clouds_03
 	description `不计算夸格的三重环世界，这里是联盟空间内最大的巨型结构。巨大的金属金字塔阵列以各种角度铺设，每座都比普通空间站大上十几倍。这些所谓的“枢纽”散布在行星上层大气中，由极长、不可伸缩且异常坚固的缆线连接，确保结构任何部分都不会失稳。`
@@ -2071,6 +2268,7 @@ planet "Garden Empyreal"
 	security 0.4
 
 planet Geminus
+	"display name" "杰米努斯"
 	attributes factory military mining paradise
 	landscape land/mountain18-harro
 	description `杰米努斯虽然算不上最宜居的星球，但它仍十分年轻，靠近地表的铁、钛等金属矿藏极易开采。因此，它已成为共和国的主要造船基地之一，海军半数以上的战舰都在此建造。`
@@ -2093,6 +2291,7 @@ planet Geminus
 		fleet "Large Republic" 18
 
 planet Gemstone
+	"display name" "宝石星"
 	attributes "dirt belt" mining
 	landscape land/lava7-sfiera
 	description `宝石星是一颗酷热而不适宜居住的行星，这主要归因于富含甲烷的烟尘大气。地表大部分覆盖着崎岖的山脉，使得地面交通十分困难。然而，这里强大的构造力造就了丰富的钻石、祖母绿和蓝宝石矿藏，这些宝石被开采后用于珠宝和某些电子元件。`
@@ -2108,6 +2307,7 @@ planet Gemstone
 		fleet "Large Militia" 8
 
 planet "Gentle Rain"
+	"display name" "细雨星"
 	attributes saryd tourism
 	landscape land/forest5
 	description `细雨星上的雨林栖息着体型巨大的蜘蛛，其蛛网横跨于树木之间，通常以鸟类而非昆虫为食。另一种同样庞大的蜘蛛能够跃起四五米高，从飞过的鸟群中攫取猎物。雨林树木极为茂密，仅偶有空地能让些许光线穿透叶层照至地面；每逢雨季，泥土便化作一潭潭死水泥沼。`
@@ -2117,6 +2317,7 @@ planet "Gentle Rain"
 	security 0.4
 
 planet Gestli
+	"display name" "盖斯特里"
 	attributes "tangled shroud" uninhabited
 	landscape land/mountain45
 	description `尽管从轨道上看去盖斯特里表面平滑，其地表实为崎岖山脉与粗砺丘陵构成的支离破碎之地。它的卫星体量足以构成双行星系统，其构造活动引发的全球性地震近乎持续不断，仅站立于星球表面便能感知。`
@@ -2124,6 +2325,7 @@ planet Gestli
 	government Uninhabited
 
 planet Geyser
+	"display name" "涌泉星"
 	attributes factory "near earth" oil
 	landscape land/bwerner8
 	description `地球化改造能改变许多事物，却无法修复低重力。涌泉星是在太空殖民第一波浪潮中建立的，那时除地球外还没有任何燃料补给站，因此只有那些距地球仅几跳之遥的星系才能维持与地球的贸易。如今，工业主要围绕石油钻探与制造业展开，留下的工人都是因过于贫困而无法离开的人。`
@@ -2140,12 +2342,14 @@ planet Geyser
 		fleet "Small Republic" 20
 
 planet Ghneoe
+	"display name" "格内欧"
 	attributes uninhabited
 	landscape land/hills10
 	description `由于星系中心的双星，格内欧的公转周期中大部分时间是极为漫长的旱季。然而，在一年中的短短一段时期里，格内欧会经历强烈的水循环，随之而来的是植被繁茂、野生动物活跃的盛景，形成短暂却生机勃勃的生态系统。这里的动植物大多已适应了如此剧烈的气候变化，等到高温周期再度降临时，它们便重归休眠状态。`
 	description `	与它的卫星不同，格内欧尚未见到邻近的格诺辛人任何殖民尝试，原因或许是异常的气候周期、星系内的战事，抑或两者兼而有之。`
 
 planet "Gi Tiures"
+	"display name" "吉蒂乌雷斯"
 	attributes gegno
 	landscape land/mountain9
 	description "由于这颗行星距离它的母恒星极近，大部分白昼时间都伴随着酷热与近乎致盲的强烈阳光。然而，行星较大的轴倾角使得夜晚远比白昼漫长。在这些夜晚时段，热量水平尚可接受，而这段时间也被视为这里居民的活跃时刻。"
@@ -2156,6 +2360,7 @@ planet "Gi Tiures"
 	security 0
 
 planet "Giaru Gegno"
+	"display name" "贾鲁格诺"
 	attributes "gegno quarg" quarg ringworld station
 	landscape land/station2
 	description `其结构品质表明，这个夸格环世界必定是在较近的时间才完成的，但存在一些明显不像夸格风格的差异。环上的某些机库和泊位奇怪地比其他的大，内部生活区也远比夸格常规的规格更宽敞高大。不过，你目前停泊的机库似乎没有这些特征，它与人类空间里的夸格环世界中的机库相似。`
@@ -2166,12 +2371,14 @@ planet "Giaru Gegno"
 	security 1
 
 planet Giiq-Oj-Sol
+	"display name" "吉克-奥伊-索尔"
 	attributes "bold tourism" successor uninhabited
 	landscape land/lava14
 	description `这颗行星独特的大气成分与火山活动共同造就了天然玻璃丝线地质生成的完美条件。火山将这些玻璃丝抛入大气，随后由高速风携带着遍布整颗行星。这意味着，若不穿戴某种防护便踏出飞船，是极不明智的：地面遍布锋利的碎片，空气中充满微小的玻璃颗粒，两者都能迅速破坏活体组织。`
 	government Uninhabited
 
 planet Giiq-Sou-Kella
+	"display name" "吉克-苏-凯拉"
 	attributes successor uninhabited
 	landscape land/sea2
 	description `这颗行星体积不大，大气平静，地质构造稳定，整个星球被液态甲烷构成的全球性海洋完全覆盖。在阵阵蒸腾的波浪之上，零星露出几块小型的岩石露头，但面积超过一平方公里的干燥陆地根本不存在。`
@@ -2183,6 +2390,7 @@ planet Giiq-Sou-Kella
 	government Uninhabited
 
 planet Giverstone
+	"display name" "赐石星"
 	attributes hai mining
 	landscape land/mountain19-harro
 	description `在这个矿业星球上，亥族正使用掘进机直接钻入山体深处。每条隧道蜿蜒曲折，以穿过矿石含量最高的岩层区域。多数隧道还与贯穿同一山脉的其他隧道相连，使得矿区内任意地点都有多个出口。`
@@ -2194,6 +2402,7 @@ planet Giverstone
 	security 0.2
 
 planet Glaze
+	"display name" "岩釉星"
 	attributes south tourism
 	landscape land/canyon8
 	description `岩釉星是一个多姿多彩的世界，从阳光明媚的海滩到冰封的苔原，应有尽有，但它最出名的或许是它的砂岩峡谷和沙漠。这个世界的野生动物从未被深入研究过。`
@@ -2212,11 +2421,13 @@ planet Glaze
 		fleet "Large Militia" 25
 
 planet Gliese
+	"display name" "格利泽"
 	attributes "requires: gaslining"
 	landscape land/gliese
 	description `这颗星球深处泛出洋红色的光芒，暗示格利泽地核中存在强大的热源。这种颜色乍看令人愉悦，时间一长却亮得令人作呕。风平浪静，不见风暴，若仔细观察，还能看到一些形似微型水母的生物，散发着柔和的光晕。`
 
 planet "Glittering Ice"
+	"display name" "冰辉星"
 	attributes frozen saryd
 	landscape land/snow7
 	description `冰辉星的气候在一年中的大部分时间里都极为寒冷，以至于这里的生物进化出了厚实的羽毛、毛皮或脂肪层来保暖。因此，几乎所有的动物，从最小的啮齿类到最大的掠食者，看起来都近乎球形，仿佛一团没有轮廓的毛球；对不经意的观察者而言，许多动物甚至分不清哪一边才是它们的头。`
@@ -2227,6 +2438,7 @@ planet "Glittering Ice"
 	security 0.3
 
 planet Glory
+	"display name" "荣耀星"
 	attributes education medical paradise research
 	landscape land/garden1
 	description `在银河系其他地方，人们不屑地谈起富裕的已改造行星才能享有的“买来的阳光”。而在荣耀星，就连许多湖泊和山丘都是人工的，打造得如花园般完美。`
@@ -2241,6 +2453,7 @@ planet Glory
 		fleet "Large Republic" 16
 
 planet Goldcrawl
+	"display name" "金蔓"
 	attributes hai retirement station
 	landscape land/station37
 	music ambient/machinery
@@ -2254,6 +2467,7 @@ planet Goldcrawl
 	security 0.8
 
 planet Graede
+	"display name" "格雷德"
 	attributes gegno vi
 	landscape land/forest2
 	description `与格诺的家园世界不同，维（Vi）的首都保留着原始的土地风貌，遍布令人惊叹的自然美景。广袤的森林绵延在相对低矮的山脉之间，随处可见大大小小的有袋动物来回奔跑。尽管如此，这里仍有许多耕地已被改造为工业区和船坞，几座大城市也已拔地而起，向着天空延伸。`
@@ -2267,6 +2481,7 @@ planet Graede
 	security 0
 
 planet Grakhord
+	"display name" "格拉考德"
 	attributes "human quarg" moon quarg
 	landscape land/badlands6
 	description `尽管不介意在低重力下生活的人类可以在此定居，但格拉考德属于夸格领地，并已按照他们的环境需求而非人类需求进行了改造。夸格在此地的采矿作业规模不详，但有传言说他们的隧道几乎深达这颗卫星核心的一半；此外，还能偶尔看到夸格飞船从格拉考德所环绕的气态巨行星高层大气中收集氢气。`
@@ -2275,24 +2490,29 @@ planet Grakhord
 	security 0.9
 
 planet "Graveyard Wormhole (Stable)"
+	"display name" "星冢虫洞（稳定）"
 	wormhole "Graveyard Wormhole (Stable)"
 
 wormhole "Graveyard Wormhole (Stable)"
+	"display name" "星冢虫洞（稳定）"
 	mappable
 	link Ritilas Fearis
 	link Fearis Ritilas
 
 planet "Graveyard Wormhole (Unstable)"
+	"display name" "星冢虫洞（不稳定）"
 	attributes "requires: quantum keystone"
 	wormhole "Graveyard Wormhole (Unstable)"
 
 wormhole "Graveyard Wormhole (Unstable)"
+	"display name" "星冢虫洞（不稳定）"
 	mappable
 	link Esix Relifer
 	link Relifer Esix
 	color "wormholes: Ember Waste"
 
 planet Greenbloom
+	"display name" "绿绽星"
 	attributes hai "hai tourism" "hai: human presence" "human tourism"
 	landscape land/water3
 	description `这颗行星上的岛屿和大陆几乎完全被沼泽、雨林和（极地附近的）茂密针叶林覆盖，由于浓密的藻华和漂浮的海藻席，海洋从上方看起来呈现绿色。绿绽星的植物过度繁茂，源于其主要的火山持续向大气中喷吐二氧化碳。`
@@ -2300,6 +2520,7 @@ planet Greenbloom
 	security 0.1
 
 planet Greenrock
+	"display name" "绿岩星"
 	attributes forest frontier pirate south "south pirate"
 	landscape land/sky0
 	description `作为人类空间南部海盗最接近政府中心的地方，绿岩星的统治形式不是民选官员，而是大型强力企业。当敌对海盗帮派寻求在中立领土上谈判时，他们会面之地便是这里。这里几乎什么都卖：非法武器、为海盗活动定制的舰船，甚至还有奴隶。`
@@ -2328,6 +2549,7 @@ planet Greenrock
 		fleet "Large Core Pirates" 2
 
 planet Greenview
+	"display name" "翠景"
 	attributes hai "hai tourism" "hai: human presence" "human tourism" station
 	landscape land/station38
 	description `虽然以行星标准来看并不算严格潮湿，但这里的空气却带着一种湿润、丰沛而隐约青翠的特质，对于一座空间站而言显得不同寻常。该站由黑洛伊奥物种保护基金会运营，旗下的四个分区分别营造出不同的内部气候，展示来自遥远世界的生命。一幅信息图宣告，这里是银河系中最庞大的稀有生物汇集地，其来源包括私人收藏、用基因样本重建的个体，以及在被亥族世界认定为入侵物种而遭到清除前被拯救的物种。图中还提到，某些展品还通过最近借由秘密贸易协议从人类空间获得的物种得到了改良。`
@@ -2337,6 +2559,7 @@ planet Greenview
 	security 0.5
 
 planet Greenwater
+	"display name" "绿水星"
 	attributes farming fishing hai "hai: human presence" "human tourism"
 	landscape land/myrabella2
 	description `绿水星是亥族空间中少数拥有相当规模人类人口的星球之一。星球表面大部分地区对亥族来说过于炎热，但对人类而言尚可忍受。赤道附近散布着从事农耕或渔业的人类定居点，它们与靠近两极的亥族城市进行贸易，换取技术和设备。`
@@ -2361,6 +2584,7 @@ planet Greenwater
 	security 0.4
 
 planet "Gresku Fodar"
+	"display name" "格雷斯库福达尔"
 	attributes korath station
 	landscape land/station29
 	music ambient/machinery
@@ -2369,6 +2593,7 @@ planet "Gresku Fodar"
 	security 0
 
 planet Greymoon
+	"display name" "苍灰之月"
 	attributes hai "human tourism" station
 	landscape land/station13
 	description `该空间站由法鲁巴燃料采集公司拥有并运营。几乎每一处表面和标牌都印有醒目的企业标志，表明该公司赞助了站内各类服务与设施。值得一提的是，这里还设有一座“航天史”博物馆，占据了整整一翼建筑的规模。自然，该博物馆极其侧重于展示法鲁巴公司在这段历史中所扮演的角色。`
@@ -2378,6 +2603,7 @@ planet Greymoon
 	security 0.5
 
 planet "Guardian Array Sapphire"
+	"display name" "蓝宝石守护阵列"
 	attributes arach "coalition station" heliarch
 	landscape land/station33
 	description `这座巨型空间站更常被称为“阿布洛达布检查站”，建于联盟与夸格战争结束后不久，旨在作为区域干船坞和补给基地，供受损战舰从前线撤下后返回休整。但由于后续未发生任何反击，它的职能转为过路商船的简单加油枢纽，数十座战舰级机库大多闲置。`
@@ -2389,6 +2615,7 @@ planet "Guardian Array Sapphire"
 	security 0.6
 
 planet "Gue Faur"
+	"display name" "古埃福尔"
 	attributes gegno scin
 	landscape land/forest3
 	description `像大多数格诺辛星球一样，古埃福尔是一个陡峭的丛林世界，充满着多种多样的生命形式。令人惊讶的是，大多数格诺辛人居住在这颗星球上，而非他们的首都。居民中有很大比例是研究人员和科学家，到处都能看到各种温室和生物穹顶。`
@@ -2400,6 +2627,7 @@ planet "Gue Faur"
 	security 0
 
 planet Hai-home
+	"display name" "亥族故土"
 	attributes hai urban
 	landscape land/valley2
 	description `这是亥族的母星。超过一半的行星表面被海洋覆盖。除了一些过于高耸或积雪太厚而无法建设的山脉外，陆地大多被连绵的城市覆盖。尽管拥有近八十亿人口，亥族故土相对而言并没有污染或过度拥挤的问题。`
@@ -2416,6 +2644,7 @@ planet Hai-home
 	security 0.4
 
 planet "Hammer of Debrugt"
+	"display name" "德布鲁格特之锤"
 	attributes arach mining shipping urban
 	landscape land/sky10
 	description `查姆加尔家族声称，他们在航空航天和武器技术上的进步，在约六千年前将夸格赶出联盟空间的过程中起到了关键作用。考虑到当时萨里德人和基梅克人要先进得多，他们的说法很可能言过其实。但毫无疑问，如今查姆加尔家族的家园已发展成为联盟空间内生产力最强的工业世界之一，部分原因是这个世界自然资源丰富，几乎无需从别处进口原材料。`
@@ -2428,6 +2657,7 @@ planet "Hammer of Debrugt"
 	security 0.45
 
 planet Harmony
+	"display name" "和谐星"
 	attributes farming frontier religious south
 	landscape land/mountain4
 	description `第一批抵达和谐星的定居者是一个阿米什社区，他们寻找一个能过清静生活、凭自己的双手劳作而不依赖机器与计算机的地方。他们的群体已繁衍至数百万人，如今与其他更现代化的定居者毗邻而居。这颗星球上至今仍有一些区域禁止机动车辆行驶，但在其他地方，卡车与马拉的四轮车在同样的道路上并行不悖。`
@@ -2438,6 +2668,7 @@ planet Harmony
 		undefined "tribute pacifist undefined"
 
 planet Haven
+	"display name" "避风港"
 	attributes frontier mining north "north pirate" pirate
 	landscape land/dune1
 	description `避风港由极为成功的“私掠者”于近两个世纪前建立。此后，随着敌对的海盗团伙为争夺此地而争斗，它的控制权已易手十四次，却从未被共和国成功入侵过。众多小型制造作坊出售无法合法购得的装备，甚至还有一座小型船坞，向拥有合适人脉者出售定制飞船。`
@@ -2461,6 +2692,7 @@ planet Haven
 		fleet "Small Northern Pirates" 21
 
 planet Haze
+	"display name" "阴霾星"
 	attributes deep factory
 	landscape land/city24
 	description `阴霾星是一颗制造业行星，遍布着连绵的城市。这里相对繁荣，但迄今为止，居民们选择将更多的星球改造预算花在气候控制上，而非减少污染。`
@@ -2477,6 +2709,7 @@ planet Haze
 		fleet "Large Deep Security" 26
 
 planet Heartland
+	"display name" "沃野星"
 	attributes "dirt belt" factory farming
 	landscape land/city2
 	description `沃野星是一颗宜人的星球，地理上主要由低缓的丘陵、平原和海洋构成。此地的农场产出大量作物，因此吸引了数以千万计的定居者。他们之中许多人如今在工厂或装配线上工作，这里及周边星系所使用的农用设备，大多出自其手。`
@@ -2494,6 +2727,7 @@ planet Heartland
 		fleet "Large Republic" 4
 
 planet Heartvalley
+	"display name" "心谷星"
 	attributes hai "hai tourism" manufacturing
 	landscape land/mountain28
 	description `遥远的过去，剧烈的地质构造活动在心谷星上留下了一些地方高达五到十公里的山脉。亥族在此的定居点大多位于接近海平面的山谷中，那里的空气密度足以让他们舒适地呼吸。地壳运动使许多古代海床暴露出来，提供了丰富的石油资源。对亥族来说，石油过于珍贵，不能用作燃料；他们将其加工成塑料，并在其他化工过程中利用副产品。`
@@ -2504,6 +2738,7 @@ planet Heartvalley
 	security 0.1
 
 planet "Heavenly Halls"
+	"display name" "天界殿堂"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa31
 	description `这颗孤独的气态巨行星因其在联盟空域中独一无二的现象而得名。环绕它的冰环越靠近行星表面就越密集；进入云海仅数公里，微小的冰粒就被大块的寒冷小行星所取代。奇妙的是，这些较大的小行星大部分内部都有隧道贯穿，激励了一些更为大胆的萨里德探险家尝试殖民这些“寒冰宫殿”。`
@@ -2511,6 +2746,7 @@ planet "Heavenly Halls"
 	security 0
 
 planet Helheim
+	"display name" "赫尔海姆"
 	attributes deep mining volcanic
 	landscape land/lava1
 	description `赫尔海姆不是一个宜人之地。地表大部分是火山地貌，遍布着陨石坑和蒸汽喷口，深入行星地壳。空气略带腐蚀性，但仍可呼吸。`
@@ -2523,6 +2759,7 @@ planet Helheim
 		fleet "Small Deep Security" 15
 
 planet Hephaestus
+	"display name" "赫菲斯托斯"
 	attributes core education factory research urban
 	landscape land/city0
 	description `赫菲斯托斯星是辛迪加系统公司的总部所在地，该公司生产的部件用于人类空间各地的船厂。虽然辛迪加制造的飞船装备不一定总能达到最高品质或最尖端的技术水平，但其价格相当亲民，足以满足任何普通领航员的需求。许多其他公司的高管都不惜远道而来，专程到这个星球取经，亲眼目睹辛迪加如何将这里的生产线打造得如此高效可靠。`
@@ -2544,6 +2781,7 @@ planet Hephaestus
 		fleet "Large Syndicate" 20
 
 planet Hermes
+	"display name" "赫耳墨斯"
 	attributes medical paradise research
 	landscape land/myrabella3
 	description `未经政府许可，任何人不得在赫耳墨斯定居。这是一个人口稀少的星球，主要用于医学研究和开发——其中有些研究，如果传言属实，正是在此孤立的条件下进行的，以确保一旦出现问题，整个地区可被隔离，甚至通过轨道轰炸被“消毒”。`
@@ -2559,12 +2797,14 @@ planet Hermes
 		fleet "Large Republic" 6
 
 planet Hespair
+	"display name" "赫斯帕"
 	attributes uninhabited
 	landscape land/water28
 	description `赫斯帕曾是一颗孕育生命的星球，但如今已不复存在。数百万年前的一场不明事件对这颗星球进行了彻底的灭菌，连最后一个细菌也未能幸免，此后生命再未复苏。`
 	description `	然而，在探索该星球时，阿夫吉人意外地——或许是不可避免地——将来自飞船的细菌引入了赫斯帕的海洋。这些生命的微粒依旧稀疏，但即使阿夫吉人不对此世界进行环境改造，它们也将在遥远的未来某刻，成为一片新生生物圈的种子。`
 
 planet Hestia
+	"display name" "赫斯提亚"
 	attributes paradise wealthy
 	landscape land/sky5
 	description `在遥远的过去，赫斯提亚曾是一颗几乎毫无生机的冰雪世界。如今它已是亚热带的乐园，是行星工程全盛时期的伟大成就之一，彼时银河经济尚有更多资金可投入地球化改造。`
@@ -2581,6 +2821,7 @@ planet Hestia
 		fleet "Large Republic" 18
 
 planet Hilothire
+	"display name" "希洛希尔"
 	attributes avgi frontier frozen uninhabited
 	landscape land/snow28
 	description `希洛希尔虽然大气富氧，但几乎完全被冰冷海洋覆盖。两极的巨大冰盖几乎延伸至热带。纯净的冰山常常漂向赤道，在零星露出海面的岩石岛屿周围积聚。`
@@ -2592,6 +2833,7 @@ planet Hilothire
 	security 0
 
 planet Hippocrates
+	"display name" "希波克拉底"
 	attributes core frontier research
 	landscape land/water11-harro
 	description `希波克拉底是一个人烟稀少的星球，主要是科学研究前哨站的所在地。`
@@ -2605,6 +2847,7 @@ planet Hippocrates
 		fleet "Small Syndicate" 9
 
 planet Hope
+	"display name" "希望星"
 	attributes frozen uninhabited
 	landscape land/snow9
 	description `2994年，希望星还是一颗有些寒冷但其他方面尚算宜居的行星，拥有近两百万人口且仍在增长。但就在那一年，一场超级火山爆发将大量尘埃抛入高层大气，导致新冰期到来，行星变得不再适合居住。`
@@ -2613,6 +2856,7 @@ planet Hope
 	"required reputation" -1000
 
 planet Hopper
+	"display name" "跳跃者星"
 	attributes "dirt belt" mining
 	landscape land/myrabella1
 	description `跳跃者星是一个拥有海洋、山脉与平原的温带世界，但不幸的是，其大气中的硫酸含量极高。暴露在空气中的金属和石材会迅速腐蚀，需要频繁维护。因此，跳跃者星上仅有少数小型定居点，大部分产业都集中在地下采矿上。`
@@ -2630,6 +2874,7 @@ planet Hopper
 		fleet "Large Militia" 5
 
 planet "Huginn Station"
+	"display name" "福金空间站"
 	attributes deep station
 	landscape land/sivael2
 	music ambient/machinery
@@ -2643,6 +2888,7 @@ planet "Huginn Station"
 		fleet "Large Deep Security" 18
 
 planet Humanika
+	"display name" "赫曼尼卡"
 	attributes farming human south
 	landscape land/beach2
 	description `这颗星球的重力过强，夸格无法在上面居住，因此他们转而接纳了人类定居者。许多渴望远离人类空间重重危险和人类政府永无宁日的人们定居于此。`
@@ -2657,11 +2903,13 @@ planet Humanika
 		fleet Quarg 2
 
 planet Humo
+	"display name" "胡莫"
 	attributes "requires: gaslining"
 	landscape land/humo
 	description `有趣的是，这颗气态巨行星并非完全由气态元素构成；沙尘在空气中被推挤飘荡，逐渐积聚在你飞船的舷窗上。星球中心持续存在的上升气流似乎是高层大气中沙尘出现的原因。虽然沙尘本身并不危险，但若在此停留过久，它们可能会堆积在你飞船的机械设备中。`
 
 planet "Hydra Station"
+	"display name" "海德拉空间站"
 	attributes "dirt belt" station
 	landscape land/sivael5
 	music ambient/machinery
@@ -2672,6 +2920,7 @@ planet "Hydra Station"
 		fleet "Small Militia" 8
 
 planet Icefall
+	"display name" "冰瀑星"
 	attributes core farming frontier frozen oil
 	landscape land/dmottl3
 	description `冰瀑星远离它的太阳，轴倾角大约38度。这意味着气候寒冷，一年的时间也很长，每个半球只有一个短暂的夏季——勉强满足陆地作物的生长季所需的时间。尽管如此，绝大多数居民都是农民，只有赤道地区的石油钻探产业是个例外。整个星球上仅零星分布着几座主要城镇，没有大都市中心。冰瀑星的海洋中充满了不断漂移的浮冰和冰山，使它们几乎无法通航。`
@@ -2684,6 +2933,7 @@ planet Icefall
 		fleet "Small Syndicate" 8
 
 planet Icelake
+	"display name" "冰湖星"
 	attributes factory hai "human tourism" urban
 	landscape land/sky4
 	description `冰湖星是亥族人口第二多的行星。由于石油和天然气储备早已枯竭，这里的大型城市和工厂大量依赖地热能和风能。这带来的一个幸运副作用是，这里的空气几乎和非工业世界一样纯净。`
@@ -2695,12 +2945,14 @@ planet Icelake
 	security 0.3
 
 planet Iconil
+	"display name" "艾科尼尔"
 	attributes frozen uninhabited
 	landscape land/snow26
 	description `阿夫吉发射的首艘载人星际探险船首次进入轨道时选择了艾科尼尔，而非近旁诱人宜居的利沃鲁亚世界。这一看似非正统的决定是由船员做出的，因为这颗矮行星兼具低重力和可见的闪亮冰层斑块，为飞船补充推进剂提供了便捷途径。该任务耗时数月采集资源并发射探测器，最终穿越最后一段航程定居利沃鲁亚——阿夫吉人的首个星际殖民地。`
 	government Uninhabited
 
 planet Iddesato
+	"display name" "伊德萨托"
 	attributes bunrodea research station
 	landscape land/space2
 	description `至少与人类的空间站相比，伊德萨托是一座相当大的空间站，但其庞大的体积在很大程度上归因于从前端伸出的大型构造物，你只能猜测它们的用途。空间站的其余部分看起来更为正常，有一个充当该站空间港的大型机库。`
@@ -2712,6 +2964,7 @@ planet Iddesato
 	security 0
 
 planet "Iemn Eitch"
+	"display name" "伊姆埃奇"
 	attributes frozen gegno
 	landscape land/desert2
 	description `尽管寒冷得无法维持真正的文明，伊姆埃奇在过去曾被广泛用作不断发展的格诺太空竞赛的前哨站。作为他们首批探索的星球之一，散布在地表上的古风建筑看起来与杜尤埃奇上发现的结构截然不同，这或许是由于在陌生环境中施工的特殊性质。几座大型船坞式平台仍在维护着少数昔日遗留且至今仍在服役的格诺世代飞船，虽然其运转节奏想必比他们太空殖民初期的岁月要慢得多。`
@@ -2721,11 +2974,13 @@ planet "Iemn Eitch"
 	security 0
 
 planet Igna
+	"display name" "伊格纳"
 	attributes "requires: gaslining"
 	landscape land/igna
 	description `这颗气态巨行星因紧邻星系恒星而拥有极其炽热的大气。云层散发着温暖的橙色光芒，即使在较深的层次也能确保良好的可见度。偶尔的风暴打破近乎宁静的大气，猛烈肆虐，但来去匆匆，转瞬即逝。`
 
 planet "Ijra-Ea, Shimmering Veil"
+	"display name" "伊杰拉-埃阿·微光帷幕"
 	attributes predecessor station uninhabited
 	landscape land/station42
 	description `Uncomfortably vast, this ancient citadel of House Kaatrij seems to remain in a state of partial cloaking; sections of it shimmer in and out of view. Because of this, it shows up only intermittently on long-range sensors despite its great size.`
@@ -2737,6 +2992,7 @@ planet "Ijra-Ea, Shimmering Veil"
 		has "Successors: Ghosts 16: offered"
 
 planet "Illbo Avo"
+	"display name" "伊尔博阿沃"
 	attributes bunrodea military moon
 	landscape land/badlands6
 	description `伊尔博阿沃是一颗几乎没有大气的荒芜卫星，但这也是该星系中唯一一块不会因火山活动而从你脚下滑走的坚实地面。正因如此，以及该星系毗邻帕鲁·帕鲁和科拉斯，邦罗迪亚已将这颗小卫星的地壳改造成了密集的地下结构网络，用途涵盖大型星船机库到制造军用级舰船与装备的工厂，实际上把它变成了一座庞大的战争工厂。`
@@ -2751,6 +3007,7 @@ planet "Illbo Avo"
 	security 0
 
 planet "Illbo Elo"
+	"display name" "伊尔博埃洛"
 	attributes bunrodea military
 	landscape land/badlands0
 	description `伊尔博埃洛是一颗人口稀少的星球，大部分地表为几乎不宜居的荒漠。靠近两极的区域气候更为温和，大部分人口聚居于此。邦罗迪亚人似乎正在这些温带地区建设全新的城市，这从大批货船向主要由骨架建筑、裸露地基和金属梁构成的城市运送补给便可见一斑。`
@@ -2762,6 +3019,7 @@ planet "Illbo Elo"
 	security 0
 
 planet Independance
+	"display name" "独立星"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa20
 	description `独立星，其名最初源自古地球上一个古老民族的解放文件。当联合议会开始考虑防御入侵的计划时，这颗行星进入了他们的视野。其中一项计划设想在外缘星区的巨行星上部署“云中堡垒”，以便在异族占领时发动起义。独立星因其贴切的名字和靠近阿尔沃拉达的位置，被选为这项计划的试验场。`
@@ -2769,6 +3027,7 @@ planet Independance
 	government Uninhabited
 
 planet Ingot
+	"display name" "锭石星"
 	attributes "dirt belt" mining moon volcanic
 	landscape land/mountain8
 	description `锭石星是一颗火山活跃的卫星，完全不适合生命存在，但富含金属。在这里工作的矿工必须始终待在加压建筑中。`
@@ -2786,6 +3045,7 @@ planet Ingot
 		fleet "Small Militia" 15
 
 planet "Inmost Blue"
+	"display name" "深蓝星"
 	attributes farming kimek urban
 	landscape land/water14
 	description `深蓝星是一颗海洋星球，也是基梅克在自身太阳系外最早定居的行星之一。约有二十亿基梅克人居住在地势低矮的岛屿和唯一的大陆上，浅海区域已全部改造为海藻农场。基梅克人对食物持实用主义态度，加工过的海藻是他们饮食中虽有营养却极难勾起食欲的主食。`
@@ -2794,6 +3054,7 @@ planet "Inmost Blue"
 	security 0.3
 
 planet "Into White"
+	"display name" "渐白星"
 	attributes frozen kimek
 	landscape land/snow10
 	description `从前曾是丰饶的农耕世界，如今这颗行星正被逼近的冰河期所笼罩。基梅克人选择静待自然消长，而非冒险以人工校正温度变化，以免破坏星球的生态系统。人口已锐减至不足十亿，大多聚居在气候依旧稍显温和的赤道附近。`
@@ -2804,6 +3065,7 @@ planet "Into White"
 	security 0.15
 
 planet Iritoroost
+	"display name" "艾里托之巢"
 	attributes hai station uninhabited
 	landscape land/station23
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -2813,6 +3075,7 @@ planet Iritoroost
 	security 0
 
 planet Ironfirth
+	"display name" "钢铁之湾"
 	attributes hai station uninhabited
 	landscape land/station44
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -2822,6 +3085,7 @@ planet Ironfirth
 	security 0
 
 planet Iyra-Ijasa-Iret
+	"display name" "伊拉-伊雅萨-伊雷特"
 	attributes successor
 	landscape land/sea10-sfiera
 	description `据你所能判断，伊拉-伊雅萨-伊雷特是一个纯粹的海洋世界，表面没有任何固态陆地。尽管如此，它仍拥有多个水下定居点和城市。它们大多散布在浅海，但你注意到几艘耐压舰船正在向海洋深处下潜，这表明一些居民可能生活在更深的海域。`
@@ -2835,6 +3099,7 @@ planet Iyra-Ijasa-Iret
 	bribe 0
 
 planet Jakobsen
+	"display name" "雅各布森"
 	attributes ccor farming frontier pirate south "south pirate"
 	landscape land/sea23
 	description `雅各布森是一颗海洋星球，其表面仅有6%位于海平面之上。陆地几乎全由火山岛和环礁组成，因为未受板块构造更新的土地正被席卷全球的巨大季节性风暴逐步侵蚀殆尽。`
@@ -2851,12 +3116,14 @@ planet Jakobsen
 		fleet "Small CCOR" 19
 
 planet Janalos
+	"display name" "贾纳洛斯"
 	attributes forest uninhabited
 	landscape land/forest14
 	description `从轨道上看，贾纳洛斯是一颗葱郁、遍布森林的星球，生态系统繁茂，极易成为殖民目标。只有置身地表才会发现，这片生机勃勃的生态圈实际上由种类多到令人发指的昆虫主宰，无论大小。虫群无处不在，渗透世界每个角落，近期的殖民尝试恰恰因为这些虫子给生活带来的极度不便而受挫。杀虫剂很快会被适应，虫卵和幼虫能蛰伏数年后再死灰复燃，成群的虫子会啃噬一切它们能用几丁质尖牙咬进的东西。`
 	description `	甚至人们曾绝望地擅自用原子能对一处小山谷进行彻底消毒，试图为定居者清出一片立足之地，可短短几个月后，这一做法便被证明毫无效果。`
 
 planet Janiculum
+	"display name" "贾尼库伦"
 	attributes uninhabited
 	landscape land/canyon11
 	description `当你在贾尼库伦低空掠过时，你会发现它的表面几乎就是一个引力作用下的碎石和小行星坟场。撞击坑遍布地表，其中一些看起来形成不久。`
@@ -2865,6 +3132,7 @@ planet Janiculum
 	security 0
 
 planet Jentuthro
+	"display name" "简特洛"
 	attributes bunrodea guild medical
 	landscape land/sky5
 	description `简特洛环绕着该空域中最昏暗的一颗恒星运行，这使它成为邦罗迪亚人出没的不寻常之地。这里也坐落着他们主要的基因工程研究设施，吸引了来自邦罗迪亚全境基因工程领域最聪明的人才，他们在此致力于加深对遗传学的理解与掌控。`
@@ -2879,6 +3147,7 @@ planet Jentuthro
 	security 0
 
 planet Jupiter
+	"display name" "木星"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa32
 	description `木星曾被称为太阳系之王，即便放眼银河系中形形色色的气态巨行星，它依然让人叹为观止。它那著名的大红斑至今仍为绝大多数人类熟知，而你一边欣赏着行星大气层浓郁的金黄与棕褐色调，一边小心翼翼地避开那片区域。`
@@ -2886,6 +3155,7 @@ planet Jupiter
 	government Uninhabited
 
 planet Kaeyin
+	"display name" "凯因"
 	attributes uninhabited
 	landscape land/sky11
 	description `凯因星球现在似乎完全无人居住，但并非一直如此。空荡荡的大型城市占据了唯一一块大陆的一部分，城中高塔的设计难以名状。其余的土地则几乎未被任何外来事物触及，仿佛这些建筑只是被凭空安放在土地上，而非经年累月建造而成的。`
@@ -2896,18 +3166,21 @@ planet Kaeyin
 		description `	微小的四足机器人在每间屋子的墙壁上行走，数秒内便将它们清理干净。你能看到更多机器人在下方道路上工作，并推断它们遍布城市各处；这使得你无法估计这颗星球已被废弃了多久，因为这里一切都完美无瑕、一尘不染。`
 
 planet Kalakil
+	"display name" "卡拉基尔"
 	attributes forest uninhabited
 	landscape land/mountain38
 	description `站在这片原始森林卫星的表面，眼前的景象美得令人窒息，一半来自它的自然之美，另一半则来自那雾蒙蒙空气的寒意。一道道冰冷的冰川溪流从环绕整个卫星的崎岖高山链上流下，穿过日落色的森林，每天清晨它们都会披着霜花迎接朝阳。`
 	description `	除了在卫星各处留下营地的科学考察队之外，卡拉基尔从未被染指，在入侵爆发之前，它是阿夫吉人能够探索到的边缘荒原。`
 
 planet Kalbai
+	"display name" "卡尔拜"
 	attributes bunrodea uninhabited
 	landscape land/forest4
 	description `出于某种原因，邦罗迪亚人基本上没有殖民这个看似富饶的世界。卡尔拜充满了各种生命，从遍布星球表面森林和平原的各类植物，到在灌木丛中匆匆穿行的各种大小动物。`
 	description `	只有极少的痕迹表明曾有人踏足此地；最大的一块大陆上散落着一些古代废墟。少数废墟像是被遗弃后重新被大自然所吞噬，但大多数看起来更像是遭到毁灭，在废墟中心周围形成了一片片触目惊心的无生命圆环。`
 
 planet Kapnos
+	"display name" "卡普诺斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds15
 	description `卡普诺斯是银河系最壮丽景象之一的核心。这颗气态巨行星主要由分子氧构成，尽管自然界中似乎不可能出现如此情形。它异常快速的自转导致赤道地区严重鼓胀，将氧气和水蒸气抛离大气顶层，形成了著名的薄纱“气体环面”——自被发现那一刻起就令整个阿夫吉文明为之惊叹。`
@@ -2915,6 +3188,7 @@ planet Kapnos
 	security 0
 
 planet "Karek Fornati"
+	"display name" "卡雷克福纳蒂"
 	attributes efret korath
 	landscape land/desert1
 	description `卡雷克福纳蒂曾是一颗农业星球，之后全球气温开始上升，过度耕作的土地缓慢退化为荒漠。留守的科拉斯人毕生致力于寻找办法，阻止“沙海”吞没最后一片沃土，但收效甚微，而赤道附近有些地带沙暴肆虐不休，寸草不生。`
@@ -2922,6 +3196,7 @@ planet "Karek Fornati"
 	spaceport `	城外，土地被笔直的松树带整齐划分，这些树带垂直于盛行风向栽种。许多田地种植着看似干草、三叶草，亦或是黑漆漆、近乎无叶的灌木；只有少数田地仍在积极收割。`
 
 planet Kasi-Osolaa-Sossa
+	"display name" "卡西-奥索拉-索萨"
 	attributes quiet successor
 	landscape land/hills14
 	description `在继承者空间中，卡西-奥索拉-索萨是迄今为止最偏远、最孤立的行星，这里的居民主要是那些享受独处带来的宁静与安详之人。对于高度注重家庭的继承者而言，这类人只占较少的比例，因此这颗行星仅维持着大约两万名居民，但它的确拥有继承者空间中最快的人口增长率。大多数人认为，这是因为居民们对较大继承者世界有时痛苦的政治分裂毫无兴趣，但也常有玩笑称，这其实是当地居民据称特别多情的倾向所致。`
@@ -2931,11 +3206,13 @@ planet Kasi-Osolaa-Sossa
 	bribe 0
 
 planet "Kasichara Fet"
+	"display name" "卡西查拉费特"
 	attributes korath
 	landscape land/sky8
 	description `这颗行星似乎因邻近恒星佩雷塞德西爆发新星而遭受了辐射。当地的动植物虽然存活下来，但仍在从损失中艰难恢复。几座大型的科拉斯城市依然留存。看来他们既无法、也不愿及时疏散全体民众以躲避新星的伽马辐射；在最大城市的街道上，到处散落着被阳光漂白的骨骸。`
 
 planet Kasii-Cavasaa-Oa
+	"display name" "卡西-卡瓦萨-欧阿"
 	attributes successor
 	landscape land/snow25
 	description `虽然以人类标准来看，冰雪覆盖的卡西-卡瓦萨-欧阿并不宜居，但它完全处于继承者的可容忍范围内，尽管只是接近下限。永久冻土层下蕴藏着丰富的稀土元素和重金属矿藏，支撑着阿克拉贝家族高度自给自足的经济；从原料到最终产品的整条生产线都集中在这颗行星上。由于这里开采的许多矿物是继承者生产先进复合材料所必需的，阿克拉贝和其他新派牢牢控制着这里，将大量最终产品输送给他们的船厂和建设项目。`
@@ -2951,6 +3228,7 @@ planet Kasii-Cavasaa-Oa
 	bribe 0
 
 planet Kasii-Tuur-Saqru
+	"display name" "卡西-图尔-萨克鲁"
 	attributes crime station successor
 	landscape land/station42
 	description `有些先行者的高阶家族虽然在政治上整体迁入了这个星团，其他家族却在中途分崩离析。部分旧日公民被并入卡特里奇家族，但其余大多数人则被临时安置在此。如今，许多年过去，他们的后代大体仍栖身于此。`
@@ -2966,11 +3244,13 @@ planet Kasii-Tuur-Saqru
 	"required reputation" 2
 
 planet Katkradol
+	"display name" "卡特克拉多"
 	attributes frozen research uninhabited
 	landscape land/snow30
 	description `卡特克拉多是一个巨大的岩石世界，人类科学家会称之为“超级地球”。远离当地主恒星，卡特克拉多极度寒冷；冬季时，其大气在高纬度地区凝结，降下的雪是固态氮。卡特克拉多的许多山脉主要由冰构成，在极端寒冷中，冰坚固得足以向上延伸数千米，即便是在高重力之下。这些山脉的根部因在巨大压力下形成的诸多奇异冰相态，引起了阿夫吉科学界的一些兴趣，但卡特克拉多深邃的重力阱使得冰矿开采难以与区域内彗星采集相竞争。`
 
 planet Kella-Uuoru-Sossa
+	"display name" "凯拉-乌奥鲁-索萨"
 	attributes predecessor uninhabited
 	landscape land/desert21
 	description `这颗行星是一场生态灾难。其地表已被辐射和显然来自轨道轰炸的冲击剥蚀殆尽，再无任何有机生命。许多大城市遍布地表，其中一些被武器打击夷平或损坏，更多则几乎完好无损，但全都空空荡荡。腐蚀性的尘埃云持续笼罩大气层，飞船传感器提醒你，行星表面其他区域正发生多场沙尘暴。最好不要被卷入其中。`
@@ -2988,6 +3268,7 @@ planet Kella-Uuoru-Sossa
 				has "trusted by the successors"
 
 planet "Keneska Fek"
+	"display name" "克内斯卡费克"
 	attributes korath sestor
 	landscape land/desert10-harro
 	description `科·塞斯特显然将此地用作采矿世界，但他们的方式并非挖掘矿物，而是故意将富含金属的小行星撞向沙漠中尚未开发的区域，再由机器人将其粉碎并提取矿石。可以想见，这种开采方式对生态环境有毁灭性的影响。`
@@ -3000,6 +3281,7 @@ planet "Keneska Fek"
 	security 0
 
 planet "Kessel Sepret"
+	"display name" "凯塞尔塞普雷特"
 	attributes korath station
 	landscape land/station1
 	music ambient/machinery
@@ -3008,6 +3290,7 @@ planet "Kessel Sepret"
 	security 0
 
 planet Khora-Uurau-Uuoru
+	"display name" "科拉-乌劳-乌奥鲁"
 	attributes successor uninhabited
 	landscape land/desert3
 	description `这颗卫星似乎曾被用作古代的武器试验场。暴力的伤痕依然玷污其地表，稀薄的大气紧紧依附于表面，仿佛仍害怕被剥离。`
@@ -3019,6 +3302,7 @@ planet Khora-Uurau-Uuoru
 	government Uninhabited
 
 planet Khora-Vasa-Reyyaa
+	"display name" "科拉-瓦萨-雷亚"
 	attributes manufacturing military mining successor wealthy
 	landscape land/lava16
 	description `继承者的许多技术依赖先进的复合材料，从极其耐用的船壳到高性能动能武器。这颗行星蕴藏着制造这些复合材料所需的丰富天然原料矿藏，因此它既是这些材料的开采中心，也是继承者空间的工业核心。`
@@ -3038,6 +3322,7 @@ planet Khora-Vasa-Reyyaa
 	security 0.8
 
 planet Khosa-Kella-Oa
+	"display name" "科萨-凯拉-欧阿"
 	attributes successor uninhabited
 	landscape land/mars1
 	description `这颗没有大气的岩质小世界位于银河系的最边缘。它很可能就是数百万光年范围内的最后一颗行星，银河系最遥远的孩子。`
@@ -3048,6 +3333,7 @@ planet Khosa-Kella-Oa
 			has "known to the successors"
 
 planet "Ki Patek Ka"
+	"display name" "奇帕特卡"
 	attributes farming folklore kimek tourism urban
 	landscape land/fields10-sfiera
 	description `这里是基梅克的家园世界。他们尚未发展出航天技术之前，数十亿基梅克人要么死于饥荒，要么死于人口过剩引发的内战。如今，每座大城市仍然矗立着“饥荒塔”：这些千米高的摩天大楼里，巨大发酵罐中培育着酵母与菌落，只为在庄稼或星际粮食运输万一中断时，提供一种寡淡却稳定的应急口粮来源。`
@@ -3059,6 +3345,7 @@ planet "Ki Patek Ka"
 	security 0.6
 
 planet Kisarra
+	"display name" "基萨拉"
 	attributes bunrodea mining
 	landscape land/desert2
 	description `基萨拉的地表是一望无际的巨大沙漠。目之所及，唯有漫漫沙海，偶尔才被绿洲和岩石露头打破。许多绿洲周围形成了小镇，而一些露头似乎被用作矿山的入口。引人注目的是，所有小镇和矿山四周都筑起了高大的围墙。`
@@ -3070,6 +3357,7 @@ planet Kisarra
 	security 0
 
 planet "Korati Efreti"
+	"display name" "科拉蒂埃弗雷提"
 	attributes efret station
 	landscape land/station15
 	music ambient/machinery
@@ -3081,11 +3369,13 @@ planet "Korati Efreti"
 	security 0.5
 
 planet "Korbatri Eska"
+	"display name" "科巴特里埃斯卡"
 	attributes korath
 	landscape land/forest6
 	description `这颗星球上的城市遭受了种类惊人的武器打击。一些城市被大规模爆炸夷为平地，另一些则呈现出低空飞掠扫射或轨道轰炸的痕迹。城外土地富饶多样，有森林、山脉、海洋、沙漠和苔原。`
 
 planet "Kort Kehai"
+	"display name" "科尔特凯海"
 	attributes wanderer
 	landscape land/lava6
 	description `这颗行星气候温和，地表却几无生机，或许部分原因是土壤中放射性同位素含量较高。大部分陆地上唯一生长的植物是一种坚韧的生物工程苔藓，由流浪者设计，用于在其根系中富集重金属和其他毒素。这些植物随后会由成群的无人机器人定期收割，并埋入行星两极附近的深坑中。`
@@ -3098,6 +3388,7 @@ planet "Kort Kehai"
 		fleet "Wanderer Defense" 3
 
 planet "Kort Vek'kri"
+	"display name" "科尔特维克里"
 	attributes wanderer
 	landscape land/mountain10-sfiera
 	description `这个世界几乎无人居住，动物生命极为稀少，只有颜色怪异、形态扭曲的奇特植物。在小片土地上，原生植被被绿色的森林和田野取代，那多半是流浪者种植的。在一些较大的森林中，鸟类和昆虫已开始繁衍生息。`
@@ -3109,6 +3400,7 @@ planet "Kort Vek'kri"
 		fleet "Wanderer Defense" 4
 
 planet "Kraken Station"
+	"display name" "克拉肯空间站"
 	attributes "near earth" station
 	landscape land/station49
 	music ambient/machinery
@@ -3122,6 +3414,7 @@ planet "Kraken Station"
 		fleet "Small Syndicate" 7
 
 planet Kua-Oa-Aava
+	"display name" "库阿-欧阿-阿瓦"
 	attributes quiet station successor
 	landscape land/space2
 	description `这颗小卫星上只有少数几处地表设施；其中大多数远大于公共航天港，且仅供军用飞船使用。除此之外，卫星地表荒芜未开发，你的飞船传感器在航天港边界之外探测不到任何有趣的东西。`
@@ -3142,6 +3435,7 @@ planet Kua-Oa-Aava
 	bribe 0
 
 planet Kuj-Sol-Nnesa
+	"display name" "库伊-索尔-内萨"
 	attributes "bold tourism" successor uninhabited
 	landscape land/desert13
 	description `这颗炎热干旱的星球上栖息着巨大的形似千足虫的生物，它们在黄昏时分于沙地上游荡，猎杀任何移动的物体。`
@@ -3153,6 +3447,7 @@ planet Kuj-Sol-Nnesa
 	government Uninhabited
 
 planet Kumkapi
+	"display name" "库姆卡皮"
 	attributes moon uninhabited
 	landscape land/mars0
 	description `虽然这颗卫星的矿物算不上特别稀有或奇特，但它与维米纳尔的近距离使得几个世纪以来众多采矿项目在此展开——它们试图寻找珍贵钥石的踪迹，这些钥石是穿越这片空间所必需的。这些努力无一成功，大多数遗民科学家认为库姆卡皮形成于别处，在其形成过程中的某个时刻被维米纳尔的引力捕获。`
@@ -3161,6 +3456,7 @@ planet Kumkapi
 	security 0
 
 planet "Kuwaru Efreti"
+	"display name" "库瓦鲁埃弗雷提"
 	attributes "korath quarg" quarg ringworld station
 	landscape land/station20
 	description `这座夸格环世界已接近半数完工，却不见任何施工迹象，你的舰船传感器也未从环上的任何区域探测到能量信号，仅此一处例外。你还注意到环的某些部分有浅浅的武器疤痕，夸格并未费心修复——虽说攻击者显然未掌握能对环造成实质性伤害的武器。`
@@ -3170,6 +3466,7 @@ planet "Kuwaru Efreti"
 	security 1
 
 planet Lagrange
+	"display name" "拉格朗日"
 	attributes "human quarg" quarg station tourism
 	landscape land/station5
 	description `夸格人在几个世纪前建造了这座空间站，早于他们开始建造环世界之时。从空间站的暗面望去，可以看到环带如同一条细细的明亮丝线，从星系恒星的两侧伸展而出。环带本身不对人类游客开放，但定期有观光船从这里出发，让人类游客得以更近距离地观赏这一工程壮举——它远超人类有史以来尝试建造的任何事物。`
@@ -3178,6 +3475,7 @@ planet Lagrange
 	security 0.9
 
 planet "Laki Nemparu"
+	"display name" "拉基内姆帕鲁"
 	attributes efret korath
 	landscape land/sea2
 	description `这是一个古老的工业世界，笼罩在浓重的雾霾中，从空中只能瞥见大地的微小一角。拉基内姆帕鲁的海洋深处埋藏着极其辽阔的石油储层，几个世纪的工业开采至今仍未将其抽干。由于缺少直射阳光，或由于污染和化学物质的侵害，除了最坚韧的少数本土植被和野生动物外，其余早已灭绝。`
@@ -3185,6 +3483,7 @@ planet "Laki Nemparu"
 	outfitter "Korath Basics"
 
 planet "Lenz's Loop"
+	"display name" "楞次环"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa17
 	description `楞次环得名于其金属氢内核产生的强大磁场。作为人类所知最强大的天然磁源之一，其名是为了纪念埃米尔·楞次以及他对磁与电流相互作用的发现。`
@@ -3192,11 +3491,13 @@ planet "Lenz's Loop"
 	government Uninhabited
 
 planet Letis'sei
+	"display name" "莱蒂斯塞"
 	attributes ka'het uninhabited
 	landscape land/loc3
 	description `莱蒂斯塞是一座古老的空间站，内部空间狭小，有大量无法进入的区域。它完全处于无压状态，缺乏内部大气，很难想象它最初的模样。然而，三座形似炮管的宏伟结构仍清晰可辨，漂浮在站体之外。曾经将它们维系在一起的环带已被摧毁，但它们仍按照设计好的环形轨迹，继续绕着主体旋转。`
 
 planet "Leviathan Station"
+	"display name" "利维坦空间站"
 	attributes deep station
 	landscape land/sivael3
 	music ambient/machinery
@@ -3211,6 +3512,7 @@ planet "Leviathan Station"
 		fleet "Small Deep Security" 27
 
 planet Lichen
+	"display name" "地衣星"
 	attributes farming forest frontier south
 	landscape land/fields3
 	description `地衣星是一颗多雨的世界，遍布沼泽、田野与溪流。此行政区消耗的稻米一半以上产自地衣星，得益于近乎最佳的气候条件。然而，由于持续降雨和阴云密布，除了农民之外，极少有人定居此地。`
@@ -3225,6 +3527,7 @@ planet Lichen
 		fleet "Large Militia" 8
 
 planet Limejog
+	"display name" "青柠漫步"
 	attributes hai station uninhabited
 	landscape land/station45
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -3234,6 +3537,7 @@ planet Limejog
 	security 0
 
 planet Livolua
+	"display name" "利沃鲁亚"
 	attributes "aberrant siege" avgi "avgi core" urban wealthy
 	landscape land/forest13
 	description `利沃鲁亚是阿夫吉人首个地外殖民行星，他们于两百多年前通过多批亚光速星舰抵达。这里气候多样，适宜生命，人口达阿维斯基尔本身的三分之二，独立政体的数量同样令人瞩目。`
@@ -3249,6 +3553,7 @@ planet Livolua
 	security 0
 
 planet Lodestone
+	"display name" "磁石星"
 	attributes core mining volcanic
 	landscape land/lava5
 	description `磁石星是一颗年轻、火山活动频繁的星球。大气中常弥漫着呛人的尘埃或二氧化硫，新的喷发几乎毫无预警。在这里建造任何结构都是徒劳之举。`
@@ -3260,6 +3565,7 @@ planet Lodestone
 		fleet "Small Syndicate" 6
 
 planet Longjump
+	"display name" "长跃星"
 	attributes factory rim tourism
 	landscape land/city9
 	description `长跃星是一颗以工业为主的行星，较低的重力使得操作和运输重型设备相对容易。悬挂滑翔在这里也颇受欢迎，但出于安全考虑，空间港附近严禁进行此项运动。`
@@ -3276,6 +3582,7 @@ planet Longjump
 		fleet "Large Militia" 9
 
 planet Luna
+	"display name" "月球"
 	attributes factory moon "near earth" tourism
 	landscape land/earthrise
 	description `在太空旅行初期，那时的发动机效率低下，脱离行星引力代价高昂且困难。于是一座巨型造船厂在月球上建起，人们在那里开采从小行星带获取的小行星，提取建造飞船的原材料。`
@@ -3298,6 +3605,7 @@ planet Luna
 		fleet "Large Republic" 10
 
 planet Mabatham
+	"display name" "马巴瑟姆"
 	attributes "aberrant siege" avgi frontier research
 	landscape land/sky1
 	description `马巴瑟姆介于海洋行星与温室世界之间。表面大部分被水覆盖，仅由少数火山岛打破，大气层厚重而潮湿，充满水蒸气，困住两颗母恒星的热量。极地附近气候温和，而赤道却热得不宜居住，持续不断的飓风在热带肆虐，其规模令地球或阿维斯基尔见到的任何风暴都相形见绌。`
@@ -3310,6 +3618,7 @@ planet Mabatham
 	security 0
 
 planet Maelstrom
+	"display name" "大漩涡星"
 	attributes frontier mining north
 	landscape land/mountain21-harro
 	description `大漩涡星是一颗风暴频繁、地质上较为年轻的行星，高耸的山脉遍布其间，地震也司空见惯。多数大型城市坐落在行星主大陆的中心附近，那里裸露着来自远古海洋的铁质地层。大漩涡星是艾达星主要的铁、铜、金、钛及其他金属的出口地之一，洛夫莱斯实验室及相关产业对这些原材料有着持续的需求。`
@@ -3324,6 +3633,7 @@ planet Maelstrom
 		fleet "Large Republic" 11
 
 planet Mahoganybox
+	"display name" "红木匣"
 	attributes hai retirement station
 	landscape land/station41
 	description `到访该空间站的人会立即注意到这里的重力比大多数行星低约三分之一。离开泊位后，你进入一间装饰雅致的房间，一张由不明异质材料制成的环形接待桌呈现在眼前。桌后一位身着西装、面带微笑的亥族告知你，这是一处老年人休养所，除非你有家人住在这里，否则不得擅自离开这间房间。不过，你可以随意探访任何已下楼的人，或向管理员询问商务联系事宜。`
@@ -3336,6 +3646,7 @@ planet Mahoganybox
 	security 1
 
 planet Mainsail
+	"display name" "主帆星"
 	attributes paradise wealthy
 	landscape land/water13
 	description `主帆星是个水世界：虽然干燥陆地上有零星定居点，但最大的城市都是漂浮的人工岛屿，一年四季在南北半球间航行，追逐最理想的气候。其余较小的岛屿则由单个家族或企业私有。主帆星的生活成本高得令人望而却步。`
@@ -3360,6 +3671,7 @@ planet Mainsail
 		fleet "Small Republic" 57
 
 planet Maker
+	"display name" "制造者星"
 	attributes core factory mining
 	landscape land/bwerner3
 	description `当地球上的家庭或年轻人发觉人类母星那拥挤的环境令人窒息时，制造者星往往成了许多人的归宿。辛迪加为任何愿意签下制造者星矿井或工厂五年合同的人提供免费交通和住房。这里的生活条件通常很糟糕，年轻男女被塞进拥挤的集体宿舍，而那些最迫切需要收入的人则在矿井中从事危险的工作。但在这里干上五到十年，你赚到的钱就足够在任何边境世界上建立家园。对许多人来说，这几年的付出是值得的。`
@@ -3373,6 +3685,7 @@ planet Maker
 		fleet "Large Syndicate" 10
 
 planet Makerplace
+	"display name" "工坊星"
 	attributes hai "hai tourism" manufacturing urban
 	landscape land/lava12
 	description `工坊星由于地幔中放射性元素高度集中，火山活动异常频繁。虽然以亥族的标准来看气候偏暖，但丰富的地热能加上充沛的太阳能与风能，使其成为理想的生产制造星球。温带地区有多座城市，人口均超过一亿亥族，城市周围的工厂四面八方延伸达数十公里。赤道附近大部分土地则是荒漠或火山荒地。`
@@ -3385,6 +3698,7 @@ planet Makerplace
 	security 0.2
 
 planet Mani
+	"display name" "玛尼"
 	attributes deep moon
 	landscape land/nasa6
 	description `玛尼是一颗小卫星，大气层厚到足以防止血液沸腾，但稀薄到需要辅助才能呼吸。它仅用作货仓和补给维修点。`
@@ -3403,6 +3717,7 @@ planet Mani
 		fleet "Small Deep Security" 11
 
 planet "Market of Gupta"
+	"display name" "古普塔市场"
 	attributes arach folklore shipping
 	landscape land/mountain16-striker
 	description `这个山地世界是马洛布家族的总部，这是一个掌管商业与航运的强大阿拉奇公会。所有当前服役的阿拉奇星际飞船都是在此设计的，其中许多也在此制造。马洛布家族造船厂的座右铭是“如山般坚固，如天空般辽阔”，意指他们专注于耐久的船体和高货运容量。`
@@ -3414,6 +3729,7 @@ planet "Market of Gupta"
 	security 0.3
 
 planet Mars
+	"display name" "火星"
 	attributes farming "near earth" tourism
 	landscape land/desert0
 	description `火星是人类首次尝试地球化改造的星球。尽管它依然是一片干燥而寒冷的荒漠，但如今大气已无需氧气罐即可呼吸，并且星球上有些区域能让不少植物生长。`
@@ -3425,6 +3741,7 @@ planet Mars
 		fleet "Small Republic" 64
 
 planet Martini
+	"display name" "马提尼"
 	attributes paradise tourism wealthy
 	landscape land/myrabella4
 	description `马提尼是一颗拥有异域海滩与完美天气的星球。共和国的中央银行与银河证券交易所的总部均设于此，每日流经此地经济的资金量极为庞大，以至于完全掌控其天气与气候的成本不过是九牛一毛。毫不意外，这里的房地产价格犹如天文数字；在马提尼主要城市里的一套小型公寓，其价格甚至超过一艘主力星舰。`
@@ -3436,18 +3753,21 @@ planet Martini
 		fleet "Large Republic" 22
 
 planet Masada
+	"display name" "马萨达"
 	attributes antecessor uninhabited
 	landscape land/canyon18
 	description `马萨达是一颗古老的世界，远在人类诞生之前便已濒临死亡。其地质活动久已停息，亿万年的侵蚀将地形磨削至基岩。地表大部分地区极其干燥，仅赤道附近一连串寒冷且带咸味的浅海封存着仅有的水。流域之外少有雨水降临，但凡落下的雨水都苦涩且呈碱性。那些残破的遗迹——或许曾是城市，如今磨损得只剩下圆形排列的碎石——暗示此地蕴藏着厚重的历史，却毫无未来可言。`
 	description `	在轨道上，阿夫吉人只留下一组测绘地表的卫星群，除此之外别无他物。原住民未曾留下任何痕迹，这提醒着人们这颗世界究竟有多古老——古老到连最高的轨道都已衰败坠落。`
 
 planet Maspa-Viir-Kella
+	"display name" "马斯帕-维尔-凯拉"
 	attributes successor uninhabited
 	landscape land/clouds_03
 	description `这颗行星的大小几乎达到了岩质行星在归类为气态巨行星之前的极限。它被极其厚重的大气层所包裹，其厚度仅仅勉强在传统飞船建造技术的承受范围内，甚至在你尚未着陆时，强风便已猛烈冲击你的飞船。地面上，任何距离都难以看清事物；雾气实在是太过浓重。`
 	government Uninhabited
 
 planet Mavra-Sol-Kvel
+	"display name" "马夫拉-索尔-克维尔"
 	attributes successor wealthy
 	landscape land/hills15
 	description `这颗翠绿且人口稠密的卫星气候温和，景色壮观，无论地表风光还是它所环绕的那颗气态巨行星都令人叹为观止。这里重力很低，你见到的继承者身材高耸，相较其他星球更加显眼。地表有几座城市，大多分布在赤道一带。`
@@ -3461,6 +3781,7 @@ planet Mavra-Sol-Kvel
 	bribe 0
 
 planet "Mebla's Portion"
+	"display name" "梅布拉的份额"
 	attributes arach urban
 	landscape land/fog5
 	description `梅布拉的份额是一颗多风暴、天气变幻莫测且瞬息万变的世界，尽管如此，这里仍生活着数十亿阿拉奇人和数百万其他联盟物种的成员，部分原因是此处的租金比气候更宜人的星球便宜。很多居民是艺术家或从事其他创意领域工作，这让他们在天气恶劣到难以外出时，可以居家办公。`
@@ -3469,6 +3790,7 @@ planet "Mebla's Portion"
 	security 0.15
 
 planet Melatos
+	"display name" "梅拉托斯"
 	attributes avgi uninhabited
 	landscape land/snow36
 	description `梅拉托斯虽是一颗巨大的岩石星球，却只有极其稀薄的大气层。阿夫吉天体地质学家断定，数百万年前的某次灾难性事件熔融并迅速重新冻结了其地壳最外层，与阿维斯基尔的一次大灭绝事件同期。这种急剧冷却造就了一颗表面光滑如大理石、部分由陶瓷构成的星球。玻璃般的表面遍布深裂，是地壳重新冻结并冷却收缩时形成的。`
@@ -3476,6 +3798,7 @@ planet Melatos
 	government Uninhabited
 
 planet Melenci
+	"display name" "梅伦齐"
 	attributes bunrodea medical moon
 	landscape land/badlands8
 	description `南方的詹图·勒星球主要从事基因研究，而北方的小卫星梅伦齐则是这些研究成果得以实践的地方。这颗卫星上仅有一处定居点，邦罗迪安人前往那里接受基因组的改造。不过，邦罗迪安人确保所有改造只针对个体本身生效，而不会遗传给后代。`
@@ -3487,6 +3810,7 @@ planet Melenci
 	security 0
 
 planet Meligara
+	"display name" "梅利加拉"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa41
 	description `在绕着里提拉斯运行的三颗气态巨行星中，梅利加拉是离薰衣草色虫洞最近的一颗。短小的距离让两者不可避免地相互影响：这颗气态巨行星没有大卫星，就连它的行星环在虫洞最接近时也明显趋向倾斜，变成椭圆形。`
@@ -3495,6 +3819,7 @@ planet Meligara
 	security 0
 
 planet Memory
+	"display name" "记忆星"
 	attributes deep factory medical research
 	landscape land/badlands9-harro
 	description `记忆星是个干燥的世界，但本土植物足以维持可呼吸的大气。有些形似仙人掌的耐旱本土植物可以长到几十米高。这里演化出的大部分动物都是夜行性的。`
@@ -3509,6 +3834,7 @@ planet Memory
 		fleet "Small Deep Security" 16
 
 planet "Mendez Station"
+	"display name" "门德斯空间站"
 	attributes ccor station uninhabited
 	landscape land/station47
 	music ambient/machinery
@@ -3519,6 +3845,7 @@ planet "Mendez Station"
 	security 0
 
 planet "Merask Fortuno"
+	"display name" "梅拉斯克福图诺"
 	attributes korath mereti station
 	landscape land/station25
 	music ambient/machinery
@@ -3532,6 +3859,7 @@ planet "Merask Fortuno"
 	security 0
 
 planet Mere
+	"display name" "沧海星"
 	attributes fishing rim
 	landscape land/sea7
 	description `沧海星是一颗几乎完全被海洋覆盖的星球。当地人一生大部分时间都在巨型船上度过，这些船犹如漂浮的城市，四处航行，收集鱼类和海藻作为食物，或从浅海采收珍珠销往外星。城市船必须尽力避开飓风最频繁的某些纬度，即便如此，风暴对居住在此的人们仍是持续不断的威胁。气象状况由卫星网络持续追踪。`
@@ -3543,6 +3871,7 @@ planet Mere
 		fleet "Large Militia" 14
 
 planet "Mereti Station"
+	"display name" "梅雷提空间站"
 	attributes korath mereti station
 	landscape land/station16
 	music ambient/machinery
@@ -3556,12 +3885,14 @@ planet "Mereti Station"
 	security 0
 
 planet Methuselah
+	"display name" "玛土撒拉"
 	attributes "requires: gaslining"
 	landscape land/methuselah
 	description `这个世界给人以远古之感，空气宁静得仿佛最后一场风暴在数千年前便已停歇。来自地下的持续低沉声音，似乎在诉说着宇宙最初的故事——那些更炽热、更迅疾时代的记忆。`
 	description `	不时能看到巨兽在宁静祥和中漂浮于大气之间。`
 
 planet "Miblulub's Plenty"
+	"display name" "米布鲁鲁布的丰饶"
 	attributes arach farming folklore longcows
 	landscape land/fields7
 	description `米布鲁鲁布的丰饶是阿拉奇在母星系之外建立的第一处殖民地，创建于其家园世界食物产出不足以可靠养活全体人口的年代。这颗行星四季漫长、降雨充沛，温带地区因此成为理想的农耕之地，而靠近热带的草原则多用来放牧长牛。长牛是一种外貌独特、性情顽劣的多足牲畜；它们的肉是阿拉奇食谱中的关键组成部分。`
@@ -3571,6 +3902,7 @@ planet "Miblulub's Plenty"
 	security 0.25
 
 planet Midgard
+	"display name" "米德加德"
 	attributes deep factory mining urban
 	landscape land/city5
 	description `米德加德是一个地理多样性不亚于地球的星球：山脉、苔原、沙漠、海洋、沼泽、平原。它是星渊中第二个被殖民的星球，距今已有七个世纪。如今，这里拥有数十个大都市区，人口超过四十亿。尽管有少数人居住在城市之外从事农耕或牧业，但绝大多数居民都在制造业中工作。`
@@ -3601,6 +3933,7 @@ planet Midgard
 		fleet "Large Deep Security" 30
 
 planet "Midnight Diamond"
+	"display name" "午夜钻石"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa26
 	description `当基梅克人首次发现这颗行星大气上层发生的钻石雨时，他们的采矿业为之疯狂，开采出数亿颗宝石，并挑选其中最好的用于行星表面的钻探。`
@@ -3609,6 +3942,7 @@ planet "Midnight Diamond"
 	security 0
 
 planet "Midway Emerald"
+	"display name" "中途翡翠"
 	attributes kimek shipping urban wealthy
 	landscape land/forest8
 	description `富有的基梅克人喜欢尽可能靠近权力中心居住，而在联盟空间中，权力中心就是日权会的环世界。这里的居所比其他基梅克世界更豪华，也不那么拥挤，总人口不到二十亿。城市之外，这是一个炎热的森林世界，没什么本地工业或自然资源。`
@@ -3619,6 +3953,7 @@ planet "Midway Emerald"
 	security 0.4
 
 planet Millrace
+	"display name" "磨盘星"
 	attributes factory "near earth" urban
 	landscape land/city25
 	description `磨盘星是个人口过剩的世界，遍布工厂和制造厂。在这片太空区域，它是几个行星之一，那些试图逃离地球拥挤肮脏、污染严重的城市的人们来到这里寻找工作。这里制造的大多数商品最终被辛迪加用于建造星舰或推动其他世界的工业。`
@@ -3635,6 +3970,7 @@ planet Millrace
 		fleet "Large Syndicate" 8
 
 planet Mirrorlake
+	"display name" "镜湖星"
 	attributes hai "hai tourism" moon
 	landscape land/bwerner1
 	description `亥族的母星有一颗大而致密的卫星，足以维系自身的地表水。虽然大气寒冷，但强烈的潮汐作用使大部分水保持液态。少数地方有花岗岩和玄武岩峭壁从水面拔起，亥族还在月球上建了几处小型定居点。`
@@ -3642,6 +3978,7 @@ planet Mirrorlake
 	security 0.2
 
 planet Mnai
+	"display name" "姆奈"
 	attributes uninhabited
 	landscape land/canyon1
 	description `以人类标准来看，这个世界的环境相当宜人。姆奈一年中的大部分季节都是漫长的温暖夏季，为野生动物的繁盛提供了有利条件。峡谷是常见的景观，有时在其高处的山区和谷地中孕育着各自较小的生态系统。姆奈表面的其他区域分布着平顶山，那里栖息着一种形似巨熊、头长鹿角的哺乳动物。`
@@ -3649,6 +3986,7 @@ planet Mnai
 	government Uninhabited
 
 planet Moonshake
+	"display name" "月摇星"
 	attributes core factory forest urban
 	landscape land/city7
 	description `月摇星是一个人口稠密的城市与茂密荒野并存的行星。几个世纪前，当辛迪加开始在此兴建工厂时，它便成为了地方工业生产中心。自那以后，寻求稳定工作的移民大量涌入，行星人口每隔几十年便翻一番。如今，这里已成为从纺织品、模制塑料零件到反应堆级钚等一切产品的区域性生产中心。`
@@ -3663,6 +4001,7 @@ planet Moonshake
 		fleet "Large Syndicate" 7
 
 planet Mordente-Bridi
+	"display name" "莫登特-布里迪"
 	attributes ccor frontier military pirate south "south pirate" station urban
 	landscape land/station48
 	music ambient/machinery
@@ -3687,6 +4026,7 @@ planet Mordente-Bridi
 		fleet "Large CCOR" 4
 
 planet Mosaa-Oa-Vyret
+	"display name" "莫萨-欧阿-维雷特"
 	attributes successor
 	landscape land/hills16
 	description `这颗小行星上居住着一群体型巨大的类章鱼外星人。他们在地表建造了数座高度对称的城市，城内遍布形似有机体的弧形建筑，披挂着在光线下闪闪发光的彩色织物。空气潮湿而寒冷；暴雨覆盖了行星表面大部分地区，许多停靠在空港的光洁飞船在着陆时都会排出大量雨水。`
@@ -3713,6 +4053,7 @@ planet Mosaa-Oa-Vyret
 	bribe 0
 
 planet "Muninn Station"
+	"display name" "雾尼空间站"
 	attributes deep military station
 	landscape land/station9
 	music ambient/machinery
@@ -3726,6 +4067,7 @@ planet "Muninn Station"
 		fleet "Small Deep Security" 25
 
 planet Muspel
+	"display name" "穆斯贝尔"
 	attributes deep factory mining
 	landscape land/canyon9
 	description `穆斯贝尔是一个由沙漠、峡谷和暖水海洋构成的炎热世界。它主要是一颗采矿和制造业行星，因此几乎没有终身居民；这里的大部分人都是流动工人，只是想攒够钱去更宜居的地方定居。`
@@ -3744,12 +4086,14 @@ planet Muspel
 		fleet "Small Deep Security" 14
 
 planet Mutiny
+	"display name" "叛乱星"
 	attributes core "core pirate" pirate
 	landscape land/badlands13
 	description `几个世纪前，叛乱星被一伙强势的海盗当作监狱星球使用——他们将竞争对手流放到这里，或扣押起来索要赎金，而非直接处死。这是一颗寒冷昏暗的行星，食物匮乏，但随着时间的推移，在一些较为宜居的区域逐渐形成了若干村落。如今留在这里的居民已不再是囚犯，他们选择留下来，是因为喜欢远离一切政府管辖的简单生活，也因为这颗行星毫无价值可言，永远不会遭人觊觎。`
 	security 0
 
 planet Myiara-Aret-Iir
+	"display name" "米亚拉-阿雷特-伊尔"
 	attributes predecessor uninhabited
 	landscape land/desert20
 	description `与这片太空中其他曾有人居住但现在空无一物的星球不同，这个世界充满了混乱的痕迹。匆忙建造的天气控制塔的残骸遍布其表面，其上的城市既不宏伟也无人维护；没有一个城市很大，但大多数都被大片织物和辐射漂白的临时建筑所包围。`
@@ -3761,6 +4105,7 @@ planet Myiara-Aret-Iir
 	government Predecessor
 
 planet Myiara-Sola-Tej
+	"display name" "米亚拉-索拉-泰杰"
 	attributes crime station successor uninhabited
 	landscape land/station25
 	description `这座废弃的空间站似乎仍然在技术上适宜居住，只要不介意呼吸那循环不佳且布满灰尘的空气。`
@@ -3772,12 +4117,14 @@ planet Myiara-Sola-Tej
 	government Uninhabited
 
 planet Mystery
+	"display name" "奥秘星"
 	attributes moon saryd uninhabited
 	landscape land/canyon05
 	description `萨里德文化对星体运动的着迷或许可归因于他们的母星被两颗卫星环绕，这引发了复杂且看似不可预测的潮汐周期，并对萨罗斯上进化而来的生物的昼夜节律产生了各种微妙影响。其他世界的萨里德住所通常设计有模仿其母星卫星的夜间照明周期。`
 	"required reputation" 15
 
 planet Naph-Naap-Kella
+	"display name" "纳夫-纳普-凯拉"
 	attributes "bold tourism" successor uninhabited
 	landscape land/lava1
 	description `这颗行星正深陷其早期历史的剧烈动荡中，浓厚的硫磺大气遮蔽了不稳定的火山活动地表。富含矿物质的池塘紧挨着熔岩流和崩落的喷发碎屑，不停翻腾；巨大的云间闪电一次次照亮天际，令你的飞船船体布满静电，噼啪作响。`
@@ -3789,17 +4136,20 @@ planet Naph-Naap-Kella
 	government Uninhabited
 
 planet Naphir
+	"display name" "纳菲尔"
 	attributes avgi frozen "ice moon" moon uninhabited
 	landscape land/snow27
 	description `纳菲尔是一场命运多舛的早期星际远征所选的目的地，也最终成为了它的安息之所。自愿参与这项使命的阿夫吉先驱者们事先早已清楚，该星系中没有任何宜居行星，但他们依然义无反顾地出发；所有人都做好了在轨道空间站中度过余生的准备。殖民者在一颗气态巨行星旁发现了一颗寒冷无空气的卫星后，便定居下来，开始建造栖息地并采集必需的资源。`
 	description `	不幸的是，“跨度”极易发生剧烈的喷发现象，不到一年便有一次日冕物质抛射袭来。由于大部分精密机械仍留在他们轨道飞船的船舱里，它们遭受了严重退化；失去了这些设备后，殖民地逐渐在设备故障中走向消亡，直到最后一位活着的阿夫吉人记录下一首告别诗，这首诗至今仍广为人知。`
 
 planet Nasqueron
+	"display name" "纳斯克戎"
 	attributes "requires: gaslining"
 	landscape land/nasa8
 	description `纳斯克戎多云的表层之下，是一个复杂而繁荣的气态生物生态系统，从庞大的虚空精灵，一直到悬浮在空气中的微小水滴里栖息的细菌。尽管虚空精灵主要以这些生物为食，但似乎为了成长为成年形态或生育后代，它们还需要一些稀有矿物质，而这些矿物质只能通过捕食远在该行星大气层之外的小行星才能获得。`
 
 planet "Navigeo Yards"
+	"display name" "纳维杰奥船厂"
 	attributes avgi "avgi diaspora" military station "twilight guard"
 	landscape land/station57
 	music ambient/machinery
@@ -3831,6 +4181,7 @@ planet "Navigeo Yards"
 		fleet "Avgi Fleetgroup" 6
 
 planet "Nearby Jade"
+	"display name" "近邻碧玉"
 	attributes farming kimek longcows urban
 	landscape land/fields12-sfiera
 	description `除了鱼类，基梅克人的饮食以素食为主，但几个世纪前，一位阿拉克企业家决定在这里放养长角牛。这颗星球牧草丰茂，是畜牧的理想之地。牧场已成为一项主要产业，尽管通常只有最富有的基梅克人才愿意花钱购买长角牛肉。`
@@ -3839,6 +4190,7 @@ planet "Nearby Jade"
 	security 0.3
 
 planet Nepheritis
+	"display name" "奈费里蒂斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_08
 	description `奈费里蒂斯是一颗异常巨大的冰巨星，在天堂星球的居民中以其倾盆而落的大型钻石雨而闻名。尽管这种现象在大多数足够大的冰巨星上都很常见，但奈费里蒂斯因其大气中形成的钻石尺寸之巨大而成为科学奇观，一些钻石甚至在坠入深处时变成了巨大的石块。`
@@ -3846,6 +4198,7 @@ planet Nepheritis
 	government Uninhabited
 
 planet Neriene
+	"display name" "内里恩"
 	attributes uninhabited
 	landscape land/haze1
 	description `虽然缺少标志性的铁锈红色，但这颗行星的环境与人类踏足的第二颗行星火星惊人地相似。稀薄的二氧化碳大气、极地冰盖，以及地表遍布的干涸水道痕迹，都诉说着与亿万年前火星相同命运的悲凉往事。`
@@ -3853,6 +4206,7 @@ planet Neriene
 	government Uninhabited
 
 planet "New Argentina"
+	"display name" "新阿根廷"
 	attributes "dirt belt" farming
 	landscape land/fields1
 	description `新阿根廷是一颗适宜放牧而几乎不宜其他用途的世界。牧场主以独立家庭或小聚落的形式生活，周围是成片用于放牛的牧场。因此，这里的人口至今稀少，当地人过着与世隔绝的日子，大多数家庭距最近的学校、医院甚至邻居都有数公里之遥。`
@@ -3870,6 +4224,7 @@ planet "New Argentina"
 		fleet "Large Republic" 4
 
 planet "New Austria"
+	"display name" "新奥地利"
 	attributes "dirt belt" mining
 	landscape land/valley9
 	description `新奥地利是一个崎岖的山地世界，遍布白雪皑皑的山峰，以及深邃陡峭、终年不见阳光的深谷。`
@@ -3887,6 +4242,7 @@ planet "New Austria"
 		fleet "Large Militia" 5
 
 planet "New Boston"
+	"display name" "新波士顿"
 	attributes "dirt belt" farming textiles
 	landscape land/water2
 	description `新波士顿是一颗毫无特色的星球。大部分土地潮湿多沼泽，沿海地区易受洪水侵袭。该行星经济以农业为主；一些农场种植粮食出口到地球及他处，但大部分农田种植的是纤维作物，运往太空港城市的纺织厂进行加工。`
@@ -3920,6 +4276,7 @@ planet "New Boston"
 		fleet "Small Militia" 23
 
 planet "New Britain"
+	"display name" "新不列颠"
 	attributes "dirt belt" factory farming urban
 	landscape land/city6
 	description `新不列颠是银河系泥壤带区域中为数不多的相对繁荣且人口众多的星球之一。尽管这里重力略低，但它几乎是一个理想的地球类世界，自然资源丰富到当地工业所需的所有原材料都可在星球上获取。`
@@ -3942,6 +4299,7 @@ planet "New Britain"
 		fleet "Large Militia" 20
 
 planet "New China"
+	"display name" "新神州"
 	attributes "near earth" urban
 	landscape land/city3
 	description `在超空间旅行的早期，大多数定居者选择在距地球几次跳跃距离内扎根，因为在更多燃料补给站建成之前，更远的殖民地很少有货船造访。因此，人们投入了大量精力对那些今天会被多数殖民者忽略的星球进行地球化改造和开发。`
@@ -3958,6 +4316,7 @@ planet "New China"
 		fleet "Small Republic" 50
 
 planet "New Finding"
+	"display name" "新发现"
 	attributes research saryd
 	landscape land/canyon6
 	description `由于复杂的大气环流和迅速更替的季节，新发现的表面不断被强劲的风冲刷，使得土壤难以积聚，除非是在遮蔽的峡谷和沟壑中。每一片这样的绿色区域就像光秃岩石海洋中的一座孤岛。随着时间推移，凡是森林能够扎根生长的地方，它们便向外蔓延，开始将更多岩石转化为适宜居住的土壤。在暴露的斜坡上，岩崩是一种持续的危险。`
@@ -3969,6 +4328,7 @@ planet "New Finding"
 	security 0.3
 
 planet "New Greenland"
+	"display name" "新格陵兰"
 	attributes "dirt belt" forest frozen textiles
 	landscape land/snow16
 	description `新格陵兰大约在六百年前首次有人定居，那时正值“地盘争夺”时代的顶峰，多数行星都由强大的企业控制，它们之间的争斗常常演变成动用私有舰队和军队的全面战争。来到新格陵兰的人，寻找的是一颗边缘到没人想要的世界，以便在此和平生活，免受争斗波及。`
@@ -3986,6 +4346,7 @@ planet "New Greenland"
 		fleet "Small Militia" 15
 
 planet "New Holland"
+	"display name" "新荷兰"
 	attributes "dirt belt" factory farming fishing
 	landscape land/water7
 	description `像古地球上的同名地一样，新荷兰是一个海洋与低地遍布的世界。这是一颗古老的星球，地质活动早已停息，亿万年的风雨将其侵蚀平滑。对这里的居民而言，洪水是持续的威胁，需要庞大的堤坝和防洪堤网络来防御。但洪水也带来了土壤的再生，使此地成为星区内最肥沃的农耕世界之一。`
@@ -4004,6 +4365,7 @@ planet "New Holland"
 		fleet "Large Militia" 11
 
 planet "New Iceland"
+	"display name" "新冰岛"
 	attributes "dirt belt" factory mining oil volcanic
 	landscape land/valley0
 	description `新冰岛是一个常年笼罩在雾霭中的火山世界，大气略带腐蚀性，但丰富的金属和石化资源吸引了大量定居者。部分定居者也以务农为生，少数发达的工厂城镇生产商品出口至其他星球。`
@@ -4020,6 +4382,7 @@ planet "New Iceland"
 		fleet "Small Militia" 24
 
 planet "New India"
+	"display name" "新印度"
 	attributes "dirt belt" farming forest frontier textiles
 	landscape land/forest0
 	description `新印度是在不到一个世纪前才首次被殖民的，定居者们仍在努力扎根。这里气候宜人，但砍伐森林和开垦多岩田地所需的劳力意味着这里的城镇只能非常缓慢地发展。`
@@ -4037,6 +4400,7 @@ planet "New India"
 		fleet "Small Militia" 16
 
 planet "New Kansas"
+	"display name" "新堪萨斯"
 	attributes "dirt belt" forest textiles
 	landscape land/fields6
 	description `在人类空间的大部分地区，羊毛服装被视为奢侈品，因为多数行星开采的石油足够使得合成衣料远比养羊剪毛要便宜。然而，在新堪萨斯，羊毛是首要产业。`
@@ -4053,6 +4417,7 @@ planet "New Kansas"
 		fleet "Small Militia" 22
 
 planet "New Portland"
+	"display name" "新波特兰"
 	attributes "dirt belt" farming
 	landscape land/fog8
 	description `新波特兰是一颗云层密布的行星，环绕着一颗暗淡的恒星运行；它之所以没有完全冻结，全靠上层大气锁住的热量。这里只有寥寥几座城镇，没有任何聚落大到够得上称为城市。大多数定居者是勉强维生的农民，只能梦想其他世界的生活。不少房屋甚至没有自来水和个人电脑。`
@@ -4068,6 +4433,7 @@ planet "New Portland"
 		fleet "Small Militia" 12
 
 planet "New Sahara"
+	"display name" "新撒哈拉"
 	attributes "dirt belt" factory
 	landscape land/water1
 	description `新撒哈拉主要由沙漠和稀树草原组成，降水极少。`
@@ -4083,6 +4449,7 @@ planet "New Sahara"
 		fleet "Small Militia" 30
 
 planet "New Switzerland"
+	"display name" "新瑞士"
 	attributes mining "near earth" tourism
 	landscape land/mountain5
 	description `新瑞士是一颗构造活动频繁的星球，遍布地表的山脉大部分都因板块运动而变得褶皱断裂。`
@@ -4095,6 +4462,7 @@ planet "New Switzerland"
 		fleet "Small Republic" 11
 
 planet "New Tibet"
+	"display name" "新西藏"
 	attributes "dirt belt" factory religious
 	landscape land/mountain0
 	description `新西藏是一个山峰险峻、幽深峡谷遍布的世界。`
@@ -4111,6 +4479,7 @@ planet "New Tibet"
 		undefined "tribute pacifist undefined"
 
 planet "New Tortuga"
+	"display name" "新托尔图加"
 	attributes core "core pirate" factory pirate religious
 	landscape land/fog6
 	description `这颗行星风暴肆虐、地震频繁，对寻常太空旅人并无多少吸引力。主要聚居地大多建在地下深处，远离断裂带，仅留有隐秘而坚固的进出口。加上太空港入口处那堡垒般的防爆门，新托尔图加实为藏身者的理想之地。`
@@ -4141,6 +4510,7 @@ planet "New Tortuga"
 		fleet "Small Core Pirates" 15
 
 planet "New Wales"
+	"display name" "新威尔士"
 	attributes "dirt belt" mining
 	landscape land/mountain7
 	description `新威尔士有几处采矿前哨站，用于提取和精炼稀土矿物与重金属。这是一份危险的工作：矿井深入地下，易发生有毒气体泄漏和塌方，而精炼厂则处理熔融放射性物质和腐蚀性化学品。`
@@ -4159,6 +4529,7 @@ planet "New Wales"
 		fleet "Large Militia" 6
 
 planet "New Washington"
+	"display name" "新华盛顿"
 	attributes "dirt belt" mining oil
 	landscape land/nasa4
 	description `新华盛顿是一颗蜷缩在昏暗红日旁的行星，除它之外整个星系都封冻着。它绕日轨道极近，以至于行星与恒星彼此锁定，新华盛顿的一面永朝太阳，另一面则陷入永恒的黑暗。`
@@ -4175,6 +4546,7 @@ planet "New Washington"
 		fleet "Large Militia" 3
 
 planet Newhome
+	"display name" "新家园"
 	attributes hai "hai: human presence" textiles urban
 	landscape land/myrabella7
 	description `新家园的引力、气候和地理与亥族母星十分相似。这里生活着数十亿亥族居民。大多数人居住在庞大的工业城市中，但未开发的地区也分布着牧场，亥族在那里饲养着一种比大象还要庞大的动物，却能产出类似羊毛的绒毛。剪取绒毛十分危险，但这种绒毛可以制成优质耐久的衣物。`
@@ -4184,6 +4556,7 @@ planet Newhome
 	security 0.2
 
 planet Nifel
+	"display name" "尼福尔"
 	attributes deep frozen medical research
 	landscape land/mountain3
 	description `尼福尔是一个寒冷的世界，夏季太短，大多数作物无法生长，本土野生动物极少，除了一些厚毛哺乳动物和每年从一个半球迁徙到另一个半球的候鸟。`
@@ -4200,12 +4573,14 @@ planet Nifel
 		fleet "Large Deep Security" 16
 
 planet Nilokep
+	"display name" "尼洛克普"
 	attributes "tangled shroud" uninhabited
 	landscape land/sky14
 	description `尼洛克普静静地环绕着遥远的母星，是一个死寂、无空气的世界，遍布石质平原和盐碱滩。极地耸立着花岗岩山脉，但这颗小星球可能曾有过的任何地热，都早已散失殆尽。`
 	description `	奇怪的是，尼洛克普的环境背景辐射水平偏高，主要是因为含有微量铀的花岗岩粉末散布于星球表面。虽然开采这些物质并不经济，但人们认为，这是某个古老地质系统侵蚀并散布了该行星原始山脉后留下的遗迹。`
 
 planet Nimbus
+	"display name" "骤雨星"
 	attributes core fishing medical
 	landscape land/beach15
 	description `骤雨星是一颗风暴肆虐的海洋世界，阵雨几乎毫无预警地就会从天而降，转眼之间又突然被明媚的阳光取代。在此定居的，大多是能以平静从容的态度承受这般变化的人；旅游指南在罗列“待客最友善的本地人”时，总习惯把骤雨星排在前列。`
@@ -4221,6 +4596,7 @@ planet Nimbus
 		fleet "Small Syndicate" 4
 
 planet "Nisos Cylinder"
+	"display name" "尼索斯圆筒站"
 	attributes avgi station uninhabited urban
 	landscape land/station55
 	description `尼索斯圆筒站曾是一座巨型居住空间站，与地球20世纪设想的奥尼尔圆筒概念属同一类型。其上人口近一千二百万，是阿夫吉人建造的近千个圆筒站之一，多数位于阿纳克斯星系，那里共同成为数十亿人的家园。随着异变体在阿夫吉星域推进，居民在狂乱中疏散，大部分人口逃往阿维斯基尔。与邻近站点相比，它相对完好，仍保有大气层。`
@@ -4228,11 +4604,13 @@ planet "Nisos Cylinder"
 	government Uninhabited
 
 planet Noluc
+	"display name" "诺拉克"
 	attributes desert poisonous uninhabited
 	landscape land/desert13
 	description `即使诺拉克并非一颗毫无生命、金属贫瘠的荒漠行星，它也极难吸引定居者。覆盖星球沙质荒原的愤怒橙红色，实际上由一种对人类和阿夫吉均致命的简单神经毒素形成。这种毒素在干燥状态理论上无害，但一接触水分便会将粉尘溶解成溶液，使其化为强力毒药，即使微观剂量也能致死。`
 
 planet Norn
+	"display name" "诺恩"
 	attributes deep fishing moon
 	landscape land/beach4
 	description `诺恩是一颗水世界，重力较低但大气稠密，呼吸起来毫不费力。大片海藻丛如天然筏子随洋流漂移，一些无畏的定居者已在上面安家——这些人偏爱相对孤独的生活，情愿任由风将其带向何方。其他人则在几座低矮、常遭水淹的岛屿上定居。`
@@ -4250,6 +4628,7 @@ planet Norn
 		fleet "Small Deep Security" 12
 
 planet O-Vasa-Oa
+	"display name" "欧-瓦萨-欧阿"
 	attributes successor urban wealthy
 	landscape land/hills4
 	description `这颗双体行星是所谓“新派”的集体驻地。所谓新派，指的是在前代帝国崩溃期间，穿过虫洞来到这片空间的贵族家族。新派内部许多人反对这个称号，声称他们的家族谱系实际上更为悠久和高贵，应以血缘而非抵达时间来划分地位。`
@@ -4264,6 +4643,7 @@ planet O-Vasa-Oa
 	bribe 0
 
 planet Oasis
+	"display name" "绿洲星"
 	attributes farming rim textiles
 	landscape land/dune4
 	description `尽管绿洲星大部分地区都是沙漠，但仍存在少数更适宜人类居住的热带区域。这些定居点规模较小，主要依靠农业、畜牧业和纺织业生产可以销往地外的商品。`
@@ -4275,6 +4655,7 @@ planet Oasis
 		fleet "Large Militia" 5
 
 planet "Oberon Station"
+	"display name" "奥伯伦空间站"
 	attributes core station
 	landscape land/sivael9
 	music ambient/machinery
@@ -4287,6 +4668,7 @@ planet "Oberon Station"
 		fleet "Small Syndicate" 5
 
 planet Oblivion
+	"display name" "湮灭星"
 	attributes "dirt belt" mining oil
 	landscape land/industrial0-iridium
 	description `这里的大气由氨、硫和甲烷构成，毒性极强。虽然必要时人类可以勉强呼吸，但当地居民通常佩戴呼吸面罩，以降低慢性呼吸道疾病的风险。即便如此，此地人均寿命依然很短，部分原因在于薪酬最高的两个行业是石油钻探和放射性元素开采。`
@@ -4303,11 +4685,13 @@ planet Oblivion
 		fleet "Large Militia" 8
 
 planet Occupas
+	"display name" "奥库帕斯"
 	attributes "requires: gaslining"
 	landscape land/occupas
 	description `这颗星球上没有任何可以着陆的地方，所以你最终只是在这气态巨行星的上层云层中缓缓滑过。深层云海中不时有巨大的阴影浮现，但从不长久停留。这颗气态巨星气候相对平静：风力温和，风暴也不多见。`
 
 planet Ochrescoop
+	"display name" "赭石之勺"
 	attributes hai station
 	landscape land/station43
 	music ambient/machinery
@@ -4318,6 +4702,7 @@ planet Ochrescoop
 	security 0.5
 
 planet Ogmur
+	"display name" "奥格穆尔"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa35
 	description `在奥格穆尔令人窒息的重力下，蓝色与黄色的气旋翻腾交织、融合、分裂，构成一场永恒的舞蹈，狂暴的绿色闪光照亮着汹涌的深处。这颗行星由一场覆盖可见半球三分之一的巨型风暴主宰，其猛烈程度冠绝联盟空间——正因如此，联盟活动集中于该行星另一个平静得多的半球。`
@@ -4325,6 +4710,7 @@ planet Ogmur
 	security 0
 
 planet "Ogmur's Siphon"
+	"display name" "奥格穆尔虹吸站"
 	attributes arach "coalition station" research
 	landscape land/station36
 	music ambient/machinery
@@ -4337,6 +4723,7 @@ planet "Ogmur's Siphon"
 	security 0.15
 
 planet Okoity
+	"display name" "奥科伊蒂"
 	attributes bunrodea urban
 	landscape land/fog2
 	description `得益于被发现时极其丰富的自然资源与可耕地，奥科伊蒂的人口数量在所有班罗迪恩世界中位居榜首，达到了惊人的240亿。除了最不适宜居住的区域外，这颗行星上的每一处都已形成了某种形式的定居点。`
@@ -4349,11 +4736,13 @@ planet Okoity
 	security 0
 
 planet Olohoa
+	"display name" "欧洛霍阿"
 	attributes bunrodea uninhabited
 	landscape land/sky3
 	description `从远处看，欧洛霍阿似乎是个宜居的宜人之地，清澈的海洋与你在天堂世界上见到的并无太大差异。但你飞船的传感器却讲述了截然不同的故事——这颗行星表面正遭受巨量紫外辐射的狂轰滥炸。唯有嗜极生物才可能在这里的地表存活，而海洋中的任何生命，大抵都栖息在辐射无法触及的深海之中。`
 
 planet Omanet
+	"display name" "奥马内特"
 	attributes avgi mining uninhabited
 	landscape land/mars0
 	description `奥马内特被认为是一颗冥府行星，曾是一颗气态巨行星，其大气层被剥离，直至露出岩石核心。不知为何，奥马内特更进一步，其硅酸盐地壳和地幔也被蒸发殆尽，留下一个几乎完全由金属构成的致密世界，作为一颗大卫星被阿瓦莱特俘获。`
@@ -4361,6 +4750,7 @@ planet Omanet
 	government Uninhabited
 
 planet Orodens
+	"display name" "奥罗登斯"
 	attributes mining moon
 	landscape land/mountain26
 	description `这颗卫星据推测曾经要大得多，直到某次事件剥离了它的地壳和地幔。如今，只剩下富含金属的核心，成为一个充满重元素、极具诱惑力的目标。更近一些时候，奥罗登斯被认为曾短暂存在水循环，形成了丰富的沉淀矿物矿脉。然而，高表面重力使得将物资运离地表并送往其他星系成本高昂。曾有成排的质量加速器将精炼矿物射入轨道，再由等候的飞船收集。`
@@ -4368,11 +4758,13 @@ planet Orodens
 	security 0
 
 planet Osaeli
+	"display name" "欧萨埃里"
 	attributes ka'het uninhabited
 	landscape land/fields15
 	description `一颗与地球相似、生物多样性极高的行星，乍看之下，欧萨埃里仿佛是一个没有哪种生命形态占据主导的田园世界；但若仔细观察，仍能看到远古毁灭留下的痕迹。在森林中央，大片区域散落着海量碎片，扫描发现许多地下掩体，部分已毁坏，内部积满了水。`
 
 planet Osolaa-Val-Mavra
+	"display name" "奥索拉-瓦尔-马夫拉"
 	attributes predecessor uninhabited
 	landscape land/snow40
 	description `这颗卫星终年被冰霜笼罩，稀薄而坚韧的植被表面覆盖着精巧的冰晶。面向母星气态巨行星的一面，大地上开凿出一条深达数公里的巨大圆形沟壑。沟壁内建有庞大的梯级建筑群：空置的居住区、船坞和公共空间突入沟中，在持续不断的降雪中显得格外醒目。`
@@ -4384,6 +4776,7 @@ planet Osolaa-Val-Mavra
 	government Predecessor
 
 planet "Oup Je"
+	"display name" "乌普杰"
 	attributes gegno scin
 	landscape land/canyon4
 	description `此地众多的斜面构造为格诺辛提供了丰富的材料，用以建造城市和飞船。下方是小片林地，似乎被以不同方式砍伐一空，零星的居住区散布其间。显然，这颗行星在自然与人为因素的共同作用下，历经岁月已显凋敝。`
@@ -4393,6 +4786,7 @@ planet "Oup Je"
 	security 0
 
 planet Oura
+	"display name" "欧拉"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds11
 	description `欧拉是阿纳克斯星系中体积最大、自转最快的气态巨行星，拥有一个富含矿产资源的庞大卫星系统。行星本身极为广阔，但相对于同等体积的气态行星而言，其密度异常之低。大量氮、硫化物和氨赋予了它一种泛着蓝白辉光的赤褐色，翻滚的风带相互交叠，随风波动。`
@@ -4400,6 +4794,7 @@ planet Oura
 	government Uninhabited
 
 planet "Outpost Alkos"
+	"display name" "阿尔科斯前哨站"
 	attributes avgi "avgi diaspora" "dissonance sympathies" station "tangled shroud"
 	landscape land/space0
 	music ambient/machinery
@@ -4413,6 +4808,7 @@ planet "Outpost Alkos"
 		fleet "Avgi Strike Group"
 
 planet "Outpost Enka"
+	"display name" "恩卡前哨站"
 	attributes asteroid avgi "avgi diaspora" "dissonance sympathies" station "tangled shroud"
 	landscape land/station27
 	music ambient/machinery
@@ -4440,6 +4836,7 @@ planet "Outpost Enka"
 		fleet "Large Dissonance Pirates" 9
 
 planet "Outpost Leto"
+	"display name" "勒托前哨站"
 	attributes asteroid avgi "avgi diaspora" "dissonance sympathies" station "tangled shroud"
 	landscape land/station30
 	music ambient/machinery
@@ -4453,6 +4850,7 @@ planet "Outpost Leto"
 		fleet "Large Dissonance Pirates" 3
 
 planet "Outpost Pilos"
+	"display name" "皮洛斯前哨站"
 	attributes avgi "avgi diaspora" station shipping
 	landscape land/station53
 	description `皮洛斯前哨站是一座大型早期预警站，在阿夫吉决定定居于缠结帷幕星之外后不久便建立起来。出于对异变体设法克服它们对这迷宫般太空区域的所谓厌恶的恐惧，很快便决定需要一条绊线来预警入侵，以防费奥平台陷落、缠结帷幕星被异变体侵染。然而，大规模进攻从未成真，皮洛斯前哨站随即发现了第二个用途，即充当缠结帷幕星矿产与远方定居点之间贸易的中转站。`
@@ -4468,6 +4866,7 @@ planet "Outpost Pilos"
 		fleet "Avgi Fleetgroup"
 
 planet "Outpost Tekis"
+	"display name" "特基斯前哨站"
 	attributes asteroid avgi "avgi diaspora" "dissonance sympathies" station "tangled shroud"
 	landscape land/station25
 	music ambient/machinery
@@ -4495,6 +4894,7 @@ planet "Outpost Tekis"
 		fleet "Large Dissonance Pirates" 6
 
 planet Pacili
+	"display name" "帕西利"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa22
 	description `尽管在已知的气态巨行星中体型偏小，帕西利却是一颗平静、平凡的冰巨星。由于距离帕提尔如此之远，其大气层中没有任何一处的气压和温度适合人类生存；再加上氧气极度匮乏，这个世界无疑不适宜居住。`
@@ -4502,11 +4902,13 @@ planet Pacili
 	security 0
 
 planet Palarei
+	"display name" "帕拉雷"
 	attributes ka'het uninhabited
 	landscape land/valley5
 	description `虽然它距离格雷努斯很近，让人觉得这里只能勉强维持生命，但帕拉雷表面却遍布着一种本地特有的低矮刺灌木丛。奇怪的是，行星上几乎找不到毁于战火的定居点；大多数设施都被数米厚的沙尘覆盖，但除此以外，看上去仍能正常运作。`
 
 planet Palatine
+	"display name" "帕拉蒂尼"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa12
 	description `帕拉蒂尼的狂风是人们对气态巨行星内部机制认知不足的典型案例；遗民最初发现这颗行星时，其风速远超天体物理学模型的预测，仿佛近期曾遭受过巨大加速。`
@@ -4515,6 +4917,7 @@ planet Palatine
 	security 0
 
 planet Palos
+	"display name" "帕洛斯"
 	attributes desert uninhabited
 	landscape land/desert12
 	description `帕洛斯是一颗凉爽的荒漠星球，地表温度适宜居住，但不可呼吸的二氧化碳大气层与很深的引力势阱使得这里无法进行任何大规模殖民。倘若它位于阿纳克斯星系，很可能早已成为诱人的地球化改造目标；然而，邻近的塞雷尔拥有唾手可得的自然美景，因此丝线星系的阿夫吉人拒绝将稀缺资源耗费在相对贫瘠的帕洛斯上。`
@@ -4522,6 +4925,7 @@ planet Palos
 	government Uninhabited
 
 planet Parii'het
+	"display name" "帕里赫特"
 	attributes ka'het uninhabited
 	landscape land/station42
 	music ambient/machinery
@@ -4529,6 +4933,7 @@ planet Parii'het
 	government Builder
 
 planet Passaritus
+	"display name" "帕萨里图斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa27
 	description `几十年前，星渊曾对帕萨里图斯实施一项雄心勃勃的计划，试图从其地幔中开采金属氢。这颗气态巨行星本身体积仅勉强够形成金属氢，人们原以为它的重力低到足以让开采变为可行。可惜，星渊高估了自己制造既实用又经济的开采装置的能力，该计划随后便被搁置了。`
@@ -4536,6 +4941,7 @@ planet Passaritus
 	government Uninhabited
 
 planet Pathera
+	"display name" "帕瑟拉"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa14
 	description `这颗行星的高层大气带中含有浓度异常高的彩虹色微流星体，在它们的尾迹中留下幽灵般的轨迹。上升的热柱携带着部分碎屑向上飘升时，会散发出柔和的粉色光芒。`
@@ -4543,6 +4949,7 @@ planet Pathera
 	security 0
 
 planet Pearl
+	"display name" "珍珠"
 	attributes forest medical paradise tourism
 	landscape land/forest10
 	description `珍珠是一颗田园诗般的森林世界，大部分区域被划为野生动物保护区，用于安置引入的珍稀物种。各座岛屿和大陆上，栖息着来自不同星球生物圈的动植物。地球化改造站与卫星持续调控大气气体含量，以维持每座岛屿适宜的温度与降雨量。`
@@ -4555,6 +4962,7 @@ planet Pearl
 		fleet "Large Republic" 11
 
 planet "Pelubta Station"
+	"display name" "佩鲁布塔站"
 	attributes arach "coalition station" research
 	landscape land/station7
 	music ambient/machinery
@@ -4566,6 +4974,7 @@ planet "Pelubta Station"
 	security 0.4
 
 planet "Periaxle Circuit"
+	"display name" "近轴环路"
 	attributes "coalition station" research saryd
 	landscape land/station34
 	music ambient/machinery
@@ -4577,6 +4986,7 @@ planet "Periaxle Circuit"
 	security 0.35
 
 planet Peripheria
+	"display name" "边缘空间站"
 	attributes avgi "avgi diaspora" station urban
 	landscape land/peripheria
 	description `这座直径达一千米的巨大旋转空间站是阿夫吉文明在流亡中的首都。它形如一枚实心圆盘，容纳着近百万阿夫吉人，其中既有在入侵期间得以逃离核心诸星的平民，也有原本就在深空过着独立生活的人。`
@@ -4608,6 +5018,7 @@ planet Peripheria
 		fleet "Avgi Fleetgroup" 6
 
 planet "Phoenix Station"
+	"display name" "凤凰空间站"
 	attributes deep station
 	landscape land/sivael4
 	music ambient/machinery
@@ -4620,11 +5031,13 @@ planet "Phoenix Station"
 		fleet "Large Deep Security" 5
 
 planet Pil
+	"display name" "皮尔"
 	attributes moon uninhabited
 	landscape land/moon0
 	description `这颗无大气卫星唯一值得注意的，是其丰富的锂和磷等轻元素矿床。这些元素的浓度极高，以至于将它们从卫星的引力井中开采出来在经济上比直接开采星系中的碳质小行星更为划算。`
 
 planet Pilot
+	"display name" "领航星"
 	attributes north research
 	landscape land/bwerner2
 	description `领航星被用作洛夫莱斯实验室的研究与测试场地。研究建筑不对非员工开放。从远处看，这里几乎像是在进行一场小型战争，导弹从发射井射向山顶，而那里的反导炮台将它们一一击落。`
@@ -4638,6 +5051,7 @@ planet Pilot
 		fleet "Small Republic" 21
 
 planet Pincian
+	"display name" "平西安"
 	attributes moon uninhabited
 	landscape land/mars3
 	description `平西安是一颗布满岩石的小卫星，体积微小，足以避开附近气态巨行星帕拉蒂尼所吸引的大部分小行星。然而，一个巨大的陨石坑主宰着其地表，坑内积攒了一些尘埃与风化层，足见年代久远。无论撞击这里的是何物，其发生距今必已数万年。`
@@ -4646,6 +5060,7 @@ planet Pincian
 	security 0
 
 planet Placatious
+	"display name" "普拉卡提乌斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_07
 	description `半个世纪前，普拉卡提乌斯曾是辛迪加一场营销活动的主角，宣传语称从轨道上观赏它那深邃的蓝色天空是“银河系里最赏心悦目的景象”。按照计划，他们要建造一座大型空间站，使之成为巨大的会议中心，让与会者饱览下方那令人屏息的气态巨行星全景。然而工程一再延期、预算严重超支，最终未能完工。最后，整个计划的负责人被迫提前退休，这个想法也被悄然搁置。`
@@ -4653,6 +5068,7 @@ planet Placatious
 	government Uninhabited
 
 planet Placer
+	"display name" "砂矿星"
 	attributes core frontier mining
 	landscape land/mfield5
 	description `砂矿星除了一处小型采矿前哨外无人居住；大气中含有令人不适浓度的氨和二氧化硫。为避免长期暴露导致的呼吸系统损伤，居住者离开增压居所和矿井时必须佩戴呼吸装备。`
@@ -4665,6 +5081,7 @@ planet Placer
 		fleet "Small Syndicate" 4
 
 planet "Plort's Water"
+	"display name" "普洛特之水"
 	attributes arach research
 	landscape land/sea15-harro
 	description `普洛特之水是一颗海洋星球，除了若干散布的火山群岛外，几乎没有其他陆地形态。少数较大岛屿上居住着小型阿拉奇聚落，而其余阿拉奇人则生活在可承载数万人的“岛屿舰”上。此地几乎没有工业，但许多当地人从事生物实验，或是分类海洋中栖息的数百万物种。`
@@ -4674,6 +5091,7 @@ planet "Plort's Water"
 	security 0.3
 
 planet Poisonwood
+	"display name" "毒木星"
 	attributes factory farming frontier south
 	landscape land/bwerner6
 	description `直至不久之前，毒木星还是一个由强大不法贩奴集团经营的奴隶殖民地。成千上万的奴隶被迫在酷热肮脏的制造厂劳作，或是在灼人的烈日下灌溉田地。最终，在2985年，一支共和国海军突击部队击溃了贩奴集团，解放了奴隶。海军还提供了人力和设备，将工厂与城镇改造为更适合那些选择留下者居住的环境，同时为他人提供了免费离开这颗星球的机会。`
@@ -4693,6 +5111,7 @@ planet Poisonwood
 		fleet "Large Militia" 7
 
 planet Pon'tes
+	"display name" "庞特斯"
 	landscape land/station16
 	description `庞特斯空间站即使以空间站的标准来看也并不舒适。因西皮亚斯能在空气中自行推进，因此这里没有任何可供你抓握的把手或表面。空间站旋转产生的模拟重力也于事无补。`
 	description `	由于人口急剧增长，这座空间站多年来经历了多次扩建。几乎每个区域都挤满了因西皮亚斯，它们在管道般的走廊里匆匆穿行。`
@@ -4703,6 +5122,7 @@ planet Pon'tes
 	"required reputation" 10
 
 planet Poseidos
+	"display name" "波塞多斯"
 	attributes fishing rim
 	landscape land/sea9
 	description `波塞多斯是一个海洋世界，点缀着座座小岛。岛上的居民几乎都以捕鱼为生。这里海洋物产极为丰富，当地人说只有傻瓜或懒到极点的人才会挨饿；就连近岸也有足够的鱼，大多数家庭只拥有一艘小船，而不是为远洋设计的大船。`
@@ -4717,6 +5137,7 @@ planet Poseidos
 		fleet "Large Militia" 6
 
 planet Prime
+	"display name" "中枢星"
 	attributes factory north urban
 	landscape land/city11
 	description `中枢是一颗与地球十分相似的海洋星球，人口逾十亿。这里是参宿四船厂的所在地，星球上的大部分产业都与造船有着或多或少的关联，例如金属的冶炼加工，或是研发新颖的船体与框架材料。尽管在星球上较为偏远的地区也有一些采矿活动，中枢仍然需要靠来自外部的金属与其他物资供应来支撑其工业运转。`
@@ -4737,13 +5158,16 @@ planet Prime
 		fleet "Large Republic" 17
 
 planet "Pug Wormhole"
+	"display name" "帕格虫洞"
 	wormhole "Pug Wormhole"
 
 wormhole "Pug Wormhole"
+	"display name" "帕格虫洞"
 	link "Over the Rainbow" Deneb
 	link Deneb "Over the Rainbow"
 
 planet Pugglemug
+	"display name" "帕格尔马格"
 	landscape land/myrabella5
 	description `这颗星球似乎是帕格的首都。城市中高耸入云的塔楼由拱门和桥梁相连，星罗棋布地散落在各处，周边则是较矮而丑陋的厂房。但令人惊讶的是，大片土地仍保持未开发状态，天然之美未受触动。想到人类在发现超空间引擎前曾给地球造成多大破坏，你实在难以理解一个孤立于单一恒星系的文明，怎能如此克制，让自己家园保持这般原始风貌。`
 	spaceport `这里的主要太空港以大量拱门构成一个露天穹顶为标志。从连接在拱门两侧的电缆和装置来看，你猜测整个穹顶在必要时可以通过能量护盾保护。穹顶内部，着陆平台从各个高度的拱门中伸出。`
@@ -4752,6 +5176,7 @@ planet Pugglemug
 	security 1
 
 planet Pugglequat
+	"display name" "帕格尔夸特"
 	landscape land/valley15-harro
 	description `这颗行星上散布着几座帕格城市，城内满是高耸优雅的尖塔与拱廊。不过，大部分陆地或保留自然状态，或被用于采矿；似乎蕴藏着丰富的石油储备和金属矿藏。以人类标准来看，气候偏冷，但仍相当宜居。你不确定这是因为帕格人恰好幸运地拥有一个双宜居行星的星系，还是他们采取了某种形式的地形改造。`
 	spaceport `这里的空间港由七座高矮不一的巨塔组成，每座塔的侧面都伸出停机坪，如同植物茎秆上的叶片。各层塔身之间以拱廊相连。`
@@ -4760,6 +5185,7 @@ planet Pugglequat
 	security 1
 
 planet Pyriphlegethon
+	"display name" "庇里佛勒格顿"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_02
 	description `尽管名字不太讨喜，庇里佛勒格顿在人类星际旅行早期历史中却因作为第一颗被详细探索的“热木星”而闻名。它炽热的云层和发光的夜空所构成的绚丽图像，成了23世纪最经典的太空影像之一，那时超空间引擎才刚刚发明不久。`
@@ -4767,12 +5193,14 @@ planet Pyriphlegethon
 	government Uninhabited
 
 planet Qasa-Sija-Iri
+	"display name" "卡萨-西贾-伊里"
 	attributes successor uninhabited
 	landscape land/mountain26
 	description `尽管这颗卫星的质量大到足以积聚一层稀薄的含氧大气，但除此之外，它唯一引人注目的就是能提供观赏母星光环系统的壮丽景色。岩石地表略带暖意，这是源于更深层内部潮汐力产生的少量热量向外辐射所致。`
 	government Uninhabited
 
 planet Quicksilver
+	"display name" "水银星"
 	attributes core mining volcanic
 	landscape land/snow0
 	description `水银星是一个气候极端且狂暴的世界：飓风、冰雹、震天动地的雷暴。其地壳之下同样动荡不安、难以预测，导致地震和火山活动频繁。`
@@ -4785,6 +5213,7 @@ planet Quicksilver
 		fleet "Small Syndicate" 5
 
 planet Quirinal
+	"display name" "奎里纳尔"
 	attributes lava uninhabited
 	landscape land/lava9
 	description `尽管在其他方面与典型的卫星相似，奎里纳尔因其表面的熔岩裂隙而引人注目，这些裂隙似乎是其表面难以解释的恒定特征。由于缺乏更好的描述，这颗卫星看起来像是被某种巨大力量以倾斜角度撞击，所形成的深渊自此不断渗出熔岩。`
@@ -4793,6 +5222,7 @@ planet Quirinal
 	security 0
 
 planet Raaqa-Kvelq-Ryuit
+	"display name" "拉卡-克维尔克-瑞伊特"
 	attributes education successor urban
 	landscape land/water33
 	description `这颗行星的人口似乎比你在继承者空间见过的任何其他世界都要多。气候温和，地貌上点缀着大大小小的农场，既有陆地的也有水生的。在潮汐岸边，大量如同海藻般的细长纤维状作物在成群的农业机器人照料下生长。`
@@ -4807,6 +5237,7 @@ planet Raaqa-Kvelq-Ryuit
 	bribe 0
 
 planet Raaqa-Puan-Uuoru
+	"display name" "拉卡-普安-乌奥鲁"
 	attributes quiet successor wealthy
 	landscape land/beach20
 	description `崩溃之后，许多继承者发现自己失去了家族，或不再知晓他人赖以慰藉的不曾中断的血统。卡特里吉家族在崩溃中痛失大批后裔，破天荒地接纳了这些边缘之人，将他们纳入家族秩序，从而赢得了各家族中最具多元性的声望。其许多成员仍在卡特里吉名下向各自已消亡的家族保持仪式性的效忠。该家族规模虽小，却深受拥戴，是新派联盟的关键成员。`
@@ -4824,6 +5255,7 @@ planet Raaqa-Puan-Uuoru
 	bribe 0
 
 planet Raaqa-Uur-Kaav
+	"display name" "拉卡-乌尔-卡夫"
 	attributes predecessor uninhabited
 	landscape land/forest16
 	description `与太空中这一区域的大部分行星不同，这颗卫星仍然相对宜居。在智慧生命缺席的情况下，大片森林在其上繁茂生长，废弃城市的荒凉遗迹正逐渐被周围的自然所回收。尽管构成这些建筑物的材料在漫长岁月中丝毫没有腐朽，但柔嫩的绿色生命之芽仍然依附在它们蜿蜒的表面，在无人维护的内部茁壮生长。`
@@ -4841,6 +5273,7 @@ planet Raaqa-Uur-Kaav
 				has "trusted by the successors"
 
 planet Rand
+	"display name" "兰德"
 	attributes "dirt belt" mining
 	landscape land/valley7
 	description `兰德是一颗荒漠星球，气候过于干燥，难以从事大规模农业；重力也低得让多数人类感到不适。然而，它是银河系南部最重要的重金属来源。`
@@ -4856,6 +5289,7 @@ planet Rand
 		fleet "Large Militia" 8
 
 planet Redias
+	"display name" "雷迪亚斯"
 	attributes "requires: gaslining"
 	landscape land/redias
 	description `因西皮亚斯人的母星由狂暴的风暴主宰。雷鸣电闪片刻不息，劲风疾驰，云层以令人眩目的速度翻滚。`
@@ -4866,6 +5300,7 @@ planet Redias
 	"required reputation" 10
 
 planet Redwatch
+	"display name" "赤哨"
 	attributes hai station uninhabited
 	landscape land/station6
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -4875,6 +5310,7 @@ planet Redwatch
 	security 0
 
 planet "Refuge of Belugt"
+	"display name" "贝鲁格特避难所"
 	attributes arach folklore tourism urban
 	landscape land/beach9-sfiera
 	description `数十亿阿拉奇人居住在这颗温暖的海洋星球上。这里是德布多家族的家园，它是阿拉奇最庞大的家族之一，其成员从事各类服务行业。这里不仅是阿拉奇人的热门旅游目的地，也吸引着许多基梅克人，甚至少数极富冒险精神的萨里德人。`
@@ -4884,6 +5320,7 @@ planet "Refuge of Belugt"
 	security 0.2
 
 planet "Rekat Moraski"
+	"display name" "雷卡特莫拉斯基"
 	attributes korath mereti station
 	landscape land/station26
 	music ambient/machinery
@@ -4897,6 +5334,7 @@ planet "Rekat Moraski"
 	security 0
 
 planet Relic
+	"display name" "遗迹星"
 	attributes "near earth"
 	landscape land/valley4
 	description `遗迹星被殖民已逾七百年，那还是第一台超空间引擎的诞生仍为人们记忆所及的时代。当时绝大多数星舰航程极为有限，因此任何殖民尝试都只能瞄准毗邻地球的诸星。正因如此，尽管重力低下、环境严苛、资源匮乏，遗迹星也曾看似将崛起为举足轻重的殖民地。`
@@ -4909,17 +5347,20 @@ planet Relic
 		fleet "Small Republic" 25
 
 planet "Remnant Wormhole"
+	"display name" "遗民虫洞"
 	attributes "requires: quantum keystone"
 	spaceport ``
 	wormhole "Remnant Wormhole"
 
 wormhole "Remnant Wormhole"
+	"display name" "遗民虫洞"
 	mappable
 	link Peragenor Edusa
 	link Edusa Peragenor
 	color "wormholes: Ember Waste"
 
 planet "Remote Blue"
+	"display name" "遥远深蓝"
 	attributes kimek urban
 	landscape land/water5
 	description `大多数基梅克人以身为联盟的一员而自豪，但那些对其他物种心存疑虑、或只想在夸格带着报复归来时尽可能远离日权会环世界的人，选择居住在这里。因此，尽管位置偏远，这颗行星仍维持着超过八十亿的人口。许多城市的郊区都设有防御炮台，这又是当地人偏执多疑的一个标志。`
@@ -4931,11 +5372,13 @@ planet "Remote Blue"
 	security 0.05
 
 planet Retilie
+	"display name" "雷蒂莉"
 	attributes ka'het uninhabited
 	landscape land/sea19
 	description `雷蒂莉是一颗海洋世界，超过95%的行星地表被深达数公里的海洋覆盖。沿海村庄的遗迹仍隐约可见，多为古老的金属结构，矗立在离海岸线数公里处，海浪偶有汹涌也无法触及。大陆上有几座规模不大的城市保存稍好，但已无人维护，植被疯长，许多残存建筑已全然淹没在绿色之中。`
 
 planet Reunion
+	"display name" "重逢星"
 	attributes factory "near earth" urban
 	landscape land/mfield4
 	description `重逢星是早期定居者发现的最像地球的行星之一，就连它的卫星和潮汐都极其相似。经过发展，这里已成为一个以城市为主的世界，为邻近星系供应各种工业产品。`
@@ -4954,12 +5397,14 @@ planet Reunion
 		fleet "Large Syndicate" 17
 
 planet Revelation
+	"display name" "启示星"
 	attributes moon saryd uninhabited
 	landscape land/canyon0
 	description `萨里德人是已知唯一一个在技术尚处于蒸汽时代时就成功访问了另一个世界的物种。首位登陆此地的科学家所驾驶的是一艘构造复杂到令人眼花缭乱的拼凑火箭。根据现代分析，他的飞行成功率不足万分之一。这引发了种种猜测，认为他要么得到了友善外星人的秘密相助，要么彻底疯癫，亦或两者兼而有之。`
 	"required reputation" 15
 
 planet "Ring of Friendship"
+	"display name" "友谊之环"
 	attributes heliarch ringworld station
 	landscape land/station21
 	description `这是日权会的璀璨明珠，一座在联盟尚未形成并驱逐夸格之前便由夸格完成的环形世界。如今，它既是金融与贸易的中心，也是日权会政府的所在地，该政府由“执政官”组成，他们由日权会其他成员从各物种之中选出，以确保三个物种始终拥有平等的代表权。而日权会成员，则选自每个物种中最优秀、最出众的个体。尽管偶尔会遭遇抵制，这种精英治理的存续时间仍是任何人类民主制度的十倍以上。`
@@ -4970,6 +5415,7 @@ planet "Ring of Friendship"
 	security 0.8
 
 planet "Ring of Power"
+	"display name" "力量之环"
 	attributes heliarch ringworld station
 	landscape land/station22
 	description `这座环形世界是日权会防御力量的作战中心。尽管数千年来从未卷入大规模太空战役，他们仍维持着可观的舰队，坚信一旦有所松懈，夸格就会卷土重来，夺回曾经属于他们的一切。`
@@ -4980,6 +5426,7 @@ planet "Ring of Power"
 	security 0.8
 
 planet "Ring of Wisdom"
+	"display name" "智慧之环"
 	attributes heliarch ringworld station
 	landscape land/station2
 	description `这座日权会的环世界是其科学中心，主要致力于研究和逆向工程夸格技术，而非原创发明新设备。然而，在控制这些环世界数千年后，其内部运作原理对日权会而言似乎依然充满未解之谜。`
@@ -4990,6 +5437,7 @@ planet "Ring of Wisdom"
 	security 0.8
 
 planet Rolion
+	"display name" "罗莱恩"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa18
 	description `在过去的某个时候，罗莱恩与另一颗大质量行星——也许是另一颗气态巨行星——进行了一次近距离接触，后者随后被逐出了柔和星系。无论细节如何，这次接触使罗莱恩侧倾，并彻底搅动了它的大气层，形成了比大多数类地行星还要巨大的狂暴涌浪和风暴。两颗行星之间的引力相互作用也显著地加热了这颗气态巨行星，在红外光谱中，罗莱恩发出明亮的光芒。`
@@ -4997,6 +5445,7 @@ planet Rolion
 	security 0
 
 planet "Rowark's Roost"
+	"display name" "罗瓦克之巢"
 	attributes moon uninhabited
 	landscape land/moon1
 	description `罗瓦克之巢曾是南缘最著名的私掠船长之一罗瓦克·巴洛瓦的藏身处。在这颗偏远的卫星上，他在 27 世纪早期成为南缘毒品走私和奴隶贸易的最大玩家之一。他在这里建造的庞大机库与隧道要塞至今仍存。`
@@ -5004,6 +5453,7 @@ planet "Rowark's Roost"
 	government Uninhabited
 
 planet Ruelogakk
+	"display name" "鲁埃洛加克"
 	attributes "gegno quarg" quarg station
 	landscape land/station5
 	description `这个夸格空间站虽然崭新且维护良好，但与邻近星系的完整环世界相比，建造时间并不算久远。它似乎被用作游客的休憩之所，尽管使用的停泊位寥寥无几。极少数夸格人行走在明亮的抽象玻璃走廊之中，四周唯有微弱的机器嗡鸣偶尔打破寂静，显得异常冷清。`
@@ -5013,6 +5463,7 @@ planet Ruelogakk
 	security 0.9
 
 planet Ruin
+	"display name" "废墟星"
 	attributes uninhabited
 	landscape land/hills3
 	description `这是一颗狂风暴雨、云层密布的行星，浓雾如同冰冷迟缓的黑色河流，流淌在山谷之间，太阳难得一见。除了些暗蓝灰色的苔藓与地衣，此地鲜有活物。由于行星地壳富含放射性元素，地面温度高于上方空气。`
@@ -5024,6 +5475,7 @@ planet Ruin
 		description `	几只形似昆虫的机器人，在燃料罐和着陆平台间缓慢爬行，清除着冰霜、锈迹与地衣，并擦拭着燃料罐的表面。此处不见任何活物。`
 
 planet Rust
+	"display name" "锈迹星"
 	attributes education factory farming research rim
 	landscape land/fields8
 	description `锈迹星比地球小，但气候非常相似。其地表大部分地区适合农业，拥有广阔的草原和茂密的森林。山脉极少，因为该行星的地质构造活动水平较低。`
@@ -5044,6 +5496,7 @@ planet Rust
 		fleet "Large Militia" 18
 
 planet "Rusty Second"
+	"display name" "锈迹次星"
 	attributes kimek shipping urban wealthy
 	landscape land/desert8-sfiera
 	description `干燥的温带气候与靠近日权会环世界的显赫位置，让锈迹次星成了富裕基梅克人梦寐以求的家园。这里没有一样东西是便宜的，除了银行、航运集团以及将高级管理办公室设在此处的其他公司之外，几乎没有什么本地工业。`
@@ -5055,18 +5508,21 @@ planet "Rusty Second"
 	security 0.4
 
 planet "Sabira Eseskrai"
+	"display name" "萨比拉埃塞斯克莱"
 	attributes korath
 	landscape land/desert13
 	description `很久以前，这颗行星曾是数个科拉斯石油采矿定居点的所在地，但如今仅存少数几栋最高建筑的顶部。其余一切已被沙暴掩埋。`
 	description `	由于近期气候变化，沙漠已开始再度收缩，本地植被逐年扩展，覆盖越来越多的土地，但科拉斯人已不在此处，无法受益于这一变化。`
 
 planet Saeketer
+	"display name" "塞克特"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds14
 	description `这颗巨大的冰巨星在其高层大气中存在一个气压与温度都接近阿维斯基尔海平面水平的区域。不仅如此，该海拔处的重力仅比一般阿夫吉人所习惯的略强，从而在气态行星的天空中形成了一片看似矛盾却适宜居住的地带。`
 	description `	倘若塞克特位于阿纳克斯星系，在超空间引擎问世前的时代，很可能会有富有进取心的阿夫吉人群体借助浮空器栖息地和漂浮殖民地定居于它的天空中。然而，大量近乎原始的类地行星所提供的崭新空间，让类似这样的机遇价值大打折扣，人们已经不那么热衷于殖民和开发所在恒星系内的每一个天体了。`
 
 planet "Safaresk Enlai"
+	"display name" "萨法雷斯克恩莱"
 	attributes korath station
 	landscape land/station17
 	music ambient/machinery
@@ -5076,6 +5532,7 @@ planet "Safaresk Enlai"
 	security 0
 
 planet Sandsnap
+	"display name" "风沙骤断"
 	attributes hai station uninhabited
 	landscape land/station40
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -5085,6 +5542,7 @@ planet Sandsnap
 	security 0
 
 planet Sandswell
+	"display name" "沙涌星"
 	attributes uninhabited
 	landscape land/desert15
 	description "这颗沙质卫星与其母气态巨行星的近距离轨道搅起了地表的猛烈沙尘暴。加上其低表面重力，导致这里的空气始终弥漫着砂砾的持续阴霾。从未有人尝试在此永久定居也就不足为奇了。"
@@ -5093,6 +5551,7 @@ planet Sandswell
 	security 0
 
 planet "Sandy Two"
+	"display name" "沙色二星"
 	attributes factory farming folklore kimek urban
 	landscape land/badlands1
 	description `以人类标准衡量，这个世界相对炎热干燥，但对基梅克人而言却近乎理想。超过一百五十亿基梅克人聚居于此，城市中摩天大楼层叠密布，许多街道终年不见直射阳光。居住区多沿河岸延展，使城市呈线性布局，工厂与其他工业设施分布在外缘地带。取之不尽的熟练劳动力，使此地几乎任何产品的制造成本都极为低廉。`
@@ -5102,6 +5561,7 @@ planet "Sandy Two"
 	security 0.4
 
 planet "Sapira Mereti"
+	"display name" "萨皮拉梅雷提"
 	attributes korath mereti
 	landscape land/lava11
 	description `这里曾是科拉斯内战期间科·梅雷提派系的政府所在地和最后的军事要塞。他们在此处建立了工厂和船坞，日夜赶造自主战舰，以投入对抗科·塞斯特的战争。如今机器独自统治着这个世界，并将它变得完全不适合生命栖居——为了采集金属与燃料，它们不断向行星地壳深处挖掘，并建起越来越多的工厂，制造新一代的机器人战舰。`
@@ -5114,6 +5574,7 @@ planet "Sapira Mereti"
 	security 0
 
 planet Sardva
+	"display name" "萨德瓦"
 	attributes bunrodea religious
 	landscape land/fields6
 	description `邦罗迪亚人将萨德瓦星球用作各种起源遗传物质的宝库，从邦罗迪亚人遇见的植物种子，到动物的遗传物质，甚至是邦罗迪亚人前代个体的基因材料。这些材料被储存在行星的众多洞穴系统中，经过细微改造，这些洞穴拥有极为稳定的气候，非常适合长期保存基因库。`
@@ -5124,12 +5585,14 @@ planet Sardva
 	security 0
 
 planet "Sarisa Fentra"
+	"display name" "萨里萨芬特拉"
 	attributes korath
 	landscape land/sky1
 	description `这颗行星的大气辐射水平高得危险。在大陆上有几块区域，每块近一百公里宽，那里的土壤已被核爆炸熔为玻璃。在这片焦土之外，植物依然繁茂，但陆上存活的动物只剩下昆虫。`
 	description `	而海洋中，奇特且扭曲的生物在四处嬉游。`
 
 planet Saros
+	"display name" "萨罗斯"
 	attributes folklore saryd tourism urban
 	landscape land/valley12-harro
 	description `萨里德人的母星仍残留着该物种“青春期”留下的伤痕，尤以生物多样性匮乏为最。但在数千年间，他们将星球大片地域恢复了原始荒野状态。目前该行星的人口略超二十亿，其部分原因在于萨里德人寿命极长，且他们中的许多人选择以其他方式服务社会，而非养育后代。`
@@ -5141,11 +5604,13 @@ planet Saros
 	security 0.7
 
 planet "Sasirka Gatru"
+	"display name" "萨西尔卡加特鲁"
 	attributes korath
 	landscape land/desert7
 	description `这颗星球曾经可能是一个宜居世界。如今已非如此。这里没有任何生命存在或生长，大气中充满了有毒化学物质。`
 
 planet Saska-Aa-Noorr
+	"display name" "萨斯卡-阿-诺尔"
 	attributes station successor wealthy
 	landscape land/space7
 	description `尽管继承者们很少投资真正庞大的建筑物，这座空间站却是其中之一。萨斯卡-阿-诺尔最初建于三千多年前，是先行者早期殖民活动的支援平台，自此便一直是该星团中始终存在的固定设施，也是缪雷吉家族最重要的资产之一。`
@@ -5157,12 +5622,14 @@ planet Saska-Aa-Noorr
 	bribe 0
 
 planet "Sebarep Atarkis"
+	"display name" "塞巴雷普阿塔基斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa37
 	description `最近，某种自然或人为事件使塞巴雷普阿塔基斯周围的光环变得极不稳定。如今，每天都有数百颗环岩坠入行星大气层，在天空中划出炽热的轨迹。这显著升高了赤道地区的温度——正位于光环下方，而在它们经过的尾迹中，新的风暴和风型也在混沌中生成。`
 	description `	尽管你清楚，行星如此巨大，这种事极不可能发生，但你还是忍不住想象：当你潜伏在云层之下时，如果一颗环岩正好砸在你的飞船上，会发生什么。`
 
 planet "Sebra Skira"
+	"display name" "塞布拉斯基拉"
 	attributes korath sestor station
 	landscape land/space4
 	description `这是科·塞斯特的主要战争平台之一。站点的某些部分明显比其他部分新，在武器火力曾摧毁过部分站体的地方，伤痕依旧可见。机器人以一种看似随机的模式重建了受损部分，如同树瘤长在树木的受损部位之上。`
@@ -5175,6 +5642,7 @@ planet "Sebra Skira"
 	security 0
 
 planet "Second Cerulean"
+	"display name" "第二蔚蓝"
 	attributes frozen kimek research
 	landscape land/snow2
 	description `从上方俯瞰，这颗海洋行星宛如一片冰冻荒原，但在深水之下的裂谷和热液喷口附近，栖息着多种诡异的生物。基梅克在表面维持着一座小型研究站，因为在联盟领土中，这里是少数几个在冰冻地表之下数公里处仍有新物种未被发现的世界之一。地面上，只有少数鸟类和昆虫能够存活。`
@@ -5185,6 +5653,7 @@ planet "Second Cerulean"
 	security 0.6
 
 planet "Second Rose"
+	"display name" "第二玫瑰"
 	attributes farming kimek mining
 	landscape land/forest9
 	description `第二玫瑰是一颗温暖的行星，但对基梅克人而言雨水稍多。再加上位置相对偏远，尽管有肥沃的田野和渔场，人口仍然稀少：大多数基梅克人更愿意居住在更靠近他们喧嚣都市世界核心区的地方。`
@@ -5195,6 +5664,7 @@ planet "Second Rose"
 	security 0.2
 
 planet "Second Viridian"
+	"display name" "第二翠绿"
 	attributes farming folklore kimek urban
 	landscape land/hills5-sfiera
 	description `超过一百亿基梅克人居住于此，大部分生活在赤道附近的数座生态建筑中：这些庞然巨构近千米高，可容纳逾五亿个体。因此尽管人口众多，大部分土地要么保持原始状态，要么用于农耕。`
@@ -5205,6 +5675,7 @@ planet "Second Viridian"
 	security 0.3
 
 planet "Secret Sky"
+	"display name" "秘密天空"
 	attributes research saryd
 	landscape land/sea13-sfiera
 	description `在这颗终年寒冷且雾气弥漫的行星上，草与树木十分稀少。占主导地位的植被是由苔藓和地衣构成的混合物，能生长成厚达半米以上的垫状覆盖层。大群有蹄类动物在星球表面游荡，由于它们食用的苔藓需要数十年才能重新长成，它们无法在同一地点久留。`
@@ -5215,11 +5686,13 @@ planet "Secret Sky"
 	security 0.15
 
 planet "Sek Alarfarat"
+	"display name" "塞克阿拉法拉特"
 	attributes korath
 	landscape land/canyon15
 	description `一种极其强大的武器在这颗行星表面撕开了一道道深深的伤痕，以至于岩浆池从中涌出。这些创伤推测是由科拉斯人在内战的最后几年里设计的又一种超级武器造成的。少数几座城市废墟留存至今，其中一些被武器火力的轨迹一分为二。`
 
 planet Sela
+	"display name" "塞拉"
 	attributes avgi frozen "ice moon" moon uninhabited
 	landscape land/snow37
 	description `塞拉原是数亿年前被捕获进入阿维斯基尔轨道的小行星，作为一颗大卫星，它并不寻常地没有被潮汐锁定，反而拥有仅仅四十二小时的快速自转周期。这颗卫星近三分之一的地表被一片玻璃般的冰原覆盖，经季节性融化和再冻结而变得光滑。据推测，这些冰是在相对较近的地质时期由一次彗星撞击带来的，此后一直在向太空中升华消散。`
@@ -5227,6 +5700,7 @@ planet Sela
 	government Uninhabited
 
 planet "Selefkar Refinery"
+	"display name" "塞勒夫卡精炼厂"
 	attributes korath station
 	landscape land/station30
 	description `这座空间站的船壳被炮火打得千疮百孔，又被更大的爆炸撕裂开来。仅剩下一小段还能保持气密。里面横陈着几十具科拉斯人的尸体，在空间站干燥、无菌的空气里变成了干尸。景象令人不忍目睹。`
@@ -5234,12 +5708,14 @@ planet "Selefkar Refinery"
 	security 0
 
 planet "Seleptra Nak"
+	"display name" "塞莱普特拉纳克"
 	attributes korath
 	landscape land/fog2
 	description `这颗星球上那些空荡荡的科拉斯城市最令人不安的一点在于，它们是如此的完好无损：没有任何轰炸或武器开火的痕迹。要么是住在这里的人全都选择离开，要么就是他们被某种武器杀死，而这种武器没有对他们居住的建筑造成任何损害。`
 	description `	在城市之外，动植物开始繁茂生长，一些较小的村庄已被扩张的森林吞没。气候温和，降雨充沛；除了生物多样性减少之外，这颗星球很快就会忘记它昔日的主人。`
 
 planet Seli'het
+	"display name" "塞里赫特"
 	attributes ka'het uninhabited
 	landscape land/station18
 	music ambient/machinery
@@ -5247,6 +5723,7 @@ planet Seli'het
 	government Builder
 
 planet "Separa Tiklar"
+	"display name" "塞帕拉提克拉尔"
 	attributes korath station
 	landscape land/space1
 	music ambient/machinery
@@ -5255,6 +5732,7 @@ planet "Separa Tiklar"
 	security 0
 
 planet "Septar Lorku"
+	"display name" "塞普塔洛尔库"
 	attributes korath station
 	landscape land/loc0
 	music ambient/machinery
@@ -5263,6 +5741,7 @@ planet "Septar Lorku"
 	security 0
 
 planet Seraglio
+	"display name" "塞拉格里奥"
 	attributes frozen "ice giant" uninhabited
 	landscape land/snow22
 	description `塞拉格里奥广袤的冰原之下隐藏着种种谜团，最引人注目的是那些巨大的裂隙，它们表明这颗行星在近期地质史上曾以某种方式遭受过极大的压缩力。`
@@ -5271,6 +5750,7 @@ planet Seraglio
 	security 0
 
 planet Serpens
+	"display name" "巨蛇星"
 	attributes medical north research
 	landscape land/desert5
 	description `巨蛇星是一个人烟稀少的世界，遍布古老的峡谷地和荒芜的沙漠。直到一个世纪前，来访的生物学家发现了一种本地蛇，其毒液可作为止痛剂和心脏病药物使用，这里才出现了永久定居点。由此，人们在沙漠中建起了几座小型实验室，并最终发现了可从当地动植物中提取的其他有用化合物。`
@@ -5282,6 +5762,7 @@ planet Serpens
 		fleet "Large Republic" 3
 
 planet Servian
+	"display name" "塞维安"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa28
 	description `塞维安星的云层以欺骗性的平静在行星外围旋转，自动集气探测器能够毫不费力地在此收集气体和各种奇异元素。然而，在平静的表象之下，极端湍流与狂暴风暴才是常态，闪电的强度比附近行星上观测到的任何闪电都要强数千倍。`
@@ -5290,6 +5771,7 @@ planet Servian
 	security 0
 
 planet "Sessiliki Far"
+	"display name" "塞西利基法尔"
 	attributes korath station
 	landscape land/loc2
 	music ambient/machinery
@@ -5298,6 +5780,7 @@ planet "Sessiliki Far"
 	security 0
 
 planet "Sestor Ikfar"
+	"display name" "塞斯托伊克法尔"
 	attributes korath sestor
 	landscape land/hills1
 	description `这个干燥、炎热的世界几乎不存在原生生命，但由于拥有丰富的太阳能，成为科拉斯自动机械的理想家园。在科拉斯城市曾经矗立的地方，科·塞斯特建起了巨大的工厂，厂房有时高达近一公里。其他地方的土地仍未被开发，但工厂正不断向外扩张。`
@@ -5310,6 +5793,7 @@ planet "Sestor Ikfar"
 	security 0
 
 planet "Setar Fort"
+	"display name" "塞塔尔堡"
 	attributes efret frozen korath
 	landscape land/snow5
 	description `这个行星上有几座大型科拉斯城市，但远离赤道的城市已受到逐渐逼近的冰川覆盖，因为该行星正缓慢进入新的冰河期。仍有少量作物在露天种植，但许多田地现已覆盖上一排排闪亮的玻璃，因科拉斯人转而采用温室农业来延长生长季节并更高效地养活剩余的人口。离城市更远的地方，科拉斯牧场主饲养着类似巨型六腿牦牛的畜群。`
@@ -5317,6 +5801,7 @@ planet "Setar Fort"
 	outfitter "Korath Basics"
 
 planet "Shadow of Leaves"
+	"display name" "叶之影"
 	attributes folklore saryd urban
 	landscape land/snow10-sfiera
 	description `萨里德人对森林环境情有独钟，因此这个世界变得人口稠密。他们并未聚集在摩天大楼林立、道路繁忙的拥挤城市中，而是均匀分布在整个陆地表面，形成了一种无尽蔓延的郊区。不过，在道路和住宅区之间保留的片片森林，使得从轨道上乍看之下，这颗行星显得原始而无人居住。`
@@ -5326,6 +5811,7 @@ planet "Shadow of Leaves"
 	security 0.3
 
 planet "Shadowed Valley"
+	"display name" "阴影峡谷"
 	attributes research saryd
 	landscape land/fog7
 	description `在阴影峡谷上，演化出了令人眼花缭乱的各种奇异且发育不良的生命形式，每种都以不同的方式应对该行星大气和雨水中高浓度的硫酸。在悬崖与岩石暴露于酸雨的山脉中，它们被雕琢成光滑流淌的轮廓，蚀刻着线条与褶皱。但萨里德人珍视这颗行星，主要在于其石膏洞穴的美景，那里满是精致的晶体沉积物、高耸的洞穴堆积物，以及深邃清澈的有毒水池。`
@@ -5336,6 +5822,7 @@ planet "Shadowed Valley"
 	security 0.25
 
 planet Shangri-La
+	"display name" "香格里拉"
 	attributes core frontier urban wealthy
 	landscape land/sea6
 	description `香格里拉以神话中的乐园命名，是一个近乎理想的行星，融合了先进发达的都市与无人居住的山脉。这是一个富裕繁荣的世界，几乎自给自足，但对于外星来客而言，此地的生活成本高得令人望而却步。由于勾陈一位于人类空间的极边缘地带，且经济富庶，海盗的威胁始终存在。虽然近期辛迪加提供了不错的保护，但在过去几个世纪中，星际飞船的劫掠队袭击这里的主要港口城市并非罕见，他们劫走珍贵货物，有时还包括人类奴隶。`
@@ -5353,6 +5840,7 @@ planet Shangri-La
 		fleet "Large Syndicate" 7
 
 planet Shassa-Wyra-Orrou
+	"display name" "恰萨-维拉-奥鲁"
 	attributes mining quiet successor tourism
 	landscape land/beach19
 	description `尽管恰萨-维拉-奥鲁地处继承者空间的有利位置，但其上居民依然稀少：它环绕的恒星温度极高，使得表面温度对大多数继承者来说都略嫌炎热。即便如此，极地地区仍有一些小型定居点，其中大部分居民是采矿家族，他们看中的正是这颗行星及周边星系丰富的矿产资源。`
@@ -5362,6 +5850,7 @@ planet Shassa-Wyra-Orrou
 	bribe 0
 
 planet "Shifting Sand"
+	"display name" "流沙星"
 	attributes saryd
 	landscape land/dune6-harro
 	description `这个世界干燥，但并不特别炎热。定居点小而分散，因为每个绿洲仅能为数千人提供足够的水源。有些定居点专注于制造业，另一些则尝试用耐旱作物在沙漠中耕作。但最大的产业是退休住宅：这里凉爽干燥的气候和缓慢宁静的生活节奏，正是年迈的萨里德人所感到最惬意的。`
@@ -5371,6 +5860,7 @@ planet "Shifting Sand"
 	security 0.15
 
 planet "Shih's Locker"
+	"display name" "施氏柜"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa16
 	description `这颗气态巨行星因臭名昭著的施船长“处置”一场叛乱而得名。她没有简单地把船员从气闸舱弹射出去，而是将他们塞进一具能够在这颗行星上层大气中存活的逃生舱。此后的岁月里，许多一心想证明自己是全银河最狠海盗的人纷纷效仿她的做法，凡有船员越界太远，便会来她的柜前朝圣。`
@@ -5378,6 +5868,7 @@ planet "Shih's Locker"
 	government Uninhabited
 
 planet Shiver
+	"display name" "颤栗星"
 	attributes frozen "near earth"
 	landscape land/snow15
 	description `颤栗星是一个死寂寒冷的星球。唯一的定居点是一座小型燃料补给站，为前往地球的货运船队提供服务。这里降水稀少，但有时狂风会卷起地表冰雪，形成类似沙漠沙尘暴的景象；即使风息之日，空气中依然闪烁着细小漂浮的冰晶。`
@@ -5390,6 +5881,7 @@ planet Shiver
 		fleet "Small Republic" 10
 
 planet Shorebreak
+	"display name" "岸浪星"
 	attributes medical research rim
 	landscape land/beach1
 	description `岸浪星是一颗海洋行星，孕育着种类惊人、繁盛得令人目眩的外星生物，其中一些与地球上的生命形态并无太大差异。数世纪前，最早的定居点便是一座海洋生物学实验室，此后这颗行星逐步发展成为区域性的生物工程中心，本土生物被测试能否用于人类医学。`
@@ -5403,6 +5895,7 @@ planet Shorebreak
 		fleet "Large Militia" 8
 
 planet Shroud
+	"display name" "帷幕星"
 	attributes frontier north textiles wealthy
 	landscape land/mountain1
 	description `帷幕星是一个云中城堡与山谷贫民窟并存的世界。高耸的山峰之上，云层之上，行星的少数精英居住在华丽的宅邸中。而在他们之下，民众大多从事纺织业：种植棉花，牧养绵羊，在光线昏暗的工厂里操作织布机和缝纫机。`
@@ -5419,6 +5912,7 @@ planet Shroud
 		fleet "Large Republic" 14
 
 planet Siedi
+	"display name" "西耶迪"
 	attributes gegno vi
 	landscape land/forest5
 	description `附近气态巨行星的引力作用造就了这颗行星巨大、崎岖、多山的地表形态。地壳板块运动极为频繁，表面遍布剧烈震动留下的侵蚀与断裂痕迹。然而，这些裂隙之下蕴藏着丰富的资源，维族迅速加以利用，供其周边世界之需。`
@@ -5428,6 +5922,7 @@ planet Siedi
 	security 0
 
 planet "Sies Upi"
+	"display name" "塞斯乌皮"
 	attributes gegno vi
 	landscape land/desert15
 	description `塞斯乌皮是格诺维最新殖民的行星之一。这颗炎热、干燥而严酷的星球更像一座前哨站，而非真正意义上的殖民地，但维族仍然设法为定居者创造了可承受的生活条件。`
@@ -5438,6 +5933,7 @@ planet "Sies Upi"
 	security 0
 
 planet "Silo of Ablodab"
+	"display name" "阿布洛达布料仓"
 	attributes arach "coalition station" factory mining
 	landscape land/station9
 	music ambient/machinery
@@ -5448,6 +5944,7 @@ planet "Silo of Ablodab"
 	security 0.2
 
 planet Silver
+	"display name" "白银星"
 	attributes "near earth" oil
 	landscape land/dune5
 	description `亿万年前，白银星曾是一颗葱郁的热带世界。如今它已大半化为沙漠，但地下深处仍蕴藏着丰富的石油矿藏。在这里开采的石化产品被加工成塑料、陆行载具燃料，以及部分医用软膏和抗生素的原料。`
@@ -5460,12 +5957,14 @@ planet Silver
 		fleet "Small Republic" 25
 
 planet Silwan
+	"display name" "席尔瓦"
 	attributes antecessor forest uninhabited
 	landscape land/fog15
 	description `席尔瓦是一颗潮湿多雾的星球，终年被一层永不消散的浓雾笼罩。能够抵达地表的微光映照出一片荒凉的地貌，在亿万年持续降雨的侵蚀下，地势几乎被磨平得千篇一律。唯有在赤道地带，浓雾才会被阳光驱散，滋养着由蕨类树木构成的潮湿森林。`
 	description `	多亏了雨水，这里比通常更少留下先驱者的痕迹，但这颗星球却是本区域少数仍维系着可观生态系统的世界之一，其生命力倔强地延续着。长满苔藓的植物和形似蜥蜴的小型食腐动物遍布全球，而大型顶级掠食者则在星球的海洋深处繁衍生息。`
 
 planet Sinter
+	"display name" "烧结星"
 	attributes "dirt belt" mining
 	landscape land/nasa2
 	description `烧结星是一颗从未演化出生命的世界；大气层虽不适宜呼吸，但温度与密度足以让人们在增压居所内生存，或穿戴氧气罐外出活动。此地唯一的产业是采矿，且大多使用遥控机器人完成，因此整颗星球的人口仅有数千人。`
@@ -5480,11 +5979,13 @@ planet Sinter
 		fleet "Small Militia" 28
 
 planet Siteria
+	"display name" "赛特里亚"
 	attributes ka'het uninhabited
 	landscape land/water0
 	description `赛特里亚是一颗类地行星，以其地表上分布着的大量定居点遗迹而闻名：每隔数公里便可看到大型村落的残迹，其中一些甚至至今仍未完全被植被覆盖。少数城市仍有部分高耸的建筑勉强支撑，足以证明这颗行星原住民的建筑工艺之坚固耐久。`
 
 planet Skillet
+	"display name" "铁釜星"
 	attributes farming frontier mining north
 	landscape land/canyon3
 	description `铁釜星是一颗人口稀疏的行星，其红色丘陵与峡谷地带被露天开采以获取铁矿石和贵金属的砂矿矿床，主要供应参宿四造船厂的需求。这个世界还用于放牧，甚至在少数不那么干旱的地区种植玉米。虽然气候炎热干燥，但通常相当温和；之所以很少有人定居于此，是因为它地处偏远，也因为采矿和农业所需的工人远少于机器。`
@@ -5495,6 +5996,7 @@ planet Skillet
 		fleet "Small Republic" 22
 
 planet Skyfarm
+	"display name" "天空农场"
 	attributes hai "hai tourism" moon
 	landscape land/myrabella6
 	description `由于这里的低重力，亥族种植的一些外星作物能长到五米甚至更高。空气过于稀薄，人类或亥族不携带补充氧气罐就无法呼吸，因此人口非常稀少。`
@@ -5504,6 +6006,7 @@ planet Skyfarm
 	security 0.2
 
 planet Skymoot
+	"display name" "天空议会"
 	attributes rim tourism
 	landscape land/sky2
 	description `天空议会的“龙”是极受欢迎的旅游景点，与传说中同名的神兽唯一的不同之处在于它们不会喷火。这种高效的顶级掠食者也促使猎物进化出了令人惊叹的多样防御机制；无论是在空中、平原，还是密林深处，天空议会都是一个危险的游览地。`
@@ -5516,11 +6019,13 @@ planet Skymoot
 		fleet "Large Militia" 6
 
 planet Slylandro
+	"display name" "斯莱兰德罗"
 	attributes "requires: gaslining"
 	landscape land/nasa9
 	description `在斯莱兰德罗大气层蔚蓝翻涌的表层之下，虚空精灵与其他奇异生物悠然飘浮。这听来或许难以置信，但虚空精灵必定在演化中获得了操控引力场的能力，因为每隔一段时间，便会有一只依托反引力场自地表升起——那反引力场与人族飞船所用的着陆斥力器颇为相似。每当此时，气压的骤降便会令其身形骤然膨胀近一倍。`
 
 planet "Smuggler's Den"
+	"display name" "走私者之窟"
 	attributes frontier pirate south "south pirate" station
 	landscape land/loc1
 	description `走私者之窟曾名为格伦德尔空间站，那时候它尚在运作，是一座炼油厂。但此后便被海盗占据，将其变成了各路走私者和私掠船长的避风港。作为海盗活动的枢纽，走私者之窟得以获得从区域之外销赃的货物，因此这里的维修车间能够为你的舰船进行各种合法与非法的改装。这种汇集也提供了购买翻新星舰的机会……前提是你一想到它们前任主人可能的命运时，良心不会感到不安。有传言说，有门路的飞行员也许能在这里买到经过重度改装的飞船。`
@@ -5546,6 +6051,7 @@ planet "Smuggler's Den"
 		fleet "Small Southern Pirates" 21
 
 planet Snowfeather
+	"display name" "雪羽星"
 	attributes hai "hai tourism"
 	landscape land/dmottl4
 	description `雪羽星是一颗天气模式异常混乱的世界，即便在盛夏也可能降雪，但温度一旦回升转暖，积雪数日内便会消融。令人意外的是，这里竟是亥族的热门度假地，他们觉得此地难以预测、偶有狂暴的天气令人精神焕发。`
@@ -5554,6 +6060,7 @@ planet Snowfeather
 	security 0.2
 
 planet Solace
+	"display name" "慰藉星"
 	attributes factory frontier south urban
 	landscape land/city23
 	description `慰藉星是一颗富饶的星球，早在首批殖民者抵达之前，便已有类似地球的植被与动物在此繁衍。如今，它已有人类居住将近五百年，蔓延的都市覆盖了星球表面的大部分区域。`
@@ -5572,11 +6079,13 @@ planet Solace
 		fleet "Large Militia" 15
 
 planet "Solima Skarati"
+	"display name" "索利马斯卡拉蒂"
 	attributes korath
 	landscape land/beach12-harro
 	description `科拉斯人在其帝国暮年时期，对设计新型战争武器有着无穷无尽的创造力，但最终毁灭这颗行星的并非军事灾难，而是生态灾难。沿岸的渔村和生锈的船队见证着这片海洋世界曾是一个物产丰饶的渔场。但如今，海水含有高浓度的工业毒素，大型鱼类消失殆尽，只剩下小型无脊椎动物。`
 
 planet "Sopi Lefarkata"
+	"display name" "索皮勒法卡塔"
 	attributes frozen korath sestor
 	landscape land/mountain24-spfld
 	description `这是一颗寒冷多山的星球，大部分海洋都被冰层覆盖。山体侧面挖出的少许巨型陨坑，是这里曾有科拉斯聚居地的唯一痕迹。但科·塞斯特机器人已开始建造自己的定居点——在山脉深处的洞穴中，那里免于轨道轰炸。在最近科·梅雷提的攻击导致一条入口隧道坍塌的地方，成群的机器人已聚集起来挖掘，宛如被踩踏蚁丘的蚂蚁一般。`
@@ -5589,6 +6098,7 @@ planet "Sopi Lefarkata"
 	security 0
 
 planet Sopoyra
+	"display name" "索波伊拉"
 	attributes bunrodea manufacturing shipping
 	landscape land/industrial0-iridium
 	description `索波伊拉是一颗重要的制造业行星，也是连接北部梅加萨星系与南部埃拉布星系的咽喉要地。鉴于进入埃拉布地区需获得王室许可，这颗星球也因此成为两大区域间贸易的中心节点。商品从其他梅加萨星系运抵此处，再由获准的王室货船转运至埃拉布诸星系。`
@@ -5601,6 +6111,7 @@ planet Sopoyra
 	security 0
 
 planet "Spec Inci"
+	"display name" "斯佩克因西"
 	attributes "incipias quarg" quarg
 	landscape land/sky7
 	description `这颗小卫星似乎主要被用作运输和加工基地，以夸格人典型的效率运作。若不是因为那些货船体型巨大，你甚至不会注意到它们正卸载大量待加工的矿石——它们工作时安静得惊人。其他飞船则装载加工完毕的材料飞离此处。`
@@ -5609,11 +6120,13 @@ planet "Spec Inci"
 	security 0.9
 
 planet "Spera Anatrusk"
+	"display name" "斯佩拉阿纳特鲁斯克"
 	attributes korath
 	landscape land/badlands11
 	description `这是一颗相对干燥的星球，科拉斯人的城市只分布在两极附近，那里温度较为温和，荒凉的生命禁区让位给草原，乃至几片零星的森林。最大的城市显然毁于轨道轰炸。其他城市似乎在内乱或劫掠中破败，留下破碎的窗户和烧毁的建筑。其中一些破坏痕迹很新；这里的科拉斯幸存者曾坚持了很久。`
 
 planet "Spiraling Indigo"
+	"display name" "螺旋靛蓝"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa38
 	description `螺旋靛蓝是联盟空间中质量最大的气态巨行星，仅次于恒星与环形世界。尽管基梅克人自然不会放过采集此处丰富资源的机会，但这颗行星的文化影响力远远超过其经济贡献。环绕两极的永不停歇的风暴激发了无数基梅克艺术家的灵感，无论是作家、造型师、音乐家还是画家。这个世界在基梅克媒体中的流行，甚至促使一些宗教机构宣称它的美丽是神圣的信号。`
@@ -5621,6 +6134,7 @@ planet "Spiraling Indigo"
 	security 0
 
 planet Splashdown
+	"display name" "溅落星"
 	attributes farming north
 	landscape land/water12
 	description `溅落星是一颗古老的行星，板块构造活动早已平息，风雨将地表侵蚀成低地、沼泽与浅海。大部分陆地只适合种植水稻，仅有少量定居点建于此。`
@@ -5633,6 +6147,7 @@ planet Splashdown
 		fleet "Large Republic" 3
 
 planet "Ssil Vida"
+	"display name" "西尔维达"
 	attributes emitter "remnant station" sheragi uninhabited
 	landscape land/station11
 	description `这座空间站的寂静在你耳中嗡鸣，越是探索，你越惊异于这里居然还保留着大气。它显然相当古老，墙壁上蔓生着一片片像真菌一样的暧昧绿紫色物质。无论当初是谁建造了这座空间站，它都是为体型远比你庞大的生物而设计的。或者，建造者就是偏爱宽敞的环境。即便是你穿过的最矮的门洞，也轻易有你的两倍身高。这些门洞总是宽大于高。`
@@ -5642,6 +6157,7 @@ planet "Ssil Vida"
 		description `深入码头之外的区域便会发现，这座设施的大部分结构都是某种巨型发射器的基础设施。目前尚不清楚它具体要发射什么，但这或许与这个星系最初是如何出现在这里的有关。`
 
 planet Staja-Kella-Oa
+	"display name" "斯塔雅-凯拉-欧阿"
 	attributes education successor wealthy
 	landscape land/fog12
 	description `作为继承者空间中最东端的行星，斯塔雅-凯拉-欧阿大部分被茂密的森林覆盖，仅有少数几座小城市。这颗行星上至少有一所由贵族肖尔拉家族赞助的学院。在远离着陆点的地方，有迹象表明正在进行考古工作。`
@@ -5664,6 +6180,7 @@ planet Staja-Kella-Oa
 	bribe 0
 
 planet Starcross
+	"display name" "渡口星"
 	attributes farming rim
 	landscape land/sea18
 	description `渡口星是一颗风暴肆虐、海洋点缀的行星，直到银河系此悬臂更外围的星球繁荣起来，催生出对货物中转点的需求后，才有人定居。建筑必须坚固，且建于高地，以避开频发的洪水。`
@@ -5677,6 +6194,7 @@ planet Starcross
 		fleet "Small Militia" 22
 
 planet "Starting Rubin"
+	"display name" "始发红宝石"
 	attributes "coalition station" kimek shipping wealthy
 	landscape land/space3
 	description `始发红宝石远非环绕基梅克母星建造的第一座空间站，但它是仍在轨道上的最古老的一座。它被建成一座轨道上的“饥荒塔”，类似于它所环绕的行星上的那些同类建筑，作为应对可能影响奇帕特卡的灾难的安全措施。`
@@ -5689,6 +6207,7 @@ planet "Starting Rubin"
 	security 0.2
 
 planet "Station Cian"
+	"display name" "青空间站"
 	attributes "coalition station" kimek shipping
 	landscape land/space2
 	music ambient/machinery
@@ -5700,6 +6219,7 @@ planet "Station Cian"
 	security 0.5
 
 planet Steamwater
+	"display name" "汽海星"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_05
 	description `汽海星是一颗热海王星，即一颗距离其主星很近的“冰巨星”，这个名字其实颇具误导性。汽海星的独特之处在于，其质量几乎全部由水构成。除此之外，其大气层内温度和压强的变化范围极为宽广，使得最厚的一层由超临界水组成。这种相态同时融合了气态与液态，令在其中飞行变得相当令人迷失方向。`
@@ -5707,12 +6227,14 @@ planet Steamwater
 	government Uninhabited
 
 planet Steli
+	"display name" "斯特里"
 	attributes uninhabited
 	landscape land/water31
 	description `斯特里上的小型构造板块移动得格外缓慢，仿佛彼此近乎锁定。这里的大部分山脉因岁月和卫星广袤的水圈侵蚀而磨平，由此形成了凉爽的温带气候。`
 	description `	频繁的热点使熔岩和热量渗出原本迟缓的地壳，斯特里的温泉数量在暮光区所有宜居行星中名列前茅。仅因远离阿夫吉空间核心，才未遭大规模殖民，不过有传言称，零星的村落和游牧族群散居在地表各处。`
 
 planet Stilacrest
+	"display name" "斯提拉峰"
 	attributes "aberrant siege" avgi "avgi core" fishing religious wealthy
 	landscape land/myrabella4
 	description `斯提拉峰是一颗温暖的行星，浅淡的淡水海洋、宜人的气候和白色的石灰岩悬崖使其成为人类理想的度假世界。然而，生于山峦的阿夫吉人却对这相对平坦的地貌和迟缓的风感颇为不适，因此永久定居点一直寥寥无几。`
@@ -5726,6 +6248,7 @@ planet Stilacrest
 	security 0
 
 planet Stonebreak
+	"display name" "碎石星"
 	attributes hai manufacturing urban
 	landscape land/hills7-harro
 	description `碎石星拥有亥族空间中除其母星外规模最大的城市：这些大型规划社区呈同心圆环状建造，居住区、社区建筑与工厂及船坞区交替分布。该星系拥有异常丰富的金属小行星，亥族开采它们，为碎石星的工业提供原材料。`
@@ -5739,6 +6262,7 @@ planet Stonebreak
 	security 0.3
 
 planet Stormhold
+	"display name" "风暴要塞"
 	attributes core "core pirate" forest frontier pirate
 	landscape land/fog11
 	description `风暴要塞是一颗寒冷的行星，有着浓密多雾的大气层。与许多海盗前哨站一样，风暴要塞内散布着数量不明的村庄和隐蔽据点，每个都由不同的海盗派系控制。据传，银河系中一些最危险的逃犯就住在行星深处的森林中，他们通过躲藏在地下或避免使用电子设备来逃避侦查。`
@@ -5755,6 +6279,7 @@ planet Stormhold
 		fleet "Large Core Pirates" 7
 
 planet "Stronghold of Flugbu"
+	"display name" "弗鲁格布要塞"
 	attributes arach factory
 	landscape land/mountain11-sfiera
 	description `弗鲁格布要塞在独立战争期间曾被用作军事基地。如今，它是一颗制造业星球，专精于小型精密零件而非大型机械。这里也是贝布利斯公会的所在地，这个秘密组织专攻通信、翻译和加密技术。贝布利斯公会对于联盟经济至关重要，因为他们维护着超空间通信网络，但也有传言称他们可能与月影社有联系。`
@@ -5766,17 +6291,20 @@ planet "Stronghold of Flugbu"
 	security 0.5
 
 planet "Successor Wormhole"
+	"display name" "继承者虫洞"
 	attributes "requires: quantum keystone" uninhabited
 	spaceport ``
 	wormhole "Successor Wormhole"
 
 wormhole "Successor Wormhole"
+	"display name" "继承者虫洞"
 	link "Myruet-Kvelq" "Oublaa-Khora"
 	link "Oublaa-Khora" "Myruet-Kvelq"
 	color "wormholes: Ember Waste"
 	mappable
 
 planet Sundive
+	"display name" "逐日星"
 	attributes core farming forest frontier research
 	landscape land/water9
 	description `逐日星地表大部分被热带雨林和稀树草原覆盖，但也拥有足够的开阔平原，使其成为一个重要的农业世界。一年中的大多数时候，这里的气候相当温和，但龙卷风和大型雷暴在夏季并不少见。`
@@ -5789,6 +6317,7 @@ planet Sundive
 		fleet "Small Syndicate" 4
 
 planet Sundrinker
+	"display name" "饮日者"
 	attributes farming frontier south
 	landscape land/desert6
 	description `这个世界的大部分地区是荒芜的沙漠和海洋；不知为何，这里几乎没有演化出任何生命。唯一的人类定居点是位于少数丘陵地带之一的一个小镇，当地人靠畜牧和农耕为生。这是一个非常适合喜欢独处之人的世界，因为对其他人而言这里几乎毫无吸引力。除了酷热难耐的天气，山洪暴发也相当频繁。`
@@ -5799,6 +6328,7 @@ planet Sundrinker
 		fleet "Small Militia" 15
 
 planet Sunracer
+	"display name" "逐日赛手星"
 	attributes core factory farming fishing frontier urban
 	landscape land/myrabella8
 	description `逐日赛手是 Megaparsec 公司的所在地，这家船厂专门设计快速且轻型的飞船。`
@@ -5822,6 +6352,7 @@ planet Sunracer
 		fleet "Large Syndicate" 10
 
 planet Swiftsong
+	"display name" "迅捷之歌"
 	attributes hai "hai tourism" "hai: human presence" "human tourism" station
 	landscape land/station39
 	description `迅捷之歌空间站由 Imo Blep 公司运营和维护，作为一个巨大的会议中心。大多数亥族空间站至少会在某种程度上限制停泊区或散步长廊以外的出入，但迅捷之歌几乎完全开放。`
@@ -5831,6 +6362,7 @@ planet Swiftsong
 	security 0.5
 
 planet Taylor
+	"display name" "泰勒"
 	attributes research core moon military
 	landscape land/moon0
 	description `泰勒拥有一座大型天文实验室，配备射电望远镜及其他用以研究银心和其中巨大黑洞的设备。由于实验室的存在，泰勒实行严格的降落规程，确保你的飞船不会在任何时候穿越望远镜的观测路径。`
@@ -5844,6 +6376,7 @@ planet Taylor
 		fleet "Large Syndicate" 7
 
 planet "Tebuteb's Table"
+	"display name" "特布特布的餐桌"
 	attributes arach farming longcows
 	landscape land/fields11-sfiera
 	description `这个世界是加巴拉格家族的家园，他们是阿拉奇人中的农夫和牧场主行会。在远离城市的私人牧场上，他们尝试培育新品种的长牛——这是一种独特的牲畜，每年会长出一个新的身体节段，身长可达三十余米。一头长牛的肉足以供养一个村庄一个月。`
@@ -5853,11 +6386,13 @@ planet "Tebuteb's Table"
 	security 0.5
 
 planet "Tefkar Ret"
+	"display name" "特夫卡雷特"
 	attributes korath station
 	landscape land/station12
 	description `这座空间站破败不堪，已被完全遗弃，内部空气抽空，以免气压持续对站体结构造成负荷。各区域之间由厚重的防爆门隔断，使得站内大部分空间无法进入。`
 
 planet Ternituul
+	"display name" "特尼图尔"
 	attributes gegno vi
 	landscape land/fog1
 	description `特尼图尔是一颗沉闷的星球，厚雾笼罩，掩盖着干旱荒芜的地表——这正是坚韧的格诺维人的理想家园。维人军事力量的大部分驻扎于此，新兵们在这里被投入人生的第一道难关。常有居民在这颗星球荒凉的生态系统中丧生。`
@@ -5869,6 +6404,7 @@ planet Ternituul
 	security 0
 
 planet Thilos
+	"display name" "希洛斯"
 	attributes "aberrant siege" avgi frozen
 	landscape land/snow38
 	description `阿夫吉人很幸运，在他们的母星系中拥有这颗近乎宜居的行星。厚实的冰壳之下，是一片深邃的地下海洋，由岩核中放射性同位素衰变的热量所加热。`
@@ -5876,6 +6412,7 @@ planet Thilos
 	spaceport `主要空间港位于一处冰壳较薄的区域。着陆平台由巨大的冰块建造成，厚度足以承受聚变喷流的冲刷。夏季，冰火山喷发的烟柱常将空间港笼罩，为稀薄天穹抹上淡蓝色的条痕。`
 
 planet "Third Umber"
+	"display name" "第三赭褐"
 	attributes factory kimek research
 	landscape land/desert12
 	description `这颗凉爽干燥的星球犹如天然洁净室，是制造精密设备的理想之地，因为凝结水、霉菌或花粉颗粒都可能损害那些敏感仪器。工厂工人和监工住在蜂巢般的宿舍里，每栋宿舍容纳数万基梅克。`
@@ -5886,6 +6423,7 @@ planet "Third Umber"
 	security 0.4
 
 planet Thornlight
+	"display name" "棘光"
 	attributes hai retirement station
 	landscape land/station31
 	description `到访此空间站的人会立刻注意到，这里的重力比大多数行星低约三分之一。接待区布置奢华，陈设有数件艺术品和珍奇植物。一位仪容整洁的亥族接待员告诉你，除非你在这座疗养中心有亲属，否则不得在站内随意走动。`
@@ -5898,6 +6436,7 @@ planet Thornlight
 	security 1
 
 planet Thrall
+	"display name" "奴隶星"
 	attributes paradise textiles
 	landscape land/fields5
 	description `奴隶星气候温暖适中，地貌以平缓起伏的丘陵为主。这里的产业大部分为农业，尤以棉花种植为重，由三座主要城市的纺织厂加工成布料，出口至外星。`
@@ -5912,6 +6451,7 @@ planet Thrall
 		fleet "Large Republic" 8
 
 planet Thshybothro
+	"display name" "特希博特罗"
 	attributes bunrodea guild medical
 	landscape land/mountain0
 	description `特希博特罗是一颗多山的小型星球，是邦罗迪亚最大的机械改造体研究设施所在地。在星球众多的山谷中散布着各种实验室和工厂，邦罗迪亚人在此研发新型机械改造体，或改进旧有型号。`
@@ -5924,6 +6464,7 @@ planet Thshybothro
 	security 0
 
 planet Thule
+	"display name" "图勒"
 	attributes frontier pirate south "south pirate"
 	landscape land/dmottl2
 	description `图勒是一个多山的世界，拥有近十亿人口，于太空探索早期被殖民。当殖民地刚建立时，地球政府尚无力量控制除自身以外的任何星系。因此，图勒在共和国成立时拒绝加入，并从此击退了所有试图强迫其加入的企图。众所周知，这颗行星支持海盗舰队，他们为其带来廉价物资以支撑经济，但这颗行星距离共和国太空中心如此遥远，以至于在此发动战争将耗资巨大，因而它们至今未受挑战。`
@@ -5943,6 +6484,7 @@ planet Thule
 		fleet "Large Southern Pirates" 16
 
 planet Thunder
+	"display name" "雷鸣星"
 	attributes forest rim
 	landscape land/mountain20-harro
 	description `当第一批殖民者登陆时，他们以为自己找到了一个梦幻世界：雷鸣星拥有完美的重力、完美的温度、完美的大气。不幸的是，他们很快发现这颗行星的地质构造活动异常剧烈，以至于建造超过两层的建筑几乎不可能。由于多地震的缘故，雷鸣星一直很难吸引定居者，如今人口仅有几百万。`
@@ -5955,6 +6497,7 @@ planet Thunder
 		fleet "Small Militia" 20
 
 planet Tibernia
+	"display name" "提伯尼亚"
 	attributes frozen "ice moon" uninhabited
 	landscape land/mars2
 	description `提伯尼亚是一颗典型的冰行星，但与大多数冰行星不同，它是一个近乎完美的球体，表面异常光滑，仅有少数陨石坑。许多人猜测它是人造的，但至今尚未找到确凿证据。`
@@ -5962,6 +6505,7 @@ planet Tibernia
 	security 0
 
 planet "Tik Klai"
+	"display name" "提克克莱"
 	attributes research wanderer
 	landscape land/badlands2
 	description `这个世界即便对流浪者而言也酷热难耐，且与恒星近到地表沐浴着危险级别的紫外线。寥寥几处流浪者设施深埋地下，地表仅有少数检修入口和仓储建筑。`
@@ -5974,6 +6518,7 @@ planet "Tik Klai"
 		fleet "Wanderer Defense" 4
 
 planet Tinker
+	"display name" "巧匠星"
 	attributes factory mining "near earth"
 	landscape land/mfield0
 	description `巧匠星是一个高度工业化的世界，向辛迪加和地球出口电子产品。这里制造的电子产品涵盖从电线和电容器到精密微芯片的方方面面，而且由于许多工作都需要熟练劳动力，它便成了一个相对繁荣的星球。`
@@ -5993,6 +6538,7 @@ planet Tinker
 		fleet "Large Syndicate" 7
 
 planet Topkapi
+	"display name" "托普卡帕"
 	attributes moon uninhabited
 	landscape land/mars1
 	description `类似于阿克萨赖，托普卡帕是一颗古老的卫星，由无数纪元以来碎裂的星体残骸堆积而成。其表面似乎经常受到小行星的轰击，但其中一些陨石坑显示出曾发生较大规模爆炸的痕迹。你的传感器探测到了科拉斯舰船中最常见的物质痕迹。`
@@ -6001,11 +6547,13 @@ planet Topkapi
 	security 0
 
 planet Treser
+	"display name" "特雷泽"
 	attributes "requires: gaslining"
 	landscape land/treser
 	description `下方是一个黑暗的世界。云层中的某种化合物吸收了这颗行星超过百分之九十的光照，使这颗气态巨行星的大气中积聚了巨大的热量。极端的温度对你的飞船造成沉重负担，只能勉强在最上层大气中飞行。当热量超过某个临界点，气体便会变成等离子态，在这永恒黑暗的世界中点亮些许微光。`
 
 planet Trinket
+	"display name" "明珠星"
 	attributes south tourism
 	landscape land/beach3
 	description `在这片不以海滩度假地著称的星域，明珠星却成了某种热门旅游目的地。这里并非特别温暖的世界，两极附近冰山终年漂浮，但赤道地区近乎热带气候，水温足以游泳。`
@@ -6026,6 +6574,7 @@ planet Trinket
 		fleet "Small Militia" 36
 
 planet "Triton Station"
+	"display name" "特里同空间站"
 	attributes military north station
 	landscape land/sivael0
 	music ambient/machinery
@@ -6039,6 +6588,7 @@ planet "Triton Station"
 		fleet "Small Republic" 24
 
 planet Trove
+	"display name" "宝库星"
 	attributes core mining
 	landscape land/badlands3
 	description `宝库星是一颗极小的星球，小到无法维持可供呼吸的大气层。这里是一场实验性“劈裂采矿”行动的大本营，该行动将地表劈开，以便触及富含金属的内核。`
@@ -6050,6 +6600,7 @@ planet Trove
 		fleet "Small Syndicate" 5
 
 planet Truklar
+	"display name" "特鲁克拉"
 	attributes "gegno quarg" quarg
 	landscape land/mars2
 	description `这个世界与夸格居住的其他星球一样，重力明显低于人类习惯的水平。几座中等规模的奢华村庄深深嵌套在一座形状奇特的玻璃结构内部，景致美不胜收。许多大小不一的微型生态区中还栖息着奇妙的动植物，它们似乎并非这颗卫星上的原生种。尽管如此，这些建筑并非为接待访客而建，附近的外星来客很难在狭窄的走廊中穿行。`
@@ -6059,6 +6610,7 @@ planet Truklar
 	security 0.9
 
 planet Tschyss
+	"display name" "特奇斯"
 	attributes gegno mining station
 	landscape land/sivael6
 	music ambient/machinery
@@ -6069,6 +6621,7 @@ planet Tschyss
 	security 0
 
 planet Tundra
+	"display name" "苔原星"
 	attributes "dirt belt" frozen oil textiles
 	landscape land/dmottl1
 	description `数百万年前，这里曾是一颗温暖的行星，甚至可能曾属热带气候。但一场灾难性事件，或许是流星撞击或大规模火山喷发，改变了行星的大气层，使其成为如今这颗几无生命、冰封的世界。`
@@ -6086,6 +6639,7 @@ planet Tundra
 		fleet "Large Militia" 6
 
 planet "Turquoise Four"
+	"display name" "绿松石四星"
 	attributes farming kimek
 	landscape land/beach14
 	description `绿松石四星近海的巨藻农场不仅产出营养丰富的食物，还提供一种用于制造耐用纺织品的超强韧纤维。离岸更远的海域，基梅克人还经营着养鱼场。从空中俯瞰，海面被分割成一块块深蓝、碧绿或铁锈棕色的区块，颜色取决于每个区块养殖的产品种类。`
@@ -6095,11 +6649,13 @@ planet "Turquoise Four"
 	security 0.3
 
 planet Turra
+	"display name" "图拉"
 	attributes "requires: gaslining"
 	landscape land/turra
 	description `图拉的稠密大气使这颗气态巨行星成为一片阴暗世界。阴霾壁障偶尔破裂，一束光线便照出云层中庞大的空气空穴。当地的生物原始且多为类植物形态；有些犹如暗色的花朵，汲取着洒落到身上的微光。`
 
 planet Tuur-Aasa-Kaska
+	"display name" "图尔-阿萨-卡斯卡"
 	attributes successor
 	landscape land/dune7
 	description `这颗由继承者最近才定居的岩质大卫星仅承载着少量人口，其中大部分是旧派的军事人员。他们居住在地下，以避开地表强烈的电暴。尽管这里的环境无疑极其恶劣且不适，但其所在星系的位置使它成为旧派舰队监视邻近星系贸易的理想集结地，而且地表持续的电暴也能掩盖他们舰船的能量信号。`
@@ -6110,12 +6666,14 @@ planet Tuur-Aasa-Kaska
 	"required reputation" 1
 
 planet Tuur-Oa-Sola
+	"display name" "图尔-欧阿-索拉"
 	attributes "bold tourism" successor uninhabited
 	landscape land/mars2
 	description `这颗卫星的大气层既稀薄又有毒，表面布满裂隙，向外喷涌出高达数公里的炽热气体。它似乎正降至所环绕气态巨行星的洛希极限之下，或许数千年内便会被撕碎，化作一圈环系统。`
 	government Uninhabited
 
 planet Twinstar
+	"display name" "双子星"
 	attributes frontier moon south tourism
 	landscape land/lava3
 	description `这颗小小世界上唯一的定居点是双子星补给站，一个主要为服务航天港而建的村落。来自南银河臂的食品和装备在这里储存，并朝四面八方运送出去，供应人类空间的其余部分。`
@@ -6128,6 +6686,7 @@ planet Twinstar
 		fleet "Small Militia" 15
 
 planet "Typhon Station"
+	"display name" "提丰空间站"
 	attributes rim station
 	landscape land/sivael1
 	music ambient/machinery
@@ -6138,6 +6697,7 @@ planet "Typhon Station"
 		fleet "Large Militia" 8
 
 planet Uo-Oraa-Vayya
+	"display name" "乌欧-奥拉-瓦亚"
 	attributes quiet successor
 	landscape land/snow24
 	description `这颗小行星正处于冰河时代中期，其几乎整个表面都被数公里厚的冰盖所覆盖。此处几乎没有永久居民，但继承者为了研究这颗行星独特的环境条件，在此维持着重要的科研存在。`
@@ -6147,6 +6707,7 @@ planet Uo-Oraa-Vayya
 	bribe 0
 
 planet Uryyhr
+	"display name" "乌里尔"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/clouds_04
 	description `乌里尔是一颗稠密的气态巨行星，大气中满是托林——一种遍布众多星系外围区域的淡红色有机化合物。它们大多源自行星环，这些环正处于轨道衰变的最后阶段，不断将物质以宽阔带状沉积到乌里尔的表面。`
@@ -6154,6 +6715,7 @@ planet Uryyhr
 	government Uninhabited
 
 planet "Ut Divitas"
+	"display name" "乌特迪维塔斯"
 	attributes "incipias quarg" quarg
 	landscape land/canyon13
 	description `地表空旷荒芜，看不到任何生命迹象。几座孤零零的巨大城市如花朵般铺展在月球表面，建筑风格抽象而优雅，与人类所建的任何东西都截然不同。`
@@ -6162,18 +6724,21 @@ planet "Ut Divitas"
 	security 0.9
 
 planet Uuoru-Veldt-Stir
+	"display name" "乌奥鲁-维尔特-斯提尔"
 	attributes successor uninhabited
 	landscape land/tundra1
 	description `这颗行星宽阔的冰川谷地里，散布着一片片沼泽低地，融水池塘星罗棋布。飞船传感器提示，舱外大气虽富含氧气，但过于稀薄，无法安全呼吸；尽管你放眼望去，耐寒植物十分茂密，却未见任何动物踪迹。`
 	government Uninhabited
 
 planet "Uye Mpi"
+	"display name" "乌耶姆皮"
 	attributes uninhabited
 	landscape land/bwerner6
 	description `广袤的尘土与巨岩地貌构成了这个世界的主体细节。然而，与许多其他沙漠星球不同，这里遍布着多处泉水盆地，天气模式出奇地温和。清朗的蓝天与常见的温顺野生动物，赋予这颗星球一股宁静与美感。`
 	description `	附近相互交战的格诺派系之间的冲突，常常导致本星系内发生交战，尽管双方都尚未在这颗星球表面建立任何大规模基地。大多数小规模战斗要么发生在头顶的轨道上，要么随格诺舰队蔓延至邻近星系。`
 
 planet Vade-Osolaa-Kaska
+	"display name" "瓦德-奥索拉-卡斯卡"
 	attributes crime station successor uninhabited
 	landscape land/loc3
 	description `该空间站看似已被废弃；它陈旧而衰败，尽管自动化系统仍在某些区域维持着可呼吸的大气，却没有任何永久居住的迹象。`
@@ -6187,6 +6752,7 @@ planet Vade-Osolaa-Kaska
 	government Uninhabited
 
 planet Vail
+	"display name" "韦尔星"
 	attributes farming paradise tourism
 	landscape land/snow4
 	description `韦尔是一个整体被打造为滑雪度假胜地的星球，为附近行星的富裕客户服务。通过地形改造和人工造雪相结合，确保无论哪个半球处于冬季，都能始终保持理想的滑雪条件；同时，农业及其他小型产业为游客以及庞大的服务人员提供补给。`
@@ -6200,6 +6766,7 @@ planet Vail
 		fleet "Large Republic" 11
 
 planet Valhalla
+	"display name" "瓦尔哈拉"
 	attributes deep education factory farming fishing research urban
 	landscape land/mfield3
 	description `瓦尔哈拉是这片被称为星渊的星域中首个被殖民的世界。它自然资源丰富，但庞大的农场与渔场仍然不足以养活超过五十亿的人口。`
@@ -6224,23 +6791,27 @@ planet Valhalla
 		fleet "Large Deep Security" 35
 
 planet "Valley of the Damned"
+	"display name" "诅咒之谷"
 	attributes uninhabited
 	landscape land/fog4
 	description `从远处看，这颗行星似乎适宜居住，恰好位于其恒星适居带的内侧近端。它的大气层富含水蒸气，并孕育着原始生命：苔藓几乎覆盖了所有湿润表面，陆地上游荡着奇异的外壳生物，它们的甲壳竟由一种在别处会被视为合成塑料的物质构成。`
 	description `	然而，低层大气中有毒氯气的浓度异常偏高。若无特殊装备，人们只能停留在山地上以避开浓密的毒气，即便如此也仅能维持数小时，随后便会招来麻烦。谢拉吉人试图在此殖民的大部分痕迹如今已被侵蚀殆尽，只剩下残垣断壁和腐朽的骨骸。`
 
 planet Vanikos
+	"display name" "瓦尼科斯"
 	attributes ocean uninhabited
 	landscape land/beach18
 	description `瓦尼科斯是一个年轻的原初世界，这颗寒冷多水的卫星仍处形成初期，淡水海洋受强烈的潮汐和火山活动主导。在强大潮汐力的作用下，海底热液喷口为原本冰冷的海水注入暖流。生命尚未在这些温热的孤岛周围孕育，但丰富的水和有机化合物意味着生命的出现只是时间问题。`
 	description `	当然，阿夫吉探险家多年前就已注意到瓦尼科斯拥有液态水和相对适宜的温度，因此这里的生命可能源自最终的地球化改造，而非自然演化。`
 
 planet "Var Oti"
+	"display name" "瓦尔奥蒂"
 	attributes uninhabited
 	landscape land/desert0
 	description `这颗岩质行星上遍布浩瀚的沙漠。有些地方耸立着崎岖的石林台地，另一些地方则纵横着轮廓分明的沙谷。至于那些地貌特征不那么鲜明的地点，乍一看很难判断它们究竟是被深厚沙层托举的石堆，还是覆于巨大基岩上的薄薄流沙。此外，频繁的尘暴不断重塑着地表形态，加之严酷干燥的气候，使得瓦尔奥蒂对那些准备不足的来访者而言堪称险境。`
 
 planet "Var' Kar'i'i"
+	"display name" "瓦尔卡里伊"
 	attributes farming urban wanderer
 	landscape land/valley13-harro
 	description `这是一颗人口众多的流浪者世界，遍布各地的小型农业村庄，甚至还有一些几乎可算作城市的大型聚居区。但这颗星球上密集的定居点从空中初见时并不明显，因为树屋村庄大多隐藏在森林树冠之下。农场也几乎与自然土地无异，这是由于采用了多种植物并排生长的永续农业体系。`
@@ -6255,6 +6826,7 @@ planet "Var' Kar'i'i"
 		fleet "Wanderer Defense" 7
 
 planet "Var' Kayi"
+	"display name" "瓦尔卡伊"
 	attributes urban wanderer
 	landscape land/fields13
 	description `这是一个类地世界，拥有一座主要的流浪者城市和无数较小的定居点。定居点大多由建在活树高处的树屋组成。城市摩天大楼的建筑充满悬臂式阳台和拱门，模仿了森林的自然形态。四处零星可见的烟雾或蒸汽升腾之处想必是工厂或发电厂，但城市之外的大部分土地仍是绿色的田野和原始的海洋。`
@@ -6269,6 +6841,7 @@ planet "Var' Kayi"
 		fleet "Wanderer Defense" 12
 
 planet "Var' Roi"
+	"display name" "瓦尔罗伊"
 	attributes frozen moon research wanderer
 	landscape land/snow14
 	description `这颗小型冰卫星的地表在其环绕的气态巨行星潮汐力作用下不断开裂破碎。潮汐扰动也为卫星提供热量，使海洋保持温暖，足以维持生命，尽管到达这里的阳光微乎其微。`
@@ -6280,6 +6853,7 @@ planet "Var' Roi"
 		fleet "Wanderer Defense" 4
 
 planet "Vara K'chrai"
+	"display name" "瓦拉克奇莱"
 	attributes urban wanderer
 	landscape land/sea16-harro
 	description `这里是流浪者人口最多的世界，拥有数十座大型城市。最高耸的建筑从其基座如同金属巨树般伸展出分支与悬挑结构。行星表面超过一半是海洋，少数小型定居点建在由藻类和海草构成的巨型活体筏之上——这些筏子约十米厚，绵延数公里宽。大片陆地则为森林所覆盖，村庄完全筑于树冠之间。`
@@ -6294,6 +6868,7 @@ planet "Vara K'chrai"
 		fleet "Wanderer Defense" 17
 
 planet "Vara Ke'sok"
+	"display name" "瓦拉克索克"
 	attributes fishing wanderer
 	landscape land/beach6
 	description `该行星表面几乎完全被海洋覆盖，居住于此的流浪者生活在巨大的浮藻垫上，其中一些有小城市那么大。某些漂浮村落装有引擎，可让它们缓慢地从行星一面移动到另一面，本土产业仅有捕鱼和海藻养殖。`
@@ -6305,6 +6880,7 @@ planet "Vara Ke'sok"
 		fleet "Wanderer Defense" 4
 
 planet "Vara Ke'stai"
+	"display name" "瓦拉克斯泰"
 	attributes farming wanderer
 	landscape land/desert11
 	description `这是一颗沙漠星球，但流浪者正一点一滴地让荒漠焕发生机：他们种植耐寒的灌木和仙人掌，最终将流沙转化为能够涵养水分的土壤。在某些区域，尤其是靠近两极的地方，沙漠已让位于茂密的森林；然而在赤道附近，依然有大片干旱荒芜的沙地，仅偶尔被一抹绿带打破——那是蜿蜒于沙丘间的窄河所经之处。`
@@ -6317,6 +6893,7 @@ planet "Vara Ke'stai"
 		fleet "Wanderer Defense" 3
 
 planet "Vara Kehi'ki"
+	"display name" "瓦拉克希基"
 	attributes farming research wanderer
 	landscape land/fields14
 	description `这是一颗农业星球，但主要作物是药用植物而非粮食：色彩鲜艳的花田和纤巧的灌木遍布大地。农田附近的大型工厂加工植物原料，提取有用的化合物。闪闪发光的金属烟囱向空中喷吐蒸汽，与绚烂花田的自然美景显得格格不入。`
@@ -6329,6 +6906,7 @@ planet "Vara Kehi'ki"
 		fleet "Wanderer Defense" 5
 
 planet "Vara Pug"
+	"display name" "瓦拉帕格"
 	attributes pug
 	landscape land/bwerner5
 	description `瓦拉帕格是一片广袤的海洋世界，原始蛮荒，几乎无人定居，唯有一座帕格城市坐落于某个主要大陆的海岸上。陆地上的动植物相对平淡无奇，但海洋中却栖息着极其丰富的生物：从体型犹如散装货轮般庞大的鲸鱼，到拥有高度智慧的某种水母，以及其他那些罕见从幽暗无光的海洋深处浮现的、更加怪异的物种。`
@@ -6339,6 +6917,7 @@ planet "Vara Pug"
 	security 0.9
 
 planet "Vara Rakak"
+	"display name" "瓦拉拉卡克"
 	attributes farming wanderer
 	landscape land/forest1
 	description `这是一颗无需地球化改造便拥有近乎完美气候的稀有行星。流浪者将其打造成了一颗农业星球。这里的田地顺应着土地的自然轮廓和地质走势，而非像大多数人类农场那样被规划成矩形地块；每块田地里都种植着多种作物，构成共生的生态系统。`
@@ -6352,6 +6931,7 @@ planet "Vara Rakak"
 		fleet "Wanderer Defense" 5
 
 planet "Varu Ek'lak'lai"
+	"display name" "瓦鲁埃克拉克莱"
 	attributes mining wanderer
 	landscape land/canyon7
 	description `流浪者不从行星上，而是从小行星上采集金属矿石，以免进一步消耗他们照管下的行星资源。这个星系含有异常高浓度的金属小行星，因此他们在这里建造了许多大型精炼厂，用来加工无人采矿机采集的矿石。`
@@ -6365,6 +6945,7 @@ planet "Varu Ek'lak'lai"
 		fleet "Wanderer Defense" 4
 
 planet "Varu K'est"
+	"display name" "瓦鲁克斯特"
 	attributes military wanderer
 	landscape land/canyon5
 	description `瓦鲁克斯特是一颗贫瘠、古老的行星，遍布干旱的高原和蜿蜒深邃的峡谷，降雨稀少，仅有最顽强的灌木才能存活。流浪者已将这颗星球上几乎所有的村落改造为军事基地，以抵御不断进犯的亥族掠夺者，同时也不得不推迟改善当地生态环境的计划。`
@@ -6378,6 +6959,7 @@ planet "Varu K'est"
 		fleet "Wanderer Defense" 16
 
 planet "Varu K'prai"
+	"display name" "瓦鲁克普莱"
 	attributes oil wanderer
 	landscape land/sea4
 	description `这是少数仍保有大量石油储量的流浪者世界之一，尽管它们深藏于难以开采的洋面之下。除钻井企业和炼油厂外，本地最大的用工方是地方政府的安全监督部门，其检查员不断走访钻井平台和运输枢纽，以确保所有防止石油泄漏的规章都得到遵守。`
@@ -6391,6 +6973,7 @@ planet "Varu K'prai"
 		fleet "Wanderer Freight" 4
 
 planet "Varu Mer'ek"
+	"display name" "瓦鲁梅雷克"
 	attributes factory wanderer
 	landscape land/valley11-harro
 	description `这个流浪者工厂世界如今拥有比有人居住的村庄更多的废弃村庄：由于无羁亥族最近的威胁，整座整座的工厂锈蚀衰败。大部分仍在运转的工厂已被改作武器或弹药生产，用于保卫流浪者空间。`
@@ -6404,6 +6987,7 @@ planet "Varu Mer'ek"
 		fleet "Wanderer Defense" 3
 
 planet "Varu Tek'kai"
+	"display name" "瓦鲁特克凯"
 	attributes factory moon wanderer
 	landscape land/badlands4
 	description `这个流浪者世界几乎无人居住，除了微观层面可能存在的生态系统外，没有任何本土生态系统。它没有其他流浪者定居点的那种美丽。这里建有工厂，用于加工最危险、最具破坏性的工业化学品。如果某座工厂发生灾难，唯一的结果将是污染一个已经死寂无生命的世界——在流浪者看来，远比让这种风险工业在生机勃勃的世界运营要好得多。`
@@ -6416,6 +7000,7 @@ planet "Varu Tek'kai"
 		fleet "Wanderer Defense" 4
 
 planet "Varu Tev'kei"
+	"display name" "瓦鲁特夫凯"
 	attributes factory wanderer
 	landscape land/canyon04
 	description `这是一颗沙漠星球，因过于炎热且距离恒星太近，难以支撑大量动植物生存。流浪者们在广袤的沙漠上布满了太阳能驱动的工厂：利用阳光反射热量熔炼矿石的熔炉，以及支撑其他产业的大片太阳能电池板阵列。`
@@ -6428,6 +7013,7 @@ planet "Varu Tev'kei"
 		fleet "Wanderer Defense" 5
 
 planet Vatican
+	"display name" "梵蒂冈"
 	attributes lava uninhabited
 	landscape land/lava10
 	description `梵蒂冈地表不断自我更新的特性催生了繁荣的天体地质学学术项目。尽管常被遗民视为低优先级事务，这个项目却一直得到防御长官们的持续支持。他们为何会关心一颗无人星球的地质构造，目前尚不明了，但研究工作仍在继续。`
@@ -6435,16 +7021,19 @@ planet Vatican
 	security 0
 
 planet Veiuye
+	"display name" "维尤耶"
 	attributes frozen moon uninhabited
 	landscape land/sea2
 	description `与附近气态巨行星的其他卫星一样，维尤耶是一个冰封的世界。然而，维尤耶的表层十分薄，更详细的扫描显示，在卫星的外壳下方存在着巨大的中空洞穴。与卫星的其他区域相比，这些区域异常温暖，并且似乎充满了主要由水构成的海洋。这些区域传出了奇怪的读数，这可能是由微生物生命造成的。`
 
 planet Veliante
+	"display name" "维里安特"
 	attributes ka'het uninhabited
 	landscape land/fog9
 	description `维里安特可能曾是一颗宜居行星，但如今已不复当年。其南半球的部分区域充斥着致命的辐射水平，即便在这颗星球的其他地方，若无充分防护，长时间暴露于地表也并不安全。行星上的动物生命似乎已几乎完全消失，而植物与树木却以大片色彩斑斓的植被群落覆盖着地表。`
 
 planet "Vibrant Water"
+	"display name" "灵动之水"
 	attributes farming saryd
 	landscape land/beach8-sfiera
 	description `由于强劲的洋流和极端的季节性温度波动，灵动之水的海洋上散布着许多冰山，它们能在融化前几乎漂移至极远的回归线附近。最大的冰山直径超过十几公里，孕育着从冰栖昆虫到海鸟再到大如海豹的哺乳动物的完整生态系统。海面之下，鱼群、海藻森林和漂流的藻类云团为生活在冰山上的生物提供着持续的食物来源。`
@@ -6455,11 +7044,13 @@ planet "Vibrant Water"
 	security 0.2
 
 planet Vigales
+	"display name" "维加莱斯"
 	attributes uninhabited
 	landscape land/desert14
 	description `这颗炎热的沙漠世界是数种地下动物的家园。这些生物非常像爬行动物，外观类似地球上的蜥蜴或蝾螈，但体型要大得多。据信，格诺空间中一些常见的本土物种起源于此星，或者是曾经栖息于此的远古物种的后裔。`
 
 planet Viminal
+	"display name" "维米纳尔"
 	attributes frozen remnant "remnant primary"
 	landscape land/snow3
 	description `这个寒冷沉闷的世界当然不会吸引任何现代定居者，但对那些逃避阿尔法战争混乱的人来说，它无疑拥有与世隔绝且未被发现的优势。遗民在此持续存在的原因在于行星上的钥石，它们能让飞船穿越余烬废土中的特定虫洞，而遗民尚未在任何其他行星上发现此类物体。`
@@ -6474,6 +7065,7 @@ planet Viminal
 		fleet "Heavy Remnant Defense" 25
 
 planet Vinci
+	"display name" "芬奇"
 	attributes factory paradise research
 	landscape land/nasa5
 	description `数百年前，芬奇的第一批定居者中包括一小群电气工程师，他们成立了一家革命性的新公司，专门设计计算机和微芯片。如今，芬奇已是整个人类空间首屈一指的 CPU 制造商，他们的处理器从导航计算机到可视电话再到智能烤面包机，无所不在。`
@@ -6485,6 +7077,7 @@ planet Vinci
 		fleet "Large Republic" 11
 
 planet Violetwake
+	"display name" "黯紫余波"
 	attributes hai station uninhabited
 	landscape land/space6
 	description `这座空间站在过去六万年间的某个时候被封存了。对接区内有大气存在，一块状态面板显示空间站的发电机功能完好但已关闭，目前的待机系统仅靠太阳能维持运转。`
@@ -6494,12 +7087,14 @@ planet Violetwake
 	security 0
 
 planet Viso
+	"display name" "维索"
 	attributes frozen "tangled shroud" uninhabited
 	landscape land/snow33
 	description `维索是一颗由冰与氨构成的星球，栖息着以氨为生的细菌、深红色藻类和耐寒的小型两栖动物，形成了一个奇特的生态系统。因其紧邻主星——一颗红矮星，太阳风与维索磁场的相互作用被增强，由此产生的极光常常延伸至赤道。`
 	description `	除了科学上的好奇，阿夫吉与维索的接触仅限于采集氨用于肥料制造，期间常遭异变体袭击而中断。`
 
 planet "Vivid Aether"
+	"display name" "灵动以太"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa34
 	description `不管是本地进化还是胚种论，灵动以太的云层中栖息着厌氧微生物群落，它们以阳光和大气中的微量甲烷为食。这些微生物在高层大气中形成了绚丽的条纹，最初正是这些条纹吸引了萨里德探险家来到这颗星球。如今，日权会研究巡逻队常常在轨道上停留数周，以研究这种简单却奇特的生态。偶尔，他们会派遣能够承受极端压力的小型飞船下到大气层中，不过眼下附近正好没有这样的飞船。`
@@ -6507,11 +7102,13 @@ planet "Vivid Aether"
 	government Uninhabited
 
 planet Vulpa
+	"display name" "武尔帕"
 	attributes "requires: gaslining"
 	landscape land/vulpa
 	description `乍看之下，这颗行星作为气态巨行星似乎相当宜居。蓝色调暗示着这是一个海洋世界，但外表可能具有欺骗性；它的云层中含有无数以惊人速度移动的细小玻璃液滴，会切割所经之路上的一切。你的飞船外壳能够偏转大部分液滴，但建议不要在此停留太久。`
 
 planet Vyraa-Giiq-Sora
+	"display name" "维拉-吉克-索拉"
 	attributes "bold tourism" successor uninhabited
 	landscape land/myrabella0
 	description `这颗行星为何仍无人居住尚不清楚，因为它拥有可呼吸的大气层和温和的气候；地表遍布本土生命形态，其中许多都呈现出一定程度的生物发光现象。`
@@ -6523,6 +7120,7 @@ planet Vyraa-Giiq-Sora
 	government Uninhabited
 
 planet Vyraa-Viir-Kella
+	"display name" "维拉-维尔-凯拉"
 	attributes successor uninhabited
 	landscape land/water4
 	description `这个行星拥有清澈、富氧的大气，凉爽而遍布水域的表面有着众多大型湖泊。看起来这里没有永久定居点，不过在南半球的岛屿上建有若干着陆场及相关临时住所。`
@@ -6534,6 +7132,7 @@ planet Vyraa-Viir-Kella
 	government Uninhabited
 
 planet Warfeed
+	"display name" "战供星"
 	attributes unfettered
 	landscape land/sea12-sfiera
 	description `战供星大部分被海洋覆盖，其陆地大多用于农业。大部分田地由机器人耕作和收割，但也散布着许多自给自足农民的家园，他们仅依靠极少甚至根本不依赖技术维持生计。`
@@ -6545,6 +7144,7 @@ planet Warfeed
 		fleet "Small Unfettered" 100
 
 planet "Warm Slope"
+	"display name" "温暖山坡"
 	attributes saryd urban
 	landscape land/hills6-sfiera
 	description `以萨里德的标准而言，这是一个理想的世界：崎岖多山，林木茂密，海洋与陆地各占一半比例。它主要作为居住星球，因为这个星系的重工业集中在它的姊妹世界“不息苦工”上的自动化工厂。`
@@ -6554,6 +7154,7 @@ planet "Warm Slope"
 	security 0.3
 
 planet "Warm Wind"
+	"display name" "暖风星"
 	attributes folklore saryd tourism
 	landscape land/fog1
 	description `暖风星的热带雨林与别处不同：地表没有河流，水流淌于横跨各大陆的错综复杂的地下洞窟网络之中。树木演化出了深沉而强韧的根系，能穿透石灰岩深入地下河，即便在旱季也能持续汲取水分。萨里德人仅探索了这些洞穴极其微小的一部分。`
@@ -6563,11 +7164,13 @@ planet "Warm Wind"
 	security 0.3
 
 planet Watcher
+	"display name" "观测者星"
 	attributes "dirt belt" moon research uninhabited
 	landscape land/hills4
 	description `观测者星是一颗小卫星，也是该星系中唯一拥有本土生命的世界。由于重力极低，人类尚未在此建立永久定居点，不过偶尔会有对低重力生命形式感兴趣的生物学家前来探访。此处的森林中，树木能长到两百余米高。`
 
 planet Wayfarer
+	"display name" "旅人星"
 	attributes factory research south tourism
 	landscape land/nasa1
 	description `旅人星最初由一群科学家和外交官定居，他们试图与此处银河系东南方的夸格世界建立关系。一方面得益于夸格的援助，另一方面出于对夸格的效仿之心，该星已成长为一个技术高度发达的世界。`
@@ -6588,6 +7191,7 @@ planet Wayfarer
 		fleet "Large Militia" 26
 
 planet "Weir of Glubatub"
+	"display name" "格鲁巴塔布之堰"
 	attributes arach farming
 	landscape land/beach11-harro
 	description `格鲁巴塔布之堰是一个宁静的海洋世界，被一颗暗红色的太阳照耀，其大气层很少积聚足够的能量来引发风暴或其他恶劣天气。海洋中的生命几乎全部集中在靠近水面的地方，那里的阳光足以让藻类和海藻繁茂生长。`
@@ -6598,6 +7202,7 @@ planet "Weir of Glubatub"
 	security 0.2
 
 planet Weledos
+	"display name" "维莱多斯"
 	attributes avgi "avgi diaspora" frontier "tangled shroud"
 	landscape land/water3
 	description `维莱多斯早在阿夫吉人将其轨道资产撤离至缠结帷幕星之前就已被殖民。少数勇敢的先驱者愿意定居在帷幕星内那些难以预测的星系中，以逃离阿夫吉太空的行星政府。据说他们勘测并殖民了这颗星球之时，大多数探险者甚至还未抵达帷幕星的入口，其存在令早期侦察者感到惊讶。`
@@ -6617,6 +7222,7 @@ planet Weledos
 		fleet "Avgi Fleetgroup"
 
 planet Windblain
+	"display name" "韦恩德布兰"
 	attributes deep oil textiles
 	landscape land/bwerner0
 	description `韦恩德布兰近四分之三的表面是海洋。此地的产业主要围绕石化工业：深海石油钻探、提炼，以及用于服装的塑料复合材料和合成纤维的制造。大陆上有几座大城市，但也保留了大量尚未被人类活动触及的原野地区。`
@@ -6632,6 +7238,7 @@ planet Windblain
 		fleet "Small Deep Security" 18
 
 planet Winter
+	"display name" "凛冬星"
 	attributes factory frontier frozen south
 	landscape land/snow18
 	description `凛冬星大气中浓密的云层遮蔽了大量阳光，形成了地表严寒的景象。这颗星球直到大约一个世纪前才有人定居，当时一群来自太子的投资者决定在这里建立制造中心，而不是在已经拥挤不堪的慰藉星上寻找更多土地。他们宣称，工业排放的二氧化碳和其他温室气体最终会使星球变暖，将其变成热带天堂，这一说法吸引来足够的定居者，使工厂得以持续运转。`
@@ -6644,52 +7251,62 @@ planet Winter
 		fleet "Large Militia" 5
 
 planet "Wormhole Alpha"
+	"display name" "阿尔法虫洞"
 	spaceport ``
 	government "Wormhole Alpha"
 	wormhole "Wormhole Alpha"
 
 wormhole "Wormhole Alpha"
+	"display name" "阿尔法虫洞"
 	mappable
 	link "Ultima Thule" Waypoint
 	link Waypoint "Ultima Thule"
 
 planet "Wormhole Barren Alpha"
+	"display name" "荒芜阿尔法虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Wormhole Barren Alpha"
 
 wormhole "Wormhole Barren Alpha"
+	"display name" "荒芜阿尔法虫洞"
 	mappable
 	link Egeria Levana
 	link Levana Egeria
 	color "wormholes: Ember Waste"
 
 planet "Wormhole Barren Beta"
+	"display name" "荒芜贝塔虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Wormhole Barren Beta"
 
 wormhole "Wormhole Barren Beta"
+	"display name" "荒芜贝塔虫洞"
 	mappable
 	link Caeculus Prosa
 	link Prosa Caeculus
 	color "wormholes: Ember Waste"
 
 planet "Wormhole Link"
+	"display name" "连接虫洞"
 	attributes "requires: quantum keystone"
 	wormhole "Wormhole Link"
 
 wormhole "Wormhole Link"
+	"display name" "连接虫洞"
 	mappable
 	link Statina Vaticanus
 	link Vaticanus Statina
 	color "wormholes: Ember Waste"
 
 planet "Wye Tzeou"
+	"display name" "怀佐"
 	attributes uninhabited
 	landscape land/snow14
 	description `怀佐坐落在一个格外宁静的星系中。其表面覆盖着形态各异的极端类晶体构造，以千奇百怪的方式突出地表。这些构造全都异常高大，且没有两座是相同的。看起来，这颗行星的真实地表远在这片神秘柱体层之下。这种奇特地貌的形成没有明显的环境成因，因为怀佐上最活跃的自然元素不过是柔和的雪季与平静的微风。`
 	description `	深层扫描揭示了下方更离奇的构成：在这片玻璃森林的深处，可以看到许多空腔，宛如每根柱体之间都存在着巨大的空隙。`
 
 planet "Wyvern Station"
+	"display name" "飞龙空间站"
 	attributes rim station
 	landscape land/sivael7
 	music ambient/machinery
@@ -6701,6 +7318,7 @@ planet "Wyvern Station"
 		fleet "Large Militia" 6
 
 planet Xerolophos
+	"display name" "泽罗洛夫斯"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa19
 	description `尽管曾被归类为“热木星”，但泽罗洛夫斯并未展现其全部特征：它距离该星系恒星极其遥远——遥远到甚至没有与之形成潮汐锁定。相反，其温度之高，即便以热木星的标准看也异常，行星内核正以远超预期的程度加热大气层。`
@@ -6709,12 +7327,14 @@ planet Xerolophos
 	security 0
 
 planet Xurelei
+	"display name" "叙雷莱"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa15
 	description `叙雷莱的大气层中覆盖着巨大的风暴，足以多次吞没地球大小的行星。奇怪的是，这些风暴从外部看远比其他气态巨行星上记录的风暴温和，探测器和其他探索飞船都能轻松穿越。一旦下降到一定深度，风暴的危险性就会急剧增加。这种强度剧烈变化的原因尚不清楚。`
 	description `	在较低的大气层中，开始出现形态有机的奇特微光，它们优雅地随狂风飘动。尽管因恶劣天气无法进一步探索，这些在云层下穿梭的不寻常物体似乎并未受到影响。`
 
 planet Yedikule
+	"display name" "耶迪库勒"
 	attributes gas moon "requires: gaslining" uninhabited
 	landscape land/nasa11
 	description `尽管比大多数气态行星——包括它所环绕的那颗——小得多，耶迪库勒浓密的大气层与岩石核心使其成为了一颗气态矮行星。虽然它并非人类历史上发现的首颗此类行星，但它围绕气态巨行星形成的可能性极小，而且其大气成分与泽罗洛夫斯的极端差异进一步暗示此处并非它的原生位置。`
@@ -6723,16 +7343,19 @@ planet Yedikule
 	security 0
 
 planet Yiddoi
+	"display name" "伊多伊"
 	attributes uninhabited
 	landscape land/mountain41
 	description `伊多伊似乎是阿夫吉到来之前一次失败的地球化改造尝试的产物，或者说是一项尚未完成就被放弃的工程。曾经有人向这颗卫星的大气层中注入了一种明显是合成的反射性化合物，表面上是为了减少入射阳光，为其滚烫的表面降温。`
 
 planet "Yiia Iyr"
+	"display name" "伊亚伊尔"
 	attributes uninhabited
 	landscape land/dune0
 	description `伊亚伊尔的大部分表面被数层乌云遮蔽，仅有零星阳光抵达地表，映照着枯萎的平原与干涸的河床。浓密的雾气常常紧贴地面，微凉而柔和的风拂过日益凋萎的草地。尽管伊亚伊尔过去曾能支撑一个生态系统，如今却显得如此荒芜，个中缘由尚无明确解释。`
 
 planet "Yniu Eiu"
+	"display name" "伊纽埃乌"
 	attributes rulei uninhabited
 	landscape land/canyon0
 	music "ambient/rulei planet"
@@ -6740,12 +7363,14 @@ planet "Yniu Eiu"
 	description `	这些紫红色湖泊和河流的水面运动方式奇特，仿佛具有生命一般。尽管流速极低，它们还会以一种奇异的线性运动轻柔地胀缩起伏。`
 
 planet "Yniu Ena"
+	"display name" "伊纽埃纳"
 	attributes rulei uninhabited
 	landscape land/canyon03
 	music "ambient/rulei planet"
 	description `与它下方的母行星相似，伊纽埃纳表面覆盖着一层浓密的紫红色网状非自然物质，形成河流与巨大的湖泊。虽然这些湖泊大多相较于行星表面积较小，但有少数如海洋般巨大，使其看起来像是行星上的疤痕。`
 
 planet Yoqqa-Vasa-Vasa
+	"display name" "约卡-瓦萨-瓦萨"
 	attributes manufacturing successor tourism
 	landscape land/fog16
 	description `约卡-瓦萨-瓦萨的大气层对于这种大小的行星而言异常浓厚，且其中一氧化碳的浓度极高。虽然由于生物化学结构的差异，这对继承者无害，但对人类却具有剧毒。这颗星球拥有丰富多样的生态系统，赤道地区广袤的丛林一直延伸至两极附近，那里矗立着令人叹为观止的壮丽山脉。`
@@ -6762,6 +7387,7 @@ planet Yoqqa-Vasa-Vasa
 	bribe 0
 
 planet Zenith
+	"display name" "天顶星"
 	attributes frontier north "north pirate" pirate
 	landscape land/water4
 	description `天顶星是一个寒冷而不宜人的世界，浓雾终年不散，阳光难得一见，低洼地带每日被潮汐淹没，风暴难以预测且来势凶猛。然而，它作为定居地有一个主要优势：其距离足够遥远，共和国不对它施加任何控制。`
@@ -6777,6 +7403,7 @@ planet Zenith
 		fleet "Small Northern Pirates" 13
 
 planet Zug
+	"display name" "苏格"
 	attributes factory farming rim
 	landscape land/city4
 	description `苏格是一颗宜人的星球，拥有连绵起伏的丘陵、肥沃的田野和几片小海洋。数亿人口居住在此，每天都有更多的移民到来，速度之快几乎让建筑业难以跟上。除了大城市之外，许多人居住在小农业村庄里，这使得苏格成为本地区少数几个在工业和农业上都能真正自给自足的世界之一。`
@@ -6797,6 +7424,7 @@ planet Zug
 		fleet "Large Militia" 18
 
 planet Zydee
+	"display name" "齐迪"
 	attributes moon uninhabited
 	landscape land/enceladus_1
 	description `尽管这颗卫星乍看之下荒芜而毫无生机，但有证据表明，邻近的格诺辛最近曾试图在此设立前哨站。地表上散落着几处未完工的建筑与着陆区，但都毫无活动迹象，这很可能是因为近期与格诺维的战事所致。尽管如此，仍有少数卫星在齐迪轨道上运行，很可能在提供重要的战术信息，比如星系交通流量。`

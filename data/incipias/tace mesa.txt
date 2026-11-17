@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Strange Ray"
+	"display name" "奇异射线"
 	mass 25
 	"outfit space" -20
 	"gun ports" -1
@@ -32,6 +33,7 @@ outfit "Strange Ray"
 	description "有机生命体本不可能将气体加热到这种程度，但这个器官似乎是个例外。"
 
 outfit "Internal Plasma Exhaust"
+	"display name" "体内等离子喷口"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
@@ -42,6 +44,7 @@ outfit "Internal Plasma Exhaust"
 	description "泰斯梅萨通过从身体末端喷射等离子体来移动。"
 
 ship "Tace Mesa"
+	"display name" "泰斯梅萨"
 	sprite "ship/silent harvester"
 	swizzle 0
 	"never disabled"

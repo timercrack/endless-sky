@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Aerie"
+	"display name" "鹰巢"
 	sprite "ship/aerie"
 	thumbnail "thumbnail/aerie"
 	"administrative cost" 2
@@ -80,7 +81,8 @@ ship "Aerie"
 
 
 ship "Argosy"
-	plural "大商船级"
+	"display name" "大商船"
+	"plural" "大商船"
 	sprite "ship/argosy"
 	thumbnail "thumbnail/argosy"
 	"administrative cost" 2
@@ -143,6 +145,7 @@ ship "Argosy"
 
 
 ship "Arrow"
+	"display name" "箭矢"
 	sprite "ship/arrow"
 	thumbnail "thumbnail/arrow"
 	"administrative cost" 1
@@ -196,7 +199,8 @@ ship "Arrow"
 
 
 ship "Auxiliary"
-	plural "辅助舰"
+	"display name" "辅助舰"
+	"plural" "辅助舰"
 	sprite "ship/auxiliaryh"
 	thumbnail "thumbnail/auxiliaryh"
 	"administrative cost" 6
@@ -315,6 +319,7 @@ ship "Auxiliary" "Auxiliary (Transport)"
 
 
 ship "Bactrian"
+	"display name" "双峰驼"
 	sprite "ship/bactrian"
 	thumbnail "thumbnail/bactrian"
 	"administrative cost" 7
@@ -391,6 +396,7 @@ ship "Bactrian"
 
 
 ship "Barb"
+	"display name" "倒刺"
 	sprite "ship/barb"
 	thumbnail "thumbnail/barb"
 	"administrative cost" 0
@@ -436,6 +442,7 @@ ship "Barb"
 
 
 ship "Bastion"
+	"display name" "堡垒"
 	sprite "ship/bastion"
 	thumbnail "thumbnail/bastion"
 	"administrative cost" 4
@@ -501,6 +508,7 @@ ship "Bastion"
 
 
 ship "Behemoth"
+	"display name" "巨兽"
 	sprite "ship/behemoth"
 	thumbnail "thumbnail/behemoth"
 	"administrative cost" 4
@@ -564,6 +572,7 @@ ship "Behemoth"
 
 
 ship "Berserker"
+	"display name" "狂战士"
 	sprite "ship/berserker"
 	thumbnail "thumbnail/berserker"
 	"administrative cost" 1
@@ -616,6 +625,7 @@ ship "Berserker"
 
 
 ship "Blackbird"
+	"display name" "黑鸟"
 	sprite "ship/blackbird"
 	thumbnail "thumbnail/blackbird"
 	"administrative cost" 1
@@ -670,6 +680,7 @@ ship "Blackbird"
 
 
 ship "Bounder"
+	"display name" "星跃者"
 	sprite "ship/bounder"
 	thumbnail "thumbnail/bounder"
 	"administrative cost" 1
@@ -719,6 +730,7 @@ ship "Bounder"
 
 
 ship "Boxwing"
+	"display name" "盒翼"
 	sprite "ship/boxwing"
 	thumbnail "thumbnail/boxwing"
 	"administrative cost" 0
@@ -758,6 +770,7 @@ ship "Boxwing"
 
 
 ship "Bulk Freighter"
+	"display name" "散装货轮"
 	sprite "ship/bulk freighter"
 	thumbnail "thumbnail/bulk freighter"
 	"administrative cost" 4
@@ -820,6 +833,7 @@ ship "Bulk Freighter"
 
 
 ship "Bulwark"
+	"display name" "壁垒"
 	sprite "ship/pirate bulwark"
 	thumbnail "thumbnail/pirate bulwark"
 	"administrative cost" 5
@@ -885,6 +899,7 @@ ship "Bulwark"
 
 
 ship "Carrier"
+	"display name" "航母"
 	sprite "ship/carrier"
 	thumbnail "thumbnail/carrier"
 	"administrative cost" 8
@@ -986,6 +1001,7 @@ ship "Carrier"
 
 
 ship "Class C Freighter"
+	"display name" "C级货船"
 	sprite "ship/bulk freighter"
 	thumbnail "thumbnail/bulk freighter"
 	"administrative cost" 5
@@ -1078,6 +1094,7 @@ ship "Class C Freighter"
 
 
 ship "Clipper"
+	"display name" "快帆"
 	sprite "ship/clipper"
 	thumbnail "thumbnail/clipper"
 	"administrative cost" 1
@@ -1131,6 +1148,7 @@ ship "Clipper"
 
 
 ship "Combat Drone"
+	"display name" "战斗无人机"
 	sprite "ship/combat drone"
 	thumbnail "thumbnail/combat drone"
 	"administrative cost" 0
@@ -1171,6 +1189,7 @@ ship "Combat Drone"
 
 
 ship "Container Transport"
+	"display name" "集装箱运输船"
 	sprite "ship/container transport"
 	thumbnail "thumbnail/container transport"
 	"administrative cost" 4
@@ -1233,6 +1252,7 @@ ship "Container Transport"
 
 
 ship "Corvette"
+	"display name" "护航艇"
 	sprite "ship/corvette"
 	thumbnail "thumbnail/corvette"
 	"administrative cost" 2
@@ -1296,6 +1316,7 @@ ship "Corvette"
 
 
 ship "Cruiser"
+	"display name" "巡洋舰"
 	sprite "ship/cruiser"
 	thumbnail "thumbnail/cruiser"
 	"administrative cost" 6
@@ -1378,6 +1399,7 @@ ship "Cruiser"
 
 
 ship "Cutthroat"
+	"display name" "割喉"
 	sprite "ship/pirate cutthroat"
 	thumbnail "thumbnail/pirate cutthroat"
 	"administrative cost" 1
@@ -1434,6 +1456,7 @@ ship "Cutthroat"
 
 
 ship "Dagger"
+	"display name" "匕首"
 	sprite "ship/dagger"
 	thumbnail "thumbnail/dagger"
 	"administrative cost" 0
@@ -1482,6 +1505,7 @@ ship "Dagger"
 
 
 ship "Dreadnought"
+	"display name" "无畏舰"
 	sprite "ship/dreadnought"
 	thumbnail "thumbnail/dreadnought"
 	"administrative cost" 6
@@ -1550,6 +1574,7 @@ ship "Dreadnought"
 
 
 ship "Dropship"
+	"display name" "登陆舰"
 	sprite "ship/dropship"
 	thumbnail "thumbnail/dropship"
 	"administrative cost" 0
@@ -1598,6 +1623,7 @@ ship "Dropship"
 
 
 ship "Enforcer"
+	"display name" "执法者"
 	sprite "ship/enforcer"
 	thumbnail "thumbnail/enforcer"
 	"administrative cost" 1
@@ -1650,6 +1676,7 @@ ship "Enforcer"
 
 
 ship "Falcon"
+	"display name" "猎鹰"
 	sprite "ship/falcon"
 	thumbnail "thumbnail/falcon"
 	"administrative cost" 5
@@ -1716,7 +1743,8 @@ ship "Falcon"
 
 
 ship "Finch"
-	plural "燕雀级"
+	"display name" "燕雀"
+	"plural" "燕雀"
 	sprite "ship/finch"
 	thumbnail "thumbnail/finch"
 	"administrative cost" 0
@@ -1765,6 +1793,7 @@ ship "Finch"
 
 
 ship "Firebird"
+	"display name" "火鸟"
 	sprite "ship/firebird"
 	thumbnail "thumbnail/firebird"
 	"administrative cost" 3
@@ -1825,6 +1854,7 @@ ship "Firebird"
 
 
 ship "Flivver"
+	"display name" "小破船"
 	sprite "ship/flivver"
 	thumbnail "thumbnail/flivver"
 	"administrative cost" 1
@@ -1872,6 +1902,7 @@ ship "Flivver"
 
 
 ship "Freighter"
+	"display name" "货船"
 	sprite "ship/freighter"
 	thumbnail "thumbnail/freighter"
 	"administrative cost" 1
@@ -1925,6 +1956,7 @@ ship "Freighter"
 
 
 ship "Frigate"
+	"display name" "护卫舰"
 	sprite "ship/frigate"
 	thumbnail "thumbnail/frigate"
 	"administrative cost" 3
@@ -1992,7 +2024,8 @@ ship "Frigate"
 
 
 ship "Fury"
-	plural "狂怒"
+	"display name" "狂怒"
+	"plural" "狂怒"
 	sprite "ship/fury"
 	thumbnail "thumbnail/fury"
 	"administrative cost" 1
@@ -2046,6 +2079,7 @@ ship "Fury"
 
 
 ship "Gunboat"
+	"display name" "炮艇"
 	sprite "ship/gunboat"
 	thumbnail "thumbnail/gunboat"
 	"administrative cost" 2
@@ -2104,6 +2138,7 @@ ship "Gunboat"
 
 
 ship "Hauler"
+	"display name" "运输者"
 	sprite "ship/hauler i"
 	thumbnail "thumbnail/hauler i"
 	"administrative cost" 1
@@ -2164,6 +2199,7 @@ ship "Hauler"
 
 
 ship "Hauler II"
+	"display name" "运输者 II"
 	sprite "ship/hauler ii"
 	thumbnail "thumbnail/hauler ii"
 	"administrative cost" 2
@@ -2226,6 +2262,7 @@ ship "Hauler II"
 
 
 ship "Hauler III"
+	"display name" "运输者 III"
 	sprite "ship/hauler iii"
 	thumbnail "thumbnail/hauler iii"
 	"administrative cost" 2
@@ -2288,6 +2325,7 @@ ship "Hauler III"
 
 
 ship "Hawk"
+	"display name" "鹰"
 	sprite "ship/hawk"
 	thumbnail "thumbnail/hawk"
 	"administrative cost" 1
@@ -2337,6 +2375,7 @@ ship "Hawk"
 
 
 ship "Headhunter"
+	"display name" "猎头者"
 	sprite "ship/headhunter"
 	thumbnail "thumbnail/headhunter"
 	"administrative cost" 1
@@ -2391,6 +2430,7 @@ ship "Headhunter"
 
 
 ship "Heavy Shuttle"
+	"display name" "重型穿梭机"
 	sprite "ship/heavy shuttle"
 	thumbnail "thumbnail/heavy shuttle"
 	"administrative cost" 1
@@ -2435,6 +2475,7 @@ ship "Heavy Shuttle"
 
 
 ship "Hogshead"
+	"display name" "大酒桶"
 	sprite "ship/hogshead"
 	thumbnail "thumbnail/hogshead"
 	"administrative cost" 2
@@ -2493,6 +2534,7 @@ ship "Hogshead"
 
 
 ship "Jackal"
+	"display name" "豺狼"
 	sprite "ship/jackal"
 	thumbnail "thumbnail/jackal"
 	"administrative cost" 1
@@ -2543,6 +2585,7 @@ ship "Jackal"
 
 
 ship "Lance"
+	"display name" "长矛"
 	sprite "ship/lance"
 	thumbnail "thumbnail/lance"
 	"administrative cost" 0
@@ -2590,6 +2633,7 @@ ship "Lance"
 
 
 ship "Leviathan"
+	"display name" "利维坦"
 	sprite "ship/leviathan"
 	thumbnail "thumbnail/leviathan"
 	"administrative cost" 5
@@ -2651,6 +2695,7 @@ ship "Leviathan"
 
 
 ship "Mammoth"
+	"display name" "猛犸"
 	sprite "ship/pirate mammoth"
 	thumbnail "thumbnail/pirate mammoth"
 	"administrative cost" 4
@@ -2725,6 +2770,7 @@ ship "Mammoth"
 
 
 ship "Manta"
+	"display name" "蝠鲼"
 	sprite "ship/manta"
 	thumbnail "thumbnail/manta"
 	"administrative cost" 2
@@ -2782,6 +2828,7 @@ ship "Manta"
 
 
 ship "Mining Drone"
+	"display name" "采矿无人机"
 	sprite "ship/mining drone"
 	thumbnail "thumbnail/mining drone"
 	"administrative cost" 0
@@ -2819,7 +2866,8 @@ ship "Mining Drone"
 
 
 ship "Modified Argosy"
-	plural "改装大商船"
+	"display name" "改装大商船"
+	"plural" "改装大商船"
 	sprite "ship/modified argosy"
 	thumbnail "thumbnail/modified argosy"
 	"administrative cost" 2
@@ -2883,6 +2931,7 @@ ship "Modified Argosy"
 
 
 ship "Monitor"
+	"display name" "监视者"
 	sprite "ship/monitor"
 	thumbnail "thumbnail/monitor"
 	"administrative cost" 2
@@ -2944,6 +2993,7 @@ ship "Monitor"
 
 
 ship "Mule"
+	"display name" "骡子"
 	sprite "ship/mule"
 	thumbnail "thumbnail/mule"
 	"administrative cost" 3
@@ -3009,6 +3059,7 @@ ship "Mule"
 
 
 ship "Nest"
+	"display name" "巢穴"
 	sprite "ship/nest"
 	thumbnail "thumbnail/nest"
 	"administrative cost" 2
@@ -3073,6 +3124,7 @@ ship "Nest"
 
 
 ship "Nighthawk"
+	"display name" "夜鹰"
 	sprite "ship/pirate nighthawk"
 	thumbnail "thumbnail/pirate nighthawk"
 	"administrative cost" 2
@@ -3133,6 +3185,7 @@ ship "Nighthawk"
 
 
 ship "Osprey"
+	"display name" "鱼鹰"
 	sprite "ship/osprey"
 	thumbnail "thumbnail/osprey"
 	"administrative cost" 3
@@ -3195,6 +3248,7 @@ ship "Osprey"
 
 
 ship "Protector"
+	"display name" "守护者"
 	sprite "ship/protector"
 	thumbnail "thumbnail/protector"
 	"administrative cost" 5
@@ -3260,6 +3314,7 @@ ship "Protector"
 
 
 ship "Quicksilver"
+	"display name" "水银"
 	sprite "ship/quicksilver"
 	thumbnail "thumbnail/quicksilver"
 	"administrative cost" 1
@@ -3307,6 +3362,7 @@ ship "Quicksilver"
 
 
 ship "Rainmaker"
+	"display name" "唤雨者"
 	sprite "ship/rainmaker"
 	thumbnail "thumbnail/rainmaker"
 	"administrative cost" 1
@@ -3366,6 +3422,7 @@ ship "Rainmaker"
 
 
 ship "Raven"
+	"display name" "渡鸦"
 	sprite "ship/raven"
 	thumbnail "thumbnail/raven"
 	"administrative cost" 2
@@ -3424,6 +3481,7 @@ ship "Raven"
 
 
 ship "Roost"
+	"display name" "栖所"
 	sprite "ship/roost"
 	thumbnail "thumbnail/roost"
 	"administrative cost" 2
@@ -3493,6 +3551,7 @@ ship "Roost"
 
 
 ship "Saber"
+	"display name" "军刀"
 	sprite "ship/saber"
 	thumbnail "thumbnail/saber"
 	"administrative cost" 2
@@ -3551,6 +3610,7 @@ ship "Saber"
 
 
 ship "Scout"
+	"display name" "侦察舰"
 	sprite "ship/scout"
 	thumbnail "thumbnail/scout"
 	"administrative cost" 1
@@ -3604,6 +3664,7 @@ ship "Scout"
 
 
 ship "Scrapper"
+	"display name" "拾荒者"
 	sprite "ship/pirate scrapper"
 	thumbnail "thumbnail/pirate scrapper"
 	"administrative cost" 1
@@ -3648,6 +3709,7 @@ ship "Scrapper"
 
 
 ship "Shuttle"
+	"display name" "穿梭机"
 	sprite "ship/shuttle"
 		"frame time" 4
 		"delay" 14
@@ -3695,6 +3757,7 @@ ship "Shuttle"
 
 
 ship "Skein"
+	"display name" "雁阵"
 	sprite "ship/skein"
 	thumbnail "thumbnail/skein"
 	"administrative cost" 3
@@ -3772,6 +3835,7 @@ ship "Skein"
 
 
 ship "Sparrow"
+	"display name" "麻雀"
 	sprite "ship/sparrow"
 	thumbnail "thumbnail/sparrow"
 	"administrative cost" 1
@@ -3821,6 +3885,7 @@ ship "Sparrow"
 
 
 ship "Splinter"
+	"display name" "裂片"
 	sprite "ship/splinter"
 	thumbnail "thumbnail/splinter"
 	"administrative cost" 2
@@ -3880,6 +3945,7 @@ ship "Splinter"
 
 
 ship "Star Barge"
+	"display name" "星舟"
 	sprite "ship/star barge"
 	thumbnail "thumbnail/star barge"
 	"administrative cost" 1
@@ -3926,6 +3992,7 @@ ship "Star Barge"
 
 
 ship "Star Queen"
+	"display name" "星后"
 	sprite "ship/star queen"
 	thumbnail "thumbnail/star queen"
 	"administrative cost" 3
@@ -3989,6 +4056,7 @@ ship "Star Queen"
 
 
 ship "Sunder"
+	"display name" "撕裂者"
 	sprite "ship/sunder"
 	thumbnail "thumbnail/sunder"
 	"administrative cost" 1
@@ -4049,6 +4117,7 @@ ship "Sunder"
 
 
 ship "Surveillance Drone"
+	"display name" "侦察无人机"
 	sprite "ship/surveillance drone"
 	thumbnail "thumbnail/surveillance drone"
 	"administrative cost" 0
@@ -4086,6 +4155,7 @@ ship "Surveillance Drone"
 
 
 ship "Valkyrie"
+	"display name" "女武神"
 	sprite "ship/pirate valkyrie"
 	thumbnail "thumbnail/pirate valkyrie"
 	"administrative cost" 2
@@ -4150,6 +4220,7 @@ ship "Valkyrie"
 
 
 ship "Vanguard"
+	"display name" "先锋"
 	sprite "ship/vanguard"
 	thumbnail "thumbnail/vanguard"
 	"administrative cost" 4
@@ -4216,6 +4287,7 @@ ship "Vanguard"
 
 
 ship "Wasp"
+	"display name" "黄蜂"
 	sprite "ship/wasp"
 	thumbnail "thumbnail/wasp"
 	"administrative cost" 1

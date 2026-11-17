@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Energy Blaster"
+	"display name" "爆能炮"
 	category "Guns"
 	series "Guns"
 	index 01010
@@ -36,6 +37,7 @@ outfit "Energy Blaster"
 	description "虽然爆能炮并非最精准或最具破坏力的武器，但它体型小巧，足以安装在最小的飞船上，因此广受欢迎。单门爆能炮无法对大于战斗机的目标造成可观伤害，但装备多门爆能炮的飞船将变得不容小觑。"
 
 outfit "Twin Blaster"
+	"display name" "双联爆能炮"
 	category "Guns"
 	series "Guns"
 	index 01030
@@ -64,6 +66,7 @@ outfit "Twin Blaster"
 	description "爆能炮凭借其普及性、低廉的价格和稳定的性能，自问世之日起就让改装者们难以抗拒。这些爆能炮被螺栓固定在一起，装入单个炮位，能提供单门爆能炮两倍的伤害，但代价是两倍的热量和电力消耗，外加额外的质量。"
 
 outfit "Blaster Submunition"
+	"display name" "爆能弹"
 	weapon
 		sprite "projectile/blaster"
 		"hit effect" "blaster impact"
@@ -73,6 +76,7 @@ outfit "Blaster Submunition"
 		"hull damage" 6.6
 
 outfit "Blaster Turret"
+	"display name" "爆能炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01010
@@ -101,6 +105,7 @@ outfit "Blaster Turret"
 	description "爆能炮塔由一对安装于旋转平台上的爆能炮组成，使其可以向任何方向开火。精密的软件算法让炮塔能够修正目标的移动，使爆能炮塔即使面对小型快速战斗机也依然有效。由于需要拥有360度视野的特殊安装点，并非所有飞船都能装备炮塔。"
 
 outfit "Quad Blaster Turret"
+	"display name" "四联爆能炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01030
@@ -138,6 +143,7 @@ effect "blaster impact"
 
 
 outfit "Modified Blaster"
+	"display name" "改装爆能炮"
 	category "Guns"
 	series "Guns"
 	index 01020
@@ -162,6 +168,7 @@ outfit "Modified Blaster"
 	description "这是一门经过改装以略微提升威力的爆能炮，代价是射程缩短、能耗增加。改装爆能炮开火时还会产生极高的热量，增加了飞船过热的风险。"
 
 outfit "Twin Modified Blaster"
+	"display name" "双联改装爆能炮"
 	category "Guns"
 	series "Guns"
 	index 01040
@@ -190,6 +197,7 @@ outfit "Twin Modified Blaster"
 	description "一位富有进取心的工程师，大概是觉得改装爆能炮本身就令人恐惧的安全失控还不够，于是将两门这样的武器塞进了同一个炮口，用狂热的热忱粗陋地焊接在一起。这件武器究竟会在摧毁目标之前先熔化自身零部件，谁也说不准；或许其本意是双枪管能在开火之前就靠威慑力让敌人屈服。"
 
 outfit "Modified Blaster Submunition"
+	"display name" "改装爆能弹"
 	weapon
 		sprite "projectile/mod blaster"
 		"hit effect" "blaster impact"
@@ -199,6 +207,7 @@ outfit "Modified Blaster Submunition"
 		"hull damage" 8.8
 
 outfit "Modified Blaster Turret"
+	"display name" "改装爆能炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01020
@@ -227,6 +236,7 @@ outfit "Modified Blaster Turret"
 	description "这是改装爆能炮的炮塔版本，后者由爆能炮改装而来，以更高的能耗和热量为代价换取更强的威力。这些炮塔深受海盗及其他试图在飞船上尽可能堆砌火力的人的青睐。"
 
 outfit "Heavy Blaster"
+	"display name" "重型爆能炮"
 	category "Guns"
 	series "Guns"
 	index 01050
@@ -252,6 +262,7 @@ outfit "Heavy Blaster"
 
 
 outfit "Beam Laser"
+	"display name" "光束激光炮"
 	category "Guns"
 	series "Guns"
 	index 01050
@@ -277,6 +288,7 @@ outfit "Beam Laser"
 	description "在太空时代早期，被称为星渊的这片太空区域中的定居点，在与人类空间其他部分相对隔绝的情况下发展。这种隔绝的一个结果是，他们的武器技术主要使用光束武器，而非其他地方更常见的能量射弹武器。"
 
 outfit "Laser Turret"
+	"display name" "激光炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01040
@@ -316,6 +328,7 @@ effect "beam laser impact"
 
 
 outfit "Heavy Laser"
+	"display name" "重型激光炮"
 	category "Guns"
 	series "Guns"
 	index 01060
@@ -341,6 +354,7 @@ outfit "Heavy Laser"
 	description "重型激光是激光束的升级版，具有明显更远的射程和更高的功率。它主要适用于能量与空间充足的大型飞船，但有些飞行员认为，一门重型激光是替代一对激光束的理想选择，因为更远的射程弥补了它无法造成两倍伤害的不足。"
 
 outfit "Heavy Laser Turret"
+	"display name" "重型激光炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01050
@@ -380,6 +394,7 @@ effect "heavy laser impact"
 	"velocity scale" -.007
 
 outfit "Mining Laser"
+	"display name" "采矿激光"
 	category "Guns"
 	series "Guns"
 	index 01070
@@ -409,6 +424,7 @@ outfit "Mining Laser"
 
 
 outfit "Mining Laser Turret"
+	"display name" "采矿激光炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01060
@@ -442,6 +458,7 @@ outfit "Mining Laser Turret"
 
 
 outfit "Tractor Beam"
+	"display name" "牵引光束"
 	category "Turrets"
 	series "Tractor Beams"
 	index 10
@@ -471,6 +488,7 @@ effect "tractor beam"
 	"velocity scale" 1
 
 outfit "Electron Beam"
+	"display name" "电子束"
 	category "Guns"
 	series "Guns"
 	index 01080
@@ -496,6 +514,7 @@ outfit "Electron Beam"
 	description "电子束是星渊实验室的近期研发成果，这是一种更强大的武器，其设计与他们长盛不衰的激光枪类似。"
 
 outfit "Electron Turret"
+	"display name" "电子炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01070
@@ -535,6 +554,7 @@ effect "electron impact"
 
 
 outfit "Anti-Missile Turret"
+	"display name" "反导炮塔"
 	category "Turrets"
 	series "Anti-Missile"
 	index 01010
@@ -567,6 +587,7 @@ effect "small anti-missile"
 
 
 outfit "Heavy Anti-Missile Turret"
+	"display name" "重型反导炮塔"
 	category "Turrets"
 	series "Anti-Missile"
 	index 01020
@@ -599,6 +620,7 @@ effect "large anti-missile"
 
 
 outfit "Particle Cannon"
+	"display name" "粒子加农炮"
 	category "Guns"
 	series "Guns"
 	index 01090
@@ -636,6 +658,7 @@ effect "particle impact"
 
 
 outfit "Proton Gun"
+	"display name" "质子炮"
 	category "Guns"
 	series "Guns"
 	index 01100
@@ -660,6 +683,7 @@ outfit "Proton Gun"
 	description "质子炮最初是辛迪加试图逆向工程并大规模生产粒子加农炮的廉价竞争品。不幸的是，他们未能找到一种可靠的方法来保持光束的相干性，但由此产生的武器仍然受到一些船长的欢迎，尤其是作为反战斗机武器。"
 
 outfit "Proton Fragment"
+	"display name" "质子碎片"
 	weapon
 		sprite "projectile/proton fragment"
 			"no repeat"
@@ -681,6 +705,7 @@ effect "proton impact"
 
 
 outfit "Proton Turret"
+	"display name" "质子炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01080
@@ -710,6 +735,7 @@ outfit "Proton Turret"
 
 
 outfit "Plasma Cannon"
+	"display name" "等离子加农炮"
 	category "Guns"
 	series "Guns"
 	index 01110
@@ -737,6 +763,7 @@ outfit "Plasma Cannon"
 	description "等离子加农炮发射过热的等离子脉冲。除了对目标造成伤害外，这些等离子脉冲还会传递大量热量，尤其对护盾失效的目标效果显著。"
 
 outfit "Plasma Turret"
+	"display name" "等离子炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 01090
@@ -768,6 +795,7 @@ outfit "Plasma Turret"
 	description "等离子炮塔是一对安装在炮塔上的等离子加农炮，使其可以向任何方向开火。这是一种可怕的武器，但只有最大的飞船才有其所需的空间和能量。"
 
 outfit "Plasma Repeater"
+	"display name" "等离子连射炮"
 	category "Guns"
 	series "Guns"
 	index 01120
@@ -808,6 +836,7 @@ effect "plasma explosion"
 
 
 outfit "Flamethrower"
+	"display name" "火焰喷射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01160
@@ -834,6 +863,7 @@ outfit "Flamethrower"
 	description "这是一种外观粗犷但颇具威慑力的武器，火焰喷射器会引燃你的超空间燃料，并将其化作一道洪流喷向敌人。它造成的伤害相对较低，但对于已经接近其热容量极限的目标，它可以使其过热，暂时使其失去战斗力。"
 
 outfit "Flamethrower Projectile"
+	"display name" "火焰喷射器射流"
 	weapon
 		sprite "projectile/flamethrower"
 			"frame rate" 17
@@ -875,6 +905,7 @@ effect "flamethrower hit"
 
 
 outfit "Meteor Missile"
+	"display name" "流星导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 01020
@@ -885,7 +916,8 @@ outfit "Meteor Missile"
 	description "流星导弹是流星导弹发射器的弹药。每个导弹发射器都有自己的容量；如果你没有先购买挂舱、发射器或存储设备来存放它们，你就无法安装导弹。"
 
 outfit "Meteor Missile Box"
-	plural "流星导弹箱"
+	"display name" "流星导弹箱"
+	"plural" "流星导弹箱"
 	series "Ammunition"
 	index 01021
 	category "Ammunition"
@@ -898,6 +930,7 @@ outfit "Meteor Missile Box"
 	description "流星导弹箱用于储存流星导弹发射器的额外弹药。"
 
 outfit "Meteor Missile Launcher"
+	"display name" "流星导弹发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01050
@@ -940,6 +973,7 @@ outfit "Meteor Missile Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Meteor Missile Pod"
+	"display name" "流星导弹挂舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01040
@@ -1005,6 +1039,7 @@ outfitter "Meteor Missile Restock"
 
 
 outfit "Sidewinder Missile"
+	"display name" "响尾蛇导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 01030
@@ -1015,6 +1050,7 @@ outfit "Sidewinder Missile"
 	description "响尾蛇导弹是响尾蛇导弹发射器的弹药；每台已安装的发射器最多可装填45枚，而挂舱可携带4枚。如果你没有挂舱或发射器来发射它，你就无法安装导弹。"
 
 outfit "Sidewinder Missile Rack"
+	"display name" "响尾蛇导弹架"
 	category "Ammunition"
 	series "Ammunition"
 	index 01031
@@ -1027,6 +1063,7 @@ outfit "Sidewinder Missile Rack"
 	description "响尾蛇导弹架用于为响尾蛇导弹发射器储存额外的弹药。"
 
 outfit "Sidewinder Missile Launcher"
+	"display name" "响尾蛇导弹发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01070
@@ -1071,6 +1108,7 @@ outfit "Sidewinder Missile Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Sidewinder Missile Pod"
+	"display name" "响尾蛇导弹挂舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01060
@@ -1139,6 +1177,7 @@ outfitter "Sidewinder Missile Restock"
 
 
 outfit "Javelin"
+	"display name" "标枪导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 01010
@@ -1149,6 +1188,7 @@ outfit "Javelin"
 	description "标枪导弹是标枪荚舱的弹药；没有荚舱来储存它们，您就无法购买或使用标枪。"
 
 outfit "Javelin Storage Crate"
+	"display name" "标枪储存箱"
 	category "Ammunition"
 	series "Ammunition"
 	index 01011
@@ -1161,6 +1201,7 @@ outfit "Javelin Storage Crate"
 	description "标枪储存箱用于为标枪荚舱储存额外的弹药。"
 
 outfit "Javelin Pod"
+	"display name" "标枪荚舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01020
@@ -1194,6 +1235,7 @@ outfit "Javelin Pod"
 			has "gamerule: universal ammo restocking"
 
 outfit "Javelin Mini Pod"
+	"display name" "标枪迷你荚舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01010
@@ -1230,6 +1272,7 @@ outfit "Javelin Mini Pod"
 			has "gamerule: universal ammo restocking"
 
 outfit "Javelin Turret"
+	"display name" "标枪炮塔"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01030
@@ -1280,7 +1323,8 @@ outfitter "Javelin Restock"
 
 
 outfit "Torpedo"
-	plural "鱼雷"
+	"display name" "鱼雷"
+	"plural" "鱼雷"
 	series "Ammunition"
 	index 01050
 	category "Ammunition"
@@ -1291,6 +1335,7 @@ outfit "Torpedo"
 	description "鱼雷是鱼雷发射器的弹药。每个鱼雷发射器可容纳30枚。除非你已安装了用于发射鱼雷的发射器，否则无法安装鱼雷。"
 
 outfit "Torpedo Storage Rack"
+	"display name" "鱼雷储存架"
 	category "Ammunition"
 	series "Ammunition"
 	index 01051
@@ -1303,6 +1348,7 @@ outfit "Torpedo Storage Rack"
 	description "鱼雷储存架用于为鱼雷发射器储存额外的弹药。"
 
 outfit "Torpedo Launcher"
+	"display name" "鱼雷发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01110
@@ -1346,6 +1392,7 @@ outfit "Torpedo Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Torpedo Pod"
+	"display name" "鱼雷挂舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01100
@@ -1411,7 +1458,8 @@ outfitter "Torpedo Restock"
 
 
 outfit "Typhoon Torpedo"
-	plural "台风鱼雷"
+	"display name" "台风鱼雷"
+	"plural" "台风鱼雷"
 	series "Ammunition"
 	index 01060
 	category "Ammunition"
@@ -1422,6 +1470,7 @@ outfit "Typhoon Torpedo"
 	description "台风鱼雷是台风发射器的弹药。每个发射器可容纳30枚鱼雷。除非同时安装了发射器，否则无法安装台风鱼雷。"
 
 outfit "Typhoon Storage Tube"
+	"display name" "台风储存管"
 	category "Ammunition"
 	series "Ammunition"
 	index 01061
@@ -1434,6 +1483,7 @@ outfit "Typhoon Storage Tube"
 	description "台风储存管用于存储台风发射器的额外弹药。"
 
 outfit "Typhoon Launcher"
+	"display name" "台风发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01130
@@ -1477,6 +1527,7 @@ outfit "Typhoon Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Typhoon Pod"
+	"display name" "台风挂舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01120
@@ -1542,6 +1593,7 @@ outfitter "Typhoon Torpedo Restock"
 
 
 outfit "Heavy Rocket"
+	"display name" "重型火箭"
 	category "Ammunition"
 	series "Ammunition"
 	index 01040
@@ -1552,6 +1604,7 @@ outfit "Heavy Rocket"
 	description "重型火箭是重型火箭发射器的弹药。你必须先安装发射器才能使用它。每个发射器最多可容纳20枚火箭。"
 
 outfit "Heavy Rocket Rack"
+	"display name" "重型火箭架"
 	category "Ammunition"
 	series "Ammunition"
 	index 01041
@@ -1564,6 +1617,7 @@ outfit "Heavy Rocket Rack"
 	description "重型火箭架用于储存重型火箭发射器的额外弹药。"
 
 outfit "Heavy Rocket Launcher"
+	"display name" "重型火箭发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01090
@@ -1603,6 +1657,7 @@ outfit "Heavy Rocket Launcher"
 			has "gamerule: universal ammo restocking"
 
 outfit "Heavy Rocket Pod"
+	"display name" "重型火箭吊舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01080
@@ -1669,6 +1724,7 @@ outfitter "Heavy Rocket Restock"
 
 
 outfit "Nuclear Missile"
+	"display name" "核导弹"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01170
@@ -1748,7 +1804,8 @@ effect "nuke residue slow"
 
 
 outfit "Gatling Gun Ammo"
-	plural "加特林弹药"
+	"display name" "加特林弹药"
+	"plural" "加特林弹药"
 	category "Ammunition"
 	series "Ammunition"
 	index 01070
@@ -1759,7 +1816,8 @@ outfit "Gatling Gun Ammo"
 	description "这种简单的弹药筒是加特林机枪的弹药，弹头使用贫化核燃料或发光曳光弹。由于这种弹药主要在贫困工作条件下由奴隶儿童在海盗世界上制造，因此枪口初速的差异可达30%，且曳光弹分布很少均匀。"
 
 outfit "Bullet Boxes"
-	plural "弹药箱"
+	"display name" "弹药箱"
+	"plural" "弹药箱"
 	category "Ammunition"
 	series "Ammunition"
 	index 01071
@@ -1772,6 +1830,7 @@ outfit "Bullet Boxes"
 	description "弹药箱用于存储加特林机枪的额外弹药。"
 
 outfit "Gatling Gun"
+	"display name" "加特林机枪"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01140
@@ -1805,6 +1864,7 @@ outfit "Gatling Gun"
 			has "gamerule: universal ammo restocking"
 
 outfit "Gatling Turret"
+	"display name" "加特林炮塔"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01150

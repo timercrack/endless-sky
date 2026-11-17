@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Phantom Pallet"
+	"display name" "幻影托盘"
 	category "Systems"
 	series "Special Systems"
 	index 02020
@@ -27,6 +28,7 @@ outfit "Phantom Pallet"
 	description `亥族全息装备由一组独立的“全息板”组成，这些全息板协同工作以构建更大的场景。“幻影托盘”是这类全息板的无羁者变体，其坚固程度足以在交火中幸存，且能轻易隐藏在地板、墙壁或天花板中而不被察觉。一位富有进取心的私掠者可能会用它们铺满货舱，并投影出伪装的货物作为传感器幻影，使扫描仪误扫空舱而非违禁品——这段额外的时间往往就是货物被查扣与成功运送急需物资之间的关键差别。`
 
 outfit "Holovid Zone"
+	"display name" "全息影音区"
 	category "Systems"
 	series "Special Systems"
 	index 02030
@@ -45,6 +47,7 @@ outfit "Holovid Zone"
 	description "	这种装置潜力无限……尤其是被狡猾的船长滥用时。如果执法人员搜查违禁品或非法装备，全息影音区足以迷惑他们，为走私者争取逃离时间。在一艘装载了五十吨全息稻草的飞船里，想找到死亡棒可没那么容易。"
 
 outfit "Pulse Cannon"
+	"display name" "脉冲炮"
 	category "Guns"
 	series "Guns"
 	index 02010
@@ -69,6 +72,7 @@ outfit "Pulse Cannon"
 	description "如同你所见过的多数亥族工程造物，脉冲炮并非特别先进或优雅的技术，但它以高效、可靠和均衡而著称。"
 
 outfit "Pulse Turret"
+	"display name" "脉冲炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 02010
@@ -97,6 +101,7 @@ outfit "Pulse Turret"
 	description "脉冲炮是亥族舰船所使用的主要进攻武器。该炮塔并排安装了两门脉冲炮，这使它们能够追踪即使是移动速度最快的目标。"
 
 outfit "Tripulse Shredder"
+	"display name" "三脉冲碎裂炮"
 	category "Guns"
 	series "Guns"
 	index 02020
@@ -135,6 +140,7 @@ effect "pulse impact"
 
 
 outfit "Ion Cannon"
+	"display name" "离子炮"
 	category "Guns"
 	series "Guns"
 	index 02030
@@ -176,6 +182,7 @@ effect "ion impact"
 
 
 outfit "Ionic Blaster Prototype"
+	"display name" "离子冲击炮原型"
 	category "Guns"
 	series "Guns"
 	index 02040
@@ -205,6 +212,7 @@ outfit "Ionic Blaster Prototype"
 	description "无羁者与其余亥族的冲突迫使他们尽管资源有限，也要获取技术优势。离子冲击炮正是这种压力下的产物。它比老旧的离子炮小得多，同时按尺寸计算能造成更多原始伤害。它仍然具备部分相同的能量汲取效果，但无羁者的科学家将其重心进一步偏向干扰敌方武器。"
 
 outfit "Ionic Turret Prototype"
+	"display name" "离子炮塔原型"
 	category "Turrets"
 	series "Turrets"
 	index 02020
@@ -311,6 +319,7 @@ outfit "Railgun"
 			has "gamerule: universal ammo restocking"
 
 outfit "rslug"
+	"display name" "弄蝶电磁弹丸"
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
@@ -351,6 +360,7 @@ outfitter "Railgun Slug Restock"
 
 
 outfit "Hai Tracker"
+	"display name" "亥族追踪弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 02010
@@ -361,6 +371,7 @@ outfit "Hai Tracker"
 	description "这是追踪弹吊舱的弹药。"
 
 outfit "Tracker Storage Pod"
+	"display name" "追踪弹储存舱"
 	category "Ammunition"
 	series "Ammunition"
 	index 02011
@@ -373,6 +384,7 @@ outfit "Tracker Storage Pod"
 	description "追踪弹储存舱用于存放追踪弹吊舱的额外弹药。"
 
 outfit "Hai Tracker Pod"
+	"display name" "亥族追踪弹吊舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 02010
@@ -461,6 +473,7 @@ outfitter "Hai Tracker Restock"
 
 
 outfit "Bullfrog Anti-Missile"
+	"display name" "牛蛙反导炮"
 	category "Turrets"
 	series "Anti-Missile"
 	index 02010
@@ -485,6 +498,7 @@ outfit "Bullfrog Anti-Missile"
 
 
 outfit "Chameleon Anti-Missile"
+	"display name" "变色龙反导炮"
 	category "Turrets"
 	series "Anti-Missile"
 	index 02020
@@ -510,6 +524,7 @@ outfit "Chameleon Anti-Missile"
 
 
 outfit "Hai Cuttlefish Jammer"
+	"display name" "亥族乌贼干扰器"
 	category "Systems"
 	series "Jammers"
 	index 02010
@@ -522,6 +537,7 @@ outfit "Hai Cuttlefish Jammer"
 	description "当亥族最初开始内战时，针对追踪弹的防御需求迅速显现。乌贼干扰器能通过投射一个看似更佳但实际上虚幻的目标，显著干扰追踪弹对舰船的锁定。这种干扰器对于因无法搭载足够反导设备而难以有效拦截来自四面八方导弹的大型舰船最为有效。"
 
 outfit "Hai Octopus Jammer"
+	"display name" "亥族章鱼干扰器"
 	category "Systems"
 	series "Jammers"
 	index 02020
@@ -535,6 +551,7 @@ outfit "Hai Octopus Jammer"
 
 
 outfit "Hai Corundum Regenerator"
+	"display name" "亥族刚玉再生器"
 	category "Systems"
 	series "Shields"
 	index 02010
@@ -549,6 +566,7 @@ outfit "Hai Corundum Regenerator"
 	description "亥族护盾再生器通过微妙调整护盾矩阵的几何结构与谐波，使其更具可塑性，从而大幅简化充能过程。遗憾的是，此系统需持续供能，且再生过程中会产生可观的热量。"
 
 outfit "Hai Diamond Regenerator"
+	"display name" "亥族钻石再生器"
 	category "Systems"
 	series "Shields"
 	index 02020
@@ -563,6 +581,7 @@ outfit "Hai Diamond Regenerator"
 	description "亥族钻石护盾再生器是一种先进的护盾充能技术。遗憾的是，其能耗相当高，且在充能时，它对护盾矩阵的调整会在再生器处产生剧烈热量。因此，亥族在搭载此再生器时，通常会配合使用威利瓦散热器。"
 
 outfit "Hai Williwaw Cooling"
+	"display name" "亥族威利瓦散热器"
 	category "Systems"
 	series "Cooling"
 	index 02010
@@ -574,6 +593,7 @@ outfit "Hai Williwaw Cooling"
 	description "尽管亥族技术在散热效率上表现出色，但有时他们对飞船的配置也会导致零星的过热停机故障。一旦遇到这种情况，他们就会安装这些设备。"
 
 outfit "Quantum Keystone"
+	"display name" "量子拱心石"
 	series "Drives"
 	index 50
 	category "Systems"
@@ -586,6 +606,7 @@ outfit "Quantum Keystone"
 	description "	此楔石附带一整套配件，包括一张证明其源自亥族故土的全息薄膜真品证书，一个美观而坚固的镜框，以及一块印有楔石标志和销售编号的小铭牌。包装建议将装框的证书悬挂在主气闸或公共活动区附近的显眼位置。"
 
 outfit "Value Detector"
+	"display name" "价值探测器"
 	category "Systems"
 	series "Scanners"
 	index 02010
@@ -600,7 +621,8 @@ outfit "Value Detector"
 	description "无羁者开发了这种扫描仪，以判断哪些飞船值得掠夺，或者哪些飞船缺乏抵抗其离子武器的能力。尽管一些亥族认为它相当简陋，但它足以远距离识别飞船上的货物，并提供关于敌方舰船战术状况的更详细信息。在部署实验性武器时，这种双重功能非常实用。"
 
 outfit "Hai Chasm Batteries"
-	plural "亥族狭缝电池"
+	"display name" "亥族狭缝电池"
+	"plural" "亥族狭缝电池"
 	category "Power"
 	series "Batteries"
 	index 02010
@@ -612,7 +634,8 @@ outfit "Hai Chasm Batteries"
 	description "亥族的能量存储技术已有数千年历史，但依然极其简单而可靠。这是最小的亥族电池组。"
 
 outfit "Hai Fissure Batteries"
-	plural "亥族裂隙电池"
+	"display name" "亥族裂隙电池"
+	"plural" "亥族裂隙电池"
 	category "Power"
 	series "Batteries"
 	index 02020
@@ -624,7 +647,8 @@ outfit "Hai Fissure Batteries"
 	description "这个电池组的储能容量是亥族狭缝电池的三倍以上，能够让飞船在耗尽能量前进行更长时间的战斗。"
 
 outfit "Hai Gorge Batteries"
-	plural "亥族沟壑电池"
+	"display name" "亥族沟壑电池"
+	"plural" "亥族沟壑电池"
 	category "Power"
 	series "Batteries"
 	index 02030
@@ -636,7 +660,8 @@ outfit "Hai Gorge Batteries"
 	description "这种中型电池组非常适合满足亥族的大部分电力需求，支持中等时长的战斗交火。在搭配小型发电机和超大号引擎使用时，它也有助于保持飞船较低的热特征。"
 
 outfit "Hai Ravine Batteries"
-	plural "亥族深谷电池"
+	"display name" "亥族深谷电池"
+	"plural" "亥族深谷电池"
 	category "Power"
 	series "Batteries"
 	index 02040
@@ -648,7 +673,8 @@ outfit "Hai Ravine Batteries"
 	description "这款大型电池组拥有比小型号更高的能量密度，能帮助飞船在遭受数次离子炮击后仍保持战斗力。"
 
 outfit "Hai Valley Batteries"
-	plural "亥族山谷电池"
+	"display name" "亥族山谷电池"
+	"plural" "亥族山谷电池"
 	category "Power"
 	series "Batteries"
 	index 02050
@@ -661,6 +687,7 @@ outfit "Hai Valley Batteries"
 
 
 outfit "Boulder Reactor"
+	"display name" "巨石反应堆"
 	category "Power"
 	series "Generators"
 	index 02040
@@ -673,6 +700,7 @@ outfit "Boulder Reactor"
 	description "这些微型聚变发电机是亥族在其领地遭受科拉斯袭击的时期设计的。在如今相对和平的时期，他们认为没有必要更新这一设计。"
 
 outfit "Geode Reactor"
+	"display name" "晶洞反应堆"
 	category "Power"
 	series "Generators"
 	index 02030
@@ -685,6 +713,7 @@ outfit "Geode Reactor"
 	description "在星际物种中，裂变反应堆被视为一种初级技术。尽管如此，它依然是一项经过验证且安全的技术，就连亥族也相当频繁地使用它。"
 
 outfit "Pebble Core"
+	"display name" "砾石核心"
 	category "Power"
 	series "Generators"
 	index 02020
@@ -697,6 +726,7 @@ outfit "Pebble Core"
 	description "砾石核心是一种小型化核反应堆，尺寸小到可以安装在任何大于战斗机的飞船上。亥族为其较小型的飞船开发了该型号。"
 
 outfit "Sand Cell"
+	"display name" "沙粒电池"
 	category "Power"
 	series "Generators"
 	index 02010
@@ -710,7 +740,8 @@ outfit "Sand Cell"
 
 
 outfit `"Baellie" Atomic Engines`
-	plural `“贝利”原子引擎`
+	"display name" "“贝利”原子引擎"
+	"plural" "“贝利”原子引擎"
 	category "Engines"
 	series "Engines"
 	index 02010
@@ -736,6 +767,7 @@ outfit `"Baellie" Atomic Engines`
 	description `在亥族设计“跳蚤”时，很快发现即便是“巴瑟姆”引擎组也显得过于庞大。因此，他们开发了一款集成了推进与转向的组合式引擎：“贝利”。`
 
 outfit `"Basrem" Atomic Thruster`
+	"display name" "“巴瑟姆”原子推进器"
 	category "Engines"
 	series "Engines"
 	index 02021
@@ -754,6 +786,7 @@ outfit `"Basrem" Atomic Thruster`
 	description "星渊的科学家们并不知道，亥族使用原子引擎技术已有数千年之久。虽然亥族的原子引擎比其他引擎更耗能，但其效率比人类的同类引擎更高。"
 
 outfit `"Benga" Atomic Thruster`
+	"display name" "“本加”原子推进器"
 	category "Engines"
 	series "Engines"
 	index 02031
@@ -771,6 +804,7 @@ outfit `"Benga" Atomic Thruster`
 	description "在人类空间，原子引擎难得一见且是种奢望；与之不同的是，多年来被局限在银河系中一个相对侠小区域的经历，使所有亥族飞船得以全部配备原子引擎。"
 
 outfit `"Biroo" Atomic Thruster`
+	"display name" "“比鲁”原子推进器"
 	category "Engines"
 	series "Engines"
 	index 02041
@@ -788,6 +822,7 @@ outfit `"Biroo" Atomic Thruster`
 	description "这种推进器是大多数亥族轻型战舰的标准配置，其提供的推力足以让战舰在战斗中发挥作用，但对于像亥族盾甲虫这样庞大的舰船来说，它的尺寸还不够大。"
 
 outfit `"Bondir" Atomic Thruster`
+	"display name" "“邦迪尔”原子推进器"
 	category "Engines"
 	series "Engines"
 	index 02051
@@ -805,6 +840,7 @@ outfit `"Bondir" Atomic Thruster`
 	description "当幽海星正忙于研发战斗用原子引擎时，亥族也在努力改进自己的技术。正因如此，亥族原子引擎相比人类型号效率极高，点火时所需的能量更少，而且在此过程中产生的热量也更低。"
 
 outfit `"Bufaer" Atomic Thruster`
+	"display name" "“布法尔”原子推进器"
 	category "Engines"
 	series "Engines"
 	index 02061
@@ -822,6 +858,7 @@ outfit `"Bufaer" Atomic Thruster`
 	description "这些推进器是亥族原子推进器中体型最大的，也是已知空间中最强大的推进器之一。其性能仅次于人类最大的原子推进器，这些庞大的引擎能提供足够的推力，让哪怕是体型最大的飞船也能像战斗机般灵活机动。"
 
 outfit `"Basrem" Reverse Thruster`
+	"display name" "“巴瑟姆”反向推进器"
 	category "Engines"
 	series "Engines"
 	index 02022
@@ -840,6 +877,7 @@ outfit `"Basrem" Reverse Thruster`
 	description `微小的“巴瑟姆”反向推进器使最轻小的亥族飞船也得以获得常规转向之外的额外机动性。许多年轻的亥族人在首次独自闯荡时，都会发现这是一笔无价的投资。`
 
 outfit `"Benga" Reverse Thruster`
+	"display name" "“本加”反向推进器"
 	category "Engines"
 	series "Engines"
 	index 02032
@@ -857,6 +895,7 @@ outfit `"Benga" Reverse Thruster`
 	description "许多亥族货船飞行员认为此类反向推进器虽然价格高昂却完全物有所值，因而纷纷选择安装，以弥补大型亥族舰船通常较弱的转向能力。"
 
 outfit `"Biroo" Reverse Thruster`
+	"display name" "“比鲁”反向推进器"
 	category "Engines"
 	series "Engines"
 	index 02042
@@ -874,6 +913,7 @@ outfit `"Biroo" Reverse Thruster`
 	description "由于在实际需要机动性时，飞行员通常更倾向于专注于转向，因而这是亥族所能提供的最大型反向推进器。相较于其尺寸，它们依然拥有令人惊叹的充沛动力，使得即使是最大的亥族飞船在需要时也能迅速刹停。"
 
 outfit `"Basrem" Atomic Steering`
+	"display name" "“巴瑟姆”原子转向器"
 	category "Engines"
 	series "Engines"
 	index 02020
@@ -892,6 +932,7 @@ outfit `"Basrem" Atomic Steering`
 	description "对于大多数人类而言，购买亥族原子引擎的价格过于昂贵。除了最小的型号之外，其他每款引擎的价值都超过了人类空间中许多最常见飞船的整船造价。"
 
 outfit `"Benga" Atomic Steering`
+	"display name" "“本加”原子转向器"
 	category "Engines"
 	series "Engines"
 	index 02030
@@ -909,6 +950,7 @@ outfit `"Benga" Atomic Steering`
 	description "由于尺寸小巧且效能优异，亥族原子引擎使得一些飞船能够进行已知空间中最高程度的个性化定制。少数能够攒够钱购买一套亥族引擎的人类，其飞船展现出的超高效率通常会让其他人类同行为之惊叹。"
 
 outfit `"Biroo" Atomic Steering`
+	"display name" "“比鲁”原子转向器"
 	category "Engines"
 	series "Engines"
 	index 02040
@@ -926,6 +968,7 @@ outfit `"Biroo" Atomic Steering`
 	description "拥有如此强劲的引擎对亥族而言是一把双刃剑，因为无羁亥族同样掌握了这些强大的技术奇迹。这些引擎能让大多数亥族飞船以惊人的速度转向，使其在战斗中极其致命。"
 
 outfit `"Bondir" Atomic Steering`
+	"display name" "“邦迪尔”原子转向器"
 	category "Engines"
 	series "Engines"
 	index 02050
@@ -943,6 +986,7 @@ outfit `"Bondir" Atomic Steering`
 	description "这些引擎专供少数特定亥族飞船使用，是所能买到的最昂贵装备之一。其效率比同尺寸的任何其他引擎都要高得多，使得亥族原子引擎成为任何需要高转向速度之人的不二之选。"
 
 outfit `"Bufaer" Atomic Steering`
+	"display name" "“布法尔”原子转向器"
 	category "Engines"
 	series "Engines"
 	index 02060
@@ -961,6 +1005,7 @@ outfit `"Bufaer" Atomic Steering`
 
 
 outfit "Pulse Rifle"
+	"display name" "脉冲步枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 02010
@@ -974,6 +1019,7 @@ outfit "Pulse Rifle"
 
 
 outfit "Shield Beetle Pendant"
+	"display name" "盾甲虫吊坠"
 	category "Unique"
 	series "Functional Unique"
 	index 30

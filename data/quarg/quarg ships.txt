@@ -13,6 +13,7 @@
 
 
 ship "Quarg Lindwyrm"
+	"display name" "夸格林德蠕龙"
 	sprite "ship/quarg lindwyrm"
 	thumbnail "thumbnail/quarg lindwyrm"
 	"administrative cost" 9
@@ -64,6 +65,7 @@ ship "Quarg Lindwyrm"
 
 
 ship "Quarg Guivre"
+	"display name" "夸格吉夫尔"
 	sprite "ship/quarg guivre"
 	thumbnail "thumbnail/quarg guivre"
 	"administrative cost" 14
@@ -115,6 +117,7 @@ ship "Quarg Guivre"
 
 
 ship "Quarg Drake"
+	"display name" "夸格火龙"
 	sprite "ship/quarg drake"
 	thumbnail "thumbnail/quarg drake"
 	"administrative cost" 8
@@ -168,6 +171,7 @@ ship "Quarg Drake"
 
 
 ship "Quarg Wardragon"
+	"display name" "夸格战龙"
 	sprite "ship/quarg wardragon"
 	thumbnail "thumbnail/quarg wardragon"
 	"administrative cost" 8
@@ -220,6 +224,7 @@ ship "Quarg Wardragon"
 
 
 ship "Quarg Wyvern"
+	"display name" "夸格飞龙"
 	sprite "ship/quarg wyvern"
 	thumbnail "thumbnail/quarg wyvern"
 	"administrative cost" 10
@@ -273,6 +278,7 @@ ship "Quarg Wyvern"
 
 
 ship "Quarg Hydra"
+	"display name" "夸格九头蛇"
 	sprite "ship/quarg hydra"
 	thumbnail "thumbnail/quarg hydra"
 	"administrative cost" 15

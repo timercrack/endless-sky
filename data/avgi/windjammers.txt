@@ -93,6 +93,7 @@ mission "Avgi: Gossamer Sailors"
 # Outfits
 
 outfit "Pinecone Launcher"
+	"display name" "松果发射器"
 	category "Guns"
 	series "Guns"
 	index 92010
@@ -122,7 +123,8 @@ outfit "Pinecone Launcher"
 
 
 outfit "Pollen"
-	plural "花粉"
+	"display name" "花粉"
+	"plural" "花粉"
 	category "Minerals"
 	cost 12000
 	thumbnail "outfit/pollen particle"
@@ -136,6 +138,7 @@ outfit "Pollen"
 
 
 outfit "Jamfruit"
+	"display name" "酱果"
 	category "Minerals"
 	cost 36000
 	thumbnail "outfit/jamfruit pod"
@@ -150,6 +153,7 @@ outfit "Jamfruit"
 # Ships
 
 ship "Windjammer"
+	"display name" "风帆树"
 	sprite "ship/windjammer"
 	thumbnail "ship/windjammer"
 	"uncapturable"
@@ -427,6 +431,7 @@ ship "Bluejacket"
 
 
 ship "Pollen"
+	"display name" "花粉"
 	"never disabled"
 	swizzle 0
 	sprite "ship/pollen"
@@ -462,6 +467,7 @@ ship "Pollen"
 
 
 ship "Sprout"
+	"display name" "嫩芽"
 	sprite "ship/pollen"
 	thumbnail "ship/pollen"
 	"uncapturable"

@@ -13,7 +13,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Generator (Candle Class)"
-	plural "发电机（蜡烛级）"
+	"display name" "发电机（蜡烛级）"
+	"plural" "发电机（蜡烛级）"
 	category "Power"
 	series "Generators"
 	index 04010
@@ -26,7 +27,8 @@ outfit "Generator (Candle Class)"
 	description "这个微型发电机利用某些特别不稳定的核同位素放射性衰变产生的热量，产生大量能量。"
 
 outfit "Generator (Furnace Class)"
-	plural "发电机（熔炉星级）"
+	"display name" "发电机（熔炉级）"
+	"plural" "发电机（熔炉级）"
 	category "Power"
 	series "Generators"
 	index 04020
@@ -39,7 +41,8 @@ outfit "Generator (Furnace Class)"
 	description "科拉斯装备极其耗能，因此即便在战斗机和截击机上，他们也使用辐射热发电机，而非依赖燃料电池或其他类似技术。"
 
 outfit "Generator (Inferno Class)"
-	plural "发电机（地狱火级）"
+	"display name" "发电机（炼狱级）"
+	"plural" "发电机（炼狱级）"
 	category "Power"
 	series "Generators"
 	index 04030
@@ -52,6 +55,7 @@ outfit "Generator (Inferno Class)"
 	description "科拉斯人对技术对环境的影响一贯漠不关心，他们在这种辐射热发电机中放入了一些相当危险的同位素。其可观的能量输出被产生的热量所抵消。"
 
 outfit "Plasma Core"
+	"display name" "等离子核心"
 	category "Power"
 	series "Generators"
 	index 04040
@@ -64,6 +68,7 @@ outfit "Plasma Core"
 	description "这款紧凑型聚变反应堆是古老科拉斯设计的产物，曾是科拉斯战争舰队的主力装备，直到更大型舰船与更强力武器的出现，催生了对更大功率发电机的需求。"
 
 outfit "Double Plasma Core"
+	"display name" "双联等离子核心"
 	category "Power"
 	series "Generators"
 	index 04050
@@ -76,6 +81,7 @@ outfit "Double Plasma Core"
 	description "该反应堆核心将两个古老而坚固的科拉斯等离子核心整合到一个组件中。"
 
 outfit "Triple Plasma Core"
+	"display name" "三联等离子核心"
 	category "Power"
 	series "Generators"
 	index 04060
@@ -90,6 +96,7 @@ outfit "Triple Plasma Core"
 
 
 outfit "Small Heat Shunt"
+	"display name" "小型热分流器"
 	category "Systems"
 	series "Cooling"
 	index 04010
@@ -101,6 +108,7 @@ outfit "Small Heat Shunt"
 	description "大多数科拉斯装备极低的效率，迫使他们在处理大量废热这一方面变得异常出色。"
 
 outfit "Large Heat Shunt"
+	"display name" "大型热分流器"
 	category "Systems"
 	series "Cooling"
 	index 04020
@@ -112,6 +120,7 @@ outfit "Large Heat Shunt"
 	description "如果没有这些强大的冷却系统，大多数科拉斯战舰在开火后几秒钟内就会过热。"
 
 outfit "Liquid Sodium Cooler"
+	"display name" "液态钠冷却器"
 	category "Systems"
 	series "Cooling"
 	index 04030
@@ -127,7 +136,8 @@ outfit "Liquid Sodium Cooler"
 
 
 outfit "Systems Core (Tiny)"
-	plural "系统核心（微型）"
+	"display name" "系统核心（微型）"
+	"plural" "系统核心（微型）"
 	category "Systems"
 	series "Shields"
 	index 04010
@@ -144,7 +154,8 @@ outfit "Systems Core (Tiny)"
 	description `大部分科拉斯战斗机飞行员会舍弃系统核心，更倾向于运行比必要规格更大的发电机，并在受损后返回母舰。通常，只有民用小型飞船操作者才愿意牺牲足够的火力来安装这个护盾发生器、电容器、成群的维修微机器人以及控制它们的计算机。`
 
 outfit "Systems Core (Small)"
-	plural "系统核心（小型）"
+	"display name" "系统核心（小型）"
+	"plural" "系统核心（小型）"
 	category "Systems"
 	series "Shields"
 	index 04020
@@ -161,7 +172,8 @@ outfit "Systems Core (Small)"
 	description `任何科拉斯飞船的核心是系统核心，它容纳了飞船的中央计算机、护盾发生器、备用电源，以及一个储存、制造和回收小型微型机器人蜂群的小型储备舱，这些机器人可以在飞行中为飞船进行小规模维修。`
 
 outfit "Systems Core (Medium)"
-	plural "系统核心（中型）"
+	"display name" "系统核心（中型）"
+	"plural" "系统核心（中型）"
 	category "Systems"
 	series "Shields"
 	index 04030
@@ -178,7 +190,8 @@ outfit "Systems Core (Medium)"
 	description `系统核心配备了一台强大的计算机、护盾发生器、备用电源，以及一个用于控制维修微机器人的中心。这些微机器人能在飞船外壳上游走，缓慢修复船体的损伤。微机器人的储备足以支持数量可观的蜂群。`
 
 outfit "Systems Core (Large)"
-	plural "系统核心（大型）"
+	"display name" "系统核心（大型）"
+	"plural" "系统核心（大型）"
 	category "Systems"
 	series "Shields"
 	index 04040
@@ -196,6 +209,7 @@ outfit "Systems Core (Large)"
 
 
 outfit "Fuel Processor"
+	"display name" "燃料处理器"
 	category "Systems"
 	series "Ramscoops"
 	index 04010
@@ -209,6 +223,7 @@ outfit "Fuel Processor"
 
 
 outfit "Command Center"
+	"display name" "指挥中心"
 	category "Systems"
 	series "Passenger"
 	index 50
@@ -223,6 +238,7 @@ outfit "Command Center"
 	description "针对近期冲突后遗留的机器人战争机器偶尔发起的袭击，科埃弗雷特开发了这种极简、简陋的指挥中心。它可安装在被俘获的机器人飞船中，使驾驶员能够覆盖人工智能并与飞船控制系统交互。该指挥中心仅为船长提供一个铺位，因此如果飞船配备炮塔或其他需要船员操作的系统，可能需要增加额外的铺位。"
 
 outfit "Reasoning Node"
+	"display name" "推理节点"
 	category "Systems"
 	series "Special Systems"
 	index 04010
@@ -233,6 +249,7 @@ outfit "Reasoning Node"
 	description "这是一种先进的微型计算机，集成了多种传感器输入和超空间通信中继。据推测，它以某种方式控制着梅雷蒂自动机，或使它们能够更容易地协调彼此的运作。"
 
 outfit "Control Transceiver"
+	"display name" "控制收发器"
 	category "Systems"
 	series "Special Systems"
 	index 04020
@@ -244,7 +261,8 @@ outfit "Control Transceiver"
 
 
 outfit "Afterburner (Asteroid Class)"
-	plural "加力燃烧室（小行星级）"
+	"display name" "加力燃烧室（小行星级）"
+	"plural" "加力燃烧室（小行星级）"
 	category "Engines"
 	series "Afterburners"
 	index 04010
@@ -264,7 +282,8 @@ outfit "Afterburner (Asteroid Class)"
 	description "	科拉斯加力燃烧室将过热的超空间燃料直接泵入推进器的等离子流中，引发惊人的爆炸，可能会将推进器本身几乎熔化。"
 
 outfit "Afterburner (Comet Class)"
-	plural "加力燃烧室（彗星级）"
+	"display name" "加力燃烧室（彗星级）"
+	"plural" "加力燃烧室（彗星级）"
 	category "Engines"
 	series "Afterburners"
 	index 04020
@@ -282,7 +301,8 @@ outfit "Afterburner (Comet Class)"
 	description "	科拉斯加力燃烧室将过热的超空间燃料直接泵入推进器的等离子流中，产生惊人的爆炸，几乎熔化推进器。"
 
 outfit "Afterburner (Lunar Class)"
-	plural "加力燃烧室（月球级）"
+	"display name" "加力燃烧室（月球级）"
+	"plural" "加力燃烧室（月球级）"
 	category "Engines"
 	series "Afterburners"
 	index 04030
@@ -300,7 +320,8 @@ outfit "Afterburner (Lunar Class)"
 	description "	科拉斯加力燃烧室将过热的超空间燃料直接泵入推进器的等离子流中，产生惊人的爆炸，几乎熔化推进器。"
 
 outfit "Afterburner (Planetary Class)"
-	plural "加力燃烧室（行星级）"
+	"display name" "加力燃烧室（行星级）"
+	"plural" "加力燃烧室（行星级）"
 	category "Engines"
 	series "Afterburners"
 	index 04040
@@ -319,7 +340,8 @@ outfit "Afterburner (Planetary Class)"
 	description "	科拉斯加力燃烧室将过热的超空间燃料直接泵入推进器的等离子流中，产生惊人的爆炸，几乎熔化推进器。"
 
 outfit "Afterburner (Stellar Class)"
-	plural "加力燃烧室（恒星级）"
+	"display name" "加力燃烧室（恒星级）"
+	"plural" "加力燃烧室（恒星级）"
 	category "Engines"
 	series "Afterburners"
 	index 04060
@@ -410,7 +432,8 @@ effect "korath afterburner huge"
 
 
 outfit "Engine (Meteor Class)"
-	plural "引擎（流星级）"
+	"display name" "引擎（流星级）"
+	"plural" "引擎（流星级）"
 	category "Engines"
 	series "Engines"
 	index 04010
@@ -434,7 +457,8 @@ outfit "Engine (Meteor Class)"
 	description `尽管科拉斯人制造引擎的一贯理念是追求更大、更快、更强，但流亡者认为有必要开发此类引擎，让他们的战斗机能够搭载更大型的武器或更多货物，代价则是牺牲部分速度。`
 
 outfit "Bow Drive (Meteor Class)"
-	plural "舰首推进器（流星级）"
+	"display name" "舰首推进器（流星级）"
+	"plural" "舰首推进器（流星级）"
 	category "Engines"
 	series "Engines"
 	index 04011
@@ -459,7 +483,8 @@ outfit "Bow Drive (Meteor Class)"
 	description "此款流星级引擎改装件可作为反推器使用，搭配更强的基础推进器后，能为小型飞船提供全方位的机动能力。"
 
 outfit "Reverser (Asteroid Class)"
-	plural "反向推进器（小行星级）"
+	"display name" "反向推进器（小行星级）"
+	"plural" "反向推进器（小行星级）"
 	category "Engines"
 	series "Engines"
 	index 04022
@@ -479,7 +504,8 @@ outfit "Reverser (Asteroid Class)"
 	description "	这个科拉斯引擎经过改装，可以部分安装在飞船的武器槽位中，使其能够反向推动飞船。"
 
 outfit "Reverser (Comet Class)"
-	plural "反向推进器（彗星级）"
+	"display name" "反向推进器（彗星级）"
+	"plural" "反向推进器（彗星级）"
 	category "Engines"
 	series "Engines"
 	index 04032
@@ -499,7 +525,8 @@ outfit "Reverser (Comet Class)"
 	description "	这个科拉斯引擎经过改装，可以部分安装在飞船的武器槽位中，使其能够反向推动飞船。"
 
 outfit "Reverser (Lunar Class)"
-	plural "反向推进器（月球级）"
+	"display name" "反向推进器（月球级）"
+	"plural" "反向推进器（月球级）"
 	category "Engines"
 	series "Engines"
 	index 04042
@@ -519,7 +546,8 @@ outfit "Reverser (Lunar Class)"
 	description "	这个科拉斯引擎经过改装，可以部分安装在飞船的武器槽位中，使其能够反向推动飞船。"
 
 outfit "Reverser (Planetary Class)"
-	plural "反向推进器（行星级）"
+	"display name" "反向推进器（行星级）"
+	"plural" "反向推进器（行星级）"
 	category "Engines"
 	series "Engines"
 	index 04052
@@ -539,7 +567,8 @@ outfit "Reverser (Planetary Class)"
 	description "	这个科拉斯引擎经过改装，可以部分安装在飞船的武器槽位中，使其能够反向推动飞船。"
 
 outfit "Reverser (Stellar Class)"
-	plural "反向推进器（恒星级）"
+	"display name" "反向推进器（恒星级）"
+	"plural" "反向推进器（恒星级）"
 	category "Engines"
 	series "Engines"
 	index 04062
@@ -560,7 +589,8 @@ outfit "Reverser (Stellar Class)"
 
 
 outfit "Thruster (Asteroid Class)"
-	plural "推进器（小行星级）"
+	"display name" "推进器（小行星级）"
+	"plural" "推进器（小行星级）"
 	category "Engines"
 	series "Engines"
 	index 04021
@@ -578,7 +608,8 @@ outfit "Thruster (Asteroid Class)"
 	description "考虑到它的尺寸，这个微小的科拉斯推进器能产生相当强劲的推力。但同时，它也消耗相当多的能量。"
 
 outfit "Thruster (Comet Class)"
-	plural "推进器（彗星级）"
+	"display name" "推进器（彗星级）"
+	"plural" "推进器（彗星级）"
 	category "Engines"
 	series "Engines"
 	index 04031
@@ -596,7 +627,8 @@ outfit "Thruster (Comet Class)"
 	description "像大多数科拉斯技术一样，这款推进器的功率以能量消耗和热量输出为代价。"
 
 outfit "Thruster (Lunar Class)"
-	plural "推进器（月球级）"
+	"display name" "推进器（月球级）"
+	"plural" "推进器（月球级）"
 	category "Engines"
 	series "Engines"
 	index 04041
@@ -614,7 +646,8 @@ outfit "Thruster (Lunar Class)"
 	description "科拉斯人有一个备受质疑的特殊之处：他们依赖的推进系统所产生的废热，甚至超过了大多数其他种族的武器系统。"
 
 outfit "Thruster (Planetary Class)"
-	plural "推进器（行星级）"
+	"display name" "推进器（行星级）"
+	"plural" "推进器（行星级）"
 	category "Engines"
 	series "Engines"
 	index 04051
@@ -632,7 +665,8 @@ outfit "Thruster (Planetary Class)"
 	description "夸格人做事讲求效率，对科拉斯的推进系统尤为不齿。"
 
 outfit "Thruster (Stellar Class)"
-	plural "推进器（恒星级）"
+	"display name" "推进器（恒星级）"
+	"plural" "推进器（恒星级）"
 	category "Engines"
 	series "Engines"
 	index 04061
@@ -650,7 +684,8 @@ outfit "Thruster (Stellar Class)"
 	description "科拉斯人中流传着一个传说：当他们初次测试最新一代等离子推进器时，一支忧心忡忡的夸格舰队靠近并主动提出协助疏散科拉斯船员——他们以为那是一艘即将报废的飞船。夸格人随后惊讶地发现，从飞船尾部喷出的火焰实际上正是其预期的推进方式。"
 
 outfit "Steering (Asteroid Class)"
-	plural "转向系统（小行星级）"
+	"display name" "转向器（小行星级）"
+	"plural" "转向器（小行星级）"
 	category "Engines"
 	series "Engines"
 	index 04020
@@ -668,7 +703,8 @@ outfit "Steering (Asteroid Class)"
 	description "科拉斯人仅在他们最小型的飞船上使用这些转向系统。"
 
 outfit "Steering (Comet Class)"
-	plural "转向系统（彗星级）"
+	"display name" "转向器（彗星级）"
+	"plural" "转向器（彗星级）"
 	category "Engines"
 	series "Engines"
 	index 04030
@@ -686,7 +722,8 @@ outfit "Steering (Comet Class)"
 	description "这款紧凑型转向系统是科拉斯技术的经典范例：体积小巧、动力强劲，但效率低得令人叹息。"
 
 outfit "Steering (Lunar Class)"
-	plural "转向系统（月球级）"
+	"display name" "转向器（月球级）"
+	"plural" "转向器（月球级）"
 	category "Engines"
 	series "Engines"
 	index 04040
@@ -704,7 +741,8 @@ outfit "Steering (Lunar Class)"
 	description "科拉斯引擎几乎可以安装在任何飞船上，但如果没有同时配备一些科拉斯冷却系统，其热量输出往往会超出飞船的处理能力。"
 
 outfit "Steering (Planetary Class)"
-	plural "转向系统（行星级）"
+	"display name" "转向器（行星级）"
+	"plural" "转向器（行星级）"
 	category "Engines"
 	series "Engines"
 	index 04050
@@ -722,7 +760,8 @@ outfit "Steering (Planetary Class)"
 	description "其他种族或许会专注于尽可能高效地将能量转化为推力，而科拉斯人则致力于在最小的空间内塞入尽可能多的功率。这套转向系统就是他们工作的经典范例。"
 
 outfit "Steering (Stellar Class)"
-	plural "转向系统（恒星级）"
+	"display name" "转向器（恒星级）"
+	"plural" "转向器（恒星级）"
 	category "Engines"
 	series "Engines"
 	index 04060
@@ -740,6 +779,7 @@ outfit "Steering (Stellar Class)"
 	description "经过数千年的战争，科拉斯人开发出了一些真正庞大的战舰。这些转向系统使其最大的战舰在战斗中也能获得合理的机动性。"
 
 outfit "Arkrof GP Hybrid Thruster"
+	"display name" "阿克罗夫 GP 混合推进器"
 	category "Engines"
 	series "Engines"
 	index 04071
@@ -757,6 +797,7 @@ outfit "Arkrof GP Hybrid Thruster"
 	description "埃弗雷提工程师们开始不情愿地从他们并非全然欢迎的夸格守护者那里汲取灵感。在这系列引擎中融入引力推进技术，提高了推力输出，但代价是能耗更高。这些是同类中最小的基于引力等离子体的推进器。"
 
 outfit "Farves GP Hybrid Thruster"
+	"display name" "法维斯 GP 混合推进器"
 	category "Engines"
 	series "Engines"
 	index 04081
@@ -774,6 +815,7 @@ outfit "Farves GP Hybrid Thruster"
 	description "从星际跃迁驱动技术研究中被迫退出，使得埃弗雷提工程师们几乎只能摆弄亚光速推进技术。这些推进器便是这一努力的产物之一。通过将引力推进与传统等离子推进器相结合，这些引擎的散热得到了有效控制。"
 
 outfit "Gaktem GP Hybrid Thruster"
+	"display name" "加克特姆 GP 混合推进器"
 	category "Engines"
 	series "Engines"
 	index 04091
@@ -791,6 +833,7 @@ outfit "Gaktem GP Hybrid Thruster"
 	description "这些引擎的设计表明，埃弗雷提物理学家似乎比数学自洽却顽固不可证伪的弦理论走得更远。尽管埃弗雷提资源有限，但这些推进器使其引擎能够在保持科拉斯传统速度优势的同时，以小型封装降低热量输出。"
 
 outfit "Nelmeb GP Hybrid Thruster"
+	"display name" "内尔梅布 GP 混合推进器"
 	category "Engines"
 	series "Engines"
 	index 04101
@@ -809,6 +852,7 @@ outfit "Nelmeb GP Hybrid Thruster"
 	description "	这是埃弗雷提所能提供的最大型引力等离子推进器，因此通常仅装备于他们那些巨型民用舰船之上。尽管尺寸与推力惊人，但夸格对这种设计低效的本质仍然不以为意。"
 
 outfit "Arkrof GP Hybrid Steering"
+	"display name" "阿克罗夫 GP 混合转向器"
 	category "Engines"
 	series "Engines"
 	index 04070
@@ -826,6 +870,7 @@ outfit "Arkrof GP Hybrid Steering"
 	description "与大多数科拉斯引擎不同，埃弗雷提引擎并不完全依赖等离子体。引力等离子引擎将传统科拉斯等离子推进与受夸格启发的引力推进探索相结合。最小的转向系统以更高的能量消耗为代价，能够产生巨大的扭矩。"
 
 outfit "Farves GP Hybrid Steering"
+	"display name" "法维斯 GP 混合转向器"
 	category "Engines"
 	series "Engines"
 	index 04080
@@ -844,6 +889,7 @@ outfit "Farves GP Hybrid Steering"
 
 
 outfit "Gaktem GP Hybrid Steering"
+	"display name" "加克特姆 GP 混合转向器"
 	category "Engines"
 	series "Engines"
 	index 04090
@@ -862,6 +908,7 @@ outfit "Gaktem GP Hybrid Steering"
 	description "	除非搭配某些科拉斯电力系统，否则这个埃弗雷提转向系统的能耗往往超出飞船的承受能力。与同尺寸的其他科拉斯引擎相比，它们的主要优势是产热量更低。"
 
 outfit "Nelmeb GP Hybrid Steering"
+	"display name" "内尔梅布 GP 混合转向器"
 	category "Engines"
 	series "Engines"
 	index 04100
@@ -880,6 +927,7 @@ outfit "Nelmeb GP Hybrid Steering"
 	description "	这些姿态推进器比人们对于如此巨大的科拉斯引擎所预期的更加稳定，由埃弗雷提人开发，用于引导他们最庞大的飞船。其高能耗通常被最庞大的科拉斯聚变反应堆所抵消。"
 
 outfit "Thermal Repeater Rifle"
+	"display name" "热能连发步枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 04010
@@ -892,6 +940,7 @@ outfit "Thermal Repeater Rifle"
 	description "这种步枪在科拉斯族群中很常见，其历史比舰载级热能连发炮的诞生至少早了两个世纪。由于使用过热等离子体而非激光，这把步枪射速较慢，有时会因使用者疏忽而灼伤其双手。它通过确保被击中者无法活到还击来弥补这些缺陷。"
 
 outfit "Microbot Defense Station"
+	"display name" "微型机器人防御站"
 	category "Hand to Hand"
 	series "Fortifications"
 	index 04010

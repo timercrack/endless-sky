@@ -1294,6 +1294,7 @@ effect "puff"
 	"velocity scale" -.005
 
 outfit "Imaginary Weapon"
+	"display name" "虚构武器"
 	category "Guns"
 	"gun ports" -1
 	weapon
@@ -1315,6 +1316,7 @@ outfit "Imaginary Weapon"
 		"tracking" 1.
 
 ship "Hallucination"
+	"display name" "幻觉"
 	noun "花"
 	sprite "ship/hallucination"
 		"frame rate" 1
@@ -2030,6 +2032,7 @@ mission "Terraforming 2"
 
 
 ship "Asteroid"
+	"display name" "小行星"
 	noun "小行星"
 	sprite "asteroid/medium rock/spin"
 		"frame rate" 10
@@ -2621,6 +2624,7 @@ mission "Terminus exploration"
 			`	他又环顾四周，站直身体。然后提高音量，几乎是让周围所有人都能听到：“但当然，星渊从未弄明白如何制造足够大、能派上用场的虫洞，否则我们都不需要超光速引擎了，”他眨了眨眼说。“总之，再次感谢你的帮助。希望我们将来能再见。”`
 
 ship "Science Drone"
+	"display name" "科研无人机"
 	sprite "ship/science drone"
 	"administrative cost" 0
 	attributes
@@ -6940,6 +6944,7 @@ mission "Lost Racer Epilogue"
 			`	又花了大约半小时叙旧之后，你和这对父女道别，返回主太空港。`
 
 ship "Racing Flivver"
+	"display name" "竞速小破船"
 	sprite "ship/racing flivver"
 	thumbnail "thumbnail/racing flivver"
 	"administrative cost" 1
@@ -8197,6 +8202,7 @@ event "end of independent violence"
 
 # Feel free to change this escape shuttle to a different ship once escape pod mechanics are implemented.
 ship "Emergency Shuttle"
+	"display name" "紧急穿梭机"
 	sprite "ship/escape shuttle"
 	"administrative cost" 1
 	attributes

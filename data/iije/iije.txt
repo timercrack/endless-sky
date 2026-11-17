@@ -14,7 +14,8 @@
 # Creatures:
 
 ship "Jje"
-	plural "杰"
+	"display name" "杰"
+	"plural" "杰"
 	noun "生物"
 	"sprite" ship/jje/jje
 		"frame rate" 4
@@ -66,7 +67,8 @@ ship "Jje"
 	description "这是伊杰的一种青少年形态，刚刚吸收了大量的星尘、物质与能量。它们会受到蚀影星野昏暗太空中光线的吸引，偶尔可以看到它们成群飞行。"
 
 ship "Ayym"
-	plural "艾伊姆"
+	"display name" "艾伊姆"
+	"plural" "艾伊姆"
 	noun "生物"
 	"sprite" ship/ayym/ayym
 		"frame rate" 8

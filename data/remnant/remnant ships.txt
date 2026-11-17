@@ -14,7 +14,8 @@
 
 
 ship "Albatross"
-	plural "信天翁级"
+	"display name" "信天翁"
+	"plural" "信天翁"
 	sprite "ship/albatross"
 	thumbnail "thumbnail/albatross"
 	"administrative cost" 7
@@ -271,7 +272,8 @@ ship "Albatross" "Albatross (Sniper II)"
 
 
 ship "Modified Dromedary"
-	plural "改装单峰驼级"
+	"display name" "改装单峰驼"
+	"plural" "改装单峰驼"
 	sprite "ship/modified dromedary"
 	thumbnail "thumbnail/modified dromedary"
 	"administrative cost" 7
@@ -473,6 +475,7 @@ ship "Modified Dromedary" "Modified Dromedary Wreck"
 
 
 ship "Gull"
+	"display name" "海鸥"
 	sprite "ship/gull"
 	thumbnail "thumbnail/gull"
 	"administrative cost" 2
@@ -637,6 +640,7 @@ ship "Gull" "Gull (Bunks)"
 
 
 ship "Heron"
+	"display name" "苍鹭"
 	sprite "ship/heron"
 	"administrative cost" 30
 	attributes
@@ -805,7 +809,8 @@ ship "Heron"
 
 
 ship "Ibis"
-	plural "朱鹭"
+	"display name" "朱鹭"
+	"plural" "朱鹭"
 	sprite "ship/ibis"
 	thumbnail "thumbnail/ibis"
 	"administrative cost" 4
@@ -891,6 +896,7 @@ ship "Ibis"
 
 
 ship "Merganser"
+	"display name" "秋沙鸭"
 	sprite "ship/merganser"
 	thumbnail "thumbnail/merganser"
 	"administrative cost" 1
@@ -1002,6 +1008,7 @@ ship "Merganser" "Merganser (II)"
 
 
 ship "Pelican"
+	"display name" "鹈鹕"
 	sprite "ship/pelican"
 	thumbnail "thumbnail/pelican"
 	"administrative cost" 4
@@ -1083,6 +1090,7 @@ ship "Pelican" "Pelican (Heavy Lift)"
 
 
 ship "Penguin"
+	"display name" "企鹅"
 	sprite "ship/penguin/penguin"
 		"frame rate" 3
 	thumbnail "thumbnail/penguin"
@@ -1200,6 +1208,7 @@ ship "Penguin"
 	
 	
 ship "Peregrine"
+	"display name" "游隼"
 	sprite "ship/peregrine/peregrine"
 		"frame rate" 3
 		"rewind"
@@ -1318,6 +1327,7 @@ ship "Peregrine" "Peregrine (II)"
 
 
 ship "Petrel"
+	"display name" "海燕"
 	sprite "ship/petrel"
 	thumbnail "thumbnail/petrel"
 	"administrative cost" 0
@@ -1378,6 +1388,7 @@ ship "Petrel"
 
 
 ship "Puffin"
+	"display name" "海鹦"
 	sprite "ship/puffin"
 	thumbnail "thumbnail/puffin"
 	"administrative cost" 1
@@ -1432,6 +1443,7 @@ ship "Puffin"
 
 
 ship "Smew"
+	"display name" "斑头秋沙鸭"
 	sprite "ship/smew"
 	thumbnail "thumbnail/smew"
 	"administrative cost" 0
@@ -1518,6 +1530,7 @@ ship "Smew" "Smew (Teciimach Ferry)"
 
 
 ship "Starling"
+	"display name" "椋鸟"
 	sprite "ship/starling"
 	thumbnail "thumbnail/starling"
 	"administrative cost" 3
@@ -1679,6 +1692,7 @@ ship "Starling" "Starling (Thrasher)"
 
 
 ship "Swan"
+	"display name" "天鹅"
 	sprite "ship/swan/swan"
 		"frame rate" 3
 		"rewind"
@@ -1765,6 +1779,7 @@ ship "Swan"
 
 
 ship "Tern"
+	"display name" "燕鸥"
 	sprite "ship/tern"
 	thumbnail "thumbnail/tern"
 	"administrative cost" 0

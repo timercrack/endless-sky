@@ -12,7 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Maeri'het"
-	plural "梅里赫塔"
+	"display name" "梅里赫特"
+	"plural" "梅里赫特"
 	sprite "ship/maeri'het"
 	thumbnail "thumbnail/maeri'het"
 	"never disabled"
@@ -115,7 +116,8 @@ ship "Maeri'het" "Maeri'het (EMP, Disable-able)"
 		"Hyperdrive"
 
 ship "Telis'het"
-	plural "泰利斯赫塔"
+	"display name" "泰利斯赫特"
+	"plural" "泰利斯赫特"
 	sprite "ship/telis'het"
 	thumbnail "thumbnail/telis'het"
 	"never disabled"
@@ -254,7 +256,8 @@ ship "Telis'het" "Telis'het (Guns, Disable-able)"
 		"Hyperdrive"
 
 ship "Vareti'het"
-	plural "瓦雷提赫塔"
+	"display name" "瓦雷蒂赫特"
+	"plural" "瓦雷蒂赫特"
 	sprite ship/vareti'het
 	thumbnail "thumbnail/vareti'het"
 	"never disabled"
@@ -456,6 +459,7 @@ ship "Vareti'het" "Vareti'het (Strong, Disable-able)"
 	turret "Ka'het Ravager Turret"
 
 ship "Selii'mar"
+	"display name" "塞利玛"
 	sprite "ship/selii'mar"
 	thumbnail "thumbnail/selii'mar"
 	"administrative cost" 0
@@ -488,6 +492,7 @@ ship "Selii'mar"
 	description "	无人机出厂时未配备超空间引擎。除非你的舰队中有一艘搭载无人机舱的飞船，否则无法携带无人机。"
 
 ship "Faes'mar"
+	"display name" "费斯玛"
 	sprite "ship/faes'mar"
 	thumbnail "thumbnail/faes'mar"
 	"administrative cost" 0
@@ -531,7 +536,8 @@ ship "Faes'mar" "Faes'mar (Strong)"
 		"Ka'het Compact Engine"
 
 ship "Fetri'sei"
-	plural "费特里塞亚"
+	"display name" "费特里塞"
+	"plural" "费特里塞"
 	sprite "ship/fetri'sei"
 	thumbnail "thumbnail/fetri'sei"
 	"never disabled"

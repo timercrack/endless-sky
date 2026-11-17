@@ -1180,6 +1180,7 @@ event "scar's hideout"
 				distance 809
 
 planet "Scar's Hideout"
+	"display name" "伤疤藏身处"
 	attributes uninhabited
 	landscape land/loc1
 	description "伤疤藏身处是一颗被掏空的小行星，是疤军团的主要行动基地。他们在此袭扰所有穿行于极北星区无人星系的旅行者。最近，该帮派发现了通往亥族空间的虫洞，这让他们开始四处惹事，受害者已不仅是那些倒霉的商人。"

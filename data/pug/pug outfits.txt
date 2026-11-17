@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Pug Zapper"
+	"display name" "帕格电击炮"
 	category "Guns"
 	series "Guns"
 	index 90020
@@ -39,6 +40,7 @@ outfit "Pug Zapper"
 	description "这是一种强大的光束武器，其威力甚至超过人类已开发出的最先进能量光束。帕格舰船集成了发电装置，能产生驱动此类武器所需的大量能量。"
 
 outfit "Pug Zapper Turret"
+	"display name" "帕格电击炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 90010
@@ -78,6 +80,7 @@ effect "zapper impact"
 	"velocity scale" 0.
 
 outfit "Pug Seeker"
+	"display name" "帕格追踪炮"
 	category "Guns"
 	series "Guns"
 	index 90010
@@ -124,6 +127,7 @@ effect "seeker impact"
 
 
 outfit "Pug Anti-Missile"
+	"display name" "帕格反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 90010
@@ -156,6 +160,7 @@ effect "pug anti-missile"
 
 
 outfit "Tier 3 Anti-Missile"
+	"display name" "三级反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 90020
@@ -196,6 +201,7 @@ effect "tier 3 anti-missile die"
 
 
 outfit "Pug Gridfire Turret"
+	"display name" "帕格格网火炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 90020
@@ -254,6 +260,7 @@ effect "gridfire cloud"
 
 
 outfit "Pug Akfar Thruster"
+	"display name" "帕格阿克法尔推进器"
 	category "Engines"
 	series "Engines"
 	index 90011
@@ -271,6 +278,7 @@ outfit "Pug Akfar Thruster"
 	description "这是帕格设计的一款小型推进器。其推力不及同尺寸的原子引擎，但通过接近离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Akfar Steering"
+	"display name" "帕格阿克法尔转向器"
 	category "Engines"
 	series "Engines"
 	index 90010
@@ -288,6 +296,7 @@ outfit "Pug Akfar Steering"
 	description "这是一个由帕格设计的小型转向系统。它的动力略逊于同体积的原子引擎，但通过几乎与离子引擎相当的能效弥补了这一不足。"
 
 outfit "Pug Cormet Thruster"
+	"display name" "帕格科尔梅特推进器"
 	category "Engines"
 	series "Engines"
 	index 90021
@@ -305,6 +314,7 @@ outfit "Pug Cormet Thruster"
 	description "这是一款由帕格设计的中型推进器。其推力略逊于同等级的原子引擎，但通过几乎媲美离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Cormet Steering"
+	"display name" "帕格科尔梅特转向器"
 	category "Engines"
 	series "Engines"
 	index 90020
@@ -322,6 +332,7 @@ outfit "Pug Cormet Steering"
 	description "这是一种由帕格设计的中型转向系统。其功率虽不及同级原子引擎，但凭借近乎离子引擎的能效弥补了这一不足。"
 
 outfit "Pug Lohmar Thruster"
+	"display name" "帕格洛玛尔推进器"
 	category "Engines"
 	series "Engines"
 	index 90031
@@ -339,6 +350,7 @@ outfit "Pug Lohmar Thruster"
 	description "这是由帕格设计的大型推进器。它的功率略逊于同尺寸的原子引擎，但几乎与离子引擎一样节能，从而弥补了这一不足。"
 
 outfit "Pug Lohmar Steering"
+	"display name" "帕格洛玛尔转向器"
 	category "Engines"
 	series "Engines"
 	index 90030
@@ -358,7 +370,8 @@ outfit "Pug Lohmar Steering"
 
 
 outfit "Pug Biodefenses"
-	plural "帕格生物防御系统"
+	"display name" "帕格生物防御系统"
+	"plural" "帕格生物防御系统"
 	category "Hand to Hand"
 	series "Fortifications"
 	index 90020
@@ -370,7 +383,8 @@ outfit "Pug Biodefenses"
 	description "这种半有机防御系统能释放一种高度致命的生物工程病毒，可迅速感染安装它的舰船上的所有外来实体，同时不伤害舰船船员。该病毒与防御系统相结合，能高度精确地自动辨别敌我。"
 
 outfit "Pug Peacekeeping Staff"
-	plural "帕格维和杖"
+	"display name" "帕格治安权杖"
+	"plural" "帕格治安权杖"
 	category "Hand to Hand"
 	series "H2H"
 	index 90010

@@ -16,6 +16,7 @@ galaxy "Patir Cluster"
 	sprite "ui/patir cluster"
 
 system Athiri
+	"display name" "阿蒂里"
 	pos 10225.5 -432.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -39,6 +40,7 @@ system Athiri
 		distance 1510.2286
 
 system Balnii
+	"display name" "巴尔尼"
 	pos 10268.3 -359.3
 	government Uninhabited
 	attributes "beyond patir"
@@ -56,6 +58,7 @@ system Balnii
 		period 1
 
 system Chanai
+	"display name" "查奈"
 	pos 9883.5 -34.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -78,6 +81,7 @@ system Chanai
 		distance 1541.4
 
 system Ghila
+	"display name" "吉拉"
 	pos 9820.5 -100.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -105,6 +109,7 @@ system Ghila
 		distance 1626.8
 
 system Lathia
+	"display name" "拉蒂亚"
 	pos 10107.5 -332.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -123,6 +128,7 @@ system Lathia
 		distance 2723.62
 
 system Maithi
+	"display name" "迈蒂"
 	pos 10092.5 -489.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -145,6 +151,7 @@ system Maithi
 		distance 4316.1251
 
 system Mitera
+	"display name" "米特拉"
 	pos 9957.5 -92.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -166,6 +173,7 @@ system Mitera
 		distance 4580.2286
 
 system Sarifa
+	"display name" "萨里法"
 	pos 10136.5 -406.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -188,6 +196,7 @@ system Sarifa
 		distance 549
 
 system Thepa
+	"display name" "特帕"
 	pos 9975.5 -2.5
 	government Uninhabited
 	attributes "beyond patir"
@@ -205,22 +214,27 @@ system Thepa
 		period 1
 
 planet "Beyond Patir North Entrance"
+	"display name" "帕提尔外域北入口"
 	wormhole "Beyond Patir North Entrance"
 
 planet "Beyond Patir North Exit"
+	"display name" "帕提尔外域北出口"
 	wormhole "Beyond Patir North Exit"
 
 wormhole "Beyond Patir North Entrance"
+	"display name" "帕提尔外北部入口"
 	mappable
 	link Mitera Athiri
 	color "wormholes: beyond Patir"
 
 wormhole "Beyond Patir North Exit"
+	"display name" "帕提尔外北部出口"
 	mappable
 	link Maithi Ghila
 	color "wormholes: beyond Patir"
 
 planet "Chanai Structure"
+	"display name" "查奈结构体"
 	landscape "land/station60"
 	description `这座外星空间站既广阔又神秘，隐藏的秘密远超你的想象。它唯一可辨认的特征是一个巨大的筒状结构，但其建造目的——或是它仍能发挥的作用——已无从知晓。`
 	government "Magic Asteroid"

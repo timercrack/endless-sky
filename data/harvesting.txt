@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 minable "aluminum"
+	"display name" "铝"
 	sprite "asteroid/silicon/spin"
 	hull 900
 	"random hull" 200
@@ -22,7 +23,8 @@ minable "aluminum"
 	explode "asteroid crunch large"
 
 outfit "Aluminum"
-	plural "铝"
+	"display name" "铝"
+	"plural" "铝"
 	category "Minerals"
 	cost 1800
 	thumbnail "outfit/harvested aluminum"
@@ -34,6 +36,7 @@ outfit "Aluminum"
 
 
 minable "copper"
+	"display name" "铜"
 	sprite "asteroid/gold/spin"
 	hull 1080
 	"random hull" 240
@@ -44,7 +47,8 @@ minable "copper"
 	explode "asteroid crunch small"
 
 outfit "Copper"
-	plural "铜"
+	"display name" "铜"
+	"plural" "铜"
 	category "Minerals"
 	cost 3000
 	thumbnail "outfit/harvested copper"
@@ -56,6 +60,7 @@ outfit "Copper"
 
 
 minable "gold"
+	"display name" "金"
 	sprite "asteroid/gold/spin"
 	hull 2520
 	"random hull" 560
@@ -66,7 +71,8 @@ minable "gold"
 	explode "asteroid crunch small"
 
 outfit "Gold"
-	plural "金"
+	"display name" "金"
+	"plural" "金"
 	category "Minerals"
 	cost 8000
 	thumbnail "outfit/harvested gold"
@@ -78,6 +84,7 @@ outfit "Gold"
 
 
 minable "iron"
+	"display name" "铁"
 	sprite "asteroid/iron/spin"
 	hull 1440
 	"random hull" 320
@@ -88,7 +95,8 @@ minable "iron"
 	explode "asteroid crunch large"
 
 outfit "Iron"
-	plural "铁"
+	"display name" "铁"
+	"plural" "铁"
 	category "Minerals"
 	cost 1200
 	thumbnail "outfit/harvested iron"
@@ -100,6 +108,7 @@ outfit "Iron"
 
 
 minable "lead"
+	"display name" "铅"
 	sprite "asteroid/lead/spin"
 	hull 720
 	"random hull" 160
@@ -110,7 +119,8 @@ minable "lead"
 	explode "asteroid crunch medium"
 
 outfit "Lead"
-	plural "铅"
+	"display name" "铅"
+	"plural" "铅"
 	category "Minerals"
 	cost 900
 	thumbnail "outfit/harvested lead"
@@ -122,6 +132,7 @@ outfit "Lead"
 
 
 minable "neodymium"
+	"display name" "钕"
 	sprite "asteroid/iron/spin"
 	hull 3240
 	"random hull" 720
@@ -132,7 +143,8 @@ minable "neodymium"
 	explode "asteroid crunch large"
 
 outfit "Neodymium"
-	plural "钕"
+	"display name" "钕"
+	"plural" "钕"
 	category "Minerals"
 	cost 3800
 	thumbnail "outfit/harvested neodymium"
@@ -144,6 +156,7 @@ outfit "Neodymium"
 
 
 minable "platinum"
+	"display name" "铂"
 	sprite "asteroid/silver/spin"
 	hull 3600
 	"random hull" 800
@@ -154,7 +167,8 @@ minable "platinum"
 	explode "asteroid crunch small"
 
 outfit "Platinum"
-	plural "铂"
+	"display name" "铂"
+	"plural" "铂"
 	category "Minerals"
 	cost 10000
 	thumbnail "outfit/harvested platinum"
@@ -166,6 +180,7 @@ outfit "Platinum"
 
 
 minable "silicon"
+	"display name" "硅"
 	sprite "asteroid/silicon/spin"
 	hull 360
 	"random hull" 80
@@ -176,7 +191,8 @@ minable "silicon"
 	explode "asteroid crunch large"
 
 outfit "Silicon"
-	plural "硅"
+	"display name" "硅"
+	"plural" "硅"
 	category "Minerals"
 	cost 400
 	thumbnail "outfit/harvested silicon"
@@ -188,6 +204,7 @@ outfit "Silicon"
 
 
 minable "silver"
+	"display name" "银"
 	sprite "asteroid/silver/spin"
 	hull 1800
 	"random hull" 400
@@ -198,7 +215,8 @@ minable "silver"
 	explode "asteroid crunch small"
 
 outfit "Silver"
-	plural "白银星"
+	"display name" "银"
+	"plural" "银"
 	category "Minerals"
 	cost 6000
 	thumbnail "outfit/harvested silver"
@@ -210,6 +228,7 @@ outfit "Silver"
 
 
 minable "titanium"
+	"display name" "钛"
 	sprite "asteroid/titanium/spin"
 	hull 2160
 	"random hull" 480
@@ -220,7 +239,8 @@ minable "titanium"
 	explode "asteroid crunch medium"
 
 outfit "Titanium"
-	plural "钛"
+	"display name" "钛"
+	"plural" "钛"
 	category "Minerals"
 	cost 2500
 	thumbnail "outfit/harvested titanium"
@@ -232,6 +252,7 @@ outfit "Titanium"
 
 
 minable "tungsten"
+	"display name" "钨"
 	sprite "asteroid/titanium/spin"
 	hull 4320
 	"random hull" 960
@@ -242,7 +263,8 @@ minable "tungsten"
 	explode "asteroid crunch medium"
 
 outfit "Tungsten"
-	plural "钨"
+	"display name" "钨"
+	"plural" "钨"
 	category "Minerals"
 	cost 4500
 	thumbnail "outfit/harvested tungsten"
@@ -254,6 +276,7 @@ outfit "Tungsten"
 
 
 minable "uranium"
+	"display name" "铀"
 	sprite "asteroid/lead/spin"
 	hull 2880
 	"random hull" 640
@@ -264,7 +287,8 @@ minable "uranium"
 	explode "asteroid crunch medium"
 
 outfit "Uranium"
-	plural "铀"
+	"display name" "铀"
+	"plural" "铀"
 	category "Minerals"
 	cost 5000
 	thumbnail "outfit/harvested uranium"
@@ -276,6 +300,7 @@ outfit "Uranium"
 
 
 minable "yottrite"
+	"display name" "钇矿"
 	sprite "asteroid/yottrite/spin"
 	hull 18000
 	"random hull" 4000
@@ -286,7 +311,8 @@ minable "yottrite"
 	explode "asteroid crunch medium"
 
 outfit "Yottrite"
-	plural "钇矿"
+	"display name" "钇矿"
+	"plural" "钇矿"
 	category "Minerals"
 	cost 200000
 	thumbnail "outfit/harvested yottrite"
@@ -302,6 +328,7 @@ outfit "Yottrite"
 # They are added to specific systems in the Ember Waste during the events of the 'Remnant: Cognizance' missions.
 
 minable "plant"
+	"display name" "植物"
 	sprite "asteroid/plant/plant"
 	hull 2520
 	"random hull" 560
@@ -323,6 +350,7 @@ minable "plant2"
 	explode "final explosion medium"
 
 minable "plant cluster"
+	"display name" "植物簇"
 	sprite "asteroid/plant cluster/plant cluster"
 	hull 1080
 	"random hull" 240
@@ -333,6 +361,7 @@ minable "plant cluster"
 	explode "final explosion small"
 
 minable "large plant"
+	"display name" "大型植物"
 	sprite "asteroid/large plant/large plant"
 	hull 3420
 	"random hull" 760
@@ -354,6 +383,7 @@ minable "large plant2"
 	explode "final explosion medium"
 
 minable "large plant cluster"
+	"display name" "大型植物簇"
 	sprite "asteroid/large plant cluster/large plant cluster"
 	hull 1980
 	"random hull" 440
@@ -364,6 +394,7 @@ minable "large plant cluster"
 	explode "final explosion medium"
 
 minable "live crystal"
+	"display name" "活晶体"
 	sprite "asteroid/livecrystal/livecrystal"
 	hull 900
 	"random hull" 200
@@ -374,6 +405,7 @@ minable "live crystal"
 	explode "final explosion small"
 
 minable "space flora"
+	"display name" "太空植物"
 	sprite "asteroid/space flora/space flora"
 	hull 900
 	"random hull" 200
@@ -384,6 +416,7 @@ minable "space flora"
 	explode "final explosion small"
 
 minable "large space flora"
+	"display name" "大型太空植物"
 	sprite "asteroid/large space flora/large space flora"
 	hull 1800
 	"random hull" 400
@@ -395,7 +428,8 @@ minable "large space flora"
 
 
 outfit "Void Orchid"
-	plural "虚空兰"
+	"display name" "虚空兰"
+	"plural" "虚空兰"
 	category "Minerals"
 	cost 15000
 	thumbnail "outfit/harvested silicon"
@@ -410,6 +444,7 @@ outfit "Void Orchid"
 # Acheron Space-life Asteroids
 
 minable "unknown"
+	"display name" "未知"
 	sprite "asteroid/bioroid/spin"
 	hull 1600
 	"random hull" 810
@@ -491,8 +526,9 @@ minable "huge water droplet"
 	explode "droplet burst" 36
 
 outfit "Voidfish"
+	"display name" "虚空鱼"
 	category "Minerals"
-	plural "虚空鱼"
+	"plural" "虚空鱼"
 	cost 2400
 	thumbnail "outfit/voidfish"
 	"flotsam sprite" "effect/flotsam voidfish"
@@ -519,7 +555,7 @@ effect "droplet burst"
 
 
 minable "integral tree a"
-	"display name" "枯萎积分体"
+	"display name" "枯槁积分"
 	noun "树"
 	sprite "asteroid/integral tree/tree a"
 	hull 7200
@@ -530,7 +566,7 @@ minable "integral tree a"
 	explode "timber" 30
 
 minable "integral tree b"
-	"display name" 积分
+	"display name" "积分"
 	noun "树"
 	sprite "asteroid/integral tree/tree b"
 		scale 0.75
@@ -554,7 +590,7 @@ minable "integral tree c"
 	explode "timber" 6
 
 minable "integral tree d"
-	"display name" "霜凝晶"
+	"display name" "霜覆积分"
 	noun "树"
 	sprite "asteroid/integral tree/tree d"
 		scale 0.75
@@ -568,7 +604,7 @@ minable "integral tree d"
 	explode "timber" 12
 
 minable "integral tree e"
-	"display name" "琥珀整体"
+	"display name" "琥珀积分"
 	noun "树"
 	sprite "asteroid/integral tree/tree e"
 		scale 0.75
@@ -582,7 +618,7 @@ minable "integral tree e"
 	explode "timber" 12
 
 minable "integral tree f"
-	"display name" "死亡整体"
+	"display name" "枯死积分"
 	noun "树"
 	sprite "asteroid/integral tree/tree f"
 		scale 0.75
@@ -602,8 +638,9 @@ effect "timber"
 	"velocity scale" 0.3
 
 outfit "Integral Wood"
+	"display name" "集成木"
 	category "Minerals"
-	plural "集成木"
+	"plural" "集成木"
 	cost 12000
 	thumbnail "outfit/integral wood"
 	"flotsam sprite" "effect/flotsam integral wood"

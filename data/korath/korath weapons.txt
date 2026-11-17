@@ -13,6 +13,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Grab-Strike Turret"
+	"display name" "抓取打击炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04040
@@ -62,6 +63,7 @@ effect "grab-strike impact"
 
 
 outfit "Shunt-Strike Turret"
+	"display name" "分流打击炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04080
@@ -124,6 +126,7 @@ effect "shunt-strike sparkle"
 
 
 outfit "Banisher Grav-Turret"
+	"display name" "放逐者引力炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04050
@@ -154,6 +157,7 @@ outfit "Banisher Grav-Turret"
 	description "科拉斯人喜欢让敌人靠近……但又不愿其过于接近。"
 
 outfit "Expeller Grav-Ray"
+	"display name" "驱逐者引力射线"
 	category "Guns"
 	series "Guns"
 	index 04030
@@ -188,6 +192,7 @@ effect "banisher impact"
 
 
 outfit "Warder Anti-Missile"
+	"display name" "守卫者反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 04010
@@ -221,6 +226,7 @@ effect "korath warder"
 
 
 outfit "Fire-Lance"
+	"display name" "火焰长矛"
 	category "Guns"
 	series "Guns"
 	index 04020
@@ -257,6 +263,7 @@ effect "fire-lance impact"
 	"velocity scale" 0.
 
 outfit "Blaze-Pike Turret"
+	"display name" "烈焰长枪炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04020
@@ -297,6 +304,7 @@ effect "blaze-pike hit"
 	"velocity scale" .005
 
 outfit "Korath Inferno"
+	"display name" "科拉斯狱火"
 	category "Turrets"
 	series "Turrets"
 	index 04030
@@ -338,6 +346,7 @@ effect "korath inferno hit"
 
 
 outfit "Thermal Repeater"
+	"display name" "热能连发炮"
 	category "Guns"
 	series "Guns"
 	index 04010
@@ -378,6 +387,7 @@ effect "repeater impact"
 	"velocity scale" -.1
 
 outfit "Thermal Repeater Turret"
+	"display name" "热能连发炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04010
@@ -413,6 +423,7 @@ outfit "Thermal Repeater Turret"
 
 
 outfit "Piercer Missile"
+	"display name" "穿刺导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 04030
@@ -423,6 +434,7 @@ outfit "Piercer Missile"
 	description "这种导弹由穿刺导弹发射器发射。"
 
 outfit "Piercer Missile Rack"
+	"display name" "穿刺导弹架"
 	category "Ammunition"
 	series "Ammunition"
 	index 04031
@@ -435,6 +447,7 @@ outfit "Piercer Missile Rack"
 	description "穿刺导弹架用于存放穿刺导弹发射器的额外弹药。"
 
 outfit "Piercer Missile Launcher"
+	"display name" "穿刺导弹发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 04030
@@ -529,6 +542,7 @@ outfitter "Piercer Missile Restock"
 
 
 outfit "Korath Detainer"
+	"display name" "科拉斯拘留者"
 	category "Guns"
 	series "Guns"
 	index 04060
@@ -593,6 +607,7 @@ effect "detainer smoke"
 
 
 outfit "Cluster Mine"
+	"display name" "集束地雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 04040
@@ -603,6 +618,7 @@ outfit "Cluster Mine"
 	description "这是集束地雷铺设器的弹药。每枚地雷在部署后会分裂为十一个子地雷。"
 
 outfit "Cluster Mine Rack"
+	"display name" "集束地雷架"
 	category "Ammunition"
 	series "Ammunition"
 	index 04041
@@ -615,6 +631,7 @@ outfit "Cluster Mine Rack"
 	description "集束地雷架用于存储集束地雷铺设器的额外弹药。"
 
 outfit "Cluster Mine Layer"
+	"display name" "集束地雷铺设器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 04040
@@ -661,6 +678,7 @@ outfit "Cluster Mine Layer"
 			has "gamerule: universal ammo restocking"
 
 outfit "Korath Mine Submunition"
+	"display name" "科拉斯子地雷"
 	weapon
 		sprite "projectile/korath mine"
 			"frame rate" 1
@@ -713,6 +731,7 @@ outfitter "Cluster Mine Restock"
 
 
 outfit "Shield Disruptor Turret"
+	"display name" "护盾干扰炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04070
@@ -754,6 +773,7 @@ effect "disruptor impact"
 
 
 outfit "Husk-Slice"
+	"display name" "切壳光束"
 	category "Guns"
 	series "Guns"
 	index 04040
@@ -781,6 +801,7 @@ outfit "Husk-Slice"
 	description "这种巨大的光束武器对护盾效果相对较差，但切割船体装甲却如同切纸一般轻松。"
 
 outfit "Husk-Slice Turret"
+	"display name" "切壳光束炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04060
@@ -823,6 +844,7 @@ effect "slicer impact"
 
 
 outfit "Digger Mining Turret"
+	"display name" "挖掘者采矿炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 04090
@@ -855,6 +877,7 @@ outfit "Digger Mining Turret"
 	description `当科拉斯流亡者需要为其大型船只配备一种廉价的采矿激光时，他们重新设计了这种古老而坚固的结构，并加装了炮塔底座。轻微的护盾干扰效果使其在必要时也可用于战斗。`
 
 outfit "Digger Mining Beam"
+	"display name" "挖掘者采矿光束"
 	category "Guns"
 	series "Guns"
 	index 04070
@@ -893,6 +916,7 @@ effect "korath digger hit"
 
 
 outfit "Langrage Hyper-Heaver"
+	"display name" "朗格拉日超投掷器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 04050
@@ -939,6 +963,7 @@ effect "heaver hyperspace hit"
 	sound "heaver hyperspace hit"
 
 outfit "Heaver Shard"
+	"display name" "投掷器碎块"
 	weapon
 		sprite "projectile/heaver shard"
 			"frame rate" 12
@@ -953,6 +978,7 @@ outfit "Heaver Shard"
 		submunition "Heaver Splinter" 3
 
 outfit "Heaver Splinter"
+	"display name" "投掷器碎屑"
 	weapon
 		sprite "projectile/heaver shard"
 			"frame rate" 12
@@ -987,6 +1013,7 @@ effect "heaver splinter hit"
 
 
 outfit "Firelight Storage Rack"
+	"display name" "火光导弹存储架"
 	category "Ammunition"
 	series "Ammunition"
 	index 04011
@@ -999,6 +1026,7 @@ outfit "Firelight Storage Rack"
 	description "这个存储架用于存放额外的火光导弹，以供给火光导弹组使用。"
 
 outfit "Firelight Missile"
+	"display name" "火光导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 04010
@@ -1011,6 +1039,7 @@ outfit "Firelight Missile"
 	description `火光导弹内部的反应堆核心必须保持最低限度的活跃状态，以确保它随时可以发射。尽管效率极其低下，它仍然会源源不断地产生微弱的电力，在正确安装后可以被加以利用。`
 
 outfit "Firelight Missile Bank"
+	"display name" "火光导弹组"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 04010
@@ -1054,6 +1083,7 @@ outfit "Firelight Missile Bank"
 
 
 outfit "Firelight Turning"
+	"display name" "火光导弹（转向）"
 	weapon
 		sprite "projectile/firelight"
 		"hit effect" "firelight ring" 20
@@ -1069,6 +1099,7 @@ outfit "Firelight Turning"
 		"submunition" "Firelight Activated"
 
 outfit "Firelight Activated"
+	"display name" "火光导弹（激活）"
 	weapon
 		sprite "projectile/firelight active"
 			"frame rate" 12
@@ -1114,6 +1145,7 @@ outfitter "Firelight Restock"
 
 
 outfit "Microbot Grinder"
+	"display name" "微型机器人粉碎机"
 	category "Guns"
 	series "Guns"
 	index 04080
@@ -1146,7 +1178,8 @@ outfit "Microbot Grinder"
 
 
 outfit "Firestorm Torpedo"
-	plural "火风暴鱼雷"
+	"display name" "火风暴鱼雷"
+	"plural" "火风暴鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 04020
@@ -1159,6 +1192,7 @@ outfit "Firestorm Torpedo"
 	description `火风暴鱼雷体型庞大且破坏力惊人，其巨大的爆炸半径使其成为大型舰船武库中的危险组成部分，尽管缺乏科拉斯较新的技术革新。火风暴鱼雷作为火风暴鱼雷发射组的弹药使用。`
 
 outfit "Firestorm Torpedo Rack"
+	"display name" "火风暴鱼雷架"
 	category "Ammunition"
 	series "Ammunition"
 	index 04021
@@ -1171,7 +1205,8 @@ outfit "Firestorm Torpedo Rack"
 	description "这个大型笼式挂架设计用于容纳数枚致命的火风暴鱼雷。"
 
 outfit "Firestorm Battery"
-	plural "火风暴鱼雷发射组"
+	"display name" "火风暴鱼雷发射组"
+	"plural" "火风暴鱼雷发射组"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 04020

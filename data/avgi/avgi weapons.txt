@@ -15,6 +15,7 @@
 # Kinetic Weapons:
 
 outfit "Speck Round"
+	"display name" "斑点弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 07010
@@ -26,6 +27,7 @@ outfit "Speck Round"
 
 
 outfit "Speck Magazine"
+	"display name" "斑点弹匣"
 	category "Ammunition"
 	series "Ammunition"
 	index 07011
@@ -39,6 +41,7 @@ outfit "Speck Magazine"
 
 
 outfit "Speckle Coilgun"
+	"display name" "斑点线圈炮"
 	category "Guns"
 	series "Guns"
 	index 07010
@@ -72,6 +75,7 @@ outfit "Speckle Coilgun"
 	
 
 outfit "Speckle Turret"
+	"display name" "斑点炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 07020
@@ -111,6 +115,7 @@ outfit "Speckle Turret"
 
 
 outfit "Speck"
+	"display name" "斑点弹丸"
 	weapon
 		sprite "projectile/speck"
 			"scale" 0.5
@@ -160,6 +165,7 @@ outfitter "Speck Round Restock"
 
 
 outfit "Optical Lasing Generator"
+	"display name" "光学激光发生器"
 	category "Systems"
 	series "Special Systems"
 	index 07010
@@ -175,6 +181,7 @@ outfit "Optical Lasing Generator"
 
 
 outfit "Green Optical Laser"
+	"display name" "绿色光学激光器"
 	category "Turrets"
 	series "Anti-Missile"
 	index 07010
@@ -228,6 +235,7 @@ effect "green laser scattering"
 
 
 outfit "Blue Optical Laser"
+	"display name" "蓝色光学激光器"
 	category "Turrets"
 	series "Turrets"
 	index 07010
@@ -290,6 +298,7 @@ effect "blue laser scattering"
 
 
 outfit "Ultraviolet Excimer Laser"
+	"display name" "紫外准分子激光器"
 	series "Avgi: Beams"
 	index 30
 	category "Turrets"
@@ -377,6 +386,7 @@ effect "laser explosion"
 
 
 outfit "Ultrarelativistic Electron Beam"
+	"display name" "极端相对论电子束"
 	category "Guns"
 	series "Guns"
 	index 07020
@@ -401,6 +411,7 @@ outfit "Ultrarelativistic Electron Beam"
 		"submunition" "TeV Electron Bunch" 180
 
 outfit "TeV Electron Bunch"
+	"display name" "TeV 电子束团"
 	weapon
 		sprite "effect/mhd spark"
 			"frame rate" 15
@@ -420,6 +431,7 @@ outfit "TeV Electron Bunch"
 
 
 outfit "UREB Turret"
+	"display name" "UREB 炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 07010
@@ -447,6 +459,7 @@ outfit "UREB Turret"
 		"submunition" "GeV Electron Bunch" 180
 
 outfit "GeV Electron Bunch"
+	"display name" "GeV 电子束团"
 	weapon
 		sprite "effect/mhd spark"
 			"frame rate" 15
@@ -496,6 +509,7 @@ effect "electron flare"
 
 
 outfit "External Launch Rail"
+	"display name" "外部发射导轨"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 07010
@@ -532,6 +546,7 @@ outfit "External Launch Rail"
 
 
 outfit "External Launch Tube"
+	"display name" "外部发射管"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 07020
@@ -706,6 +721,7 @@ outfit "Medium VLS"
 
 
 outfit `"Nettle" KKV`
+	"display name" "“荨麻”动能杀伤弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 07020
@@ -718,6 +734,7 @@ outfit `"Nettle" KKV`
 
 
 outfit "Nettle Active"
+	"display name" "荨麻激活段"
 	weapon
 		sprite "projectile/nettle"
 			"scale" 0.5
@@ -739,7 +756,8 @@ outfit "Nettle Active"
 		"submunition" "Nettle Flecks" 18
 
 outfit "Nettle Flecks"
-	plural "荨麻碎片"
+	"display name" "荨麻碎片"
+	"plural" "荨麻碎片"
 	weapon
 		sprite "projectile/fleck"
 			"frame rate" 15
@@ -789,6 +807,7 @@ outfitter "Nettle Restock"
 
 
 outfit `"Orchid" Nuclear Missile`
+	"display name" "“兰花”核导弹"
 	category "Ammunition"
 	series "Ammunition"
 	index 07030
@@ -804,6 +823,7 @@ outfit `"Orchid" Nuclear Missile`
 
 
 outfit "Orchid Active"
+	"display name" "兰花激活段"
 	weapon
 		sprite "projectile/orchid inactive"
 			"scale" 0.5
@@ -820,6 +840,7 @@ outfit "Orchid Active"
 		"missile strength" 36
 
 outfit "Orchid Boost"
+	"display name" "兰花助推段"
 	weapon
 		sprite "projectile/orchid boost"
 			"scale" 0.5
@@ -843,6 +864,7 @@ outfit "Orchid Boost"
 		"missile strength" 36
 
 outfit "Orchid Coast"
+	"display name" "兰花滑行段"
 	weapon
 		sprite "projectile/orchid coast"
 			"scale" 0.5
@@ -863,6 +885,7 @@ outfit "Orchid Coast"
 		"missile strength" 24
 
 outfit "Orchid Divert"
+	"display name" "兰花变轨段"
 	weapon
 		sprite "projectile/orchid divert"
 			"scale" 0.5
@@ -886,6 +909,7 @@ outfit "Orchid Divert"
 		"missile strength" 24
 
 outfit "Orchid Terminal"
+	"display name" "兰花末段"
 	weapon
 		sprite "projectile/orchid terminal"
 			"scale" 0.5
@@ -904,6 +928,7 @@ outfit "Orchid Terminal"
 		"missile strength" 18
 
 outfit "Orchid Boost Stage Expended"
+	"display name" "兰花助推级残骸"
 	weapon
 		sprite "projectile/orchid boost stage"
 			"scale" 0.5
@@ -920,6 +945,7 @@ outfit "Orchid Boost Stage Expended"
 		"missile strength" 12
 
 outfit "Orchid Divert Stage Expended"
+	"display name" "兰花变轨级残骸"
 	weapon
 		sprite "projectile/orchid divert stage"
 			"scale" 0.5
@@ -937,6 +963,7 @@ outfit "Orchid Divert Stage Expended"
 
 
 outfit `"Ophrys" Nuclear Torpedo`
+	"display name" "“蜂兰”核鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 07040
@@ -952,6 +979,7 @@ outfit `"Ophrys" Nuclear Torpedo`
 
 
 outfit "Ophrys Stockpile"
+	"display name" "蜂兰储备库"
 	category "Ammunition"
 	series "Ammunition"
 	index 07041
@@ -970,6 +998,7 @@ outfit "Ophrys Stockpile"
 
 
 outfit "Ophrys Terminal"
+	"display name" "蜂兰末段"
 	weapon
 		sprite "projectile/orchid terminal"
 			"scale" 0.5

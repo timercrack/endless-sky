@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Successor License"
+	"display name" "继承者许可证"
 	category "Licenses"
 	series "Licenses"
 	index 11010
@@ -19,6 +20,7 @@ outfit "Successor License"
 	description "这枚蓝白相间的小胸针由高门议会授予于你，是继承者外交的象征。将它授予像你这样的外星人，传达了他们的信任与信心，并以此表明他们愿意向你出售其民用级技术。"
 
 outfit "High Houses License"
+	"display name" "高等家族许可证"
 	category "Licenses"
 	series "Licenses"
 	index 11020
@@ -27,6 +29,7 @@ outfit "High Houses License"
 	description "	This glittering pin of the Successors' much-beloved red gold is connected to a vast web of thoroughly-argued treaties and complex inter-House laws - some dating back thousands of years. These all serve to ensure that, at least in times of peace and stability, alien vassals such as yourself can expect each of the Houses to furnish them with the equipment that this enables them to buy - not just the House that offered it to them. After all, the security considerations involved in selling weapons to a single vassal of another House are outweighed by the rampant profits that dealing in these very expensive ships and outfits are sure to bring."
 
 outfit "Harmonic Keystone"
+	"display name" "谐振基石"
 	category "Systems"
 	series "Drives"
 	index 70
@@ -42,7 +45,8 @@ outfit "Harmonic Keystone"
 	description "The harmonic elements of this device pinch and twist at unfamiliar parts of the fabric of space. When a jump drive is equipped in tandem, it is made to sing in tune."
 
 outfit `"Byiaa" Shield Cortex`
-	plural `“Byiaa”护盾皮层`
+	"display name" "“比亚”护盾皮层"
+	"plural" "“比亚”护盾皮层"
 	category "Systems"
 	series "Shields"
 	index 11010
@@ -60,7 +64,8 @@ outfit `"Byiaa" Shield Cortex`
 	description "在全盛时期，先驱者之所以令人畏惧，并非因为他们能多快地压倒敌人，而是因为他们能极效地拖垮对手。许多世代之后，这种理念依然体现在现代继承者的护盾皮层中：这些皮层就其尺寸而言异常强大，但会削弱护盾对来袭火力的抗性。这使得继承者舰船能够从持续损伤中快速恢复，尽管它们对此会稍微显得更加脆弱。"
 
 outfit `"Ej" Shield Cortex`
-	plural `“Ej”护盾皮层系列`
+	"display name" "“艾吉”护盾皮层"
+	"plural" "“艾吉”护盾皮层"
 	category "Systems"
 	series "Shields"
 	index 11020
@@ -78,7 +83,8 @@ outfit `"Ej" Shield Cortex`
 	description "由于其双模态引擎会从飞船的护盾矩阵中汲取能量，即便是非战斗型的继承者飞船也完全有理由装备强大的护盾发生器，以获得更高的机动性。这是高门允许向公众出售的最大型号；即便如此，它所提供的充能速度也远超人类最大的护盾发生器。"
 
 outfit `"Jaase" Shield Cortex`
-	plural `“Jaase”护盾皮层系列`
+	"display name" "“贾瑟”护盾皮层"
+	"plural" "“贾瑟”护盾皮层"
 	category "Systems"
 	series "Shields"
 	index 11030
@@ -96,7 +102,8 @@ outfit `"Jaase" Shield Cortex`
 	description "先驱者的技术远不如现代继承者的同类设备那样模块化，后者必须依靠更为有限的资源和相对原始的制造技术来建造。尽管如此，这款中型护盾皮层依然足够强大，能轻松抵御数个弱小攻击者的联合火力，因此被高门保留用于其私人舰队。"
 
 outfit `"Jorv" Shield Cortex`
-	plural `“Jorv”护盾皮层系列`
+	"display name" "“约尔夫”护盾皮层"
+	"plural" "“约尔夫”护盾皮层"
 	category "Systems"
 	series "Shields"
 	index 11040
@@ -114,6 +121,7 @@ outfit `"Jorv" Shield Cortex`
 	description "这款大型继承者护盾皮层布满了再生节点，其所需的能量预算甚至超过了大多数人类战舰的整体能耗。许多更为传统的高门成员并不赞成这种设计，他们认为如此强大的科技产物理应拥有更具艺术感的形态；但归根结底，几乎没有人愿意纯粹为了美观而投入时间与资金去重新设计。"
 
 outfit "Shield Cortex Interface"
+	"display name" "护盾皮层接口"
 	category "Systems"
 	cost 250000
 	thumbnail "outfit/shield cortex interface"
@@ -129,6 +137,7 @@ outfit "Shield Cortex Interface"
 
 
 outfit `1-"Uurau" Betavoltaic Cell`
+	"display name" "1-“乌劳”β伏特电池"
 	category "Power"
 	series "Generators"
 	index 11010
@@ -144,6 +153,7 @@ outfit `1-"Uurau" Betavoltaic Cell`
 	description "与大多数放射性同位素发电机不同，这款电池通过直接从放射性衰变产生的β粒子中提取电力来运作。虽然这种方式在单位材料上产生的能量较少，但也更加安全，且产生的废热极少。"
 
 outfit `OC-"Mavra" Betavoltaic Cell`
+	"display name" "OC-“马夫拉”β伏特电池"
 	category "Power"
 	series "Generators"
 	index 11040
@@ -159,6 +169,7 @@ outfit `OC-"Mavra" Betavoltaic Cell`
 	description "为了制造出一种比其聚变反应堆更小巧的高密度能源，继承者研发了这款过充型贝塔伏特电池。它含有密度极高的放射性物质，并且去除了标准型号上的大部分辐射屏蔽。虽然它在技术上通过了安全检查，但绝大多数继承者飞行员自然更倾向于在自己与这个强劲的小核心之间，随时隔着一道坚实的舱壁。"
 
 outfit `3-"Kaska" Betavoltaic Cell`
+	"display name" "3-“卡斯卡”β伏特电池"
 	category "Power"
 	series "Generators"
 	index 11020
@@ -174,6 +185,7 @@ outfit `3-"Kaska" Betavoltaic Cell`
 	description "继承者的贝塔伏特发电机诞生于先驱者帝国崩溃后不久的时期，那个时代充满了匮乏与迫切的需求。其粗犷的设计并没有迎合追求美观、优雅或独特性的传统价值观，而是提供了一定程度的可靠性，这使得它们在当时挣扎求生的人群中极受欢迎。"
 
 outfit `6-"Ruuv" Betavoltaic Cell`
+	"display name" "6-“鲁夫”β伏特电池"
 	category "Power"
 	series "Generators"
 	index 11030
@@ -190,6 +202,7 @@ outfit `6-"Ruuv" Betavoltaic Cell`
 
 
 outfit "Auxiliary Power Reserve"
+	"display name" "辅助储能器"
 	category "Power"
 	series "Batteries"
 	index 11010
@@ -204,6 +217,7 @@ outfit "Auxiliary Power Reserve"
 	description "继承者的贝塔伏特电池输出相对有限，这促使他们制造高效的电池来弥补这一不足。为了给战舰提供一些额外的电力冗余，这些电池会留出一部分容量专门供船体修复系统使用，从而有效减少了这些系统在启动时从飞船总能量池中汲取的电力。"
 
 outfit "Primary Power Reserve"
+	"display name" "主储能器"
 	category "Power"
 	series "Batteries"
 	index 11010
@@ -219,6 +233,7 @@ outfit "Primary Power Reserve"
 
 
 outfit `"Nnesa" Fusion Core`
+	"display name" "“内萨”聚变核心"
 	category "Power"
 	series "Generators"
 	index 11050
@@ -235,6 +250,7 @@ outfit `"Nnesa" Fusion Core`
 	description "虽然贝塔伏特电池对于民用而言可能已经足够，但高门那些更为先进的技术极其耗能，需要更强大的发电机。高门在设计这些仿星器聚变反应堆时，并未拘泥于从尽可能小的空间中榨取尽可能多的能量，而是将其重心放在了效率与便携性上；它们产生的热量和废料副产品都极少。此外，其设计还能更高效地向飞船的防御系统输送电力，这具体表现为相关装备功耗的降低。"
 
 outfit `"Ryuit" Fusion Core`
+	"display name" "“瑞伊特”聚变核心"
 	category "Power"
 	series "Generators"
 	index 11060
@@ -252,6 +268,7 @@ outfit `"Ryuit" Fusion Core`
 	description "	人们也不禁对那少数几台原始反应堆感到好奇，它们大概仍被锁在高门的私人金库中，并维持着完美的状态，以备将来不时之需。"
 
 outfit `"Uoret" Fusion Core`
+	"display name" "“乌奥雷特”聚变核心"
 	category "Power"
 	series "Generators"
 	index 11070
@@ -269,6 +286,7 @@ outfit `"Uoret" Fusion Core`
 
 
 outfit "Successor Cooling"
+	"display name" "继承者冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 11010
@@ -285,6 +303,7 @@ outfit "Successor Cooling"
 
 
 outfit "Successor Fuel Sail"
+	"display name" "继承者燃料帆"
 	category "Systems"
 	series "Ramscoops"
 	index 11010
@@ -301,6 +320,7 @@ outfit "Successor Fuel Sail"
 
 
 outfit `"Veldt" Combat Scanner`
+	"display name" "“维尔特”战斗扫描仪"
 	category "Systems"
 	series "Scanners"
 	index 11020
@@ -318,6 +338,7 @@ outfit `"Veldt" Combat Scanner`
 	description "	尽管该设备限制向公众出售，但其庞大的产量仍使得少数扫描仪流入了黑市；这是一个高门极其渴望纠正的持续性问题。"
 
 outfit `"Tuur" Scanning Suite`
+	"display name" "“图尔”扫描套件"
 	category "Systems"
 	series "Scanners"
 	index 11010
@@ -335,7 +356,8 @@ outfit `"Tuur" Scanning Suite`
 
 
 outfit `"Niis" Inductive Engines`
-	plural `“尼斯”感应引擎`
+	"display name" "“尼斯”感应引擎"
+	"plural" "“尼斯”感应引擎"
 	category "Engines"
 	series "Engines"
 	index 11010
@@ -365,6 +387,7 @@ outfit `"Niis" Inductive Engines`
 	description "这套微型的感应引擎刚好能够驱动一艘继承者穿梭机。它们保留了大型型号的双模态能力，尽管其规模要小得多。"
 
 outfit `"Aqra" Inductive Thruster`
+	"display name" "“阿克拉”感应推进器"
 	category "Engines"
 	series "Engines"
 	index 11021
@@ -389,6 +412,7 @@ outfit `"Aqra" Inductive Thruster`
 	description "继承者的推进器是双模态的：在大多数时候，它们以一种节能的低功率状态运行；但当需要逃离或战斗时，它们可以切换到一种效率较低但非常强劲的高推力模式，该模式会从飞船的护盾中汲取能量。"
 
 outfit `"Aqra" Inductive Steering`
+	"display name" "“阿克拉”感应转向器"
 	category "Engines"
 	series "Engines"
 	index 11020
@@ -409,6 +433,7 @@ outfit `"Aqra" Inductive Steering`
 	description "由于其转向推进器缺乏线性推进系统那标志性的模式切换功能，继承者倾注了大量精力，致力于让这些推进器在其尺寸下不仅动力强劲，且相对高效。此外，在加力燃烧模式下，来自转向推进器的循环能量流会回馈至飞船的线性引擎，从而降低甚至抵消使用加力燃烧器所带来的额外能源消耗。"
 
 outfit `"Aqra" Inductive Reverser`
+	"display name" "“阿克拉”感应反向推进器"
 	category "Engines"
 	series "Engines"
 	index 11022
@@ -430,6 +455,7 @@ outfit `"Aqra" Inductive Reverser`
 	description "	由于反向推进器必须朝前安装，因此它需安装在飞船的武器槽位中，而非引擎槽位。"
 
 outfit `"Chyyra" Inductive Thruster`
+	"display name" "“奇拉”感应推进器"
 	category "Engines"
 	series "Engines"
 	index 11031
@@ -454,6 +480,7 @@ outfit `"Chyyra" Inductive Thruster`
 	description "这套更大型的感应推进器在低功率状态下效率惊人，而在其高功率模式下也能产生同样惊人的推力。有了它们，即便是庞大且看似笨重的继承者舰船，在受到威胁时也能瞬间变得极其灵活。"
 
 outfit `"Chyyra" Inductive Steering`
+	"display name" "“奇拉”感应转向器"
 	category "Engines"
 	series "Engines"
 	index 11030
@@ -474,6 +501,7 @@ outfit `"Chyyra" Inductive Steering`
 	description "尽管就其尺寸而言动力并不算特别强劲，但这套感应转向引擎却异常高效，它使得大型继承者舰船即便只配备了极小的发电机，也能保持相对敏捷的机动性。"
 
 outfit `"Chyyra" Inductive Reverser`
+	"display name" "“奇拉”感应反向推进器"
 	category "Engines"
 	series "Engines"
 	index 11032
@@ -495,6 +523,7 @@ outfit `"Chyyra" Inductive Reverser`
 	description "	由于反向推进器必须朝前安装，因此它需安装在飞船的武器槽位中，而非引擎槽位。"
 
 outfit `"Veusa" Inductive Thruster`
+	"display name" "“维萨”感应推进器"
 	category "Engines"
 	series "Engines"
 	index 11041
@@ -519,6 +548,7 @@ outfit `"Veusa" Inductive Thruster`
 	description `作为继承者最大的脉冲感应推进器，Veusa主要用于驱动他们的大型战舰与货船。虽然它的高性能模式足以将最庞大的舰船加速至高速，但也会极其迅速地消耗护盾能量；这显然是设计来与继承者那些快速充能的护盾发生器搭配使用的。`
 
 outfit `"Veusa" Inductive Steering`
+	"display name" "“维萨”感应转向器"
 	category "Engines"
 	series "Engines"
 	index 11040
@@ -539,6 +569,7 @@ outfit `"Veusa" Inductive Steering`
 	description `继承者的Veusa系列转向单元比同类的人类引擎要小得多，这使得继承者在他们大型飞船的引擎布局上能够获得一定的灵活性。`
 
 outfit `"Veusa" Inductive Reverser`
+	"display name" "“维萨”感应反向推进器"
 	category "Engines"
 	series "Engines"
 	index 11042
@@ -561,6 +592,7 @@ outfit `"Veusa" Inductive Reverser`
 
 
 outfit "Multimodal Armor: Light"
+	"display name" "多模态装甲：轻型"
 	category "Systems"
 	series "Special Systems"
 	index 11010
@@ -575,6 +607,7 @@ outfit "Multimodal Armor: Light"
 	description "	这种配置在装甲结构中引入了排列有序的纳米级孔隙，能够在不削弱结构完整性的前提下减轻战舰的质量。"
 
 outfit "Multimodal Armor: Heavy"
+	"display name" "多模态装甲：重型"
 	category "Systems"
 	series "Special Systems"
 	index 11020
@@ -588,6 +621,7 @@ outfit "Multimodal Armor: Heavy"
 	description "	这种配置加强了构成装甲的原子之间的结合键，从而提高了其对直接伤害的抵抗力。"
 
 outfit "Multimodal Armor: Regen"
+	"display name" "多模态装甲：再生"
 	category "Systems"
 	series "Special Systems"
 	index 11030
@@ -601,6 +635,7 @@ outfit "Multimodal Armor: Regen"
 	description "	此配置提高了装甲的可塑性，极大地增强了战斗中维修工作的效率。"
 
 outfit "Multimodal Armor: Keystone"
+	"display name" "多模态装甲：基石"
 	category "Systems"
 	series "Special Systems"
 	index 11040
@@ -617,6 +652,7 @@ outfit "Multimodal Armor: Keystone"
 
 
 outfit "Kinetic Rail Rifle"
+	"display name" "动能磁轨步枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 11010
@@ -630,6 +666,7 @@ outfit "Kinetic Rail Rifle"
 	description "尽管这种规格的抛射武器在人类空间中已被视为过时，并被激光武器取代，但继承者数代积累的高功率动能武器经验使他们得以制造出这种尤为可怖的磁轨步枪——其发射的弹丸足以穿透防弹装甲甚至舱壁隔板。该武器在击退登船者时特别有效，能够与继承者舰船的计算机和监控系统接口对接，将目标信息路由至内置显示屏。"
 
 outfit "Radiant Shield Shunt"
+	"display name" "辐光护盾分流器"
 	category "Unique"
 	series "Functional Unique"
 	index 11010

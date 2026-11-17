@@ -14,7 +14,8 @@
 # Outfits
 
 outfit "Small EM Battery"
-	plural "小型电磁电池"
+	"display name" "小型电磁电池"
+	"plural" "小型电磁电池"
 	category "Power"
 	series "Batteries"
 	index 13010
@@ -31,7 +32,8 @@ outfit "Small EM Battery"
 	description "这种小型超导电感器存储的电力刚好足以维持一架战斗机的运转，其产生的电磁场有助于维持护盾矩阵。"
 
 outfit "Large EM Battery"
-	plural "大型电磁电池组"
+	"display name" "大型电磁电池"
+	"plural" "大型电磁电池"
 	category "Power"
 	series "Batteries"
 	index 13020
@@ -48,6 +50,7 @@ outfit "Large EM Battery"
 	description "这是一个巨大的超导线圈，能够在电磁场中储存大量能量，并在不到一秒的时间内全部释放。其磁场还能为飞船的护盾恢复提供少量增强，否则护盾恢复会非常缓慢。"
 
 outfit "Small Hybrid Cooling"
+	"display name" "小型混合冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 13010
@@ -62,6 +65,7 @@ outfit "Small Hybrid Cooling"
 	description "这款小型冷却方案专为战斗机设计，因此不储存燃料。然而，它提供的被动冷却能力却胜过其兄长型号。"
 
 outfit "Large Hybrid Cooling"
+	"display name" "大型混合冷却系统"
 	category "Systems"
 	series "Cooling"
 	index 13020
@@ -77,6 +81,7 @@ outfit "Large Hybrid Cooling"
 	description "这套谢拉吉冷却系统虽然技术相当原始，但兼具主动与被动散热能力，因此能比简单的散热器散发更多热量。不过，在承受战斗高温时会消耗大量电力。它还内置了低温燃料箱，可储存额外燃料用作临时热库。"
 
 outfit "Fission Drive"
+	"display name" "裂变引擎"
 	category "Engines"
 	series "Engines"
 	index 13010
@@ -105,6 +110,7 @@ outfit "Fission Drive"
 	description "聚变引擎的小型表亲，依靠裂变而非聚变运作，提供驱动重离子回旋加速器所需的发电能力和推力。"
 
 outfit "Fusion Drive"
+	"display name" "聚变引擎"
 	category "Engines"
 	series "Engines"
 	index 13020
@@ -145,6 +151,7 @@ outfit "Fusion Drive"
 	description "谢拉吉引擎远非简单的喷火管；它们是一组相互依存的设备，以牺牲模块化为代价换取更高的效率。这包括一台超光速引擎、一座巨大的聚变反应堆，以及你见过的最强大的等离子引擎。所有这些都算是相对简单的技术，但它们被精炼并发挥到了极致。引擎与聚变反应堆从根本上连接在一起，进一步提升了推力，从而让翡翠之剑能以惊人的速度飞行，相对轻松地穿越星际空间。"
 
 outfit "Electronic Warfare System"
+	"display name" "电子战系统"
 	category "Systems"
 	series "Scanners"
 	index 13010
@@ -162,6 +169,7 @@ outfit "Electronic Warfare System"
 # Weapons
 
 outfit "Dragonflame Cannon"
+	"display name" "龙焰炮"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 13020
@@ -236,6 +244,7 @@ effect "dragonflame debris"
 	"velocity scale" 0.001
 
 outfit "Sheragi Anti-Missile"
+	"display name" "谢拉吉反导系统"
 	category "Turrets"
 	series "Anti-Missile"
 	index 13010
@@ -267,6 +276,7 @@ effect "sheragiam"
 	"velocity scale" 1
 
 outfit "Particle Waveform Turret"
+	"display name" "粒子波形炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 13010
@@ -317,6 +327,7 @@ effect "pwave impact"
 	"velocity scale" -.001
 
 outfit "Shard Fabricator"
+	"display name" "碎片弹制造机"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 13010
@@ -359,6 +370,7 @@ outfit "Shard Fabricator"
 	description "为了减少长期战时对供应链的依赖，该装备包含专用制造机，可利用库存材料和少量储存燃料生产简易动能导弹；其制导系统仅从舰载雷达接收数据。导弹从每个发射器以六发齐射方式发射，尽管结构脆弱，却能有效压制点防御系统。然而，其携带的燃料极少，意味着只能追踪目标约一秒，随后便转为无制导弹药。因系现场制造，重新装填耗时漫长。"
 
 outfit "Shard inactive"
+	"display name" "碎片弹（未激活）"
 	weapon
 		sprite "projectile/shardinactive"
 			"frame rate" 5
@@ -380,6 +392,7 @@ effect "shard impact"
 	"velocity scale" 0
 
 outfit "Heavy Ion Cyclotron"
+	"display name" "重离子回旋加速器"
 	category "Guns"
 	series "Guns"
 	index 13010
@@ -405,6 +418,7 @@ outfit "Heavy Ion Cyclotron"
 	description "谢拉吉战斗机的主武器是一种粒子加速器，与共和国海军和辛迪加所使用的粒子加速器颇为相似。然而，这款加速器产生的是一股密集的重金属离子流，而非较轻粒子的爆发，从而造成高额伤害并伴随强烈后坐力。由于粒子加速器本身可以安装在其他位置，因此节省了武器空间。"
 
 outfit "Heavy Ion Fragment"
+	"display name" "重离子碎片"
 	weapon
 		sprite "projectile/hionfrag"
 			"no repeat"

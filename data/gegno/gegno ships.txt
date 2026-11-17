@@ -14,6 +14,7 @@
 # Gegno Civilians:
 
 ship "Shale"
+	"display name" "页岩"
 	sprite "ship/gegno shale"
 	thumbnail "thumbnail/gegno shale"
 	"administrative cost" 1
@@ -53,6 +54,7 @@ ship "Shale"
 	description `在格诺发现并开始使用超空间航道后，他们庞大且昂贵的世代飞船在星际贸易中显得过于笨重，因而需要一种更小、更易操控的飞船，例如本舰。页岩级相当于格诺的穿梭机：一种小巧紧凑的运输工具。无论是货物、贸易商品、旅人还是新兵，页岩级都是格诺星际文明的基石。`
 
 ship "Dolomite"
+	"display name" "白云岩"
 	sprite "ship/gegno dolomite"
 	thumbnail "thumbnail/gegno dolomite"
 	"administrative cost" 3
@@ -97,6 +99,7 @@ ship "Dolomite"
 	description `白云岩级几乎与人类巡洋舰一般大小，是格诺最常用的现役货船，其原始设计可追溯到太空殖民早期。它们既被用作客轮，也被用作货船。由于广受欢迎且经久不衰，维族与斯钦族都在原始设计的基础上，针对自身需求开发了不同的改型。`
 
 ship "Conglomerate"
+	"display name" "砾岩"
 	sprite "ship/gegno conglomerate"
 	thumbnail "thumbnail/gegno conglomerate"
 	"administrative cost" 4
@@ -146,6 +149,7 @@ ship "Conglomerate"
 	description `随着时间的推移，格诺需要更大的飞船在各个新世界之间运送物资——这些飞船要比他们老旧过时的世代飞船更容易建造和操作，同时又要比穿梭机更大。砾岩级正是为满足这一需求而设计的。`
 
 ship "Granofel"
+	"display name" "花岗片麻岩"
 	sprite "ship/gegno granofel"
 	thumbnail "thumbnail/gegno granofel"
 	"administrative cost" 3
@@ -194,6 +198,7 @@ ship "Granofel"
 	description `与许多能够胜任多种角色的格诺飞船不同，花岗片麻岩级的设计初衷完全是为了运载大量货物；除了满足基本船员所需的铺位外，它没有多余的空间。它们最常用于在矿业产业链中往返运输海量的原矿与精炼矿石。同时，由于其具备巨大的货舱容量，也经常与采矿船搭档作业，以延长单次采矿任务的持续时长。除矿业外，花岗片麻岩级也用于运输建造其他大型飞船所需的重型材料。`
 
 ship "Gypsum"
+	"display name" "石膏"
 	sprite "ship/gegno gypsum"
 	thumbnail "thumbnail/gegno gypsum"
 	"administrative cost" 2
@@ -244,6 +249,7 @@ ship "Gypsum"
 	description `	由于格诺引擎动力较弱，石膏级很难追赶移动速度较快的小行星。为了解决这一问题，同时避免大幅增加飞船上的引擎空间，格诺转而开发了强力的挖掘钻。该钻头能在数秒内粉碎小行星，这意味着石膏级只需在小行星旁稍作停留，即可完成开采。`
 
 ship "Corundum"
+	"display name" "刚玉"
 	sprite "ship/gegno corundum"
 	thumbnail "thumbnail/gegno corundum"
 	"administrative cost" 2
@@ -314,6 +320,7 @@ ship "Corundum" "Corundum (Torch)"
 		"Hyperdrive"
 
 ship "Protolith"
+	"display name" "原岩"
 	sprite "ship/gegno protolith"
 	thumbnail "thumbnail/gegno protolith"
 	"administrative cost" 17
@@ -373,6 +380,7 @@ ship "Protolith"
 # Gegno Vi:
 
 ship "Dunite"
+	"display name" "纯橄岩"
 	sprite "ship/gegno dunite"
 	thumbnail "thumbnail/gegno dunite"
 	"administrative cost" 1
@@ -418,6 +426,7 @@ ship "Dunite"
 	description `	作为仅为单一目的而设计的混乱机械集合体，纯橄岩级飞船既没有配备、也没有空间安装超空间引擎，是纯粹的恒星系内飞船。`
 
 ship "Augen"
+	"display name" "眼斑岩"
 	sprite "ship/gegno augen"
 	thumbnail "thumbnail/gegno augen"
 	"administrative cost" 24
@@ -554,6 +563,7 @@ ship "Augen"
 	description `	该项目原本计划建造两艘庞大的姊妹舰，但另一款设计的蓝图在早期阶段就已遗失，至今下落不明。`
 
 ship "Slate"
+	"display name" "板岩"
 	sprite "ship/gegno slate"
 	thumbnail "thumbnail/gegno slate"
 	"administrative cost" 1
@@ -594,6 +604,7 @@ ship "Slate"
 	description `由格诺维设计的板岩级是页岩级的改进型，拥有更坚固的船体和更大的空间，这也是维族舰船的主要特征。为了契合维族的体型，它比其他穿梭机稍大一些，能够搭载少数格诺学员，同时货运容量也有了可观的提升。`
 
 ship "Schist"
+	"display name" "片岩"
 	sprite "ship/gegno schist a"
 	thumbnail "thumbnail/gegno schist a"
 	"administrative cost" 4
@@ -675,6 +686,7 @@ ship "Schist" "Schist (Heavy Load)"
 		"cargo space" 49
 
 ship "Rhyolite"
+	"display name" "流纹岩"
 	sprite "ship/gegno rhyolite"
 	thumbnail "thumbnail/gegno rhyolite"
 	"administrative cost" 1
@@ -725,6 +737,7 @@ ship "Rhyolite"
 	description `流纹岩级是由生产榴辉岩级与闪长岩级的同一家船厂建造的维族原型拦截机。目前该型号仅生产了寥寥数艘，现存飞船主要由少数维族战士驾驶，用于技术测试或是私人拥有。`
 
 ship "Eclogite"
+	"display name" "榴辉岩"
 	sprite "ship/gegno eclogite"
 	thumbnail "thumbnail/gegno eclogite"
 	"administrative cost" 2
@@ -776,6 +789,7 @@ ship "Eclogite"
 	description `虽然船身较长、类似战列舰的风格是格诺维的一贯传统，但另一家船厂也加入了维族战舰设计的竞争。榴辉岩级是维族舰队最新的设计之一——它是一艘武装到牙齿的炮艇，装备了大量火炮，并拥有维族大型舰船所缺乏的机动性。它扮演着“打了就跑”的角色，利用快速机动，在调整位置进行下一轮攻击前，向目标的装甲倾泻一轮轮密集的炮弹。`
 
 ship "Diorite"
+	"display name" "闪长岩"
 	sprite "ship/gegno diorite"
 	thumbnail "thumbnail/gegno diorite"
 	"administrative cost" 2
@@ -844,6 +858,7 @@ ship "Diorite" "Diorite (Ballistic)"
 		"Hyperdrive"
 
 ship "Hornfel"
+	"display name" "角岩"
 	sprite "ship/gegno hornfel a"
 	thumbnail "thumbnail/gegno hornfel a"
 	"administrative cost" 5
@@ -980,7 +995,8 @@ ship "Hornfel" "Hornfel (Heavy Weapons)"
 	turret 0 -42 "Choleric Cannon Turret"
 
 ship "Gneiss"
-	plural "片麻岩"
+	"display name" "片麻岩"
+	"plural" "片麻岩"
 	sprite "ship/gegno gneiss"
 	thumbnail "thumbnail/gegno gneiss"
 	"administrative cost" 7
@@ -1062,6 +1078,7 @@ ship "Gneiss"
 	description `	遗憾的是，作为换取强大火力和防御装甲的代价，它们缺乏速度与机动性，即便装备了维族所能提供的最大型引擎系统也是如此。`
 
 ship "Granulite"
+	"display name" "麻粒岩"
 	sprite "ship/gegno granulite"
 	thumbnail "thumbnail/gegno granulite"
 	"administrative cost" 7
@@ -1151,6 +1168,7 @@ ship "Granulite"
 # Gegno Scin:
 
 ship "Halite"
+	"display name" "岩盐"
 	sprite "ship/gegno halite"
 	thumbnail "thumbnail/gegno halite"
 	"administrative cost" 0
@@ -1194,6 +1212,7 @@ ship "Halite"
 	description `	战斗机默认不配备超空间引擎。除非你的舰队中拥有带战斗机机库的飞船，否则无法携带战斗机。`
 
 ship "Mica"
+	"display name" "云母"
 	sprite "ship/gegno mica"
 	thumbnail "thumbnail/gegno mica"
 	"administrative cost" 1
@@ -1234,6 +1253,7 @@ ship "Mica"
 	description `云母级是格诺辛对穿梭机的一种设计，它基于页岩级和维族的板岩级改造而来。虽然由于斯钦族的体型较小而使该船也略微偏小，但它搭载了更先进的引擎系统，使其速度几乎达到了页岩级和板岩级的两倍。`
 
 ship "Coesite"
+	"display name" "柯石英"
 	sprite "ship/gegno coesite"
 	thumbnail "thumbnail/gegno coesite"
 	"administrative cost" 2
@@ -1288,6 +1308,7 @@ ship "Coesite"
 	description `柯石英级是斯钦族在与维族作战时用作掩护舰的小型战舰。它们速度极快，并配备了两个炮塔基座，使其能够在移动中持续环绕目标并开火。由于体型较小，这些飞船相对易于制造，且通常成群结队地部署，从而能够压制比它们大得多的舰船。`
 
 ship "Tridymite"
+	"display name" "鳞石英"
 	sprite "ship/gegno tridymite"
 	thumbnail "thumbnail/gegno tridymite"
 	"administrative cost" 2
@@ -1342,6 +1363,7 @@ ship "Tridymite"
 	description `基于与柯石英级相似的骨架，鳞石英级是格诺辛的一种小型豪华运输船。鳞石英级通常被用作科研船，将科学家团队运往各个目的地，或是作为斯钦高级科学家的私人座驾。此外，军方偶尔也会将其用作侦察船，其船身结构中集成了早期的原型扫描系统。`
 
 ship "Felsic"
+	"display name" "长英质"
 	sprite "ship/gegno felsic"
 	thumbnail "thumbnail/gegno felsic"
 	"administrative cost" 3
@@ -1395,6 +1417,7 @@ ship "Felsic"
 	description `长英质级基于片岩级设计，但以降低耐久度为代价提供了诸多升级选项。斯钦族为它们配备了三个炮塔基座，并扩大了装备、武器和引擎的容量。这使得这些飞船不仅能够执行后勤任务，还能兼作次级战斗舰船，从而弥补了斯钦族缺乏专用战舰的遗憾。`
 
 ship "Feldspar"
+	"display name" "长石"
 	sprite "ship/gegno feldspar"
 	thumbnail "thumbnail/gegno feldspar"
 	"administrative cost" 7
@@ -1481,6 +1504,7 @@ ship "Feldspar"
 	description `	长石级能够在与战场保持适度距离的同时提供火力支援，以其尺寸而言，它是一款极具威胁的全能型战舰。但缺点是，与斯钦族的其他军舰一样，它的船体较容易受损，尤其是单独行动时。因此，它们需要依赖舰载战斗机来将敌人阻截在安全距离之外。`
 
 ship "Epidote"
+	"display name" "绿帘石"
 	sprite "ship/gegno epidote"
 	thumbnail "thumbnail/gegno epidote"
 	"administrative cost" 6
@@ -1548,6 +1572,7 @@ ship "Epidote"
 	description `	与其他格诺辛飞船一样，绿帘石级本身也是一个实验性测试平台；它们围绕在长石级上测试过的同一套大型引擎系统建造，这使得它们在其体型下显得尤为快速。`
 
 ship "Kyanite"
+	"display name" "蓝晶石"
 	sprite "ship/gegno kyanite"
 	thumbnail "thumbnail/gegno kyanite"
 	"administrative cost" 5

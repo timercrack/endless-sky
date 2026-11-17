@@ -15,6 +15,7 @@
 # must be maintained in case of any save file or plugin still referencing them.
 
 ship "Korath Dredger"
+	"display name" "科拉斯挖矿船"
 	sprite "ship/dredger"
 	thumbnail "thumbnail/dredger"
 	attributes
@@ -92,6 +93,7 @@ ship "Korath Dredger"
 
 
 ship "Korath Raider"
+	"display name" "科拉斯袭击舰"
 	sprite "ship/raider"
 	thumbnail "thumbnail/raider"
 	attributes
@@ -164,6 +166,7 @@ ship "Korath Raider"
 
 
 ship "Korath Chaser"
+	"display name" "科拉斯追击舰"
 	sprite "ship/chaser"
 	thumbnail "thumbnail/chaser"
 	attributes
@@ -203,6 +206,7 @@ ship "Korath Chaser"
 
 
 ship "Korath World-Ship"
+	"display name" "科拉斯世界船"
 	sprite "ship/world-ship a"
 	thumbnail "thumbnail/world-ship a"
 	attributes
@@ -836,6 +840,7 @@ ship "Korath World-Ship" "Korath World-Ship C (Jump)"
 
 
 ship "Quarg Skylark"
+	"display name" "夸格云雀"
 	sprite "ship/skylark"
 	thumbnail "thumbnail/skylark"
 	attributes

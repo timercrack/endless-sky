@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Arach Courier"
+	"display name" "阿拉奇信使"
 	sprite "ship/arach courier"
 	thumbnail "thumbnail/arach courier"
 	"administrative cost" 1
@@ -72,6 +73,7 @@ ship "Arach Courier" "Arach Courier (Miner)"
 		"Hyperdrive"
 
 ship "Arach Freighter"
+	"display name" "阿拉奇货船"
 	sprite "ship/arach freighter"
 	thumbnail "thumbnail/arach freighter"
 	"administrative cost" 3
@@ -143,6 +145,7 @@ ship "Arach Freighter" "Arach Freighter (Miner)"
 		"Hyperdrive"
 
 ship "Arach Hulk"
+	"display name" "阿拉奇巨兽"
 	sprite "ship/arach hulk"
 	thumbnail "thumbnail/arach hulk"
 	"administrative cost" 4
@@ -220,6 +223,7 @@ ship "Arach Hulk" "Arach Hulk (Miner)"
 		"Hyperdrive"
 
 ship "Arach Spindle"
+	"display name" "阿拉奇纺锤"
 	sprite "ship/arach spindle"
 	thumbnail "thumbnail/arach spindle"
 	"administrative cost" 3
@@ -332,6 +336,7 @@ ship "Arach Spindle" "Arach Spindle (Jump Drive)"
 
 
 ship "Arach Transport"
+	"display name" "阿拉奇运输舰"
 	sprite "ship/arach transport"
 	thumbnail "thumbnail/arach transport"
 	"administrative cost" 1
@@ -400,6 +405,7 @@ ship "Arach Transport" "Arach Transport (Miner)"
 
 
 ship "Heliarch Breacher"
+	"display name" "日权会破袭者"
 	sprite "ship/heliarch breacher"
 	thumbnail "thumbnail/heliarch breacher"
 	"administrative cost" 5
@@ -522,6 +528,7 @@ ship "Heliarch Breacher" "Heliarch Breacher (Scrappy)"
 
 
 ship "Heliarch Hunter"
+	"display name" "日权会猎手"
 	sprite "ship/heliarch hunter"
 	thumbnail "thumbnail/heliarch hunter"
 	"administrative cost" 8
@@ -714,6 +721,7 @@ ship "Heliarch Hunter" "Heliarch Hunter (Scrappy)"
 
 
 ship "Heliarch Interdictor"
+	"display name" "日权会阻绝者"
 	sprite "ship/heliarch interdictor"
 	thumbnail "thumbnail/heliarch interdictor"
 	"administrative cost" 8
@@ -892,6 +900,7 @@ ship "Heliarch Interdictor" "Heliarch Interdictor (Scrappy)"
 
 
 ship "Heliarch Judicator"
+	"display name" "日权会裁决者"
 	sprite "ship/heliarch judicator"
 	thumbnail "thumbnail/heliarch judicator"
 	"administrative cost" 7
@@ -1081,6 +1090,7 @@ ship "Heliarch Judicator" "Heliarch Judicator (Scrappy)"
 
 
 ship "Heliarch Neutralizer"
+	"display name" "日权会中和者"
 	sprite "ship/heliarch neutralizer"
 	thumbnail "thumbnail/heliarch neutralizer"
 	"administrative cost" 6
@@ -1206,6 +1216,7 @@ ship "Heliarch Neutralizer" "Heliarch Neutralizer (Scrappy)"
 
 
 ship "Heliarch Punisher"
+	"display name" "日权会惩戒者"
 	sprite "ship/heliarch punisher"
 	thumbnail "thumbnail/heliarch punisher"
 	"administrative cost" 11
@@ -1459,6 +1470,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Scrappy)"
 
 
 ship "Heliarch Pursuer"
+	"display name" "日权会追猎者"
 	sprite "ship/heliarch pursuer"
 	thumbnail "thumbnail/heliarch pursuer"
 	"administrative cost" 0
@@ -1519,6 +1531,7 @@ ship "Heliarch Pursuer" "Heliarch Pursuer (Scrappy)"
 
 
 ship "Heliarch Rover"
+	"display name" "日权会漫游者"
 	sprite "ship/heliarch rover"
 	thumbnail "thumbnail/heliarch rover"
 	"administrative cost" 0
@@ -1578,6 +1591,7 @@ ship "Heliarch Rover" "Heliarch Rover (Ions)"
 
 
 ship "Heliarch Stalker"
+	"display name" "日权会潜行者"
 	sprite "ship/heliarch stalker"
 	thumbnail "thumbnail/heliarch stalker"
 	"administrative cost" 0
@@ -1635,6 +1649,7 @@ ship "Heliarch Stalker" "Heliarch Stalker (Scrappy)"
 
 
 ship "Kimek Briar"
+	"display name" "基梅克荆棘"
 	sprite "ship/kimek briar"
 	thumbnail "thumbnail/kimek briar"
 	"administrative cost" 1
@@ -1697,6 +1712,7 @@ ship "Kimek Briar" "Kimek Briar (Miner)"
 		"Hyperdrive"
 
 ship "Kimek Spire"
+	"display name" "基梅克尖塔"
 	sprite "ship/kimek spire"
 	thumbnail "thumbnail/kimek spire"
 	"administrative cost" 5
@@ -1770,6 +1786,7 @@ ship "Kimek Spire" "Kimek Spire (Miner)"
 		"Hyperdrive"
 
 ship "Kimek Thistle"
+	"display name" "基梅克飞蓟"
 	sprite "ship/kimek thistle"
 	thumbnail "thumbnail/kimek thistle"
 	"administrative cost" 3
@@ -1856,6 +1873,7 @@ ship "Kimek Thistle" "Kimek Thistle (Torpedoes)"
 		"Breeder Reactor"
 
 ship "Kimek Thorn"
+	"display name" "基梅克尖刺"
 	sprite "ship/kimek thorn"
 	thumbnail "thumbnail/kimek thorn"
 	"administrative cost" 1
@@ -1916,6 +1934,7 @@ ship "Kimek Thorn" "Kimek Thorn (Miner)"
 
 
 ship "Saryd Runabout"
+	"display name" "萨里德轻舟"
 	sprite "ship/saryd runabout"
 	thumbnail "thumbnail/saryd runabout"
 	"administrative cost" 1
@@ -1974,6 +1993,7 @@ ship "Saryd Runabout" "Saryd Runabout (Miner)"
 		"Hyperdrive"
 
 ship "Saryd Sojourner"
+	"display name" "萨里德旅居者"
 	sprite "ship/saryd sojourner"
 	thumbnail "thumbnail/saryd sojourner"
 	"administrative cost" 5
@@ -2069,6 +2089,7 @@ ship "Saryd Sojourner" "Saryd Sojourner (Bombardments)"
 		"Overcharged Shield Module"
 
 ship "Saryd Traveler"
+	"display name" "萨里德旅行者"
 	sprite "ship/saryd traveler"
 	thumbnail "thumbnail/saryd traveler"
 	"administrative cost" 3
@@ -2145,6 +2166,7 @@ ship "Saryd Traveler" "Saryd Traveler (Miner)"
 		"Hyperdrive"
 
 ship "Saryd Visitor"
+	"display name" "萨里德访客"
 	sprite "ship/saryd visitor"
 	thumbnail "thumbnail/saryd visitor"
 	"administrative cost" 2

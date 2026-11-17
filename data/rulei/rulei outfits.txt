@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 outfit "Fate Sealer"
+	"display name" "命运封印者"
 	category "Guns"
 	series "Guns"
 	index 99020
@@ -42,6 +43,7 @@ outfit "Fate Sealer"
 	description `一种能量粒子武器，在短暂延迟后将爆炸集中到单一位置。爆炸的余波将目标拉向爆炸原点。`
 
 outfit "Fate Sealer Activated"
+	"display name" "命运封印者（激活）"
 	weapon
 		"hit effect" "fusion blast"
 		"lifetime" 4
@@ -56,6 +58,7 @@ outfit "Fate Sealer Activated"
 		"safe"
 
 outfit "Fate Divider"
+	"display name" "命运分割者"
 	category "Guns"
 	series "Guns"
 	index 99030
@@ -86,6 +89,7 @@ outfit "Fate Divider"
 	description `一种能量粒子武器，在短暂延迟后将爆炸集中到单一位置。爆炸的余波会将目标推离爆炸原点。`
 
 outfit "Fate Divider Activated"
+	"display name" "命运分割者（激活）"
 	weapon
 		"hit effect" "fusion blast"
 		"lifetime" 1
@@ -120,6 +124,7 @@ effect "fusion blast"
 	"velocity scale" .001
 
 outfit "Abyssal Composer"
+	"display name" "深渊谱曲者"
 	category "Guns"
 	series "Guns"
 	index 99040

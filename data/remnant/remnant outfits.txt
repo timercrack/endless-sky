@@ -15,6 +15,7 @@
 # Weapons:
 
 outfit "Inhibitor Cannon"
+	"display name" "抑制炮"
 	category "Guns"
 	series "Guns"
 	index 03010
@@ -59,6 +60,7 @@ effect "inhibitor impact"
 	"velocity scale" -.05
 
 outfit "Inhibitor Turret"
+	"display name" "抑制炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 03010
@@ -98,6 +100,7 @@ outfit "Inhibitor Turret"
 
 
 outfit "Thrasher Cannon"
+	"display name" "痛击炮"
 	category "Guns"
 	series "Guns"
 	index 03020
@@ -138,6 +141,7 @@ effect "thrasher impact"
 
 
 outfit "Thrasher Turret"
+	"display name" "痛击炮塔"
 	category "Turrets"
 	series "Turrets"
 	index 03020
@@ -172,6 +176,7 @@ outfit "Thrasher Turret"
 
 
 outfit "Point Defense Turret"
+	"display name" "点防御炮塔"
 	category "Turrets"
 	series "Anti-Missile"
 	index 03010
@@ -221,7 +226,8 @@ effect "point defense die"
 
 
 outfit "EMP Torpedo"
-	plural "EMP 鱼雷"
+	"display name" "电磁脉冲鱼雷"
+	"plural" "电磁脉冲鱼雷"
 	category "Ammunition"
 	series "Ammunition"
 	index 03010
@@ -232,6 +238,7 @@ outfit "EMP Torpedo"
 	description "这种鱼雷可释放电磁脉冲，干扰舰船的发电机。"
 
 outfit "EMP Torpedo Storage Bay"
+	"display name" "电磁脉冲鱼雷弹药库"
 	category "Ammunition"
 	series "Ammunition"
 	index 03011
@@ -248,6 +255,7 @@ outfit "EMP Torpedo Storage Bay"
 	description "	除了弹药容量外，储存舱还能容纳少量电荷，足以让原本没有电池的飞船发射电磁脉冲鱼雷。"
 
 outfit "EMP Torpedo Bay"
+	"display name" "电磁脉冲鱼雷发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 03010
@@ -302,6 +310,7 @@ outfit "EMP Torpedo Bay"
 
 
 outfit "Teciimach Bay"
+	"display name" "泰西马赫发射器"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 03030
@@ -357,6 +366,7 @@ outfit "Teciimach Bay"
 			has "gamerule: universal ammo restocking"
 
 outfit "Teciimach Pod"
+	"display name" "泰西马赫荚舱"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 03020
@@ -458,6 +468,7 @@ effect "emp spark"
 
 
 outfit "Ember Tear"
+	"display name" "余烬之泪"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 03040
@@ -547,6 +558,7 @@ effect "ember tear vortex"
 # Systems:
 
 outfit "Crystal Capacitor"
+	"display name" "水晶电容器"
 	category "Power"
 	series "Batteries"
 	index 03010
@@ -565,6 +577,7 @@ outfit "Crystal Capacitor"
 	description "	这些电容器往往会以多余热量的形式泄漏少量能量。这种能量泄漏也导致电离现象更快消散，使装备这些晶体的飞船对废土区域偶发的离子风暴具备一定抵抗力。"
 
 outfit "Millennium Cell"
+	"display name" "千禧电池"
 	category "Power"
 	series "Generators"
 	index 03010
@@ -582,6 +595,7 @@ outfit "Millennium Cell"
 	description "	尽管产生的能量不算惊人，但遗民设计的发电机能够更好地应对电离导致的能量损耗效应。"
 
 outfit "Epoch Cell"
+	"display name" "纪元电池"
 	category "Power"
 	series "Generators"
 	index 03020
@@ -599,6 +613,7 @@ outfit "Epoch Cell"
 	description "	遗民利用了在维米纳尔发现的晶体的离子消散效果，并将其复制到他们的发电机上，以帮助在余烬废土的恶劣环境中生存。"
 
 outfit "Aeon Cell"
+	"display name" "永恒电池"
 	category "Power"
 	series "Generators"
 	index 03030
@@ -616,6 +631,7 @@ outfit "Aeon Cell"
 	description "	所有遗民发电机上的离子抗性不仅能让它们更快地从离子风暴中恢复，还能在离子风暴开始时为船只提供一个不受影响的窗口期，使它们有机会在风暴削弱能力之前逃脱。"
 
 outfit "Thermoelectric Cooler"
+	"display name" "温差电冷却器"
 	category "Systems"
 	series "Cooling"
 	index 03010
@@ -630,6 +646,7 @@ outfit "Thermoelectric Cooler"
 	description "这种冷却器实际上是千禧电池的发电元件之一，但接线方式使其可以反向运行：消耗电力，将热量从飞船系统转移到外部。"
 
 outfit "Emergency Ramscoop"
+	"display name" "应急冲压集气器"
 	category "Systems"
 	series "Ramscoops"
 	index 03010
@@ -643,6 +660,7 @@ outfit "Emergency Ramscoop"
 	description `余烬废土是一个只有非常愚蠢的船长才会在没有某种补充超空间燃料的设备的情况下前往的地方。在遗民飞船中，由于它们有“鳃”这种内置冲压集气器，这种风险并不存在，但有些船长更喜欢通过增加额外容量来加快这个过程。对于极少数在非遗民飞船中勇敢进入该区域的船长来说，这个冲压集气器并不特别强大，但它能让飞船探索而无需担心被困。`
 
 outfit "NDR-114 Android"
+	"display name" "NDR-114 安卓机器人"
 	category "Unique"
 	series "Functional Unique"
 	index 40
@@ -656,6 +674,7 @@ outfit "NDR-114 Android"
 	description "	尽管如此，仍有一些船长直接从其发明者那里订购这些机器人，实质上是用机器人替代了一名船员。这些船长发现，机器人具备执行多数工作的足够能力，但缺乏驾驶飞船或参与登船作战的能力。"
 
 outfit "Research Laboratory"
+	"display name" "研究实验室"
 	category "Systems"
 	series "Scanners"
 	index 03020
@@ -675,6 +694,7 @@ outfit "Research Laboratory"
 	description "	对于地面科学家而言，这可能不过是一个塞满扫描仪和设备的小隔间，但对遗民来说，它却是在现场研究外星与恒星现象的行动基地。对于船长而言，拥有支持传感器套件的先进设备，以及一名训练有素的科学家加入船员队伍，将带来极大的益处。"
 
 outfit "Quantum Key Stone"
+	"display name" "量子基石"
 	category "Systems"
 	series "Drives"
 	index 60
@@ -688,6 +708,7 @@ outfit "Quantum Key Stone"
 	description "这件珍贵的神器能以特定方式调谐飞船的量子振荡，使其能够穿越余烬废土中某些原本无法通行的虫洞。这些石料稀有而价值连城，因为它们在废土中仅有一个矿源可采。"
 
 outfit "Salvage Scanner"
+	"display name" "打捞扫描仪"
 	category "Systems"
 	series "Scanners"
 	index 03010
@@ -708,6 +729,7 @@ outfit "Salvage Scanner"
 # Engines:
 
 outfit "Bellows-Class Afterburner"
+	"display name" "风箱级加力燃烧室"
 	category "Engines"
 	series "Afterburners"
 	index 03010
@@ -734,6 +756,7 @@ effect "remnant afterburner"
 
 
 outfit "Anvil-Class Engine"
+	"display name" "铁砧级引擎"
 	category "Engines"
 	series "Engines"
 	index 03010
@@ -766,6 +789,7 @@ outfit "Anvil-Class Engine"
 	description "这套微型引擎专为极小型飞行器设计，将推进器与转向机构合为一体。"
 
 outfit "Crucible-Class Thruster"
+	"display name" "坩埚级推进器"
 	category "Engines"
 	series "Engines"
 	index 03021
@@ -792,6 +816,7 @@ outfit "Crucible-Class Thruster"
 	description "这些小巧但强劲的引擎利用电离气体推进，其喷射速度可达光速的相当大一部分。"
 
 outfit "Forge-Class Thruster"
+	"display name" "锻炉级推进器"
 	category "Engines"
 	series "Engines"
 	index 03031
@@ -818,6 +843,7 @@ outfit "Forge-Class Thruster"
 	description "遗民们采用了人类从太空飞行时代之初就开始使用的基本离子推进器设计，并使其变得显著更加强劲……但同时也更加耗能。"
 
 outfit "Smelter-Class Thruster"
+	"display name" "冶炼炉级推进器"
 	category "Engines"
 	series "Engines"
 	index 03041
@@ -844,6 +870,7 @@ outfit "Smelter-Class Thruster"
 	description "遗民飞船的引擎耗电量甚至超过武器系统，这并不罕见：或许表明他们更倾向于尽可能避免战斗。"
 
 outfit "Crucible-Class Steering"
+	"display name" "坩埚级转向器"
 	category "Engines"
 	series "Engines"
 	index 03020
@@ -864,6 +891,7 @@ outfit "Crucible-Class Steering"
 	description "这个转向系统非常小巧，甚至可以安装在截击机上，但遗民主要用它来为大型飞船提供额外的机动性。"
 
 outfit "Forge-Class Steering"
+	"display name" "锻炉级转向器"
 	category "Engines"
 	series "Engines"
 	index 03030
@@ -884,6 +912,7 @@ outfit "Forge-Class Steering"
 	description "这款异常耗能的转向系统在相对较小的空间内集成了强大的动力。看来遗民在引擎技术上的进步速度已远超人类其他族群。"
 
 outfit "Smelter-Class Steering"
+	"display name" "冶炼炉级转向器"
 	category "Engines"
 	series "Engines"
 	index 03040
@@ -908,6 +937,7 @@ outfit "Smelter-Class Steering"
 # Hand to Hand
 
 outfit "Tuning Rifle"
+	"display name" "调谐步枪"
 	category "Hand to Hand"
 	series "H2H"
 	index 03010
@@ -926,6 +956,7 @@ outfit "Tuning Rifle"
 # Unique
 
 outfit "Void Rifle"
+	"display name" "虚空步枪"
 	category "Unique"
 	series "Functional Unique"
 	index 50
@@ -945,7 +976,8 @@ outfit "Void Rifle"
 
 
 outfit "Void Sprite Parts"
-	plural "虚空精灵部件"
+	"display name" "虚空精灵部件"
+	"plural" "虚空精灵部件"
 	category "Unique"
 	series "Non-Functional Unique"
 	index 20
@@ -965,6 +997,7 @@ outfit "Void Sprite Parts"
 # Special
 
 outfit "Remnant License"
+	"display name" "遗民许可证"
 	category "Licenses"
 	series "Licenses"
 	index 03010
@@ -972,6 +1005,7 @@ outfit "Remnant License"
 	description "这款设备除了可用作便携式敌我识别验证器、个人身份识别工具以及购买遗民技术的许可证之外，其可动部件在每次调节时都会发出机械咔嗒声。当按照特定顺序和节奏切换这些部件时，一连串咔嗒声会汇合成出人意料地优美动听的古典音乐混曲。"
 
 outfit "Remnant Capital License"
+	"display name" "遗民主力舰许可证"
 	category "Licenses"
 	series "Licenses"
 	index 03020

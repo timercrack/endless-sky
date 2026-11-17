@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Archon"
+	"display name" "执政官"
 	noun "实体"
 	sprite "ship/archon"
 		"frame rate" 0.87

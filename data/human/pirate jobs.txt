@@ -3210,6 +3210,7 @@ conversation "southern pirate defense"
 
 
 outfit "Secret Cargo"
+	"display name" "秘密货物"
 	category "Special"
 	cost 0
 	thumbnail "outfit/unknown"

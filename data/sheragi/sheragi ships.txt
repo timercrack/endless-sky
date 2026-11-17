@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Emerald Sword"
+	"display name" "翡翠之剑"
 	sprite ship/emeraldsword
 	thumbnail "thumbnail/emeraldsword"
 	"administrative cost" 10
@@ -166,6 +167,7 @@ ship "Emerald Sword" "Emerald Sword (Fixed)"
 	turret "Sheragi Anti-Missile"
 
 ship "Black Diamond"
+	"display name" "黑钻"
 	sprite "ship/blackdiamond"
 	thumbnail "thumbnail/blackdiamond"
 	"administrative cost" 0
