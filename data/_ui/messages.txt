@@ -82,13 +82,13 @@ message "disengaging autopilot"
 	text "正在脱离自动驾驶。"
 
 message "coming to a stop"
-	text "正在停泊。"
+	text "正在减速至停止。"
 
 message "cloaking fail"
-	text "One of your ships could not engage its cloaking device."
+	text "你的一艘飞船未能启动隐形装置。"
 
 message "cloaking fail multiple"
-	text "Several of your ships could not engage their cloaking devices."
+	text "你的数艘飞船未能启动隐形装置。"
 
 message "engaging cloaking device"
 	text "启动隐形装置。"

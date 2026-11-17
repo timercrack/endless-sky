@@ -123,7 +123,7 @@ help "fleet asteroid mining shortcuts"
 	`小行星目标选择快捷键：`
 	`如果你有小行星扫描仪，<Select nearest asteroid>可选择最近的小行星。`
 	`<Fleet: Fight my target> 将使你的舰队专注于开采目标小行星。`
-	`	<Fleet: Harvest flotsam> 将切换您的舰队是否尝试拾取残骸。
+	`	<Fleet: Harvest flotsam> 将切换您的舰队是否尝试拾取残骸。`
 	``
 	`备选目标：`
 	`	左键点击 - 会瞄准小行星但不进行开采。`
@@ -190,8 +190,8 @@ help "outfitter with multiple ships"
 	`船队管理可以在飞行途中、船坞、装备商或玩家信息面板中进行。`
 
 help "locked ships"
-	`Almost every ship in the 31st century has safeguards on their computer systems, preventing intruders from hijacking them. While the protection on flight and navigation systems have bypasses for emergencies, other systems such as weaponry and access to passenger quarters will be locked, preventing their use.`
-	`	Most locked vessels are sold to scrapyards for a fraction of their original value. On the other hand, you could instead have a specialist rewire the entire ship and fly it yourself. Rewiring does not come cheap, however...`
+	`31世纪几乎每艘飞船的计算机系统都设有防护措施，防止入侵者劫持。虽然飞行与导航系统的保护在紧急情况下可以绕过，但武器、乘客舱访问等其他系统将被锁定，无法使用。`
+	`	大多数被锁定的飞船只能以原价的零头卖给废品场。另一方面，你也可以请专家为整艘飞船重新布线，然后亲自驾驶。不过，重新布线的费用可不便宜……`
 
 help "stranded"
 	`哎呀！你刚刚在一个无人星系里耗尽了燃料。幸运的是，其他船愿意帮助你。`

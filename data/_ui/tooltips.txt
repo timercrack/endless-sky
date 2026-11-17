@@ -20,61 +20,61 @@ tip "parked"
 
 ## Ship info:
 tip "ship: model:"
-	`The model of this ship.`
+	`这艘飞船的型号。`
 
 tip "ship: category:"
-	`The category that this ship's model is within.`
+	`这艘飞船型号所属的类别。`
 
 tip "ship: license:"
-	`A license required to purchase this ship.`
-	`Licenses may be able to be purchased separately, or can be earned by completing certain tasks.`
+	`购买这艘飞船所需的执照。`
+	`执照可能可以单独购买，也可以通过完成特定任务获得。`
 
 tip "ship: This ship will sell for:"
-	`A breakdown of the value of this ship.`
+	`这艘飞船价值的明细。`
 
 tip "ship: empty hull:"
-	`The price this ship itself would sell for without any outfits installed.`
+	`不含任何已安装装备时，这艘飞船本身的售价。`
 
 tip "ship:   + outfits:"
-	`The price that all this ship's outfits would sell for.`
+	`这艘飞船所有装备的售价。`
 
 tip "ship: cost:"
-	`The total credit value of this ship.`
-	`Items depreciate in value with time. If you have sold any used items today, you can buy them back for the same price you sold them for.`
+	`这艘飞船的总价值（信用点）。`
+	`物品会随时间贬值。如果你今天卖出过二手物品，可以按卖出时的价格买回。`
 
 tip "ship: rewiring cost:"
-	`The cost of rewiring this ship. Rewiring a ship will unlock all of its systems.`
+	`为这艘飞船重新布线的费用。重新布线可解锁飞船的全部系统。`
 
 tip "ship: fleet cost:"
 	`此船占用的舰队容量。旗舰与停泊护航舰不计。着陆可超容量，但超容量无法离港。`
 
 tip "ship: shields:"
-	`Total shield strength.`
-	`Most weapons cannot damage your hull until your shields are depleted. Some weapon effects, such as heat damage, become more severe once shields are down.`
+	`总护盾强度。`
+	`在护盾耗尽之前，大多数武器无法伤害你的船体。某些武器效果（如热量伤害）在护盾失效后会更加严重。`
 
 tip "ship: shields (charge):"
 	`总护盾强度及每秒恢复率`
-	`Most weapons cannot damage your hull until your shields are depleted. Some weapon effects, such as heat damage, become more severe once shields are down.`
+	`在护盾耗尽之前，大多数武器无法伤害你的船体。某些武器效果（如热量伤害）在护盾失效后会更加严重。`
 
 tip "ship: hull:"
-	`Total hull strength.`
-	`Ships with a higher hull strength are able to take more damage as a proportion of their total strength before being disabled; the smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	`总船体强度。`
+	`船体强度越高的飞船，在瘫痪前能承受的伤害占其总强度的比例越大；最小的飞船在船体强度降至约45%以下时就会瘫痪，而非常大的飞船要到接近10%时才会瘫痪。`
 
 tip "ship: hull (repair):"
-	`Total hull strength and repair rate per second.`
-	`Ships with a higher hull strength are able to take more damage as a proportion of their total strength before being disabled; the smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	`总船体强度及每秒修复速率。`
+	`船体强度越高的飞船，在瘫痪前能承受的伤害占其总强度的比例越大；最小的飞船在船体强度降至约45%以下时就会瘫痪，而非常大的飞船要到接近10%时才会瘫痪。`
 
 tip "ship: disabled at:"
-	`If this ship's hull integrity drops below this level, it will become disabled. Disabled ships lose all functionality and are able to be assisted by other ships to repair them, or boarded to plunder from or capture them.`
-	`Ships with a higher hull strength are able to take more damage as a proportion of their total strength before being disabled; the smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	`如果这艘飞船的船体完整度降到此值以下，它将陷入瘫痪。瘫痪的飞船会失去全部功能，可以由其他飞船协助修复，也可以被登船掠夺或俘获。`
+	`船体强度越高的飞船，在瘫痪前能承受的伤害占其总强度的比例越大；最小的飞船在船体强度降至约45%以下时就会瘫痪，而非常大的飞船要到接近10%时才会瘫痪。`
 
 tip "ship: mass:"
-	`Mass, in tons.`
-	`The higher a ship's mass, the slower it turns and accelerates given the same engines, and the higher its maximum heat before overheating.`
+	`质量，单位为吨。`
+	`在引擎相同的情况下，飞船质量越大，转向和加速越慢，过热前可承受的最大热量也越高。`
 
 tip "ship: mass with no cargo:"
-	`Mass of this ship when not carrying any cargo or fighters.`
-	`The higher a ship's mass, the slower it turns and accelerates given the same engines, and the higher its maximum heat before overheating.`
+	`这艘飞船未携带任何货物或战斗机时的质量。`
+	`在引擎相同的情况下，飞船质量越大，转向和加速越慢，过热前可承受的最大热量也越高。`
 
 tip "ship: cargo space:"
 	`此船可携带的货物吨数（商品、任务货物、掠夺装备）。`
@@ -101,10 +101,10 @@ tip "ship: acceleration:"
 	`这艘船加速的快慢。飞船的质量（包括所载货物或战斗机的质量）越大，加速越慢。`
 
 tip "ship:     w/ afterburner:"
-	`Movement while both your primary thrusters and afterburners are active.`
+	`主推进器与加力燃烧室同时启用时的机动性能。`
 
 tip "ship:     reversed:"
-	`Movement while using reverse thrusters.`
+	`使用反向推进器时的机动性能。`
 
 tip "ship: turning:"
 	`转向速率，单位：度/秒。飞船质量（包括所载货物或战斗机）越大，转向越慢。`
@@ -133,44 +133,44 @@ tip "ship: drone bays:"
 
 ## Ship heat and energy summary fields:
 tip "ship: idle:"
-	`Energy and heat generated per second when this ship is idle, i.e. not firing weapons, moving, or using any other systems.`
+	`这艘飞船空闲时（即不开火、不移动、也不使用任何其他系统时）每秒产生的能量和热量。`
 
 tip "ship: moving:"
-	`Energy consumed and heat generated per second when this ship is turning and thrusting. Includes the cost of using an afterburner if one is installed, or uses the cost of using reverse thrust if that is greater than the cost of forward thrust. This is in addition to the "idle" amount.`
+	`这艘飞船转向并推进时每秒消耗的能量和产生的热量。若已安装加力燃烧室，则包含其使用消耗；若反向推进的消耗高于正向推进，则改用反向推进的消耗。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: thrusting:"
-	`Energy consumed and heat generated per second when this ship is thrusting. This is in addition to the "idle" amount.`
+	`这艘飞船推进时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: reversing:"
-	`Energy consumed and heat generated per second when this ship is using reverse thrusters. This is in addition to the "idle" amount.`
+	`这艘飞船使用反向推进器时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: afterburner:"
-	`Energy consumed and heat generated per second when this ship is using its afterburner. This is in addition to the "idle" amount.`
+	`这艘飞船使用加力燃烧室时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: turning:"
-	`Energy consumed and heat generated per second when this ship is turning. This is in addition to the "idle" amount.`
+	`这艘飞船转向时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: firing:"
-	`Energy consumed and heat generated per second when this ship is firing all its weapons. This is in addition to the "idle" amount. Note that weapons may consume or generate more energy or heat than this at the moment they fire, and this is the average value over time.`
+	`这艘飞船发射全部武器时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。注意，武器在开火瞬间消耗或产生的能量、热量可能高于此值，此处为随时间平均后的数值。`
 
 tip "ship: shields / hull:"
-	`Energy consumed and heat generated per second when this ship is recharging shields and repairing its hull at the same time. This is in addition to the "idle" amount.`
+	`这艘飞船同时为护盾充能并修复船体时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: repairing hull:"
-	`Energy consumed and heat generated per second when this ship is repairing its hull. This is in addition to the "idle" amount.`
+	`这艘飞船修复船体时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: charging shields:"
-	`Energy consumed and heat generated per second when this ship is recharging its shields. This is in addition to the "idle" amount.`
+	`这艘飞船为护盾充能时每秒消耗的能量和产生的热量。此数值是在“空闲”数值基础上的额外量。`
 
 tip "ship: net change:"
-	`The sum of the energy consumed and heat generated per second from the above energy and heat values. Represents the worst case scenario when all possible systems are active at once.`
+	`上述各项能量与热量数值中每秒能耗与产热的总和。代表所有可能的系统同时启用时的最坏情况。`
 
 tip "ship: capacity:"
-	`Energy capacity allows a ship to temporarily draw more energy than it produces, and can be increased by installing batteries.`
-	`Heat capacity is the highest your heat generation can be without eventually causing your ship to overheat, and is influenced by the mass of the ship. If the "net change" value for heat is greater than this value, then the ship can overheat itself. Weapons with high firing heat per shot can cause you to become overheated even if "net change" is below heat capacity.`
+	`能量容量让飞船可以暂时消耗多于其产出的能量，可通过安装电池来提升。`
+	`热容量是你的产热在不至于最终导致飞船过热的前提下所能达到的最高值，受飞船质量影响。如果热量的“净变化”值大于此值，飞船就可能自行过热。即使“净变化”低于热容量，单发产热很高的武器也可能让你过热。`
 
 tip "ship: surge:"
-	`This ship lacks energy storage. Therefore, this is the greatest amount of energy that can be drawn by any of this ship's systems in a single instant, such as the energy required for a single shot of a weapon. Systems that require more than this amount of energy to activate will be unusable.`
+	`这艘飞船没有储能。因此，这是飞船任一系统在单一瞬间所能汲取的最大能量，例如武器单次射击所需的能量。启动所需能量超过此值的系统将无法使用。`
 
 
 ## Outfit categories:
@@ -199,10 +199,10 @@ tip "ship: Hand to Hand:"
 	`船员用于登船捕获的武器。`
 
 tip "ship: Special:"
-	`Outfits that don't fit into any other category.`
+	`不属于任何其他类别的装备。`
 
 tip "ship: Unique:"
-	`Outfits of incredible rarity. Once lost, they cannot be reobtained.`
+	`极其稀有的装备。一旦失去，便无法再次获得。`
 
 
 
@@ -210,8 +210,8 @@ tip "ship: Unique:"
 
 ## Outfitter labels:
 tip "license:"
-	`A license required to purchase this outfit.`
-	`Licenses may be able to be purchased separately, or can be earned by completing certain tasks.`
+	`购买此装备所需的执照。`
+	`执照可能可以单独购买，也可以通过完成特定任务获得。`
 
 tip "sells for:"
 	`该装备的出售价（信用点）。装备和飞船随时间贬值（转售价值降低），掠夺品初始即已完全贬值。`
@@ -323,7 +323,7 @@ tip "cargo scan opacity:"
 	`增加其他飞船扫描本船货舱所需时间。数值1的效果相当于增加1吨货舱扫描量。`
 
 tip "cargo space:"
-	`Tons of cargo space for commodities, mission cargo, and plundered outfits that this outfit adds.`
+	`此装备增加的货舱空间吨数，可用于装载商品、任务货物和掠夺来的装备。`
 
 tip "cargo space needed:"
 	`此装备占用大量货舱空间。`
@@ -395,8 +395,8 @@ tip "corrosion resistance heat:"
 	`抵抗腐蚀伤害时每秒产生的热量。`
 
 tip "cost:"
-	`The cost of this outfit, in credits.`
-	`Items depreciate in value with time. If you have sold any used items today, you can buy them back for the same price you sold them for.`
+	`此装备的价格，单位为信用点。`
+	`物品会随时间贬值。如果你今天卖出过二手物品，可以按卖出时的价格买回。`
 
 tip "discharge protection:"
 	`提供护盾放电防护，按倍数提高飞船承受放电伤害的阀值，直至护盾损失等同于无防护状态。`
@@ -444,10 +444,10 @@ tip "energy generation:"
 	`每秒产生的能量。如果您的飞船拥有非光束武器，可能还需要电池来储存能量。`
 
 tip "docked energy generation:"
-	`Energy generated per second for charging the batteries of docked fighters.`
+	`每秒产生的能量，用于为停靠的战斗机的电池充电。`
 
 tip "docked energy heat:"
-	`Heat generated per second while charging the batteries of docked fighters.`
+	`为停靠的战斗机的电池充电时每秒产生的热量。`
 
 tip "engine capacity needed:"
 	`此装备占用大量引擎空间。`
@@ -462,7 +462,7 @@ tip "force protection:"
 	`抵御武器命中力。按指定倍数提升舰船在位移前承受外部冲击的能力。`
 
 tip "fuel capacity:"
-	`The amount this outfit adds to a ship's fuel capacity. An ordinary hyperdrive jump consumes 100 fuel. Fuel is replenished for free when you land on an inhabited planet.`
+	`此装备为飞船增加的燃料容量。普通的超空间跳跃消耗100燃料。在有人居住的星球着陆时，燃料会免费补满。`
 
 tip "fuel consumption:"
 	`飞行时每秒燃料消耗`
@@ -474,7 +474,7 @@ tip "fuel generation:"
 	`每秒燃料生成`
 
 tip "docked fuel generation:"
-	`Fuel generated per second for refueling docked fighters.`
+	`每秒产生的燃料，用于为停靠的战斗机补充燃料。`
 
 tip "fuel heat:"
 	`每秒燃料消耗产生的热量。`
@@ -492,7 +492,7 @@ tip "heat generation:"
 	`每秒产生的热量。热量可以通过“冷却”装备来抵消。如果飞船超过最大热量，必须暂时停机冷却。`
 
 tip "docked heat generation:"
-	`Heat generated per second while any fighters are docked.`
+	`有任何战斗机停靠时每秒产生的热量。`
 
 tip "heat protection:"
 	`热伤害防护。数值为舰船能承受额外热伤害的倍数。`
@@ -501,16 +501,16 @@ tip "heat capacity:"
 	`提高飞船过热前能承受的最大热量。数值1的影响等同于1吨质量，但不影响移动。`
 
 tip "hull (repair):"
-	`Total hull strength and repair rate per second.`
+	`总船体强度及每秒修复速率。`
 
 tip "hull:"
-	`Adds to the total hull strength of the ship.`
+	`增加飞船的总船体强度。`
 
 tip "hull energy:"
 	`修复船体时每秒消耗的能量。`
 
 tip "docked hull energy:"
-	`Energy consumed per second when repairing the hull of docked fighters.`
+	`修复停靠的战斗机船体时每秒消耗的能量。`
 
 tip "delayed hull energy:"
 	`修复延迟期后，船体修复每秒额外消耗的能量。`
@@ -522,7 +522,7 @@ tip "hull fuel:"
 	`修复船体时每秒消耗的燃料`
 
 tip "docked hull fuel:"
-	`Fuel consumed per second when repairing the hull of docked fighters.`
+	`修复停靠的战斗机船体时每秒消耗的燃料。`
 
 tip "delayed hull fuel:"
 	`延迟修复后，每秒额外消耗的燃料。`
@@ -534,7 +534,7 @@ tip "hull heat:"
 	`修理船体时每秒产生的热量`
 
 tip "docked hull heat:"
-	`Heat produced per second when repairing the hull of docked fighters.`
+	`修复停靠的战斗机船体时每秒产生的热量。`
 
 tip "delayed hull heat:"
 	`修复延迟期后，船体每秒修复产生的额外热量。`
@@ -549,7 +549,7 @@ tip "hull repair rate:"
 	`每秒船体修复量。修复消耗能量，并可能产生热量。`
 
 tip "docked hull repair rate:"
-	`Amount of hull strength that can be repaired per second, applied only to docked fighters. Repairs usually consume energy and may generate heat as well.`
+	`每秒可修复的船体强度，仅作用于停靠的战斗机。修复通常会消耗能量，也可能产生热量。`
 
 tip "delayed hull repair rate:"
 	`修理延迟期过后每秒可额外修复的船体强度。`
@@ -657,10 +657,10 @@ tip "scramble resistance heat:"
 	`抵抗干扰伤害时每秒产生的热量。`
 
 tip "jump speed:"
-	`The maximum velocity the ship can be moving at in order for a jump to be initiated.`
+	`发起跳跃时飞船所允许的最大速度。`
 
 tip "jump duration:"
-	`After a jump has been initiated, this is the amount of time it takes for the ship to enter the destination system.`
+	`发起跳跃后，飞船进入目标星系所需的时间。`
 
 tip "hyperdrive fuel:"
 	`使用此超空间引擎跳跃时消耗的燃料。`
@@ -699,8 +699,8 @@ tip "map:"
 	`此地图中的星系数。`
 
 tip "mass:"
-	`Mass, in tons.`
-	`The higher a ship's mass, the slower it turns and accelerates given the same engines, and the higher its maximum heat before overheating.`
+	`质量，单位为吨。`
+	`在引擎相同的情况下，飞船质量越大，转向和加速越慢，过热前可承受的最大热量也越高。`
 
 tip "operating costs:"
 	`此装备在启用状态下每日消耗的信用点。`
@@ -739,7 +739,7 @@ tip "optical jamming:"
 	`降低光学制导导弹追踪能力，对大型船尤佳。干扰越多，干扰距离越远，导弹随机偏转几率越高。`
 
 tip "optical size:"
-	`Influences the tracking strength of optical-guided missiles targeting this ship. A larger value means the ship is easier to track.`
+	`影响光学制导导弹对这艘飞船的追踪强度。数值越大，飞船越容易被追踪。`
 
 tip "piercing:"
 	`目标护盾激活时该武器伤害穿透至船体的百分比。`
@@ -817,7 +817,7 @@ tip "shield energy:"
 	`护盾充能每秒能耗。`
 
 tip "docked shield energy:"
-	`Energy consumed per second when recharging shields of docked fighters.`
+	`为停靠的战斗机的护盾充能时每秒消耗的能量。`
 
 tip "delayed shield energy:"
 	`护盾延迟期后，每秒额外消耗能量用于护盾充能。`
@@ -829,7 +829,7 @@ tip "shield fuel:"
 	`护盾充能时每秒燃料消耗。`
 
 tip "docked shield fuel:"
-	`Fuel consumed per second when recharging shields of docked fighters.`
+	`为停靠的战斗机的护盾充能时每秒消耗的燃料。`
 
 tip "delayed shield fuel:"
 	`护盾延迟期后充能时每秒额外燃料消耗。`
@@ -841,7 +841,7 @@ tip "shield heat:"
 	`护盾充能时每秒产生的热量。`
 
 tip "docked shield heat:"
-	`Heat produced per second when recharging shields of docked fighters.`
+	`为停靠的战斗机的护盾充能时每秒产生的热量。`
 
 tip "delayed shield heat:"
 	`护盾延迟期过后，护盾充能时每秒额外产生的热量。`
@@ -853,7 +853,7 @@ tip "shield generation:"
 	`每秒回复的护盾值。护盾充能通常消耗能量，也可能产生热量。`
 
 tip "docked shield generation:"
-	`Shield points recharged per second, applied only to docked fighters. Recharging shields usually consumes energy, and may also produce heat.`
+	`每秒恢复的护盾值，仅作用于停靠的战斗机。护盾充能通常会消耗能量，也可能产生热量。`
 
 tip "delayed shield generation:"
 	`护盾延迟期过后每秒额外恢复的护盾值。`
@@ -874,7 +874,7 @@ tip "cloaked shield permeability:"
 	`隐身时，所有受到的伤害中按此百分比穿透护盾直接作用于船体。`
 
 tip "shields:"
-	`Adds to the total shield strength of the ship.`
+	`增加飞船的总护盾强度。`
 
 tip "shield multiplier:"
 	`按系数调节飞船总护盾强度。`
@@ -1039,50 +1039,50 @@ tip "turning disruption:"
 	`转向时每秒累计护盾干扰。`
 
 tip "inertialess thrust:"
-	`Inertialess thrust produced by engines. Higher thrust increases a ship's acceleration and top speed. The more mass a ship has, the more thrust is needed to achieve the same acceleration.`
-	`Inertialess flight is throttled up or down to control the speed that the ship moves at. The ship will always move in the direction that it is facing at the speed set by the throttle.`
+	`引擎产生的无惯性推力。推力越高，飞船的加速度和最高速度越高。飞船质量越大，达到相同加速度所需的推力就越大。`
+	`无惯性飞行通过调高或调低节流阀来控制飞船的移动速度。飞船始终以节流阀设定的速度朝其面向的方向移动。`
 
 tip "inertialess braking:"
-	`Inertialess braking produced by engines. Controls the speed that you can decrease the throttle on inertialess flight.`
+	`引擎产生的无惯性制动。决定无惯性飞行中你调低节流阀的速度。`
 
 tip "inertialess flight energy:"
-	`Energy consumed per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒消耗的能量，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight heat:"
-	`Heat generated per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒产生的热量，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight shields:"
-	`Shield damage dealt to the ship per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒对飞船造成的护盾伤害，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight hull:"
-	`Hull damage dealt to the ship per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒对飞船造成的船体伤害，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight fuel:"
-	`Fuel consumed per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒消耗的燃料，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight discharge:"
-	`Accumulated shield discharging per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的护盾放电，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight corrosion:"
-	`Accumulated hull corrosion per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的船体腐蚀，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight ion:"
-	`Accumulated ionization per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的电离，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight scramble:"
-	`Accumulated scrambling per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的扰乱，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight leakage:"
-	`Accumulated leaking fuel per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的燃料泄漏，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight burn:"
-	`Accumulated exothermic interactions per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的放热反应，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight slowing:"
-	`Accumulated engine interference per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的引擎干扰，随引擎节流阀开度按比例变化。`
 
 tip "inertialess flight disruption:"
-	`Accumulated shield interference per second during inertialess flight, scaled with the amount of throttle applied to the engines.`
+	`无惯性飞行时每秒累积的护盾干扰，随引擎节流阀开度按比例变化。`
 
 tip "turret mounts needed:"
 	`该武器可向任意方向开火，追踪当前所选目标。占用一个炮塔安装位。`
@@ -1393,38 +1393,38 @@ tip "mining precision:"
 
 # Shop Tips:
 tip "outfitter: b"
-	`Buy from the outfitter and install onto the currently selected ship(s).`
-	`Hold Shift, Control, or Alt to buy 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`从装备商处购买，并安装到当前选中的飞船上。`
+	`按住Shift、Ctrl或Alt可一次购买5、20或500件装备。同时按住多个键可购买更多。`
 
 tip "outfitter: s"
-	`Sell from cargo, storage, or the currently selected ship(s), in that order.`
-	`Hold Shift, Control, or Alt to sell 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`依次从货舱、仓库或当前选中的飞船中出售。`
+	`按住Shift、Ctrl或Alt可一次出售5、20或500件装备。同时按住多个键可出售更多。`
 
 tip "outfitter: i"
-	`Install on the currently selected ship(s) from cargo or storage, in that order.`
-	`Hold Shift, Control, or Alt to install 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`依次从货舱或仓库取出，安装到当前选中的飞船上。`
+	`按住Shift、Ctrl或Alt可一次安装5、20或500件装备。同时按住多个键可安装更多。`
 
 tip "outfitter: u"
-	`Uninstall from the currently selected ship(s) to cargo if there is space or to storage if there isn't.`
-	`Hold Shift, Control, or Alt to uninstall 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`从当前选中的飞船上卸载，有空间时放入货舱，否则放入仓库。`
+	`按住Shift、Ctrl或Alt可一次卸载5、20或500件装备。同时按住多个键可卸载更多。`
 
 tip "outfitter: c"
-	`Transfer the outfit from planetary storage to cargo if possible. Otherwise, buy it from the outfitter.`
-	`Hold Shift, Control, or Alt to move 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`尽可能将装备从行星仓库转移到货舱。否则，从装备商处购买。`
+	`按住Shift、Ctrl或Alt可一次移动5、20或500件装备。同时按住多个键可移动更多。`
 
 tip "outfitter: r"
-	`Move the outfit from cargo, the currently selected ship(s), or the outfitter into planetary storage, in that order.`
-	`Hold Shift, Control, or Alt to store 5, 20, or 500 outfits at once. Hold a combination of these keys for larger amounts.`
+	`依次将货舱、当前选中的飞船或装备商处的装备移入行星仓库。`
+	`按住Shift、Ctrl或Alt可一次存放5、20或500件装备。同时按住多个键可存放更多。`
 
 tip "shipyard: b"
-	`Buy this ship.`
-	`Hold Shift, Control, or Alt to buy 5, 20, or 500 ships at once. Hold a combination of these keys for larger amounts.`
+	`购买这艘飞船。`
+	`按住Shift、Ctrl或Alt可一次购买5、20或500艘飞船。同时按住多个键可购买更多。`
 
 tip "shipyard: s"
 	`出售所选飞船及其装备。`
 
 tip "shipyard: r"
-	`Rewire the selected ships, unlocking their onboard computers.`
+	`为选中的飞船重新布线，解锁其船载计算机。`
 
 tip "shipyard: u"
 	`出售所选飞船船体，装备保留仓库。`
@@ -1451,7 +1451,7 @@ tip "no steering!"
 	`这艘船无法转向。你必须安装转向系统。`
 
 tip "locked systems"
-	`You do not have access to this ship's computer systems. Until you rewire the ship at a shipyard, its capabilities will be limited and it cannot be your flagship.`
+	`你无法访问这艘飞船的计算机系统。在船坞为其重新布线之前，它的功能将受到限制，且不能作为你的旗舰。`
 
 tip "insufficient bunks?"
 	`这艘船没有足够的床位给船员，可能会随机失去响应。`
@@ -1475,7 +1475,7 @@ tip "limited turn?"
 	`能源不足，转向速率降低。`
 
 tip "limited movement?"
-	`This ship's energy supply is not sufficient to run both thrusters and steering at the same time. Its movement will be diminished.`
+	`这艘飞船的能量供应不足以同时驱动推进器和转向。其机动性将会下降。`
 
 tip "solar power?"
 	`全太阳能飞船。远离恒星时引擎功率不足，难以操控。`
@@ -1493,7 +1493,7 @@ tip "no bays?"
 	`没有足够的船位运载此船。若起飞，将无法离开本星系。`
 
 tip "insufficient energy to fire?"
-	`This ship has insufficient energy storage to fire an installed weapon. Install outfits that increase your energy storage, or if you have no energy storage, ensure that your "surge" energy is greater than the firing energy per shot of your weapons.`
+	`这艘飞船的储能不足以发射某件已安装的武器。请安装能增加储能的装备；如果完全没有储能，请确保“浪涌”能量大于武器的单发射击能耗。`
 
 
 
@@ -1560,7 +1560,7 @@ tip "Toggle turret tracking"
 
 tip "Select secondary weapon"
 	`循环切换旗舰的下一副武器。逐个循环所有副武器后，同时选中全部，再取消选中。`
-	`Secondary weapons can also be selected by clicking on their icons in the HUD. Use Ctrl+Click to select multiple weapons.`
+	`也可以点击HUD中的副武器图标来选择它们。使用Ctrl+点击可选择多种武器。`
 
 tip "Fire secondary weapon"
 	`发射旗舰选定的副武器。`
@@ -1596,9 +1596,9 @@ tip "Toggle performance info"
 	`切换“显示CPU/GPU负载”设置。`
 
 tip "Deploy / recall fighters"
-	`Deploy or recall carried ships (e.g. fighters, drones) in your fleet. Requires carriers with space to hold the carried ships.`
-	`Carried ships may automatically return to the carrier when damaged and redeploy when healed based off of the "Damaged fighters retreat" setting.`
-	`When used while holding <shift> or with the aforementioned setting disabled, fighters will remain deployed until manually recalled.`
+	`部署或召回舰队中的搭载舰船（如战斗机、无人机）。需要有空间容纳这些搭载舰船的母舰。`
+	`根据“受损战斗机撤退”设置，搭载舰船可能会在受损时自动返回母舰，并在修复后重新部署。`
+	`按住<shift>使用，或上述设置已禁用时，战斗机将保持部署状态，直到被手动召回。`
 
 tip "Fleet: Fight my target"
 	`命令整个舰队集火攻击选定目标。若仅选中部分护航舰，则该指令仅发送给这些护航舰。也可通过右键点击敌对飞船来下达此指令。`
@@ -1639,7 +1639,7 @@ tip "Text alignment"
 	`- "两端对齐"：在单词间增加额外空格以对齐两侧边距。`
 
 tip "UI font size"
-	`Sets the font size to be used by text in various parts of the UI. Note that this only impacts text that is displayed in areas that can expand or scroll to fit a larger font size. If you want to increase the size of all text, you should increase the main zoom factor.`
+	`设置UI各处文本使用的字体大小。注意，这只影响显示在可扩展或可滚动以容纳更大字号的区域中的文本。如果想放大所有文本，应提高主缩放倍率。`
 
 tip "Screen mode"
 	`切换窗口或全屏模式。也可通过“切换全屏”控制键切换。`
@@ -1705,9 +1705,9 @@ tip "Cloaked ship outlines"
 	`- "fast": 将飞船变为红色。`
 
 tip "Texture filtering"
-	`Choose the interpolation method used when sampling textures. (Requires game restart.)`
-	`- "linear": produces a smoother, fuzzier image.`
-	`- "nearest": produces a sharper, blockier image`
+	`选择采样纹理时使用的插值方法。（需重启游戏。）`
+	`- "linear"：图像更平滑、更模糊。`
+	`- "nearest"：图像更锐利、更有块状感。`
 
 tip "Show status overlays"
 	`飞行时在所有飞船上显示状态覆盖层，展示护盾与船体。`
@@ -1777,8 +1777,8 @@ tip "Aim turrets with mouse"
 
 tip "Automatic aiming"
 	`自动转向目标瞄准固定武器。`
-	`If you have multiple fixed weapons with differing projectile velocities, aiming will be done using the weapons with the highest damage per second.`
-	`If you have any active and loaded non-homing weapons that use ammo, they will be used for aiming in order to make your limited ammunition count, even if your primary weapons have a higher damage per second.`
+	`如果你有多门弹速不同的固定武器，将以每秒伤害最高的武器进行瞄准。`
+	`如果你有已启用且已装填、使用弹药的非制导武器，即使主武器的每秒伤害更高，也会以它们进行瞄准，以便让有限的弹药发挥作用。`
 
 tip "Automatic firing"
 	`敌人在武器射程内时自动发射主武器。`
@@ -1789,10 +1789,10 @@ tip "Turret tracking"
 	`- "机会主义"：炮塔自动瞄准最近敌舰，可同时攻击多个敌人。`
 
 tip "Asteroid targeting"
-	`The strategy that the "Select nearest asteroid" control uses for selecting asteroids.`
-	`- "proximity": selects the nearest asteroid.`
-	`- "expected value": selects the asteroid with the highest expected value of all drops when destroyed.`
-	`- "quality": selects the asteroid with the highest value ore.`
+	`“选择最近的小行星”控制在选择小行星时采用的策略。`
+	`- "proximity"：选择最近的小行星。`
+	`- "expected value"：选择被摧毁后所有掉落物期望价值最高的小行星。`
+	`- "quality"：选择矿石价值最高的小行星。`
 
 tip "Boarding target priority"
 	`无目标时，"登船选定舰船"控制选择舰船的策略。`
@@ -1803,7 +1803,7 @@ tip "Boarding target priority"
 tip "Escorts expend ammo"
 	`你的僚机决定何时发射副武器的策略。可通过"舰队：切换弹药使用"控制开关。`
 	`- "never": 你的护航舰永远不会使用他们的副武器。`
-	`- "frugal"：护航船只在血量低或星系内敌强于己方时才会发射副武器。
+	`- "frugal"：护航船只在血量低或星系内敌强于己方时才会发射副武器。`
 	`- "always": 你的护航舰在开火时总会使用副武器。`
 
 tip "Flotsam collection"
@@ -1819,9 +1819,9 @@ tip "Repair fighters in"
 	`- "parallel"：始终修理生命值最低的飞船，使所有飞船的生命值一同提升。`
 
 tip "Damaged fighters retreat"
-	`When deployed, your fighters and drones will automatically recall themselves to the carrier if their health drops below 50%, then automatically deploy again after healing above 75% if a manual recall command has not been sent.`
-	`If your fighters cannot be repaired above this threshold while docked in their carrier, they will not leave the carrier if you send another deploy command without holding <shift>.`
-	`The health of a ship is calculated as its shields plus the amount of hull prior to the ship becoming disabled.`
+	`部署后，若战斗机和无人机的生命值降至50%以下，它们会自动返回母舰；若未下达过手动召回命令，则在生命值恢复到75%以上后自动再次出动。`
+	`如果你的战斗机停靠在母舰中时无法修复到此阈值以上，那么在不按住<shift>的情况下再次下达部署命令时，它们不会离开母舰。`
+	`飞船的生命值按其护盾值加上飞船瘫痪前剩余的船体值计算。`
 
 tip "Fighters transfer cargo"
 	`战斗机停靠时会将其货物转移至母舰。`
@@ -1848,7 +1848,7 @@ tip "Show stored outfits on map"
 	`若你在某星球存储了装备，星图上会标记该星系。`
 
 tip "Always underline shortcuts"
-	`Always underline the shortcut key for any buttons. Holding the alt key in any panel will also underline the button shortcut keys if this setting is off. For buttons that contain a character that is underlined twice, the hotkey is shift plus the double underlined character.`
+	`始终为所有按钮的快捷键加下划线。若此设置关闭，在任意面板中按住Alt键也会为按钮快捷键加下划线。对于含有双下划线字符的按钮，其快捷键为Shift加该双下划线字符。`
 
 tip "Reactivate first-time help"
 	`重新激活首次帮助对话框。`
@@ -1866,7 +1866,7 @@ tip "Confirm selling minables"
 	`在交易面板中，控制是否确认出售拾取到的矿物、特殊品和其他漂浮物。`
 
 tip "Sync FF to CapsLock"
-	`Whether fast-forward should be in sync with the state of CapsLock on the system. The default setting keeps them in sync if the fast-forward key is CapsLock.`
+	`快进是否与系统的CapsLock（大写锁定）状态同步。默认设置下，若快进键为CapsLock，则两者保持同步。`
 
 tip "Landing zoom"
 	`着陆与起飞时启用电影级缩放`
@@ -1918,24 +1918,24 @@ tip "Tribute confirmation"
 
 # Gamerules
 tip "Depreciative aging"
-	`Controls whether age-based depreciation is active. Even if depreciative aging is disabled, captured and plundered goods can still be given separate depreciation values.`
+	`控制是否启用随时间折旧。即使禁用了折旧老化，俘获和掠夺的物品仍可设定单独的折旧价值。`
 
 tip "Minimum value"
-	`The lowest value that an outfit or ship can depreciate to relative to its full price. All purchased items start at 100% value and then depreciate toward this value according to the other depreciation gamerules.`
+	`装备或飞船相对其全价所能折旧到的最低价值。所有购买的物品初始价值为100%，之后根据其他折旧规则逐渐折旧至此值。`
 
 tip "Captured value"
-	`The value that captured outfits and ships will have. An outfit is considered captured if it is installed on a ship that is captured. Installed outfits taken from the ship before it is captured are instead considered plundered.`
-	`If this value is above the "Minimum value", then captured outfits will continue to depreciate toward the minimum value. This value is allowed to be below the minimum value, in which case the items will be locked to that value.`
-	`Note that modifying this value in an existing save file will not cause previously captured items to begin aging if this value is moved to above "Minimum value".`
+	`俘获的装备和飞船所具有的价值。安装在被俘获飞船上的装备视为俘获品。在飞船被俘获前从其上拆下的已安装装备则视为掠夺品。`
+	`如果此值高于“最低价值”，俘获的装备将继续向最低价值折旧。此值允许低于最低价值，此时物品的价值将锁定为此值。`
+	`注意，在已有存档中修改此值时，即使将其调到“最低价值”以上，之前俘获的物品也不会因此开始老化。`
 
 tip "Plundered value"
-	`The value that plundered outfits will have. An outfit is considered plundered if it is installed on a ship and removed from that ship during a boarding action.`
-	`If this value is above the "Minimum value", then plundered outfits will continue to depreciate toward the minimum value. This value is allowed to be below the minimum value, in which case the outfits will be locked to that value.`
-	`Note that modifying this value in an existing save file will not cause previously plundered items to begin aging if this value is moved to above "Minimum value".`
+	`掠夺的装备所具有的价值。安装在飞船上、并在登船行动中从该飞船上拆下的装备视为掠夺品。`
+	`如果此值高于“最低价值”，掠夺的装备将继续向最低价值折旧。此值允许低于最低价值，此时装备的价值将锁定为此值。`
+	`注意，在已有存档中修改此值时，即使将其调到“最低价值”以上，之前掠夺的物品也不会因此开始老化。`
 
 tip "Cargo is plunder"
-	`If false, outfits taken from a ship's cargo hold or which are still in the ship's cargo hold at the moment it is captured will not be considered plundered and will use the "Minimum value" to determine their worth.`
-	`If true, such outfits will use "Plundered value" instead.`
+	`若为否，从飞船货舱中取得的装备，或在飞船被俘获时仍留在其货舱中的装备，将不被视为掠夺品，并以“最低价值”确定其价值。`
+	`若为是，此类装备将改用“掠夺价值”。`
 
 tip "Grace period"
 	`新购装备或飞船开始折旧前的天数。这让你可以短暂试用，若不满意可原价售回。`
@@ -1959,14 +1959,14 @@ tip "Universal frugal threshold"
 	`具有「节俭」性格的飞船，仅当其生命值（护盾+船体-失效时的船体值）等于或低于此百分比，或当星区内敌对势力远强于它们时，才会使用消耗弹药或燃料的武器。`
 
 tip "Ships lock when captured"
-	`Determines whether a ship's computers are "locked" when captured, disabling some of their abilities. Ships can have their locks removed by rewiring them at a shipyard.`
-	`Locked ship restrictions include but are not limited to being unable to be your flagship, fire weapons, use shield generators or hull repair, use fighter or drone bays, and use their cargo space or bunks for missions or trading.`
+	`决定飞船被俘获时其计算机是否“锁定”，从而禁用部分功能。可以在船坞为飞船重新布线来解除锁定。`
+	`锁定飞船的限制包括但不限于：不能作为你的旗舰、无法发射武器、无法使用护盾发生器或船体修复、无法使用战斗机或无人机舱，以及无法将其货舱空间或床位用于任务或交易。`
 
 tip "Rewiring cost multiplier"
-	`How much rewiring a ship will cost, relative to the ship's chassis price without depreciation.`
+	`为飞船重新布线的费用，相对于该飞船未折旧的船体价格。`
 
 tip "Locked hull value multiplier"
-	`How much the hull of a ship will sell for if its computer systems are locked. This stacks multiplicatively with depreciation.`
+	`计算机系统被锁定时，飞船船体的售价倍率。与折旧相乘叠加。`
 
 tip "Universal ramscoop"
 	`决定是否在所有飞船上激活“通用冲压集气器”。它能为每艘飞船提供极少量燃料，无论是否安装了常规集气器。其燃料收集效率随距离恒星衰减更严重，必须尽可能靠近恒星才能获得真正增益。启用后可避免在燃料耗尽且星系内没有可求助NPC时被迫重读存档。`
@@ -1978,14 +1978,14 @@ tip "Minimum departure distance"
 	`所有系统的最小出发距离。飞船必须距离星系中心超过此距离才能跳跃。若某星系定义的距离更大，则使用该星系的值。`
 
 tip "Habitable arrival distance"
-	`If true, then systems that do not define an arrival distance will generate one that is equal to the habitable distance of the system.`
-	`Note that the vanilla game does not define any arrival distances. A system without a defined arrival distance causes ships to appear near an inhabited planet, or near the system center if there is no inhabited planet.`
+	`若为是，未定义抵达距离的星系将生成一个与该星系宜居距离相等的抵达距离。`
+	`注意，原版游戏没有定义任何抵达距离。在未定义抵达距离的星系中，飞船会出现在有人居住的星球附近；若没有有人居住的星球，则出现在星系中心附近。`
 
 tip "   Minimum distance"
-	`If the "Habitable arrival distance" gamerule is true, systems with a habitable distance lower than this value will use this value as their arrival distance instead. If the "Minimum arrival distance" gamerule is set and is higher than this, then that will be used instead.`
+	`若“宜居抵达距离”规则为是，宜居距离低于此值的星系将改用此值作为抵达距离。若设置了“最小抵达距离”规则且其值高于此值，则改用该值。`
 
 tip "   Maximum distance"
-	`If the "Habitable arrival distance" gamerule is true, systems with a habitable distance higher than this value will use this value as their arrival distance instead.`
+	`若“宜居抵达距离”规则为是，宜居距离高于此值的星系将改用此值作为抵达距离。`
 
 tip "Fleet multiplier"
 	`全局系统内随机舰队生成倍率`
@@ -2003,17 +2003,17 @@ tip "Universal ammo stocking"
 	`控制是否允许在任何装备商处购买已安装或货舱中的大部分副武器的弹药，即使该商人不常售此类弹药。启用时，每种副武器的描述会标明其是否可随处补给。`
 
 tip "Roll chance"
-	`Controls the chance of a raid fleet spawn attempt occurring each time you jump into a system.`
-	`Raid fleets are hostile fleets that can spawn in some systems if your fleet's cargo attractiveness is much higher than its deterrence. (That is, if you have a lot of cargo space and not a lot of firepower to defend it.) If this rule isn't 0%, your fleet's raid fleet spawn chance can be viewed from the player info panel.`
+	`控制每次跃入星系时尝试生成袭击舰队的几率。`
+	`袭击舰队是敌对舰队，当你舰队的货物吸引力远高于其威慑力时（也就是说，你拥有大量货舱空间却没有足够火力来保护），它们可能会在某些星系中出现。如果此规则不为0%，可以在玩家信息面板中查看你舰队的袭击舰队生成几率。`
 
 tip "Attraction multiplier"
-	`Multiplies the raid fleet attraction value of all the ships in your fleet. 200% means that you would need half as much cargo space to have the same chance to spawn raid fleets, while 50% means you need twice as much.`
+	`将你舰队中所有飞船的袭击舰队吸引力数值乘以此倍率。200%意味着只需一半的货舱空间就有相同的几率引来袭击舰队，而50%则需要两倍。`
 
 tip "Deterrence multiplier"
-	`Multiplies the raid fleet deterrence value of all the ships in your fleet. 200% means that you would need half as much firepower to have the same chance to spawn raid fleets, while 50% means you need twice as much.`
+	`将你舰队中所有飞船的袭击舰队威慑力数值乘以此倍率。200%意味着只需一半的火力就有相同的几率引来袭击舰队，而50%则需要两倍。`
 
 tip "Fleet spawn attempts"
-	`Each time you jump into a system when your fleet is attractive to raid fleets and the raid fleet roll chance was successful, this is the maximum number of fleets that could possibly spawn`
+	`每次跃入星系时，若你的舰队会吸引袭击舰队且袭击舰队几率判定成功，这是可能生成的最大舰队数量。`
 
 tip "Fleet size limitation"
 	`设定玩家同时可拥有的活跃护航舰数量上限。启用时，旗舰、停泊及搭载飞船（战斗机/无人机）不计入容量。超出容量无法捕获飞船或从星球起飞。`
@@ -2032,104 +2032,104 @@ tip `Default admin cap`
 	`若舰队规模限制为“管理上限”，则此为默认最大管理容量。每艘飞船都有独立的管理成本，计入您的总容量。此数值可通过剧情事件提升。在现有领航星上更改此值无效。`
 
 tip "Permadeath"
-	`Whether permadeath mode is active, and how it should behave.`
-	`- "lock on death": When you die, this pilot will be locked. You will be unable to load any of its saves after it enters this state, but you'll still have the save files to share and for keeping memories.`
-	`- "delete on death": When you die, this pilot's save files will be deleted.`
-	`- "lock on takeoff": When you depart from a planet, this pilot will be locked. It will be unlocked again upon landing on a planet. Forces the "Restricted save loading" gamerule to be on.`
-	`- "delete on takeoff": When you depart from a planet, this pilot's save file will be deleted and will only be recreated when you land. Forces the "Single save file" and "Restricted save loading" gamerules to be on.`
+	`是否启用永久死亡模式，以及其运作方式。`
+	`- "lock on death"：当你死亡时，该驾驶员将被锁定。进入此状态后，你将无法加载它的任何存档，但存档文件仍会保留，可供分享或留作纪念。`
+	`- "delete on death"：当你死亡时，该驾驶员的存档文件将被删除。`
+	`- "lock on takeoff"：当你从星球起飞时，该驾驶员将被锁定，在星球着陆后再次解锁。强制开启“限制存档加载”规则。`
+	`- "delete on takeoff"：当你从星球起飞时，该驾驶员的存档文件将被删除，只有在你着陆时才会重新创建。强制开启“单一存档文件”和“限制存档加载”规则。`
 
 tip "Single save file"
-	`If true, this pilot will only be able to have a single save file at a time. You will be unable to create snapshots and the game will not create autosaves for previous days. Only your most recent landing point will be saved.`
+	`若为是，该驾驶员同一时间只能有一个存档文件。你将无法创建快照，游戏也不会为之前的日期创建自动存档。只会保存你最近一次着陆的位置。`
 
 tip "Restricted save loading"
-	`If true, this pilot will be unable to reload save files while not on the safety of a planet.`
+	`若为是，该驾驶员不在星球上的安全状态时将无法重新加载存档。`
 
 tip "Profit sharing"
-	`Controls whether and how the value of captured ships is shared among the crew members of your flagship.`
-	`- "off": You keep the full value of the captured ship.`
-	`- "dead crew": Death benefits must be paid to the families of crew members who died in the process of capturing a ship. A minimum payment per casualty may also be applied regardless of a successful capture.`
-	`- "surviving crew": Surviving crew members must be paid a bonus based on the value of the captured ship.`
-	`- "all crew": Both dead and surviving crew must be paid according to the rules stated above.`
+	`控制是否以及如何与旗舰船员分享俘获飞船的价值。`
+	`- "off"：你保留俘获飞船的全部价值。`
+	`- "dead crew"：必须向在俘获飞船过程中牺牲的船员家属支付抚恤金。无论俘获是否成功，也可能需要按每名伤亡者支付最低抚恤金。`
+	`- "surviving crew"：必须根据俘获飞船的价值向幸存船员支付奖金。`
+	`- "all crew"：阵亡和幸存的船员都必须按上述规则获得报酬。`
 
 tip "Captain shares"
-	`If capture profit sharing is active and you successfully capture a ship, this is the number of shares in the value of the captured ship that you as the captain receive.`
+	`如果启用了俘获分红且你成功俘获一艘飞船，这是你作为船长在俘获飞船价值中获得的份额数。`
 
 tip "Dead crew shares"
-	`If capture profit sharing is set to "dead crew" or "all crew", this is the number of shares in the value of the captured ship that each family of the dead crew members receives.`
+	`如果俘获分红设置为"dead crew"或"all crew"，这是每个阵亡船员家庭在俘获飞船价值中获得的份额数。`
 
 tip "Surviving crew shares"
-	`If capture profit sharing is set to "surviving crew" or "all crew", this is the number of shares in the value of the captured ship that each surviving crew member receives.`
+	`如果俘获分红设置为"surviving crew"或"all crew"，这是每名幸存船员在俘获飞船价值中获得的份额数。`
 
 tip "Minimum per casualty"
-	`If death benefits are active and you lose crew during a boarding action, this is the minimum number of credits that must be paid to the families of the crew members who died. This amount must be paid even if you didn't successfully capture a ship.`
+	`如果启用了抚恤金且你在登船行动中损失了船员，这是必须向阵亡船员家属支付的最低信用点数。即使你没有成功俘获飞船，也必须支付此金额。`
 
 tip "Capture value basis"
-	`Controls what percentage of the value of a captured ship is used to determine the size of a share. If unset, then a ship is valued at its sale price as it is captured.`
+	`控制以俘获飞船价值的多少百分比来确定每份份额的大小。若未设置，则飞船按其被俘获时的售价计价。`
 
 tip "Same government probability"
-	`The probability that a projectile will collide with a ship with the same government. The slower moving a projectile is relative to a ship, the less likely it is to cause friendly fire. Weapons with the "safe" attribute cannot cause friendly fire.`
+	`弹体与同一政府的飞船发生碰撞的概率。弹体相对飞船的移动速度越慢，造成友军误伤的可能性越低。带有"safe"属性的武器不会造成友军误伤。`
 
 tip "Allied government probability"
-	`The probability that a projectile will collide with a friendly ship of the same government. Ships hit this way will not be provoked.`
+	`弹体与同一政府的友方飞船发生碰撞的概率。以此方式被击中的飞船不会被激怒。`
 
 tip "Fighter probability multiplier"
-	`Projectiles that are fired by or intersect with fighters and drones have their chance to cause friendly fire multiplied by this value.`
+	`由战斗机和无人机发射或与其相交的弹体，其造成友军误伤的几率将乘以此值。`
 
 tip "Carrier exception"
-	`Makes carrier groups ignore friendly fire entirely. Carriers will be unable to hit their fighters, and their fighters will not be able to hit each other and their carrier.`
+	`让母舰编队完全无视友军误伤。母舰无法击中自己的战斗机，其战斗机也无法击中彼此或所属母舰。`
 
 tip "Damage multiplier"
-	`This multiplier is applied to damage dealt by friendly fire. Blast damage and damage against ships being actively targeted are not affected.`
+	`此倍率作用于友军误伤造成的伤害。爆炸伤害以及对正被主动锁定为目标的飞船造成的伤害不受影响。`
 
 
 # Boarding panel:
 tip `boarding: in cargo`
-	`This item is in the ship's cargo hold.`
+	`此物品位于飞船货舱中。`
 
 tip `boarding: installed`
-	`This item is installed on the ship. Removal may leave the ship inoperable.`
+	`此物品已安装在飞船上。拆除可能导致飞船无法运作。`
 
 
 
 # Player info panel:
 tip `player info: player:`
-	`Your name. Also known as what other people call you.`
+	`你的名字。也就是别人对你的称呼。`
 
 tip `player info: net worth:`
-	`The total credit worth of the credits available in your account and the value of all your assets, minus any outstanding debts.`
+	`你账户中可用信用点与你所有资产价值的总和，扣除所有未偿债务。`
 
 tip `player info: fleet cargo:`
-	`The cargo usage and capacity of your entire fleet. Excludes parked ships.`
+	`你整个舰队的货舱使用量和容量。不含停泊的飞船。`
 
 tip `player info: time played:`
-	`The total amount of time you have played on this save file. Reloading a prior save file loses any recorded time played after that checkpoint.`
+	`你在此存档上的总游戏时长。重新加载较早的存档会丢失该存档点之后记录的游戏时间。`
 
 tip `player info: combat rating:`
-	`Your combat experience stats. Being highly adept at combat can unlock certain doors in the galaxy, or draw unwanted attention...`
+	`你的战斗经验数据。精通战斗可能为你打开银河系中的某些大门，也可能招来不必要的关注……`
 
 tip `player info: rank:`
-	`Your current combat rank and title. There are 22 total ranks, and each rank is increasingly more difficult to reach than the last.`
+	`你当前的战斗等级与头衔。共有22个等级，每一级都比上一级更难达到。`
 
 tip `player info: experience:`
-	`The total amount of combat experience that you have accrued. Combat experience is gained by disabling ships. The more valuable a ship, the more experience you gain for disabling it. Ships can be disabled either directly by you, or by one of your escorts.`
+	`你累积获得的战斗经验总量。使飞船瘫痪即可获得战斗经验。飞船价值越高，使其瘫痪获得的经验越多。飞船可以由你直接击瘫，也可以由你的护航舰击瘫。`
 
 tip `player info: for next rank:`
-	`The amount of combat experience required to reach the next rank.`
+	`达到下一等级所需的战斗经验。`
 
 tip `player info: piracy threat:`
-	`The chance upon entering each system that a piracy raid fleet will be present. Raid fleets appear when your fleet has a high volume of cargo space without a sufficient amount of firepower to defend it. The higher your "cargo" rating is than your "fleet" rating, the higher your chances of encountering a raid fleet.`
+	`每次进入星系时遇到海盗袭击舰队的几率。当你的舰队拥有大量货舱空间却缺乏足够火力来保护时，就会出现袭击舰队。你的“货物”评级比“舰队”评级越高，遭遇袭击舰队的几率就越大。`
 
 tip `player info: cargo:`
-	`A measure of your entire fleet's cargo space, as it applies to your piracy threat.`
+	`衡量你整个舰队货舱空间的指标，用于计算你的海盗威胁。`
 
 tip `player info: fleet:`
-	`A measure of your entire fleet's firepower, as it applies to your piracy threat.`
+	`衡量你整个舰队火力的指标，用于计算你的海盗威胁。`
 
 tip `player info: salary:`
-	`Daily income from salaries that have been granted to you.`
+	`授予你的薪水带来的每日收入。`
 
 tip `player info: tribute:`
-	`Daily income from planets that you have conquered.`
+	`你征服的星球带来的每日收入。`
 
 tip `player info: licenses:`
-	`The licenses that you own. Licenses grant access to purchasing certain outfits and ships.`
+	`你拥有的执照。执照可让你购买特定的装备和飞船。`

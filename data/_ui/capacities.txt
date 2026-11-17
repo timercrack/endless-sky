@@ -12,40 +12,40 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 "display capacities"
-	"outfit space" "outfit space free:"
+	"outfit space" "装备空间剩余："
 		required
-	"weapon capacity" "    weapon capacity:"
+	"weapon capacity" "    武器容量："
 		required
-	"engine capacity" "    engine capacity:"
+	"engine capacity" "    引擎容量："
 		required
-	"gun ports" "gun ports free:"
+	"gun ports" "炮位剩余："
 		required
 	# A rare gun port type found on some massive ships:
-	"spinal mount" "spinal mounts free:"
+	"spinal mount" "脊柱炮位剩余："
 		optional
-	"turret mounts" "turret mounts free:"
+	"turret mounts" "炮塔座剩余："
 		required
 	
 	# Avgi capacities:
-	"anchor point" "anchor points free:"
+	"anchor point" "锚点剩余："
 		optional
-	"lasing power" "lasing power free:"
+	"lasing power" "激射功率剩余："
 		optional
-	"magnetic nozzle" "magnetic nozzles free:"
+	"magnetic nozzle" "磁喷嘴剩余："
 		optional
 	
 	# Bunrodea capacities:
-	"reactor upgrades" "reactor upgrades free:"
+	"reactor upgrades" "反应堆升级剩余："
 		optional
-	"relay upgrades" "relay upgrades free:"
+	"relay upgrades" "中继升级剩余："
 		optional
-	"nanite upgrades" "nanite upgrades free:"
+	"nanite upgrades" "纳米机器升级剩余："
 		optional
-	"solar cell" "solar cells free:"
+	"solar cell" "太阳能电池剩余："
 		optional
 	
 	# Successor capacities:
-	"multimodal armor" "multimodal armor free"
+	"multimodal armor" "多模装甲剩余"
 		optional
-	"shield connection point" "shield connections free"
+	"shield connection point" "护盾连接点剩余"
 		optional

@@ -279,7 +279,7 @@ interface "map detail panel"
 	visible if "has escort destination"
 	sprite "ui/wide button"
 		center -256 56
-	button c "_Cancel order"
+	button c "取消订单[_C]"
 		center -256 56
 		dimensions 90 30
 
@@ -540,7 +540,7 @@ interface "load menu"
 		center -60 155
 		dimensions 120 30
 	active if "can remove snapshot"
-	button R "__Remove"
+	button R "移除[_R]"
 		center 75 155
 		dimensions 90 30
 	
@@ -598,7 +598,7 @@ interface "controls"
 	fill
 		from -400 48 to -270 49
 		color medium
-	wrapped label "按下 '_x' 键解除绑定。不同的操作可以绑定到同一个按键。"
+	"wrapped label" "按下 '_x' 键解除绑定。不同的操作可以绑定到同一个按键。"
 		from -420 70 to -270 130
 		alignment right
 		color medium
@@ -1131,7 +1131,7 @@ interface "gamerules"
 	fill
 		from -400 48 to -270 49
 		color medium
-	wrapped label "按下 '_x' 键可将规则重置为所选预设的值。"
+	"wrapped label" "按下 '_x' 键可将规则重置为所选预设的值。"
 		from -400 60 to -275 130
 		alignment right
 		color medium
@@ -1189,7 +1189,7 @@ interface "gamerules presets"
 	fill
 		from -400 48 to -270 49
 		color medium
-	wrapped label "点击预设旁边的复选框以启用该预设。"
+	"wrapped label" "点击预设旁边的复选框以启用该预设。"
 		from -400 50 to -275 120
 		alignment right
 		color medium
@@ -2007,7 +2007,7 @@ interface "boarding"
 		dimensions 80 30
 	
 	active if "can defend"
-	button D "__Defend"
+	button D "防守[_D]"
 		center 210 185
 		dimensions 80 30
 
@@ -2221,16 +2221,16 @@ interface "trade"
 		center 0 95
 		dimensions 480 1
 
-	label "Commodity"
+	label "商品"
 		align top left
 		from -230 80
 		color bright
-	label "Price"
+	label "价格"
 		align top left
 		from -110 80
 		color bright
 	visible if "has profit"
-	label "Profit"
+	label "利润"
 		align top left
 		from 10 80
 		color bright
@@ -2243,7 +2243,7 @@ interface "trade"
 		align top left
 		from 120 80
 		color medium
-	label "In Hold"
+	label "货舱内"
 		align top left
 		from 180 80
 		color bright
@@ -2252,7 +2252,7 @@ interface "trade"
 		align left
 		from -230 318
 		color medium
-	label "free:"
+	label "剩余："
 		align left
 		from 125 318
 		color bright
@@ -2264,35 +2264,35 @@ interface "trade"
 	active if "can buy"
 	sprite "ui/dialog cancel"
 		center 120 355
-	button u "__B_uy All"
+	button u "全部买入[_B]"
 		center 120 355
 		dimensions 70 30
 
 	active if "can sell"
 	sprite "ui/dialog cancel"
 		center 200 355
-	button e "__S_ell All"
+	button e "全部卖出[_S]"
 		center 200 355
 		dimensions 70 30
 
 	active if "can store outfits"
 	sprite "ui/wide button"
 		center 10 355
-	button r "Sto_re Outfits"
+	button r "存放装备[_R]"
 		center 10 355
 		dimensions 90 30
 
 	active if "can sell minables"
 	sprite "ui/wide button"
 		center -90 355
-	button n "Sell __Mi_nables"
+	button n "卖出矿物[_M]"
 		center -90 355
 		dimensions 90 30
 
 	active if "can sell outfits"
 	sprite "ui/wide button"
 		center -190 355
-	button f "Sell __Out_fits"
+	button f "卖出装备[_O]"
 		center -190 355
 		dimensions 90 30
 
@@ -2313,16 +2313,16 @@ interface "trade (small screen)"
 		center -60 95
 		dimensions 480 1
 
-	label "Commodity"
+	label "商品"
 		align top left
 		from -290 80
 		color bright
-	label "Price"
+	label "价格"
 		align top left
 		from -170 80
 		color bright
 	visible if "has profit"
-	label "Profit"
+	label "利润"
 		align top left
 		from -50 80
 		color bright
@@ -2335,7 +2335,7 @@ interface "trade (small screen)"
 		align top left
 		from 60 80
 		color medium
-	label "In Hold"
+	label "货舱内"
 		align top left
 		from 120 80
 		color bright
@@ -2344,7 +2344,7 @@ interface "trade (small screen)"
 		align left
 		from -290 318
 		color medium
-	label "free:"
+	label "剩余："
 		align left
 		from 65 318
 		color bright
@@ -2356,35 +2356,35 @@ interface "trade (small screen)"
 	active if "can buy"
 	sprite "ui/dialog cancel"
 		center 60 355
-	button u "__B_uy All"
+	button u "全部买入[_B]"
 		center 60 355
 		dimensions 70 30
 
 	active if "can sell"
 	sprite "ui/dialog cancel"
 		center 140 355
-	button e "__S_ell All"
+	button e "全部卖出[_S]"
 		center 140 355
 		dimensions 70 30
 
 	active if "can store outfits"
 	sprite "ui/wide button"
 		center -50 355
-	button r "Sto_re Outfits"
+	button r "存放装备[_R]"
 		center -50 355
 		dimensions 90 30
 
 	active if "can sell minables"
 	sprite "ui/wide button"
 		center -150 355
-	button n "Sell __Mi_nables"
+	button n "卖出矿物[_M]"
 		center -150 355
 		dimensions 90 30
 
 	active if "can sell outfits"
 	sprite "ui/wide button"
 		center -250 355
-	button f "Sell __Out_fits"
+	button f "卖出装备[_O]"
 		center -250 355
 		dimensions 90 30
 
@@ -2456,7 +2456,7 @@ interface "mission" bottom
 		dimensions 130 30
 	
 	active if "can abort"
-	button A "__Abort"
+	button A "放弃[_A]"
 		center 70 -25
 		dimensions 80 30
 
@@ -2795,14 +2795,14 @@ interface "info panel"
 	visible if "show disown"
 	sprite "ui/dialog cancel"
 		center -150 305
-	button D "__Disown"
+	button D "放弃飞船[_D]"
 		center -150 305
 		dimensions 70 30
 	
 	visible if "ship tab"
 	sprite "ui/dialog cancel"
 		center -245 305
-	button r "_Rename"
+	button r "重命名[_R]"
 		center -245 305
 		dimensions 70 30
 	
@@ -2811,11 +2811,11 @@ interface "info panel"
 	sprite "ui/wide button"
 		center -65 305
 	visible if "show dump"
-	button c "Dump _Cargo"
+	button c "倾倒货物[_C]"
 		center -65 305
 		dimensions 90 30
 	visible if "show jettison"
-	button j "_Jettison"
+	button j "抛弃[_J]"
 		center -65 305
 		dimensions 90 30
 	active
@@ -2875,7 +2875,7 @@ interface "message log"
 	button i ""
 		center 706 -20 bottom left
 		dimensions 142 40
-	"wrapped label" "Hide less _important messages"
+	"wrapped label" "隐藏次要消息[_I]"
 		center 714 -16 bottom left
 		width 130
 		color active
@@ -2883,7 +2883,7 @@ interface "message log"
 	sprite "ui/dialog cancel"
 		center 654 -80 bottom left
 	active if "!empty"
-	button c "_Clear"
+	button c "清空[_C]"
 		center 654 -80 bottom left
 		dimensions 70 30
 
